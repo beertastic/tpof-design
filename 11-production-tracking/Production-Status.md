@@ -13,7 +13,7 @@
 | Character | Status | Notes |
 |---|---|---|
 | Shada | In development | Locked for board review; prompt pack complete |
-| Baylan ("Bay") | Placeholder | Highest scene count (11). Bay and Baylan merged 2026-07-30. |
+| Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Mercenary captain |
 | Nyx | Placeholder | Recurring mercenary |
 | Reya Fenn | Placeholder | Confirm against earlier “Freya” name |

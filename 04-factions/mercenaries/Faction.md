@@ -21,8 +21,9 @@ TBD. Must follow the established industrial-salvage, practical, non-Earth-histor
 
 Baylan ("Bay"), Captain Jasu, Nyx, Reya Fenn, Loryl, Shada, generic mercenaries, and possibly Charlie.
 
-Baylan's faction assignment is unconfirmed — the breakdown places him in the mercenary
-camp but frames him as an observer. Resolve before finalising the shared costume language.
+Baylan rides with the mercenaries but is not one of them — he is a Jedi in hiding and
+nobody in the crew knows. His costume must disappear completely into the faction's shared
+language, so settle that language before locking his outer layers.
 
 ## Shared Costume Language
 

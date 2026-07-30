@@ -1,34 +1,29 @@
 ---
 title: "Baylan — Image Prompt Pack"
 asset_id: "CHAR-BAYLAN"
-version: "0.1"
-status: "scaffold"
+version: "1.0"
+status: "ready"
 faction: "Mercenaries"
 governing_documents:
   - ../../01-production-design/Production-Design-Bible-v1.0.md
   - ../../04-factions/mercenaries/Faction.md
   - Character.md
+  - Character-Lock.md
 ---
 
 # Baylan — Image Prompt Pack
 
-> **SCAFFOLD — not ready to generate from.**
-> The shared style rules below are complete and correct. The character-specific
-> content is not: every `**NEEDS:**` marker is an unanswered design question.
-> Fill in `Character.md` first, then complete the slots below.
+**How to use.** Each numbered slot below is a complete, self-contained prompt.
+Paste **Style**, **Do Not**, **Character Constants**, then the single slot you
+want. Do not paste more than one slot at a time. Save the result to the exact
+filename given, in `03-characters/baylan/source/artwork/`, then run:
 
-**Faction:** Mercenaries  
-**Scenes:** 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 24A  
-**Primary environment:** Forest  
-**Brief:** Point-of-view character carried through the mercenary camp, the night forest and the morning pursuit. Highest scene count in the film. Short form: Bay.
+```bash
+python tools/board-generator/generate.py baylan
+```
 
----
-
-## How to use
-
-Each numbered slot is a complete, self-contained prompt. Paste **Style**, **Do Not**, **Character Constants**, then a single slot. Save the result to the exact filename given, in `03-characters/baylan/source/artwork/`.
-
-Everything needed is written out below — no other file has to be read first.
+Every rule needed is written out below. Nothing here depends on reading another
+file first.
 
 ---
 
@@ -44,19 +39,18 @@ faded paint, replaced components, grime, evidence of servicing.
 
 Costume is functional workwear first — real, buildable construction with
 believable seams and fasteners, no floating armour, nothing purely decorative.
-Occupation should be readable from silhouette alone. Materials: ballistic weave,
-quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
-technical textiles, plastoid plates, insulated work fabric, industrial rubber,
-brushed alloy.
+Materials: ballistic weave, quilted flight fabric, reinforced synth-leather,
+flexible armour mesh, woven technical textiles, plastoid plates, insulated work
+fabric, industrial rubber, brushed alloy.
 
 Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
-olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
-forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
-yellow) used sparingly. Bright colour only for rank, warning markings, cultural
-identity or a significant personal item.
+olive, dust brown, sand, bone white. Accents (brass, copper, oxidised bronze)
+used sparingly. Bright colour only for rank, warning markings or a significant
+personal item.
 
 Lighting motivated by believable sources only: natural sunlight, overcast sky,
-work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+work lamps, bulkhead fixtures, warning lights, control panels, firelight,
+glowrod.
 
 Camera: naturalistic composition over heroic posing. Restrained colour grade,
 subtle atmospheric haze, realistic depth of field, fine film grain, practical
@@ -85,39 +79,54 @@ No crushed blacks — the silhouette must stay separated from the background.
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic or waxy skin.
 
----
+**Baylan-specific rejections.**
 
-## Species rendering — paste if non-human
-
-Alien species must feel biologically plausible and grounded in live-action Star
-Wars. Favour practical make-up and prosthetic effects over exaggerated digital
-fantasy. Costume adapts to anatomy without sacrificing practicality.
+- **No robes, no hood, no cowl, no Jedi silhouette** — except in slot 7, which is
+  the vision. He is a mercenary in every other image.
+- **No visible lightsaber and no hilt on his belt.** The blaster is the hilt.
+- **Not a wise mentor.** Not serene, not teaching, not at peace.
+- **Not a ranking officer.** He is a subordinate who stands at the back.
+- **Not athletic or agile.** Fifty, thickened, slow.
+- **No ornament** — no trophies, faction colours, insignia or jewellery beyond
+  the hidden cord.
+- **No distinguished silver mane.** Iron-grey, short, badly cut by his own hand.
+- Nothing tailored, clean or authoritative. He is nobody, and he has worked hard
+  to be.
 
 ---
 
 ## Character Constants — paste with every prompt
 
-> **INCOMPLETE.** Fill this from `Character.md` and `Character-Lock.md` before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+Baylan. Human male, fifty years old. A Jedi Knight who survived Order 66 and has
+spent eighteen years hiding inside a mercenary crew. Nobody in the crew knows.
 
-Baylan. Point-of-view character carried through the mercenary camp, the night forest and the morning pursuit. Highest scene count in the film. Short form: Bay.
+Tall and broad, thickened through the middle and shoulders — he was powerful once
+and is merely large now. Iron-grey hair, short, cut by himself or a crewmate
+rather than anyone skilled. Full unshaped beard, grown to be left alone. Deep
+lines around the eyes from squinting into distances and from eighteen years of
+not sleeping properly. Heavy working hands: scarred, thickened knuckles, split
+nails, ingrained dirt.
 
-**NEEDS:**
+He wears salvaged, repaired mercenary workwear that has genuinely worked —
+layered technical cloth and worn synth-leather over a heavy work shirt, a padded
+jacket re-shouldered at least once, a functional harness carrying ammunition and
+tools, heavy resoled boots. Muted charcoal, ash brown, dust brown, faded olive
+throughout. No ornament, no faction marking, no trophies, no personal flourish.
+In a crew that decorates itself, his plainness is the only unusual thing about
+him — and it reads as a dull man rather than a hiding one.
 
-- Species, age range, gender presentation
-- Build and silhouette — the shape read at distance, in one line
-- Distinguishing physical traits
-- Costume: layers, construction, what is protected and what is exposed, and why
-- Equipment carried, and what is deliberately absent
-- Movement and body language
-- The one sentence that separates them from everyone else in their faction
+Under everything he wears one surviving garment from before: an undertunic of
+original Jedi weave, re-dyed dark years ago and patched so often the original
+fabric survives only in panels. Its cross-wrapped front and shaped shoulder are
+wrong for salvage, but it is so far gone nobody has remarked on it. Visible only
+at the collar and cuff, or when he is in shirtsleeves.
 
----
+On a cord around his neck, under the shirt and against the skin, hangs a small
+worn leather pouch containing a raw, jagged yellow crystal.
 
-## Character-specific rejections
-
-> The Shada lock carries a `Design Drift Prevention` list — the specific wrong directions a generator will drift toward for *this* character. Write the equivalent for Baylan. It is the single most useful part of the pack.
-
-**NEEDS:** five to eight specific rejections.
+He looks like a man who could still do serious damage and would strongly prefer
+not to. He moves heavily and slowly and has spent eighteen years practising being
+uninteresting — but he can be still in a way nobody else can.
 
 ---
 
@@ -126,93 +135,158 @@ Baylan. Point-of-view character carried through the mercenary camp, the night fo
 ## 1. `portrait.png` — hero portrait
 **Tall portrait, 9:16.**
 
-Waist-up portrait of Baylan in forest, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
+Waist-up portrait of Baylan in an evening forest, three-quarter angle, caught
+mid-thought while doing something unremarkable — checking a strap, looking off
+toward the treeline. A tired fifty-year-old man in salvaged workwear. Iron-grey
+short hair, full beard, deep lines around the eyes. Overcast evening light
+through wet canopy. He is not posing, not heroic, not framed as important. The
+image should read as a background crew member who happens to be in focus.
+Shallow depth of field, forest falling into haze behind him. Nothing about him
+suggests a Jedi.
 
-**NEEDS:** face, age range, species, build, hair, costume upper layers, what they are reacting to.
-
-## 2. `environment.png` — in their environment
+## 2. `forest.png` — in the mercenary camp
 **Tall portrait, 9:16.**
 
-Full-figure shot of Baylan in evening and night forest, mercenary camp, morning clearing, in motion or mid-task, read at the scale of the location around them.
+Full-figure shot of Baylan carrying a crate or coil of cable through the forest
+mercenary camp at dusk — manual labour, unglamorous, the work of a man who is
+told what to do. Tents, tarpaulins, crates, a campfire further back. His full
+silhouette readable: big, heavy, slightly stooped under the load. Boots in wet
+leaf litter. He belongs here completely and looks like nobody worth watching.
+Natural overcast dusk with firelight spill from behind.
 
-**NEEDS:** silhouette, posture, gait, full costume, what they are doing here.
-
-## 3. `industrial_a.png` — ship corridor
+## 3. `industrial_a.png` — standing at the back
 **Tall portrait, 9:16.**
 
-Baylan in a cramped, lived-in starship corridor — exposed pipework, access panels, mismatched paint, service markings, scuffed decking. Lit by bulkhead fixtures and warning lights.
+Baylan standing motionless at the back of a group, slightly apart, while others
+in front kneel or check their gear. He is doing nothing — hands at his sides,
+weight settled, watching. Early morning grey light in a forest camp. Everyone
+else is in motion and he is completely still, and the stillness is the subject of
+the image. Read him as the oldest person present. No authority, no rank, no
+insignia — he is simply not participating in the way the others are.
 
-**NEEDS:** how this character occupies an interior; do they belong here or not?
-
-## 4. `industrial_b.png` — crew or group space
+## 4. `industrial_b.png` — the storage area
 **Tall portrait, 9:16.**
 
-Baylan in a cramped shared compartment among their group, lit by work lamp and screen glow. Salvaged fittings, crates, worn webbing, visible repairs.
+Baylan alone at night in a makeshift storage area among stacked crates, spare
+ammunition boxes and a tarpaulin, lit by a single work lamp. He is standing very
+still with one hand slightly raised and open, entirely focused, and a small rock
+hangs in the air a short distance from his palm. This is the only image in which
+he is not performing — his posture, his shoulders and his face have all changed.
+Absolute concentration on a very small thing. No glow, no energy effect, no
+visual magic: the rock is simply, impossibly, hanging there.
 
-**NEEDS:** their standing within the group; where they sit and who they sit near.
-
-## 5. `industrial_c.png` — working interior
+## 5. `industrial_c.png` — in the tent
 **Tall portrait, 9:16.**
 
-Baylan in a dim hold or storage space, full body visible, silhouette clear. Stacked salvage, tie-downs, fuel staining, repaired plating. Single overhead work lamp with strong falloff, blacks kept open.
+Baylan seated cross-legged inside a small canvas tent at night, lit low and warm
+by a glowrod on the ground beside him. He is in shirtsleeves — jacket and harness
+off, work shirt open at the collar, the patched dark undertunic visible
+underneath. A cord runs around his neck and disappears into the shirt. Bed roll,
+tarpaulin wall, his rifle propped in the corner. Quiet, private, exhausted. This
+is the only place he is ever unguarded.
 
-**NEEDS:** what task brings them here.
-
-## 6. `detail_portrait.png` — close detail
+## 6. `detail_portrait.png` — the face
 **Portrait, 3:4.**
 
-Close portrait of Baylan, head and shoulders, lit at a grazing angle to reveal skin and material texture. Practical make-up and prosthetic quality, not digital fantasy. Soft overcast daylight, no costume detail competing.
+Close portrait of Baylan, head and shoulders, lit at a grazing angle by overcast
+daylight. The subject of this image is eighteen years of not sleeping. Deep
+creases at the eyes, weathered skin, iron-grey stubble running into a full
+unshaped beard, hair cropped short and unevenly by his own hand. His expression
+is neutral and absolutely unreadable — he has spent two decades giving nothing
+away. But the eyes are older than the rest of him. Practical make-up realism,
+every pore and broken capillary present. No costume detail competing.
 
-**NEEDS:** the single distinguishing physical trait this image exists to show.
-
-## 7. `species_strip.png` — species and ancestry study
+## 7. `vision_robes.png` — the dune, eighteen years earlier
 **Wide banner, 21:9.**
 
-Horizontal study strip, three to four separate views on a neutral, evenly lit background. Make-up and prosthetics reference, not a dramatic image. Consistent skin tone and detail density across every view.
-
-**NEEDS:** species; which anatomical details need reference views. Omit this slot entirely if the character is baseline human.
+Wide, hazy vision-image: a lone figure in full Jedi Knight robes standing atop a
+sand dune under a hard afternoon sky, sea visible far beyond. Layered tunic,
+tabards, obi, heavy over-robe, campaign boots — worn, travelled and field-dirty,
+a man fighting a war rather than attending a council. He is turning toward
+camera, caught mid-movement. Blown sand, heat shimmer, a bleached and desaturated
+palette utterly unlike the wet forest. This is a memory, so it may be soft,
+over-bright and slightly unreal at the edges. **This is the only image in the set
+in which he wears robes.** Same man as the other slots: tall, broad, but eighteen
+years younger — less grey, less weight, still upright.
 
 ## 8. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
-Horizontal strip of four head-and-shoulders expressions of the same face, evenly lit and consistently framed. Same lighting, same angle, same detail in every panel — reference-sheet evenness, not four dramatic portraits.
+Horizontal strip of four head-and-shoulders expressions of the same
+fifty-year-old bearded face, evenly lit and consistently framed: (1) neutral
+blankness — the manufactured dull expression he wears in company; (2) waking in
+terror, gasping, sweating, eyes wide; (3) quiet grief, entirely private and
+contained; (4) the real man underneath — focused, dangerous, absolutely still.
+Same lighting, angle and scale in every panel. The strip should show how little
+he lets show, and then how much is there.
 
-**NEEDS:** the four emotional states that define this character's range.
-
-## 9. `weapon_primary.png` — hero prop — primary
+## 9. `blaster.png` — the converted lightsaber
 **Wide banner, 3:1.**
 
-Product-reference layout of the character's primary weapon or tool on a neutral surface, evenly lit. Repaired grip, scratched finish, replacement components, field repairs. Mechanically believable, no ornament, no engraving.
+Product-reference layout on a neutral surface, evenly lit: a heavily modified
+blaster pistol shown assembled at left and partially disassembled at right, its
+components laid out in order.
 
-**NEEDS:** what the weapon or primary tool is, and its history of use.
+This weapon was built from a lightsaber. The conversion is genuine, not cosmetic
+— the emitter shroud has become the barrel shroud, the activation plate has
+become the trigger housing, and a belt clip is still fitted because it was never
+removed. In the disassembled view the original hilt architecture is unmistakable:
+a machined cylindrical core, control studs blanked over with plate, and an empty
+crystal chamber at its heart, now holding a power cell.
 
-## 10. `weapon_secondary.png` — hero prop — secondary
+Assembled, it should read to a casual eye as an ugly, over-modified sidearm that
+someone has bodged together — nothing more. Weathered, scratched, matte, with
+eighteen years of handling on the grip. No ornament, no engraving, no glow.
+
+## 10. `crystal.png` — the pouch
 **Square, 1:1.**
 
-Product-reference layout of a secondary weapon or signature tool on a neutral surface, evenly lit. Evidence of long-term use and modification.
-
-**NEEDS:** what the second item is — or delete this slot if they carry one thing.
+Close product-reference image on a dark neutral surface, lit low and warm as if
+by a single glowrod: a small, worn leather pouch, opened, with a fine cord
+threaded through it; beside it a small, jagged, raw yellow crystal resting on the
+leather. The crystal is uncut and irregular — a rough natural stone, not a
+faceted gem and not a finished component. It has a faint internal warmth rather
+than a glow. The pouch is old, soft, darkened by skin contact and repaired at one
+seam. These two objects are the only things he owns from before.
 
 ## 11. `utility.png` — kit layout
 **Square, 1:1.**
 
-Overhead flat-lay of Baylan's complete carried kit on a worn surface, laid out in the order that person would keep it. Every item shows use and repair. Even, flat reference lighting.
+Overhead flat-lay of Baylan's carried kit on a worn surface: a battered heavy
+rifle, the modified blaster in its holster, a handheld scanner, ammunition, a
+folded bed roll, a few field tools, a water container, a repair kit. Everything
+plain, worn and functional; nothing decorated, nothing personal, nothing kept for
+sentiment. Even flat reference lighting. The point of this image is how
+characterless it is — this is the kit of a man who has deliberately owned nothing
+that says anything about him. The pouch and cord are not here; they are on his
+body.
 
-**NEEDS:** the full kit list, and explicitly what they do *not* carry — the absences characterise as much as the contents.
-
-## 12. `maintenance.png` — character at work
+## 12. `maintenance.png` — the blaster comes apart
 **Tall portrait, 9:16.**
 
-Baylan absorbed in an ordinary, unhurried task that reveals character — repairing, checking, treating, preparing. Not looking up. Warm practical lamp light against a dim salvaged interior. Hands prominent.
-
-**NEEDS:** the one habitual task that says who this person is.
+Baylan seated cross-legged in his tent at night, glowrod on the ground, in
+shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
+of him, unsupported, his blaster hangs in the air — and it is coming apart, its
+components separating slowly and deliberately in mid-air, revealing the machined
+hilt architecture underneath. He is not triumphant or afraid. He is looking at it
+the way a man looks at something he buried a long time ago. Warm low glowrod
+light, deep shadow, the tent close around him. No glow effects on the crystal, no
+energy, no magic — only objects hanging in the air that should not be.
 
 ## 13. `materials.png` — materials and palette
 **Landscape, 5:4.**
 
-Materials reference board: physical swatches and close details on a neutral surface, evenly lit. Matte and low-noise throughout. Dark values must remain separable by texture and value, never merging.
-
-**NEEDS:** this character's material list and their palette subset with hex values, drawn from the Bible palette.
+Materials reference board: physical swatches and close details on a neutral
+surface, evenly lit. Coarse insulated work fabric; worn reinforced synth-leather
+with visible stitching and repair; quilted padding at a re-shouldered seam; a
+patched dark undertunic panel showing an older, finer weave with a cross-wrapped
+edge and a shaped shoulder; weathered matte metal hardware; harness webbing;
+boot leather, resoled. A short length of worn neck cord and a scrap of soft old
+pouch leather at one corner. Palette held to charcoal `#2B2A26`, ash brown
+`#3A352F`, dust brown `#544E42`, leather `#6B5A47`, faded tan `#7C6F5B`, faded
+olive `#4F563F`, weathered black `#2E2F33`, natural bone `#BDAF95`. Matte
+throughout, nothing reflective. The undertunic panel must be visibly a finer,
+older cloth than everything surrounding it.
 
 ---
 
@@ -221,39 +295,40 @@ Materials reference board: physical swatches and close details on a neutral surf
 | # | File | Ratio |
 |---|---|---|
 | 1 | `portrait.png` | 9:16 |
-| 2 | `environment.png` | 9:16 |
+| 2 | `forest.png` | 9:16 |
 | 3 | `industrial_a.png` | 9:16 |
 | 4 | `industrial_b.png` | 9:16 |
 | 5 | `industrial_c.png` | 9:16 |
 | 6 | `detail_portrait.png` | 3:4 |
-| 7 | `species_strip.png` | 21:9 |
+| 7 | `vision_robes.png` | 21:9 |
 | 8 | `expression_strip.png` | 16:9 |
-| 9 | `weapon_primary.png` | 3:1 |
-| 10 | `weapon_secondary.png` | 1:1 |
+| 9 | `blaster.png` | 3:1 |
+| 10 | `crystal.png` | 1:1 |
 | 11 | `utility.png` | 1:1 |
 | 12 | `maintenance.png` | 9:16 |
 | 13 | `materials.png` | 5:4 |
 
-All land in `03-characters/baylan/source/artwork/`. The board generator places images with a **contain** operation and never crops — supplying the wrong ratio produces letterboxing on the board.
+All thirteen land in `03-characters/baylan/source/artwork/`. The board generator
+places images with a **contain** operation and never crops — supplying the wrong
+ratio produces letterboxing on the board. Then:
 
-This character has no `board-data.yaml` yet, so `generate.py baylan` will not run. Create one modelled on `03-characters/shada/board-data.yaml`, using the filenames above.
+```bash
+python tools/board-generator/generate.py baylan --validate
+python tools/board-generator/generate.py baylan
+```
 
 ## Continuity rules across the set
 
-- Same face and same distinguishing detail in every image of this character.
-- Same costume build across slots 1–5 and 12. Slots 6–8 are reference sheets.
-- Props shown in slots 9–11 are the same objects visible on the body in slots 1–5.
-- Nothing gains a decorative element between images.
-
-## Open questions blocking this character
-
-- `Baylan` and `Bay` are the same character (confirmed 2026-07-30). Baylan is the canonical asset name; Bay is the short form used through most of the script.
-- Is Baylan a mercenary, a captive, or moving between the two? The breakdown places him inside the mercenary camp but frames him as an observer, and Nyx orders him to work. His faction assignment drives the entire costume language — settle it first.
-- Scene 5 refers to years of reliving his past. Decide whether that leaves a visible mark: scarring, a kept object, a piece of costume that does not belong with the rest.
-- Scene 12 is the Sand Dunes Force-vision with Palpatine and Shin — a different environment and light quality from every other scene he appears in.
+- Same face, same build, same beard and haircut in every image except slot 7.
+- **Slot 7 is the only image with robes.** Everywhere else he is a mercenary.
+- The blaster on his hip in slots 1–3 is the same object as in slots 9 and 12.
+- The cord at his neck in slots 5 and 12 leads to the pouch in slot 10.
+- The undertunic in slots 5, 12 and 13 is the same garment, same patches.
+- He gains no ornament, insignia or decoration between images. Ever.
+- He is never framed heroically and never looks powerful — until slot 12.
 
 ## Revision History
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
-| 0.1 | 2026-07-30 | scaffold | Shared style blocks complete; character content pending. |
+| 1.0 | 2026-07-30 | ready | Initial prompt pack derived from locked character. |

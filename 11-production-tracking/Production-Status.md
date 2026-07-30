@@ -21,7 +21,7 @@
 | Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
-| Shin | Placeholder | **Co-lead.** Shin Hati; the Baylan partnership originates here. |
+| Shin | In development | **Co-lead.** Locked for board review. 10 scenes; prompt pack ready. |
 | Vala | Placeholder | Escapee |
 | Krellis | Placeholder | Escapee medic |
 

@@ -1,34 +1,29 @@
 ---
 title: "Shin — Image Prompt Pack"
 asset_id: "CHAR-SHIN"
-version: "0.1"
-status: "scaffold"
+version: "1.0"
+status: "ready"
 faction: "Slaves / Escapees"
 governing_documents:
   - ../../01-production-design/Production-Design-Bible-v1.0.md
   - ../../04-factions/slaves-escapees/Faction.md
   - Character.md
+  - Character-Lock.md
 ---
 
 # Shin — Image Prompt Pack
 
-> **SCAFFOLD — not ready to generate from.**
-> The shared style rules below are complete and correct. The character-specific
-> content is not: every `**NEEDS:**` marker is an unanswered design question.
-> Fill in `Character.md` first, then complete the slots below.
+**How to use.** Each numbered slot is a complete, self-contained prompt. Paste
+**Style**, **Do Not**, **Character Constants**, then the single slot you want.
+Do not paste more than one slot at a time. Save the result to the exact filename
+given, in `03-characters/shin/source/artwork/`, then run:
 
-**Faction:** Slaves / Escapees  
-**Scenes:** 6, 8, 11, 12, 16, 17, 18, 21, 22  
-**Primary environment:** Forest  
-**Brief:** Escapee central to the Force-vision material and pursuit story.
+```bash
+python tools/board-generator/generate.py shin
+```
 
----
-
-## How to use
-
-Each numbered slot is a complete, self-contained prompt. Paste **Style**, **Do Not**, **Character Constants**, then a single slot. Save the result to the exact filename given, in `03-characters/shin/source/artwork/`.
-
-Everything needed is written out below — no other file has to be read first.
+Every rule needed is written out below. Nothing here depends on reading another
+file first.
 
 ---
 
@@ -39,85 +34,73 @@ of the original trilogy and *Andor*, with a subtle *Mandalorian* frontier
 aesthetic. Photographic, not illustrative.
 
 This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
-object has had a previous owner and carries visible history: repairs, scratches,
-faded paint, replaced components, grime, evidence of servicing.
+object has had a previous owner and carries visible history: repairs, patches,
+fading, grime, wear.
 
-Costume is functional workwear first — real, buildable construction with
-believable seams and fasteners, no floating armour, nothing purely decorative.
-Occupation should be readable from silhouette alone. Materials: ballistic weave,
-quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
-technical textiles, plastoid plates, insulated work fabric, industrial rubber,
-brushed alloy.
+Costume is functional and real — buildable construction, believable seams and
+fastenings, nothing decorative. Coarse woven cloth, undyed or badly dyed,
+hand-repaired.
 
 Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
-olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
-forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
-yellow) used sparingly. Bright colour only for rank, warning markings, cultural
-identity or a significant personal item.
+olive, dust brown, sand, bone white.
 
-Lighting motivated by believable sources only: natural sunlight, overcast sky,
-work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+Lighting motivated by believable sources only: overcast daylight, dawn, dusk,
+firelight, a dying fire.
 
 Camera: naturalistic composition over heroic posing. Restrained colour grade,
 subtle atmospheric haze, realistic depth of field, fine film grain, practical
-lens behaviour. Subject engaged in meaningful activity rather than looking at
-camera unless specified. The world feels larger than the people within it.
+lens behaviour. The world feels much larger than the people within it.
 
 ---
 
 ## Do Not — paste with every prompt
 
-No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
-corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
-shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
-Roman armour, modern tactical/SWAT gear.
+No Caribbean or Earth pirate costume, Renaissance, medieval or Victorian
+clothing, fantasy armour, or modern tactical gear.
 
-No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
-ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
-decorative technology. No gadget overload.
+No pristine surfaces, no clean clothing, no styled or salon hair.
 
-No glamour posing, no sexualisation, no fashion-editorial lighting.
+**Absolutely no sexualisation.** The subject is a fifteen-year-old child. No
+fitted or shaped costume, no exposed midriff or shoulders as design language, no
+artful tearing, no glamour lighting, no adult posing, no makeup. This rule
+overrides every other consideration in this pack.
 
-No text, logos, watermarks, captions, labels or lettering in the image.
+Not a warrior. No weapon, no armour, no fighting stance, no confidence, no
+capability. No robes, no lightsaber, nothing Jedi.
 
-No crushed blacks — the silhouette must stay separated from the background.
+No glowing eyes, no visible magic, no energy effects on the character.
+
+No text, logos, watermarks, captions or labels. No crushed blacks.
 
 Photographic realism only: no anime, no cel shading, no painterly illustration,
-no 3D-render look, no plastic or waxy skin.
-
----
-
-## Species rendering — paste if non-human
-
-Alien species must feel biologically plausible and grounded in live-action Star
-Wars. Favour practical make-up and prosthetic effects over exaggerated digital
-fantasy. Costume adapts to anatomy without sacrificing practicality.
+no 3D-render look, no plastic skin.
 
 ---
 
 ## Character Constants — paste with every prompt
 
-> **INCOMPLETE.** Fill this from `Character.md` and `Character-Lock.md` before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+Shin. Human girl, **fifteen years old**. An escaped captive fleeing through a
+forest world with her mother and a small band of prisoners, hunted by mercenaries.
 
-Shin. Escapee central to the Force-vision material and pursuit story.
+Slight and underfed — a child who has not had enough food for a long time. Not
+athletic, not frail. Pale skin. Young, open face, easily read; she has never had
+to hide what she feels from anyone.
 
-**NEEDS:**
+**Long red hair — the only strong colour anywhere in this film.** Bound, braided
+or wrapped back for practicality, never loose and never styled. It catches what
+little light there is. It should be filthy and progressively more damaged as the
+story runs. Pretty, never sexy.
 
-- Species, age range, gender presentation
-- Build and silhouette — the shape read at distance, in one line
-- Distinguishing physical traits
-- Costume: layers, construction, what is protected and what is exposed, and why
-- Equipment carried, and what is deliberately absent
-- Movement and body language
-- The one sentence that separates them from everyone else in their faction
+Her face and hands are dirt-smeared. Her hands are small and work-marked — she
+has been used for labour, never for fighting.
 
----
+She wears captivity clothing: a coarse, unfitted, badly-dyed tunic and top,
+hand-repaired by her mother, wrong-sized and worn to destruction on the run. Her
+footwear was never meant for a forest and is failing. Nothing she wears was made
+for her or chosen by her.
 
-## Character-specific rejections
-
-> The Shada lock carries a `Design Drift Prevention` list — the specific wrong directions a generator will drift toward for *this* character. Write the equivalent for Shin. It is the single most useful part of the pack.
-
-**NEEDS:** five to eight specific rejections.
+She carries nothing. She is exhausted, frightened, filthy, and being protected by
+people who love her. She is a child in the middle of an adult catastrophe.
 
 ---
 
@@ -126,93 +109,140 @@ Shin. Escapee central to the Force-vision material and pursuit story.
 ## 1. `portrait.png` — hero portrait
 **Tall portrait, 9:16.**
 
-Waist-up portrait of Shin in forest, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
+Waist-up portrait of Shin in a dim forest at dusk, three-quarter angle, caught
+mid-movement and looking off past camera. Fifteen, slight, pale, dirt-smeared.
+Long red hair bound back and dull with grime — the only colour in an otherwise
+charcoal and dust-brown frame. Coarse unfitted captivity clothing, hand-patched.
+Overcast light through wet canopy. She is frightened and trying not to show it,
+and not quite managing. Not posed, not heroic, not composed.
 
-**NEEDS:** face, age range, species, build, hair, costume upper layers, what they are reacting to.
-
-## 2. `environment.png` — in their environment
+## 2. `forest.png` — the run
 **Tall portrait, 9:16.**
 
-Full-figure shot of Shin in forest flight, escapee camp, sand dunes vision, in motion or mid-task, read at the scale of the location around them.
+Full-figure shot of Shin running through dense wet forest at dusk among other
+fleeing figures, mid-stride, hair bound and whipping, one arm up against
+branches. Read her as small and young against the scale of the trees. Mud, leaf
+litter, mist between trunks. She is not running like a fighter — she is running
+like a frightened child who has been running for a long time. Her red hair is
+the one thing findable in the murk.
 
-**NEEDS:** silhouette, posture, gait, full costume, what they are doing here.
-
-## 3. `industrial_a.png` — ship corridor
+## 3. `sky.png` — marvelling
 **Tall portrait, 9:16.**
 
-Shin in a cramped, lived-in starship corridor — exposed pipework, access panels, mismatched paint, service markings, scuffed decking. Lit by bulkhead fixtures and warning lights.
+Shin standing still in a forest clearing at dusk, head tilted right back,
+**looking up at the open sky** with unguarded wonder on her filthy face. Around
+and behind her, other exhausted escapees have slumped down and are not looking at
+anything. She is the only one looking up. Soft dusk light falling on her upturned
+face and catching in her red hair. This is the only moment of joy in the film and
+it belongs to a child who has almost nothing.
 
-**NEEDS:** how this character occupies an interior; do they belong here or not?
-
-## 4. `industrial_b.png` — crew or group space
+## 4. `camp_night.png` — cannot sleep
 **Tall portrait, 9:16.**
 
-Shin in a cramped shared compartment among their group, lit by work lamp and screen glow. Salvaged fittings, crates, worn webbing, visible repairs.
+Shin at a makeshift forest camp at night, lit only by a dying fire. She is
+awake, sitting up, arms around her knees, staring at nothing. Her face is
+dirt-smeared and hollow with exhaustion. Beside her, her mother sleeps — pale,
+sweaty, brow creased in pain even asleep. Low warm firelight raking across
+Shin's face and picking out the red in her bound hair. She is exhausted beyond
+description and she is not sleeping, because she is afraid of what happens when
+she closes her eyes.
 
-**NEEDS:** their standing within the group; where they sit and who they sit near.
-
-## 5. `industrial_c.png` — working interior
+## 5. `mother.png` — carrying Jeyin
 **Tall portrait, 9:16.**
 
-Shin in a dim hold or storage space, full body visible, silhouette clear. Stacked salvage, tie-downs, fuel staining, repaired plating. Single overhead work lamp with strong falloff, blacks kept open.
+Shin at dawn supporting her injured mother through the forest, her mother's arm
+across her shoulders, taking weight she is too small to take. Early grey morning
+light, mist between the trunks. Both are filthy and exhausted. The composition
+must read as the child carrying the parent. Shin's face shows effort and fear;
+her mother is concealing how bad it is.
 
-**NEEDS:** what task brings them here.
-
-## 6. `detail_portrait.png` — close detail
+## 6. `detail_portrait.png` — the face
 **Portrait, 3:4.**
 
-Close portrait of Shin, head and shoulders, lit at a grazing angle to reveal skin and material texture. Practical make-up and prosthetic quality, not digital fantasy. Soft overcast daylight, no costume detail competing.
+Close portrait of Shin, head and shoulders, in soft overcast daylight. Fifteen
+years old — the face must read unmistakably as a child, not a young adult. Pale
+skin under a layer of dirt, freckles if the actor has them, chapped lips,
+shadows under the eyes from days without sleep. Long red hair bound back off her
+face, dull and matted, a few strands loose and stuck to her skin. Her expression
+is open and frightened — she is very bad at hiding things. Practical realism:
+every pore, every smear of dirt. No makeup, no styling, nothing softened.
 
-**NEEDS:** the single distinguishing physical trait this image exists to show.
-
-## 7. `species_strip.png` — species and ancestry study
+## 7. `vision_shadow.png` — the manifestation
 **Wide banner, 21:9.**
 
-Horizontal study strip, three to four separate views on a neutral, evenly lit background. Make-up and prosthetics reference, not a dramatic image. Consistent skin tone and detail density across every view.
-
-**NEEDS:** species; which anatomical details need reference views. Omit this slot entirely if the character is baseline human.
+Wide shot: Shin running through dark forest with other figures, and **a pulsing
+shadow gathers around her** — a darkening of the air itself, light bending away,
+the undergrowth around her going dim while the rest of the frame stays lit.
+Not smoke, not energy, not a visual-effects glow. An absence. She does not know
+it is happening and her expression shows only terror at being chased. The other
+figures do not appear to notice. Her red hair remains the one point of colour
+inside the darkening.
 
 ## 8. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
-Horizontal strip of four head-and-shoulders expressions of the same face, evenly lit and consistently framed. Same lighting, same angle, same detail in every panel — reference-sheet evenness, not four dramatic portraits.
+Horizontal strip of four head-and-shoulders expressions of the same
+fifteen-year-old face, evenly lit and consistently framed: (1) open wonder,
+looking up; (2) horror at something she has just been told; (3) hollow sleepless
+exhaustion; (4) grief — total, unguarded, the face of a child who has just lost
+everything. Same lighting, angle and scale in every panel. Dirt-smeared
+throughout. Nothing performed or restrained: this face shows everything.
 
-**NEEDS:** the four emotional states that define this character's range.
-
-## 9. `weapon_primary.png` — hero prop — primary
+## 9. `clasp.png` — the hero prop
 **Wide banner, 3:1.**
 
-Product-reference layout of the character's primary weapon or tool on a neutral surface, evenly lit. Repaired grip, scratched finish, replacement components, field repairs. Mechanically believable, no ornament, no engraving.
+Product-reference layout on a neutral surface, evenly lit: a small metal clasp —
+a functional fastener, not jewellery — shown from two angles with its mechanism
+visible. It has been used constantly for years: worn smooth and bright at the
+contact points, dulled and slightly tarnished elsewhere, with fine scratching
+from handling. Sturdy, plain and well-made in the way of an object that has
+outlived several owners. No gems, no engraving, no ornament, no shine. Small
+enough to close a hand around. This object has to carry an entire relationship,
+so it must be specific and memorable in silhouette.
 
-**NEEDS:** what the weapon or primary tool is, and its history of use.
-
-## 10. `weapon_secondary.png` — hero prop — secondary
+## 10. `hair_study.png` — the hair
 **Square, 1:1.**
 
-Product-reference layout of a secondary weapon or signature tool on a neutral surface, evenly lit. Evidence of long-term use and modification.
+Reference study of the character's hair: three or four views on a neutral,
+evenly lit background showing how the long red hair is bound, braided and
+wrapped back for a forest run — from behind, from the side, and a close crop of
+the binding itself. Practical and unglamorous, tied with cord or torn cloth
+rather than anything made for the purpose. Dirty, matted, with loose strands
+escaping. This is a hair-and-makeup reference, not a beauty shot. The colour must
+be consistent and repeatable — it is the only strong colour in the film.
 
-**NEEDS:** what the second item is — or delete this slot if they carry one thing.
-
-## 11. `utility.png` — kit layout
+## 11. `utility.png` — what she carries
 **Square, 1:1.**
 
-Overhead flat-lay of Shin's complete carried kit on a worn surface, laid out in the order that person would keep it. Every item shows use and repair. Even, flat reference lighting.
+Overhead flat-lay on a worn surface of everything Shin has in the world: her
+failing footwear, a strip of cloth used as a hair tie, a scrap of rag, perhaps a
+water container that is not hers, and the small metal clasp. Even flat reference
+lighting. **The emptiness is the point.** This is not a kit — it is the few
+objects that happen to be on a fleeing child, and it should look shockingly
+insufficient laid out against a mercenary's equipment.
 
-**NEEDS:** the full kit list, and explicitly what they do *not* carry — the absences characterise as much as the contents.
-
-## 12. `maintenance.png` — character at work
+## 12. `ditch.png` — hiding
 **Tall portrait, 9:16.**
 
-Shin absorbed in an ordinary, unhurried task that reveals character — repairing, checking, treating, preparing. Not looking up. Warm practical lamp light against a dim salvaged interior. Hands prominent.
-
-**NEEDS:** the one habitual task that says who this person is.
+Shin pressed into a muddy forest ditch, low, curled small, being physically held
+down and shielded by an older woman's arm across her back. Wet earth, tangled
+roots, standing water. Morning light above but almost none reaching them. Her
+face is turned up and sideways, filthy, wide-eyed, listening. Absolute terror
+held completely silent. She is as small as she can make herself.
 
 ## 13. `materials.png` — materials and palette
 **Landscape, 5:4.**
 
-Materials reference board: physical swatches and close details on a neutral surface, evenly lit. Matte and low-noise throughout. Dark values must remain separable by texture and value, never merging.
-
-**NEEDS:** this character's material list and their palette subset with hex values, drawn from the Bible palette.
+Materials reference board: physical swatches and close details on a neutral
+surface, evenly lit. Coarse undyed woven cloth; badly-dyed fabric gone patchy;
+hand-stitched repairs in mismatched thread; frayed hems; failing footwear leather
+with a split sole; cord and torn cloth used as ties; mud, damp and staining; the
+small metal clasp at one corner; and a lock of the red hair for colour matching.
+Palette held to charcoal `#2B2A26`, ash brown `#3A352F`, dust brown `#544E42`,
+leather `#6B5A47`, faded tan `#7C6F5B`, faded olive `#4F563F`, weathered black
+`#2E2F33`, natural bone `#BDAF95` — **plus the hair, which is the only saturated
+colour permitted anywhere in this film.** Matte throughout. The repairs must
+read as done by hand, in poor light, by someone who cared.
 
 ---
 
@@ -221,37 +251,42 @@ Materials reference board: physical swatches and close details on a neutral surf
 | # | File | Ratio |
 |---|---|---|
 | 1 | `portrait.png` | 9:16 |
-| 2 | `environment.png` | 9:16 |
-| 3 | `industrial_a.png` | 9:16 |
-| 4 | `industrial_b.png` | 9:16 |
-| 5 | `industrial_c.png` | 9:16 |
+| 2 | `forest.png` | 9:16 |
+| 3 | `sky.png` | 9:16 |
+| 4 | `camp_night.png` | 9:16 |
+| 5 | `mother.png` | 9:16 |
 | 6 | `detail_portrait.png` | 3:4 |
-| 7 | `species_strip.png` | 21:9 |
+| 7 | `vision_shadow.png` | 21:9 |
 | 8 | `expression_strip.png` | 16:9 |
-| 9 | `weapon_primary.png` | 3:1 |
-| 10 | `weapon_secondary.png` | 1:1 |
+| 9 | `clasp.png` | 3:1 |
+| 10 | `hair_study.png` | 1:1 |
 | 11 | `utility.png` | 1:1 |
-| 12 | `maintenance.png` | 9:16 |
+| 12 | `ditch.png` | 9:16 |
 | 13 | `materials.png` | 5:4 |
 
-All land in `03-characters/shin/source/artwork/`. The board generator places images with a **contain** operation and never crops — supplying the wrong ratio produces letterboxing on the board.
+All thirteen land in `03-characters/shin/source/artwork/`. The board generator
+places images with a **contain** operation and never crops — the wrong ratio
+letterboxes the board. Then:
 
-This character has no `board-data.yaml` yet, so `generate.py shin` will not run. Create one modelled on `03-characters/shada/board-data.yaml`, using the filenames above.
+```bash
+python tools/board-generator/generate.py shin --validate
+python tools/board-generator/generate.py shin
+```
 
 ## Continuity rules across the set
 
-- Same face and same distinguishing detail in every image of this character.
-- Same costume build across slots 1–5 and 12. Slots 6–8 are reference sheets.
-- Props shown in slots 9–11 are the same objects visible on the body in slots 1–5.
-- Nothing gains a decorative element between images.
-
-## Open questions blocking this character
-
-- Shin appears in the Sand Dunes force-vision (Scene 12) alongside Palpatine — a different environment and light quality from every other scene.
-- Escapee costume language is the inverse of mercenary: what they were issued or could steal, not what they chose. Decide what captivity left them wearing.
+- Same face, same age read, in every image. Fifteen, never older.
+- **Hair colour must be identical across all thirteen.** It is the film's only
+  saturated colour and any drift between images will be obvious.
+- Hair is bound in every image. It gets dirtier and more damaged, never cleaner.
+- Same single costume throughout, progressively more destroyed.
+- The clasp appears only from Scene 22 onward — it must not be visible in slots
+  1–5, 7 or 12.
+- She carries no weapon in any image, ever.
+- She never looks capable, composed or dangerous.
 
 ## Revision History
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
-| 0.1 | 2026-07-30 | scaffold | Shared style blocks complete; character content pending. |
+| 1.0 | 2026-07-30 | ready | Initial prompt pack derived from locked character. |

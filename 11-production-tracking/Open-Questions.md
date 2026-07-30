@@ -23,3 +23,6 @@
       Jasu is a murderer, and changes how the animal is staged in every earlier scene.
 - [ ] Does Shin witness her mother's death or find her afterwards?
 - [ ] What is Jeyin's injury, and what is its visible state in each of scenes 16–24?
+- [ ] **When does Shin cut her hair — in this film or between films?** Blocks her prompt
+      pack: a shorn variant is needed if it happens here. The red hair is the film's only
+      saturated colour, so losing it is a structural beat, not a styling note.

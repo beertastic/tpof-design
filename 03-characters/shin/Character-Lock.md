@@ -1,0 +1,97 @@
+# Shin Character Lock
+
+**Status:** LOCKED FOR BOARD REVIEW
+**Version:** 1.0
+**Date:** 2026-07-30
+
+These traits are non-negotiable unless the Production Designer approves a
+recorded revision.
+
+## Identity
+
+- Human female, **15 years old**.
+- Escaped captive. Daughter of Jeyin, who is killed in the final scene.
+- **Co-lead**, not a supporting escapee. Ten of twenty-five scenes.
+- Force-sensitive and **does not know it**. No framework, no vocabulary, no idea
+  she is causing any of it.
+- She tells nobody — not even her mother.
+- Sheltered. Still capable of being horrified (Scene 17).
+- First of three films; her design is the start of a long arc.
+
+## The core rule
+
+**She is a child in an adult catastrophe.**
+
+Not a young warrior, not a prodigy, not capable, not dangerous. Fifteen,
+underfed, filthy, frightened and being carried by people who love her. Any
+design that makes her look competent is wrong for this film.
+
+## Hair
+
+- **Long and red.** The dominant element of her design.
+- **The only strong colour in the film.** Everything else is charcoal, dust
+  brown and faded olive. She is findable in any frame because of it.
+- Styled toward a Star Wars silhouette. **Pretty, never sexy.** She is fifteen.
+- Always **bound, braided or wrapped** for the forest. Never loose and glamorous.
+- **Filthy** from Scene 11 onward.
+- It catches what little light there is — firelight, dawn.
+- It is the continuity clock: how bound, how dirty, how damaged.
+- The trauma of this story leads her to cut it. **When it goes, the film loses
+  its only colour.**
+
+## Costume
+
+- Two garments named in the breakdown — "Scraggly Top" (Sc 16) and "Tunic"
+  (Sc 22) — are **one costume progressively destroyed**, not two changes.
+- Captivity clothing: coarse, undyed or badly dyed, unfitted, no fastenings worth
+  anything, no useful pockets.
+- Nothing was made for her or chosen by her.
+- Hand repairs, done by **Jeyin** — not by Shin.
+- Footwear was never meant for a forest and is failing by Scene 21.
+- **No glamorising.** No shaping, no exposed midriff, no artful tearing.
+
+## Hero prop — the clasp
+
+- Given by Vala in Scene 22 as a promise, before Vala walks away to die.
+- **Not magical.** Special to Vala; the one thing she owns.
+- **It is the same piece Shin wears years later** — design backward from that
+  object, then age it down.
+- Metal, small, functional; it fastens something.
+- Worn smooth at the contact points.
+- No ornament that reads as jewellery. A fastener with a history.
+- Parallel to Baylan's crystal pouch: small, worn against the body, the last
+  thing left of a person, carried into the next film.
+
+## Equipment
+
+- Effectively nothing else. Whatever she has was grabbed, given, or already on
+  her. The emptiness is the characterisation.
+
+## Performance
+
+- **She looks up.** Nobody else in the film looks at the sky.
+- She hides the visions from everyone.
+- She cannot sleep, and it accumulates scene by scene.
+- Fear reads plainly — she has never had to perform composure.
+- She looks directly into camera in Scenes 6 and 12. The only character who does.
+
+## Design Drift Prevention
+
+Reject any design that becomes:
+
+- **A capable young fighter.** She cannot fight, has never fought, and is not
+  about to start. That is Film 2.
+- **A Jedi, or Jedi-adjacent.** No robes, no lightsaber, no training, no
+  understanding of what she is. She does not know the word.
+- **Sexualised in any degree.** She is fifteen. No fitted costume, no exposed
+  skin as design language, no glamour lighting, no adult posing. This overrides
+  every other consideration.
+- **Clean, styled or composed.** She is filthy from Scene 11 and never recovers.
+- **Older than fifteen.** Casting a young adult does not license designing an
+  adult.
+- **Hardened or cynical.** Her innocence is the point and its loss is the story.
+- **The woman she later becomes.** She has none of that confidence, competence,
+  stillness or authority. Ten years and two films separate them.
+- Loose flowing hair in a chase. It is bound, always, for reasons of physics.
+- Too dark to separate from the night forest — she is the one character who must
+  always be findable.

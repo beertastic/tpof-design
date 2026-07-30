@@ -118,6 +118,41 @@ boots; no two pairs match.
 
 See [`03-characters/generic-mercenary/`](../../03-characters/generic-mercenary/).
 
+## The large mercenary — Wookiee, or not
+
+A **Wookiee mercenary** is wanted for the Vala fight (Scene 23): he takes hold of
+her and begins crushing her, she pulls a grenade from his bandolier, he panics
+and drops her, and it detonates.
+
+**Production concern: likely too expensive.** A convincing Wookiee means a
+full-body suit, a performer with the height, hair maintenance across every
+shooting day, and a build that will not survive a forest.
+
+### What the beat needs, and what it does not
+
+The sequence requires **a severe size mismatch**, **a visible bandolier or belt
+with a grenade on it**, and **panic**. It does not require a Wookiee. Anything
+that delivers those three works identically.
+
+### Cheaper options, in ascending order of cost
+
+| Option | Cost | Note |
+|---|---|---|
+| A very large human or near-human | Lowest | Casting solves it. Bandolier is not species-specific |
+| Prosthetic face and hands only | Low | A distinct species without a full suit — the Bible favours practical make-up anyway |
+| **Partial Wookiee** | Medium | Never fully seen. Night forest, tight framing, an arm, a torso, a silhouette. A convincing Wookiee *arm* is far cheaper than a Wookiee |
+| Full Wookiee | Highest | Only worth it if he appears elsewhere in the film |
+
+**Recommendation:** if the Wookiee is wanted for its own sake, the partial version
+is the honest compromise — the fight happens in a forest, at distance from the
+clearing, and the audience needs an impression rather than a character. If he is
+only in this one sequence, a large mercenary costs nothing extra and loses very
+little.
+
+**Decision needed before casting.** If a Wookiee is in the crew he should appear
+earlier — the camp, the Sabacc game, the briefing — or his sudden arrival in the
+final act reads as convenient.
+
 ## Shared Equipment
 
 Blasters, rifles, a scanner, tents, tarpaulins, crates, ammunition, field-camp
@@ -142,6 +177,8 @@ equipment. All maintained, all functional, none of it issued.
   quality standard for the crew?
 - Do any two of them have a prior relationship, or did they genuinely all arrive
   separately?
+- **Is the large mercenary in the Vala fight a Wookiee?** See above. Affects
+  casting, budget, and whether he needs to appear earlier in the film.
 
 ## Revision History
 

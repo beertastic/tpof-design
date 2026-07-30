@@ -74,6 +74,10 @@ him as a Jedi on first sight has failed.
 - The pouch is older than everything else he owns and has been repaired.
 - **The blade changes colour in this film.** Ignites yellow; turns **orange** as it
   is withdrawn from Nyx's chest. Killing Nyx is what changes it.
+- **The crystal stays yellow and is never seen again after Scene 15.** One
+  physical crystal prop, one state. The change lives entirely in the blade.
+- **It is a side effect, not a ritual.** No ceremony, no intent, no process. He
+  kills a friend and the weapon comes out different.
 
 ### Working kit
 

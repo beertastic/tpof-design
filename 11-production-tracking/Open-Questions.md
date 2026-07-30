@@ -80,6 +80,11 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~How does Baylan kill Nyx?~~ **Last, through the chest**, after Nyx stumbles back
       dazed from the Vala grenade. Raised hands misdirect the audience into thinking Nyx is
       Force-sensitive. **The blade is withdrawn slowly and is orange.** 2026-07-30.
-- [ ] Does the crystal change colour too, or only the blade? Affects the physical prop
-      carried into Film 2.
-- [ ] Whose grenade ends the Vala/Nyx fight?
+- [x] ~~Does the crystal change too?~~ **No — it stays yellow.** The change happens inside
+      the saber and the crystal is never seen again after Sc.15. One prop, one state.
+      2026-07-30.
+- [x] ~~Whose grenade?~~ **The large mercenary's.** Vala pulls it from his belt or bandolier
+      while he is crushing her; he panics, drops her, it detonates. 2026-07-30.
+- [ ] **Is the large mercenary in the Vala fight a Wookiee?** Wanted, but likely too
+      expensive. Cheaper options and a partial-Wookiee recommendation on file in the
+      mercenaries faction document. Affects casting and whether he must appear earlier.

@@ -359,6 +359,15 @@ Orange sits between Sentinel yellow and Sith red. **He is no longer a Jedi and h
 is not a Sith**, and that is the only statement the film makes about what he has
 become. No dialogue does this work.
 
+**The crystal stays yellow.** The change happens inside the saber, and the crystal
+is never seen again after Scene 15 — so there is only ever **one physical crystal
+prop**, in one state. Nothing needs building twice.
+
+**It is a side effect, not a ritual.** He does not set out to change his blade. He
+kills someone he loves and the weapon comes out a different colour. He may not
+know until he looks. That distinction is the whole difference between this and a
+ceremony, and it costs nothing to shoot.
+
 **Killing Nyx is what changes it** — not the crew, not Jasu. The one person who
 was kind to him.
 
@@ -441,9 +450,6 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   attention? The staging fix is the crystal seating, held longer — not dialogue.
   Worth testing on someone cold.
 - Does he still carry the rifle in the finale, or is the lightsaber all of it?
-- **Does the crystal change too, or only the blade?** If the crystal itself turns,
-  that is a physical prop state and the pouch carries a different object into
-  Film 2.
 - Does he know the blade has changed? Does he look at it?
 - **How much of the killing is on screen?** Undecided. She sees it and knows he is
   doing it; the open question is whether the audience sees the blood, horror and

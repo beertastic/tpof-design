@@ -24,12 +24,49 @@ clasp as a promise before she goes.
 
 **She survives.** Barely — and a post-credit scene shows it.
 
-**Her fight with Nyx ends with a grenade detonating.** The audience is led to
-believe she was blown up — which is precisely why there is no body and no
-confirmed kill. The explosion does the work of a death without being one.
+## The last fight
 
-Nyx survives it dazed and stumbles back to the clearing, which is how he arrives
-last and walks into Baylan.
+Nyx leads a squad after her (Scene 23). She is caught, and **a large mercenary
+takes hold of her and begins crushing her to death.**
+
+She cannot beat him. She is an arena fighter with basic weapons — a staff, a
+knife — against something much stronger. So she does not try to win. **She pulls a
+grenade off his belt or bandolier.**
+
+He panics and **drops her to get it off himself.** It detonates.
+
+**The audience is led to believe Vala was blown up.** That is precisely why there
+is no body and no confirmed kill — the explosion does the work of a death without
+being one. Nyx survives it dazed and stumbles back to the clearing, which is how
+he arrives last and walks into Baylan.
+
+### Why this works
+
+She wins by using her killer's own equipment against him, having been physically
+outmatched from the first second. It is the arena lesson: you do not beat the
+bigger fighter, you make the bigger fighter beat himself.
+
+It is also the only real victory anyone in the escapee group achieves.
+
+### What the beat actually requires
+
+For casting and budget purposes, the sequence needs exactly three things:
+
+1. **A severe size mismatch** — someone who can plausibly crush her, so the fight
+   is never in question.
+2. **A visible bandolier or belt carrying a grenade** — the thing she reaches for
+   must have been on screen before she grabs it.
+3. **Panic** — he has to be more afraid of the grenade than he is of her, which
+   is what makes him drop her.
+
+**Nothing in that list requires a specific species.** See the Wookiee note in
+[`04-factions/mercenaries/Faction.md`](../../04-factions/mercenaries/Faction.md).
+
+### Her weapons
+
+Basic and few, consistent with the escapee faction: **a staff, and possibly a
+knife.** Nothing she owns is a match for a mercenary's kit — which is the point of
+the fight and of the grenade.
 
 > **STAGING REQUIREMENT: do not shoot a death.** Her exit must read as *gone*,
 > not *killed*. No body, no confirmed kill, no dialogue asserting she is dead.
@@ -129,7 +166,8 @@ TBD.
 
 - Where exactly on her rig does the clasp come from, and is its absence visible
   after she gives it away?
-- The grenade is hers or Nyx's? Whose it is changes whether she chose this.
+- Does she intend to survive it, or is this suicide that happens to fail?
+- Is the staff scavenged, or arena equipment she has kept?
 - Where is the post-credit scene set?
 - In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan
   first and Shin defend him? Different films for Shin.

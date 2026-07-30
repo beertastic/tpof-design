@@ -47,8 +47,10 @@ land.
 
 ### The sequence
 
-1. Nyx is away from the clearing, fighting Vala. **That fight ends with a grenade
-   detonating** — the audience is led to believe Vala was blown up.
+1. Nyx is away from the clearing. He **leads a squad after Vala** (Scene 23). A
+   large mercenary catches her and begins crushing her; she pulls a grenade from
+   his belt, he panics and drops her, and **it detonates.** The audience is led to
+   believe Vala was blown up.
 2. **Dazed**, Nyx stumbles back to the others.
 3. He walks into: Baylan, a **yellow lightsaber**, and his dead friends. He sees
    the girl and her mother. The akk dog is possibly still unconscious.

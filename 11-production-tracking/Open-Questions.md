@@ -35,5 +35,7 @@
       Confirmed 2026-07-30. Prop needed in three states: blaster, transition, hilt.
 - [ ] Does Shin watch Baylan kill them? If so, what she leaves with is not a rescuer.
 - [ ] What tack does the akk dog wear? Required in Scene 9 as well as the finale.
+- [ ] Does the akk dog survive the finale? Baylan kills everyone — does that include it?
+- [ ] Where did Jasu get the akk dog? It is the source of her authority, so it is her backstory.
 - [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her
       dialogue and unmistakably fatal. Prosthetic build; the most demanding in the film.

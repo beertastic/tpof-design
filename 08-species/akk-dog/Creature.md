@@ -42,6 +42,14 @@ her squad is not characterisation for Jasu; it is setup. The audience must find
 the akk dog genuinely likeable — a big calm animal enjoying being scratched —
 because the finale depends on that affection being turned against them.
 
+**The akk dog is why Jasu is in charge.** Her authority is not rank, seniority or
+respect — she commands the crew because she owns a monster and everyone knows it.
+The animal is the rank, and where she is, it is.
+
+That makes Scene 9 cold rather than warm: petting it in the middle of a briefing
+is a reminder to everyone watching. And it means the finale is her instrument of
+power being used on an unarmed, injured woman.
+
 It also sets the danger level of the camp. A crew that keeps an akk dog is not a
 crew you walk away from, which matters because Baylan has been living beside it
 for years and the escapees are being hunted by it.
@@ -171,6 +179,10 @@ README for what is needed and why.
 
 ## Open Questions
 
+- **Does it survive the finale?** Baylan kills everyone. Whether that includes the
+  animal is both a story question and the last image of Jasu's power.
+- Where did Jasu get it? It is the source of her position, so its acquisition is
+  her backstory.
 - **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but
   the breakdown tracks none of them. Needed for the creature's own shot list, for
   `Scene-Index.md`, and for any schedule built from the breakdown export.

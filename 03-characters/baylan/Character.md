@@ -176,9 +176,16 @@ once. A functional harness carrying ammunition and tools rather than trophies.
 Heavy boots, resoled. Everything muted — charcoal, ash brown, dust brown, faded
 olive.
 
-He carries no ornament, no faction marking, no personal flourish. In a crew that
-decorates itself, his plainness is the only unusual thing about him — and it
-reads as a dull man rather than a hiding one.
+He carries no ornament, no faction marking, no personal flourish.
+
+This matters more now that the faction is settled: **there is no mercenary
+uniform.** Everyone in this crew assembled their own kit, can afford good
+salvage, and displays personal taste — trophies, marks, preference visible in
+silhouette. Baylan is the only member who decorated nothing.
+
+In a crew of individuals, his plainness is the one odd thing about him — and it
+reads as a dull man rather than a hiding one, which is exactly what he needs.
+See [`04-factions/mercenaries/Faction.md`](../../04-factions/mercenaries/Faction.md).
 
 ### The remnant
 
@@ -348,8 +355,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   requires one. A limp, a hand, an ear — it would explain the weight he carries
   and give the actor something. Or his damage is entirely internal.
 - **How deniable is the Shin Hati connection meant to be on screen?**
-- Confirm the mercenary crew's shared costume language before locking his outer
-  layers — he has to disappear into it.
+- Does he wear anything at all that suggests preference? The faction has no
+  uniform, so total plainness is itself a choice — and eighteen years is a long
+  time to own nothing you like.
 
 ## Revision History
 

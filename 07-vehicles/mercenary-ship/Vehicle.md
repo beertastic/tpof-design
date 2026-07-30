@@ -48,6 +48,34 @@ feel *cramped, functional and lived in rather than luxurious* — and it gives a
 diegetic reason the crew is ten and not twenty, which removes any need to justify
 the headcount.
 
+## Where the akk dog lives
+
+**Proposed: the gun turret.** It sleeps curled inside one of the ship's turret
+blisters. Cargo hold is the fallback.
+
+A YT turret is a cramped spherical space — genuinely plausible for a large animal
+to curl into, and far more interesting than a pen.
+
+**Why it is the right answer:**
+
+- **They gave up a gun position to a weapon that sleeps.** The animal *is* the
+  gun, and nobody on that crew ever had to say so.
+- It is absurd and slightly sad, which suits a beast that adores a woman who will
+  spend it.
+- One turret is therefore **unusable**, permanently. That is a real operational
+  cost the crew has simply accepted, and it says as much about Jasu's standing as
+  any dialogue could.
+- It solves the spatial problem on an over-capacity ship without displacing crew
+  bunks — though the hair, the smell and the noise are everyone's problem.
+
+**Not referenced in the script.** A visual beat rather than a plot point, and a
+good one — a single shot of an akk dog asleep in a gun blister tells an audience
+everything about this crew.
+
+If the turret does not work practically, the **cargo hold** is the fallback, in
+which case it has displaced somebody's sleeping space and that person has
+feelings about it.
+
 ### It makes Baylan's eighteen years worse
 
 He has hidden what he is for eighteen years **in a space where you cannot be
@@ -84,8 +112,8 @@ interior exists.
 - Confirm exact YT-2000 dimensions against production reference.
 - Does the interior appear on screen in this film, or only the exterior and the
   camp beside it?
-- Where does **the akk dog** live? A large war beast on a light freighter is a
-  genuine spatial problem, and it needs solving before the interior is finalised.
+- Confirm the akk dog's turret. Does the built digital interior have turret
+  interiors modelled, and can one take an animal that size?
 - Is Scene 1's "metal ship" this vessel, or a third ship?
 - Does the crew have a second vessel? Currently assumed not — one ship is the
   constraint that sets the crew size.

@@ -115,8 +115,11 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~Which YT model?~~ **YT-2000** — centred cockpit, symmetrical, deliberately not the
       Falcon. Confirmed 2026-07-30. Verify exact dimensions before locking the exterior.
 - [ ] The mercenary ship has no name or registry.
-- [ ] Where does the akk dog live on a YT freighter? A large animal on a small ship is
-      its own design problem.
+- [x] ~~Where does the akk dog live on the ship?~~ **Proposed: curled in a gun turret**,
+      cargo hold as fallback. One turret permanently unusable — they gave up a gun position
+      to a weapon that sleeps. Not scripted; a visual beat. 2026-07-30.
+- [ ] Does the built digital interior have turret interiors modelled, and can one take an
+      animal that size?
 - [ ] Any named crew missing from the clearing?
 - [x] ~~Do the escapees share a mark?~~ **No.** They escaped a slave auction and share an
       escape, not an origin — different owners, different lots. Group reads through
@@ -126,4 +129,6 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~Does Baylan speak in Sc.24A?~~ **Open, but the gesture is fixed: he extends his hand
       and she takes it.** She must be the one who moves. 2026-07-30.
 - [ ] Does the auction appear on screen — cold open, flashback, or referenced only?
-- [ ] What was the accident that triggered the revolt?
+- [x] ~~What was the accident that triggered the revolt?~~ **Deliberately vague and never
+      addressed.** Something far away — a fight, a refuelling explosion. The point is it had
+      nothing to do with them. Do not dramatise it into a rescue. 2026-07-30.

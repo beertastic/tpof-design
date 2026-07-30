@@ -20,9 +20,26 @@ by Captain Jasu's mercenaries. Four are named; the rest are background.
 
 ## Where they came from — the auction
 
-**They escaped from a slave auction.** An accident during the sale triggered a
-mass revolt; dozens broke out. **These four found each other in the mayhem and
-stole a ship** — the rickety vessel that comes down in Scene 2.
+**They escaped from a slave auction.** An accident triggered mass chaos; dozens
+broke out. **These four found each other in the mayhem and stole a ship** — the
+rickety vessel that comes down in Scene 2.
+
+### The accident is deliberately vague, and stays that way
+
+**It is never addressed in the script and should not be.** Something happened
+somewhere else — a fight that got out of hand, a refuelling that went wrong, an
+explosion at the far end of the port. Nobody knows and nobody in the film asks.
+
+**The important quality is that it had nothing to do with them.**
+
+Nobody rescued these people. Nobody sabotaged anything on their behalf. Something
+went wrong elsewhere, thousands of people looked the other way for a minute, and
+the slaves saw a gap and took it.
+
+> **Rule for later material:** do not dramatise this into a rescue, a revolt or an
+> act of resistance. The instinct will be to make the escape *meaningful*. It is
+> not. They owe their freedom to an accident that was not about them, and that is
+> the point.
 
 This is the single most useful fact about the faction, and it settles several
 design questions at once.
@@ -212,7 +229,7 @@ See [`03-characters/shin/Character-Lock.md`](../../03-characters/shin/Character-
 
 - Does the auction appear on screen — a cold open, a flashback, or purely
   referenced? It is the second unfilmed event after the crash.
-- What was the accident that triggered the revolt?
+
 - Is there any marking specific to a *single* character's former owner? Nothing
   shared, but individual marks remain possible.
 - What is Jeyin's injury and does it relate to her work?

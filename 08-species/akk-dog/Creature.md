@@ -185,6 +185,18 @@ Design consequence: their proximity should be visible earlier — he should be n
 it, unbothered by it, in at least one camp scene before the finale, so the
 audience has the information before they need it.
 
+## Where it lives
+
+**Proposed: curled inside one of the ship's gun turrets.** A YT-2000 turret
+blister is a cramped spherical space and plausibly animal-sized.
+
+One turret is therefore permanently out of action — **the crew gave up a gun
+position to a weapon that sleeps.** Nobody says it aloud. Cargo hold is the
+fallback.
+
+Not referenced in the script; a visual beat rather than a plot point. See
+[`07-vehicles/mercenary-ship/`](../../07-vehicles/mercenary-ship/).
+
 ## Handling and Behaviour
 
 - **It obeys Jasu.** Voice command is sufficient; she sets it on a target and

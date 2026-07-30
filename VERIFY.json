@@ -1,59 +1,34 @@
 [
   {
-    "pdf": "03-characters/shada/Production-Board.pdf",
-    "page_points": [
-      1683.78,
-      1190.55
-    ],
-    "png": "03-characters/shada/renders/Production-Board-A2-300dpi.png",
+    "file": "Production-Board-A2-300dpi.png",
     "pixels": [
       7016,
       4961
     ]
   },
   {
-    "pdf": "03-characters/shada/Costume-Board.pdf",
-    "page_points": [
-      1683.78,
-      1190.55
-    ],
-    "png": "03-characters/shada/renders/Costume-Board-A2-300dpi.png",
+    "file": "Costume-Board-A2-300dpi.png",
     "pixels": [
       7016,
       4961
     ]
   },
   {
-    "pdf": "03-characters/shada/Weapons-Board.pdf",
-    "page_points": [
-      1683.78,
-      1190.55
-    ],
-    "png": "03-characters/shada/renders/Weapons-Board-A2-300dpi.png",
+    "file": "Weapons-Board-A2-300dpi.png",
     "pixels": [
       7016,
       4961
     ]
   },
   {
-    "pdf": "03-characters/shada/Performance-Board.pdf",
-    "page_points": [
-      1683.78,
-      1190.55
-    ],
-    "png": "03-characters/shada/renders/Performance-Board-A2-300dpi.png",
+    "file": "Performance-Board-A2-300dpi.png",
     "pixels": [
       7016,
       4961
     ]
   },
   {
-    "pdf": "03-characters/shada/Materials-Board.pdf",
-    "page_points": [
-      1683.78,
-      1190.55
-    ],
-    "png": "03-characters/shada/renders/Materials-Board-A2-300dpi.png",
+    "file": "Materials-Board-A2-300dpi.png",
     "pixels": [
       7016,
       4961

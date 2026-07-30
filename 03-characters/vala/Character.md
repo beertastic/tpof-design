@@ -205,7 +205,11 @@ TBD.
 - How many mercenaries does the grenade actually take? Three to five is the
   intent; the exact number changes the clearing headcount.
 - Is the staff scavenged, or arena equipment she has kept?
-- Where is the post-credit scene set?
+- Where is the post-credit scene set? **Recommendation: include the akk dog.** It
+  is also left alive on that planet, unconscious in the clearing, and the shot is
+  already being made. Two survivors, both left for dead.
+- Does Vala know the akk dog killed Jeyin? She was fighting elsewhere when it
+  happened, so she may not — which is worth keeping.
 - In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan
   first and Shin defend him? Different films for Shin.
 - How much of the arena is visible on her body — scarring, breaks, missing

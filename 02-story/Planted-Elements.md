@@ -92,6 +92,26 @@ clasp — and keeps it. She keeps Vala with her anyway.
 
 ---
 
+## P2b — The akk dog survives too
+
+**Planted:** Shin knocks it out with a Force blast. Baylan will not kill it —
+he has fed it for eighteen years — so it is left unconscious in the clearing,
+alive, abandoned on the planet.
+
+**Pays off:** It is on that planet with Vala. Two survivors, both left for dead,
+and **Vala may not know this animal killed Jeyin** — she was fighting elsewhere
+when it happened.
+
+### Required in this film
+
+- **Include it in Vala's post-credit scene.** The shot is being made anyway and
+  the rig exists. Costs one element.
+- Shin is never asked whether it should die. That absence is deliberate and she
+  may return to it.
+- **Archive the rig.**
+
+---
+
 ## P3 — The clasp
 
 **Planted:** Vala gives it to Shin in Scene 22 as a promise.
@@ -179,7 +199,7 @@ likes him.
 | Baylan's lightsaber hilt | Continues. **Blade changes yellow → orange in this film**, at Nyx's death |
 | Baylan's crystal and pouch | Continues |
 | Shin's costume | Reference for what she leaves the clearing in |
-| The akk dog rig | Fate undecided; may recur |
+| The akk dog rig | **Survives.** Left alive on the planet; recurs |
 
 ## Open
 

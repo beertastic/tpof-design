@@ -234,12 +234,7 @@ README for what is needed and why.
 
 ## Open Questions
 
-- **Does it survive the finale? Undecided.** Current thinking is that **Shin
-  knocks it out with a Force blast** — which would make it the target of her first
-  active use of power. Whether it dies, wakes, or is left in the clearing is open.
-  Note the tension worth resolving deliberately: Baylan has fed this animal for
-  years, and Shin has every reason to want it dead.
-- Does Baylan's connection to it change what he does about it in the finale?
+- Does Baylan look at it before he leaves?
 - Does anything on the animal predate Jasu — older tack, a mark, a scar she did
   not cause?
 - **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but

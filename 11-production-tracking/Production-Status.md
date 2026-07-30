@@ -48,7 +48,7 @@
 
 | Asset | Status | Notes |
 |---|---|---|
-| Akk Dog | Asset built and rigged | Jasu's. Unnamed. Kills Jeyin in the finale. Scene list pending. |
+| Akk Dog | Asset built and rigged | Jasu's. Unnamed. Kills Jeyin. **Survives** — left on the planet with Vala |
 
 ## Vehicles
 

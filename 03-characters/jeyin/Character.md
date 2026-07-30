@@ -148,16 +148,24 @@ death:
 toddler; functionally she has never known life outside captivity. Jeyin has, and
 carries the difference.
 
-### Why did she stay? — open, and it is the question that explains her
+### Why she stayed — confirmed 2026-07-30
 
-The production's current thinking is that Jeyin may have had some means of
-leaving and **stayed because of a threat to Shin** — that her daughter was
-threatened, possibly sexually, and that leaving meant Shin faced it alone.
+**She could not abandon her daughter.** Whether that is protection or simply the
+fear of losing her is deliberately not separated — it is both, and Jeyin
+herself would not be able to tell you which.
 
-If that is right, it reframes everything:
+There may have been an explicit threat. At an auction, lots get split, and
+staying close was the only way to remain in the same lot. But the mechanism is
+not the point. **The point is that she could not leave**, and that she made that
+decision every day for fifteen years.
+
+This reframes everything:
 
 - **She is a captive by choice**, which makes her different in kind from Vala and
   Krellis. Fifteen years of standing between her child and something.
+- **She may not look like a prisoner.** If she had any freedom of movement and
+  never used it, her costume should read as *a servant who stayed* rather than
+  someone held. The others were confined; she was tethered.
 - It explains why **everything went to her daughter** — the better-kept clothes,
   presumably the food, and the shielding that leaves Shin still capable of being
   horrified by Vala's arena story in Scene 17.
@@ -227,9 +235,9 @@ TBD.
 
 - What is the injury, when exactly does it happen, and what is its visible state
   in each of scenes 16, 17, 18, 21, 22 and 24?
-- **Why did she stay?** See above. The single most useful unanswered question
-  about this character, and it determines her status, her costume and the weight
-  of her death.
+- Was there an explicit threat, and if so from whom? A named person would survive
+  the revolt and be available for Films 2–3 — but it is not required.
+- Does Shin know her mother could have left?
 - What was she before captivity? She remembers freedom, so there is a life to
   reference — and it should show somewhere.
 

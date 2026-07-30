@@ -14,9 +14,9 @@
 - [x] ~~Does Shin remember freedom?~~ **No.** Taken as a toddler at the latest; she has no
       life outside captivity. Designed as indoor skin, soft feet, Sc.8 as first sight.
       Confirmed 2026-07-30.
-- [ ] **Why did Jeyin stay?** Was Shin threatened in a way that made leaving impossible?
-      Would make Jeyin a captive by choice and her death the removal of a shield. The most
-      useful unanswered question about her.
+- [x] ~~Why did Jeyin stay?~~ **She could not abandon her daughter** — protection and fear
+      of loss, not separated. A captive by choice; may not read as a prisoner at all.
+      2026-07-30.
 - [x] ~~Palpatine — full document or vision-only?~~ **Glimpsed, minimal reference only.**
       `03-characters/palpatine/Reference.md`. Must not be staged recognisably. 2026-07-30.
 - [x] ~~Is Baylan a mercenary or a captive?~~ Neither — an Order 66 Jedi survivor hiding as a
@@ -56,8 +56,9 @@
       recommendation on file: play it on her face; her lack of fear is the shot.
 - [ ] Confirm akk dog tack. Recommendation on file: heavy salvaged collar, no lead, no
       muzzle — it obeys by voice and nothing ever physically restrains it.
-- [ ] Does the akk dog survive? Current thinking: Shin knocks it out with a Force blast.
-      Fate beyond that undecided. Baylan has fed it for years; Shin wants it dead.
+- [x] ~~Does the akk dog survive?~~ **Yes.** Knocked out, left alive and abandoned in the
+      clearing — the only living thing Baylan spares, because he fed it. Recommendation:
+      put it in Vala's post-credit. 2026-07-30.
 - [x] ~~What drives Shin's Force blast?~~ **Fear and anger.** Which makes it proof that
       Baylan is right and her mother wrong, seconds after the unfinished warning. Exact
       placement in the sequence still open. 2026-07-30.

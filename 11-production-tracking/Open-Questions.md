@@ -7,11 +7,13 @@
 - [ ] What is the forest world's canonical name?
 - [ ] What is the mercenary ship's canonical name and class?
 - [ ] Are “Slaves” and “Escapees” the same production faction label?
-- [ ] Should Palpatine and the Young Girl receive full design documents or remain vision-only references?
+- [ ] Should Palpatine receive a full design document or remain a vision-only reference?
 - [x] ~~Is Baylan a mercenary or a captive?~~ Neither — an Order 66 Jedi survivor hiding as a
       mercenary. Confirmed 2026-07-30.
-- [ ] Who is the Young Girl in Baylan's Scene 4 vision? His Padawan, a youngling he failed,
-      or a prophetic glimpse of Shin? Changes his face and the crystal's provenance.
+- [x] ~~Who is the Young Girl in Baylan's Scene 4 vision?~~ **She is Shin.** The two visions
+      are one, seen from both ends; the scream is the one she makes in the finale. Confirmed
+      2026-07-30. Crystal is therefore Baylan's own. `young-girl` folder merged into Shin.
+      SOUND DEPT: Scene 4 and the finale scream must be the same performance.
 - [ ] What happened on the dune (Scene 12)? Determines whether Baylan carries a visible injury.
 - [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already

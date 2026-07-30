@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.2"
+version: "1.3"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -52,7 +52,7 @@ decade later.
 | Scene | Beat | Design consequence |
 |---|---|---|
 | 3 | Sits cross-legged in a clearing, eyes shut, flinching at remembered screams and lightsabers | Meditation posture must be readable; costume has to work seated and folded |
-| 4 | The vision — red and green blades, blaster fire, a Young Girl's scream | His wound, heard not seen |
+| 4 | The vision — red and green blades, blaster fire, **a girl's scream** | Not a memory. See *The Two Visions* |
 | 5 | Eyes closed, "focusing on a new sound after years of reliving his past" | Eighteen years of the same nightmare; it is on his face |
 | 7 | Nyx orders him to unload the ship and make camp; he watches, shaken, from the clearing's edge | He does manual labour. The costume is workwear that has actually worked |
 | 9 | Jasu briefs the camp; Baylan worries and recalls past missions | He is a subordinate, not an officer |
@@ -63,6 +63,35 @@ decade later.
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
 | 20 | Carries a heavy rifle; Nyx teases him about his blaster; Jasu hands him the scanner | The rifle is his working weapon. The blaster is not |
 | 24A | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
+
+## The Two Visions
+
+**The girl screaming in Scene 4 is Shin.**
+
+Baylan's vision and Shin's vision are the same vision, seen from opposite ends.
+He has been hearing a girl scream for eighteen years without knowing who she is;
+she is fifteen, and has not screamed yet.
+
+The loop closes in the clearing. **The scream that has haunted him since the
+purge is the one she makes when her mother dies** — which means he has spent
+eighteen years being haunted by the sound of the moment he finally stops hiding.
+
+### Consequences
+
+- **His Scene 4 vision is not purely memory.** It is Order 66 — red and green
+  blades, blaster fire — with a sound from eighteen years in the future laid
+  through it. A composite, and it should feel wrong in a way he cannot place.
+  That is why Scene 5 has him "focusing on a *new* sound."
+- **He recognises her.** When he sees Shin in the clearing he knows her, and that
+  is why he acts. He is not rescuing a stranger.
+- **The scream is a continuity asset.** The sound in Scene 4 and the sound Shin
+  makes in the finale must be the same performance — ideally the same take. This
+  is a sound-department requirement, and it is the thing that makes the structure
+  legible to an audience.
+- **The crystal is his own.** Since the girl is not a dead apprentice, the yellow
+  crystal came from his own lightsaber. He is rebuilding *his* weapon, not
+  finishing someone else's.
+- The character formerly filed as `Young Girl` does not exist. She is Shin.
 
 ## The Ending
 
@@ -306,12 +335,6 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 ## Open Questions
 
-- **Who is the Young Girl in the Scene 4 vision?** Her scream is the centre of
-  his wound and it is currently unassigned. If she was his Padawan, the yellow
-  crystal has an obvious former owner and Scene 15 becomes a nightly act of
-  grief rather than maintenance. If she is a prophetic glimpse of Shin, the two
-  visions are the same vision and the film is tighter. This is the last major
-  decision and it changes his face.
 - **What happened on the dune?** Scene 12 shows a blaster firing and Baylan
   turning. Whether he was shot, whether he killed the clone, and whether the
   girl died there determines whether he carries a visible injury from that day.
@@ -332,6 +355,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.3 | 2026-07-30 | in-development | The Scene 4 girl confirmed as Shin — the two visions are one, seen from both ends. Crystal confirmed as his own. `young-girl` merged into Shin. |
 | 1.2 | 2026-07-30 | in-development | Scene 15 confirmed as the lightsaber reconstruction, not disassembly. Finale is the first ignition. Blaster specified in three physical states. |
 | 1.1 | 2026-07-30 | in-development | Ending recorded: he kills the entire mercenary crew in the clearing and leaves with Shin. Flagged the finale weapon as the largest open question. |
 | 1.0 | 2026-07-30 | in-development | Full character built from breakdown + Production Designer interview. Established as an Order 66 survivor hiding as a mercenary; saber-converted-to-blaster established as hero prop; timeline fixed at ~1 BBY. |

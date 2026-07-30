@@ -1,7 +1,7 @@
 ---
 title: "Shin"
 asset_id: "CHAR-SHIN"
-version: "1.1"
+version: "1.2"
 status: "in-development"
 faction: "Slaves / Escapees"
 species: "Human"
@@ -47,6 +47,7 @@ what Jeyin dies doing.
 
 | Scene | Beat | Design consequence |
 |---|---|---|
+| 4 | **Her scream cuts through Baylan's vision** — eighteen years before she makes it | She is in this film from Scene 4, as a sound |
 | 6 | Racing through the forest; **a pulsing shadow surrounds her.** Nyx's voice calls *"Bay"* as she looks into camera | The first manifestation. She does not know she is causing it |
 | 8 | The band pauses, exhausted, and **Shin marvels at the sky** | Wonder, not relief. She looks up when nobody else does |
 | 11 | Night camp, dying fire, her **dirt-smeared exhausted face. She cannot sleep** | Not only tiredness — she is afraid of what happens when she closes her eyes |
@@ -57,6 +58,24 @@ what Jeyin dies doing.
 | 21 | A blaster shot nearly hits Krellis; Vala pulls them into a ditch | Terror, mud, close quarters |
 | 22 | Vala goes to draw the enemy off and **gives Shin a clasp as a promise.** Costume noted as **"Tunic"** | The hero prop enters |
 | 24/24A | The clearing. See **The Ending** below | Everything she has is taken, and the man from her visions is standing there |
+
+## The Two Visions
+
+**Shin is the "Young Girl" of Scene 4.** Baylan's vision and hers are the same
+vision seen from opposite ends: he has been hearing her scream for eighteen years
+without knowing who she is, and she is fifteen and has not screamed yet.
+
+The scream he hears is **the one she makes when her mother dies.** He has spent
+eighteen years haunted by the sound of the moment he finally acts.
+
+- She is present in the film from Scene 4 onward — as a sound, before she is ever
+  a face.
+- **The scream is a continuity asset.** Scene 4's sound and her sound in the
+  finale must be the same performance, ideally the same take.
+- When he sees her in the clearing, **he recognises her.** She does not recognise
+  him — except she has seen him, on a dune, in robes, in Scene 12.
+- The placeholder character `Young Girl` has been merged into this document. She
+  was never a separate person.
 
 ## The Ending
 
@@ -213,7 +232,8 @@ nothing that says anything about him, while she has nothing at all.
 
 ## Scene Appearances
 
-Scenes 6, 8, 11, 12, 16, 17, 18, 21, 22, 24, 24A — ten scenes.
+Scenes **4** (voice only), 6, 8, 11, 12, 16, 17, 18, 21, 22, 24, 24A — eleven
+scenes, of which one is a sound heard inside another character's vision.
 
 See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
 
@@ -260,6 +280,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.2 | 2026-07-30 | in-development | Confirmed as the "Young Girl" of Scene 4 — the two visions are one. `young-girl` placeholder merged in. Scene count 10 → 11. |
 | 1.1 | 2026-07-30 | in-development | Ending recorded: she witnesses the whole killing, speaks to her dying mother, and leaves with Baylan. Hair confirmed NOT cut in this film. |
 | 1.0 | 2026-07-30 | in-development | Full character built from breakdown + Production Designer interview. Established as co-lead, Force-unaware and red-haired; clasp established as the origin of a later-known object; three-film arc recorded. |
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |

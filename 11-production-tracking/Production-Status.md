@@ -21,7 +21,7 @@
 | Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
-| Shin | In development | **Co-lead.** Locked for board review. 10 scenes; prompt pack ready. |
+| Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
 | Vala | Placeholder | Escapee |
 | Krellis | Placeholder | Escapee medic |
 

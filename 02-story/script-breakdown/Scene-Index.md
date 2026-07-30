@@ -5,7 +5,7 @@
 | 1 | Space | Evening | — |
 | 2 | Sky | Evening | — |
 | 3 | Forest | Evening | Baylan |
-| 4 | Force Vision | Evening | Young Girl |
+| 4 | Force Vision | Evening | Shin (voice only) |
 | 5 | Forest | Evening | Baylan |
 | 6 | Forest | Evening | Nyx, Jeyin, Shin |
 | 7 | Forest | Evening | Nyx, Baylan, Mercenary |
@@ -33,6 +33,9 @@
 - RESOLVED 2026-07-30: `Bay` and `Baylan` are the same character. Canonical asset name is
   `Baylan`; `Bay` is the short form. The breakdown credits both names separately in Scene 24A,
   so that scene's stated count of 13 characters is really 12.
+- RESOLVED 2026-07-30: the `Young Girl` of Scene 4 is **Shin**. Baylan's Scene 4 vision and
+  Shin's Scene 12 vision are the same vision seen from both ends; the scream he hears is the
+  one she makes in the finale. The `young-girl` placeholder has been merged into Shin.
 - The earlier cast list included `Freya`; the breakdown names `Reya Fenn`.
 - The earlier cast list included `Charlie`; no character with that name appears in this breakdown export.
 - `Mercenary` and `Mercenaries` are treated as generic/background roles pending clarification.

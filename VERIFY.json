@@ -1,37 +1,37 @@
 [
   {
-    "file": "Production-Board-A2-300dpi.png",
-    "pixels": [
-      7016,
-      4961
+    "pdf": "Production-Board.pdf",
+    "points": [
+      1683.78,
+      1190.52
     ]
   },
   {
-    "file": "Costume-Board-A2-300dpi.png",
-    "pixels": [
-      7016,
-      4961
+    "pdf": "Costume-Board.pdf",
+    "points": [
+      1683.78,
+      1190.52
     ]
   },
   {
-    "file": "Weapons-Board-A2-300dpi.png",
-    "pixels": [
-      7016,
-      4961
+    "pdf": "Weapons-Board.pdf",
+    "points": [
+      1683.78,
+      1190.52
     ]
   },
   {
-    "file": "Performance-Board-A2-300dpi.png",
-    "pixels": [
-      7016,
-      4961
+    "pdf": "Performance-Board.pdf",
+    "points": [
+      1683.78,
+      1190.52
     ]
   },
   {
-    "file": "Materials-Board-A2-300dpi.png",
-    "pixels": [
-      7016,
-      4961
+    "pdf": "Materials-Board.pdf",
+    "points": [
+      1683.78,
+      1190.52
     ]
   }
 ]

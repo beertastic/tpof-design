@@ -1,215 +1,275 @@
 #!/usr/bin/env python3
-"""Generate TPOF character production boards from JSON data and artwork.
+"""TPOF top-level character-board generator.
 
-Usage:
-    python tools/board-generator/generate.py 03-characters/shada
-    python tools/board-generator/generate.py 03-characters/shada --pdf-only
-    python tools/board-generator/generate.py 03-characters/shada --png-only
+Examples:
+  python tools/board-generator/generate.py shada
+  python tools/board-generator/generate.py shada --board weapons
+  python tools/board-generator/generate.py shada --dpi 150
+  python tools/board-generator/generate.py shada --pdf-only
+  python tools/board-generator/generate.py shada --validate
+  python tools/board-generator/generate.py --all
 
-The script is character-agnostic. It reads <character>/board-data.json and
-places the referenced artwork into a fixed A2 landscape template. Text is
-drawn as vector PDF typography, avoiding AI-generated blurry lettering.
+The generator discovers character folders that already exist. It never creates
+missing character directories when using --all, so deleted characters remain
+deleted.
 """
 from __future__ import annotations
 
 import argparse
+import copy
 import json
+import shutil
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
+from typing import Any
 
+import fitz
+import yaml
 from PIL import Image
-from reportlab.lib.colors import HexColor
-from reportlab.lib.pagesizes import A2, landscape
-from reportlab.lib.utils import ImageReader
-from reportlab.pdfbase.pdfmetrics import stringWidth
-from reportlab.pdfgen import canvas
+from pptx import Presentation
+from pptx.dml.color import RGBColor
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.text import PP_ALIGN
+from pptx.util import Inches, Pt
 
-try:
-    import fitz  # PyMuPDF
-except ImportError:
-    fitz = None
+BOARD_ORDER = ["production", "costume", "weapons", "performance", "materials"]
+A2_WIDTH_IN = 23.386
+A2_HEIGHT_IN = 16.535
 
-PAGE_W, PAGE_H = landscape(A2)
 
-def load_json(path: Path) -> dict:
+def find_repo_root(start: Path) -> Path:
+    current = start.resolve()
+    for candidate in [current, *current.parents]:
+        if (candidate / "03-characters").is_dir() and (candidate / "tools").exists():
+            return candidate
+    raise SystemExit("Could not locate repository root containing 03-characters/ and tools/.")
+
+
+def load_yaml(path: Path) -> dict[str, Any]:
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     except FileNotFoundError as exc:
-        raise SystemExit(f"Missing required file: {path}") from exc
-    except json.JSONDecodeError as exc:
-        raise SystemExit(f"Invalid JSON in {path}: {exc}") from exc
+        raise SystemExit(f"Missing configuration: {path}") from exc
+    except yaml.YAMLError as exc:
+        raise SystemExit(f"Invalid YAML in {path}: {exc}") from exc
 
-def wrap_lines(text: str, width: float, font: str, size: float) -> list[str]:
-    words = text.split()
-    lines, current = [], ""
-    for word in words:
-        test = f"{current} {word}".strip()
-        if stringWidth(test, font, size) <= width:
-            current = test
+
+def rgb(hex_value: str) -> RGBColor:
+    value = hex_value.lstrip("#")
+    if len(value) != 6:
+        raise ValueError(f"Expected six-digit hex colour, got {hex_value!r}")
+    return RGBColor(*(int(value[i:i+2], 16) for i in (0, 2, 4)))
+
+
+def deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
+    result = copy.deepcopy(base)
+    for key, value in override.items():
+        if isinstance(value, dict) and isinstance(result.get(key), dict):
+            result[key] = deep_merge(result[key], value)
         else:
-            if current:
-                lines.append(current)
-            current = word
-    if current:
-        lines.append(current)
-    return lines
+            result[key] = copy.deepcopy(value)
+    return result
 
-def draw_wrapped(c, text, x, y, width, font="Helvetica", size=12,
-                 leading=16, colour=HexColor("#161817"), max_lines=None):
-    c.setFont(font, size)
-    c.setFillColor(colour)
-    lines = wrap_lines(text, width, font, size)
-    if max_lines:
-        lines = lines[:max_lines]
-    for line in lines:
-        c.drawString(x, y, line)
-        y -= leading
-    return y
 
-def draw_fitted_image(c, image_path: Path, x, y, w, h):
-    with Image.open(image_path) as im:
+def resolve_character_dir(repo: Path, name: str) -> Path:
+    direct = repo / "03-characters" / name
+    if direct.is_dir():
+        return direct
+    lowered = name.casefold()
+    matches = [p for p in (repo / "03-characters").iterdir() if p.is_dir() and p.name.casefold() == lowered]
+    if len(matches) == 1:
+        return matches[0]
+    raise SystemExit(f"Character folder does not exist: 03-characters/{name}")
+
+
+def discover_characters(repo: Path) -> list[Path]:
+    found = []
+    for path in sorted((repo / "03-characters").iterdir()):
+        if path.is_dir() and (path / "board-data.yaml").is_file():
+            found.append(path)
+    return found
+
+
+def validate(repo: Path, character_dir: Path, config: dict[str, Any], selected: set[str] | None = None) -> list[str]:
+    errors: list[str] = []
+    required = ["project", "character", "asset_id", "version", "status", "boards"]
+    for key in required:
+        if key not in config:
+            errors.append(f"missing key: {key}")
+    boards = config.get("boards", {})
+    for board_name in BOARD_ORDER:
+        if selected and board_name not in selected:
+            continue
+        board = boards.get(board_name)
+        if not board:
+            errors.append(f"missing board configuration: {board_name}")
+            continue
+        for item in board.get("images", []):
+            rel = item.get("path")
+            if not rel:
+                errors.append(f"{board_name}: image entry missing path")
+                continue
+            image_path = character_dir / rel
+            if not image_path.is_file():
+                errors.append(f"{board_name}: missing image {rel}")
+            else:
+                try:
+                    with Image.open(image_path) as im:
+                        im.verify()
+                except Exception as exc:
+                    errors.append(f"{board_name}: unreadable image {rel}: {exc}")
+        if not board.get("sections"):
+            errors.append(f"{board_name}: no text sections")
+    for rel in config.get("governing_documents", []):
+        target = (character_dir / rel).resolve()
+        if not target.exists():
+            errors.append(f"missing governing document: {rel}")
+    return errors
+
+
+def add_rect(slide, x, y, w, h, fill, line):
+    shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(x), Inches(y), Inches(w), Inches(h))
+    shape.fill.solid(); shape.fill.fore_color.rgb = fill
+    shape.line.color.rgb = line; shape.line.width = Pt(0.6)
+    return shape
+
+
+def add_text(slide, value, x, y, w, h, size, colour, bold=False, align=PP_ALIGN.LEFT):
+    box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h))
+    frame = box.text_frame; frame.clear(); frame.word_wrap = True
+    paragraph = frame.paragraphs[0]; paragraph.text = str(value); paragraph.alignment = align
+    for run in paragraph.runs:
+        run.font.name = "Aptos"; run.font.size = Pt(size); run.font.bold = bold; run.font.color.rgb = colour
+    return box
+
+
+def add_image_contain(slide, path: Path, x, y, w, h, panel, line):
+    add_rect(slide, x, y, w, h, panel, line)
+    with Image.open(path) as im:
         iw, ih = im.size
-    scale = max(w / iw, h / ih)
+    scale = min(w / iw, h / ih)
     dw, dh = iw * scale, ih * scale
-    dx, dy = x + (w - dw) / 2, y + (h - dh) / 2
-    c.saveState()
-    path = c.beginPath()
-    path.rect(x, y, w, h)
-    c.clipPath(path, stroke=0, fill=0)
-    c.drawImage(ImageReader(str(image_path)), dx, dy, dw, dh, preserveAspectRatio=True, mask="auto")
-    c.restoreState()
+    px, py = x + (w - dw) / 2, y + (h - dh) / 2
+    slide.shapes.add_picture(str(path), Inches(px), Inches(py), Inches(dw), Inches(dh))
 
-def make_pdf(character_dir: Path, board: dict, data: dict, style: dict) -> Path:
-    out = character_dir / board["filename"]
-    bg = HexColor(style["background"])
-    ink = HexColor(style["ink"])
-    muted = HexColor(style["muted"])
-    accent = HexColor(style["accent"])
-    panel = HexColor(style["panel"])
-    line = HexColor(style["line"])
 
-    c = canvas.Canvas(str(out), pagesize=(PAGE_W, PAGE_H))
-    c.setTitle(f'{data["character"]} - {board["title"]}')
-    c.setAuthor("TPOF Art Department")
-    c.setSubject("Production Design Bible character board")
-    c.setFillColor(bg)
-    c.rect(0, 0, PAGE_W, PAGE_H, fill=1, stroke=0)
+def add_section(slide, section, style):
+    x, y, w, h = (section[k] for k in ("x", "y", "w", "h"))
+    add_rect(slide, x, y, w, h, style["panel"], style["line"])
+    add_text(slide, section["heading"], x + 0.18, y + 0.12, w - 0.36, 0.34,
+             section.get("heading_size", 11.5), style["accent"], True)
+    box = slide.shapes.add_textbox(Inches(x + 0.18), Inches(y + 0.52), Inches(w - 0.34), Inches(h - 0.62))
+    frame = box.text_frame; frame.clear(); frame.word_wrap = True
+    for index, item in enumerate(section.get("items", [])):
+        p = frame.paragraphs[0] if index == 0 else frame.add_paragraph()
+        p.text = "• " + str(item); p.space_after = Pt(section.get("space_after", 4))
+        p.font.name = "Aptos"; p.font.size = Pt(section.get("font_size", 12)); p.font.color.rgb = style["ink"]
 
-    margin = 32
-    header_h = 72
-    footer_h = 34
 
-    c.setFillColor(ink)
-    c.setFont("Helvetica-Bold", 27)
-    c.drawString(margin, PAGE_H - 42, data["character"].upper())
-    c.setFont("Helvetica-Bold", 15)
-    c.drawString(220, PAGE_H - 36, board["title"])
-    c.setFont("Helvetica", 8.5)
-    meta = (
-        f'PROJECT: {data["project"].upper()}   |   ASSET: {data["asset_id"]}   |   '
-        f'STATUS: {data["status"]}   |   VERSION: {data["version"]}   |   DATE: {data["date"]}'
-    )
-    c.drawString(220, PAGE_H - 52, meta)
-    c.setStrokeColor(line)
-    c.line(margin, PAGE_H - header_h, PAGE_W - margin, PAGE_H - header_h)
+def make_deck(repo: Path, character_dir: Path, config: dict[str, Any], template: dict[str, Any], boards: list[str]) -> tuple[Path, list[str]]:
+    style_cfg = deep_merge(template.get("style", {}), config.get("style", {}))
+    style = {k: rgb(v) for k, v in style_cfg.items()}
+    prs = Presentation(); prs.slide_width = Inches(A2_WIDTH_IN); prs.slide_height = Inches(A2_HEIGHT_IN)
+    created = []
+    for page_index, board_name in enumerate(boards, 1):
+        board = config["boards"][board_name]
+        slide = prs.slides.add_slide(prs.slide_layouts[6])
+        slide.background.fill.solid(); slide.background.fill.fore_color.rgb = style["background"]
+        add_text(slide, config["character"].upper(), 0.45, 0.25, 2.4, 0.65, 30, style["ink"], True)
+        add_text(slide, board["title"], 3.0, 0.30, 13.5, 0.45, 19, style["ink"], True)
+        meta = f'{board.get("label", board_name.upper())} | ASSET {config["asset_id"]} | VERSION {config["version"]} | STATUS {config["status"]} | {config.get("date", "")}'
+        add_text(slide, meta, 3.0, 0.78, 15.5, 0.25, 8.5, style["muted"])
+        add_rect(slide, 0.45, 1.14, 22.45, 0.015, style["line"], style["line"])
+        for image in board.get("images", []):
+            add_image_contain(slide, character_dir / image["path"], image["x"], image["y"], image["w"], image["h"], style["image_panel"], style["line"])
+        for section in board.get("sections", []):
+            add_section(slide, section, style)
+        add_text(slide, config.get("footer_left", "THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE"), 0.45, 16.03, 7.6, 0.25, 8.2, style["muted"])
+        add_text(slide, board.get("tagline", ""), 7.4, 16.03, 9.0, 0.25, 8.2, style["muted"], align=PP_ALIGN.CENTER)
+        add_text(slide, f"PAGE {page_index} OF {len(boards)}", 20.3, 16.03, 2.6, 0.25, 8.2, style["muted"], align=PP_ALIGN.RIGHT)
+        created.append(board_name)
+    source_dir = character_dir / "source"; source_dir.mkdir(exist_ok=True)
+    pptx_path = source_dir / f'{config["character"]}-Production-Boards.pptx'
+    prs.save(pptx_path)
+    return pptx_path, created
 
-    body_y = footer_h + 26
-    body_h = PAGE_H - header_h - body_y - 6
-    left_w = PAGE_W * 0.64
-    art_x, art_y = margin, body_y + 112
-    art_w, art_h = left_w - margin - 8, body_h - 112
-    artwork = character_dir / board["artwork"]
-    if not artwork.exists():
-        raise SystemExit(f"Artwork not found: {artwork}")
-    draw_fitted_image(c, artwork, art_x, art_y, art_w, art_h)
-    c.setStrokeColor(line)
-    c.rect(art_x, art_y, art_w, art_h, fill=0, stroke=1)
 
-    summary_y = body_y + 98
-    c.setFillColor(panel)
-    c.roundRect(art_x, body_y, art_w, 88, 4, fill=1, stroke=0)
-    c.setFillColor(accent)
-    c.setFont("Helvetica-Bold", 10)
-    c.drawString(art_x + 12, summary_y - 14, "DESIGN INTENT")
-    draw_wrapped(c, board["summary"], art_x + 12, summary_y - 31, art_w - 24,
-                 size=10.2, leading=13.5, colour=ink, max_lines=4)
+def convert_to_pdf(pptx_path: Path, output_dir: Path) -> Path:
+    executable = shutil.which("libreoffice") or shutil.which("soffice")
+    if not executable:
+        raise SystemExit("LibreOffice is required for PDF export but was not found on PATH.")
+    subprocess.run([executable, "--headless", "--convert-to", "pdf", "--outdir", str(output_dir), str(pptx_path)], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    pdf = output_dir / (pptx_path.stem + ".pdf")
+    if not pdf.is_file():
+        raise SystemExit(f"LibreOffice did not create expected PDF: {pdf}")
+    return pdf
 
-    right_x = left_w + 12
-    right_w = PAGE_W - right_x - margin
-    sec_top = PAGE_H - header_h - 10
-    section_gap = 10
-    section_h = (body_h - section_gap * 2) / 3
 
-    for idx, section in enumerate(board["sections"]):
-        sy = sec_top - (idx + 1) * section_h - idx * section_gap
-        c.setFillColor(panel)
-        c.roundRect(right_x, sy, right_w, section_h, 4, fill=1, stroke=0)
-        c.setFillColor(accent)
-        c.setFont("Helvetica-Bold", 11)
-        c.drawString(right_x + 12, sy + section_h - 20, section["heading"])
-        y = sy + section_h - 39
-        c.setFont("Helvetica", 9.5)
-        c.setFillColor(ink)
-        for item in section["items"]:
-            c.circle(right_x + 17, y + 2, 1.5, fill=1, stroke=0)
-            y = draw_wrapped(c, item, right_x + 25, y + 6, right_w - 38,
-                             size=9.3, leading=12, colour=ink, max_lines=2) - 5
-
-    c.setStrokeColor(line)
-    c.line(margin, footer_h, PAGE_W - margin, footer_h)
-    c.setFillColor(muted)
-    c.setFont("Helvetica", 8)
-    c.drawString(margin, 18, f'THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE')
-    c.drawCentredString(PAGE_W / 2, 18, board["footer"])
-    c.drawRightString(PAGE_W - margin, 18, f'BOARD {board["number"]} / {len(data["boards"]):02d}')
-    c.save()
-    return out
-
-def render_pdf(pdf_path: Path, png_path: Path, dpi: int):
-    if fitz is None:
-        raise SystemExit("PNG export requires PyMuPDF. Install requirements.txt or run with --pdf-only.")
-    doc = fitz.open(pdf_path)
-    page = doc[0]
-    zoom = dpi / 72.0
-    pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
-    pix.save(png_path)
+def split_and_render(character_dir: Path, config: dict[str, Any], master_pdf: Path, boards: list[str], dpi: int, pdf_only: bool):
+    doc = fitz.open(master_pdf)
+    renders = character_dir / "renders"; renders.mkdir(exist_ok=True)
+    outputs = []
+    for index, board_name in enumerate(boards):
+        board = config["boards"][board_name]
+        output_pdf = character_dir / board.get("output_pdf", f"{board_name.title()}-Board.pdf")
+        single = fitz.open(); single.insert_pdf(doc, from_page=index, to_page=index); single.save(output_pdf); single.close()
+        outputs.append(output_pdf)
+        if not pdf_only:
+            opened = fitz.open(output_pdf)
+            pix = opened[0].get_pixmap(matrix=fitz.Matrix(dpi / 72, dpi / 72), alpha=False)
+            png_name = board.get("output_png") if dpi == 300 else None
+            png_name = png_name or output_pdf.stem + f"-A2-{dpi}dpi.png"
+            png_path = renders / png_name
+            pix.save(png_path); opened.close(); outputs.append(png_path)
     doc.close()
-    with Image.open(png_path) as im:
-        im.save(png_path, dpi=(dpi, dpi))
+    return outputs
+
+
+def run_character(repo: Path, character_dir: Path, args, template: dict[str, Any]):
+    config = load_yaml(character_dir / "board-data.yaml")
+    selected = [args.board] if args.board else BOARD_ORDER
+    missing = [name for name in selected if name not in config.get("boards", {})]
+    if missing:
+        raise SystemExit(f"Missing configured board(s) for {character_dir.name}: {', '.join(missing)}")
+    errors = validate(repo, character_dir, config, set(selected))
+    if errors:
+        print(f"Validation failed for {character_dir.relative_to(repo)}:", file=sys.stderr)
+        for error in errors: print(f"  - {error}", file=sys.stderr)
+        raise SystemExit(2)
+    print(f"Validated {character_dir.relative_to(repo)}")
+    if args.validate:
+        return
+    pptx, boards = make_deck(repo, character_dir, config, template, selected)
+    master_pdf = convert_to_pdf(pptx, pptx.parent)
+    outputs = split_and_render(character_dir, config, master_pdf, boards, args.dpi, args.pdf_only)
+    print("Generated:")
+    print(f"  {pptx.relative_to(repo)}")
+    print(f"  {master_pdf.relative_to(repo)}")
+    for output in outputs: print(f"  {output.relative_to(repo)}")
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate TPOF production boards.")
-    parser.add_argument("character_dir", type=Path, help="Character directory containing board-data.json")
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument("--pdf-only", action="store_true")
-    group.add_argument("--png-only", action="store_true")
-    parser.add_argument("--dpi", type=int, default=300)
-    parser.add_argument("--template", type=Path, default=Path(__file__).parent / "templates" / "a2-landscape-v1.json")
+    parser = argparse.ArgumentParser(description="Generate TPOF A2 character production boards.")
+    parser.add_argument("character", nargs="?", help="Existing character directory name, e.g. shada")
+    parser.add_argument("--all", action="store_true", help="Generate every existing character folder containing board-data.yaml")
+    parser.add_argument("--board", choices=BOARD_ORDER, help="Generate one board only")
+    parser.add_argument("--dpi", type=int, default=300, help="PNG render DPI (default: 300)")
+    parser.add_argument("--pdf-only", action="store_true", help="Skip PNG preview rendering")
+    parser.add_argument("--validate", action="store_true", help="Validate configuration and artwork without generating files")
     args = parser.parse_args()
-
-    character_dir = args.character_dir.resolve()
-    data = load_json(character_dir / "board-data.json")
-    template = load_json(args.template)
-    style = template["style"]
-    render_dir = character_dir / template["output"]["png_directory"]
-    render_dir.mkdir(parents=True, exist_ok=True)
-
-    generated = []
-    for board in data["boards"]:
-        pdf_path = character_dir / board["filename"]
-        png_path = render_dir / board["render"]
-        if not args.png_only:
-            pdf_path = make_pdf(character_dir, board, data, style)
-            generated.append(pdf_path)
-        if not args.pdf_only:
-            if not pdf_path.exists():
-                raise SystemExit(f"PDF required for PNG render is missing: {pdf_path}")
-            render_pdf(pdf_path, png_path, args.dpi)
-            generated.append(png_path)
-
-    print("Generated:")
-    for path in generated:
-        print(f"  {path.relative_to(Path.cwd()) if path.is_relative_to(Path.cwd()) else path}")
+    if args.all == bool(args.character):
+        parser.error("Provide exactly one character name or use --all.")
+    if args.dpi < 72 or args.dpi > 600:
+        parser.error("--dpi must be between 72 and 600.")
+    repo = find_repo_root(Path(__file__).parent)
+    template = load_yaml(Path(__file__).parent / "templates" / "character-a2.yaml")
+    characters = discover_characters(repo) if args.all else [resolve_character_dir(repo, args.character)]
+    if not characters:
+        raise SystemExit("No existing character folders contain board-data.yaml.")
+    for character_dir in characters:
+        run_character(repo, character_dir, args, template)
 
 if __name__ == "__main__":
     main()

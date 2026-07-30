@@ -4,3 +4,7 @@ Thumbs.db
 *.bak
 ~$*
 exports/
+.claude/settings.local.json
+.venv/
+__pycache__/
+*.pyc

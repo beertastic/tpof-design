@@ -1,0 +1,11 @@
+page:
+  size: A2
+  orientation: landscape
+style:
+  background: "#F1EEE6"
+  ink: "#171917"
+  muted: "#545852"
+  accent: "#4B634D"
+  panel: "#E2DED4"
+  image_panel: "#E8E6DE"
+  line: "#A7A297"

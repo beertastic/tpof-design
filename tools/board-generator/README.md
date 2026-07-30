@@ -1,28 +1,23 @@
-# TPOF Board Generator
+# TPOF Top-Level Board Generator
 
-A reusable publishing tool for character production boards.
+This tool rebuilds character production boards from existing artwork and a
+character-local `board-data.yaml` file.
 
-The image model supplies artwork only. This generator supplies the layout,
-metadata, labels, and all small text as real PDF typography. The result is an
-A2 landscape PDF suitable for review and printing, plus a 7016 x 4961 PNG at
-300 DPI.
+It follows the repository hierarchy: Production Design Bible first, followed
+by faction guidance, the character document and Character Lock, then the board
+brief. The generator is a publishing tool; it does not invent design choices.
 
-## Important source order
+## Why this exists
 
-Every board must follow the repository's canonical hierarchy:
+Replace an image in `03-characters/<character>/source/artwork/`, keep the same
+filename, and rerun one command. The editable PowerPoint master, A2 PDFs and PNG
+review renders are rebuilt locally with crisp typography and uncropped images.
 
-1. Production Design Bible
-2. Faction guide
-3. Character document and Character Lock
-4. Scene brief
-5. Camera direction
+## Requirements
 
-The generator does not invent design decisions. It publishes the approved
-content in `board-data.json`.
-
-## Install
-
-From the repository root:
+- Python 3.10 or later
+- LibreOffice available on `PATH`
+- Python packages in `requirements.txt`
 
 ```bash
 python3 -m venv .venv
@@ -30,46 +25,60 @@ source .venv/bin/activate
 pip install -r tools/board-generator/requirements.txt
 ```
 
-## Generate Shada
+## Commands
 
 ```bash
-python tools/board-generator/generate.py 03-characters/shada
+# Validate Shada without generating files
+python tools/board-generator/generate.py shada --validate
+
+# Generate all five Shada boards and 300-DPI previews
+python tools/board-generator/generate.py shada
+
+# Generate one board
+python tools/board-generator/generate.py shada --board weapons
+
+# Generate lighter review previews
+python tools/board-generator/generate.py shada --dpi 150
+
+# Generate PDFs but no PNG previews
+python tools/board-generator/generate.py shada --pdf-only
+
+# Generate every currently existing configured character
+python tools/board-generator/generate.py --all
 ```
 
-Outputs:
+`--all` discovers folders dynamically. It never uses a hard-coded character
+list and therefore does not recreate deleted characters.
 
-- `03-characters/shada/Production-Board.pdf`
-- `03-characters/shada/Costume-Board.pdf`
-- `03-characters/shada/Weapons-Board.pdf`
-- `03-characters/shada/Performance-Board.pdf`
-- `03-characters/shada/Materials-Board.pdf`
-- matching 7016 x 4961 PNG files under `03-characters/shada/renders/`
+## Character setup
 
-## Add another character
+A character participates only when its existing folder contains:
 
-Only create a folder for a character that currently exists in the production
-repository. Do not restore deleted placeholder characters.
+```text
+03-characters/<character>/board-data.yaml
+```
 
-1. Copy `03-characters/shada/board-data.json` into the existing character folder.
-2. Replace the character metadata and board text.
-3. Add five artwork images under `source/artwork/`.
-4. Update each board's `artwork` path.
-5. Run the generator against that character folder.
+Artwork paths in that file are relative to the character directory. Images are
+always placed using a contain operation, preserving the full frame rather than
+cropping it.
 
-## Artwork rules
+## Outputs
 
-Artwork should contain no critical small text. It should leave sufficient
-negative space and value contrast for layout. Dark costumes must remain
-separable from dark environments through lifted background values, wet edge
-highlights, atmospheric separation, or material contrast.
+The generator writes:
 
-## Review workflow
+- `source/<Character>-Production-Boards.pptx`
+- `source/<Character>-Production-Boards.pdf`
+- the configured individual PDFs in the character folder
+- configured PNG previews under `renders/`
+
+## Recommended workflow
 
 ```bash
-git switch -c design/<character>-boards
-python tools/board-generator/generate.py 03-characters/<character>
-git diff --stat
-git add tools/board-generator 03-characters/<character>
-git commit -m "tools(design): add reusable production board generator"
-git push -u origin design/<character>-boards
+cp replacement.png 03-characters/shada/source/artwork/forest.png
+python tools/board-generator/generate.py shada --validate
+python tools/board-generator/generate.py shada
+
+git status
+git add tools/board-generator 03-characters/shada
+git commit -m "tools(design): add reusable local board generator"
 ```

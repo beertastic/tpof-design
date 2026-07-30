@@ -173,7 +173,8 @@ every pore, every smear of dirt. No makeup, no styling, nothing softened.
 Wide shot: Shin running through dark forest with other figures, and **a pulsing
 shadow gathers around her** — a darkening of the air itself, light bending away,
 the undergrowth around her going dim while the rest of the frame stays lit.
-Not smoke, not energy, not a visual-effects glow. An absence. She does not know
+Not smoke, not energy, not a visual-effects glow. An absence. It is leaking out of
+her, not being produced by her — nothing about it may look aimed or intended. She does not know
 it is happening and her expression shows only terror at being chased. The other
 figures do not appear to notice. Her red hair remains the one point of colour
 inside the darkening.

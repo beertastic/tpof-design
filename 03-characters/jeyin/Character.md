@@ -150,6 +150,10 @@ carries the difference.
 
 ### Why she stayed — confirmed 2026-07-30
 
+> **Shin does not know.** Jeyin never told her, and nothing in this film reveals
+> it. Shin believes they were both simply held, and mourns a fellow prisoner. She
+> learns otherwise in a later film.
+
 **She could not abandon her daughter.** Whether that is protection or simply the
 fear of losing her is deliberately not separated — it is both, and Jeyin
 herself would not be able to tell you which.
@@ -237,7 +241,7 @@ TBD.
   in each of scenes 16, 17, 18, 21, 22 and 24?
 - Was there an explicit threat, and if so from whom? A named person would survive
   the revolt and be available for Films 2–3 — but it is not required.
-- Does Shin know her mother could have left?
+
 - What was she before captivity? She remembers freedom, so there is a life to
   reference — and it should show somewhere.
 

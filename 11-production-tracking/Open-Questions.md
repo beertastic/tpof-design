@@ -75,7 +75,9 @@
 - [x] ~~What drives Shin's Force blast?~~ **Fear and anger.** Which makes it proof that
       Baylan is right and her mother wrong, seconds after the unfinished warning. Exact
       placement in the sequence still open. 2026-07-30.
-- [ ] Exact placement of Shin's blast in the finale sequence.
+- [x] ~~Exact placement of Shin's blast?~~ **Deliberately unfixed.** It is not a timed beat
+      — primal overflow, not an action. Same phenomenon as the Sc.6 shadow, escalated.
+      2026-07-30.
 - [x] ~~Where did Jasu get the akk dog?~~ **She raised it — implied, never stated. It adores
       her.** Sc.9 affection is genuine; the finale is her spending something she loves.
       2026-07-30.

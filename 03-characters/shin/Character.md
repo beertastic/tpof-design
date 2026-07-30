@@ -91,7 +91,8 @@ The final scene, in order:
    mother begins the line she has said throughout the film — *"don't let the fear
    control you"* — and **does not finish it.** She dies. Shin is left holding an
    instruction that stops halfway.
-4. **Shin knocks the akk dog out with a Force blast** — provisional; see below.
+4. **Shin knocks the akk dog out with a Force blast.** Placement within the
+   sequence is deliberately unfixed — see below.
 5. **Baylan kills everyone.** She sees it. See below.
 6. **Baylan extends his hand. Shin takes it.** They leave together.
 
@@ -110,6 +111,22 @@ uncertain, the film ends with a fifteen-year-old deciding something.
 
 He offers with **certainty** — he knows what awaits her and he is moving to
 prevent it. She accepts with none. That asymmetry is the shot.
+
+### She does not know her mother chose to stay
+
+**Confirmed: Shin has no idea.** She has grown up believing they were both simply
+held. Jeyin never told her, and nothing in this film reveals it.
+
+**Her grief here is therefore clean.** Pure loss, with no guilt about what it
+cost — because she does not know it cost anything. Nothing in her performance or
+design may suggest otherwise.
+
+She learns later, in Film 2 or 3, that she mourned a volunteer. **Whoever tells
+her is holding a weapon.**
+
+> Worth noting: **Vala was there.** She may well know. Which means either Vala
+> tells her — or Shin kills the one person who could have. See
+> [`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
 
 ### She is not afraid of him
 
@@ -171,9 +188,21 @@ Neither of them is there to explain it. Jeyin is dead and Baylan has not spoken
 to her yet. Shin is left holding an unfinished warning and the evidence that
 contradicts it.
 
-**Design consequence:** the blast must read as *fear and rage*, not as grief or
-resolve. No stance, no aim, no control, no beauty. It is what a terrified,
-furious child does when something finally gives way.
+### It is not a timed beat
+
+**Do not stage it as a discrete action with a moment.** She is sad, angry,
+frightened and alone, and it is primal energy getting out any way it can. Where it
+falls in the sequence is not the point and should not be fixed on paper.
+
+It is the same phenomenon as the Scene 6 shadow, escalated: **the shadow leaks,
+the blast overflows.** Neither is aimed and neither is chosen.
+
+**Design consequences:**
+
+- No stance, no aim, no gesture, no control, no beauty.
+- Nothing that reads as technique, decision or timing.
+- It should look like something **giving way**, not something being done.
+- If an image makes her look like she is using a power, it is wrong.
 - She has no idea what she has just done, and no framework for it.
 - It escalates her from someone things happen to into someone who acts, in the
   single worst moment of her life.

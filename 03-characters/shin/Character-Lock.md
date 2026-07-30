@@ -85,6 +85,10 @@ design that makes her look competent is wrong for this film.
 - Jeyin survives the mauling. Shin reaches her and they speak before she dies.
 - Baylan then kills everyone — partly out of rage, partly because every mercenary
   present has seen what she is and would sell her for it.
+- **The Force blast is not a timed beat.** Primal overflow, not an action. No
+  stance, no aim, no control. It must look like something giving way.
+- **She does not know her mother chose to stay.** Her grief is clean; the guilt
+  belongs to a later film.
 - **She sees it, and she is not afraid of him.** She senses he is safe despite all
   evidence, and has no idea that sensing things is what she does.
 - Shin leaves with Baylan, hair intact, covered in her mother's blood.

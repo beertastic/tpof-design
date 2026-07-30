@@ -114,6 +114,37 @@ when it happened.
 
 ---
 
+## P2c — Shin does not know her mother chose to stay
+
+**Planted:** Jeyin stayed in captivity because she could not abandon her daughter
+— fifteen years of choosing it, every day. **Shin has no idea.** She believes they
+were both simply held.
+
+**Pays off:** She finds out in Film 2 or 3, and discovers she has spent years
+mourning a fellow prisoner who was actually a volunteer. It is a grief she has not
+had yet and a debt she cannot repay.
+
+**Whoever tells her is holding a weapon.**
+
+### The Vala problem
+
+**Vala was there.** She may well know — and Shin kills her in Film 2.
+
+So either Vala tells her before the fight, which reframes the whole encounter, or
+**Shin kills the one person who could have told her** and finds out from someone
+else, later, having destroyed her own source.
+
+Both are strong. They are different films. Worth deciding before Film 2 is
+written, because it changes what that fight is about.
+
+### Required in this film
+
+- **Nothing may reveal it.** Shin's grief in the clearing is clean — pure loss,
+  no guilt about cost. Any hint that she suspects removes the later scene.
+- Jeyin does not tell her. The unfinished line is about fear, not about this.
+
+---
+
 ## P3 — The clasp
 
 **Planted:** Vala gives it to Shin in Scene 22 as a promise.

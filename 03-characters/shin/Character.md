@@ -277,7 +277,11 @@ then age it *down* to what it looked like before years of wear.
 
 - Metal, small, functional. It fastens something.
 - Worn smooth at the contact points — it has closed something thousands of times.
-- No ornament that reads as jewellery. It is a fastener with a history.
+- **A functional clasp, worn as a keepsake.** Built as a fastener — it came off
+  Vala's rig and has closed something thousands of times — but Shin has nothing
+  to fasten, so she wears it as a memento. That is the whole object: a working
+  thing kept for a reason that has nothing to do with its function.
+- No ornament that reads as jewellery.
 - Legible in close-up in Scene 22, and recognisable years later.
 - Design in parallel with Baylan's crystal pouch. Both are small objects worn
   against the body; both are the last thing left of a person; both travel into

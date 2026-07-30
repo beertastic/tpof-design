@@ -60,8 +60,12 @@ It should be visible enough that an audience understands what surviving cost her
 ## Hero prop — the clasp
 
 The clasp she gives Shin in Scene 22 is **the one thing she owns**, and it is the
-same piece Shin wears years later. It most likely comes off her own fighting rig
-— a fastener that has closed something thousands of times.
+same piece Shin wears years later. It comes off her own fighting rig — a
+functional fastener that has closed something thousands of times.
+
+**Shin wears it as a keepsake, not as equipment.** She has nothing to fasten. The
+object keeps its working design and loses its purpose, which is exactly what has
+happened to Vala by the time Shin next sees her.
 
 Design it in parallel with Shin's document and with Baylan's crystal pouch. See
 [`03-characters/shin/Character.md`](../shin/Character.md).

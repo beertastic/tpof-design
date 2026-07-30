@@ -36,8 +36,11 @@
 - RESOLVED 2026-07-30: the `Young Girl` of Scene 4 is **Shin**. Baylan's Scene 4 vision and
   Shin's Scene 12 vision are the same vision seen from both ends; the scream he hears is the
   one she makes in the finale. The `young-girl` placeholder has been merged into Shin.
-- The earlier cast list included `Freya`; the breakdown names `Reya Fenn`.
-- The earlier cast list included `Charlie`; no character with that name appears in this breakdown export.
+- RESOLVED 2026-07-30: the forest world is **never named on screen**. Deliberate — these
+  people are nowhere, which suits the escape story. Do not invent a name.
+- RESOLVED 2026-07-30: `Freya` and `Reya Fenn` are the same character, renamed.
+- RESOLVED 2026-07-30: `Charlie` was almost certainly a **cast member's name**, not a
+  character. Loryl is the character. Removed from the cast records.
 - `Mercenary` and `Mercenaries` are treated as generic/background roles pending clarification.
 - **The akk dog is not tracked by the breakdown at all.** Captain Jasu's akk dog is named
   only inside the Scene 9 description as a "dog-like beast" and appears in no character or

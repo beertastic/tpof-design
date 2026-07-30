@@ -16,9 +16,8 @@
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Mercenary captain |
 | Nyx | Placeholder | **PRIORITY.** Baylan's brother in arms; Baylan kills him. Build before other mercs. |
-| Reya Fenn | Placeholder | Confirm against earlier “Freya” name |
+| Reya Fenn | Placeholder | Formerly listed as "Freya" — same character |
 | Loryl | Placeholder | Breakdown-derived |
-| Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
@@ -50,3 +49,10 @@
 | Asset | Status | Notes |
 |---|---|---|
 | Akk Dog | Asset built and rigged | Jasu's. Unnamed. Kills Jeyin in the finale. Scene list pending. |
+
+## Vehicles
+
+| Asset | Status | Notes |
+|---|---|---|
+| Mercenary ship | Digital interior built | Exterior and documentation pending. Parked — characters first |
+| Escapee ship | Not started | Crashes in Sc.2. Source of Jeyin's fatal wound. Wreck is a location; the torn metal is a prop |

@@ -2,10 +2,12 @@
 
 - [x] ~~Are Bay and Baylan separate characters?~~ Same character, confirmed 2026-07-30.
       Canonical name `Baylan`, short form `Bay`. Folders merged.
-- [ ] Is Reya Fenn the character previously listed as Freya?
-- [ ] What is Charlie's final name, and does the character appear under another name in the breakdown?
-- [ ] What is the forest world's canonical name?
-- [ ] What is the mercenary ship's canonical name and class?
+- [x] ~~Is Reya Fenn the character previously listed as Freya?~~ **Yes**, renamed. 2026-07-30.
+- [x] ~~What is Charlie's final name?~~ **Not a character.** Almost certainly a cast member's
+      name recorded as a character by mistake; Loryl is the character. Removed. 2026-07-30.
+- [x] ~~What is the forest world's canonical name?~~ **Never named on screen.** Deliberate.
+      Do not invent one. 2026-07-30.
+- [ ] Mercenary ship name and class. Digital interior already built; exterior and docs parked.
 - [ ] Are “Slaves” and “Escapees” the same production faction label?
 - [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
       It is currently the only design carrier for it.
@@ -65,7 +67,8 @@
 
 See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 
-- [ ] Terminology: is the Scene 22 object a **clasp** or a **brooch**? Settle before it is built.
+- [x] ~~Clasp or brooch?~~ **A clasp, worn as a keepsake.** Functional fastener off Vala's
+      rig; Shin has nothing to fasten. 2026-07-30.
 - [ ] Is "don't let the fear control you" Jeyin's dying line? Recommended.
 - [ ] What injuries does Vala take, and where is the post-credit scene set?
 - [ ] Is Prodona (named by Krellis, Scene 8) a Film 2 location?

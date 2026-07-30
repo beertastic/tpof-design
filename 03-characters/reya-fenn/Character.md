@@ -11,6 +11,9 @@ source: "Filmanize script breakdown and production notes"
 
 > **Production rule:** Refer to the Production Design Bible before any visual development or image generation.
 
+> **Naming:** Formerly listed as `Freya` in an earlier cast list. Same character,
+> renamed. Confirmed 2026-07-30.
+
 ## Art Department Brief
 
 Mercenary appearing in the Sabacc scene and final clearing sequence.

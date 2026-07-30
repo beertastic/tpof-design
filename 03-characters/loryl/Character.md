@@ -11,6 +11,10 @@ source: "Filmanize script breakdown and production notes"
 
 > **Production rule:** Refer to the Production Design Bible before any visual development or image generation.
 
+> **Naming:** An earlier cast list included `Charlie`, which appears in no version
+> of the script. Almost certainly a **cast member's name** that was recorded as a
+> character by mistake — Loryl is the character. Confirmed 2026-07-30.
+
 ## Art Department Brief
 
 Mercenary appearing in the Sabacc scene and final clearing sequence.

@@ -62,7 +62,7 @@ either at Baylan's command, or because Vala attacks Baylan and Shin defends him.
 
 Shin loses a piece of herself doing it: Vala was a source of comfort, and the
 person who gave her the one object she owns. Afterwards she looks at Vala's
-brooch — and keeps it. She keeps Vala with her anyway.
+clasp — and keeps it. She keeps Vala with her anyway.
 
 ### Required in this film
 
@@ -85,9 +85,12 @@ brooch — and keeps it. She keeps Vala with her anyway.
 
 ## P3 — The brooch / clasp
 
-**Planted:** Vala gives it to Shin in Scene 22 as a promise. The breakdown calls
-it a **clasp**; production has also referred to it as a **brooch**. Same object —
-terminology needs settling before it is built.
+**Planted:** Vala gives it to Shin in Scene 22 as a promise.
+
+**RESOLVED 2026-07-30 — it is a clasp, worn as a keepsake.** Built as a functional
+fastener off Vala's fighting rig; Shin has nothing to fasten and wears it as a
+memento. Call it a **clasp** everywhere. The working design is retained and the
+purpose is lost — which is also what has happened to Vala.
 
 **Pays off:**
 - Shin wears it for the rest of her life; it is the same piece she wears years later.
@@ -99,9 +102,6 @@ the person she just killed. It carries her guilt for the rest of the trilogy.
 
 ### Required in this film
 
-- **Settle the terminology.** Clasp or brooch, then use it consistently
-  everywhere. If it fastens something it is a clasp; if it is worn as an ornament
-  it is a brooch. That distinction also determines the design.
 - **Design backward** from the piece worn years later, then age it *down*.
 - **Build it to survive three productions.** This is the longest-lived hero prop
   in the project.
@@ -169,7 +169,6 @@ likes him.
 
 ## Open
 
-- Terminology: clasp or brooch?
 - Is "don't let the fear control you" Jeyin's dying line?
 - What injuries does Vala take, and where is the post-credit scene set?
 - In Film 2, does Baylan order the fight or does Vala attack him first?

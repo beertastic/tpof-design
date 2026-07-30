@@ -27,8 +27,6 @@ each other and stayed together because the work pays.
 | [Shada](../../03-characters/shada/) | Assassin, thief, scout and tracker |
 | [Generic Mercenary](../../03-characters/generic-mercenary/) | Reusable background family |
 
-Plus an unconfirmed character working-named `Charlie`.
-
 Also present: **an akk dog** belonging to Jasu — see
 [`08-species/akk-dog/`](../../08-species/akk-dog/).
 
@@ -140,7 +138,6 @@ equipment. All maintained, all functional, none of it issued.
 
 - Does the akk dog survive the finale?
 - What is Jasu's share, and is her kit visibly the best in the crew?
-- Is `Charlie` a member of this faction, and under what name in the breakdown?
 - What is the mercenary ship's name and class, and does its interior set the
   quality standard for the crew?
 - Do any two of them have a prior relationship, or did they genuinely all arrive

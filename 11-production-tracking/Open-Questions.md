@@ -88,3 +88,6 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [ ] **Is the large mercenary in the Vala fight a Wookiee?** Wanted, but likely too
       expensive. Cheaper options and a partial-Wookiee recommendation on file in the
       mercenaries faction document. Affects casting and whether he must appear earlier.
+- [ ] How many mercenaries does Vala's grenade take out? Three to five is the intent.
+      Sets the clearing headcount and the background casting for the camp scenes, which
+      must show a crew big enough to lose five and still be a threat.

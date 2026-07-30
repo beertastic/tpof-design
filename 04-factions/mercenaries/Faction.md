@@ -153,6 +153,23 @@ little.
 earlier — the camp, the Sabacc game, the briefing — or his sudden arrival in the
 final act reads as convenient.
 
+## Headcount — the crew is split before the finale
+
+**Three to five mercenaries are killed or taken out of the fight by Vala's
+grenade**, away from the clearing (Scene 23 onward).
+
+This matters for staging and for background casting:
+
+- The crew is **already reduced** by the time Baylan starts killing. He is not
+  facing the full complement.
+- **Nyx is the only survivor of that squad to make it back**, dazed, which is why
+  he arrives last and alone.
+- The clearing therefore contains Jasu, the named mercenaries who stayed, and a
+  smaller number of background figures than the camp scenes establish.
+
+Exact numbers need settling before background casting, because the camp scenes
+have to show a crew large enough to lose five people and still be a threat.
+
 ## Shared Equipment
 
 Blasters, rifles, a scanner, tents, tarpaulins, crates, ammunition, field-camp

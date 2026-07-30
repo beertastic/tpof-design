@@ -40,6 +40,42 @@ is no body and no confirmed kill — the explosion does the work of a death with
 being one. Nyx survives it dazed and stumbles back to the clearing, which is how
 he arrives last and walks into Baylan.
 
+### Her state of mind — this is the character
+
+**She is happy to die. She is not eager to die.**
+
+She has accepted it, and dying *free* is worth something to her that surviving in
+captivity never was. But she is not seeking death and she is not throwing herself
+away.
+
+What makes pulling the grenade rewarding is the arithmetic: **three to five
+mercenaries around her will die or be taken out of the fight.** That is a real
+price extracted, and it buys Shin and the others a chance to get clear. It is an
+honourable sacrifice with a measurable return, not a gesture.
+
+She is the only person in this film who chooses what her freedom costs. The title
+is hers.
+
+### And then she rolls
+
+**She is dropped. Twenty years of arena training fires before she can decide
+anything, and she rolls clear.**
+
+This is the mechanism of her survival, and it must be honest rather than lucky:
+
+- **It is trained reflex, not a plan.** She had accepted death; her body refused.
+  She survives *against her own intention*.
+- **The audience must not read it as a survival move.** On first viewing it is a
+  body being dropped and an explosion. Nothing signals that she acted.
+- **On rewatch it is visible and deliberate** — the roll is controlled, it goes
+  somewhere, and it ends behind something.
+- She therefore needs **cover to reach**: a fallen trunk, a rise, a ditch, a
+  root mass. Whatever she lands behind must be established in frame before the
+  detonation, or the survival will not hold up.
+
+That her body saved her against her own decision is worth playing in Film 2. She
+did not want this. She may not thank anyone for it.
+
 ### Why this works
 
 She wins by using her killer's own equipment against him, having been physically
@@ -166,7 +202,8 @@ TBD.
 
 - Where exactly on her rig does the clasp come from, and is its absence visible
   after she gives it away?
-- Does she intend to survive it, or is this suicide that happens to fail?
+- How many mercenaries does the grenade actually take? Three to five is the
+  intent; the exact number changes the clearing headcount.
 - Is the staff scavenged, or arena equipment she has kept?
 - Where is the post-credit scene set?
 - In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan

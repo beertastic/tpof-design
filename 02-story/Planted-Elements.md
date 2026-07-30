@@ -58,7 +58,10 @@ Nyx **ends with a grenade detonating** and the audience believes she was blown u
 **She survives — barely — and a post-credit scene shows it.**
 
 The grenade is what makes the plant work: an explosion reads as a death without
-producing a body.
+producing a body. **She survives because she is dropped and rolls clear on arena
+reflex** — trained instinct firing against her own accepted decision to die. The
+roll must read as a falling body on first viewing and as a deliberate act on
+rewatch, and she needs established cover to reach.
 
 **Pays off:** In Film 2, Baylan and Shin encounter her again. Shin is angry that
 Vala left, and in Shin's head Vala is part of the reason Jeyin died. They fight —

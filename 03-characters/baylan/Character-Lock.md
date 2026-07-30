@@ -56,9 +56,15 @@ him as a Jedi on first sight has failed.
 
 ### The blaster — his converted lightsaber
 
-- He took his own lightsaber apart and rebuilt it as a blaster — **not after the
-  purge, but when he gave up**, at the end of the failed Outer Rim years. The
-  weapon is the physical record of the day he quit.
+- He took his own lightsaber apart and rebuilt it as a blaster **because he could
+  not look at it.** The saber was everything he had lost — the Order, his purpose,
+  the life planned for him since childhood. The conversion was psychological
+  survival, not tactical.
+- **He kept it.** Did not sell it, bury it or destroy it. Made it unrecognisable
+  and carried it every day for years. He could not look at it and could not let it
+  go. That is the whole character in one object.
+- **No single breaking incident exists or is required.** Attrition and grief, not
+  a bad day.
 - A genuine conversion using the saber's own components — **not** a shell fitted
   over a hilt.
 - Emitter shroud became the barrel shroud. Activation plate became the trigger
@@ -66,6 +72,9 @@ him as a Jedi on first sight has failed.
 - Ugly, heavily modified, and it does not group well. Nyx mocks it in Scene 20.
 - **Three physical states: blaster, mid-transition, hilt.** Same object in three
   arrangements; every component in the hilt was visible on the blaster.
+- **Scene 15 is very probably the first time in years he has opened the pouch.**
+  Play it as a man doing something he has not done in a long time and is not sure
+  he should be doing now. Hesitation, then decision — not ritual, not habit.
 - **Scene 15 is the reconstruction.** The crystal lifts it, it comes apart, and it
   goes back together as a lightsaber. Parts must **converge**, not only separate.
   The crystal seats last and visibly. The result reads as a hilt in silhouette.

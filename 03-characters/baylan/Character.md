@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.8"
+version: "1.9"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -64,13 +64,45 @@ and could leave in ten minutes.
 **The finale is him destroying the only safety he has ever known, for a child he
 has never met.**
 
-### It dates the blaster
+### Why he converted the saber
 
-He did not convert his lightsaber after Order 66. **He converted it when he gave
-up** — at the end of the Outer Rim years, when he stopped trying to be a Jedi.
+**Not for safety. He could not look at it.**
 
-That is not a disguise decision. It is a surrender, and it happened on a specific
-day. The weapon in his holster is the physical record of the moment he quit.
+There is no single traumatic incident to invent here, and none should be. The
+Jedi were gone, the life planned for him since childhood was over, and he was
+lost and alone. The lightsaber was the physical embodiment of all of it — the
+Order, his purpose, everything that had been taken twice.
+
+Carrying it meant carrying that, every day, on his hip.
+
+So he took it apart and rebuilt it into something useful and meaningless. **The
+conversion was psychological survival, not tactical.** It was the only way he
+could keep the thing at all.
+
+### And he did keep it
+
+This is the whole character in one object.
+
+He did not sell it. He did not bury it. He did not destroy it. He made it
+**unrecognisable** and then carried it every day for years.
+
+**He could not look at it and he could not let it go.**
+
+### Which is why Scene 15 matters more than it looks
+
+Opening that pouch is not routine. It is very probably **the first time in years
+he has been able to.**
+
+The reason is written into Scene 5: he is *"focusing on a new sound after years
+of reliving his past."* Something has changed. The visions are different.
+Something is coming.
+
+He has a reason again — and the object that represented everything he lost
+becomes, in the same motion, the thing that will defend what he has found.
+
+**Design consequence:** Scene 15 should play as a man doing something he has not
+done in a very long time, and is not sure he should be doing now. Not ritual, not
+habit. Hesitation, then decision.
 
 **Eighteen years after the purge he takes a child.**
 
@@ -537,6 +569,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.9 | 2026-07-30 | in-development | The conversion was psychological survival, not tactical — he could not look at the saber and could not let it go. No breaking incident required. Scene 15 reframed as the first time in years he has opened the pouch. |
 | 1.8 | 2026-07-30 | in-development | Life split into four parts: taken as a child, the purge, failed Outer Rim years, then the crew — where he is safe for the first time. The blaster conversion is dated to his surrender, not the purge. |
 | 1.7 | 2026-07-30 | in-development | CORRECTION: the parallel with his own childhood is secondary, not his motive. He acts because he knows what awaits a seen Force-sensitive child, and because she is kin. The final hand plays certain, not haunted. |
 | 1.6 | 2026-07-30 | in-development | CORRECTION: the blade does not stay yellow. It changes to orange on screen, in this film, as it is withdrawn from Nyx. Killing Nyx is what changes it. |

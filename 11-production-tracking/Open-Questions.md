@@ -38,7 +38,10 @@
       safe for the first time in his life. 2026-07-30.
 - [ ] How long on the Outer Rim vs with this crew? Roughly a decade with the crew fits
       Nyx's friendship and the akk dog's age.
-- [ ] What finally broke him on the Outer Rim? That is the day he converted the saber.
+- [x] ~~What finally broke him on the Outer Rim?~~ **No single event, and none should be
+      invented.** He converted the saber because he could not look at it — it was
+      everything he had lost. Psychological survival, not tactical. He kept it anyway.
+      2026-07-30.
 - [x] ~~Is Shin in this script Shin Hati?~~ **Yes.** Confirmed 2026-07-30; full pack built.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.

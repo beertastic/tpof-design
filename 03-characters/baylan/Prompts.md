@@ -275,7 +275,8 @@ cylindrical lightsaber hilt, mid-assembly, its parts converging. The crystal has
 not gone in yet.
 
 He is not triumphant and not afraid. He is looking at it the way a man looks at
-something he buried a long time ago and has just dug up.
+something he could not bear to look at for years — and has just found he can.
+There should be hesitation in him, and then decision.
 
 Warm low glowrod light, deep shadow, the tent close around him. No glow effects,
 no energy, no magic — only objects hanging in the air that should not be, and

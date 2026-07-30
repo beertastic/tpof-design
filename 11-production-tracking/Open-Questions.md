@@ -9,8 +9,12 @@
       Do not invent one. 2026-07-30.
 - [x] ~~Are “Slaves” and “Escapees” one label?~~ **Keep both** — captivity is as much their
       identity as the escape. Not renamed, not split. 2026-07-30.
-- [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
-      It is currently the only design carrier for it.
+- [ ] **Shin's grooming subtext — how is it carried?** The "best-kept clothing" idea is an
+      art department *proposal*, not a decision, and is marked as such in the documents.
+      The Production Designer has noted the script may imply it instead, which would be
+      preferable — the costume would then be support rather than the sole vehicle.
+      Under consideration as of 2026-07-30. The no-sexualisation rule is unconditional
+      either way.
 - [x] ~~Does Shin remember freedom?~~ **No.** Taken as a toddler at the latest; she has no
       life outside captivity. Designed as indoor skin, soft feet, Sc.8 as first sight.
       Confirmed 2026-07-30.

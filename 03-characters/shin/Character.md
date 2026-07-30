@@ -310,15 +310,26 @@ light — and they are **Jeyin's** work, not hers.
 ### The subtext
 
 The production's intent is that **Shin was being groomed.** It is implied, never
-stated, and never depicted. The art department carries it one way only:
+stated, and never depicted.
+
+> **How it is carried is UNDECIDED.** The proposal below is an art department
+> suggestion raised on 2026-07-30 and not yet adopted. The Production Designer
+> has noted the script may carry it instead, which would be preferable. See
+> [`04-factions/slaves-escapees/Faction.md`](../../04-factions/slaves-escapees/Faction.md).
+
+**Proposal — incongruity, never her body:**
 
 - Her clothing was **the best-kept in the group** — cleaner, less worn, more
   intact than her mother's — because she was being kept presentable for someone.
-  Jeyin's is correspondingly worse; everything went to her daughter.
+  At auction, people are presented. Jeyin's is correspondingly worse; everything
+  went to her daughter.
 - By the time we meet her that is destroyed. What survives is the *shape* of
   something that used to be looked after.
+- First reading: a mother gave her child the best. Second reading: she was being
+  kept saleable.
 
-**This makes the no-sexualisation rule absolute rather than merely strong.** The
+**The no-sexualisation rule is absolute regardless, and does not depend on any of
+the above.** The
 horror is entirely in what someone else intended and what her mother is fighting.
 None of it appears on the character. If an image could be read that way it is
 wrong, regardless of what else it gets right.
@@ -439,8 +450,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 - What is Scene 12 exactly — she sees a vision *and* stands within it. Is she
   watching herself? A VFX and staging decision.
 - Does Baylan speak to her in Scene 24A, or is the meeting silent?
-- Is the "best-kept clothing" reading the right level for the grooming subtext, or
-  too much? It is currently the only design carrier for it.
+- **Does the script take on the grooming implication?** If it does, the costume
+  detail becomes support rather than the sole carrier — which is a better
+  distribution of weight. Raised 2026-07-30, under consideration.
 - What was the facility, and does it appear on screen?
 
 ## Revision History

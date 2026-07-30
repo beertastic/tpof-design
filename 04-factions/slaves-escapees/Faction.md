@@ -196,18 +196,45 @@ carried in. He met Vala in the arena, so his gear may carry that history too.
 The production's intent is that **Shin was being groomed.** This is implied, never
 stated, and it is not depicted.
 
-The art department carries it through **incongruity, not through her body:**
+### How it is carried — UNDECIDED
+
+> **The following is an art department proposal, not a production decision.** It
+> originated here rather than in the script, was raised with the Production
+> Designer on 2026-07-30, and is **under consideration.** Do not treat it as
+> established. If it is not adopted, remove it — nothing else depends on it.
+
+**Proposal: carry it through incongruity, never through her body.**
 
 - Her clothing was the **best-kept in the group** — cleaner, less worn, more
   intact than her mother's — because she was being kept presentable for someone.
-- By the time we meet her that advantage is destroyed. What remains is the
+  At auction, people are *presented*.
+- By the time we meet her that advantage is being destroyed. What remains is the
   *shape* of something that used to be looked after.
 - Jeyin's clothing is correspondingly worse, because everything went to her
   daughter.
 
-**This makes the no-sexualisation rule more binding, not less.** The horror is
-entirely in what someone else intended and what her mother is fighting. Nothing
-about it may appear on the character. No fitted cut, no exposed skin as design
+**First reading: a mother gave her child the best of what they had.** Second
+reading: she was being kept saleable. Both are true, and the costume never has to
+choose.
+
+### The script may be the better carrier
+
+The Production Designer has noted the script could be adjusted to imply it
+instead. **That would be preferable** — if the implication lives in dialogue or
+staging, the costume detail becomes quiet support rather than the sole vehicle,
+which is a much safer distribution of weight for material this serious.
+
+If the script takes it on, keep the costume detail as reinforcement. If neither
+does, the subtext lives only in the production's intent and nothing on screen
+points at it.
+
+### This rule is not conditional
+
+**Regardless of how — or whether — the subtext is carried, the no-sexualisation
+rule stands absolutely.** It does not depend on any of the above.
+
+The horror is entirely in what someone else intended and what her mother is
+fighting. Nothing about it may appear on the character. No fitted cut, no exposed skin as design
 language, no adult styling, no suggestive framing, ever. If an image could be
 read that way, it is wrong regardless of what else it gets right.
 

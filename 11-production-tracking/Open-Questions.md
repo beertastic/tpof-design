@@ -88,6 +88,10 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [ ] **Is the large mercenary in the Vala fight a Wookiee?** Wanted, but likely too
       expensive. Cheaper options and a partial-Wookiee recommendation on file in the
       mercenaries faction document. Affects casting and whether he must appear earlier.
-- [ ] How many mercenaries does Vala's grenade take out? Three to five is the intent.
-      Sets the clearing headcount and the background casting for the camp scenes, which
-      must show a crew big enough to lose five and still be a threat.
+- [x] ~~How many mercenaries, and how do they split?~~ **Proposed roster of 10** — see
+      `04-factions/mercenaries/Crew-Roster.md`. Vala's grenade takes 4; Baylan kills 5.
+      Ship capacity (YT freighter) is the constraint. 2026-07-30.
+- [ ] Confirm the exact YT model — it sets the interior footprint and the crew ceiling.
+- [ ] Where does the akk dog live on a YT freighter? A large animal on a small ship is
+      its own design problem.
+- [ ] Any named crew missing from the clearing?

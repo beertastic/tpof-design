@@ -153,22 +153,27 @@ little.
 earlier — the camp, the Sabacc game, the briefing — or his sudden arrival in the
 final act reads as convenient.
 
-## Headcount — the crew is split before the finale
+## Headcount
 
-**Three to five mercenaries are killed or taken out of the fight by Vala's
-grenade**, away from the clearing (Scene 23 onward).
+**Proposed crew: 10** — six named plus four extras. See
+[`Crew-Roster.md`](Crew-Roster.md) for the full breakdown and the scene splits.
 
-This matters for staging and for background casting:
+The crew operates a **YT-series Corellian light freighter**, which cannot house
+twenty. That constraint is useful: a small crew is diegetically correct, matches
+the Bible's cramped-and-functional interior rule, and makes Baylan's eighteen
+years of hiding considerably worse — there is nowhere on that ship to get away
+from anyone.
 
-- The crew is **already reduced** by the time Baylan starts killing. He is not
-  facing the full complement.
-- **Nyx is the only survivor of that squad to make it back**, dazed, which is why
-  he arrives last and alone.
-- The clearing therefore contains Jasu, the named mercenaries who stayed, and a
-  smaller number of background figures than the camp scenes establish.
+The crew splits before the finale:
 
-Exact numbers need settling before background casting, because the camp scenes
-have to show a crew large enough to lose five people and still be a threat.
+- **Vala pursuit — 5.** Her grenade kills four. Nyx alone survives, dazed.
+- **The clearing — 5**, then six when Nyx returns. Baylan kills all of them.
+- **Every mercenary in the film dies except Baylan.**
+
+**Scene 10, the Sabacc game, is where the extras earn their money.** One night,
+one campfire, the entire crew in a single frame. Establish the crew once and the
+audience believes in it for the rest of the film; every other scene can carry two
+to four people without reading thin.
 
 ## Shared Equipment
 

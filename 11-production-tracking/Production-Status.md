@@ -12,12 +12,12 @@
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | In development | Locked for board review; prompt pack complete |
+| Shada | In development | Locked for board review; prompt pack complete. **Killed in the clearing** |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
-| Captain Jasu | Placeholder | Mercenary captain |
+| Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
 | Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Death sequence written |
-| Reya Fenn | Placeholder | Formerly listed as "Freya" — same character |
-| Loryl | Placeholder | Breakdown-derived |
+| Reya Fenn | Placeholder | Formerly "Freya". Killed by Vala's grenade, off screen |
+| Loryl | Placeholder | Killed by Vala's grenade, off screen |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |

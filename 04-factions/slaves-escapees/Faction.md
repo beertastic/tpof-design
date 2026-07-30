@@ -65,6 +65,20 @@ Not theirs, not chosen, taken in the chaos — which is exactly why it is
 
 See [`07-vehicles/`](../../07-vehicles/).
 
+### Where they are going
+
+**Prodona** — a busy spaceport city on this planet, named by Krellis in Scene 8.
+
+Not a haven. Nobody is waiting for them. It is simply large enough to disappear
+into, and it is **the only option besides the woods.** Freedom, for these people,
+means a crowd big enough that nobody looks at you twice.
+
+It also puts a clock on the mercenaries: if the escapees reach a working
+spaceport they are untraceable within the hour, so the pursuit is a race and the
+forest is the last place they can be caught.
+
+They never get there. See [`07-locations/prodona/`](../../07-locations/prodona/).
+
 ### The other escapees
 
 **Dozens got out.** The "Group Of Escaped Prisoners" in Scene 8 are some of them.

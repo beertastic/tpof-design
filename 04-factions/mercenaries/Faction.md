@@ -153,6 +153,15 @@ little.
 earlier — the camp, the Sabacc game, the briefing — or his sudden arrival in the
 final act reads as convenient.
 
+## The pursuit is a race
+
+The escapees are heading for **Prodona**, a busy spaceport city. If they reach it
+they are gone — into a crowd, onto a ship, untraceable within the hour.
+
+**The forest is the only place the crew can still catch them**, which puts a
+deadline on scenes 20 to 23. The mercenaries are not leisurely hunters working a
+wilderness; they are racing a city.
+
 ## Headcount
 
 **Proposed crew: 10** — six named plus four extras. See

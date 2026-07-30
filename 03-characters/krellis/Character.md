@@ -18,8 +18,9 @@ Medic among the escapees; involved in the final confrontation.
 ## Story Function
 
 **A medic** — poor and badly under-supplied. He met Vala in the arena, where he
-treated fighters (Scene 17). He directs the group's route toward Prodona
-(Scene 8), tends Jeyin's injury, and is shot in the final clearing — the
+treated fighters (Scene 17). He directs the group's route toward **Prodona** — a busy
+spaceport city, and the only option besides the woods — tends Jeyin's injury, and
+is shot in the final clearing — the
 breakdown flags a `Krellis head shot` visual effect in Scene 24.
 
 ## Costume note
@@ -76,6 +77,14 @@ TBD.
 3. This character document
 4. Scene requirements
 5. Camera and lighting instructions
+
+## He is the navigator
+
+Krellis is the one who knows where they are going, and **the way is in his head
+and nowhere else.** He is shot in the clearing.
+
+Whether he has actually been to Prodona or is steering by what he has heard is
+open — but either way, the group's only map dies with him.
 
 ## Open Questions
 

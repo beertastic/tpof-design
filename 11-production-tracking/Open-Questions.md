@@ -93,7 +93,11 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~What injuries does Vala take?~~ **Deferred to Film 2.** This film must not foreclose
       it: no injury shown, no dialogue describing her condition. 2026-07-30.
 - [ ] Where is Vala's post-credit scene set? Still needed as an asset for this film.
-- [ ] Is Prodona (named by Krellis, Scene 8) a Film 2 location?
+- [x] ~~What is Prodona?~~ **A busy spaceport city on this planet** — anonymity, not
+      sanctuary, and the only option besides the woods. Referenced only, never seen.
+      Puts a clock on the pursuit. 2026-07-30.
+- [ ] Is Prodona a Film 2 location, or does it stay a word?
+- [ ] Has Krellis actually been to Prodona, or is he steering by hearsay?
 - [x] ~~How does Baylan kill Nyx?~~ **Last, through the chest**, after Nyx stumbles back
       dazed from the Vala grenade. Raised hands misdirect the audience into thinking Nyx is
       Force-sensitive. **The blade is withdrawn slowly and is orange.** 2026-07-30.

@@ -78,7 +78,17 @@ cp replacement.png 03-characters/shada/source/artwork/forest.png
 python tools/board-generator/generate.py shada --validate
 python tools/board-generator/generate.py shada
 
-git status
-git add tools/board-generator 03-characters/shada
-git commit -m "tools(design): add reusable local board generator"
+git acp "design(shada): new forest plate"
 ```
+
+## Outputs and version control
+
+The PPTX is **generated output, not an editable master** — it is overwritten on
+every run, so hand-edits made in PowerPoint are lost. `board-data.yaml` is the
+master.
+
+Committed: `board-data.yaml`, `source/artwork/`, and the five board PDFs.
+
+Gitignored: `renders/`, `source/*.pptx`, `source/*-Production-Boards.pdf`. These
+are reproducible from one command and run to ~100 MB per character per rebuild.
+One current copy is kept on disk; none go into history.

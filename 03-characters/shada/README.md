@@ -1,19 +1,38 @@
-# Shada Production Package v3
+# Shada Production Package
 
 This rebuild removes blurred AI-generated labels from the board artwork.
 
-- All production text is editable PowerPoint text and vector PDF typography.
+- All production text is real PowerPoint text and vector PDF typography.
 - Artwork is placed without cropping.
-- The five clean review PDFs are A2 landscape.
-- Matching PNG renders are exactly 7016 x 4961 pixels at 300 DPI.
-- The package contains only Shada and does not restore deleted characters.
+- The five review PDFs are A2 landscape.
+- PNG renders are 7016 x 4961 pixels at 300 DPI.
 
-Editable master: `source/Shada-Production-Boards.pptx`
+## The master is `board-data.yaml` — not the PowerPoint
 
-Suggested commit:
+`source/Shada-Production-Boards.pptx` is **generated output, not an editable
+master.** `tools/board-generator/generate.py` overwrites it on every run, so any
+hand-edit made in PowerPoint is silently destroyed the next time the boards are
+built.
+
+To change a board, edit `board-data.yaml` and regenerate. To change an image,
+replace the file in `source/artwork/` keeping the same filename, and regenerate.
 
 ```bash
-git add 03-characters/shada
-git commit -m "design(shada): rebuild clean editable A2 production boards"
-git push
+python tools/board-generator/generate.py shada --validate
+python tools/board-generator/generate.py shada
 ```
+
+## What is committed
+
+| Path | Tracked | Why |
+|---|---|---|
+| `Character.md`, `Character-Lock.md`, `Prompts.md` | Yes | Source of truth |
+| `board-data.yaml` | Yes | The board master |
+| `source/artwork/*.png` | Yes | **Not reproducible** — the generated artwork itself |
+| `references/` | Yes | Approved reference images |
+| `*.pdf` (five board PDFs) | Yes | The review deliverable |
+| `renders/*.png` | No | ~87 MB per character, fully regenerable |
+| `source/*.pptx`, `source/*-Production-Boards.pdf` | No | Intermediate build output |
+
+Regenerable output is kept on disk as one current copy and is gitignored, so the
+repository does not accumulate a new 87 MB copy on every rebuild.

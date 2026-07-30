@@ -9,3 +9,12 @@ exports/
 __pycache__/
 *.pyc
 .claude/*.tmp.*
+
+# Generated board output — regenerable via tools/board-generator/generate.py
+# Kept on disk (one current copy), never committed.
+03-characters/*/renders/
+03-characters/*/source/*.pptx
+03-characters/*/source/*-Production-Boards.pdf
+
+# Build/patch archives
+*.zip

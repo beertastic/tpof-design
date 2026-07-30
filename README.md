@@ -48,3 +48,7 @@ This repository is local and includes its Git history. After extracting it, conn
 git remote add origin <repository-url>
 git push -u origin main --tags
 ```
+
+## Current production import
+
+The Filmanize scene breakdown has been imported under `02-story/script-breakdown/`. Placeholder documents now exist for all currently identified principal characters, factions and locations.

@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.4"
+version: "1.5"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -35,6 +35,23 @@ film without suspecting, then find the evidence was always there.
 He is the film's point-of-view character and appears in eleven of twenty-five
 scenes, more than anyone else.
 
+## His life, in three takings
+
+**He was taken as a child by the Jedi.** Removed from whatever family he had,
+raised by an Order that then failed and abandoned hope. He was left with nothing
+and found the mercenaries, and whatever else happened in between is unrecorded.
+
+**Eighteen years later he takes a child.**
+
+That parallel is the spine of the character and of the two films after this one.
+He is doing to Shin exactly what was done to him — removing a Force-sensitive
+child from the only life she knows, on the grounds that it is for her own good.
+The difference, if there is one, is that he is one man rather than an institution,
+and that he is not going to abandon her.
+
+Whether he knows he is repeating it is the most interesting unanswered question
+about him.
+
 ## Story Function
 
 Baylan is hiding, competently and permanently, and the film is about that
@@ -52,17 +69,43 @@ decade later.
 | Scene | Beat | Design consequence |
 |---|---|---|
 | 3 | Sits cross-legged in a clearing, eyes shut, flinching at remembered screams and lightsabers | Meditation posture must be readable; costume has to work seated and folded |
-| 4 | The vision — red and green blades, blaster fire, **a girl's scream** | Not a memory. See *The Two Visions* |
+| 4 | The vision — red and green blades, blaster fire, **a girl's scream** | Fragmentary and dreamlike. See *The Visions* |
 | 5 | Eyes closed, "focusing on a new sound after years of reliving his past" | Eighteen years of the same nightmare; it is on his face |
 | 7 | Nyx orders him to unload the ship and make camp; he watches, shaken, from the clearing's edge | He does manual labour. The costume is workwear that has actually worked |
 | 9 | Jasu briefs the camp; Baylan worries and recalls past missions | He is a subordinate, not an officer |
-| 12 | Shin's vision: Baylan in **Jedi robes** atop a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | The one image of who he was. A separate costume build |
+| 12 | Shin's vision: Baylan in **Jedi robes** atop a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | The one image of who he was. A separate costume build. Not a specific event |
 | 13 | Wakes gasping, sweating, scans the tents, slips out under the tarpaulin | Sleeps in the camp, in something |
 | 14 | Practices telekinesis alone in the storage area until Nyx finds him | The only time he stops performing |
 | 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, which comes apart — **and he rebuilds the lightsaber** | The hero prop and the hero moment |
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
 | 20 | Carries a heavy rifle; Nyx teases him about his blaster; Jasu hands him the scanner | The rifle is his working weapon. The blaster is not |
 | 24A | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
+
+## The Visions
+
+### They are not flashbacks
+
+Neither Scene 4 nor Scene 12 depicts a specific incident, and **neither should be
+legible.**
+
+What Baylan is experiencing is associative, not documentary: he can feel a change
+coming, and it is dredging up the last time everything changed. Order 66, the
+fighting, the running, the dune. Fragments, out of order, without a clear event
+at the centre.
+
+**Design rule: resist making it readable.** The instinct will be to stage a
+coherent flashback that explains what happened to him. That is the wrong film.
+The breakdown already describes Scene 4 as *"black screen with red and green
+lights swishing"* and Scene 12 as *"a hazy vision"* — take both literally.
+
+- No clear narrative, no establishing geography, no legible action.
+- Sound and colour over image. Heavy breathing, blades, blaster fire, a scream.
+- The Force is not always obvious. It does not explain itself to him and it
+  should not explain itself to the audience.
+- The Scene 12 dune is a **feeling of a place**, not a location he can point to.
+
+Consequently **no injury is designed in** from the dune, and no event needs
+depicting. There is nothing to answer.
 
 ## The Two Visions
 
@@ -174,6 +217,9 @@ being still.
 - **Hands:** The tell. Heavy manual work — scarred, thickened knuckles, split
   nails, ingrained dirt. These are not the hands of a man who held a
   lightsaber, which is the point
+- **No injury from the purge.** His body came through it. Everything wrong with
+  him is in his face and his sleep, and eighteen years of hauling crates is the
+  sole explanation for his physical state
 
 He should look like he could still do serious damage and would strongly prefer not to.
 
@@ -373,9 +419,6 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 ## Open Questions
 
-- **What happened on the dune?** Scene 12 shows a blaster firing and Baylan
-  turning. Whether he was shot, whether he killed the clone, and whether the
-  girl died there determines whether he carries a visible injury from that day.
 - Is the Scene 15 reconstruction landing for an audience that is not paying close
   attention? The staging fix is the crystal seating, held longer — not dialogue.
   Worth testing on someone cold.
@@ -386,10 +429,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   play it on her face. See her character document.
 - Does he know, in the moment, that he is choosing to raise her? Or is that a
   decision that arrives afterwards, in the walk out of the clearing?
-- **Does he have a physical injury from the purge?** Nothing in the breakdown
-  requires one. A limp, a hand, an ear — it would explain the weight he carries
-  and give the actor something. Or his damage is entirely internal.
-- **How deniable is the Shin Hati connection meant to be on screen?**
+- Does he understand that he is repeating what was done to him?
+- What happened between the Order failing and him finding the mercenaries? There
+  are years unaccounted for, and they are Film 2 or 3 material.
 - Does he wear anything at all that suggests preference? The faction has no
   uniform, so total plainness is itself a choice — and eighteen years is a long
   time to own nothing you like.
@@ -398,6 +440,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.5 | 2026-07-30 | in-development | Backstory: taken as a child by the Jedi, then abandoned — he is now repeating it. Visions confirmed as associative and deliberately illegible. No physical injury from the purge. |
 | 1.4 | 2026-07-30 | in-development | Motive recorded: she is him, and every mercenary present has seen what she is. The killing is witness elimination as much as rage. |
 | 1.3 | 2026-07-30 | in-development | The Scene 4 girl confirmed as Shin — the two visions are one, seen from both ends. Crystal confirmed as his own. `young-girl` merged into Shin. |
 | 1.2 | 2026-07-30 | in-development | Scene 15 confirmed as the lightsaber reconstruction, not disassembly. Finale is the first ignition. Blaster specified in three physical states. |

@@ -25,6 +25,14 @@ An audience must be able to watch him for half the film without suspecting, then
 find on rewatch that the evidence was always visible. Any design that announces
 him as a Jedi on first sight has failed.
 
+## The visions
+
+- **Scene 4 and Scene 12 are not flashbacks and must not be legible.**
+  Associative, fragmentary, out of order. Sound and colour over image.
+- No clear narrative, no establishing geography, no readable action.
+- The Scene 12 dune is a feeling of a place, not a location.
+- **No injury is designed in from the purge.** His damage is entirely internal.
+
 ## Costume
 
 - Salvaged, repaired mercenary workwear that has genuinely worked.

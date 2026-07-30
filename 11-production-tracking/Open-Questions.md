@@ -22,7 +22,10 @@
       are one, seen from both ends; the scream is the one she makes in the finale. Confirmed
       2026-07-30. Crystal is therefore Baylan's own. `young-girl` folder merged into Shin.
       SOUND DEPT: Scene 4 and the finale scream must be the same performance.
-- [ ] What happened on the dune (Scene 12)? Determines whether Baylan carries a visible injury.
+- [x] ~~What happened on the dune?~~ **Nothing specific.** The visions are associative, not
+      flashbacks, and must stay illegible. No injury designed in. Confirmed 2026-07-30.
+- [ ] Does Baylan understand he is repeating what the Jedi did to him?
+- [ ] What happened between the Order failing and Baylan finding the mercenaries?
 - [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.

@@ -308,3 +308,34 @@ Every prompt should follow this hierarchy:
 5. Apply the **Camera Direction**.
 
 The Style Bible always takes precedence unless explicitly overridden.
+
+---
+
+## 13. Audience Layers
+
+This film is designed to work at three levels at once, and no design decision may
+serve one at the expense of another.
+
+**The newcomer.** Someone who has never heard of either lead must be able to
+watch a complete, self-contained story: a Jedi in hiding, a captive girl, and a
+massacre in a clearing. If they leave saying *"that Jedi saved that girl"*, the
+film has worked.
+
+**The casual fan.** They should reach the end and get the reveal — *that's
+Baylan?* — having not seen it coming. This is why he reads as a mercenary
+throughout and why the name only appears at the climax.
+
+**The hard-core fan.** They should spot `Bay` → `Baylan` early and spend the film
+knowing more than everyone else. Shin is harder for them — red hair and a
+character who behaves nothing like the woman they know — which is deliberate.
+
+### Practical rules
+
+- **Never signal early.** No design element may confirm either identity before
+  the film chooses to.
+- **Build to the end.** Recognition should be strongest in the final scene and
+  weakest in the first.
+- **Never nod to camera.** No design element exists solely as a reference.
+- **Divergence is permitted and expected.** Shin's red hair and Baylan's
+  yellow blade differ from what returning viewers expect. Those gaps are
+  deliberate and are not errors to be corrected.

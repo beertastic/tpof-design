@@ -6,7 +6,7 @@ status: "asset-built"
 named: false
 category: "creature"
 owner: "Captain Jasu"
-scenes: "9, and others — full list pending"
+scenes: "Follows Jasu — 9, 19, 20, 23, 24, 24A + background"
 source: "Filmanize script breakdown; existing production 3D asset"
 ---
 
@@ -115,15 +115,35 @@ Design and production consequences:
   while fighting; she is killed while unable to run.
 - **Shin sees, hears and smells all of it.** Staging must put her close.
 
-### Other scenes
+### Where it appears — the rule
 
-The akk dog appears in **several scenes beyond 9**. The Filmanize breakdown does
-not track it — it is named only inside the Scene 9 description as a "dog-like
-beast" and appears in no character or set-dressing list anywhere.
+**Wherever Captain Jasu is, the akk dog is.** It is not scheduled scene by scene;
+it goes where she goes. This follows directly from the animal being her authority
+— she does not appear without it.
 
-**This means the scene breakdown under-reports the creature, and any schedule
-built from that export will miss it.** The full scene list needs to be recorded
-here and reflected in `Scene-Index.md`.
+| Scene | Setting | Presence |
+|---|---|---|
+| 9 | Forest Mercenary Camp, evening | With Jasu, being petted during the briefing |
+| 19 | Forest Mercenary Camp, early morning | With Jasu at the dawn briefing |
+| 20 | Forest, early morning | With Jasu on patrol |
+| 23 | Forest, morning | With Jasu organising the pursuit |
+| 24 | Forest Clearing, morning | With Jasu |
+| 24A | Forest Clearing, morning | **Kills Jeyin, then is called off** |
+
+Plus **background presence** during mercenary movement — patrols and walking
+shots — where it reads as part of the crew rather than as an event.
+
+A **sleeping insert** may be added to the script later. Not yet written.
+
+### The breakdown does not track it
+
+The Filmanize export names the animal only inside the Scene 9 description, as a
+"dog-like beast", and lists it in no character or set-dressing field anywhere.
+
+**Any schedule, day-out-of-days or shot list built from that export is missing a
+creature unit across six confirmed scenes plus background.** That is a
+significant scheduling gap, not a documentation nicety — creature work carries
+its own time, handling and safety requirements.
 
 ## Physical Design
 

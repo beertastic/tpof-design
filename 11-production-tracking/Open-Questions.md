@@ -20,9 +20,9 @@
 - [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.
-- [ ] **Which scenes does the akk dog appear in?** Confirmed to be in several beyond
-      Scene 9, but the Filmanize breakdown tracks it in none of them — it is named only
-      inside the Scene 9 description. Any schedule built from that export will miss it.
+- [x] ~~Which scenes does the akk dog appear in?~~ **Wherever Jasu is** — 9, 19, 20, 23, 24,
+      24A — plus background during mercenary movement. A sleeping insert may be added later.
+      Confirmed 2026-07-30. SCHEDULING: the Filmanize export tracks none of these.
 - [x] ~~Is the akk dog ordered to kill Jeyin?~~ **Yes.** Jasu sets it on her and calls it
       off afterwards. Confirmed 2026-07-30. The animal needs tack, present from Scene 9.
 - [x] ~~Does Shin witness her mother's death?~~ **She sees, hears and smells all of it**,

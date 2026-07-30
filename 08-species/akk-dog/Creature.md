@@ -164,17 +164,47 @@ akk dog needs it correct relative to a human, and it is the single thing image
 generators get wrong most often. Record its height at the shoulder against a
 1.8 m figure and state it in every prompt.
 
+## Baylan feeds it
+
+**There is a connection between Baylan and the akk dog.** He feeds it — a
+scripted beat — and by implication has been doing so for years.
+
+This is one of the most useful facts about the animal:
+
+- **It is the one creature in that camp that likes him.** He is very probably the
+  only person who has ever been kind to it, which is entirely in character for a
+  man performing dullness while remaining, underneath, a Jedi.
+- **Then it kills Jeyin in front of Shin.** His complicity becomes literal: he
+  fed the thing that did it.
+- **It solves the finale's biggest staging problem.** When Baylan begins killing
+  the crew, the obvious question is why a war beast does not go for him. The
+  answer is already written: it knows him. It has eaten from his hand for
+  eighteen years.
+
+Design consequence: their proximity should be visible earlier — he should be near
+it, unbothered by it, in at least one camp scene before the finale, so the
+audience has the information before they need it.
+
 ## Handling and Behaviour
 
+- **It obeys Jasu.** Voice command is sufficient; she sets it on a target and
+  calls it off.
 - Calm and affectionate with Jasu specifically (Scene 9).
+- **Baylan feeds it.** It is comfortable with him.
 - Lethal on command, or off it — it kills Jeyin in the finale.
 - It has no name.
 - TBD: is it calm with the rest of the crew, or only with her?
 - **Confirmed: the kill is ordered.** Jasu sets it on Jeyin and calls it off. The
-  animal obeys both commands.
-- It therefore requires **tack** — collar, harness, or a lead — present from
-  Scene 9 onward, not only in the finale.
+  animal obeys both commands, by voice.
+- **Tack — proposed, pending confirmation.** Since it obeys voice, is petted
+  openly, and is fed by a crew member, it reads as a member of the crew rather
+  than equipment in a rack. Recommendation: **a heavy salvaged collar and nothing
+  else.** A grab handle and an anchor point, no lead, no muzzle. Nothing
+  physically restrains it at any point in the film, which is considerably more
+  frightening than a chain, and it keeps the head and jaw visible throughout.
 - TBD: is it worked as a tracker in the pursuit, or held back until the end?
+  Note that Jasu hands Baylan a **scanner** in Scene 20 while the animal is
+  present — which suggests it does not track.
 
 If it wears any tack, that tack is a prop and belongs in `05-props/`.
 
@@ -199,8 +229,12 @@ README for what is needed and why.
 
 ## Open Questions
 
-- **Does it survive the finale?** Baylan kills everyone. Whether that includes the
-  animal is both a story question and the last image of Jasu's power.
+- **Does it survive the finale? Undecided.** Current thinking is that **Shin
+  knocks it out with a Force blast** — which would make it the target of her first
+  active use of power. Whether it dies, wakes, or is left in the clearing is open.
+  Note the tension worth resolving deliberately: Baylan has fed this animal for
+  years, and Shin has every reason to want it dead.
+- Does Baylan's connection to it change what he does about it in the finale?
 - Where did Jasu get it? It is the source of her position, so its acquisition is
   her backstory.
 - **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but

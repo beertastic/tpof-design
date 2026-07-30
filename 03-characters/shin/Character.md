@@ -87,8 +87,27 @@ The final scene, in order:
    an ordered killing, not an animal getting loose.
 3. **Jeyin is still alive.** Shin gets to her and they exchange a few words
    before she dies.
-4. **Baylan kills everyone.**
-5. **Shin leaves with Baylan.**
+4. **Shin knocks the akk dog out with a Force blast** — provisional; see below.
+5. **Baylan kills everyone.**
+6. **Shin leaves with Baylan.**
+
+### The Force blast — her first active use of power
+
+Current thinking is that Shin knocks the akk dog out with a blast of the Force.
+The animal's fate beyond that is undecided.
+
+If it stands, it is the most important thing she does in the film:
+
+- **It is her first active use of power.** The shadow in Scene 6 happens *to* her
+  and she does not know she is causing it. This she does — instinctively,
+  uncontrolled, out of grief and rage rather than any technique.
+- She has no idea what she has just done, and no framework for it.
+- It escalates her from someone things happen to into someone who acts, in the
+  single worst moment of her life.
+- **It should not look trained, aimed or elegant.** No stance, no gesture, no
+  choreography. It is a scream with force behind it.
+- Visually it must connect to the Scene 6 shadow — the same phenomenon, released
+  rather than leaking.
 
 ### What this means for her design
 
@@ -286,6 +305,11 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   unresolved, and it sets her pallor, whether she squints in daylight, and
   whether Scene 8 is wonder or recognition. Designed to the middle for now:
   markedly pale, but not someone who has never seen the sun.
+- Does the Force blast stand, and where does it sit in the sequence — before she
+  reaches her mother, or after she dies? Before makes it protective; after makes
+  it grief.
+- What happens to the akk dog afterwards? Baylan has fed it for years and Shin has
+  every reason to want it dead.
 - How much blood is on her at the end, and does the costume need a duplicate for
   it? This is the garment's final state and it needs a standard, not an
   improvisation on the day.

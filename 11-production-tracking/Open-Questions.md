@@ -34,8 +34,12 @@
       Scene 15. The finale is its first ignition. Blade reads yellow in this film.
       Confirmed 2026-07-30. Prop needed in three states: blaster, transition, hilt.
 - [ ] Does Shin watch Baylan kill them? If so, what she leaves with is not a rescuer.
-- [ ] What tack does the akk dog wear? Required in Scene 9 as well as the finale.
-- [ ] Does the akk dog survive the finale? Baylan kills everyone — does that include it?
+- [ ] Confirm akk dog tack. Recommendation on file: heavy salvaged collar, no lead, no
+      muzzle — it obeys by voice and nothing ever physically restrains it.
+- [ ] Does the akk dog survive? Current thinking: Shin knocks it out with a Force blast.
+      Fate beyond that undecided. Baylan has fed it for years; Shin wants it dead.
+- [ ] Where in the finale sequence does Shin's Force blast fall — before she reaches her
+      mother (protective) or after she dies (grief)?
 - [ ] Where did Jasu get the akk dog? It is the source of her authority, so it is her backstory.
 - [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her
       dialogue and unmistakably fatal. Prosthetic build; the most demanding in the film.

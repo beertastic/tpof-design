@@ -287,6 +287,26 @@ Whatever this crystal is now, it is not yet what it becomes.
 Since the finale is the blade's first ignition, **the blade in this film reads
 yellow**, and its change belongs to a later story.
 
+### The akk dog
+
+**Baylan feeds Captain Jasu's akk dog**, and has presumably done so for years.
+
+He is very probably the only person in that camp who has ever been kind to it —
+which is entirely in character for a man performing dullness while remaining,
+underneath, what he is. It is also the only relationship he has in the film that
+costs him nothing to maintain.
+
+Then it kills Jeyin in front of Shin, and his complicity becomes literal: he fed
+the thing that did it.
+
+It also answers the finale's most obvious staging question — why a war beast does
+not go for him when he starts killing the crew. It knows him.
+
+**Their proximity should be visible before the finale**, in at least one camp
+scene, so the audience has the information before they need it.
+
+See [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).
+
 ### Working weapons
 
 - **A heavy rifle** (Scene 20). His actual weapon. Battered, reliable, boring

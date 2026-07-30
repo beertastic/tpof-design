@@ -48,6 +48,13 @@ feel *cramped, functional and lived in rather than luxurious* — and it gives a
 diegetic reason the crew is ten and not twenty, which removes any need to justify
 the headcount.
 
+### It makes Baylan's years worse
+
+He has hidden what he is **in a space where you cannot be alone.** Everyone walks
+past everything eventually. That is why the one time we see him practising —
+Scene 14, in a makeshift storage area away from the ship — he is found within
+minutes.
+
 ## Where the akk dog lives
 
 **Proposed: the gun turret.** It sleeps curled inside one of the ship's turret
@@ -75,13 +82,6 @@ everything about this crew.
 If the turret does not work practically, the **cargo hold** is the fallback, in
 which case it has displaced somebody's sleeping space and that person has
 feelings about it.
-
-### It makes Baylan's eighteen years worse
-
-He has hidden what he is for eighteen years **in a space where you cannot be
-alone.** Everyone walks past everything eventually. That is why the one time we
-see him practising — Scene 14, in a makeshift storage area away from the ship —
-he is found within minutes.
 
 ## Design language
 

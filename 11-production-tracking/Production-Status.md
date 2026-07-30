@@ -15,14 +15,14 @@
 | Shada | In development | Locked for board review; prompt pack complete |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Mercenary captain |
-| Nyx | Placeholder | Recurring mercenary |
+| Nyx | Placeholder | **PRIORITY.** Baylan's brother in arms; Baylan kills him. Build before other mercs. |
 | Reya Fenn | Placeholder | Confirm against earlier “Freya” name |
 | Loryl | Placeholder | Breakdown-derived |
 | Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
-| Vala | Placeholder | Escapee |
+| Vala | Placeholder | **Survives** — post-credit scene. Killed by Shin in Film 2. Do not stage a death. |
 | Krellis | Placeholder | Escapee medic |
 
 ## Factions

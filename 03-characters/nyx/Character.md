@@ -17,7 +17,42 @@ Mercenary with recurring dialogue, patrol and pursuit responsibilities.
 
 ## Story Function
 
-TBD.
+**Baylan's closest thing to a friend, and Baylan kills him in the finale.**
+
+Nyx is the person Baylan speaks to most in the entire film — and the death has to
+be devastating, which means the friendship must be *built here* or it is just
+another body in a clearing.
+
+| Scene | Beat |
+|---|---|
+| 6 | A disembodied voice calling "Bay" as Shin looks into camera |
+| 7 | Presses Baylan into unloading the ship and making camp; taunts about escapees |
+| 10 | The Sabacc game — wins the pile of chips |
+| 14 | **Finds Baylan practicing telekinesis.** They banter about patrols and an upcoming fight, then part to continue duty |
+| 20 | On patrol. **Teases Baylan about his blaster** |
+| 23 | Volunteers to lead a squad after Vala |
+
+### Scene 14 is the important one
+
+Nyx walks in on Baylan **using the Force** — and notices nothing wrong. They
+banter. They part as friends.
+
+The person best placed to expose him never looks twice, because he likes him.
+That is the whole relationship in one scene, and it is what makes the finale
+land.
+
+### Design requirements
+
+- **He must be likeable.** Not comic relief, not a thug. The audience has to want
+  him to live.
+- **The warmth must be visible**, not implied. The Scene 20 teasing about the
+  blaster is affection and should play as affection.
+- He is a full mercenary of the faction — self-assembled kit, personal taste,
+  visible preference. Everything Baylan is not.
+- **Priority: he should be built before the other mercenaries.** The finale
+  depends on him.
+
+See [`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
 
 ## Character Overview
 
@@ -64,7 +99,13 @@ TBD.
 
 ## Open Questions
 
-- TBD
+- What is his relationship to Baylan in his own head? Does he know Baylan is
+  older than the rest and treat him accordingly?
+- Does Baylan own any single object that relates to Nyx? His design rejects all
+  personal ornament — an exception would be significant.
+- How does Baylan kill him? Whether it is first, last, or hesitated over is the
+  difference between a massacre and a tragedy.
+- Species, age, build — all TBD.
 
 ## Revision History
 

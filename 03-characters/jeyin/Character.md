@@ -90,6 +90,23 @@ from the ship or from someone's clothing.
   Requires stunt and VFX planning comparable to the `Krellis head shot` already
   flagged in Scene 24.
 
+### "Don't let the fear control you"
+
+Jeyin says this to Shin more than once across the film. It is her central line,
+and **it is the thematic spine of the entire trilogy** — because in Films 2–3
+Baylan teaches Shin the opposite: that fear is a tool, to be used rather than
+resisted.
+
+Shin ends up caught between the two people who raised her, one of whom is not
+there to argue her case.
+
+- The line must land as a **refrain**, not a throwaway. Repetition is the
+  mechanism.
+- **Strong recommendation: make it her last line.** Said dying, in Shin's arms,
+  minutes before Baylan appears, the contradiction in Film 2 becomes devastating
+  rather than merely thematic.
+- See [`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
+
 ### The death, precisely
 
 1. Jasu **sets the akk dog on her.** It is an ordered killing.
@@ -206,9 +223,9 @@ TBD.
 - What was she before captivity? She remembers freedom, so there is a life to
   reference — and it should show somewhere.
 
-- What are her last words to Shin? Not an art department decision, but the
-  makeup has to let her deliver them — which constrains where the injuries are.
-  Nothing may compromise her mouth or throat if she has to speak clearly.
+- **Are her last words "don't let the fear control you"?** Recommended. Either
+  way the makeup must let her speak clearly, which constrains the injuries —
+  nothing may compromise her mouth or throat.
 - Escapee costume language overall: what were they issued, what did they steal,
   and what has captivity left them wearing?
 

@@ -60,3 +60,12 @@
 - [ ] Where did Jasu get the akk dog? It is the source of her authority, so it is her backstory.
 - [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her
       dialogue and unmistakably fatal. Prosthetic build; the most demanding in the film.
+
+## Planted for Films 2–3
+
+See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
+
+- [ ] Terminology: is the Scene 22 object a **clasp** or a **brooch**? Settle before it is built.
+- [ ] Is "don't let the fear control you" Jeyin's dying line? Recommended.
+- [ ] What injuries does Vala take, and where is the post-credit scene set?
+- [ ] Is Prodona (named by Krellis, Scene 8) a Film 2 location?

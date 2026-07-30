@@ -22,7 +22,14 @@ who was the medic there. She protects the group throughout, and in Scene 22 she
 **volunteers to lead the hunters away so the others can escape** — giving Shin a
 clasp as a promise before she goes.
 
-She does not come back.
+**She survives.** Barely — and a post-credit scene shows it.
+
+> **STAGING REQUIREMENT: do not shoot a death.** Her exit must read as *gone*,
+> not *killed*. No body, no confirmed kill, no dialogue asserting she is dead.
+> Other characters may believe it; the film must not confirm it.
+>
+> In Film 2 she is encountered again, and Shin kills her. See
+> [`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
 
 ## Costume note
 
@@ -38,6 +45,17 @@ from the others.
 rejects it explicitly. This is industrial, strapped and practical.
 
 Her arena history must never be used as licence for exposure or sexualisation.
+
+## Her injuries — decide now
+
+Whatever she takes leading the hunters away is **her Film 2 appearance.** She is
+next seen having survived something that should plainly have killed her, so the
+damage needs specifying while it is still free: scarring, a lost limb or eye, a
+changed gait, a ruined voice.
+
+It should be visible enough that an audience understands what surviving cost her.
+
+**Her costume continues into Film 2 in a damaged state and must be archived.**
 
 ## Hero prop — the clasp
 
@@ -95,7 +113,9 @@ TBD.
 
 - Where exactly on her rig does the clasp come from, and is its absence visible
   after she gives it away?
-- What does she face when she leads them off? Is her death on screen?
+- What injuries does she take, and where is the post-credit scene set?
+- In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan
+  first and Shin defend him? Different films for Shin.
 - How much of the arena is visible on her body — scarring, breaks, missing
   fingers? It should be readable without being displayed.
 - She and Krellis met in the arena. Does anything in their gear match?

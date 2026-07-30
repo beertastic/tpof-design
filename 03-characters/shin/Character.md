@@ -283,6 +283,15 @@ then age it *down* to what it looked like before years of wear.
   against the body; both are the last thing left of a person; both travel into
   the next film.
 
+**In Film 2, Shin kills Vala** — and looks at this object immediately afterwards,
+and keeps it. That transforms what it is. Not a keepsake from a lost friend, but
+the thing she is holding when she understands what she has become, given to her
+by the person she has just killed.
+
+It is the longest-lived hero prop in the project. **Build it to survive three
+productions and archive it.** See
+[`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
+
 ### Everything else
 
 Effectively nothing. She is a fleeing captive — whatever she has was grabbed,
@@ -301,7 +310,11 @@ nothing that says anything about him, while she has nothing at all.
 - **She cannot sleep** (Scene 11), and it should show cumulatively — more
   exhausted in every successive scene.
 - **She is not brave yet.** Fear reads plainly on her; she has never had to
-  perform composure.
+  perform composure. **This is thematic, not incidental** — her mother's central
+  line is *"don't let the fear control you"*, and in Films 2–3 Baylan teaches her
+  the opposite. Every image of Shin being afraid is planting for a trilogy-long
+  argument about what fear is for. Nothing in her design may suggest she is
+  mastering it. She is not.
 - **She looks directly into camera twice** (Scenes 6 and 12). What that means is
   a directorial decision, but it is the only time in the film anyone does.
 

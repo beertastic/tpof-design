@@ -167,6 +167,13 @@ These are **his own crew**. He has eaten with them, hauled crates for them, take
 Nyx's teasing about his blaster, fed Jasu's animal, and slept twenty feet from her
 tent. He kills all of them, and he does it because they saw.
 
+**Killing Nyx should be devastating.** They are brothers in arms — Nyx is the
+person Baylan speaks to most in the film, the one who walks in on him using the
+Force in Scene 14 and notices nothing because he likes him too much to look
+twice. That friendship must be built across the film or the finale is just
+bodies. See [`03-characters/nyx/`](../nyx/) and
+[`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
+
 ### Design consequences
 
 - **He fights with the lightsaber.** It was rebuilt in Scene 15, alone in his

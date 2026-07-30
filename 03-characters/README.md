@@ -30,7 +30,7 @@ All visual development must begin with the Production Design Bible in `../01-pro
 `Prompts.md` inlines the full Production Design Bible ruleset rather than
 referencing it. This is deliberate — an image generator reading one file in
 isolation must still receive every constraint. The canonical shared blocks live
-in `../09-prompts/Global-Style-Block.md`; if you change a rule there, propagate
+in `../09-prompt-library/Global-Style-Block.md`; if you change a rule there, propagate
 it to the character files.
 
 A pack marked `status: scaffold` has correct shared style rules but incomplete

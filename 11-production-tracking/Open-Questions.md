@@ -14,3 +14,6 @@
       or a prophetic glimpse of Shin? Changes his face and the crystal's provenance.
 - [ ] What happened on the dune (Scene 12)? Determines whether Baylan carries a visible injury.
 - [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
+- [ ] Captain Jasu's "dog-like beast" (Scene 9) has no home in the folder structure.
+      Does it belong under `08-species/`, or does the repo need a separate creatures
+      category? Only one creature appears in the script so far.

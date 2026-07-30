@@ -22,8 +22,13 @@ Later documents may add detail but must not contradict earlier governing documen
 - `06-vehicles/` — vehicles and craft
 - `07-locations/` — sets, planets, and environments
 - `08-species/` — biological and cultural design rules
-- `09-prompt-library/` — approved image-generation prompts
+- `09-prompt-library/` — shared prompt blocks used by every character pack
 - `10-assets/` — reference images and exported production sheets
+- `11-production-tracking/` — status board and open questions
+- `tools/board-generator/` — builds the A2 production boards from `board-data.yaml`
+
+Each number is used exactly once. Empty categories carry a `.gitkeep` so the
+structure is present in the repository rather than only on one machine.
 
 ## Working method
 
@@ -48,6 +53,13 @@ This repository is local and includes its Git history. After extracting it, conn
 git remote add origin <repository-url>
 git push -u origin main --tags
 ```
+
+## Generated output is not committed
+
+`renders/`, the PPTX and the multi-page master PDF are gitignored — they are
+rebuilt in one command and would otherwise add ~100 MB per character per
+rebuild. Committed instead: source documents, `board-data.yaml`,
+`source/artwork/` and the five board PDFs.
 
 ## Current production import
 

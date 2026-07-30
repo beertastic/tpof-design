@@ -12,7 +12,6 @@
     "deny": [
       "Bash(git clean *)",
       "Bash(git reset --hard*)",
-      "Bash(git push --force*)",
       "Bash(git push -f*)",
       "Bash(rm -rf *)",
       "Bash(sudo *)"

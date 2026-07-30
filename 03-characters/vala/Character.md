@@ -24,6 +24,13 @@ clasp as a promise before she goes.
 
 **She survives.** Barely — and a post-credit scene shows it.
 
+**Her fight with Nyx ends with a grenade detonating.** The audience is led to
+believe she was blown up — which is precisely why there is no body and no
+confirmed kill. The explosion does the work of a death without being one.
+
+Nyx survives it dazed and stumbles back to the clearing, which is how he arrives
+last and walks into Baylan.
+
 > **STAGING REQUIREMENT: do not shoot a death.** Her exit must read as *gone*,
 > not *killed*. No body, no confirmed kill, no dialogue asserting she is dead.
 > Other characters may believe it; the film must not confirm it.
@@ -122,7 +129,8 @@ TBD.
 
 - Where exactly on her rig does the clasp come from, and is its absence visible
   after she gives it away?
-- What injuries does she take, and where is the post-credit scene set?
+- The grenade is hers or Nyx's? Whose it is changes whether she chose this.
+- Where is the post-credit scene set?
 - In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan
   first and Shin defend him? Different films for Shin.
 - How much of the arena is visible on her body — scarring, breaks, missing

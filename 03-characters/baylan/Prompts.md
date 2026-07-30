@@ -340,13 +340,23 @@ Not part of the five-board package; generate as needed for the finale.
 
 ### F1. The first ignition
 **Any ratio.** Forest clearing, morning. Baylan standing among mercenaries,
-igniting a **yellow** lightsaber blade for the first time in eighteen years. He
+igniting a **yellow** lightsaber blade for the first time in eighteen years.
+(It ignites yellow and finishes the scene orange — see F2.) He
 is not posed heroically and not shouting. His face is almost blank. The mercenary
 nearest him has not yet understood what he is looking at. Overcast morning light;
 the blade is the only saturated colour besides Shin's hair. Still-swirling smoke
 from a crashed ship in the background.
 
-### F2. Leaving
+### F2. The blade changes
+**Wide banner, 3:1.** Close on a lightsaber blade being drawn slowly out of a
+man's chest in a forest clearing. The blade **enters yellow and emerges orange** —
+the change happening across the withdrawal, not as a cut. The wounded man is a
+mercenary in his forties, dazed, his kit scorched and torn down one side from a
+grenade blast, hands still half-raised. Overcast morning light. The only
+saturated colour in frame is the blade. Held, slow, quiet — no motion blur, no
+heroic angle, no spectacle.
+
+### F3. Leaving
 **Tall portrait, 9:16.** Baylan and Shin walking out of the forest clearing
 together, seen from behind or in profile at middle distance. He is damaged; his
 outer layers are torn or gone and the patched dark undertunic is visible. She is

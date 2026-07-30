@@ -72,7 +72,8 @@ him as a Jedi on first sight has failed.
 - Carried in a worn leather pouch on a cord around his neck, under the shirt,
   against the skin.
 - The pouch is older than everything else he owns and has been repaired.
-- **The blade he is eventually known for is not yellow. This gap is deliberate.**
+- **The blade changes colour in this film.** Ignites yellow; turns **orange** as it
+  is withdrawn from Nyx's chest. Killing Nyx is what changes it.
 
 ### Working kit
 
@@ -114,7 +115,12 @@ him as a Jedi on first sight has failed.
 - Whatever state his costume ends in is his first frame in the next film.
 - **He fights with the lightsaber**, rebuilt alone in Scene 15. The finale is its
   first ignition and the first lit blade anyone has seen in eighteen years.
-- The blade reads **yellow** in this film. Its change belongs to a later story.
+- The blade **ignites yellow and finishes orange.** The change happens on screen at
+  Nyx's death, and it is the film's only statement about what Baylan has become:
+  no longer a Jedi, and not a Sith.
+- **Nyx is killed last.** The audience must not see the blade enter; his raised
+  hands must read as a Force push for at least a beat. The withdrawal is a held
+  shot. Nyx is not Force-sensitive — the implication is a deliberate misdirect.
 
 ## Design Drift Prevention
 

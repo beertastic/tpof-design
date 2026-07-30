@@ -77,3 +77,9 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
       it: no injury shown, no dialogue describing her condition. 2026-07-30.
 - [ ] Where is Vala's post-credit scene set? Still needed as an asset for this film.
 - [ ] Is Prodona (named by Krellis, Scene 8) a Film 2 location?
+- [x] ~~How does Baylan kill Nyx?~~ **Last, through the chest**, after Nyx stumbles back
+      dazed from the Vala grenade. Raised hands misdirect the audience into thinking Nyx is
+      Force-sensitive. **The blade is withdrawn slowly and is orange.** 2026-07-30.
+- [ ] Does the crystal change colour too, or only the blade? Affects the physical prop
+      carried into Film 2.
+- [ ] Whose grenade ends the Vala/Nyx fight?

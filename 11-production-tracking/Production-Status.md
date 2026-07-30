@@ -15,7 +15,7 @@
 | Shada | In development | Locked for board review; prompt pack complete |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Mercenary captain |
-| Nyx | Placeholder | **PRIORITY.** Baylan's brother in arms; Baylan kills him. Build before other mercs. |
+| Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Death sequence written |
 | Reya Fenn | Placeholder | Formerly listed as "Freya" — same character |
 | Loryl | Placeholder | Breakdown-derived |
 | Generic Mercenary | Placeholder | Reusable design family |

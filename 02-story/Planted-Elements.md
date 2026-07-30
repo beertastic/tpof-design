@@ -53,8 +53,12 @@ woman who dies in Film 1.
 
 ## P2 — Vala survives
 
-**Planted:** Vala volunteers to lead the hunters away in Scene 22 and is
-presumed dead. **She survives — barely — and a post-credit scene shows it.**
+**Planted:** Vala volunteers to lead the hunters away in Scene 22. Her fight with
+Nyx **ends with a grenade detonating** and the audience believes she was blown up.
+**She survives — barely — and a post-credit scene shows it.**
+
+The grenade is what makes the plant work: an explosion reads as a death without
+producing a body.
 
 **Pays off:** In Film 2, Baylan and Shin encounter her again. Shin is angry that
 Vala left, and in Shin's head Vala is part of the reason Jeyin died. They fight —
@@ -119,6 +123,11 @@ the person she just killed. It carries her guilt for the rest of the trilogy.
 
 ## P4 — Baylan and Nyx are brothers in arms
 
+**The blade change is no longer a future plant.** It happens in this film, on
+screen, as the blade is withdrawn from Nyx's chest — yellow going in, orange
+coming out. See [`03-characters/nyx/`](../03-characters/nyx/).
+
+
 **Not a plant — a requirement.** Baylan kills Nyx in the finale and **it should
 be devastating.**
 
@@ -164,7 +173,7 @@ likes him.
 |---|---|
 | The clasp | Hero prop in at least two more films |
 | Vala's costume | Continues into Film 2, damaged |
-| Baylan's lightsaber hilt | Continues; blade colour changes later |
+| Baylan's lightsaber hilt | Continues. **Blade changes yellow → orange in this film**, at Nyx's death |
 | Baylan's crystal and pouch | Continues |
 | Shin's costume | Reference for what she leaves the clearing in |
 | The akk dog rig | Fate undecided; may recur |

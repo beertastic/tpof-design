@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.5"
+version: "1.6"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -182,6 +182,9 @@ bodies. See [`03-characters/nyx/`](../nyx/) and
 - **Build in private, ignite in public.** The decision is made alone by glowrod
   light; the consequence is public and irreversible. He does not draw it to
   threaten. He draws it and they die.
+- **He kills Nyx last, and the blade changes colour doing it.** Yellow going in,
+  orange coming out. See [`03-characters/nyx/`](../nyx/) for the full sequence and
+  its staging requirements.
 - **The costume must survive a fight and finish the film changed.** Whatever
   state he ends in is what walks out of the clearing with Shin, and it is his
   first frame in the next film.
@@ -344,12 +347,20 @@ Carried in a small, worn leather pouch on a cord around his neck, under the
 shirt, against the skin. The pouch is older than everything else he owns and has
 been repaired more than once.
 
-**The blade he is eventually known for is not yellow. The gap is deliberate** —
-something happens between this film and then, and the audience who knows, knows.
-Whatever this crystal is now, it is not yet what it becomes.
+**The blade does not stay yellow. It changes in this film**, on screen, at the
+moment he kills Nyx.
 
-Since the finale is the blade's first ignition, **the blade in this film reads
-yellow**, and its change belongs to a later story.
+He ignites yellow — the Sentinel he was. He kills his crew. Then Nyx stumbles in
+dazed from the Vala fight, raises his hands, and Baylan stabs him through the
+chest. The blade protrudes from Nyx's back, and **as it is drawn slowly out it is
+orange.**
+
+Orange sits between Sentinel yellow and Sith red. **He is no longer a Jedi and he
+is not a Sith**, and that is the only statement the film makes about what he has
+become. No dialogue does this work.
+
+**Killing Nyx is what changes it** — not the crew, not Jasu. The one person who
+was kind to him.
 
 ### The akk dog
 
@@ -430,6 +441,10 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   attention? The staging fix is the crystal seating, held longer — not dialogue.
   Worth testing on someone cold.
 - Does he still carry the rifle in the finale, or is the lightsaber all of it?
+- **Does the crystal change too, or only the blade?** If the crystal itself turns,
+  that is a physical prop state and the pouch carries a different object into
+  Film 2.
+- Does he know the blade has changed? Does he look at it?
 - **How much of the killing is on screen?** Undecided. She sees it and knows he is
   doing it; the open question is whether the audience sees the blood, horror and
   efficiency, or watches her watching. Art department recommendation on file:
@@ -447,6 +462,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.6 | 2026-07-30 | in-development | CORRECTION: the blade does not stay yellow. It changes to orange on screen, in this film, as it is withdrawn from Nyx. Killing Nyx is what changes it. |
 | 1.5 | 2026-07-30 | in-development | Backstory: taken as a child by the Jedi, then abandoned — he is now repeating it. Visions confirmed as associative and deliberately illegible. No physical injury from the purge. |
 | 1.4 | 2026-07-30 | in-development | Motive recorded: she is him, and every mercenary present has seen what she is. The killing is witness elimination as much as rage. |
 | 1.3 | 2026-07-30 | in-development | The Scene 4 girl confirmed as Shin — the two visions are one, seen from both ends. Crystal confirmed as his own. `young-girl` merged into Shin. |

@@ -97,8 +97,10 @@ no 3D-render look, no plastic or waxy skin.
 
 ## Character Constants — paste with every prompt
 
-Baylan. Human male, fifty years old. A Jedi Knight who survived Order 66 and has
-spent eighteen years hiding inside a mercenary crew. Nobody in the crew knows.
+Baylan. Human male, fifty years old. A Jedi Knight who survived Order 66, tried
+and failed to keep being a Jedi on the Outer Rim, gave up, and has spent years
+since hiding inside a mercenary crew — where he is, for the first time in his
+life, safe. Nobody in the crew knows what he is.
 
 Tall and broad, thickened through the middle and shoulders — he was powerful once
 and is merely large now. Iron-grey hair, short, cut by himself or a crewmate
@@ -125,8 +127,9 @@ On a cord around his neck, under the shirt and against the skin, hangs a small
 worn leather pouch containing a raw, jagged yellow crystal.
 
 He looks like a man who could still do serious damage and would strongly prefer
-not to. He moves heavily and slowly and has spent eighteen years practising being
-uninteresting — but he can be still in a way nobody else can.
+not to. He moves heavily and slowly and has spent years practising being
+uninteresting — but he can be still in a way nobody else can. Around this crew he
+is genuinely at ease, and that ease is not part of the performance.
 
 ---
 

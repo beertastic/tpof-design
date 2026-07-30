@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.7"
+version: "1.8"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -22,8 +22,10 @@ source: "Filmanize script breakdown, production notes, Production Designer inter
 
 ## Art Department Brief
 
-A fifty-year-old Jedi Knight who survived Order 66 and has spent eighteen years
-hiding inside a mercenary crew. He has rejected his past deliberately and
+A fifty-year-old Jedi Knight who survived Order 66. He spent years afterwards
+trying to keep being a Jedi on the Outer Rim until life beat it out of him, then
+gave up and found a mercenary crew — where, for the first time in his life, he
+has been safe. He has rejected his past deliberately and
 thoroughly: he converted his own lightsaber into a blaster and carries it as a
 sidearm, and the only Jedi thing left on his body is a crystal in a pouch under
 his shirt.
@@ -35,13 +37,42 @@ film without suspecting, then find the evidence was always there.
 He is the film's point-of-view character and appears in eleven of twenty-five
 scenes, more than anyone else.
 
-## His life, in three takings
+## His life, in four parts
 
-**He was taken as a child by the Jedi.** Removed from whatever family he had,
-raised by an Order that then failed and abandoned hope. He was left with nothing
-and found the mercenaries, and whatever else happened in between is unrecorded.
+**1. Taken as a child by the Jedi.** Removed from whatever family he had and
+raised by an Order that then failed and abandoned hope.
 
-**Eighteen years later he takes a child.**
+**2. Order 66, and it was devastating.** He was ~32, an established Knight, in the
+field.
+
+**3. He tried to keep being a Jedi.** Alone, on the Outer Rim, for years —
+hunted, with nothing behind him. **Life beat it out of him.** This period is
+unrecorded and is Film 2 / Film 3 material.
+
+**4. He gave up, and found the crew.** And with these people, for the first time
+in his life — **perhaps ever** — he has been safe.
+
+Not the Temple. Not the Order. A crew of killers on a freighter.
+
+### This is the most important fact about him
+
+He is not staying with the mercenaries because it is a good hiding place. He is
+staying because **he is happy there**, or as close to it as he gets. They are his
+people, and he knows it is temporary — *for now* — which is why he owns nothing
+and could leave in ten minutes.
+
+**The finale is him destroying the only safety he has ever known, for a child he
+has never met.**
+
+### It dates the blaster
+
+He did not convert his lightsaber after Order 66. **He converted it when he gave
+up** — at the end of the Outer Rim years, when he stopped trying to be a Jedi.
+
+That is not a disguise decision. It is a surrender, and it happened on a specific
+day. The weapon in his holster is the physical record of the moment he quit.
+
+**Eighteen years after the purge he takes a child.**
 
 He is doing to Shin exactly what was done to him — removing a Force-sensitive
 child from the only life she knows, on the grounds that it is for her own good.
@@ -51,7 +82,7 @@ It belongs to the audience, not to him. See below.
 
 ## Story Function
 
-Baylan is hiding, competently and permanently, and the film is about that
+Baylan is hiding, competently and comfortably, and the film is about that
 failing. He sleeps badly, meditates in secret, practices telekinesis where
 nobody can see, and stands at the back when the squad is briefed. The escapees
 his crew is hunting include a fifteen-year-old girl, Shin, who is having visions
@@ -225,10 +256,14 @@ bodies. See [`03-characters/nyx/`](../nyx/) and
 
 Three ideas, in priority order.
 
-**1. The disguise has become the clothes.** Eighteen years is long enough that
-this is not a costume he puts on — it is what he owns. Nothing about his
-mercenary dress should look assumed or theatrical. He buys, repairs and wears
-salvage because that is his life now.
+**1. The disguise has become the clothes.** This is not a costume he puts on — it
+is what he owns. Nothing about his mercenary dress should look assumed or
+theatrical. He buys, repairs and wears salvage because that is his life now, and
+because he does not want anything else.
+
+His plainness is not only camouflage. It is a man who has stopped wanting things,
+and who could leave in ten minutes if he had to — **because he always knew this
+was "for now."**
 
 **2. One thread of the old life, worn past recognition.** He kept exactly one
 garment and has patched, re-dyed and repaired it for eighteen years until it
@@ -236,14 +271,20 @@ reads as salvage to everyone but us. It should be invisible on first viewing and
 obvious on the second. See *Costume and Armour*.
 
 **3. He is heavy now.** He was a Knight at thirty-two — trained, fit, in the
-field. He is fifty, and eighteen years of hauling crates has settled on him. He
-does not move like a Jedi. He moves like a tired man who is very, very good at
-being still.
+field. He is fifty, and years of hauling crates have settled on him. He does not
+move like a Jedi. He moves like a tired man who is very, very good at being
+still.
+
+**And he is at ease.** Not happy exactly, but unafraid, in a way he has never
+been anywhere else. Whatever performance he puts on for the crew, the comfort
+underneath it is real — and it is what he throws away in the clearing.
 
 ## Physical Design
 
 - **Species:** Human
-- **Age:** 50. Was ~32 and an established Knight at Order 66; eighteen years hidden
+- **Age:** 50. Was ~32 and an established Knight at Order 66. Eighteen years since
+  the purge: some spent trying to remain a Jedi on the Outer Rim, the rest — long
+  enough that they are his people — with this crew
 - **Build:** Tall and broad, thickened through the middle and shoulders. He was
   powerful and is now merely large. Nothing athletic remains on the surface
 - **Hair:** Iron rather than silver — going, not gone. Kept short and cut by
@@ -496,6 +537,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.8 | 2026-07-30 | in-development | Life split into four parts: taken as a child, the purge, failed Outer Rim years, then the crew — where he is safe for the first time. The blaster conversion is dated to his surrender, not the purge. |
 | 1.7 | 2026-07-30 | in-development | CORRECTION: the parallel with his own childhood is secondary, not his motive. He acts because he knows what awaits a seen Force-sensitive child, and because she is kin. The final hand plays certain, not haunted. |
 | 1.6 | 2026-07-30 | in-development | CORRECTION: the blade does not stay yellow. It changes to orange on screen, in this film, as it is withdrawn from Nyx. Killing Nyx is what changes it. |
 | 1.5 | 2026-07-30 | in-development | Backstory: taken as a child by the Jedi, then abandoned — he is now repeating it. Visions confirmed as associative and deliberately illegible. No physical injury from the purge. |

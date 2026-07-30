@@ -89,6 +89,16 @@ killing the one person who was kind to him.
   scorching, torn at one side. He is the only mercenary in the clearing who has
   been in a fight.
 
+### How long have they known each other?
+
+Long enough that they are each other's people. Roughly a decade fits everything
+written — long enough for real friendship, short enough that Baylan had a life
+before this crew that Nyx knows nothing about.
+
+**Nyx is part of the first safety Baylan has ever had.** Not the Jedi Temple, not
+the Order — this crew, and this man in particular. That is what Baylan destroys in
+the clearing.
+
 ### Design requirements
 
 - **He must be likeable.** Not comic relief, not a thug. The audience has to want

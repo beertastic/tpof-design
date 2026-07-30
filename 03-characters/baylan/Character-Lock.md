@@ -11,7 +11,12 @@ recorded revision.
 
 - Human male, 50 years old.
 - Jedi Knight who survived Order 66; ~32 and established at the time of the purge.
-- Eighteen years hiding inside a mercenary crew under Captain Jasu.
+- Afterwards he **tried to keep being a Jedi on the Outer Rim** and was beaten down
+  by it. He gave up, converted his lightsaber into a blaster, and found the crew.
+- **With these people he has been safe for the first time in his life.** Not the
+  Temple, not the Order — a crew of killers on a freighter. They are his people.
+- He knows it is temporary. He owns nothing and could leave in ten minutes.
+- **The finale is him destroying the only safety he has ever known.**
 - **Nobody in the crew knows what he is.**
 - Tall and broad, thickened with age and labour. Powerful once, merely large now.
 - Iron-grey hair, short and self-cut. Full unshaped beard.
@@ -51,7 +56,9 @@ him as a Jedi on first sight has failed.
 
 ### The blaster — his converted lightsaber
 
-- He took his own lightsaber apart eighteen years ago and rebuilt it as a blaster.
+- He took his own lightsaber apart and rebuilt it as a blaster — **not after the
+  purge, but when he gave up**, at the end of the failed Outer Rim years. The
+  weapon is the physical record of the day he quit.
 - A genuine conversion using the saber's own components — **not** a shell fitted
   over a hilt.
 - Emitter shroud became the barrel shroud. Activation plate became the trigger

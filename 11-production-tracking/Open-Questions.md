@@ -32,7 +32,13 @@
       kin — he protects his own. The parallel is audience subtext, secondary. The final hand
       plays **certain, not haunted.** 2026-07-30.
 - [ ] Does the parallel ever land on him, in Film 2 or 3 — and is Shin the one who says it?
-- [ ] What happened between the Order failing and Baylan finding the mercenaries?
+- [x] ~~What happened between the Order failing and Baylan finding the mercenaries?~~
+      **He tried to keep being a Jedi on the Outer Rim and life beat it out of him.** He
+      gave up, converted the saber to a blaster, and found the crew — where he has been
+      safe for the first time in his life. 2026-07-30.
+- [ ] How long on the Outer Rim vs with this crew? Roughly a decade with the crew fits
+      Nyx's friendship and the akk dog's age.
+- [ ] What finally broke him on the Outer Rim? That is the day he converted the saber.
 - [x] ~~Is Shin in this script Shin Hati?~~ **Yes.** Confirmed 2026-07-30; full pack built.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.

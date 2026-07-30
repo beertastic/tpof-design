@@ -189,7 +189,12 @@ audience has the information before they need it.
 
 - **It obeys Jasu.** Voice command is sufficient; she sets it on a target and
   calls it off.
-- Calm and affectionate with Jasu specifically (Scene 9).
+- **It adores her.** She almost certainly raised it from young — implied, never
+  stated. The affection in Scene 9 is genuine on both sides.
+- That makes the finale worse: she is spending something that loves her, and then
+  taking it back.
+- Tack should therefore read as **hers** — made or adapted by her over years,
+  fitted to this animal, not acquired with it.
 - **Baylan feeds it.** It is comfortable with him.
 - Lethal on command, or off it — it kills Jeyin in the finale.
 - It has no name.
@@ -235,8 +240,8 @@ README for what is needed and why.
   Note the tension worth resolving deliberately: Baylan has fed this animal for
   years, and Shin has every reason to want it dead.
 - Does Baylan's connection to it change what he does about it in the finale?
-- Where did Jasu get it? It is the source of her position, so its acquisition is
-  her backstory.
+- Does anything on the animal predate Jasu — older tack, a mark, a scar she did
+  not cause?
 - **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but
   the breakdown tracks none of them. Needed for the creature's own shot list, for
   `Scene-Index.md`, and for any schedule built from the breakdown export.

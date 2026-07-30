@@ -93,7 +93,20 @@ The final scene, in order:
    instruction that stops halfway.
 4. **Shin knocks the akk dog out with a Force blast** — provisional; see below.
 5. **Baylan kills everyone.** She sees it. See below.
-6. **Shin leaves with Baylan.**
+6. **Baylan extends his hand. Shin takes it.** They leave together.
+
+### The last image of the film
+
+**The extended hand is the communication.** Whether he speaks is open — possibly
+a single line, possibly nothing — but the gesture carries it either way, and the
+script is changeable.
+
+The intent is that the audience should be **furious that it is ending**. Not
+resolved, not satisfied — desperate to know what happens next.
+
+**Design requirement:** it must be a *choice*, visibly. She is not collected, not
+carried, not led. He offers, and she is the one who moves. Whatever else is
+uncertain, the film ends with a fifteen-year-old deciding something.
 
 ### She is not afraid of him
 
@@ -134,8 +147,30 @@ The animal's fate beyond that is undecided.
 If it stands, it is the most important thing she does in the film:
 
 - **It is her first active use of power.** The shadow in Scene 6 happens *to* her
-  and she does not know she is causing it. This she does — instinctively,
-  uncontrolled, out of grief and rage rather than any technique.
+  and she does not know she is causing it. This she does.
+- **It comes out of fear and anger.** Not grief, not will, not technique — fear
+  and anger, uncontrolled.
+
+### Why that matters more than anything else in the film
+
+Her mother's line is *"don't let the fear control you."* She says it throughout,
+and she says it again as she dies, and she does not get to finish it.
+
+**Seconds later, Shin's fear and anger produce the most powerful thing she has
+ever done.**
+
+Her first act of power is proof that fear works. It is the argument Baylan will
+make to her across the next two films — *use the fear* — demonstrated
+involuntarily, at her mother's body, before either of them has said a word about
+it.
+
+Neither of them is there to explain it. Jeyin is dead and Baylan has not spoken
+to her yet. Shin is left holding an unfinished warning and the evidence that
+contradicts it.
+
+**Design consequence:** the blast must read as *fear and rage*, not as grief or
+resolve. No stance, no aim, no control, no beauty. It is what a terrified,
+furious child does when something finally gives way.
 - She has no idea what she has just done, and no framework for it.
 - It escalates her from someone things happen to into someone who acts, in the
   single worst moment of her life.

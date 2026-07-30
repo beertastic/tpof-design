@@ -58,9 +58,13 @@
       muzzle — it obeys by voice and nothing ever physically restrains it.
 - [ ] Does the akk dog survive? Current thinking: Shin knocks it out with a Force blast.
       Fate beyond that undecided. Baylan has fed it for years; Shin wants it dead.
-- [ ] Where in the finale sequence does Shin's Force blast fall — before she reaches her
-      mother (protective) or after she dies (grief)?
-- [ ] Where did Jasu get the akk dog? It is the source of her authority, so it is her backstory.
+- [x] ~~What drives Shin's Force blast?~~ **Fear and anger.** Which makes it proof that
+      Baylan is right and her mother wrong, seconds after the unfinished warning. Exact
+      placement in the sequence still open. 2026-07-30.
+- [ ] Exact placement of Shin's blast in the finale sequence.
+- [x] ~~Where did Jasu get the akk dog?~~ **She raised it — implied, never stated. It adores
+      her.** Sc.9 affection is genuine; the finale is her spending something she loves.
+      2026-07-30.
 - [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her
       dialogue and unmistakably fatal. Prosthetic build; the most demanding in the film.
 
@@ -96,3 +100,12 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [ ] Where does the akk dog live on a YT freighter? A large animal on a small ship is
       its own design problem.
 - [ ] Any named crew missing from the clearing?
+- [x] ~~Do the escapees share a mark?~~ **No.** They escaped a slave auction and share an
+      escape, not an origin — different owners, different lots. Group reads through
+      condition, not marking. 2026-07-30.
+- [x] ~~What facility did they escape?~~ **A slave auction.** An accident triggered a mass
+      revolt; dozens fled; these four found each other and stole a ship. 2026-07-30.
+- [x] ~~Does Baylan speak in Sc.24A?~~ **Open, but the gesture is fixed: he extends his hand
+      and she takes it.** She must be the one who moves. 2026-07-30.
+- [ ] Does the auction appear on screen — cold open, flashback, or referenced only?
+- [ ] What was the accident that triggered the revolt?

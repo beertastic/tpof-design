@@ -33,8 +33,14 @@ This is the central fact of her design.
 - **She must not look like a natural leader.** No insignia that commands respect,
   no meaningful rank marking, no bearing of authority. Whatever she projects is
   on loan from the beast at her side.
-- **The akk dog is the rank.** Where she is, it is. Scene 9 — petting it while
-  briefing — is not warmth. It is a reminder, and it should play cold.
+- **The akk dog is the rank.** Where she is, it is.
+- **It adores her, and she almost certainly raised it from young** — implied, never
+  stated. That complicates Scene 9 considerably: the petting is *genuine*. She is
+  not performing affection for an audience of subordinates, she is fond of her
+  animal, and the reminder to everyone watching is a by-product.
+- Which makes the finale worse rather than better. **She spends something she
+  loves.** Setting it on Jeyin and calling it back is not the cold use of a
+  weapon — it is a person using something that trusts her, and then keeping it.
 - Scene 19's kneeling squad is compliance through fear, not discipline.
 - She probably takes the largest share, so she may be the **best-equipped** of
   them. Money without authority is a specific and useful look.
@@ -103,8 +109,10 @@ TBD.
   handles it.
 - Does she survive the finale, and does the akk dog?
 - What is her share, and how visibly does she wear it?
-- Where did the akk dog come from? It is the source of her position, so its
-  acquisition is her backstory.
+- She raised it, implied but unstated. Does anything on the animal predate her —
+  older tack, a mark, a scar she did not cause?
+- Is she afraid of it? Probably not, if she raised it — which removes a layer of
+  tension and adds a worse one.
 
 ## Revision History
 

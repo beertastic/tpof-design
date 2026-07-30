@@ -144,7 +144,27 @@ In the forest clearing, in order:
    the animal off afterwards.
 2. Jeyin survives long enough for Shin to reach her and speak to her.
 3. **Baylan kills everyone.**
-4. He and Shin leave together.
+4. **He extends his hand. She takes it.** They leave together.
+
+### The hand is the rhyme of his whole life
+
+**He was taken as a child by the Jedi.** Someone extended a hand to him once, and
+he took it, and it ended with him hiding in a freighter for eighteen years.
+
+Now he extends one.
+
+He is doing to Shin exactly what was done to him, and the film's final image is
+the moment of it. Whether he sees that is the last question the story asks — and
+it does not answer it.
+
+**Design requirement:** he offers; he does not take. She has to be the one who
+moves. He has spent eighteen years not touching anything, and this is the first
+thing he reaches for.
+
+Whether he speaks is open. A single line would land hard because he has barely
+spoken all film. Silence would leave **Jeyin's unfinished sentence as the last
+line in the picture**, which is a very strong thing to give a film called *The
+Price of Freedom*.
 
 ### Why he does it
 

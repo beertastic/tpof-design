@@ -18,6 +18,60 @@ status: "in-development"
 Escaped prisoners attempting to cross the forest world and reach safety, hunted
 by Captain Jasu's mercenaries. Four are named; the rest are background.
 
+## Where they came from — the auction
+
+**They escaped from a slave auction.** An accident during the sale triggered a
+mass revolt; dozens broke out. **These four found each other in the mayhem and
+stole a ship** — the rickety vessel that comes down in Scene 2.
+
+This is the single most useful fact about the faction, and it settles several
+design questions at once.
+
+### They share an escape, not an origin
+
+People at auction are brought together from different owners and different lots.
+The four have no common history and no common holding:
+
+- **Jeyin and Shin** are mother and daughter, together throughout.
+- **Vala and Krellis** already knew each other — he was the medic in the arena
+  where she was made to fight.
+- Beyond those two pairs, nothing connects them but the day they ran.
+
+**Therefore: no shared brand, tag or marking.** They did not come from the same
+place, so nothing was done to all of them. The group reads as a group through
+*condition and behaviour* — years of wear, hand repair, wrong sizing, indoor
+clothing destroyed by a forest — not through anything issued.
+
+That also keeps the four occupational silhouettes fully distinct, avoids an
+institutional read, and costs nothing in daily makeup.
+
+### They were being sold
+
+This is worse than being held, and it changes the costume logic:
+
+- **People at auction are presented.** Cleaned up, made saleable. That is very
+  likely why **Shin's clothing was the best-kept in the group** — she was being
+  prepared to be sold, which is the grooming subtext arriving from a new
+  direction and confirming it.
+- Jeyin's correspondingly worse condition may be her own doing *and* the
+  auction's assessment of her relative value.
+- Whatever presentation was done to them is now days old and being destroyed by
+  the forest. What survives is the **shape** of having been made presentable.
+
+### The ship is stolen
+
+Not theirs, not chosen, taken in the chaos — which is exactly why it is
+*rickety* and why it comes down. They took whatever would fly.
+
+See [`07-vehicles/`](../../07-vehicles/).
+
+### The other escapees
+
+**Dozens got out.** The "Group Of Escaped Prisoners" in Scene 8 are some of them.
+Others are unaccounted for, which means the mercenaries are not necessarily
+hunting only these four — and that there are survivors elsewhere in the galaxy
+for later films.
+
 ## Members
 
 | Character | What they were used for |
@@ -142,13 +196,16 @@ See [`03-characters/shin/Character-Lock.md`](../../03-characters/shin/Character-
 
 ## Open Questions
 
-- What is the facility or holding they escaped from, and does it appear on screen?
+- Does the auction appear on screen — a cold open, a flashback, or purely
+  referenced? It is the second unfilmed event after the crash.
+- What was the accident that triggered the revolt?
+- Is there any marking specific to a *single* character's former owner? Nothing
+  shared, but individual marks remain possible.
 - What is Jeyin's injury and does it relate to her work?
 - Krellis's carry: what did he salvage, and what is it in?
 - Do the background escapees in Scene 8 share these four occupations, or is the
   group wider?
-- Is there any marking, brand or tag common to all of them? A single shared
-  element would strengthen the group read without becoming a uniform.
+
 
 ## Revision History
 

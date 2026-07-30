@@ -9,6 +9,12 @@
 - [ ] Are “Slaves” and “Escapees” the same production faction label?
 - [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
       It is currently the only design carrier for it.
+- [x] ~~Does Shin remember freedom?~~ **No.** Taken as a toddler at the latest; she has no
+      life outside captivity. Designed as indoor skin, soft feet, Sc.8 as first sight.
+      Confirmed 2026-07-30.
+- [ ] **Why did Jeyin stay?** Was Shin threatened in a way that made leaving impossible?
+      Would make Jeyin a captive by choice and her death the removal of a shield. The most
+      useful unanswered question about her.
 - [ ] Should Palpatine receive a full design document or remain a vision-only reference?
 - [x] ~~Is Baylan a mercenary or a captive?~~ Neither — an Order 66 Jedi survivor hiding as a
       mercenary. Confirmed 2026-07-30.

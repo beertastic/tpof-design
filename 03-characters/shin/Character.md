@@ -199,13 +199,17 @@ destruction on a forest run.
   strong colour in the film. Styled toward a Star Wars silhouette — braided,
   bound or wrapped for practicality, never loose and glamorous. **Pretty, never
   sexy.** She is fifteen, and this is non-negotiable
-- **Skin:** Pale. See *Open Questions* — how pale depends on whether she has ever
-  lived outside
+- **Skin:** **Pale — indoor skin.** She has no life outside captivity to remember.
+  If she was taken at all it was as a toddler, so functionally she has always been
+  inside. No weathering, no sun, no outdoor scarring. Scene 8 is first sight
+  played as first sight
 - **Face:** Dirt-smeared through most of the film (Scene 11 is explicit). Young,
   open, and readable in a way nobody else in the film is — she has never had to
   hide her feelings from anyone, except about the visions
 - **Hands:** Work-marked but small. She has been used for labour, never for
   fighting
+- **Feet:** Soft. She has walked on floors her whole life, which is why her
+  footwear is failing by Scene 21 and why she is in genuine pain long before that
 
 ### The hair, specifically
 
@@ -333,10 +337,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 ## Open Questions
 
-- **Does Shin remember freedom?** Jeyin does. Shin's own memory is deliberately
-  unresolved, and it sets her pallor, whether she squints in daylight, and
-  whether Scene 8 is wonder or recognition. Designed to the middle for now:
-  markedly pale, but not someone who has never seen the sun.
+- **Why did Jeyin stay?** Was Shin threatened — sexually or otherwise — in a way
+  that made leaving impossible for her mother? See Jeyin's document. It is the
+  question that explains both of them.
 - Does the Force blast stand, and where does it sit in the sequence — before she
   reaches her mother, or after she dies? Before makes it protective; after makes
   it grief.

@@ -115,8 +115,32 @@ death:
 
 ## Character Overview
 
-**Domestic labour** — a worker, a maid — held alongside her daughter. She
-remembers freedom; Shin's own memory of it is deliberately unresolved.
+**Domestic labour** — a worker, a maid — held alongside her daughter.
+
+**She remembers freedom. Shin does not.** If Shin was taken at all it was as a
+toddler; functionally she has never known life outside captivity. Jeyin has, and
+carries the difference.
+
+### Why did she stay? — open, and it is the question that explains her
+
+The production's current thinking is that Jeyin may have had some means of
+leaving and **stayed because of a threat to Shin** — that her daughter was
+threatened, possibly sexually, and that leaving meant Shin faced it alone.
+
+If that is right, it reframes everything:
+
+- **She is a captive by choice**, which makes her different in kind from Vala and
+  Krellis. Fifteen years of standing between her child and something.
+- It explains why **everything went to her daughter** — the better-kept clothes,
+  presumably the food, and the shielding that leaves Shin still capable of being
+  horrified by Vala's arena story in Scene 17.
+- It may mean she had a position, or freedom of movement, that the others did
+  not. That would show in her costume as a slightly different status — a servant
+  who could have walked, not a prisoner who could not.
+- And it makes her death **the removal of a shield**, not simply a loss.
+
+The structure depends on it: a protector dies and a protector arrives in the same
+ninety seconds. Shin is never unprotected — she changes hands.
 
 ## Costume note
 
@@ -176,6 +200,9 @@ TBD.
 
 - What is the injury, when exactly does it happen, and what is its visible state
   in each of scenes 16, 17, 18, 21, 22 and 24?
+- **Why did she stay?** See above. The single most useful unanswered question
+  about this character, and it determines her status, her costume and the weight
+  of her death.
 - What was she before captivity? She remembers freedom, so there is a life to
   reference — and it should show somewhere.
 

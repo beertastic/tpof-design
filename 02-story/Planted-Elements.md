@@ -76,14 +76,14 @@ clasp — and keeps it. She keeps Vala with her anyway.
 - **The post-credit scene is an asset for this film** and needs a location, a
   costume state and a makeup state. It is not a Film 2 problem.
 - **Archive her costume.** It continues into Film 2 in a damaged state.
-- **The brooch must be built to last.** See P3.
+- **The clasp must be built to last.** See P3.
 
 **See:** [`03-characters/vala/`](../03-characters/vala/),
 [`03-characters/shin/`](../03-characters/shin/)
 
 ---
 
-## P3 — The brooch / clasp
+## P3 — The clasp
 
 **Planted:** Vala gives it to Shin in Scene 22 as a promise.
 
@@ -160,7 +160,7 @@ likes him.
 
 | Asset | Why |
 |---|---|
-| The brooch / clasp | Hero prop in at least two more films |
+| The clasp | Hero prop in at least two more films |
 | Vala's costume | Continues into Film 2, damaged |
 | Baylan's lightsaber hilt | Continues; blade colour changes later |
 | Baylan's crystal and pouch | Continues |

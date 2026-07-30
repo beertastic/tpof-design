@@ -65,7 +65,21 @@ death:
 
 ## Character Overview
 
-TBD.
+**Domestic labour** — a worker, a maid — held alongside her daughter. She
+remembers freedom; Shin's own memory of it is deliberately unresolved.
+
+## Costume note
+
+Indoor working clothes: coarse, plain, unfitted, made for scrubbing and carrying
+rather than weather. She and Shin are the worst-equipped people in the group and
+their footwear was made for floors.
+
+**Her clothing is visibly worse than Shin's.** Everything went to her daughter —
+which is both a practical fact and the clearest statement of who she is. See
+[`04-factions/slaves-escapees/Faction.md`](../../04-factions/slaves-escapees/Faction.md).
+
+All hand repairs on Shin's costume are Jeyin's work. After the finale, those
+patches are all that is left of her.
 
 ## Design Intent
 
@@ -112,7 +126,9 @@ TBD.
 
 - What is the injury, when exactly does it happen, and what is its visible state
   in each of scenes 16, 17, 18, 21, 22 and 24?
-- What was she before captivity? Shin's design and hers should share something.
+- What was she before captivity? She remembers freedom, so there is a life to
+  reference — and it should show somewhere.
+- Does her injury relate to her work, or was it taken in the escape?
 - What are her last words to Shin? Not an art department decision, but the
   makeup has to let her deliver them — which constrains where the injuries are.
   Nothing may compromise her mouth or throat if she has to speak clearly.

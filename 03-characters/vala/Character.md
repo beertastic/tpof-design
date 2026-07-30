@@ -17,7 +17,36 @@ Escapee and former arena fighter who protects the group.
 
 ## Story Function
 
-TBD.
+Arena fighter. Captured and forced to fight (Scene 17), where she met Krellis,
+who was the medic there. She protects the group throughout, and in Scene 22 she
+**volunteers to lead the hunters away so the others can escape** — giving Shin a
+clasp as a promise before she goes.
+
+She does not come back.
+
+## Costume note
+
+**The remnants of a fighting rig** — not armour and not costume, but the
+functional minimum an arena gives someone it expects to lose: strapping, wraps, a
+belt or harness, reinforcement at the forearms and shins.
+
+Hers is the only clothing in the group **designed to take damage**, which makes
+her the best-equipped person there for a forest and reads instantly as different
+from the others.
+
+**Avoid gladiator, Roman and classical reference entirely** — the Design Bible
+rejects it explicitly. This is industrial, strapped and practical.
+
+Her arena history must never be used as licence for exposure or sexualisation.
+
+## Hero prop — the clasp
+
+The clasp she gives Shin in Scene 22 is **the one thing she owns**, and it is the
+same piece Shin wears years later. It most likely comes off her own fighting rig
+— a fastener that has closed something thousands of times.
+
+Design it in parallel with Shin's document and with Baylan's crystal pouch. See
+[`03-characters/shin/Character.md`](../shin/Character.md).
 
 ## Character Overview
 
@@ -64,7 +93,12 @@ TBD.
 
 ## Open Questions
 
-- TBD
+- Where exactly on her rig does the clasp come from, and is its absence visible
+  after she gives it away?
+- What does she face when she leads them off? Is her death on screen?
+- How much of the arena is visible on her body — scarring, breaks, missing
+  fingers? It should be readable without being displayed.
+- She and Krellis met in the arena. Does anything in their gear match?
 
 ## Revision History
 

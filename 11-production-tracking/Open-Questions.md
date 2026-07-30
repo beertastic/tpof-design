@@ -7,6 +7,8 @@
 - [ ] What is the forest world's canonical name?
 - [ ] What is the mercenary ship's canonical name and class?
 - [ ] Are “Slaves” and “Escapees” the same production faction label?
+- [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
+      It is currently the only design carrier for it.
 - [ ] Should Palpatine receive a full design document or remain a vision-only reference?
 - [x] ~~Is Baylan a mercenary or a captive?~~ Neither — an Order 66 Jedi survivor hiding as a
       mercenary. Confirmed 2026-07-30.

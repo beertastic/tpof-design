@@ -173,11 +173,31 @@ The breakdown names two garments: a **"Scraggly Top"** (Scene 16) and a
 **"Tunic"** (Scene 22). Treat these as one costume progressively destroyed, not
 as two changes.
 
+**She was used for domestic labour** — a worker, a maid — alongside her mother.
+Her clothing is indoor working cloth: coarse, plain, unfitted, made for scrubbing
+and carrying rather than for weather. It has no business outdoors, and she and
+Jeyin are the worst-equipped people in the group. Her footwear was made for
+floors.
+
 Escapee costume language is the inverse of the mercenaries': not what she chose,
-but what she was issued or could steal. Coarse undyed or badly-dyed cloth, no
-fastening that cost anything, no pockets worth having, nothing fitted. Repairs
-made by hand with whatever was available — and those repairs are Jeyin's work,
-not hers.
+but what she was given for someone else's purpose. Repairs are hand-done in poor
+light — and they are **Jeyin's** work, not hers.
+
+### The subtext
+
+The production's intent is that **Shin was being groomed.** It is implied, never
+stated, and never depicted. The art department carries it one way only:
+
+- Her clothing was **the best-kept in the group** — cleaner, less worn, more
+  intact than her mother's — because she was being kept presentable for someone.
+  Jeyin's is correspondingly worse; everything went to her daughter.
+- By the time we meet her that is destroyed. What survives is the *shape* of
+  something that used to be looked after.
+
+**This makes the no-sexualisation rule absolute rather than merely strong.** The
+horror is entirely in what someone else intended and what her mother is fighting.
+None of it appears on the character. If an image could be read that way it is
+wrong, regardless of what else it gets right.
 
 Footwear is the critical detail. Whatever she has was not made for crossing a
 forest, and by Scene 21 it should be failing.
@@ -274,7 +294,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 - What is Scene 12 exactly — she sees a vision *and* stands within it. Is she
   watching herself? A VFX and staging decision.
 - Does Baylan speak to her in Scene 24A, or is the meeting silent?
-- Escapee faction costume language needs settling; her garments must sit inside it.
+- Is the "best-kept clothing" reading the right level for the grooming subtext, or
+  too much? It is currently the only design carrier for it.
+- What was the facility, and does it appear on screen?
 
 ## Revision History
 

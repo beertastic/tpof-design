@@ -49,8 +49,12 @@ him as a Jedi on first sight has failed.
 - Emitter shroud became the barrel shroud. Activation plate became the trigger
   housing. The belt clip is still on it. The crystal chamber holds a power cell.
 - Ugly, heavily modified, and it does not group well. Nyx mocks it in Scene 20.
-- In Scene 15 it comes apart under the crystal's influence, revealing the saber
-  architecture and the empty crystal chamber.
+- **Three physical states: blaster, mid-transition, hilt.** Same object in three
+  arrangements; every component in the hilt was visible on the blaster.
+- **Scene 15 is the reconstruction.** The crystal lifts it, it comes apart, and it
+  goes back together as a lightsaber. Parts must **converge**, not only separate.
+  The crystal seats last and visibly. The result reads as a hilt in silhouette.
+- **He does not ignite it in Scene 15.** The finale is the first ignition.
 
 ### The crystal
 
@@ -100,8 +104,9 @@ him as a Jedi on first sight has failed.
   heavy, slow and deliberately uninteresting applies until this moment and not
   after it.
 - Whatever state his costume ends in is his first frame in the next film.
-- **How he kills them is not yet decided.** Until it is, generate nothing for the
-  finale.
+- **He fights with the lightsaber**, rebuilt alone in Scene 15. The finale is its
+  first ignition and the first lit blade anyone has seen in eighteen years.
+- The blade reads **yellow** in this film. Its change belongs to a later story.
 
 ## Design Drift Prevention
 

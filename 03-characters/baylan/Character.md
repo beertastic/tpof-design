@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.1"
+version: "1.2"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -59,7 +59,7 @@ decade later.
 | 12 | Shin's vision: Baylan in **Jedi robes** atop a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | The one image of who he was. A separate costume build |
 | 13 | Wakes gasping, sweating, scans the tents, slips out under the tarpaulin | Sleeps in the camp, in something |
 | 14 | Practices telekinesis alone in the storage area until Nyx finds him | The only time he stops performing |
-| 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, **which begins to come apart** | The hero prop and the hero moment |
+| 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, which comes apart — **and he rebuilds the lightsaber** | The hero prop and the hero moment |
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
 | 20 | Carries a heavy rifle; Nyx teases him about his blaster; Jasu hands him the scanner | The rifle is his working weapon. The blaster is not |
 | 24A | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
@@ -86,10 +86,12 @@ kills all of them.
 
 ### Design consequences
 
-- **The blaster must resolve.** Scene 15 showed it coming apart under the
-  crystal's influence, revealing the saber architecture and the empty crystal
-  chamber. The finale is the payoff for that. **How he kills them is the single
-  biggest open design question on this character** — see *Open Questions*.
+- **He fights with the lightsaber.** It was rebuilt in Scene 15, alone in his
+  tent. The finale is its **first ignition** — and the first time in eighteen
+  years anyone has seen a lit blade.
+- **Build in private, ignite in public.** The decision is made alone by glowrod
+  light; the consequence is public and irreversible. He does not draw it to
+  threaten. He draws it and they die.
 - **The costume must survive a fight and finish the film changed.** Whatever
   state he ends in is what walks out of the clearing with Shin, and it is his
   first frame in the next film.
@@ -183,7 +185,7 @@ shock next to the man in the forest.
 
 ### The blaster — his converted lightsaber
 
-**The single most important object in the film.**
+**The single most important object in the film**, and it exists in three states.
 
 Eighteen years ago he took his lightsaber apart and rebuilt it as a blaster. Not
 a disguise fitted over a hilt — a genuine conversion, using the saber's own
@@ -196,10 +198,39 @@ it on the first pass, and everyone else just sees an ugly, heavily modified
 sidearm. Nyx teases him about it in Scene 20 — it is odd-looking and it does not
 group well, because it was never meant to do this.
 
-In Scene 15 the crystal levitates it and it begins to come apart. That is not a
-malfunction; it is the weapon remembering. The disassembly must reveal the saber
-architecture underneath — and the empty crystal chamber that has been waiting
-eighteen years.
+### The three states
+
+| State | When | What it is |
+|---|---|---|
+| **Blaster** | Scenes 1–15 | An ugly, over-modified sidearm. Nobody looks twice |
+| **Transition** | Scene 15 | Components separated in mid-air, hanging, then converging |
+| **Hilt** | Scene 15 onward | A lightsaber. Recognisable in silhouette |
+
+All three must be buildable as physical props and must be unmistakably the same
+object in different arrangements. Every component visible in the hilt was visible
+on the blaster.
+
+### Scene 15 — the reconstruction
+
+He pulls the cord from his neck, opens the pouch and tips the crystal into his
+palm. The crystal lifts the blaster. It comes apart — and then **it goes back
+together as what it always was.**
+
+Staging requirements, because this beat has to work without a word of dialogue:
+
+- **The parts must converge, not merely separate.** Coming apart reads as
+  disassembly; an audience sees a gun in pieces and learns nothing. They have to
+  hang, then draw together into a *new* shape.
+- **The crystal seats last, and visibly.** It travels to the chamber and goes in.
+  That is the moment the scene exists for.
+- **The result must read as a hilt in silhouette**, in low glowrod light. A
+  lightsaber hilt is among the most recognisable objects in cinema — if the
+  shape is right, no explanation is needed.
+- **He does not ignite it.** He is holding it when the scene ends. The first
+  ignition is the finale.
+
+If the beat is not landing in the edit, the fix is the crystal seating — hold on
+it longer — not a line of dialogue.
 
 ### The crystal
 
@@ -216,6 +247,9 @@ been repaired more than once.
 **The blade he is eventually known for is not yellow. The gap is deliberate** —
 something happens between this film and then, and the audience who knows, knows.
 Whatever this crystal is now, it is not yet what it becomes.
+
+Since the finale is the blade's first ignition, **the blade in this film reads
+yellow**, and its change belongs to a later story.
 
 ### Working weapons
 
@@ -281,12 +315,10 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 - **What happened on the dune?** Scene 12 shows a blaster firing and Baylan
   turning. Whether he was shot, whether he killed the clone, and whether the
   girl died there determines whether he carries a visible injury from that day.
-- **How does he kill them?** The blaster is a converted lightsaber with an empty
-  crystal chamber and a crystal that has already demonstrated it wants to go
-  back. Does he rebuild the saber in the clearing, arrive with it already
-  rebuilt, kill them with the blaster and the Force, or something else? This
-  determines the finale's hero prop, its VFX, its stunt work, and the last image
-  of him in the film. Nothing else on this character is bigger.
+- Is the Scene 15 reconstruction landing for an audience that is not paying close
+  attention? The staging fix is the crystal seating, held longer — not dialogue.
+  Worth testing on someone cold.
+- Does he still carry the rifle in the finale, or is the lightsaber all of it?
 - **Does Shin watch him do it?** She sees her mother's death in full. If she also
   watches him kill twelve people, then what she leaves with is not a rescuer.
 - **Does he have a physical injury from the purge?** Nothing in the breakdown
@@ -300,6 +332,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.2 | 2026-07-30 | in-development | Scene 15 confirmed as the lightsaber reconstruction, not disassembly. Finale is the first ignition. Blaster specified in three physical states. |
 | 1.1 | 2026-07-30 | in-development | Ending recorded: he kills the entire mercenary crew in the clearing and leaves with Shin. Flagged the finale weapon as the largest open question. |
 | 1.0 | 2026-07-30 | in-development | Full character built from breakdown + Production Designer interview. Established as an Order 66 survivor hiding as a mercenary; saber-converted-to-blaster established as hero prop; timeline fixed at ~1 BBY. |
 | 0.2 | 2026-07-30 | placeholder | Merged with `Bay` — confirmed same character. |

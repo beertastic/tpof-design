@@ -26,11 +26,9 @@
 - [ ] What is Jeyin's injury, and what is its visible state in each of scenes 16–24?
 - [x] ~~When does Shin cut her hair?~~ **Not in this film** — Film 2 or just before it.
       Confirmed 2026-07-30. No shorn variant needed in her pack.
-- [ ] **How does Baylan kill the mercenaries in the finale?** The largest open design
-      question in the project. His blaster is a converted lightsaber with an empty crystal
-      chamber, and the crystal has already shown it wants to go back. Does he rebuild the
-      saber, arrive with it rebuilt, or kill them with the blaster and the Force? Determines
-      the finale's hero prop, VFX, stunts, and the last image of him in the film.
+- [x] ~~How does Baylan kill the mercenaries?~~ **With the lightsaber**, rebuilt alone in
+      Scene 15. The finale is its first ignition. Blade reads yellow in this film.
+      Confirmed 2026-07-30. Prop needed in three states: blaster, transition, hilt.
 - [ ] Does Shin watch Baylan kill them? If so, what she leaves with is not a rescuer.
 - [ ] What tack does the akk dog wear? Required in Scene 9 as well as the finale.
 - [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her

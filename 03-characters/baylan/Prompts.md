@@ -1,7 +1,7 @@
 ---
 title: "Baylan — Image Prompt Pack"
 asset_id: "CHAR-BAYLAN"
-version: "1.0"
+version: "1.1"
 status: "ready"
 faction: "Mercenaries"
 governing_documents:
@@ -261,17 +261,22 @@ characterless it is — this is the kit of a man who has deliberately owned noth
 that says anything about him. The pouch and cord are not here; they are on his
 body.
 
-## 12. `maintenance.png` — the blaster comes apart
+## 12. `maintenance.png` — the reconstruction
 **Tall portrait, 9:16.**
 
 Baylan seated cross-legged in his tent at night, glowrod on the ground, in
 shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
-of him, unsupported, his blaster hangs in the air — and it is coming apart, its
-components separating slowly and deliberately in mid-air, revealing the machined
-hilt architecture underneath. He is not triumphant or afraid. He is looking at it
-the way a man looks at something he buried a long time ago. Warm low glowrod
-light, deep shadow, the tent close around him. No glow effects on the crystal, no
-energy, no magic — only objects hanging in the air that should not be.
+of him, unsupported, the components of his blaster hang separated in mid-air —
+and they are **drawing back together into a different shape**: a machined
+cylindrical lightsaber hilt, mid-assembly, its parts converging. The crystal has
+not gone in yet.
+
+He is not triumphant and not afraid. He is looking at it the way a man looks at
+something he buried a long time ago and has just dug up.
+
+Warm low glowrod light, deep shadow, the tent close around him. No glow effects,
+no energy, no magic — only objects hanging in the air that should not be, and
+assembling themselves.
 
 ## 13. `materials.png` — materials and palette
 **Landscape, 5:4.**
@@ -322,13 +327,36 @@ python tools/board-generator/generate.py baylan
 - Same face, same build, same beard and haircut in every image except slot 7.
 - **Slot 7 is the only image with robes.** Everywhere else he is a mercenary.
 - The blaster on his hip in slots 1–3 is the same object as in slots 9 and 12.
+- Every component visible in the reconstructing hilt (slot 12) was visible on the
+  assembled blaster (slot 9). Same object, different arrangement.
 - The cord at his neck in slots 5 and 12 leads to the pouch in slot 10.
 - The undertunic in slots 5, 12 and 13 is the same garment, same patches.
 - He gains no ornament, insignia or decoration between images. Ever.
 - He is never framed heroically and never looks powerful — until slot 12.
 
+## Scene plates — beyond the board set
+
+Not part of the five-board package; generate as needed for the finale.
+
+### F1. The first ignition
+**Any ratio.** Forest clearing, morning. Baylan standing among mercenaries,
+igniting a **yellow** lightsaber blade for the first time in eighteen years. He
+is not posed heroically and not shouting. His face is almost blank. The mercenary
+nearest him has not yet understood what he is looking at. Overcast morning light;
+the blade is the only saturated colour besides Shin's hair. Still-swirling smoke
+from a crashed ship in the background.
+
+### F2. Leaving
+**Tall portrait, 9:16.** Baylan and Shin walking out of the forest clearing
+together, seen from behind or in profile at middle distance. He is damaged; his
+outer layers are torn or gone and the patched dark undertunic is visible. She is
+fifteen, filthy, covered in her mother's blood, hair intact. They are not
+touching and not talking. The clearing behind them is out of focus. Grey morning
+light. This is the last image of the film and the first image of the next.
+
 ## Revision History
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.1 | 2026-07-30 | ready | Slot 12 rewritten as reconstruction, not disassembly. Finale scene plates added. |
 | 1.0 | 2026-07-30 | ready | Initial prompt pack derived from locked character. |

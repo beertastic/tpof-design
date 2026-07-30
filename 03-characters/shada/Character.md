@@ -1,185 +1,78 @@
+---
+title: Shada
+asset_id: CH-001
+version: 1.0
+status: locked
+faction: Independent mercenary crew
+role: Infiltrator, tracker, assassin, thief
+last_updated: 2026-07-30
+---
+
 # Shada
 
-The current canonical Shada development document is [`Shada.md`](Shada.md).
+The canonical long-form development document remains `Shada.md` in the main TPOF repository. This production-package copy records the approved visual brief used by the five art-department boards.
 
-All future Shada visual work must reference the Production Design Bible first.
+All visual work must apply the Production Design Bible before this character-specific direction.
 
-# Character Lock
+## Art Department Brief
 
-**Status:** LOCKED
-**Version:** 1.0
-**Last Updated:** 2026-07-30
+Shada is a compact, highly disciplined mercenary infiltrator whose visual and behavioural language combines a natural predator's patience with the practical habits of a survivor. She is human first, with restrained inherited serpentine traits visible through selected areas of exposed skin.
 
-These traits are considered core to Shada's identity and must not change unless explicitly approved through a design revision.
+> Crew reputation: "Watch your back with her, but she'll always watch yours."
 
----
+> Internal rule: "Only the hunted are prey."
 
-## Species Traits
+> Visual principle: She should look like someone who belongs in a wet forest even when standing inside a starship.
 
-- Fine scales visible on exposed skin.
-- Scale patterns naturally appear on:
-    - neck
-    - collarbone
-    - shoulders
-    - forearms
-    - portions of the face
-- Eyes have a subtle reptilian quality while remaining expressive and recognisably human.
-- Movement should feel precise, controlled and economical.
-- Frequently studies people before acting.
-- Uses scent and observation instinctively.
+## Story Function
 
----
-
-## Costume
-
-The costume must communicate stealth, survival and mobility.
-
-Required:
-
-- Light scavenged armour.
-- Integrated scale-textured bodysuit.
-- Armour protects vital organs only.
-- Layered fabrics.
-- Practical belts and harnesses.
-- Weathered materials.
-- Repair patches.
-- Functional boots suitable for climbing and forest travel.
-
-Never include:
-
-- Heavy plate armour.
-- Medieval armour.
-- Fantasy leather bikini designs.
-- Decorative spikes.
-- Clean, polished equipment.
-- Symmetrical "video game" armour.
-
----
-
-## Exposed Skin
-
-Exposed skin is intentional.
-
-Its purpose is:
-
-- freedom of movement
-- reduced weight
-- revealing serpentine heritage
-
-It is **never** intended to be sexualised.
-
-The silhouette should always read as:
-
-> practical first, attractive second.
-
----
-
-## Weapons
-
-Always carries:
-
-- compact blaster
-- well-maintained combat knife
-
-May carry:
-
-- rope
-- lock picks
-- climbing gear
-- scavenged utility equipment
-
-Never carries:
-
-- oversized rifles
-- heavy repeating weapons
-- high-tech gadgets
-- unnecessary equipment
-
----
-
-## Behaviour
-
-She should appear dangerous while standing completely still.
-
-Preferred poses:
-
-- watching
-- listening
-- crouching
-- tracking
-- quietly cleaning equipment
-- scanning surroundings
-
-Avoid:
-
-- superhero poses
-- exaggerated action poses
-- smiling for the camera
-
----
-
-## Colour Language
-
-Muted earth tones.
-
-Greys.
-
-Olives.
-
-Dark browns.
-
-Weathered black.
-
-Natural bone.
-
-No bright colours.
-
-No polished metals.
-
----
-
-## Emotional Read
-
-Audience should immediately understand:
-
-"I don't want to fight her."
-
-before thinking
-
-"She looks cool."
-
----
+Shada is the crew's assassin, thief, scout, tracker, and stealth specialist. She reads terrain, finds access routes, identifies signs of the quarry, infiltrates defended spaces, and strikes from advantage. She is an antagonist rather than a covert hero; her appeal comes from competence, dry humour, reciprocal loyalty, and the contrast between her profession and the ordered community life she might otherwise have lived.
 
 ## Design Intent
 
-Every design decision should reinforce one idea:
+- Predator shaped by nature, not soldier shaped by an institution.
+- Compact, athletic, agile build; small relative to the crew.
+- Economical movement, patient stillness, alert observation.
+- Mostly human appearance with subtle ancient serpentine ancestry.
+- Fine scale patterning on face, neck, collarbone, shoulders, forearms, and hands.
+- Exposed skin is functional: mobility, reduced weight, heat management, sensory function, and visibility of heritage.
+- Light scavenged armour protects vital areas only.
+- Mismatched equipment is made cohesive through careful maintenance and habitual placement.
+- Few scars, suggesting avoidance and precision rather than invulnerability.
 
-**She survives because she notices everything.**
+## Costume and Armour
 
-## Visual Identity (Locked)
+- Integrated scale-textured undersuit.
+- Layered technical fabrics, weathered leather, flexible armour mesh, and small vital-area plates.
+- Practical harnesses, belts, pouches, repair patches, and climbing boots.
+- Functional asymmetry; nothing rattles, snags, or hangs without purpose.
+- Muted earth palette: charcoal, ash grey, weathered black, faded olive, dark brown, natural bone.
+- No polished surfaces or bright colour blocking.
 
-- Mostly human with subtle ancient serpentine DNA.
-- Visible scales on exposed skin; never full reptilian.
-- Exposed skin exists for agility and to reveal her heritage, never for fan service.
-- Light, fitted scavenged armour with integrated scale-textured undersuit.
-- Compact blaster and well-worn knife are her signature weapons.
-- Every piece of equipment is salvaged, repaired and maintained.
-- She should look dangerous while standing perfectly still.
-- She belongs in a forest even when standing inside a starship.
+## Weapons and Equipment
 
----
+Shada always carries a compact, modified blaster and an old, well-maintained combat knife. The knife never leaves her side and is a survival tool first: food preparation, cutting material, repairs, markers, and close combat. Supporting gear may include rope, lock picks, climbing hardware, repair tools, field tools, and a small utility pouch. No unnecessary datapads or decorative technology.
 
-## Design Drift Prevention
+## Performance
 
-Reject any design that:
+- Watches and listens before acting.
+- Scans exits and environmental changes.
+- Becomes very still when assessing danger.
+- Moves with minimal wasted motion.
+- Avoids heroic or military posing.
+- Can soften around the crew during meals, drinks, and sabacc.
+- May use scent subtly when gathering information.
 
-- Looks like a Caribbean pirate.
-- Looks medieval.
-- Looks like generic fantasy.
-- Looks like a modern tactical operator.
-- Hides all serpent ancestry.
-- Covers all exposed skin.
-- Makes the armour decorative instead of functional.
-- Gives her futuristic gadgets unrelated to her role.
-- Makes her glamorous instead of practical.
-- Removes the sense that she belongs in a forest.
+## Production Boards
+
+1. `Production-Board.pdf` - overall identity and hero sheet.
+2. `Costume-Board.pdf` - construction, layers, materials, and exposed-skin purpose.
+3. `Weapons-Board.pdf` - knife, compact blaster, carry systems, and utility kit.
+4. `Performance-Board.pdf` - posture, movement, expression, and actor direction.
+5. `Materials-Board.pdf` - approved palette, surfaces, wear, environment, and lighting.
+
+## Revision History
+
+| Version | Status | Change |
+|---|---|---|
+| 1.0 | Locked | Production-package brief aligned to the Character Lock and five-board standard. |

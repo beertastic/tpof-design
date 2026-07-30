@@ -1,23 +1,31 @@
 # Vehicles
 
-| Asset | Status | Appears |
-|---|---|---|
-| Mercenary ship | **Digital interior built.** Exterior and documentation pending | Sc.1, 7, 14, 16–18, 20–23 as set dressing |
-| Escapee ship | Not started | Sc.2 (crash), Sc.9 (briefed about), Sc.24 (smoke) |
+| Asset | Class | Status | Appears |
+|---|---|---|---|
+| [Mercenary ship](mercenary-ship/) | **YT-2000 Corellian light freighter** | Digital interior built; exterior pending | Sc.1, 7, 14, 16–18, 20–23 |
+| Escapee ship | TBD | Not started | Sc.2 (crash), Sc.9 (briefed about), Sc.24 (smoke) |
 
-## Parked
+## The two ships are a contrast pair
 
-Both are parked while the cast is built. Recorded here so nothing is lost.
+**The mercenary ship is maintained.** A YT-2000 — Corellian, centred cockpit,
+broadly symmetrical, chosen so it is not read as the Millennium Falcon. Worn but
+sound. It sets the quality standard for the whole mercenary faction.
 
-## The escapee ship matters more than its screen time suggests
+**The escapee ship is rickety and comes down in Scene 2.** It is the inciting
+incident and the source of Jeyin's fatal wound — she is impaled by torn hull
+metal in the crash.
 
-It is the inciting incident and the source of Jeyin's fatal wound — she is impaled
-by torn hull metal in the Scene 2 crash. Three separate things are needed:
+Designing them against each other makes both sharper, and it repeats the
+faction opposition in hardware: one crew maintains what it chose, the other took
+whatever would fly.
 
-1. **The ship** — "rickety", tumbling, smoke from the engines. May never be seen intact.
-2. **The wreck as a location** — Jasu briefs about it in Sc.9 and its smoke is still
-   rising in Sc.24. It is somewhere on the map even if the camera never goes there.
-3. **The torn metal as a prop** — the specific piece that impaled Jeyin, if the crash
-   is ever filmed.
+## The escapee ship needs three things
+
+1. **The ship** — "rickety", tumbling, smoke from the engines. May never be seen
+   intact.
+2. **The wreck as a location** — Jasu briefs about it in Sc.9 and its smoke is
+   still rising in Sc.24. It is on the map even if the camera never goes there.
+3. **The torn metal as a prop** — the specific piece that impaled Jeyin, if the
+   crash is ever filmed.
 
 See [`03-characters/jeyin/Character.md`](../03-characters/jeyin/Character.md).

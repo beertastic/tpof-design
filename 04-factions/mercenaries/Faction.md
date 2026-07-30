@@ -158,8 +158,8 @@ final act reads as convenient.
 **Proposed crew: 10** — six named plus four extras. See
 [`Crew-Roster.md`](Crew-Roster.md) for the full breakdown and the scene splits.
 
-The crew operates a **YT-series Corellian light freighter**, which cannot house
-twenty. That constraint is useful: a small crew is diegetically correct, matches
+The crew operates a **YT-2000 Corellian light freighter**, which cannot house
+twenty — ten is already over its nominal capacity. That constraint is useful: a small crew is diegetically correct, matches
 the Bible's cramped-and-functional interior rule, and makes Baylan's eighteen
 years of hiding considerably worse — there is nowhere on that ship to get away
 from anyone.
@@ -195,8 +195,7 @@ equipment. All maintained, all functional, none of it issued.
 
 - Does the akk dog survive the finale?
 - What is Jasu's share, and is her kit visibly the best in the crew?
-- What is the mercenary ship's name and class, and does its interior set the
-  quality standard for the crew?
+- The ship is a **YT-2000** but has no name or registry.
 - Do any two of them have a prior relationship, or did they genuinely all arrive
   separately?
 - **Is the large mercenary in the Vala fight a Wookiee?** See above. Affects

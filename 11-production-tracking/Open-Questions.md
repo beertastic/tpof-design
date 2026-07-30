@@ -7,7 +7,6 @@
       name recorded as a character by mistake; Loryl is the character. Removed. 2026-07-30.
 - [x] ~~What is the forest world's canonical name?~~ **Never named on screen.** Deliberate.
       Do not invent one. 2026-07-30.
-- [ ] Mercenary ship name and class. Digital interior already built; exterior and docs parked.
 - [x] ~~Are “Slaves” and “Escapees” one label?~~ **Keep both** — captivity is as much their
       identity as the escape. Not renamed, not split. 2026-07-30.
 - [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
@@ -91,7 +90,9 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~How many mercenaries, and how do they split?~~ **Proposed roster of 10** — see
       `04-factions/mercenaries/Crew-Roster.md`. Vala's grenade takes 4; Baylan kills 5.
       Ship capacity (YT freighter) is the constraint. 2026-07-30.
-- [ ] Confirm the exact YT model — it sets the interior footprint and the crew ceiling.
+- [x] ~~Which YT model?~~ **YT-2000** — centred cockpit, symmetrical, deliberately not the
+      Falcon. Confirmed 2026-07-30. Verify exact dimensions before locking the exterior.
+- [ ] The mercenary ship has no name or registry.
 - [ ] Where does the akk dog live on a YT freighter? A large animal on a small ship is
       its own design problem.
 - [ ] Any named crew missing from the clearing?

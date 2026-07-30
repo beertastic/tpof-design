@@ -3,6 +3,7 @@ title: "Mercenary Crew Roster"
 asset_id: "FACTION-MERCENARIES-ROSTER"
 version: "1.0"
 status: "proposal"
+ship: "YT-2000 Corellian light freighter"
 ---
 
 # Mercenary Crew Roster
@@ -15,11 +16,14 @@ Headcount reconciling **ship capacity**, **scene requirements** and **budget**.
 
 ## The constraint that solves the problem
 
-The crew operates a **YT-series Corellian light freighter**. It cannot house
-twenty people, and that is a gift rather than a limitation:
+The crew operates a **YT-2000 Corellian light freighter**. It cannot house twenty
+people — in fact ten is already over its nominal capacity — and that is a gift
+rather than a limitation:
 
 - **A small crew is diegetically correct.** Nobody has to justify why there are
-  only ten mercenaries — the ship holds ten.
+  only ten mercenaries — the ship barely holds ten.
+- **Being over capacity is characterful.** Bunks improvised in cargo space,
+  someone sleeping in a corridor, no privacy anywhere.
 - It matches the Production Design Bible's requirement that interiors feel
   *cramped, functional and lived in rather than luxurious*.
 - It makes **Baylan's eighteen years considerably worse**. He has been hiding in a
@@ -128,8 +132,9 @@ Survivors                      1   (Baylan)
 
 ## Open
 
-- Confirm the exact YT model. It sets the interior footprint and therefore the
-  believable crew ceiling.
+- Confirm exact YT-2000 dimensions against production reference before the
+  exterior is locked.
+- The ship has no name or registry.
 - Is the large mercenary a Wookiee? See
   [`Faction.md`](Faction.md).
 - Have any named crew been missed from the clearing?

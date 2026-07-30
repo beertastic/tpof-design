@@ -82,7 +82,9 @@ eighteen years haunted by the sound of the moment he finally acts.
 The final scene, in order:
 
 1. **The akk dog is set on Jeyin.** Shin **sees, hears and smells all of it.** She
-   is not spared any part of it and nobody gets her away.
+   is not spared any part of it and nobody gets her away. She has been sleeping
+   beside her mother's septic wound for days, so the smell is not new — it is the
+   thing she has been living with, arriving at its conclusion.
 2. **Jasu calls the dog off.** The animal is under command throughout — this is
    an ordered killing, not an animal getting loose.
 3. **Jeyin is still alive.** Shin gets to her and they exchange a few words

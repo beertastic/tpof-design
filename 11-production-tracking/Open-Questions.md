@@ -27,7 +27,13 @@
       off afterwards. Confirmed 2026-07-30. The animal needs tack, present from Scene 9.
 - [x] ~~Does Shin witness her mother's death?~~ **She sees, hears and smells all of it**,
       then speaks to her mother before she dies. Confirmed 2026-07-30.
-- [ ] What is Jeyin's injury, and what is its visible state in each of scenes 16–24?
+- [x] ~~What is Jeyin's injury?~~ **Impaled by torn metal in the Scene 2 crash.** Septic by
+      Sc.11; six-scene continuity track written. She is already dying when the akk dog
+      reaches her. Confirmed 2026-07-30. Crash currently off screen for budget.
+- [ ] **The escapees' ship has no asset entry.** It crashes in Scene 2, is the subject of
+      Jasu's Scene 9 briefing, is the source of Jeyin's fatal wound, and its smoke is set
+      dressing in Scene 24. `07-vehicles/` is empty. Needs a document and a crash-site
+      location entry.
 - [x] ~~When does Shin cut her hair?~~ **Not in this film** — Film 2 or just before it.
       Confirmed 2026-07-30. No shorn variant needed in her pack.
 - [x] ~~How does Baylan kill the mercenaries?~~ **With the lightsaber**, rebuilt alone in

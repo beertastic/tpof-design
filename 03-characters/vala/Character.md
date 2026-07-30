@@ -76,7 +76,36 @@ This is the mechanism of her survival, and it must be honest rather than lucky:
 That her body saved her against her own decision is worth playing in Film 2. She
 did not want this. She may not thank anyone for it.
 
-### Why this works
+### The post-credit scene
+
+**Where she fell.** A blast crater from the grenade. Dead mercenaries around her.
+
+She is **not running.** She is hurt and staying where she is.
+
+### The shot
+
+A slow pan across the aftermath — the crater, the bodies — and **her head and
+shoulders come into frame from behind.** Beyond her, the mercenary ship lifts away
+into the sky.
+
+**Baylan and Shin have stolen it.** She does not know that.
+
+She is alive, badly hurt, surrounded by men she killed, watching a ship leave —
+and everything she paid for is aboard it. She has no idea Shin is on that ship, no
+idea Jeyin is dead, and no idea whether any of it worked.
+
+### Why it costs almost nothing
+
+- One performer, seen from behind, head and shoulders only.
+- One location she is already in.
+- The ship is a plate or a model shot already needed elsewhere.
+- No makeup reveal required — **which is what lets her injuries stay undecided
+  until Film 2.**
+
+That last point matters: shooting her from behind is not just cheap, it is what
+keeps the deferred-injury decision open. Do not reveal her face or body.
+
+## Why this works
 
 She wins by using her killer's own equipment against him, having been physically
 outmatched from the first second. It is the arena lesson: you do not beat the
@@ -205,11 +234,8 @@ TBD.
 - How many mercenaries does the grenade actually take? Three to five is the
   intent; the exact number changes the clearing headcount.
 - Is the staff scavenged, or arena equipment she has kept?
-- Where is the post-credit scene set? **Recommendation: include the akk dog.** It
-  is also left alive on that planet, unconscious in the clearing, and the shot is
-  already being made. Two survivors, both left for dead.
-- Does Vala know the akk dog killed Jeyin? She was fighting elsewhere when it
-  happened, so she may not — which is worth keeping.
+- Does she ever find the akk dog? It is also alive on that planet.
+- How badly is she hurt — enough that she cannot follow?
 - In Film 2 — does Baylan order Shin to fight her, or does Vala attack Baylan
   first and Shin defend him? Different films for Shin.
 - How much of the arena is visible on her body — scarring, breaks, missing

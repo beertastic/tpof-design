@@ -92,7 +92,11 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
       dies. Shin is left with an instruction that stops halfway. 2026-07-30.
 - [x] ~~What injuries does Vala take?~~ **Deferred to Film 2.** This film must not foreclose
       it: no injury shown, no dialogue describing her condition. 2026-07-30.
-- [ ] Where is Vala's post-credit scene set? Still needed as an asset for this film.
+- [x] ~~Where is Vala's post-credit scene set?~~ **Where she fell** — blast crater, dead
+      mercs, shot from behind as the stolen ship lifts away. She does not know Shin is
+      aboard. Shooting from behind preserves the deferred injury decision. 2026-07-30.
+- [x] ~~How do Baylan and Shin leave?~~ **They steal the mercenary ship.** It is theirs from
+      Film 2 onward. Archive it. 2026-07-30.
 - [x] ~~What is Prodona?~~ **A busy spaceport city on this planet** — anonymity, not
       sanctuary, and the only option besides the woods. Referenced only, never seen.
       Puts a clock on the pursuit. 2026-07-30.

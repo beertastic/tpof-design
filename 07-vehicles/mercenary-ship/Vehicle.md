@@ -98,6 +98,21 @@ thing they all own together.
 - Contrast deliberately with the escapees' ship, which is *rickety* and comes down
   in Scene 2.
 
+## It is stolen in the finale
+
+**Baylan and Shin take the ship.** It lifts away as Vala watches from the ground
+in the post-credit scene, and she has no idea who is aboard.
+
+Consequences:
+
+- **The ship survives into Film 2 as theirs.** It is no longer a mercenary vessel;
+  it is the thing two people live in.
+- **Archive it.** Any physical build, the digital interior, and all reference.
+- Baylan has lived aboard it for years and now owns it, having killed everyone
+  else who did. Whatever he does or does not change about it in Film 2 is
+  characterisation.
+- The akk dog's turret is empty. The animal is left behind on the planet.
+
 ## Appearances
 
 Referenced or present as set dressing in Scenes 7, 14, 16, 17, 18, 20, 21, 22 and

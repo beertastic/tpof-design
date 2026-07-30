@@ -54,5 +54,5 @@
 
 | Asset | Status | Notes |
 |---|---|---|
-| Mercenary ship | **YT-2000.** Digital interior built | Exterior pending. Unnamed. Crew of 10 is over capacity |
+| Mercenary ship | **YT-2000.** Digital interior built | **Stolen by Baylan and Shin in the finale** — theirs from Film 2. Unnamed |
 | Escapee ship | Not started | Crashes in Sc.2. Source of Jeyin's fatal wound. Wreck is a location; the torn metal is a prop |

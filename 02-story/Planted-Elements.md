@@ -82,8 +82,10 @@ clasp — and keeps it. She keeps Vala with her anyway.
   dialogue describes her condition, and her exit leaves her state entirely open.
 - Whatever is chosen later must be readable as the cost of surviving — the
   audience should understand what it took without being told.
-- **The post-credit scene is an asset for this film** and needs a location, a
-  costume state and a makeup state. It is not a Film 2 problem.
+- **The post-credit scene:** where she fell, a blast crater, dead mercenaries.
+  **Shot from behind — head and shoulders only** — as the stolen ship lifts away.
+  She does not know Shin is aboard. Shooting her from behind is what keeps the
+  deferred-injury decision open; do not reveal her face or body.
 - **Archive her costume.** It continues into Film 2 in a damaged state.
 - **The clasp must be built to last.** See P3.
 
@@ -196,6 +198,7 @@ likes him.
 |---|---|
 | The clasp | Hero prop in at least two more films |
 | Vala's costume | Continues into Film 2, damaged |
+| **The mercenary ship (YT-2000)** | **Stolen by Baylan and Shin in the finale.** Theirs from Film 2 onward |
 | Baylan's lightsaber hilt | Continues. **Blade changes yellow → orange in this film**, at Nyx's death |
 | Baylan's crystal and pouch | Continues |
 | Shin's costume | Reference for what she leaves the clearing in |

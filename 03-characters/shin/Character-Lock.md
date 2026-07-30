@@ -83,7 +83,10 @@ design that makes her look competent is wrong for this film.
 - The akk dog is set on Jeyin **on command**. Jasu calls it off afterwards.
 - **Shin sees, hears and smells all of it.** She is not spared and not shielded.
 - Jeyin survives the mauling. Shin reaches her and they speak before she dies.
-- Baylan then kills everyone.
+- Baylan then kills everyone — partly out of rage, partly because every mercenary
+  present has seen what she is and would sell her for it.
+- **She sees it, and she is not afraid of him.** She senses he is safe despite all
+  evidence, and has no idea that sensing things is what she does.
 - Shin leaves with Baylan, hair intact, covered in her mother's blood.
 - Her final expression is neither gratitude nor relief.
 

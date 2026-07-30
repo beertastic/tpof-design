@@ -39,7 +39,9 @@
 - [x] ~~How does Baylan kill the mercenaries?~~ **With the lightsaber**, rebuilt alone in
       Scene 15. The finale is its first ignition. Blade reads yellow in this film.
       Confirmed 2026-07-30. Prop needed in three states: blaster, transition, hilt.
-- [ ] Does Shin watch Baylan kill them? If so, what she leaves with is not a rescuer.
+- [ ] How much of Baylan's killing is on screen? **She sees it either way** — the question
+      is whether the audience sees blood and efficiency or watches her watching. Art dept
+      recommendation on file: play it on her face; her lack of fear is the shot.
 - [ ] Confirm akk dog tack. Recommendation on file: heavy salvaged collar, no lead, no
       muzzle — it obeys by voice and nothing ever physically restrains it.
 - [ ] Does the akk dog survive? Current thinking: Shin knocks it out with a Force blast.

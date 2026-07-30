@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.3"
+version: "1.4"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -103,15 +103,26 @@ In the forest clearing, in order:
 3. **Baylan kills everyone.**
 4. He and Shin leave together.
 
-### What this does to the character
+### Why he does it
 
-Eighteen years of hiding end in a single scene, and he does not kill the
-mercenaries because they threaten him. He kills them because a child watched her
-mother die and he was standing there in the crowd, in uniform, on the wrong side.
+Two reasons, and the second is colder than the first.
+
+**Something in him has stirred, and she is him.** A Force-sensitive child, hunted,
+about to be taken — this is his own life happening again in front of him, and he
+was standing in the crowd in uniform on the wrong side while it did.
+
+**And they have all seen what she is.** A Force-sensitive child, known about, is a
+valuable target — to the Empire, to Inquisitors, to anyone in the business of
+selling people. Every mercenary in that clearing now knows she exists.
+
+So the killing is not only rage. It is **witness elimination**, and it is
+completely rational: he has decided to protect her at all costs, and the cost is
+everyone who saw. That is Sentinel logic — the discipline that kept him alive for
+eighteen years, applied for the first time to someone else.
 
 These are **his own crew**. He has eaten with them, hauled crates for them, taken
-Nyx's teasing about his blaster, and slept in a tent twenty feet from Jasu's. He
-kills all of them.
+Nyx's teasing about his blaster, fed Jasu's animal, and slept twenty feet from her
+tent. He kills all of them, and he does it because they saw.
 
 ### Design consequences
 
@@ -369,8 +380,12 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   attention? The staging fix is the crystal seating, held longer — not dialogue.
   Worth testing on someone cold.
 - Does he still carry the rifle in the finale, or is the lightsaber all of it?
-- **Does Shin watch him do it?** She sees her mother's death in full. If she also
-  watches him kill twelve people, then what she leaves with is not a rescuer.
+- **How much of the killing is on screen?** Undecided. She sees it and knows he is
+  doing it; the open question is whether the audience sees the blood, horror and
+  efficiency, or watches her watching. Art department recommendation on file:
+  play it on her face. See her character document.
+- Does he know, in the moment, that he is choosing to raise her? Or is that a
+  decision that arrives afterwards, in the walk out of the clearing?
 - **Does he have a physical injury from the purge?** Nothing in the breakdown
   requires one. A limp, a hand, an ear — it would explain the weight he carries
   and give the actor something. Or his damage is entirely internal.
@@ -383,6 +398,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.4 | 2026-07-30 | in-development | Motive recorded: she is him, and every mercenary present has seen what she is. The killing is witness elimination as much as rage. |
 | 1.3 | 2026-07-30 | in-development | The Scene 4 girl confirmed as Shin — the two visions are one, seen from both ends. Crystal confirmed as his own. `young-girl` merged into Shin. |
 | 1.2 | 2026-07-30 | in-development | Scene 15 confirmed as the lightsaber reconstruction, not disassembly. Finale is the first ignition. Blaster specified in three physical states. |
 | 1.1 | 2026-07-30 | in-development | Ending recorded: he kills the entire mercenary crew in the clearing and leaves with Shin. Flagged the finale weapon as the largest open question. |

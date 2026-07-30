@@ -90,8 +90,39 @@ The final scene, in order:
 3. **Jeyin is still alive.** Shin gets to her and they exchange a few words
    before she dies.
 4. **Shin knocks the akk dog out with a Force blast** — provisional; see below.
-5. **Baylan kills everyone.**
+5. **Baylan kills everyone.** She sees it. See below.
 6. **Shin leaves with Baylan.**
+
+### She is not afraid of him
+
+**She senses he is not a threat to her, even though every piece of evidence in
+front of her says otherwise.**
+
+She has just watched a stranger kill twelve people, efficiently, with a weapon
+she has never seen. She has no reason on earth to trust him. She trusts him
+anyway, because she can feel that he is safe — and she has no idea that feeling
+things is what she does.
+
+This is the clearest demonstration in the film of what she is, and it happens
+without her understanding any of it.
+
+### Staging — art department recommendation
+
+**How much of the killing is on screen is undecided.** She sees it and knows he
+is doing it; the open question is whether the audience sees the blood and the
+efficiency.
+
+The recommendation on file is to **play it on her face**:
+
+- She watches. The audience watches *her* watching.
+- The violence happens behind her — out of focus, out of frame, or in sound.
+- **Her face does not show fear of him.** That absence is the whole point, and it
+  is the only shot in the film that can carry it. No amount of blood can.
+- It is also the version this production can afford. Twelve lightsaber kills is
+  expensive; one actor's face is not.
+
+Whatever is decided, the requirement is fixed: **she knows it is happening and
+knows he is doing it.**
 
 ### The Force blast — her first active use of power
 
@@ -119,9 +150,8 @@ If it stands, it is the most important thing she does in the film:
 - **She is not rescued.** No one shields her, no one turns her away. Everything
   that happens is happening at her eye level.
 - **The last thing she sees in this film is a stranger killing twelve people** —
-  including the ones who fed her captors and the ones who hunted her — and then
-  she walks away with him. Her final expression is not gratitude and it is not
-  relief.
+  and she is not afraid of him. Her final expression is not gratitude, not relief
+  and not terror. It is closer to recognition.
 - **Her hair is intact when she leaves.** See below.
 
 ### The hair does not go in this film

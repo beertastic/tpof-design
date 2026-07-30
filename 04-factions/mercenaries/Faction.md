@@ -19,7 +19,10 @@ TBD. Must follow the established industrial-salvage, practical, non-Earth-histor
 
 ## Members
 
-Bay, Captain Jasu, Nyx, Reya Fenn, Loryl, Shada, generic mercenaries, and possibly Charlie.
+Baylan ("Bay"), Captain Jasu, Nyx, Reya Fenn, Loryl, Shada, generic mercenaries, and possibly Charlie.
+
+Baylan's faction assignment is unconfirmed — the breakdown places him in the mercenary
+camp but frames him as an observer. Resolve before finalising the shared costume language.
 
 ## Shared Costume Language
 

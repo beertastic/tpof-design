@@ -3,9 +3,10 @@ title: "Baylan — Image Prompt Pack"
 asset_id: "CHAR-BAYLAN"
 version: "0.1"
 status: "scaffold"
-faction: "TBD"
+faction: "Mercenaries"
 governing_documents:
   - ../../01-production-design/Production-Design-Bible-v1.0.md
+  - ../../04-factions/mercenaries/Faction.md
   - Character.md
 ---
 
@@ -16,10 +17,10 @@ governing_documents:
 > content is not: every `**NEEDS:**` marker is an unanswered design question.
 > Fill in `Character.md` first, then complete the slots below.
 
-**Faction:** TBD  
-**Scenes:** 24A  
-**Primary environment:** Forest Clearing  
-**Brief:** Named separately from Bay in Scene 24A; identity relationship requires confirmation.
+**Faction:** Mercenaries  
+**Scenes:** 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 24A  
+**Primary environment:** Forest  
+**Brief:** Point-of-view character carried through the mercenary camp, the night forest and the morning pursuit. Highest scene count in the film. Short form: Bay.
 
 ---
 
@@ -98,7 +99,7 @@ fantasy. Costume adapts to anatomy without sacrificing practicality.
 
 > **INCOMPLETE.** Fill this from `Character.md` and `Character-Lock.md` before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
 
-Baylan. Named separately from Bay in Scene 24A; identity relationship requires confirmation.
+Baylan. Point-of-view character carried through the mercenary camp, the night forest and the morning pursuit. Highest scene count in the film. Short form: Bay.
 
 **NEEDS:**
 
@@ -125,14 +126,14 @@ Baylan. Named separately from Bay in Scene 24A; identity relationship requires c
 ## 1. `portrait.png` — hero portrait
 **Tall portrait, 9:16.**
 
-Waist-up portrait of Baylan in forest clearing, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
+Waist-up portrait of Baylan in forest, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
 
 **NEEDS:** face, age range, species, build, hair, costume upper layers, what they are reacting to.
 
 ## 2. `environment.png` — in their environment
 **Tall portrait, 9:16.**
 
-Full-figure shot of Baylan in morning forest clearing, ensemble scene, in motion or mid-task, read at the scale of the location around them.
+Full-figure shot of Baylan in evening and night forest, mercenary camp, morning clearing, in motion or mid-task, read at the scale of the location around them.
 
 **NEEDS:** silhouette, posture, gait, full costume, what they are doing here.
 
@@ -246,7 +247,10 @@ This character has no `board-data.yaml` yet, so `generate.py baylan` will not ru
 
 ## Open questions blocking this character
 
-- Open question: are Bay and Baylan the same character? Resolve before generating images for either — otherwise you risk designing one person twice.
+- `Baylan` and `Bay` are the same character (confirmed 2026-07-30). Baylan is the canonical asset name; Bay is the short form used through most of the script.
+- Is Baylan a mercenary, a captive, or moving between the two? The breakdown places him inside the mercenary camp but frames him as an observer, and Nyx orders him to work. His faction assignment drives the entire costume language — settle it first.
+- Scene 5 refers to years of reliving his past. Decide whether that leaves a visible mark: scarring, a kept object, a piece of costume that does not belong with the rest.
+- Scene 12 is the Sand Dunes Force-vision with Palpatine and Shin — a different environment and light quality from every other scene he appears in.
 
 ## Revision History
 

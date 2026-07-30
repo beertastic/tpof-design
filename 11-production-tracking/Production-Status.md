@@ -12,14 +12,13 @@
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | In development | Existing detailed bible and visual references |
-| Bay | Placeholder | High scene count |
-| Baylan | Placeholder | Confirm relation to Bay |
+| Shada | In development | Locked for board review; prompt pack complete |
+| Baylan ("Bay") | Placeholder | Highest scene count (11). Bay and Baylan merged 2026-07-30. |
 | Captain Jasu | Placeholder | Mercenary captain |
 | Nyx | Placeholder | Recurring mercenary |
 | Reya Fenn | Placeholder | Confirm against earlier “Freya” name |
 | Loryl | Placeholder | Breakdown-derived |
-| Charlie | Placeholder | Working name; absent from breakdown |
+| Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Escapee |
 | Shin | Placeholder | Escapee |

@@ -1,0 +1,221 @@
+{
+  "project": "The Price of Freedom",
+  "character": "Shada",
+  "asset_id": "CH-001",
+  "version": "1.0",
+  "status": "REVIEW",
+  "date": "2026-07-30",
+  "governing_documents": [
+    "../../01-production-design/Production-Design-Bible-v1.0.md",
+    "../../04-factions/mercenaries/",
+    "Shada.md",
+    "Character-Lock.md"
+  ],
+  "boards": [
+    {
+      "filename": "Production-Board.pdf",
+      "render": "Production-Board-A2-300dpi.png",
+      "number": "01",
+      "title": "CHARACTER PRODUCTION BOARD",
+      "artwork": "source/artwork/production-artwork.png",
+      "summary": "A compact mercenary infiltrator: human first, with restrained serpentine ancestry. Predator rather than soldier; she survives through observation, concealment, timing, and control of distance.",
+      "sections": [
+        {
+          "heading": "FIRST IMPRESSION",
+          "items": [
+            "Belongs in the wet forest",
+            "Notices everything",
+            "Wastes no movement",
+            "Could disappear at any moment"
+          ]
+        },
+        {
+          "heading": "CHARACTER LOCK",
+          "items": [
+            "Subtle scales and reptilian eyes",
+            "Functional exposed skin",
+            "Compact blaster and knife always present",
+            "Light scavenged vital-area armour",
+            "Quiet, economical, dangerous while still"
+          ]
+        },
+        {
+          "heading": "STORY FUNCTION",
+          "items": [
+            "Scout, tracker, thief, assassin",
+            "Reads terrain and access routes",
+            "Strikes from advantage",
+            "Integral member of the mercenary family"
+          ]
+        }
+      ],
+      "footer": "Visual principle: she belongs in a forest even inside a starship."
+    },
+    {
+      "filename": "Costume-Board.pdf",
+      "render": "Costume-Board-A2-300dpi.png",
+      "number": "02",
+      "title": "COSTUME CONSTRUCTION BOARD",
+      "artwork": "source/artwork/costume-artwork.png",
+      "summary": "A buildable costume assembled from flexible armour mesh, technical cloth, reinforced synth-leather, worn hardware, and repaired field gear. Exposure is functional, never ornamental.",
+      "sections": [
+        {
+          "heading": "LAYER SYSTEM",
+          "items": [
+            "Scale-textured flexible undersuit",
+            "Breathable base layer",
+            "Crossed chest harness and light plates",
+            "Tattered outer panels to break silhouette",
+            "Lightweight boots and quiet wraps"
+          ]
+        },
+        {
+          "heading": "EXPOSED SKIN PURPOSE",
+          "items": [
+            "Freedom of movement",
+            "Weight and heat reduction",
+            "Sensory function",
+            "Makes inherited scales legible",
+            "Practical first; never sexualised"
+          ]
+        },
+        {
+          "heading": "CONSTRUCTION RULES",
+          "items": [
+            "Believable seams and fasteners",
+            "No floating armour pieces",
+            "Functional asymmetry",
+            "Nothing rattles or snags",
+            "Visible repairs and field replacement"
+          ]
+        }
+      ],
+      "footer": "Nothing new. Everything earned."
+    },
+    {
+      "filename": "Weapons-Board.pdf",
+      "render": "Weapons-Board-A2-300dpi.png",
+      "number": "03",
+      "title": "WEAPONS & EQUIPMENT BOARD",
+      "artwork": "source/artwork/weapons-artwork.png",
+      "summary": "Shada carries only proven equipment. Her hero knife is personal, old, repeatedly sharpened, and maintained daily. Her blaster is compact, modified, reliable, and immediately accessible.",
+      "sections": [
+        {
+          "heading": "COMBAT KNIFE",
+          "items": [
+            "Survival tool first; weapon second",
+            "Old blade with repeated sharpening",
+            "Wrapped, repaired grip",
+            "Secure silent sheath",
+            "Never leaves her side"
+          ]
+        },
+        {
+          "heading": "COMPACT BLASTER",
+          "items": [
+            "Mechanically believable",
+            "Modified from long use",
+            "Easy to conceal and draw",
+            "Scratched finish and replacement parts",
+            "No oversized silhouette"
+          ]
+        },
+        {
+          "heading": "UTILITY KIT",
+          "items": [
+            "Rope and climbing hardware",
+            "Lock picks and field tools",
+            "Small repair kit",
+            "Habitual belt placement",
+            "No datapad or unnecessary gadgets"
+          ]
+        }
+      ],
+      "footer": "Maintained daily. Trusted always."
+    },
+    {
+      "filename": "Performance-Board.pdf",
+      "render": "Performance-Board-A2-300dpi.png",
+      "number": "04",
+      "title": "PERFORMANCE & MOVEMENT BOARD",
+      "artwork": "source/artwork/performance-artwork.png",
+      "summary": "The actor should inhabit Shada through restraint. She enters a space by reading it, not owning it. Stillness is active; every glance checks distance, scent, vibration, exits, and environmental change.",
+      "sections": [
+        {
+          "heading": "MOVEMENT PRINCIPLES",
+          "items": [
+            "Economical and controlled",
+            "Low profile and quiet footwork",
+            "Patient before explosive action",
+            "Predatory, never theatrical",
+            "Uses terrain and shadow"
+          ]
+        },
+        {
+          "heading": "FACIAL LANGUAGE",
+          "items": [
+            "Neutral alertness",
+            "Suspicion without panic",
+            "Focused assessment",
+            "Protective boundary around the helpless",
+            "Cold, lethal calm toward the hunted"
+          ]
+        },
+        {
+          "heading": "ACTOR NOTES",
+          "items": [
+            "Breathe low and quiet",
+            "Scan before speaking",
+            "Shift weight onto the balls of the feet",
+            "Avoid military posture",
+            "Allow warmth only around the crew"
+          ]
+        }
+      ],
+      "footer": "She doesn't enter a space. She studies it."
+    },
+    {
+      "filename": "Materials-Board.pdf",
+      "render": "Materials-Board-A2-300dpi.png",
+      "number": "05",
+      "title": "MATERIALS & COLOUR BOARD",
+      "artwork": "source/artwork/materials-artwork.png",
+      "summary": "The palette belongs to rain, bark, mud, smoke, patina, and repaired workwear. Dark clothing separates from the environment through value contrast, rim light, wet highlights, and material variation.",
+      "sections": [
+        {
+          "heading": "APPROVED PALETTE",
+          "items": [
+            "Charcoal #2B2A26",
+            "Ash brown #3A352F",
+            "Dust brown #544E42",
+            "Faded olive #4F563F",
+            "Weathered black #2E2F33",
+            "Natural bone #BDAF95"
+          ]
+        },
+        {
+          "heading": "SURFACE LANGUAGE",
+          "items": [
+            "Flexible scale mesh",
+            "Worn reinforced leather",
+            "Coarse technical fabric",
+            "Weathered matte metal",
+            "Rope and natural fibre",
+            "Stitching, patches, mud, patina"
+          ]
+        },
+        {
+          "heading": "LIGHT & CONTRAST",
+          "items": [
+            "Lift forest midtones behind silhouette",
+            "Keep clothing dark but not crushed",
+            "Use wet edge highlights",
+            "Warm firelight only when motivated",
+            "No dramatic coloured light without story purpose"
+          ]
+        }
+      ],
+      "footer": "Muted. Natural. Weathered. Functional. Non-reflective."
+    }
+  ]
+}

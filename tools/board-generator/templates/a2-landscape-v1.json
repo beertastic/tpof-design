@@ -1,0 +1,21 @@
+{
+  "page": {
+    "size": "A2",
+    "orientation": "landscape",
+    "dpi": 300
+  },
+  "style": {
+    "background": "#F2EFE7",
+    "ink": "#161817",
+    "muted": "#5D625C",
+    "accent": "#536B56",
+    "rust": "#7A4A2B",
+    "panel": "#E5E0D5",
+    "line": "#A9A397"
+  },
+  "output": {
+    "pdf_directory": ".",
+    "png_directory": "renders",
+    "png_suffix": "-A2-300dpi.png"
+  }
+}

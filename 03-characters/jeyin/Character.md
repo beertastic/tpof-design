@@ -1,7 +1,7 @@
 ---
 title: "Jeyin"
 asset_id: "CHAR-JEYIN"
-version: "0.2"
+version: "0.3"
 status: "placeholder"
 faction: "Slaves / Escapees"
 source: "Filmanize script breakdown and production notes"
@@ -39,6 +39,29 @@ her in.
   [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).
   Requires stunt and VFX planning comparable to the `Krellis head shot` already
   flagged in Scene 24.
+
+### The death, precisely
+
+1. Jasu **sets the akk dog on her.** It is an ordered killing.
+2. **Shin sees, hears and smells all of it.** She is not shielded from any part.
+3. **Jasu calls the dog off.**
+4. **Jeyin is still alive.** Shin reaches her and they exchange a few words.
+5. She dies.
+
+This is not a kill — it is a **mauling followed by a death scene with dialogue**,
+and that is a substantially harder makeup and prosthetics problem than a clean
+death:
+
+- The injuries must be **survivable-looking for the duration of the dialogue**
+  and unmistakably fatal. She has to be able to speak, and the audience has to
+  know she will not stop.
+- **Blood continuity** across the mauling, the dialogue and the death needs a
+  planned progression, not a single application.
+- Shin ends the scene **covered in her mother's blood** — that transfer is a
+  costume and continuity requirement for both characters.
+- Jeyin is already injured and limping from earlier scenes. The new wounds must
+  be distinguishable from the old.
+- Prosthetic build required. This is the most demanding makeup in the film.
 
 ## Character Overview
 
@@ -90,8 +113,9 @@ TBD.
 - What is the injury, when exactly does it happen, and what is its visible state
   in each of scenes 16, 17, 18, 21, 22 and 24?
 - What was she before captivity? Shin's design and hers should share something.
-- Does Shin witness the death, or find her afterwards? This decides whether the
-  akk dog and Shin are ever in frame together.
+- What are her last words to Shin? Not an art department decision, but the
+  makeup has to let her deliver them — which constrains where the injuries are.
+  Nothing may compromise her mouth or throat if she has to speak clearly.
 - Escapee costume language overall: what were they issued, what did they steal,
   and what has captivity left them wearing?
 
@@ -99,5 +123,6 @@ TBD.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 0.3 | 2026-07-30 | placeholder | Death detailed: ordered mauling, dog called off, dialogue with Shin, then death. Flagged as the film's most demanding prosthetics build. |
 | 0.2 | 2026-07-30 | placeholder | Recorded as Shin's mother and as killed by the akk dog in the finale. Injury flagged as a per-scene continuity track. |
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |

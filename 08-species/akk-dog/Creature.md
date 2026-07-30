@@ -77,6 +77,21 @@ unthreatening and slightly comic — an enormous animal enjoying a scratch.
 
 The akk dog kills Jeyin in the forest clearing during the final confrontation.
 
+**It is an ordered killing.** Jasu sets the animal on her and **calls it off
+afterwards** — the akk dog is under command throughout and obeys. It does not get
+loose, it is not provoked, and it does not choose. Jasu is a murderer and the
+animal is the weapon.
+
+Two consequences:
+
+- **It needs tack.** An animal that is set on a target and recalled is worked
+  equipment — collar, harness, or a lead it is released from. That tack is a prop
+  and it must exist in Scene 9 too, where she is petting it. Follows the same
+  industrial-salvage rules as everything else: worn, repaired, previously owned.
+- **It stops on command, mid-kill.** Whatever it does in that shot, it has to be
+  able to disengage and return to her. That is a rig and animation requirement,
+  and it is the moment the audience understands it was always hers to stop.
+
 Design and production consequences:
 
 - **Stunt and VFX beat.** The breakdown already flags a `Krellis head shot`
@@ -86,9 +101,11 @@ Design and production consequences:
   design. Whatever the rig does in that shot has to be believable at the scale
   established in Scene 9.
 - **Blood and aftermath** must be decided as a production standard, not
-  improvised in one shot.
+  improvised in one shot. Jeyin survives the mauling and speaks to Shin before
+  dying, so this is a mauling and a death scene, not a kill.
 - Jeyin is already injured and limping from Scene 16 onward. She is not killed
   while fighting; she is killed while unable to run.
+- **Shin sees, hears and smells all of it.** Staging must put her close.
 
 ### Other scenes
 
@@ -125,12 +142,11 @@ generators get wrong most often. Record its height at the shoulder against a
 - Lethal on command, or off it — it kills Jeyin in the finale.
 - It has no name.
 - TBD: is it calm with the rest of the crew, or only with her?
-- TBD: is the kill ordered by Jasu, or does the animal act on its own? This is
-  the difference between Jasu being a murderer and the akk dog being a loose
-  weapon, and it changes how the animal is handled in every earlier scene.
-- TBD: is it worked as a tracker in the pursuit, or only released at the end?
-- TBD: harness, collar, muzzle, or nothing? A working animal that is sometimes
-  released needs something to release it *from*.
+- **Confirmed: the kill is ordered.** Jasu sets it on Jeyin and calls it off. The
+  animal obeys both commands.
+- It therefore requires **tack** — collar, harness, or a lead — present from
+  Scene 9 onward, not only in the finale.
+- TBD: is it worked as a tracker in the pursuit, or held back until the end?
 
 If it wears any tack, that tack is a prop and belongs in `05-props/`.
 
@@ -158,8 +174,9 @@ README for what is needed and why.
 - **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but
   the breakdown tracks none of them. Needed for the creature's own shot list, for
   `Scene-Index.md`, and for any schedule built from the breakdown export.
-- **Is the kill ordered?** Jasu commanding it and the animal acting alone are
-  different films, and the answer changes how the akk dog is staged throughout.
+- What tack does it wear, and is it visibly released from something in the
+  finale? Needed before Scene 9 imagery is generated, since the same tack must
+  appear there.
 - Is the production treating akk dogs as established fauna with fixed
   characteristics, or as a loose starting point for an original design? This
   determines how much the generated imagery may deviate from the built rig.

@@ -90,6 +90,19 @@ him as a Jedi on first sight has failed.
 - Set ~1 BBY, eighteen years after Order 66. Baylan 50, Shin 15.
 - Roughly a decade before the events he is later known for.
 
+## The ending
+
+- Jasu sets the akk dog on Jeyin, on command, and calls it off afterwards.
+- Jeyin lives long enough to speak to Shin.
+- **Baylan kills everyone** — his own crew of eighteen years.
+- He and Shin leave together.
+- This is the only scene in which he is not performing. Every rule about being
+  heavy, slow and deliberately uninteresting applies until this moment and not
+  after it.
+- Whatever state his costume ends in is his first frame in the next film.
+- **How he kills them is not yet decided.** Until it is, generate nothing for the
+  finale.
+
 ## Design Drift Prevention
 
 Reject any design that becomes:

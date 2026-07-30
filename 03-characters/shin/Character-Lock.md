@@ -36,8 +36,11 @@ design that makes her look competent is wrong for this film.
 - **Filthy** from Scene 11 onward.
 - It catches what little light there is — firelight, dawn.
 - It is the continuity clock: how bound, how dirty, how damaged.
-- The trauma of this story leads her to cut it. **When it goes, the film loses
-  its only colour.**
+- **She does not cut it in this film.** The cut happens in Film 2 or immediately
+  before it. This story ends with the hair intact, filthy and bloodied. No shorn
+  variant is required here.
+- When it does go, the story loses its only colour — which is why it belongs to
+  the next film, as the first thing she chooses for herself.
 
 ## Costume
 
@@ -74,6 +77,15 @@ design that makes her look competent is wrong for this film.
 - She cannot sleep, and it accumulates scene by scene.
 - Fear reads plainly — she has never had to perform composure.
 - She looks directly into camera in Scenes 6 and 12. The only character who does.
+
+## The ending
+
+- The akk dog is set on Jeyin **on command**. Jasu calls it off afterwards.
+- **Shin sees, hears and smells all of it.** She is not spared and not shielded.
+- Jeyin survives the mauling. Shin reaches her and they speak before she dies.
+- Baylan then kills everyone.
+- Shin leaves with Baylan, hair intact, covered in her mother's blood.
+- Her final expression is neither gratitude nor relief.
 
 ## Design Drift Prevention
 

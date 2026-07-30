@@ -19,10 +19,19 @@
 - [ ] **Which scenes does the akk dog appear in?** Confirmed to be in several beyond
       Scene 9, but the Filmanize breakdown tracks it in none of them — it is named only
       inside the Scene 9 description. Any schedule built from that export will miss it.
-- [ ] Is the akk dog ordered to kill Jeyin, or does it act on its own? Changes whether
-      Jasu is a murderer, and changes how the animal is staged in every earlier scene.
-- [ ] Does Shin witness her mother's death or find her afterwards?
+- [x] ~~Is the akk dog ordered to kill Jeyin?~~ **Yes.** Jasu sets it on her and calls it
+      off afterwards. Confirmed 2026-07-30. The animal needs tack, present from Scene 9.
+- [x] ~~Does Shin witness her mother's death?~~ **She sees, hears and smells all of it**,
+      then speaks to her mother before she dies. Confirmed 2026-07-30.
 - [ ] What is Jeyin's injury, and what is its visible state in each of scenes 16–24?
-- [ ] **When does Shin cut her hair — in this film or between films?** Blocks her prompt
-      pack: a shorn variant is needed if it happens here. The red hair is the film's only
-      saturated colour, so losing it is a structural beat, not a styling note.
+- [x] ~~When does Shin cut her hair?~~ **Not in this film** — Film 2 or just before it.
+      Confirmed 2026-07-30. No shorn variant needed in her pack.
+- [ ] **How does Baylan kill the mercenaries in the finale?** The largest open design
+      question in the project. His blaster is a converted lightsaber with an empty crystal
+      chamber, and the crystal has already shown it wants to go back. Does he rebuild the
+      saber, arrive with it rebuilt, or kill them with the blaster and the Force? Determines
+      the finale's hero prop, VFX, stunts, and the last image of him in the film.
+- [ ] Does Shin watch Baylan kill them? If so, what she leaves with is not a rescuer.
+- [ ] What tack does the akk dog wear? Required in Scene 9 as well as the finale.
+- [ ] Jeyin's death makeup: injuries must be survivable-looking for the length of her
+      dialogue and unmistakably fatal. Prosthetic build; the most demanding in the film.

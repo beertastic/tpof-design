@@ -1,7 +1,7 @@
 ---
 title: "Shin"
 asset_id: "CHAR-SHIN"
-version: "1.0"
+version: "1.1"
 status: "in-development"
 faction: "Slaves / Escapees"
 species: "Human"
@@ -56,7 +56,45 @@ what Jeyin dies doing.
 | 18 | Jeyin hides the severity of her injury **from Shin** | She is being protected and does not fully know it |
 | 21 | A blaster shot nearly hits Krellis; Vala pulls them into a ditch | Terror, mud, close quarters |
 | 22 | Vala goes to draw the enemy off and **gives Shin a clasp as a promise.** Costume noted as **"Tunic"** | The hero prop enters |
-| 24/24A | The clearing. **Jeyin is killed by the akk dog.** Baylan is present | Everything she has is taken, and the man from her visions is standing there |
+| 24/24A | The clearing. See **The Ending** below | Everything she has is taken, and the man from her visions is standing there |
+
+## The Ending
+
+The final scene, in order:
+
+1. **The akk dog is set on Jeyin.** Shin **sees, hears and smells all of it.** She
+   is not spared any part of it and nobody gets her away.
+2. **Jasu calls the dog off.** The animal is under command throughout — this is
+   an ordered killing, not an animal getting loose.
+3. **Jeyin is still alive.** Shin gets to her and they exchange a few words
+   before she dies.
+4. **Baylan kills everyone.**
+5. **Shin leaves with Baylan.**
+
+### What this means for her design
+
+- **She is present for all of it and covered in the evidence.** Her mother's
+  blood is on her hands, her clothes and her face by the end. The costume must
+  take that and it is the final state of the garment.
+- **She is not rescued.** No one shields her, no one turns her away. Everything
+  that happens is happening at her eye level.
+- **The last thing she sees in this film is a stranger killing twelve people** —
+  including the ones who fed her captors and the ones who hunted her — and then
+  she walks away with him. Her final expression is not gratitude and it is not
+  relief.
+- **Her hair is intact when she leaves.** See below.
+
+### The hair does not go in this film
+
+Confirmed: **Shin does not cut her hair in this story.** It happens in Film 2 or
+immediately before it. This film ends with the red hair intact, filthy and
+bloodied, walking out of the clearing beside Baylan.
+
+That is the right call structurally — the film keeps its only colour right to
+the last frame, and the loss of it belongs to the next story, where it becomes
+the first thing she chooses for herself.
+
+No shorn variant is required in her prompt pack.
 
 ## Design Intent
 
@@ -66,8 +104,11 @@ brown and faded olive in a wet dark forest, that hair is the brightest thing in
 any frame she occupies. Do not fight it. It makes a fifteen-year-old findable in
 an ensemble of twelve, instantly, without a single compositional trick.
 
-It also sets up the loss. **The trauma of this story leads her to cut it** — and
-when she does, the film loses its only colour. Design toward that.
+It also sets up a loss that lands later. **The trauma of this story is what
+eventually leads her to cut it** — but not here. This film ends with the hair
+intact, filthy and bloodied. When it finally goes, in Film 2 or just before it,
+the story loses its only colour, and it is the first thing she ever chooses for
+herself.
 
 **2. She is a child in an adult catastrophe.** Not a young warrior, not a
 prodigy, not capable. She is fifteen, exhausted, filthy and frightened, being
@@ -201,16 +242,15 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 ## Open Questions
 
-- **When does she cut her hair — in this film, or between films?** The most
-  urgent question. If it happens here, the prompt pack needs a shorn variant and
-  the costume must work both ways. If it happens in Film 2, this film ends with
-  the hair intact and the loss lands later.
 - **Does Shin remember freedom?** Jeyin does. Shin's own memory is deliberately
   unresolved, and it sets her pallor, whether she squints in daylight, and
   whether Scene 8 is wonder or recognition. Designed to the middle for now:
   markedly pale, but not someone who has never seen the sun.
-- **Does she witness her mother's death, or find her afterwards?** Determines
-  whether Shin and the akk dog are ever in frame together.
+- How much blood is on her at the end, and does the costume need a duplicate for
+  it? This is the garment's final state and it needs a standard, not an
+  improvisation on the day.
+- Does she try to reach her mother while the dog is still on her? That is a
+  stunt and staging question with a real safety dimension.
 - What is Scene 12 exactly — she sees a vision *and* stands within it. Is she
   watching herself? A VFX and staging decision.
 - Does Baylan speak to her in Scene 24A, or is the meeting silent?
@@ -220,5 +260,6 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.1 | 2026-07-30 | in-development | Ending recorded: she witnesses the whole killing, speaks to her dying mother, and leaves with Baylan. Hair confirmed NOT cut in this film. |
 | 1.0 | 2026-07-30 | in-development | Full character built from breakdown + Production Designer interview. Established as co-lead, Force-unaware and red-haired; clasp established as the origin of a later-known object; three-film arc recorded. |
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |

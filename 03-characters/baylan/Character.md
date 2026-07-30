@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.0"
+version: "1.1"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -62,7 +62,42 @@ decade later.
 | 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, **which begins to come apart** | The hero prop and the hero moment |
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
 | 20 | Carries a heavy rifle; Nyx teases him about his blaster; Jasu hands him the scanner | The rifle is his working weapon. The blaster is not |
-| 24A | The clearing. He and Shin finally occupy the same space | The reveal |
+| 24A | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
+
+## The Ending
+
+In the forest clearing, in order:
+
+1. Captain Jasu sets the akk dog on Jeyin. It is an ordered killing — Jasu calls
+   the animal off afterwards.
+2. Jeyin survives long enough for Shin to reach her and speak to her.
+3. **Baylan kills everyone.**
+4. He and Shin leave together.
+
+### What this does to the character
+
+Eighteen years of hiding end in a single scene, and he does not kill the
+mercenaries because they threaten him. He kills them because a child watched her
+mother die and he was standing there in the crowd, in uniform, on the wrong side.
+
+These are **his own crew**. He has eaten with them, hauled crates for them, taken
+Nyx's teasing about his blaster, and slept in a tent twenty feet from Jasu's. He
+kills all of them.
+
+### Design consequences
+
+- **The blaster must resolve.** Scene 15 showed it coming apart under the
+  crystal's influence, revealing the saber architecture and the empty crystal
+  chamber. The finale is the payoff for that. **How he kills them is the single
+  biggest open design question on this character** — see *Open Questions*.
+- **The costume must survive a fight and finish the film changed.** Whatever
+  state he ends in is what walks out of the clearing with Shin, and it is his
+  first frame in the next film.
+- **This is the only time he is not performing.** Every other image in his pack
+  is a man being deliberately uninteresting. This one is not.
+- The undertunic — the one Jedi remnant — should be visible by the end. If the
+  outer layers are damaged or discarded in the fight, the thing underneath is
+  what shows.
 
 ## Design Intent
 
@@ -246,6 +281,14 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 - **What happened on the dune?** Scene 12 shows a blaster firing and Baylan
   turning. Whether he was shot, whether he killed the clone, and whether the
   girl died there determines whether he carries a visible injury from that day.
+- **How does he kill them?** The blaster is a converted lightsaber with an empty
+  crystal chamber and a crystal that has already demonstrated it wants to go
+  back. Does he rebuild the saber in the clearing, arrive with it already
+  rebuilt, kill them with the blaster and the Force, or something else? This
+  determines the finale's hero prop, its VFX, its stunt work, and the last image
+  of him in the film. Nothing else on this character is bigger.
+- **Does Shin watch him do it?** She sees her mother's death in full. If she also
+  watches him kill twelve people, then what she leaves with is not a rescuer.
 - **Does he have a physical injury from the purge?** Nothing in the breakdown
   requires one. A limp, a hand, an ear — it would explain the weight he carries
   and give the actor something. Or his damage is entirely internal.
@@ -257,6 +300,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.1 | 2026-07-30 | in-development | Ending recorded: he kills the entire mercenary crew in the clearing and leaves with Shin. Flagged the finale weapon as the largest open question. |
 | 1.0 | 2026-07-30 | in-development | Full character built from breakdown + Production Designer interview. Established as an Order 66 survivor hiding as a mercenary; saber-converted-to-blaster established as hero prop; timeline fixed at ~1 BBY. |
 | 0.2 | 2026-07-30 | placeholder | Merged with `Bay` — confirmed same character. |
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |

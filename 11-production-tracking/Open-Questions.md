@@ -29,7 +29,7 @@
       flashbacks, and must stay illegible. No injury designed in. Confirmed 2026-07-30.
 - [ ] Does Baylan understand he is repeating what the Jedi did to him?
 - [ ] What happened between the Order failing and Baylan finding the mercenaries?
-- [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
+- [x] ~~Is Shin in this script Shin Hati?~~ **Yes.** Confirmed 2026-07-30; full pack built.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.
 - [x] ~~Which scenes does the akk dog appear in?~~ **Wherever Jasu is** — 9, 19, 20, 23, 24,

@@ -100,11 +100,21 @@ resisted.
 Shin ends up caught between the two people who raised her, one of whom is not
 there to argue her case.
 
-- The line must land as a **refrain**, not a throwaway. Repetition is the
-  mechanism.
-- **Strong recommendation: make it her last line.** Said dying, in Shin's arms,
-  minutes before Baylan appears, the contradiction in Film 2 becomes devastating
-  rather than merely thematic.
+**How it is delivered — confirmed 2026-07-30:**
+
+- **Said properly earlier in the film**, more than once, as a refrain. This is
+  where the audience learns it and where it registers as hers.
+- **Echoed at the end, unfinished.** Dying, in Shin's arms, she starts it and does
+  not complete it.
+
+That second delivery is the important one. Shin is not left with her mother's
+final teaching — she is left with **an instruction that stops halfway**. When
+Baylan later tells her to use the fear rather than resist it, he is not
+contradicting a completed statement; he is filling a sentence her mother never
+finished.
+
+**Makeup consequence:** whatever the injuries are, she must be able to *begin*
+the line clearly. Nothing may compromise the mouth or throat.
 - See [`02-story/Planted-Elements.md`](../../02-story/Planted-Elements.md).
 
 ### The death, precisely
@@ -223,9 +233,8 @@ TBD.
 - What was she before captivity? She remembers freedom, so there is a life to
   reference — and it should show somewhere.
 
-- **Are her last words "don't let the fear control you"?** Recommended. Either
-  way the makeup must let her speak clearly, which constrains the injuries —
-  nothing may compromise her mouth or throat.
+- Exactly how far does she get before she stops? Where the line breaks changes
+  what Shin is left holding.
 - Escapee costume language overall: what were they issued, what did they steal,
   and what has captivity left them wearing?
 

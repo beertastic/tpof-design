@@ -46,14 +46,19 @@ rejects it explicitly. This is industrial, strapped and practical.
 
 Her arena history must never be used as licence for exposure or sexualisation.
 
-## Her injuries — decide now
+## Her injuries — deferred to Film 2
 
-Whatever she takes leading the hunters away is **her Film 2 appearance.** She is
-next seen having survived something that should plainly have killed her, so the
-damage needs specifying while it is still free: scarring, a lost limb or eye, a
-changed gait, a ruined voice.
+**Decided 2026-07-30: not specified in this film.**
 
-It should be visible enough that an audience understands what surviving cost her.
+The only requirement on *this* production is that nothing forecloses the choice:
+
+- **No injury is shown.** She leaves frame intact.
+- **No dialogue describes her condition** afterwards. Others may assume she is
+  dead; nobody may describe how.
+- Her exit leaves her physical state entirely open.
+
+Whatever is chosen later must read as the cost of surviving — an audience should
+understand what it took without being told.
 
 **Her costume continues into Film 2 in a damaged state and must be archived.**
 

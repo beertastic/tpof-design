@@ -21,7 +21,7 @@
 | Generic Mercenary | Placeholder | Reusable design family |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
-| Vala | Placeholder | **Survives** — post-credit scene. Killed by Shin in Film 2. Do not stage a death. |
+| Vala | Placeholder | **Survives.** Do not stage a death; show no injury. Killed by Shin in Film 2 |
 | Krellis | Placeholder | Escapee medic |
 
 ## Factions

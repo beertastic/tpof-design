@@ -9,6 +9,10 @@ status: "in-development"
 
 > Refer to the Production Design Bible before all visual development.
 
+> **Label confirmed 2026-07-30:** the faction is called **Slaves / Escapees** —
+> both, because the captivity is as much their identity as the escape. Not
+> renamed, not split.
+
 ## Narrative Function
 
 Escaped prisoners attempting to cross the forest world and reach safety, hunted

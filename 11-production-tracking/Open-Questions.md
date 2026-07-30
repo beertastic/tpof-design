@@ -8,7 +8,8 @@
 - [x] ~~What is the forest world's canonical name?~~ **Never named on screen.** Deliberate.
       Do not invent one. 2026-07-30.
 - [ ] Mercenary ship name and class. Digital interior already built; exterior and docs parked.
-- [ ] Are “Slaves” and “Escapees” the same production faction label?
+- [x] ~~Are “Slaves” and “Escapees” one label?~~ **Keep both** — captivity is as much their
+      identity as the escape. Not renamed, not split. 2026-07-30.
 - [ ] Is "best-kept clothing in the group" the right level for Shin's grooming subtext?
       It is currently the only design carrier for it.
 - [x] ~~Does Shin remember freedom?~~ **No.** Taken as a toddler at the latest; she has no
@@ -17,7 +18,8 @@
 - [ ] **Why did Jeyin stay?** Was Shin threatened in a way that made leaving impossible?
       Would make Jeyin a captive by choice and her death the removal of a shield. The most
       useful unanswered question about her.
-- [ ] Should Palpatine receive a full design document or remain a vision-only reference?
+- [x] ~~Palpatine — full document or vision-only?~~ **Glimpsed, minimal reference only.**
+      `03-characters/palpatine/Reference.md`. Must not be staged recognisably. 2026-07-30.
 - [x] ~~Is Baylan a mercenary or a captive?~~ Neither — an Order 66 Jedi survivor hiding as a
       mercenary. Confirmed 2026-07-30.
 - [x] ~~Who is the Young Girl in Baylan's Scene 4 vision?~~ **She is Shin.** The two visions
@@ -69,6 +71,9 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 
 - [x] ~~Clasp or brooch?~~ **A clasp, worn as a keepsake.** Functional fastener off Vala's
       rig; Shin has nothing to fasten. 2026-07-30.
-- [ ] Is "don't let the fear control you" Jeyin's dying line? Recommended.
-- [ ] What injuries does Vala take, and where is the post-credit scene set?
+- [x] ~~Is it Jeyin's dying line?~~ **Both** — refrain earlier, echoed **unfinished** as she
+      dies. Shin is left with an instruction that stops halfway. 2026-07-30.
+- [x] ~~What injuries does Vala take?~~ **Deferred to Film 2.** This film must not foreclose
+      it: no injury shown, no dialogue describing her condition. 2026-07-30.
+- [ ] Where is Vala's post-credit scene set? Still needed as an asset for this film.
 - [ ] Is Prodona (named by Krellis, Scene 8) a Film 2 location?

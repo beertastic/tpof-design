@@ -34,14 +34,15 @@ woman who dies in Film 1.
 
 ### Required in this film
 
-- **The line must land as a refrain**, not a throwaway. Repetition is the
-  mechanism; staging should let it register each time.
+- **The line lands as a refrain earlier in the film**, more than once, then is
+  **echoed unfinished as she dies** (confirmed 2026-07-30). She starts it and does
+  not complete it.
+- Shin is therefore left with **an instruction that stops halfway** — so Baylan is
+  not contradicting a completed statement in Film 2, he is filling a sentence her
+  mother never got to finish.
 - **Shin's visible fear is thematic, not incidental.** She is frightened in
   almost every scene and it reads plainly on her — that is now the *subject*, not
   characterisation. Every image of her being afraid is planting.
-- **Decide whether it is Jeyin's last line.** If she says it dying, in Shin's
-  arms, minutes before Baylan appears, the contradiction in Film 2 becomes
-  devastating rather than merely thematic. Strongly recommended.
 - Nothing in Shin's design may suggest she is mastering her fear. She is not.
   That is Film 2's business.
 
@@ -69,10 +70,11 @@ clasp — and keeps it. She keeps Vala with her anyway.
 - **Do not stage a death.** Her Scene 22/23 exit must read as *gone*, not
   *killed*. No body, no confirmed kill, no dialogue asserting she is dead.
   Others may believe it; the film must not confirm it.
-- **Design her injuries now.** Whatever she takes leading the hunters off is her
-  Film 2 appearance. Decide it while it costs nothing — scarring, a lost limb or
-  eye, a changed gait, a ruined voice. It should be visible enough that the
-  audience understands what surviving cost her.
+- **Her injuries are deferred to Film 2** (2026-07-30). The requirement on *this*
+  film is only that nothing contradicts a future decision: no injury is shown, no
+  dialogue describes her condition, and her exit leaves her state entirely open.
+- Whatever is chosen later must be readable as the cost of surviving — the
+  audience should understand what it took without being told.
 - **The post-credit scene is an asset for this film** and needs a location, a
   costume state and a makeup state. It is not a Film 2 problem.
 - **Archive her costume.** It continues into Film 2 in a damaged state.
@@ -169,7 +171,7 @@ likes him.
 
 ## Open
 
-- Is "don't let the fear control you" Jeyin's dying line?
+- How far into the line does Jeyin get before she stops?
 - What injuries does Vala take, and where is the post-credit scene set?
 - In Film 2, does Baylan order the fight or does Vala attack him first?
 - Prodona — named by Krellis in Scene 8 as their destination, never seen. Is it

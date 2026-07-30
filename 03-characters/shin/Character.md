@@ -87,8 +87,10 @@ The final scene, in order:
    thing she has been living with, arriving at its conclusion.
 2. **Jasu calls the dog off.** The animal is under command throughout — this is
    an ordered killing, not an animal getting loose.
-3. **Jeyin is still alive.** Shin gets to her and they exchange a few words
-   before she dies.
+3. **Jeyin is still alive.** Shin gets to her and they exchange a few words. Her
+   mother begins the line she has said throughout the film — *"don't let the fear
+   control you"* — and **does not finish it.** She dies. Shin is left holding an
+   instruction that stops halfway.
 4. **Shin knocks the akk dog out with a Force blast** — provisional; see below.
 5. **Baylan kills everyone.** She sees it. See below.
 6. **Shin leaves with Baylan.**

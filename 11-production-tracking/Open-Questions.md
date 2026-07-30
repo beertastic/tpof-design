@@ -14,6 +14,12 @@
       or a prophetic glimpse of Shin? Changes his face and the crystal's provenance.
 - [ ] What happened on the dune (Scene 12)? Determines whether Baylan carries a visible injury.
 - [ ] Is Shin in this script Shin Hati? Confirmed yes 2026-07-30 — she needs a full pack as co-lead.
-- [ ] Captain Jasu's "dog-like beast" (Scene 9) has no home in the folder structure.
-      Does it belong under `08-species/`, or does the repo need a separate creatures
-      category? Only one creature appears in the script so far.
+- [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
+      modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.
+- [ ] **Which scenes does the akk dog appear in?** Confirmed to be in several beyond
+      Scene 9, but the Filmanize breakdown tracks it in none of them — it is named only
+      inside the Scene 9 description. Any schedule built from that export will miss it.
+- [ ] Is the akk dog ordered to kill Jeyin, or does it act on its own? Changes whether
+      Jasu is a murderer, and changes how the animal is staged in every earlier scene.
+- [ ] Does Shin witness her mother's death or find her afterwards?
+- [ ] What is Jeyin's injury, and what is its visible state in each of scenes 16–24?

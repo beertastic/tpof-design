@@ -36,3 +36,9 @@
 - The earlier cast list included `Freya`; the breakdown names `Reya Fenn`.
 - The earlier cast list included `Charlie`; no character with that name appears in this breakdown export.
 - `Mercenary` and `Mercenaries` are treated as generic/background roles pending clarification.
+- **The akk dog is under-reported by the breakdown.** Captain Jasu's akk dog appears in
+  several scenes but is tracked in none of them — it is named only inside the Scene 9
+  description as a "dog-like beast", and appears in no character or set-dressing list.
+  It kills Jeyin in the finale. Scene numbers to be confirmed and added here; until then
+  any schedule derived from the Filmanize export is missing a creature unit.
+  See [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).

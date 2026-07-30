@@ -20,8 +20,8 @@
 | Loryl | Placeholder | Breakdown-derived |
 | Charlie | Unconfirmed | Working name; absent from breakdown. No folder created. |
 | Generic Mercenary | Placeholder | Reusable design family |
-| Jeyin | Placeholder | Escapee |
-| Shin | Placeholder | Escapee |
+| Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
+| Shin | Placeholder | **Co-lead.** Shin Hati; the Baylan partnership originates here. |
 | Vala | Placeholder | Escapee |
 | Krellis | Placeholder | Escapee medic |
 
@@ -44,3 +44,9 @@
 | Sand Dunes | Placeholder |
 | Forest Ditch | Placeholder |
 | Forest Clearing | Placeholder |
+
+## Creatures
+
+| Asset | Status | Notes |
+|---|---|---|
+| Akk Dog | Asset built and rigged | Jasu's. Unnamed. Kills Jeyin in the finale. Scene list pending. |

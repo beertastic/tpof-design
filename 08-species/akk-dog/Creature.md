@@ -3,9 +3,10 @@ title: "Akk Dog"
 asset_id: "CREATURE-AKK-DOG"
 version: "0.1"
 status: "asset-built"
+named: false
 category: "creature"
 owner: "Captain Jasu"
-scenes: "9"
+scenes: "9, and others — full list pending"
 source: "Filmanize script breakdown; existing production 3D asset"
 ---
 
@@ -31,22 +32,73 @@ filled in from that asset rather than from outside reference.
 
 ## Story Function
 
-Jasu's animal. It tells you what she is before she says anything: she keeps a war
-beast as a pet and is comfortable enough to fuss over it while giving orders. It
-is the only warmth she shows on camera.
+**The akk dog kills Jeyin in the final scene.** Jeyin is Shin's mother. This
+animal is not a background detail or a piece of camp colour — it is the
+instrument of the film's central loss, and the reason Shin ends the story with
+nothing left.
 
-It also sets the danger level of her camp. A crew that keeps an akk dog is not a
-crew you walk away from — which matters, because Baylan has been living beside it
-for years, and the escapees are being hunted by it.
+That gives Scene 9 a job. Jasu petting the animal affectionately while briefing
+her squad is not characterisation for Jasu; it is setup. The audience must find
+the akk dog genuinely likeable — a big calm animal enjoying being scratched —
+because the finale depends on that affection being turned against them.
 
-### Scene 9 beat
+It also sets the danger level of the camp. A crew that keeps an akk dog is not a
+crew you walk away from, which matters because Baylan has been living beside it
+for years and the escapees are being hunted by it.
+
+**It has no name.** Jasu keeps a war animal she has never named. That is a
+deliberate and cold detail: she is fond of it the way you are fond of a good
+weapon.
+
+## The core design rule
+
+**The animal does not change.**
+
+It is exactly as affectionate in Scene 9 as it is lethal in the finale. It does
+not transform, snarl, redden, bulk up, or acquire monster-design language for the
+kill. It does what a war beast was always going to do, with the same body and the
+same behaviour, and that is what makes it frightening.
+
+What changes across the film is the audience's reading of the animal — never the
+animal itself. Any drift toward creature-feature design in the final scene
+destroys the effect the whole structure was built for.
+
+### Scene 9 — the setup
 
 > *Captain Jasu pets a dog-like beast and briefs her mercenaries about a crashed
 > ship nearby. She orders the camp to bed down with patrols. Bay worries and
 > recalls past missions.*
 
 Evening, forest mercenary camp. The animal is calm and being handled
-affectionately in the middle of a military briefing.
+affectionately in the middle of a military briefing. It must be warm, heavy,
+unthreatening and slightly comic — an enormous animal enjoying a scratch.
+
+### Scene 24 / 24A — the kill
+
+The akk dog kills Jeyin in the forest clearing during the final confrontation.
+
+Design and production consequences:
+
+- **Stunt and VFX beat.** The breakdown already flags a `Krellis head shot`
+  visual effect in Scene 24. Jeyin's death needs equivalent planning, and it is
+  a creature interaction rather than a weapon hit — considerably harder.
+- The animal's **jaw, bite mechanism and neck mass** now carry real weight in the
+  design. Whatever the rig does in that shot has to be believable at the scale
+  established in Scene 9.
+- **Blood and aftermath** must be decided as a production standard, not
+  improvised in one shot.
+- Jeyin is already injured and limping from Scene 16 onward. She is not killed
+  while fighting; she is killed while unable to run.
+
+### Other scenes
+
+The akk dog appears in **several scenes beyond 9**. The Filmanize breakdown does
+not track it — it is named only inside the Scene 9 description as a "dog-like
+beast" and appears in no character or set-dressing list anywhere.
+
+**This means the scene breakdown under-reports the creature, and any schedule
+built from that export will miss it.** The full scene list needs to be recorded
+here and reflected in `Scene-Index.md`.
 
 ## Physical Design
 
@@ -70,10 +122,15 @@ generators get wrong most often. Record its height at the shoulder against a
 ## Handling and Behaviour
 
 - Calm and affectionate with Jasu specifically (Scene 9).
+- Lethal on command, or off it — it kills Jeyin in the finale.
+- It has no name.
 - TBD: is it calm with the rest of the crew, or only with her?
-- TBD: is it working equipment — does it track, hunt, or guard — or purely hers?
-- TBD: does it appear in the pursuit scenes (19–24) or only in camp?
-- TBD: harness, collar, muzzle, or nothing?
+- TBD: is the kill ordered by Jasu, or does the animal act on its own? This is
+  the difference between Jasu being a murderer and the akk dog being a loose
+  weapon, and it changes how the animal is handled in every earlier scene.
+- TBD: is it worked as a tracker in the pursuit, or only released at the end?
+- TBD: harness, collar, muzzle, or nothing? A working animal that is sometimes
+  released needs something to release it *from*.
 
 If it wears any tack, that tack is a prop and belongs in `05-props/`.
 
@@ -98,11 +155,11 @@ README for what is needed and why.
 
 ## Open Questions
 
-- Does the akk dog appear in any scene other than 9? The breakdown does not list
-  it as a character or set dressing anywhere else, but a tracking beast would
-  plausibly be used in the pursuit.
-- Does it have a name? Jasu petting a named animal plays differently from Jasu
-  petting an animal.
+- **Which scenes exactly?** Confirmed to appear in several beyond Scene 9, but
+  the breakdown tracks none of them. Needed for the creature's own shot list, for
+  `Scene-Index.md`, and for any schedule built from the breakdown export.
+- **Is the kill ordered?** Jasu commanding it and the animal acting alone are
+  different films, and the answer changes how the akk dog is staged throughout.
 - Is the production treating akk dogs as established fauna with fixed
   characteristics, or as a loose starting point for an original design? This
   determines how much the generated imagery may deviate from the built rig.

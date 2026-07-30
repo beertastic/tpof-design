@@ -112,7 +112,11 @@ him as a Jedi on first sight has failed.
 - Jasu sets the akk dog on Jeyin, on command, and calls it off afterwards.
 - Jeyin lives long enough to speak to Shin.
 - **Baylan kills everyone** — his own crew of eighteen years.
-- He and Shin leave together.
+- **He extends his hand and she takes it.** He offers; he does not take. She moves.
+- **Play the hand certain, not haunted.** His motive is that he knows what awaits a
+  Force-sensitive child who has been seen, and that she is kin. The parallel with
+  his own childhood taking is **audience subtext, not performance** — any flicker
+  of self-recognition converts a decisive act into an ambivalent one.
 - This is the only scene in which he is not performing. Every rule about being
   heavy, slow and deliberately uninteresting applies until this moment and not
   after it.

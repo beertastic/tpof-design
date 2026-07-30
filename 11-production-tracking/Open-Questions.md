@@ -27,7 +27,11 @@
       SOUND DEPT: Scene 4 and the finale scream must be the same performance.
 - [x] ~~What happened on the dune?~~ **Nothing specific.** The visions are associative, not
       flashbacks, and must stay illegible. No injury designed in. Confirmed 2026-07-30.
-- [ ] Does Baylan understand he is repeating what the Jedi did to him?
+- [x] ~~Does Baylan understand he is repeating what the Jedi did to him?~~ **Not the point.**
+      His motive is that he knows what awaits a seen Force-sensitive child, and that she is
+      kin — he protects his own. The parallel is audience subtext, secondary. The final hand
+      plays **certain, not haunted.** 2026-07-30.
+- [ ] Does the parallel ever land on him, in Film 2 or 3 — and is Shin the one who says it?
 - [ ] What happened between the Order failing and Baylan finding the mercenaries?
 - [x] ~~Is Shin in this script Shin Hati?~~ **Yes.** Confirmed 2026-07-30; full pack built.
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already

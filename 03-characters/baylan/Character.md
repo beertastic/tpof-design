@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.6"
+version: "1.7"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -43,14 +43,11 @@ and found the mercenaries, and whatever else happened in between is unrecorded.
 
 **Eighteen years later he takes a child.**
 
-That parallel is the spine of the character and of the two films after this one.
 He is doing to Shin exactly what was done to him — removing a Force-sensitive
 child from the only life she knows, on the grounds that it is for her own good.
-The difference, if there is one, is that he is one man rather than an institution,
-and that he is not going to abandon her.
 
-Whether he knows he is repeating it is the most interesting unanswered question
-about him.
+**But that parallel is not his motive, and it is not what he is thinking about.**
+It belongs to the audience, not to him. See below.
 
 ## Story Function
 
@@ -146,20 +143,23 @@ In the forest clearing, in order:
 3. **Baylan kills everyone.**
 4. **He extends his hand. She takes it.** They leave together.
 
-### The hand is the rhyme of his whole life
+### The hand
 
-**He was taken as a child by the Jedi.** Someone extended a hand to him once, and
-he took it, and it ended with him hiding in a freighter for eighteen years.
+**Play it certain, not haunted.**
 
-Now he extends one.
+He knows what happens to children like her and he is moving to prevent it. There
+is no ambivalence in the gesture and no visible reckoning with his own past — he
+is not thinking about the day he was taken. He is thinking about what is coming
+for her.
 
-He is doing to Shin exactly what was done to him, and the film's final image is
-the moment of it. Whether he sees that is the last question the story asks — and
-it does not answer it.
+The rhyme is there for the audience: he was taken as a child by the Jedi, someone
+extended a hand to him once, and now he extends one. **But it is subtext, not
+performance.** Any hesitation, any flicker of self-recognition, converts a decisive
+act into an ambivalent one and makes him a smaller character.
 
 **Design requirement:** he offers; he does not take. She has to be the one who
 moves. He has spent eighteen years not touching anything, and this is the first
-thing he reaches for.
+thing he reaches for — and he reaches without doubt.
 
 Whether he speaks is open. A single line would land hard because he has barely
 spoken all film. Silence would leave **Jeyin's unfinished sentence as the last
@@ -168,20 +168,27 @@ Price of Freedom*.
 
 ### Why he does it
 
-Two reasons, and the second is colder than the first.
+**He knows what awaits her if he does nothing.**
 
-**Something in him has stirred, and she is him.** A Force-sensitive child, hunted,
-about to be taken — this is his own life happening again in front of him, and he
-was standing in the crowd in uniform on the wrong side while it did.
+That is the whole motive, and it is urgent rather than reflective. A
+Force-sensitive child who has been *seen* is a valuable target — to Inquisitors,
+to the Empire, to anyone in the business of selling people. He has spent eighteen
+years avoiding exactly that, so he does not have to imagine what happens to her.
+He knows.
 
-**And they have all seen what she is.** A Force-sensitive child, known about, is a
-valuable target — to the Empire, to Inquisitors, to anyone in the business of
-selling people. Every mercenary in that clearing now knows she exists.
+**And she is one of his.** They share the thing that makes them both hunted, even
+though she has no idea she has it. The Order is gone but the instinct it put in
+him is not: she is kin, and he protects his own.
+
+**That is the driving force. The parallel with his own childhood is secondary** —
+real, and available to the audience, but not what is going through his mind. He
+is not agonising over history. He is moving fast because he knows what is coming.
 
 So the killing is not only rage. It is **witness elimination**, and it is
-completely rational: he has decided to protect her at all costs, and the cost is
-everyone who saw. That is Sentinel logic — the discipline that kept him alive for
-eighteen years, applied for the first time to someone else.
+completely rational: every mercenary in that clearing knows she exists, and he
+has decided to protect her at all costs. That is Sentinel logic — the discipline
+that kept him alive for eighteen years, applied for the first time to someone
+else.
 
 These are **his own crew**. He has eaten with them, hauled crates for them, taken
 Nyx's teasing about his blaster, fed Jasu's animal, and slept twenty feet from her
@@ -477,7 +484,8 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   play it on her face. See her character document.
 - Does he know, in the moment, that he is choosing to raise her? Or is that a
   decision that arrives afterwards, in the walk out of the clearing?
-- Does he understand that he is repeating what was done to him?
+- The parallel with his own taking is deliberately *not* his motive. Does it ever
+  land on him — in Film 2, in Film 3 — and does Shin get to be the one who says it?
 - What happened between the Order failing and him finding the mercenaries? There
   are years unaccounted for, and they are Film 2 or 3 material.
 - Does he wear anything at all that suggests preference? The faction has no
@@ -488,6 +496,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.7 | 2026-07-30 | in-development | CORRECTION: the parallel with his own childhood is secondary, not his motive. He acts because he knows what awaits a seen Force-sensitive child, and because she is kin. The final hand plays certain, not haunted. |
 | 1.6 | 2026-07-30 | in-development | CORRECTION: the blade does not stay yellow. It changes to orange on screen, in this film, as it is withdrawn from Nyx. Killing Nyx is what changes it. |
 | 1.5 | 2026-07-30 | in-development | Backstory: taken as a child by the Jedi, then abandoned — he is now repeating it. Visions confirmed as associative and deliberately illegible. No physical injury from the purge. |
 | 1.4 | 2026-07-30 | in-development | Motive recorded: she is him, and every mercenary present has seen what she is. The killing is witness elimination as much as rage. |

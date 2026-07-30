@@ -108,6 +108,9 @@ resolved, not satisfied — desperate to know what happens next.
 carried, not led. He offers, and she is the one who moves. Whatever else is
 uncertain, the film ends with a fifteen-year-old deciding something.
 
+He offers with **certainty** — he knows what awaits her and he is moving to
+prevent it. She accepts with none. That asymmetry is the shot.
+
 ### She is not afraid of him
 
 **She senses he is not a threat to her, even though every piece of evidence in

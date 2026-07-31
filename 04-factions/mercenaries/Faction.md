@@ -147,15 +147,33 @@ second is now the most natural thing he could be wearing — but see the rejecti
 below, because it is also the most obvious way to end up with somebody else's
 character.
 
-### He must not be Chewbacca
+### We are honouring the species, not the character
 
-The bandolier is canonical Wookiee kit, which is exactly the danger: bandolier
-plus Wookiee plus a forest is a silhouette the audience already knows by name.
+**Chewbacca is one Wookiee out of millions** — one individual, in the same way
+one actor is one human. This is somebody else entirely, and he should read as a
+different *person* of the same species, not as a variation on the famous one.
+If a viewer's first thought is "that's Chewbacca in different gear", the design
+has failed.
 
-**He needs to be distinct at a glance** — different fur colour and pattern, a
-different age read, a bandolier of visibly different construction, and **not a
-bowcaster**. He is a working mercenary who assembled his own gear like everyone
-else in this crew, and he can afford good equipment.
+The trap is that the bandolier is canonical Wookiee kit and cannot be dropped —
+Vala takes a grenade off it. So bandolier plus Wookiee plus forest is a
+silhouette the audience already knows by name, and everything else has to do the
+separating.
+
+**Wookiee fur varies enormously across the species** — black, grey, cream, rust,
+mottled, streaked. The famous one is a single colouring, not the template. This
+one is **dark iron-grey shot through with rust brown**, mottled and uneven, and
+he is **old**: paling at the muzzle, thinning patches, old scarring, sections
+matted and badly healed. Shorter, rougher and worse kept than the long clean fall
+of hair the audience pictures.
+
+**No bowcaster** — that weapon belongs to the famous one. A crossed second strap
+rather than the single neat diagonal. Rings and beads braided into the fur, which
+the famous one does not wear.
+
+He is a working mercenary who assembled his own gear like everyone else in this
+crew, and he can afford good equipment. Design him as you would design any other
+member of the crew: as an individual.
 
 ### The options that were rejected
 

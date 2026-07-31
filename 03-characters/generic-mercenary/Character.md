@@ -105,12 +105,22 @@ reach it**, and panic. A Wookiee gives the size for free, and the grenade must b
 legible **in Scene 10**, ten scenes before Vala takes it, or the payoff plays as
 convenient.
 
-**He must not be Chewbacca.** Bandolier plus Wookiee plus forest is a silhouette
-the audience already knows by name, and the bandolier is not optional here. So
-the distinction has to come from everything else: a different fur colour and
-pattern, a different age read, a bandolier of visibly different construction, and
-**no bowcaster**. He assembled his own kit like everyone else in this crew and he
-can afford good equipment — that is what separates him from a reference.
+**We are honouring the species, not the character.** Chewbacca is one Wookiee out
+of millions — one individual, the way one actor is one human. This is somebody
+else, and he should read as a different *person* of the same species rather than
+a variation on the famous one. If the first thought is "that's Chewbacca in
+different gear", it has failed.
+
+The bandolier is canonical Wookiee kit and cannot be dropped, since Vala takes a
+grenade off it, so everything else does the separating. **Wookiee fur varies
+enormously across the species** and the famous one is a single colouring, not the
+template: this one is dark iron-grey shot with rust, mottled, and visibly old —
+paling at the muzzle, thinning, scarred, matted, shorter and worse kept. No
+bowcaster. A crossed second strap rather than one neat diagonal. Rings and beads
+braided into the fur.
+
+He assembled his own kit like everyone else in this crew and he can afford good
+equipment. Design him as an individual, exactly as the other three are.
 
 Beyond the fur he carries the heaviest gear of the four, and the least of it is
 clothing.

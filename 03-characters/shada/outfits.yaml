@@ -34,7 +34,7 @@ outfits:
       #   what: the WESTAR-35 blaster pistol, as built
     must_show:
       - >
-        SCALE ARMOUR — FOUR SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED
+        SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED
         SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At
         most about a fifth of the costume carries metal; the rest is cloth and
         worn leather.
@@ -44,6 +44,9 @@ outfits:
         a RAISED SNAKE SWIRL, laced to a hand-cut backing. Salvaged, pitted and
         worn — never machined, never polished, never carbon fibre or tech
         panelling.
+        THREE PATCHES ONLY — FOREARM, SHOULDER, THIGH. THERE IS NO METAL ON HER
+        TORSO: her chest, sternum and back are plain cloth. NO chest patch, NO
+        sternum panel, NO bib, NO pendant, NO breastplate.
         SIDES ARE FIXED, and given from HER OWN left and right, never the
         viewer's. In a front view her right side appears on the viewer's left; in
         a back view it appears on the viewer's right.
@@ -55,29 +58,24 @@ outfits:
         wrong.
         (2) A CAP OVER HER LEFT SHOULDER ONLY — viewer's right in a front view,
         the OPPOSITE side to the gauntlet. Her right shoulder is bare.
-        (3) A PATCH STITCHED FLAT over the CENTRE OF THE STERNUM — a small panel
-        integrated into the vest, lying against it. NOT a hanging bib, NOT a
-        pendant, NOT a full chest covering. It must read as armour sewn on, not
-        as jewellery and not as a breastplate.
-        (4) A PATCH ON HER LEFT OUTER THIGH — viewer's right in a front view, the
+        (3) A PATCH ON HER LEFT OUTER THIGH — viewer's right in a front view, the
         same side as the shoulder cap. Her right thigh has no metal.
         Different sizes, different shapes, different ages, NO MATCHING PAIRS OF
         ANYTHING.
       - >
-        THE FOUR PATCHES ARE FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK
-        WRONG. They must NOT all be brass or all be gold. If the four patches
+        THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK
+        WRONG. They must NOT all be brass or all be gold. If the three patches
         read as the same metal, the image has failed — the mismatch is the whole
         point, because it is what proves nobody made this costume for her.
         - the FOREARM GAUNTLET is DULL GREY STEEL: cold, unpolished, scratched,
-          the most worn of the four and the oldest piece she owns. NOT brass,
+          the most worn of the three and the oldest piece she owns. NOT brass,
           NOT gold, NOT warm-toned.
         - the SHOULDER CAP is BRASS, warm yellow, with GREEN VERDIGRIS collected
           in the seams between plates.
-        - the STERNUM PATCH is DARK BRONZE — the darkest of the four, almost
-          brown, noticeably deeper than the shoulder.
-        - the THIGH PATCH is the NEWEST: brighter, cleaner and less worn than
-          the other three, clearly added later.
-        Four clearly different colours and four different states of wear,
+        - the THIGH PATCH is DARK BRONZE, almost brown and noticeably deeper
+          than the shoulder — and it is the NEWEST of the three, cleaner and
+          less worn, clearly added later.
+        Three clearly different colours and three different states of wear,
         readable side by side at a glance. Within any ONE patch the metal is
         consistent.
       - >
@@ -120,9 +118,10 @@ outfits:
       - >
         WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from
         HER OWN left and right, not the viewer's.
-        BLASTER: a WESTAR-35 BLASTER PISTOL on HER RIGHT THIGH, in a worn drop-leg
-        holster held by a belt loop and a thigh strap, grip upward and angled
-        slightly forward for a right-hand draw. In the holster, not an empty one.
+        BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE — hip or thigh,
+        either is fine, but ALWAYS HER RIGHT AND NEVER HER LEFT. In a worn
+        holster, grip upward and angled slightly forward for a right-hand draw.
+        In the holster, not an empty one.
         The specific in-universe model, not a generic sidearm: slab-sided and
         angular, dull silver-steel with BRASS PANELS let into the slide, a
         squared trigger guard, a prominent front sight and a worn black textured
@@ -153,7 +152,7 @@ outfits:
         in makeup, not a creature in prosthetics. Her irises are subtly reptilian.
         The effect is a hint of inherited history, not a transformation.
     description: >
-      Light, fitted, scavenged armour protecting vital areas only, over a
+      Light, fitted, scavenged armour in three small patches only, over a
       flexible scale-textured undersuit and a breathable base layer.
       CRITICAL — THE SCALE ARMOUR IS THE DEFINING FEATURE OF THIS COSTUME AND MUST
       BE CLEARLY VISIBLE IN EVERY VIEW.
@@ -186,7 +185,7 @@ outfits:
       replaced. Metallic but never bright: dulled, scratched, weathered to a low
       sheen, catching light in small dull glints across many facets. It appears
       ONLY in the four asymmetric patches listed in the non-negotiables — one
-      forearm, one shoulder, the centre sternum and one thigh. It moves like heavy
+      forearm, one shoulder and one thigh. It moves like heavy
       cloth rather than plate. DO NOT make this leather. DO NOT make it a printed
       pattern. DO NOT make it forged or ceremonial armour. Layered
       technical cloth, worn leather and repaired matte hardware. A crossed
@@ -203,5 +202,5 @@ outfits:
       her silhouette. It is still a working costume built for infiltration, not
       display: everything on it does a job.
       Fine scales are visible on the exposed skin of her face, neck, collarbone,
-      shoulders, arms and hands. A WESTAR-35 blaster pistol on her RIGHT THIGH in
-      a drop-leg holster, and a well-used combat knife on her LEFT HIP. Nothing polished, ornamental or factory fresh.
+      shoulders, arms and hands. A WESTAR-35 blaster pistol on her RIGHT SIDE, hip or
+      thigh, and a well-used combat knife on her LEFT HIP. Nothing polished, ornamental or factory fresh.

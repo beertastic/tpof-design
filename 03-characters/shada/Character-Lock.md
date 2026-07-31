@@ -48,7 +48,8 @@ recorded revision.
     does.**
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
-  - **Coverage — four patches, four different materials, all asymmetric:**
+  - **Coverage — three patches, three different materials, all asymmetric.
+    NO metal on the torso:**
     **Sides are fixed, and given from her own left and right.**
     - **Gauntlet — her RIGHT forearm** — dull grey steel, scratched, most worn.
       Wrist to below elbow, two leather straps and buckles. **Her left forearm is
@@ -100,7 +101,7 @@ Reject any design that becomes:
 - A hanging or suspended chest piece. The sternum patch is stitched flat to the
   garment; anything dangling reads as jewellery.
 - Fine modern coil zips or neat garment zips.
-- Four matching patches. They came from four different scavenging trips.
+- Three matching patches. They came from three different scavenging trips.
 - An empty holster, or a costume record with the weapons absent.
 - A matched or symmetrical set of scale armour. It was added piecemeal; a matched
   set means somebody made it for her, and nobody did.

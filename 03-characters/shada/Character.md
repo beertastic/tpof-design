@@ -65,7 +65,8 @@ Both are interesting. Neither is decided. See *Open Questions*.
 - Functional exposed skin at shoulders, upper arms and selected mobility zones.
 - Fine inherited scales visible on exposed skin.
 - Subtle reptilian eyes; expressive and recognisably human.
-- Light scavenged armour protecting vital areas only.
+- Light scavenged armour in **three small patches only** — forearm, shoulder,
+  thigh. No metal on her torso.
 - **Flexible metallic scale patches in place of rigid plates.**
 - Muted, practical forest palette.
 - **WESTAR-35 blaster pistol** on her right thigh, and a well-used knife on her left hip.
@@ -205,7 +206,7 @@ thinner, some are nearly worn away. That variation is not a fault — it is what
 makes the story hold. A mark that came off one die on one day would be identical
 every time and would imply a single object, made once, for her. A mark that
 varies is a **common motif rendered by different mills, different batches and
-different worn dies** — which is exactly what four scavenging trips would
+different worn dies** — which is exactly what three scavenging trips would
 produce.
 
 It is a **manufacturer's mark** — a common motif found on cheap hull plate
@@ -215,7 +216,7 @@ and nobody looks at it twice, in the same way nobody reads the maker's name on a
 drain cover.
 
 **This is what allows the motif to repeat without breaking the costume.** Four
-patches, four scavenging trips, four different alloys — and the same stamp on all
+patches, three scavenging trips, three different alloys — and the same stamp on all
 of them, because it is the same grade of cheap plate everywhere she went. It is
 evidence of how ordinary the material is, not evidence that anything was designed.
 
@@ -234,21 +235,21 @@ sheen. It catches light in small dull glints across many facets rather than
 reflecting. It reads unmistakably as *metal* — this is the detail that failed
 when it was described only as "matte and non-reflective."
 
-**Where it sits — four patches, all different, all asymmetric:**
+**Where it sits — three patches, all different, all asymmetric. There is no
+metal on her torso: her chest, sternum and back are plain cloth.**
 
 | # | Where | Metal | Note |
 |---|---|---|---|
 | 1 | **Gauntlet — her RIGHT forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **Her left forearm is completely bare.** The oldest piece she owns and the strongest element of the design |
 | 2 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the gaps | The opposite side to the gauntlet. Her right shoulder is bare |
-| 3 | **Patch — centre sternum** | **Dark bronze**, almost brown — the darkest | **Stitched flat onto the garment.** Not a hanging bib, not a pendant — that reads as jewellery, which the lock rejects |
-| 4 | **Patch — her LEFT outer thigh** | **The newest** — brighter, less worn | Same side as the shoulder cap. Her right thigh has no metal |
+| 3 | **Patch — her LEFT outer thigh** | **Dark bronze**, almost brown, and the newest — cleaner, less worn | Same side as the shoulder cap. Her right thigh has no metal |
 
 **Sides are fixed and described from her own left and right**, not the viewer's.
 In a front view her right appears on the viewer's left. The gauntlet and the
 shoulder cap are on **opposite** sides — that diagonal is what makes the
 asymmetry read as accumulated rather than random.
 
-**The four patches must be four different materials — and one of them need not
+**The three patches must be three different materials — and one of them need not
 be metal.** Hardened hide cut to the same hexagon is as good a piece of salvage
 as a hull offcut, and it gives the set a variation no paint pass can fake.
 
@@ -263,7 +264,7 @@ A leather plate carries the serpent only faintly, or not at all. A mill mark
 belongs in metal, and the absence is itself evidence of where that plate came
 from.
 
-**They came from four different scavenging trips over years and nothing matches — that mismatch is the proof
+**They came from three different scavenging trips over years and nothing matches — that mismatch is the proof
 nobody made this for her. Four identical patches quietly recreates the
 matched-set problem in four places instead of one.
 
@@ -336,7 +337,7 @@ exactly the territory the Bible forbids.
 and they carry a repeating stamp, because that is what stamped-out industrial
 plate looks like — that sameness is the *point*, and it is what proves the
 material was mass-produced for something else. What must never become uniform is
-the **metal**: four patches, four alloys, four ages, four states of wear. Regular
+the **metal**: three patches, three alloys, three ages, three states of wear. Regular
 shape, irregular material. Get those the wrong way round and the costume says
 somebody made her a matching set.
 

@@ -192,7 +192,7 @@ boards:
       font_size: 10.5
       items:
       - Matte and low-noise surfaces
-      - Four patches four different metals
+      - Three patches three different metals
       - Test harness during crouch and climb
       - Knife and holster remain reachable
       - Weathering follows contact and repair history
@@ -425,7 +425,7 @@ boards:
       w: 7.25
       h: 4.1
       items:
-      - Salvaged metal scales four different alloys
+      - Salvaged metal scales three different alloys
       - Worn reinforced leather
       - Coarse technical fabric
       - Weathered matte metal

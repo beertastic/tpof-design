@@ -34,13 +34,14 @@ depend on which.
 
 **This is the single most important consequence, and it lands hardest on Shada.**
 
-Her whole costume rests on **four patches of scale in four different metals** —
-dull grey steel, brass with verdigris, dark bronze, and a newer brighter patch.
-That mismatch is the proof nobody made the costume for her. Four identical
-patches quietly recreate the matched-set problem in four places instead of one.
+Her whole costume rests on **three patches of scale in three different metals** —
+dull grey steel on the forearm, brass with verdigris on the shoulder, dark bronze
+on the thigh. That mismatch is the proof nobody made the costume for her. Three
+identical patches quietly recreate the matched-set problem in three places
+instead of one.
 
-A printer will produce all four in the same filament. **The difference between
-those four metals is now entirely a paint and patina job**, not a material one,
+A printer will produce all three in the same filament. **The difference between
+those metals is now entirely a paint and patina job**, not a material one,
 and it has to be scheduled and costed as such. If the four patches come off the
 same print run and get the same finish pass, the design fails and it fails
 invisibly — it will look fine in isolation and wrong in the turnaround.
@@ -67,9 +68,9 @@ So the rule for the paint shop is precise:
 | | The exact form of the serpent |
 
 **Regular shape, irregular material.** One print file is correct and expected;
-one finish across all four patches is not. The four patches came off four
-different scavenging trips and must read as four different metals — dull grey
-steel, brass with verdigris, dark bronze, and a newer brighter patch.
+one finish across all three patches is not. They came off three different
+scavenging trips and must read as three different metals — dull grey steel on the
+forearm, brass with verdigris on the shoulder, dark bronze on the thigh.
 
 **The serpent is raised, not incised**, so it wears from the top down — the ridge
 goes flat and pale where the plate has been handled, and nearly disappears on the
@@ -78,7 +79,7 @@ jewellery, and the costume says somebody made it for her.
 
 **No two serpents should be identical.** The samples already vary, which is
 correct and worth preserving: one die used once would produce a matched set, and
-the story is four scavenging trips. Different mills, different batches, different
+the story is three scavenging trips. Different mills, different batches, different
 worn dies.
 
 **One patch may be hardened hide rather than metal**, cut to the same hexagon.
@@ -117,14 +118,16 @@ covers roughly 1.35 cm², so a rough estimate from patch area:
 |---|---|---|
 | Forearm gauntlet | ~200 cm² | ~150 |
 | Shoulder cap | ~120 cm² | ~90 |
-| Sternum | ~100 cm² | ~75 |
 | Thigh | ~180 cm² | ~130 |
-| | | **~445** |
+| | | **~370** |
+
+*Revised 2026-07-31: the sternum patch was dropped, taking about 75 plates with
+it.*
 
 *Estimated from assumed patch dimensions — confirm against the real patterns
 before committing to a print run.*
 
-**Four hundred and fifty plates, each needing two holes and hand lacing.** That
+**Getting on for four hundred plates, each needing two holes and hand lacing.** That
 is the largest single labour item in this costume and it is easy to miss, because
 each plate is trivial on its own.
 
@@ -136,7 +139,7 @@ Three consequences:
 - **The raised swirl is now a 12 mm detail.** It has to survive at print
   resolution and it will need a wash or dry-brush to read at all — the relief
   alone will not carry it at that size.
-- **Print and finish a full patch before committing.** Four hundred plates is not
+- **Print and finish a full patch before committing.** Several hundred plates is not
   something to discover a problem in halfway through.
 
 ### Load-bearing buckles should be real hardware

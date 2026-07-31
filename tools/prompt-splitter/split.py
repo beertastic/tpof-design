@@ -122,7 +122,8 @@ def parse_slots(md: str) -> list[dict]:
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
           approved: dict | None = None, must: list | None = None,
-          handed: str | None = None, costume: set[int] | None = None) -> str:
+          handed: str | None = None, costume: set[int] | None = None,
+          refs: list | None = None) -> str:
     narrative = slot["n"] in cap
     # The share sheet is one image made of many frames, so the single-frame
     # language that closes every other prompt would fight its own description.
@@ -142,6 +143,12 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
     if approved and approved.get("reference"):
         ref_note = (f"[for the operator, not the model: attach "
                     f"{approved['reference']}]")
+    # Approved material and prop plates. The figure prompts no longer describe
+    # the plate in full — the reference image carries it — so these must attach.
+    for r in (refs or []):
+        ref_note += (("\n" if ref_note else "")
+                     + f"[for the operator, not the model: also attach "
+                       f"03-characters/{character}/{r['path']} — {r['what']}]")
     if narrative:
         demand = (
             "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"
@@ -239,7 +246,7 @@ def run(repo: Path, character: str) -> int:
     cap, anti, costume = parse_applicability(md)
     slots = parse_slots(md)
 
-    approved, must, handed = None, [], None
+    approved, must, handed, refs = None, [], None, []
     ofile = repo / "03-characters" / character / "outfits.yaml"
     if ofile.is_file():
         import yaml
@@ -262,6 +269,7 @@ def run(repo: Path, character: str) -> int:
         if chosen:
             approved = chosen.get("approved") or None
             must = chosen.get("must_show") or []
+            refs = chosen.get("references") or []
 
     outdir = repo / "03-characters" / character / "prompts"
     outdir.mkdir(exist_ok=True)
@@ -272,7 +280,7 @@ def run(repo: Path, character: str) -> int:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
         path.write_text(build(character, slot, blocks, cap, anti, approved, must,
-                              handed, costume), encoding="utf-8")
+                              handed, costume, refs), encoding="utf-8")
 
     index = [
         f"# {character} — paste-ready prompts",

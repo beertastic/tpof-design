@@ -99,6 +99,38 @@ Symptom to watch for: a rule that is stated emphatically and ignored
 consistently. That is almost never the model failing to read it. Search the slot
 body for the thing it is being told not to do.
 
+### A rule that is 75% of the prompt crowds out the other 25%
+
+Shada's front turnaround reached **36,500 characters**, and her `must_show` had
+drifted badly out of balance:
+
+| Rule | Words |
+|---|---|
+| 1 — the scale plate | **1,206** |
+| 2 — fitted silhouette | 40 |
+| 3 — bare arms | 27 |
+| 4 — weapons and sides | 166 |
+| 5 — exterior only | 64 |
+| 6 — face treatment | 96 |
+
+The generator returned a costume with beautifully correct hexagonal plates, long
+sleeves, a scarf, no gauntlet and a full torso panel. It obeyed the rule that was
+shouting and invented the rest. Nothing was missing from the prompt — "bare arms
+and shoulders" was in there twice, 27 words long, behind a 1,200-word wall.
+
+**Every rule in `must_show` competes with every other rule.** Adding detail to one
+is not free; it is taken from the others.
+
+The fix was not to shorten the plate spec but to **move it**. Once an approved
+plate image is attached via `references:`, the figure prompts do not need to
+describe how a plate is made — the image carries it, far better than words. Rule
+1 became 390 words ending in "for what a plate looks like, match the attached
+plate reference image", and the full specification lives where it belongs: in the
+material-plate slot and in `Character.md`.
+
+**The prompt had grown 38% at exactly the moment it should have shrunk.** When a
+reference image gets locked, go and delete the words it replaces.
+
 ### The checker cannot see inside `must_show`
 
 It compares prose against the rules. It does **not** compare the rules against

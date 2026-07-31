@@ -1,0 +1,145 @@
+character: Generic Mercenary
+ratio: "2:3"
+
+# Required. Every weapon and armour placement follows from this.
+# See 09-prompt-library/Handedness-And-Placement.md
+#
+# All four builds are right-handed. The generator declares handedness once per
+# character file and cannot vary it per build, and hand-mixing it is how
+# placements get flipped. See Character.md.
+handedness: right
+
+# Four background mercenaries assembled from one modular kit. These are not four
+# costumes of the same person — they are four people, and the whole point of the
+# faction is that nothing matches. Each `must_show` therefore carries a rule that
+# separates that build from the other three.
+#
+# The shared rule, repeated in every build because it is the one that fails:
+# NO TWO OF THESE FOUR SHARE A SILHOUETTE CUE.
+
+outfits:
+  - id: heavy
+    name: The large one
+    scenes: "10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23"
+    description: >
+      The biggest person in the crew by a clear margin — the size mismatch is the
+      whole reason this build exists. Heaviest plating of the four: a salvaged
+      chest plate over a padded work coat, thick forearm guards, reinforced
+      trousers, heavy boots with the most wear of anyone's. A broad leather
+      bandolier across the chest carrying ammunition and, on the front of it
+      where a hand could reach, GRENADES. Bare head, weathered, a heavy beard or
+      none. Slow, planted, physically confident. Everything about him says he
+      stops things rather than chases them. Good gear, well maintained, none of
+      it matching anyone else's.
+    must_show:
+      - >
+        SEVERE SIZE MISMATCH. He is substantially larger than every other figure
+        in the crew — taller and much heavier. If he reads as merely a big man
+        rather than the biggest thing in the frame, the Vala fight does not work.
+      - >
+        GRENADES ON A CHEST BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE.
+        A broad leather bandolier across the chest with at least two grenades
+        seated on the FRONT of it at mid-chest height, where someone held against
+        him could get a hand to one. This is a hero prop planted in Scene 10 and
+        paid off in Scene 23 — it must be legible in every image of him, not
+        implied and not hidden under a coat.
+      - >
+        HEAVIEST PLATING OF THE FOUR, BUT NEVER A FULL SET. A salvaged chest
+        plate and forearm guards. Legs, shoulders and back are cloth and leather.
+        No full armour suit, no matching pieces, nothing that reads as issued.
+      - >
+        HE IS RIGHT-HANDED. A heavy blaster pistol on HIS RIGHT HIP, in a worn
+        holster. Nothing mirrored — no matching item on both sides.
+
+  - id: ranged
+    name: The rifle
+    scenes: "10, 20-23 — the Sabacc game and the pursuit"
+    description: >
+      Built entirely around a long gun. The lightest armour of the four: a
+      close-fitting technical knit, a sleeveless padded vest over it, and a
+      single shoulder pad on the trigger side only. The most pouches of anyone —
+      ammunition, tools, a scanner — arranged low on the hips and thighs where
+      they do not foul going prone. Best boots in the crew, high and properly
+      laced. A cap or a wrapped head-cloth, and goggles pushed up onto the
+      forehead. Lean, quick, always the one looking at the horizon.
+    must_show:
+      - >
+        A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle
+        carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT
+        WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate,
+        no high collar. This is the visible difference between him and the others.
+      - >
+        LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the
+        trigger side. No chest plate, no forearm guards. He trades protection for
+        speed and it must be obvious.
+      - >
+        POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on
+        the chest, so he can go flat on the ground. The most pouches of any of the
+        four.
+      - >
+        GOGGLES PUSHED UP ON THE FOREHEAD, over a cap or a wrapped head-cloth.
+        Never a helmet. Never bare-headed — that belongs to the large one.
+
+  - id: armoured
+    name: The close one
+    scenes: "10, 20-24 — the Sabacc game, the pursuit, and the clearing"
+    description: >
+      Built for the clearing rather than the chase. The most plating of the four
+      after the large one, but placed differently — a segmented chest rig over a
+      layered tunic, plates on both forearms, and a partial salvaged helmet that
+      covers the crown and one side of the face and leaves the jaw open. A short
+      weapon on the belt. Heavy, deliberate movement. Everything on him is about
+      closing distance and surviving what happens when he gets there.
+    must_show:
+      - >
+        A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be
+        called one. It covers the crown and ONE SIDE of the face and leaves the
+        jaw and the other side open. Cut from scrap and refitted, clearly not
+        issued and clearly not a matching pair with anything. No full helmet, no
+        faceplate, no visor across both eyes.
+      - >
+        PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of
+        the four with armour on both arms. Legs and shoulders stay cloth.
+      - >
+        A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a
+        right-hand draw. NO LONG GUN — the rifle belongs to another build and two
+        riflemen in four figures kills the individuality.
+      - >
+        NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to other
+        builds; his read is plating and bulk at the chest.
+
+  - id: alien
+    name: The non-human
+    scenes: "10, 20-23 — the Sabacc game and the pursuit"
+    description: >
+      A distinctly non-human species, and the kit is visibly cut for a body that
+      is not human — sleeves, collar and boots shaped to different proportions,
+      fastenings placed where that anatomy can reach them. A long weathered coat
+      over layered cloth, worn open, the only long outer layer in the crew. Belt
+      and braces rather than a chest rig. Personal marks and kept objects more
+      than any of the others — small trophies threaded onto the belt. The gear is
+      the same quality as everyone else's, which is the point: different species,
+      same standard, found each other rather than recruited.
+    must_show:
+      - >
+        A DISTINCTLY NON-HUMAN SPECIES, ACHIEVED IN PRACTICAL MAKE-UP AND
+        SILHOUETTE — not a full creature build and not a digital character. Head,
+        skin and proportion differ clearly from human at a glance and by
+        firelight. NOT serpentine and NOT scaled: that language belongs to Shada
+        and duplicating it weakens hers.
+      - >
+        THE COSTUME IS CUT FOR THIS BODY, NOT ADAPTED TO IT. Sleeves, collar,
+        boots and fastenings are shaped to non-human proportions. It must look
+        made for them and worn for years — never like human clothing borrowed.
+      - >
+        THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn
+        open, over layered cloth. No other build carries this silhouette.
+      - >
+        BELT AND BRACES. Nothing worn diagonally across the chest — that
+        silhouette belongs to the large one. Small personal trophies and kept
+        objects threaded onto the belt, more visible personal decoration than any
+        of the other three. A compact blaster on THEIR RIGHT HIP.
+      - >
+        SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware,
+        repairs done properly. Not poorer, not scavenged, not othered by their
+        gear.

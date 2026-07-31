@@ -1,0 +1,158 @@
+[GENERIC MERCENARY — TURNAROUND — THE LARGE ONE — FRONT]
+Output file: turn-heavy-front.png
+Aspect ratio: 2:3  (tall, full figure)
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SEVERE SIZE MISMATCH. He is substantially larger than every other figure in the crew — taller and much heavier. If he reads as merely a big man rather than the biggest thing in the frame, the Vala fight does not work.
+  2. GRENADES ON A CHEST BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. A broad leather bandolier across the chest with at least two grenades seated on the FRONT of it at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, not implied and not hidden under a coat.
+  3. HEAVIEST PLATING OF THE FOUR, BUT NEVER A FULL SET. A salvaged chest plate and forearm guards. Legs, shoulders and back are cloth and leather. No full armour suit, no matching pieces, nothing that reads as issued.
+  4. HE IS RIGHT-HANDED. A heavy blaster pistol on HIS RIGHT HIP, in a worn holster. Nothing mirrored — no matching item on both sides.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
+
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
+
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
+
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
+
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
+
+=== VIEW ===
+The subject faces the camera squarely, straight on. Shoulders level and parallel to the frame. Head level, looking directly at the lens.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== SKIN AND REALISM ===
+
+
+=== CHARACTER ===
+INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+
+Generic Mercenary. Reusable background and supporting mercenary design family.
+
+NEEDS:
+
+- Species, age range, gender presentation
+- Build and silhouette — the shape read at distance, in one line
+- Distinguishing physical traits
+- Costume: layers, construction, what is protected and what is exposed, and why
+- Equipment carried, and what is deliberately absent
+- Movement and body language
+- The one sentence that separates them from everyone else in their faction
+
+=== THIS COSTUME ===
+The large one — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
+
+The biggest person in the crew by a clear margin — the size mismatch is the whole reason this build exists. Heaviest plating of the four: a salvaged chest plate over a padded work coat, thick forearm guards, reinforced trousers, heavy boots with the most wear of anyone's. A broad leather bandolier across the chest carrying ammunition and, on the front of it where a hand could reach, GRENADES. Bare head, weathered, a heavy beard or none. Slow, planted, physically confident. Everything about him says he stops things rather than chases them. Good gear, well maintained, none of it matching anyone else's.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SEVERE SIZE MISMATCH. He is substantially larger than every other figure in the crew — taller and much heavier. If he reads as merely a big man rather than the biggest thing in the frame, the Vala fight does not work.
+  2. GRENADES ON A CHEST BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. A broad leather bandolier across the chest with at least two grenades seated on the FRONT of it at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, not implied and not hidden under a coat.
+  3. HEAVIEST PLATING OF THE FOUR, BUT NEVER A FULL SET. A salvaged chest plate and forearm guards. Legs, shoulders and back are cloth and leather. No full armour suit, no matching pieces, nothing that reads as issued.
+  4. HE IS RIGHT-HANDED. A heavy blaster pistol on HIS RIGHT HIP, in a worn holster. Nothing mirrored — no matching item on both sides.
+
+
+Deliver a single image at 2:3. It must look photographed, not generated.

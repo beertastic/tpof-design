@@ -81,7 +81,7 @@ the entire reason she wears it, and it is what stops it reading as fantasy
 armour.
 
 **Revised 2026-07-31: the plates tessellate, they do not overlap.** They sit edge
-to edge in a honeycomb with a narrow even gap between neighbours, so **all of the
+to edge with a narrow visible gap between neighbours, so **all of the
 flex now lives in those gaps and in the lacing.** An overlapped panel can be
 stiff and still drape, because the plates slide over each other. A tessellated
 one cannot — if the gaps close up or the lacing is tight, the panel becomes a

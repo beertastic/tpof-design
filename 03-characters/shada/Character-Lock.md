@@ -35,7 +35,8 @@ recorded revision.
 - **Overlapping metallic scale in place of rigid plate.**
   - Individual **six-sided metal plates** — hexagons with six straight sides, each
     about the width of two fingers — laced and riveted to a flexible backing and
-    **tessellated edge to edge in a honeycomb, never overlapped or shingled**.
+    **tessellated edge to edge with a narrow visible gap, never overlapped or
+    shingled**. No frame or bezel around any plate.
     Never round, never a fish-scale shape.
     **Individually visible and countable** — never a texture or a printed pattern.
   - **Every plate carries the same shallow serpent stamp** — a manufacturer's

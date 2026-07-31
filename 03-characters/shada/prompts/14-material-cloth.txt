@@ -133,16 +133,26 @@ SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 She wears armour made of individual six-sided metal plates — each a flat
 hexagon about the width of two fingers — laced and riveted onto a flexible
-leather-and-fabric backing and set edge to edge in a honeycomb, each plate
-separate, with a narrow and even gap between it and its neighbours.
+leather-and-fabric backing and set edge to edge, each plate separate, with a
+narrow visible gap between it and its neighbours showing the dark backing
+through. Regular equilateral hexagons, all the same shape and size.
 
 EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
 a teardrop, not a fish scale.
 
 TESSELLATED, NOT OVERLAPPED. The plates do not lap over one another. No
 shingling, no layering, no rows lapping the row below — a single flat plane of
-hexagons meeting edge to edge, like a honeycomb. The flex comes from the gaps
-and the lacing between plates.
+hexagons meeting edge to edge. The flex comes from the gaps and the lacing.
+
+IT MUST NOT READ AS TECHNOLOGY. Regular hexagons meeting edge to edge is
+also the shape of carbon fibre, machined hex panelling and energy shielding, and
+that is this design's failure mode. No frames, no bezels, no channels or
+raised borders around the plates. No carbon weave, no composite, no glowing
+elements, no polished or moulded surfaces, no two plates finished alike. This
+is scrap cut into hexagons by hand and laced on, and the worn salvaged finish
+is the only thing separating it from a tech panel — mismatched oxidised alloys,
+scratches, grime in the seams, uneven patina, stamps worn away at different
+rates.
 The individual plates are clearly visible and countable: real metal, never a
 texture, never a pattern printed on leather.
 

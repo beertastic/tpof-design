@@ -145,8 +145,9 @@ scale instead — in sporadic patches, never as a suit.**
 
 **Individual metal scales, each a flat six-sided plate about the width of two
 fingers**, laced and riveted onto a flexible leather-and-fabric backing. They are
-set **edge to edge in a honeycomb**, each one separate, with a narrow and even
-gap between it and its neighbours. The individual plates are clearly visible and
+set **edge to edge**, each one separate, with a narrow visible gap between it and
+its neighbours showing the backing through. **Regular equilateral hexagons**, all
+the same shape and size — the shape as printed. The individual plates are clearly visible and
 countable.
 
 **Tessellated, not overlapped.** They do not lap over one another and there is
@@ -229,12 +230,50 @@ noise.
 
 **It reads as serpentine**, and that is the point.
 
+### How it still reads as serpentine, now that it tessellates
+
+Worth writing down, because the change from overlapped to tessellated moved
+where this comes from.
+
+Snake *body* scales overlap — shingled, like roof tiles — and that geometry was
+doing the serpentine work for free. Tessellated plates are still firmly reptile:
+snake *head* plates, crocodilian hide and lizard skin all tessellate, and a
+reticulated python at close range reads as exactly this kind of geometric mosaic.
+But it is a different reference, and it no longer arrives automatically.
+
+**Three things now carry it instead:**
+
+1. **The serpent stamp.** It is on every plate, so the snake reference is
+   explicit rather than implied by shape. This is arguably the better place for
+   it — the geometry does not have to shout, and the "nobody remarks on it"
+   subtlety survives.
+2. **Her skin.** The fine inherited scales on her neck, shoulders, arms and
+   hands are the organic, overlapping ones. The rhyme is now a contrast rather
+   than a copy: soft irregular scale on skin, hard geometric plate in metal.
+3. **The finish.** See below — this is the one that can fail.
+
+### The failure mode: it reads as technology
+
+**Regular hexagons meeting edge to edge is also the shape of carbon fibre,
+machined hex panelling and energy shielding.** With the plates kept equilateral
+as printed, that resemblance is close, and it would break the salvage origin and
+the serpentine read in one move.
+
+Nothing about the geometry prevents it. **The worn salvaged finish is the only
+thing separating this costume from a tech panel**, which means it has to be doing
+visible work in every image: mismatched oxidised alloys, scratches, grime in the
+seams, uneven patina, stamps worn away at different rates on different patches.
+
+No frames, no bezels, no channels around the plates, no two finished alike. The
+moment it looks manufactured as a set, it is a sci-fi prop rather than something
+she cut out of scrap.
+
 ### Avoiding the medieval read
 
 Scale armour is a historical Earth form, and the Design Bible rejects medieval
 and Roman reference outright. **The salvage origin is what keeps it clear** —
 and the tessellation helps, because overlapping shingled scale is the shape the
-eye reads as medieval. A flat honeycomb of stamped industrial plate does not.
+eye reads as medieval. A flat mosaic of stamped industrial plate does not.
 
 These are not armour scales. They are small plates someone cut out of scrap and
 laced on. Mismatched, industrial, and made in a mill for something else entirely.

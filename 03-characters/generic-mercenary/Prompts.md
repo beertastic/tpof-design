@@ -220,8 +220,9 @@ same person in different clothes, the image has failed.
    crossing it the other way, a heavy working belt, and salvaged plate strapped
    over the forearms and one shoulder — oversized, refitted for him. His weapon
    is a human-sized blaster rifle worn on his right hip like a pistol. Metal
-   rings and beads braided into the fur. **He is NOT Chewbacca: not chestnut
-   brown, no bowcaster, and the crossed second strap is his.**
+   rings and beads braided into the fur at the shoulder and muzzle. **An
+   elderly individual: short, rough, badly kept fur, thinning and scarred, never
+   long or glossy.**
 2. **THE RIFLE** — lean and quick, built around a salvaged long gun on a shoulder
    sling. The lightest armour of the four: one shoulder pad on his right, the
    trigger side, and nothing on the chest or shoulders that would foul a stock or
@@ -265,7 +266,9 @@ The specific wrong directions a generator will drift toward for *this* character
    gun, one set of crossed straps — each belongs to exactly one build.
 3. **A military unit read.** Formation, matching rank markings, insignia,
    anything that looks issued, anything that looks like surplus.
-4. **Chewbacca.** Warm chestnut fur, a single neat woven bandolier, a bowcaster.
+4. **A Wookiee that resembles any well-known one.** Warm chestnut fur, a long
+   glossy evenly-flowing coat, a single neat woven diagonal strap, a crossbow-like
+   weapon. This one is grey, mottled, short-coated, scarred and old.
 5. **A creature build on the near-human.** Horns, tentacles, head-tails, a
    snout, appliances of any kind. He is make-up only and must hold a close-up.
 6. **Serpentine or scaled anything.** That language belongs to Shada.
@@ -494,7 +497,7 @@ however good they look individually.
 | 7 | `kit-boots.png` | 3:1 | The class-not-item rule |
 | 8 | `kit-marks.png` | 3:1 | What makes them people |
 | 9 | `bandolier.png` | 1:1 | The grenade can be reached |
-| 10 | `wookiee-fur.png` | 1:1 | He is not Chewbacca |
+| 10 | `wookiee-fur.png` | 1:1 | A specific elderly individual |
 | 11 | `nearhuman-markings.png` | 3:4 | Make-up only, holds a close-up |
 | 12 | `materials.png` | 1:1 | One vocabulary, no matched set |
 | 13 | `tone-collage.png` | 2:3 | Shareable, never authoritative |

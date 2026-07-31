@@ -122,6 +122,18 @@ braided into the fur.
 He assembled his own kit like everyone else in this crew and he can afford good
 equipment. Design him as an individual, exactly as the other three are.
 
+**Never name the comparison in an image prompt.** The reasoning above belongs
+here, where a person reads it. In a prompt it backfires twice over: image models
+handle negation badly, so naming a character in order to reject it puts that
+character into the generation and makes the resemblance *more* likely — and the
+resulting image then trips the generator's own third-party-content filter, which
+is exactly what happened on 2026-07-31.
+
+The prompts therefore describe **this** Wookiee positively and name nobody: old,
+iron-grey shot with rust, mottled, thinning, scarred, short and badly kept coat,
+crossed straps, braided rings. Description in the prompt, rationale in the
+document.
+
 Beyond the fur he carries the heaviest gear of the four, and the least of it is
 clothing.
 

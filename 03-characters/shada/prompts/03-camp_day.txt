@@ -28,6 +28,7 @@ reference exactly. Only the setting, pose and lighting change.
 
 [for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
+[for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
 
 This character is RIGHT-HANDED. All positions are given from
 THEIR OWN left and right, never the viewer's.

@@ -23,6 +23,15 @@ outfits:
     references:
       - path: source/artwork/material-scale.png
         what: the scale plates, their finish and how the panel is assembled
+      - path: source/artwork/knife.png
+        what: the combat knife
+      # For anything PHYSICALLY BUILT, the reference is a photograph of the
+      # build, not a render. The blaster is being 3D printed, and the generated
+      # blaster.png does not match the printed prop — no brass panels in the
+      # slide, brown ribbed grip instead of black. Photograph the prop, save it
+      # below, and uncomment. Until then the WESTAR-35 is held by words alone.
+      # - path: reference/props/westar-35.jpg
+      #   what: the WESTAR-35 blaster pistol, as built
     must_show:
       - >
         SCALE ARMOUR — FOUR SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED

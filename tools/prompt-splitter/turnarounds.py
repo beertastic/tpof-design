@@ -52,6 +52,13 @@ def check_placement(character: str, cfg: dict) -> list[str]:
                 "but never says which side. State it from the wearer's own left "
                 "and right, e.g. \"her right thigh\".")
 
+        for r in (o.get("references") or []):
+            if not (Path("03-characters") / character / r["path"]).is_file():
+                warnings.append(
+                    f"{character}/{o['id']}: reference plate {r['path']} does "
+                    f"not exist, but every prompt tells the operator to attach "
+                    f"it. Create it or remove the entry.")
+
         # The description is injected into the same prompt as the rules above,
         # and where they disagree the description wins. See consistency.py.
         warnings.extend(check_outfit(character, o))

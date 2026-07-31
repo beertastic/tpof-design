@@ -70,6 +70,31 @@ a far easier image to get right than a full figure.
 This is the prop lock recorded in `11-production-tracking/Shada-Image-TODO.md`,
 in its minimal form. Words cannot hold a silhouette; only an image can.
 
+**For anything physically built, the reference is a photograph of the build, not
+a render.** Shada's blaster is being 3D printed, and the generated `blaster.png`
+does not match the printed prop — no brass panels in the slide, a brown ribbed
+grip instead of black. Attaching it would lock every image to a gun nobody is
+making. Her scale plates went the right way round: the printed samples drove the
+specification, not the other way about.
+
+A declared reference that does not exist is a warning, because the prompt will
+otherwise tell the operator to attach a file that is not there.
+
+### Generate the cheap plates first, then the figure
+
+The stated priority is turnarounds first, and as a *deliverable* that is still
+right. As an **order of work** it is backwards.
+
+A material or prop plate is a small, flat, evenly-lit object on a plain surface.
+It is far easier to get right than a full figure, it converges in two or three
+attempts, and once approved it does two things for the figure prompt: it carries
+the detail far better than words, and it lets you **delete** the words it
+replaces. Shada's front turnaround dropped 8,000 characters the moment her plate
+was locked.
+
+Do the plates, lock them into `references:`, then generate the figure with all of
+them attached.
+
 ## Rules
 
 `outfits.yaml` and `Prompts.md` are the sources of truth. **Do not edit the

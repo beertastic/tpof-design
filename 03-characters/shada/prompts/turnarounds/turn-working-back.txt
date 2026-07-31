@@ -7,13 +7,26 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
-MATCH THE APPROVED REFERENCE.
-Attach this image to the conversation before generating:
-    03-characters/shada/source/artwork/turn-working-front.png
-It is the approved FRONT view of this costume. Match it exactly — the same
-costume, the same materials, the same colours, the same scale, the same figure
-height in frame. This image is a different view of that same photograph.
-Where this text and the reference image disagree, THE IMAGE WINS.
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
+[for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. METAL SCALE ARMOUR — SPORADIC PATCHES, NOT A SUIT AND NOT A MATCHED SET. Individual overlapping metal scales, coin-sized, laced onto a flexible backing — countable, physically separate pieces of metal cut from salvaged scrap. NOT leather, NOT an embossed pattern. CRITICAL: it is applied in FOUR SMALL IRREGULAR PATCHES ONLY, all different and all deliberately asymmetric: (1) A GAUNTLET on ONE forearm only — overlapping metal scales wrapping the outer forearm from wrist to just below the elbow, held by two worn leather straps and buckles at top and bottom. The other forearm is bare. (2) A cap over ONE shoulder only, not both. (3) A patch STITCHED FLAT onto the front of the garment over the sternum — integrated into the vest, lying against it, NOT a hanging bib, NOT a pendant, NOT suspended from the collar. It must read as armour sewn on, not as jewellery. (4) A patch on ONE outer thigh, over the trouser. THE FOUR PATCHES MUST BE FOUR DIFFERENT METALS. They came from four different scavenging trips and nothing matches: - the FOREARM GAUNTLET is dull grey steel, scratched and the most worn of
@@ -241,4 +254,5 @@ Different sizes, different shapes, different ages. NO BREASTPLATE. NO FULL YOKE.
   4. HER WEAPONS ARE ON HER BODY AND MUST BE VISIBLE. A compact blaster pistol in a worn holster at the hip or thigh — in the holster, not an empty holster. A well-used combat knife in a secure sheath, positioned where she can reach it. Both present in every view. She is an assassin and a tracker; a costume record without her weapons is incomplete.
   5. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
 
+The attached reference images outrank this text. If nothing was attached, you should not have generated this.
 Deliver a single image at 2:3. It must look photographed, not generated.

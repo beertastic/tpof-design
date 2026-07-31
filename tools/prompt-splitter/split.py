@@ -123,17 +123,11 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
     narrative = slot["n"] in cap
 
     # Any slot showing the person must be anchored to the approved costume.
-    match_block = ""
-    if approved and approved.get("reference") and slot["n"] in anti:
-        match_block = (
-            "MATCH THE APPROVED COSTUME.\n"
-            "Attach this image to the conversation before generating:\n"
-            f"    {approved['reference']}\n"
-            f"It is the approved {approved.get('view','front').upper()} view of this "
-            "character. The costume,\nthe materials, the colours, the face and the build "
-            "must match it exactly. Only the\nsetting, the pose and the lighting change.\n"
-            "Where this text and the reference image disagree, THE IMAGE WINS."
-        )
+    gate = slot["n"] in anti
+    ref_note = ""
+    if approved and approved.get("reference"):
+        ref_note = (f"[for the operator, not the model: attach "
+                    f"{approved['reference']}]")
     if narrative:
         demand = (
             "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"
@@ -149,6 +143,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
             "Flat, even, sharp across the frame. Not a render, not an illustration,\n"
             "not concept art, not AI-looking output."
         )
+    if not gate:
+        pass
     parts = [
         f"[{character.upper()} — SLOT {slot['n']:02d} — {slot['title'].upper()}]",
         f"Output file: {slot['file']}",
@@ -157,11 +153,29 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "",
         demand,
         "",
-        "Generate a single image to the description below.",
-        "Attach actor reference images to this conversation before generating.",
+        "BEFORE YOU GENERATE — CHECK THIS FIRST.",
         "",
-        match_block,
-        "" if match_block else None,
+        "Two reference images must be attached to this conversation:",
+        "  1. The APPROVED COSTUME reference for this character.",
+        "  2. The ACTOR reference.",
+        "",
+        "IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.",
+        "Do not generate anything. Reply with exactly:",
+        "  \"No reference images attached. Please attach the approved costume",
+        "   reference and the actor reference, then resend this prompt.\"",
+        "",
+        "Do not proceed from the text alone. The written description is not",
+        "sufficient on its own and will produce the wrong costume and the wrong",
+        "face.",
+        "",
+        "THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.",
+        "Match the costume, materials, colours, face and build from the attached",
+        "reference exactly. Only the setting, pose and lighting change.",
+        "" if gate else None,
+        ref_note if gate else None,
+        "" if gate else None,
+        "Generate a single image to the description below.",
+        "",
         "=== STYLE ===", blocks.get("Style", ""), "",
         "=== DO NOT ===", blocks.get("Do Not", ""), "",
         "=== PHOTOGRAPHIC REALISM ===", blocks.get("Realism", ""), "",

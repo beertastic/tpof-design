@@ -93,17 +93,9 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     approved = outfit.get("approved") or {}
     ref_path = approved.get("reference")
     ref_view = approved.get("view", "front")
-    match_block = ""
-    if ref_path and view_id != ref_view:
-        match_block = (
-            "MATCH THE APPROVED REFERENCE.\n"
-            f"Attach this image to the conversation before generating:\n"
-            f"    {ref_path}\n"
-            f"It is the approved {ref_view.upper()} view of this costume. Match it exactly — "
-            "the same\ncostume, the same materials, the same colours, the same scale, the same "
-            "figure\nheight in frame. This image is a different view of that same photograph.\n"
-            "Where this text and the reference image disagree, THE IMAGE WINS."
-        )
+    gate = bool(ref_path) and view_id != ref_view
+    ref_note = (f"[for the operator, not the model: attach {ref_path}]"
+                if gate else "")
     must = outfit.get("must_show") or []
     must_block = ""
     if must:
@@ -120,8 +112,27 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "standing in a real studio under real light. Not a render, not an",
         "illustration, not concept art, not AI-looking output.",
         "",
-        match_block,
-        "" if match_block else None,
+        "BEFORE YOU GENERATE — CHECK THIS FIRST.",
+        "",
+        "Two reference images must be attached to this conversation:",
+        "  1. The APPROVED COSTUME reference for this character.",
+        "  2. The ACTOR reference.",
+        "",
+        "IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.",
+        "Do not generate anything. Reply with exactly:",
+        "  \"No reference images attached. Please attach the approved costume",
+        "   reference and the actor reference, then resend this prompt.\"",
+        "",
+        "Do not proceed from the text alone. The written description is not",
+        "sufficient on its own and will produce the wrong costume and the wrong",
+        "face.",
+        "",
+        "THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.",
+        "Match the costume, materials, colours, face and build from the attached",
+        "reference exactly. Only the setting, pose and lighting change.",
+        "" if gate else None,
+        ref_note if gate else None,
+        "" if gate else None,
         must_block,
         "" if must_block else None,
         "=== SHOT ===",
@@ -148,6 +159,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "",
         (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
          if must_block else ""),
+        ("The attached reference images outrank this text. If nothing was attached, "
+         "you should not have generated this." if gate else ""),
         f"Deliver a single image at {ratio}. It must look photographed, not generated.",
     ]
     return "\n".join(p for p in parts if p is not None).strip() + "\n"

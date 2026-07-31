@@ -1,60 +1,61 @@
 project: The Price of Freedom
 character: Shada
 asset_id: CH-006
-version: "1.0"
-status: REVIEW
-date: "2026-07-30"
+version: "2.0"
+status: REBUILD
+date: "2026-07-31"
 footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
 governing_documents:
   - ../../01-production-design/Production-Design-Bible-v1.0.md
+  - ../../04-factions/mercenaries/Faction.md
   - Character.md
   - Character-Lock.md
+
+# REBUILT 2026-07-31 around costume turnarounds.
+#
+# The previous version was built on thirteen mood images made before turnarounds
+# became the primary deliverable. Those images have been cleared and this config
+# rewritten. Board 01 is now the turnaround sheet.
+#
+# Generate the five turnarounds first:
+#   03-characters/shada/prompts/turnarounds/
+# Then the plates in:
+#   03-characters/shada/prompts/
 
 boards:
   production:
     label: BOARD 01
-    title: CHARACTER PRODUCTION BOARD
-    output_pdf: Production-Board.pdf
-    output_png: Production-Board-A2-300dpi.png
+    title: COSTUME TURNAROUND
+    output_pdf: Turnaround-Board.pdf
+    output_png: Turnaround-Board-A2-300dpi.png
     tagline: Predator, not soldier.
     images:
-      - {path: source/artwork/portrait.png, x: 0.45, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/forest.png, x: 5.80, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/industrial_a.png, x: 11.15, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/species_strip.png, x: 16.50, y: 1.35, w: 6.40, h: 2.45}
+      - {path: source/artwork/turn-working-front.png, x: 0.45, y: 1.35, w: 4.35, h: 9.70}
+      - {path: source/artwork/turn-working-left.png, x: 5.00, y: 1.35, w: 4.35, h: 9.70}
+      - {path: source/artwork/turn-working-right.png, x: 9.55, y: 1.35, w: 4.35, h: 9.70}
+      - {path: source/artwork/turn-working-back.png, x: 14.10, y: 1.35, w: 4.35, h: 9.70}
+      - {path: source/artwork/turn-working-natural.png, x: 18.65, y: 1.35, w: 4.25, h: 9.70}
     sections:
-      - heading: FIRST IMPRESSION
-        x: 16.50
-        y: 4.00
-        w: 6.40
-        h: 3.00
-        items: [Belongs in the wet forest, Notices everything, Wastes no movement, Could disappear at any moment]
-      - heading: CHARACTER LOCK
-        x: 16.50
-        y: 7.20
-        w: 6.40
-        h: 3.85
-        font_size: 11.5
-        items: [Subtle scales and reptilian eyes, Functional exposed skin, Compact blaster and knife, Light scavenged vital-area armour, Quiet and dangerous while still]
-      - heading: STORY FUNCTION
+      - heading: THE FOUR SCALE PATCHES
         x: 0.45
         y: 11.30
         w: 7.25
         h: 4.40
-        items: [Assassin thief scout and tracker, Reads terrain scent and access routes, Strikes from advantage, Integral member of the mercenary family]
-      - heading: VISUAL PRINCIPLE
+        font_size: 11.5
+        items: [Gauntlet one forearm dull grey steel oldest, Cap one shoulder brass with verdigris, Sternum patch dark bronze stitched flat, One outer thigh newest and least worn, Four scavenging trips nothing matches]
+      - heading: CONSTRUCTION
         x: 7.90
         y: 11.30
         w: 7.25
         h: 4.40
-        items: [Mostly human never fully reptilian, Predator rather than soldier, Practical construction and visible repairs, Dark clothing remains separated from the background]
+        items: [Coin sized metal scales laced on flexible backing, Cut from salvaged scrap never forged, Close fitting and cut to the figure, Buckles hooks and lacing not modern zips, Blaster and knife worn not implied]
       - heading: DESIGN DRIFT - DO NOT
         x: 15.35
         y: 11.30
         w: 7.55
         h: 4.40
         font_size: 11.5
-        items: [Generic human scavenger, Heavy tactical or medieval armour, Glamour pose or sexualisation, Datapad or gadget overload, Crushed blacks that hide the silhouette]
+        items: [Matching or symmetrical scale patches, Rigid plate or all-leather costume, Embossed or printed scale texture, Hanging chest piece reading as jewellery, Bulky loose or oversized silhouette]
 
   costume:
     label: BOARD 02
@@ -63,9 +64,9 @@ boards:
     output_png: Costume-Board-A2-300dpi.png
     tagline: Nothing new. Everything earned.
     images:
-      - {path: source/artwork/forest.png, x: 0.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/industrial_b.png, x: 5.95, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/industrial_c.png, x: 11.45, y: 1.35, w: 5.30, h: 9.70}
+      - {path: source/artwork/turn-working-front.png, x: 0.45, y: 1.35, w: 5.30, h: 9.70}
+      - {path: source/artwork/turn-working-back.png, x: 5.95, y: 1.35, w: 5.30, h: 9.70}
+      - {path: source/artwork/turn-working-natural.png, x: 11.45, y: 1.35, w: 5.30, h: 9.70}
       - {path: source/artwork/materials.png, x: 16.95, y: 1.35, w: 5.95, h: 4.25}
     sections:
       - heading: LAYER SYSTEM
@@ -74,7 +75,7 @@ boards:
         w: 5.95
         h: 5.25
         font_size: 11.5
-        items: [Flexible scale-textured undersuit, Breathable base layer, Crossed harness and light plates, Outer panels break the silhouette, Quiet wraps and lightweight boots]
+        items: [Flexible scale-textured undersuit, Breathable base layer, Crossed harness and sporadic scale patches, Close fitting and cut to the figure, Quiet wraps and lightweight boots]
       - heading: CONSTRUCTION RULES
         x: 0.45
         y: 11.30
@@ -86,14 +87,14 @@ boards:
         y: 11.30
         w: 7.25
         h: 4.40
-        items: [Freedom of movement, Heat and weight reduction, Sensory function, Makes inherited scales legible, Never decorative or sexualised]
+        items: [Freedom of movement, Heat and weight reduction, Sensory function, Makes inherited scales legible, Arms and shoulders always bare]
       - heading: FABRICATION NOTES
         x: 15.35
         y: 11.30
         w: 7.55
         h: 4.40
         font_size: 11.7
-        items: [Matte and low-noise surfaces, Separate dark layers by texture and value, Test harness during crouch and climb, Knife and holster remain reachable, Weathering follows contact and repair history]
+        items: [Matte and low-noise surfaces, Four patches four different metals, Test harness during crouch and climb, Knife and holster remain reachable, Weathering follows contact and repair history]
 
   weapons:
     label: BOARD 03
@@ -106,7 +107,7 @@ boards:
       - {path: source/artwork/blaster.png, x: 0.45, y: 5.25, w: 5.25, h: 5.50}
       - {path: source/artwork/utility.png, x: 5.90, y: 5.25, w: 5.45, h: 5.50}
       - {path: source/artwork/maintenance.png, x: 11.55, y: 1.35, w: 5.40, h: 9.40}
-      - {path: source/artwork/industrial_a.png, x: 17.15, y: 1.35, w: 5.75, h: 9.40}
+      - {path: source/artwork/turn-working-natural.png, x: 17.15, y: 1.35, w: 5.75, h: 9.40}
     sections:
       - heading: COMBAT KNIFE
         x: 0.45
@@ -137,7 +138,7 @@ boards:
     images:
       - {path: source/artwork/forest.png, x: 0.45, y: 1.35, w: 5.15, h: 9.20}
       - {path: source/artwork/maintenance.png, x: 5.80, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/industrial_a.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
+      - {path: source/artwork/turn-working-natural.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
       - {path: source/artwork/expression_strip.png, x: 16.50, y: 1.35, w: 6.40, h: 3.50}
     sections:
       - heading: MOVEMENT PRINCIPLES
@@ -158,13 +159,13 @@ boards:
         w: 7.25
         h: 4.90
         items: [Neutral alertness, Suspicion without panic, Focused assessment, Protective toward the helpless, Cold lethal calm toward the hunted]
-      - heading: ENVIRONMENTAL BEHAVIOUR
+      - heading: SPECIES TREATMENT
         x: 15.35
         y: 10.80
         w: 7.55
         h: 4.90
         font_size: 11.7
-        items: [Notices tracks scent weather and wildlife first, Stillness is active not passive, Checks exits before settling, Studies strangers before committing, The forest is an ally]
+        items: [Scale texture at the edges of the face only, Temples cheekbone jawline neck behind the ear, Tonal and readable only in raking light, Makeup not prosthetics, Reptilian contact lenses do most of the work]
 
   materials:
     label: BOARD 05
@@ -175,8 +176,8 @@ boards:
     images:
       - {path: source/artwork/materials.png, x: 0.45, y: 1.35, w: 7.00, h: 5.60}
       - {path: source/artwork/scale_portrait.png, x: 7.65, y: 1.35, w: 6.20, h: 8.00}
-      - {path: source/artwork/forest.png, x: 14.05, y: 1.35, w: 4.30, h: 8.00}
-      - {path: source/artwork/maintenance.png, x: 18.55, y: 1.35, w: 4.35, h: 8.00}
+      - {path: source/artwork/turn-working-front.png, x: 14.05, y: 1.35, w: 4.30, h: 8.00}
+      - {path: source/artwork/turn-working-left.png, x: 18.55, y: 1.35, w: 4.35, h: 8.00}
     sections:
       - heading: APPROVED PALETTE
         x: 0.45
@@ -190,13 +191,13 @@ boards:
         y: 11.60
         w: 7.25
         h: 4.10
-        items: [Flexible scale mesh, Worn reinforced leather, Coarse technical fabric, Weathered matte metal, Rope stitching patches mud and patina]
-      - heading: LIGHT & CONTRAST
+        items: [Salvaged metal scales four different alloys, Worn reinforced leather, Coarse technical fabric, Weathered matte metal, Rope stitching patches mud and patina]
+      - heading: THE FOUR METALS
         x: 7.90
         y: 11.60
         w: 7.25
         h: 4.10
-        items: [Lift forest midtones behind the silhouette, Keep clothing dark but never crushed, Use wet rim highlights and material variation, Warm firelight only when motivated, No bright colour without story purpose]
+        items: [Gauntlet dull grey steel most worn, Shoulder brass with green verdigris, Sternum dark bronze almost brown, Thigh newest and brightest, Nothing matches nothing was made for her]
       - heading: OVERALL LOOK
         x: 15.35
         y: 11.60

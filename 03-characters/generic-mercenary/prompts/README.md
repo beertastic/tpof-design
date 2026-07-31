@@ -22,7 +22,7 @@ top of the prompt, then run:
 | `07-kit-boots.txt` | `kit-boots.png` | 3:1 | yes | — | — |
 | `08-kit-marks.txt` | `kit-marks.png` | 3:1 | yes | — | — |
 | `09-bandolier.txt` | `bandolier.png` | 1:1 | yes | — | — |
-| `10-wookiee-fur.txt` | `wookiee-fur.png` | 1:1 | yes | — | — |
+| `10-heavy-fur.txt` | `heavy-fur.png` | 1:1 | yes | — | — |
 | `11-nearhuman-markings.txt` | `nearhuman-markings.png` | 3:4 | yes | — | yes |
 | `12-materials.txt` | `materials.png` | 1:1 | yes | — | — |
 | `13-tone-collage.txt` | `tone-collage.png` | 2:3 | yes | yes | yes |

@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| The Wookiee | in progress | FRONT | `turn-heavy-front.txt` | `turn-heavy-front.png` |
-| The Wookiee | in progress | LEFT SIDE | `turn-heavy-left.txt` | `turn-heavy-left.png` |
-| The Wookiee | in progress | RIGHT SIDE | `turn-heavy-right.txt` | `turn-heavy-right.png` |
-| The Wookiee | in progress | BACK | `turn-heavy-back.txt` | `turn-heavy-back.png` |
-| The Wookiee | in progress | NATURAL POSE | `turn-heavy-natural.txt` | `turn-heavy-natural.png` |
+| The large one | in progress | FRONT | `turn-heavy-front.txt` | `turn-heavy-front.png` |
+| The large one | in progress | LEFT SIDE | `turn-heavy-left.txt` | `turn-heavy-left.png` |
+| The large one | in progress | RIGHT SIDE | `turn-heavy-right.txt` | `turn-heavy-right.png` |
+| The large one | in progress | BACK | `turn-heavy-back.txt` | `turn-heavy-back.png` |
+| The large one | in progress | NATURAL POSE | `turn-heavy-natural.txt` | `turn-heavy-natural.png` |
 | The rifle | in progress | FRONT | `turn-ranged-front.txt` | `turn-ranged-front.png` |
 | The rifle | in progress | LEFT SIDE | `turn-ranged-left.txt` | `turn-ranged-left.png` |
 | The rifle | in progress | RIGHT SIDE | `turn-ranged-right.txt` | `turn-ranged-right.png` |

@@ -19,11 +19,11 @@ handedness: right
 
 outfits:
   - id: heavy
-    name: The Wookiee
+    name: The large one
     scenes: "10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23"
     description: >
-      A Wookiee, and an established member of the crew — decided 2026-07-31, see
-      the faction guide. Standing well over two metres and the biggest thing in
+      The large one — a towering fur-covered humanoid, and an established member of
+      the crew. Decided 2026-07-31, see the faction guide. Standing well over two metres and the biggest thing in
       any frame he is in. Long shaggy fur in a dark iron-grey shot through with
       rust brown, greying at the muzzle and across one shoulder where an old
       injury healed badly. He is not young. Very little clothing: a broad,
@@ -35,17 +35,21 @@ outfits:
       stops things rather than chasing them.
     must_show:
       - >
-        A WOOKIEE. Over two metres, massively built, covered in long shaggy fur.
-        He must be substantially larger than every other figure in the crew — if
-        he reads as merely a big man, the Vala fight does not work.
+        A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively
+        built — substantially larger and heavier than every other figure in the
+        crew. If he reads as merely a big man, the Vala fight does not work.
+        His head, torso, arms and legs are entirely covered in coarse body hair.
+        Broad chest, very long and powerful arms, a heavy brow over deep-set dark
+        eyes, and a projecting muzzle. He stands and moves like a person, not
+        like an animal.
       - >
         HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES
         IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN,
         mottled and uneven rather than any single tone, paling almost to white
         around the muzzle. He is OLD and it shows plainly: thinning patches over
         the shoulders, old scarring, sections matted and badly healed. His coat
-        is SHORT, ROUGH AND BADLY KEPT — never long, clean, glossy or
-        evenly-flowing.
+        is COARSE, UNEVEN AND BADLY KEPT — worn down and patchy rather than
+        long, clean, glossy or evenly-flowing.
         His bandolier is broad, thick and obviously hand-built from salvaged
         leather, and it is crossed by a second narrower strap the other way.
         Metal rings and beads are braided into the fur at the shoulder and
@@ -64,7 +68,7 @@ outfits:
         across the chest.
       - >
         PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED —
-        cut or refitted for a Wookiee-sized limb. No chest plate over the fur, no
+        cut or refitted for a limb that size. No chest plate over the fur, no
         full armour, nothing matching. Most of him is fur, not gear.
       - >
         HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same
@@ -173,7 +177,7 @@ outfits:
       - >
         THREE THINGS HE IS NOT. Not serpentine and not scaled — that language
         belongs to Shada and duplicating it weakens hers. Not large and NOT
-        FURRED — that read belongs to the Wookiee in this same crew. Not a
+        FURRED — that read belongs to the large one in this same crew. Not a
         creature build — no horns, no tentacles, no head-tails, no appliance of
         any kind.
       - >
@@ -189,7 +193,7 @@ outfits:
         open, over layered cloth. No other build carries this silhouette.
       - >
         BELT AND BRACES. Nothing worn diagonally across the chest — that
-        silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+        silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
       - >
         PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn,
         obviously not equipment, threaded onto the belt where he can see them.

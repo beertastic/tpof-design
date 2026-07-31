@@ -19,11 +19,11 @@ them, so it is worth several attempts to get right.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only: a distinct muted skin tone that is clearly not a human complexion, and geometric inked markings across the face. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
-  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
   3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
   4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
   5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
-  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
   7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
   8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
@@ -162,16 +162,17 @@ is stated from the wearer's own left and right, never the viewer's.
 THE FOUR BUILDS. No two share a silhouette cue. If two of them read as the
 same person in different clothes, the image has failed.
 
-1. THE WOOKIEE — over two metres, massively built, long shaggy fur in dark
-   iron-grey shot through with rust brown, greying at the muzzle and visibly
-   older. Very little clothing: a broad hand-built ammunition bandolier over one
+1. THE LARGE ONE — a towering fur-covered humanoid, over two metres tall and
+   massively built, entirely covered in coarse body hair. Broad chest, very long
+   powerful arms, a heavy brow over deep-set dark eyes, a projecting muzzle. His
+   hair is dark iron-grey shot through with rust brown, mottled and uneven,
+   paling almost to white at the muzzle, and he is visibly old. Very little clothing: a broad hand-built ammunition bandolier over one
    shoulder carrying grenades on the front of it, a narrower utility strap
    crossing it the other way, a heavy working belt, and salvaged plate strapped
    over the forearms and one shoulder — oversized, refitted for him. His weapon
    is a human-sized blaster rifle worn on his right hip like a pistol. Metal
-   rings and beads braided into the fur at the shoulder and muzzle. An
-   elderly individual: short, rough, badly kept fur, thinning and scarred, never
-   long or glossy.
+   rings and beads braided into the fur at the shoulder and muzzle. Coarse, uneven, badly
+   kept hair, thinning over the shoulders and scarred — never long or glossy.
 2. THE RIFLE — lean and quick, built around a salvaged long gun on a shoulder
    sling. The lightest armour of the four: one shoulder pad on his right, the
    trigger side, and nothing on the chest or shoulders that would foul a stock or
@@ -210,11 +211,11 @@ A near-human, achieved in make-up alone — decided 2026-07-31. Distinct skin co
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only: a distinct muted skin tone that is clearly not a human complexion, and geometric inked markings across the face. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
-  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
   3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
   4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
   5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
-  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
   7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
   8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 

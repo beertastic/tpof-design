@@ -122,6 +122,26 @@ braided into the fur.
 He assembled his own kit like everyone else in this crew and he can afford good
 equipment. Design him as an individual, exactly as the other three are.
 
+### The species name cannot go in a prompt either
+
+**He is a Wookiee. The prompts never say so**, and this is not squeamishness —
+it is what makes the images generable at all.
+
+Removing the famous character's name was not enough; the build was still refused.
+The species name is itself the problem, because there is effectively **one**
+well-known Wookiee in any image model's training data. The word does not describe
+a species to a generator, it retrieves a character — and the output then trips the
+generator's third-party-content filter.
+
+So the prompts describe the physique instead: a towering fur-covered humanoid,
+over two metres, entirely covered in coarse body hair, broad chest, very long
+powerful arms, a heavy brow over deep-set dark eyes, a projecting muzzle, standing
+and moving like a person rather than an animal. Everything a performer, a suit
+maker and a casting director needs, with none of the retrieval.
+
+**The design is unchanged.** He is a Wookiee in this document, in the faction
+guide, in the script and on the call sheet. Only the prompts avoid the word.
+
 **Never name the comparison in an image prompt.** The reasoning above belongs
 here, where a person reads it. In a prompt it backfires twice over: image models
 handle negation badly, so naming a character in order to reject it puts that

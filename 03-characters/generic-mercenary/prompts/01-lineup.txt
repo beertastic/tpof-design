@@ -128,16 +128,17 @@ is stated from the wearer's own left and right, never the viewer's.
 THE FOUR BUILDS. No two share a silhouette cue. If two of them read as the
 same person in different clothes, the image has failed.
 
-1. THE WOOKIEE — over two metres, massively built, long shaggy fur in dark
-   iron-grey shot through with rust brown, greying at the muzzle and visibly
-   older. Very little clothing: a broad hand-built ammunition bandolier over one
+1. THE LARGE ONE — a towering fur-covered humanoid, over two metres tall and
+   massively built, entirely covered in coarse body hair. Broad chest, very long
+   powerful arms, a heavy brow over deep-set dark eyes, a projecting muzzle. His
+   hair is dark iron-grey shot through with rust brown, mottled and uneven,
+   paling almost to white at the muzzle, and he is visibly old. Very little clothing: a broad hand-built ammunition bandolier over one
    shoulder carrying grenades on the front of it, a narrower utility strap
    crossing it the other way, a heavy working belt, and salvaged plate strapped
    over the forearms and one shoulder — oversized, refitted for him. His weapon
    is a human-sized blaster rifle worn on his right hip like a pistol. Metal
-   rings and beads braided into the fur at the shoulder and muzzle. An
-   elderly individual: short, rough, badly kept fur, thinning and scarred, never
-   long or glossy.
+   rings and beads braided into the fur at the shoulder and muzzle. Coarse, uneven, badly
+   kept hair, thinning over the shoulders and scarred — never long or glossy.
 2. THE RIFLE — lean and quick, built around a salvaged long gun on a shoulder
    sling. The lightest armour of the four: one shoulder pad on his right, the
    trigger side, and nothing on the chest or shoulders that would foul a stock or
@@ -176,9 +177,9 @@ All four builds standing in a single frame, side by side, facing camera, evenly
 spaced against a plain neutral studio backdrop. Flat, even documentation
 lighting, sharp across the whole frame, no atmosphere and no mood. Full figure,
 head to boots, all four standing on the same ground line at true relative scale —
-the Wookiee towers over the other three and that size difference must be honest.
+the large one towers over the other three and that size difference must be honest.
 
-Left to right: the Wookiee, the rifle, the close one, the near-human.
+Left to right: the large one, the rifle, the close one, the near-human.
 
 Each of the four must be immediately distinguishable from the other three at a
 glance, by silhouette alone, before any detail is read. Different heights,

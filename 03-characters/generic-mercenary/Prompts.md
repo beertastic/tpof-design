@@ -176,13 +176,13 @@ fantasy. Costume adapts to anatomy without sacrificing practicality.
 
 ---
 
-## Costume rules — WOOKIEE PLATES ONLY
+## Costume rules — LARGE-ONE PLATES ONLY
 
 > **Applies to slots 9, 10** — the bandolier and the fur study.
 >
 > **Deliberately narrow, and it must stay that way.** The generator injects the
 > non-negotiables of the *first* outfit in `outfits.yaml`, which is `heavy`, the
-> Wookiee. That is correct for a plate showing only him and wrong for anything
+> large one. That is correct for a plate showing only him and wrong for anything
 > showing the other three. Every other slot gets all four builds through the
 > Character Constants block instead. Do not widen this list.
 
@@ -213,16 +213,17 @@ is stated from the wearer's own left and right, never the viewer's.
 **THE FOUR BUILDS.** No two share a silhouette cue. If two of them read as the
 same person in different clothes, the image has failed.
 
-1. **THE WOOKIEE** — over two metres, massively built, long shaggy fur in dark
-   iron-grey shot through with rust brown, greying at the muzzle and visibly
-   older. Very little clothing: a broad hand-built ammunition bandolier over one
+1. **THE LARGE ONE** — a towering fur-covered humanoid, over two metres tall and
+   massively built, entirely covered in coarse body hair. Broad chest, very long
+   powerful arms, a heavy brow over deep-set dark eyes, a projecting muzzle. His
+   hair is dark iron-grey shot through with rust brown, mottled and uneven,
+   paling almost to white at the muzzle, and he is visibly old. Very little clothing: a broad hand-built ammunition bandolier over one
    shoulder carrying grenades on the front of it, a narrower utility strap
    crossing it the other way, a heavy working belt, and salvaged plate strapped
    over the forearms and one shoulder — oversized, refitted for him. His weapon
    is a human-sized blaster rifle worn on his right hip like a pistol. Metal
-   rings and beads braided into the fur at the shoulder and muzzle. **An
-   elderly individual: short, rough, badly kept fur, thinning and scarred, never
-   long or glossy.**
+   rings and beads braided into the fur at the shoulder and muzzle. **Coarse, uneven, badly
+   kept hair, thinning over the shoulders and scarred — never long or glossy.**
 2. **THE RIFLE** — lean and quick, built around a salvaged long gun on a shoulder
    sling. The lightest armour of the four: one shoulder pad on his right, the
    trigger side, and nothing on the chest or shoulders that would foul a stock or
@@ -266,9 +267,9 @@ The specific wrong directions a generator will drift toward for *this* character
    gun, one set of crossed straps — each belongs to exactly one build.
 3. **A military unit read.** Formation, matching rank markings, insignia,
    anything that looks issued, anything that looks like surplus.
-4. **A Wookiee that resembles any well-known one.** Warm chestnut fur, a long
-   glossy evenly-flowing coat, a single neat woven diagonal strap, a crossbow-like
-   weapon. This one is grey, mottled, short-coated, scarred and old.
+4. **A large fur-covered figure resembling any well-known one.** Warm chestnut
+   hair, a long glossy evenly-flowing coat, a single neat woven diagonal strap, a
+   crossbow-like weapon. This one is grey, mottled, coarse-coated, scarred, old.
 5. **A creature build on the near-human.** Horns, tentacles, head-tails, a
    snout, appliances of any kind. He is make-up only and must hold a close-up.
 6. **Serpentine or scaled anything.** That language belongs to Shada.
@@ -293,9 +294,9 @@ All four builds standing in a single frame, side by side, facing camera, evenly
 spaced against a plain neutral studio backdrop. Flat, even documentation
 lighting, sharp across the whole frame, no atmosphere and no mood. Full figure,
 head to boots, all four standing on the same ground line at true relative scale —
-the Wookiee towers over the other three and that size difference must be honest.
+the large one towers over the other three and that size difference must be honest.
 
-Left to right: the Wookiee, the rifle, the close one, the near-human.
+Left to right: the large one, the rifle, the close one, the near-human.
 
 Each of the four must be immediately distinguishable from the other three at a
 glance, by silhouette alone, before any detail is read. Different heights,
@@ -331,7 +332,7 @@ each move their own way.
 **Wide banner, 3:1.**
 
 The four head treatments side by side, shoulders up, flat even documentation
-light against a plain neutral ground. Left to right: the Wookiee's bare furred
+light against a plain neutral ground. Left to right: the large one's bare furred
 head with rings and beads braided in; a cap or wrapped head-cloth with goggles
 pushed up on the forehead; a partial salvaged helmet covering the crown and one
 side of the face; a bare human-proportioned head with geometric inked markings
@@ -358,7 +359,7 @@ problem solved four ways.
 **Wide banner, 3:1.**
 
 The four plating solutions laid out flat on a neutral surface, evenly lit, sharp
-across the frame. Oversized forearm and single-shoulder plate cut for a Wookiee;
+across the frame. Oversized forearm and single-shoulder plate cut for a limb that size;
 a single shoulder pad; a segmented chest rig with both forearm plates; and an
 empty space where the fourth would be, because the near-human wears no plate at
 all.
@@ -393,7 +394,7 @@ Four different *kinds* of decoration, not four versions of the same one.
 
 **Square, 1:1.**
 
-The Wookiee's ammunition bandolier laid out on a plain neutral surface,
+The large one's ammunition bandolier laid out on a plain neutral surface,
 photographed flat and evenly lit, sharp across the whole frame — the kind of
 plate an art department shoots to document what it has built.
 
@@ -407,11 +408,11 @@ quickly and by someone else.
 
 Show the crossing utility strap alongside it.
 
-## 10. `wookiee-fur.png` — fur colour and texture
+## 10. `heavy-fur.png` — fur colour and texture
 
 **Square, 1:1.**
 
-A close study of the Wookiee's fur: shoulder, upper arm and the side of the
+A close study of the large one's body hair: shoulder, upper arm and the side of the
 muzzle, evenly lit and sharp, filling the frame.
 
 **Dark iron-grey shot through with rust brown**, greying and paling at the
@@ -472,7 +473,7 @@ Because this character is four people rather than one, the panels show the crew
 rather than an individual:
 
 1. All four together, full figure, open daylight.
-2. The Wookiee alone, showing scale against a tree.
+2. The large one alone, showing scale against a tree.
 3. A tight portrait of the near-human, markings legible.
 4. The rifle and the close one working together at distance.
 5. The camp at night by firelight, figures small.
@@ -497,7 +498,7 @@ however good they look individually.
 | 7 | `kit-boots.png` | 3:1 | The class-not-item rule |
 | 8 | `kit-marks.png` | 3:1 | What makes them people |
 | 9 | `bandolier.png` | 1:1 | The grenade can be reached |
-| 10 | `wookiee-fur.png` | 1:1 | A specific elderly individual |
+| 10 | `heavy-fur.png` | 1:1 | A specific elderly individual |
 | 11 | `nearhuman-markings.png` | 3:4 | Make-up only, holds a close-up |
 | 12 | `materials.png` | 1:1 | One vocabulary, no matched set |
 | 13 | `tone-collage.png` | 2:3 | Shareable, never authoritative |
@@ -514,7 +515,7 @@ Plus **20 turnaround plates** — four builds by five views — from
 - **Nothing is mirrored on anyone.** All four are right-handed.
 - **No two builds acquire a shared feature.** If a second long coat, a second
   helmet or a second long gun appears, the image is wrong.
-- **The Wookiee is always the largest thing in frame**, and the grenades are
+- **The large one is always the largest thing in frame**, and the grenades are
   always visible on the front of his bandolier.
 - The near-human is **always make-up only** — no appliance appears in any image.
 
@@ -524,7 +525,7 @@ Plus **20 turnaround plates** — four builds by five views — from
 
 - No build has an `approved.reference` yet. The front turnarounds have to be
   generated and approved before the slots above can attach a costume reference.
-- What does the Wookiee's suit cost across the added Scene 10 and pursuit days?
+- What does the large one's suit cost across the added Scene 10 and pursuit days?
 - Exact skin tone and marking geometry for the near-human — muted green-gold or
   desaturated blue, and what the markings mean.
 

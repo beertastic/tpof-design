@@ -13,6 +13,11 @@ governing_documents:
 
 # Shin — Image Prompt Pack
 
+**Before you start:** if actor reference images exist, **attach them to the
+conversation** — see [`../CAST-REFERENCE.md`](../CAST-REFERENCE.md). A repository
+connector may not let the model see images even when it can read this file. The
+reference governs face and build; this pack governs everything else.
+
 **How to use.** Each numbered slot is a complete, self-contained prompt. Paste
 **Style**, **Do Not**, **Character Constants**, then the single slot you want.
 Do not paste more than one slot at a time. Save the result to the exact filename

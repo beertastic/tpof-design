@@ -124,6 +124,29 @@ Symptom to watch for: a rule that is stated emphatically and ignored
 consistently. That is almost never the model failing to read it. Search the slot
 body for the thing it is being told not to do.
 
+### A `must_show` rule can contradict the SHOT block
+
+Turnarounds put the rules at the top, the shot description in the middle, and the
+rules again as a closing checklist. So a rule gets **both the first and the last
+word** over the shot.
+
+Shada's rule 5 says EXTERIOR ONLY, forest or clearing or camp, no interiors, if
+there is a wall or a ceiling the image is wrong. The turnaround shot block says
+plain seamless mid-grey studio background. A studio cyclorama is, technically, an
+interior — and the rule is stated twice, the second time after the shot block.
+The turnaround came back set in a forest, which was the only way to satisfy what
+it was told.
+
+**Rules about the fictional world must be scoped to images that have a world.** A
+studio plate has no location; a seamless backdrop is the absence of one rather
+than an interior. Rule 5 now says so explicitly, and names the studio background
+and the plain neutral surface as governing where they appear.
+
+This one was latent for a long time and only surfaced when rule 1 was cut from
+1,206 words to 390. **Shrinking one rule makes every other rule louder** — a
+rebalance is a behavioural change, not a tidy-up, and what emerges may be a
+conflict that was always there.
+
 ### A rule that is 75% of the prompt crowds out the other 25%
 
 Shada's front turnaround reached **36,500 characters**, and her `must_show` had

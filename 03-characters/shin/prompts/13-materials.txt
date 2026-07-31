@@ -1,0 +1,88 @@
+[SHIN — SLOT 13 — MATERIALS AND PALETTE]
+Output file: materials.png
+Aspect ratio: 5:4  (landscape)
+
+Generate a single image to the description below.
+Attach actor reference images to this conversation before generating.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, patches,
+fading, grime, wear.
+
+Costume is functional and real — buildable construction, believable seams and
+fastenings, nothing decorative. Coarse woven cloth, undyed or badly dyed,
+hand-repaired.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white.
+
+Lighting motivated by believable sources only: overcast daylight, dawn, dusk,
+firelight, a dying fire.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. The world feels much larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, Renaissance, medieval or Victorian
+clothing, fantasy armour, or modern tactical gear.
+
+No pristine surfaces, no clean clothing, no styled or salon hair.
+
+Absolutely no sexualisation. The subject is a fifteen-year-old child. No
+fitted or shaped costume, no exposed midriff or shoulders as design language, no
+artful tearing, no glamour lighting, no adult posing, no makeup. This rule
+overrides every other consideration in this pack.
+
+Not a warrior. No weapon, no armour, no fighting stance, no confidence, no
+capability. No robes, no lightsaber, nothing Jedi.
+
+No glowing eyes, no visible magic, no energy effects on the character.
+
+No text, logos, watermarks, captions or labels. No crushed blacks.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic skin.
+
+=== CHARACTER ===
+Shin. Human girl, fifteen years old. An escaped captive fleeing through a
+forest world with her mother and a small band of prisoners, hunted by mercenaries.
+
+Slight and underfed — a child who has not had enough food for a long time. Not
+athletic, not frail. Pale skin. Young, open face, easily read; she has never had
+to hide what she feels from anyone.
+
+Long red hair — the only strong colour anywhere in this film. Bound, braided
+or wrapped back for practicality, never loose and never styled. It catches what
+little light there is. It should be filthy and progressively more damaged as the
+story runs. Pretty, never sexy.
+
+Her face and hands are dirt-smeared. Her hands are small and work-marked — she
+has been used for labour, never for fighting.
+
+She wears captivity clothing: a coarse, unfitted, badly-dyed tunic and top,
+hand-repaired by her mother, wrong-sized and worn to destruction on the run. Her
+footwear was never meant for a forest and is failing. Nothing she wears was made
+for her or chosen by her.
+
+She carries nothing. She is exhausted, frightened, filthy, and being protected by
+people who love her. She is a child in the middle of an adult catastrophe.
+
+=== THIS IMAGE ===
+Materials reference board: physical swatches and close details on a neutral
+surface, evenly lit. Coarse undyed woven cloth; badly-dyed fabric gone patchy;
+hand-stitched repairs in mismatched thread; frayed hems; failing footwear leather
+with a split sole; cord and torn cloth used as ties; mud, damp and staining; the
+small metal clasp at one corner; and a lock of the red hair for colour matching.
+Palette held to charcoal #2B2A26, ash brown #3A352F, dust brown #544E42,
+leather #6B5A47, faded tan #7C6F5B, faded olive #4F563F, weathered black
+#2E2F33, natural bone #BDAF95 — plus the hair, which is the only saturated
+colour permitted anywhere in this film. Matte throughout. The repairs must
+read as done by hand, in poor light, by someone who cared.
+
+Deliver a single image at 5:4.

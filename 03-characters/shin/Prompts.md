@@ -18,7 +18,13 @@ conversation** — see [`../CAST-REFERENCE.md`](../CAST-REFERENCE.md). A reposit
 connector may not let the model see images even when it can read this file. The
 reference governs face and build; this pack governs everything else.
 
-**How to use.** Each numbered slot is a complete, self-contained prompt. Paste
+> **Easiest path: use the pre-assembled files in [`prompts/`](prompts/).** One
+> plain-text file per image, each fully self-contained — open it, select all,
+> paste. No sections to gather, no markdown to strip. Generated from this
+> document; if you change anything here, run
+> `python tools/prompt-splitter/split.py shin`.
+
+**How to use** (if assembling by hand)**.** Each numbered slot is a complete, self-contained prompt. Paste
 **Style**, **Do Not**, **Character Constants**, then the single slot you want.
 Do not paste more than one slot at a time. Save the result to the exact filename
 given, in `03-characters/shin/source/artwork/`, then run:

@@ -1,0 +1,84 @@
+[SHIN — SLOT 11 — WHAT SHE CARRIES]
+Output file: utility.png
+Aspect ratio: 1:1  (square)
+
+Generate a single image to the description below.
+Attach actor reference images to this conversation before generating.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, patches,
+fading, grime, wear.
+
+Costume is functional and real — buildable construction, believable seams and
+fastenings, nothing decorative. Coarse woven cloth, undyed or badly dyed,
+hand-repaired.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white.
+
+Lighting motivated by believable sources only: overcast daylight, dawn, dusk,
+firelight, a dying fire.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. The world feels much larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, Renaissance, medieval or Victorian
+clothing, fantasy armour, or modern tactical gear.
+
+No pristine surfaces, no clean clothing, no styled or salon hair.
+
+Absolutely no sexualisation. The subject is a fifteen-year-old child. No
+fitted or shaped costume, no exposed midriff or shoulders as design language, no
+artful tearing, no glamour lighting, no adult posing, no makeup. This rule
+overrides every other consideration in this pack.
+
+Not a warrior. No weapon, no armour, no fighting stance, no confidence, no
+capability. No robes, no lightsaber, nothing Jedi.
+
+No glowing eyes, no visible magic, no energy effects on the character.
+
+No text, logos, watermarks, captions or labels. No crushed blacks.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic skin.
+
+=== CHARACTER ===
+Shin. Human girl, fifteen years old. An escaped captive fleeing through a
+forest world with her mother and a small band of prisoners, hunted by mercenaries.
+
+Slight and underfed — a child who has not had enough food for a long time. Not
+athletic, not frail. Pale skin. Young, open face, easily read; she has never had
+to hide what she feels from anyone.
+
+Long red hair — the only strong colour anywhere in this film. Bound, braided
+or wrapped back for practicality, never loose and never styled. It catches what
+little light there is. It should be filthy and progressively more damaged as the
+story runs. Pretty, never sexy.
+
+Her face and hands are dirt-smeared. Her hands are small and work-marked — she
+has been used for labour, never for fighting.
+
+She wears captivity clothing: a coarse, unfitted, badly-dyed tunic and top,
+hand-repaired by her mother, wrong-sized and worn to destruction on the run. Her
+footwear was never meant for a forest and is failing. Nothing she wears was made
+for her or chosen by her.
+
+She carries nothing. She is exhausted, frightened, filthy, and being protected by
+people who love her. She is a child in the middle of an adult catastrophe.
+
+=== THIS IMAGE ===
+Overhead flat-lay on a worn surface of everything Shin has in the world: her
+failing footwear, a strip of cloth used as a hair tie, a scrap of rag, perhaps a
+water container that is not hers, and the small metal clasp. Even flat reference
+lighting. The emptiness is the point. This is not a kit — it is the few
+objects that happen to be on a fleeing child, and it should look shockingly
+insufficient laid out against a mercenary's equipment.
+
+Deliver a single image at 1:1.

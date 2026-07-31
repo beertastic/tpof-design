@@ -13,7 +13,13 @@ governing_documents:
 
 # Shada — Image Prompt Pack
 
-**How to use.** Each numbered slot below is a complete, self-contained prompt.
+> **Easiest path: use the pre-assembled files in [`prompts/`](prompts/).** One
+> plain-text file per image, each fully self-contained — open it, select all,
+> paste. No sections to gather, no markdown to strip. Generated from this
+> document; if you change anything here, run
+> `python tools/prompt-splitter/split.py shada`.
+
+**How to use** (if assembling by hand)**.** Each numbered slot below is a complete, self-contained prompt.
 Paste **Style**, **Do Not**, **Character Constants**, then the single slot you
 want. For narrative slots, add **Capture** and **Anti-synthetic** as well — see
 the note on those blocks for which slots they apply to. Do not paste more than one slot at a time. Save the result to the exact

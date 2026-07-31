@@ -7,24 +7,16 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
-BEFORE YOU GENERATE — CHECK THIS FIRST.
+THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET.
 
-Two reference images must be attached to this conversation:
-  1. The APPROVED COSTUME reference for this character.
-  2. The ACTOR reference.
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
 
-IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
-Do not generate anything. Reply with exactly:
-  "No reference images attached. Please attach the approved costume
-   reference and the actor reference, then resend this prompt."
+Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
+this costume is matched against. An error here propagates into all of
+them, so it is worth several attempts to get right.
 
-Do not proceed from the text alone. The written description is not
-sufficient on its own and will produce the wrong costume and the wrong
-face.
-
-THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
-Match the costume, materials, colours, face and build from the attached
-reference exactly. Only the setting, pose and lighting change.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.

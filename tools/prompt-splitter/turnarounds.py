@@ -27,6 +27,9 @@ ASYMMETRIC = ("gauntlet", "bracer", "vambrace", "holster", "blaster", "pistol",
               "scabbard", "eyepatch", "prosthetic")
 
 
+from consistency import check_outfit
+
+
 def check_placement(character: str, cfg: dict) -> list[str]:
     """Warn about asymmetric items that have not been assigned a side."""
     warnings: list[str] = []
@@ -48,6 +51,10 @@ def check_placement(character: str, cfg: dict) -> list[str]:
                 f"{character}/{o['id']}: mentions {', '.join(sorted(set(found))[:4])} "
                 "but never says which side. State it from the wearer's own left "
                 "and right, e.g. \"her right thigh\".")
+
+        # The description is injected into the same prompt as the rules above,
+        # and where they disagree the description wins. See consistency.py.
+        warnings.extend(check_outfit(character, o))
     return warnings
 
 

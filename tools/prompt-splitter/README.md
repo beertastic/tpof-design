@@ -79,3 +79,37 @@ particular image adds.
 Symptom to watch for: a rule that is stated emphatically and ignored
 consistently. That is almost never the model failing to read it. Search the slot
 body for the thing it is being told not to do.
+
+### `consistency.py` now checks this automatically
+
+Four defects from this one pattern was enough. Both tools run the checker on
+every invocation, so it fires wherever you already look:
+
+```text
+! shada/working description: says "…Quiet wraps at the forearms and…" but a
+  must_show rule forbids "wrap". The prose wins in the prompt — remove it or
+  restate it to agree.
+```
+
+It looks for four things, all of which have caused a real defect:
+
+| Check | The defect it came from |
+|---|---|
+| Prose asserts something the rules forbid | `maintenance` asked for an interior against EXTERIOR ONLY |
+| "both X" where the rules make X asymmetric | "caps over both shoulders" against one cap, her left |
+| An item placed somewhere the rules do not | "a compact blaster at the hip" against her right thigh |
+| An item described generically where the rules name a model | the same line, after the blaster became a WESTAR-35 |
+
+**It is a lint, not a prover.** It reports prose worth looking at rather than
+proving a contradiction, and it is tuned to stay quiet — a checker nobody reads
+is worse than no checker. The whole repo currently produces zero warnings.
+
+The four defects are encoded as regression cases, along with the phrasings that
+tripped earlier versions of the checker:
+
+```bash
+python tools/prompt-splitter/consistency.py --selftest
+```
+
+If a change stops one of those being caught, the change is wrong. Run it after
+touching `consistency.py`.

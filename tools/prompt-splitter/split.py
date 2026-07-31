@@ -247,8 +247,15 @@ def run(repo: Path, character: str) -> int:
         outfits = cfg.get("outfits", [])
         sys.path.insert(0, str(Path(__file__).parent))
         from turnarounds import check_placement
+        from consistency import check_slot
         for w in check_placement(character, cfg):
             print(f"  ! {w}", file=sys.stderr)
+        # A slot body sits between the two copies of the rules in every prompt,
+        # and the generator follows the slot when they disagree.
+        for slot in slots:
+            if must and ((slot["n"] in costume) if costume else True):
+                for w in check_slot(character, slot, must):
+                    print(f"  ! {w}", file=sys.stderr)
         handed = cfg.get("handedness")
         chosen = next((o for o in outfits if (o.get("approved") or {}).get("reference")),
                       outfits[0] if outfits else None)

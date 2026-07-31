@@ -65,7 +65,21 @@ VIEWS = [
      "not turned toward camera. A clean side-on profile of the whole figure."),
     ("back", "BACK",
      "The subject faces directly away from the camera, showing the whole of the "
-     "back. Shoulders level and parallel to the frame. Head level, facing away."),
+     "back. Shoulders level and parallel to the frame. Head level, facing away.\n"
+     "\n"
+     "CRITICAL — THIS IS A ROTATION, NOT A MIRROR.\n"
+     "The person has turned around. They have NOT been flipped horizontally.\n"
+     "Because she has turned, HER RIGHT SIDE IS NOW ON THE VIEWER'S LEFT and her\n"
+     "left side is on the viewer's RIGHT — the opposite of the front view.\n"
+     "\n"
+     "So in THIS image specifically:\n"
+     "  - anything worn on HER RIGHT appears on the VIEWER'S LEFT\n"
+     "  - anything worn on HER LEFT appears on the VIEWER'S RIGHT\n"
+     "\n"
+     "If this image looks like a horizontally flipped copy of the front view, it\n"
+     "is wrong. Check every asymmetric item — the forearm piece, the shoulder\n"
+     "piece, the thigh piece, the holster and the blade — and confirm each one\n"
+     "has swapped which side of the FRAME it appears on, compared with the front."),
 ]
 
 TURN_POSE = """FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.

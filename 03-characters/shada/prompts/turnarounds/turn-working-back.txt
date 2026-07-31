@@ -68,6 +68,20 @@ no lens flare, no vignetting. This is documentation, not cinematography.
 === VIEW ===
 The subject faces directly away from the camera, showing the whole of the back. Shoulders level and parallel to the frame. Head level, facing away.
 
+CRITICAL — THIS IS A ROTATION, NOT A MIRROR.
+The person has turned around. They have NOT been flipped horizontally.
+Because she has turned, HER RIGHT SIDE IS NOW ON THE VIEWER'S LEFT and her
+left side is on the viewer's RIGHT — the opposite of the front view.
+
+So in THIS image specifically:
+  - anything worn on HER RIGHT appears on the VIEWER'S LEFT
+  - anything worn on HER LEFT appears on the VIEWER'S RIGHT
+
+If this image looks like a horizontally flipped copy of the front view, it
+is wrong. Check every asymmetric item — the forearm piece, the shoulder
+piece, the thigh piece, the holster and the blade — and confirm each one
+has swapped which side of the FRAME it appears on, compared with the front.
+
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
 

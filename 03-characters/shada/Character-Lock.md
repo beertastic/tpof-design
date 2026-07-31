@@ -17,7 +17,13 @@ recorded revision.
 
 ## Species Traits
 
-- Fine scales on face, neck, collarbone, shoulders, arms and hands.
+- Fine scales on neck, collarbone, shoulders, arms and hands.
+- **On the face: edges only** — temples, outer cheekbone, jawline, side of the
+  neck, behind the ear. Never the nose, forehead, cheeks or mouth. Tonal, readable
+  only in raking light, missable in flat light.
+- **Achieved in makeup, not prosthetics.** A human actor; no budget for a full
+  facial appliance, and a full-face treatment would read as creature anyway.
+- **Reptilian contact lenses** are the single highest-value element.
 - Reptilian quality to the eyes without becoming a full creature design.
 - Uses scent and environmental observation instinctively.
 - Movement remains human, restrained and economical.
@@ -35,8 +41,10 @@ recorded revision.
     rust. Sections visibly replaced.
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
-  - **Coverage:** a panel across the front of the torso, caps over both shoulders,
-    the outer forearms. Not a suit, not a small patch.
+  - **Coverage — sporadic and asymmetric.** One patch at the sternum, one on a
+    single shoulder, one on one forearm. Different sizes, alloys and ages. **No
+    breastplate, no full yoke, no matching bracers.** At most a fifth of the
+    costume carries metal; the rest is cloth and leather.
   - **Moves like heavy cloth, not plate.** That is why she wears it.
   - **It reads as serpentine: she wears her own ancestry as armour.**
 - Functional exposed skin for mobility, heat and sensory function.
@@ -61,7 +69,9 @@ Reject any design that becomes:
 - Modern tactical/SWAT.
 - Heavy-armoured soldier.
 - Generic human scavenger with no serpentine ancestry.
-- Fully reptilian.
+- Fully reptilian, or any full-face prosthetic treatment.
+- A matched or symmetrical set of scale armour. It was added piecemeal; a matched
+  set means somebody made it for her, and nobody did.
 - Bulky, loose or oversized. Her costume is close-fitting and follows her figure —
   waist defined, cut to the body. (Revised 2026-07-31: the original blanket
   restriction on a glamorised reading is lifted **for Shada only**. She is an

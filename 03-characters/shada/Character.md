@@ -28,6 +28,41 @@ a starship.
 - No unnecessary technology or decorative equipment.
 - Movement is economical, controlled and observant.
 
+### The face — a makeup problem, not a prosthetic one
+
+**Production constraint: Shada is played by a human actor and there is no budget
+for a full facial prosthetic.** The design must work in makeup.
+
+That is a better answer anyway. A full-face treatment reads as *creature*; what
+this character needs is **something slightly off about her that you might miss.**
+
+**Put the texture at the edges of the face, never across it:**
+
+- The temples
+- The outer edge of the cheekbone
+- Along the jawline
+- Down the side of the neck
+- Behind the ear, into the hairline
+
+**Not** the nose, forehead, cheeks or mouth. Those are where an audience reads
+performance, and covering them costs expression while gaining nothing.
+
+**Tonal, not coloured.** The same value as her skin. It should be legible only
+where light rakes across it at a grazing angle, and genuinely missable in flat
+frontal light. Blink and you miss it.
+
+### What actually buys the effect, in order of value
+
+| | Cost | Effect |
+|---|---|---|
+| **Reptilian contact lenses** | Low | The single highest-value item. Does more than everything else combined |
+| Stencilled or airbrushed fine scale texture at the face edges | Low | The blink-and-miss-it layer |
+| The same treatment on hands, forearms, shoulders, collarbone | Low | Where she is bare, and where it is most visible |
+| A slight brow or temple ridge in silicone | Higher | Optional. Only if budget allows, and easy to overdo |
+
+Contacts and edge texture together will carry the whole idea. Everything above
+that line is optional.
+
 ## Costume cut — revised 2026-07-31
 
 Her costume is **close-fitting and follows her figure**: waist defined, cut to
@@ -51,7 +86,7 @@ loses her build *and* her speed. Fitted serves both.
 ## The scale armour
 
 **Where rigid armour plate would normally sit, she wears overlapping metallic
-scale instead.**
+scale instead — in sporadic patches, never as a suit.**
 
 **Individual overlapping metal scales, each roughly the size of a coin**, laced
 and riveted onto a flexible leather-and-fabric backing. They overlap downward
@@ -69,9 +104,17 @@ sheen. It catches light in small dull glints across many facets rather than
 reflecting. It reads unmistakably as *metal* — this is the detail that failed
 when it was described only as "matte and non-reflective."
 
-**Where it sits:** a panel across the front of the torso, caps over both
-shoulders, and the outer forearms. Not full-body, not a suit, and not a small
-patch either — enough that it is one of the first things you notice about her.
+**Where it sits — sporadic and deliberately asymmetric.** One patch over the
+sternum. One on a single shoulder, not both. One on one forearm, not both. Each a
+different size and shape, a different alloy, a different age.
+
+**No breastplate. No full yoke. No matching pair of bracers.** She added these
+piecemeal over years, as she found material — a matched set would mean somebody
+made it for her, and nobody did.
+
+At most about a fifth of the costume carries metal. The rest is cloth and worn
+leather. **The metal is the exception, not the rule**, and that is what stops it
+reading as fantasy armour.
 
 **It moves like heavy cloth, not like plate.** That is the whole reason she wears
 it: flexible protection for a body built around movement, silence and getting

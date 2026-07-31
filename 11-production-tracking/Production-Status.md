@@ -19,7 +19,7 @@ Mood and narrative images are context. Three or four per character is enough.
 
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
-| Shada | 1 | 5 | **5/5 — complete** |
+| Shada | 1 | 5 | 5/5 generated — **all need re-shooting** |
 | Generic Mercenary | 4 builds | 20 | 0/20 — prompts ready |
 | Baylan | 4 | 20 | not started |
 | Shin | 3 states | 15 | not started |
@@ -30,7 +30,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | **Complete** | 20/20 images, 5/5 boards, promo sheet. Non-blocking notes in `Shada-Image-TODO.md` |
+| Shada | **Re-shoot** | Docs and prompts current. Images superseded by the physical builds — hexagonal stamped scales and a WESTAR-35. See `Shada-Image-TODO.md` |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
 | Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Baseline human — decided. Design still TBD |

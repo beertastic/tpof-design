@@ -6,24 +6,22 @@ updated: "2026-07-31"
 
 # Shada — Finish List
 
-**Status: 20/20 images, 5/5 boards built, validation clean.**
+**Status: 20/20 images and 5/5 boards exist, but the build has moved past most of
+them. Re-shoot required.**
 
-`turn-working-back`, `maintenance`, `camp_day` and `forest` are all correct and
-on the boards. `camp_day` is now the standing bright-daylight plate it was meant
-to be, with the blaster on the correct side. The old `forest` was the six-panel
-collage; it is kept as `source/artwork/tone-collage.png` under the new share
-sheet, slot 16.
+She was complete on 2026-07-31. Two physical builds then landed and superseded
+the images rather than the design:
 
-Two things are worth a look before she is signed off, neither blocking:
+- **The scale plates are hexagonal and carry a pressed serpent stamp.** Every
+  existing image shows round, unmarked coins.
+- **Her blaster is a WESTAR-35.** Every existing image shows a generic sidearm.
 
-- **`forest` is a daylight camp, not the dusk in-situ.** Slot 4 exists to answer
-  one question — does the charcoal costume separate from a wet forest at dusk —
-  and a daytime camp does not answer it. It also now covers similar ground to
-  `camp_day`.
-- **The four metals are converging on brass.** In the newest plates the gauntlet,
-  cap, sternum and thigh patches read as much the same alloy. The mismatch is
-  what proves nobody made the costume for her; if they match, that is quietly
-  lost.
+The documents have been updated to follow the built objects, and all 21 prompts
+regenerated. **The images are what is now out of date, not the files.**
+
+This is the prop-drift problem in the section below, arriving exactly where it
+was predicted: the costume held still across twenty images because it had an
+approved reference, and the props did not.
 
 ---
 
@@ -50,21 +48,30 @@ everything that follows."*
 
 ---
 
-## The one to generate
+## The order to work in
 
-### `forest` — the dusk in-situ reference
+**1. `turn-working-front` first, and nothing else until it is right.**
 
-Prompt: `03-characters/shada/prompts/04-forest.txt`
+It is the approved reference in `outfits.yaml` — every other image matches
+against it, so a wrong front view propagates into all twenty. Check it against
+the new spec before approving: hexagonal plates, overlapped not tiled, the same
+worn serpent stamp on every plate, four visibly different metals, and a WESTAR-35
+on her right thigh.
 
-The reality check on whether her charcoal costume separates from a wet forest at
-dusk. Full figure, moving low, overcast dusk, wet rim highlights keeping her off
-the background. It is the only image in the set that answers that question, so a
-daylight or firelit frame does not substitute for it.
+Re-approve it in `outfits.yaml` once it is right.
 
-The last attempt returned a six-panel collage instead. If that happens again it
-is the prompt length talking — the single-image instruction sits at the top and
-bottom with two thousand words of costume-record language in between. Say
-*"one frame, not a contact sheet"* when you paste it.
+**2. The other four turnaround views**, matched against it.
+
+**3. `blaster` and `material-scale`** — the two plates that define the changed
+objects. Once approved these become prop references in their own right.
+
+**4. Everything else**, with all three references attached.
+
+**5. `forest` is still owed a dusk frame.** It came back as a daylight camp, so
+the question the slot exists to answer — does the charcoal costume separate from
+wet forest at dusk — is still open, and it now overlaps `camp_day`. If it returns
+a six-panel collage again, that is the prompt length talking: say *"one frame,
+not a contact sheet"* when you paste it.
 
 ---
 

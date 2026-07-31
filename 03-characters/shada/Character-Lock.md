@@ -76,7 +76,9 @@ recorded revision.
 
 ## Weapons
 
-- Compact blaster.
+- **WESTAR-35 blaster pistol** — the specific in-universe model. Slab-sided,
+  dull silver-steel, brass panels in the slide, worn black grip. Mandalorian
+  manufacture carried by a non-Mandalorian. Her right thigh, drop-leg holster.
 - Well-used combat knife that never leaves her side.
 - Small climbing and infiltration kit.
 - No datapad.

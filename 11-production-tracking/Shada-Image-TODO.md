@@ -109,9 +109,20 @@ building.
 
 ## Do not regenerate
 
-`turn-working-front` (approved), `-left`, `-right`, `-back`, `-natural`, `hero`,
-`scale_figure`, `scale_portrait`, `species_strip`, `expression_strip`, `blaster`,
-`knife`, `utility`, `maintenance`, and all four `material-*`.
+`species_strip`, `expression_strip`, `knife`, `utility`, `scale_portrait`,
+`material-leather`, `material-cloth`, `material-hardware`.
+
+**Superseded by the build — these now need regenerating:**
+
+| Image | Why |
+|---|---|
+| All five `turn-working-*` | Hexagonal plates and the serpent stamp; WESTAR-35 |
+| `blaster` | It is a WESTAR-35 now, not a generic sidearm |
+| `material-scale` | Hexagons with a pressed stamp, not round coins |
+| `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Scale shape and blaster model both visible |
+
+The front turnaround is still the approved reference in `outfits.yaml`. **Redo it
+first**, re-approve it, then everything else matches against the new one.
 
 `species_strip` and `expression_strip` are particularly good — leave them alone.
 

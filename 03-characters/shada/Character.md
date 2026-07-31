@@ -254,11 +254,52 @@ a place in a world where nothing is worn for looks.
 
 | Item | Side | Detail |
 |---|---|---|
-| **Compact blaster** | Her **right thigh** | Drop-leg holster, belt loop and thigh strap, grip up and angled slightly forward. Right-hand draw |
+| **WESTAR-35 blaster pistol** | Her **right thigh** | Drop-leg holster, belt loop and thigh strap, grip up and angled slightly forward. Right-hand draw |
 | **Combat knife** | Her **left hip** | On the belt, grip up. Cross-draw with the right hand |
 
 Her right side carries the gauntlet and the blaster; her left carries the
 shoulder cap, the knife and the thigh patch. **Nothing is mirrored.**
+
+### The blaster — a WESTAR-35
+
+**Confirmed 2026-07-31. The prop is built; the images follow it, not the other
+way round.**
+
+A **WESTAR-35 blaster pistol** — the in-universe model, not a generic sidearm.
+Slab-sided and angular, a brushed bare-metal body in dull silver-steel, with
+**brass panels** let into the top of the slide and at the rear. Squared trigger
+guard, prominent front sight post, a circular vented port through the mid-body,
+and a **black textured grip** chipped and worn through at the contact points.
+
+**Where it came from matters more than what it is.** The WESTAR-35 is Mandalorian
+manufacture — Concordian Crescent Technologies, and the pistol carried by Death
+Watch. On the hip of an Outer Rim mercenary with no Mandalorian connection
+whatsoever, it is exactly what the Design Bible asks every object to be: something
+with **a previous owner and a history nobody explains.** It also quietly serves
+the "subtle *Mandalorian* frontier aesthetic" the Style block already calls for.
+
+*Canon note: worth confirming the manufacturer and Death Watch association against
+your preferred reference before it goes in any public-facing document.*
+
+**Three things the build needs to resolve.**
+
+1. **The blue panel.** The prop carries a saturated blue inset on the side. The
+   Design Bible allows bright colour *"only for rank, warning markings or a
+   significant personal item"* — so it is permissible, but only if it is
+   **deliberately hers**: a mark she applied, knocked back and worn at the edges,
+   not a factory finish. If it stays crisp and clean it fights the palette. If it
+   is not meant to be a personal mark, it should go.
+2. **It is too clean.** Nothing in this galaxy is factory fresh. It needs
+   scratched finish, worn bluing at the contact points, grime in the recesses and
+   at least one visibly replaced component.
+3. **"Compact" is now approximate.** A WESTAR-35 is a full-size sidearm rather
+   than a concealable one. On a small, quick character that reads as a deliberate
+   choice — she carries more gun than her build suggests — but the word *compact*
+   should be understood as *pistol, not rifle*, and the drop-leg holster has to
+   actually fit it.
+
+**Named characters get specific models. Background mercenaries do not** — the
+generic kit stays generic, or every extra becomes a prop build.
 
 See [`09-prompt-library/Handedness-And-Placement.md`](../../09-prompt-library/Handedness-And-Placement.md)
 — the project convention this follows.

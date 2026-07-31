@@ -269,8 +269,12 @@ selected mobility zones — for movement, heat and sensory function, never
 decorative or sexualised, and it is what makes the inherited scales legible.
 Nothing polished, ornamental or factory fresh.
 
-Equipment: compact blaster, well-used combat knife that never leaves her side,
-small climbing and infiltration kit. Nothing else.
+Equipment: a **WESTAR-35 blaster pistol** on her right thigh, a well-used combat
+knife that never leaves her side, and a small climbing and infiltration kit.
+Nothing else. The blaster is Mandalorian manufacture carried by somebody who is
+not Mandalorian — slab-sided and angular, dull silver-steel with brass panels let
+into the slide and a worn black grip. It has had a previous owner and nobody
+explains it.
 
 She is dangerous through precision, patience and observation rather than
 physical dominance. Everything about how she moves, dresses and watches has been
@@ -393,12 +397,22 @@ no engraving, no jewelling.
 ## 9. `blaster.png` — hero prop
 **Square, 1:1.**
 
-Product-reference layout of a compact blaster pistol on a neutral surface, lit
-evenly. Modified for reliability rather than power — replacement components,
-mismatched finish, a field-repaired grip, worn bluing at the contact points.
-Small enough to conceal and draw quickly. Mechanically believable construction
-with visible fasteners and access. No oversized silhouette, no scope, no glowing
-elements, no ornament.
+Product-reference layout of **a WESTAR-35 blaster pistol** on a neutral surface,
+lit evenly, side-on and filling the frame — the specific in-universe model, not a
+generic sidearm.
+
+Slab-sided and angular. A brushed bare-metal body in **dull silver-steel**, with
+**brass panels** let into the top of the slide and at the rear. Squared trigger
+guard, prominent front sight post, a circular vented port through the mid-body,
+and a **black textured grip** worn through and chipped where a hand sits.
+
+Modified for reliability rather than power — replacement components, mismatched
+finish, a field-repaired grip, worn bluing at the contact points. Mechanically
+believable construction with visible fasteners and access.
+
+**Weathered, never factory fresh.** Scratched finish, grime settled in the
+recesses, at least one component plainly newer than the rest. No scope, no
+glowing elements, no ornament.
 
 ## 10. `utility.png` — kit layout
 **Square, 1:1.**

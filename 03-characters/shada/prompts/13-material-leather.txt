@@ -49,7 +49,12 @@ used sparingly. Bright colour only for rank, warning markings or a significant
 personal item.
 
 Lighting motivated by believable sources only: natural sunlight, overcast sky,
-work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+dusk, mist, campfire and firelight, and hand-carried work lamps.
+
+SHADA IS NEVER INDOORS AND NEVER ON A SHIP. Every environment she appears in is
+exterior: wet forest, forest clearing, or the mercenary camp among the trees. No
+corridors, no bulkheads, no control panels, no warning lights, no market stalls,
+no buildings, no crowds.
 
 Camera: naturalistic composition over heroic posing. Restrained colour grade,
 subtle atmospheric haze, realistic depth of field, fine film grain, practical
@@ -157,8 +162,8 @@ Equipment: compact blaster, well-used combat knife that never leaves her side,
 small climbing and infiltration kit. Nothing else.
 
 She is dangerous through precision, patience and observation rather than
-physical dominance. She should look like someone who belongs in a forest even
-when standing inside a starship.
+physical dominance. Everything about how she moves, dresses and watches has been
+shaped by wet forest — she belongs in it, and it shows.
 
 === THIS IMAGE ===
 Extreme close-up macro photograph of a piece of worn reinforced synth-leather,

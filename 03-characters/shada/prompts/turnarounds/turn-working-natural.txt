@@ -39,7 +39,8 @@ Different sizes, different shapes, different ages. NO BREASTPLATE. NO FULL YOKE.
   2. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat. She is small and quick, and the clothes say so.
   3. BARE ARMS AND SHOULDERS, showing the fine inherited scales on her skin at the shoulders, upper arms, forearms, hands, collarbone and neck. No sleeves covering them.
   4. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from HER OWN left and right, not the viewer's. BLASTER: a compact blaster pistol on HER RIGHT THIGH, in a worn drop-leg holster held by a belt loop and a thigh strap, grip upward and angled slightly forward for a right-hand draw. In the holster, not an empty one. KNIFE: a well-used combat knife on HER LEFT HIP, in a secure sheath hanging from the belt, grip upward, positioned for a cross-draw with her right hand. Both weapons present and visible in every view. She is an assassin and a tracker; a costume record without her weapons is incomplete. Nothing is mirrored — she does not carry a matching item on both sides.
-  5. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
+  5. EXTERIOR ONLY. She is never indoors and never on a ship. Every environment is exterior: wet forest, forest clearing, or the mercenary camp among the trees. NO ship corridors, NO bulkheads, NO control panels or warning lights, NO buildings, NO market stalls, NO crowds, NO interiors of any kind. If there is a wall or a ceiling in the image, it is wrong.
+  6. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
@@ -96,7 +97,12 @@ used sparingly. Bright colour only for rank, warning markings or a significant
 personal item.
 
 Lighting motivated by believable sources only: natural sunlight, overcast sky,
-work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+dusk, mist, campfire and firelight, and hand-carried work lamps.
+
+SHADA IS NEVER INDOORS AND NEVER ON A SHIP. Every environment she appears in is
+exterior: wet forest, forest clearing, or the mercenary camp among the trees. No
+corridors, no bulkheads, no control panels, no warning lights, no market stalls,
+no buildings, no crowds.
 
 Camera: naturalistic composition over heroic posing. Restrained colour grade,
 subtle atmospheric haze, realistic depth of field, fine film grain, practical
@@ -229,8 +235,8 @@ Equipment: compact blaster, well-used combat knife that never leaves her side,
 small climbing and infiltration kit. Nothing else.
 
 She is dangerous through precision, patience and observation rather than
-physical dominance. She should look like someone who belongs in a forest even
-when standing inside a starship.
+physical dominance. Everything about how she moves, dresses and watches has been
+shaped by wet forest — she belongs in it, and it shows.
 
 === THIS COSTUME ===
 Infiltration dress — 10, 24, 24A — her only costume
@@ -249,7 +255,8 @@ Different sizes, different shapes, different ages. NO BREASTPLATE. NO FULL YOKE.
   2. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat. She is small and quick, and the clothes say so.
   3. BARE ARMS AND SHOULDERS, showing the fine inherited scales on her skin at the shoulders, upper arms, forearms, hands, collarbone and neck. No sleeves covering them.
   4. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from HER OWN left and right, not the viewer's. BLASTER: a compact blaster pistol on HER RIGHT THIGH, in a worn drop-leg holster held by a belt loop and a thigh strap, grip upward and angled slightly forward for a right-hand draw. In the holster, not an empty one. KNIFE: a well-used combat knife on HER LEFT HIP, in a secure sheath hanging from the belt, grip upward, positioned for a cross-draw with her right hand. Both weapons present and visible in every view. She is an assassin and a tracker; a costume record without her weapons is incomplete. Nothing is mirrored — she does not carry a matching item on both sides.
-  5. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
+  5. EXTERIOR ONLY. She is never indoors and never on a ship. Every environment is exterior: wet forest, forest clearing, or the mercenary camp among the trees. NO ship corridors, NO bulkheads, NO control panels or warning lights, NO buildings, NO market stalls, NO crowds, NO interiors of any kind. If there is a wall or a ceiling in the image, it is wrong.
+  6. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
 
 The attached reference images outrank this text. If nothing was attached, you should not have generated this.
 Deliver a single image at 2:3. It must look photographed, not generated.

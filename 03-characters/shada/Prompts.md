@@ -300,19 +300,30 @@ must be unmistakable at a glance.
 Even flat documentation lighting, no atmosphere, no environment. A reference
 photograph, not a composition.
 
-## 3. `camp_night.png` — Scene 10, the Sabacc game
+## 3. `camp_day.png` — the camp, in daylight
 **Tall portrait, 9:16.**
 
-Shada at the forest mercenary camp at night, lit by a campfire. The rest of the
-crew are playing Sabacc around it — cards, a pile of chips, laughter — and she is
-present but slightly outside it, seated a little back from the fire, watching
-rather than playing. Warm firelight raking across one side of her: it catches the
-metal scale patches and finds the fine scales on her bare arms and at the edge of
-her face. Tarpaulins, crates and tents behind. This is the only warmth in her
-material, and she is at the edge of it.
+**The daylight in-situ reference.** The costume in a real environment, under
+light good enough to read every part of it.
+
+Shada standing in the forest mercenary camp in bright overcast morning light —
+open sky, no deep shadow, no atmosphere obscuring anything. Tents, tarpaulins,
+crates and a dead campfire behind her. She is doing something ordinary: coiling a
+line, checking a strap, about to move off.
+
+Full or three-quarter figure, close enough that **the four scale patches, both
+weapons and the material of every layer are clearly legible**. This is the image
+someone looks at to answer "what does it actually look like out there" — so the
+costume must be readable, not atmospheric.
+
+Bright but not harsh. Soft overcast daylight, the kind that shows texture without
+crushing anything into shadow.
 
 ## 4. `forest.png` — in-environment
 **Tall portrait, 9:16.**
+
+**The dusk in-situ reference — the companion to slot 3.** The same costume in
+low light, where it will actually be shot.
 
 Full-figure shot of Shada moving low through dense wet forest at dusk, weight on
 the balls of her feet, one hand steadying against a trunk. Not running —
@@ -447,7 +458,7 @@ reference — no styling, no arrangement, nothing else in frame.
 |---|---|---|
 | 1 | `hero.png` | 9:16 |
 | 2 | `scale_figure.png` | 3:4 |
-| 3 | `camp_night.png` | 9:16 |
+| 3 | `camp_day.png` | 9:16 |
 | 4 | `forest.png` | 9:16 |
 | 5 | `scale_portrait.png` | 3:4 |
 | 6 | `species_strip.png` | 21:9 |

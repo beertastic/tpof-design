@@ -15,7 +15,7 @@ top of the prompt, then run:
 |---|---|---|---|---|---|
 | `01-hero.txt` | `hero.png` | 9:16 | yes | yes | yes |
 | `02-scale_figure.txt` | `scale_figure.png` | 3:4 | yes | — | yes |
-| `03-camp_night.txt` | `camp_night.png` | 9:16 | yes | yes | yes |
+| `03-camp_day.txt` | `camp_day.png` | 9:16 | yes | yes | yes |
 | `04-forest.txt` | `forest.png` | 9:16 | yes | yes | yes |
 | `05-scale_portrait.txt` | `scale_portrait.png` | 3:4 | yes | — | yes |
 | `06-species_strip.txt` | `species_strip.png` | 21:9 | yes | — | yes |

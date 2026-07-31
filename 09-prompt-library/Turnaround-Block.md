@@ -132,6 +132,26 @@ Where `<outfit>` is a short lowercase label — `working`, `robe`, `shirtsleeves
 
 ---
 
+## Two in-situ images, in two lights
+
+Turnarounds are shot flat and even so the garment is legible. They tell you
+nothing about how it behaves in the light the film is actually made in.
+
+**Every character needs at least two in-situ images:**
+
+| | Light | Purpose |
+|---|---|---|
+| **Daylight** | Bright overcast, open sky, no deep shadow | The costume **readable** in a real environment. Every layer, patch and fitting legible |
+| **Low light** | Dusk, night, firelight | The costume as it will actually be **shot**. Silhouette, separation from background, what survives darkness |
+
+They answer different questions and neither substitutes for the other.
+
+A costume that reads beautifully flat-lit can vanish into a night forest, and one
+that works in firelight can look flat and characterless in daylight. **You only
+find out by looking at both**, and it is much cheaper to find out now.
+
+The daylight image is the reference. The low-light image is the reality check.
+
 ## Order of work
 
 1. **All turnarounds, all outfits.** These are the deliverable.

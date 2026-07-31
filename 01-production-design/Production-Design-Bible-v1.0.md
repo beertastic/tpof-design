@@ -279,6 +279,16 @@ Lighting should always feel motivated by believable sources.
 - Overcast skies
 - Planetary atmospheres
 
+### Two lights for every costume
+
+Every character requires at least two in-situ images: one in **bright overcast
+daylight**, where the costume is fully readable, and one in **low light** — dusk,
+night or firelight — where it will actually be shot.
+
+A costume that reads well flat-lit can disappear into a night forest. One that
+works in firelight can look characterless in daylight. Both must be checked, and
+now is when it is cheap to do so.
+
 ### Interior
 
 - Work lamps

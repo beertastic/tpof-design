@@ -307,7 +307,7 @@ boards:
       y: 10.8
       w: 7.25
       h: 2.6
-    - path: source/artwork/camp_night.png
+    - path: source/artwork/camp_day.png
       x: 5.8
       y: 1.35
       w: 5.15

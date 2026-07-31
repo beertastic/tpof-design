@@ -1,5 +1,5 @@
-[SHADA — SLOT 03 — SCENE 10, THE SABACC GAME]
-Output file: camp_night.png
+[SHADA — SLOT 03 — THE CAMP, IN DAYLIGHT]
+Output file: camp_day.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -226,13 +226,21 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Shada at the forest mercenary camp at night, lit by a campfire. The rest of the
-crew are playing Sabacc around it — cards, a pile of chips, laughter — and she is
-present but slightly outside it, seated a little back from the fire, watching
-rather than playing. Warm firelight raking across one side of her: it catches the
-metal scale patches and finds the fine scales on her bare arms and at the edge of
-her face. Tarpaulins, crates and tents behind. This is the only warmth in her
-material, and she is at the edge of it.
+The daylight in-situ reference. The costume in a real environment, under
+light good enough to read every part of it.
+
+Shada standing in the forest mercenary camp in bright overcast morning light —
+open sky, no deep shadow, no atmosphere obscuring anything. Tents, tarpaulins,
+crates and a dead campfire behind her. She is doing something ordinary: coiling a
+line, checking a strap, about to move off.
+
+Full or three-quarter figure, close enough that the four scale patches, both
+weapons and the material of every layer are clearly legible. This is the image
+someone looks at to answer "what does it actually look like out there" — so the
+costume must be readable, not atmospheric.
+
+Bright but not harsh. Soft overcast daylight, the kind that shows texture without
+crushing anything into shadow.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:

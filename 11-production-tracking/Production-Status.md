@@ -28,7 +28,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | In development | Locked for board review; prompt pack complete. **Killed in the clearing** |
+| Shada | In development | Costume approved. 18/20 images, 4/5 boards. See `Shada-Image-TODO.md`. Killed in the clearing |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
 | Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Death sequence written |

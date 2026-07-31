@@ -7,24 +7,16 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
-BEFORE YOU GENERATE — CHECK THIS FIRST.
+THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET.
 
-Two reference images must be attached to this conversation:
-  1. The APPROVED COSTUME reference for this character.
-  2. The ACTOR reference.
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
 
-IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
-Do not generate anything. Reply with exactly:
-  "No reference images attached. Please attach the approved costume
-   reference and the actor reference, then resend this prompt."
+Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
+this costume is matched against. An error here propagates into all of
+them, so it is worth several attempts to get right.
 
-Do not proceed from the text alone. The written description is not
-sufficient on its own and will produce the wrong costume and the wrong
-face.
-
-THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
-Match the costume, materials, colours, face and build from the attached
-reference exactly. Only the setting, pose and lighting change.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only: a distinct muted skin tone that is clearly not a human complexion, and geometric inked markings across the face. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
   2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
@@ -129,22 +121,85 @@ square-on. Keep every rule about real skin and real materials.
 
 
 === SKIN AND REALISM ===
+Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
+capillaries, stubble, shine where skin is oily and matte where it is not.
+Subsurface scattering at the ears and nostrils. No smoothed, waxy, airbrushed
+or plastic skin. No beauty retouching of any kind.
 
+Faces are asymmetric. Eyes differ slightly, the expression is uneven, nothing
+is mirrored.
+
+Lighting has a direction and a cost. One dominant source with genuine shadow
+and real falloff. No omnidirectional fill, no unmotivated rim light, no glow
+without a source.
+
+Framing is imperfect. Off-centre, unbalanced headroom, something clipped by
+the frame edge or slightly in the way. Not a composed poster.
+
+Detail is not uniform. Real photographs have areas of mush — motion, focus
+falloff, underexposed corners. Do not render every fibre at maximum sharpness.
+
+Nothing is symmetrical, new or clean unless the shot says so.
 
 === CHARACTER ===
-INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+This is a kit, not a person. Four background mercenaries in the Mercenaries
+faction, assembled from one modular system. There is no uniform, nothing is
+issued and nothing matches. Every one of them assembled their own gear over
+years, and that is the faction's entire identity — a crew of self-assembled
+individuals who can afford good equipment looks nothing like a herd of people
+wearing what they were handed.
 
-Generic Mercenary. Reusable background and supporting mercenary design family.
+They are good at this work and it pays well. That money is on their bodies:
+good leather, sound plating, maintained hardware, boots that work, repairs done
+properly with tools rather than by hand in poor light. Everything fits, because
+everything has been adjusted over years. Nothing is factory fresh. Nothing is
+ruined either — that is the difference between this crew and the escapees they
+are hunting.
 
-NEEDS:
+All four are male and all four are right-handed. Weapon and armour placement
+is stated from the wearer's own left and right, never the viewer's.
 
-- Species, age range, gender presentation
-- Build and silhouette — the shape read at distance, in one line
-- Distinguishing physical traits
-- Costume: layers, construction, what is protected and what is exposed, and why
-- Equipment carried, and what is deliberately absent
-- Movement and body language
-- The one sentence that separates them from everyone else in their faction
+THE FOUR BUILDS. No two share a silhouette cue. If two of them read as the
+same person in different clothes, the image has failed.
+
+1. THE WOOKIEE — over two metres, massively built, long shaggy fur in dark
+   iron-grey shot through with rust brown, greying at the muzzle and visibly
+   older. Very little clothing: a broad hand-built ammunition bandolier over one
+   shoulder carrying grenades on the front of it, a narrower utility strap
+   crossing it the other way, a heavy working belt, and salvaged plate strapped
+   over the forearms and one shoulder — oversized, refitted for him. His weapon
+   is a human-sized blaster rifle worn on his right hip like a pistol. Metal
+   rings and beads braided into the fur. He is NOT Chewbacca: not chestnut
+   brown, no bowcaster, and the crossed second strap is his.
+2. THE RIFLE — lean and quick, built around a salvaged long gun on a shoulder
+   sling. The lightest armour of the four: one shoulder pad on his right, the
+   trigger side, and nothing on the chest or shoulders that would foul a stock or
+   stop him going prone. The most pouches of anyone, carried low on hips and
+   thighs. Best boots in the crew. A cap or wrapped head-cloth with goggles
+   pushed up on the forehead. Job tallies notched into the rifle stock.
+3. THE CLOSE ONE — the most actual armour: a segmented chest rig and plates on
+   both forearms, the only figure with armour on both arms. A partial salvaged
+   helmet covering the crown and one side of the face, jaw and other side open —
+   the only headgear in the crew that could be called a helmet. A short weapon on
+   his right hip, never a long gun. No coat. Trophies taken from targets fixed to
+   the helmet and the rig.
+4. THE NEAR-HUMAN — human bone structure, human scale, differing from human in
+   skin colour and markings only: a distinct muted skin tone that is clearly not
+   a human complexion, and geometric inked markings across the face. Achieved
+   in make-up alone — no appliances, no prosthetics, nothing glued on. Bare
+   head so the markings read. The only long coat in the crew, weathered, below
+   the knee, worn open. Belt and braces, nothing across the chest. Small kept
+   objects from a life before this threaded onto the belt. Not serpentine, not
+   scaled, not furred, not large.
+
+Personal marks are the group read. Each carries a different kind of
+decoration and no two are alike: braided into the body, notched into a weapon,
+trophies off other people's gear, kept objects on a belt. Four figures decorating
+themselves the same way would be a uniform by another name.
+
+Performance: competent and unhurried, no military posture, no formation, no
+unit discipline. They are not soldiers and never were. They are racing a city,
+not strolling a wilderness.
 
 === THIS COSTUME ===
 The near-human — 10, 20-23 — the Sabacc game and the pursuit

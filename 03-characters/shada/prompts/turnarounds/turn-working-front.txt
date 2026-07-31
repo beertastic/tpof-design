@@ -7,24 +7,16 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
-BEFORE YOU GENERATE — CHECK THIS FIRST.
+THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET.
 
-Two reference images must be attached to this conversation:
-  1. The APPROVED COSTUME reference for this character.
-  2. The ACTOR reference.
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
 
-IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
-Do not generate anything. Reply with exactly:
-  "No reference images attached. Please attach the approved costume
-   reference and the actor reference, then resend this prompt."
+Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
+this costume is matched against. An error here propagates into all of
+them, so it is worth several attempts to get right.
 
-Do not proceed from the text alone. The written description is not
-sufficient on its own and will produce the wrong costume and the wrong
-face.
-
-THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
-Match the costume, materials, colours, face and build from the attached
-reference exactly. Only the setting, pose and lighting change.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. METAL SCALE ARMOUR — SPORADIC PATCHES, NOT A SUIT AND NOT A MATCHED SET. Individual SIX-SIDED metal plates, each a flat hexagon about the size of a large coin, laced onto a flexible backing and LAID WITH A DELIBERATE OVERLAP so each row laps the one below like fish scales — OVERLAPPED, NEVER TILED EDGE TO EDGE. Countable, physically separate pieces of metal cut from salvaged hull plate. NOT leather, NOT a pattern printed on cloth. EVERY PLATE CARRIES THE SAME SHALLOW PRESSED RELIEF OF A COILED SERPENT. It is a manufacturer's mark stamped into cheap Outer Rim hull plate at the mill — industrial, meaningless, and worn: shallow, softened, grimed in the recesses, partly lost on the oldest plates. NEVER crisp, NEVER engraved, NEVER ornamental. She did not choose it and nobody remarks on it. THE STAMP AND THE SHAPE REPEAT. THE METAL DOES NOT. CRITICAL: it is applied in FOUR SMALL IRREGULAR PATCHES ONLY, all different and all deliberately asymmetric: SIDES ARE FIXED. All positions below are described from HER OWN left and right, not the viewer's. In a front view her right side appears on the viewer's left; in a back view it appears on the viewer's right. (1) A GAUNTLET ON HER RIGHT FOREARM ONLY — the viewer's left in a front view. Overlapping metal scales wrapping the outer forearm from wrist to just below the elbow, held by two worn leather straps and buckles at top and bottom. SHE HAS EXACTLY ONE GAUNTLET, NOT A PAIR. HER LEFT FOREARM IS COMPLETELY BARE — no gauntlet, no bracer, no wrap, no metal of any kind, showing only the fine inherited scales on her skin. If both forearms have metal on them, the image is wrong. (2) A CAP OVER HER LEFT SHOULDER ONLY — the viewer's right in a front view, and the OPPOSITE side to the gauntlet. Her right shoulder is bare. (3) A patch STITCHED FLAT onto the front of the garment over the CENTRE of the sternum — integrated into the vest, lying against it, NOT a hanging bib, NOT a pendant, NOT suspended from the collar. It must read as armour sewn on, not as jewellery. (4) A patch on HER LEFT OUTER THIGH — the viewer's right in a front view, the same side as the shoulder cap. Her right thigh has no metal. THE FOUR PATCHES MUST BE FOUR DIFFERENT METALS. They came from four different scavenging trips and nothing matches: - the FOREARM GAUNTLET is dull grey steel, scratched and the most worn of
   the four — the oldest piece she owns;

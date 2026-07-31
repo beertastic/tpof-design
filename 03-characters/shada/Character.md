@@ -123,10 +123,15 @@ when it was described only as "matte and non-reflective."
 
 | # | Where | Metal | Note |
 |---|---|---|---|
-| 1 | **Gauntlet, one forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **The other forearm is bare.** The oldest piece she owns and the strongest element of the design |
-| 2 | **Cap over one shoulder** | **Brass**, green verdigris in the overlaps | Not both shoulders |
-| 3 | **Patch at the sternum** | **Dark bronze**, almost brown — the darkest | **Stitched flat onto the garment.** Not a hanging bib, not a pendant — that reads as jewellery, which the lock rejects |
-| 4 | **Patch on one outer thigh** | **The newest** — brighter, less worn | Over the trouser. Clearly added later than the rest |
+| 1 | **Gauntlet — her RIGHT forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **Her left forearm is completely bare.** The oldest piece she owns and the strongest element of the design |
+| 2 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the overlaps | The opposite side to the gauntlet. Her right shoulder is bare |
+| 3 | **Patch — centre sternum** | **Dark bronze**, almost brown — the darkest | **Stitched flat onto the garment.** Not a hanging bib, not a pendant — that reads as jewellery, which the lock rejects |
+| 4 | **Patch — her LEFT outer thigh** | **The newest** — brighter, less worn | Same side as the shoulder cap. Her right thigh has no metal |
+
+**Sides are fixed and described from her own left and right**, not the viewer's.
+In a front view her right appears on the viewer's left. The gauntlet and the
+shoulder cap are on **opposite** sides — that diagonal is what makes the
+asymmetry read as accumulated rather than random.
 
 **The four patches must be four different metals.** They came from four different
 scavenging trips over years and nothing matches — that mismatch is the proof

@@ -42,12 +42,16 @@ recorded revision.
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
   - **Coverage — four patches, four different metals, all asymmetric:**
-    - **Gauntlet, one forearm** — dull grey steel, scratched, most worn. Wrist to
-      below elbow, two leather straps and buckles. **Other forearm bare.**
-    - **Cap over one shoulder** — brass, green verdigris in the overlaps.
-    - **Sternum patch** — dark bronze, the darkest. **Stitched flat**, never
-      hanging, never a pendant.
-    - **One outer thigh** — the newest, brighter and less worn.
+    **Sides are fixed, and given from her own left and right.**
+    - **Gauntlet — her RIGHT forearm** — dull grey steel, scratched, most worn.
+      Wrist to below elbow, two leather straps and buckles. **Her left forearm is
+      completely bare — no metal of any kind.**
+    - **Cap — her LEFT shoulder** — brass, green verdigris in the overlaps. The
+      opposite side to the gauntlet. Right shoulder bare.
+    - **Sternum patch — centre** — dark bronze, the darkest. **Stitched flat**,
+      never hanging, never a pendant.
+    - **Her LEFT outer thigh** — the newest, brighter and less worn. Right thigh
+      has no metal.
     **They must not match.** Four scavenging trips, four scraps. **No breastplate,
     no full yoke, no matching pairs of anything.** At most a fifth of the costume
     carries metal.

@@ -6,22 +6,36 @@ updated: "2026-07-31"
 
 # Shada — Finish List
 
-**Status: 20/20 images and 5/5 boards exist, but the build has moved past most of
-them. Re-shoot required.**
+**Status: DESIGN CLOSED 2026-07-31. Documents are the deliverable; images are a
+guide.**
 
-She was complete on 2026-07-31. Two physical builds then landed and superseded
-the images rather than the design:
+Her documents, `outfits.yaml` and all 21 prompts are current and internally
+consistent. The checker is clean and the boards validate.
 
-- **The scale plates are hexagonal and carry a pressed serpent stamp.** Every
-  existing image shows round, unmarked coins.
-- **Her blaster is a WESTAR-35.** Every existing image shows a generic sidearm.
+**The images are deliberately not "finished", and that is the right call.** Every
+generation lands differently, and the build will change again with budget and
+what the supplier actually has. The prompts and the character documents are what
+holds — an image is a guide to the intent, not the intent itself. Regenerate when
+useful, approve what is close enough, and do not chase pixel agreement.
 
-The documents have been updated to follow the built objects, and all 21 prompts
-regenerated. **The images are what is now out of date, not the files.**
+What the build actually needs is settled:
 
-This is the prop-drift problem in the section below, arriving exactly where it
-was predicted: the costume held still across twenty images because it had an
-approved reference, and the props did not.
+- **Three patches** — right forearm gauntlet, left shoulder cap, left thigh. No
+  metal on her torso.
+- **Three different metals** — dull grey steel, brass with verdigris, dark
+  bronze. The mismatch is the point.
+- **Plates 10–15 mm**, regular hexagons, tessellated edge to edge, never
+  overlapped, each carrying a raised snake swirl that varies plate to plate.
+- **Roughly 370 plates.** See `Costume-Build-Method.md` — this is the largest
+  hidden labour item in the costume.
+- **WESTAR-35** on her right side; combat knife on her left hip.
+- **Skin:** a faint scale pattern like a tattoo, ancestry tens of thousands of
+  years back. Reptilian contact lenses are the highest-value make-up item.
+
+Open, non-blocking: photograph the printed WESTAR-35 and add it under
+`references:` in `outfits.yaml` — the entry is there, commented. And run a noise
+test on the first finished patch; she is an infiltrator and 370 hard plates is
+not obviously a quiet garment.
 
 ---
 

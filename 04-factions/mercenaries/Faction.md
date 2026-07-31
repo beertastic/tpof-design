@@ -118,40 +118,55 @@ boots; no two pairs match.
 
 See [`03-characters/generic-mercenary/`](../../03-characters/generic-mercenary/).
 
-## The large mercenary — Wookiee, or not
+## The large mercenary — a Wookiee. DECIDED 2026-07-31
 
-A **Wookiee mercenary** is wanted for the Vala fight (Scene 23): he takes hold of
-her and begins crushing her, she pulls a grenade from his bandolier, he panics
-and drops her, and it detonates.
+**A full Wookiee, and an established member of the crew.** He is in the Sabacc
+game in Scene 10 and on the pursuit, not only in the Vala fight.
 
-**Production concern: likely too expensive.** A convincing Wookiee means a
-full-body suit, a performer with the height, hair maintenance across every
-shooting day, and a build that will not survive a forest.
+That second half is what makes the first half affordable to justify. The analysis
+below concluded that a full Wookiee is *"only worth it if he appears elsewhere in
+the film"* — the decision is to make him appear elsewhere, which satisfies the
+condition rather than ignoring it. It also removes the problem the same analysis
+flagged: a Wookiee who turns up for one fight in the final act reads as
+convenient.
 
-### What the beat needs, and what it does not
+**What it costs.** A full-body suit, a performer with the height, hair
+maintenance across every shooting day he is on, and a build that has to survive a
+forest. Putting him in Scene 10 and the pursuit **increases his shooting days**,
+and the suit and hair maintenance scale with them. That is the price of the beat
+working, and it is now a known cost rather than a discovered one.
 
-The sequence requires **a severe size mismatch**, **a visible bandolier or belt
-with a grenade on it**, and **panic**. It does not require a Wookiee. Anything
-that delivers those three works identically.
+Build him from the modular kit as
+[`generic-mercenary` / `heavy`](../../03-characters/generic-mercenary/outfits.yaml).
 
-### Cheaper options, in ascending order of cost
+### What the beat still needs
 
-| Option | Cost | Note |
+The Vala sequence requires **a severe size mismatch**, **a visible bandolier with
+a grenade on it**, and **panic**. A Wookiee delivers the first for free. The
+second is now the most natural thing he could be wearing — but see the rejection
+below, because it is also the most obvious way to end up with somebody else's
+character.
+
+### He must not be Chewbacca
+
+The bandolier is canonical Wookiee kit, which is exactly the danger: bandolier
+plus Wookiee plus a forest is a silhouette the audience already knows by name.
+
+**He needs to be distinct at a glance** — different fur colour and pattern, a
+different age read, a bandolier of visibly different construction, and **not a
+bowcaster**. He is a working mercenary who assembled his own gear like everyone
+else in this crew, and he can afford good equipment.
+
+### The options that were rejected
+
+Kept for the record, in ascending cost.
+
+| Option | Cost | Why not |
 |---|---|---|
-| A very large human or near-human | Lowest | Casting solves it. Bandolier is not species-specific |
-| Prosthetic face and hands only | Low | A distinct species without a full suit — the Bible favours practical make-up anyway |
-| **Partial Wookiee** | Medium | Never fully seen. Night forest, tight framing, an arm, a torso, a silhouette. A convincing Wookiee *arm* is far cheaper than a Wookiee |
-| Full Wookiee | Highest | Only worth it if he appears elsewhere in the film |
-
-**Recommendation:** if the Wookiee is wanted for its own sake, the partial version
-is the honest compromise — the fight happens in a forest, at distance from the
-clearing, and the audience needs an impression rather than a character. If he is
-only in this one sequence, a large mercenary costs nothing extra and loses very
-little.
-
-**Decision needed before casting.** If a Wookiee is in the crew he should appear
-earlier — the camp, the Sabacc game, the briefing — or his sudden arrival in the
-final act reads as convenient.
+| A very large human or near-human | Lowest | Casting solves the beat, but gives the crew no non-human presence at the fire |
+| Prosthetic face and hands only | Low | Cheaper distinct species, but does not deliver the size mismatch |
+| Partial Wookiee — never fully seen | Medium | The honest compromise **if he only appeared in Scene 23.** He does not |
+| **Full Wookiee** | Highest | **Chosen.** Justified by his presence across Scene 10 and the pursuit |
 
 ## The pursuit is a race
 

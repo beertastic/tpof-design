@@ -73,19 +73,28 @@ cut and how they are worn.
 
 Proposed. The classes above are the system; these are one valid assembly of it.
 
-### 1. The large one — `heavy`
+### 1. The Wookiee — `heavy`
 
-The Wookiee candidate, and the only one of the four with a plot requirement.
+**Decided 2026-07-31: a full Wookiee, and an established member of the crew.** He
+is at the Sabacc game and on the pursuit, not only in the Vala fight. See
+[`Faction.md`](../../04-factions/mercenaries/Faction.md) for the cost and the
+reasoning.
 
-**What the beat needs:** a severe size mismatch against Vala, **a visible
-bandolier or belt with a grenade on it**, and panic. It does not need a Wookiee —
-see the faction guide for the cost ladder.
+He is the only one of the four with a plot requirement. The beat needs a severe
+size mismatch against Vala, **a grenade on a bandolier where a held person can
+reach it**, and panic. A Wookiee gives the size for free, and the grenade must be
+legible **in Scene 10**, ten scenes before Vala takes it, or the payoff plays as
+convenient.
 
-Built here as a **very large human or near-human**: the cheapest option that
-delivers all three, and the one that survives a forest shoot. Heaviest plating of
-the four, most physical presence, least agility. The grenade must be legible on
-his belt **in the Sabacc scene**, ten scenes before Vala reaches for it, or the
-moment plays as convenient.
+**He must not be Chewbacca.** Bandolier plus Wookiee plus forest is a silhouette
+the audience already knows by name, and the bandolier is not optional here. So
+the distinction has to come from everything else: a different fur colour and
+pattern, a different age read, a bandolier of visibly different construction, and
+**no bowcaster**. He assembled his own kit like everyone else in this crew and he
+can afford good equipment — that is what separates him from a reference.
+
+Beyond the fur he carries the heaviest gear of the four, and the least of it is
+clothing.
 
 ### 2. The rifle — `ranged`
 
@@ -95,26 +104,42 @@ stock, nothing on the chest that stops him going prone.
 
 ### 3. The close one — `armoured`
 
-Most plating, shortest weapon, built for the clearing rather than the chase.
-Heavy at the chest and forearms, and the only one wearing anything on the head
-that could be called a helmet — partial, salvaged, and clearly not issued.
+**The most actual armour of the four** — the Wookiee is bigger but mostly fur,
+and carries plate only on his forearms and one shoulder. This one has a segmented
+chest rig and plates on both arms.
 
-### 4. The non-human — `alien`
+Shortest weapon, built for the clearing rather than the chase, and the only one
+wearing anything on the head that could be called a helmet — partial, salvaged,
+and clearly not issued.
 
-**One of the four is a distinctly non-human species**, and their kit is cut for a
-body that is not human. That is what proves this crew found each other rather
-than being recruited: different anatomy, same standard of gear.
+### 4. The second non-human — `alien`
 
-Species is an open question. Whatever is chosen it must work as **practical
-make-up and silhouette rather than a full creature build** — the Bible favours
-practical solutions, and a background extra cannot carry a prosthetic budget.
+A second non-human species, and their kit is cut for a body that is not human.
+Two different species in four figures is what proves this crew found each other
+rather than being recruited: different anatomy, same standard of gear.
+
+Species is an open question, with three constraints now that the Wookiee is
+confirmed:
+
+- **Practical make-up and silhouette, not a full creature build.** The Bible
+  favours practical solutions, the budget is already carrying one full suit, and
+  a background extra cannot carry a second.
+- **Not large and not furred.** That read belongs to the Wookiee. This one should
+  be closer to human scale and clearly a different *kind* of non-human.
+- **Not serpentine and not scaled.** That language is Shada's and duplicating it
+  weakens hers.
 
 ## Species mix
 
-Human and near-human baseline, with **one distinctly non-human** among the four.
-Draw on the established Star Wars alien population: mercenary work in the Outer
+**Two non-humans among the four**: the Wookiee, and one other species that shares
+none of his physical language. The remaining two are human or near-human.
+
+Draw on the established Star Wars alien population — mercenary work in the Outer
 Rim is not a human profession, and an all-human crew of ten would be the odd
 thing to have to explain.
+
+The crew now reads as genuinely mixed at the fire in Scene 10, which is the
+single frame that has to sell the faction.
 
 ## Handedness
 
@@ -183,11 +208,15 @@ Scenes **10, 20–23, 24**. See
 
 ## Open Questions
 
-- **What species is the non-human?** It needs to work in practical make-up, read
-  at distance by firelight, and not duplicate Shada's serpentine language.
-- **Is the large one a partial Wookiee or a large near-human?** Decision needed
-  before casting. If a Wookiee is in the crew he must appear in Scene 10, or his
-  arrival in the final act reads as convenient.
+- **What species is the second non-human?** It needs to work in practical
+  make-up, read at distance by firelight, and share nothing with either the
+  Wookiee (large, furred) or Shada (serpentine, scaled).
+- ~~Is the large one a partial Wookiee or a large near-human?~~ **Decided
+  2026-07-31: a full Wookiee, established in the crew from Scene 10.**
+- **What does the Wookiee carry instead of a bowcaster?** The obvious weapon is
+  the one that makes him a reference rather than a character.
+- **Does his fur survive the forest schedule?** Hair maintenance scales with
+  shooting days, and putting him in Scene 10 and the pursuit added days.
 - Do any of the four have a visible relationship in the Sabacc scene? Nyx wins
   the pot off *somebody*.
 - Are the two who die with the grenade the two we spent most time on earlier, or

@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE LARGE ONE — RIGHT SIDE]
+[GENERIC MERCENARY — TURNAROUND — THE WOOKIEE — RIGHT SIDE]
 Output file: turn-heavy-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
@@ -26,10 +26,12 @@ THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
 Match the costume, materials, colours, face and build from the attached
 reference exactly. Only the setting, pose and lighting change.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. SEVERE SIZE MISMATCH. He is substantially larger than every other figure in the crew — taller and much heavier. If he reads as merely a big man rather than the biggest thing in the frame, the Vala fight does not work.
-  2. GRENADES ON A CHEST BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. A broad leather bandolier across the chest with at least two grenades seated on the FRONT of it at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, not implied and not hidden under a coat.
-  3. HEAVIEST PLATING OF THE FOUR, BUT NEVER A FULL SET. A salvaged chest plate and forearm guards. Legs, shoulders and back are cloth and leather. No full armour suit, no matching pieces, nothing that reads as issued.
-  4. HE IS RIGHT-HANDED. A heavy blaster pistol on HIS RIGHT HIP, in a worn holster. Nothing mirrored — no matching item on both sides.
+  1. A WOOKIEE. Over two metres, massively built, covered in long shaggy fur. He must be substantially larger than every other figure in the crew — if he reads as merely a big man, the Vala fight does not work.
+  2. HE IS NOT CHEWBACCA. Bandolier plus Wookiee plus forest is a silhouette the audience already knows by name, so everything else must separate him: DARK IRON-GREY FUR SHOT THROUGH WITH RUST BROWN, greying at the muzzle, clearly an older animal. NOT the warm chestnut brown of the known character. NO BOWCASTER — his weapon is a salvaged heavy blaster, not the weapon the audience is expecting. His bandolier is broad, thick and obviously hand-built, not a neat woven strap.
+  3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, never implied and never covered.
+  4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+  5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a Wookiee-sized limb. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+  6. HE IS RIGHT-HANDED. A heavy blaster on HIS RIGHT HIP. Nothing mirrored — no matching item on both sides.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
@@ -143,16 +145,18 @@ NEEDS:
 - The one sentence that separates them from everyone else in their faction
 
 === THIS COSTUME ===
-The large one — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
+The Wookiee — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
 
-The biggest person in the crew by a clear margin — the size mismatch is the whole reason this build exists. Heaviest plating of the four: a salvaged chest plate over a padded work coat, thick forearm guards, reinforced trousers, heavy boots with the most wear of anyone's. A broad leather bandolier across the chest carrying ammunition and, on the front of it where a hand could reach, GRENADES. Bare head, weathered, a heavy beard or none. Slow, planted, physically confident. Everything about him says he stops things rather than chases them. Good gear, well maintained, none of it matching anyone else's.
+A Wookiee, and an established member of the crew — decided 2026-07-31, see the faction guide. Standing well over two metres and the biggest thing in any frame he is in. Long shaggy fur in a dark iron-grey shot through with rust brown, greying at the muzzle and across one shoulder where an old injury healed badly. He is not young. Very little clothing: a broad, heavily built leather bandolier over one shoulder carrying ammunition and grenades, a second narrower utility strap crossing it the other way, a thick working belt with tools and pouches, and salvaged plate strapped over the forearms and one shoulder. Everything he carries is oversized because it was made or refitted for him. Slow, planted, physically certain. He stops things rather than chasing them.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. SEVERE SIZE MISMATCH. He is substantially larger than every other figure in the crew — taller and much heavier. If he reads as merely a big man rather than the biggest thing in the frame, the Vala fight does not work.
-  2. GRENADES ON A CHEST BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. A broad leather bandolier across the chest with at least two grenades seated on the FRONT of it at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, not implied and not hidden under a coat.
-  3. HEAVIEST PLATING OF THE FOUR, BUT NEVER A FULL SET. A salvaged chest plate and forearm guards. Legs, shoulders and back are cloth and leather. No full armour suit, no matching pieces, nothing that reads as issued.
-  4. HE IS RIGHT-HANDED. A heavy blaster pistol on HIS RIGHT HIP, in a worn holster. Nothing mirrored — no matching item on both sides.
+  1. A WOOKIEE. Over two metres, massively built, covered in long shaggy fur. He must be substantially larger than every other figure in the crew — if he reads as merely a big man, the Vala fight does not work.
+  2. HE IS NOT CHEWBACCA. Bandolier plus Wookiee plus forest is a silhouette the audience already knows by name, so everything else must separate him: DARK IRON-GREY FUR SHOT THROUGH WITH RUST BROWN, greying at the muzzle, clearly an older animal. NOT the warm chestnut brown of the known character. NO BOWCASTER — his weapon is a salvaged heavy blaster, not the weapon the audience is expecting. His bandolier is broad, thick and obviously hand-built, not a neat woven strap.
+  3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, never implied and never covered.
+  4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+  5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a Wookiee-sized limb. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+  6. HE IS RIGHT-HANDED. A heavy blaster on HIS RIGHT HIP. Nothing mirrored — no matching item on both sides.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

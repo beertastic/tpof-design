@@ -52,8 +52,10 @@ Plus **the akk dog**, which goes wherever Jasu goes.
 Four background mercenaries, built from the Generic Mercenary modular kit. Two
 die with the grenade, two in the clearing.
 
-**One of them is the large mercenary who crushes Vala** — the Wookiee candidate.
-See the faction document for the cheaper options.
+**One of them is the Wookiee** — the large mercenary who crushes Vala. Decided
+2026-07-31: a full Wookiee and an established member of the crew, present at the
+Sabacc game and on the pursuit rather than appearing only for the fight. See the
+faction document for the cost and the do-not-be-Chewbacca rule.
 
 ## How the crew splits
 
@@ -76,7 +78,7 @@ If the budget allows extras on exactly one day, make it this one.
 | Nyx | Leads the squad. **Survives**, dazed |
 | Loryl | Killed |
 | Reya Fenn | Killed |
-| Extra — the large mercenary | Killed. Vala takes the grenade from his belt |
+| Extra — the Wookiee | Killed. Vala takes the grenade from his bandolier |
 | Extra | Killed |
 
 **Vala's grenade accounts for four.** Within the intended three-to-five range.
@@ -135,8 +137,10 @@ Survivors                      1   (Baylan)
 - Confirm exact YT-2000 dimensions against production reference before the
   exterior is locked.
 - The ship has no name or registry.
-- Is the large mercenary a Wookiee? See
-  [`Faction.md`](Faction.md).
+- ~~Is the large mercenary a Wookiee?~~ **Decided 2026-07-31: yes, and an
+  established member of the crew.** See [`Faction.md`](Faction.md).
+- Does the Wookiee's presence at the Sabacc game change the shooting schedule for
+  Scene 10? His suit and hair maintenance scale with the days he is on.
 - Have any named crew been missed from the clearing?
 - Does the akk dog count against ship capacity? It is a large animal on a small
   freighter, which is its own design problem — where does it live?

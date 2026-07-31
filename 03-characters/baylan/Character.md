@@ -167,9 +167,7 @@ lights swishing"* and Scene 12 as *"a hazy vision"* — take both literally.
 Consequently **no injury is designed in** from the dune, and no event needs
 depicting. There is nothing to answer.
 
-## The Two Visions
-
-**The girl screaming in Scene 4 is Shin.**
+### The girl screaming in Scene 4 is Shin
 
 Baylan's vision and Shin's vision are the same vision, seen from opposite ends.
 He has been hearing a girl scream for eighteen years without knowing who she is;
@@ -179,7 +177,7 @@ The loop closes in the clearing. **The scream that has haunted him since the
 purge is the one she makes when her mother dies** — which means he has spent
 eighteen years being haunted by the sound of the moment he finally stops hiding.
 
-### Consequences
+#### Consequences
 
 - **His Scene 4 vision is not purely memory.** It is Order 66 — red and green
   blades, blaster fire — with a sound from eighteen years in the future laid

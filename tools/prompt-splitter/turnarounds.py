@@ -149,8 +149,16 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     ref_path = approved.get("reference")
     ref_view = approved.get("view", "front")
     gate = bool(ref_path) and view_id != ref_view
-    ref_note = (f"[for the operator, not the model: attach {ref_path}]"
-                if gate else "")
+    # Approved material and prop plates attach to EVERY view, including the one
+    # that creates the costume reference — the material is already locked even
+    # when the costume is not.
+    cdir = outfit.get("_dir", character)
+    extra = [f"[for the operator, not the model: also attach "
+             f"03-characters/{cdir}/{r['path']} — {r['what']}]"
+             for r in (outfit.get("references") or [])]
+    ref_note = "\n".join(
+        ([f"[for the operator, not the model: attach {ref_path}]"] if gate else [])
+        + extra)
     must = outfit.get("must_show") or []
     must_block = ""
     if must:
@@ -192,9 +200,9 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win." if gate else None,
         "Match the costume, materials, colours, face and build from the attached" if gate else None,
         "reference exactly. Only the setting, pose and lighting change." if gate else None,
-        "" if gate else None,
-        ref_note if gate else None,
-        "" if gate else None,
+        "" if ref_note else None,
+        ref_note if ref_note else None,
+        "" if ref_note else None,
         # No reference yet: this prompt IS the one that creates it.
         "THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET."
         if not gate else None,
@@ -285,6 +293,7 @@ def run(repo: Path, character: str) -> int:
     rows = []
     for outfit in outfits:
         outfit["_handedness"] = cfg.get("handedness")
+        outfit["_dir"] = character
         views = VIEWS + [("natural", "NATURAL POSE", "")]
         for view_id, view_name, view_desc in views:
             path = outdir / f"turn-{outfit['id']}-{view_id}.txt"

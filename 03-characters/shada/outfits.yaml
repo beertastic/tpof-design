@@ -16,6 +16,13 @@ outfits:
       view: front
       reference: 03-characters/shada/source/artwork/turn-working-front.png
       note: "Front view locked. Match this for all other views"
+
+    # Approved reference PLATES. Attached alongside the costume reference so the
+    # material and the props stop being redrawn from words every time. This is
+    # the prop lock recorded in 11-production-tracking/Shada-Image-TODO.md.
+    references:
+      - path: source/artwork/material-scale.png
+        what: the scale plates, their finish and how the panel is assembled
     must_show:
       - >
         SCALE ARMOUR — SPORADIC PATCHES, NOT A SUIT AND NOT A MATCHED SET.
@@ -94,7 +101,8 @@ outfits:
         right, not the viewer's. In a front view her right side appears on the
         viewer's left; in a back view it appears on the viewer's right.
         (1) A GAUNTLET ON HER RIGHT FOREARM ONLY — the viewer's left in a front
-        view. Overlapping metal scales wrapping the outer forearm from wrist to
+        view. Hexagonal plates TESSELLATED EDGE TO EDGE — never shingled and never
+        lapped — wrapping the outer forearm from wrist to
         just below the elbow, held by two worn leather straps and buckles at top
         and bottom. SHE HAS EXACTLY ONE GAUNTLET, NOT A PAIR. HER LEFT FOREARM IS
         COMPLETELY BARE — no gauntlet, no bracer, no wrap, no metal of any kind,

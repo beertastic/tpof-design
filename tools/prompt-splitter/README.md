@@ -51,6 +51,25 @@ Assembles only the blocks each slot needs:
 
 Only characters with `status: ready` are processed.
 
+## Reference plates — `references:`
+
+An outfit can name approved plates that get attached alongside the costume
+reference:
+
+```yaml
+references:
+  - path: source/artwork/material-scale.png
+    what: the scale plates, their finish and how the panel is assembled
+```
+
+Every turnaround view then carries an operator line naming that file. Unlike the
+costume reference, these attach to the **front view too** — the material can be
+locked before the costume is, and usually should be, because a material plate is
+a far easier image to get right than a full figure.
+
+This is the prop lock recorded in `11-production-tracking/Shada-Image-TODO.md`,
+in its minimal form. Words cannot hold a silhouette; only an image can.
+
 ## Rules
 
 `outfits.yaml` and `Prompts.md` are the sources of truth. **Do not edit the
@@ -79,6 +98,19 @@ particular image adds.
 Symptom to watch for: a rule that is stated emphatically and ignored
 consistently. That is almost never the model failing to read it. Search the slot
 body for the thing it is being told not to do.
+
+### The checker cannot see inside `must_show`
+
+It compares prose against the rules. It does **not** compare the rules against
+each other, and a long `must_show` block can contradict itself.
+
+That happened: the scale rule said TESSELLATED, NOT OVERLAPPED, and four hundred
+words later the gauntlet placement rule still said "Overlapping metal scales
+wrapping the outer forearm". Both in the same list, both hoisted to the top of
+every prompt. The gauntlet came back shingled.
+
+**When you invert a rule, grep the whole `must_show` for the old word**, not just
+the paragraph you edited.
 
 ### `consistency.py` now checks this automatically
 

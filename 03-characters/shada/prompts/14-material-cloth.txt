@@ -131,55 +131,55 @@ technical cloth, worn leather, repaired matte hardware.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
-She wears armour made of individual six-sided metal plates — each a flat
-hexagon about the width of two fingers — laced and riveted onto a flexible
-leather-and-fabric backing and set edge to edge, each plate separate, with a
-narrow visible gap between it and its neighbours showing the dark backing
-through. Regular equilateral hexagons, all the same shape and size.
+THE PLATE — THIS IS THE BUILT OBJECT. MATCH IT.
 
-EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
-a teardrop, not a fish scale.
+A flat six-sided plate about the width of two fingers. A regular equilateral
+hexagon with six straight sides and slightly soft, rounded, uneven edges — cut
+and cast by hand, never machine-crisp. Not round, not a coin, not a teardrop,
+not a fish scale.
 
-TESSELLATED, NOT OVERLAPPED. The plates do not lap over one another. No
-shingling, no layering, no rows lapping the row below — a single flat plane of
-hexagons meeting edge to edge. The flex comes from the gaps and the lacing.
+Surface: rough and pitted, like sand-cast or corroded metal. A shallow raised
+lip runs around the rim of each plate. Dark iron-grey, almost black, going to
+pale worn silver on the raised edges where it has been handled. Matte, never
+bright, never polished.
 
-IT MUST NOT READ AS TECHNOLOGY. Regular hexagons meeting edge to edge is
-also the shape of carbon fibre, machined hex panelling and energy shielding, and
-that is this design's failure mode. No frames, no bezels, no channels or
-raised borders around the plates. No carbon weave, no composite, no glowing
-elements, no polished or moulded surfaces, no two plates finished alike. This
-is scrap cut into hexagons by hand and laced on, and the worn salvaged finish
-is the only thing separating it from a tech panel — mismatched oxidised alloys,
-scratches, grime in the seams, uneven patina, stamps worn away at different
-rates.
-The individual plates are clearly visible and countable: real metal, never a
-texture, never a pattern printed on leather.
+The serpent is RAISED, not stamped into the surface. A single snaking line
+stands proud of the face of each plate — a soft, worn, rounded ridge in the
+shape of a small coiled snake, catching light along its top edge. It is not
+engraved, not incised, not a recessed stamp.
 
-Every plate carries the same shallow pressed relief of a coiled serpent. It
-is a manufacturer's mark, stamped into cheap Outer Rim hull plate at the mill
-long before anyone cut it up — the sort of thing nobody reads, like the maker's
-name on a drain cover. Industrial and meaningless: shallow, pressed rather than
-engraved, softened by wear, grimed in the recesses, partly lost on the oldest
-plates. Never crisp, never ornamental, never jewellery. She did not choose
-serpents — the galaxy stamps them on scrap and she happens to be part-serpent,
-and nobody remarks on it.
+The serpent varies from plate to plate. Every plate carries the same motif
+but no two are identical — the curl sits differently, the line runs thicker or
+thinner, some are nearly worn away. It is a common manufacturer's mark from cheap
+Outer Rim plate, and every mill, batch and worn die renders it a little
+differently. She did not choose it, and nobody remarks on it.
 
-The plates are cut from salvaged hull plate rather than forged as armour:
-offcuts and machine panel, mismatched alloys sitting side by side and oxidising
-at different rates — brass, bronze, dull steel, olive-green verdigris, patches of
-rust. The shape and the stamp repeat; the metal never does. Sections have
-plainly been replaced over the years.
+Two small lacing holes per plate, punched near opposite edges, for the cord
+or wire that fixes it to the backing. The holes are visible.
 
-Metallic but never bright: dulled, oxidised, scratched, weathered to a low sheen,
-catching light in small dull glints across many facets rather than reflecting.
+Four patches, four different materials. Mismatched salvaged alloys — dull
+grey steel, brass with green verdigris, dark bronze — and one patch may be
+hardened hide cut to the same hexagon rather than metal. Whatever it is cut
+from, every plate is a discrete, countable, physically separate piece. Never
+an embossed or printed pattern on a continuous leather panel, never a texture,
+never a pattern on cloth. Leather plates carry the serpent only faintly or not at
+all — a mill mark belongs in metal.
 
-It covers a panel across the front of her torso, caps over both shoulders, and
-the outer forearms. It moves like heavy cloth rather than plate.
+TESSELLATED, NOT OVERLAPPED. The plates sit edge to edge, each separate, with
+a narrow visible gap between it and its neighbours showing the dark backing
+through. They do not lap over one another — no layering, no shingling, a single
+flat plane. The flex comes from the gaps and the lacing.
 
-DO NOT make this leather. DO NOT make it an embossed or printed scale pattern.
-DO NOT make it forged, matched or ceremonial armour. It is scrap metal, cut small
-and laced on.
+IT MUST NOT READ AS TECHNOLOGY. Regular hexagons meeting edge to edge is also
+the shape of carbon fibre, machined hex panelling and energy shielding, and that
+is this design's failure mode. No frames, no bezels, no channels around the
+plates, no carbon weave, no composite, no glowing elements, no polished or
+moulded surfaces, no two plates finished alike. This is scrap cut into hexagons
+by hand and laced on, and the worn salvaged finish is the only thing
+separating it from a tech panel.
+
+The shape and the motif repeat. The material and the finish do not.
+
  Practical harness, belt,
 sheath, concealed holster. Functional exposed skin at shoulders, upper arms and
 selected mobility zones — for movement, heat and sensory function, never

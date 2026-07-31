@@ -48,7 +48,7 @@ recorded revision.
     does.**
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
-  - **Coverage — four patches, four different metals, all asymmetric:**
+  - **Coverage — four patches, four different materials, all asymmetric:**
     **Sides are fixed, and given from her own left and right.**
     - **Gauntlet — her RIGHT forearm** — dull grey steel, scratched, most worn.
       Wrist to below elbow, two leather straps and buckles. **Her left forearm is

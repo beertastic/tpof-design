@@ -62,17 +62,28 @@ So the rule for the paint shop is precise:
 
 | Must repeat | Must never repeat |
 |---|---|
-| The hexagonal shape | The alloy |
-| The serpent stamp | The finish, age and state of wear |
+| The hexagonal shape | The material |
+| The serpent motif | The finish, age and state of wear |
+| | The exact form of the serpent |
 
 **Regular shape, irregular material.** One print file is correct and expected;
 one finish across all four patches is not. The four patches came off four
 different scavenging trips and must read as four different metals — dull grey
 steel, brass with verdigris, dark bronze, and a newer brighter patch.
 
-The stamp itself must be finished as **worn industrial**: grimed in the recesses,
-softened, partly lost on the oldest patch. If it comes out crisp and clean on
-every plate it reads as jewellery, and the costume says somebody made it for her.
+**The serpent is raised, not incised**, so it wears from the top down — the ridge
+goes flat and pale where the plate has been handled, and nearly disappears on the
+oldest patch. If it comes out crisp and identical on every plate it reads as
+jewellery, and the costume says somebody made it for her.
+
+**No two serpents should be identical.** The samples already vary, which is
+correct and worth preserving: one die used once would produce a matched set, and
+the story is four scavenging trips. Different mills, different batches, different
+worn dies.
+
+**One patch may be hardened hide rather than metal**, cut to the same hexagon.
+Leather plates carry the serpent faintly or not at all — a mill mark belongs in
+metal, and its absence is evidence of where that plate came from.
 
 ### Printed scale must not fight the backing
 

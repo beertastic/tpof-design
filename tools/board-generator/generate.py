@@ -131,6 +131,26 @@ def validate(repo: Path, character_dir: Path, config: dict[str, Any], selected: 
                     errors.append(f"{board_name}: unreadable image {rel}: {exc}")
         if not board.get("sections"):
             errors.append(f"{board_name}: no text sections")
+
+        # Later elements paint over earlier ones, so overlaps silently hide content.
+        boxes = ([(i.get("x"), i.get("y"), i.get("w"), i.get("h"), "image " +
+                   str(i.get("path", "")).split("/")[-1])
+                  for i in board.get("images", [])]
+                 + [(sec.get("x"), sec.get("y"), sec.get("w"), sec.get("h"),
+                     "panel " + str(sec.get("heading", "")))
+                    for sec in board.get("sections", [])])
+        for a in range(len(boxes)):
+            for c in range(a + 1, len(boxes)):
+                ax, ay, aw, ah, an = boxes[a]
+                bx, by, bw, bh, bn = boxes[c]
+                if None in (ax, ay, aw, ah, bx, by, bw, bh):
+                    continue
+                ox = min(ax + aw, bx + bw) - max(ax, bx)
+                oy = min(ay + ah, by + bh) - max(ay, by)
+                if ox > 0.02 and oy > 0.02:
+                    errors.append(
+                        f"{board_name}: {an} overlaps {bn} by "
+                        f"{ox:.2f} x {oy:.2f} in — the later one will hide it")
     for rel in config.get("governing_documents", []):
         target = (character_dir / rel).resolve()
         if not target.exists():

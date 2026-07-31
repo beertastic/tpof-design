@@ -158,24 +158,12 @@ boards:
       x: 16.95
       y: 5.8
       w: 5.95
-      h: 4.3
+      h: 5.25
     sections:
-    - heading: LAYER SYSTEM
-      x: 16.95
-      y: 10.3
-      w: 5.95
-      h: 4.75
-      font_size: 11.5
-      items:
-      - Flexible scale-textured undersuit
-      - Breathable base layer
-      - Crossed harness and sporadic scale patches
-      - Close fitting and cut to the figure
-      - Quiet wraps and lightweight boots
     - heading: CONSTRUCTION RULES
       x: 0.45
       y: 11.3
-      w: 7.25
+      w: 5.323
       h: 4.4
       items:
       - Buildable seams and fasteners
@@ -183,10 +171,11 @@ boards:
       - Asymmetry remains functional
       - No snagging or rattling components
       - Repairs and replacements remain visible
+      font_size: 10.5
     - heading: EXPOSED SKIN PURPOSE
-      x: 7.9
+      x: 6.173
       y: 11.3
-      w: 7.25
+      w: 5.323
       h: 4.4
       items:
       - Freedom of movement
@@ -194,18 +183,31 @@ boards:
       - Sensory function
       - Makes inherited scales legible
       - Arms and shoulders always bare
+      font_size: 10.5
     - heading: FABRICATION NOTES
-      x: 15.35
+      x: 11.895
       y: 11.3
-      w: 7.55
+      w: 5.323
       h: 4.4
-      font_size: 11.7
+      font_size: 10.5
       items:
       - Matte and low-noise surfaces
       - Four patches four different metals
       - Test harness during crouch and climb
       - Knife and holster remain reachable
       - Weathering follows contact and repair history
+    - heading: LAYER SYSTEM
+      x: 17.618
+      y: 11.3
+      w: 5.323
+      h: 4.4
+      font_size: 10.5
+      items:
+      - Flexible scale-textured undersuit
+      - Breathable base layer
+      - Crossed harness and sporadic scale patches
+      - Close fitting and cut to the figure
+      - Quiet wraps and lightweight boots
   weapons:
     label: BOARD 03
     title: WEAPONS & EQUIPMENT BOARD
@@ -286,25 +288,25 @@ boards:
       w: 5.15
       h: 9.2
     - path: source/artwork/maintenance.png
-      x: 5.8
-      y: 1.35
-      w: 5.15
-      h: 9.2
-    - path: source/artwork/forest.png
       x: 11.15
       y: 1.35
       w: 5.15
       h: 9.2
-    - path: source/artwork/expression_strip.png
+    - path: source/artwork/forest.png
       x: 16.5
       y: 1.35
-      w: 6.4
-      h: 3.5
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/expression_strip.png
+      x: 0.45
+      y: 10.8
+      w: 7.25
+      h: 2.6
     - path: source/artwork/species_strip.png
-      x: 16.5
-      y: 5.05
-      w: 6.4
-      h: 2.45
+      x: 8.35
+      y: 10.8
+      w: 7.25
+      h: 2.6
     - path: source/artwork/camp_night.png
       x: 5.8
       y: 1.35
@@ -312,11 +314,11 @@ boards:
       h: 9.2
     sections:
     - heading: MOVEMENT PRINCIPLES
-      x: 16.5
-      y: 7.75
-      w: 6.4
-      h: 2.8
-      font_size: 11
+      x: 0.45
+      y: 13.6
+      w: 5.322
+      h: 2.1
+      font_size: 9.5
       items:
       - Economical and controlled
       - Low profile and quiet footwork
@@ -324,33 +326,35 @@ boards:
       - Predatory never theatrical
       - Uses terrain shadow and distance
     - heading: ACTOR NOTES
-      x: 0.45
-      y: 10.8
-      w: 7.25
-      h: 4.9
+      x: 6.173
+      y: 13.6
+      w: 5.322
+      h: 2.1
       items:
       - Breathe low and quiet
       - Scan before speaking
       - Shift weight onto the balls of the feet
       - Avoid military posture
       - Warmth appears only around the crew
+      font_size: 9.5
     - heading: FACIAL LANGUAGE
-      x: 7.9
-      y: 10.8
-      w: 7.25
-      h: 4.9
+      x: 11.895
+      y: 13.6
+      w: 5.322
+      h: 2.1
       items:
       - Neutral alertness
       - Suspicion without panic
       - Focused assessment
       - Protective toward the helpless
       - Cold lethal calm toward the hunted
+      font_size: 9.5
     - heading: SPECIES TREATMENT
-      x: 15.35
-      y: 10.8
-      w: 7.55
-      h: 4.9
-      font_size: 11.7
+      x: 17.617
+      y: 13.6
+      w: 5.322
+      h: 2.1
+      font_size: 9.5
       items:
       - Scale texture at the edges of the face only
       - Temples cheekbone jawline neck behind the ear
@@ -367,23 +371,23 @@ boards:
     - path: source/artwork/material-scale.png
       x: 0.45
       y: 1.35
-      w: 3.4
-      h: 3.4
+      w: 2.72
+      h: 2.72
     - path: source/artwork/material-leather.png
-      x: 4.05
+      x: 3.37
       y: 1.35
-      w: 3.4
-      h: 3.4
+      w: 2.72
+      h: 2.72
     - path: source/artwork/material-cloth.png
       x: 0.45
-      y: 3.6
-      w: 3.4
-      h: 3.4
+      y: 4.27
+      w: 2.72
+      h: 2.72
     - path: source/artwork/material-hardware.png
-      x: 4.05
-      y: 3.6
-      w: 3.4
-      h: 3.4
+      x: 3.37
+      y: 4.27
+      w: 2.72
+      h: 2.72
     - path: source/artwork/scale_portrait.png
       x: 7.65
       y: 1.35

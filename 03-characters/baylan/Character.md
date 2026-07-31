@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "2.0"
+version: "2.1"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -389,15 +389,36 @@ That it survives at all says something he would never say aloud.
 
 Original Jedi weave, worn under everything, re-dyed dark years ago and patched so
 many times that the original fabric survives only in panels. The cut is wrong for
-salvage — a cross-wrapped front and a shaped shoulder that no industrial workwear
-would have — but it is so far gone that nobody has ever remarked on it.
+salvage, but it is so far gone that nobody has ever remarked on it.
+
+Its construction is distinctive and deliberate: across the chest run
+**four or five nested chevrons, apex pointing downward** — widest at the
+shoulders and narrowing toward the sternum. They are raised panels of matte,
+suede-like leather appliquéd onto the woven base and stitched at the edges,
+sitting slightly proud of the cloth. **Tonal, not contrasting** — dark on dark,
+so the pattern reads through texture and shadow rather than colour. A standing
+collar sits above it.
+
+This is **construction, not decoration**: layered overlapping panels that read as
+padding or light protection, which is why the garment has survived being worn
+under workwear for decades.
+
+**It is the ancestor of the chest piece he is known for later.** Here it is
+hidden, worn under everything, unremarked. Later he makes a proper outer version
+of the thing he has been wearing underneath all along.
 
 He did not keep it out of sentiment. He kept it because it was good cloth and he
 could not afford to replace it, and by the time he could, it had been years and
 he was not going to. Unlike the robe, he does not think about it at all.
 
 It should be visible only where the outer layers open — at the collar, at the
-cuff, when he is seated in Scene 3, when he is in shirtsleeves in Scene 15.
+cuff, when he is seated in Scene 3, and in shirtsleeves in Scenes 13 and 15.
+
+**Scene 15 is where it matters.** In shirtsleeves, by glowrod light, he opens the
+pouch and rebuilds the lightsaber — and the chevroned tunic is visible while he
+does it. The two surviving objects from his old life appear in the same shot, and
+neither is remarked on. A viewer who knows the later costume sits up. Everyone
+else sees a man in an old shirt.
 
 ### Sleepwear and undress
 
@@ -598,6 +619,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 2.1 | 2026-07-31 | in-development | Undertunic given the nested-chevron construction — the ancestor of the chest piece he is known for later. Hidden here; revealed in shirtsleeves in Sc.13 and 15. |
 | 2.0 | 2026-07-31 | in-development | Added the robe — a long dark battle-worn garment from his Jedi life, kept for comfort. Reads as a weather cape, not as Jedi dress. Two remnants now: robe (visible, chosen) and undertunic (hidden, unconscious). |
 | 1.9 | 2026-07-30 | in-development | The conversion was psychological survival, not tactical — he could not look at the saber and could not let it go. No breaking incident required. Scene 15 reframed as the first time in years he has opened the pouch. |
 | 1.8 | 2026-07-30 | in-development | Life split into four parts: taken as a child, the purge, failed Outer Rim years, then the crew — where he is safe for the first time. The blaster conversion is dated to his surrender, not the purge. |

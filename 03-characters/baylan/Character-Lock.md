@@ -55,9 +55,14 @@ him as a Jedi on first sight has failed.
     silhouette: no wide monastic sleeves, no ceremonial drape, no hood-up mystique.
     It is a heavy old coat.
   - **The undertunic** — original Jedi weave, re-dyed dark, patched until the
-    original fabric survives only in panels. Cross-wrapped front and shaped
-    shoulder are wrong for salvage. Visible only at collar and cuff, or in
-    shirtsleeves. He does not think about it.
+    original fabric survives only in panels. Visible only at collar and cuff, or
+    in shirtsleeves. He does not think about it.
+    **Four or five nested chevrons, apex down**, across the chest: raised matte
+    suede-like leather panels appliquéd on the woven base, widest at the
+    shoulders, narrowing to the sternum, sitting proud of the cloth. Tonal, dark
+    on dark — texture and shadow, never colour contrast. Standing collar.
+    **Construction, not decoration.** It is the ancestor of the chest piece he is
+    known for later, and it is deliberately hidden in this film.
 - Costume must strip back to shirt and trousers for Scenes 13 and 15.
 
 ## Hero props

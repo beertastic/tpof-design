@@ -192,10 +192,33 @@ an embossed or printed pattern on a continuous leather panel, never a texture,
 never a pattern on cloth. Leather plates carry the serpent only faintly or not at
 all — a mill mark belongs in metal.
 
-TESSELLATED, NOT OVERLAPPED. The plates sit edge to edge, each separate, with
-a narrow visible gap between it and its neighbours showing the dark backing
-through. They do not lap over one another — no layering, no shingling, a single
-flat plane. The flex comes from the gaps and the lacing.
+TESSELLATED, NOT OVERLAPPED. The plates sit edge to edge in a single flat
+plane. They do not lap over one another — no layering, no shingling.
+
+They almost touch. The gap between neighbours is a thin dark seam no wider
+than the plate is thick — a line, not a space. Laid close and tight in a
+continuous field. Never spaced apart, never scattered, never floating on a web
+of connectors with the backing showing through in wide gaps between them.
+
+The lacing is thin and mostly hidden. Fine waxed cord or thin wire through
+the two holes, passing behind the plates to the backing. No chunky toggles, no
+rubber knots, no beads, no visible web of connectors sitting proud of the
+plates. The fixing is barely noticeable; the metal is what you see.
+
+The backing is not manufactured. Worn leather or heavy cloth, hand cut with
+an irregular uneven edge, stitched by hand with uneven stitches, visibly
+repurposed from something else. No neat scalloped outline, no even machine
+topstitching, no symmetrical shape, no finished product edge. If the backing
+looks like it came off a production line, the costume says somebody made this for
+her, and it is wrong.
+
+Within one patch the metal is broadly consistent — one trip, one source —
+with only two or three plates obviously replaced later in a different alloy. It
+is the four patches that differ from each other, not every plate within a
+patch. A panel where every single plate is a different metal reads as decorative
+mottling and loses the four-trips story.
+
+The flex comes from the seams and the lacing.
 
 IT MUST NOT READ AS TECHNOLOGY. Regular hexagons meeting edge to edge is also
 the shape of carbon fibre, machined hex panelling and energy shielding, and that

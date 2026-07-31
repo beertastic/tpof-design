@@ -244,13 +244,22 @@ lip runs around the rim of each plate. Dark iron-grey, almost black, going to
 pale worn silver on the raised edges where it has been handled. Matte, never
 bright, never polished.
 
-**The serpent is RAISED, not stamped into the surface.** A single snaking line
-stands **proud of the face** of each plate — a soft, worn, rounded ridge in the
-shape of a small coiled snake, catching light along its top edge. It is not
-engraved, not incised, not a recessed stamp.
+**EVERY SINGLE PLATE CARRIES A RAISED SNAKE SWIRL.** This is not optional and
+not a detail that can be dropped — **a plate without one is not this costume. If
+the plates in the image are blank, the image has failed.**
 
-**The serpent varies from plate to plate.** Every plate carries the same motif
-but no two are identical — the curl sits differently, the line runs thicker or
+**The swirl:** a single continuous line curling and winding across the face of
+the plate in the shape of a small snake — coiling back on itself, loosely S-shaped
+or spiralling, with a slightly thicker head at one end tapering to a fine tail at
+the other. It fills most of the plate face.
+
+**It is RAISED, not stamped into the surface.** The swirl stands **proud of the
+face** as a soft, worn, rounded ridge, catching light along its top edge and
+casting a faint shadow beside it. Not engraved, not incised, not a recessed
+stamp, not a printed or etched line.
+
+**The swirl varies from plate to plate.** Every plate carries one, but no two are
+identical — the curl sits differently, the line runs thicker or
 thinner, some are nearly worn away. It is a common manufacturer's mark from cheap
 Outer Rim plate, and every mill, batch and worn die renders it a little
 differently. She did not choose it, and nobody remarks on it.
@@ -517,10 +526,19 @@ in this production.**
 teardrop, never a fish-scale shape. **Tessellated, not overlapped** — the plates
 meet edge to edge in a single flat plane and never lap over one another.
 
-**Every plate carries a RAISED serpent, standing proud of the surface** — a soft,
-worn, rounded ridge catching light along its top edge. Not engraved, not incised,
-not a recessed stamp. **And no two are identical:** the curl sits differently, the
-line runs thicker or thinner, some are nearly worn away.
+**EVERY PLATE CARRIES A RAISED SNAKE SWIRL, AND THIS IS THE POINT OF THE IMAGE.**
+A single continuous line curling and winding across the plate face in the shape of
+a small snake — coiling back on itself, loosely S-shaped or spiralling, a slightly
+thicker head at one end tapering to a fine tail at the other, filling most of the
+face.
+
+**It stands proud of the surface** as a soft, worn, rounded ridge, catching light
+along its top edge and casting a faint shadow beside it. Not engraved, not
+incised, not a recessed stamp, not etched or printed.
+
+**No two are identical:** the curl sits differently, the line runs thicker or
+thinner, some are nearly worn away. **A blank plate means the image has failed** —
+at this magnification every swirl must be clearly legible.
 
 **This is one patch, so the metal is broadly consistent** — one salvage source,
 one alloy, with only two or three plates obviously replaced later in something

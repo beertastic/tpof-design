@@ -183,8 +183,13 @@ it to the backing.
 **Every plate carries a raised serpent, and it means nothing.**
 
 **It stands proud of the surface — it is not stamped into it.** A soft, worn,
-rounded ridge in the shape of a small coiled snake, catching light along its top
-edge. Not engraved, not incised, not a recessed stamp.
+rounded ridge catching light along its top edge. Not engraved, not incised, not
+a recessed stamp.
+
+**The form is a swirl.** A single continuous line curling and winding across the
+plate face — coiling back on itself, loosely S-shaped or spiralling, a slightly
+thicker head at one end tapering to a fine tail at the other, filling most of the
+face. Every plate has one. A blank plate is not this costume.
 
 **And no two are identical.** The curl sits differently, the line runs thicker or
 thinner, some are nearly worn away. That variation is not a fault — it is what

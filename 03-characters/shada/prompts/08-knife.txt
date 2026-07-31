@@ -169,4 +169,5 @@ weapon second: it should read as something used daily for cutting rope, food and
 cordage, not a fighting knife on display. Mechanically believable, no ornament,
 no engraving, no jewelling.
 
+
 Deliver a single image at 3:1. It must look photographed, not generated.

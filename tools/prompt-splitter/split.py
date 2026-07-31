@@ -178,6 +178,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "" if gate else None,
         ref_note if gate else None,
         "" if gate else None,
+        must_block if must_block else None,
+        "" if must_block else None,
         "Generate a single image to the description below.",
         "",
         "=== STYLE ===", blocks.get("Style", ""), "",
@@ -190,9 +192,9 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         parts += ["=== SKIN AND REALISM ===", blocks["Anti-synthetic"], ""]
     parts += [
         "=== CHARACTER ===", blocks.get("Character Constants", ""), "",
-        must_block if must_block else None,
-        "" if must_block else None,
         "=== THIS IMAGE ===", slot["body"], "",
+        (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
+         if must_block else ""),
         (f"Deliver a single image at {slot['ratio']}. "
          + ("It must look photographed, not generated."
             if not narrative else

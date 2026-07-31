@@ -18,7 +18,17 @@ conversation** — see [`../CAST-REFERENCE.md`](../CAST-REFERENCE.md). A reposit
 connector may not let the model see images even when it can read this file. The
 reference governs face and build; this pack governs everything else.
 
-> **Easiest path: use the pre-assembled files in [`prompts/`](prompts/).** One
+> **Start with the costume turnarounds — they are the primary deliverable.**
+> Twenty paste-ready prompts in
+> [`prompts/turnarounds/`](prompts/turnarounds/): four outfits, five views each.
+> Generate those in full before any image in this document. Regenerate with
+> `python tools/prompt-splitter/turnarounds.py baylan`.
+>
+> **The slots below are plates and mood images** — props, materials, expression
+> range, and a few atmospheric frames. Three or four mood images is enough; they
+> are context, not something anyone builds from.
+>
+> **Pre-assembled versions of the slots below are in [`prompts/`](prompts/).** One
 > plain-text file per image, each fully self-contained — open it, select all,
 > paste. No sections to gather, no markdown to strip. Generated from this
 > document; if you change anything here, run

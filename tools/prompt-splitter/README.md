@@ -1,48 +1,60 @@
-# Prompt Splitter
+# Prompt Tools
 
-Turns a character's `Prompts.md` into **paste-ready plain-text prompt files** —
-one per image, each completely self-contained.
+Two generators. Both read from the character's documents and emit **paste-ready
+plain-text prompts** — open one, select all, paste.
 
 ```bash
-python tools/prompt-splitter/split.py baylan
-python tools/prompt-splitter/split.py --all
+python tools/prompt-splitter/turnarounds.py baylan   # costume turnarounds
+python tools/prompt-splitter/split.py baylan         # plates and mood images
 ```
 
-## Why
+Both accept `--all`.
 
-`Prompts.md` is written for a human: it explains which blocks apply where, keeps
-the continuity rules together, and carries the checklist. That makes it a bad
-thing to copy out of — you have to select four separate sections, skip the
-instructions, and strip the markdown.
+## Priority
 
-The generated files have none of that. **Open one, select all, paste.**
+**Turnarounds first, and in full.** They are the primary deliverable — what a
+costume department actually builds from. Plates and mood images are context, and
+three or four mood images per character is enough.
 
-## What it does
+## turnarounds.py
 
-- Assembles Style, Do Not, Character Constants and the slot description into one file
-- Adds **Capture** (anamorphic) only to narrative slots
-- Adds **Skin and realism** to any slot containing a face
-- Strips markdown — bold, backticks, links, blockquotes
-- Removes the applicability notes, which address you and not the model
-- Writes a `README.md` index showing which blocks each slot received
+Reads `03-characters/<character>/outfits.yaml` and produces **five prompts per
+outfit**: front, left, right, back, and a natural pose.
 
-## Output
+Output: `03-characters/<character>/prompts/turnarounds/`
 
-```
-03-characters/<character>/prompts/
-    01-portrait.txt
-    02-forest.txt
-    ...
-    README.md
-```
+Four technical views on a plain grey studio background, arms out, flat even
+light, sharp across frame, everything visible. Plus a fifth showing the same
+costume on a person standing the way that person actually stands — because a
+turnaround tells you what the garment *is* and nothing about how it *sits*.
+
+**Consistency is the point.** The four views are one photograph with the subject
+rotated: same distance, lens, height, light, background, scale. Generate all five
+of an outfit in one sitting, in one conversation.
+
+Add or change outfits by editing `outfits.yaml` and re-running.
+
+## split.py
+
+Reads `Prompts.md` and produces one prompt per numbered slot — props, materials,
+expression range, and the remaining mood images.
+
+Output: `03-characters/<character>/prompts/`
+
+Assembles only the blocks each slot needs:
+
+| Block | Applies to |
+|---|---|
+| Realism | Every slot, no exceptions |
+| Capture (anamorphic) | Narrative frames only |
+| Anti-synthetic (skin) | Anything with a face |
+
+Only characters with `status: ready` are processed.
 
 ## Rules
 
-**`Prompts.md` is the source of truth.** These files are generated output — do
-not edit them. Change `Prompts.md` and re-run.
+`outfits.yaml` and `Prompts.md` are the sources of truth. **Do not edit the
+generated `.txt` files** — change the source and re-run.
 
-**Only characters with `status: ready` are processed.** Scaffolds are skipped,
-because a paste-ready prompt full of `NEEDS:` markers is worse than no file.
-
-Re-run after any change to a character's prompts, the Style block, or the
-Capture block.
+Re-run both after any change to a character's costume, the Style block, the
+Capture block or the Turnaround block.

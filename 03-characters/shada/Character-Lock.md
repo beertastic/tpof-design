@@ -58,8 +58,11 @@ recorded revision.
   - **Fastenings:** buckles, hooks, lacing, toggles, straps. Any zip must be heavy
     industrial hardware — large chunky exposed metal teeth, weathered, oversized
     metal pull. **Never a fine modern coil zip.** If in doubt, use hooks or lacing.
-  - **Weapons are worn, not implied.** Compact blaster in its holster, combat knife
-    in its sheath, both visible in every costume view.
+  - **Weapons are worn, not implied, and their sides are fixed. Right-handed.**
+    - **Blaster — her right thigh**, drop-leg holster, belt loop and thigh strap,
+      grip up and angled forward. Right-hand draw.
+    - **Knife — her left hip**, on the belt, grip up. Cross-draw.
+    - Both visible in every costume view. Nothing is mirrored.
   - **Moves like heavy cloth, not plate.** That is why she wears it.
   - **It reads as serpentine: she wears her own ancestry as armour.**
 - Functional exposed skin for mobility, heat and sensory function.

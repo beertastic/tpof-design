@@ -175,9 +175,18 @@ a place in a world where nothing is worn for looks.
 
 ### Her weapons live on this costume
 
-**A compact blaster in a worn holster** at the hip or thigh — in the holster, not
-an empty one — and **a well-used combat knife in a secure sheath**, positioned
-where she can reach it.
+**She is right-handed.** Sides below are given from her own left and right.
+
+| Item | Side | Detail |
+|---|---|---|
+| **Compact blaster** | Her **right thigh** | Drop-leg holster, belt loop and thigh strap, grip up and angled slightly forward. Right-hand draw |
+| **Combat knife** | Her **left hip** | On the belt, grip up. Cross-draw with the right hand |
+
+Her right side carries the gauntlet and the blaster; her left carries the
+shoulder cap, the knife and the thigh patch. **Nothing is mirrored.**
+
+See [`09-prompt-library/Handedness-And-Placement.md`](../../09-prompt-library/Handedness-And-Placement.md)
+— the project convention this follows.
 
 Both must appear in every turnaround view. She is an assassin, a thief and a
 tracker; a costume record without her weapons is incomplete, and the costume

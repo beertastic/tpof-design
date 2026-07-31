@@ -120,6 +120,21 @@ Visible Earth historical fashion should be avoided.
 - Pressure garments
 - Industrial gloves
 
+### Handedness and placement
+
+**Every asymmetric element on a costume must be assigned a side, and that side
+must never move.** Establish handedness before positioning anything, then fix the
+primary weapon, the blade, any bandolier, the pouches and every piece of armour.
+
+**Always state sides from the wearer's own left and right, never the viewer's.**
+A front view and a back view will otherwise mirror the whole rig, and both will
+look correct in isolation.
+
+This is not pedantry. An actor draws with one hand, a costume maker sets a
+holster once, and a generator has no memory of which hip it used last time.
+
+See [`09-prompt-library/Handedness-And-Placement.md`](../09-prompt-library/Handedness-And-Placement.md).
+
 ### Fastenings
 
 Buckles, hooks, lacing, toggles, straps, industrial catches.

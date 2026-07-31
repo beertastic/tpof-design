@@ -1,5 +1,5 @@
-[GENERIC MERCENARY — TURNAROUND — THE NON-HUMAN — RIGHT SIDE]
-Output file: turn-alien-right.png
+[GENERIC MERCENARY — TURNAROUND — THE NEAR-HUMAN — RIGHT SIDE]
+Output file: turn-nearhuman-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -26,11 +26,14 @@ THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
 Match the costume, materials, colours, face and build from the attached
 reference exactly. Only the setting, pose and lighting change.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A DISTINCTLY NON-HUMAN SPECIES, ACHIEVED IN PRACTICAL MAKE-UP AND SILHOUETTE — not a full creature build and not a digital character. Head, skin and proportion differ clearly from human at a glance and by firelight. THREE THINGS THIS SPECIES IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Roughly human scale, and a visibly different KIND of non-human from him.
-  2. THE COSTUME IS CUT FOR THIS BODY, NOT ADAPTED TO IT. Sleeves, collar, boots and fastenings are shaped to non-human proportions. It must look made for them and worn for years — never like human clothing borrowed.
-  3. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
-  4. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. Small personal trophies and kept objects threaded onto the belt, more visible personal decoration than any of the other three. A compact blaster on THEIR RIGHT HIP.
-  5. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by their gear.
+  1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only: a distinct muted skin tone that is clearly not a human complexion, and geometric inked markings across the face. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
+  4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
+  5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+  7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
+  8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
@@ -144,17 +147,20 @@ NEEDS:
 - The one sentence that separates them from everyone else in their faction
 
 === THIS COSTUME ===
-The non-human — 10, 20-23 — the Sabacc game and the pursuit
+The near-human — 10, 20-23 — the Sabacc game and the pursuit
 
-A distinctly non-human species, and the kit is visibly cut for a body that is not human — sleeves, collar and boots shaped to different proportions, fastenings placed where that anatomy can reach them. A long weathered coat over layered cloth, worn open, the only long outer layer in the crew. Belt and braces rather than a chest rig. Personal marks and kept objects more than any of the others — small trophies threaded onto the belt. The gear is the same quality as everyone else's, which is the point: different species, same standard, found each other rather than recruited.
+A near-human, achieved in make-up alone — decided 2026-07-31. Distinct skin colour and geometric inked facial markings, nothing glued on, so he can be shot from any angle including close. A long weathered coat over layered cloth, worn open, the only long outer layer in the crew. Belt and braces rather than a chest rig. More visible personal decoration than any of the other three: small kept objects threaded onto the belt, from a life before this one. His gear is the same quality as everyone else's, which is the point — different species, same standard, found each other rather than recruited.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A DISTINCTLY NON-HUMAN SPECIES, ACHIEVED IN PRACTICAL MAKE-UP AND SILHOUETTE — not a full creature build and not a digital character. Head, skin and proportion differ clearly from human at a glance and by firelight. THREE THINGS THIS SPECIES IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Roughly human scale, and a visibly different KIND of non-human from him.
-  2. THE COSTUME IS CUT FOR THIS BODY, NOT ADAPTED TO IT. Sleeves, collar, boots and fastenings are shaped to non-human proportions. It must look made for them and worn for years — never like human clothing borrowed.
-  3. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
-  4. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. Small personal trophies and kept objects threaded onto the belt, more visible personal decoration than any of the other three. A compact blaster on THEIR RIGHT HIP.
-  5. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by their gear.
+  1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only: a distinct muted skin tone that is clearly not a human complexion, and geometric inked markings across the face. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the Wookiee in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
+  4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
+  5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+  7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
+  8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

@@ -25,11 +25,11 @@ All at **2:3**, tall, full figure.
 | The close one | in progress | RIGHT SIDE | `turn-armoured-right.txt` | `turn-armoured-right.png` |
 | The close one | in progress | BACK | `turn-armoured-back.txt` | `turn-armoured-back.png` |
 | The close one | in progress | NATURAL POSE | `turn-armoured-natural.txt` | `turn-armoured-natural.png` |
-| The non-human | in progress | FRONT | `turn-alien-front.txt` | `turn-alien-front.png` |
-| The non-human | in progress | LEFT SIDE | `turn-alien-left.txt` | `turn-alien-left.png` |
-| The non-human | in progress | RIGHT SIDE | `turn-alien-right.txt` | `turn-alien-right.png` |
-| The non-human | in progress | BACK | `turn-alien-back.txt` | `turn-alien-back.png` |
-| The non-human | in progress | NATURAL POSE | `turn-alien-natural.txt` | `turn-alien-natural.png` |
+| The near-human | in progress | FRONT | `turn-nearhuman-front.txt` | `turn-nearhuman-front.png` |
+| The near-human | in progress | LEFT SIDE | `turn-nearhuman-left.txt` | `turn-nearhuman-left.png` |
+| The near-human | in progress | RIGHT SIDE | `turn-nearhuman-right.txt` | `turn-nearhuman-right.png` |
+| The near-human | in progress | BACK | `turn-nearhuman-back.txt` | `turn-nearhuman-back.png` |
+| The near-human | in progress | NATURAL POSE | `turn-nearhuman-natural.txt` | `turn-nearhuman-natural.png` |
 
 ## Approved outfits
 

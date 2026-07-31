@@ -64,10 +64,29 @@ cut and how they are worn.
 | **Legs** | 3–4 | Work trousers, reinforced, padded, wrapped |
 | **Boots** | 4 | All good, all different — height, lacing, sole, wear pattern |
 | **Pack and pouches** | 4 | Every figure carries differently. This is the silhouette |
-| **Personal marks** | 4 | Trophies, kept objects, small decoration, paint. **This is what makes them people** |
+| **Personal marks** | 4 | **This is what makes them people** — see below. One *kind* each, and no two the same kind |
 
 **At most one figure carries any given silhouette cue.** If two of them read as
 "the one with the long coat", one of them is wrong.
+
+### Personal marks — one kind each
+
+The faction guide says personal marks are the group read. Four figures decorating
+themselves the *same* way would be a uniform by another name, so each carries a
+different **category** of object:
+
+| Build | Kind | What it is |
+|---|---|---|
+| `heavy` | **Worked into the body** | Metal rings, beads and small tokens braided into the fur |
+| `ranged` | **Marks of the trade** | Job tallies notched into the rifle stock, counted and deliberate |
+| `armoured` | **Trophies** | Taken from targets. Worn on the helmet and the chest rig |
+| `nearhuman` | **Kept objects** | Small things from a life before this, threaded onto the belt |
+
+This is also what makes the kit cheap to build. Without a uniform to match, the
+costume department can source and assemble freely — **but everything must still
+read as Star Wars.** Freedom from a uniform is not freedom from the franchise:
+salvaged industrial hardware, Outer Rim materials, nothing that reads as Earth
+military, Earth historical or contemporary fashion. See the Design Bible.
 
 ## The four builds
 
@@ -112,34 +131,49 @@ Shortest weapon, built for the clearing rather than the chase, and the only one
 wearing anything on the head that could be called a helmet — partial, salvaged,
 and clearly not issued.
 
-### 4. The second non-human — `alien`
+### 4. The near-human — `nearhuman`
 
-A second non-human species, and their kit is cut for a body that is not human.
-Two different species in four figures is what proves this crew found each other
-rather than being recruited: different anatomy, same standard of gear.
+**Decided 2026-07-31: a near-human, achieved in make-up alone.** A Mirialan or
+Pantoran read — a distinct skin colour plus geometric inked facial markings, and
+**nothing glued on**.
 
-Species is an open question, with three constraints now that the Wookiee is
-confirmed:
+That is the rung of the cost ladder this production can actually afford. The
+budget is already carrying one full Wookiee suit; a second appliance build is
+where it breaks.
 
-- **Practical make-up and silhouette, not a full creature build.** The Bible
-  favours practical solutions, the budget is already carrying one full suit, and
-  a background extra cannot carry a second.
-- **Not large and not furred.** That read belongs to the Wookiee. This one should
-  be closer to human scale and clearly a different *kind* of non-human.
-- **Not serpentine and not scaled.** That language is Shada's and duplicating it
-  weakens hers.
+**Why not "keep them out of direct shots".** Shooting around a face converts a
+costume cost into a directing constraint, and it lands hardest on Scene 10 —
+the one frame with all ten of the crew together and the camera moving. Blocking
+every setup around hiding someone is a worse trade than a make-up chair, and a
+miss is unfixable in the edit. Make-up only means this figure can be shot from
+any angle, including close.
+
+Three constraints on the design:
+
+- **No appliances.** Skin colour and markings only. It has to survive a full day
+  in a forest and hold a close-up.
+- **Not large and not furred** — that read belongs to the Wookiee.
+- **Not serpentine and not scaled** — that language is Shada's, and duplicating
+  it weakens hers.
 
 ## Species mix
 
-**Two non-humans among the four**: the Wookiee, and one other species that shares
-none of his physical language. The remaining two are human or near-human.
+**One Wookiee, one near-human, two humans.**
 
-Draw on the established Star Wars alien population — mercenary work in the Outer
-Rim is not a human profession, and an all-human crew of ten would be the odd
-thing to have to explain.
+That is enough to prove the crew found each other rather than being recruited —
+mercenary work in the Outer Rim is not a human profession, and an all-human crew
+of ten would be the odd thing to explain. It reads as genuinely mixed at the fire
+in Scene 10, which is the single frame that has to sell the faction, and it does
+so on one suit and one make-up chair.
 
-The crew now reads as genuinely mixed at the fire in Scene 10, which is the
-single frame that has to sell the faction.
+## Casting
+
+**All four extras are male.** The named cast is female-heavy — that happened as
+the characters developed rather than by design — so the extras are where the
+balance gets corrected.
+
+Recorded here so it reads as a deliberate decision rather than a default. If the
+named roster shifts, this is the first thing to revisit.
 
 ## Handedness
 
@@ -192,6 +226,11 @@ planted in Scene 10 and paid off in Scene 23.
 - Nothing factory-fresh. Nothing ruined either.
 - No full armour set on anyone. Plating is partial and placed differently on each.
 - No character-defining silhouette shared between two builds.
+- **Nothing that stops reading as Star Wars.** Building without a uniform means
+  sourcing freely, and that freedom is where a costume drifts out of the
+  franchise. Salvaged industrial hardware and Outer Rim materials only — no Earth
+  military surplus read, no historical costume, no contemporary fashion.
+- No second appliance build. The near-human is make-up only.
 
 ## Scene Appearances
 

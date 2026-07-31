@@ -63,8 +63,17 @@ outfits:
         cut or refitted for a Wookiee-sized limb. No chest plate over the fur, no
         full armour, nothing matching. Most of him is fur, not gear.
       - >
-        HE IS RIGHT-HANDED. A heavy blaster on HIS RIGHT HIP. Nothing mirrored —
-        no matching item on both sides.
+        HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same
+        class of salvaged blaster rifle another mercenary would carry in two
+        hands, holstered on HIS RIGHT HIP like a pistol because that is what it
+        is to him. This sells his scale in every frame and it is why he reaches
+        for Vala with his hands rather than a weapon. HE IS RIGHT-HANDED and
+        nothing is mirrored — no matching item on both sides.
+      - >
+        PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small
+        salvaged tokens braided into the fur at the shoulder and the muzzle.
+        This is his only decoration and no other member of this crew decorates
+        themselves this way.
 
   - id: ranged
     name: The rifle
@@ -93,7 +102,11 @@ outfits:
         four.
       - >
         GOGGLES PUSHED UP ON THE FOREHEAD, over a cap or a wrapped head-cloth.
-        Never a helmet. Never bare-headed — that belongs to the large one.
+        Never a helmet — that belongs to another build.
+      - >
+        PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle
+        stock in deliberate counted groups, worn smooth where his hand sits. His
+        only decoration, and nobody else in the crew marks themselves this way.
 
   - id: armoured
     name: The close one
@@ -120,44 +133,60 @@ outfits:
         right-hand draw. NO LONG GUN — the rifle belongs to another build and two
         riflemen in four figures kills the individuality.
       - >
-        NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to other
-        builds; his read is plating and bulk at the chest.
+        NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another
+        build; his read is plating and bulk at the chest.
+      - >
+        PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to
+        the helmet and the chest rig: a fastening, a badge, a cut-down fitting,
+        each one obviously off somebody else's gear rather than bought. His only
+        decoration, and nobody else in the crew carries trophies.
 
-  - id: alien
-    name: The non-human
+  - id: nearhuman
+    name: The near-human
     scenes: "10, 20-23 — the Sabacc game and the pursuit"
     description: >
-      A distinctly non-human species, and the kit is visibly cut for a body that
-      is not human — sleeves, collar and boots shaped to different proportions,
-      fastenings placed where that anatomy can reach them. A long weathered coat
-      over layered cloth, worn open, the only long outer layer in the crew. Belt
-      and braces rather than a chest rig. Personal marks and kept objects more
-      than any of the others — small trophies threaded onto the belt. The gear is
-      the same quality as everyone else's, which is the point: different species,
-      same standard, found each other rather than recruited.
+      A near-human, achieved in make-up alone — decided 2026-07-31. Distinct
+      skin colour and geometric inked facial markings, nothing glued on, so he
+      can be shot from any angle including close. A long weathered coat over
+      layered cloth, worn open, the only long outer layer in the crew. Belt and
+      braces rather than a chest rig. More visible personal decoration than any
+      of the other three: small kept objects threaded onto the belt, from a life
+      before this one. His gear is the same quality as everyone else's, which is
+      the point — different species, same standard, found each other rather than
+      recruited.
     must_show:
       - >
-        A DISTINCTLY NON-HUMAN SPECIES, ACHIEVED IN PRACTICAL MAKE-UP AND
-        SILHOUETTE — not a full creature build and not a digital character. Head,
-        skin and proportion differ clearly from human at a glance and by
-        firelight.
-        THREE THINGS THIS SPECIES IS NOT. Not serpentine and not scaled — that
-        language belongs to Shada and duplicating it weakens hers. Not large and
-        NOT FURRED — that read belongs to the Wookiee in this same crew. Roughly
-        human scale, and a visibly different KIND of non-human from him.
+        A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS,
+        NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only:
+        a distinct muted skin tone that is clearly not a human complexion, and
+        geometric inked markings across the face. Human bone structure, human
+        proportions, human scale. This must hold a close-up and survive a full
+        day in a forest.
       - >
-        THE COSTUME IS CUT FOR THIS BODY, NOT ADAPTED TO IT. Sleeves, collar,
-        boots and fastenings are shaped to non-human proportions. It must look
-        made for them and worn for years — never like human clothing borrowed.
+        THREE THINGS HE IS NOT. Not serpentine and not scaled — that language
+        belongs to Shada and duplicating it weakens hers. Not large and NOT
+        FURRED — that read belongs to the Wookiee in this same crew. Not a
+        creature build — no horns, no tentacles, no head-tails, no appliance of
+        any kind.
+      - >
+        THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and
+        clearly meaning something to him. Never tribal pastiche, never a tattoo
+        chosen for looks.
+      - >
+        BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no
+        goggles, no helmet. Those belong to other builds, and the markings are
+        the whole point of this one. They must be legible.
       - >
         THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn
         open, over layered cloth. No other build carries this silhouette.
       - >
         BELT AND BRACES. Nothing worn diagonally across the chest — that
-        silhouette belongs to the large one. Small personal trophies and kept
-        objects threaded onto the belt, more visible personal decoration than any
-        of the other three. A compact blaster on THEIR RIGHT HIP.
+        silhouette belongs to the Wookiee. A compact blaster on HIS RIGHT HIP.
+      - >
+        PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn,
+        obviously not equipment, threaded onto the belt where he can see them.
+        More visible personal decoration than any of the other three, and nobody
+        else in the crew carries anything sentimental.
       - >
         SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware,
-        repairs done properly. Not poorer, not scavenged, not othered by their
-        gear.
+        repairs done properly. Not poorer, not scavenged, not othered by his gear.

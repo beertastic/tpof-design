@@ -1,5 +1,5 @@
-[SHADA — SLOT 10 — HERO PROP]
-Output file: blaster.png
+[SHADA — SLOT 12 — COARSE TECHNICAL FABRIC]
+Output file: material-cloth.png
 Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
@@ -144,11 +144,11 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Product-reference layout of a compact blaster pistol on a neutral surface, lit
-evenly. Modified for reliability rather than power — replacement components,
-mismatched finish, a field-repaired grip, worn bluing at the contact points.
-Small enough to conceal and draw quickly. Mechanically believable construction
-with visible fasteners and access. No oversized silhouette, no scope, no glowing
-elements, no ornament.
+Extreme close-up macro photograph of coarse woven technical fabric, lying flat on
+a plain neutral surface and filling the frame. The weave clearly visible at
+thread level. Muted and desaturated, dye faded unevenly by sun and washing. A
+frayed cut edge, a patch stitched over it by hand, and staining worked into the
+fibres. Even flat lighting, sharp across the frame. A single material sample
+photographed for reference — no styling, no arrangement, no other objects.
 
 Deliver a single image at 1:1. It must look photographed, not generated.

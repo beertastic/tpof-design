@@ -1,6 +1,6 @@
-[SHADA — SLOT 09 — HERO PROP]
-Output file: knife.png
-Aspect ratio: 3:1  (wide banner)
+[SHADA — SLOT 10 — THE SALVAGED METAL SCALES]
+Output file: material-scale.png
+Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -144,12 +144,14 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Product-reference layout of a single combat knife on a neutral surface, lit
-evenly. An old working blade, repeatedly sharpened — the edge profile visibly
-reground and shortened over years. Grip wrapped and repaired with mismatched
-cord. Silent, secure sheath shown alongside. This is a survival tool first and a
-weapon second: it should read as something used daily for cutting rope, food and
-cordage, not a fighting knife on display. Mechanically believable, no ornament,
-no engraving, no jewelling.
+Extreme close-up macro photograph of a section of the scale armour, lying flat on
+a plain neutral surface. Overlapping coin-sized metal scales laced onto a leather
+backing, filling the frame. The scales are cut from salvaged scrap: slightly
+irregular in shape, mismatched alloys sitting side by side and oxidising at
+different rates — dull steel, brass, dark bronze, patches of green verdigris and
+rust. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
+visible at the edge of the piece. Even flat lighting, sharp across the frame. A
+single material sample photographed for reference — no styling, no arrangement,
+no other objects.
 
-Deliver a single image at 3:1. It must look photographed, not generated.
+Deliver a single image at 1:1. It must look photographed, not generated.

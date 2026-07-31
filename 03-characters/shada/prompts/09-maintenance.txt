@@ -1,5 +1,5 @@
-[SHADA — SLOT 05 — CARGO / HOLD]
-Output file: industrial_c.png
+[SHADA — SLOT 09 — CHARACTER AT WORK]
+Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -190,10 +190,11 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Shada in a dim cargo hold checking an access route — hand on a stanchion,
-looking up toward an overhead gap or duct, plotting a way through. Full body
-visible, compact silhouette clear. Stacked salvage crates, tie-downs, fuel
-staining, repaired plating. Single overhead work lamp with strong falloff, but
-blacks stay open and her outline stays legible.
+Shada seated, cleaning and checking her blaster by work-lamp light, parts laid
+out in a fixed habitual arrangement on the cloth beside her. Absorbed in the
+task, not looking up. This is the image that says preparation is how she
+controls fear. Hands and forearms prominent — scales visible, fingers precise.
+Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
+routine.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

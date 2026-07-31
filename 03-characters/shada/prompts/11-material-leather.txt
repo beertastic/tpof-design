@@ -1,4 +1,4 @@
-[SHADA — SLOT 14 — WORN SYNTH-LEATHER]
+[SHADA — SLOT 11 — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1  (square)
 

@@ -1,4 +1,4 @@
-[SHADA — SLOT 08 — PERFORMANCE RANGE]
+[SHADA — SLOT 05 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
 

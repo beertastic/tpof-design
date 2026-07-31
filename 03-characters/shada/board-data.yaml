@@ -139,16 +139,18 @@ boards:
     output_png: Performance-Board-A2-300dpi.png
     tagline: She does not enter a space. She studies it.
     images:
-      - {path: source/artwork/forest.png, x: 0.45, y: 1.35, w: 5.15, h: 9.20}
+      - {path: source/artwork/camp_night.png, x: 0.45, y: 1.35, w: 5.15, h: 9.20}
       - {path: source/artwork/maintenance.png, x: 5.80, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/turn-working-natural.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
+      - {path: source/artwork/forest.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
       - {path: source/artwork/expression_strip.png, x: 16.50, y: 1.35, w: 6.40, h: 3.50}
+      - {path: source/artwork/species_strip.png, x: 16.50, y: 5.05, w: 6.40, h: 2.45}
     sections:
       - heading: MOVEMENT PRINCIPLES
         x: 16.50
-        y: 5.05
+        y: 7.75
         w: 6.40
-        h: 5.50
+        h: 2.80
+        font_size: 11
         items: [Economical and controlled, Low profile and quiet footwork, Patient before explosive action, Predatory never theatrical, Uses terrain shadow and distance]
       - heading: ACTOR NOTES
         x: 0.45

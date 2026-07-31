@@ -26,12 +26,19 @@ recorded revision.
 
 - Light, fitted, scavenged armour.
 - Vital-area protection only.
-- **Flexible metallic scale patches in place of rigid plates.** Small areas only —
-  sternum, a shoulder, a flank, the outside of a forearm. Fine overlapping metal
-  scales on a flexible backing, matte and darkened, scavenged and repaired with
-  mismatched sections. Supple enough to move with her, which is why she has them
-  and not plate. **It reads as serpentine, and that is deliberate: she wears her
-  own ancestry as armour.**
+- **Overlapping metallic scale in place of rigid plate.**
+  - Individual coin-sized metal scales, laced and riveted to a flexible backing,
+    overlapping downward. **Individually visible and countable** — never a
+    texture, print or embossed suggestion.
+  - **Cut from salvaged sheet metal, not forged as armour.** Irregular, mismatched
+    alloys, oxidising at different rates — brass, bronze, dull steel, verdigris,
+    rust. Sections visibly replaced.
+  - **Metallic but never bright.** Dulled and scratched, catching light in small
+    dull glints across many facets. It must read as *metal*.
+  - **Coverage:** a panel across the front of the torso, caps over both shoulders,
+    the outer forearms. Not a suit, not a small patch.
+  - **Moves like heavy cloth, not plate.** That is why she wears it.
+  - **It reads as serpentine: she wears her own ancestry as armour.**
 - Functional exposed skin for mobility, heat and sensory function.
 - Layered technical cloth, worn leather and repaired matte hardware.
 - Practical harness, belt, sheath and concealed holster.
@@ -57,8 +64,13 @@ Reject any design that becomes:
 - Fully reptilian.
 - Glamourised or sexualised.
 - Covered head-to-toe in a way that hides the scale language.
-- **Rigid armour plates.** If the armour reads as hard plate rather than flexible
-  metallic scale, the design has failed — the connection to her ancestry is lost
-  and she becomes a generic scavenger.
+- **Rigid armour plates**, or an all-leather costume with no metal on it. If the
+  armour reads as hard plate — or as leather panels — the design has failed. The
+  connection to her ancestry is lost and she becomes a generic scavenger.
+- **Forged, matched or ceremonial scale.** The scales are cut from scrap by hand.
+  If they look manufactured as armour, it drifts into the medieval and Roman
+  reference the Bible forbids.
+- **Scale as texture.** Embossed, printed or moulded scale pattern on leather is
+  not the same thing and is wrong. The scales are separate pieces of metal.
 - Loaded with gadgets unrelated to infiltration.
 - Too dark to separate from the background.

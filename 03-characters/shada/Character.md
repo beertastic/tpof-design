@@ -30,19 +30,45 @@ a starship.
 
 ## The scale armour
 
-**Where a rigid armour plate would normally sit, she has a patch of flexible
-metallic scale instead.**
+**Where rigid armour plate would normally sit, she wears overlapping metallic
+scale instead.**
 
-Small areas only — sternum, one shoulder, a flank, the outside of a forearm.
-Never full coverage, never a suit. Each patch is fine overlapping metal scales on
-a flexible backing: supple enough to move with the body, dense enough to stop a
-glancing hit.
+**Individual overlapping metal scales, each roughly the size of a coin**, laced
+and riveted onto a flexible leather-and-fabric backing. They overlap downward
+like fish scales or lamellar, and the individual scales are clearly visible and
+countable — never a texture, never a print, never an embossed suggestion.
 
-- **Matte and weathered.** Darkened, oxidised, non-reflective. Nothing that
-  catches light or announces itself.
-- **Scavenged and repaired**, like everything else she owns — mismatched scales
-  where sections have been replaced.
-- **It reads as serpentine**, and that is the point.
+**They are cut from salvaged sheet metal, not forged as armour.** Hull offcuts,
+machine plate, scrap. Slightly irregular in shape and size. Mismatched alloys
+sitting side by side, oxidising at different rates — brass, bronze, dull steel,
+olive-green verdigris, patches of rust. Nothing matches, nothing was made for
+this, and sections have plainly been replaced over the years.
+
+**Metallic but never bright.** Dulled, oxidised, scratched, weathered to a low
+sheen. It catches light in small dull glints across many facets rather than
+reflecting. It reads unmistakably as *metal* — this is the detail that failed
+when it was described only as "matte and non-reflective."
+
+**Where it sits:** a panel across the front of the torso, caps over both
+shoulders, and the outer forearms. Not full-body, not a suit, and not a small
+patch either — enough that it is one of the first things you notice about her.
+
+**It moves like heavy cloth, not like plate.** That is the whole reason she wears
+it: flexible protection for a body built around movement, silence and getting
+through small spaces. Rigid plating would restrict her, catch on things and make
+noise.
+
+**It reads as serpentine**, and that is the point.
+
+### Avoiding the medieval read
+
+Scale armour is a historical Earth form, and the Design Bible rejects medieval
+and Roman reference outright. **The salvage origin is what keeps it clear.**
+
+These are not armour scales. They are small plates someone cut out of scrap and
+laced on. Irregular, mismatched, industrial. If it starts to look forged,
+matched, symmetrical or ceremonial, it has drifted into exactly the territory
+the Bible forbids.
 
 ### Why it exists
 

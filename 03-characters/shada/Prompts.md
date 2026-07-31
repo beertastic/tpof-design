@@ -200,15 +200,29 @@ and economical.
 Costume: light, fitted, scavenged armour protecting vital areas only. Layered
 technical cloth, worn leather, repaired matte hardware.
 
-Where a rigid armour plate would normally sit, she instead wears a patch of
-flexible metallic scale: fine overlapping small metal scales on a supple backing,
-matte and darkened and non-reflective, scavenged and repaired with mismatched
-sections where pieces have been replaced. Small areas only — the sternum, one
-shoulder, a flank, the outside of a forearm — never full coverage and never a
-suit. It is flexible protection that moves with her body, which is why she wears
-it instead of hard plate. It reads unmistakably as serpentine, echoing the
-inherited scales on her skin: she wears her own ancestry as armour. NO RIGID
-ARMOUR PLATES ANYWHERE.
+SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
+
+She wears armour made of individual overlapping metal scales, each roughly the
+size of a coin, laced and riveted onto a flexible leather-and-fabric backing and
+overlapping downward like fish scales. The individual scales are clearly visible
+and countable — this is real overlapping metal, never a texture, never a printed
+or embossed pattern on leather.
+
+The scales are cut from salvaged sheet metal rather than forged as armour: hull
+offcuts and machine plate, slightly irregular in shape and size, mismatched
+alloys sitting side by side and oxidising at different rates — brass, bronze,
+dull steel, olive-green verdigris, patches of rust. Nothing matches. Sections
+have plainly been replaced over the years.
+
+Metallic but never bright: dulled, oxidised, scratched, weathered to a low sheen,
+catching light in small dull glints across many facets rather than reflecting.
+
+It covers a panel across the front of her torso, caps over both shoulders, and
+the outer forearms. It moves like heavy cloth rather than plate.
+
+DO NOT make this leather. DO NOT make it an embossed or printed scale pattern.
+DO NOT make it forged, matched or ceremonial armour. It is scrap metal, cut small
+and laced on.
  Practical harness, belt,
 sheath, concealed holster. Functional exposed skin at shoulders, upper arms and
 selected mobility zones — for movement, heat and sensory function, never

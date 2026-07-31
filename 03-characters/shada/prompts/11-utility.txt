@@ -2,6 +2,12 @@
 Output file: utility.png
 Aspect ratio: 1:1  (square)
 
+THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
+A studio photograph of real physical objects on a real surface under real
+light — the kind an art department shoots to document what it has built.
+Flat, even, sharp across the frame. Not a render, not an illustration,
+not concept art, not AI-looking output.
+
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
 
@@ -56,6 +62,26 @@ Shada-specific rejections. Not a generic human scavenger with no serpentine
 ancestry. Not fully reptilian or a full creature design. Not a heavy-armoured
 soldier. Not covered head-to-toe in a way that hides the scale language.
 
+=== PHOTOGRAPHIC REALISM ===
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+slight asymmetry, threads out of place, edges that are not quite straight.
+
+Real optics and real capture: genuine lens behaviour, natural highlight rolloff,
+fine photographic grain present in the image rather than added on top.
+
+Reject entirely the look of computer-generated imagery — the smooth,
+evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+result looks manufactured rather than photographed, it has failed.
+
 === CHARACTER ===
 Shada. Female mercenary assassin, thief, scout and tracker. Compact, agile
 build, small beside most of the crew. Mostly human in appearance with subtle
@@ -88,4 +114,4 @@ wraps, a compact water container. Every item shows use and repair. Explicitly no
 datapad and no unnecessary technology. Even, flat reference lighting. The
 restraint of the kit is the point — this is a short list, well maintained.
 
-Deliver a single image at 1:1.
+Deliver a single image at 1:1. It must look photographed, not generated.

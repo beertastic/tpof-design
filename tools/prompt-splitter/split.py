@@ -40,6 +40,7 @@ def parse_blocks(md: str) -> dict[str, str]:
     wanted = {
         "Style": r"^## Style\b.*$",
         "Do Not": r"^## Do Not\b.*$",
+        "Realism": r"^## Realism\b.*$",
         "Capture": r"^## Capture\b.*$",
         "Anti-synthetic": r"^## Anti-synthetic\b.*$",
         "Character Constants": r"^## Character Constants\b.*$",
@@ -118,17 +119,36 @@ def parse_slots(md: str) -> list[dict]:
 
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int]) -> str:
+    narrative = slot["n"] in cap
+    if narrative:
+        demand = (
+            "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"
+            "A photograph made on a real film set, on 35mm anamorphic lenses, of real\n"
+            "people wearing real costumes under real light. Not a render, not an\n"
+            "illustration, not concept art, not AI-looking output."
+        )
+    else:
+        demand = (
+            "THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.\n"
+            "A studio photograph of real physical objects on a real surface under real\n"
+            "light — the kind an art department shoots to document what it has built.\n"
+            "Flat, even, sharp across the frame. Not a render, not an illustration,\n"
+            "not concept art, not AI-looking output."
+        )
     parts = [
         f"[{character.upper()} — SLOT {slot['n']:02d} — {slot['title'].upper()}]",
         f"Output file: {slot['file']}",
         (f"Aspect ratio: {slot['ratio']}"
          + (f"  ({slot['framing'].lower()})" if slot.get("framing") else "")) if slot["ratio"] else "",
         "",
+        demand,
+        "",
         "Generate a single image to the description below.",
         "Attach actor reference images to this conversation before generating.",
         "",
         "=== STYLE ===", blocks.get("Style", ""), "",
         "=== DO NOT ===", blocks.get("Do Not", ""), "",
+        "=== PHOTOGRAPHIC REALISM ===", blocks.get("Realism", ""), "",
     ]
     if slot["n"] in cap and "Capture" in blocks:
         parts += ["=== CAPTURE ===", blocks["Capture"], ""]
@@ -137,7 +157,11 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
     parts += [
         "=== CHARACTER ===", blocks.get("Character Constants", ""), "",
         "=== THIS IMAGE ===", slot["body"], "",
-        f"Deliver a single image at {slot['ratio']}." if slot["ratio"] else "",
+        (f"Deliver a single image at {slot['ratio']}. "
+         + ("It must look photographed, not generated."
+            if not narrative else
+            "It must look like a frame from a real film, not a generated image."))
+        if slot["ratio"] else "",
     ]
     return "\n".join(p for p in parts if p is not None).strip() + "\n"
 
@@ -185,13 +209,13 @@ def run(repo: Path, character: str) -> int:
         "",
         f"    python tools/board-generator/generate.py {character}",
         "",
-        "| File | Image | Ratio | Capture | Skin |",
-        "|---|---|---|---|---|",
+        "| File | Image | Ratio | Realism | Anamorphic | Skin |",
+        "|---|---|---|---|---|---|",
     ]
     for s in slots:
         stem = s["file"].rsplit(".", 1)[0]
         index.append(
-            f"| `{s['n']:02d}-{stem}.txt` | `{s['file']}` | {s['ratio']} | "
+            f"| `{s['n']:02d}-{stem}.txt` | `{s['file']}` | {s['ratio']} | yes | "
             f"{'yes' if s['n'] in cap else '—'} | {'yes' if s['n'] in anti else '—'} |"
         )
     index += [

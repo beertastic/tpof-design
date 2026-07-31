@@ -20,16 +20,26 @@ equipment**, in the anamorphic house style.
 The two blocks have **different applicability**, and conflating them is the
 easiest mistake to make:
 
+**Three tiers, not two.** The distinction that matters is between *"looks like a
+real photograph"* and *"looks like a movie frame"* — those are not the same
+demand, and only the second is narrative-only.
+
 | Block | Applies to | Why |
 |---|---|---|
-| **Capture** (anamorphic) | Narrative frames only — in-scene, environment, character-at-work | These are frames from the film. Reference plates are not |
-| **Anti-synthetic** | **Anything containing a face** — including portrait studies and expression strips | A study is lit flat and sharp, but the skin must still be real |
+| **Realism** | **Everything, without exception** | A materials board should still be a real photograph of real materials. Nothing in this project may look rendered |
+| **Capture** (anamorphic) | Narrative frames only | These are frames from the film. Reference plates are documentation |
+| **Anti-synthetic** | Anything containing a face | A study is lit flat and sharp, but the skin must still be real |
 
 | Type | Slots | Treatment |
 |---|---|---|
-| **Narrative** | portraits in-scene, environment, character-at-work | Capture **+** Anti-synthetic |
-| **Face study** | close portraits, expression strips | Anti-synthetic **only** — flat even light, sharp across frame |
-| **Object plate** | materials, props, kit layouts, turnarounds | **Neither.** Flat documentation light |
+| **Narrative** | in-scene, environment, character-at-work | Realism + Capture + Anti-synthetic |
+| **Face study** | close portraits, expression strips | Realism + Anti-synthetic. Flat even light, sharp across frame |
+| **Object plate** | materials, props, kit layouts, turnarounds | Realism only. Studio documentation light |
+
+Every generated prompt also opens with an explicit one-line demand — *"this must
+look like a frame from a real motion picture"* or *"this must look like a real
+reference photograph"* — and closes by repeating it. Front and back, because
+long prompts lose their middle.
 
 A materials board shot with shallow depth of field and lens flare is a bad
 materials board. Reference plates are documentation, not frames from the film.
@@ -39,6 +49,29 @@ materials board. Reference plates are documentation, not frames from the film.
 The film is shot anamorphic; **board slots are layout frames, not film frames.**
 Ask for the ratio the slot states and let the optical character do the work.
 Requesting 2.39:1 for a 9:16 panel produces letterboxing and wastes the frame.
+
+---
+
+## Block C — Realism (every slot, without exception)
+
+> This is a photograph. A real image, made with a real camera, of real physical
+> objects, under real light. It is not a render, not an illustration, not concept
+> art, and not a picture that looks like it was generated.
+>
+> Every surface is a real material behaving like one: weave visible in cloth,
+> grain in leather, tool marks and micro-scratches in metal, dust settled in
+> crevices, moisture where it would collect. Nothing is perfectly clean,
+> perfectly even or perfectly smooth.
+>
+> Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+> slight asymmetry, threads out of place, edges that are not quite straight.
+>
+> Real optics and real capture: genuine lens behaviour, natural highlight
+> rolloff, fine photographic grain present in the image rather than added on top.
+>
+> Reject entirely the look of computer-generated imagery — the smooth,
+> evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+> result looks manufactured rather than photographed, it has failed.
 
 ---
 

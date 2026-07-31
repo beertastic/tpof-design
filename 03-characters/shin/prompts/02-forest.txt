@@ -2,6 +2,11 @@
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
 
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
 
@@ -48,6 +53,26 @@ No text, logos, watermarks, captions or labels. No crushed blacks.
 
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic skin.
+
+=== PHOTOGRAPHIC REALISM ===
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+slight asymmetry, threads out of place, edges that are not quite straight.
+
+Real optics and real capture: genuine lens behaviour, natural highlight rolloff,
+fine photographic grain present in the image rather than added on top.
+
+Reject entirely the look of computer-generated imagery — the smooth,
+evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+result looks manufactured rather than photographed, it has failed.
 
 === CAPTURE ===
 Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
@@ -128,4 +153,4 @@ litter, mist between trunks. She is not running like a fighter — she is runnin
 like a frightened child who has been running for a long time. Her red hair is
 the one thing findable in the murk.
 
-Deliver a single image at 9:16.
+Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

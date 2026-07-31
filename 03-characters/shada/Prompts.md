@@ -91,6 +91,29 @@ soldier. Not covered head-to-toe in a way that hides the scale language.
 
 ---
 
+## Realism — paste with EVERY prompt, without exception
+
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+slight asymmetry, threads out of place, edges that are not quite straight.
+
+Real optics and real capture: genuine lens behaviour, natural highlight rolloff,
+fine photographic grain present in the image rather than added on top.
+
+Reject entirely the look of computer-generated imagery — the smooth,
+evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+result looks manufactured rather than photographed, it has failed.
+
+---
+
 ## Capture — NARRATIVE slots only
 
 > **Paste with slots 1, 2, 3, 4, 5, 12** — in-scene frames.

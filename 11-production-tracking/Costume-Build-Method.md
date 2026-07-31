@@ -80,15 +80,21 @@ Shada's scale armour has to **move like heavy cloth, not like plate** — that i
 the entire reason she wears it, and it is what stops it reading as fantasy
 armour.
 
-Individual coin-sized printed scales laced onto flexible backing will do that
-only if they stay small and the backing carries the movement. Printing larger
-linked sections is faster to assemble but stiffens the panel, and past a certain
-size it stops moving like cloth and the design is lost.
+**Revised 2026-07-31: the plates tessellate, they do not overlap.** They sit edge
+to edge in a honeycomb with a narrow even gap between neighbours, so **all of the
+flex now lives in those gaps and in the lacing.** An overlapped panel can be
+stiff and still drape, because the plates slide over each other. A tessellated
+one cannot — if the gaps close up or the lacing is tight, the panel becomes a
+sheet of armour and the design is lost.
 
-**Assembly note:** there are several hundred individual scales across four
-patches. Printing them as small pre-linked strips rather than loose pieces is
-worth testing for assembly time, but only up to the point where flexibility
-survives.
+Two things follow for the build:
+
+- **The gap is a functional dimension, not a cosmetic one.** It has to be big
+  enough to let the panel curve around a forearm and a shoulder. Worth
+  prototyping one patch before committing to a print run.
+- **Printing plates in pre-linked sheets defeats the point.** Individual plates
+  laced to the backing is what flexes. There are several hundred of them across
+  four patches, so the assembly time is real and should be planned for.
 
 ### Load-bearing buckles should be real hardware
 

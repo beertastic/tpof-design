@@ -140,18 +140,23 @@ Applies to the whole project, not only Shada.
 
 ## The scale armour
 
-**Where rigid armour plate would normally sit, she wears overlapping metallic
+**Where rigid armour plate would normally sit, she wears a tessellated metallic
 scale instead — in sporadic patches, never as a suit.**
 
 **Individual metal scales, each a flat six-sided plate about the width of two
 fingers**, laced and riveted onto a flexible leather-and-fabric backing. They are
-laid so that **each row laps the top edge of the row below by about a third**,
-giving a layered, flexible surface. Overlapped, never tiled flat edge to edge.
-The individual plates are clearly visible and countable.
+set **edge to edge in a honeycomb**, each one separate, with a narrow and even
+gap between it and its neighbours. The individual plates are clearly visible and
+countable.
+
+**Tessellated, not overlapped.** They do not lap over one another and there is
+no shingling or layering — a single flat plane of hexagons. **The flex comes
+from the gaps and the lacing between plates**, not from plates sliding over each
+other, and that is what still lets it move like heavy cloth rather than plate.
 
 **Every plate is a hexagon.** Not round, not a coin, not a teardrop and not a
-fish scale — six straight sides. The overlap is what makes it read as scale; the
-shape never changes.
+fish scale — six straight sides, meeting its neighbours flat. The tessellation
+is the read; the shape never changes.
 
 **They are cut from salvaged hull plate, not forged as armour.** Hull offcuts,
 machine plate, scrap. Mismatched alloys sitting side by side, oxidising at
@@ -195,7 +200,7 @@ when it was described only as "matte and non-reflective."
 | # | Where | Metal | Note |
 |---|---|---|---|
 | 1 | **Gauntlet — her RIGHT forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **Her left forearm is completely bare.** The oldest piece she owns and the strongest element of the design |
-| 2 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the overlaps | The opposite side to the gauntlet. Her right shoulder is bare |
+| 2 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the gaps | The opposite side to the gauntlet. Her right shoulder is bare |
 | 3 | **Patch — centre sternum** | **Dark bronze**, almost brown — the darkest | **Stitched flat onto the garment.** Not a hanging bib, not a pendant — that reads as jewellery, which the lock rejects |
 | 4 | **Patch — her LEFT outer thigh** | **The newest** — brighter, less worn | Same side as the shoulder cap. Her right thigh has no metal |
 
@@ -227,7 +232,9 @@ noise.
 ### Avoiding the medieval read
 
 Scale armour is a historical Earth form, and the Design Bible rejects medieval
-and Roman reference outright. **The salvage origin is what keeps it clear.**
+and Roman reference outright. **The salvage origin is what keeps it clear** —
+and the tessellation helps, because overlapping shingled scale is the shape the
+eye reads as medieval. A flat honeycomb of stamped industrial plate does not.
 
 These are not armour scales. They are small plates someone cut out of scrap and
 laced on. Mismatched, industrial, and made in a mill for something else entirely.

@@ -133,12 +133,16 @@ SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 She wears armour made of individual six-sided metal plates — each a flat
 hexagon about the width of two fingers — laced and riveted onto a flexible
-leather-and-fabric backing and laid so that each row laps the top edge of the
-row below by about a third. Overlapped, never tiled flat edge to edge.
+leather-and-fabric backing and set edge to edge in a honeycomb, each plate
+separate, with a narrow and even gap between it and its neighbours.
 
 EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
-a teardrop, not a fish scale. The overlap is what makes it read as scale — the
-shape does not change.
+a teardrop, not a fish scale.
+
+TESSELLATED, NOT OVERLAPPED. The plates do not lap over one another. No
+shingling, no layering, no rows lapping the row below — a single flat plane of
+hexagons meeting edge to edge, like a honeycomb. The flex comes from the gaps
+and the lacing between plates.
 The individual plates are clearly visible and countable: real metal, never a
 texture, never a pattern printed on leather.
 
@@ -186,12 +190,12 @@ shaped by wet forest — she belongs in it, and it shows.
 === THIS IMAGE ===
 Extreme close-up macro photograph of a section of the scale armour, lying flat on
 a plain neutral surface. Flat six-sided metal plates, each about the width of
-two fingers, laced onto a leather backing and overlapped so each row laps the
-top edge of the row below by about a third, filling the frame.
+two fingers, laced onto a leather backing and set edge to edge in a honeycomb
+with a narrow even gap between neighbours, filling the frame.
 
 SIX STRAIGHT SIDES ON EVERY PLATE. Never round, never a coin, never a
-teardrop, never a fish-scale shape. The plates overlap; the shape does not
-change. Every plate carries the same shallow pressed relief
+teardrop, never a fish-scale shape. TESSELLATED, NOT OVERLAPPED — the plates
+meet edge to edge in a single flat plane and never lap over one another. Every plate carries the same shallow pressed relief
 of a coiled serpent — a worn industrial manufacturer's stamp, softened and
 grimed in the recesses, partly lost on the oldest plates, never crisp or
 ornamental. The plates are cut from salvaged hull plate: mismatched alloys

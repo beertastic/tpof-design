@@ -133,12 +133,16 @@ SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 She wears armour made of individual six-sided metal plates — each a flat
 hexagon about the width of two fingers — laced and riveted onto a flexible
-leather-and-fabric backing and laid so that each row laps the top edge of the
-row below by about a third. Overlapped, never tiled flat edge to edge.
+leather-and-fabric backing and set edge to edge in a honeycomb, each plate
+separate, with a narrow and even gap between it and its neighbours.
 
 EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
-a teardrop, not a fish scale. The overlap is what makes it read as scale — the
-shape does not change.
+a teardrop, not a fish scale.
+
+TESSELLATED, NOT OVERLAPPED. The plates do not lap over one another. No
+shingling, no layering, no rows lapping the row below — a single flat plane of
+hexagons meeting edge to edge, like a honeycomb. The flex comes from the gaps
+and the lacing between plates.
 The individual plates are clearly visible and countable: real metal, never a
 texture, never a pattern printed on leather.
 

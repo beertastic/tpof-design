@@ -35,7 +35,8 @@ recorded revision.
 - **Overlapping metallic scale in place of rigid plate.**
   - Individual **six-sided metal plates** — hexagons with six straight sides, each
     about the width of two fingers — laced and riveted to a flexible backing and
-    **overlapped, never tiled**. Never round, never a fish-scale shape.
+    **tessellated edge to edge in a honeycomb, never overlapped or shingled**.
+    Never round, never a fish-scale shape.
     **Individually visible and countable** — never a texture or a printed pattern.
   - **Every plate carries the same shallow serpent stamp** — a manufacturer's
     mark on cheap hull plate, industrial and meaningless, worn soft and grimed.
@@ -51,7 +52,7 @@ recorded revision.
     - **Gauntlet — her RIGHT forearm** — dull grey steel, scratched, most worn.
       Wrist to below elbow, two leather straps and buckles. **Her left forearm is
       completely bare — no metal of any kind.**
-    - **Cap — her LEFT shoulder** — brass, green verdigris in the overlaps. The
+    - **Cap — her LEFT shoulder** — brass, green verdigris in the gaps. The
       opposite side to the gauntlet. Right shoulder bare.
     - **Sternum patch — centre** — dark bronze, the darkest. **Stitched flat**,
       never hanging, never a pendant.

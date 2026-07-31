@@ -1,7 +1,7 @@
 ---
 title: "Baylan — Image Prompt Pack"
 asset_id: "CHAR-BAYLAN"
-version: "1.1"
+version: "1.2"
 status: "ready"
 faction: "Mercenaries"
 governing_documents:
@@ -81,8 +81,9 @@ no 3D-render look, no plastic or waxy skin.
 
 **Baylan-specific rejections.**
 
-- **No robes, no hood, no cowl, no Jedi silhouette** — except in slot 7, which is
-  the vision. He is a mercenary in every other image.
+- **His dark robe must read as a heavy weathered coat, never as Jedi dress.** No
+  wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
+  Jedi robes appear only in slot 7, which is the vision.
 - **No visible lightsaber and no hilt on his belt.** The blaster is the hilt.
 - **Not a wise mentor.** Not serene, not teaching, not at peace.
 - **Not a ranking officer.** He is a subordinate who stands at the back.
@@ -117,7 +118,15 @@ throughout. No ornament, no faction marking, no trophies, no personal flourish.
 In a crew that decorates itself, his plainness is the only unusual thing about
 him — and it reads as a dull man rather than a hiding one.
 
-Under everything he wears one surviving garment from before: an undertunic of
+He often wears a **long, heavy, dark robe** — weathered black or near it — that he
+has had since before, and which has been through at least one real fight:
+repaired tears, scorching, a burn never properly patched. It reads as an ordinary
+weather cape or heavy coat, not as Jedi dress: no wide monastic sleeves, no
+ceremonial drape, no hood-up mystique. It is visibly the most comfortable thing
+he owns and the only object he keeps because he likes it. He wears it off duty,
+at the fire and in the cold; less when working or on patrol.
+
+Under everything he wears one further surviving garment: an undertunic of
 original Jedi weave, re-dyed dark years ago and patched so often the original
 fabric survives only in panels. Its cross-wrapped front and shaped shoulder are
 wrong for salvage, but it is so far gone nobody has remarked on it. Visible only
@@ -184,7 +193,7 @@ visual magic: the rock is simply, impossibly, hanging there.
 Baylan seated cross-legged inside a small canvas tent at night, lit low and warm
 by a glowrod on the ground beside him. He is in shirtsleeves — jacket and harness
 off, work shirt open at the collar, the patched dark undertunic visible
-underneath. A cord runs around his neck and disappears into the shirt. Bed roll,
+underneath. His long dark robe is around his shoulders like a blanket. A cord runs around his neck and disappears into the shirt. Bed roll,
 tarpaulin wall, his rifle propped in the corner. Quiet, private, exhausted. This
 is the only place he is ever unguarded.
 
@@ -290,8 +299,9 @@ surface, evenly lit. Coarse insulated work fabric; worn reinforced synth-leather
 with visible stitching and repair; quilted padding at a re-shouldered seam; a
 patched dark undertunic panel showing an older, finer weave with a cross-wrapped
 edge and a shaped shoulder; weathered matte metal hardware; harness webbing;
-boot leather, resoled. A short length of worn neck cord and a scrap of soft old
-pouch leather at one corner. Palette held to charcoal `#2B2A26`, ash brown
+boot leather, resoled; a panel of the heavy dark robe cloth showing a repaired
+tear and an unpatched scorch. A short length of worn neck cord and a scrap of
+soft old pouch leather at one corner. Palette held to charcoal `#2B2A26`, ash brown
 `#3A352F`, dust brown `#544E42`, leather `#6B5A47`, faded tan `#7C6F5B`, faded
 olive `#4F563F`, weathered black `#2E2F33`, natural bone `#BDAF95`. Matte
 throughout, nothing reflective. The undertunic panel must be visibly a finer,
@@ -372,5 +382,6 @@ light. This is the last image of the film and the first image of the next.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 1.2 | 2026-07-31 | ready | Robe added to Character Constants, slots 1, 5 and 13, and the rejection list. |
 | 1.1 | 2026-07-30 | ready | Slot 12 rewritten as reconstruction, not disassembly. Finale scene plates added. |
 | 1.0 | 2026-07-30 | ready | Initial prompt pack derived from locked character. |

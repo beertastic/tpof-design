@@ -46,10 +46,18 @@ him as a Jedi on first sight has failed.
 - Muted throughout: charcoal, ash brown, dust brown, faded olive.
 - **No ornament, no faction marking, no trophies, no personal flourish.** In a
   crew that decorates itself, his plainness is the only odd thing about him.
-- **One remnant: the undertunic.** Original Jedi weave, re-dyed dark, patched
-  until the original fabric survives only in panels. The cross-wrapped front and
-  shaped shoulder are wrong for salvage. Visible only at collar and cuff, and
-  when he is in shirtsleeves.
+- **Two remnants from before, in different registers:**
+  - **The robe** — long, heavy, dark (weathered black or near it), worn most of his
+    Jedi life and never given up. Repaired tears, scorching, an unpatched burn. It
+    reads as an ordinary weather cape, which the Bible sanctions. **It is the only
+    thing he owns for comfort rather than use.** Worn off duty, at the fire, in the
+    tent, on cold nights — less on patrol or hauling. Must **not** produce a Jedi
+    silhouette: no wide monastic sleeves, no ceremonial drape, no hood-up mystique.
+    It is a heavy old coat.
+  - **The undertunic** — original Jedi weave, re-dyed dark, patched until the
+    original fabric survives only in panels. Cross-wrapped front and shaped
+    shoulder are wrong for salvage. Visible only at collar and cuff, or in
+    shirtsleeves. He does not think about it.
 - Costume must strip back to shirt and trousers for Scenes 13 and 15.
 
 ## Hero props
@@ -150,8 +158,9 @@ him as a Jedi on first sight has failed.
 
 Reject any design that becomes:
 
-- **A Jedi in a hood.** He is a mercenary. No robes, no cowl, no Jedi silhouette
-  outside Scene 12.
+- **A Jedi in a hood.** He has a robe, but it must read as a heavy weathered coat
+  and nothing else. No monastic drape, no wide sleeves, no cowl, no hood-up
+  mystique, no Jedi silhouette outside Scene 12.
 - **A wise mentor.** He is not serene, not teaching anyone, and not at peace. He
   is a tired man doing manual labour for people he does not respect.
 - **A ranking officer.** He is a subordinate who stands at the back and gets

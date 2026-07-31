@@ -1,7 +1,7 @@
 ---
 title: "Baylan"
 asset_id: "CHAR-BAYLAN"
-version: "1.9"
+version: "2.0"
 status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
@@ -352,18 +352,49 @@ In a crew of individuals, his plainness is the one odd thing about him — and i
 reads as a dull man rather than a hiding one, which is exactly what he needs.
 See [`04-factions/mercenaries/Faction.md`](../../04-factions/mercenaries/Faction.md).
 
-### The remnant
+### Two remnants, in different registers
 
-**One garment survives from before: his undertunic.**
+He kept two things from before. One is hidden and never thought about. One is in
+plain sight and is the only comfort he owns.
+
+#### 1. The robe — visible, and chosen
+
+**A long dark robe he has worn most of his Jedi life, and never gave up.**
+
+Not full Jedi dress and not a costume he hides behind. It is heavy, dark —
+weathered black or near it — and it has been through at least one real fight:
+repaired tears, scorching, a burn that was never patched properly.
+
+**Crucially, it does not read as Jedi.** The Production Design Bible lists
+*weather capes* among the preferred costume influences, so in this galaxy a long
+dark robe is ordinary outerwear. Only the cut and the age give it away, and
+nobody is looking. To the crew it is just the old coat Bay wears.
+
+**It comforts him**, and that is the point of it. Everything else he owns is
+functional and impersonal — he has deliberately kept nothing that says anything
+about him. The robe is the exception, and it is the only thing in his possession
+that exists because he *likes* it.
+
+- Worn when he can rather than always: off duty, at the fire, in the tent, cold
+  nights. Less likely on patrol or hauling cargo.
+- It should look like the most comfortable object in the film.
+- It must **not** produce a Jedi silhouette — no wide monastic sleeves, no
+  ceremonial drape, no hood-up mystique. It is a heavy old coat.
+
+That it survives at all says something he would never say aloud.
+
+#### 2. The undertunic — hidden, and unconscious
+
+**One garment survives underneath everything.**
 
 Original Jedi weave, worn under everything, re-dyed dark years ago and patched so
 many times that the original fabric survives only in panels. The cut is wrong for
 salvage — a cross-wrapped front and a shaped shoulder that no industrial workwear
 would have — but it is so far gone that nobody has ever remarked on it.
 
-He has not kept it out of sentiment. He kept it because it was good cloth and he
-could not afford to replace it, and by the time he could, it had been eighteen
-years and he was not going to.
+He did not keep it out of sentiment. He kept it because it was good cloth and he
+could not afford to replace it, and by the time he could, it had been years and
+he was not going to. Unlike the robe, he does not think about it at all.
 
 It should be visible only where the outer layers open — at the collar, at the
 cuff, when he is seated in Scene 3, when he is in shirtsleeves in Scene 15.
@@ -567,6 +598,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 2.0 | 2026-07-31 | in-development | Added the robe — a long dark battle-worn garment from his Jedi life, kept for comfort. Reads as a weather cape, not as Jedi dress. Two remnants now: robe (visible, chosen) and undertunic (hidden, unconscious). |
 | 1.9 | 2026-07-30 | in-development | The conversion was psychological survival, not tactical — he could not look at the saber and could not let it go. No breaking incident required. Scene 15 reframed as the first time in years he has opened the pouch. |
 | 1.8 | 2026-07-30 | in-development | Life split into four parts: taken as a child, the purge, failed Outer Rim years, then the crew — where he is safe for the first time. The blaster conversion is dated to his surrender, not the purge. |
 | 1.7 | 2026-07-30 | in-development | CORRECTION: the parallel with his own childhood is secondary, not his motive. He acts because he knows what awaits a seen Force-sensitive child, and because she is kin. The final hand plays certain, not haunted. |

@@ -121,14 +121,17 @@ when it was described only as "matte and non-reflective."
 
 **Where it sits — four patches, all different, all asymmetric:**
 
-| # | Where | Note |
-|---|---|---|
-| 1 | **A gauntlet on one forearm** | Scales wrapping the outer forearm, wrist to below the elbow, two leather straps and buckles. **The other forearm is bare.** The strongest element of the design |
-| 2 | **A cap over one shoulder** | Not both |
-| 3 | **A patch at the sternum** | **Stitched flat onto the garment**, lying against it. Not a hanging bib, not a pendant, not suspended from the collar — that reads as jewellery, which the lock rejects |
-| 4 | **A patch on one outer thigh** | Over the trouser. Protects a real target and puts metal at a third point |
+| # | Where | Metal | Note |
+|---|---|---|---|
+| 1 | **Gauntlet, one forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **The other forearm is bare.** The oldest piece she owns and the strongest element of the design |
+| 2 | **Cap over one shoulder** | **Brass**, green verdigris in the overlaps | Not both shoulders |
+| 3 | **Patch at the sternum** | **Dark bronze**, almost brown — the darkest | **Stitched flat onto the garment.** Not a hanging bib, not a pendant — that reads as jewellery, which the lock rejects |
+| 4 | **Patch on one outer thigh** | **The newest** — brighter, less worn | Over the trouser. Clearly added later than the rest |
 
-Each a different size and shape, a different alloy, a different age.
+**The four patches must be four different metals.** They came from four different
+scavenging trips over years and nothing matches — that mismatch is the proof
+nobody made this for her. Four identical patches quietly recreates the
+matched-set problem in four places instead of one.
 
 **No breastplate. No full yoke. No matching pair of bracers.** She added these
 piecemeal over years, as she found material — a matched set would mean somebody
@@ -164,6 +167,16 @@ protection that moves with her.
 
 **It is a functional solution, not a decorative flourish.** That is what earns it
 a place in a world where nothing is worn for looks.
+
+### Her weapons live on this costume
+
+**A compact blaster in a worn holster** at the hip or thigh — in the holster, not
+an empty one — and **a well-used combat knife in a secure sheath**, positioned
+where she can reach it.
+
+Both must appear in every turnaround view. She is an assassin, a thief and a
+tracker; a costume record without her weapons is incomplete, and the costume
+department needs to see where they sit and whether the harness works with them.
 
 ### The rhyme
 

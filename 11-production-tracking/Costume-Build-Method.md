@@ -48,6 +48,32 @@ invisibly — it will look fine in isolation and wrong in the turnaround.
 The same applies to the mercenaries' plating, which is specified as *mismatched
 alloys sitting side by side, oxidising at different rates*.
 
+### Two kinds of sameness — get them the right way round
+
+**Updated 2026-07-31, from the first physical scale samples.**
+
+Shada's plates are **hexagonal and carry a repeating serpent relief**. Both of
+those are deliberately uniform, and that uniformity is doing useful work: it is
+what proves the material was stamped out in a mill for something else. The
+serpent is a manufacturer's mark on cheap Outer Rim hull plate, not a motif
+anyone chose for her.
+
+So the rule for the paint shop is precise:
+
+| Must repeat | Must never repeat |
+|---|---|
+| The hexagonal shape | The alloy |
+| The serpent stamp | The finish, age and state of wear |
+
+**Regular shape, irregular material.** One print file is correct and expected;
+one finish across all four patches is not. The four patches came off four
+different scavenging trips and must read as four different metals — dull grey
+steel, brass with verdigris, dark bronze, and a newer brighter patch.
+
+The stamp itself must be finished as **worn industrial**: grimed in the recesses,
+softened, partly lost on the oldest patch. If it comes out crisp and clean on
+every plate it reads as jewellery, and the costume says somebody made it for her.
+
 ### Printed scale must not fight the backing
 
 Shada's scale armour has to **move like heavy cloth, not like plate** — that is

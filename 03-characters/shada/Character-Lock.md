@@ -33,12 +33,16 @@ recorded revision.
 - Light, fitted, scavenged armour.
 - Vital-area protection only.
 - **Overlapping metallic scale in place of rigid plate.**
-  - Individual coin-sized metal scales, laced and riveted to a flexible backing,
-    overlapping downward. **Individually visible and countable** — never a
-    texture, print or embossed suggestion.
-  - **Cut from salvaged sheet metal, not forged as armour.** Irregular, mismatched
-    alloys, oxidising at different rates — brass, bronze, dull steel, verdigris,
-    rust. Sections visibly replaced.
+  - Individual **six-sided metal plates**, each about the size of a large coin,
+    laced and riveted to a flexible backing and **overlapped, never tiled**.
+    **Individually visible and countable** — never a texture or a printed pattern.
+  - **Every plate carries the same shallow serpent stamp** — a manufacturer's
+    mark on cheap hull plate, industrial and meaningless, worn soft and grimed.
+    Never crisp, never ornamental. She did not choose it.
+  - **Cut from salvaged hull plate, not forged as armour.** Mismatched alloys
+    oxidising at different rates — brass, bronze, dull steel, verdigris, rust.
+    Sections visibly replaced. **The shape and stamp repeat; the metal never
+    does.**
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
   - **Coverage — four patches, four different metals, all asymmetric:**

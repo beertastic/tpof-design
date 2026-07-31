@@ -143,16 +143,43 @@ Applies to the whole project, not only Shada.
 **Where rigid armour plate would normally sit, she wears overlapping metallic
 scale instead — in sporadic patches, never as a suit.**
 
-**Individual overlapping metal scales, each roughly the size of a coin**, laced
-and riveted onto a flexible leather-and-fabric backing. They overlap downward
-like fish scales or lamellar, and the individual scales are clearly visible and
-countable — never a texture, never a print, never an embossed suggestion.
+**Individual metal scales, each a flat six-sided plate about the size of a large
+coin**, laced and riveted onto a flexible leather-and-fabric backing. They are
+laid with a **deliberate overlap** so each row laps the one below like fish
+scales or lamellar — overlapped, never tiled edge to edge. The individual plates
+are clearly visible and countable.
 
-**They are cut from salvaged sheet metal, not forged as armour.** Hull offcuts,
-machine plate, scrap. Slightly irregular in shape and size. Mismatched alloys
-sitting side by side, oxidising at different rates — brass, bronze, dull steel,
-olive-green verdigris, patches of rust. Nothing matches, nothing was made for
-this, and sections have plainly been replaced over the years.
+**They are cut from salvaged hull plate, not forged as armour.** Hull offcuts,
+machine plate, scrap. Mismatched alloys sitting side by side, oxidising at
+different rates — brass, bronze, dull steel, olive-green verdigris, patches of
+rust. Nothing matches, nothing was made for this, and sections have plainly been
+replaced over the years.
+
+### The serpent stamp
+
+**Every plate carries the same shallow relief of a coiled serpent, and it means
+nothing.**
+
+It is a **manufacturer's mark** — a common stamp found on cheap hull plate
+throughout the Outer Rim, pressed into the sheet at the mill long before anyone
+cut it up. It appears on crates, bulkheads and machine panels across the galaxy
+and nobody looks at it twice, in the same way nobody reads the maker's name on a
+drain cover.
+
+**This is what allows the motif to repeat without breaking the costume.** Four
+patches, four scavenging trips, four different alloys — and the same stamp on all
+of them, because it is the same grade of cheap plate everywhere she went. It is
+evidence of how ordinary the material is, not evidence that anything was designed.
+
+**She did not choose serpents.** The galaxy stamps them on scrap, and she happens
+to be part-serpent. That coincidence is never remarked on by her or by anyone
+else, and it is a great deal better than a character who had snake armour made
+for herself.
+
+The relief must therefore read as **industrial and worn**: shallow, pressed
+rather than engraved, softened by wear, filled with grime in the recesses, and
+partly lost on the older plates. If it starts to look crisp, ornamental, applied
+or meaningful, it has become jewellery and the costume is wrong.
 
 **Metallic but never bright.** Dulled, oxidised, scratched, weathered to a low
 sheen. It catches light in small dull glints across many facets rather than
@@ -199,9 +226,17 @@ Scale armour is a historical Earth form, and the Design Bible rejects medieval
 and Roman reference outright. **The salvage origin is what keeps it clear.**
 
 These are not armour scales. They are small plates someone cut out of scrap and
-laced on. Irregular, mismatched, industrial. If it starts to look forged,
-matched, symmetrical or ceremonial, it has drifted into exactly the territory
-the Bible forbids.
+laced on. Mismatched, industrial, and made in a mill for something else entirely.
+If it starts to look **forged, ceremonial, or made for her**, it has drifted into
+exactly the territory the Bible forbids.
+
+**Note on the two kinds of sameness.** The plates are a regular six-sided shape
+and they carry a repeating stamp, because that is what stamped-out industrial
+plate looks like — that sameness is the *point*, and it is what proves the
+material was mass-produced for something else. What must never become uniform is
+the **metal**: four patches, four alloys, four ages, four states of wear. Regular
+shape, irregular material. Get those the wrong way round and the costume says
+somebody made her a matching set.
 
 ### Why it exists
 

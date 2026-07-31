@@ -232,17 +232,27 @@ technical cloth, worn leather, repaired matte hardware.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
-She wears armour made of individual overlapping metal scales, each roughly the
-size of a coin, laced and riveted onto a flexible leather-and-fabric backing and
-overlapping downward like fish scales. The individual scales are clearly visible
-and countable — this is real overlapping metal, never a texture, never a printed
-or embossed pattern on leather.
+She wears armour made of **individual six-sided metal plates** — each a flat
+hexagon about the size of a large coin — laced and riveted onto a flexible
+leather-and-fabric backing and **laid with a deliberate overlap** so each row
+laps the one below like fish scales. **Overlapped, never tiled edge to edge.**
+The individual plates are clearly visible and countable: real metal, never a
+texture, never a pattern printed on leather.
 
-The scales are cut from salvaged sheet metal rather than forged as armour: hull
-offcuts and machine plate, slightly irregular in shape and size, mismatched
-alloys sitting side by side and oxidising at different rates — brass, bronze,
-dull steel, olive-green verdigris, patches of rust. Nothing matches. Sections
-have plainly been replaced over the years.
+**Every plate carries the same shallow pressed relief of a coiled serpent.** It
+is a manufacturer's mark, stamped into cheap Outer Rim hull plate at the mill
+long before anyone cut it up — the sort of thing nobody reads, like the maker's
+name on a drain cover. Industrial and meaningless: shallow, pressed rather than
+engraved, softened by wear, grimed in the recesses, partly lost on the oldest
+plates. Never crisp, never ornamental, never jewellery. **She did not choose
+serpents** — the galaxy stamps them on scrap and she happens to be part-serpent,
+and nobody remarks on it.
+
+The plates are cut from salvaged hull plate rather than forged as armour:
+offcuts and machine panel, mismatched alloys sitting side by side and oxidising
+at different rates — brass, bronze, dull steel, olive-green verdigris, patches of
+rust. **The shape and the stamp repeat; the metal never does.** Sections have
+plainly been replaced over the years.
 
 Metallic but never bright: dulled, oxidised, scratched, weathered to a low sheen,
 catching light in small dull glints across many facets rather than reflecting.
@@ -416,11 +426,15 @@ ceiling, no structure enclosing her. Unhurried, ordinary, routine.
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a section of the scale armour, lying flat on
-a plain neutral surface. Overlapping coin-sized metal scales laced onto a leather
-backing, filling the frame. The scales are cut from salvaged scrap: slightly
-irregular in shape, mismatched alloys sitting side by side and oxidising at
-different rates — dull steel, brass, dark bronze, patches of green verdigris and
-rust. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
+a plain neutral surface. Flat six-sided metal plates, each about the size of a
+large coin, laced onto a leather backing and overlapped so each row laps the one
+below, filling the frame. **Every plate carries the same shallow pressed relief
+of a coiled serpent** — a worn industrial manufacturer's stamp, softened and
+grimed in the recesses, partly lost on the oldest plates, never crisp or
+ornamental. The plates are cut from salvaged hull plate: mismatched alloys
+sitting side by side and oxidising at different rates — dull steel, brass, dark
+bronze, patches of green verdigris and rust. The shape and the stamp repeat; the
+metal never does. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
 visible at the edge of the piece. Even flat lighting, sharp across the frame. A
 single material sample photographed for reference — no styling, no arrangement,
 no other objects.

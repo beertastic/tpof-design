@@ -1,9 +1,10 @@
 # Shada
 
-**Asset ID:** CH-006  
-**Faction:** Mercenaries  
-**Role:** Assassin, thief, scout and tracker  
-**Status:** In development
+**Asset ID:** CH-006
+**Faction:** Mercenaries
+**Role:** Assassin, thief, scout and tracker
+**Species:** Human, with inherited serpentine ancestry
+**Status:** In development — costume approved 2026-07-31
 
 ## Art Department Brief
 
@@ -14,6 +15,45 @@ buildable, quiet, weathered and visibly maintained.
 
 She should look like someone who belongs in a forest even when standing inside
 a starship.
+
+## Story Function
+
+**She is how the crew finds people.**
+
+Jasu commands, Nyx runs the squads, and Shada is the one who reads the ground.
+Terrain, scent, access routes, where a frightened person would go and where they
+would hide. In a hunt across a forest world she is the most useful person on the
+payroll, and she works alone by preference.
+
+She appears in three scenes and dies in the last of them.
+
+### Scene beats
+
+| Scene | Setting | Beat |
+|---|---|---|
+| 10 | Forest Mercenary Camp, night | The Sabacc game. Nyx wins the pot. She is present, at the edge of the firelight, watching rather than playing |
+| 24 | Forest Clearing, morning | The confrontation |
+| 24A | Forest Clearing, morning | **Baylan kills her** |
+
+### She dies in the clearing
+
+**Killed by Baylan**, along with Jasu and the rest of the crew, after Jasu sets
+the akk dog on Jeyin.
+
+She has worked alongside him for years. See
+[`04-factions/mercenaries/Crew-Roster.md`](../../04-factions/mercenaries/Crew-Roster.md).
+
+### The question her design raises
+
+**She is the most observant person in the crew, and she never noticed the Jedi
+standing next to her.**
+
+Her whole function is reading what people leave behind — and for years she shared
+a camp with a man doing everything he could to be unremarkable. Either she never
+looked at him properly, because his plainness worked exactly as intended, or she
+noticed something and said nothing.
+
+Both are interesting. Neither is decided. See *Open Questions*.
 
 ## Visual Language
 
@@ -200,6 +240,53 @@ own ancestry as protection**, and nobody in the film ever remarks on it.
 That is also the design's best defence against drift: if the armour reads as
 plates, the connection is gone and she is just another scavenger.
 
+## Performance and Body Language
+
+- **Economical and controlled.** Nothing wasted, no gesture that does not need to
+  happen.
+- **Low profile, quiet footwork.** Weight on the balls of the feet.
+- **Patient before explosive.** She waits, and then she does not.
+- **Predatory, never theatrical.** No posturing, no display.
+- **She uses terrain, shadow and distance** without appearing to think about it.
+- **She scans before she speaks**, and often does not speak.
+- **No military posture.** She was never a soldier and does not stand like one.
+- **Warmth appears only around the crew** — and even then, rarely, and briefly.
+
+She should look like someone who belongs in a forest even when standing inside a
+starship.
+
+## Scene Appearances
+
+Scenes **10, 24, 24A** — three scenes.
+
+See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+
+## Canonical Prompt Framework
+
+1. Production Design Bible
+2. Faction guide — [`Mercenaries`](../../04-factions/mercenaries/Faction.md)
+3. This document and [`Character-Lock.md`](Character-Lock.md)
+4. Scene requirements
+5. Camera and lighting instructions
+
+See [`Prompts.md`](Prompts.md) for the image prompt pack, and
+[`prompts/`](prompts/) for paste-ready versions.
+
+## Open Questions
+
+- **Did she ever suspect Baylan?** Her entire function is noticing things. Either
+  his cover was good enough to defeat the best tracker in the crew, or she knew
+  something and kept it. The second is a scene nobody has written.
+- **Does she play Sabacc in Scene 10, or watch?** Currently written as watching
+  from the edge of the firelight, which suits her — but Nyx wins a pot off
+  *somebody*.
+- **How does Baylan kill her?** She is the one member of that crew most likely to
+  see it coming.
+- Does she have any relationship with the akk dog? She is a tracker; so, in a
+  sense, is it.
+- Where did the scale armour come from? Four scavenging trips implies four
+  stories, and none of them are written.
+
 ## Production Board Package
 
 The editable source is `source/Shada-Production-Boards.pptx`.
@@ -212,4 +299,11 @@ Approved review outputs:
 - `Performance-Board.pdf`
 - `Materials-Board.pdf`
 
-High-resolution PNG previews are stored in `renders/`.
+High-resolution PNG previews are stored in `renders/` (gitignored — regenerable).
+
+## Revision History
+
+| Version | Date | Status | Notes |
+|---|---|---|---|
+| 2.0 | 2026-07-31 | in-development | Story function, scene beats, death, performance notes and open questions added. Costume approved; scale armour, face treatment, weapon placement and handedness specified. Boards rebuilt around turnarounds. |
+| 1.0 | 2026-07-30 | in-development | Original package: brief, visual language, five boards. |

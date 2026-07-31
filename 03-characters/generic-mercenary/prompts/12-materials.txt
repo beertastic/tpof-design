@@ -1,0 +1,158 @@
+[GENERIC-MERCENARY — SLOT 12 — MATERIALS AND PALETTE]
+Output file: materials.png
+Aspect ratio: 1:1  (square)
+
+THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
+A studio photograph of real physical objects on a real surface under real
+light — the kind an art department shoots to document what it has built.
+Flat, even, sharp across the frame. Not a render, not an illustration,
+not concept art, not AI-looking output.
+
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+Generate a single image to the description below.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== CHARACTER ===
+This is a kit, not a person. Four background mercenaries in the Mercenaries
+faction, assembled from one modular system. There is no uniform, nothing is
+issued and nothing matches. Every one of them assembled their own gear over
+years, and that is the faction's entire identity — a crew of self-assembled
+individuals who can afford good equipment looks nothing like a herd of people
+wearing what they were handed.
+
+They are good at this work and it pays well. That money is on their bodies:
+good leather, sound plating, maintained hardware, boots that work, repairs done
+properly with tools rather than by hand in poor light. Everything fits, because
+everything has been adjusted over years. Nothing is factory fresh. Nothing is
+ruined either — that is the difference between this crew and the escapees they
+are hunting.
+
+All four are male and all four are right-handed. Weapon and armour placement
+is stated from the wearer's own left and right, never the viewer's.
+
+THE FOUR BUILDS. No two share a silhouette cue. If two of them read as the
+same person in different clothes, the image has failed.
+
+1. THE WOOKIEE — over two metres, massively built, long shaggy fur in dark
+   iron-grey shot through with rust brown, greying at the muzzle and visibly
+   older. Very little clothing: a broad hand-built ammunition bandolier over one
+   shoulder carrying grenades on the front of it, a narrower utility strap
+   crossing it the other way, a heavy working belt, and salvaged plate strapped
+   over the forearms and one shoulder — oversized, refitted for him. His weapon
+   is a human-sized blaster rifle worn on his right hip like a pistol. Metal
+   rings and beads braided into the fur. He is NOT Chewbacca: not chestnut
+   brown, no bowcaster, and the crossed second strap is his.
+2. THE RIFLE — lean and quick, built around a salvaged long gun on a shoulder
+   sling. The lightest armour of the four: one shoulder pad on his right, the
+   trigger side, and nothing on the chest or shoulders that would foul a stock or
+   stop him going prone. The most pouches of anyone, carried low on hips and
+   thighs. Best boots in the crew. A cap or wrapped head-cloth with goggles
+   pushed up on the forehead. Job tallies notched into the rifle stock.
+3. THE CLOSE ONE — the most actual armour: a segmented chest rig and plates on
+   both forearms, the only figure with armour on both arms. A partial salvaged
+   helmet covering the crown and one side of the face, jaw and other side open —
+   the only headgear in the crew that could be called a helmet. A short weapon on
+   his right hip, never a long gun. No coat. Trophies taken from targets fixed to
+   the helmet and the rig.
+4. THE NEAR-HUMAN — human bone structure, human scale, differing from human in
+   skin colour and markings only: a distinct muted skin tone that is clearly not
+   a human complexion, and geometric inked markings across the face. Achieved
+   in make-up alone — no appliances, no prosthetics, nothing glued on. Bare
+   head so the markings read. The only long coat in the crew, weathered, below
+   the knee, worn open. Belt and braces, nothing across the chest. Small kept
+   objects from a life before this threaded onto the belt. Not serpentine, not
+   scaled, not furred, not large.
+
+Personal marks are the group read. Each carries a different kind of
+decoration and no two are alike: braided into the body, notched into a weapon,
+trophies off other people's gear, kept objects on a belt. Four figures decorating
+themselves the same way would be a uniform by another name.
+
+Performance: competent and unhurried, no military posture, no formation, no
+unit discipline. They are not soldiers and never were. They are racing a city,
+not strolling a wilderness.
+
+=== THIS IMAGE ===
+A flat-lay material board for the mercenary faction on a plain neutral surface,
+evenly lit, sharp across the frame. Swatches of the materials this crew is built
+from: good worn leather in several different tans and blacks, ballistic weave,
+quilted work fabric, salvaged alloy plate in mismatched finishes, brass and
+oxidised bronze fittings, heavy webbing, rope, boot leather.
+
+Muted and practical — charcoal, ash grey, weathered black, faded olive, dust
+brown, sand, bone white, with rust red and ochre as secondaries and brass used
+sparingly.
+
+Every swatch is good quality and well kept. Nothing here is a matched set: it
+is the material vocabulary four different people drew from independently.
+
+
+Deliver a single image at 1:1. It must look photographed, not generated.

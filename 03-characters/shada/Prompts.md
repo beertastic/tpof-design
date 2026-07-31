@@ -444,11 +444,13 @@ ceiling, no structure enclosing her. Unhurried, ordinary, routine.
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a section of the scale armour, lying flat on
-a plain neutral surface. Flat six-sided metal plates, each about the size of a
-hexagon about the width of two fingers, laced onto a leather backing and
-overlapped so each row laps the top edge of the row below by about a third,
-filling the frame. SIX STRAIGHT SIDES ON EVERY PLATE — never round, never a
-fish-scale shape. **Every plate carries the same shallow pressed relief
+a plain neutral surface. Flat six-sided metal plates, each about the width of
+two fingers, laced onto a leather backing and overlapped so each row laps the
+top edge of the row below by about a third, filling the frame.
+
+**SIX STRAIGHT SIDES ON EVERY PLATE.** Never round, never a coin, never a
+teardrop, never a fish-scale shape. The plates overlap; the shape does not
+change. **Every plate carries the same shallow pressed relief
 of a coiled serpent** — a worn industrial manufacturer's stamp, softened and
 grimed in the recesses, partly lost on the oldest plates, never crisp or
 ornamental. The plates are cut from salvaged hull plate: mismatched alloys

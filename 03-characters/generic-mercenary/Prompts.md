@@ -34,6 +34,12 @@ at least one build has an approved front view to attach as a reference.
 3. Generate the remaining turnaround views against those references.
 4. Then work through the slots below.
 
+**The large one has no turnaround, by decision.** The image generator refuses
+him — see Character.md. His specification is written, his bandolier plate is
+slot 9 and must be done, and the rest is settled with the performer. Four slots
+below put him in frame among the others; try them, and if one refuses, generate
+the other three and note his scale in words.
+
 **Slot 1, the line-up, is the important one.** It is the only image that tests
 whether the kit produced four individuals or one costume in four colours. Every
 "the only X in the crew" rule in `outfits.yaml` exists to be checked against it.

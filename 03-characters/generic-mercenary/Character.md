@@ -122,6 +122,38 @@ braided into the fur.
 He assembled his own kit like everyone else in this crew and he can afford good
 equipment. Design him as an individual, exactly as the other three are.
 
+### DECIDED 2026-07-31: no generated turnaround for this build
+
+**We are not generating a figure image of him, and that is fine.**
+
+The image generator refuses him. The famous character's name came out, then the
+species name came out, and it still refused — because a convincing rendering of
+this species lands on that one character no matter how it is worded, and the
+guardrail checks the output.
+
+**Nothing about the design is blocked by this.** The design is written down and
+complete: over two metres, coarse grey-and-rust body hair, old and scarred, very
+little clothing, a hand-built crossed bandolier with grenades on the front, a
+human-sized rifle worn as a sidearm, braided rings and beads. Everyone on this
+production knows what the species looks like, and a suit build is designed from
+sculpts and fitted on the performer regardless — a generated image was never
+going to be the thing anyone built from.
+
+**What replaces it:**
+
+- **This document**, which is the specification.
+- **The bandolier plate** (slot 9) — the plot-critical piece, since Vala takes a
+  grenade off it in Scene 23. It is an object on a plain surface with no creature
+  in it, so it will generate without difficulty. **Do this one.**
+- **The performer.** Polish the design with whoever is cast or costumed, which is
+  how a creature build gets finalised anyway.
+
+**Downstream, four slots put him in frame:** the line-up, the Sabacc campfire,
+the pursuit and the share sheet. Try them — he is one figure among four there
+rather than the whole subject, so they may well pass. If any refuses, generate
+the other three and record his scale in words; the line-up's job is proving the
+kit produced individuals, and three still does most of that.
+
 ### The species name cannot go in a prompt either
 
 **He is a Wookiee. The prompts never say so**, and this is not squeamishness —

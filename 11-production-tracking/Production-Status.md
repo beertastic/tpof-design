@@ -20,7 +20,7 @@ Mood and narrative images are context. Three or four per character is enough.
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
 | Shada | 1 | 5 | 5/5 — design closed, images indicative |
-| Generic Mercenary | 4 builds | 20 | 0/20 — **next up**, prompts ready and clean |
+| Generic Mercenary | 4 builds | 20 | 3/4 fronts done. **The large one has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
 | Baylan | 4 | 20 | not started |
 | Shin | 3 states | 15 | not started |
 

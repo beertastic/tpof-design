@@ -30,6 +30,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import fitz
 import yaml
 import pdfrender
+import promorender
 from PIL import Image
 from pptx import Presentation
 from pptx.dml.color import RGBColor
@@ -257,6 +258,61 @@ def split_and_render(character_dir: Path, config: dict[str, Any], master_pdf: Pa
     return outputs
 
 
+def validate_promo(character_dir: Path, promo: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    for key in ("project", "character", "logline", "hero_image"):
+        if not promo.get(key):
+            errors.append(f"promo: missing key: {key}")
+    paths = [promo.get("hero_image")] + [
+        (i["path"] if isinstance(i, dict) else i) for i in promo.get("strip", [])
+    ]
+    for rel in filter(None, paths):
+        if not (character_dir / rel).is_file():
+            errors.append(f"promo: missing image {rel}")
+    return errors
+
+
+def run_promo(repo: Path, character_dir: Path, args, template: dict[str, Any]):
+    source = character_dir / "promo-data.yaml"
+    if not source.is_file():
+        raise SystemExit(
+            f"No promo-data.yaml in {character_dir.relative_to(repo)}. "
+            "Copy one from another character and edit it.")
+    promo = load_yaml(source)
+    errors = validate_promo(character_dir, promo)
+    if errors:
+        print(f"Validation failed for {source.relative_to(repo)}:", file=sys.stderr)
+        for error in errors:
+            print(f"  - {error}", file=sys.stderr)
+        raise SystemExit(2)
+    print(f"Validated {source.relative_to(repo)}")
+    if args.validate:
+        return
+
+    style_cfg = deep_merge(template.get("style", {}), promo.get("style", {}))
+    style = {k: str(v) for k, v in style_cfg.items()}
+    out_pdf = character_dir / f'{promo["character"]}-Promo.pdf'
+    warnings = promorender.render_promo(out_pdf, character_dir, promo, style)
+    for warning in warnings:
+        print(f"  ! {out_pdf.name}: {warning}", file=sys.stderr)
+    outputs = [out_pdf]
+
+    if not args.pdf_only:
+        renders = character_dir / "renders"
+        renders.mkdir(exist_ok=True)
+        doc = fitz.open(out_pdf)
+        pix = doc[0].get_pixmap(matrix=fitz.Matrix(args.dpi / 72, args.dpi / 72),
+                                alpha=False)
+        png = renders / f'{out_pdf.stem}-A4-{args.dpi}dpi.png'
+        pix.save(png)
+        doc.close()
+        outputs.append(png)
+
+    print("Generated:")
+    for output in outputs:
+        print(f"  {output.relative_to(repo)}")
+
+
 def run_character(repo: Path, character_dir: Path, args, template: dict[str, Any]):
     config = load_yaml(character_dir / "board-data.yaml")
     selected = [args.board] if args.board else board_order(config)
@@ -306,6 +362,9 @@ def main():
     parser.add_argument("character", nargs="?", help="Existing character directory name, e.g. shada")
     parser.add_argument("--all", action="store_true", help="Generate every existing character folder containing board-data.yaml")
     parser.add_argument("--board", help="Generate one board only, by key")
+    parser.add_argument("--promo", action="store_true",
+                        help="Generate the A4 promo sheet from promo-data.yaml "
+                             "instead of the production boards")
     parser.add_argument("--dpi", type=int, default=300, help="PNG render DPI (default: 300)")
     parser.add_argument("--pdf-only", action="store_true", help="Skip PNG preview rendering")
     parser.add_argument("--validate", action="store_true", help="Validate configuration and artwork without generating files")
@@ -314,8 +373,21 @@ def main():
         parser.error("Provide exactly one character name or use --all.")
     if args.dpi < 72 or args.dpi > 600:
         parser.error("--dpi must be between 72 and 600.")
+    if args.promo and args.board:
+        parser.error("--promo and --board are different documents; pick one.")
     repo = find_repo_root(Path(__file__).parent)
-    template = load_yaml(Path(__file__).parent / "templates" / "character-a2.yaml")
+    templates = Path(__file__).parent / "templates"
+    if args.promo:
+        template = load_yaml(templates / "promo-a4.yaml")
+        characters = ([p for p in sorted((repo / "03-characters").iterdir())
+                       if (p / "promo-data.yaml").is_file()]
+                      if args.all else [resolve_character_dir(repo, args.character)])
+        if not characters:
+            raise SystemExit("No character folders contain promo-data.yaml.")
+        for character_dir in characters:
+            run_promo(repo, character_dir, args, template)
+        return
+    template = load_yaml(templates / "character-a2.yaml")
     characters = discover_characters(repo) if args.all else [resolve_character_dir(repo, args.character)]
     if not characters:
         raise SystemExit("No existing character folders contain board-data.yaml.")

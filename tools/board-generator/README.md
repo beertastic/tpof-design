@@ -49,6 +49,9 @@ python tools/board-generator/generate.py shada --pdf-only
 
 # Generate every currently existing configured character
 python tools/board-generator/generate.py --all
+
+# Generate the A4 promo sheet instead of the boards
+python tools/board-generator/generate.py shada --promo
 ```
 
 `--all` discovers folders dynamically. It never uses a hard-coded character
@@ -88,6 +91,81 @@ python tools/board-generator/generate.py shada
 
 git acp "design(shada): new forest plate"
 ```
+
+## The promo sheet — `--promo`
+
+A single A4 portrait page for people **outside** the production: press packs,
+festival submissions, funding decks, a link to send someone who asked what the
+character looks like.
+
+It is deliberately the inverse of a board. A board is exhaustive and neutral —
+flat light, every fitting legible, nothing concealed. The promo sheet is
+selective and atmospheric: one hero image carrying the page, sparse type, a
+teaser rather than a spec.
+
+```bash
+python tools/board-generator/generate.py shada --promo
+python tools/board-generator/generate.py shada --promo --validate
+python tools/board-generator/generate.py --all --promo
+```
+
+Driven by `03-characters/<character>/promo-data.yaml`, styled by
+`templates/promo-a4.yaml`. Output is `<Character>-Promo.pdf` in the character
+folder.
+
+### The page
+
+```text
+┌──────────────────────────────────────────────┐
+│ NAME                        project · kicker │
+│ role                                         │
+├───────────────┬──────────────────────────────┤
+│ panels:       │                              │
+│  heading      │        hero_image            │
+│  text         │        (cover crop,          │
+│  items        │         hero_anchor picks    │
+│               │         what survives)       │
+├───────────────┴──────────────────────────────┤
+│ logline          (large)                     │
+│ pull             (secondary, italic)         │
+├──────────────────────────────────────────────┤
+│ WEAPONS & EQUIPMENT                          │
+│ [plate] [plate] [plate]   + captions         │
+│ notes, in columns                            │
+├──────────────────────────────────────────────┤
+│ field: optional image strip, pinned          │
+│ project · kicker · disclaimer                │
+└──────────────────────────────────────────────┘
+```
+
+`panels` and `weapons.notes` take as many entries as you give them, so the
+length of the page is set by the copy. Weapon plates use a **contain** fit —
+they are prop photographs on plain ground and cropping them cuts the prop. The
+hero and the optional `field` strip use **cover**, with a per-image `anchor`
+between 0 and 1 choosing what survives the crop (low keeps the top, which is
+usually where the face is).
+
+**Two rules for the content.**
+
+*It is never a costume authority.* Nothing is ever matched against it, and it
+carries no non-negotiables. Only the boards and the approved turnaround do that.
+
+*Keep it spoiler-free unless someone has decided otherwise.* `Character.md` is
+full of plot — who dies, when and at whose hand. None of that belongs on a page
+you hand to a stranger. Decide it deliberately; do not copy-paste.
+
+The page flows from the title down and the footer is pinned, so overlong copy
+collides rather than reflowing onto a second page. The generator **warns and
+still writes the file** — check the warnings, not the exit code. The left-column
+warning reports the measured height and the `hero_height` that would match it:
+
+```text
+! Shada-Promo.pdf: left column runs 4.43in against a 4.05in hero —
+  trim a panel, or set `hero_height: 4.43`
+```
+
+Setting `hero_height` to that number squares the bottom of the image with the
+bottom of the text column, which is what the page wants to look like.
 
 ## Outputs and version control
 

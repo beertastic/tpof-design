@@ -1,0 +1,14 @@
+# Promo sheet styling — deliberately the inverse of character-a2.yaml.
+# The boards are light paper for the art department; this is a dark, cinematic
+# page for people outside the production.
+page:
+  size: A4
+  orientation: portrait
+style:
+  background: "#0E100F"
+  ink: "#F4F1E9"
+  muted: "#A8A79E"
+  faint: "#5E605B"
+  accent: "#9DBE8E"
+  rule: "#3A3D38"
+  plate: "#171A18"

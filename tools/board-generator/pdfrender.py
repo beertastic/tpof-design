@@ -51,26 +51,78 @@ class Board:
         else:
             self.c.drawString(x * PT, ty, s)
 
-    def wrapped(self, s: str, x, y, w, size, colour, leading_mult=1.22) -> float:
+    def wrapped(self, s: str, x, y, w, size, colour, leading_mult=1.22,
+                font="Helvetica", align="left") -> float:
         """Draw text wrapped to width. Returns the y (inches) after the last line."""
-        self.c.setFont("Helvetica", size)
+        self.c.setFont(font, size)
         self.c.setFillColor(HexColor(colour))
         limit = w * PT
-        words, line, lines = s.split(), "", []
-        for word in words:
-            trial = f"{line} {word}".strip()
-            if self.c.stringWidth(trial, "Helvetica", size) <= limit:
-                line = trial
-            else:
-                if line:
-                    lines.append(line)
-                line = word
-        if line:
+        lines: list[str] = []
+        # Blank lines in the source are deliberate paragraph breaks.
+        for para in s.split("\n\n"):
+            line = ""
+            for word in para.split():
+                trial = f"{line} {word}".strip()
+                if self.c.stringWidth(trial, font, size) <= limit:
+                    line = trial
+                else:
+                    if line:
+                        lines.append(line)
+                    line = word
             lines.append(line)
+            lines.append("")
+        while lines and not lines[-1]:
+            lines.pop()
         leading = size * leading_mult
         for i, ln in enumerate(lines):
-            self.c.drawString(x * PT, self._y(y) - size - i * leading, ln)
+            ty = self._y(y) - size - i * leading
+            if align == "center":
+                self.c.drawCentredString((x + w / 2) * PT, ty, ln)
+            elif align == "right":
+                self.c.drawRightString((x + w) * PT, ty, ln)
+            else:
+                self.c.drawString(x * PT, ty, ln)
         return y + (len(lines) * leading) / PT
+
+    def image_cover(self, path: Path, x, y, w, h, anchor: float = 0.5) -> None:
+        """Fill the box completely, cropping the overflowing axis.
+
+        anchor picks what survives the crop: 0 keeps the top/left edge, 1 the
+        bottom/right, 0.5 centres. Faces usually want a low value.
+        """
+        with Image.open(path) as im:
+            iw, ih = im.size
+        scale = max(w / iw, h / ih)
+        dw, dh = iw * scale, ih * scale
+        px = x - (dw - w) * 0.5
+        py = y - (dh - h) * anchor
+        self.c.saveState()
+        path_obj = self.c.beginPath()
+        path_obj.rect(x * PT, self._y(y, h), w * PT, h * PT)
+        self.c.clipPath(path_obj, stroke=0, fill=0)
+        self.c.drawImage(ImageReader(str(path)), px * PT, self._y(py, dh),
+                         dw * PT, dh * PT, mask="auto")
+        self.c.restoreState()
+
+    def scrim(self, x, y, w, h, colour: str, start_alpha: float = 0.0,
+              end_alpha: float = 1.0, ease: float = 1.7) -> None:
+        """Vertical fade to `colour`, so type stays legible over an image.
+
+        Drawn as one RGBA image rather than stacked translucent rectangles —
+        overlapping rects compound in the overlap and band visibly in print.
+        `ease` above 1 holds the image longer and darkens late.
+        """
+        rgb_tuple = HexColor(colour).bitmap_rgb()
+        rows = 512
+        ramp = Image.new("RGBA", (2, rows))
+        px = ramp.load()
+        for i in range(rows):
+            t = i / (rows - 1)
+            alpha = start_alpha + (end_alpha - start_alpha) * (t ** ease)
+            for col in (0, 1):
+                px[col, i] = (*rgb_tuple, int(round(alpha * 255)))
+        self.c.drawImage(ImageReader(ramp), x * PT, self._y(y, h), w * PT, h * PT,
+                         mask="auto")
 
     def image_contain(self, path: Path, x, y, w, h, panel: str, line: str) -> None:
         self.rect(x, y, w, h, panel, line)

@@ -1,0 +1,74 @@
+# Outward-facing promo sheet. NOT a production document.
+#
+# Deliberately spoiler-free: role, look, method and kit only — nothing about her
+# arc or her fate. Anything plot-bearing belongs in Character.md, not here.
+# Nothing on this page is a costume authority; only the boards and the approved
+# turnaround are.
+#
+#   python tools/board-generator/generate.py shada --promo
+
+project: The Price of Freedom
+character: Shada
+kicker: Character Sheet · CH-006
+
+role: Assassin · Scout · Tracker
+
+logline: She is how the crew finds people.
+
+pull: >
+  Her skin carries inherited scales. Her armour carries metal ones. She wears her
+  own ancestry as protection, and nobody in the film ever remarks on it.
+
+hero_image: source/artwork/hero.png
+hero_height: 4.43
+hero_anchor: 0.13
+text_column: 2.42
+
+panels:
+  - heading: Character Overview
+    text: >
+      A compact mercenary infiltrator whose danger comes from observation, timing
+      and precise movement rather than physical dominance. Mostly human, with
+      inherited serpentine ancestry that surfaces only at the edges — the temples,
+      the jawline, the side of the neck, and fine scales across her bare shoulders
+      and forearms.
+
+  - heading: Story Function
+    text: >
+      Terrain, scent, access routes, where a frightened person would go and where
+      they would hide. In a hunt across a forest world she is the most useful
+      person on the payroll, and she works alone by preference.
+
+  - heading: First Impression
+    items:
+      - Belongs in this forest
+      - Notices everything
+      - Wastes no movement
+      - Patient before explosive
+      - Could disappear at any moment
+
+weapons:
+  heading: Weapons & Equipment
+  plate_height: 1.50
+  plates:
+    - path: source/artwork/knife.png
+      caption: Combat knife. Her left hip, grip up, cross-draw with the right hand.
+    - path: source/artwork/blaster.png
+      caption: Compact blaster. Her right thigh, drop-leg holster, right-hand draw.
+    - path: source/artwork/utility.png
+      caption: Climbing and infiltration kit. Nothing else.
+  notes:
+    - >
+      She is right-handed, and nothing she carries is mirrored. Her right side
+      takes the steel gauntlet and the blaster; her left takes the brass shoulder
+      cap, the knife and the thigh patch. That diagonal is deliberate.
+    - >
+      Her armour is scrap metal cut small and laced on — four mismatched patches
+      from four scavenging trips, four alloys oxidising at different rates. No
+      breastplate, no matched pair of anything. Nobody made it for her.
+
+disclaimer: >
+  The Price of Freedom is an unofficial, non-commercial fan production. Star Wars
+  and all related properties are trademarks of Lucasfilm Ltd. This production is
+  not endorsed by or affiliated with Lucasfilm Ltd or The Walt Disney Company.
+  Images are pre-production visualisation, not final photography.

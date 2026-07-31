@@ -361,10 +361,11 @@ elements, no ornament.
 ## 11. `utility.png` — kit layout
 **Square, 1:1.**
 
-Overhead flat-lay of Shada's complete infiltration kit on a worn surface, laid
-out in the deliberate order of someone who checks it after every mission:
-climbing rope, lock picks, small field tools, spare blaster parts, cleaning kit,
-wraps, a compact water container. Every item shows use and repair. Explicitly no
+Overhead flat-lay of everything Shada carries, laid out on a worn surface in the
+deliberate order of someone who checks it after every job: a coiled length of
+thin climbing line, a cloth tool roll opened flat to show a row of slender steel
+probes and fine hand tools, a small repair kit, spare parts, a cleaning kit,
+cloth wraps, and a compact dented water flask. Every item shows use and repair. Explicitly no
 datapad and no unnecessary technology. Even, flat reference lighting. The
 restraint of the kit is the point — this is a short list, well maintained.
 

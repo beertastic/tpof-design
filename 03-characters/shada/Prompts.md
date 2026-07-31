@@ -498,9 +498,20 @@ frame or bezel around any plate.
 The backing beneath is **hand-cut worn leather with an irregular edge and uneven
 hand stitching** — never a neat manufactured panel.
 
-This is a **section cut from a working garment**, photographed as a material
-sample: not a finished display piece, not symmetrical, not centred, not complete.
-One edge runs out of frame.
+**THIS IS A FRAGMENT, NOT A GARMENT.** A torn-off scrap of the material, roughly
+the size of a hand, with **only twelve to twenty plates visible** and cut or torn
+edges on every side. One edge runs out of frame. Not symmetrical, not centred,
+not a finished piece.
+
+**IT IS NOT CLOTHING AND MUST NOT BECOME ANY.** Not a vest, not a plate carrier,
+not body armour, not a chest panel, not a bib, not anything wearable or complete.
+**No shoulder straps, no webbing, no buckles, no velcro, no closures, no armholes,
+no neckline.** If the object in frame could be put on, the image is wrong.
+
+**No modern body-armour silhouette of any kind.** This material appears on her
+costume only as four small patches — one forearm, one shoulder, the centre of the
+sternum and one thigh. **There is no breastplate and no full torso panel anywhere
+in this production.**
 
 **SIX STRAIGHT SIDES ON EVERY PLATE.** Never round, never a coin, never a
 teardrop, never a fish-scale shape. **Tessellated, not overlapped** — the plates
@@ -529,6 +540,10 @@ stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
 across the frame. A single material sample photographed for reference — no
 styling, no arrangement, no other objects.
 
+
+**A material sample, not an object.** A flat swatch or offcut with cut edges,
+roughly the size of a hand. Not a garment, not a bag, not anything wearable
+or finished. If the thing in frame could be put on or carried, it is wrong.
 ## 14. `material-cloth.png` — coarse technical fabric
 **Square, 1:1.**
 
@@ -539,6 +554,10 @@ frayed cut edge, a patch stitched over it by hand, and staining worked into the
 fibres. Even flat lighting, sharp across the frame. A single material sample
 photographed for reference — no styling, no arrangement, no other objects.
 
+
+**A material sample, not an object.** A flat swatch or offcut with cut edges,
+roughly the size of a hand. Not a garment, not a bag, not anything wearable
+or finished. If the thing in frame could be put on or carried, it is wrong.
 ## 15. `material-hardware.png` — buckles and fittings
 **Square, 1:1.**
 
@@ -551,6 +570,10 @@ reference — no styling, no arrangement, nothing else in frame.
 
 ---
 
+
+**A material sample, not an object.** A flat swatch or offcut with cut edges,
+roughly the size of a hand. Not a garment, not a bag, not anything wearable
+or finished. If the thing in frame could be put on or carried, it is wrong.
 ## 16. `tone-collage.png` — the share sheet
 
 **Tall portrait, 2:3.**

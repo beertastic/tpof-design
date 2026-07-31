@@ -5,6 +5,14 @@ outfits:
   - id: working
     name: Infiltration dress
     scenes: "10, 24, 24A — her only costume"
+
+    # When a view is right, fill this in and regenerate. Every other view then
+    # carries a match instruction naming the file. See 03-characters/APPROVAL.md
+    # approved:
+    #   date: "2026-07-31"
+    #   view: front
+    #   reference: 03-characters/shada/source/artwork/turn-working-front.png
+    #   note: "Front view locked. Match this for all other views"
     must_show:
       - >
         METAL SCALE ARMOUR — SPORADIC PATCHES, NOT A SUIT AND NOT A MATCHED SET.

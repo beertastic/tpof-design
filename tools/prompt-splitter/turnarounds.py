@@ -89,6 +89,21 @@ the subject is facing."""
 def build(character: str, outfit: dict, view_id: str, view_name: str,
           view_desc: str, blocks: dict, ratio: str) -> str:
     natural = view_id == "natural"
+
+    approved = outfit.get("approved") or {}
+    ref_path = approved.get("reference")
+    ref_view = approved.get("view", "front")
+    match_block = ""
+    if ref_path and view_id != ref_view:
+        match_block = (
+            "MATCH THE APPROVED REFERENCE.\n"
+            f"Attach this image to the conversation before generating:\n"
+            f"    {ref_path}\n"
+            f"It is the approved {ref_view.upper()} view of this costume. Match it exactly — "
+            "the same\ncostume, the same materials, the same colours, the same scale, the same "
+            "figure\nheight in frame. This image is a different view of that same photograph.\n"
+            "Where this text and the reference image disagree, THE IMAGE WINS."
+        )
     must = outfit.get("must_show") or []
     must_block = ""
     if must:
@@ -105,6 +120,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "standing in a real studio under real light. Not a render, not an",
         "illustration, not concept art, not AI-looking output.",
         "",
+        match_block,
+        "" if match_block else None,
         must_block,
         "" if must_block else None,
         "=== SHOT ===",
@@ -158,6 +175,14 @@ def run(repo: Path, character: str) -> int:
     for old in outdir.glob("*.txt"):
         old.unlink()
 
+    locked = [o for o in outfits if (o.get("approved") or {}).get("date")]
+    if locked:
+        for o in locked:
+            a = o["approved"]
+            print(f"  ! {character}/{o['id']} is APPROVED ({a['date']}) — "
+                  f"regenerating its prompts. Existing artwork may no longer match.",
+                  file=sys.stderr)
+
     count = 0
     rows = []
     for outfit in outfits:
@@ -182,12 +207,28 @@ def run(repo: Path, character: str) -> int:
         "",
         f"All at **{ratio}**, tall, full figure.",
         "",
-        "| Outfit | View | Prompt | Output |",
-        "|---|---|---|---|",
+        "| Outfit | Status | View | Prompt | Output |",
+        "|---|---|---|---|---|",
     ]
+    status = {}
+    for o in outfits:
+        a = o.get("approved") or {}
+        status[o["name"]] = f"**APPROVED** {a['date']}" if a.get("date") else "in progress"
     for oname, vname, stem in rows:
-        idx.append(f"| {oname} | {vname} | `{stem}.txt` | `{stem}.png` |")
+        idx.append(f"| {oname} | {status.get(oname,'')} | {vname} | "
+                   f"`{stem}.txt` | `{stem}.png` |")
     idx += [
+        "",
+        "## Approved outfits",
+        "",
+        "An outfit marked **APPROVED** has a locked reference image. Every other view",
+        "of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming",
+        "the file to attach — and states that where the text and the image disagree,",
+        "**the image wins**.",
+        "",
+        "**Editing an approved outfit invalidates artwork already made from it.** The",
+        "generator prints a warning when you do. If a change is genuinely needed,",
+        "clear the `approved` block, regenerate, and re-approve from a new reference.",
         "",
         "## The consistency rule",
         "",

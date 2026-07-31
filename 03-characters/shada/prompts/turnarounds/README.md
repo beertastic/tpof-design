@@ -8,13 +8,24 @@ reference first.
 
 All at **2:3**, tall, full figure.
 
-| Outfit | View | Prompt | Output |
-|---|---|---|---|
-| Infiltration dress | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
-| Infiltration dress | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
-| Infiltration dress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
-| Infiltration dress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
-| Infiltration dress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+| Outfit | Status | View | Prompt | Output |
+|---|---|---|---|---|
+| Infiltration dress | in progress | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
+| Infiltration dress | in progress | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
+| Infiltration dress | in progress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
+| Infiltration dress | in progress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
+| Infiltration dress | in progress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+
+## Approved outfits
+
+An outfit marked **APPROVED** has a locked reference image. Every other view
+of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming
+the file to attach — and states that where the text and the image disagree,
+**the image wins**.
+
+**Editing an approved outfit invalidates artwork already made from it.** The
+generator prints a warning when you do. If a change is genuinely needed,
+clear the `approved` block, regenerate, and re-approve from a new reference.
 
 ## The consistency rule
 

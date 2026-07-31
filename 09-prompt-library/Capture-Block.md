@@ -155,6 +155,30 @@ artist. Describe the equipment and the physics, not a person's work.
 
 ---
 
+## Never ask an image generator for a board
+
+A materials board, a colour palette or a labelled reference sheet is an
+**assembled design artefact**, not a photograph. Asking for one produces the worst
+of both: something that looks like software output and satisfies neither the
+photographic realism rule nor the board layout.
+
+**Two rules follow:**
+
+**Never put hex values in an image prompt.** No generator can hit `#2B2A26`, and
+listing hex codes invites labelled swatches — which the Do Not block forbids in
+the same breath. The board generator draws the palette as crisp vector text from
+`board-data.yaml`. That is where colour specification belongs.
+
+**Never ask for many distinct objects arranged.** "Swatches and close details
+arranged on a surface" is among the hardest things to generate. One subject per
+image, filling the frame.
+
+**Generate the materials, not the board.** Four macro shots — the metal, the
+leather, the cloth, the hardware — each a single sample photographed flat and
+sharp. The board generator lays them out with the palette alongside. Easier to
+generate, and far more useful to whoever builds the costume, because you can
+actually see the texture.
+
 ## When a generator refuses
 
 Image generators run keyword-level safety filters that do not read context. A

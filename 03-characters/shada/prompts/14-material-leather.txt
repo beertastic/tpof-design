@@ -1,6 +1,6 @@
-[SHADA — SLOT 13 — MATERIALS AND PALETTE]
-Output file: materials.png
-Aspect ratio: 5:4  (landscape)
+[SHADA — SLOT 14 — WORN SYNTH-LEATHER]
+Output file: material-leather.png
+Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -144,13 +144,12 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Materials reference board: physical swatches and close details arranged on a
-neutral surface, evenly lit. Flexible scale-textured mesh; worn reinforced
-synth-leather with visible stitching and repair; coarse technical fabric;
-weathered matte metal hardware; rope, patches, mud and patina. Palette held to
-charcoal #2B2A26, ash brown #3A352F, dust brown #544E42, leather #6B5A47,
-faded tan #7C6F5B, faded olive #4F563F, weathered black #2E2F33, natural
-bone #BDAF95. Matte and low-noise throughout — nothing reflective. Dark values
-must remain separable from one another by texture and value, never merging.
+Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
+lying flat on a plain neutral surface and filling the frame. Years of use: the
+surface cracked and softened, colour worn away at the high points, a repaired
+tear with visible hand stitching in mismatched thread, and one edge showing a
+stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
+across the frame. A single material sample photographed for reference — no
+styling, no arrangement, no other objects.
 
-Deliver a single image at 5:4. It must look photographed, not generated.
+Deliver a single image at 1:1. It must look photographed, not generated.

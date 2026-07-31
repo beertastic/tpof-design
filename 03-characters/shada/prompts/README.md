@@ -25,7 +25,10 @@ top of the prompt, then run:
 | `10-blaster.txt` | `blaster.png` | 1:1 | yes | — | — |
 | `11-utility.txt` | `utility.png` | 1:1 | yes | — | — |
 | `12-maintenance.txt` | `maintenance.png` | 9:16 | yes | yes | yes |
-| `13-materials.txt` | `materials.png` | 5:4 | yes | — | — |
+| `13-material-scale.txt` | `material-scale.png` | 1:1 | yes | — | — |
+| `14-material-leather.txt` | `material-leather.png` | 1:1 | yes | — | — |
+| `15-material-cloth.txt` | `material-cloth.png` | 1:1 | yes | — | — |
+| `16-material-hardware.txt` | `material-hardware.png` | 1:1 | yes | — | — |
 
 Generated from `Prompts.md` by `tools/prompt-splitter/split.py`.
 **Do not edit these files** — edit `Prompts.md` and regenerate.

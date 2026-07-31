@@ -379,17 +379,49 @@ controls fear. Hands and forearms prominent — scales visible, fingers precise.
 Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
 routine.
 
-## 13. `materials.png` — materials and palette
-**Landscape, 5:4.**
+## 13. `material-scale.png` — the salvaged metal scales
+**Square, 1:1.**
 
-Materials reference board: physical swatches and close details arranged on a
-neutral surface, evenly lit. Flexible scale-textured mesh; worn reinforced
-synth-leather with visible stitching and repair; coarse technical fabric;
-weathered matte metal hardware; rope, patches, mud and patina. Palette held to
-charcoal `#2B2A26`, ash brown `#3A352F`, dust brown `#544E42`, leather `#6B5A47`,
-faded tan `#7C6F5B`, faded olive `#4F563F`, weathered black `#2E2F33`, natural
-bone `#BDAF95`. Matte and low-noise throughout — nothing reflective. Dark values
-must remain separable from one another by texture and value, never merging.
+Extreme close-up macro photograph of a section of the scale armour, lying flat on
+a plain neutral surface. Overlapping coin-sized metal scales laced onto a leather
+backing, filling the frame. The scales are cut from salvaged scrap: slightly
+irregular in shape, mismatched alloys sitting side by side and oxidising at
+different rates — dull steel, brass, dark bronze, patches of green verdigris and
+rust. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
+visible at the edge of the piece. Even flat lighting, sharp across the frame. A
+single material sample photographed for reference — no styling, no arrangement,
+no other objects.
+
+## 14. `material-leather.png` — worn synth-leather
+**Square, 1:1.**
+
+Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
+lying flat on a plain neutral surface and filling the frame. Years of use: the
+surface cracked and softened, colour worn away at the high points, a repaired
+tear with visible hand stitching in mismatched thread, and one edge showing a
+stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
+across the frame. A single material sample photographed for reference — no
+styling, no arrangement, no other objects.
+
+## 15. `material-cloth.png` — coarse technical fabric
+**Square, 1:1.**
+
+Extreme close-up macro photograph of coarse woven technical fabric, lying flat on
+a plain neutral surface and filling the frame. The weave clearly visible at
+thread level. Muted and desaturated, dye faded unevenly by sun and washing. A
+frayed cut edge, a patch stitched over it by hand, and staining worked into the
+fibres. Even flat lighting, sharp across the frame. A single material sample
+photographed for reference — no styling, no arrangement, no other objects.
+
+## 16. `material-hardware.png` — buckles and fittings
+**Square, 1:1.**
+
+Extreme close-up macro photograph of a small group of weathered metal fittings on
+a plain neutral surface: two or three buckles, a hook, a strap end, a rivet.
+Salvaged and mismatched — different metals, different ages, one plainly newer
+than the rest. Matte and tarnished, scratched from use, nothing polished or
+reflective. Even flat lighting, sharp across the frame. Photographed for
+reference — no styling, no arrangement, nothing else in frame.
 
 ---
 
@@ -409,7 +441,10 @@ must remain separable from one another by texture and value, never merging.
 | 10 | `blaster.png` | 1:1 |
 | 11 | `utility.png` | 1:1 |
 | 12 | `maintenance.png` | 9:16 |
-| 13 | `materials.png` | 5:4 |
+| 13 | `material-scale.png` | 1:1 |
+| 14 | `material-leather.png` | 1:1 |
+| 15 | `material-cloth.png` | 1:1 |
+| 16 | `material-hardware.png` | 1:1 |
 
 All thirteen land in `03-characters/shada/source/artwork/`, overwriting the
 existing files by the same name. Then:

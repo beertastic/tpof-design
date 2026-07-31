@@ -67,7 +67,10 @@ boards:
       - {path: source/artwork/turn-working-front.png, x: 0.45, y: 1.35, w: 5.30, h: 9.70}
       - {path: source/artwork/turn-working-back.png, x: 5.95, y: 1.35, w: 5.30, h: 9.70}
       - {path: source/artwork/turn-working-natural.png, x: 11.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/materials.png, x: 16.95, y: 1.35, w: 5.95, h: 4.25}
+      - {path: source/artwork/material-scale.png, x: 16.95, y: 1.35, w: 2.90, h: 2.05}
+      - {path: source/artwork/material-leather.png, x: 20.00, y: 1.35, w: 2.90, h: 2.05}
+      - {path: source/artwork/material-cloth.png, x: 16.95, y: 3.55, w: 2.90, h: 2.05}
+      - {path: source/artwork/material-hardware.png, x: 20.00, y: 3.55, w: 2.90, h: 2.05}
     sections:
       - heading: LAYER SYSTEM
         x: 16.95
@@ -174,7 +177,10 @@ boards:
     output_png: Materials-Board-A2-300dpi.png
     tagline: Muted. Natural. Weathered. Functional.
     images:
-      - {path: source/artwork/materials.png, x: 0.45, y: 1.35, w: 7.00, h: 5.60}
+      - {path: source/artwork/material-scale.png, x: 0.45, y: 1.35, w: 3.40, h: 3.40}
+      - {path: source/artwork/material-leather.png, x: 4.05, y: 1.35, w: 3.40, h: 3.40}
+      - {path: source/artwork/material-cloth.png, x: 0.45, y: 3.60, w: 3.40, h: 3.40}
+      - {path: source/artwork/material-hardware.png, x: 4.05, y: 3.60, w: 3.40, h: 3.40}
       - {path: source/artwork/scale_portrait.png, x: 7.65, y: 1.35, w: 6.20, h: 8.00}
       - {path: source/artwork/turn-working-front.png, x: 14.05, y: 1.35, w: 4.30, h: 8.00}
       - {path: source/artwork/turn-working-left.png, x: 18.55, y: 1.35, w: 4.35, h: 8.00}

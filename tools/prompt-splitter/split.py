@@ -119,11 +119,15 @@ def parse_slots(md: str) -> list[dict]:
 
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
-          approved: dict | None = None) -> str:
+          approved: dict | None = None, must: list | None = None) -> str:
     narrative = slot["n"] in cap
 
     # Any slot showing the person must be anchored to the approved costume.
     gate = slot["n"] in anti
+    must_block = ""
+    if must and gate:
+        must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"
+                      + "\n".join(f"  {i}. {m.strip()}" for i, m in enumerate(must, 1)))
     ref_note = ""
     if approved and approved.get("reference"):
         ref_note = (f"[for the operator, not the model: attach "
@@ -186,6 +190,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         parts += ["=== SKIN AND REALISM ===", blocks["Anti-synthetic"], ""]
     parts += [
         "=== CHARACTER ===", blocks.get("Character Constants", ""), "",
+        must_block if must_block else None,
+        "" if must_block else None,
         "=== THIS IMAGE ===", slot["body"], "",
         (f"Deliver a single image at {slot['ratio']}. "
          + ("It must look photographed, not generated."
@@ -215,16 +221,17 @@ def run(repo: Path, character: str) -> int:
     cap, anti = parse_applicability(md)
     slots = parse_slots(md)
 
-    approved = None
+    approved, must = None, []
     ofile = repo / "03-characters" / character / "outfits.yaml"
     if ofile.is_file():
         import yaml
         cfg = yaml.safe_load(ofile.read_text(encoding="utf-8")) or {}
-        for o in cfg.get("outfits", []):
-            a = o.get("approved") or {}
-            if a.get("reference"):
-                approved = a
-                break
+        outfits = cfg.get("outfits", [])
+        chosen = next((o for o in outfits if (o.get("approved") or {}).get("reference")),
+                      outfits[0] if outfits else None)
+        if chosen:
+            approved = chosen.get("approved") or None
+            must = chosen.get("must_show") or []
 
     outdir = repo / "03-characters" / character / "prompts"
     outdir.mkdir(exist_ok=True)
@@ -234,7 +241,7 @@ def run(repo: Path, character: str) -> int:
     for slot in slots:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
-        path.write_text(build(character, slot, blocks, cap, anti, approved),
+        path.write_text(build(character, slot, blocks, cap, anti, approved, must),
                         encoding="utf-8")
 
     index = [

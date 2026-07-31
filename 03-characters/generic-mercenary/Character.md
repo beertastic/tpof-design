@@ -56,7 +56,7 @@ cut and how they are worn.
 
 | Class | Variants | Notes |
 |---|---|---|
-| **Head** | 4 | Bare, cap or wrap, partial helmet, goggles pushed up. Never a matching helmet |
+| **Head** | 4 | Bare and furred, short-brimmed cap, partial helmet, bare and marked. Never a matching helmet |
 | **Torso base** | 4 | Work shirt, technical knit, sleeveless, layered tunic |
 | **Outer layer** | 4 | Padded jacket, long coat, vest, poncho — or none |
 | **Plating** | 4 | Placed differently on each: chest, one shoulder, forearms, thighs. Never a full set on anyone |
@@ -142,6 +142,12 @@ clothing.
 Long gun, and the kit is built around it. Lightest armour of the four, most
 pouches, best boots. A shooter's silhouette: nothing on the shoulder that fouls a
 stock, nothing on the chest that stops him going prone.
+
+**Head: a short-brimmed work cap worn low, goggles around the neck.** Not on the
+forehead, and never over a wrapped head-cloth — that combination is a
+well-known character's signature and the image generator refused this build
+repeatedly until it was changed. See the note under the Wookiee about describing
+rather than referencing.
 
 ### 3. The close one — `armoured`
 

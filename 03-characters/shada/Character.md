@@ -17,7 +17,7 @@ a starship.
 
 ## Visual Language
 
-- Compact, agile silhouette.
+- Compact, agile silhouette. **Close-fitting and cut to the figure** — see below.
 - Functional exposed skin at shoulders, upper arms and selected mobility zones.
 - Fine inherited scales visible on exposed skin.
 - Subtle reptilian eyes; expressive and recognisably human.
@@ -27,6 +27,26 @@ a starship.
 - Compact blaster and well-used knife.
 - No unnecessary technology or decorative equipment.
 - Movement is economical, controlled and observant.
+
+## Costume cut — revised 2026-07-31
+
+Her costume is **close-fitting and follows her figure**: waist defined, cut to
+the body, feminine. She is compact, agile and quick, and the clothes must say so.
+
+Nothing bulky, nothing loose, no oversized jacket or coat swallowing her
+silhouette. It remains a working infiltration costume — everything on it does a
+job — but it is fitted rather than concealing.
+
+> **This revises the original lock**, which rejected any glamorised or sexualised
+> reading. That restriction is lifted **for Shada only**, at the Production
+> Designer's direction. She is an adult character.
+>
+> **It does not transfer to any other character**, and in particular
+> [Shin's](../shin/Character-Lock.md) protection is absolute and unchanged — she
+> is fifteen.
+
+Practically, this and the agility requirement point the same way: a bulky costume
+loses her build *and* her speed. Fitted serves both.
 
 ## The scale armour
 

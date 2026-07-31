@@ -89,6 +89,12 @@ the subject is facing."""
 def build(character: str, outfit: dict, view_id: str, view_name: str,
           view_desc: str, blocks: dict, ratio: str) -> str:
     natural = view_id == "natural"
+    must = outfit.get("must_show") or []
+    must_block = ""
+    if must:
+        must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"
+                      + "\n".join(f"  {i}. {m.strip()}" for i, m in enumerate(must, 1)))
+
     parts = [
         f"[{character.upper()} — TURNAROUND — {outfit['name'].upper()} — {view_name}]",
         f"Output file: turn-{outfit['id']}-{view_id}.png",
@@ -99,6 +105,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "standing in a real studio under real light. Not a render, not an",
         "illustration, not concept art, not AI-looking output.",
         "",
+        must_block,
+        "" if must_block else None,
         "=== SHOT ===",
         NATURAL_POSE if natural else TURN_POSE,
         "",
@@ -121,6 +129,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "",
         outfit["description"].strip(),
         "",
+        (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
+         if must_block else ""),
         f"Deliver a single image at {ratio}. It must look photographed, not generated.",
     ]
     return "\n".join(p for p in parts if p is not None).strip() + "\n"

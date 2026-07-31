@@ -62,7 +62,11 @@ Reject any design that becomes:
 - Heavy-armoured soldier.
 - Generic human scavenger with no serpentine ancestry.
 - Fully reptilian.
-- Glamourised or sexualised.
+- Bulky, loose or oversized. Her costume is close-fitting and follows her figure —
+  waist defined, cut to the body. (Revised 2026-07-31: the original blanket
+  restriction on a glamorised reading is lifted **for Shada only**. She is an
+  adult character. It does not transfer to anyone else, and Shin's protection is
+  absolute and unchanged.)
 - Covered head-to-toe in a way that hides the scale language.
 - **Rigid armour plates**, or an all-leather costume with no metal on it. If the
   armour reads as hard plate — or as leather panels — the design has failed. The

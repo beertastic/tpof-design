@@ -5,6 +5,22 @@ outfits:
   - id: working
     name: Infiltration dress
     scenes: "10, 24, 24A — her only costume"
+    must_show:
+      - >
+        METAL SCALE ARMOUR. Individual overlapping metal scales, each the size of a
+        coin, laced onto a flexible backing — countable, physically separate pieces
+        of metal, cut from salvaged scrap. Across the front of the torso, over both
+        shoulders, and on the outer forearms. NOT leather. NOT an embossed or
+        printed pattern. If there is no visible metal on this costume, the image is
+        wrong.
+      - >
+        FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The
+        costume follows her figure — waist defined, nothing bulky, nothing loose,
+        no oversized jacket or coat. She is small and quick, and the clothes say so.
+      - >
+        BARE ARMS AND SHOULDERS, showing the fine inherited scales on her skin at
+        the shoulders, upper arms, forearms, hands, collarbone and neck. No sleeves
+        covering them.
     description: >
       Light, fitted, scavenged armour protecting vital areas only, over a
       flexible scale-textured undersuit and a breathable base layer.
@@ -31,9 +47,13 @@ outfits:
       charcoal, ash brown, dust brown, faded olive — matte and low-noise, with
       nothing that would snag or rattle.
       Functional exposed skin at the shoulders, upper arms and selected mobility
-      zones: this exists for freedom of movement, heat and sensory function, and
-      because it is what makes her inherited scales legible. It is never
-      decorative and never sexualised.
+      zones: for freedom of movement, heat and sensory function, and because it is
+      what makes her inherited scales legible.
+      The costume is CLOSE-FITTING AND FOLLOWS HER FIGURE. Waist defined, cut to
+      the body, feminine. She is compact, agile and quick, and the clothes must
+      say so — nothing bulky, nothing loose, no oversized jacket or coat swallowing
+      her silhouette. It is still a working costume built for infiltration, not
+      display: everything on it does a job.
       Fine scales are visible on the exposed skin of her face, neck, collarbone,
       shoulders, arms and hands. A compact blaster at the hip and a well-used
       combat knife. Nothing polished, ornamental or factory fresh.

@@ -48,7 +48,7 @@ No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
 ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
 decorative technology. No gadget overload. No datapad.
 
-No glamour posing, no sexualisation, no fashion-editorial lighting.
+No fashion-editorial lighting.
 
 No text, logos, watermarks, captions, labels or lettering in the image.
 
@@ -56,6 +56,13 @@ No crushed blacks — the silhouette must stay separated from the background.
 
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic or waxy skin.
+
+Shada — costume cut. Unlike other characters in this project, her costume is
+deliberately close-fitting and follows her figure: waist defined, cut to the
+body, feminine. She is compact, agile and quick and the clothes must say so.
+Nothing bulky, nothing loose, no oversized jacket or coat swallowing her
+silhouette. It remains a working infiltration costume — everything on it does a
+job — but it is fitted, not concealing.
 
 Shada-specific rejections. Not a generic human scavenger with no serpentine
 ancestry. Not fully reptilian or a full creature design. Not a heavy-armoured

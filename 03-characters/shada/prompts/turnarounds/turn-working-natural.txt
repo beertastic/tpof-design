@@ -7,6 +7,11 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. METAL SCALE ARMOUR. Individual overlapping metal scales, each the size of a coin, laced onto a flexible backing — countable, physically separate pieces of metal, cut from salvaged scrap. Across the front of the torso, over both shoulders, and on the outer forearms. NOT leather. NOT an embossed or printed pattern. If there is no visible metal on this costume, the image is wrong.
+  2. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat. She is small and quick, and the clothes say so.
+  3. BARE ARMS AND SHOULDERS, showing the fine inherited scales on her skin at the shoulders, upper arms, forearms, hands, collarbone and neck. No sleeves covering them.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
@@ -79,7 +84,7 @@ No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
 ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
 decorative technology. No gadget overload. No datapad.
 
-No glamour posing, no sexualisation, no fashion-editorial lighting.
+No fashion-editorial lighting.
 
 No text, logos, watermarks, captions, labels or lettering in the image.
 
@@ -87,6 +92,13 @@ No crushed blacks — the silhouette must stay separated from the background.
 
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic or waxy skin.
+
+Shada — costume cut. Unlike other characters in this project, her costume is
+deliberately close-fitting and follows her figure: waist defined, cut to the
+body, feminine. She is compact, agile and quick and the clothes must say so.
+Nothing bulky, nothing loose, no oversized jacket or coat swallowing her
+silhouette. It remains a working infiltration costume — everything on it does a
+job — but it is fitted, not concealing.
 
 Shada-specific rejections. Not a generic human scavenger with no serpentine
 ancestry. Not fully reptilian or a full creature design. Not a heavy-armoured
@@ -189,6 +201,12 @@ when standing inside a starship.
 === THIS COSTUME ===
 Infiltration dress — 10, 24, 24A — her only costume
 
-Light, fitted, scavenged armour protecting vital areas only, over a flexible scale-textured undersuit and a breathable base layer. CRITICAL — THE SCALE ARMOUR IS THE DEFINING FEATURE OF THIS COSTUME AND MUST BE CLEARLY VISIBLE IN EVERY VIEW. She wears armour made of individual overlapping metal scales, each roughly the size of a coin, laced and riveted onto a flexible leather-and-fabric backing and overlapping downward like fish scales. The individual scales are clearly visible and countable — real overlapping metal, never a texture and never a printed or embossed pattern on leather. The scales are cut from salvaged sheet metal rather than forged as armour: hull offcuts and machine plate, slightly irregular, mismatched alloys oxidising at different rates — brass, bronze, dull steel, olive-green verdigris, patches of rust. Nothing matches; sections have plainly been replaced. Metallic but never bright: dulled, scratched, weathered to a low sheen, catching light in small dull glints across many facets. It covers a panel across the front of the torso, caps over both shoulders, and the outer forearms. It moves like heavy cloth rather than plate. DO NOT make this leather. DO NOT make it an embossed pattern. DO NOT make it forged or ceremonial armour. Layered technical cloth, worn leather and repaired matte hardware. A crossed harness over the chest, a working belt, a knife sheath and a concealed holster. Outer panels break up the silhouette. Quiet wraps at the forearms and lightweight boots. Muted forest palette throughout — charcoal, ash brown, dust brown, faded olive — matte and low-noise, with nothing that would snag or rattle. Functional exposed skin at the shoulders, upper arms and selected mobility zones: this exists for freedom of movement, heat and sensory function, and because it is what makes her inherited scales legible. It is never decorative and never sexualised. Fine scales are visible on the exposed skin of her face, neck, collarbone, shoulders, arms and hands. A compact blaster at the hip and a well-used combat knife. Nothing polished, ornamental or factory fresh.
+Light, fitted, scavenged armour protecting vital areas only, over a flexible scale-textured undersuit and a breathable base layer. CRITICAL — THE SCALE ARMOUR IS THE DEFINING FEATURE OF THIS COSTUME AND MUST BE CLEARLY VISIBLE IN EVERY VIEW. She wears armour made of individual overlapping metal scales, each roughly the size of a coin, laced and riveted onto a flexible leather-and-fabric backing and overlapping downward like fish scales. The individual scales are clearly visible and countable — real overlapping metal, never a texture and never a printed or embossed pattern on leather. The scales are cut from salvaged sheet metal rather than forged as armour: hull offcuts and machine plate, slightly irregular, mismatched alloys oxidising at different rates — brass, bronze, dull steel, olive-green verdigris, patches of rust. Nothing matches; sections have plainly been replaced. Metallic but never bright: dulled, scratched, weathered to a low sheen, catching light in small dull glints across many facets. It covers a panel across the front of the torso, caps over both shoulders, and the outer forearms. It moves like heavy cloth rather than plate. DO NOT make this leather. DO NOT make it an embossed pattern. DO NOT make it forged or ceremonial armour. Layered technical cloth, worn leather and repaired matte hardware. A crossed harness over the chest, a working belt, a knife sheath and a concealed holster. Outer panels break up the silhouette. Quiet wraps at the forearms and lightweight boots. Muted forest palette throughout — charcoal, ash brown, dust brown, faded olive — matte and low-noise, with nothing that would snag or rattle. Functional exposed skin at the shoulders, upper arms and selected mobility zones: for freedom of movement, heat and sensory function, and because it is what makes her inherited scales legible. The costume is CLOSE-FITTING AND FOLLOWS HER FIGURE. Waist defined, cut to the body, feminine. She is compact, agile and quick, and the clothes must say so — nothing bulky, nothing loose, no oversized jacket or coat swallowing her silhouette. It is still a working costume built for infiltration, not display: everything on it does a job. Fine scales are visible on the exposed skin of her face, neck, collarbone, shoulders, arms and hands. A compact blaster at the hip and a well-used combat knife. Nothing polished, ornamental or factory fresh.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. METAL SCALE ARMOUR. Individual overlapping metal scales, each the size of a coin, laced onto a flexible backing — countable, physically separate pieces of metal, cut from salvaged scrap. Across the front of the torso, over both shoulders, and on the outer forearms. NOT leather. NOT an embossed or printed pattern. If there is no visible metal on this costume, the image is wrong.
+  2. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat. She is small and quick, and the clothes say so.
+  3. BARE ARMS AND SHOULDERS, showing the fine inherited scales on her skin at the shoulders, upper arms, forearms, hands, collarbone and neck. No sleeves covering them.
 
 Deliver a single image at 2:3. It must look photographed, not generated.

@@ -102,7 +102,9 @@ Reject any design that becomes:
   about to start. That is Film 2.
 - **A Jedi, or Jedi-adjacent.** No robes, no lightsaber, no training, no
   understanding of what she is. She does not know the word.
-- **Sexualised in any degree.** She is fifteen. No fitted costume, no exposed
+- **Sexualised in any degree.** She is fifteen. **This is absolute and applies to
+  no other character's exemption.** Shada's costume rules were relaxed on
+  2026-07-31; that decision concerns an adult character and has no bearing here. No fitted costume, no exposed
   skin as design language, no glamour lighting, no adult posing. This overrides
   every other consideration.
 - **Clean, styled or composed.** She is filthy from Scene 11 and never recovers.

@@ -10,7 +10,11 @@
 
 Shada is a compact mercenary infiltrator whose danger comes from observation,
 timing and precise movement rather than physical dominance. She is mostly human
-in appearance, with subtle inherited serpentine traits. Her costume must be
+in appearance, with subtle inherited serpentine traits.
+
+**The ancestry is tens of thousands of years back** — distant enough that almost
+nothing survives of it. That is not a hedge, it is the design: the faintness is
+the point, and it is why this works in make-up rather than prosthetics. Her costume must be
 buildable, quiet, weathered and visibly maintained.
 
 She belongs in a forest, and everything about how she stands, moves and watches
@@ -86,6 +90,10 @@ this character needs is **something slightly off about her that you might miss.*
 
 **Not** the nose, forehead, cheeks or mouth. Those are where an audience reads
 performance, and covering them costs expression while gaining nothing.
+
+**Read it as a tattoo, not as armour.** A fine scale pattern lying flat on the
+skin like faint ink under the surface — nothing raised, nothing applied, nothing
+you could lift off.
 
 **Tonal, not coloured.** The same value as her skin. It should be legible only
 where light rakes across it at a grazing angle, and genuinely missable in flat

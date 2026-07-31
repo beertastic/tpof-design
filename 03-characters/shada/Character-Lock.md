@@ -41,10 +41,15 @@ recorded revision.
     rust. Sections visibly replaced.
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
-  - **Coverage — sporadic and asymmetric.** One patch at the sternum, one on a
-    single shoulder, one on one forearm. Different sizes, alloys and ages. **No
-    breastplate, no full yoke, no matching bracers.** At most a fifth of the
-    costume carries metal; the rest is cloth and leather.
+  - **Coverage — four patches, all different, all asymmetric:**
+    a **gauntlet on one forearm** (scales wrist to below elbow, two leather straps
+    and buckles, the other forearm bare); a **cap over one shoulder**; a patch
+    **stitched flat at the sternum** — never hanging, never a pendant; and a patch
+    on **one outer thigh**. Different sizes, alloys and ages. **No breastplate, no
+    full yoke, no matching pairs of anything.** At most a fifth of the costume
+    carries metal.
+  - **Fastenings:** buckles, hooks, lacing, toggles, straps. Any zip must read as
+    heavy industrial hardware — never a fine modern coil zip.
   - **Moves like heavy cloth, not plate.** That is why she wears it.
   - **It reads as serpentine: she wears her own ancestry as armour.**
 - Functional exposed skin for mobility, heat and sensory function.
@@ -70,6 +75,9 @@ Reject any design that becomes:
 - Heavy-armoured soldier.
 - Generic human scavenger with no serpentine ancestry.
 - Fully reptilian, or any full-face prosthetic treatment.
+- A hanging or suspended chest piece. The sternum patch is stitched flat to the
+  garment; anything dangling reads as jewellery.
+- Fine modern coil zips or neat garment zips.
 - A matched or symmetrical set of scale armour. It was added piecemeal; a matched
   set means somebody made it for her, and nobody did.
 - Bulky, loose or oversized. Her costume is close-fitting and follows her figure —

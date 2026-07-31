@@ -83,6 +83,21 @@ job — but it is fitted rather than concealing.
 Practically, this and the agility requirement point the same way: a bulky costume
 loses her build *and* her speed. Fitted serves both.
 
+## Fastenings
+
+Buckles, hooks, lacing, toggles and straps.
+
+**On zips:** there is no franchise rule against them — visible zips appear on
+rebel flight suits and cold-weather gear — but a fine modern coil zip reads
+contemporary and breaks the world.
+
+The test is not zip-or-no-zip; it is **whether the fastening looks like
+industrial hardware or like something off a high-street jacket.** Chunky exposed
+metal teeth, weathered, an oversized pull: acceptable. Fine plastic coil, neat
+garment zip, anything that looks bought rather than salvaged: not.
+
+Applies to the whole project, not only Shada.
+
 ## The scale armour
 
 **Where rigid armour plate would normally sit, she wears overlapping metallic
@@ -104,9 +119,16 @@ sheen. It catches light in small dull glints across many facets rather than
 reflecting. It reads unmistakably as *metal* — this is the detail that failed
 when it was described only as "matte and non-reflective."
 
-**Where it sits — sporadic and deliberately asymmetric.** One patch over the
-sternum. One on a single shoulder, not both. One on one forearm, not both. Each a
-different size and shape, a different alloy, a different age.
+**Where it sits — four patches, all different, all asymmetric:**
+
+| # | Where | Note |
+|---|---|---|
+| 1 | **A gauntlet on one forearm** | Scales wrapping the outer forearm, wrist to below the elbow, two leather straps and buckles. **The other forearm is bare.** The strongest element of the design |
+| 2 | **A cap over one shoulder** | Not both |
+| 3 | **A patch at the sternum** | **Stitched flat onto the garment**, lying against it. Not a hanging bib, not a pendant, not suspended from the collar — that reads as jewellery, which the lock rejects |
+| 4 | **A patch on one outer thigh** | Over the trouser. Protects a real target and puts metal at a third point |
+
+Each a different size and shape, a different alloy, a different age.
 
 **No breastplate. No full yoke. No matching pair of bracers.** She added these
 piecemeal over years, as she found material — a matched set would mean somebody

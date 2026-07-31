@@ -120,6 +120,17 @@ Visible Earth historical fashion should be avoided.
 - Pressure garments
 - Industrial gloves
 
+### Fastenings
+
+Buckles, hooks, lacing, toggles, straps, industrial catches.
+
+**On zips:** there is no rule against them — visible zips appear on rebel flight
+suits and cold-weather gear — but a fine modern coil zip reads contemporary and
+breaks the world. The test is **whether the fastening looks like industrial
+hardware or like something off a high-street garment.** Chunky exposed metal
+teeth, weathered, oversized pull: acceptable. Fine plastic coil, neat garment
+zip, anything that looks bought rather than salvaged: not.
+
 ### Avoid
 
 - Pirate coats

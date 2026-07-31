@@ -44,6 +44,34 @@ of the same turnaround, and both look correct in isolation.
 
 ---
 
+## Checking a back view
+
+**The frame sides swap between front and back. Which of *her* sides carries the
+item never changes.**
+
+When she turns around, her right side moves from the viewer's left to the
+viewer's right. Everything on it goes with her. So for a right-handed character:
+
+| Element | Her side | Front view: viewer's | Back view: viewer's |
+|---|---|---|---|
+| Blaster | right thigh | left | **right** |
+| Knife | left hip | right | **left** |
+| Forearm armour | right | left | **right** |
+| Shoulder armour | left | right | **left** |
+
+Do not check a back view by asking whether an item stayed on the same side of
+the frame. It should not have, and **the frame side cannot detect the failure
+this test is meant to catch** — a horizontal flip of the front plate swaps the
+frame sides too, exactly as a real rotation does.
+
+**What catches a mirrored plate is anatomy, not position.** A genuine back view
+shows shoulder blades, the back seams and closures of the garment, rear pockets,
+the harness crossing the back, and the back of the head. A flipped front view
+shows the face and the front closure. Look at what the plate is *of* before
+looking at what is on which side of it.
+
+---
+
 ## Establish handedness first
 
 **It is the decision every other placement follows from.** Settle it before any

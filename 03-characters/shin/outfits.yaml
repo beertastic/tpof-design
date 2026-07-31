@@ -1,0 +1,52 @@
+character: Shin
+ratio: "2:3"
+
+# Shin wears ONE costume, progressively destroyed. These are states of that
+# single garment set, not separate outfits — the costume department builds one
+# and ages it to match.
+#
+# ABSOLUTE RULE, restated here because these are full-figure studio images of a
+# fifteen-year-old: nothing fitted, nothing shaped, no exposed midriff or
+# shoulders as design language, no artful tearing, no adult posing, no makeup.
+# Damage follows the route she ran and the work she did — never a designer's hand.
+
+outfits:
+  - id: early
+    name: As we meet her
+    scenes: "6, 8, 11 — days into the run, before the forest has finished with it"
+    description: >
+      Captivity clothing made for indoor domestic labour: a coarse, badly-dyed
+      tunic over a plain under-top, and loose trousers. Everything unfitted and
+      wrong-sized — nothing was cut for this body and nothing was chosen by her.
+      Cloth is undyed or dyed so poorly the colour has gone patchy. No fastenings
+      worth anything: cord and tied cloth, nothing manufactured. No useful
+      pockets. Hand repairs in mismatched thread, made in poor light by her
+      mother — those patches are the only care anyone has spent on it. Her
+      footwear was made for floors, not forests, and is already beginning to fail.
+      By this point it is dirty and damp but structurally intact. Her long red
+      hair is bound back with a strip of torn cloth.
+
+  - id: late
+    name: Destroyed by the forest
+    scenes: "16, 17, 18, 21, 22 — after days of running, mud and the ditch"
+    description: >
+      The same single costume, now badly damaged by the crossing. Mud to the
+      knee and ground into the weave. Soaked and dried and soaked again. Tears at
+      the hem and forearms from undergrowth. The hand repairs are pulling open.
+      Permanent staining. One boot has split at the sole and is failing —
+      visibly, not decoratively. Everything hangs heavier and wetter than it did.
+      Her hair is filthier and more matted, still bound with the same cloth strip.
+      Nothing has been replaced or added; it is the same clothing, further gone.
+
+  - id: final
+    name: The clearing
+    scenes: "24, 24A — and the first frame of the next film"
+    description: >
+      The forest-destroyed costume, and now her mother's blood on it: on her
+      hands, forearms, the front of the tunic and one side of her face, from
+      holding her mother while she died. Not stylised, not arranged — transfer,
+      where a person knelt and held someone. Fresh and wet in places, drying
+      darker at the edges. Everything else is exactly as it was in the previous
+      state. On the tunic, a small plain metal clasp is now fastened where she
+      has put it, the only object she owns. Her hair is still bound and still
+      long. This is what she is wearing when she walks out of the clearing.

@@ -1,0 +1,172 @@
+[SHADA — TURNAROUND — INFILTRATION DRESS — FRONT]
+Output file: turn-working-front.png
+Aspect ratio: 2:3  (tall, full figure)
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
+
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
+
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
+
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
+
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
+
+=== VIEW ===
+The subject faces the camera squarely, straight on. Shoulders level and parallel to the frame. Head level, looking directly at the lens.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Materials: ballistic weave, quilted flight fabric, reinforced synth-leather,
+flexible armour mesh, woven technical textiles, plastoid plates, insulated work
+fabric, industrial rubber, brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Accents (brass, copper, oxidised bronze)
+used sparingly. Bright colour only for rank, warning markings or a significant
+personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload. No datapad.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Shada-specific rejections. Not a generic human scavenger with no serpentine
+ancestry. Not fully reptilian or a full creature design. Not a heavy-armoured
+soldier. Not covered head-to-toe in a way that hides the scale language.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+slight asymmetry, threads out of place, edges that are not quite straight.
+
+Real optics and real capture: genuine lens behaviour, natural highlight rolloff,
+fine photographic grain present in the image rather than added on top.
+
+Reject entirely the look of computer-generated imagery — the smooth,
+evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+result looks manufactured rather than photographed, it has failed.
+
+=== SKIN AND REALISM ===
+Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
+capillaries, stubble, shine where skin is oily and matte where it is not.
+Subsurface scattering at the ears and nostrils. No smoothed, waxy, airbrushed
+or plastic skin. No beauty retouching of any kind.
+
+Faces are asymmetric. Eyes differ slightly, the expression is uneven, nothing
+is mirrored.
+
+Lighting has a direction and a cost. One dominant source with genuine shadow
+and real falloff. No omnidirectional fill, no unmotivated rim light, no glow
+without a source.
+
+Framing is imperfect. Off-centre, unbalanced headroom, something clipped by
+the frame edge or slightly in the way. Not a composed poster.
+
+Detail is not uniform. Real photographs have areas of mush — motion, focus
+falloff, underexposed corners. Do not render every fibre at maximum sharpness.
+
+Nothing is symmetrical, new or clean unless the shot says so.
+
+=== CHARACTER ===
+Shada. Female mercenary assassin, thief, scout and tracker. Compact, agile
+build, small beside most of the crew. Mostly human in appearance with subtle
+inherited serpentine ancestry.
+
+Fine, subtle scales on face, neck, collarbone, shoulders, arms and hands —
+inherited detail, not a costume texture. Eyes carry a reptilian quality while
+remaining expressive and recognisably human. Movement stays human, restrained
+and economical.
+
+Costume: light, fitted, scavenged armour protecting vital areas only. Layered
+technical cloth, worn leather, repaired matte hardware. Practical harness, belt,
+sheath, concealed holster. Functional exposed skin at shoulders, upper arms and
+selected mobility zones — for movement, heat and sensory function, never
+decorative or sexualised, and it is what makes the inherited scales legible.
+Nothing polished, ornamental or factory fresh.
+
+Equipment: compact blaster, well-used combat knife that never leaves her side,
+small climbing and infiltration kit. Nothing else.
+
+She is dangerous through precision, patience and observation rather than
+physical dominance. She should look like someone who belongs in a forest even
+when standing inside a starship.
+
+=== THIS COSTUME ===
+Infiltration dress — 10, 24, 24A — her only costume
+
+Light, fitted, scavenged armour protecting vital areas only, over a flexible scale-textured undersuit and a breathable base layer. Layered technical cloth, worn leather and repaired matte hardware. A crossed harness over the chest, a working belt, a knife sheath and a concealed holster. Outer panels break up the silhouette. Quiet wraps at the forearms and lightweight boots. Muted forest palette throughout — charcoal, ash brown, dust brown, faded olive — matte and low-noise, with nothing that would snag or rattle. Functional exposed skin at the shoulders, upper arms and selected mobility zones: this exists for freedom of movement, heat and sensory function, and because it is what makes her inherited scales legible. It is never decorative and never sexualised. Fine scales are visible on the exposed skin of her face, neck, collarbone, shoulders, arms and hands. A compact blaster at the hip and a well-used combat knife. Nothing polished, ornamental or factory fresh.
+
+Deliver a single image at 2:3. It must look photographed, not generated.

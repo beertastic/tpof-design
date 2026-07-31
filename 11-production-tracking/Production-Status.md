@@ -8,6 +8,22 @@
 | Filmanize Script Breakdown | imported |
 | Character template | available |
 
+## Image priority
+
+**Costume turnarounds are the primary deliverable** — five images per outfit
+(front, left, right, back, natural), plain grey studio background, everything
+visible. They are what the costume department builds from.
+
+Mood and narrative images are context. Three or four per character is enough.
+
+| Character | Outfits | Turnaround prompts | Generated |
+|---|---|---|---|
+| Baylan | 4 | 20 | in progress |
+| Shin | 3 states | 15 | not started |
+| Shada | 1 | 5 | not started |
+
+See `09-prompt-library/Turnaround-Block.md`.
+
 ## Characters
 
 | Character | Status | Notes |

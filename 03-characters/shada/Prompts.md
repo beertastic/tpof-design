@@ -13,7 +13,15 @@ governing_documents:
 
 # Shada — Image Prompt Pack
 
-> **Easiest path: use the pre-assembled files in [`prompts/`](prompts/).** One
+> **Start with the costume turnarounds — they are the primary deliverable.**
+> 5 paste-ready prompts in [`prompts/turnarounds/`](prompts/turnarounds/).
+> Generate those in full before any image in this document. Regenerate with
+> `python tools/prompt-splitter/turnarounds.py shada`.
+>
+> **The slots below are plates and mood images.** Three or four mood images is
+> enough — they are context, not something anyone builds from.
+>
+> **Pre-assembled versions of the slots below are in [`prompts/`](prompts/).** One
 > plain-text file per image, each fully self-contained — open it, select all,
 > paste. No sections to gather, no markdown to strip. Generated from this
 > document; if you change anything here, run

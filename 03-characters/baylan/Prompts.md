@@ -102,12 +102,13 @@ no 3D-render look, no plastic or waxy skin.
 
 ---
 
-## Capture — paste with NARRATIVE slots only
+## Capture — NARRATIVE slots only
 
-> **Narrative slots** = 1–5, 7, 12 (portraits, in-scene, character-at-work).
-> **Do NOT paste this with reference plates** — materials, props, kit layouts,
-> expression strips, studies. Those want flat, even documentation light and
-> sharpness across the whole frame.
+> **Paste with slots 1, 2, 3, 4, 5, 7, 12** — in-scene frames.
+>
+> **Do NOT paste with reference plates** (8 (expression strip), 9–11, 13). Those want flat, even
+> documentation light and sharpness across the whole frame. Shallow depth of
+> field on a materials board is a fault, not a style.
 
 Shot on **anamorphic lenses** in the manner of the original Star Wars trilogy —
 Panavision-style anamorphic glass, not modern clinical optics.
@@ -136,7 +137,12 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ---
 
-## Anti-synthetic — paste with NARRATIVE slots only
+## Anti-synthetic — any slot containing a FACE
+
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 8, 12.** Wider than the Capture block: a portrait study or
+> an expression strip is lit flat and sharp, but the skin still has to be real.
+> This is the block that defeats the plastic-AI look, and it applies wherever
+> there is a person.
 
 **Skin must be real.** Visible pores, fine lines, uneven tone, blemishes, broken
 capillaries, stubble, shine where skin is oily and matte where it is not.

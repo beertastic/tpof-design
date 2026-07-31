@@ -17,10 +17,19 @@ equipment**, in the anamorphic house style.
 
 ## Two kinds of image — do not mix them
 
-| Type | Slots | Capture treatment |
+The two blocks have **different applicability**, and conflating them is the
+easiest mistake to make:
+
+| Block | Applies to | Why |
 |---|---|---|
-| **Narrative** | portraits, in-scene, environment, character-at-work | **Full Capture block.** Anamorphic character, grain, falloff, imperfection |
-| **Reference plate** | materials, props, kit layouts, expression strips, turnarounds, studies | **No anamorphic.** Flat, even documentation light. Sharp across frame |
+| **Capture** (anamorphic) | Narrative frames only — in-scene, environment, character-at-work | These are frames from the film. Reference plates are not |
+| **Anti-synthetic** | **Anything containing a face** — including portrait studies and expression strips | A study is lit flat and sharp, but the skin must still be real |
+
+| Type | Slots | Treatment |
+|---|---|---|
+| **Narrative** | portraits in-scene, environment, character-at-work | Capture **+** Anti-synthetic |
+| **Face study** | close portraits, expression strips | Anti-synthetic **only** — flat even light, sharp across frame |
+| **Object plate** | materials, props, kit layouts, turnarounds | **Neither.** Flat documentation light |
 
 A materials board shot with shallow depth of field and lens flare is a bad
 materials board. Reference plates are documentation, not frames from the film.

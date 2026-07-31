@@ -82,6 +82,64 @@ no 3D-render look, no plastic skin.
 
 ---
 
+## Capture — paste with NARRATIVE slots only
+
+> **Narrative slots** = 1–5, 7, 12 (portraits, in-scene, character-at-work).
+> **Do NOT paste this with reference plates** — materials, props, kit layouts,
+> expression strips, studies. Those want flat, even documentation light and
+> sharpness across the whole frame.
+
+Shot on **anamorphic lenses** in the manner of the original Star Wars trilogy —
+Panavision-style anamorphic glass, not modern clinical optics.
+
+**Optical character:** oval, horizontally-stretched bokeh in out-of-focus
+highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
+while the focal plane stays sharp. Shallow depth of field with smooth falloff.
+Faint horizontal streak flare where a bright practical source is in frame —
+restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
+Slight vignetting.
+
+**Photochemical character:** the response of 35mm motion picture negative — fine
+organic grain, present in shadows and midtones rather than added uniformly.
+Gentle halation blooming around bright sources. Highlight rolloff that compresses
+rather than clips. Rich shadow that retains detail instead of going black.
+
+**Colour:** restrained, filmic, desaturated toward the muted end. Skin natural
+and slightly warm. No digital vibrance, no teal-and-orange grade.
+
+**Focus behaviour:** one plane is sharp and everything else falls away. Detail
+resolves where the lens is focused and softens elsewhere — do not render every
+surface at equal sharpness.
+
+The image should look like a **frame from a photochemical motion picture**, or a
+unit stills photographer's frame from the same set. Not a rendered picture.
+
+---
+
+## Anti-synthetic — paste with NARRATIVE slots only
+
+**Skin must be real.** Visible pores, fine lines, uneven tone, blemishes, broken
+capillaries, stubble, shine where skin is oily and matte where it is not.
+Subsurface scattering at the ears and nostrils. **No smoothed, waxy, airbrushed
+or plastic skin. No beauty retouching of any kind.**
+
+**Faces are asymmetric.** Eyes differ slightly, the expression is uneven, nothing
+is mirrored.
+
+**Lighting has a direction and a cost.** One dominant source with genuine shadow
+and real falloff. No omnidirectional fill, no unmotivated rim light, no glow
+without a source.
+
+**Framing is imperfect.** Off-centre, unbalanced headroom, something clipped by
+the frame edge or slightly in the way. Not a composed poster.
+
+**Detail is not uniform.** Real photographs have areas of mush — motion, focus
+falloff, underexposed corners. Do not render every fibre at maximum sharpness.
+
+**Nothing is symmetrical, new or clean** unless the shot says so.
+
+---
+
 ## Character Constants — paste with every prompt
 
 Shin. Human girl, **fifteen years old**. An escaped captive fleeing through a

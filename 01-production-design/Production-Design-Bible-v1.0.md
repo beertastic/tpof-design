@@ -267,6 +267,27 @@ Avoid dramatic coloured lighting unless it serves a clear narrative purpose.
 
 ## 10. Cinematography
 
+**The film is shot on anamorphic lenses**, in the lineage of the original
+trilogy. That is the house style and it governs every narrative image.
+
+Anamorphic characteristics: oval horizontally-stretched bokeh, gentle barrel
+distortion, softness toward frame edges with a sharp focal plane, restrained
+horizontal streak flare from practical sources, mild chromatic aberration,
+slight vignetting.
+
+Photochemical characteristics: fine organic grain in shadows and midtones,
+halation around bright sources, highlight rolloff that compresses rather than
+clips, shadows that retain detail.
+
+**Anamorphic is a look, not a delivery ratio.** Production boards use their own
+layout frames; do not force 2.39:1 into a board panel.
+
+**Reference plates are exempt.** Materials boards, prop layouts, expression
+strips and turnarounds want flat even documentation light and sharpness across
+the frame. Shallow depth of field on a materials board is a fault.
+
+See [`09-prompt-library/Capture-Block.md`](../09-prompt-library/Capture-Block.md).
+
 Images should resemble frames from a live-action Star Wars production.
 
 Naturalistic composition is preferred over heroic posing.

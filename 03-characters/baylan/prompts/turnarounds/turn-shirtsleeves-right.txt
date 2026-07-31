@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
 
@@ -204,5 +223,7 @@ is genuinely at ease, and that ease is not part of the performance.
 Shirtsleeves — 13, 15 — inside the tent, the only place he is unguarded
 
 Jacket, harness and holster removed. He is in the heavy work shirt, open at the collar, sleeves pushed up his forearms, and heavy work trousers with the boots still on. Beneath the shirt, at the collar and where the sleeves are rolled, the patched dark undertunic is clearly visible — an older, finer weave than anything over it, with a cross-wrapped front and a shaped shoulder that no industrial workwear would have, patched so many times the original fabric survives only in panels. A thin cord runs around his neck and disappears into the shirt. This is the least he is ever seen wearing.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

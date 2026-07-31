@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
@@ -158,5 +177,7 @@ people who love her. She is a child in the middle of an adult catastrophe.
 As we meet her — 6, 8, 11 — days into the run, before the forest has finished with it
 
 Captivity clothing made for indoor domestic labour: a coarse, badly-dyed tunic over a plain under-top, and loose trousers. Everything unfitted and wrong-sized — nothing was cut for this body and nothing was chosen by her. Cloth is undyed or dyed so poorly the colour has gone patchy. No fastenings worth anything: cord and tied cloth, nothing manufactured. No useful pockets. Hand repairs in mismatched thread, made in poor light by her mother — those patches are the only care anyone has spent on it. Her footwear was made for floors, not forests, and is already beginning to fail. By this point it is dirty and damp but structurally intact. Her long red hair is bound back with a strip of torn cloth.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

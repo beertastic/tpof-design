@@ -119,11 +119,15 @@ def parse_slots(md: str) -> list[dict]:
 
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
-          approved: dict | None = None, must: list | None = None) -> str:
+          approved: dict | None = None, must: list | None = None,
+          handed: str | None = None) -> str:
     narrative = slot["n"] in cap
 
     # Any slot showing the person must be anchored to the approved costume.
     gate = slot["n"] in anti
+    hand_line = (f"This character is {handed.upper()}-HANDED. All positions are given "
+                 f"from\nTHEIR OWN left and right, never the viewer's."
+                 if handed and gate else "")
     must_block = ""
     if must and gate:
         must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"
@@ -178,6 +182,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "" if gate else None,
         ref_note if gate else None,
         "" if gate else None,
+        hand_line if hand_line else None,
+        "" if hand_line else None,
         must_block if must_block else None,
         "" if must_block else None,
         "Generate a single image to the description below.",
@@ -223,12 +229,17 @@ def run(repo: Path, character: str) -> int:
     cap, anti = parse_applicability(md)
     slots = parse_slots(md)
 
-    approved, must = None, []
+    approved, must, handed = None, [], None
     ofile = repo / "03-characters" / character / "outfits.yaml"
     if ofile.is_file():
         import yaml
         cfg = yaml.safe_load(ofile.read_text(encoding="utf-8")) or {}
         outfits = cfg.get("outfits", [])
+        sys.path.insert(0, str(Path(__file__).parent))
+        from turnarounds import check_placement
+        for w in check_placement(character, cfg):
+            print(f"  ! {w}", file=sys.stderr)
+        handed = cfg.get("handedness")
         chosen = next((o for o in outfits if (o.get("approved") or {}).get("reference")),
                       outfits[0] if outfits else None)
         if chosen:
@@ -243,8 +254,8 @@ def run(repo: Path, character: str) -> int:
     for slot in slots:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
-        path.write_text(build(character, slot, blocks, cap, anti, approved, must),
-                        encoding="utf-8")
+        path.write_text(build(character, slot, blocks, cap, anti, approved, must,
+                              handed), encoding="utf-8")
 
     index = [
         f"# {character} — paste-ready prompts",

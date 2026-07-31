@@ -1,6 +1,10 @@
 character: Shada
 ratio: "2:3"
 
+# Required. Every weapon and armour placement follows from this.
+# See 09-prompt-library/Handedness-And-Placement.md
+handedness: right
+
 outfits:
   - id: working
     name: Infiltration dress

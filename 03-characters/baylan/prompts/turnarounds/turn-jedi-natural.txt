@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
@@ -201,5 +220,7 @@ is genuinely at ease, and that ease is not part of the performance.
 Jedi Knight robes — 12 only — the vision, eighteen years earlier. A separate build
 
 Full Jedi Knight robes as of eighteen years before the film: a layered tunic, tabards over it, a wide obi at the waist, and a heavy over-robe. Campaign boots. Worn, travelled and field-dirty — this is a man fighting a war, not attending a council. Sand in the seams, sun-bleaching across the shoulders, dust to the knee. Natural undyed and earth-toned cloth. He is eighteen years younger here: less grey, less heavy, standing straighter, but recognisably the same man. This is the only costume in which he carries himself like someone who belongs somewhere.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

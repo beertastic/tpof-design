@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
@@ -201,5 +220,7 @@ is genuinely at ease, and that ease is not part of the performance.
 Working dress with robe — 5, 10, 13 — off duty, at the fire, in the cold
 
 The same working dress, with a long, heavy, dark robe over it — weathered black or near it, falling below the knee, worn open. The robe has been through at least one real fight: repaired tears, scorching along one side, a burn that was never properly patched. It must read as an ordinary heavy weather cape or working coat and never as Jedi dress — no wide monastic sleeves, no ceremonial drape, no cowl, hood down. It is visibly the oldest and most comfortable thing he owns. The harness, holster and boots remain as in the working dress.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

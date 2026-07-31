@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
 
@@ -161,5 +180,7 @@ people who love her. She is a child in the middle of an adult catastrophe.
 The clearing — 24, 24A — and the first frame of the next film
 
 The forest-destroyed costume, and now her mother's blood on it: on her hands, forearms, the front of the tunic and one side of her face, from holding her mother while she died. Not stylised, not arranged — transfer, where a person knelt and held someone. Fresh and wet in places, drying darker at the edges. Everything else is exactly as it was in the previous state. On the tunic, a small plain metal clasp is now fastened where she has put it, the only object she owns. Her hair is still bound and still long. This is what she is wearing when she walks out of the clearing.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

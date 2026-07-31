@@ -17,6 +17,40 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from split import find_repo_root, parse_blocks  # noqa: E402
 
+SIDE_WORDS = ("her right", "her left", "his right", "his left",
+              "their right", "their left")
+
+# Things that exist on one side of a body and must be told which.
+ASYMMETRIC = ("gauntlet", "bracer", "vambrace", "holster", "blaster", "pistol",
+              "knife", "sheath", "sword", "bandolier", "bandoleer", "sling",
+              "pauldron", "shoulder cap", "shoulder plate", "satchel", "quiver",
+              "scabbard", "eyepatch", "prosthetic")
+
+
+def check_placement(character: str, cfg: dict) -> list[str]:
+    """Warn about asymmetric items that have not been assigned a side."""
+    warnings: list[str] = []
+    hand = str(cfg.get("handedness", "")).strip().lower()
+    if hand not in ("left", "right"):
+        warnings.append(
+            f"{character}: no `handedness:` declared in outfits.yaml. "
+            "Set it to left or right — every weapon and armour placement "
+            "follows from it. See 09-prompt-library/Handedness-And-Placement.md")
+
+    for o in cfg.get("outfits", []):
+        text = " ".join([o.get("description", "")] + list(o.get("must_show") or [])).lower()
+        if not (o.get("must_show") or []):
+            warnings.append(f"{character}/{o['id']}: no `must_show:` — critical "
+                            "features will not be hoisted to the top of prompts.")
+        found = [w for w in ASYMMETRIC if w in text]
+        if found and not any(sw in text for sw in SIDE_WORDS):
+            warnings.append(
+                f"{character}/{o['id']}: mentions {', '.join(sorted(set(found))[:4])} "
+                "but never says which side. State it from the wearer's own left "
+                "and right, e.g. \"her right thigh\".")
+    return warnings
+
+
 VIEWS = [
     ("front", "FRONT",
      "The subject faces the camera squarely, straight on. Shoulders level and "
@@ -102,6 +136,10 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"
                       + "\n".join(f"  {i}. {m.strip()}" for i, m in enumerate(must, 1)))
 
+    hand = outfit.get("_handedness")
+    hand_line = (f"This character is {hand.upper()}-HANDED. All positions below are "
+                 f"given from\nTHEIR OWN left and right, never the viewer's."
+                 if hand else "")
     parts = [
         f"[{character.upper()} — TURNAROUND — {outfit['name'].upper()} — {view_name}]",
         f"Output file: turn-{outfit['id']}-{view_id}.png",
@@ -178,6 +216,8 @@ def run(repo: Path, character: str) -> int:
         return 0
 
     cfg = yaml.safe_load(ofile.read_text(encoding="utf-8")) or {}
+    for w in check_placement(character, cfg):
+        print(f"  ! {w}", file=sys.stderr)
     blocks = parse_blocks(pfile.read_text(encoding="utf-8"))
     ratio = str(cfg.get("ratio", "2:3"))
     name = cfg.get("character", character.title())
@@ -202,6 +242,7 @@ def run(repo: Path, character: str) -> int:
     count = 0
     rows = []
     for outfit in outfits:
+        outfit["_handedness"] = cfg.get("handedness")
         views = VIEWS + [("natural", "NATURAL POSE", "")]
         for view_id, view_name, view_desc in views:
             path = outdir / f"turn-{outfit['id']}-{view_id}.txt"

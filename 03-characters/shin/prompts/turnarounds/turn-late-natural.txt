@@ -7,6 +7,25 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
@@ -158,5 +177,7 @@ people who love her. She is a child in the middle of an adult catastrophe.
 Destroyed by the forest — 16, 17, 18, 21, 22 — after days of running, mud and the ditch
 
 The same single costume, now badly damaged by the crossing. Mud to the knee and ground into the weave. Soaked and dried and soaked again. Tears at the hem and forearms from undergrowth. The hand repairs are pulling open. Permanent staining. One boot has split at the sole and is failing — visibly, not decoratively. Everything hangs heavier and wetter than it did. Her hair is filthier and more matted, still bound with the same cloth strip. Nothing has been replaced or added; it is the same clothing, further gone.
+
+
 
 Deliver a single image at 2:3. It must look photographed, not generated.

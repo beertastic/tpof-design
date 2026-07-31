@@ -91,6 +91,42 @@ differently every time.
 
 ---
 
+## The generators check this
+
+Both prompt generators run a placement check on every run and warn on stderr:
+
+```
+! baylan: no `handedness:` declared in outfits.yaml
+! baylan/working: mentions blaster, holster, pistol but never says which side
+```
+
+It fires when:
+
+- `handedness:` is missing from `outfits.yaml`
+- an outfit has no `must_show:`, so its critical features will not be hoisted
+- an outfit mentions an **asymmetric item** — gauntlet, bracer, holster, blaster,
+  knife, sheath, bandolier, sling, pauldron, quiver, scabbard, prosthetic — and
+  never says which side
+
+Warnings do not stop generation. They are there so nobody ships a costume spec
+with an unassigned holster without having been told.
+
+**Every prompt containing a person now opens with the handedness line**, before
+the non-negotiables:
+
+> This character is RIGHT-HANDED. All positions are given from THEIR OWN left and
+> right, never the viewer's.
+
+## Required schema
+
+In `outfits.yaml`, at the top level:
+
+```yaml
+handedness: right     # or left. Required.
+```
+
+And per outfit, every asymmetric element named with a side in `must_show`.
+
 ## Recording it
 
 Put the placement in three places, because each is read by different people:

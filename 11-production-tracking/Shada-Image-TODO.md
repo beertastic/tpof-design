@@ -1,69 +1,115 @@
 ---
-title: "Shada — Image Generation TODO"
+title: "Shada — Finish List"
 asset_id: "TRACK-SHADA-IMAGES"
 updated: "2026-07-31"
 ---
 
-# Shada — Image Generation TODO
+# Shada — Finish List
 
-**18 of 20 delivered.** Four boards built; the Performance board is blocked.
+**Status: 20/20 images, 5/5 boards built, validation clean.**
 
-Before each session:
+Three images are on the boards but wrong. Replace those and she is done.
+
+---
+
+## Start here
 
 ```bash
+cd /home/tris/tpof-design
 source .venv/bin/activate
 python tools/prompt-splitter/split.py shada
 python tools/prompt-splitter/turnarounds.py shada
 ```
 
-Then, in a **fresh conversation**, attach both references before anything else:
+**Run this first, every time.** The prompts have changed since the last images
+were made, and two images have already been lost to stale copies.
+
+Then open a **fresh** ChatGPT conversation and attach both references *before*
+pasting anything:
 
 - `03-characters/shada/source/artwork/turn-working-front.png` — approved costume
 - `03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg` — actor
 
+Say: *"These are the approved costume and actor references. Match them exactly in
+everything that follows."*
+
 ---
 
-## 1. Regenerate — wrong, already delivered
+## The three to replace
 
-| Prompt | Problem | What to add |
+### 1. `turn-working-back` — mirrored
+
+Prompt: `03-characters/shada/prompts/turnarounds/turn-working-back.txt`
+
+Every asymmetric element is on the wrong side. It is a horizontal flip of the
+front view rather than the person turned around.
+
+The prompt has been rewritten with a rotation-not-mirror instruction. **Paste it
+whole.** After generating, check against the front view:
+
+| Element | Front view | Back view must be |
 |---|---|---|
-| `prompts/turnarounds/turn-working-back.txt` | **Mirrored.** Gauntlet on her left, shoulder cap on her right — both flipped | *"This is the same person rotated 180°, not a mirror image. Her RIGHT side is now on the viewer's LEFT. The gauntlet must appear on the viewer's LEFT."* |
-| `prompts/05-scale_portrait.txt` | Full-body crouch in a dark interior. Brief asks for a close head-and-shoulders makeup reference in soft overcast daylight | Nothing — the prompt is now fixed. The costume rules were forcing the shot wide and no longer apply to this slot |
-| `prompts/01-hero.txt` | Set in a busy settlement with market stalls. Brief says dim wet forest at dusk | *"WET FOREST AT DUSK. No buildings, no market, no crowd, no interior, no other people."* |
+| Gauntlet | viewer's left | **viewer's left** |
+| Shoulder cap | viewer's right | **viewer's right** |
+| Thigh patch | viewer's right | **viewer's right** |
+| Blaster | viewer's left | **viewer's left** |
+| Knife | viewer's right | **viewer's right** |
+
+Both views show the **same side of the frame** for each item, because she turned
+around rather than being flipped. If they swap, it is wrong.
+
+### 2. `forest` — interior
+
+Prompt: `03-characters/shada/prompts/04-forest.txt`
+
+Currently an industrial workshop with a figure in the background. It is the
+**dusk in-situ reference** — the reality check on whether her charcoal costume
+separates from a wet forest at dusk.
+
+The exterior-only rule is now in the prompt. The phrase that was pulling her
+indoors — *"even when standing inside a starship"* — has been removed from her
+character constants.
+
+### 3. `maintenance` — interior
+
+Prompt: `03-characters/shada/prompts/11-maintenance.txt`
+
+Also an interior workshop. She is never indoors. Same fix: the prompt now states
+exterior-only.
+
+Consider a camp setting — cleaning her blaster by firelight, or checking kit
+beside a tent.
 
 ---
 
-## 2. Generate — outstanding
+## Optional
 
-| Prompt | Output | Notes |
-|---|---|---|
-| `prompts/03-camp_day.txt` | `camp_day.png` | **New.** The daylight in-situ reference. Bright overcast, costume fully legible |
-| `prompts/04-forest.txt` | `forest.png` | The dusk in-situ reference — companion to the above |
-| `prompts/06-species_strip.txt` | `species_strip.png` | Makeup reference: scale detail at hand, forearm, collarbone, eye |
-| `prompts/07-expression_strip.txt` | `expression_strip.png` | Four expressions, evenly lit, consistent framing |
-
-Also delete the superseded `source/artwork/camp_night.png` once `camp_day.png`
-exists — nothing references it any more.
+`camp_day` is an outdoor forest camp, which is right, but the light is dappled
+shade. Its job is to be the **bright, readable daylight reference** — the image
+where every patch, layer and fitting is legible. Worth one more attempt asking
+for open overcast sky and a standing pose.
 
 ---
 
-## 3. Then build
+## Then rebuild
 
 ```bash
 python tools/board-generator/generate.py shada --validate
 python tools/board-generator/generate.py shada
 ```
 
-`--validate` reports missing images **and overlapping panels**. Both must be
-clean before building.
+`--validate` catches missing images **and overlapping panels**. Both clean before
+building.
 
 ---
 
-## Known-good — do not regenerate
+## Do not regenerate
 
-`turn-working-front` (approved), `turn-working-left`, `turn-working-right`,
-`turn-working-natural`, `scale_figure`, `maintenance`, `blaster`, `knife`,
-`utility`, and all four `material-*` macros.
+`turn-working-front` (approved), `-left`, `-right`, `-natural`, `hero`,
+`scale_figure`, `scale_portrait`, `species_strip`, `expression_strip`, `blaster`,
+`knife`, `utility`, and all four `material-*`.
+
+`species_strip` and `expression_strip` are particularly good — leave them alone.
 
 ---
 
@@ -71,11 +117,23 @@ clean before building.
 
 The failures that keep recurring:
 
-- **Both forearms with metal.** She has one gauntlet, on her right.
+- **Metal on both forearms.** One gauntlet, her right.
 - **Matching scale patches.** Four patches, four different metals.
 - **A bulky silhouette.** Close-fitting, cut to the figure.
-- **A ship or settlement interior.** She is only ever in forest or camp.
+- **Any interior.** Forest, clearing or camp only. If there is a wall or ceiling, it is wrong.
 - **A modern coil zip.** Industrial hardware, or hooks and lacing.
 
-Two or more together almost always means **the reference images were not
-attached**.
+Two or more together almost always means **the references were not attached**.
+
+---
+
+## After Shada
+
+Baylan is next, and one thing must happen before generating any of his twenty
+turnarounds:
+
+**Declare `handedness:` in `03-characters/baylan/outfits.yaml`, and add
+`must_show:` to each of his four outfits.**
+
+The placement checker is already warning about both — he has a blaster, a holster
+and a rifle with no side assigned. One edit now, or twenty regenerations later.

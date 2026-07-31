@@ -163,7 +163,7 @@ The Filmanize scene breakdown is imported under `02-story/script-breakdown/`.
 
 | | |
 |---|---|
-| **Shada** | Costume approved. 15 of 20 images. Two boards complete |
+| **Shada** | Costume approved. **20/20 images, 5/5 boards.** Three images need replacing — see [`Shada-Image-TODO.md`](11-production-tracking/Shada-Image-TODO.md) |
 | **Baylan** | Documented and locked. Four outfits, 32 images planned |
 | **Shin** | Documented and locked. Three costume states |
 | **Akk dog** | Asset built and rigged; documented |

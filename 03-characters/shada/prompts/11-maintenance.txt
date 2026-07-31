@@ -1,5 +1,5 @@
-[SHADA — SLOT 01 — SCENE 10, THE SABACC GAME]
-Output file: camp_night.png
+[SHADA — SLOT 11 — CHARACTER AT WORK]
+Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -9,6 +9,14 @@ illustration, not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
+
+MATCH THE APPROVED COSTUME.
+Attach this image to the conversation before generating:
+    03-characters/shada/source/artwork/turn-working-front.png
+It is the approved FRONT view of this character. The costume,
+the materials, the colours, the face and the build must match it exactly. Only the
+setting, the pose and the lighting change.
+Where this text and the reference image disagree, THE IMAGE WINS.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -190,12 +198,11 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Shada at the forest mercenary camp at night, lit by a campfire. The rest of the
-crew are playing Sabacc around it — cards, a pile of chips, laughter — and she is
-present but slightly outside it, seated a little back from the fire, watching
-rather than playing. Warm firelight raking across one side of her: it catches the
-metal scale patches and finds the fine scales on her bare arms and at the edge of
-her face. Tarpaulins, crates and tents behind. This is the only warmth in her
-material, and she is at the edge of it.
+Shada seated, cleaning and checking her blaster by work-lamp light, parts laid
+out in a fixed habitual arrangement on the cloth beside her. Absorbed in the
+task, not looking up. This is the image that says preparation is how she
+controls fear. Hands and forearms prominent — scales visible, fingers precise.
+Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
+routine.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

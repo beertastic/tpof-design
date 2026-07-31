@@ -1,5 +1,5 @@
-[SHADA — SLOT 10 — THE SALVAGED METAL SCALES]
-Output file: material-scale.png
+[SHADA — SLOT 15 — BUCKLES AND FITTINGS]
+Output file: material-hardware.png
 Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
@@ -10,6 +10,7 @@ not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
+
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -144,14 +145,11 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Extreme close-up macro photograph of a section of the scale armour, lying flat on
-a plain neutral surface. Overlapping coin-sized metal scales laced onto a leather
-backing, filling the frame. The scales are cut from salvaged scrap: slightly
-irregular in shape, mismatched alloys sitting side by side and oxidising at
-different rates — dull steel, brass, dark bronze, patches of green verdigris and
-rust. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
-visible at the edge of the piece. Even flat lighting, sharp across the frame. A
-single material sample photographed for reference — no styling, no arrangement,
-no other objects.
+Extreme close-up macro photograph of a small group of weathered metal fittings on
+a plain neutral surface: two or three buckles, a hook, a strap end, a rivet.
+Salvaged and mismatched — different metals, different ages, one plainly newer
+than the rest. Matte and tarnished, scratched from use, nothing polished or
+reflective. Even flat lighting, sharp across the frame. Photographed for
+reference — no styling, no arrangement, nothing else in frame.
 
 Deliver a single image at 1:1. It must look photographed, not generated.

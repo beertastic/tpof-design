@@ -131,7 +131,7 @@ result looks manufactured rather than photographed, it has failed.
 
 ## Capture — NARRATIVE slots only
 
-> **Paste with slots 1, 2, 9** — in-scene frames.
+> **Paste with slots 1, 3, 4, 11** — in-scene frames.
 >
 > **Do NOT paste with reference plates** (6–8 (studies), 9–11, 13). Those want flat, even
 > documentation light and sharpness across the whole frame. Shallow depth of
@@ -166,7 +166,7 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ## Anti-synthetic — any slot containing a FACE
 
-> **Paste with slots 1, 2, 3, 4, 5, 9.** Wider than the Capture block: a portrait study or
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 11.** Wider than the Capture block: a portrait study or
 > an expression strip is lit flat and sharp, but the skin still has to be real.
 > This is the block that defeats the plastic-AI look, and it applies wherever
 > there is a person.
@@ -252,7 +252,42 @@ when standing inside a starship.
 
 # Prompt slots
 
-## 1. `camp_night.png` — Scene 10, the Sabacc game
+## 1. `hero.png` — the hero portrait
+**Tall portrait, 9:16.**
+
+The single image that is this character. Waist-up, in a dim wet forest at dusk,
+three-quarter angle. She has stopped and turned her head toward something
+off-frame — caught mid-assessment, not posing, not looking at camera. Utterly
+still. Overcast evening light through wet canopy, with a soft rim separating her
+from the treeline.
+
+Close enough to read the fine inherited scales at her collarbone, neck and the
+edge of her face, and to see the metal scale patch at her shoulder catching a
+little light. Her expression is neutral alertness — the resting face of someone
+who has already worked out three ways out of here.
+
+Shallow depth of field, forest falling into haze behind her. This is the image
+that goes on the front of the deck: it must make someone want to know who she is.
+
+## 2. `scale_figure.png` — scale reference
+**Portrait, 3:4.**
+
+Two figures standing side by side against a plain seamless neutral mid-grey
+studio background, evenly lit, both full length from head to below the feet,
+both sharp, shot from chest height on a long lens.
+
+On the left, an average-height human man of about 1.8 metres in plain dark
+working clothes, standing straight and neutral — a scale reference, not a
+character. On the right, Shada in her full costume, standing the same way.
+
+**She is visibly smaller and lighter than he is** — compact, agile, noticeably
+short beside him. That size difference is the entire purpose of this image and
+must be unmistakable at a glance.
+
+Even flat documentation lighting, no atmosphere, no environment. A reference
+photograph, not a composition.
+
+## 3. `camp_night.png` — Scene 10, the Sabacc game
 **Tall portrait, 9:16.**
 
 Shada at the forest mercenary camp at night, lit by a campfire. The rest of the
@@ -263,7 +298,7 @@ metal scale patches and finds the fine scales on her bare arms and at the edge o
 her face. Tarpaulins, crates and tents behind. This is the only warmth in her
 material, and she is at the edge of it.
 
-## 2. `forest.png` — in-environment
+## 4. `forest.png` — in-environment
 **Tall portrait, 9:16.**
 
 Full-figure shot of Shada moving low through dense wet forest at dusk, weight on
@@ -274,7 +309,7 @@ last light. Her dark layers stay separated from the background by wet rim
 highlights and material contrast, never merging into black. Natural overcast
 dusk only.
 
-## 3. `scale_portrait.png` — species detail
+## 5. `scale_portrait.png` — species detail
 **Portrait, 3:4.**
 
 Close portrait of Shada, head and shoulders, turned slightly away, lit at a
@@ -285,7 +320,7 @@ and prosthetic quality, not digital fantasy. Eyes visible, reptilian in
 structure but expressive and human in intent. Soft overcast daylight. No
 costume detail competing for attention.
 
-## 4. `species_strip.png` — ancestry study
+## 6. `species_strip.png` — ancestry study
 **Wide banner, 21:9.**
 
 Horizontal study strip, three to four separate views across the frame on a
@@ -295,7 +330,7 @@ showing the reptilian iris structure; profile of the neck and jawline. Even,
 flat reference lighting — this is a make-up and prosthetics reference, not a
 dramatic image. Consistent skin tone and scale density across every view.
 
-## 5. `expression_strip.png` — performance range
+## 7. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
 Horizontal strip of four head-and-shoulders expressions of the same face,
@@ -305,7 +340,7 @@ evenly lit and consistently framed: (1) neutral alertness — the resting state;
 lighting, same angle, same scale detail in every panel. Reference-sheet
 evenness, not four dramatic portraits.
 
-## 6. `knife.png` — hero prop
+## 8. `knife.png` — hero prop
 **Wide banner, 3:1.**
 
 Product-reference layout of a single combat knife on a neutral surface, lit
@@ -316,7 +351,7 @@ weapon second: it should read as something used daily for cutting rope, food and
 cordage, not a fighting knife on display. Mechanically believable, no ornament,
 no engraving, no jewelling.
 
-## 7. `blaster.png` — hero prop
+## 9. `blaster.png` — hero prop
 **Square, 1:1.**
 
 Product-reference layout of a compact blaster pistol on a neutral surface, lit
@@ -326,7 +361,7 @@ Small enough to conceal and draw quickly. Mechanically believable construction
 with visible fasteners and access. No oversized silhouette, no scope, no glowing
 elements, no ornament.
 
-## 8. `utility.png` — kit layout
+## 10. `utility.png` — kit layout
 **Square, 1:1.**
 
 Overhead flat-lay of everything Shada carries, laid out on a worn surface in the
@@ -337,7 +372,7 @@ cloth wraps, and a compact dented water flask. Every item shows use and repair. 
 datapad and no unnecessary technology. Even, flat reference lighting. The
 restraint of the kit is the point — this is a short list, well maintained.
 
-## 9. `maintenance.png` — character at work
+## 11. `maintenance.png` — character at work
 **Tall portrait, 9:16.**
 
 Shada seated, cleaning and checking her blaster by work-lamp light, parts laid
@@ -347,7 +382,7 @@ controls fear. Hands and forearms prominent — scales visible, fingers precise.
 Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
 routine.
 
-## 10. `material-scale.png` — the salvaged metal scales
+## 12. `material-scale.png` — the salvaged metal scales
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a section of the scale armour, lying flat on
@@ -360,7 +395,7 @@ visible at the edge of the piece. Even flat lighting, sharp across the frame. A
 single material sample photographed for reference — no styling, no arrangement,
 no other objects.
 
-## 11. `material-leather.png` — worn synth-leather
+## 13. `material-leather.png` — worn synth-leather
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
@@ -371,7 +406,7 @@ stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
 across the frame. A single material sample photographed for reference — no
 styling, no arrangement, no other objects.
 
-## 12. `material-cloth.png` — coarse technical fabric
+## 14. `material-cloth.png` — coarse technical fabric
 **Square, 1:1.**
 
 Extreme close-up macro photograph of coarse woven technical fabric, lying flat on
@@ -381,7 +416,7 @@ frayed cut edge, a patch stitched over it by hand, and staining worked into the
 fibres. Even flat lighting, sharp across the frame. A single material sample
 photographed for reference — no styling, no arrangement, no other objects.
 
-## 13. `material-hardware.png` — buckles and fittings
+## 15. `material-hardware.png` — buckles and fittings
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a small group of weathered metal fittings on
@@ -397,19 +432,21 @@ reference — no styling, no arrangement, nothing else in frame.
 
 | # | File | Ratio |
 |---|---|---|
-| 1 | `camp_night.png` | 9:16 |
-| 2 | `forest.png` | 9:16 |
-| 3 | `scale_portrait.png` | 3:4 |
-| 4 | `species_strip.png` | 21:9 |
-| 5 | `expression_strip.png` | 16:9 |
-| 6 | `knife.png` | 3:1 |
-| 7 | `blaster.png` | 1:1 |
-| 8 | `utility.png` | 1:1 |
-| 9 | `maintenance.png` | 9:16 |
-| 10 | `material-scale.png` | 1:1 |
-| 11 | `material-leather.png` | 1:1 |
-| 12 | `material-cloth.png` | 1:1 |
-| 13 | `material-hardware.png` | 1:1 |
+| 1 | `hero.png` | 9:16 |
+| 2 | `scale_figure.png` | 3:4 |
+| 3 | `camp_night.png` | 9:16 |
+| 4 | `forest.png` | 9:16 |
+| 5 | `scale_portrait.png` | 3:4 |
+| 6 | `species_strip.png` | 21:9 |
+| 7 | `expression_strip.png` | 16:9 |
+| 8 | `knife.png` | 3:1 |
+| 9 | `blaster.png` | 1:1 |
+| 10 | `utility.png` | 1:1 |
+| 11 | `maintenance.png` | 9:16 |
+| 12 | `material-scale.png` | 1:1 |
+| 13 | `material-leather.png` | 1:1 |
+| 14 | `material-cloth.png` | 1:1 |
+| 15 | `material-hardware.png` | 1:1 |
 
 All thirteen land in `03-characters/shada/source/artwork/`, overwriting the
 existing files by the same name. Then:

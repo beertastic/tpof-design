@@ -1,5 +1,5 @@
-[SHADA — SLOT 13 — BUCKLES AND FITTINGS]
-Output file: material-hardware.png
+[SHADA — SLOT 10 — KIT LAYOUT]
+Output file: utility.png
 Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
@@ -10,6 +10,7 @@ not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
+
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -144,11 +145,12 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Extreme close-up macro photograph of a small group of weathered metal fittings on
-a plain neutral surface: two or three buckles, a hook, a strap end, a rivet.
-Salvaged and mismatched — different metals, different ages, one plainly newer
-than the rest. Matte and tarnished, scratched from use, nothing polished or
-reflective. Even flat lighting, sharp across the frame. Photographed for
-reference — no styling, no arrangement, nothing else in frame.
+Overhead flat-lay of everything Shada carries, laid out on a worn surface in the
+deliberate order of someone who checks it after every job: a coiled length of
+thin climbing line, a cloth tool roll opened flat to show a row of slender steel
+probes and fine hand tools, a small repair kit, spare parts, a cleaning kit,
+cloth wraps, and a compact dented water flask. Every item shows use and repair. Explicitly no
+datapad and no unnecessary technology. Even, flat reference lighting. The
+restraint of the kit is the point — this is a short list, well maintained.
 
 Deliver a single image at 1:1. It must look photographed, not generated.

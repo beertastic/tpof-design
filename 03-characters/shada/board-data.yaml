@@ -154,12 +154,17 @@ boards:
       y: 3.55
       w: 2.9
       h: 2.05
-    sections:
-    - heading: LAYER SYSTEM
+    - path: source/artwork/scale_figure.png
       x: 16.95
       y: 5.8
       w: 5.95
-      h: 5.25
+      h: 4.3
+    sections:
+    - heading: LAYER SYSTEM
+      x: 16.95
+      y: 10.3
+      w: 5.95
+      h: 4.75
       font_size: 11.5
       items:
       - Flexible scale-textured undersuit
@@ -275,7 +280,7 @@ boards:
     output_png: Performance-Board-A2-300dpi.png
     tagline: She does not enter a space. She studies it.
     images:
-    - path: source/artwork/camp_night.png
+    - path: source/artwork/hero.png
       x: 0.45
       y: 1.35
       w: 5.15
@@ -300,6 +305,11 @@ boards:
       y: 5.05
       w: 6.4
       h: 2.45
+    - path: source/artwork/camp_night.png
+      x: 5.8
+      y: 1.35
+      w: 5.15
+      h: 9.2
     sections:
     - heading: MOVEMENT PRINCIPLES
       x: 16.5

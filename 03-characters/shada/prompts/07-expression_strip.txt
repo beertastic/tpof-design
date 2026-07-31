@@ -1,14 +1,23 @@
-[SHADA — SLOT 09 — CHARACTER AT WORK]
-Output file: maintenance.png
-Aspect ratio: 9:16  (tall portrait)
+[SHADA — SLOT 07 — PERFORMANCE RANGE]
+Output file: expression_strip.png
+Aspect ratio: 16:9  (landscape)
 
-THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
-A photograph made on a real film set, on 35mm anamorphic lenses, of real
-people wearing real costumes under real light. Not a render, not an
-illustration, not concept art, not AI-looking output.
+THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
+A studio photograph of real physical objects on a real surface under real
+light — the kind an art department shoots to document what it has built.
+Flat, even, sharp across the frame. Not a render, not an illustration,
+not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
+
+MATCH THE APPROVED COSTUME.
+Attach this image to the conversation before generating:
+    03-characters/shada/source/artwork/turn-working-front.png
+It is the approved FRONT view of this character. The costume,
+the materials, the colours, the face and the build must match it exactly. Only the
+setting, the pose and the lighting change.
+Where this text and the reference image disagree, THE IMAGE WINS.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -88,32 +97,6 @@ Reject entirely the look of computer-generated imagery — the smooth,
 evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
 result looks manufactured rather than photographed, it has failed.
 
-=== CAPTURE ===
-Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
-Panavision-style anamorphic glass, not modern clinical optics.
-
-Optical character: oval, horizontally-stretched bokeh in out-of-focus
-highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
-while the focal plane stays sharp. Shallow depth of field with smooth falloff.
-Faint horizontal streak flare where a bright practical source is in frame —
-restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
-Slight vignetting.
-
-Photochemical character: the response of 35mm motion picture negative — fine
-organic grain, present in shadows and midtones rather than added uniformly.
-Gentle halation blooming around bright sources. Highlight rolloff that compresses
-rather than clips. Rich shadow that retains detail instead of going black.
-
-Colour: restrained, filmic, desaturated toward the muted end. Skin natural
-and slightly warm. No digital vibrance, no teal-and-orange grade.
-
-Focus behaviour: one plane is sharp and everything else falls away. Detail
-resolves where the lens is focused and softens elsewhere — do not render every
-surface at equal sharpness.
-
-The image should look like a frame from a photochemical motion picture, or a
-unit stills photographer's frame from the same set. Not a rendered picture.
-
 === SKIN AND REALISM ===
 Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
 capillaries, stubble, shine where skin is oily and matte where it is not.
@@ -190,11 +173,11 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Shada seated, cleaning and checking her blaster by work-lamp light, parts laid
-out in a fixed habitual arrangement on the cloth beside her. Absorbed in the
-task, not looking up. This is the image that says preparation is how she
-controls fear. Hands and forearms prominent — scales visible, fingers precise.
-Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
-routine.
+Horizontal strip of four head-and-shoulders expressions of the same face,
+evenly lit and consistently framed: (1) neutral alertness — the resting state;
+(2) suspicion without panic; (3) focused assessment, narrowing in on a target;
+(4) cold lethal calm. Restrained throughout — this face does not perform. Same
+lighting, same angle, same scale detail in every panel. Reference-sheet
+evenness, not four dramatic portraits.
 
-Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.
+Deliver a single image at 16:9. It must look photographed, not generated.

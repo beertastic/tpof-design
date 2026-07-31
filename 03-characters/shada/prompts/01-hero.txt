@@ -1,15 +1,22 @@
-[SHADA — SLOT 04 — ANCESTRY STUDY]
-Output file: species_strip.png
-Aspect ratio: 21:9  (wide banner)
+[SHADA — SLOT 01 — THE HERO PORTRAIT]
+Output file: hero.png
+Aspect ratio: 9:16  (tall portrait)
 
-THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
-A studio photograph of real physical objects on a real surface under real
-light — the kind an art department shoots to document what it has built.
-Flat, even, sharp across the frame. Not a render, not an illustration,
-not concept art, not AI-looking output.
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
+
+MATCH THE APPROVED COSTUME.
+Attach this image to the conversation before generating:
+    03-characters/shada/source/artwork/turn-working-front.png
+It is the approved FRONT view of this character. The costume,
+the materials, the colours, the face and the build must match it exactly. Only the
+setting, the pose and the lighting change.
+Where this text and the reference image disagree, THE IMAGE WINS.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -89,6 +96,32 @@ Reject entirely the look of computer-generated imagery — the smooth,
 evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
 result looks manufactured rather than photographed, it has failed.
 
+=== CAPTURE ===
+Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
+Panavision-style anamorphic glass, not modern clinical optics.
+
+Optical character: oval, horizontally-stretched bokeh in out-of-focus
+highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
+while the focal plane stays sharp. Shallow depth of field with smooth falloff.
+Faint horizontal streak flare where a bright practical source is in frame —
+restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
+Slight vignetting.
+
+Photochemical character: the response of 35mm motion picture negative — fine
+organic grain, present in shadows and midtones rather than added uniformly.
+Gentle halation blooming around bright sources. Highlight rolloff that compresses
+rather than clips. Rich shadow that retains detail instead of going black.
+
+Colour: restrained, filmic, desaturated toward the muted end. Skin natural
+and slightly warm. No digital vibrance, no teal-and-orange grade.
+
+Focus behaviour: one plane is sharp and everything else falls away. Detail
+resolves where the lens is focused and softens elsewhere — do not render every
+surface at equal sharpness.
+
+The image should look like a frame from a photochemical motion picture, or a
+unit stills photographer's frame from the same set. Not a rendered picture.
+
 === SKIN AND REALISM ===
 Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
 capillaries, stubble, shine where skin is oily and matte where it is not.
@@ -165,11 +198,18 @@ physical dominance. She should look like someone who belongs in a forest even
 when standing inside a starship.
 
 === THIS IMAGE ===
-Horizontal study strip, three to four separate views across the frame on a
-neutral, evenly lit background: scale detail on the back of the hand and
-forearm; scale transition at the collarbone and shoulder; close eye detail
-showing the reptilian iris structure; profile of the neck and jawline. Even,
-flat reference lighting — this is a make-up and prosthetics reference, not a
-dramatic image. Consistent skin tone and scale density across every view.
+The single image that is this character. Waist-up, in a dim wet forest at dusk,
+three-quarter angle. She has stopped and turned her head toward something
+off-frame — caught mid-assessment, not posing, not looking at camera. Utterly
+still. Overcast evening light through wet canopy, with a soft rim separating her
+from the treeline.
 
-Deliver a single image at 21:9. It must look photographed, not generated.
+Close enough to read the fine inherited scales at her collarbone, neck and the
+edge of her face, and to see the metal scale patch at her shoulder catching a
+little light. Her expression is neutral alertness — the resting face of someone
+who has already worked out three ways out of here.
+
+Shallow depth of field, forest falling into haze behind her. This is the image
+that goes on the front of the deck: it must make someone want to know who she is.
+
+Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

@@ -13,19 +13,21 @@ top of the prompt, then run:
 
 | File | Image | Ratio | Realism | Anamorphic | Skin |
 |---|---|---|---|---|---|
-| `01-camp_night.txt` | `camp_night.png` | 9:16 | yes | yes | yes |
-| `02-forest.txt` | `forest.png` | 9:16 | yes | yes | yes |
-| `03-scale_portrait.txt` | `scale_portrait.png` | 3:4 | yes | — | yes |
-| `04-species_strip.txt` | `species_strip.png` | 21:9 | yes | — | yes |
-| `05-expression_strip.txt` | `expression_strip.png` | 16:9 | yes | — | yes |
-| `06-knife.txt` | `knife.png` | 3:1 | yes | — | — |
-| `07-blaster.txt` | `blaster.png` | 1:1 | yes | — | — |
-| `08-utility.txt` | `utility.png` | 1:1 | yes | — | — |
-| `09-maintenance.txt` | `maintenance.png` | 9:16 | yes | yes | yes |
-| `10-material-scale.txt` | `material-scale.png` | 1:1 | yes | — | — |
-| `11-material-leather.txt` | `material-leather.png` | 1:1 | yes | — | — |
-| `12-material-cloth.txt` | `material-cloth.png` | 1:1 | yes | — | — |
-| `13-material-hardware.txt` | `material-hardware.png` | 1:1 | yes | — | — |
+| `01-hero.txt` | `hero.png` | 9:16 | yes | yes | yes |
+| `02-scale_figure.txt` | `scale_figure.png` | 3:4 | yes | — | yes |
+| `03-camp_night.txt` | `camp_night.png` | 9:16 | yes | yes | yes |
+| `04-forest.txt` | `forest.png` | 9:16 | yes | yes | yes |
+| `05-scale_portrait.txt` | `scale_portrait.png` | 3:4 | yes | — | yes |
+| `06-species_strip.txt` | `species_strip.png` | 21:9 | yes | — | yes |
+| `07-expression_strip.txt` | `expression_strip.png` | 16:9 | yes | — | yes |
+| `08-knife.txt` | `knife.png` | 3:1 | yes | — | — |
+| `09-blaster.txt` | `blaster.png` | 1:1 | yes | — | — |
+| `10-utility.txt` | `utility.png` | 1:1 | yes | — | — |
+| `11-maintenance.txt` | `maintenance.png` | 9:16 | yes | yes | yes |
+| `12-material-scale.txt` | `material-scale.png` | 1:1 | yes | — | — |
+| `13-material-leather.txt` | `material-leather.png` | 1:1 | yes | — | — |
+| `14-material-cloth.txt` | `material-cloth.png` | 1:1 | yes | — | — |
+| `15-material-hardware.txt` | `material-hardware.png` | 1:1 | yes | — | — |
 
 Generated from `Prompts.md` by `tools/prompt-splitter/split.py`.
 **Do not edit these files** — edit `Prompts.md` and regenerate.

@@ -118,8 +118,22 @@ def parse_slots(md: str) -> list[dict]:
     return slots
 
 
-def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int]) -> str:
+def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
+          approved: dict | None = None) -> str:
     narrative = slot["n"] in cap
+
+    # Any slot showing the person must be anchored to the approved costume.
+    match_block = ""
+    if approved and approved.get("reference") and slot["n"] in anti:
+        match_block = (
+            "MATCH THE APPROVED COSTUME.\n"
+            "Attach this image to the conversation before generating:\n"
+            f"    {approved['reference']}\n"
+            f"It is the approved {approved.get('view','front').upper()} view of this "
+            "character. The costume,\nthe materials, the colours, the face and the build "
+            "must match it exactly. Only the\nsetting, the pose and the lighting change.\n"
+            "Where this text and the reference image disagree, THE IMAGE WINS."
+        )
     if narrative:
         demand = (
             "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"
@@ -146,6 +160,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "Generate a single image to the description below.",
         "Attach actor reference images to this conversation before generating.",
         "",
+        match_block,
+        "" if match_block else None,
         "=== STYLE ===", blocks.get("Style", ""), "",
         "=== DO NOT ===", blocks.get("Do Not", ""), "",
         "=== PHOTOGRAPHIC REALISM ===", blocks.get("Realism", ""), "",
@@ -185,6 +201,17 @@ def run(repo: Path, character: str) -> int:
     cap, anti = parse_applicability(md)
     slots = parse_slots(md)
 
+    approved = None
+    ofile = repo / "03-characters" / character / "outfits.yaml"
+    if ofile.is_file():
+        import yaml
+        cfg = yaml.safe_load(ofile.read_text(encoding="utf-8")) or {}
+        for o in cfg.get("outfits", []):
+            a = o.get("approved") or {}
+            if a.get("reference"):
+                approved = a
+                break
+
     outdir = repo / "03-characters" / character / "prompts"
     outdir.mkdir(exist_ok=True)
     for old in outdir.glob("*.txt"):
@@ -193,7 +220,8 @@ def run(repo: Path, character: str) -> int:
     for slot in slots:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
-        path.write_text(build(character, slot, blocks, cap, anti), encoding="utf-8")
+        path.write_text(build(character, slot, blocks, cap, anti, approved),
+                        encoding="utf-8")
 
     index = [
         f"# {character} — paste-ready prompts",

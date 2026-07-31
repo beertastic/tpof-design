@@ -7,6 +7,13 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+MATCH THE APPROVED REFERENCE.
+Attach this image to the conversation before generating:
+    03-characters/shada/source/artwork/turn-working-front.png
+It is the approved FRONT view of this costume. Match it exactly — the same
+costume, the same materials, the same colours, the same scale, the same figure
+height in frame. This image is a different view of that same photograph.
+Where this text and the reference image disagree, THE IMAGE WINS.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. METAL SCALE ARMOUR — SPORADIC PATCHES, NOT A SUIT AND NOT A MATCHED SET. Individual overlapping metal scales, coin-sized, laced onto a flexible backing — countable, physically separate pieces of metal cut from salvaged scrap. NOT leather, NOT an embossed pattern. CRITICAL: it is applied in FOUR SMALL IRREGULAR PATCHES ONLY, all different and all deliberately asymmetric: (1) A GAUNTLET on ONE forearm only — overlapping metal scales wrapping the outer forearm from wrist to just below the elbow, held by two worn leather straps and buckles at top and bottom. The other forearm is bare. (2) A cap over ONE shoulder only, not both. (3) A patch STITCHED FLAT onto the front of the garment over the sternum — integrated into the vest, lying against it, NOT a hanging bib, NOT a pendant, NOT suspended from the collar. It must read as armour sewn on, not as jewellery. (4) A patch on ONE outer thigh, over the trouser. THE FOUR PATCHES MUST BE FOUR DIFFERENT METALS. They came from four different scavenging trips and nothing matches: - the FOREARM GAUNTLET is dull grey steel, scratched and the most worn of

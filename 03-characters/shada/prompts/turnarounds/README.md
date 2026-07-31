@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| Infiltration dress | in progress | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
-| Infiltration dress | in progress | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
-| Infiltration dress | in progress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
-| Infiltration dress | in progress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
-| Infiltration dress | in progress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+| Infiltration dress | **APPROVED** 2026-07-31 | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
+| Infiltration dress | **APPROVED** 2026-07-31 | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
+| Infiltration dress | **APPROVED** 2026-07-31 | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
+| Infiltration dress | **APPROVED** 2026-07-31 | BACK | `turn-working-back.txt` | `turn-working-back.png` |
+| Infiltration dress | **APPROVED** 2026-07-31 | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
 
 ## Approved outfits
 

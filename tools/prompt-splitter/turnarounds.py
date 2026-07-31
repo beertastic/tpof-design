@@ -176,12 +176,15 @@ def run(repo: Path, character: str) -> int:
         old.unlink()
 
     locked = [o for o in outfits if (o.get("approved") or {}).get("date")]
-    if locked:
-        for o in locked:
-            a = o["approved"]
-            print(f"  ! {character}/{o['id']} is APPROVED ({a['date']}) — "
-                  f"regenerating its prompts. Existing artwork may no longer match.",
-                  file=sys.stderr)
+    for o in locked:
+        a = o["approved"]
+        print(f"  ! {character}/{o['id']} is APPROVED ({a['date']}) — regenerating "
+              f"its prompts. Existing artwork may no longer match.", file=sys.stderr)
+        ref = a.get("reference")
+        if ref and not (repo / ref).is_file():
+            print(f"  ! MISSING approved reference: {ref}\n"
+                  f"    The other views name this file but it does not exist. Save the "
+                  f"approved image there.", file=sys.stderr)
 
     count = 0
     rows = []

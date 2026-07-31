@@ -26,6 +26,12 @@ recorded revision.
 
 - Light, fitted, scavenged armour.
 - Vital-area protection only.
+- **Flexible metallic scale patches in place of rigid plates.** Small areas only —
+  sternum, a shoulder, a flank, the outside of a forearm. Fine overlapping metal
+  scales on a flexible backing, matte and darkened, scavenged and repaired with
+  mismatched sections. Supple enough to move with her, which is why she has them
+  and not plate. **It reads as serpentine, and that is deliberate: she wears her
+  own ancestry as armour.**
 - Functional exposed skin for mobility, heat and sensory function.
 - Layered technical cloth, worn leather and repaired matte hardware.
 - Practical harness, belt, sheath and concealed holster.
@@ -51,5 +57,8 @@ Reject any design that becomes:
 - Fully reptilian.
 - Glamourised or sexualised.
 - Covered head-to-toe in a way that hides the scale language.
+- **Rigid armour plates.** If the armour reads as hard plate rather than flexible
+  metallic scale, the design has failed — the connection to her ancestry is lost
+  and she becomes a generic scavenger.
 - Loaded with gadgets unrelated to infiltration.
 - Too dark to separate from the background.

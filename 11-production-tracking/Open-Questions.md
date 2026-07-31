@@ -142,3 +142,7 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
 - [x] ~~What was the accident that triggered the revolt?~~ **Deliberately vague and never
       addressed.** Something far away — a fight, a refuelling explosion. The point is it had
       nothing to do with them. Do not dramatise it into a rescue. 2026-07-30.
+- [x] ~~Shada's flexible scale armour~~ — recovered 2026-07-31. It existed only in
+      `board-data.yaml` as a materials-list item and was missing from `Character.md`,
+      `Character-Lock.md` and the prompt pack. Now specified as flexible metallic scale
+      patches in place of rigid plates, with rigid plate added to the drift list.

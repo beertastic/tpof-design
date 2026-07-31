@@ -1,0 +1,160 @@
+---
+title: "Costume Build Method"
+asset_id: "TRACK-BUILD-METHOD"
+updated: "2026-07-31"
+status: "reference"
+---
+
+# Costume Build Method
+
+**Fabric is bought. Hard parts are printed.**
+
+Every costume in this production splits into three build routes, and knowing
+which route a component takes changes how it should be designed. This document
+records the policy and the design consequences that follow from it.
+
+| Route | What goes this way |
+|---|---|
+| **Bought** | All fabric and leather: garments, coats, trousers, boots, webbing, straps, wraps |
+| **Printed** | Weapons, buckles and fittings, armour plate, helmets, Shada's scales, prop hardware |
+| **Made** | Assembly, distressing, paint and patina, lacing printed parts onto bought backing |
+
+The third route is where most of the labour actually sits, and it is the one
+easiest to forget when estimating.
+
+---
+
+## What 3D printing changes about the design
+
+Printing is not a neutral substitute for fabrication. It is good at some things
+and bad at others, and several design rules already written into this production
+depend on which.
+
+### Printed parts come out identical. Mismatch has to be painted on.
+
+**This is the single most important consequence, and it lands hardest on Shada.**
+
+Her whole costume rests on **four patches of scale in four different metals** —
+dull grey steel, brass with verdigris, dark bronze, and a newer brighter patch.
+That mismatch is the proof nobody made the costume for her. Four identical
+patches quietly recreate the matched-set problem in four places instead of one.
+
+A printer will produce all four in the same filament. **The difference between
+those four metals is now entirely a paint and patina job**, not a material one,
+and it has to be scheduled and costed as such. If the four patches come off the
+same print run and get the same finish pass, the design fails and it fails
+invisibly — it will look fine in isolation and wrong in the turnaround.
+
+The same applies to the mercenaries' plating, which is specified as *mismatched
+alloys sitting side by side, oxidising at different rates*.
+
+### Printed scale must not fight the backing
+
+Shada's scale armour has to **move like heavy cloth, not like plate** — that is
+the entire reason she wears it, and it is what stops it reading as fantasy
+armour.
+
+Individual coin-sized printed scales laced onto flexible backing will do that
+only if they stay small and the backing carries the movement. Printing larger
+linked sections is faster to assemble but stiffens the panel, and past a certain
+size it stops moving like cloth and the design is lost.
+
+**Assembly note:** there are several hundred individual scales across four
+patches. Printing them as small pre-linked strips rather than loose pieces is
+worth testing for assembly time, but only up to the point where flexibility
+survives.
+
+### Load-bearing buckles should be real hardware
+
+Printed buckles fail at the layer lines, and they fail under exactly the loads a
+costume puts on them.
+
+**Anything actually carrying weight should be bought hardware:** harness
+buckles, drop-leg holster straps, belt closures, the Wookiee's bandolier
+fittings. Printing is for buckles that are seen but not loaded.
+
+This does not compromise the look. The Design Bible already calls for industrial
+salvage over fine modern hardware, and real load-rated buckles read more
+correctly than printed ones anyway.
+
+### One printed weapon can serve two characters
+
+The Wookiee's primary weapon is specified as **a human-sized blaster rifle worn
+on his hip like a pistol** — the scale is what sells it. That is the same class
+of weapon the `ranged` build carries in two hands.
+
+**One printed rifle model, two uses.** The saving was a design decision before it
+was a production one, and it should survive into the build.
+
+---
+
+## The grenade is a stunt prop, not a dress prop
+
+**Flagging this early because it is the one printed item with a physical
+performance requirement.**
+
+Vala pulls a grenade off the Wookiee's bandolier while he is crushing her. The
+design already specifies open cradles rather than closed pouches, seated on the
+front of the strap at mid-chest height, reachable in one movement by somebody who
+is not wearing it.
+
+What that means for the build:
+
+- **A printed grenade is brittle at the layer lines.** The hero version can be
+  printed; the one that gets pulled in a take should be cast in something soft,
+  or printed in a flexible filament.
+- **The mounting has to release predictably.** It cannot be so secure that it
+  needs a real yank, and it cannot be so loose that it falls off between setups.
+- **Multiples are needed.** Several takes, and a stunt performer inside a full
+  Wookiee suit who cannot easily reset it themselves.
+- It must also be **recognisable in Scene 10**, ten scenes earlier, which means
+  the hero and stunt versions have to match on camera.
+
+---
+
+## The checklist — not built yet
+
+**Requirement, recorded 2026-07-31.** A per-character checklist of every costume
+item, showing build route and progress, so the state of the build can be checked
+at a glance.
+
+**It should be generated, not hand-maintained.** Everything else in this repo is
+generated from a source of truth and this should be no different — a hand-kept
+checklist will drift from `outfits.yaml` within a fortnight, and then the
+checklist is worse than nothing because it is trusted and wrong.
+
+The gap is that `outfits.yaml` currently describes costumes in prose and rules,
+not as itemised components. It would need a structured block per outfit:
+
+```yaml
+components:
+  - item: Scale gauntlet, right forearm
+    route: printed
+    qty: 1
+    status: not-started      # not-started | in-progress | done
+    note: Dull grey steel finish. Must NOT match the other three patches
+  - item: Work vest
+    route: bought
+    qty: 1
+    status: sourced
+  - item: Harness buckles
+    route: bought
+    qty: 6
+    note: Load-bearing. Not printed
+```
+
+From that, a generator produces a per-character build sheet and a
+production-wide roll-up — bought versus printed versus made, and how much of each
+is done. It would also close the **prop reference gap** recorded in
+[`Shada-Image-TODO.md`](Shada-Image-TODO.md), since a component list is most of
+what a prop lock needs.
+
+**Not started.** Raise it when the first costume actually goes into build.
+
+---
+
+## See also
+
+- [`Shada-Image-TODO.md`](Shada-Image-TODO.md) — the prop reference lock
+- [`../01-production-design/Production-Design-Bible-v1.0.md`](../01-production-design/Production-Design-Bible-v1.0.md) — sections 5 and 6, materials and weapons
+- [`../03-characters/shada/Character.md`](../03-characters/shada/Character.md) — the four-metals rule this document is mostly about

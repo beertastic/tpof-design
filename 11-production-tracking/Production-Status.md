@@ -7,6 +7,7 @@
 | Production Design Bible | v1.0 canonical |
 | Filmanize Script Breakdown | imported |
 | Character template | available |
+| Costume build method | Recorded — see `Costume-Build-Method.md` |
 
 ## Image priority
 
@@ -18,9 +19,10 @@ Mood and narrative images are context. Three or four per character is enough.
 
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
-| Baylan | 4 | 20 | in progress |
+| Shada | 1 | 5 | **5/5 — complete** |
+| Generic Mercenary | 4 builds | 20 | 0/20 — prompts ready |
+| Baylan | 4 | 20 | not started |
 | Shin | 3 states | 15 | not started |
-| Shada | 1 | 5 | not started |
 
 See `09-prompt-library/Turnaround-Block.md`.
 
@@ -28,13 +30,13 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | In development | 20/20 images, 5/5 boards. 3 images to replace — see `Shada-Image-TODO.md` |
+| Shada | **Complete** | 20/20 images, 5/5 boards, promo sheet. Non-blocking notes in `Shada-Image-TODO.md` |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
-| Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Death sequence written |
+| Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Baseline human — decided. Design still TBD |
 | Reya Fenn | Placeholder | Formerly "Freya". Killed by Vala's grenade, off screen |
 | Loryl | Placeholder | Killed by Vala's grenade, off screen |
-| Generic Mercenary | Placeholder | Reusable design family |
+| Generic Mercenary | In development | Modular kit, 4 builds. 33 prompts ready. Includes **the Wookiee** |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
 | Vala | Placeholder | **Survives.** Do not stage a death; show no injury. Killed by Shin in Film 2 |
@@ -44,7 +46,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Faction | Status |
 |---|---|
-| Mercenaries | Placeholder |
+| Mercenaries | In development — crew of 10, Wookiee confirmed, kit written |
 | Slaves / Escapees | Placeholder |
 
 ## Locations

@@ -178,6 +178,18 @@ Materials should always feel tangible and physically believable.
 
 Surfaces should display wear, repairs, scratches, grime, fading, and evidence of repeated use.
 
+### How these get built
+
+**Fabric and leather are bought. Hard parts — weapons, buckles, plate, helmets
+and Shada's scales — are 3D printed.**
+
+This matters at design time, not only at build time. Printed parts come out of
+the machine identical, so **any rule in this bible that depends on materials
+*not* matching becomes a paint and patina job rather than a material one.** It
+has to be designed, scheduled and costed that way.
+
+See [`11-production-tracking/Costume-Build-Method.md`](../11-production-tracking/Costume-Build-Method.md).
+
 ---
 
 ## 6. Weapons

@@ -24,35 +24,35 @@ boards:
     - path: source/artwork/turn-working-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-working-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-working-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-working-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-working-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Salvaged repaired mercenary workwear
       - Padded jacket re-shouldered at least once
@@ -60,22 +60,23 @@ boards:
       - Undertunic visible only at collar and cuff
       - The blaster on the hip is a converted saber
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow
@@ -92,35 +93,35 @@ boards:
     - path: source/artwork/turn-robe-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-robe-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-robe-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-robe-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-robe-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Long heavy dark robe worn open
       - Repaired tears scorching an unpatched burn
@@ -128,22 +129,23 @@ boards:
       - Hood down no monastic sleeves no drape
       - The one thing he owns for comfort
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow
@@ -160,35 +162,35 @@ boards:
     - path: source/artwork/turn-shirtsleeves-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-shirtsleeves-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-shirtsleeves-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-shirtsleeves-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-shirtsleeves-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Jacket harness and holster removed
       - Work shirt open sleeves pushed up
@@ -196,22 +198,23 @@ boards:
       - Four or five nested chevrons apex down
       - Cord at the neck disappearing into the shirt
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow
@@ -228,35 +231,35 @@ boards:
     - path: source/artwork/turn-jedi-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-jedi-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-jedi-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-jedi-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-jedi-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Scene 12 vision only a separate build
       - Layered tunic tabards obi over-robe
@@ -264,22 +267,23 @@ boards:
       - A war not a council chamber
       - Eighteen years younger and standing straighter
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow

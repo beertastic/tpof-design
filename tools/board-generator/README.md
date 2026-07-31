@@ -16,8 +16,12 @@ review renders are rebuilt locally with crisp typography and uncropped images.
 ## Requirements
 
 - Python 3.10 or later
-- LibreOffice available on `PATH`
 - Python packages in `requirements.txt`
+
+**No LibreOffice required.** Boards are drawn straight to PDF with `reportlab` —
+vector text, no PowerPoint intermediate, no external process. The old
+PPTX-then-convert pipeline needed `libreoffice-impress`, which is easy to be
+missing and gives an unhelpful *"source file could not be loaded"* when it is.
 
 ```bash
 python3 -m venv .venv
@@ -64,12 +68,16 @@ cropping it.
 
 ## Outputs
 
-The generator writes:
+- One PDF per board, in the character folder
+- Matching PNG previews under `renders/` (gitignored)
 
-- `source/<Character>-Production-Boards.pptx`
-- `source/<Character>-Production-Boards.pdf`
-- the configured individual PDFs in the character folder
-- configured PNG previews under `renders/`
+## Boards are defined by the config
+
+Board order and names come from `board-data.yaml`, not from the tool. A character
+can have as many boards as the work needs — Baylan has eight, including one
+costume turnaround sheet per outfit.
+
+`--board <key>` generates a single board, using the key from the config.
 
 ## Recommended workflow
 

@@ -25,8 +25,11 @@ import tempfile
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).parent))
+
 import fitz
 import yaml
+import pdfrender
 from PIL import Image
 from pptx import Presentation
 from pptx.dml.color import RGBColor
@@ -248,13 +251,34 @@ def run_character(repo: Path, character_dir: Path, args, template: dict[str, Any
     print(f"Validated {character_dir.relative_to(repo)}")
     if args.validate:
         return
-    pptx, boards = make_deck(repo, character_dir, config, template, selected)
-    master_pdf = convert_to_pdf(pptx, pptx.parent)
-    outputs = split_and_render(character_dir, config, master_pdf, boards, args.dpi, args.pdf_only)
+    style_cfg = deep_merge(template.get("style", {}), config.get("style", {}))
+    style = {k: str(v) for k, v in style_cfg.items()}
+
+    outputs = []
+    renders = character_dir / "renders"
+    for index, board_name in enumerate(selected, 1):
+        board = config["boards"][board_name]
+        default_pdf = board_name.replace("_", "-").title() + "-Board.pdf"
+        out_pdf = character_dir / board.get("output_pdf", default_pdf)
+        pdfrender.render_board(out_pdf, character_dir, config, style, board,
+                               index, len(selected), A2_WIDTH_IN, A2_HEIGHT_IN)
+        outputs.append(out_pdf)
+
+        if not args.pdf_only:
+            renders.mkdir(exist_ok=True)
+            doc = fitz.open(out_pdf)
+            pix = doc[0].get_pixmap(matrix=fitz.Matrix(args.dpi / 72, args.dpi / 72),
+                                    alpha=False)
+            name = board.get("output_png") if args.dpi == 300 else None
+            name = name or out_pdf.stem + f"-A2-{args.dpi}dpi.png"
+            png = renders / name
+            pix.save(png)
+            doc.close()
+            outputs.append(png)
+
     print("Generated:")
-    print(f"  {pptx.relative_to(repo)}")
-    print(f"  {master_pdf.relative_to(repo)}")
-    for output in outputs: print(f"  {output.relative_to(repo)}")
+    for output in outputs:
+        print(f"  {output.relative_to(repo)}")
 
 
 def main():

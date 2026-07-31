@@ -24,35 +24,35 @@ boards:
     - path: source/artwork/turn-early-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-early-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-early-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-early-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-early-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Indoor domestic working clothes
       - Unfitted wrong sized nothing chosen by her
@@ -60,22 +60,23 @@ boards:
       - Footwear made for floors already failing
       - Dirty and damp but structurally intact
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow
@@ -92,35 +93,35 @@ boards:
     - path: source/artwork/turn-late-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-late-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-late-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-late-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-late-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - The same costume further destroyed
       - Mud to the knee ground into the weave
@@ -128,22 +129,23 @@ boards:
       - One boot split at the sole
       - Nothing replaced nothing added
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow
@@ -160,35 +162,35 @@ boards:
     - path: source/artwork/turn-final-front.png
       x: 0.45
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-final-left.png
-      x: 5.0
+      x: 4.988
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-final-right.png
-      x: 9.55
+      x: 9.526
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-final-back.png
-      x: 14.1
+      x: 14.064
       y: 1.35
-      w: 4.35
-      h: 9.7
+      w: 4.338
+      h: 6.507
     - path: source/artwork/turn-final-natural.png
-      x: 18.65
+      x: 18.602
       y: 1.35
-      w: 4.25
-      h: 9.7
+      w: 4.338
+      h: 6.507
     sections:
     - heading: THIS COSTUME
       x: 0.45
-      y: 11.3
-      w: 7.25
-      h: 4.4
-      font_size: 11.5
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Her mother's blood on hands arms and face
       - Transfer from holding someone not styling
@@ -196,22 +198,23 @@ boards:
       - Hair still bound and still long
       - What she wears out of the clearing and into film two
     - heading: VIEWS
-      x: 7.9
-      y: 11.3
-      w: 7.25
-      h: 4.4
+      x: 8.163
+      y: 8.177
+      w: 7.063
+      h: 2.75
       items:
       - Front left right back then natural
       - One photograph with the subject rotated
       - Same distance lens height light and scale
       - Costume identical in all five
       - Natural pose shows how it actually sits
+      font_size: 11
     - heading: BUILD NOTES
-      x: 15.35
-      y: 11.3
-      w: 7.55
-      h: 4.4
-      font_size: 11.7
+      x: 15.877
+      y: 8.177
+      w: 7.063
+      h: 2.75
+      font_size: 11
       items:
       - Every seam fastening and strap readable
       - Nothing obscured by pose or shadow

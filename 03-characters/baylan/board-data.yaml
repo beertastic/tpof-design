@@ -1,62 +1,291 @@
+# REBUILT 2026-07-31 — turnaround boards added as the primary deliverable.
+# One turnaround sheet per outfit, then the supporting boards.
+
 project: The Price of Freedom
 character: Baylan
 asset_id: CHAR-BAYLAN
-version: "1.0"
-status: REVIEW
-date: "2026-07-30"
+version: '2.0'
+status: REBUILD
+date: '2026-07-31'
 footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
 governing_documents:
-  - ../../01-production-design/Production-Design-Bible-v1.0.md
-  - ../../04-factions/mercenaries/Faction.md
-  - Character.md
-  - Character-Lock.md
-
+- ../../01-production-design/Production-Design-Bible-v1.0.md
+- ../../04-factions/mercenaries/Faction.md
+- Character.md
+- Character-Lock.md
 boards:
-  production:
-    label: BOARD 01
-    title: CHARACTER PRODUCTION BOARD
-    output_pdf: Production-Board.pdf
-    output_png: Production-Board-A2-300dpi.png
-    tagline: Hiding is the only thing he still does well.
+  turnaround_working:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — WORKING DRESS
+    output_pdf: Turnaround-Working-Board.pdf
+    output_png: Turnaround-Working-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
-      - {path: source/artwork/portrait.png, x: 0.45, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/forest.png, x: 5.80, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/industrial_a.png, x: 11.15, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/vision_robes.png, x: 16.50, y: 1.35, w: 6.40, h: 2.45}
+    - path: source/artwork/turn-working-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-working-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-working-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-working-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-working-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
     sections:
-      - heading: FIRST IMPRESSION
-        x: 16.50
-        y: 4.00
-        w: 6.40
-        h: 3.00
-        items: [A tired man doing manual labour, Oldest person in the camp, Nobody worth watching, Utterly still when everyone else moves]
-      - heading: CHARACTER LOCK
-        x: 16.50
-        y: 7.20
-        w: 6.40
-        h: 3.85
-        font_size: 11.5
-        items: [Reads as mercenary never as Jedi, Fifty and thickened not athletic, One remnant undertunic beneath, Crystal in a pouch under the shirt, No hilt on his belt]
-      - heading: STORY FUNCTION
-        x: 0.45
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Order 66 survivor eighteen years hidden, Point of view character eleven scenes, Nobody in the crew knows, Hunting the girl who is dreaming of him]
-      - heading: VISUAL PRINCIPLE
-        x: 7.90
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [The disguise has become the clothes, Plainness is the characterisation, Invisible first viewing obvious second, He is nobody and worked hard at it]
-      - heading: DESIGN DRIFT - DO NOT
-        x: 15.35
-        y: 11.30
-        w: 7.55
-        h: 4.40
-        font_size: 11.5
-        items: [Jedi in a hood or cowl, Wise serene mentor at peace, Ranking officer or squad leader, Distinguished silver haired warrior, Visible lightsaber on the belt]
-
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Salvaged repaired mercenary workwear
+      - Padded jacket re-shouldered at least once
+      - Functional harness no trophies or marks
+      - Undertunic visible only at collar and cuff
+      - The blaster on the hip is a converted saber
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
+  turnaround_robe:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — WORKING DRESS WITH ROBE
+    output_pdf: Turnaround-Robe-Board.pdf
+    output_png: Turnaround-Robe-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
+    images:
+    - path: source/artwork/turn-robe-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-robe-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-robe-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-robe-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-robe-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
+    sections:
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Long heavy dark robe worn open
+      - Repaired tears scorching an unpatched burn
+      - Reads as a weather cape never as Jedi dress
+      - Hood down no monastic sleeves no drape
+      - The one thing he owns for comfort
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
+  turnaround_shirtsleeves:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — SHIRTSLEEVES
+    output_pdf: Turnaround-Shirtsleeves-Board.pdf
+    output_png: Turnaround-Shirtsleeves-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
+    images:
+    - path: source/artwork/turn-shirtsleeves-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-shirtsleeves-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-shirtsleeves-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-shirtsleeves-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-shirtsleeves-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
+    sections:
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Jacket harness and holster removed
+      - Work shirt open sleeves pushed up
+      - CHEVRONED UNDERTUNIC IS THE FOCUS
+      - Four or five nested chevrons apex down
+      - Cord at the neck disappearing into the shirt
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
+  turnaround_jedi:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — JEDI KNIGHT ROBES
+    output_pdf: Turnaround-Jedi-Board.pdf
+    output_png: Turnaround-Jedi-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
+    images:
+    - path: source/artwork/turn-jedi-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-jedi-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-jedi-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-jedi-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-jedi-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
+    sections:
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Scene 12 vision only a separate build
+      - Layered tunic tabards obi over-robe
+      - Worn travelled and field dirty
+      - A war not a council chamber
+      - Eighteen years younger and standing straighter
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
@@ -64,38 +293,73 @@ boards:
     output_png: Costume-Board-A2-300dpi.png
     tagline: Eighteen years is long enough that it stops being a disguise.
     images:
-      - {path: source/artwork/forest.png, x: 0.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/industrial_c.png, x: 5.95, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/industrial_a.png, x: 11.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/materials.png, x: 16.95, y: 1.35, w: 5.95, h: 4.25}
+    - path: source/artwork/forest.png
+      x: 0.45
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/industrial_c.png
+      x: 5.95
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/industrial_a.png
+      x: 11.45
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/materials.png
+      x: 16.95
+      y: 1.35
+      w: 5.95
+      h: 4.25
     sections:
-      - heading: LAYER SYSTEM
-        x: 16.95
-        y: 5.80
-        w: 5.95
-        h: 5.25
-        font_size: 11.5
-        items: [Patched Jedi undertunic innermost, Heavy work shirt over it, Re-shouldered padded jacket, Functional harness and holster, Heavy resoled boots]
-      - heading: CONSTRUCTION RULES
-        x: 0.45
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Buildable seams and fasteners, Must strip back to shirtsleeves, Repairs and replacements stay visible, Nothing tailored or fitted, Nothing factory fresh]
-      - heading: THE REMNANT
-        x: 7.90
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Original weave re-dyed dark, Patched until only panels survive, Cross-wrapped front wrong for salvage, Visible only at collar and cuff, Never remarked upon by anyone]
-      - heading: FABRICATION NOTES
-        x: 15.35
-        y: 11.30
-        w: 7.55
-        h: 4.40
-        font_size: 11.7
-        items: [No ornament insignia or trophies, Undertunic finer than everything over it, Cord must sit under the shirt, Separate build required for Scene 12 robes, Weathering follows labour and repair]
-
+    - heading: LAYER SYSTEM
+      x: 16.95
+      y: 5.8
+      w: 5.95
+      h: 5.25
+      font_size: 11.5
+      items:
+      - Patched Jedi undertunic innermost
+      - Heavy work shirt over it
+      - Re-shouldered padded jacket
+      - Functional harness and holster
+      - Heavy resoled boots
+    - heading: CONSTRUCTION RULES
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Buildable seams and fasteners
+      - Must strip back to shirtsleeves
+      - Repairs and replacements stay visible
+      - Nothing tailored or fitted
+      - Nothing factory fresh
+    - heading: THE REMNANT
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Original weave re-dyed dark
+      - Patched until only panels survive
+      - Cross-wrapped front wrong for salvage
+      - Visible only at collar and cuff
+      - Never remarked upon by anyone
+    - heading: FABRICATION NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - No ornament insignia or trophies
+      - Undertunic finer than everything over it
+      - Cord must sit under the shirt
+      - Separate build required for Scene 12 robes
+      - Weathering follows labour and repair
   weapons:
     label: BOARD 03
     title: WEAPONS & EQUIPMENT BOARD
@@ -103,32 +367,66 @@ boards:
     output_png: Weapons-Board-A2-300dpi.png
     tagline: He took it apart and made it into something else. So did she.
     images:
-      - {path: source/artwork/blaster.png, x: 0.45, y: 1.35, w: 10.90, h: 3.70}
-      - {path: source/artwork/crystal.png, x: 0.45, y: 5.25, w: 5.25, h: 5.50}
-      - {path: source/artwork/utility.png, x: 5.90, y: 5.25, w: 5.45, h: 5.50}
-      - {path: source/artwork/maintenance.png, x: 11.55, y: 1.35, w: 5.40, h: 9.40}
-      - {path: source/artwork/industrial_b.png, x: 17.15, y: 1.35, w: 5.75, h: 9.40}
+    - path: source/artwork/blaster.png
+      x: 0.45
+      y: 1.35
+      w: 10.9
+      h: 3.7
+    - path: source/artwork/crystal.png
+      x: 0.45
+      y: 5.25
+      w: 5.25
+      h: 5.5
+    - path: source/artwork/utility.png
+      x: 5.9
+      y: 5.25
+      w: 5.45
+      h: 5.5
+    - path: source/artwork/maintenance.png
+      x: 11.55
+      y: 1.35
+      w: 5.4
+      h: 9.4
+    - path: source/artwork/industrial_b.png
+      x: 17.15
+      y: 1.35
+      w: 5.75
+      h: 9.4
     sections:
-      - heading: THE CONVERTED SABER
-        x: 0.45
-        y: 11.00
-        w: 7.25
-        h: 4.70
-        items: [Built from his own lightsaber, Emitter shroud became barrel shroud, Belt clip never removed, Crystal chamber now holds a power cell, Ugly and it does not group well]
-      - heading: THE CRYSTAL
-        x: 7.90
-        y: 11.00
-        w: 7.25
-        h: 4.70
-        items: [Small jagged yellow and uncut, Sentinel marker and his one discipline, Worn pouch on a cord against the skin, Not yet what it later becomes, The only thing he owns from before]
-      - heading: WORKING KIT
-        x: 15.35
-        y: 11.00
-        w: 7.55
-        h: 4.70
-        font_size: 11.5
-        items: [Heavy rifle is his actual weapon, Scanner handed to him by Jasu, Nothing decorated nothing personal, The kit says nothing about the man, That absence is the characterisation]
-
+    - heading: THE CONVERTED SABER
+      x: 0.45
+      y: 11.0
+      w: 7.25
+      h: 4.7
+      items:
+      - Built from his own lightsaber
+      - Emitter shroud became barrel shroud
+      - Belt clip never removed
+      - Crystal chamber now holds a power cell
+      - Ugly and it does not group well
+    - heading: THE CRYSTAL
+      x: 7.9
+      y: 11.0
+      w: 7.25
+      h: 4.7
+      items:
+      - Small jagged yellow and uncut
+      - Sentinel marker and his one discipline
+      - Worn pouch on a cord against the skin
+      - Not yet what it later becomes
+      - The only thing he owns from before
+    - heading: WORKING KIT
+      x: 15.35
+      y: 11.0
+      w: 7.55
+      h: 4.7
+      font_size: 11.5
+      items:
+      - Heavy rifle is his actual weapon
+      - Scanner handed to him by Jasu
+      - Nothing decorated nothing personal
+      - The kit says nothing about the man
+      - That absence is the characterisation
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
@@ -136,37 +434,78 @@ boards:
     output_png: Performance-Board-A2-300dpi.png
     tagline: He has spent eighteen years practising being uninteresting.
     images:
-      - {path: source/artwork/industrial_a.png, x: 0.45, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/industrial_b.png, x: 5.80, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/maintenance.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/expression_strip.png, x: 16.50, y: 1.35, w: 6.40, h: 3.50}
+    - path: source/artwork/industrial_a.png
+      x: 0.45
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/industrial_b.png
+      x: 5.8
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/maintenance.png
+      x: 11.15
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/expression_strip.png
+      x: 16.5
+      y: 1.35
+      w: 6.4
+      h: 3.5
+    - path: source/artwork/vision_robes.png
+      x: 16.5
+      y: 5.05
+      w: 6.4
+      h: 2.45
     sections:
-      - heading: MOVEMENT PRINCIPLES
-        x: 16.50
-        y: 5.05
-        w: 6.40
-        h: 5.50
-        items: [Heavy slow and unremarkable, Still in a way nobody else is, Does not kneel, Watches rooms and exits constantly, Stops performing only when alone]
-      - heading: ACTOR NOTES
-        x: 0.45
-        y: 10.80
-        w: 7.25
-        h: 4.90
-        items: [Give nothing away ever, Being ordinary is the effort, Take the teasing without complaint, Scene 14 is a visible change of gear, Fifty years old and feeling it]
-      - heading: FACIAL LANGUAGE
-        x: 7.90
-        y: 10.80
-        w: 7.25
-        h: 4.90
-        items: [Manufactured dull neutrality, Waking in terror and hiding it, Private contained grief, Focused and dangerous underneath, Eyes older than the rest of him]
-      - heading: ENVIRONMENTAL BEHAVIOUR
-        x: 15.35
-        y: 10.80
-        w: 7.55
-        h: 4.90
-        font_size: 11.7
-        items: [Meditates where nobody can see, Sleeps badly and slips out at night, Stands at the back of every group, Practices alone among the crates, The camp is cover not home]
-
+    - heading: MOVEMENT PRINCIPLES
+      x: 16.5
+      y: 7.75
+      w: 6.4
+      h: 2.8
+      items:
+      - Heavy slow and unremarkable
+      - Still in a way nobody else is
+      - Does not kneel
+      - Watches rooms and exits constantly
+      - Stops performing only when alone
+      font_size: 11
+    - heading: ACTOR NOTES
+      x: 0.45
+      y: 10.8
+      w: 7.25
+      h: 4.9
+      items:
+      - Give nothing away ever
+      - Being ordinary is the effort
+      - Take the teasing without complaint
+      - Scene 14 is a visible change of gear
+      - Fifty years old and feeling it
+    - heading: FACIAL LANGUAGE
+      x: 7.9
+      y: 10.8
+      w: 7.25
+      h: 4.9
+      items:
+      - Manufactured dull neutrality
+      - Waking in terror and hiding it
+      - Private contained grief
+      - Focused and dangerous underneath
+      - Eyes older than the rest of him
+    - heading: ENVIRONMENTAL BEHAVIOUR
+      x: 15.35
+      y: 10.8
+      w: 7.55
+      h: 4.9
+      font_size: 11.7
+      items:
+      - Meditates where nobody can see
+      - Sleeps badly and slips out at night
+      - Stands at the back of every group
+      - Practices alone among the crates
+      - The camp is cover not home
   materials:
     label: BOARD 05
     title: MATERIALS & COLOUR BOARD
@@ -174,34 +513,74 @@ boards:
     output_png: Materials-Board-A2-300dpi.png
     tagline: Muted. Worn. Repaired. Anonymous.
     images:
-      - {path: source/artwork/materials.png, x: 0.45, y: 1.35, w: 7.00, h: 5.60}
-      - {path: source/artwork/detail_portrait.png, x: 7.65, y: 1.35, w: 6.20, h: 8.00}
-      - {path: source/artwork/forest.png, x: 14.05, y: 1.35, w: 4.30, h: 8.00}
-      - {path: source/artwork/industrial_c.png, x: 18.55, y: 1.35, w: 4.35, h: 8.00}
+    - path: source/artwork/materials.png
+      x: 0.45
+      y: 1.35
+      w: 7.0
+      h: 5.6
+    - path: source/artwork/detail_portrait.png
+      x: 7.65
+      y: 1.35
+      w: 6.2
+      h: 8.0
+    - path: source/artwork/forest.png
+      x: 14.05
+      y: 1.35
+      w: 4.3
+      h: 8.0
+    - path: source/artwork/industrial_c.png
+      x: 18.55
+      y: 1.35
+      w: 4.35
+      h: 8.0
     sections:
-      - heading: APPROVED PALETTE
-        x: 0.45
-        y: 7.20
-        w: 7.00
-        h: 4.15
-        font_size: 11.5
-        items: ["Charcoal #2B2A26", "Ash brown #3A352F", "Dust brown #544E42", "Leather #6B5A47", "Faded tan #7C6F5B", "Faded olive #4F563F", "Weathered black #2E2F33", "Natural bone #BDAF95"]
-      - heading: SURFACE LANGUAGE
-        x: 0.45
-        y: 11.60
-        w: 7.25
-        h: 4.10
-        items: [Coarse insulated work fabric, Worn reinforced synth-leather, Quilted padding at repaired seams, Weathered matte metal hardware, Finer older weave beneath everything]
-      - heading: LIGHT & CONTRAST
-        x: 7.90
-        y: 11.60
-        w: 7.25
-        h: 4.10
-        items: [Overcast forest and camp firelight, Glowrod warmth for the tent scenes, Bleached desaturated dune for the vision, Keep him dark but never crushed, No colour without story purpose]
-      - heading: OVERALL LOOK
-        x: 15.35
-        y: 11.60
-        w: 7.55
-        h: 4.10
-        font_size: 13
-        items: [Muted, Worn, Repaired, Anonymous, Non-reflective, Deliberately forgettable]
+    - heading: APPROVED PALETTE
+      x: 0.45
+      y: 7.2
+      w: 7.0
+      h: 4.15
+      font_size: 11.5
+      items:
+      - 'Charcoal #2B2A26'
+      - 'Ash brown #3A352F'
+      - 'Dust brown #544E42'
+      - 'Leather #6B5A47'
+      - 'Faded tan #7C6F5B'
+      - 'Faded olive #4F563F'
+      - 'Weathered black #2E2F33'
+      - 'Natural bone #BDAF95'
+    - heading: SURFACE LANGUAGE
+      x: 0.45
+      y: 11.6
+      w: 7.25
+      h: 4.1
+      items:
+      - Coarse insulated work fabric
+      - Worn reinforced synth-leather
+      - Quilted padding at repaired seams
+      - Weathered matte metal hardware
+      - Finer older weave beneath everything
+    - heading: LIGHT & CONTRAST
+      x: 7.9
+      y: 11.6
+      w: 7.25
+      h: 4.1
+      items:
+      - Overcast forest and camp firelight
+      - Glowrod warmth for the tent scenes
+      - Bleached desaturated dune for the vision
+      - Keep him dark but never crushed
+      - No colour without story purpose
+    - heading: OVERALL LOOK
+      x: 15.35
+      y: 11.6
+      w: 7.55
+      h: 4.1
+      font_size: 13
+      items:
+      - Muted
+      - Worn
+      - Repaired
+      - Anonymous
+      - Non-reflective
+      - Deliberately forgettable

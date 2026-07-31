@@ -34,7 +34,13 @@ from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.text import PP_ALIGN
 from pptx.util import Inches, Pt
 
-BOARD_ORDER = ["production", "costume", "weapons", "performance", "materials"]
+DEFAULT_BOARD_ORDER = ["production", "costume", "weapons", "performance", "materials"]
+
+
+def board_order(config: dict[str, Any]) -> list[str]:
+    """Board order comes from the config; falls back to the classic five."""
+    boards = config.get("boards") or {}
+    return list(boards.keys()) if boards else list(DEFAULT_BOARD_ORDER)
 A2_WIDTH_IN = 23.386
 A2_HEIGHT_IN = 16.535
 
@@ -99,7 +105,7 @@ def validate(repo: Path, character_dir: Path, config: dict[str, Any], selected: 
         if key not in config:
             errors.append(f"missing key: {key}")
     boards = config.get("boards", {})
-    for board_name in BOARD_ORDER:
+    for board_name in board_order(config):
         if selected and board_name not in selected:
             continue
         board = boards.get(board_name)
@@ -213,7 +219,8 @@ def split_and_render(character_dir: Path, config: dict[str, Any], master_pdf: Pa
     outputs = []
     for index, board_name in enumerate(boards):
         board = config["boards"][board_name]
-        output_pdf = character_dir / board.get("output_pdf", f"{board_name.title()}-Board.pdf")
+        default_pdf = board_name.replace("_", "-").title() + "-Board.pdf"
+        output_pdf = character_dir / board.get("output_pdf", default_pdf)
         single = fitz.open(); single.insert_pdf(doc, from_page=index, to_page=index); single.save(output_pdf); single.close()
         outputs.append(output_pdf)
         if not pdf_only:
@@ -229,7 +236,7 @@ def split_and_render(character_dir: Path, config: dict[str, Any], master_pdf: Pa
 
 def run_character(repo: Path, character_dir: Path, args, template: dict[str, Any]):
     config = load_yaml(character_dir / "board-data.yaml")
-    selected = [args.board] if args.board else BOARD_ORDER
+    selected = [args.board] if args.board else board_order(config)
     missing = [name for name in selected if name not in config.get("boards", {})]
     if missing:
         raise SystemExit(f"Missing configured board(s) for {character_dir.name}: {', '.join(missing)}")
@@ -254,7 +261,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate TPOF A2 character production boards.")
     parser.add_argument("character", nargs="?", help="Existing character directory name, e.g. shada")
     parser.add_argument("--all", action="store_true", help="Generate every existing character folder containing board-data.yaml")
-    parser.add_argument("--board", choices=BOARD_ORDER, help="Generate one board only")
+    parser.add_argument("--board", help="Generate one board only, by key")
     parser.add_argument("--dpi", type=int, default=300, help="PNG render DPI (default: 300)")
     parser.add_argument("--pdf-only", action="store_true", help="Skip PNG preview rendering")
     parser.add_argument("--validate", action="store_true", help="Validate configuration and artwork without generating files")

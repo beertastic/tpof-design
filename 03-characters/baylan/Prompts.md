@@ -143,7 +143,7 @@ result looks manufactured rather than photographed, it has failed.
 
 ## Capture — NARRATIVE slots only
 
-> **Paste with slots 1, 2, 3, 4, 5, 7, 12** — in-scene frames.
+> **Paste with slots 1, 2, 3, 4, 6, 11** — in-scene frames.
 >
 > **Do NOT paste with reference plates** (8 (expression strip), 9–11, 13). Those want flat, even
 > documentation light and sharpness across the whole frame. Shallow depth of
@@ -178,7 +178,7 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ## Anti-synthetic — any slot containing a FACE
 
-> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 8, 12.** Wider than the Capture block: a portrait study or
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 11.** Wider than the Capture block: a portrait study or
 > an expression strip is lit flat and sharp, but the skin still has to be real.
 > This is the block that defeats the plastic-AI look, and it applies wherever
 > there is a person.
@@ -258,19 +258,7 @@ is genuinely at ease, and that ease is not part of the performance.
 
 # Prompt slots
 
-## 1. `portrait.png` — hero portrait
-**Tall portrait, 9:16.**
-
-Waist-up portrait of Baylan in an evening forest, three-quarter angle, caught
-mid-thought while doing something unremarkable — checking a strap, looking off
-toward the treeline. A tired fifty-year-old man in salvaged workwear. Iron-grey
-short hair, full beard, deep lines around the eyes. Overcast evening light
-through wet canopy. He is not posing, not heroic, not framed as important. The
-image should read as a background crew member who happens to be in focus.
-Shallow depth of field, forest falling into haze behind him. Nothing about him
-suggests a Jedi.
-
-## 2. `forest.png` — in the mercenary camp
+## 1. `forest.png` — in the mercenary camp
 **Tall portrait, 9:16.**
 
 Full-figure shot of Baylan carrying a crate or coil of cable through the forest
@@ -280,7 +268,7 @@ silhouette readable: big, heavy, slightly stooped under the load. Boots in wet
 leaf litter. He belongs here completely and looks like nobody worth watching.
 Natural overcast dusk with firelight spill from behind.
 
-## 3. `industrial_a.png` — standing at the back
+## 2. `industrial_a.png` — standing at the back
 **Tall portrait, 9:16.**
 
 Baylan standing motionless at the back of a group, slightly apart, while others
@@ -290,7 +278,7 @@ else is in motion and he is completely still, and the stillness is the subject o
 the image. Read him as the oldest person present. No authority, no rank, no
 insignia — he is simply not participating in the way the others are.
 
-## 4. `industrial_b.png` — the storage area
+## 3. `industrial_b.png` — the storage area
 **Tall portrait, 9:16.**
 
 Baylan alone at night in a makeshift storage area among stacked crates, spare
@@ -301,7 +289,7 @@ he is not performing — his posture, his shoulders and his face have all change
 Absolute concentration on a very small thing. No glow, no energy effect, no
 visual magic: the rock is simply, impossibly, hanging there.
 
-## 5. `industrial_c.png` — in the tent
+## 4. `industrial_c.png` — in the tent
 **Tall portrait, 9:16.**
 
 Baylan seated cross-legged inside a small canvas tent at night, lit low and warm
@@ -311,7 +299,7 @@ underneath. His long dark robe is around his shoulders like a blanket. A cord ru
 tarpaulin wall, his rifle propped in the corner. Quiet, private, exhausted. This
 is the only place he is ever unguarded.
 
-## 6. `detail_portrait.png` — the face
+## 5. `detail_portrait.png` — the face
 **Portrait, 3:4.**
 
 Close portrait of Baylan, head and shoulders, lit at a grazing angle by overcast
@@ -322,7 +310,7 @@ is neutral and absolutely unreadable — he has spent two decades giving nothing
 away. But the eyes are older than the rest of him. Practical make-up realism,
 every pore and broken capillary present. No costume detail competing.
 
-## 7. `vision_robes.png` — the dune, eighteen years earlier
+## 6. `vision_robes.png` — the dune, eighteen years earlier
 **Wide banner, 21:9.**
 
 Wide, hazy vision-image: a lone figure in full Jedi Knight robes standing atop a
@@ -335,7 +323,7 @@ over-bright and slightly unreal at the edges. **This is the only image in the se
 in which he wears robes.** Same man as the other slots: tall, broad, but eighteen
 years younger — less grey, less weight, still upright.
 
-## 8. `expression_strip.png` — performance range
+## 7. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
 Horizontal strip of four head-and-shoulders expressions of the same
@@ -346,7 +334,7 @@ contained; (4) the real man underneath — focused, dangerous, absolutely still.
 Same lighting, angle and scale in every panel. The strip should show how little
 he lets show, and then how much is there.
 
-## 9. `blaster.png` — the converted lightsaber
+## 8. `blaster.png` — the converted lightsaber
 **Wide banner, 3:1.**
 
 Product-reference layout on a neutral surface, evenly lit: a heavily modified
@@ -364,7 +352,7 @@ Assembled, it should read to a casual eye as an ugly, over-modified sidearm that
 someone has bodged together — nothing more. Weathered, scratched, matte, with
 eighteen years of handling on the grip. No ornament, no engraving, no glow.
 
-## 10. `crystal.png` — the pouch
+## 9. `crystal.png` — the pouch
 **Square, 1:1.**
 
 Close product-reference image on a dark neutral surface, lit low and warm as if
@@ -375,7 +363,7 @@ faceted gem and not a finished component. It has a faint internal warmth rather
 than a glow. The pouch is old, soft, darkened by skin contact and repaired at one
 seam. These two objects are the only things he owns from before.
 
-## 11. `utility.png` — kit layout
+## 10. `utility.png` — kit layout
 **Square, 1:1.**
 
 Overhead flat-lay of Baylan's carried kit on a worn surface: a battered heavy
@@ -387,7 +375,7 @@ characterless it is — this is the kit of a man who has deliberately owned noth
 that says anything about him. The pouch and cord are not here; they are on his
 body.
 
-## 12. `maintenance.png` — the reconstruction
+## 11. `maintenance.png` — the reconstruction
 **Tall portrait, 9:16.**
 
 Baylan seated cross-legged in his tent at night, glowrod on the ground, in
@@ -405,7 +393,7 @@ Warm low glowrod light, deep shadow, the tent close around him. No glow effects,
 no energy, no magic — only objects hanging in the air that should not be, and
 assembling themselves.
 
-## 13. `materials.png` — materials and palette
+## 12. `materials.png` — materials and palette
 **Landscape, 5:4.**
 
 Materials reference board: physical swatches and close details on a neutral
@@ -427,19 +415,18 @@ older cloth than everything surrounding it.
 
 | # | File | Ratio |
 |---|---|---|
-| 1 | `portrait.png` | 9:16 |
-| 2 | `forest.png` | 9:16 |
-| 3 | `industrial_a.png` | 9:16 |
-| 4 | `industrial_b.png` | 9:16 |
-| 5 | `industrial_c.png` | 9:16 |
-| 6 | `detail_portrait.png` | 3:4 |
-| 7 | `vision_robes.png` | 21:9 |
-| 8 | `expression_strip.png` | 16:9 |
-| 9 | `blaster.png` | 3:1 |
-| 10 | `crystal.png` | 1:1 |
-| 11 | `utility.png` | 1:1 |
-| 12 | `maintenance.png` | 9:16 |
-| 13 | `materials.png` | 5:4 |
+| 1 | `forest.png` | 9:16 |
+| 2 | `industrial_a.png` | 9:16 |
+| 3 | `industrial_b.png` | 9:16 |
+| 4 | `industrial_c.png` | 9:16 |
+| 5 | `detail_portrait.png` | 3:4 |
+| 6 | `vision_robes.png` | 21:9 |
+| 7 | `expression_strip.png` | 16:9 |
+| 8 | `blaster.png` | 3:1 |
+| 9 | `crystal.png` | 1:1 |
+| 10 | `utility.png` | 1:1 |
+| 11 | `maintenance.png` | 9:16 |
+| 12 | `materials.png` | 5:4 |
 
 All thirteen land in `03-characters/baylan/source/artwork/`. The board generator
 places images with a **contain** operation and never crops — supplying the wrong

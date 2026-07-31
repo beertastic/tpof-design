@@ -1,6 +1,6 @@
-[BAYLAN — SLOT 09 — THE CONVERTED LIGHTSABER]
-Output file: blaster.png
-Aspect ratio: 3:1  (wide banner)
+[BAYLAN — SLOT 10 — KIT LAYOUT]
+Output file: utility.png
+Aspect ratio: 1:1  (square)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -143,19 +143,13 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Product-reference layout on a neutral surface, evenly lit: a heavily modified
-blaster pistol shown assembled at left and partially disassembled at right, its
-components laid out in order.
+Overhead flat-lay of Baylan's carried kit on a worn surface: a battered heavy
+rifle, the modified blaster in its holster, a handheld scanner, ammunition, a
+folded bed roll, a few field tools, a water container, a repair kit. Everything
+plain, worn and functional; nothing decorated, nothing personal, nothing kept for
+sentiment. Even flat reference lighting. The point of this image is how
+characterless it is — this is the kit of a man who has deliberately owned nothing
+that says anything about him. The pouch and cord are not here; they are on his
+body.
 
-This weapon was built from a lightsaber. The conversion is genuine, not cosmetic
-— the emitter shroud has become the barrel shroud, the activation plate has
-become the trigger housing, and a belt clip is still fitted because it was never
-removed. In the disassembled view the original hilt architecture is unmistakable:
-a machined cylindrical core, control studs blanked over with plate, and an empty
-crystal chamber at its heart, now holding a power cell.
-
-Assembled, it should read to a casual eye as an ugly, over-modified sidearm that
-someone has bodged together — nothing more. Weathered, scratched, matte, with
-eighteen years of handling on the grip. No ornament, no engraving, no glow.
-
-Deliver a single image at 3:1. It must look photographed, not generated.
+Deliver a single image at 1:1. It must look photographed, not generated.

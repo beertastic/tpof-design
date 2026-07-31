@@ -1,5 +1,5 @@
-[BAYLAN — SLOT 04 — THE STORAGE AREA]
-Output file: industrial_b.png
+[BAYLAN — SLOT 04 — IN THE TENT]
+Output file: industrial_c.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -189,12 +189,11 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Baylan alone at night in a makeshift storage area among stacked crates, spare
-ammunition boxes and a tarpaulin, lit by a single work lamp. He is standing very
-still with one hand slightly raised and open, entirely focused, and a small rock
-hangs in the air a short distance from his palm. This is the only image in which
-he is not performing — his posture, his shoulders and his face have all changed.
-Absolute concentration on a very small thing. No glow, no energy effect, no
-visual magic: the rock is simply, impossibly, hanging there.
+Baylan seated cross-legged inside a small canvas tent at night, lit low and warm
+by a glowrod on the ground beside him. He is in shirtsleeves — jacket and harness
+off, work shirt open at the collar, the patched dark undertunic visible
+underneath. His long dark robe is around his shoulders like a blanket. A cord runs around his neck and disappears into the shirt. Bed roll,
+tarpaulin wall, his rifle propped in the corner. Quiet, private, exhausted. This
+is the only place he is ever unguarded.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

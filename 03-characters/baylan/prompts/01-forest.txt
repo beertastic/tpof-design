@@ -1,12 +1,11 @@
-[BAYLAN — SLOT 11 — KIT LAYOUT]
-Output file: utility.png
-Aspect ratio: 1:1  (square)
+[BAYLAN — SLOT 01 — IN THE MERCENARY CAMP]
+Output file: forest.png
+Aspect ratio: 9:16  (tall portrait)
 
-THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
-A studio photograph of real physical objects on a real surface under real
-light — the kind an art department shoots to document what it has built.
-Flat, even, sharp across the frame. Not a render, not an illustration,
-not concept art, not AI-looking output.
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
@@ -94,6 +93,53 @@ Reject entirely the look of computer-generated imagery — the smooth,
 evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
 result looks manufactured rather than photographed, it has failed.
 
+=== CAPTURE ===
+Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
+Panavision-style anamorphic glass, not modern clinical optics.
+
+Optical character: oval, horizontally-stretched bokeh in out-of-focus
+highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
+while the focal plane stays sharp. Shallow depth of field with smooth falloff.
+Faint horizontal streak flare where a bright practical source is in frame —
+restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
+Slight vignetting.
+
+Photochemical character: the response of 35mm motion picture negative — fine
+organic grain, present in shadows and midtones rather than added uniformly.
+Gentle halation blooming around bright sources. Highlight rolloff that compresses
+rather than clips. Rich shadow that retains detail instead of going black.
+
+Colour: restrained, filmic, desaturated toward the muted end. Skin natural
+and slightly warm. No digital vibrance, no teal-and-orange grade.
+
+Focus behaviour: one plane is sharp and everything else falls away. Detail
+resolves where the lens is focused and softens elsewhere — do not render every
+surface at equal sharpness.
+
+The image should look like a frame from a photochemical motion picture, or a
+unit stills photographer's frame from the same set. Not a rendered picture.
+
+=== SKIN AND REALISM ===
+Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
+capillaries, stubble, shine where skin is oily and matte where it is not.
+Subsurface scattering at the ears and nostrils. No smoothed, waxy, airbrushed
+or plastic skin. No beauty retouching of any kind.
+
+Faces are asymmetric. Eyes differ slightly, the expression is uneven, nothing
+is mirrored.
+
+Lighting has a direction and a cost. One dominant source with genuine shadow
+and real falloff. No omnidirectional fill, no unmotivated rim light, no glow
+without a source.
+
+Framing is imperfect. Off-centre, unbalanced headroom, something clipped by
+the frame edge or slightly in the way. Not a composed poster.
+
+Detail is not uniform. Real photographs have areas of mush — motion, focus
+falloff, underexposed corners. Do not render every fibre at maximum sharpness.
+
+Nothing is symmetrical, new or clean unless the shot says so.
+
 === CHARACTER ===
 Baylan. Human male, fifty years old. A Jedi Knight who survived Order 66, tried
 and failed to keep being a Jedi on the Outer Rim, gave up, and has spent years
@@ -143,13 +189,11 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Overhead flat-lay of Baylan's carried kit on a worn surface: a battered heavy
-rifle, the modified blaster in its holster, a handheld scanner, ammunition, a
-folded bed roll, a few field tools, a water container, a repair kit. Everything
-plain, worn and functional; nothing decorated, nothing personal, nothing kept for
-sentiment. Even flat reference lighting. The point of this image is how
-characterless it is — this is the kit of a man who has deliberately owned nothing
-that says anything about him. The pouch and cord are not here; they are on his
-body.
+Full-figure shot of Baylan carrying a crate or coil of cable through the forest
+mercenary camp at dusk — manual labour, unglamorous, the work of a man who is
+told what to do. Tents, tarpaulins, crates, a campfire further back. His full
+silhouette readable: big, heavy, slightly stooped under the load. Boots in wet
+leaf litter. He belongs here completely and looks like nobody worth watching.
+Natural overcast dusk with firelight spill from behind.
 
-Deliver a single image at 1:1. It must look photographed, not generated.
+Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

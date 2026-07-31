@@ -1,12 +1,11 @@
-[BAYLAN — SLOT 08 — PERFORMANCE RANGE]
-Output file: expression_strip.png
-Aspect ratio: 16:9  (landscape)
+[BAYLAN — SLOT 06 — THE DUNE, EIGHTEEN YEARS EARLIER]
+Output file: vision_robes.png
+Aspect ratio: 21:9  (wide banner)
 
-THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
-A studio photograph of real physical objects on a real surface under real
-light — the kind an art department shoots to document what it has built.
-Flat, even, sharp across the frame. Not a render, not an illustration,
-not concept art, not AI-looking output.
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
 
 Generate a single image to the description below.
 Attach actor reference images to this conversation before generating.
@@ -94,6 +93,32 @@ Reject entirely the look of computer-generated imagery — the smooth,
 evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
 result looks manufactured rather than photographed, it has failed.
 
+=== CAPTURE ===
+Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
+Panavision-style anamorphic glass, not modern clinical optics.
+
+Optical character: oval, horizontally-stretched bokeh in out-of-focus
+highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
+while the focal plane stays sharp. Shallow depth of field with smooth falloff.
+Faint horizontal streak flare where a bright practical source is in frame —
+restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
+Slight vignetting.
+
+Photochemical character: the response of 35mm motion picture negative — fine
+organic grain, present in shadows and midtones rather than added uniformly.
+Gentle halation blooming around bright sources. Highlight rolloff that compresses
+rather than clips. Rich shadow that retains detail instead of going black.
+
+Colour: restrained, filmic, desaturated toward the muted end. Skin natural
+and slightly warm. No digital vibrance, no teal-and-orange grade.
+
+Focus behaviour: one plane is sharp and everything else falls away. Detail
+resolves where the lens is focused and softens elsewhere — do not render every
+surface at equal sharpness.
+
+The image should look like a frame from a photochemical motion picture, or a
+unit stills photographer's frame from the same set. Not a rendered picture.
+
 === SKIN AND REALISM ===
 Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
 capillaries, stubble, shine where skin is oily and matte where it is not.
@@ -164,12 +189,14 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Horizontal strip of four head-and-shoulders expressions of the same
-fifty-year-old bearded face, evenly lit and consistently framed: (1) neutral
-blankness — the manufactured dull expression he wears in company; (2) waking in
-terror, gasping, sweating, eyes wide; (3) quiet grief, entirely private and
-contained; (4) the real man underneath — focused, dangerous, absolutely still.
-Same lighting, angle and scale in every panel. The strip should show how little
-he lets show, and then how much is there.
+Wide, hazy vision-image: a lone figure in full Jedi Knight robes standing atop a
+sand dune under a hard afternoon sky, sea visible far beyond. Layered tunic,
+tabards, obi, heavy over-robe, campaign boots — worn, travelled and field-dirty,
+a man fighting a war rather than attending a council. He is turning toward
+camera, caught mid-movement. Blown sand, heat shimmer, a bleached and desaturated
+palette utterly unlike the wet forest. This is a memory, so it may be soft,
+over-bright and slightly unreal at the edges. This is the only image in the set
+in which he wears robes. Same man as the other slots: tall, broad, but eighteen
+years younger — less grey, less weight, still upright.
 
-Deliver a single image at 16:9. It must look photographed, not generated.
+Deliver a single image at 21:9. It must look like a frame from a real film, not a generated image.

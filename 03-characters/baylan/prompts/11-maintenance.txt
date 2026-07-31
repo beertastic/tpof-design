@@ -1,5 +1,5 @@
-[BAYLAN — SLOT 03 — STANDING AT THE BACK]
-Output file: industrial_a.png
+[BAYLAN — SLOT 11 — THE RECONSTRUCTION]
+Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -189,11 +189,19 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Baylan standing motionless at the back of a group, slightly apart, while others
-in front kneel or check their gear. He is doing nothing — hands at his sides,
-weight settled, watching. Early morning grey light in a forest camp. Everyone
-else is in motion and he is completely still, and the stillness is the subject of
-the image. Read him as the oldest person present. No authority, no rank, no
-insignia — he is simply not participating in the way the others are.
+Baylan seated cross-legged in his tent at night, glowrod on the ground, in
+shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
+of him, unsupported, the components of his blaster hang separated in mid-air —
+and they are drawing back together into a different shape: a machined
+cylindrical lightsaber hilt, mid-assembly, its parts converging. The crystal has
+not gone in yet.
+
+He is not triumphant and not afraid. He is looking at it the way a man looks at
+something he could not bear to look at for years — and has just found he can.
+There should be hesitation in him, and then decision.
+
+Warm low glowrod light, deep shadow, the tent close around him. No glow effects,
+no energy, no magic — only objects hanging in the air that should not be, and
+assembling themselves.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

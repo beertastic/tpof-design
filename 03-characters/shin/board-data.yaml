@@ -1,62 +1,223 @@
+# REBUILT 2026-07-31 — turnaround boards added as the primary deliverable.
+# One turnaround sheet per outfit, then the supporting boards.
+
 project: The Price of Freedom
 character: Shin
 asset_id: CHAR-SHIN
-version: "1.0"
-status: REVIEW
-date: "2026-07-30"
+version: '2.0'
+status: REBUILD
+date: '2026-07-31'
 footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
 governing_documents:
-  - ../../01-production-design/Production-Design-Bible-v1.0.md
-  - ../../04-factions/slaves-escapees/Faction.md
-  - Character.md
-  - Character-Lock.md
-
+- ../../01-production-design/Production-Design-Bible-v1.0.md
+- ../../04-factions/slaves-escapees/Faction.md
+- Character.md
+- Character-Lock.md
 boards:
-  production:
-    label: BOARD 01
-    title: CHARACTER PRODUCTION BOARD
-    output_pdf: Production-Board.pdf
-    output_png: Production-Board-A2-300dpi.png
-    tagline: A child in the middle of an adult catastrophe.
+  turnaround_early:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — AS WE MEET HER
+    output_pdf: Turnaround-Early-Board.pdf
+    output_png: Turnaround-Early-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
-      - {path: source/artwork/portrait.png, x: 0.45, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/forest.png, x: 5.80, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/sky.png, x: 11.15, y: 1.35, w: 5.15, h: 9.70}
-      - {path: source/artwork/vision_shadow.png, x: 16.50, y: 1.35, w: 6.40, h: 2.45}
+    - path: source/artwork/turn-early-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-early-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-early-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-early-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-early-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
     sections:
-      - heading: FIRST IMPRESSION
-        x: 16.50
-        y: 4.00
-        w: 6.40
-        h: 3.00
-        items: [Fifteen and out of her depth, Filthy exhausted and frightened, The only colour in the film, She looks up when nobody else does]
-      - heading: CHARACTER LOCK
-        x: 16.50
-        y: 7.20
-        w: 6.40
-        h: 3.85
-        font_size: 11.5
-        items: [Long red hair always bound, Force sensitive and does not know it, Carries nothing and owns nothing, Never capable never dangerous, Never sexualised under any reading]
-      - heading: STORY FUNCTION
-        x: 0.45
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Co-lead and ten scenes, Escaped captive fleeing with her mother, Visions of Baylan before they meet, Loses everything in the clearing]
-      - heading: VISUAL PRINCIPLE
-        x: 7.90
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [A child not a young warrior, Everything second hand and wrong sized, Her innocence is the thing being lost, When the hair goes the colour goes]
-      - heading: DESIGN DRIFT - DO NOT
-        x: 15.35
-        y: 11.30
-        w: 7.55
-        h: 4.40
-        font_size: 11.5
-        items: [Capable young fighter, Anything Jedi or robed, Sexualised in any degree, Clean styled or composed, Older than fifteen]
-
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Indoor domestic working clothes
+      - Unfitted wrong sized nothing chosen by her
+      - Hand repairs are her mother's work
+      - Footwear made for floors already failing
+      - Dirty and damp but structurally intact
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
+  turnaround_late:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — DESTROYED BY THE FOREST
+    output_pdf: Turnaround-Late-Board.pdf
+    output_png: Turnaround-Late-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
+    images:
+    - path: source/artwork/turn-late-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-late-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-late-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-late-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-late-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
+    sections:
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - The same costume further destroyed
+      - Mud to the knee ground into the weave
+      - Tears at hem and forearms repairs pulling open
+      - One boot split at the sole
+      - Nothing replaced nothing added
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
+  turnaround_final:
+    label: TURNAROUND
+    title: COSTUME TURNAROUND — THE CLEARING
+    output_pdf: Turnaround-Final-Board.pdf
+    output_png: Turnaround-Final-A2-300dpi.png
+    tagline: Front. Left. Right. Back. And how it sits on a person.
+    images:
+    - path: source/artwork/turn-final-front.png
+      x: 0.45
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-final-left.png
+      x: 5.0
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-final-right.png
+      x: 9.55
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-final-back.png
+      x: 14.1
+      y: 1.35
+      w: 4.35
+      h: 9.7
+    - path: source/artwork/turn-final-natural.png
+      x: 18.65
+      y: 1.35
+      w: 4.25
+      h: 9.7
+    sections:
+    - heading: THIS COSTUME
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      font_size: 11.5
+      items:
+      - Her mother's blood on hands arms and face
+      - Transfer from holding someone not styling
+      - The clasp fastened where she put it
+      - Hair still bound and still long
+      - What she wears out of the clearing and into film two
+    - heading: VIEWS
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Front left right back then natural
+      - One photograph with the subject rotated
+      - Same distance lens height light and scale
+      - Costume identical in all five
+      - Natural pose shows how it actually sits
+    - heading: BUILD NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - Every seam fastening and strap readable
+      - Nothing obscured by pose or shadow
+      - Buildable construction no floating elements
+      - Repairs and replacements remain visible
+      - Weathering follows contact and use
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
@@ -64,38 +225,73 @@ boards:
     output_png: Costume-Board-A2-300dpi.png
     tagline: Nothing she wears was made for her or chosen by her.
     images:
-      - {path: source/artwork/forest.png, x: 0.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/mother.png, x: 5.95, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/ditch.png, x: 11.45, y: 1.35, w: 5.30, h: 9.70}
-      - {path: source/artwork/materials.png, x: 16.95, y: 1.35, w: 5.95, h: 4.25}
+    - path: source/artwork/forest.png
+      x: 0.45
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/mother.png
+      x: 5.95
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/ditch.png
+      x: 11.45
+      y: 1.35
+      w: 5.3
+      h: 9.7
+    - path: source/artwork/materials.png
+      x: 16.95
+      y: 1.35
+      w: 5.95
+      h: 4.25
     sections:
-      - heading: THE SINGLE COSTUME
-        x: 16.95
-        y: 5.80
-        w: 5.95
-        h: 5.25
-        font_size: 11.5
-        items: [Scraggly top and tunic are one costume, Progressively destroyed not changed, Coarse undyed and unfitted cloth, Footwear failing by Scene 21, Nothing fitted and nothing shaped]
-      - heading: CONSTRUCTION RULES
-        x: 0.45
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Hand repairs made by Jeyin not Shin, Mismatched thread and poor light, No fastening that cost anything, No pockets worth having, Wrong sized because it was issued]
-      - heading: THE HAIR
-        x: 7.90
-        y: 11.30
-        w: 7.25
-        h: 4.40
-        items: [Long red and always bound, Only strong colour in the film, Filthy from Scene 11 onward, Pretty and never sexy, The continuity clock of the story]
-      - heading: FABRICATION NOTES
-        x: 15.35
-        y: 11.30
-        w: 7.55
-        h: 4.40
-        font_size: 11.7
-        items: [No artful tearing and no shaping, Damage must follow the route she ran, Ties are cord or torn cloth only, Keep her separable from the dark forest, Hair colour must match across every plate]
-
+    - heading: THE SINGLE COSTUME
+      x: 16.95
+      y: 5.8
+      w: 5.95
+      h: 5.25
+      font_size: 11.5
+      items:
+      - Scraggly top and tunic are one costume
+      - Progressively destroyed not changed
+      - Coarse undyed and unfitted cloth
+      - Footwear failing by Scene 21
+      - Nothing fitted and nothing shaped
+    - heading: CONSTRUCTION RULES
+      x: 0.45
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Hand repairs made by Jeyin not Shin
+      - Mismatched thread and poor light
+      - No fastening that cost anything
+      - No pockets worth having
+      - Wrong sized because it was issued
+    - heading: THE HAIR
+      x: 7.9
+      y: 11.3
+      w: 7.25
+      h: 4.4
+      items:
+      - Long red and always bound
+      - Only strong colour in the film
+      - Filthy from Scene 11 onward
+      - Pretty and never sexy
+      - The continuity clock of the story
+    - heading: FABRICATION NOTES
+      x: 15.35
+      y: 11.3
+      w: 7.55
+      h: 4.4
+      font_size: 11.7
+      items:
+      - No artful tearing and no shaping
+      - Damage must follow the route she ran
+      - Ties are cord or torn cloth only
+      - Keep her separable from the dark forest
+      - Hair colour must match across every plate
   weapons:
     label: BOARD 03
     title: PROPS & POSSESSIONS BOARD
@@ -103,32 +299,66 @@ boards:
     output_png: Weapons-Board-A2-300dpi.png
     tagline: She carries nothing. That is the characterisation.
     images:
-      - {path: source/artwork/clasp.png, x: 0.45, y: 1.35, w: 10.90, h: 3.70}
-      - {path: source/artwork/hair_study.png, x: 0.45, y: 5.25, w: 5.25, h: 5.50}
-      - {path: source/artwork/utility.png, x: 5.90, y: 5.25, w: 5.45, h: 5.50}
-      - {path: source/artwork/camp_night.png, x: 11.55, y: 1.35, w: 5.40, h: 9.40}
-      - {path: source/artwork/ditch.png, x: 17.15, y: 1.35, w: 5.75, h: 9.40}
+    - path: source/artwork/clasp.png
+      x: 0.45
+      y: 1.35
+      w: 10.9
+      h: 3.7
+    - path: source/artwork/hair_study.png
+      x: 0.45
+      y: 5.25
+      w: 5.25
+      h: 5.5
+    - path: source/artwork/utility.png
+      x: 5.9
+      y: 5.25
+      w: 5.45
+      h: 5.5
+    - path: source/artwork/camp_night.png
+      x: 11.55
+      y: 1.35
+      w: 5.4
+      h: 9.4
+    - path: source/artwork/ditch.png
+      x: 17.15
+      y: 1.35
+      w: 5.75
+      h: 9.4
     sections:
-      - heading: THE CLASP
-        x: 0.45
-        y: 11.00
-        w: 7.25
-        h: 4.70
-        items: [Given by Vala in Scene 22 as a promise, Not magical but the one thing Vala owns, The same piece she wears years later, Design backward then age it down, A fastener with a history not jewellery]
-      - heading: SHE CARRIES NOTHING
-        x: 7.90
-        y: 11.00
-        w: 7.25
-        h: 4.70
-        items: [Failing footwear and a cloth tie, Whatever was grabbed or given, No weapon in any image ever, The emptiness is the point, Set against a mercenary kit it shocks]
-      - heading: PARALLEL TO BAYLAN
-        x: 15.35
-        y: 11.00
-        w: 7.55
-        h: 4.70
-        font_size: 11.5
-        items: [His crystal pouch and her clasp, Both small and worn against the body, Both the last thing left of a person, Both travel into the next film, Design the two together]
-
+    - heading: THE CLASP
+      x: 0.45
+      y: 11.0
+      w: 7.25
+      h: 4.7
+      items:
+      - Given by Vala in Scene 22 as a promise
+      - Not magical but the one thing Vala owns
+      - The same piece she wears years later
+      - Design backward then age it down
+      - A fastener with a history not jewellery
+    - heading: SHE CARRIES NOTHING
+      x: 7.9
+      y: 11.0
+      w: 7.25
+      h: 4.7
+      items:
+      - Failing footwear and a cloth tie
+      - Whatever was grabbed or given
+      - No weapon in any image ever
+      - The emptiness is the point
+      - Set against a mercenary kit it shocks
+    - heading: PARALLEL TO BAYLAN
+      x: 15.35
+      y: 11.0
+      w: 7.55
+      h: 4.7
+      font_size: 11.5
+      items:
+      - His crystal pouch and her clasp
+      - Both small and worn against the body
+      - Both the last thing left of a person
+      - Both travel into the next film
+      - Design the two together
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
@@ -136,37 +366,78 @@ boards:
     output_png: Performance-Board-A2-300dpi.png
     tagline: She has never had to perform composure.
     images:
-      - {path: source/artwork/sky.png, x: 0.45, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/camp_night.png, x: 5.80, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/mother.png, x: 11.15, y: 1.35, w: 5.15, h: 9.20}
-      - {path: source/artwork/expression_strip.png, x: 16.50, y: 1.35, w: 6.40, h: 3.50}
+    - path: source/artwork/sky.png
+      x: 0.45
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/camp_night.png
+      x: 5.8
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/mother.png
+      x: 11.15
+      y: 1.35
+      w: 5.15
+      h: 9.2
+    - path: source/artwork/expression_strip.png
+      x: 16.5
+      y: 1.35
+      w: 6.4
+      h: 3.5
+    - path: source/artwork/vision_shadow.png
+      x: 16.5
+      y: 5.05
+      w: 6.4
+      h: 2.45
     sections:
-      - heading: MOVEMENT PRINCIPLES
-        x: 16.50
-        y: 5.05
-        w: 6.40
-        h: 5.50
-        items: [Runs like a frightened child, Makes herself small when hiding, Takes weight she is too small for, Fear reads plainly on her, No training and no capability]
-      - heading: ACTOR NOTES
-        x: 0.45
-        y: 10.80
-        w: 7.25
-        h: 4.90
-        items: [She looks up and nobody else does, She hides the visions from everyone, Cannot sleep and it accumulates, Still capable of being horrified, She is fifteen in every frame]
-      - heading: FACIAL LANGUAGE
-        x: 7.90
-        y: 10.80
-        w: 7.25
-        h: 4.90
-        items: [Open wonder looking upward, Horror at what she is told, Hollow sleepless exhaustion, Total unguarded grief, This face shows everything]
-      - heading: THE MANIFESTATION
-        x: 15.35
-        y: 10.80
-        w: 7.55
-        h: 4.90
-        font_size: 11.7
-        items: [A pulsing shadow gathers around her, An absence not an energy effect, She does not know she is causing it, Nobody else appears to notice, She looks into camera in Scenes 6 and 12]
-
+    - heading: MOVEMENT PRINCIPLES
+      x: 16.5
+      y: 7.75
+      w: 6.4
+      h: 2.8
+      items:
+      - Runs like a frightened child
+      - Makes herself small when hiding
+      - Takes weight she is too small for
+      - Fear reads plainly on her
+      - No training and no capability
+      font_size: 11
+    - heading: ACTOR NOTES
+      x: 0.45
+      y: 10.8
+      w: 7.25
+      h: 4.9
+      items:
+      - She looks up and nobody else does
+      - She hides the visions from everyone
+      - Cannot sleep and it accumulates
+      - Still capable of being horrified
+      - She is fifteen in every frame
+    - heading: FACIAL LANGUAGE
+      x: 7.9
+      y: 10.8
+      w: 7.25
+      h: 4.9
+      items:
+      - Open wonder looking upward
+      - Horror at what she is told
+      - Hollow sleepless exhaustion
+      - Total unguarded grief
+      - This face shows everything
+    - heading: THE MANIFESTATION
+      x: 15.35
+      y: 10.8
+      w: 7.55
+      h: 4.9
+      font_size: 11.7
+      items:
+      - A pulsing shadow gathers around her
+      - An absence not an energy effect
+      - She does not know she is causing it
+      - Nobody else appears to notice
+      - She looks into camera in Scenes 6 and 12
   materials:
     label: BOARD 05
     title: MATERIALS & COLOUR BOARD
@@ -174,34 +445,75 @@ boards:
     output_png: Materials-Board-A2-300dpi.png
     tagline: One colour in a colourless film.
     images:
-      - {path: source/artwork/materials.png, x: 0.45, y: 1.35, w: 7.00, h: 5.60}
-      - {path: source/artwork/detail_portrait.png, x: 7.65, y: 1.35, w: 6.20, h: 8.00}
-      - {path: source/artwork/hair_study.png, x: 14.05, y: 1.35, w: 4.30, h: 8.00}
-      - {path: source/artwork/portrait.png, x: 18.55, y: 1.35, w: 4.35, h: 8.00}
+    - path: source/artwork/materials.png
+      x: 0.45
+      y: 1.35
+      w: 7.0
+      h: 5.6
+    - path: source/artwork/detail_portrait.png
+      x: 7.65
+      y: 1.35
+      w: 6.2
+      h: 8.0
+    - path: source/artwork/hair_study.png
+      x: 14.05
+      y: 1.35
+      w: 4.3
+      h: 8.0
+    - path: source/artwork/portrait.png
+      x: 18.55
+      y: 1.35
+      w: 4.35
+      h: 8.0
     sections:
-      - heading: APPROVED PALETTE
-        x: 0.45
-        y: 7.20
-        w: 7.00
-        h: 4.15
-        font_size: 11.5
-        items: ["Charcoal #2B2A26", "Ash brown #3A352F", "Dust brown #544E42", "Leather #6B5A47", "Faded tan #7C6F5B", "Faded olive #4F563F", "Weathered black #2E2F33", "Natural bone #BDAF95", "Plus the hair - the only saturated colour"]
-      - heading: SURFACE LANGUAGE
-        x: 0.45
-        y: 11.60
-        w: 7.25
-        h: 4.10
-        items: [Coarse undyed woven cloth, Badly dyed fabric gone patchy, Hand stitching in mismatched thread, Split and failing footwear leather, Mud damp and permanent staining]
-      - heading: LIGHT & CONTRAST
-        x: 7.90
-        y: 11.60
-        w: 7.25
-        h: 4.10
-        items: [Dying firelight for the night camp, Grey dawn mist for the mother scenes, Soft dusk on an upturned face, Hair must catch what light there is, She must never vanish into the dark]
-      - heading: OVERALL LOOK
-        x: 15.35
-        y: 11.60
-        w: 7.55
-        h: 4.10
-        font_size: 13
-        items: [Filthy, Exhausted, Second hand, Wrong sized, Young, Findable in any frame]
+    - heading: APPROVED PALETTE
+      x: 0.45
+      y: 7.2
+      w: 7.0
+      h: 4.15
+      font_size: 11.5
+      items:
+      - 'Charcoal #2B2A26'
+      - 'Ash brown #3A352F'
+      - 'Dust brown #544E42'
+      - 'Leather #6B5A47'
+      - 'Faded tan #7C6F5B'
+      - 'Faded olive #4F563F'
+      - 'Weathered black #2E2F33'
+      - 'Natural bone #BDAF95'
+      - Plus the hair - the only saturated colour
+    - heading: SURFACE LANGUAGE
+      x: 0.45
+      y: 11.6
+      w: 7.25
+      h: 4.1
+      items:
+      - Coarse undyed woven cloth
+      - Badly dyed fabric gone patchy
+      - Hand stitching in mismatched thread
+      - Split and failing footwear leather
+      - Mud damp and permanent staining
+    - heading: LIGHT & CONTRAST
+      x: 7.9
+      y: 11.6
+      w: 7.25
+      h: 4.1
+      items:
+      - Dying firelight for the night camp
+      - Grey dawn mist for the mother scenes
+      - Soft dusk on an upturned face
+      - Hair must catch what light there is
+      - She must never vanish into the dark
+    - heading: OVERALL LOOK
+      x: 15.35
+      y: 11.6
+      w: 7.55
+      h: 4.1
+      font_size: 13
+      items:
+      - Filthy
+      - Exhausted
+      - Second hand
+      - Wrong sized
+      - Young
+      - Findable in any frame

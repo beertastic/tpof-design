@@ -1,6 +1,6 @@
-[BAYLAN — SLOT 06 — THE FACE]
-Output file: detail_portrait.png
-Aspect ratio: 3:4  (portrait)
+[BAYLAN — SLOT 07 — PERFORMANCE RANGE]
+Output file: expression_strip.png
+Aspect ratio: 16:9  (landscape)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -164,12 +164,12 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Close portrait of Baylan, head and shoulders, lit at a grazing angle by overcast
-daylight. The subject of this image is eighteen years of not sleeping. Deep
-creases at the eyes, weathered skin, iron-grey stubble running into a full
-unshaped beard, hair cropped short and unevenly by his own hand. His expression
-is neutral and absolutely unreadable — he has spent two decades giving nothing
-away. But the eyes are older than the rest of him. Practical make-up realism,
-every pore and broken capillary present. No costume detail competing.
+Horizontal strip of four head-and-shoulders expressions of the same
+fifty-year-old bearded face, evenly lit and consistently framed: (1) neutral
+blankness — the manufactured dull expression he wears in company; (2) waking in
+terror, gasping, sweating, eyes wide; (3) quiet grief, entirely private and
+contained; (4) the real man underneath — focused, dangerous, absolutely still.
+Same lighting, angle and scale in every panel. The strip should show how little
+he lets show, and then how much is there.
 
-Deliver a single image at 3:4. It must look photographed, not generated.
+Deliver a single image at 16:9. It must look photographed, not generated.

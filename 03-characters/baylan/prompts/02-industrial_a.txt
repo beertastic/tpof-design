@@ -1,5 +1,5 @@
-[BAYLAN — SLOT 02 — IN THE MERCENARY CAMP]
-Output file: forest.png
+[BAYLAN — SLOT 02 — STANDING AT THE BACK]
+Output file: industrial_a.png
 Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -189,11 +189,11 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Full-figure shot of Baylan carrying a crate or coil of cable through the forest
-mercenary camp at dusk — manual labour, unglamorous, the work of a man who is
-told what to do. Tents, tarpaulins, crates, a campfire further back. His full
-silhouette readable: big, heavy, slightly stooped under the load. Boots in wet
-leaf litter. He belongs here completely and looks like nobody worth watching.
-Natural overcast dusk with firelight spill from behind.
+Baylan standing motionless at the back of a group, slightly apart, while others
+in front kneel or check their gear. He is doing nothing — hands at his sides,
+weight settled, watching. Early morning grey light in a forest camp. Everyone
+else is in motion and he is completely still, and the stillness is the subject of
+the image. Read him as the oldest person present. No authority, no rank, no
+insignia — he is simply not participating in the way the others are.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

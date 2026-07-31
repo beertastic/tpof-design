@@ -132,9 +132,13 @@ technical cloth, worn leather, repaired matte hardware.
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 She wears armour made of individual six-sided metal plates — each a flat
-hexagon about the size of a large coin — laced and riveted onto a flexible
-leather-and-fabric backing and laid with a deliberate overlap so each row
-laps the one below like fish scales. Overlapped, never tiled edge to edge.
+hexagon about the width of two fingers — laced and riveted onto a flexible
+leather-and-fabric backing and laid so that each row laps the top edge of the
+row below by about a third. Overlapped, never tiled flat edge to edge.
+
+EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
+a teardrop, not a fish scale. The overlap is what makes it read as scale — the
+shape does not change.
 The individual plates are clearly visible and countable: real metal, never a
 texture, never a pattern printed on leather.
 
@@ -182,8 +186,10 @@ shaped by wet forest — she belongs in it, and it shows.
 === THIS IMAGE ===
 Extreme close-up macro photograph of a section of the scale armour, lying flat on
 a plain neutral surface. Flat six-sided metal plates, each about the size of a
-large coin, laced onto a leather backing and overlapped so each row laps the one
-below, filling the frame. Every plate carries the same shallow pressed relief
+hexagon about the width of two fingers, laced onto a leather backing and
+overlapped so each row laps the top edge of the row below by about a third,
+filling the frame. SIX STRAIGHT SIDES ON EVERY PLATE — never round, never a
+fish-scale shape. Every plate carries the same shallow pressed relief
 of a coiled serpent — a worn industrial manufacturer's stamp, softened and
 grimed in the recesses, partly lost on the oldest plates, never crisp or
 ornamental. The plates are cut from salvaged hull plate: mismatched alloys

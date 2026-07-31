@@ -132,9 +132,13 @@ technical cloth, worn leather, repaired matte hardware.
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 She wears armour made of individual six-sided metal plates — each a flat
-hexagon about the size of a large coin — laced and riveted onto a flexible
-leather-and-fabric backing and laid with a deliberate overlap so each row
-laps the one below like fish scales. Overlapped, never tiled edge to edge.
+hexagon about the width of two fingers — laced and riveted onto a flexible
+leather-and-fabric backing and laid so that each row laps the top edge of the
+row below by about a third. Overlapped, never tiled flat edge to edge.
+
+EVERY PLATE IS A HEXAGON WITH SIX STRAIGHT SIDES. Not round, not a coin, not
+a teardrop, not a fish scale. The overlap is what makes it read as scale — the
+shape does not change.
 The individual plates are clearly visible and countable: real metal, never a
 texture, never a pattern printed on leather.
 

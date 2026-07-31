@@ -64,7 +64,7 @@ Both are interesting. Neither is decided. See *Open Questions*.
 - Light scavenged armour protecting vital areas only.
 - **Flexible metallic scale patches in place of rigid plates.**
 - Muted, practical forest palette.
-- Compact blaster and well-used knife.
+- **WESTAR-35 blaster pistol** on her right thigh, and a well-used knife on her left hip.
 - No unnecessary technology or decorative equipment.
 - Movement is economical, controlled and observant.
 
@@ -143,11 +143,15 @@ Applies to the whole project, not only Shada.
 **Where rigid armour plate would normally sit, she wears overlapping metallic
 scale instead — in sporadic patches, never as a suit.**
 
-**Individual metal scales, each a flat six-sided plate about the size of a large
-coin**, laced and riveted onto a flexible leather-and-fabric backing. They are
-laid with a **deliberate overlap** so each row laps the one below like fish
-scales or lamellar — overlapped, never tiled edge to edge. The individual plates
-are clearly visible and countable.
+**Individual metal scales, each a flat six-sided plate about the width of two
+fingers**, laced and riveted onto a flexible leather-and-fabric backing. They are
+laid so that **each row laps the top edge of the row below by about a third**,
+giving a layered, flexible surface. Overlapped, never tiled flat edge to edge.
+The individual plates are clearly visible and countable.
+
+**Every plate is a hexagon.** Not round, not a coin, not a teardrop and not a
+fish scale — six straight sides. The overlap is what makes it read as scale; the
+shape never changes.
 
 **They are cut from salvaged hull plate, not forged as armour.** Hull offcuts,
 machine plate, scrap. Mismatched alloys sitting side by side, oxidising at

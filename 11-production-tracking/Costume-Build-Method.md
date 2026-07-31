@@ -104,8 +104,40 @@ Two things follow for the build:
   enough to let the panel curve around a forearm and a shoulder. Worth
   prototyping one patch before committing to a print run.
 - **Printing plates in pre-linked sheets defeats the point.** Individual plates
-  laced to the backing is what flexes. There are several hundred of them across
-  four patches, so the assembly time is real and should be planned for.
+  laced to the backing is what flexes.
+
+### The plate count is the hidden cost
+
+**Plate size confirmed 2026-07-31: 10 to 15 mm across.**
+
+That is much finer than it sounds, and it multiplies. A hexagon 12.5 mm across
+covers roughly 1.35 cm², so a rough estimate from patch area:
+
+| Patch | Approx. area | Plates |
+|---|---|---|
+| Forearm gauntlet | ~200 cm² | ~150 |
+| Shoulder cap | ~120 cm² | ~90 |
+| Sternum | ~100 cm² | ~75 |
+| Thigh | ~180 cm² | ~130 |
+| | | **~445** |
+
+*Estimated from assumed patch dimensions — confirm against the real patterns
+before committing to a print run.*
+
+**Four hundred and fifty plates, each needing two holes and hand lacing.** That
+is the largest single labour item in this costume and it is easy to miss, because
+each plate is trivial on its own.
+
+Three consequences:
+
+- **The pressure to print pre-linked sheets will be enormous**, and it is exactly
+  the shortcut that kills the flex. If assembly time is the problem, reduce the
+  patch areas rather than linking the plates.
+- **The raised swirl is now a 12 mm detail.** It has to survive at print
+  resolution and it will need a wash or dry-brush to read at all — the relief
+  alone will not carry it at that size.
+- **Print and finish a full patch before committing.** Four hundred plates is not
+  something to discover a problem in halfway through.
 
 ### Load-bearing buckles should be real hardware
 

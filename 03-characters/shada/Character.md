@@ -169,7 +169,8 @@ replaced over the years.
 
 Confirmed from the first physical samples, 2026-07-31.
 
-A **regular equilateral hexagon** about the width of two fingers, with slightly
+A **regular equilateral hexagon 10 to 15 mm across** — about the size of a
+thumbnail, and much smaller than it first appears — with slightly
 soft, rounded, uneven edges — cast and finished by hand, never machine-crisp. A
 shallow raised lip runs around the rim. The surface is rough and pitted like
 sand-cast or corroded metal, dark iron-grey going almost black, with pale worn

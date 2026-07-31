@@ -124,6 +124,9 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
           approved: dict | None = None, must: list | None = None,
           handed: str | None = None, costume: set[int] | None = None) -> str:
     narrative = slot["n"] in cap
+    # The share sheet is one image made of many frames, so the single-frame
+    # language that closes every other prompt would fight its own description.
+    sheet = slot["file"].rsplit(".", 1)[0] == "tone-collage"
 
     # Any slot showing the person must be anchored to the approved costume.
     gate = slot["n"] in anti
@@ -189,7 +192,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "" if hand_line else None,
         must_block if must_block else None,
         "" if must_block else None,
-        "Generate a single image to the description below.",
+        ("Generate one image, divided into panels, to the description below."
+         if sheet else "Generate a single image to the description below."),
         "",
         "=== STYLE ===", blocks.get("Style", ""), "",
         "=== DO NOT ===", blocks.get("Do Not", ""), "",
@@ -204,10 +208,13 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "=== THIS IMAGE ===", slot["body"], "",
         (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
          if must_block else ""),
-        (f"Deliver a single image at {slot['ratio']}. "
-         + ("It must look photographed, not generated."
-            if not narrative else
-            "It must look like a frame from a real film, not a generated image."))
+        (f"Deliver ONE image at {slot['ratio']}, containing all six panels. "
+         "Every panel must look photographed, not generated."
+         if sheet else
+         (f"Deliver a single image at {slot['ratio']}. "
+          + ("It must look photographed, not generated."
+             if not narrative else
+             "It must look like a frame from a real film, not a generated image.")))
         if slot["ratio"] else "",
     ]
     return "\n".join(p for p in parts if p is not None).strip() + "\n"

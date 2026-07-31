@@ -28,6 +28,7 @@ top of the prompt, then run:
 | `13-material-leather.txt` | `material-leather.png` | 1:1 | yes | — | — |
 | `14-material-cloth.txt` | `material-cloth.png` | 1:1 | yes | — | — |
 | `15-material-hardware.txt` | `material-hardware.png` | 1:1 | yes | — | — |
+| `16-tone-collage.txt` | `tone-collage.png` | 2:3 | yes | yes | yes |
 
 Generated from `Prompts.md` by `tools/prompt-splitter/split.py`.
 **Do not edit these files** — edit `Prompts.md` and regenerate.

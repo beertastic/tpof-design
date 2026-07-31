@@ -8,8 +8,25 @@ light — the kind an art department shoots to document what it has built.
 Flat, even, sharp across the frame. Not a render, not an illustration,
 not concept art, not AI-looking output.
 
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
 Generate a single image to the description below.
-Attach actor reference images to this conversation before generating.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -157,5 +174,6 @@ crystal chamber at its heart, now holding a power cell.
 Assembled, it should read to a casual eye as an ugly, over-modified sidearm that
 someone has bodged together — nothing more. Weathered, scratched, matte, with
 eighteen years of handling on the grip. No ornament, no engraving, no glow.
+
 
 Deliver a single image at 3:1. It must look photographed, not generated.

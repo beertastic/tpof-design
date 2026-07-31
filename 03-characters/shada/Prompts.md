@@ -136,7 +136,7 @@ result looks manufactured rather than photographed, it has failed.
 
 ## Capture — NARRATIVE slots only
 
-> **Paste with slots 1, 3, 4, 11** — in-scene frames.
+> **Paste with slots 1, 3, 4, 11, 16** — in-scene frames.
 >
 > **Do NOT paste with reference plates** (6–8 (studies), 9–11, 13). Those want flat, even
 > documentation light and sharpness across the whole frame. Shallow depth of
@@ -171,7 +171,7 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ## Anti-synthetic — any slot containing a FACE
 
-> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 11.** Wider than the Capture block: a portrait study or
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 11, 16.** Wider than the Capture block: a portrait study or
 > an expression strip is lit flat and sharp, but the skin still has to be real.
 > This is the block that defeats the plastic-AI look, and it applies wherever
 > there is a person.
@@ -200,7 +200,7 @@ falloff, underexposed corners. Do not render every fibre at maximum sharpness.
 
 ## Costume rules — FULL-FIGURE slots only
 
-> **Applies to slots 1, 2, 3, 4, 11** — images showing the whole costume.
+> **Applies to slots 1, 2, 3, 4, 11, 16** — images showing the whole costume.
 >
 > **Do NOT apply to face and skin references** (5, 6, 7). Those are close studies
 > where the costume is deliberately not the subject, and demanding a thigh patch
@@ -404,12 +404,13 @@ restraint of the kit is the point — this is a short list, well maintained.
 ## 11. `maintenance.png` — character at work
 **Tall portrait, 9:16.**
 
-Shada seated, cleaning and checking her blaster by work-lamp light, parts laid
-out in a fixed habitual arrangement on the cloth beside her. Absorbed in the
-task, not looking up. This is the image that says preparation is how she
-controls fear. Hands and forearms prominent — scales visible, fingers precise.
-Warm practical lamp light against a dim salvaged interior. Unhurried, ordinary,
-routine.
+Shada seated at the mercenary camp among the trees, cleaning and checking her
+blaster, parts laid out in a fixed habitual arrangement on the cloth beside her.
+Absorbed in the task, not looking up. This is the image that says preparation is
+how she controls fear. Hands and forearms prominent — scales visible, fingers
+precise. Warm practical light from a campfire or a hand-carried work lamp,
+against wet forest going dark behind her. Open ground under trees — no walls, no
+ceiling, no structure enclosing her. Unhurried, ordinary, routine.
 
 ## 12. `material-scale.png` — the salvaged metal scales
 **Square, 1:1.**
@@ -454,6 +455,40 @@ Salvaged and mismatched — different metals, different ages, one plainly newer
 than the rest. Matte and tarnished, scratched from use, nothing polished or
 reflective. Even flat lighting, sharp across the frame. Photographed for
 reference — no styling, no arrangement, nothing else in frame.
+
+---
+
+## 16. `tone-collage.png` — the share sheet
+
+**Tall portrait, 2:3.**
+
+**Not a board asset.** This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
 
 ---
 

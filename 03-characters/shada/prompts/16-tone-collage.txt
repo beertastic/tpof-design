@@ -1,6 +1,6 @@
-[SHADA — SLOT 11 — CHARACTER AT WORK]
-Output file: maintenance.png
-Aspect ratio: 9:16  (tall portrait)
+[SHADA — SLOT 16 — THE SHARE SHEET]
+Output file: tone-collage.png
+Aspect ratio: 2:3  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real
@@ -45,7 +45,7 @@ Different sizes, different shapes, different ages. NO BREASTPLATE. NO FULL YOKE.
   5. EXTERIOR ONLY. She is never indoors and never on a ship. Every environment is exterior: wet forest, forest clearing, or the mercenary camp among the trees. NO ship corridors, NO bulkheads, NO control panels or warning lights, NO buildings, NO market stalls, NO crowds, NO interiors of any kind. If there is a wall or a ceiling in the image, it is wrong.
   6. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
 
-Generate a single image to the description below.
+Generate one image, divided into panels, to the description below.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -232,13 +232,33 @@ physical dominance. Everything about how she moves, dresses and watches has been
 shaped by wet forest — she belongs in it, and it shows.
 
 === THIS IMAGE ===
-Shada seated at the mercenary camp among the trees, cleaning and checking her
-blaster, parts laid out in a fixed habitual arrangement on the cloth beside her.
-Absorbed in the task, not looking up. This is the image that says preparation is
-how she controls fear. Hands and forearms prominent — scales visible, fingers
-precise. Warm practical light from a campfire or a hand-carried work lamp,
-against wet forest going dark behind her. Open ground under trees — no walls, no
-ceiling, no structure enclosing her. Unhurried, ordinary, routine.
+Not a board asset. This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
@@ -255,4 +275,4 @@ Different sizes, different shapes, different ages. NO BREASTPLATE. NO FULL YOKE.
   5. EXTERIOR ONLY. She is never indoors and never on a ship. Every environment is exterior: wet forest, forest clearing, or the mercenary camp among the trees. NO ship corridors, NO bulkheads, NO control panels or warning lights, NO buildings, NO market stalls, NO crowds, NO interiors of any kind. If there is a wall or a ceiling in the image, it is wrong.
   6. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics. Her irises are subtly reptilian. The effect is a hint of inherited history, not a transformation.
 
-Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.
+Deliver ONE image at 2:3, containing all six panels. Every panel must look photographed, not generated.

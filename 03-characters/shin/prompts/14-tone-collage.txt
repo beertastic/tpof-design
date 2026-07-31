@@ -1,12 +1,11 @@
-[SHIN — SLOT 13 — MATERIALS AND PALETTE]
-Output file: materials.png
-Aspect ratio: 5:4  (landscape)
+[SHIN — SLOT 14 — THE SHARE SHEET]
+Output file: tone-collage.png
+Aspect ratio: 2:3  (tall portrait)
 
-THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
-A studio photograph of real physical objects on a real surface under real
-light — the kind an art department shoots to document what it has built.
-Flat, even, sharp across the frame. Not a render, not an illustration,
-not concept art, not AI-looking output.
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
 
 BEFORE YOU GENERATE — CHECK THIS FIRST.
 
@@ -26,7 +25,10 @@ face.
 THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
 Match the costume, materials, colours, face and build from the attached
 reference exactly. Only the setting, pose and lighting change.
-Generate a single image to the description below.
+
+
+
+Generate one image, divided into panels, to the description below.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -92,6 +94,53 @@ Reject entirely the look of computer-generated imagery — the smooth,
 evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
 result looks manufactured rather than photographed, it has failed.
 
+=== CAPTURE ===
+Shot on anamorphic lenses in the manner of the original Star Wars trilogy —
+Panavision-style anamorphic glass, not modern clinical optics.
+
+Optical character: oval, horizontally-stretched bokeh in out-of-focus
+highlights. Gentle barrel distortion. Noticeably softer toward the frame edges
+while the focal plane stays sharp. Shallow depth of field with smooth falloff.
+Faint horizontal streak flare where a bright practical source is in frame —
+restrained, never a showpiece. Mild chromatic aberration at high-contrast edges.
+Slight vignetting.
+
+Photochemical character: the response of 35mm motion picture negative — fine
+organic grain, present in shadows and midtones rather than added uniformly.
+Gentle halation blooming around bright sources. Highlight rolloff that compresses
+rather than clips. Rich shadow that retains detail instead of going black.
+
+Colour: restrained, filmic, desaturated toward the muted end. Skin natural
+and slightly warm. No digital vibrance, no teal-and-orange grade.
+
+Focus behaviour: one plane is sharp and everything else falls away. Detail
+resolves where the lens is focused and softens elsewhere — do not render every
+surface at equal sharpness.
+
+The image should look like a frame from a photochemical motion picture, or a
+unit stills photographer's frame from the same set. Not a rendered picture.
+
+=== SKIN AND REALISM ===
+Skin must be real. Visible pores, fine lines, uneven tone, blemishes, broken
+capillaries, stubble, shine where skin is oily and matte where it is not.
+Subsurface scattering at the ears and nostrils. No smoothed, waxy, airbrushed
+or plastic skin. No beauty retouching of any kind.
+
+Faces are asymmetric. Eyes differ slightly, the expression is uneven, nothing
+is mirrored.
+
+Lighting has a direction and a cost. One dominant source with genuine shadow
+and real falloff. No omnidirectional fill, no unmotivated rim light, no glow
+without a source.
+
+Framing is imperfect. Off-centre, unbalanced headroom, something clipped by
+the frame edge or slightly in the way. Not a composed poster.
+
+Detail is not uniform. Real photographs have areas of mush — motion, focus
+falloff, underexposed corners. Do not render every fibre at maximum sharpness.
+
+Nothing is symmetrical, new or clean unless the shot says so.
+
 === CHARACTER ===
 Shin. Human girl, fifteen years old. An escaped captive fleeing through a
 forest world with her mother and a small band of prisoners, hunted by mercenaries.
@@ -117,16 +166,33 @@ She carries nothing. She is exhausted, frightened, filthy, and being protected b
 people who love her. She is a child in the middle of an adult catastrophe.
 
 === THIS IMAGE ===
-Materials reference board: physical swatches and close details on a neutral
-surface, evenly lit. Coarse undyed woven cloth; badly-dyed fabric gone patchy;
-hand-stitched repairs in mismatched thread; frayed hems; failing footwear leather
-with a split sole; cord and torn cloth used as ties; mud, damp and staining; the
-small metal clasp at one corner; and a lock of the red hair for colour matching.
-Palette held to charcoal #2B2A26, ash brown #3A352F, dust brown #544E42,
-leather #6B5A47, faded tan #7C6F5B, faded olive #4F563F, weathered black
-#2E2F33, natural bone #BDAF95 — plus the hair, which is the only saturated
-colour permitted anywhere in this film. Matte throughout. The repairs must
-read as done by hand, in poor light, by someone who cared.
+Not a board asset. This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
 
 
-Deliver a single image at 5:4. It must look photographed, not generated.
+Deliver ONE image at 2:3, containing all six panels. Every panel must look photographed, not generated.

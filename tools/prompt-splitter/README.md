@@ -58,3 +58,24 @@ generated `.txt` files** — change the source and re-run.
 
 Re-run both after any change to a character's costume, the Style block, the
 Capture block or the Turnaround block.
+
+### A slot body must never contradict a `must_show:` rule
+
+The non-negotiables from `outfits.yaml` are injected twice — once at the top of
+every prompt and once as the closing checklist. The slot's own `=== THIS IMAGE
+===` description sits between them.
+
+**Where the two disagree, the generator follows the slot body**, because it is
+the specific instruction and the rules are the general one. Shada's `maintenance`
+slot asked for "a dim salvaged interior" while her rules said EXTERIOR ONLY in
+capitals, twice. It returned an interior every time, and the rule looked broken
+when it was being overruled by a sentence forty lines further down.
+
+So: when a `must_show:` rule governs something — location, handedness, what is
+on which side, what she is never seen wearing — the slot bodies must not restate
+it, qualify it, or describe a scene that needs it broken. Describe only what that
+particular image adds.
+
+Symptom to watch for: a rule that is stated emphatically and ignored
+consistently. That is almost never the model failing to read it. Search the slot
+body for the thing it is being told not to do.

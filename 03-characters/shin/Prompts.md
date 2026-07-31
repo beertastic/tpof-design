@@ -121,7 +121,7 @@ result looks manufactured rather than photographed, it has failed.
 
 ## Capture — NARRATIVE slots only
 
-> **Paste with slots 1, 2, 3, 4, 5, 7, 12** — in-scene frames.
+> **Paste with slots 1, 2, 3, 4, 5, 7, 12, 14** — in-scene frames.
 >
 > **Do NOT paste with reference plates** (8 (expression strip), 9–11, 13). Those want flat, even
 > documentation light and sharpness across the whole frame. Shallow depth of
@@ -156,7 +156,7 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ## Anti-synthetic — any slot containing a FACE
 
-> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 8, 12.** Wider than the Capture block: a portrait study or
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 8, 12, 14.** Wider than the Capture block: a portrait study or
 > an expression strip is lit flat and sharp, but the skin still has to be real.
 > This is the block that defeats the plastic-AI look, and it applies wherever
 > there is a person.
@@ -350,6 +350,40 @@ leather `#6B5A47`, faded tan `#7C6F5B`, faded olive `#4F563F`, weathered black
 `#2E2F33`, natural bone `#BDAF95` — **plus the hair, which is the only saturated
 colour permitted anywhere in this film.** Matte throughout. The repairs must
 read as done by hand, in poor light, by someone who cared.
+
+---
+
+## 14. `tone-collage.png` — the share sheet
+
+**Tall portrait, 2:3.**
+
+**Not a board asset.** This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
 
 ---
 

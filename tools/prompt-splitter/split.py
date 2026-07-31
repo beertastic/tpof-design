@@ -61,14 +61,14 @@ def parse_blocks(md: str) -> dict[str, str]:
     return blocks
 
 
-def parse_applicability(md: str) -> tuple[set[int], set[int]]:
-    """Which slot numbers take Capture, and which take Anti-synthetic."""
+def parse_applicability(md: str) -> tuple[set[int], set[int], set[int]]:
+    """Slots taking Capture, Anti-synthetic, and the full-costume rules."""
     def slots_after(header_pattern: str) -> set[int]:
         m = re.search(header_pattern, md, flags=re.M)
         if not m:
             return set()
         window = md[m.end(): m.end() + 600]
-        pm = re.search(r"Paste with slots?\s+([0-9,\s–\-and]+)", window)
+        pm = re.search(r"(?:Paste with|Applies to) slots?\s+([0-9,\s–\-and]+)", window)
         if not pm:
             return set()
         out: set[int] = set()
@@ -83,7 +83,9 @@ def parse_applicability(md: str) -> tuple[set[int], set[int]]:
                 out.add(int(part))
         return out
 
-    return slots_after(r"^## Capture\b.*$"), slots_after(r"^## Anti-synthetic\b.*$")
+    return (slots_after(r"^## Capture\b.*$"),
+            slots_after(r"^## Anti-synthetic\b.*$"),
+            slots_after(r"^## Costume rules\b.*$"))
 
 
 def parse_slots(md: str) -> list[dict]:
@@ -120,7 +122,7 @@ def parse_slots(md: str) -> list[dict]:
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
           approved: dict | None = None, must: list | None = None,
-          handed: str | None = None) -> str:
+          handed: str | None = None, costume: set[int] | None = None) -> str:
     narrative = slot["n"] in cap
 
     # Any slot showing the person must be anchored to the approved costume.
@@ -128,8 +130,9 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
     hand_line = (f"This character is {handed.upper()}-HANDED. All positions are given "
                  f"from\nTHEIR OWN left and right, never the viewer's."
                  if handed and gate else "")
+    show_costume = (slot["n"] in costume) if costume else gate
     must_block = ""
-    if must and gate:
+    if must and show_costume:
         must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"
                       + "\n".join(f"  {i}. {m.strip()}" for i, m in enumerate(must, 1)))
     ref_note = ""
@@ -226,7 +229,7 @@ def run(repo: Path, character: str) -> int:
         return 0
 
     blocks = parse_blocks(md)
-    cap, anti = parse_applicability(md)
+    cap, anti, costume = parse_applicability(md)
     slots = parse_slots(md)
 
     approved, must, handed = None, [], None
@@ -255,7 +258,7 @@ def run(repo: Path, character: str) -> int:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
         path.write_text(build(character, slot, blocks, cap, anti, approved, must,
-                              handed), encoding="utf-8")
+                              handed, costume), encoding="utf-8")
 
     index = [
         f"# {character} — paste-ready prompts",

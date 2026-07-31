@@ -193,6 +193,19 @@ falloff, underexposed corners. Do not render every fibre at maximum sharpness.
 
 ---
 
+## Costume rules — FULL-FIGURE slots only
+
+> **Applies to slots 1, 2, 3, 4, 11** — images showing the whole costume.
+>
+> **Do NOT apply to face and skin references** (5, 6, 7). Those are close studies
+> where the costume is deliberately not the subject, and demanding a thigh patch
+> in a head-and-shoulders portrait forces the shot wider and ruins it.
+
+The non-negotiable costume rules are injected here automatically from
+`outfits.yaml`.
+
+---
+
 ## Character Constants — paste with every prompt
 
 Shada. Female mercenary assassin, thief, scout and tracker. Compact, agile

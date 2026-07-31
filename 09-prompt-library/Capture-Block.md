@@ -73,7 +73,7 @@ Requesting 2.39:1 for a 9:16 panel produces letterboxing and wastes the frame.
 
 ---
 
-## Block E — Anti-synthetic (narrative slots only)
+## Block E — Anti-synthetic (any slot containing a face)
 
 The recognisable "AI look" comes from a specific set of tells. Name them and they
 recede.

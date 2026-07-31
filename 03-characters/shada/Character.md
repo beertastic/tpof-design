@@ -4,7 +4,7 @@
 **Faction:** Mercenaries
 **Role:** Assassin, thief, scout and tracker
 **Species:** Human, with inherited serpentine ancestry
-**Status:** In development — costume approved 2026-07-31
+**Status:** Complete — costume approved 2026-07-31, all 20 images and 5 boards delivered
 
 ## Art Department Brief
 
@@ -13,8 +13,8 @@ timing and precise movement rather than physical dominance. She is mostly human
 in appearance, with subtle inherited serpentine traits. Her costume must be
 buildable, quiet, weathered and visibly maintained.
 
-She should look like someone who belongs in a forest even when standing inside
-a starship.
+She belongs in a forest, and everything about how she stands, moves and watches
+should say so before she says anything.
 
 ## Story Function
 

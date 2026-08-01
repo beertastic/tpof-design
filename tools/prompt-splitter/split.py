@@ -123,7 +123,7 @@ def parse_slots(md: str) -> list[dict]:
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
           approved: dict | None = None, must: list | None = None,
           handed: str | None = None, costume: set[int] | None = None,
-          refs: list | None = None) -> str:
+          refs: list | None = None, retrieve: str | None = None) -> str:
     narrative = slot["n"] in cap
     # The share sheet is one image made of many frames, so the single-frame
     # language that closes every other prompt would fight its own description.
@@ -131,6 +131,17 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
 
     # Any slot showing the person must be anchored to the approved costume.
     gate = slot["n"] in anti
+    # Some names in this film belong to well-known characters, and the name alone
+    # retrieves that depiction. Same block as the turnarounds carry.
+    retrieve_block = ("=" * 68 + "\n"
+                      "THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.\n"
+                      "DO NOT DRAW THAT CHARACTER.\n"
+                      + "=" * 68 + "\n\n" + retrieve.strip() + "\n\n"
+                      "Everything you already believe about this name is from a different\n"
+                      "production. Discard it. The description below is the only source, and\n"
+                      "where your memory and this document disagree, THIS DOCUMENT IS RIGHT."
+                      if retrieve else "")
+
     hand_line = (f"This character is {handed.upper()}-HANDED. All positions are given "
                  f"from\nTHEIR OWN left and right, never the viewer's."
                  if handed and gate else "")
@@ -195,6 +206,8 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "" if gate else None,
         ref_note if gate else None,
         "" if gate else None,
+        retrieve_block if retrieve_block else None,
+        "" if retrieve_block else None,
         hand_line if hand_line else None,
         "" if hand_line else None,
         must_block if must_block else None,
@@ -264,6 +277,7 @@ def run(repo: Path, character: str) -> int:
                 for w in check_slot(character, slot, must):
                     print(f"  ! {w}", file=sys.stderr)
         handed = cfg.get("handedness")
+        retrieve = cfg.get("do_not_retrieve")
         chosen = next((o for o in outfits if (o.get("approved") or {}).get("reference")),
                       outfits[0] if outfits else None)
         if chosen:
@@ -280,7 +294,7 @@ def run(repo: Path, character: str) -> int:
         stem = slot["file"].rsplit(".", 1)[0]
         path = outdir / f"{slot['n']:02d}-{stem}.txt"
         path.write_text(build(character, slot, blocks, cap, anti, approved, must,
-                              handed, costume, refs), encoding="utf-8")
+                              handed, costume, refs, retrieve), encoding="utf-8")
 
     index = [
         f"# {character} — paste-ready prompts",

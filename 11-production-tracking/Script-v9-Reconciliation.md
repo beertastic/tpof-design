@@ -73,29 +73,43 @@ pack. Hence changing the script rather than quietly designing against it.
 
 ---
 
-## 2. Vala dies in the script. The documents say she survives
+## 2. Vala — **NOT a conflict. The script never stages her death.**
 
-The documents are emphatic:
+**This entry was wrong when first written on 2026-08-01 and is corrected here.**
+It reported that the script kills Vala. It does not. Nyx's dialogue was read as
+narration, and it is not.
 
-> Vala | Placeholder | **Survives.** Do not stage a death; show no injury.
-> Killed by Shin in Film 2 — *Production-Status.md*
+Scene 24 **cuts away before the detonation**:
 
-> Where is Vala's post-credit scene set? **Where she fell** — blast crater, dead
-> mercs, shot from behind as the stolen ship lifts away — *Open-Questions.md*
+> She opens her hand. Nyx looks down and sees the red blinking light.
+>
+> **NYX**
+> Oh shi-
+>
+> **> CUT TO:**
 
-The script has her pull the detonator herself in Scene 24, and Nyx confirms it in
-Scene 25:
+The last frame of Vala has her alive, held off her feet, with a live detonator in
+her open hand. The explosion is heard in Scene 25 by Krellis, Jeyin and Shin, who
+are somewhere else entirely.
 
-> That slave set off a grenade. Killed my whole squad. *(sneers)* **And herself.**
+Her death exists only as **two pieces of reported speech**, and neither is
+reliable:
 
-There is no post-credit scene in v9.
+- **Krellis** — *"It was Vala giving us a chance."* A grieving man drawing the
+  obvious conclusion from a bang in the trees. He saw nothing.
+- **Nyx** — *"That slave set off a grenade. Killed my whole squad. (sneers) And
+  herself."* A hostile witness asserting something he cannot know, since **he
+  survived that same blast** — *"His clothes are tattered and singed. Blood runs
+  down the side of his face."* He was close enough to be burned and far enough to
+  live. So was she, potentially.
 
-This one runs deep — `02-story/Planted-Elements.md` and the Film 2/3 material are
-built on her surviving, and the *"deferred injury"* decision exists specifically
-to keep that option open.
+**Consequence: the standing rule is already satisfied.** *"Do not stage a death;
+show no injury"* is exactly what the script does. `Planted-Elements.md`, the
+deferred-injury decision and the Film 2 material all hold with no script change.
 
-**Needed:** is the survival a planned change to the script, or has the plan
-changed? Everything about Film 2 hangs on it.
+If her survival needs to be airtight rather than merely available, the single
+line to revisit is Nyx's *"And herself"* — and even that plays honestly as a
+character being wrong about what he did not see.
 
 ---
 

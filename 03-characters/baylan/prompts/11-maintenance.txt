@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 11 — THE RECONSTRUCTION]
 Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 14345e65 · repo commit cbf8ab6 2026-08-01 17:07
+Prompt version: 14345e65 · repo commit 8e6d271 2026-08-01 17:08
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit cbf8ab6, prompt 14345e65.
+    Working from commit 8e6d271, prompt 14345e65.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

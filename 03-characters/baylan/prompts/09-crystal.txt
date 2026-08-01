@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 09 — THE POUCH]
 Output file: crystal.png
 Aspect ratio: 1:1  (square)
-Prompt version: b6d2eee4 · repo commit cbf8ab6 2026-08-01 17:07
+Prompt version: b6d2eee4 · repo commit 8e6d271 2026-08-01 17:08
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit cbf8ab6, prompt b6d2eee4.
+    Working from commit 8e6d271, prompt b6d2eee4.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

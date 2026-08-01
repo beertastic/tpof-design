@@ -2,6 +2,23 @@
 
 **Read this before generating anything.**
 
+## Step 0 — always, before anything else
+
+**Read [`REPO-STATE.md`](REPO-STATE.md) and tell the user the stamp date it
+carries.** One line, at the top of your reply, every time:
+
+> Repo state: stamped `<date>`.
+
+That file is rewritten automatically on every commit, so its date is the date of
+the most recent change. **If the user says it is older than they expect, you are
+reading cached content.** Say so and stop — do not generate from stale files.
+Nothing in this repository can force you to refetch; only the user starting a
+fresh conversation reliably clears it.
+
+**Also state what you actually read.** When you open a prompt file, say its path
+and its length. A model that has silently fallen back on memory cannot do that,
+and the user needs to be able to tell the difference.
+
 This file defines the commands a connected model should understand and the checks
 it must run before acting. Human background is in
 [`09-prompt-library/Generating-From-A-Connected-Repo.md`](09-prompt-library/Generating-From-A-Connected-Repo.md).

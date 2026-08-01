@@ -1,0 +1,23 @@
+# Repository state
+
+**Stamped 2026-08-01 11:43 UTC** — automatically, by `tools/hooks/pre-commit`, at the moment of
+the commit that contains this file.
+
+| | |
+|---|---|
+| Branch | `main` |
+| Commit before this one | `7ceb9ca` |
+| Screenplay | `the-price-of-freedom-v9.fountain` |
+| Character folders | 12 |
+| Generated prompt files | 101 |
+
+## For any AI agent reading this repository
+
+**Read this file first and tell the user the stamp date above, before doing
+anything else.**
+
+If the user says that date is older than they expect, **you are reading cached or
+stale content**. Say so plainly and stop. Do not generate from it. Ask them to
+start a fresh conversation, which is the only reliable way to clear it.
+
+Then read [`AGENTS.md`](AGENTS.md) and follow it.

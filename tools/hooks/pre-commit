@@ -1,0 +1,42 @@
+#!/bin/sh
+# Stamps REPO-STATE.md so a connected model can tell whether it is looking at
+# current files. Runs before the commit, so the stamp lands inside it.
+#
+# Install:  git config core.hooksPath tools/hooks
+
+set -e
+STATE="REPO-STATE.md"
+NOW=$(date -u '+%Y-%m-%d %H:%M UTC')
+PREV=$(git rev-parse --short HEAD 2>/dev/null || echo "none")
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
+SCRIPT=$(ls 02-story/scenes/*.fountain 2>/dev/null | tail -1 | xargs -r basename)
+CHARS=$(find 03-characters -maxdepth 1 -mindepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
+PROMPTS=$(find 03-characters -name '*.txt' -path '*/prompts/*' 2>/dev/null | wc -l | tr -d ' ')
+
+cat > "$STATE" <<EOF
+# Repository state
+
+**Stamped $NOW** — automatically, by \`tools/hooks/pre-commit\`, at the moment of
+the commit that contains this file.
+
+| | |
+|---|---|
+| Branch | \`$BRANCH\` |
+| Commit before this one | \`$PREV\` |
+| Screenplay | \`$SCRIPT\` |
+| Character folders | $CHARS |
+| Generated prompt files | $PROMPTS |
+
+## For any AI agent reading this repository
+
+**Read this file first and tell the user the stamp date above, before doing
+anything else.**
+
+If the user says that date is older than they expect, **you are reading cached or
+stale content**. Say so plainly and stop. Do not generate from it. Ask them to
+start a fresh conversation, which is the only reliable way to clear it.
+
+Then read [\`AGENTS.md\`](AGENTS.md) and follow it.
+EOF
+
+git add "$STATE"

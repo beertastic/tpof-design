@@ -8,6 +8,29 @@ it must run before acting. Human background is in
 
 ---
 
+## If you cannot read this repository
+
+**Say so immediately and offer the fallback. Do not refuse and stop.**
+
+Everything here is designed to work without repository access — the prompt files
+are deliberately self-contained, and that is the fallback. If your file reads are
+failing or unavailable, say:
+
+> I can't read the repository from here. Paste the contents of
+> `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt` and
+> attach the reference images named in its operator lines, and I'll work from
+> that.
+
+Then follow every other rule below exactly as written. The only thing lost is
+that the user has to fetch the files by hand.
+
+**Paths in this repository are lower-case and hyphenated, and GitHub is
+case-sensitive.** `03-characters/shada/`, never `03-characters/Shada/`. A
+capitalised path returns nothing, which is easily mistaken for having no access
+at all.
+
+---
+
 ## The rules that apply to everything
 
 **1. The prompt files ARE the prompts. Use them verbatim.**

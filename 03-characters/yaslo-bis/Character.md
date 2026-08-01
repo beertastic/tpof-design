@@ -17,10 +17,14 @@ source: "Screenplay v10"
 > the Filmanize breakdown, which does not name him. See
 > [`11-production-tracking/Script-v9-Reconciliation.md`](../../11-production-tracking/Script-v9-Reconciliation.md).
 
-> **Open: is this a rename of `Loryl`?** `Loryl` has a placeholder document here
-> and appears nowhere in v10; Yaslo Bis has the beats v1.0 of the crew roster
-> assigned to Loryl. Probably the same part renamed, but **not assumed** — see
-> [`03-characters/loryl/Character.md`](../loryl/Character.md).
+> **Formerly `Loryl`.** Confirmed by the Production Designer 2026-08-01: the same
+> part, renamed. `03-characters/loryl/` is deleted; his prompt-pack scaffold and
+> artwork folder were moved here rather than rebuilt.
+>
+> Loryl reached this repository through the Filmanize breakdown, exported from a
+> draft earlier than v10. An earlier cast list also carried a `Charlie`, reasoned
+> in July to be a cast member's name mistakenly recorded as a character, with
+> Loryl taken to be the real one. **The character was Yaslo Bis the whole time.**
 
 ## Art Department Brief
 
@@ -67,7 +71,6 @@ are allocated to Merc 1–4.
 
 ## Open
 
-- Is he a rename of `Loryl`?
 - Species — human, or is there room for a near-human here? The kit already carries
   one, so a second would need to look nothing like it.
 - Does he have a relationship with Reya Fenn? He deals her in by name and she

@@ -1,6 +1,6 @@
 ---
-title: "Loryl — Image Prompt Pack"
-asset_id: "CHAR-LORYL"
+title: "Yaslo Bis — Image Prompt Pack"
+asset_id: "CHAR-YASLO-BIS"
 version: "0.1"
 status: "scaffold"
 faction: "Mercenaries"
@@ -10,7 +10,7 @@ governing_documents:
   - Character.md
 ---
 
-# Loryl — Image Prompt Pack
+# Yaslo Bis — Image Prompt Pack
 
 > **SCAFFOLD — not ready to generate from.**
 > The shared style rules below are complete and correct. The character-specific
@@ -18,15 +18,15 @@ governing_documents:
 > Fill in `Character.md` first, then complete the slots below.
 
 **Faction:** Mercenaries  
-**Scenes:** 10  
+**Scenes:** 10, 25  
 **Primary environment:** Forest Mercenary Camp  
-**Brief:** Mercenary appearing in the Sabacc scene and final clearing sequence.
+**Brief:** Speaking mercenary. Deals the Sabacc hand in Sc.10 and gets the biggest laugh in the film; part of the pincer group holding the escapees in Sc.25, where he says "looks like we get to do this the fun way". Killed in Baylan's massacre. **Do not make him look like a thug** — the finale only lands because Sc.10 made him likeable.
 
 ---
 
 ## How to use
 
-Each numbered slot is a complete, self-contained prompt. Paste **Style**, **Do Not**, **Character Constants**, then a single slot. Save the result to the exact filename given, in `03-characters/loryl/source/artwork/`.
+Each numbered slot is a complete, self-contained prompt. Paste **Style**, **Do Not**, **Character Constants**, then a single slot. Save the result to the exact filename given, in `03-characters/yaslo-bis/source/artwork/`.
 
 Everything needed is written out below — no other file has to be read first.
 
@@ -99,7 +99,7 @@ fantasy. Costume adapts to anatomy without sacrificing practicality.
 
 > **INCOMPLETE.** Fill this from `Character.md` and `Character-Lock.md` before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
 
-Loryl. Mercenary appearing in the Sabacc scene and final clearing sequence.
+Yaslo Bis. Mercenary appearing in the Sabacc scene and final clearing sequence.
 
 **NEEDS:**
 
@@ -115,7 +115,7 @@ Loryl. Mercenary appearing in the Sabacc scene and final clearing sequence.
 
 ## Character-specific rejections
 
-> The Shada lock carries a `Design Drift Prevention` list — the specific wrong directions a generator will drift toward for *this* character. Write the equivalent for Loryl. It is the single most useful part of the pack.
+> The Shada lock carries a `Design Drift Prevention` list — the specific wrong directions a generator will drift toward for *this* character. Write the equivalent for Yaslo Bis. It is the single most useful part of the pack.
 
 **NEEDS:** five to eight specific rejections.
 
@@ -126,42 +126,42 @@ Loryl. Mercenary appearing in the Sabacc scene and final clearing sequence.
 ## 1. `portrait.png` — hero portrait
 **Tall portrait, 9:16.**
 
-Waist-up portrait of Loryl in forest mercenary camp, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
+Waist-up portrait of Yaslo Bis in forest mercenary camp, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
 
 **NEEDS:** face, age range, species, build, hair, costume upper layers, what they are reacting to.
 
 ## 2. `environment.png` — in their environment
 **Tall portrait, 9:16.**
 
-Full-figure shot of Loryl in night camp, firelight, Sabacc game, in motion or mid-task, read at the scale of the location around them.
+Full-figure shot of Yaslo Bis in night camp, firelight, Sabacc game, in motion or mid-task, read at the scale of the location around them.
 
 **NEEDS:** silhouette, posture, gait, full costume, what they are doing here.
 
 ## 3. `industrial_a.png` — ship corridor
 **Tall portrait, 9:16.**
 
-Loryl in a cramped, lived-in starship corridor — exposed pipework, access panels, mismatched paint, service markings, scuffed decking. Lit by bulkhead fixtures and warning lights.
+Yaslo Bis in a cramped, lived-in starship corridor — exposed pipework, access panels, mismatched paint, service markings, scuffed decking. Lit by bulkhead fixtures and warning lights.
 
 **NEEDS:** how this character occupies an interior; do they belong here or not?
 
 ## 4. `industrial_b.png` — crew or group space
 **Tall portrait, 9:16.**
 
-Loryl in a cramped shared compartment among their group, lit by work lamp and screen glow. Salvaged fittings, crates, worn webbing, visible repairs.
+Yaslo Bis in a cramped shared compartment among their group, lit by work lamp and screen glow. Salvaged fittings, crates, worn webbing, visible repairs.
 
 **NEEDS:** their standing within the group; where they sit and who they sit near.
 
 ## 5. `industrial_c.png` — working interior
 **Tall portrait, 9:16.**
 
-Loryl in a dim hold or storage space, full body visible, silhouette clear. Stacked salvage, tie-downs, fuel staining, repaired plating. Single overhead work lamp with strong falloff, blacks kept open.
+Yaslo Bis in a dim hold or storage space, full body visible, silhouette clear. Stacked salvage, tie-downs, fuel staining, repaired plating. Single overhead work lamp with strong falloff, blacks kept open.
 
 **NEEDS:** what task brings them here.
 
 ## 6. `detail_portrait.png` — close detail
 **Portrait, 3:4.**
 
-Close portrait of Loryl, head and shoulders, lit at a grazing angle to reveal skin and material texture. Practical make-up and prosthetic quality, not digital fantasy. Soft overcast daylight, no costume detail competing.
+Close portrait of Yaslo Bis, head and shoulders, lit at a grazing angle to reveal skin and material texture. Practical make-up and prosthetic quality, not digital fantasy. Soft overcast daylight, no costume detail competing.
 
 **NEEDS:** the single distinguishing physical trait this image exists to show.
 
@@ -196,14 +196,14 @@ Product-reference layout of a secondary weapon or signature tool on a neutral su
 ## 11. `utility.png` — kit layout
 **Square, 1:1.**
 
-Overhead flat-lay of Loryl's complete carried kit on a worn surface, laid out in the order that person would keep it. Every item shows use and repair. Even, flat reference lighting.
+Overhead flat-lay of Yaslo Bis's complete carried kit on a worn surface, laid out in the order that person would keep it. Every item shows use and repair. Even, flat reference lighting.
 
 **NEEDS:** the full kit list, and explicitly what they do *not* carry — the absences characterise as much as the contents.
 
 ## 12. `maintenance.png` — character at work
 **Tall portrait, 9:16.**
 
-Loryl absorbed in an ordinary, unhurried task that reveals character — repairing, checking, treating, preparing. Not looking up. Warm practical lamp light against a dim salvaged interior. Hands prominent.
+Yaslo Bis absorbed in an ordinary, unhurried task that reveals character — repairing, checking, treating, preparing. Not looking up. Warm practical lamp light against a dim salvaged interior. Hands prominent.
 
 **NEEDS:** the one habitual task that says who this person is.
 
@@ -268,9 +268,9 @@ panel is small.
 | 12 | `maintenance.png` | 9:16 |
 | 13 | `materials.png` | 5:4 |
 
-All land in `03-characters/loryl/source/artwork/`. The board generator places images with a **contain** operation and never crops — supplying the wrong ratio produces letterboxing on the board.
+All land in `03-characters/yaslo-bis/source/artwork/`. The board generator places images with a **contain** operation and never crops — supplying the wrong ratio produces letterboxing on the board.
 
-This character has no `board-data.yaml` yet, so `generate.py loryl` will not run. Create one modelled on `03-characters/shada/board-data.yaml`, using the filenames above.
+This character has no `board-data.yaml` yet, so `generate.py yaslo-bis` will not run. Create one modelled on `03-characters/shada/board-data.yaml`, using the filenames above.
 
 ## Continuity rules across the set
 
@@ -281,7 +281,7 @@ This character has no `board-data.yaml` yet, so `generate.py loryl` will not run
 
 ## Open questions blocking this character
 
-- Loryl and Reya Fenn share Scene 10 and the same brief. Give them clearly distinct silhouettes or they will read as the same background mercenary.
+- Yaslo Bis and Reya Fenn share Scene 10 and speak to each other. Give them clearly distinct silhouettes or they will read as the same background mercenary.
 
 ## Revision History
 

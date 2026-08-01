@@ -120,7 +120,7 @@ character being wrong about what he did not see.
 | Krellis | **Shot through the head by Jasu**, on screen, Sc.25 | No death recorded. "Placeholder — escapee medic" |
 | Jasu | Killed by a blaster bolt **Baylan deflects** into her chest | "Baylan kills everyone" |
 | Reya Fenn | **Alive in Sc.25**, has dialogue, dies in Baylan's final massacre | ~~"Killed by Vala's grenade"~~ **corrected in roster v2.0** |
-| Loryl | **Does not appear in v10 at all** | ~~"Killed by Vala's grenade"~~ **marked DO NOT BUILD** |
+| Loryl | **Does not appear in v10 at all** — he is `Yaslo Bis`, renamed | ~~"Killed by Vala's grenade"~~ **folder deleted, references repointed** |
 | Nyx | Blade withdrawn orange ✓ — but **killed BEFORE the massacre, not last.** Baylan stabs him, talks to Shin, then *"I have to take care of this first"* and cuts down the rest | ~~"Nyx is killed last"~~ **corrected in roster v2.0** |
 | The akk dog | **Baylan locks eyes with it and sends it away** — "something passes between them" | "Knocked out, left alive and abandoned" |
 
@@ -140,15 +140,18 @@ deliberate misdirect"* is not in v9.
 Scene 25. There was no character folder, no entry in the crew roster, and no
 mention anywhere in the repository.
 
-**`Loryl`** has a `Character.md` and a folder, and does not appear in v10.
+**`Loryl`** had a `Character.md` and a folder, and does not appear in v10.
 
 **Done:** `03-characters/yaslo-bis/` created with his scene beats and the two
-lines that make him matter. `03-characters/loryl/` carries a DO NOT BUILD notice
-and is out of the roster and the headcount.
+lines that make him matter.
 
-**Still open, and deliberately not assumed: is Yaslo Bis a rename of Loryl?** If
-yes, merge and delete the Loryl folder. If Loryl was a separate part that was cut,
-just delete it. Nobody should guess this.
+**RESOLVED 2026-08-01: Loryl is Yaslo Bis, renamed.** Production Designer
+confirmed. `03-characters/loryl/` is deleted; his prompt-pack scaffold and
+artwork folder were moved to `yaslo-bis/` rather than rebuilt, and every
+reference across the repository now points at the real name.
+
+**The headcount is unaffected** — the v2.0 roster never counted Loryl. Yaslo Bis
+was already the sixth named mercenary, so the crew is still ten.
 
 ### And the whole roster was rebuilt on the back of it
 

@@ -36,10 +36,9 @@ See `09-prompt-library/Turnaround-Block.md`.
 | Shada | **Design closed** | Documents, outfits.yaml and 21 prompts current and consistent. Images are a guide, not a lock — regenerate as needed. See `Shada-Image-TODO.md` |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
-| Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Baseline human — decided. Design still TBD |
+| Nyx | In development | **PRIORITY.** The blade changes colour on him — killed **before** the massacre, not last. His deflected shot kills Jasu. Baseline human — decided. Design still TBD |
 | Reya Fenn | Placeholder | Formerly "Freya". **Survives the grenade** — speaks first in the finale, killed in Baylan's massacre. Pincer group |
-| **Yaslo Bis** | Placeholder | **Speaking part, created 2026-08-01 from v10.** Deals the sabacc hand; pincer group; killed in Baylan's massacre |
-| Loryl | **NOT IN v10** | Appears nowhere in the script. Probably renamed to Yaslo Bis, unconfirmed. Not in the roster, do not build |
+| **Yaslo Bis** | Placeholder | **Formerly `Loryl`** — renamed 2026-08-01. Deals the sabacc hand; pincer group; killed in Baylan's massacre |
 | Mercenary Kit | In development | **Not a character — a build system.** 4 builds, one each to Merc 1–4. 33 prompts ready. Merc 1 is **the Wookiee**, confirmed in v10 |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |

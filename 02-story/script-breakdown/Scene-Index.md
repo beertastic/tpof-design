@@ -11,7 +11,7 @@
 | 7 | Forest | Evening | Nyx, Baylan, Mercenary |
 | 8 | Dense Forest | Evening | Vala, Krellis, Jeyin, Shin |
 | 9 | Forest Mercenary Camp | Evening | Captain Jasu, Baylan, Mercenaries |
-| 10 | Forest Mercenary Camp | Night | Nyx, Reya Fenn, Loryl, Shada, Mercenaries |
+| 10 | Forest Mercenary Camp | Night | Nyx, Reya Fenn, Yaslo Bis (breakdown: `Loryl`), Shada, Mercenaries |
 | 11 | Forest Escapee Camp | Night | Jeyin, Shin |
 | 12 | Sand Dunes | Afternoon | Palpatine, Shin, Baylan |
 | 13 | Forest Mercenary Camp | Night | Baylan |
@@ -40,7 +40,8 @@
   people are nowhere, which suits the escape story. Do not invent a name.
 - RESOLVED 2026-07-30: `Freya` and `Reya Fenn` are the same character, renamed.
 - RESOLVED 2026-07-30: `Charlie` was almost certainly a **cast member's name**, not a
-  character. Loryl is the character. Removed from the cast records.
+  character. **Superseded 2026-08-01:** the character is `Yaslo Bis`; `Loryl` was
+  itself a stale name from a pre-v10 draft and is also removed.
 - `Mercenary` and `Mercenaries` are treated as generic/background roles pending clarification.
 - **The akk dog is not tracked by the breakdown at all.** Captain Jasu's akk dog is named
   only inside the Scene 9 description as a "dog-like beast" and appears in no character or

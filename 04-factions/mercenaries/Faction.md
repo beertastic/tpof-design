@@ -23,7 +23,7 @@ each other and stayed together because the work pays.
 | [Baylan](../../03-characters/baylan/) | Eighteen years embedded. Nobody knows what he is |
 | [Nyx](../../03-characters/nyx/) | Recurring — patrol, pursuit, dialogue |
 | [Reya Fenn](../../03-characters/reya-fenn/) | Sabacc scene, final clearing |
-| [Loryl](../../03-characters/loryl/) | Sabacc scene, final clearing |
+| [Yaslo Bis](../../03-characters/yaslo-bis/) | Sabacc scene, pincer group, final clearing |
 | [Shada](../../03-characters/shada/) | Assassin, thief, scout and tracker |
 | [Mercenary Kit](../../03-characters/mercenary-kit/) | Reusable background family |
 

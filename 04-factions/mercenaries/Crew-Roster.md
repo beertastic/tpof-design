@@ -204,15 +204,12 @@ Four errors, all from working off the breakdown before the script was here:
 | v1.0 said | v10 says |
 |---|---|
 | Reya Fenn killed by Vala's grenade, off screen | **Alive in the finale.** She speaks first, and dies in the massacre |
-| **Loryl** in the Sabacc scene and pursuit | **Loryl is not in v10 at all.** `Yaslo Bis` has those beats |
+| **Loryl** in the Sabacc scene and pursuit | **Loryl is `Yaslo Bis`**, renamed. Confirmed 2026-08-01; the folder is deleted |
 | Nyx killed last | He dies **before** the massacre |
 | Baylan kills five, Jasu among them | Baylan kills five, but **Jasu is not one of them** — Nyx's deflected bolt is |
 
 ## Open
 
-- **Is `Yaslo Bis` a rename of `Loryl`, or a different character?** Determines
-  whether `03-characters/loryl/` is deleted or was always this person under
-  another name. Flagged, not assumed.
 - Confirm exact YT-2000 dimensions before the exterior is locked.
 - The ship has no name or registry.
 - Does the akk dog count against ship capacity? Where does it sleep?

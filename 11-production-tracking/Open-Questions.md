@@ -4,7 +4,9 @@
       Canonical name `Baylan`, short form `Bay`. Folders merged.
 - [x] ~~Is Reya Fenn the character previously listed as Freya?~~ **Yes**, renamed. 2026-07-30.
 - [x] ~~What is Charlie's final name?~~ **Not a character.** Almost certainly a cast member's
-      name recorded as a character by mistake; Loryl is the character. Removed. 2026-07-30.
+      name recorded as a character by mistake. **Superseded 2026-08-01:** the
+      character is `Yaslo Bis`. `Loryl` was itself a stale name from a pre-v10
+      draft and has been removed too.
 - [x] ~~What is the forest world's canonical name?~~ **Never named on screen.** Deliberate.
       Do not invent one. 2026-07-30.
 - [x] ~~Are “Slaves” and “Escapees” one label?~~ **Keep both** — captivity is as much their

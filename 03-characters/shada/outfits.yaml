@@ -87,7 +87,12 @@ outfits:
         readable side by side at a glance. Within any ONE patch the metal is
         consistent.
       - >
-        FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The
+        FITTED AND CLOSE TO THE BODY, AND FULLY COVERING HER TORSO — NO BARE
+        MIDRIFF, NO CROP TOP, NO ONE-SHOULDER DRAPE.
+        The vest runs from the collarbone to below the waist and fastens up the
+        front. Her stomach, flanks and lower back are NEVER exposed — she is an
+        infiltrator in salvaged working kit, not a figure in a costume designed
+        to be looked at. Her silhouette is compact and agile. The
         costume follows her figure — waist defined, nothing bulky, nothing loose,
         no oversized jacket or coat. She is small and quick, and the clothes say so.
       # The exception has to be in the first sentence. Trimmed to "BARE ARMS AND
@@ -107,7 +112,9 @@ outfits:
         visible. If her arms are covered or there is cloth at her throat, the
         image is wrong.
       - >
-        HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT
+        FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST
+        BE VISIBLE HERE, NEVER SMOOTH SKIN.
+        This is what makes her not
         HUMAN. The snake ancestry is TENS OF THOUSANDS OF YEARS BACK — so distant
         that almost nothing of it survives. She is human to look at, and this is
         the one trace left. That is why it is faint: it is not a costume choice,
@@ -166,8 +173,20 @@ outfits:
         the side of the neck, behind the ear. Tonal — the same colour as her skin,
         readable only where light rakes across it, easy to miss entirely in flat
         light. NOT across the nose, forehead, cheeks or mouth. She is a human actor
-        in makeup, not a creature in prosthetics. Her irises are subtly reptilian.
+        in makeup, not a creature in prosthetics.
         The effect is a hint of inherited history, not a transformation.
+      # Promoted to its own rule 2026-08-01. It was the last clause of the face
+      # rule and the trim cut it every time, so the single highest-value make-up
+      # item in the costume never reached a generator.
+      - >
+        HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN
+        OTHERWISE HUMAN EYE.
+        This is a CONTACT LENS on a human performer, not a prosthetic and not a
+        creature eye: the eye keeps its human shape, its lids, its lashes and its
+        expression, and only the pupil is wrong. It is the single
+        highest-value element in her make-up and it must be legible in a
+        head-on view. Do NOT make the whole eye animal, do NOT enlarge it, and do
+        NOT lose it to shadow.
     description: >
       Light, fitted, scavenged armour in three small patches only, over a
       flexible scale-textured undersuit and a breathable base layer.

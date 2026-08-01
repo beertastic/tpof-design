@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 84d63b2c (short) · repo commit 8d02ea2 2026-08-01 18:21
+Prompt version: c352757f (short) · repo commit fe7c514 2026-08-01 18:31
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8d02ea2, prompt 84d63b2c.
+    Working from commit fe7c514, prompt c352757f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -30,13 +30,14 @@ RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
 1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH. NO METAL ON HER TORSO. NO BREASTPLATE.
-2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold.
-3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. She is small and quick, and the clothes say so.
-4. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NOTHING AROUND HER NECK…
-5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN. TONAL, NOT COLOURED.
+2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be…
+3. FITTED AND CLOSE TO THE BODY, AND FULLY COVERING HER TORSO — NO BARE MIDRIFF, NO CROP TOP, NO ONE-SHOULDER DRAPE.
+4. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER.
+5. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL.
 6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
-7. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
-8. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth. Her irises are subtly reptilian.
+7. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors.
+8. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
+9. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye…
 
 SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

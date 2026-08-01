@@ -11,11 +11,22 @@ outfits:
     scenes: "10, 23, 25 — her only costume"
 
     # See 03-characters/APPROVAL.md. Clear this block to unlock.
-    approved:
-      date: "2026-07-31"
-      view: front
-      reference: 03-characters/shada/source/artwork/turn-working-front.png
-      note: "Front view locked. Match this for all other views"
+    #
+    # UNLOCKED 2026-08-01 by the structural revision recorded in
+    # Character-Lock.md. The approved front showed a METAL forearm gauntlet and
+    # no flank panels, and it is therefore a picture of a costume that no longer
+    # exists. Leaving it approved would have been worse than having no
+    # reference: every other view is handed it with "COSTUME (match exactly)",
+    # so all twenty would have been matched to the superseded build.
+    #
+    # DO NOT re-approve until a new front turnaround has been generated against
+    # the revised spec and checked. Then restore this block, pointing at the new
+    # file, and redo the other four views and the narrative plates against it.
+    # approved:
+    #   date: "2026-07-31"
+    #   view: front
+    #   reference: 03-characters/shada/source/artwork/turn-working-front.png
+    #   note: "Front view locked. Match this for all other views"
 
     # Approved reference PLATES. Attached alongside the costume reference so the
     # material and the props stop being redrawn from words every time. This is
@@ -39,63 +50,103 @@ outfits:
       # torso" without ever saying where they went — so a generation put all
       # three on the vest and left the forearm, shoulder and thigh bare.
       # 2026-08-01.
+      # REVISED 2026-08-01 at the team's request. Two changes, both recorded in
+      # Character-Lock.md: the forearm gauntlet loses its plates and becomes
+      # plain leather, and a pair of scale FLANK PANELS is added over her ribs.
+      # The flank panels reverse "NO METAL ON HER TORSO", which had itself been
+      # a decision — the sternum patch was dropped on 2026-07-31.
+      #
+      # It is the better reading of the design. Character-Lock already asked for
+      # VITAL-AREA PROTECTION ONLY, and panels over the liver, kidneys and
+      # spleen are exactly that. A forearm gauntlet never was.
       - >
-        THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT
-        THIGH.
-        NO METAL ON HER TORSO. NEVER A SUIT AND NEVER A MATCHED
-        SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At
-        most about a fifth of the costume carries metal; the rest is cloth and
-        worn leather.
-        THREE PATCHES ONLY — FOREARM, SHOULDER, THIGH. THERE IS NO METAL ON HER
-        TORSO: her chest, sternum and back are plain cloth. NO chest patch, NO
-        sternum panel, NO bib, NO pendant, NO breastplate.
+        METAL ON HER LEFT SHOULDER, LEFT THIGH, AND A PAIR OF FLANK PANELS
+        OVER HER RIBS — NOWHERE ELSE.
+        NO PLATES ON THE GAUNTLET.
+        NEVER A FULL SUIT. NO BREASTPLATE, NO CHEST PLATE OVER THE STERNUM, NO
+        BIB, NO PENDANT, NO YOKE. Roughly a quarter of the costume carries metal;
+        the rest is cloth and worn leather.
         SIDES ARE FIXED, and given from HER OWN left and right, never the
         viewer's. In a front view her right side appears on the viewer's left; in
         a back view it appears on the viewer's right.
-        (1) A GAUNTLET ON HER RIGHT FOREARM ONLY — viewer's left in a front view.
-        Wrapping the outer forearm from wrist to just below the elbow, held by
-        two worn leather straps and buckles. EXACTLY ONE GAUNTLET, NOT A PAIR.
-        HER LEFT FOREARM IS COMPLETELY BARE — no gauntlet, no bracer, no wrap, no
-        metal of any kind. If both forearms have metal on them, the image is
-        wrong.
-        (2) A CAP OVER HER LEFT SHOULDER ONLY — viewer's right in a front view,
-        the OPPOSITE side to the gauntlet. Her right shoulder is bare.
-        (3) A PATCH ON HER LEFT OUTER THIGH — viewer's right in a front view, the
-        same side as the shoulder cap. Her right thigh has no metal.
-        Different sizes, different shapes, different ages, NO MATCHING PAIRS OF
-        ANYTHING.
+        (1) A LEATHER GAUNTLET ON HER RIGHT FOREARM ONLY — viewer's left in a
+        front view. Wrapping the outer forearm from wrist to just below the
+        elbow, held by two worn straps and buckles, exactly as before — but the
+        scale plates are GONE and it is plain leather. It is a VISIBLY DIFFERENT
+        leather from her belt and holster: a different tan, a different age, cut
+        off something else. EXACTLY ONE GAUNTLET, NOT A PAIR. HER LEFT FOREARM IS
+        COMPLETELY BARE — no gauntlet, no bracer, no wrap of any kind.
+        (2) A SCALE CAP OVER HER LEFT SHOULDER ONLY — viewer's right in a front
+        view, the OPPOSITE side to the gauntlet. Her right shoulder is bare.
+        (3) A SCALE PATCH ON HER LEFT OUTER THIGH — viewer's right in a front
+        view, the same side as the shoulder cap. Her right thigh has no metal.
+        (4) A PAIR OF SCALE FLANK PANELS over her ribs — see the flank panel rule
+        below. They are the only metal on her torso and there is none on her
+        chest, her sternum or the middle of her back.
+        Different sizes, different shapes, different ages, and NO MATCHING PAIR
+        ANYWHERE — including the two flank panels, which must not match.
       # Plate geometry given its own rule 2026-08-01. It used to be a paragraph
       # inside the placement rule, which meant the short prompts carried no
       # dimension and no count at all — the plates were free-floating in every
       # generation, and came back three to four times too big. Size confirmed
       # 2026-07-31 and re-confirmed today: 10 to 15 mm stands.
+      # Added 2026-08-01. The form is a brigandine: shaped panels laced across
+      # the body. The lacing does three jobs — it closes it, it lets a scavenged
+      # thing be fitted to a body, and it is visibly hand-made, which is the same
+      # argument that keeps a modern zip off the vest.
+      - >
+        THE FLANK PANELS ARE SCALE ARMOUR LACED ACROSS HER CENTRE FRONT, WORN
+        OVER THE VEST — NOT A BREASTPLATE AND NOT A CORSET.
+        ONE PANEL EACH SIDE, covering the side of the ribcage from just under the
+        arm down to the point of the hip. They FOLLOW THE RIBS, draw in at the
+        waist and flare slightly over the hip: the shaping is structural, because
+        that is the shape of the body under them, and it is not styling.
+        THEY MEET AT THE CENTRE FRONT AND ARE LACED TOGETHER — a leather thong
+        zig-zagging between punched eyelets down both facing edges and tied off
+        at the bottom, leaving a visible gap of vest cloth between them. The
+        LACING IS THE CLOSURE and it must be visible. NO buckle plate, NO clasp,
+        NO zip, NO seamless join.
+        AT THE BACK they are held by TWO SALVAGED STRAPS AND BUCKLES. NOTHING
+        GOES OVER HER SHOULDER — the panels hang on the lacing and the straps, so
+        her arms and shoulders stay clear.
+        THE TWO PANELS DO NOT MATCH. Different metal, different age, one visibly
+        added later than the other — a pair in what they do, never in how they
+        look. If they read as a matched, made-for-her set, the image has failed:
+        the mismatch is what proves she assembled this herself.
+        Her chest and sternum stay plain cloth between them. This is VITAL-AREA
+        PROTECTION — the ribs and the organs under them — and nothing more.
       - >
         EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER
         A DOZEN BIG ONES.
         TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR SHINGLED.
-        About the size of a thumbnail. The forearm gauntlet alone carries WELL
-        OVER A HUNDRED of them and the costume carries roughly 370 in total, so
+        About the size of a thumbnail. ONE FLANK PANEL alone carries WELL OVER A
+        HUNDRED of them and the costume carries roughly 440 in total, so
         if the plates in a patch can be counted at a glance they are far too big.
         FOR WHAT A PLATE LOOKS LIKE, MATCH THE PLATE PHOTOGRAPH FETCHED ABOVE.
         Flat six-sided hexagons, each carrying a RAISED SNAKE SWIRL, laced to a
         hand-cut backing. Salvaged, pitted and worn — never machined, never
         polished, never carbon fibre or tech panelling.
       - >
-        THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK
-        WRONG. They must NOT all be brass or all be gold. If the three patches
+        FOUR METAL PIECES, FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK
+        WRONG. They must NOT all be brass or all be gold. If they
         read as the same metal, the image has failed — the mismatch is the whole
         point, because it is what proves nobody made this costume for her.
-        - the FOREARM GAUNTLET is DULL GREY STEEL: cold, unpolished, scratched,
-          the most worn of the three and the oldest piece she owns. NOT brass,
-          NOT gold, NOT warm-toned.
+        - her RIGHT FLANK PANEL is DULL GREY STEEL: cold, unpolished, scratched,
+          the most worn thing she owns and the oldest. NOT brass, NOT gold,
+          NOT warm-toned.
+        - her LEFT FLANK PANEL is BLACKENED IRON — dark, matte, nearly black,
+          with rust caught in the pitting. Obviously not the same piece of salvage
+          as the right, and obviously acquired at a different time.
         - the SHOULDER CAP is BRASS, warm yellow, with GREEN VERDIGRIS collected
           in the seams between plates.
         - the THIGH PATCH is DARK BRONZE, almost brown and noticeably deeper
-          than the shoulder — and it is the NEWEST of the three, cleaner and
+          than the shoulder — and it is the NEWEST, cleaner and
           less worn, clearly added later.
-        Three clearly different colours and three different states of wear,
-        readable side by side at a glance. Within any ONE patch the metal is
+        Four clearly different colours and four different states of wear,
+        readable side by side at a glance. Within any ONE piece the metal is
         consistent.
+        THE FOREARM GAUNTLET IS NOT ON THIS LIST — it is plain leather and
+        carries no metal at all.
       # The garment and its coverage were two rules until 2026-08-01; merged,
       # because they describe one object and eleven rules dropped the per-rule
       # budget far enough to start truncating the others.
@@ -138,7 +189,7 @@ outfits:
       # cap outright, and the generator resolved the contradiction by moving all
       # three patches onto the vest. 2026-08-01.
       - >
-        BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM
+        BARE ARMS AND BARE SHOULDERS, EXCEPT A PLAIN LEATHER GAUNTLET ON HER RIGHT FOREARM
         AND THE CAP ON HER LEFT SHOULDER.
         NO SCARF, COWL, HOOD OR NECK WRAP.
         Apart from those two pieces her arms are UNCOVERED from the shoulder
@@ -233,7 +284,7 @@ outfits:
       BE CLEARLY VISIBLE IN EVERY VIEW.
       She wears armour made of individual six-sided metal plates. Every plate is
       a hexagon with six straight sides — never round, never a coin, never a
-      fish-scale shape. EACH PLATE IS SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many tiny pieces, not a few large ones. Each is flat and laced
+      fish-scale shape. EACH PLATE IS SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: one flank panel alone carries well over a hundred of them, and a patch reads as a dense field of many tiny pieces, not a few large ones. Each is flat and laced
       and riveted onto a flexible leather-and-fabric backing and laid so that each
       plate sits edge to edge with its neighbours, almost touching, separated only
       by a thin dark seam, and no frame or bezel around any plate. The lacing is

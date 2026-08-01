@@ -1,7 +1,7 @@
 ---
 title: "Costume Build Method"
 asset_id: "TRACK-BUILD-METHOD"
-updated: "2026-07-31"
+updated: "2026-08-01"
 status: "reference"
 ---
 
@@ -34,15 +34,19 @@ depend on which.
 
 **This is the single most important consequence, and it lands hardest on Shada.**
 
-Her whole costume rests on **three patches of scale in three different metals** —
-dull grey steel on the forearm, brass with verdigris on the shoulder, dark bronze
-on the thigh. That mismatch is the proof nobody made the costume for her. Three
-identical patches quietly recreate the matched-set problem in three places
-instead of one.
+Her whole costume rests on **four pieces of scale in four different metals** —
+dull grey steel on her right flank, blackened iron on her left, brass with
+verdigris on the shoulder, dark bronze on the thigh. That mismatch is the proof
+nobody made the costume for her. Identical pieces quietly recreate the
+matched-set problem in four places instead of one.
 
-A printer will produce all three in the same filament. **The difference between
+**The two flank panels are the acute case**, because they are a left-and-right
+pair in the same place on the body. If those two match, the costume reads as a
+cuirass somebody fitted to her, and the whole scavenger argument collapses.
+
+A printer will produce all four in the same filament. **The difference between
 those metals is now entirely a paint and patina job**, not a material one,
-and it has to be scheduled and costed as such. If the three patches come off the
+and it has to be scheduled and costed as such. If the four pieces come off the
 same print run and get the same finish pass, the design fails and it fails
 invisibly — it will look fine in isolation and wrong in the turnaround.
 
@@ -68,9 +72,10 @@ So the rule for the paint shop is precise:
 | | The exact form of the serpent |
 
 **Regular shape, irregular material.** One print file is correct and expected;
-one finish across all three patches is not. They came off three different
-scavenging trips and must read as three different metals — dull grey steel on the
-forearm, brass with verdigris on the shoulder, dark bronze on the thigh.
+one finish across all four pieces is not. They came off four different
+scavenging trips and must read as four different metals — dull grey steel on her
+right flank, blackened iron on her left, brass with verdigris on the shoulder,
+dark bronze on the thigh.
 
 **The serpent is raised, not incised**, so it wears from the top down — the ridge
 goes flat and pale where the plate has been handled, and nearly disappears on the
@@ -79,10 +84,10 @@ jewellery, and the costume says somebody made it for her.
 
 **No two serpents should be identical.** The samples already vary, which is
 correct and worth preserving: one die used once would produce a matched set, and
-the story is three scavenging trips. Different mills, different batches, different
+the story is four scavenging trips. Different mills, different batches, different
 worn dies.
 
-**One patch may be hardened hide rather than metal**, cut to the same hexagon.
+**One piece may be hardened hide rather than metal**, cut to the same hexagon.
 Leather plates carry the serpent faintly or not at all — a mill mark belongs in
 metal, and its absence is evidence of where that plate came from.
 
@@ -115,7 +120,7 @@ against a generation that came back three to four times too coarse.
 The size had never reached the generator — it sat inside the placement rule in
 `outfits.yaml` and the short prompts trimmed it away, so every image invented its
 own plate size. It is now its own non-negotiable. **If a new image shows plates
-you can count at a glance, the plates are wrong, not the figure**, and the ~370
+you can count at a glance, the plates are wrong, not the figure**, and the ~440
 count below stands.
 
 That is much finer than it sounds, and it multiplies. A hexagon 12.5 mm across
@@ -123,20 +128,33 @@ covers roughly 1.35 cm², so a rough estimate from patch area:
 
 | Patch | Approx. area | Plates |
 |---|---|---|
-| Forearm gauntlet | ~200 cm² | ~150 |
+| Flank panel — her right | ~150 cm² | ~110 |
+| Flank panel — her left | ~150 cm² | ~110 |
 | Shoulder cap | ~120 cm² | ~90 |
 | Thigh | ~180 cm² | ~130 |
-| | | **~370** |
+| | | **~440** |
 
 *Revised 2026-07-31: the sternum patch was dropped, taking about 75 plates with
 it.*
 
-*Estimated from assumed patch dimensions — confirm against the real patterns
-before committing to a print run.*
+**Revised 2026-08-01, and the total went UP by about 70.** The forearm gauntlet
+became plain leather, releasing ~150 plates; a pair of scale flank panels was
+added over the ribs, costing ~220. Net **+19%** on what was already the largest
+labour item in the costume.
 
-**Getting on for four hundred plates, each needing two holes and hand lacing.** That
-is the largest single labour item in this costume and it is easy to miss, because
-each plate is trivial on its own.
+*Estimated from assumed patch dimensions — confirm against the real patterns
+before committing to a print run.* The flank panels are the least certain
+figure here, because their area depends on a pattern nobody has cut yet, and
+they are now **half the plate count in the costume**. Pattern them first.
+
+**Getting on for four hundred and fifty plates, each needing two holes and hand
+lacing.** That is the largest single labour item in this costume and it is easy
+to miss, because each plate is trivial on its own.
+
+**The flank panels also add work the other patches never had:** punched eyelets
+down both facing edges, a leather thong long enough to lace the full height, and
+two strap-and-buckle fixings at the back. The lacing is visible and structural,
+so it cannot be faked with a hidden fastening.
 
 Three consequences:
 
@@ -217,7 +235,7 @@ components:
     route: printed
     qty: 1
     status: not-started      # not-started | in-progress | done
-    note: Dull grey steel finish. Must NOT match the other three patches
+    note: Dull grey steel finish. Must NOT match the other three pieces
   - item: Work vest
     route: bought
     qty: 1

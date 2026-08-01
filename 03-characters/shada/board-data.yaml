@@ -71,9 +71,11 @@ boards:
       h: 2.75
       font_size: 11
       items:
-      - Gauntlet one forearm dull grey steel oldest
+      - Flank panel right ribs dull grey steel oldest
+      - Flank panel left ribs blackened iron with rust
       - Cap one shoulder brass with verdigris
       - One outer thigh dark bronze newest and least worn
+      - Forearm gauntlet plain leather no plates
       - No metal on the torso at all
       - Three scavenging trips nothing matches
     - heading: CONSTRUCTION
@@ -192,7 +194,7 @@ boards:
       font_size: 10.5
       items:
       - Matte and low-noise surfaces
-      - Three patches three different metals
+      - Four metal pieces four different metals
       - Test harness during crouch and climb
       - Knife and holster remain reachable
       - Weathering follows contact and repair history
@@ -436,7 +438,7 @@ boards:
       w: 7.25
       h: 4.1
       items:
-      - Gauntlet dull grey steel most worn
+      - Flank panels steel and blackened iron unmatched
       - Shoulder brass with green verdigris
       - Thigh dark bronze almost brown and newest
       - Torso plain cloth no metal

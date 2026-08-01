@@ -68,8 +68,9 @@ Both are interesting. Neither is decided. See *Open Questions*.
 - Functional exposed skin at shoulders, upper arms and selected mobility zones.
 - Fine inherited scales visible on exposed skin.
 - Subtle reptilian eyes; expressive and recognisably human.
-- Light scavenged armour in **three small patches only** — forearm, shoulder,
-  thigh. No metal on her torso.
+- Light scavenged armour in **four pieces** — a pair of flank panels over the
+  ribs, a shoulder cap, a thigh patch. Her chest, sternum and the middle of her
+  back stay plain cloth. **The forearm gauntlet is plain leather, not metal.**
 - **Flexible metallic scale patches in place of rigid plates.**
 - Muted, practical forest palette.
 - **WESTAR-35 blaster pistol** on her right thigh, and a well-used knife on her left hip.
@@ -238,23 +239,40 @@ sheen. It catches light in small dull glints across many facets rather than
 reflecting. It reads unmistakably as *metal* — this is the detail that failed
 when it was described only as "matte and non-reflective."
 
-**Where it sits — three patches, all different, all asymmetric. There is no
-metal on her torso: her chest, sternum and back are plain cloth.**
+**Where it sits — four pieces, all different, all asymmetric. Her chest, sternum
+and the middle of her back are plain cloth; the only metal on her torso is at
+the sides.** Revised 2026-08-01 — see `Character-Lock.md` for the record.
 
 | # | Where | Metal | Note |
 |---|---|---|---|
-| 1 | **Gauntlet — her RIGHT forearm** | **Dull grey steel**, scratched, the most worn | Wrist to below the elbow, two leather straps and buckles. **Her left forearm is completely bare.** The oldest piece she owns and the strongest element of the design |
-| 2 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the gaps | The opposite side to the gauntlet. Her right shoulder is bare |
-| 3 | **Patch — her LEFT outer thigh** | **Dark bronze**, almost brown, and the newest — cleaner, less worn | Same side as the shoulder cap. Her right thigh has no metal |
+| 1 | **Flank panel — her RIGHT ribs** | **Dull grey steel**, scratched, the most worn | The oldest piece she owns. Under the arm to the point of the hip |
+| 2 | **Flank panel — her LEFT ribs** | **Blackened iron**, near-black, rust in the pitting | Obviously not the same salvage as the right, and obviously acquired later |
+| 3 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the gaps | The opposite side to the leather gauntlet. Her right shoulder is bare |
+| 4 | **Patch — her LEFT outer thigh** | **Dark bronze**, almost brown, and the newest — cleaner, less worn | Same side as the shoulder cap. Her right thigh has no metal |
+
+**The two flank panels are laced together across her centre front** — a leather
+thong through punched eyelets down both facing edges, a visible gap of vest cloth
+between them, two salvaged straps and buckles at the back. Nothing goes over the
+shoulder; they hang on the lacing and the straps. Worn **over** the vest.
+
+**The gauntlet on her right forearm is plain leather with no plates on it** —
+same shape, same two straps and buckles, a visibly different tan and age from her
+belt and holster. It is salvage, not armour.
 
 **Sides are fixed and described from her own left and right**, not the viewer's.
-In a front view her right appears on the viewer's left. The gauntlet and the
-shoulder cap are on **opposite** sides — that diagonal is what makes the
+In a front view her right appears on the viewer's left. The leather gauntlet and
+the shoulder cap are on **opposite** sides — that diagonal is what makes the
 asymmetry read as accumulated rather than random.
 
-**The three patches must be three different materials — and one of them need not
-be metal.** Hardened hide cut to the same hexagon is as good a piece of salvage
-as a hull offcut, and it gives the set a variation no paint pass can fake.
+**The four pieces must be four different materials, and the two flank panels
+must not match each other.** A symmetrical pair meeting in the middle is, by
+definition, a set someone made for her — the opposite of what this costume is
+arguing. Different metals, different ages, one plainly added later: a pair in
+function, never in appearance.
+
+**One of the metal pieces need not be metal at all.** Hardened hide cut to the
+same hexagon is as good a piece of salvage as a hull offcut, and it gives the set
+a variation no paint pass can fake.
 
 The rule that matters is not *metal*; it is that **every plate is a discrete,
 countable, physically separate piece.** The old "NOT leather" prohibition existed
@@ -340,7 +358,7 @@ exactly the territory the Bible forbids.
 and they carry a repeating stamp, because that is what stamped-out industrial
 plate looks like — that sameness is the *point*, and it is what proves the
 material was mass-produced for something else. What must never become uniform is
-the **metal**: three patches, three alloys, three ages, three states of wear. Regular
+the **metal**: four pieces, four alloys, four ages, four states of wear. Regular
 shape, irregular material. Get those the wrong way round and the costume says
 somebody made her a matching set.
 
@@ -363,8 +381,11 @@ a place in a world where nothing is worn for looks.
 | **WESTAR-35 blaster pistol** | Her **right thigh** | Drop-leg holster, belt loop and thigh strap, grip up and angled slightly forward. Right-hand draw |
 | **Combat knife** | Her **left hip** | On the belt, grip up. Cross-draw with the right hand |
 
-Her right side carries the gauntlet and the blaster; her left carries the
-shoulder cap, the knife and the thigh patch. **Nothing is mirrored.**
+Her right side carries the leather gauntlet and the blaster; her left carries the
+shoulder cap, the knife and the thigh patch. **Nothing is mirrored** — with the
+single deliberate exception of the flank panels, which exist on both sides
+because ribs do, and which are kept unmatched in metal and age for exactly that
+reason.
 
 ### The blaster — a WESTAR-35
 

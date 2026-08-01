@@ -48,22 +48,53 @@ recorded revision.
     does.**
   - **Metallic but never bright.** Dulled and scratched, catching light in small
     dull glints across many facets. It must read as *metal*.
-  - **Coverage — three patches, three different materials, all asymmetric.
-    NO metal on the torso:**
+  - **Coverage — four metal pieces, four different materials, all asymmetric.**
+    **REVISED 2026-08-01** at the team's request, replacing "three patches, no
+    metal on the torso". Two changes, recorded here rather than edited in
+    silently:
+    1. **The forearm gauntlet loses its plates and becomes plain leather.**
+    2. **A pair of scale flank panels is added over her ribs** — which reverses
+       "NO metal on the torso", itself a decision taken on 2026-07-31 when the
+       sternum patch was dropped.
+
+    *Why it is the better reading:* this lock already asks for **vital-area
+    protection only**, and panels over the liver, kidneys and spleen are exactly
+    that. A forearm gauntlet never was. The change moves the costume toward its
+    own stated logic rather than away from it.
+
     **Sides are fixed, and given from her own left and right.**
-    - **Gauntlet — her RIGHT forearm** — dull grey steel, scratched, most worn.
-      Wrist to below elbow, two leather straps and buckles. **Her left forearm is
-      completely bare — no metal of any kind.**
+    - **Flank panels — BOTH sides, over the ribs.** Shaped scale panels from just
+      under the arm to the point of the hip, following the ribs, drawing in at the
+      waist. **Laced together across the centre front** with a leather thong
+      through punched eyelets, leaving a visible gap of vest cloth between them;
+      two salvaged straps and buckles at the back. **Nothing over the shoulder** —
+      they hang on the lacing and the straps, so her arms stay clear. Worn **over**
+      the vest. **Her RIGHT panel is dull grey steel**, the oldest and most worn
+      thing she owns; **her LEFT is blackened iron**, near-black with rust in the
+      pitting. **The two must not match** — a pair in what they do, never in how
+      they look.
+    - **Gauntlet — her RIGHT forearm — PLAIN LEATHER, no plates.** Wrist to below
+      elbow, two worn straps and buckles as before. A **visibly different leather**
+      from her belt and holster: different tan, different age, cut off something
+      else. **Her left forearm is completely bare.**
     - **Cap — her LEFT shoulder** — brass, green verdigris in the gaps. The
       opposite side to the gauntlet. Right shoulder bare.
     - **Her LEFT outer thigh** — dark bronze, almost brown and noticeably deeper
-      than the shoulder. The newest of the three, cleaner and less worn, clearly
+      than the shoulder. The newest piece, cleaner and less worn, clearly
       added later. Right thigh has no metal.
-    **Her chest, sternum and back are plain cloth. No chest patch, no sternum
-    panel, no bib, no pendant, no breastplate.** Stating this is what stops a
-    full yoke reappearing; omitting it is not enough.
-    **They must not match.** Three scavenging trips, three scraps. **No full yoke,
-    no matching pairs of anything.** At most a fifth of the costume carries metal.
+    **Her chest, sternum and the middle of her back stay plain cloth. No chest
+    patch, no sternum panel, no bib, no pendant, no breastplate.** The flank
+    panels are the only metal on her torso and they sit at the sides. Stating
+    this is what stops a full yoke reappearing; omitting it is not enough.
+    **Nothing matches anything.** Four scavenging trips, four scraps. **No full
+    yoke, no matching pairs of anything — including the two flank panels.**
+    At most a quarter of the costume carries metal.
+
+    *The risk this change introduces, and how it is handled:* a symmetrical pair
+    meeting in the middle is by definition a matched set made for her, which is
+    the opposite of what the mismatch is here to prove. Hence the two panels
+    being different metals of different ages. **A pair in function, never in
+    appearance.**
   - **Fastenings:** buckles, hooks, lacing, toggles, straps. Any zip must be heavy
     industrial hardware — large chunky exposed metal teeth, weathered, oversized
     metal pull. **Never a fine modern coil zip.** If in doubt, use hooks or lacing.

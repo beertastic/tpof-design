@@ -230,9 +230,10 @@ a creature in prosthetics. Eyes carry a reptilian quality while
 remaining expressive and recognisably human. Movement stays human, restrained
 and economical.
 
-Costume: light, fitted, scavenged armour in three small patches only — forearm,
-shoulder and thigh, with no metal on her torso. Layered
-technical cloth, worn leather, repaired matte hardware.
+Costume: light, fitted, scavenged armour in four pieces — a pair of unmatched
+flank panels laced across her ribs, a shoulder cap and a thigh patch, with her
+chest and sternum plain cloth and a PLAIN LEATHER gauntlet on her right forearm.
+Layered technical cloth, worn leather, repaired matte hardware.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
@@ -274,9 +275,9 @@ differently. She did not choose it, and nobody remarks on it.
 **Two small lacing holes** per plate, punched near opposite edges, for the cord
 or wire that fixes it to the backing. The holes are visible.
 
-**Three patches, three different materials.** Mismatched salvaged alloys — dull
-grey steel, brass with green verdigris, dark bronze — and one patch may be
-**hardened hide** cut to the same hexagon rather than metal. Whatever it is cut
+**Four pieces, four different materials.** Mismatched salvaged alloys — dull grey
+steel, blackened iron, brass with green verdigris, dark bronze — and one piece may
+be **hardened hide** cut to the same hexagon rather than metal. Whatever it is cut
 from, **every plate is a discrete, countable, physically separate piece.** Never
 an embossed or printed pattern on a continuous leather panel, never a texture,
 never a pattern on cloth. Leather plates carry the serpent only faintly or not at
@@ -304,7 +305,7 @@ her, and it is wrong.
 
 **Within one patch the metal is broadly consistent** — one trip, one source —
 with only two or three plates obviously replaced later in a different alloy. It
-is the **three patches** that differ from each other, not every plate within a
+is the **four pieces** that differ from each other, not every plate within a
 patch. A panel where every single plate is a different metal reads as decorative
 mottling and loses the four-trips story.
 

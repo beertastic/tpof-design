@@ -4,6 +4,47 @@ All notable production-bible changes are recorded here.
 
 ## Unreleased
 
+### Changed
+- **Shada's armour revised structurally at the team's request, 2026-08-01.** The
+  forearm gauntlet becomes **plain leather with no plates**; a pair of **scale
+  flank panels** is added over her ribs, laced across the centre front. This
+  **reverses "no metal on her torso"**, itself a decision from 2026-07-31. It is
+  the better reading of a lock that already asked for *vital-area protection
+  only* — panels over the liver and kidneys are that; a forearm gauntlet was not.
+  The two panels are deliberately **unmatched** (dull grey steel / blackened
+  iron), because a symmetrical pair meeting in the middle would read as a set
+  made for her, which the whole costume argues against.
+- **Shada's plate count ~370 → ~440** (+19%), the largest labour item in the
+  costume. The gauntlet released ~150 plates; the flank pair costs ~220.
+- **Shada's approved front turnaround UNLOCKED.** It shows a metal gauntlet and
+  no flank panels, and every other view is handed it as "match exactly" — so
+  leaving it approved was worse than having no reference. All five turnarounds
+  and the narrative plates are superseded.
+- **Shada's vest specified as a built garment** from a reference: stand collar,
+  concealed placket, princess seams, cut-on shoulder, shaped raw hem. The
+  concealed placket is what finally removes the modern coil zip, which repeated
+  prohibitions never did.
+- Shada gains explicit rules for **reptilian contact lenses** (previously six
+  words at the end of the face rule, trimmed from every prompt) and **torso
+  coverage** (previously unstated, so a crop top satisfied the brief).
+
+### Fixed
+- **The short prompts were silently dropping the sentences that mattered.** Four
+  wrong images this week traced to the same cause, not to the generator: Baylan's
+  chevron geometry, Shada's patch placement, her bare-arms exception and her
+  plate size were all specified correctly in `outfits.yaml` and trimmed away
+  before reaching a model. Rules now lead with the operative fact, because only
+  the first sentence is guaranteed to survive.
+- **Removed the echo-back block from the short prompts** (`tools/prompt-splitter/short.py`).
+  It asked the model to recite the commit and hash and never once did. Tested
+  before removing: the model holds the pasted text exactly, it simply does not
+  recite provenance when generating. It cost 401 characters — ~40 off *every*
+  non-negotiable — which is the budget those four failures were competing for.
+  Retained in the long prompts and in `AGENTS.md` for connected-repo runs, where
+  the question it asks is real.
+- Baylan's long coat gains **its own five-view turnaround set**; the base five
+  stay the build record.
+
 ## [0.3.0] - 2026-08-01
 
 **The screenplay arrived, and the design documents had drifted from it.**

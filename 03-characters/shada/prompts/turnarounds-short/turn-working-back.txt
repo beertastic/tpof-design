@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ad40eadd (short) · repo commit 1a0df4e 2026-08-01 19:02
+Prompt version: 764d4fbd (short) · repo commit 480dd42 2026-08-01 19:08
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,7 +10,6 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
   THE SCALE PLATES, THEIR FINISH AND HOW: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
@@ -23,16 +22,17 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH. NO METAL ON HER TORSO. NO BREASTPLATE.
-2. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A DOZEN BIG ONES. TESSELLATED EDGE TO EDGE AND NEVER…
-3. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold.
-4. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET, PRINCESS SEAMS, RAW HEM. NO BARE MIDRIFF.
-5. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NO SCARF.
-6. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
-7. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
-8. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
-9. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
-10. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal.
+1. METAL ON HER LEFT SHOULDER, LEFT THIGH, AND A PAIR OF FLANK PANELS OVER HER RIBS — NOWHERE ELSE. NO PLATES ON THE GAUNTLET.
+2. THE FLANK PANELS ARE SCALE ARMOUR LACED ACROSS HER CENTRE FRONT, WORN OVER THE VEST — NOT A BREASTPLATE AND NOT A CORSET.
+3. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A DOZEN BIG ONES. TESSELLATED EDGE TO EDGE AND NEVER…
+4. FOUR METAL PIECES, FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold. NOT brass.
+5. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET, PRINCESS SEAMS, RAW HEM. NO BARE MIDRIFF.
+6. BARE ARMS AND BARE SHOULDERS, EXCEPT A PLAIN LEATHER GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NO SCARF.
+7. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
+8. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
+9. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
+10. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
+11. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

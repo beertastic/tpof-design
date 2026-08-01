@@ -1,7 +1,7 @@
 ---
 title: "Shada — Finish List"
 asset_id: "TRACK-SHADA-IMAGES"
-updated: "2026-07-31"
+updated: "2026-08-01"
 ---
 
 # Shada — Finish List
@@ -20,13 +20,16 @@ useful, approve what is close enough, and do not chase pixel agreement.
 
 What the build actually needs is settled:
 
-- **Three patches** — right forearm gauntlet, left shoulder cap, left thigh. No
-  metal on her torso.
-- **Three different metals** — dull grey steel, brass with verdigris, dark
-  bronze. The mismatch is the point.
+- **Four metal pieces** — a pair of flank panels over the ribs, left shoulder
+  cap, left thigh. **The right forearm gauntlet is plain leather, no plates.**
+  Chest, sternum and the middle of the back stay plain cloth. *Revised
+  2026-08-01 — see `Character-Lock.md`.*
+- **Four different metals** — dull grey steel (right flank), blackened iron
+  (left flank), brass with verdigris (shoulder), dark bronze (thigh). The
+  mismatch is the point, and **the two flank panels must not match each other**.
 - **Plates 10–15 mm**, regular hexagons, tessellated edge to edge, never
   overlapped, each carrying a raised snake swirl that varies plate to plate.
-- **Roughly 370 plates.** See `Costume-Build-Method.md` — this is the largest
+- **Roughly 440 plates.** See `Costume-Build-Method.md` — this is the largest
   hidden labour item in the costume.
 - **WESTAR-35** on her right side; combat knife on her left hip.
 - **Skin:** a faint scale pattern like a tattoo, ancestry tens of thousands of
@@ -34,8 +37,9 @@ What the build actually needs is settled:
 
 Open, non-blocking: photograph the printed WESTAR-35 and add it under
 `references:` in `outfits.yaml` — the entry is there, commented. And run a noise
-test on the first finished patch; she is an infiltrator and 370 hard plates is
-not obviously a quiet garment.
+test on the first finished patch; she is an infiltrator and 440 hard plates is
+not obviously a quiet garment — and the flank panels sit over the ribs, where
+she breathes.
 
 ---
 
@@ -54,11 +58,13 @@ were made, and two images have already been lost to stale copies.
 Then open a **fresh** ChatGPT conversation and attach both references *before*
 pasting anything:
 
-- `03-characters/shada/source/artwork/turn-working-front.png` — approved costume
 - `03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg` — actor
+- `03-characters/shada/source/artwork/material-scale.png` — the plates
 
-Say: *"These are the approved costume and actor references. Match them exactly in
-everything that follows."*
+**There is no approved costume reference at present.** It was unlocked on
+2026-08-01 by the structural revision, because the approved front shows a metal
+gauntlet and no flank panels. Do not attach `turn-working-front.png`: it is a
+picture of a costume that no longer exists.
 
 ---
 
@@ -66,12 +72,13 @@ everything that follows."*
 
 **1. `turn-working-front` first, and nothing else until it is right.**
 
-It is the approved reference in `outfits.yaml` — every other image matches
+It becomes the approved reference in `outfits.yaml` — every other image matches
 against it, so a wrong front view propagates into all twenty. Check it against
-the new spec before approving: hexagonal plates 10–15 mm across, tessellated
+the revised spec before approving: hexagonal plates 10–15 mm across, tessellated
 edge to edge and **never overlapped**, the same worn serpent stamp on every
-plate, three visibly different metals in three patches with no metal on the
-torso, and a WESTAR-35 on her right side.
+plate, **a pair of unmatched flank panels laced across the centre front**, a
+**plain leather** gauntlet on her right forearm, four visibly different metals,
+and a WESTAR-35 on her right side.
 
 Re-approve it in `outfits.yaml` once it is right.
 
@@ -102,7 +109,8 @@ sides carries the item.** In a back view:
 
 | Element | Her side | Back view: viewer's |
 |---|---|---|
-| Gauntlet | right forearm | **right** |
+| Leather gauntlet | right forearm | **right** |
+| Flank panels | both sides | **both** — but still unmatched |
 | Shoulder cap | left shoulder | **left** |
 | Thigh patch | left thigh | **left** |
 | Blaster | right thigh | **right** |
@@ -113,7 +121,8 @@ frame position cannot catch a mirror. What catches it is anatomy: a real back
 view shows shoulder blades, the back seams of the vest, rear pockets and the
 back of her head. A mirrored front shows her face and the front closure.
 
-The current `turn-working-back` passes both tests.
+The `turn-working-back` in the repository passed both tests, but predates the
+2026-08-01 revision and shows the superseded build.
 
 ---
 
@@ -138,13 +147,14 @@ building.
 
 | Image | Why |
 |---|---|
-| All five `turn-working-*` | Hexagonal plates and the serpent stamp; WESTAR-35 |
+| All five `turn-working-*` | **Superseded twice.** Hexagonal plates and WESTAR-35, then the 2026-08-01 flank panels and leather gauntlet |
 | `blaster` | It is a WESTAR-35 now, not a generic sidearm |
 | `material-scale` | Hexagons with a pressed stamp, not round coins |
 | `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Scale shape and blaster model both visible |
 
-The front turnaround is still the approved reference in `outfits.yaml`. **Redo it
-first**, re-approve it, then everything else matches against the new one.
+**The front turnaround is no longer approved** — the block is commented out in
+`outfits.yaml`. **Redo it first**, re-approve it there, then everything else
+matches against the new one.
 
 `species_strip` and `expression_strip` are particularly good — leave them alone.
 
@@ -158,20 +168,24 @@ costume reference. Every character now has this slot.
 
 The failures that keep recurring:
 
-- **Metal on both forearms.** One gauntlet, her right.
+- **Metal on the gauntlet.** It is plain leather now. One gauntlet, her right,
+  and her left forearm is bare.
 - **Shoulder caps on both shoulders.** One cap, her left — the opposite side to
   the gauntlet. This is the rule doing the most work in the design: symmetry
   quietly turns scavenged mismatch into a costume somebody made for her.
-- **Matching scale patches.** Three patches, three different metals.
+- **Matching flank panels.** They are a pair in function only — different
+  metals, different ages, one visibly added later.
 - **A bulky silhouette.** Close-fitting, cut to the figure.
 - **Any interior except the Sabacc hold.** Forest, clearing or camp — with the single exception of slot 2, Scene 10, which moved inside the ship on 2026-08-01. Anywhere else, a wall or ceiling is wrong.
 - **A modern coil zip.** Industrial hardware, or hooks and lacing. Still slipping
   through on nearly every frame — the one recurring fault not yet beaten.
 - **The blaster on her left.** It is on her right thigh; only the knife is on her
   left.
-- **Three patches in the same metal.** Steel gauntlet, brass cap, dark bronze
+- **Pieces in the same metal.** Steel and iron flanks, brass cap, dark bronze
   thigh. They drift toward matching brass.
-- **Metal on the torso.** There is none. A chest patch, bib or pendant is wrong.
+- **Metal on the chest.** The flank panels sit at the SIDES, over the ribs. Her
+  chest, sternum and the middle of her back stay plain cloth — a chest patch,
+  bib, pendant or breastplate is still wrong.
 
 Two or more together almost always means **the references were not attached**.
 

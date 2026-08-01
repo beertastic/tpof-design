@@ -23,7 +23,7 @@ Mood and narrative images are context. Three or four per character is enough.
 
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
-| Shada | 1 | 5 | 5/5 — design closed, images indicative |
+| Shada | 1 | 5 | **0/5 current.** Structural revision 2026-08-01 — flank panels added, gauntlet now leather. The approved front is UNLOCKED and all five views are superseded. Redo the front first |
 | Mercenary Kit | 4 people (Merc 1–4) | 20 | **Ids renamed to the people, 2026-08-01** — files are `turn-merc-1-front` etc, and there is now a board config with one turnaround sheet each. 3/4 fronts were generated but **are not in the repository**. **Merc 1, the Wookiee, has no generated turnaround by decision** — fill his sheet from concept art or build photos |
 | Baylan | **1**, in two states | **10** | not started. Collapsed from four outfits to one on 2026-08-01 — the robe is a removable layer and the separate Jedi build is dropped. **The coat gained its own five-view set on 2026-08-01** (`working-coat`): the base five are the build record, the coat five are the silhouette the audience sees. **Chevron geometry fixed against reference the same day** — a centre-front plastron, five broad bands, throat to belt, narrower than his shoulders. `handedness: right`, checker clean. Lock his prop plates before his figures |
 | Shin | 3 states | 15 | not started — **blocked the same way Baylan was**: no `handedness:`, no `must_show:` on any state |
@@ -34,7 +34,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Character | Status | Notes |
 |---|---|---|
-| Shada | **Design closed** | Documents, outfits.yaml and 21 prompts current and consistent. Images are a guide, not a lock — regenerate as needed. See `Shada-Image-TODO.md` |
+| Shada | **Design REOPENED 2026-08-01** | Was closed 2026-07-31. Reopened by a team request: the forearm gauntlet becomes plain leather, and a pair of unmatched scale flank panels is added over her ribs — which reverses "no metal on the torso". Documents, outfits.yaml and 21 prompts are current with the revision; the images are not. Recorded in `Character-Lock.md`; build cost in `Costume-Build-Method.md` (~370 → ~440 plates) |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder — **death and finale written** | Commands via the akk dog. Kills Krellis mid-sentence and smiles. **Killed by Nyx's deflected bolt, not by Baylan** |
 | Nyx | In development | **PRIORITY.** The blade changes colour on him — killed **before** the massacre, not last. His deflected shot kills Jasu. Baseline human — decided. Design still TBD |

@@ -77,6 +77,18 @@ def check_placement(character: str, cfg: dict) -> list[str]:
                 "but never says which side. State it from the wearer's own left "
                 "and right, e.g. \"her right thigh\".")
 
+        # A space in a filename breaks the raw URL a connected model builds, and
+        # it fails as a 000 rather than a 404 — indistinguishable from having no
+        # access at all. Cost an afternoon on 2026-08-01.
+        actor_dir = Path("03-characters") / character / "reference" / "actor"
+        if actor_dir.is_dir():
+            for f in actor_dir.iterdir():
+                if " " in f.name and f.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp"):
+                    warnings.append(
+                        f"{character}: actor reference `{f.name}` has a space in "
+                        f"its filename. Rename it — see 03-characters/CAST-REFERENCE.md "
+                        f"for the expected names.")
+
         for r in (o.get("references") or []):
             if not (Path("03-characters") / character / r["path"]).is_file():
                 warnings.append(

@@ -65,6 +65,13 @@ outfits:
     references:
       - path: reference/concept/jasu-concept-sketch.jpg
         what: the shoulder mantle, the ribbed torso and the leg panels
+      # A painted figure built from the concept drawings, 2026-08-01. It is the
+      # only three-dimensional record of the headdress and the hair, which is
+      # exactly what a drawing cannot hold.
+      - path: reference/build/jasu-figure-front.jpg
+        what: the headdress and the swept-up hair, from the front
+      - path: reference/build/jasu-figure-side.jpg
+        what: the headdress and the swept-up hair, in profile
       # Her blaster is the A180 — the weapon Jyn Erso carries in Rogue One.
       # Same rule as Shada's WESTAR-35: for anything PHYSICALLY BUILT the
       # reference is a photograph of the build, not a film still and not a
@@ -160,15 +167,23 @@ outfits:
         IT IS THE ONLY THING ON HER WIDER THAN SHE IS, and on a 150 cm frame that
         is the whole point: it is the shape of authority, worn. She had it made.
       - >
-        NOTHING ON HER HEAD. NO headdress, NO circlet, NO diadem, NO crown, NO
-        band, NO helmet, NO ornament of any kind at her brow or in her hair.
-        Removed by the production 2026-08-01 — the shoulder mantle carries what
-        the band was carrying, and carries it better, because it is construction
-        rather than jewellery.
-        HER HAIR IS LONG AND DARK, and BOUND UP AND BACK for the field — off the
-        face and off the collar, in a tight worked shape that holds. Never loose
-        and flowing, never styled, never a hairstyle anyone maintained. She works
-        in a forest and handles an animal that could take her arm off.
+        THE HEADDRESS — PALE CURVED HORNS SET INTO SWEPT-UP HAIR. MATCH THE
+        FIGURE PHOTOGRAPHS ATTACHED ABOVE; THEY ARE THE ONLY RECORD OF IT.
+        HER HAIR is long and dark, swept UP AND BACK off the face into a large
+        rolled, worked mass held high on the head, with the length falling loose
+        behind and to the sides. It is a BUILT shape, not a hairstyle anyone
+        maintains daily.
+        SET INTO IT, PALE CURVED HORNS — bone or bone-coloured, smooth, tapering
+        to points, projecting UP AND OUTWARD from both sides. Long and sweeping
+        on one side, shorter points on the other. ASYMMETRIC. They are pale
+        against very dark hair and that contrast is the whole effect.
+        NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask,
+        NOT a visor. Nothing covers her face or her brow, and nothing is
+        engraved, jewelled or polished. The horns are BONE — worn, matte, and
+        clearly taken off something that was once alive.
+        This is the ONE ornamental thing in her costume and it is deliberate. It
+        is also the only thing on her that anybody could mistake for a trophy —
+        which, on the woman whose authority is a borrowed animal, is the point.
       - >
         MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART.
         THE BODY IS TEXTILE: heavy ribbed knit, quilted panels, dense woven
@@ -201,9 +216,15 @@ outfits:
         THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN
         ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left.
         Holstered, belt-mounted, grip up and angled forward for a right-hand
-        draw. It is a MODULAR weapon — a compact pistol built to be reconfigured,
-        with the fittings for that visible on it. NOT a generic sidearm, NOT a
-        scratch-built mismatch, NOT an antique.
+        draw. It is a MODULAR weapon — a compact pistol built to be reconfigured
+        — and the fittings for that are visible on it: rails and mounting points
+        along the top and the fore-end where the other parts attach.
+        THE SHAPE IS ANGULAR AND BOXY, not curved and not organic: a squared-off
+        receiver, a heavy squared barrel shroud running forward, a short muzzle
+        and a slim grip raked back. Dark metal, matte, machined.
+        NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT
+        an antique, NOT ornate. It is a manufactured product and it looks it —
+        which is precisely why it is hers and not this crew's.
         Unlike everything else in this crew it is CLEAN, SERVICED AND CARED FOR —
         unscratched finish, working hardware, nothing improvised. It is the one
         thing she spends money keeping right, and a modular weapon is an

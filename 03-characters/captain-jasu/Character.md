@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.7"
+version: "0.8"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -271,7 +271,7 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 |---|---|
 | **Shoulder mantle** | **The signature.** A stiff dark *ribbed cloth* yoke over both shoulders, standing proud and reaching past the shoulder points before angling down over the upper arm; rises at the back into the stand collar. **The only thing on her wider than she is.** From the concept sketch, 2026-08-01 |
 | **Materials** | **More cloth than leather.** Heavy ribbed knit, quilted panels, dense canvas. Leather confined to belt, boots, bracers, holster |
-| **Head** | **Nothing.** No headdress, circlet, crown or band. Removed 2026-08-01 |
+| **Head** | **Pale curved horns set into swept-up hair.** Bone, asymmetric, projecting up and outward. Reinstated 2026-08-01 from the painted figure — see below |
 | **Body garment** | **A second skin** — good dark hide and technical cloth, close to the body from throat to ankle. No volume anywhere. **Revised 2026-08-01: she has to be agile and the costume must say so at a glance** |
 | **Below the belt** | **Narrow split panels** hanging straight over the skin-tight leg, long enough to keep the upright line, parting completely when she moves. Never a skirt, never a flare |
 | **Shoulder** | Hard, square, structured — **the only place the costume is wider than she is** |
@@ -304,7 +304,42 @@ belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
 
-### The concept sketch, and losing the headdress — **2026-08-01**
+### The headdress comes back — **2026-08-01, and it needs a reason**
+
+Reinstated by the production from a **painted figure built off the concept
+drawings**, now a reference plate at [`reference/build/`](reference/build/). It is
+the only three-dimensional record of the headdress, which is exactly the thing a
+drawing cannot hold.
+
+**What it is:** long dark hair swept up and back into a large rolled, worked mass,
+with **pale curved horns** — bone or bone-coloured, tapering, asymmetric — set
+into it and projecting up and outward from both sides. Pale against very dark
+hair, and that contrast is the whole effect.
+
+**They are not from her akk.** Checked before assuming it:
+[`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md) says
+**"no fantasy horns, no ornamental spikes"** — the animal has none to give.
+
+**So what are they, and this is worth deciding.** It is the only ornamental thing
+in a costume built on *no insignia, nothing a real officer would wear*, and in a
+faction whose rule is that decoration is what everyone else does. It can carry
+that weight, but only if it means something. The strongest available reading:
+
+> **They are trophies from what the animal kills.** She wears pieces of the
+> beast's work on her head. That makes the one decorative object on her a display
+> of *the animal's* power rather than her own — which is the entire character,
+> made literal and worn where everyone can see it.
+
+That reading also survives the no-ornament rule, because a trophy is a claim
+rather than a flourish. **Offered, not decided.** If the production has another
+answer, it should be recorded, because "she just likes them" makes her the one
+person in the film wearing jewellery for no reason.
+
+**Left open:** whether the horns are worn in every scene. A large built
+hairstyle is a continuity and schedule cost across six scenes, and it is the
+first thing that would be dropped for the pursuit sequence.
+
+### The concept sketch — **2026-08-01**
 
 The production's early concept drawing is now a reference plate at
 [`reference/concept/`](reference/concept/) and is attached to every prompt. The
@@ -366,6 +401,13 @@ borrowed.
   in `outfits.yaml` at `reference/props/a180.jpg`, waiting for that photograph.
   Until it exists the A180 is held by words alone, and words do not hold a
   silhouette.
+
+  **This is already happening.** The 2026-08-01 turnaround came back with a
+  generic pistol despite the prompt naming the weapon, which is the predicted
+  failure and not a generation error. The written description has been sharpened
+  — angular, boxy, squared receiver and barrel shroud, visible modular rails —
+  but **a named weapon with no image will keep arriving as a shape the model
+  already knows.** The fix is a picture, and nothing else is.
 
   **Verify the designation** with the armourer before it is engraved anywhere.
   "A180" is recorded here from the production's note; the object is *"Jyn Erso's
@@ -432,6 +474,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.8 | 2026-08-01 | in-development | **Headdress reinstated** from a painted figure built off the concept drawings, now a reference plate: pale curved bone horns set into swept-up hair, asymmetric. Confirmed the horns cannot be from her akk — the creature document forbids horns — and proposed the reading that they are trophies from what the animal kills, which is the only justification that survives her no-ornament rule. A180 description sharpened after it generated as a generic pistol; flagged that only an image will fix it. |
 | 0.7 | 2026-08-01 | in-development | **Blaster specified as the A180**, the weapon Jyn Erso carries in Rogue One. Period-correct at ~1 BBY. Modular, and therefore expensive — the second place her share shows without looking like rank. Reference entry left commented pending a photograph of the built prop, per the rule Shada's WESTAR-35 established. |
 | 0.6 | 2026-08-01 | in-development | **Concept sketch adopted as a reference plate**, attached to every prompt. Gains the **shoulder mantle** — a stiff ribbed cloth yoke, the signature of the costume and the only thing on her wider than she is. **Headdress removed entirely**; the mantle carries what it was carrying and does it as construction rather than jewellery. Materials shifted to **more cloth than leather**, and the cut to an **acrobat fit** — articulated at every joint. |
 | 0.5 | 2026-08-01 | in-development | **Silhouette revised to skin-tight** at the production's request — she has to read as agile. The long skirted coat loses its volume; the officer line now rests entirely on the stand collar, the square shoulder and the belt, over a second skin. Narrow split panels below the belt keep the upright line without a skirt. Reinforces the made-to-measure argument: a garment cut this close cannot be scavenged. |

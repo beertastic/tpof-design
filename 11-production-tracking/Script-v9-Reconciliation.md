@@ -334,6 +334,40 @@ asleep in it.
 
 ---
 
+## 10. Captain Jasu is cast against her description — **OPEN. Needs a writer decision.**
+
+**The script:** *"CAPTAIN JASU (40s), a powerful woman with a mean streak."*
+Sc.9, unchanged between v9 and v10.
+
+**Cast 2026-08-01:** a **twenty-eight-year-old actress, 150 cm (4 ft 11 in)** —
+the smallest adult in the film.
+
+Both halves of the description are now wrong. "A powerful woman" can be read as
+powerful in *position* rather than physique and survives; **"(40s)" cannot.**
+
+**This is item 1 again.** Baylan's age conflict was resolved by changing the
+script, not the design. The same choice is available here and it is the writer's,
+not the art department's:
+
+| Option | Consequence |
+|---|---|
+| **Change the script** to match the casting | Cleanest. One parenthetical. Follows the precedent set by Baylan's age |
+| **Leave the script and record the departure** | Already done in `Character.md` — but the screenplay then carries a description no reader can reconcile with the film |
+
+**The art department has proceeded on the casting**, because the costume could
+not be specified without a body. `outfits.yaml` and `Character.md` are written to
+28 and 150 cm, and the departure is recorded in both.
+
+**Worth saying to the writer:** the casting sharpens the character rather than
+compromising it. *The animal is her rank* was always the point, but a powerfully
+built forty-year-old gives an audience alternative explanations — she is strong,
+she is experienced. A twenty-eight-year-old two thirds the size of the men who
+kneel to her leaves **only** the beast. The eye she took off Nyx, the crew
+kneeling in Sc.19, and the animal that outweighs her all get worse in the useful
+direction. There may be a line or a beat in it that is worth having.
+
+---
+
 ## What has already been actioned
 
 - **Baylan collapsed to one costume** with the robe as a removable layer, and the

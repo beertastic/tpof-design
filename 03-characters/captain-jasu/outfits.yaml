@@ -5,15 +5,21 @@ ratio: "2:3"
 # See 09-prompt-library/Handedness-And-Placement.md
 handedness: right
 
-# The script says "a powerful woman with a mean streak" and gives no height.
-# 175 cm is an art department proposal, not a script fact — she is tall and
-# heavy for the crew, and Baylan still stands a clear head above her.
+# CAST 2026-08-01, and this is a DEPARTURE FROM THE SCRIPT. The screenplay says
+# "CAPTAIN JASU (40s), a powerful woman". She is now twenty-eight and 150 cm.
+# Recorded in Character.md so nobody rediscovers it as an error.
+#
+# It makes the design stronger, not weaker. "The animal is her rank" was always
+# the central fact; at 4 ft 11 in there is now NOTHING else it could be.
 height: >
-  Around 175 cm and POWERFULLY BUILT — broad through the shoulders and back,
-  heavy through the arms, thick-set rather than lean or athletic. NOT slight,
-  NOT willowy, never styled. Twenty years of this work and she can still do it
+  150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest
+  adult in the film. She is TWENTY-EIGHT. NOT imposing, NOT muscular, NOT
+  physically dangerous-looking in any way. Baylan stands 48 cm taller than her
+  and her own animal outweighs her
 
 do_not_retrieve_short: >
+  SHE IS 28 AND 150 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a
+  mercenary captain tall, broad, older or physically formidable.
   DO NOT draw an Imperial officer and DO NOT draw a samurai. She has a high
   collar, a hard shoulder and a long coat, and that is where the resemblance
   stops: no Imperial grey, no rank badge, no code cylinders, no peaked military
@@ -38,6 +44,13 @@ do_not_retrieve: >
   standing beside her in the finale is a Jedi hiding as a mercenary, and his
   entire design depends on nobody in frame reading as one.
 
+  AND SHE IS NOT PHYSICALLY IMPOSING. She is twenty-eight years old, 150 cm,
+  slight and fine-boned — the smallest adult in the film, and her own animal
+  outweighs her. The word "captain" will pull you toward someone tall, broad and
+  weathered. Refuse it. She is obeyed because of the beast at her side and for no
+  other reason, and an image that makes her physically formidable has destroyed
+  the only idea in the design.
+
   WHAT IS TRUE INSTEAD: she has bought the SHAPE of authority — a closed high
   collar, a square shoulder, a long coat and a cinched waist — because she has
   none of the real thing. It is well made and it has been in a forest for weeks.
@@ -49,7 +62,8 @@ outfits:
     scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
     description: >
       The only coherent, deliberately assembled outfit in this crew, and that is
-      the point of it. A long coat in good dark hide, falling in a skirted panel
+      the point of it, on a woman of twenty-eight who stands 150 cm and is the
+      smallest adult in the film. A long coat in good dark hide, falling in a skirted panel
       below the knee and split at the back for walking. It is cut with a hard
       square shoulder line, and it closes high at the throat on a stiff stand
       collar that stands upright and never opens. The waist is
@@ -75,6 +89,10 @@ outfits:
         than earned: a woman dressed as an officer of an army that does not
         exist. If she reads as a person who would be obeyed without the animal,
         the image has failed.
+        SHE IS THE SMALLEST PERSON IN ALMOST EVERY SCENE SHE IS IN, and she
+        commands anyway. Do not compensate for that. Do not make her taller,
+        broader, older or harder-looking to justify the rank — the gap between
+        what she is and what she controls IS the character.
       - >
         THE SILHOUETTE IS HIGH COLLAR, HARD SQUARE SHOULDER, LONG SKIRTED COAT,
         HARD-CINCHED WAIST, TALL BOOTS.
@@ -89,12 +107,20 @@ outfits:
         THE BOOTS are tall, the best in the crew, resoled and looked after.
         The severity is the point. Everything about the line is closed, upright
         and deliberate, and everything about the condition contradicts it.
+        IT IS CUT TO HER, NOT SWAMPING HER. She is 150 cm and the coat is made to
+        her scale — the hem clears the ground, the shoulder sits on HER shoulder,
+        the sleeves end at HER wrist. It must NEVER look borrowed, oversized,
+        or like a child in an adult's clothes. That misreading would make her
+        pitiable, and she is not.
       - >
         A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK.
         It sits low across the forehead, hugging the head, with a small worn
         crest set ASYMMETRICALLY to one side. NO horns, NO wings, NO plume, NO
         face plate, NO neck guard, NO visor, and it covers NONE of her face.
-        Her head is otherwise bare and her hair is visible.
+        Her head is otherwise bare and her hair is visible: LONG AND DARK, and
+        BOUND BACK OR UP for the field — off the face and off the collar. Never
+        loose and flowing, never styled, never a hairstyle anyone maintained.
+        She works in a forest and handles an animal that could take her arm off.
         It is THE ONLY DECORATIVE OBJECT ON HER, and it must read as something
         she picked out and put on rather than something awarded to her. Slightly
         too much, and nobody in this crew is going to say so.
@@ -106,6 +132,10 @@ outfits:
         coat, mended at the cuffs and the hem, mud to the knee, the collar worn
         shiny where it rubs. NOT clean, NOT pressed, NOT ceremonial, NOT new.
         She has been in a forest for weeks and she fights in these clothes.
+        AND IT WAS MADE FOR HER. In a crew wearing dead men's kit and salvage,
+        hers is the only outfit in the film that was cut to measure — at her
+        size, nothing could be scavenged to fit anyway. Nobody out here has
+        anything made. That is what the money actually looks like on her.
       - >
         THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE
         ANIMAL AND NEITHER FOR THE CREW.
@@ -125,13 +155,17 @@ outfits:
         mismatched parts. It is the one thing she spends money keeping right.
         The leash, pouches and tools sit on her LEFT, off the drawing side.
       - >
-        FORTIES, AND POWERFULLY BUILT. Broad through the shoulders and back,
-        heavy through the arms, thick-set — NOT lean, NOT athletic, NOT styled,
-        NOT glamorous. A woman who has done twenty years of this and can still
-        do it. Her face is hard and unsentimental and it is capable of a small,
-        genuinely amused smile — she kills a man mid-sentence and smiles
-        afterwards, and it must read as characteristic rather than theatrical.
-        NO makeup that reads as makeup.
+        TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM.
+        Slight, fine-boned, and NOT physically imposing in any way: NOT muscular,
+        NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she
+        could win a fight or hold a room by force, because the entire point is
+        that she cannot and does not have to.
+        She is a young East Asian woman with long dark hair. Her face is calm and
+        unsentimental and capable of a small, genuinely amused smile — she kills
+        a man mid-sentence and smiles afterwards, and it must read as
+        characteristic rather than theatrical.
+        NO makeup that reads as makeup, NO glamour, NO styling. She is not
+        presented as attractive; she is presented as a person doing a job.
       - >
         MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK.
         Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey

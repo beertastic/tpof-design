@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.2"
+version: "0.3"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -80,7 +80,43 @@ This is the central fact of her design.
 > **CAPTAIN JASU (40s), a powerful woman with a mean streak.** — Sc.9, identical
 > in v9 and v10.
 
-So: **human woman, forties, powerfully built.** Not an art department decision.
+**She is human and she has a mean streak. The rest is now a recorded departure —
+see below.**
+
+### CAST 2026-08-01 — and it departs from the script. Recorded, not hidden.
+
+**Cast: a Chinese actress, 28 years old, 150 cm (4 ft 11 in).** Headshot at
+`reference/actor/`.
+
+The screenplay says *"(40s), a powerful woman"*. She is now **twenty-eight and
+the smallest adult in the film.** That is a deliberate departure, decided by the
+production, and it is written down here so nobody rediscovers it in three months
+and "corrects" it back.
+
+**Why it makes the design better rather than worse.** *The animal is her rank*
+was already the central fact of this character — but at forty and powerfully
+built, an audience had other explanations available: she is strong, she is
+experienced, she has done this a long time. **At twenty-eight and 4 ft 11 in
+there are no other explanations left.** She is obeyed because of the beast and
+for no other reason. The gap between what she is and what she controls is now the
+whole character, and it is visible in every frame without a line of dialogue.
+
+Everything that was frightening about her gets worse, not softer:
+
+- **She has taken one of Nyx's eyes** — a grown mercenary, taken by a woman two
+  thirds his size, and he jokes about it.
+- **Sc.19, the crew kneels to her.** Kneeling, most of them are at her eye level.
+- **Her own animal outweighs her.** The akk dog is described as *a large,
+  dog-like beast*; she is 150 cm. In Sc.9 she is curled up beside something
+  bigger than she is, worrying about whether it has eaten.
+- **Baylan stands 48 cm taller** and takes her orders for eighteen years.
+
+**The one thing this must never become is pitiable.** She is not a small person
+overwhelmed by a big job, and nothing may read as a child in adult clothes. Her
+coat is cut to her size — see below, it is the point of it.
+
+**Left open:** how a twenty-eight-year-old came to captain this crew. The
+production has a backstory pending; do not invent one.
 
 **She has taken one of Nyx's eyes.** Sc.14, Nyx to Baylan, lightly, as a joke
 between friends: *"Gotta finish my route or Jasu will have my other eye."* That
@@ -149,16 +185,19 @@ the identifiable garments. No tunic, no peaked cap, no lacquered plate, no sword
 - **Species: human.** Decided 2026-08-01. The akk dog should be the only
   non-human thing beside her — her authority is borrowed from it, so nothing
   about her body may compete with it for attention.
-- **Age: forties.** From the script.
-- **Build: powerfully built** — broad through the shoulders and back, heavy
-  through the arms, thick-set rather than lean or athletic. Twenty years of the
-  work and she can still do it.
-- **Height: around 175 cm.** An art department proposal, not a script fact.
-  Baylan stands a clear head above her at 198.
+- **Age: twenty-eight.** From casting. Departs from the script's "(40s)" — see
+  above.
+- **Build: small and slight**, fine-boned. Not muscular, not broad, not
+  physically imposing in any way. Nothing about her body may suggest she could
+  win a fight or hold a room by force.
+- **Height: 150 cm (4 ft 11 in).** From casting. The smallest adult in the film.
+  Baylan is 198 — he stands 48 cm above her.
+- **Long dark hair**, bound back or up for the field. Never loose, never styled.
 - **Handedness: RIGHT.** Decided 2026-08-01. Blaster on her right hip; leash,
   pouches and tools on her left, off the drawing side.
-- **Not yet cast.** No reference photograph exists, and the prompts say so
-  rather than inventing a likeness.
+- **CAST 2026-08-01.** Reference headshot at
+  [`reference/actor/`](reference/actor/). See `03-characters/CAST-REFERENCE.md`
+  for the consent requirements that attach to it.
 
 ## Costume and Armour
 
@@ -172,6 +211,13 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 | **Boots** | Tall, the best in the crew, resoled and cared for |
 | **Brow band** | Low, ornate, asymmetric, a small worn crest to one side. **Not a helmet, not a crown, covers none of her face.** The only decorative object on her |
 | **Condition** | Good materials, badly weathered. Faded across the shoulders, mended at cuff and hem, mud to the knee, collar worn shiny |
+| **Fit** | **Cut to her, at her size.** Never oversized, never borrowed, never swamping her |
+
+**The fit is where the money shows.** In a crew wearing dead men's kit and
+salvage, hers is the only outfit in the film that was **made to measure** — and
+at 150 cm nothing could have been scavenged to fit her anyway. Nobody out here
+has anything made. That is what her share actually looks like, and it is a
+better answer than "more of it" or "shinier".
 
 **No insignia, no rank badge, no faction mark, no medal, no braid.** The moment
 she carries a real marking, the design collapses — her authority stops being
@@ -229,8 +275,10 @@ TBD.
   older tack, a mark, a scar she did not cause?
 - ~~Is she afraid of it?~~ **No** — she raised it. That removes a layer of tension
   and adds a worse one. Decided 2026-08-01.
-- **Casting.** No actor reference exists. Until one does, every generated image
-  gives her a different face.
+- **How did a twenty-eight-year-old come to captain this crew?** Backstory
+  pending from the production, 2026-08-01. Do not invent one.
+- **Does the akk dog predate her captaincy?** She probably raised it from young,
+  which at twenty-eight means she raised it as a teenager — most of her life.
 - **What does the crest on the brow band depict?** It should be salvage or
   purchase, never an award. Nobody has decided what it is.
 - **Does she wear the coat in every scene**, or does it come off for the pursuit
@@ -241,4 +289,5 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 150 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |
 | 0.2 | 2026-08-01 | in-development | Physical design decided: human, forties, powerfully built, right-handed. Costume resolved from a Japanese-officer reference abstracted to proportions only per Bible §6.5. Whistle and coiled leash decided. `outfits.yaml` written; five turnaround prompts generate. Script facts recovered — the eye taken from Nyx, the friendship with Baylan, and the Sc.9 plant of the finale. |

@@ -1,10 +1,10 @@
 [SHIN — THE CLEARING — FRONT]
 Output file: turn-final-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 207bdb38 (short) · repo commit b502a54 2026-08-01 17:06
+Prompt version: 207bdb38 (short) · repo commit 311f115 2026-08-01 17:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit b502a54, prompt 207bdb38.
+    Working from commit 311f115, prompt 207bdb38.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

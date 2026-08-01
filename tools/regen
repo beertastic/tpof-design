@@ -55,16 +55,17 @@ for gen in short turnarounds split; do
         echo "$OUT" | sed 's/^/      /'
         exit 1
     fi
-    ok "$gen.py — $(echo "$OUT" | grep -v '^!' | tail -1)"
-    WARNINGS="$WARNINGS$(echo "$OUT" | grep '^!' || true)
+    ok "$gen.py — $(echo "$OUT" | grep -vE '^[[:space:]]*!' | tail -1)"
+    WARNINGS="$WARNINGS$(echo "$OUT" | grep -E '^[[:space:]]*!' || true)
 "
 done
 
-WARNINGS=$(echo "$WARNINGS" | grep -v '^$' || true)
+WARNINGS=$(echo "$WARNINGS" | sed 's/^[[:space:]]*//' | sort -u | grep -v '^$' || true)
+BLOCKING=$(echo "$WARNINGS" | grep -E 'handedness|must_show' || true)
 if [ -n "$WARNINGS" ]; then
     echo
-    b "Warnings — read these before generating anything"
-    echo "$WARNINGS" | sed 's/^! /  ! /'
+    b "Warnings"
+    echo "$WARNINGS" | sed 's/^/  /'
 fi
 
 # ---- commit and push -------------------------------------------------------
@@ -100,6 +101,20 @@ COMMIT=$(echo "$STAMP" | sed -n 's/.*repo commit \([0-9a-f]*\).*/\1/p')
 HASH=$(echo "$STAMP" | sed -n 's/Prompt version: \([0-9a-f]*\).*/\1/p')
 ACTOR=$(ls "$DIR"/reference/actor/*.jpg "$DIR"/reference/actor/*.png 2>/dev/null | head -3)
 
+if [ -n "$BLOCKING" ]; then
+    echo
+    b "STOP — this character is not ready to generate"
+    echo
+    echo "  Handedness and must_show are not optional. Without them every weapon"
+    echo "  and armour placement is decided by the generator, differently each"
+    echo "  time, and no two views will match."
+    echo
+    echo "  Fix $DIR/outfits.yaml, then run this again."
+    echo "  See 09-prompt-library/Handedness-And-Placement.md"
+    echo
+    exit 2
+fi
+
 echo
 b "NEXT — the front turnaround"
 echo
@@ -119,8 +134,13 @@ echo "  4. Its reply MUST start with this line. No line, no image:"
 echo
 printf '       \033[1mWorking from commit %s, prompt %s.\033[0m\n' "$COMMIT" "$HASH"
 echo
-echo "  Copy the file to your clipboard with:"
-printf '       \033[36mxclip -selection clipboard < %s\033[0m\n' "$ROOT/${FRONT#./}"
-echo
+for c in "xclip -selection clipboard <" "xsel --clipboard <" "wl-copy <" "pbcopy <"; do
+    if command -v "${c%% *}" >/dev/null 2>&1; then
+        echo "  Copy it to the clipboard with:"
+        printf '       \033[36m%s %s\033[0m\n' "$c" "$ROOT/${FRONT#./}"
+        echo
+        break
+    fi
+done
 echo "  Full procedure: 09-prompt-library/Character-Image-Checklist.md"
 echo

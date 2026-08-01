@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — THE CLEARING — LEFT SIDE]
 Output file: turn-final-left.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 45037971 · repo commit b502a54 2026-08-01 17:06
+Prompt version: 45037971 · repo commit 311f115 2026-08-01 17:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit b502a54, prompt 45037971.
+    Working from commit 311f115, prompt 45037971.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

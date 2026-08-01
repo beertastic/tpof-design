@@ -1,5 +1,14 @@
 # Production Documentation Workflow
 
+**First, once per clone:**
+
+```bash
+git config core.hooksPath tools/hooks
+```
+
+Without it, `REPO-STATE.md` stops being stamped, and a connected AI agent loses
+its only way to tell current files from cached ones. See [`AGENTS.md`](AGENTS.md).
+
 ## Status values
 
 - `Concept` — exploratory and not canonical

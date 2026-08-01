@@ -2,7 +2,7 @@
 title: "Scene 10 — the Sabacc game, as a showcase"
 asset_id: "SCENE-10-SABACC"
 version: "1.0"
-status: "brief — script changes proposed, not yet made"
+status: "brief — draft A written; REVISIT once the mercs are built out"
 source: "Screenplay v10"
 ---
 
@@ -159,9 +159,33 @@ gossips about both of them in consecutive lines — *"Jasu's golden boy"*,
 *"Bay's her right hand"*. The two people not at the card game are the captain and
 the one who is hiding. That reads better than either of them standing in a corner.
 
+## Revisit this once the mercenaries are built out
+
+**Draft A is at [`drafts/sc10-sabacc-draft-a.fountain`](drafts/sc10-sabacc-draft-a.fountain),
+and it is a first pass, not the version to shoot.**
+
+The reason is worth writing down, because it applies to every scene these four
+appear in. Draft A gives Mercs 1–4 *business* — a whetstone, a trophy, a winning
+hand — and that business was inferred from their **costumes**, because costumes
+were all they had. Shada's material works because there is a whole document
+behind her and the writing can reach for who she is. The four had nothing behind
+them.
+
+That is now fixed: see **"The four, as people"** in
+[`03-characters/mercenary-kit/Character.md`](../../03-characters/mercenary-kit/Character.md).
+A paragraph each — who they are, how they behave in a room, and what their death
+costs.
+
+**Write the next pass from that section, not from the kit list.** The beats will
+change, and they should. Merc 2 sitting out of the game reads completely
+differently once you know he is the one keeping the count and assumes everybody
+else knows it too.
+
+Same applies to casting and to direction on the day.
+
 ## Proposed script changes
 
-Not made. These are for the writer.
+From the first pass. Draft A implements these; the next pass supersedes them.
 
 1. **Redistribute four of Nyx's fourteen lines** to Merc 2, Merc 3 and Merc 4.
 2. **Give Merc 1 a physical beat and a win** — no dialogue, and it puts the

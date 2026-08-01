@@ -253,6 +253,86 @@ Three constraints on the design:
 - **Not serpentine and not scaled** — that language is Shada's, and duplicating
   it weakens hers.
 
+## The four, as people
+
+**Added 2026-08-01 at the Production Designer's request, and it is the thing that
+was missing.** The four builds were fully specified as *costumes* and completely
+blank as *people* — which is why the first pass at the Sabacc scene could only
+give them business inferred from their kit. Shada works because there is a
+document behind her. These four had nothing behind them.
+
+**These are proposals. Replace them freely — but replace them, do not leave them
+empty.** The next pass at Scene 10 should be written from this section rather
+than from the costume list, and the same goes for casting and for direction on
+the day.
+
+Each paragraph is grounded in what was already fixed: the build, the *kind* of
+personal mark, the group, and the death.
+
+### Merc 1 — the Wookiee
+
+**He has been here longest.** Greying at the muzzle, one shoulder that healed
+badly and never came right, kit that has all been refitted because nothing is
+made his size. He does not chase people; he closes the way out and waits for them
+to arrive. Nobody in the crew remembers him joining — he predates most of them,
+possibly Jasu, and it has never occurred to anyone to ask.
+
+The rings and beads braided into his fur are the only decoration on him, and
+every one of them came from somewhere. He would tell you, at length, if you spoke
+his language.
+
+**He dies of his own equipment.** Vala takes a thermal detonator off the chest rig
+he has worn for twenty years and has long since stopped noticing. The grenades
+are in frame from Scene 10 precisely so that this reads as a mistake he made
+decades ago rather than a coincidence.
+
+### Merc 2 — the rifle
+
+**He counts.** One notch in the stock per job, cut himself, in the evening, with
+the same blade he is always sharpening. It is not a boast — nobody has ever asked
+him about it and he has never brought it up. It is bookkeeping. He is the only
+person in the crew who could tell you the exact number of jobs they have done
+together, and he assumes everyone else knows it too.
+
+Quiet rather than cold. Sits slightly out of the group and is entirely
+comfortable there. Does not play cards. Present at everything.
+
+**He dies at arm's length, without firing a shot** — the marksman killed by a
+grenade going off in someone else's hand.
+
+### Merc 3 — the close one
+
+**He takes things.** Trophies off targets, worn where they can be seen, and he
+will tell you the story of every one whether or not you asked. The most armoured
+of the four and the first to laugh, which are not unrelated: he is the one who
+gets close, and being liked is part of how he gets there.
+
+Loud, warm, genuinely good company, and it should be uncomfortable how much you
+like him before you remember where the trophies came from.
+
+**He dies beside the man whose grenade it was**, mid-sentence, probably telling a
+story.
+
+### Merc 4 — the near-human
+
+**He is new, and he still has a before.** The objects threaded onto his belt are
+not trophies — they are keepsakes, small things from a life he has not stopped
+having. Everyone else on this crew stopped carrying that kind of thing years ago,
+and nobody has told him to.
+
+He watches the others to know how to behave: laughs a half-beat late because he
+checks first, folds hands he should play, agrees with whoever spoke last. Not
+weak — **unfinished.** He has not been doing this long enough to have decided who
+he is.
+
+**Which is why he is the one whose weapon wavers** in Scene 25 when Krellis says
+there is another way. He is the only person in the crew for whom that is still an
+open question. Then he is cut down with the rest of them, and nobody ever finds
+out what he would have chosen.
+
+**Do not cut this character to save a costume.** He is the crew's only crack, and
+the entire faction reads differently because he is standing in it.
+
 ## Species mix
 
 **One Wookiee, one near-human, two humans.**

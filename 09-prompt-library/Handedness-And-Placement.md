@@ -145,12 +145,36 @@ the non-negotiables:
 > This character is RIGHT-HANDED. All positions are given from THEIR OWN left and
 > right, never the viewer's.
 
+## Height belongs here too
+
+**Added 2026-08-01.** No character in this production had a height recorded, and
+it shows: a lone figure on a seamless backdrop gives the eye nothing to measure
+against, so a generator picks one. Scale is the thing they get wrong most often —
+the akk dog document has said so since July.
+
+```yaml
+height: 1.88 m — tall, and broad with it     # top level, per character
+```
+
+Overridable per outfit, because `mercenary-kit` is four different people in one
+file and Merc 1 is a Wookiee:
+
+```yaml
+outfits:
+  - id: merc-1
+    height: over 2.2 m — the tallest figure in the film by a clear margin
+```
+
+Write it as a phrase, not a bare number. *"1.88 m — tall, and broad with it"*
+tells a generator more than `1.88`, and it tells a costume supervisor more too.
+
 ## Required schema
 
 In `outfits.yaml`, at the top level:
 
 ```yaml
 handedness: right     # or left. Required.
+height: 1.88 m — ...  # a phrase, not a bare number
 ```
 
 And per outfit, every asymmetric element named with a side in `must_show`.

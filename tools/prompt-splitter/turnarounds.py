@@ -250,10 +250,26 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     hand_line = (f"This character is {hand.upper()}-HANDED. All positions below are "
                  f"given from\nTHEIR OWN left and right, never the viewer's."
                  if hand else "")
+
+    # Scale is the single thing image generators get wrong most often, and a lone
+    # figure on a seamless backdrop offers nothing to measure against.
+    height = outfit.get("_height")
+    height_line = (f"HEIGHT: {height}. Build the proportions to it — head size against "
+                   f"body\nlength, limb length, how heavily the figure stands. A figure "
+                   f"alone on a plain\nbackdrop gives the eye nothing to measure "
+                   f"against, so it has to be in the body."
+                   if height else "")
+    scale_block = "\n\n".join(x for x in (hand_line, height_line) if x)
     parts = [
         f"[{character.upper()} — TURNAROUND — {outfit['name'].upper()} — {view_name}]",
         f"Output file: turn-{outfit['id']}-{view_id}.png",
         f"Aspect ratio: {ratio}  (tall, full figure)",
+        "",
+        f"ASPECT RATIO IS {ratio} — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or",
+        "the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.",
+        "A square frame cannot hold a standing figure with headroom and floor, and the",
+        "board generator fits plates without cropping — a square one letterboxes on the",
+        "sheet and wastes half the panel.",
         "",
         "THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.",
         "A photograph of a real performer wearing a real, physically built costume,",
@@ -333,6 +349,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "them, so it is worth several attempts to get right."
         if not gate else None,
         "" if not gate else None,
+        scale_block if scale_block else None,
+        "" if scale_block else None,
         must_block,
         "" if must_block else None,
         "=== SHOT ===",
@@ -405,6 +423,9 @@ def run(repo: Path, character: str) -> int:
     rows = []
     for outfit in outfits:
         outfit["_handedness"] = cfg.get("handedness")
+        # A per-outfit height wins, because mercenary-kit is four different
+        # people in one file and Merc 1 is a Wookiee.
+        outfit["_height"] = outfit.get("height") or cfg.get("height")
         outfit["_dir"] = character
         views = VIEWS + [("natural", "NATURAL POSE", "")]
         for view_id, view_name, view_desc in views:

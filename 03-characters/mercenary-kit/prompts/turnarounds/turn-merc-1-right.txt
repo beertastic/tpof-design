@@ -2,6 +2,12 @@
 Output file: turn-merc-1-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
 A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
@@ -51,6 +57,13 @@ them must be visible and correct in this image.
 Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+HEIGHT: over 2.2 m — the tallest figure in the film by a clear margin. Build the proportions to it — head size against body
+length, limb length, how heavily the figure stands. A figure alone on a plain
+backdrop gives the eye nothing to measure against, so it has to be in the body.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. Broad chest, very long and powerful arms, a heavy brow over deep-set dark eyes, and a projecting muzzle. He stands and moves like a person, not like an animal.

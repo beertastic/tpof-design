@@ -2,6 +2,12 @@
 Output file: turn-working-natural.png
 Aspect ratio: 2:3  (tall, full figure)
 
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
 A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
@@ -79,6 +85,9 @@ them must be visible and correct in this image.
 Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. If the image announces him as a Jedi, it has failed.

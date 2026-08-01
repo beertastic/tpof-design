@@ -62,12 +62,20 @@ outfits:
     # The production's own early concept drawing, added 2026-08-01. The shoulder
     # mantle is the signature of this costume and prose was never going to land
     # it — attach the sketch and let it carry the shape.
+    # APPROVED 2026-08-01. See 03-characters/APPROVAL.md. Clear this to unlock.
+    # The front turnaround is right — mantle, palette, bracers, leg panels and
+    # the horns all landed together — so the remaining four views are now matched
+    # against the photograph instead of re-derived from the paragraph.
+    approved:
+      date: "2026-08-01"
+      view: front
+      reference: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+      note: "Front view locked. Match this for all other views"
+
     references:
-      # THE COSTUME REFERENCE. The 2026-08-01 generation the production chose,
-      # before the palette drifted pale. Everything except the head comes from
-      # this: colour, mantle, bracers, leg panels, belt, boots.
-      - path: reference/costume/field-dress-approved-front.png
-        what: THE COSTUME - match it exactly except the head
+      # The interim costume plate at reference/costume/ is superseded by the
+      # approved front above and has been removed — two costume references would
+      # have disagreed with each other eventually.
       - path: reference/concept/jasu-concept-sketch.jpg
         what: the shoulder mantle, the ribbed torso and the leg panels
       # A painted figure built from the concept drawings, 2026-08-01. It is the

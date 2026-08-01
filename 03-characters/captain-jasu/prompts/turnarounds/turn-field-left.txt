@@ -1,10 +1,10 @@
 [CAPTAIN JASU — TURNAROUND — FIELD DRESS — LEFT SIDE]
 Output file: turn-field-left.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 1bef2289 · repo commit cea222a 2026-08-01 21:55
+Prompt version: 2ebfac29 · repo commit f15ca90 2026-08-01 22:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit cea222a, prompt 1bef2289.
+    Working from commit f15ca90, prompt 2ebfac29.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -87,9 +87,27 @@ full-length figure on plain seamless grey under flat even light. If your
 output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
+BEFORE YOU GENERATE — GET THE REFERENCES.
 
-USE THE ATTACHED PHOTOGRAPH — THE COSTUME - match it exactly except the head. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/costume/field-dress-approved-front.png
+Every reference this image must match is listed above as a public URL.
+For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
+MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
+fetched but never handed to the generator is not a reference, and that gap
+is exactly what produced a run of wrong faces on 2026-08-01.
+
+Do NOT ask for a manual attachment when the download and the handoff both
+succeed. Ask only if a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed.
+
+Do not proceed from the text alone. The written description is not sufficient
+on its own and will produce the wrong costume and the wrong face.
+
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
+Match the costume, materials, colours, face and build from them exactly.
+Only the setting, pose and lighting change.
+
+FETCH AND MATCH — the approved costume reference:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
 USE THE ATTACHED PHOTOGRAPH — the shoulder mantle, the ribbed torso and the leg panels. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
 USE THE ATTACHED PHOTOGRAPH — the headdress and hair, front. If not attached, fetch:
@@ -100,16 +118,6 @@ USE THE ATTACHED PHOTOGRAPH — the A180 blaster pistol. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
 LIKENESS (1 of 1) — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
-
-THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
-
-Build it from the description below, which is the only source. Read the
-NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
-them must be visible and correct in this image.
-
-Once approved, every other view of this costume is matched against THIS
-PHOTOGRAPH. An error here propagates into all of
-them, so it is worth several attempts to get right.
 
 ====================================================================
 THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
@@ -277,5 +285,5 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she could win a fight or hold a room by force, because the entire point is that she cannot and does not have to. She is a young East Asian woman with long dark hair. SHE IS COLD, NOT ANGRY. Calm, still, watchful, unsentimental — an expression that is assessing you rather than threatening you. She kills a man mid-sentence and smiles afterwards, and that must read as characteristic rather than theatrical. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. She controls people by fear and she never has to raise her voice to do it — the threat is what everyone already knows about her, not what her face is doing. NO makeup that reads as makeup, NO glamour, NO styling. She is not presented as attractive; she is presented as a person doing a job.
   9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey of old canvas. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN — the same family as everything else she wears. NONE of them is bone, cream, ivory or pale grey. They drifted pale on 2026-08-01 and they must not. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm. TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. The blaster barrel is BRIGHT POLISHED STEEL and must stay bright — do not dull it to match her. It is the only gleaming object in this crew, and that is the point: everyone else carries salvage, and she carries something she paid for and looks after. Nothing else on her is pale and nothing else is bright. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind. She must separate from a night forest and from firelight — do not sink her into the background.
 
-
+The fetched photographs outrank this text. If none were fetched, you should not have generated this.
 Deliver a single image at 2:3. It must look photographed, not generated.

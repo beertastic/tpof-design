@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "1.1"
+version: "1.2"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -304,12 +304,26 @@ belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
 
-### The costume is now locked to a picture — **2026-08-01**
+### The front turnaround is APPROVED — **2026-08-01**
 
-`reference/costume/field-dress-approved-front.png` is the generation the
-production chose, and it is the first reference listed on every prompt: *match it
-exactly except the head.* Everything comes from it — colour, mantle, bracers, leg
-panels, belt, boots.
+`source/artwork/turn-field-front.png`, locked in `outfits.yaml` per
+[`../APPROVAL.md`](../APPROVAL.md). The mantle, the palette, the bracers, the leg
+panels and the horns all landed in one image.
+
+**The remaining four views are now matched against the photograph rather than
+re-derived from the paragraph.** Each opens with `COSTUME (match exactly)` naming
+the file, and the long prompts carry the precedence rule: *the attached
+photographs outrank this text — where they disagree, the photographs win.* That
+line is what stops a loosely worded phrase quietly contradicting an approved
+image.
+
+**The prompt must now stop moving.** Four views built from one description and a
+fifth from another is the failure the lock exists to prevent. Any further change
+to `outfits.yaml` means clearing the `approved` block and redoing the front
+first.
+
+An interim costume plate at `reference/costume/` was removed at the same time —
+two costume references would have disagreed with each other eventually.
 
 **Why it was needed.** The generation after it drifted pale: bone-coloured
 bracers, cream leg panels, a grey mantle, the whole palette lifted off dark
@@ -527,6 +541,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 1.2 | 2026-08-01 | **APPROVED (front)** | Front turnaround approved and locked in `outfits.yaml`. The other four views now match against the photograph and the prompt is frozen until the lock is cleared. Interim costume plate removed to avoid two disagreeing references. |
 | 1.1 | 2026-08-01 | in-development | **Costume locked to a chosen generation**, kept whole while adopting the horns from the next one. Diagnosed the pale drift as colour bleed from the horn and blaster rules and fenced it: the horns are the only pale thing, the barrel the only bright one. Mantle specified warm dark brown with a sharp upswept point; bracers forearm-only. |
 | 1.0 | 2026-08-01 | in-development | **A180 reference supplied**, correcting a written description that had the weapon dark, matte and boxy when it is a two-tone Luger-pattern pistol with a long bright barrel. Palette rule amended so the polished steel is not dulled down to match her — it is the only gleaming object in the crew. |
 | 0.9 | 2026-08-01 | in-development | **The horns are trophies from what the akk kills** — decided. The one decorative object on her displays the beast's power rather than her own. Also added a hard scoping rule to the prompts: the figure photographs are a stylised collector's piece, and only the headdress and hair may be taken from them. |

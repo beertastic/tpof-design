@@ -1,10 +1,10 @@
 [CAPTAIN JASU — TURNAROUND — FIELD DRESS — FRONT]
 Output file: turn-field-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: ed9064cb · repo commit cea222a 2026-08-01 21:55
+Prompt version: e1012a3a · repo commit f15ca90 2026-08-01 22:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit cea222a, prompt ed9064cb.
+    Working from commit f15ca90, prompt e1012a3a.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -88,8 +88,6 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-USE THE ATTACHED PHOTOGRAPH — THE COSTUME - match it exactly except the head. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/costume/field-dress-approved-front.png
 USE THE ATTACHED PHOTOGRAPH — the shoulder mantle, the ribbed torso and the leg panels. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
 USE THE ATTACHED PHOTOGRAPH — the headdress and hair, front. If not attached, fetch:

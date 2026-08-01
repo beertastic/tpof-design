@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — NATURAL]
 Output file: turn-field-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: a95b5b0f (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 753ae5c2 (short) · repo commit f15ca90 2026-08-01 22:06
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,7 +10,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE COSTUME - MATCH IT EXACTLY EXCEPT : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/costume/field-dress-approved-front.png
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
   THE SHOULDER MANTLE, THE RIBBED TORSO : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   THE HEADDRESS AND HAIR, FRONT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-front.jpg
   THE HEADDRESS AND HAIR, PROFILE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-side.jpg

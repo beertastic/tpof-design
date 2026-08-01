@@ -1,10 +1,10 @@
 [MERCENARY KIT — TURNAROUND — MERC 4 — THE NEAR-HUMAN — FRONT]
 Output file: turn-merc-4-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 652525f0 · repo commit 9f3de02 2026-08-01 16:59
+Prompt version: 652525f0 · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 9f3de02, prompt 652525f0.
+    Working from commit 34f72ac, prompt 652525f0.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

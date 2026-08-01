@@ -1,10 +1,10 @@
 [SHIN — SLOT 02 — THE RUN]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: d96a73dd · repo commit 311f115 2026-08-01 17:06
+Prompt version: d96a73dd · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 311f115, prompt d96a73dd.
+    Working from commit 34f72ac, prompt d96a73dd.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

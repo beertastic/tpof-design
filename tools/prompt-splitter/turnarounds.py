@@ -259,16 +259,19 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     if actors:
         for _n, _name, _url, _what in actors:
             _label = f" — {_what}" if _what else ""
-            extra.append(f"LIKENESS "
-                         f"({_n} of {len(actors)}){_label}:\n    {_url}")
+            extra.append(f"LIKENESS ({_n} of {len(actors)}){_label} — attached to "
+                         f"this message.\n    If it is NOT attached, fetch: {_url}")
         _many = (f"THERE ARE {len(actors)} ACTOR REFERENCES, numbered 1 to "
                  f"{len(actors)}. They are all the SAME PERSON seen from"
                  f" different\nangles. Use every one of them.\n\n"
                  if len(actors) > 1 else "")
         actor_line = (_many +
-            "USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE\n"
-            "BUILD FROM IT. It is a public raw file and it opens; if it does not, say\n"
-            "so and stop rather than inventing a face.\n"
+            "USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE BUILD\n"
+            "FROM IT. It is normally attached to this message. If nothing is\n"
+            "attached, fetch the URL above instead — it is a public raw file and it\n"
+            "opens. Say which of the two you used.\n"
+            "\n"
+            "If neither works, say so and stop. Never invent a face.\n"
             "\n"
             "Bone structure, features, proportions, skin, the shape of the head. The\n"
             "person in your image must be recognisably the SAME HUMAN BEING as the\n"

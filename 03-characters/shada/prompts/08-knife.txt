@@ -1,10 +1,10 @@
 [SHADA — SLOT 08 — HERO PROP]
 Output file: knife.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: 3341ebdf · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 3341ebdf · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 3341ebdf.
+    Working from commit 34f72ac, prompt 3341ebdf.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

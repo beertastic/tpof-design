@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 76e0e67d (short) · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 6925d868 (short) · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 76e0e67d.
+    Working from commit 34f72ac, prompt 6925d868.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.
@@ -14,7 +14,8 @@ NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
 
-FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
   THE SCALE PLATES, THEIR FINISH AND HOW: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
@@ -23,6 +24,7 @@ FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
+  Say whether you used an attached file or a URL. If neither worked, stop.
 
 RIGHT-HANDED — sides are given from THEIR own left/right.
 

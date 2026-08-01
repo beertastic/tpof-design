@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 25d425c5 (short) · repo commit 201f18b 2026-08-01 17:08
+Prompt version: 50d5f621 (short) · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 201f18b, prompt 25d425c5.
+    Working from commit 34f72ac, prompt 50d5f621.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.
@@ -20,6 +20,7 @@ is attached, fetch these URLs instead — and say which route you used:
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
+  Say whether you used an attached file or a URL. If neither worked, stop.
 
 You are thinking of the austere silver-haired Jedi in flowing black robes with a hood up and an orange lightsaber. THAT MAN IS EIGHTEEN YEARS IN HIS FUTURE — reject his BEARING and his SILHOUETTE: no hood up, no monastic sleeves, no ceremonial drape, no visible hilt, no gravitas, no silver mane. He DOES own a long dark coat and it is his, but it is not worn in these views.
 

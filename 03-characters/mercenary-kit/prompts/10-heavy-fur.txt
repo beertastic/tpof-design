@@ -1,10 +1,10 @@
 [MERCENARY-KIT — SLOT 10 — FUR COLOUR AND TEXTURE]
 Output file: heavy-fur.png
 Aspect ratio: 1:1  (square)
-Prompt version: b9bc48dc · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: b9bc48dc · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt b9bc48dc.
+    Working from commit 34f72ac, prompt b9bc48dc.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

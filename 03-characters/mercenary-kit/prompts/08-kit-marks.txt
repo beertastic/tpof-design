@@ -1,10 +1,10 @@
 [MERCENARY-KIT — SLOT 08 — WHAT MAKES THEM PEOPLE]
 Output file: kit-marks.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: a1d260a6 · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: a1d260a6 · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt a1d260a6.
+    Working from commit 34f72ac, prompt a1d260a6.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

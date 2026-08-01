@@ -84,6 +84,7 @@ def build(character: str, cfg: dict, outfit: dict, view: str) -> str:
         "  Take the FACE and BUILD from the actor image only. Hair, beard, age,",
         "  grooming and costume come from the text below and override the photo.",
         "  Do not edit or re-crop that photo — make a new photograph of that person.",
+        "  Say whether you used an attached file or a URL. If neither worked, stop.",
         "",
     ]
     if retrieve:

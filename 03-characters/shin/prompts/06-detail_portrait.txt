@@ -1,10 +1,10 @@
 [SHIN — SLOT 06 — THE FACE]
 Output file: detail_portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: bbe321bf · repo commit 311f115 2026-08-01 17:06
+Prompt version: bbe321bf · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 311f115, prompt bbe321bf.
+    Working from commit 34f72ac, prompt bbe321bf.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

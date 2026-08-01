@@ -1,10 +1,10 @@
 [SHADA — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: 477ccc43 · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: e21f19c7 · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 477ccc43.
+    Working from commit 34f72ac, prompt e21f19c7.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.
@@ -36,13 +36,13 @@ Only the setting, pose and lighting change.
 
 FETCH AND MATCH — the approved costume reference:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
-FETCH AND USE AS REFERENCE — the scale plates, their finish and how the panel is assembled:
+USE THE ATTACHED PHOTOGRAPH — the scale plates, their finish and how the panel is assembled. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
-FETCH AND USE AS REFERENCE — the combat knife:
+USE THE ATTACHED PHOTOGRAPH — the combat knife. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
-FETCH AND USE AS THE LIKENESS REFERENCE (1):
+LIKENESS (1) — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
-FETCH AND USE AS THE LIKENESS REFERENCE (2):
+LIKENESS (2) — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
 
 This character is RIGHT-HANDED. All positions are given from

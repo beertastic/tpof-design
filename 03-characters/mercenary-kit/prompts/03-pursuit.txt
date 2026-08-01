@@ -1,10 +1,10 @@
 [MERCENARY-KIT — SLOT 03 — MOVING THROUGH THE FOREST]
 Output file: pursuit.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: a513c5cc · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: a513c5cc · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt a513c5cc.
+    Working from commit 34f72ac, prompt a513c5cc.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

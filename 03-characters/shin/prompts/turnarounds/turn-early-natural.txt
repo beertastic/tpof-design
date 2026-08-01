@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — AS WE MEET HER — NATURAL POSE]
 Output file: turn-early-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 869f05ca · repo commit 311f115 2026-08-01 17:06
+Prompt version: 869f05ca · repo commit 34f72ac 2026-08-01 17:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 311f115, prompt 869f05ca.
+    Working from commit 34f72ac, prompt 869f05ca.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

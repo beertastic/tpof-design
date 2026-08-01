@@ -73,9 +73,9 @@ boards:
       items:
       - Gauntlet one forearm dull grey steel oldest
       - Cap one shoulder brass with verdigris
-      - Sternum patch dark bronze stitched flat
-      - One outer thigh newest and least worn
-      - Four scavenging trips nothing matches
+      - One outer thigh dark bronze newest and least worn
+      - No metal on the torso at all
+      - Three scavenging trips nothing matches
     - heading: CONSTRUCTION
       x: 8.163
       y: 8.177
@@ -438,8 +438,8 @@ boards:
       items:
       - Gauntlet dull grey steel most worn
       - Shoulder brass with green verdigris
-      - Sternum dark bronze almost brown
-      - Thigh newest and brightest
+      - Thigh dark bronze almost brown and newest
+      - Torso plain cloth no metal
       - Nothing matches nothing was made for her
     - heading: OVERALL LOOK
       x: 15.35

@@ -463,7 +463,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack, and
   see it coming.
 - Does she have any relationship with the akk dog? She is a tracker; so, in a
   sense, is it.
-- Where did the scale armour come from? Four scavenging trips implies four
+- Where did the scale armour come from? Three scavenging trips implies three
   stories, and none of them are written.
 
 ## Production Board Package

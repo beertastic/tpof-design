@@ -68,9 +68,10 @@ everything that follows."*
 
 It is the approved reference in `outfits.yaml` — every other image matches
 against it, so a wrong front view propagates into all twenty. Check it against
-the new spec before approving: hexagonal plates, overlapped not tiled, the same
-worn serpent stamp on every plate, four visibly different metals, and a WESTAR-35
-on her right thigh.
+the new spec before approving: hexagonal plates 10–15 mm across, tessellated
+edge to edge and **never overlapped**, the same worn serpent stamp on every
+plate, three visibly different metals in three patches with no metal on the
+torso, and a WESTAR-35 on her right side.
 
 Re-approve it in `outfits.yaml` once it is right.
 
@@ -161,54 +162,48 @@ The failures that keep recurring:
 - **Shoulder caps on both shoulders.** One cap, her left — the opposite side to
   the gauntlet. This is the rule doing the most work in the design: symmetry
   quietly turns scavenged mismatch into a costume somebody made for her.
-- **Matching scale patches.** Four patches, four different metals.
+- **Matching scale patches.** Three patches, three different metals.
 - **A bulky silhouette.** Close-fitting, cut to the figure.
 - **Any interior.** Forest, clearing or camp only. If there is a wall or ceiling, it is wrong.
 - **A modern coil zip.** Industrial hardware, or hooks and lacing. Still slipping
   through on nearly every frame — the one recurring fault not yet beaten.
 - **The blaster on her left.** It is on her right thigh; only the knife is on her
   left.
-- **Four patches in the same metal.** Steel gauntlet, brass cap, dark bronze
-  sternum, brighter new thigh patch. They drift toward matching brass.
+- **Three patches in the same metal.** Steel gauntlet, brass cap, dark bronze
+  thigh. They drift toward matching brass.
+- **Metal on the torso.** There is none. A chest patch, bib or pendant is wrong.
 
 Two or more together almost always means **the references were not attached**.
 
 ---
 
-## The gap this character exposed — props have no lock
+## The gap this character exposed — props have no lock. **Built 2026-07-31.**
 
-**The costume has an approved reference image. The props do not.**
+**The costume had an approved reference image. The props did not**, so the
+blaster, the knife and the scale patches were described in words and redrawn from
+scratch every time. Words cannot hold a silhouette; only an image can.
 
-`outfits.yaml` carries `approved.reference`, pointing at the locked front
-turnaround, and every prompt tells the operator to attach it. That is why the
-costume now holds still across twenty images.
+Fixed in commit `8c5bea7`. `outfits.yaml` now carries a `references:` list
+alongside `approved:`, and both `split.py` and `turnarounds.py` emit an operator
+line naming every plate to attach. A declared reference that does not exist
+raises a warning, since the prompt would otherwise tell the operator to attach a
+missing file.
 
-Nothing does that job for the blaster, the knife, the utility kit or the scale
-patches. They are described in words and redrawn from scratch every time, so they
-drift — a different gun in every plate, scales that change size and colour, kit
-that gains and loses items. Words cannot hold a silhouette; only an image can.
+Currently locked: `material-scale.png` and `knife.png`.
 
-The fix mirrors what already works:
+**The blaster is deliberately not locked.** `blaster.png` is a decent plate but
+it does not match the printed prop — the physical WESTAR-35 has brass panels let
+into the slide, a blue panel and a black textured grip. Attaching it would lock
+every image to a gun nobody is building. The entry sits commented in
+`outfits.yaml`, pointing at `reference/props/westar-35.jpg`, to be uncommented
+once the prop is photographed.
 
-```yaml
-# outfits.yaml
-props:
-  blaster:
-    reference: 03-characters/shada/source/artwork/blaster.png
-    approved: "2026-07-31"
-    slots: [1, 2, 3, 4, 9, 11]     # where it must match
-  knife:
-    reference: 03-characters/shada/source/artwork/knife.png
-    approved: "2026-07-31"
-    slots: [1, 2, 3, 4, 8, 11]
-```
+**The general rule, which has now come up twice: for anything physically built,
+the reference is a photograph of the build, not a render.**
 
-`split.py` then emits an operator line naming the plates to attach for that slot,
-exactly as it already does for the costume reference, and the prompt tells the
-model those images outrank the text.
-
-**Worth building before Baylan, not after.** He has a blaster, a holster and a
-rifle across four outfits — the same drift, multiplied.
+Baylan inherits this for free — but he needs his own plates locked before his
+figures, not after. He has a blaster, a holster and a rifle across four outfits:
+the same drift, multiplied.
 
 ---
 

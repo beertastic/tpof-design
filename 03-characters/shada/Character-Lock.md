@@ -32,7 +32,7 @@ recorded revision.
 
 - Light, fitted, scavenged armour.
 - Vital-area protection only.
-- **Overlapping metallic scale in place of rigid plate.**
+- **Flexible metallic scale in place of rigid plate.**
   - Individual **six-sided metal plates** — hexagons with six straight sides, each
     10 to 15 mm across, about a thumbnail — laced and riveted to a flexible backing and
     **tessellated edge to edge with a narrow visible gap, never overlapped or
@@ -56,19 +56,21 @@ recorded revision.
       completely bare — no metal of any kind.**
     - **Cap — her LEFT shoulder** — brass, green verdigris in the gaps. The
       opposite side to the gauntlet. Right shoulder bare.
-    - **Sternum patch — centre** — dark bronze, the darkest. **Stitched flat**,
-      never hanging, never a pendant.
-    - **Her LEFT outer thigh** — the newest, brighter and less worn. Right thigh
-      has no metal.
-    **They must not match.** Four scavenging trips, four scraps. **No breastplate,
-    no full yoke, no matching pairs of anything.** At most a fifth of the costume
-    carries metal.
+    - **Her LEFT outer thigh** — dark bronze, almost brown and noticeably deeper
+      than the shoulder. The newest of the three, cleaner and less worn, clearly
+      added later. Right thigh has no metal.
+    **Her chest, sternum and back are plain cloth. No chest patch, no sternum
+    panel, no bib, no pendant, no breastplate.** Stating this is what stops a
+    full yoke reappearing; omitting it is not enough.
+    **They must not match.** Three scavenging trips, three scraps. **No full yoke,
+    no matching pairs of anything.** At most a fifth of the costume carries metal.
   - **Fastenings:** buckles, hooks, lacing, toggles, straps. Any zip must be heavy
     industrial hardware — large chunky exposed metal teeth, weathered, oversized
     metal pull. **Never a fine modern coil zip.** If in doubt, use hooks or lacing.
   - **Weapons are worn, not implied, and their sides are fixed. Right-handed.**
-    - **Blaster — her right thigh**, drop-leg holster, belt loop and thigh strap,
-      grip up and angled forward. Right-hand draw.
+    - **Blaster — her RIGHT SIDE**, hip or thigh, either acceptable. Grip up and
+      angled forward, right-hand draw. Never her left. The drop-leg rig is one
+      option, not a requirement.
     - **Knife — her left hip**, on the belt, grip up. Cross-draw.
     - Both visible in every costume view. Nothing is mirrored.
   - **Moves like heavy cloth, not plate.** That is why she wears it.
@@ -98,8 +100,9 @@ Reject any design that becomes:
 - Heavy-armoured soldier.
 - Generic human scavenger with no serpentine ancestry.
 - Fully reptilian, or any full-face prosthetic treatment.
-- A hanging or suspended chest piece. The sternum patch is stitched flat to the
-  garment; anything dangling reads as jewellery.
+- Any metal on the torso at all — chest patch, sternum panel, bib, pendant or
+  breastplate. Dropped 2026-07-31: it kept rendering as hanging jewellery and it
+  was the shape most likely to grow into a chest plate.
 - Fine modern coil zips or neat garment zips.
 - Three matching patches. They came from three different scavenging trips.
 - An empty holster, or a costume record with the weapons absent.

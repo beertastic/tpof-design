@@ -41,9 +41,9 @@ The failure that keeps recurring for this character:
 
 | Wrong | Right |
 |---|---|
-| Scale armour on both arms and both shoulders | **Four patches only** — one gauntlet, one shoulder, sternum, one thigh |
-| All four patches the same metal | **Four different metals**, four scavenging trips |
-| Full scale breastplate | A patch stitched flat at the sternum |
+| Scale armour on both arms and both shoulders | **Three patches only** — her right forearm, her left shoulder, her left thigh |
+| All three patches the same metal | **Three different metals** — dull grey steel, brass with verdigris, dark bronze. Three scavenging trips |
+| Any metal on the torso | Her chest, sternum and back are plain cloth. No chest patch, no bib, no pendant, no breastplate |
 | Bulky or loose | Close-fitting, cut to the figure |
 | Ship interior | She is never on a ship. Forest and camp only |
 

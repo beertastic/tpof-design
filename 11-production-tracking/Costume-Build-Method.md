@@ -42,7 +42,7 @@ instead of one.
 
 A printer will produce all three in the same filament. **The difference between
 those metals is now entirely a paint and patina job**, not a material one,
-and it has to be scheduled and costed as such. If the four patches come off the
+and it has to be scheduled and costed as such. If the three patches come off the
 same print run and get the same finish pass, the design fails and it fails
 invisibly — it will look fine in isolation and wrong in the turnaround.
 

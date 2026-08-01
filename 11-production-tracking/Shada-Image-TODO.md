@@ -164,7 +164,7 @@ The failures that keep recurring:
   quietly turns scavenged mismatch into a costume somebody made for her.
 - **Matching scale patches.** Three patches, three different metals.
 - **A bulky silhouette.** Close-fitting, cut to the figure.
-- **Any interior.** Forest, clearing or camp only. If there is a wall or ceiling, it is wrong.
+- **Any interior except the Sabacc hold.** Forest, clearing or camp — with the single exception of slot 2, Scene 10, which moved inside the ship on 2026-08-01. Anywhere else, a wall or ceiling is wrong.
 - **A modern coil zip.** Industrial hardware, or hooks and lacing. Still slipping
   through on nearly every frame — the one recurring fault not yet beaten.
 - **The blaster on her left.** It is on her right thigh; only the knife is on her

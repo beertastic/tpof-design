@@ -291,15 +291,26 @@ he is not performing — his posture, his shoulders and his face have all change
 Absolute concentration on a very small thing. No glow, no energy effect, no
 visual magic: the rock is simply, impossibly, hanging there.
 
-## 4. `industrial_c.png` — in the tent
+## 4. `industrial_c.png` — in his bunk
 **Tall portrait, 9:16.**
 
-Baylan seated cross-legged inside a small canvas tent at night, lit low and warm
-by a glowrod on the ground beside him. He is in shirtsleeves — jacket and harness
-off, work shirt open at the collar, the patched dark undertunic visible
-underneath. His long dark robe is around his shoulders like a blanket. A cord runs around his neck and disappears into the shirt. Bed roll,
-tarpaulin wall, his rifle propped in the corner. Quiet, private, exhausted. This
-is the only place he is ever unguarded.
+**INTERIOR — the mercenary ship's crew bunks.** Scenes 13 and 15 moved inside on
+2026-08-01.
+
+Baylan seated cross-legged on his bunk at night, lit low and warm by a glowrod
+set down beside him. He is in shirtsleeves — jacket and harness off, work shirt
+open at the collar, the patched dark undertunic visible underneath. His long dark
+robe is around his shoulders like a blanket. A cord runs around his neck and
+disappears into the shirt. His rifle propped in the corner.
+
+A cramped salvaged berth with **bunks packed in too close together** — exposed
+pipework, tie-downs, scuffed decking, someone else's kit within arm's reach.
+Other crew asleep nearby, out of focus. Not a cabin, not private: this is a
+freighter carrying more people than it was built for.
+
+Quiet and exhausted, and **the point of the image is that he has nowhere to be
+unguarded.** He has hidden for eighteen years in a space where you cannot get
+away from anyone.
 
 ## 5. `detail_portrait.png` — the face
 **Portrait, 3:4.**
@@ -388,8 +399,8 @@ body.
 ## 11. `maintenance.png` — the reconstruction
 **Tall portrait, 9:16.**
 
-Baylan seated cross-legged in his tent at night, glowrod on the ground, in
-shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
+Baylan seated cross-legged on his bunk aboard the ship at night, glowrod set
+down beside him, the other crew asleep around him, in shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
 of him, unsupported, the components of his blaster hang separated in mid-air —
 and they are **drawing back together into a different shape**: a machined
 cylindrical lightsaber hilt, mid-assembly, its parts converging. The crystal has

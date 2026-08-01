@@ -249,21 +249,47 @@ an ordinary forest scene.
 
 ---
 
-## 9. The sabacc scene, if it moves onto the virtual set
+## 9. The sabacc scene on the virtual set — **DONE 2026-08-01**
 
-Scene 10 is `EXT. FOREST - MERCENARY CAMP - NIGHT` in v9, around a campfire.
-There is a plan to shoot it on the virtual set as a **ship interior** instead
-(being built and tested the weekend of 2026-08-02).
+**Three scenes moved inside the ship** in v10, onto the virtual set being built
+and tested the weekend of 2026-08-02:
 
-Two things break if it moves indoors:
+| Scene | Was | Now |
+|---|---|---|
+| 10 — the Sabacc game | `EXT. FOREST - MERCENARY CAMP - NIGHT`, round a campfire | `INT. MERCENARY SHIP - MAIN HOLD - NIGHT`, one work lamp over a crate |
+| 13 — Baylan wakes | `EXT. FOREST - MERCENARY CAMP - NIGHT` | `INT. MERCENARY SHIP - CREW BUNKS - NIGHT` |
+| 15 — the crystal | `EXT. FOREST - MERCENARY CAMP - LATER` (while describing a tent) | `INT. MERCENARY SHIP - CREW BUNKS - LATER` |
 
-- **Shada is in Scene 10**, and her spec says `EXTERIOR ONLY — IN ANY IMAGE THAT
-  HAS A LOCATION. She is never indoors`, with *"if there is a wall or ceiling, it
-  is wrong"* in her watch-list. That rule would need relaxing for her one interior.
-- **The mercenary pack's slot 2 is titled `SCENE 10, THE CAMPFIRE`** and is
-  written around firelight. Ship interior lighting is a different image entirely.
+**Scenes 9, 14 and 19 stay outside**, by decision. Jasu and the akk dog under a
+tarpaulin against a tree, the storage area among the unloaded crates, and the
+morning muster before they move out — none of them gain anything indoors, and 14
+is the Nyx patrol conversation, which is explicitly an exterior.
 
-Neither is hard to change. Both are wrong until somebody does.
+Two things broke and both were fixed rather than left:
+
+- **Shada is in Scene 10**, and her spec said `EXTERIOR ONLY — she is never
+  indoors`, with *"if there is a wall or ceiling, it is wrong"* in her watch-list.
+  Now carved out precisely: slot 2 is her only interior, it is a cramped salvaged
+  hold under one swinging work lamp, and everywhere else the old rule stands.
+- **The kit's slot 2 was titled `SCENE 10, THE CAMPFIRE`** and written around
+  firelight. Rewritten for the hold.
+
+Baylan's slot 4 and his `tone-collage` panel both had him in a canvas tent, and
+his `must_show` said the undertunic shows *"in the tent, at night"*. All three now
+say his bunk.
+
+**The tents are not a mistake and must not be tidied away.** Sc.7 still has Nyx
+setting up a makeshift tent while Sc.13 has Baylan waking in a bunk aboard. Both
+are true: the YT-2000 is over capacity with ten aboard, so some of the crew bed
+down outside and some inside. The tents are the visible evidence that the ship is
+too small — the same fact that has made Baylan's eighteen years airless. Recorded
+in the camp location document.
+
+**What the move buys beyond the money:** the audience now spends three scenes
+inside this ship before the finale, so when Baylan and Shin leave on it they are
+leaving on somewhere they know rather than a prop. And Scene 15 — the most
+private thing he does in the film — now happens in a room with other people
+asleep in it.
 
 ---
 

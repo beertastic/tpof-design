@@ -11,12 +11,12 @@
 | 7 | Forest | Evening | Nyx, Baylan, Mercenary |
 | 8 | Dense Forest | Evening | Vala, Krellis, Jeyin, Shin |
 | 9 | Forest Mercenary Camp | Evening | Captain Jasu, Baylan, Mercenaries |
-| 10 | Forest Mercenary Camp | Night | Nyx, Reya Fenn, Yaslo Bis (breakdown: `Loryl`), Shada, Mercenaries |
+| 10 | **INT. Mercenary Ship — main hold** | Night | Nyx, Reya Fenn, Yaslo Bis (breakdown: `Loryl`), Shada, Mercenaries |
 | 11 | Forest Escapee Camp | Night | Jeyin, Shin |
 | 12 | Sand Dunes | Afternoon | Palpatine, Shin, Baylan |
-| 13 | Forest Mercenary Camp | Night | Baylan |
+| 13 | **INT. Mercenary Ship — crew bunks** | Night | Baylan |
 | 14 | Forest | Night | Nyx, Baylan |
-| 15 | Forest Mercenary Camp | Night | Baylan |
+| 15 | **INT. Mercenary Ship — crew bunks** | Night | Baylan |
 | 16 | Forest | Early Morning | Shin, Jeyin, Vala, Krellis |
 | 17 | Forest | Early Morning | Shin, Vala, Krellis, Jeyin |
 | 18 | Forest | Early Morning | Krellis, Jeyin, Vala, Shin |

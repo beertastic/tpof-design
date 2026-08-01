@@ -309,17 +309,29 @@ glance, by silhouette alone, before any detail is read. Different heights,
 different bulk, different outer layers, different headwear, different weapons
 carried differently.
 
-## 2. `sabacc.png` — Scene 10, the campfire
+## 2. `sabacc.png` — Scene 10, the ship's hold
 
 **Landscape, 16:9.**
 
-The Sabacc game at the forest mercenary camp at night. All four around a fire
-with cards and a pile of chips, comfortable with each other, mid-game. Firelight
-is the only source. This is the frame that establishes the crew exists, and the
-one that has to survive being lit by nothing but flame — the four silhouettes
-must still separate from each other and from the dark forest behind them.
+**INTERIOR. Moved inside on 2026-08-01** — the scene plays in the mercenary
+ship's main hold, not at a campfire. It is the only interior in the mercenary
+pack.
+
+The Sabacc game in a cramped, salvaged cargo hold at night. All four sitting
+around a crate with cards and a pile of chips, comfortable with each other,
+mid-game. **A single work lamp swings overhead and is the only source** — hard
+top light, moving shadows, deep falloff into the corners. Exposed pipework,
+tie-downs, mismatched paint, scuffed decking, stacked salvage, service markings.
+Lived-in and over-occupied: this crew sleeps in a space too small for them.
+
+This is the frame that establishes the crew exists, and it has to survive being
+lit by one lamp — the four silhouettes must still separate from each other and
+from the dark hold behind them.
 
 Relaxed, off duty, weapons still on them because they always are.
+
+**Not a clean ship.** No polished surfaces, no glowing consoles, no bridge or
+cockpit. This is a hold that has had cargo dragged across it for twenty years.
 
 ## 3. `pursuit.png` — moving through the forest
 
@@ -482,7 +494,7 @@ rather than an individual:
 2. The large one alone, showing scale against a tree.
 3. A tight portrait of the near-human, markings legible.
 4. The rifle and the close one working together at distance.
-5. The camp at night by firelight, figures small.
+5. The hold at night under one work lamp, figures small.
 6. A detail: braided fur, a notched stock, a trophy, a kept object.
 
 The four builds must be identical to their turnaround views in every panel — same
@@ -496,7 +508,7 @@ however good they look individually.
 | Slot | File | Ratio | What it proves |
 |---|---|---|---|
 | 1 | `lineup.png` | 2:1 | **Four individuals, not one costume** |
-| 2 | `sabacc.png` | 16:9 | They still separate by firelight |
+| 2 | `sabacc.png` | 16:9 | **Interior — the ship's hold.** They still separate under one work lamp |
 | 3 | `pursuit.png` | 16:9 | They work as a crew without being a unit |
 | 4 | `kit-heads.png` | 3:1 | Four answers to the head |
 | 5 | `kit-harness.png` | 3:1 | Four answers to carrying |

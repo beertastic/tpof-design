@@ -17,6 +17,31 @@ owner: "Captain Jasu's crew"
 > canonical — documentation and any generated imagery describe it, never the
 > reverse.
 
+> ## THE INTERIOR IS NOW A SHOOTING SET — decided 2026-08-01
+>
+> Three scenes moved inside the ship, to be shot on the virtual set being built
+> and tested the weekend of 2026-08-02:
+>
+> | Scene | Space |
+> |---|---|
+> | 10 — the Sabacc game | **Main hold.** A single work lamp overhead, the crew round a crate |
+> | 13 — Baylan wakes | **Crew bunks**, packed in too close together |
+> | 15 — the crystal, and the reconstruction | **Crew bunks**, the others asleep around him |
+>
+> **What this buys beyond the money.** The audience now spends three scenes
+> inside this ship before the finale, so when Baylan and Shin leave on it they
+> are leaving on somewhere the audience knows rather than a prop. It makes the
+> crew's over-capacity visible instead of asserted. And it puts Scene 15 — the
+> most private thing he does in the whole film — in a room with other people
+> asleep in it.
+>
+> **What it must not become: a clean ship.** No polished surfaces, no glowing
+> consoles, no bridge or cockpit in any of these scenes. This is a hold that has
+> had cargo dragged across it for twenty years.
+>
+> Scenes 9, 14 and 19 stay outside — see
+> [`07-locations/forest-mercenary-camp/`](../../07-locations/forest-mercenary-camp/).
+
 ## Why the YT-2000
 
 Chosen specifically so the ship is **not read as the Millennium Falcon**. The

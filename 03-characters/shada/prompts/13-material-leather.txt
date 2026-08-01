@@ -1,10 +1,10 @@
 [SHADA — SLOT 13 — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1  (square)
-Prompt version: 1c1c7432 · repo commit 32f5489 2026-08-01 18:42
+Prompt version: 1c1c7432 · repo commit 1a0df4e 2026-08-01 19:02
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 32f5489, prompt 1c1c7432.
+    Working from commit 1a0df4e, prompt 1c1c7432.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

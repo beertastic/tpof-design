@@ -194,8 +194,9 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
     lines = body.split("\n")
     commit = _repo_commit()
     stamp = f"Prompt version: {h} (short) \u00b7 repo commit {commit}"
-    echo = ECHO_TEMPLATE.format(commit=commit.split()[0], h=h)
-    return "\n".join(lines[:3] + [stamp, "", echo] + lines[3:])
+    # The stamp stays; the instruction to recite it back does not. See
+    # ECHO_TEMPLATE below for the measurement that removed it.
+    return "\n".join(lines[:3] + [stamp] + lines[3:])
 
 
 def _repo_commit() -> str:
@@ -220,14 +221,32 @@ def _repo_commit() -> str:
         return "unknown"
 
 
-ECHO_TEMPLATE = (
-    "BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:\n"
-    "    Working from commit {commit}, prompt {h}.\n"
-    "That is your proof you read this file. It is provenance for the human, NOT\n"
-    "something to check against the repository — this prompt is self-contained and\n"
-    "a cached REPO-STATE.md cannot make it stale. Do not go and look. If you\n"
-    "cannot quote it, say so and generate nothing. Never put it in the picture."
-)
+# THE ECHO BLOCK IS DELIBERATELY ABSENT FROM THE SHORT PROMPTS. Removed
+# 2026-08-01. It asked the model to recite the commit and hash before
+# generating, and it lives on in turnarounds.py and split.py, where it is still
+# doing a job.
+#
+# It never fired here. Short prompts are pasted by hand into a fresh chat, and
+# in that mode the question it answers — "did you actually open the file?" — is
+# already answered by the act of pasting. The connected-repo case in AGENTS.md
+# is different and keeps the check.
+#
+# Tested before removing, rather than assumed. Asked to quote line 5, a run
+# replied "the literal fifth line is blank" and then gave the fifth NON-EMPTY
+# line correctly. Both true, and not guessable: it held the exact text,
+# whitespace included. It simply does not recite the line when its task is to
+# make an image. (Asked for line 4 it returned line 3 — so "quote line N" is
+# not a reliable check either. Ask for content, not position.)
+#
+# It cost 401 characters of a 4,000 budget. Because `fit` lowers ONE cap across
+# all rules until the file fits, that was ~40 characters off EVERY
+# non-negotiable:
+#
+#     Shada   cap 110 -> 150        Baylan  cap 110 -> 140
+#
+# Four wrong images this week were rules truncated for want of exactly that
+# room. A check that cannot fail, competing against rules that decide whether
+# the picture is right, is not a check — it is overhead.
 
 
 def fit(character: str, cfg: dict, outfit: dict, view: str) -> str:

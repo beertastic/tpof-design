@@ -135,6 +135,20 @@ invented fields — having reported no stamp at all.** It had read nothing. Sile
 about provenance turned out to be the reliable early warning, so it is now
 forbidden: every reply says where its information came from, or there is no reply.
 
+**The SHORT prompts no longer ask for this, from 2026-08-01.** They still carry
+the stamp on line 4; they just do not instruct you to recite it. Those files are
+pasted by hand into a fresh chat, so "did you open the file?" is already answered
+by the act of pasting, and the instruction was measured costing ~40 characters
+off every non-negotiable in the same file — room that four wrong images had been
+losing. **This section still governs everything else**, including every run where
+you fetch from the repository yourself. There, nobody has vouched for what you
+read, and the stamp is the only thing that can.
+
+**If you are asked to prove you read a prompt, quote its CONTENT, not a line
+number.** Asked for line 4 of a pasted file, a run returned line 3; asked for
+line 5 it correctly answered that line 5 was blank and gave the fifth non-empty
+line instead. Positional indexing is unreliable in both directions.
+
 **Do not rely on character counts.** A model reported 28,195 characters for a file
 that has never been that size at any commit, because it counts its own
 post-processed text rather than raw bytes. The hash has no such ambiguity.

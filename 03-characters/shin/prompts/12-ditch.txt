@@ -1,10 +1,10 @@
 [SHIN — SLOT 12 — HIDING]
 Output file: ditch.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 5e494baa · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 5e494baa · repo commit b502a54 2026-08-01 17:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 5e494baa.
+    Working from commit b502a54, prompt 5e494baa.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

@@ -1,10 +1,10 @@
 [SHIN — AS WE MEET HER — LEFT]
 Output file: turn-early-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: c962beb2 (short) · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: c962beb2 (short) · repo commit b502a54 2026-08-01 17:06
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt c962beb2.
+    Working from commit b502a54, prompt c962beb2.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

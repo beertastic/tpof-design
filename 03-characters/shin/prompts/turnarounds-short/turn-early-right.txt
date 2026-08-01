@@ -1,10 +1,10 @@
 [SHIN — AS WE MEET HER — RIGHT]
 Output file: turn-early-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: bb49ff1f (short) · repo commit a2cc855 2026-08-01 17:12
+Prompt version: bb49ff1f (short) · repo commit 5a17051 2026-08-01 17:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt bb49ff1f.
+    Working from commit 5a17051, prompt bb49ff1f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

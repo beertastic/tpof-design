@@ -36,13 +36,84 @@ RULE_CHARS = 200       # per non-negotiable
 
 
 def trim(text: str, limit: int) -> str:
-    """Cut to a sentence boundary under `limit`, never mid-word."""
+    """Cut to `limit`, keeping the sentences that actually constrain the image.
+
+    The naive version kept the first N characters at a sentence boundary, which
+    assumes the operative clause comes first. It usually does not. The lead
+    sentence names the subject and the constraint follows it:
+
+        "THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING
+         COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND VIEWS — ..."
+
+    Cut at 92 characters that became a rule saying the coat exists, with the
+    instruction not to wear it removed. The generated image duly wore it, and so
+    did the pouch that another rule said to hide. Both were read as the model
+    disobeying; both were the trim.
+
+    So: always keep the first sentence, since it names the subject. Then prefer
+    sentences carrying a hard negation or restriction — those are the ones a
+    generation gets wrong — before any remaining prose, and stay inside `limit`.
+    """
     flat = " ".join(text.split())
     if len(flat) <= limit:
         return flat
-    cut = flat[:limit]
-    stop = max(cut.rfind(". "), cut.rfind("! "))
-    return (cut[:stop + 1] if stop > limit * 0.5 else cut.rsplit(" ", 1)[0] + "…")
+
+    sentences = [x.strip() for x in re.split(r"(?<=[.!])\s+", flat) if x.strip()]
+    if not sentences:
+        return flat[:limit]
+
+    HARD = re.compile(r"\b(NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST)\b")
+    head, rest = sentences[0], sentences[1:]
+    if len(head) > limit:
+        return head[:limit].rsplit(" ", 1)[0] + "\u2026"
+
+    def clause(sent: str, room: int):
+        """The leading clause, for a constraint too long to keep whole.
+
+        "IT IS NOT WORN IN THE TURNAROUND VIEWS — those record the base costume,
+        and a long coat over the top hides the harness..." is 163 characters and
+        gets skipped entirely for want of room, which loses the instruction. Its
+        first clause is 39 and carries all of the meaning.
+        """
+        for sep in (" \u2014 ", "; ", ": ", ", and ", ", "):
+            if sep in sent:
+                first = sent.split(sep)[0].rstrip(",") + "."
+                if len(first) <= room:
+                    return first
+        return None
+
+    chosen, used = [], len(head)
+    first_hard = next((i for i, x in enumerate(rest) if HARD.search(x)), None)
+
+    # The FIRST constraint after the subject line is the operative one, and it
+    # must survive at any cap. Without this it competes on length with whatever
+    # follows: at cap 130 "IT IS NOT WORN IN THE TURNAROUND VIEWS." missed by two
+    # characters and lost to "Repaired tears. NO ceremonial drape." — so the rule
+    # kept its decoration and dropped its instruction, and the coat got worn.
+    if first_hard is not None:
+        room = limit - used - 1
+        sent = rest[first_hard]
+        pick = (sent if len(sent) <= room else clause(sent, room))
+        if pick is None and room >= 24:
+            pick = sent[:room].rsplit(" ", 1)[0] + "\u2026"
+        if pick:
+            chosen.append((first_hard, pick))
+            used += 1 + len(pick)
+
+    for hard in (True, False):
+        for i, sent in enumerate(rest):
+            if i == first_hard or bool(HARD.search(sent)) is not hard:
+                continue
+            if used + 1 + len(sent) <= limit:
+                chosen.append((i, sent))
+                used += 1 + len(sent)
+            elif hard:
+                c = clause(sent, limit - used - 1)
+                if c:
+                    chosen.append((i, c))
+                    used += 1 + len(c)
+
+    return " ".join([head] + [t for _, t in sorted(chosen)])
 
 
 VIEWS = {

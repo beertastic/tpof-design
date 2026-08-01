@@ -1,10 +1,10 @@
 [MERCENARY-KIT — MERC 2 — THE RIFLE — BACK]
 Output file: turn-merc-2-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ca9abf37 (short) · repo commit a2cc855 2026-08-01 17:12
+Prompt version: b3bd48cb (short) · repo commit 5a17051 2026-08-01 17:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt ca9abf37.
+    Working from commit 5a17051, prompt b3bd48cb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -25,10 +25,10 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest,…
+1. A LONG GUN, AND THE KIT IS CUT AROUND IT. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar.
 2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
 3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth.
+4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow.
 5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.

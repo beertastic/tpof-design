@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 1e6c491d (short) · repo commit a2cc855 2026-08-01 17:12
+Prompt version: 5711687a (short) · repo commit 5a17051 2026-08-01 17:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt 1e6c491d.
+    Working from commit 5a17051, prompt 5711687a.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -31,13 +31,13 @@ RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
 1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE.
-2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG.
-3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile.
-4. BARE ARMS AND BARE SHOULDERS. Her arms are UNCOVERED from the shoulder down — no sleeves of any length, no sleeve, no…
-5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN.
-6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from HER OWN left and right, not the viewer's.
-7. EXTERIOR, WITH ONE EXCEPTION. Almost every place she is seen is exterior: wet forest, forest clearing, or the mercenary…
-8. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the…
+2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be…
+3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. She is small and quick, and the clothes say so.
+4. BARE ARMS AND BARE SHOULDERS. The vest is SLEEVELESS. NOTHING AROUND HER NECK OR HEAD.
+5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN. TONAL, NOT COLOURED.
+6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
+7. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors.
+8. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth. Her irises are subtly reptilian.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

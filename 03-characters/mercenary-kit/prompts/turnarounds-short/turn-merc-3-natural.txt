@@ -1,10 +1,10 @@
 [MERCENARY-KIT — MERC 3 — THE CLOSE ONE — NATURAL]
 Output file: turn-merc-3-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: df4789a4 (short) · repo commit a2cc855 2026-08-01 17:12
+Prompt version: b6ddb202 (short) · repo commit 5a17051 2026-08-01 17:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt df4789a4.
+    Working from commit 5a17051, prompt b6ddb202.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -29,7 +29,7 @@ MUST BE TRUE OF THIS IMAGE:
 2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
 3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
 4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
-5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather…
+5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. His only decoration, and nobody else in the crew carries trophies.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 86081648 (short) · repo commit 12a523f 2026-08-01 18:05
+Prompt version: 8ce35c0f (short) · repo commit 8d02ea2 2026-08-01 18:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 12a523f, prompt 86081648.
+    Working from commit 8d02ea2, prompt 8ce35c0f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -30,10 +30,10 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE.
-2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be…
-3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. She is small and quick, and the clothes say so.
-4. BARE ARMS AND BARE SHOULDERS. The vest is SLEEVELESS. NOTHING AROUND HER NECK OR HEAD.
+1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH. NO METAL ON HER TORSO.
+2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or…
+3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile.
+4. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER.
 5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN. TONAL, NOT COLOURED.
 6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
 7. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors.

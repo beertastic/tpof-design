@@ -33,8 +33,16 @@ outfits:
       # - path: reference/props/westar-35.jpg
       #   what: the WESTAR-35 blaster pistol, as built
     must_show:
+      # The first sentence is the only one the short prompts are guaranteed to
+      # keep, so the three POSITIONS live there. They used to be twenty lines
+      # down, and the short prompt therefore said "three patches, not on the
+      # torso" without ever saying where they went — so a generation put all
+      # three on the vest and left the forearm, shoulder and thigh bare.
+      # 2026-08-01.
       - >
-        SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED
+        THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT
+        THIGH.
+        NO METAL ON HER TORSO. NEVER A SUIT AND NEVER A MATCHED
         SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At
         most about a fifth of the costume carries metal; the rest is cloth and
         worn leather.
@@ -82,14 +90,19 @@ outfits:
         FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The
         costume follows her figure — waist defined, nothing bulky, nothing loose,
         no oversized jacket or coat. She is small and quick, and the clothes say so.
+      # The exception has to be in the first sentence. Trimmed to "BARE ARMS AND
+      # BARE SHOULDERS", this rule contradicted the gauntlet and the shoulder
+      # cap outright, and the generator resolved the contradiction by moving all
+      # three patches onto the vest. 2026-08-01.
       - >
-        BARE ARMS AND BARE SHOULDERS. Her arms are UNCOVERED from the shoulder
+        BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM
+        AND THE CAP ON HER LEFT SHOULDER.
+        NOTHING AROUND HER NECK OR HEAD.
+        Apart from those two pieces her arms are UNCOVERED from the shoulder
         down — no sleeves of any length, no sleeve, no arm wrap, no gloves, no
         undershirt showing at the arm. The vest is SLEEVELESS. Her shoulders,
-        upper arms, forearms, hands, collarbone and neck are all exposed skin,
-        showing the fine inherited scales. The only thing on either arm is the
-        single scale gauntlet on her right forearm.
-        NOTHING AROUND HER NECK OR HEAD. No scarf, no shawl, no cowl, no hood, no
+        upper arms, forearms, hands, collarbone and neck are otherwise exposed
+        skin, showing the fine inherited scales. No scarf, no shawl, no cowl, no hood, no
         neck wrap, no headwrap. Her hair is up and her neck and collarbone are
         visible. If her arms are covered or there is cloth at her throat, the
         image is wrong.

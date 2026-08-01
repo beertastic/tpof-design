@@ -80,7 +80,7 @@ This is worse than being held, and it changes the costume logic:
 Not theirs, not chosen, taken in the chaos — which is exactly why it is
 *rickety* and why it comes down. They took whatever would fly.
 
-See [`07-vehicles/`](../../07-vehicles/).
+See [`06-vehicles/`](../../06-vehicles/).
 
 ### Where they are going
 

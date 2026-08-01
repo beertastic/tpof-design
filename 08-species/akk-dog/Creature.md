@@ -195,7 +195,7 @@ position to a weapon that sleeps.** Nobody says it aloud. Cargo hold is the
 fallback.
 
 Not referenced in the script; a visual beat rather than a plot point. See
-[`07-vehicles/mercenary-ship/`](../../07-vehicles/mercenary-ship/).
+[`06-vehicles/mercenary-ship/`](../../06-vehicles/mercenary-ship/).
 
 ## Handling and Behaviour
 

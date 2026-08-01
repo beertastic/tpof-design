@@ -61,8 +61,10 @@
       reaches her. Confirmed 2026-07-30. Crash currently off screen for budget.
 - [ ] **The escapees' ship has no asset entry.** It crashes in Scene 2, is the subject of
       Jasu's Scene 9 briefing, is the source of Jeyin's fatal wound, and its smoke is set
-      dressing in Scene 24. `07-vehicles/` is empty. Needs a document and a crash-site
-      location entry.
+      dressing in Scene 24. `06-vehicles/README.md` now names it and sets out the three
+      things it needs — the ship, the wreck as a location, the torn metal as a prop — but
+      it still has no `Vehicle.md` of its own and no crash-site entry under
+      `07-locations/`.
 - [x] ~~When does Shin cut her hair?~~ **Not in this film** — Film 2 or just before it.
       Confirmed 2026-07-30. No shorn variant needed in her pack.
 - [x] ~~How does Baylan kill the mercenaries?~~ **With the lightsaber**, rebuilt alone in

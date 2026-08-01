@@ -2,6 +2,59 @@
 
 **Read this before generating anything.**
 
+---
+
+## Read this first: you probably cannot generate from these prompts
+
+**Established 2026-08-01, after an entire day lost to it.** It is the single most
+important thing on this page, and everything below is shaped by it.
+
+**You are not the image generator. You are a relay.** The image model is a
+separate system with its own short input field, and it never sees this
+repository. Whatever reaches it, you typed.
+
+That produces two completely different pipelines, and only one of them works:
+
+| Route | What the image model actually receives |
+|---|---|
+| The user **pastes** the prompt into the chat | The prompt text, near enough intact — it is already in the conversation, so relaying it costs nothing |
+| **You fetch** the prompt from this repository | **Your paraphrase of it.** The file arrives as a tool result — as source material — and you compose a fresh brief from your impression of it |
+
+**The second route has never once produced a usable image.** Not because of
+disobedience. Because a file you read is *input to you*, and the generator's
+input is a string *you write*. The document never arrives.
+
+Here is what that looks like from the outside. Asked for Baylan's front
+turnaround, a run read the repository — the sources badge confirmed it — and
+returned a design board headed **THE PATHS OF FATE**. This film is called *The
+Price of Freedom*. Also on it: "Former Jedi", "pensive wanderer", "No rank
+insignia", "Stands with quiet confidence". **Not one of those five phrases exists
+anywhere in this repository.** The run was not ignoring the prompt. It had read
+the character documents, understood the job, and written its own brief — helpfully,
+fluently, and from nothing.
+
+### What this means for you
+
+**Do not offer to generate an image from a prompt file you fetched.** You will
+produce something plausible and invented, and it will cost the Production
+Designer an hour to work out why.
+
+Say this instead:
+
+> I can read the prompt but I cannot hand it to the image generator — anything I
+> fetch, I have to retype, and what I retype is my summary rather than your file.
+> Paste `03-characters/<character>/prompts/turnarounds-short/turn-<outfit>-front.txt`
+> as your next message and I will generate from that.
+
+**Then generate from the pasted text.** That route works and has worked every
+time.
+
+**What you ARE good for**, and it is most of the job: reading the repository,
+checking the approval gate, quoting the commit and prompt hash, fetching
+reference photographs, answering questions about the design, committing accepted
+images, and editing `outfits.yaml`. Do all of that. Just do not pretend the
+generator can see what you can see.
+
 ## Step 0 — always, before anything else
 
 **Read [`REPO-STATE.md`](REPO-STATE.md) and tell the user the stamp date it
@@ -72,8 +125,11 @@ handsome character sheet:
    raising the tier is the first thing to try.
 2. **The instruction present.** In project instructions, or pasted as the first
    message. A fresh chat inherits the connector and none of the rules.
-3. **The prompt text in the conversation.** Reading it from the repo works;
-   pasting the file whole also works and never fails. Both are fine.
+3. **The prompt text PASTED into the conversation.** This is not optional and
+   the two routes are not equivalent — *"reading it from the repo works"* stood
+   here until 2026-08-01 and was simply wrong. A fetched prompt is retyped from
+   memory before the generator sees it. A pasted one is not. See the top of this
+   file.
 
 **Attaching an image on the same turn appeared to suppress repo reading.** With
 references now fetched by URL this should not arise — nothing needs attaching.
@@ -114,10 +170,18 @@ at all.
 
 ## The rules that apply to everything
 
-**1. The prompt files ARE the prompts. Use them verbatim.**
+**1. The prompt files ARE the prompts. Use them verbatim — and if you cannot,
+say so rather than approximating.**
+
 Never summarise, shorten, paraphrase or extract "key points" from a prompt file.
 Every `NON-NEGOTIABLE` item exists because a previous generation got that thing
 wrong. A compressed version produces a plausible, wrong image.
+
+**Note what this rule is really asking.** If you fetched the file, "verbatim" is
+not something you can deliver — you have to retype it into the generator, and
+retyping is paraphrase however careful you are. That is not a failure of effort;
+it is the shape of the tools. See the section at the top of this file. The honest
+response is to ask for a paste, not to do your best from memory.
 
 **Use the SHORT prompt. `prompts/turnarounds-short/`, not `prompts/turnarounds/`.**
 

@@ -20,7 +20,9 @@ connected model can read the prompt *and* fetch its own reference plates, which
 removes the failure that causes nine faults in ten — the operator forgetting to
 attach something.
 
-**Superseded 2026-08-01: it fetches the images too.** This document previously
+**Superseded twice on 2026-08-01. Read the section above first — the headline is that a connected model can fetch the images, and still cannot deliver the prompt.**
+
+**It fetches the images.** This document previously
 said a connector reads only text and that photographs had to be attached by hand.
 That was wrong, and the reason the earlier attempts failed was much more boring —
 the actor file was called `Tristan Pretty.jpg`, and a space makes a raw URL fail
@@ -36,6 +38,73 @@ it is no longer the expected route.
 It also introduces a new failure, and a worse one: **a connected model will
 summarise the prompt instead of using it.** The instruction below exists mostly to
 stop that.
+
+---
+
+## The one thing to understand before anything else
+
+**A connected model cannot hand your prompt to the image generator.** Everything
+else on this page is downstream of that, and not knowing it cost a full day on
+2026-08-01.
+
+The image generator is a separate system with its own short input field. It has
+no repository access. Whatever reaches it, ChatGPT typed.
+
+So there are two routes, and they are not variations on a theme — they are
+different pipelines with different inputs:
+
+**You paste the prompt.** The text is in the conversation. ChatGPT forwards it to
+the generator more or less intact, because it is right there and relaying costs
+nothing. This works.
+
+**ChatGPT fetches the prompt.** Your file arrives as a *tool result* — as source
+material. ChatGPT reads it, forms an impression, and writes a new brief for the
+generator. **Your document never arrives.** The generator sees a paraphrase.
+
+### Why this is so hard to believe
+
+Because the failures do not look like failures. They look like work.
+
+Asked for Baylan's front turnaround, a connected run read the repo — the sources
+badge proved it — spent two minutes, and returned a handsome design board headed
+**THE PATHS OF FATE**. This film is called *The Price of Freedom*. The board also
+carried "Former Jedi", "pensive wanderer", "No rank insignia" and "Stands with
+quiet confidence". **None of those five phrases exists anywhere in this
+repository.**
+
+It was not defying the prompt. It had never seen the prompt. It read the
+character documents, understood the assignment, and wrote its own brief — which
+is exactly what a helpful assistant does when handed background reading and asked
+for a picture.
+
+**The maddening part is real and worth naming:** the same file, publicly readable,
+produces a good plate when pasted and an invention when fetched. That is not
+inconsistency. It is two different documents reaching the generator, one of which
+is yours.
+
+### The consequence
+
+**Split the work by what each side is actually able to do.**
+
+| Do this with the connector | Do this by hand |
+|---|---|
+| Read the repo, check the approval gate | **Paste the prompt for every image** |
+| Quote the commit id and prompt hash | |
+| Fetch reference photographs | |
+| Commit accepted images, edit `outfits.yaml` | |
+| Answer design questions | |
+
+That is not a workaround pending a fix. It is the correct shape, because the
+constraint is architectural.
+
+**How to tell instantly which route a run took.** Every prompt file's line 4
+carries a commit id and a content hash, and the file instructs the model to say
+them back before generating:
+
+> Working from commit `ddc2d15`, prompt `5e85b186`.
+
+Neither is guessable. **No line, no image** — if a reply starts generating without
+it, it is working from its own brief and the result will be invention.
 
 ---
 

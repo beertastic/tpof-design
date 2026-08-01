@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: de3cca3c · repo commit 870ad6f 2026-08-01 17:40
+Prompt version: de3cca3c · repo commit 1283ad0 2026-08-01 17:41
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 870ad6f, prompt de3cca3c.
+    Working from commit 1283ad0, prompt de3cca3c.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

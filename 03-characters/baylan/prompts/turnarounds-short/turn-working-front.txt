@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 5e85b186 (short) · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 5e85b186 (short) · repo commit 8d0b92b 2026-08-01 17:03
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 5e85b186.
+    Working from commit 8d0b92b, prompt 5e85b186.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

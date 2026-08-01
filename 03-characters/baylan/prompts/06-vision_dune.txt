@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 06 — THE DUNE]
 Output file: vision_dune.png
 Aspect ratio: 21:9  (wide banner)
-Prompt version: 6a388a2c · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 6a388a2c · repo commit 8d0b92b 2026-08-01 17:03
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 6a388a2c.
+    Working from commit 8d0b92b, prompt 6a388a2c.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

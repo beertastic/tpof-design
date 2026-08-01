@@ -1,0 +1,126 @@
+#!/usr/bin/env bash
+#
+# Regenerate one character's prompts, commit them, push them, and print exactly
+# what to do next.
+#
+#   ./tools/regen baylan
+#
+# Written 2026-08-01 because "regenerate all three generators, commit, PUSH" is a
+# description of a step, not a step. This is the step.
+#
+set -uo pipefail
+
+cd "$(dirname "$0")/.." || exit 1
+ROOT="$PWD"
+
+b() { printf '\033[1m%s\033[0m\n' "$*"; }
+ok() { printf '  \033[32m✓\033[0m %s\n' "$*"; }
+no() { printf '  \033[31m✗\033[0m %s\n' "$*"; }
+warn() { printf '  \033[33m!\033[0m %s\n' "$*"; }
+
+CHAR="${1:-}"
+if [ -z "$CHAR" ]; then
+    b "Usage: ./tools/regen <character>"
+    echo
+    echo "Characters:"
+    for d in 03-characters/*/; do
+        [ -f "$d/outfits.yaml" ] && echo "  $(basename "$d")"
+    done
+    exit 1
+fi
+
+DIR="03-characters/$CHAR"
+if [ ! -f "$DIR/outfits.yaml" ]; then
+    # Species live elsewhere; try there before giving up.
+    if [ -f "08-species/$CHAR/outfits.yaml" ]; then
+        DIR="08-species/$CHAR"
+    else
+        no "No such character: $CHAR"
+        echo "     Looked for $DIR/outfits.yaml"
+        exit 1
+    fi
+fi
+
+# shellcheck disable=SC1091
+[ -f .venv/bin/activate ] && source .venv/bin/activate
+
+echo
+b "$CHAR — regenerating"
+
+WARNINGS=""
+for gen in short turnarounds split; do
+    OUT=$(python "tools/prompt-splitter/$gen.py" "$CHAR" 2>&1)
+    if [ $? -ne 0 ]; then
+        no "$gen.py failed:"
+        echo "$OUT" | sed 's/^/      /'
+        exit 1
+    fi
+    ok "$gen.py — $(echo "$OUT" | grep -v '^!' | tail -1)"
+    WARNINGS="$WARNINGS$(echo "$OUT" | grep '^!' || true)
+"
+done
+
+WARNINGS=$(echo "$WARNINGS" | grep -v '^$' || true)
+if [ -n "$WARNINGS" ]; then
+    echo
+    b "Warnings — read these before generating anything"
+    echo "$WARNINGS" | sed 's/^! /  ! /'
+fi
+
+# ---- commit and push -------------------------------------------------------
+echo
+if [ -z "$(git status --porcelain)" ]; then
+    ok "nothing changed — prompts were already current"
+else
+    git add -A
+    if git commit -q -m "prompts($CHAR): regenerate"; then
+        ok "committed $(git rev-parse --short HEAD)"
+    else
+        no "commit failed"; exit 1
+    fi
+    if git push -q origin "$(git rev-parse --abbrev-ref HEAD)" 2>/dev/null; then
+        ok "pushed"
+    else
+        no "PUSH FAILED — the reference photo URLs point at the pushed branch,"
+        echo "     so generation will use stale files. Fix this before continuing:"
+        echo "       git push"
+        exit 1
+    fi
+fi
+
+# ---- what to do next -------------------------------------------------------
+FRONT=$(ls "$DIR"/prompts/turnarounds-short/turn-*-front.txt 2>/dev/null | head -1)
+if [ -z "$FRONT" ]; then
+    echo; warn "No front turnaround prompt found in $DIR/prompts/turnarounds-short/"
+    exit 0
+fi
+
+STAMP=$(sed -n '4p' "$FRONT")
+COMMIT=$(echo "$STAMP" | sed -n 's/.*repo commit \([0-9a-f]*\).*/\1/p')
+HASH=$(echo "$STAMP" | sed -n 's/Prompt version: \([0-9a-f]*\).*/\1/p')
+ACTOR=$(ls "$DIR"/reference/actor/*.jpg "$DIR"/reference/actor/*.png 2>/dev/null | head -3)
+
+echo
+b "NEXT — the front turnaround"
+echo
+echo "  1. Open a FRESH ChatGPT chat. Set the tier to High."
+echo "  2. Paste this whole file as your first message, nothing else:"
+echo
+printf '       \033[36m%s\033[0m\n' "$ROOT/${FRONT#./}"
+echo
+if [ -n "$ACTOR" ]; then
+    echo "  3. Attach the actor photograph:"
+    echo "$ACTOR" | sed "s|^|       $ROOT/|"
+else
+    warn "  3. No actor photograph in $DIR/reference/actor/ — the face will be generic."
+fi
+echo
+echo "  4. Its reply MUST start with this line. No line, no image:"
+echo
+printf '       \033[1mWorking from commit %s, prompt %s.\033[0m\n' "$COMMIT" "$HASH"
+echo
+echo "  Copy the file to your clipboard with:"
+printf '       \033[36mxclip -selection clipboard < %s\033[0m\n' "$ROOT/${FRONT#./}"
+echo
+echo "  Full procedure: 09-prompt-library/Character-Image-Checklist.md"
+echo

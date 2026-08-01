@@ -70,7 +70,7 @@ said do not stop. They now agree.
 >
 > I can't fetch the repository, so I won't generate anything — an invented
 > character sheet is worse than no answer. To proceed, paste the contents of
-> `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt` and
+> `03-characters/<character>/prompts/turnarounds-short/turn-<outfit>-front.txt` and
 > attach the reference images it names.
 
 The stop is not optional and the fallback is not a substitute for it. Failing
@@ -90,9 +90,25 @@ at all.
 
 **1. The prompt files ARE the prompts. Use them verbatim.**
 Never summarise, shorten, paraphrase or extract "key points" from a prompt file.
-They run to 30,000+ characters on purpose — every `NON-NEGOTIABLE` item exists
-because a previous generation got that thing wrong. A compressed version produces
-a plausible, wrong image.
+Every `NON-NEGOTIABLE` item exists because a previous generation got that thing
+wrong. A compressed version produces a plausible, wrong image.
+
+**Use the SHORT prompt. `prompts/turnarounds-short/`, not `prompts/turnarounds/`.**
+
+Established 2026-08-01, and it is the single most important line in this file.
+Image models accept roughly 4,000 characters. The long prompts run to 28,000 —
+seven times over. Everything past the limit is compressed by the host before it
+reaches the generator, lossily and differently each run, which is why the same
+file produced a usable costume plate one run and a Jedi character sheet the next.
+It is the cause of nearly every failure recorded in this document.
+
+The short files hold the same non-negotiables, trimmed to fit. **They are the
+prompt.** The long ones under `prompts/turnarounds/` are the specification — read
+them if you need to settle a detail, never paste them into a generator.
+
+That is also why rule 1 is not a licence to shorten things yourself: the trimming
+is done by a tool, deterministically, with the critical clause of each rule kept.
+Your own compression is not the same thing.
 
 **2. Never generate from `Character.md`.**
 Those are written for humans and are the wrong shape to generate from. Only files
@@ -195,7 +211,7 @@ Show the image and say, filling in the real numbers:
 >
 > Do you want to preview a replacement?
 
-`<N>` is the number of `.txt` files under `prompts/` and `prompts/turnarounds/`
+`<N>` is the number of `.txt` files under `prompts/` and `prompts/turnarounds-short/`
 for that character, minus the front view itself.
 
 **Only continue if the user says yes.** If they do, treat the result as a
@@ -206,7 +222,8 @@ for that character, minus the front view itself.
 
 ### Step 2 — generate
 
-1. Read `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt`.
+1. Read `03-characters/<character>/prompts/turnarounds-short/turn-<outfit>-front.txt`.
+   **The short one.** See rule 1 — the long file will not fit in the generator.
 2. Fetch every file named in an operator line.
 3. **Actor references are listed in the prompt itself, numbered, each with a
    full public URL.** There may be several — they are the same person from

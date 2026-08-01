@@ -76,7 +76,8 @@ Each number is used exactly once.
 | `Prompts.md` | Image prompt pack — human-readable, the source for `prompts/` |
 | `board-data.yaml` | Which images go where on which boards |
 | `prompts/` | **Generated.** Paste-ready prompts, one per image |
-| `prompts/turnarounds/` | **Generated.** Five per outfit |
+| `prompts/turnarounds/` | **Generated.** Five per outfit. The full specification — too long to generate from |
+| `prompts/turnarounds-short/` | **Generated.** The same five, under 4,000 characters. **These are what you paste** |
 | `source/artwork/` | Accepted images. Not reproducible — treat as precious |
 | `reference/actor/` | Actor photographs. See `03-characters/CAST-REFERENCE.md` |
 | `renders/` | **Gitignored.** 300 DPI board previews |
@@ -90,14 +91,21 @@ Each number is used exactly once.
 ```bash
 source .venv/bin/activate
 
-python tools/prompt-splitter/turnarounds.py shada   # costume turnarounds
+python tools/prompt-splitter/turnarounds.py shada   # costume turnarounds — the spec
+python tools/prompt-splitter/short.py shada         # the same, cut to fit a generator
 python tools/prompt-splitter/split.py shada         # plates and mood images
 python tools/board-generator/generate.py shada      # A2 board PDFs
 python tools/script-convert/render.py               # screenplay -> PDF
 python tools/script-convert/render.py --format fdx  # screenplay -> Final Draft
 ```
 
-The first three accept `--all`. The board generator takes `--validate` (check
+The first four accept `--all`.
+
+**Paste the short ones.** Image models accept about 4,000 characters; the full
+turnaround prompts are 28,000. Anything past the limit is compressed by the host
+before the generator sees it — which is why identical files gave different
+costumes. `short.py` keeps every non-negotiable, trimmed at a sentence boundary,
+and fits. The long files remain the specification and the thing humans read. The board generator takes `--validate` (check
 without building) and `--board <key>` (one board).
 
 **The screenplay is plain text.** It lives as Fountain under `02-story/scenes/`

@@ -7,6 +7,10 @@ status: "canonical"
 
 # Generating From A Connected Repo
 
+> **The machine-readable version of this is [`AGENTS.md`](../AGENTS.md) at the
+> repository root.** Point the model at that; this document is the reasoning
+> behind it, for humans.
+
 **For when ChatGPT has read access to this repository**, rather than being pasted
 into by hand. Added 2026-08-01.
 

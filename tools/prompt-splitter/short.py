@@ -141,7 +141,10 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
     rules = [trim(m, rule_chars) for m in (outfit.get("must_show") or [])]
     hand = cfg.get("handedness")
     height = outfit.get("height") or cfg.get("height")
-    retrieve = cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve")
+    # An outfit may override the file-level block. Baylan needs this: the base
+    # turnarounds say the coat is not worn, and the coat set says it is.
+    retrieve = (outfit.get("do_not_retrieve_short") or outfit.get("do_not_retrieve")
+                or cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve"))
 
     parts = [
         f"[{character.upper()} — {outfit['name'].upper()} — {view.upper()}]",

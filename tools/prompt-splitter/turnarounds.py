@@ -519,7 +519,9 @@ def run(repo: Path, character: str) -> int:
         # A per-outfit height wins, because mercenary-kit is four different
         # people in one file and Merc 1 is a Wookiee.
         outfit["_height"] = outfit.get("height") or cfg.get("height")
-        outfit["_do_not_retrieve"] = cfg.get("do_not_retrieve")
+        # An outfit may override the file-level block — see short.py.
+        outfit["_do_not_retrieve"] = (outfit.get("do_not_retrieve")
+                                      or cfg.get("do_not_retrieve"))
         outfit["_dir"] = character
         views = VIEWS + [("natural", "NATURAL POSE", "")]
         for view_id, view_name, view_desc in views:

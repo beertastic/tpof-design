@@ -1,10 +1,10 @@
-[BAYLAN — WORKING DRESS — LEFT]
-Output file: turn-working-left.png
+[BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
+Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 20c1f82e (short) · repo commit 5697cf3 2026-08-01 17:47
+Prompt version: 43f8f06d (short) · repo commit 5697cf3 2026-08-01 17:47
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 5697cf3, prompt 20c1f82e.
+    Working from commit 5697cf3, prompt 43f8f06d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -23,24 +23,21 @@ is attached, fetch these URLs instead — and say which route you used:
   Do not edit or re-crop that photo — make a new photograph of that person.
   Say whether you used an attached file or a URL. If neither worked, stop.
 
-You are thinking of the austere silver-haired Jedi in flowing black robes with a hood up and an orange lightsaber. THAT MAN IS EIGHTEEN YEARS IN HIS FUTURE — reject his BEARING and his SILHOUETTE: no hood up, no monastic sleeves, no ceremonial drape, no visible hilt, no gravitas, no silver mane. He DOES own a long dark coat and it is his, but it is not worn in these views.
+You are thinking of the austere silver-haired Jedi in flowing black robes with a hood up and an orange lightsaber. THAT MAN IS EIGHTEEN YEARS IN HIS FUTURE — reject his BEARING and his SILHOUETTE: no hood up, no monastic sleeves, no ceremonial drape, no visible hilt, no gravitas, no silver mane. He IS wearing his long dark coat here, and it is a heavy old working coat.
 
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood.
-2. ABSOLUTELY NO ORNAMENT. Every other mercenary is marked; he is not.
-3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS.
-5. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS.
-6. EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF GREEN — coarse, hand-worked,…
-7. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
-8. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. It is what the holster hangs from and it is doing a job.
-9. A THIN CORD AROUND HIS NECK, disappearing under the shirt.
-10. LATE FORTIES — FORTY-EIGHT. TALL AND BROAD AND THICKENED. NOTHING may suggest he could still fight.
-11. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI, AND THIS IS THE VIEW WHERE THAT IS HARDEST. The coat is the one garment that could betray him.
+2. THE COAT IS WORN OPEN AND HANGS STRAIGHT. It is not fastened, not belted over, not wrapped across the body. SCORCHING ALONG ONE SIDE ONLY.
+3. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT.
+4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else.
+5. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. NEVER his left.
+6. ABSOLUTELY NO ORNAMENT, on the coat or under it.
+7. LATE FORTIES — FORTY-EIGHT. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
+8. MUTED BUT NEVER BLACK-ON-BLACK. He must also separate from a night forest and from camp firelight. Do not sink him into the background.
 
-SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body.
+SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

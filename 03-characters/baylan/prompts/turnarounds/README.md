@@ -15,6 +15,11 @@ All at **2:3**, tall, full figure.
 | Working dress | in progress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
 | Working dress | in progress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
 | Working dress | in progress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+| Working dress with the long coat | in progress | FRONT | `turn-working-coat-front.txt` | `turn-working-coat-front.png` |
+| Working dress with the long coat | in progress | LEFT SIDE | `turn-working-coat-left.txt` | `turn-working-coat-left.png` |
+| Working dress with the long coat | in progress | RIGHT SIDE | `turn-working-coat-right.txt` | `turn-working-coat-right.png` |
+| Working dress with the long coat | in progress | BACK | `turn-working-coat-back.txt` | `turn-working-coat-back.png` |
+| Working dress with the long coat | in progress | NATURAL POSE | `turn-working-coat-natural.txt` | `turn-working-coat-natural.png` |
 
 ## Approved outfits
 

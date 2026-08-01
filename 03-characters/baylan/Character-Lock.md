@@ -55,17 +55,32 @@ him as a Jedi on first sight has failed.
     bunk, on cold nights — less on patrol or hauling. Must **not** produce a Jedi
     silhouette: no wide monastic sleeves, no ceremonial drape, no hood-up mystique.
     It is a heavy old coat.
-  - **Four or five nested chevrons, apex down**, across the chest of the
-    OUTERMOST layer: raised matte suede-like leather panels appliquéd on the woven
-    base, widest at the shoulders, narrowing to the sternum, sitting proud of the
-    cloth. Tonal, dark on dark — texture and shadow, never colour contrast.
-    **Plainly visible in every view and every scene**, including all five
-    turnarounds. Only the long coat covers them, and only partly. The chest
-    harness crosses over them and interrupts them; that is correct.
-    **The stitching holding the panels down is green** — dark, desaturated,
-    greyed off. At normal distance it reads as dark thread; it is only findable
-    in close-up. It is the ONLY colour on him, and nothing else on the costume
-    is green.
+    **It has its own five-view turnaround set** (`working-coat`), added
+    2026-08-01. The base five record what the costume department builds; these
+    record the silhouette the audience actually sees him in. Worn open in both.
+  - **The chevron plastron** — a centre-front panel on the OUTERMOST layer, not
+    a graphic across the chest. It runs from the base of the throat to under the
+    belt, bounded by a stitched edge, and **it is narrower than his shoulders**:
+    it does not reach the shoulder seams or the arms, and plain garment shows
+    either side of it. A plain rounded area at the top rises to a blunt point
+    below the throat; beneath it, **five nested chevrons, apex down**, broad
+    bands about a hand's width, touching, filling the panel to the waist at a
+    shallow angle — roughly 30° below horizontal, wide and open, never steep.
+    Raised matte suede-like leather appliquéd on the woven base and sitting proud
+    of it. Tonal, dark on dark — texture and relief, never colour contrast. If it
+    reads as printed or painted onto the cloth rather than built from separate
+    pieces, it is wrong. **Plainly visible in every view and every scene**,
+    including all five turnarounds; worn open, the long coat frames it rather
+    than covering it. The chest harness crosses over it and interrupts it; that
+    is correct.
+    **Every band edge carries a coarse hand-worked stitch line, and that
+    stitching is green** — dark, desaturated, greyed off. At normal distance it
+    reads as dark thread; it is only findable in close-up. It is the ONLY colour
+    on him, and nothing else on the costume is green.
+    *Geometry fixed against reference 2026-08-01, after a generation returned
+    three flat bands spanning shoulder to shoulder and stopping at mid-torso.
+    The layout is deliberately the later garment's, executed as workwear: same
+    shape, cheaper make.*
     **Construction, not decoration** — which is what keeps them inside the
     no-ornament rule. They are the ancestor of the chest piece he is known for
     later, worn in plain sight rather than concealed. *Moved outward 2026-08-01;

@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 4a909724 (short) · repo commit 367d318 2026-08-01 17:45
+Prompt version: 6168f501 (short) · repo commit 5697cf3 2026-08-01 17:47
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 367d318, prompt 4a909724.
+    Working from commit 5697cf3, prompt 6168f501.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -28,16 +28,17 @@ You are thinking of the austere silver-haired Jedi in flowing black robes with a
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. No hood.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood.
 2. ABSOLUTELY NO ORNAMENT. Every other mercenary is marked; he is not.
-3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. Repaired tears.
-5. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. THEY ARE ON THE OUTERMOST TOP LAYER AND MUST BE…
-6. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
-7. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. It is what the holster hangs from and it is doing a job.
-8. A THIN CORD AROUND HIS NECK, disappearing under the shirt.
-9. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. NOTHING may suggest he could still fight.
-10. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
+3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left.
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS.
+5. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS.
+6. EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF GREEN — coarse, hand-worked,…
+7. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
+8. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. It is what the holster hangs from and it is doing a job.
+9. A THIN CORD AROUND HIS NECK, disappearing under the shirt.
+10. LATE FORTIES — FORTY-EIGHT. TALL AND BROAD AND THICKENED. NOTHING may suggest he could still fight.
+11. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

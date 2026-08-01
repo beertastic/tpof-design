@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.4"
+version: "0.5"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -269,7 +269,9 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 
 | Element | Note |
 |---|---|
-| **Long coat** | Good dark hide, skirted panel below the knee, split at the back. Hard square shoulder line |
+| **Body garment** | **A second skin** — good dark hide and technical cloth, close to the body from throat to ankle. No volume anywhere. **Revised 2026-08-01: she has to be agile and the costume must say so at a glance** |
+| **Below the belt** | **Narrow split panels** hanging straight over the skin-tight leg, long enough to keep the upright line, parting completely when she moves. Never a skirt, never a flare |
+| **Shoulder** | Hard, square, structured — **the only place the costume is wider than she is** |
 | **Collar** | Stiff, stands, closed to the throat. Never open, never a lapel |
 | **Waist** | Cinched hard by a wide heavy belt — the cinch is what makes the silhouette read |
 | **Boots** | Tall, the best in the crew, resoled and cared for |
@@ -277,11 +279,27 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 | **Condition** | Good materials, badly weathered. Faded across the shoulders, mended at cuff and hem, mud to the knee, collar worn shiny |
 | **Fit** | **Cut to her, at her size.** Never oversized, never borrowed, never swamping her |
 
-**The fit is where the money shows.** In a crew wearing dead men's kit and
-salvage, hers is the only outfit in the film that was **made to measure** — and
-at 150 cm nothing could have been scavenged to fit her anyway. Nobody out here
-has anything made. That is what her share actually looks like, and it is a
-better answer than "more of it" or "shinier".
+**The fit is where the money shows**, and the 2026-08-01 revision to a skin-tight
+cut makes the argument airtight. In a crew wearing dead men's kit and salvage,
+hers is the only outfit in the film that was **made to measure** — and a garment
+fitted this close *cannot be anything else*. At 150 cm nothing could have been
+scavenged to fit her anyway. Nobody out here has anything made. That is what her
+share actually looks like, and it is a better answer than "more of it" or
+"shinier".
+
+**Close-fitting for movement, not for display.** The reason on the record is
+agility: she is the smallest adult in the film and has to keep up with people
+twice her size. `Prompts.md` carries the standing rule — *no glamour posing, no
+sexualisation, no fashion-editorial lighting* — and `outfits.yaml` restates it
+inside the silhouette rule so the two cannot drift apart. Shada is specified the
+same way and for the same reason.
+
+**What the tight cut costs, and why it is worth it.** The long skirted coat was
+carrying part of the officer silhouette. Removing its volume moves all of that
+work onto three hard elements — **the stand collar, the square shoulder and the
+belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast is
+sharper than the coat ever was: the only wide thing about her is a shoulder line
+she had made.
 
 **No insignia, no rank badge, no faction mark, no medal, no braid.** The moment
 she carries a real marking, the design collapses — her authority stops being
@@ -358,6 +376,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.5 | 2026-08-01 | in-development | **Silhouette revised to skin-tight** at the production's request — she has to read as agile. The long skirted coat loses its volume; the officer line now rests entirely on the stand collar, the square shoulder and the belt, over a second skin. Narrow split panels below the belt keep the upright line without a skirt. Reinforces the made-to-measure argument: a garment cut this close cannot be scavenged. |
 | 0.4 | 2026-08-01 | in-development | **Backstory given by the production.** Aggressive intimidator; strict family, displaced fear, targets the intellectually weaker, controls by fear. Met the akk dog on a transport job and kept it — which answers how she captains this crew at twenty-eight, and makes her authority founded on stealing the one thing that has ever loved her. Corrected `08-species/akk-dog/Creature.md`, which said she was fond of it "the way you are fond of a good weapon" — that was already contradicted by this document and is now settled the other way. |
 | 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 150 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |
 | 0.2 | 2026-08-01 | in-development | Physical design decided: human, forties, powerfully built, right-handed. Costume resolved from a Japanese-officer reference abstracted to proportions only per Bible §6.5. Whistle and coiled leash decided. `outfits.yaml` written; five turnaround prompts generate. Script facts recovered — the eye taken from Nyx, the friendship with Baylan, and the Sc.9 plant of the finale. |

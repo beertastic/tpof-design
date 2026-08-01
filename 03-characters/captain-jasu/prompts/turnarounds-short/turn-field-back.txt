@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — BACK]
 Output file: turn-field-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 1d2dd559 (short) · repo commit bcdf4a0 2026-08-01 21:19
+Prompt version: 06dec32e (short) · repo commit 327f476 2026-08-01 21:23
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -22,7 +22,7 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) 
 
 MUST BE TRUE OF THIS IMAGE:
 1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. Do not compensate for that.
-2. THE SILHOUETTE IS HIGH COLLAR, HARD SQUARE SHOULDER, LONG SKIRTED COAT, HARD-CINCHED WAIST, TALL BOOTS. NOT a flared armour guard, NOT a pauldron, NOT a spiked or winged shape. IT IS CUT TO HER.
+2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE. NOT a full skirt, NOT a wide coat, NOT robes.
 3. A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK. NO horns, NO wings, NO plume, NO face plate, NO neck guard, NO visor, and it covers NONE of her face.
 4. GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART. She takes the largest share and it shows in the QUALITY, never in the condition. NOT clean, NOT pressed, NOT ceremonial, NOT new.
 5. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. A small worn WHISTLE on a cord at her throat, plainly visible, cheap and much handled.

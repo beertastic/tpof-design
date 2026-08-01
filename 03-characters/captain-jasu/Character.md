@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.3"
+version: "0.4"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -135,6 +135,70 @@ choosing somebody else"* is the last thing that happens to her before she dies.
 
 **The akk dog is FEMALE in the script** — *"She hasn't eaten," "She needs to
 hunt."* Correct any document that says "it".
+
+### Backstory — **given by the production 2026-08-01**
+
+**Personality type: aggressive intimidator.**
+
+She comes from a **strict family where aggression was rewarded**. She was
+frightened of her own parents, and that fear had nowhere to go — it could never
+be aimed at the people she was actually angry with. So she looked for power over
+others instead, and specifically over **people intellectually weaker than
+herself**. She is cold, and she controls through fear.
+
+She met the akk dog **after being hired to transport one** — this one. She bonded
+with it, and felt love from it: **unconditional, and completely unfamiliar to
+her.** It has been her only trusted ally ever since.
+
+*Interpretation flag: "power in the nursery" is read here as the pattern being
+formed in childhood — the appetite for control originating in that house. If it
+was meant literally, as a place where young akks are kept, say so and this
+section changes.*
+
+### What the backstory decides
+
+**How a twenty-eight-year-old came to captain this crew.** She was a courier. She
+was paid to move an animal and she kept it, and the animal made her a captain.
+**Her entire authority rests on stealing something she was hired to deliver** —
+and it is also the only thing that has ever loved her. Both facts are true of the
+same act.
+
+**Her aggression is displaced and she cannot aim it where it belongs.** The crew
+are substitutes for her parents. This is a performance note more than a design
+one: her violence is never really about the person in front of her, which is why
+she can do it and then smile.
+
+**She is COLD, not hot-tempered.** She kills Krellis mid-sentence and smiles —
+calculated, not enraged. **The single exception is the finale**, where she
+charges Baylan *"filled with confusion and rage"*, and it happens immediately
+after the animal refuses her. **The only thing in the world that can make her
+lose control is the dog**, because it is the only thing she has that is not
+strategy.
+
+**She targets the intellectually weaker, which tells us who she does NOT
+target.** Baylan is watchful, observant and clever; Shada is precise and
+patient. Neither is prey. That is very likely *why* Baylan is
+*"Jasu's golden boy"* — he is one of the few she cannot dominate, so the
+relationship had to become something else. **Nyx is the one whose eye she took.**
+
+**The intimidation is a strategy, not a temper.** At 150 cm she cannot loom, so
+she gets in first and escalates faster than anyone expects. Taking an eye off a
+grown mercenary is not cruelty for its own sake — it buys years of compliance
+from people who could overpower her in a second, and it only has to be done once.
+
+**She is not doing it in Scene 9.** Worried about her animal, quiet, performing
+for nobody. **The intimidator switches off for the dog and for nothing else.**
+
+### A proposal, not a decision — where the tailoring comes from
+
+Her costume is the only made-to-measure thing in the film, and the backstory
+offers a reason better than money: **it is a habit she kept from the house she
+fled.** A strict family that rewarded aggression is a family with standards, and
+she still dresses to them. That would make the one elegant thing about her an
+inheritance from the people she is still angry with — worn every day, unexamined.
+
+Offered for the Production Designer. Nothing depends on it, and the costume works
+without it.
 
 ## Costume note
 
@@ -275,10 +339,15 @@ TBD.
   older tack, a mark, a scar she did not cause?
 - ~~Is she afraid of it?~~ **No** — she raised it. That removes a layer of tension
   and adds a worse one. Decided 2026-08-01.
-- **How did a twenty-eight-year-old come to captain this crew?** Backstory
-  pending from the production, 2026-08-01. Do not invent one.
-- **Does the akk dog predate her captaincy?** She probably raised it from young,
-  which at twenty-eight means she raised it as a teenager — most of her life.
+- ~~How did a twenty-eight-year-old come to captain this crew?~~ **She was hired
+  to transport the akk dog and kept it.** Answered by the production 2026-08-01.
+- ~~Does the akk dog predate her captaincy?~~ **It IS her captaincy.** The animal
+  came first and everything else followed from it.
+- **How old was the animal when she was paid to move it, and how long ago?**
+  Not decided. It governs whether she raised it or inherited it grown, which
+  changes how much of her life it has been.
+- **Is her family alive, and does she ever go back?** Not decided, and probably
+  Film 2 or 3 business rather than this one.
 - **What does the crest on the brow band depict?** It should be salvage or
   purchase, never an award. Nobody has decided what it is.
 - **Does she wear the coat in every scene**, or does it come off for the pursuit
@@ -289,5 +358,6 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.4 | 2026-08-01 | in-development | **Backstory given by the production.** Aggressive intimidator; strict family, displaced fear, targets the intellectually weaker, controls by fear. Met the akk dog on a transport job and kept it — which answers how she captains this crew at twenty-eight, and makes her authority founded on stealing the one thing that has ever loved her. Corrected `08-species/akk-dog/Creature.md`, which said she was fond of it "the way you are fond of a good weapon" — that was already contradicted by this document and is now settled the other way. |
 | 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 150 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |
 | 0.2 | 2026-08-01 | in-development | Physical design decided: human, forties, powerfully built, right-handed. Costume resolved from a Japanese-officer reference abstracted to proportions only per Bible §6.5. Whistle and coiled leash decided. `outfits.yaml` written; five turnaround prompts generate. Script facts recovered — the eye taken from Nyx, the friendship with Baylan, and the Sc.9 plant of the finale. |

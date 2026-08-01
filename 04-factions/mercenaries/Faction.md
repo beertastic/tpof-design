@@ -69,6 +69,20 @@ In practice:
 
 ## Captain Jasu commands because of the akk dog
 
+**How she got it — added 2026-08-01.** She was hired to transport the animal and
+kept it. She did not rise through this crew; **the animal made her**, and her
+authority is founded on stealing something she was paid to deliver. She is
+twenty-eight and 150 cm, the smallest adult in the film, and there is no other
+explanation available for why anyone obeys her.
+
+**She is an aggressive intimidator who cannot physically intimidate**, so she
+gets in first and escalates faster than anyone expects — she took an eye off Nyx
+and he jokes about it. Her backstory has her seeking power over people
+**intellectually weaker than herself**, which is why Baylan became a favourite
+rather than a target. See
+[`../../03-characters/captain-jasu/Character.md`](../../03-characters/captain-jasu/Character.md).
+
+
 **Her authority is borrowed from an animal.** She is not in charge through rank,
 seniority, tactical skill or the crew's respect. She is in charge because she
 owns a monster and everyone knows it.

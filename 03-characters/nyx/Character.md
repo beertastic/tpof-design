@@ -11,6 +11,36 @@ source: "Filmanize script breakdown and production notes"
 
 > **Production rule:** Refer to the Production Design Bible before any visual development or image generation.
 
+## Jasu took one of his eyes — **recorded 2026-08-01**
+
+> **NYX:** Gotta finish my route or Jasu will have my other eye. — Sc.14, to
+> Baylan, lightly, as a joke between friends.
+
+**He carries an eye injury his own captain gave him**, and this had never been
+written into any design document. It is not optional: the line only works if the
+audience can see it.
+
+**That it is said as a joke is the point.** The crew has normalised being maimed
+by her, and Nyx is close enough to Baylan to be light about it.
+
+**Why him, and not somebody else.** Jasu's backstory has her seeking power over
+people **intellectually weaker than herself** — see
+[`../captain-jasu/Character.md`](../captain-jasu/Character.md). Baylan is
+watchful and clever and she made him a favourite instead. Nyx is the one she
+chose to make an example of. **Whatever is decided about Nyx's intelligence, it
+has to be consistent with him being the one she picked**, and with him joking
+about it afterwards rather than hating her for it.
+
+### Required of the design
+
+- **Decide which eye**, and record it. It affects his blocking, his weapon side
+  and every image of him.
+- **Decide what it looks like** — a lost eye, a blinded eye, a scar across a
+  working eye. Cheapest is a scar and a clouded iris; a prosthetic or a covering
+  is a bigger commitment and reads louder.
+- **It is old, not recent.** Healed, lived with, unremarkable to him.
+- He dies in Sc.25 and the wound is on camera throughout the finale.
+
 ## Art Department Brief
 
 Mercenary with recurring dialogue, patrol and pursuit responsibilities.

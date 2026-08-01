@@ -46,17 +46,45 @@ because the finale depends on that affection being turned against them.
 respect — she commands the crew because she owns a monster and everyone knows it.
 The animal is the rank, and where she is, it is.
 
-That makes Scene 9 cold rather than warm: petting it in the middle of a briefing
-is a reminder to everyone watching. And it means the finale is her instrument of
+That makes Scene 9 **cold in effect and sincere in intent**: the reminder to
+everyone watching is real, and so is the affection. She is not performing —
+Scene 9 is the one moment in the film where she is not performing — and the
+intimidation happens anyway, as a by-product. That is what makes it cold. And it means the finale is her instrument of
 power being used on an unarmed, injured woman.
 
 It also sets the danger level of the camp. A crew that keeps an akk dog is not a
 crew you walk away from, which matters because Baylan has been living beside it
 for years and the escapees are being hunted by it.
 
-**It has no name.** Jasu keeps a war animal she has never named. That is a
-deliberate and cold detail: she is fond of it the way you are fond of a good
-weapon.
+### Where it came from — **given by the production 2026-08-01**
+
+**Jasu was hired to transport it, and kept it.** She was a courier; she was paid
+to move this animal; she bonded with it on the way and never delivered it.
+**Her entire authority is founded on stealing something she was paid to
+deliver** — and the same act got her the only thing that has ever loved her.
+
+That answers how a twenty-eight-year-old commands this crew. She did not rise.
+**The animal made her**, and everything else followed.
+
+Not yet decided: how old it was when she took it, and how long ago. That governs
+whether she raised it or inherited it grown — see
+[`03-characters/captain-jasu/Character.md`](../../03-characters/captain-jasu/Character.md).
+
+**It has no name, and the reason is NOT that she treats it as a weapon.**
+*Corrected 2026-08-01.* This document used to say she was "fond of it the way you
+are fond of a good weapon", which was already contradicted by her character
+document — Scene 9 states the affection is genuine, and the finale only works if
+she is **spending something she loves**.
+
+The backstory settles it. She came from a strict family where aggression was
+rewarded and love was not given, and the akk is the first unconditional love she
+has ever received. **She has never named the only thing that has ever loved her,
+because nobody taught her how.** Naming is an act of intimacy she has no
+vocabulary for.
+
+That keeps the detail cold and makes it worse rather than softer, which is the
+right direction: she loves it, she cannot say so, and in the finale she spends it
+anyway.
 
 ## The core design rule
 

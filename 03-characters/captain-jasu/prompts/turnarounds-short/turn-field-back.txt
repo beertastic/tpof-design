@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — BACK]
 Output file: turn-field-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 1a49bfae (short) · repo commit c827273 2026-08-01 21:03
+Prompt version: 1d2dd559 (short) · repo commit 18e5f06 2026-08-01 21:10
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -27,7 +27,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART. She takes the largest share and it shows in the QUALITY, never in the condition. NOT clean, NOT pressed, NOT ceremonial, NOT new.
 5. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. A small worn WHISTLE on a cord at her throat, plainly visible, cheap and much handled.
 6. BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. A holstered blaster pistol, belt-mounted, grip up and angled forward for a right-hand draw. NEVER her left.
-7. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall.
+7. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. SHE IS COLD, NOT ANGRY.
 8. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.

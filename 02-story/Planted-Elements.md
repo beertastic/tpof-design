@@ -195,6 +195,7 @@ effect dies.
 | In this film | Becomes |
 |---|---|
 | **The chevron top layer.** Four or five nested chevrons, apex down, raised suede-like panels across the chest of his outermost garment. Worn in every scene, read by everyone as workwear | **The chest piece.** Later he makes a proper, formal version of the shape he has worn as work clothing for eighteen years. Nothing is revealed — it is recognised |
+| **The green stitching.** The thread holding the chevron panels down is a dark, greyed-off green — the only colour on him, and only findable in close-up | **The colour he is known for.** It was on him the whole time, as thread. Nobody watching Film 1 could name it; everybody rewatching can |
 | **The long dark coat.** Weathered black, below the knee, worn open, scorched down his left side, repaired and never patched properly. Reads as ordinary mercenary weather gear | **The cloak.** Same garment, same silhouette, no ceremony attached to it yet |
 | **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
 | **The crystal.** Small, jagged, yellow, in a worn pouch against his skin | The blade that **finishes orange** in this film's last act |

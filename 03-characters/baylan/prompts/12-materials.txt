@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 12 — MATERIALS AND PALETTE]
 Output file: materials.png
 Aspect ratio: 5:4  (landscape)
-Prompt version: 11ee5693 · repo commit 1283ad0 2026-08-01 17:41
+Prompt version: 11ee5693 · repo commit 02784ff 2026-08-01 17:41
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1283ad0, prompt 11ee5693.
+    Working from commit 02784ff, prompt 11ee5693.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

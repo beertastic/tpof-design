@@ -62,6 +62,10 @@ him as a Jedi on first sight has failed.
     **Plainly visible in every view and every scene**, including all five
     turnarounds. Only the long coat covers them, and only partly. The chest
     harness crosses over them and interrupts them; that is correct.
+    **The stitching holding the panels down is green** — dark, desaturated,
+    greyed off. At normal distance it reads as dark thread; it is only findable
+    in close-up. It is the ONLY colour on him, and nothing else on the costume
+    is green.
     **Construction, not decoration** — which is what keeps them inside the
     no-ornament rule. They are the ancestor of the chest piece he is known for
     later, worn in plain sight rather than concealed. *Moved outward 2026-08-01;

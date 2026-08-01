@@ -29,3 +29,9 @@ __pycache__/
 # Rendered scene drafts — regenerable from the .fountain beside them
 02-story/scenes/drafts/*.pdf
 02-story/scenes/drafts/*.fdx
+
+# Study material — copyrighted stills from other productions, kept for reference
+# and NEVER committed. This repository is public: an unauthenticated raw fetch
+# returns 200. See 10-assets/study/README.md
+10-assets/study/*
+!10-assets/study/README.md

@@ -1,5 +1,25 @@
 # Prompt Tools
 
+## What each output is for
+
+Both `prompts/turnarounds/` and `prompts/turnarounds-short/` are generated from
+`outfits.yaml` — **the short ones are not derived from the long ones.** Changing
+one cannot silently change the other, and neither is the source of the other.
+
+| Output | Read by | Used for |
+|---|---|---|
+| `turnarounds-short/` | **The image generator** | The only thing pasted into a chat. Under 3,800 characters, which is what an image model accepts |
+| `turnarounds/` | **People** | The full specification. What a costume supervisor builds from, and what settles an argument about what a rule actually says |
+| `prompts/*.txt` | The image generator | Plates and mood images, one per slot |
+
+**The long turnarounds are a build document, not a prompt.** They carry the whole
+of every `must_show` rule where the short version keeps the first sentence and the
+constraints. When a maker asks *"how big are the chevrons, exactly"*, the answer is
+in the long file and cannot fit in the short one.
+
+If they ever stop being read by a human, they should be deleted rather than
+maintained out of habit.
+
 Two generators. Both read from the character's documents and emit **paste-ready
 plain-text prompts** — open one, select all, paste.
 

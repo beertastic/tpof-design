@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — BACK]
 Output file: turn-working-coat-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: fab8e6f5 (short) · repo commit 5697cf3 2026-08-01 17:47
+Prompt version: fab8e6f5 (short) · repo commit 3a72ac7 2026-08-01 18:05
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 5697cf3, prompt fab8e6f5.
+    Working from commit 3a72ac7, prompt fab8e6f5.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

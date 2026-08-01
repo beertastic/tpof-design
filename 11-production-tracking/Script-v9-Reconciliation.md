@@ -220,20 +220,25 @@ on.
 
 ---
 
-## 7. The scene numbering has changed — **ACTIONED 2026-08-01**
+## 7. Scene 24A never existed — **RESOLVED 2026-08-01**
 
-Every stale `24A` in the design documents is repointed, and `Scene-Index.md` is
-updated to v10 with a note saying the screenplay outranks it. The remaining
-mentions across the repository are deliberate historical ones.
+**Confirmed by the Production Designer: there is no Scene 24A and there never
+was.** It is an artefact of the Filmanize breakdown, which was the first thing
+uploaded to this repository and which does not match the screenplay. The design
+documents inherited it and carried it into nine files.
 
-The breakdown lists 25 scenes including a **24A**. Script v9 has 25 scenes and
-**no 24A** — the clearing fight is Sc.24 and the finale is Sc.25.
-`02-story/script-breakdown/Scene-Index.md` is therefore out of date, and so is
-every `scenes:` field in every `outfits.yaml`.
+The screenplay has **25 scenes**: the clearing fight with Vala is Sc.24 and the
+finale is Sc.25.
 
-Scene 6 has also become a **vision** in v9 (`EXT. FOREST - EVENING (VISION)`) —
-Baylan seeing Shin's group, with Nyx's voice cutting in. The breakdown had it as
-an ordinary forest scene.
+Every reference is repointed. `Scene-Index.md` now carries the screenplay's
+numbering rather than the breakdown's.
+
+**This was never a draft change.** Nothing was renumbered by the writer — the art
+department was working from a bad index for two days.
+
+The breakdown is wrong about Scene 6 in the same way. It lists an ordinary forest
+scene; the screenplay has `EXT. FOREST - EVENING (VISION)` — Baylan seeing Shin's
+group, with Nyx's voice cutting into it.
 
 ---
 

@@ -1,10 +1,13 @@
 # Scene Index
 
-> **Updated to screenplay v10, 2026-08-01.** The original of this table came from
-> the Filmanize breakdown, which was exported from an earlier draft: it listed a
-> **Scene 24A that v10 does not have**, and had Scene 6 as an ordinary forest
-> scene rather than a vision. Scenes 10, 13 and 15 have also moved inside the
-> mercenary ship. **The screenplay at `02-story/scenes/` outranks this file.**
+> **Now follows the screenplay, 2026-08-01.** This table was originally
+> transcribed from the Filmanize breakdown, and the breakdown does not match the
+> script: it invents a **Scene 24A that has never existed**, and lists Scene 6 as
+> an ordinary forest scene when it is a vision. Scenes 10, 13 and 15 have since
+> moved inside the mercenary ship.
+>
+> **The screenplay at [`../scenes/`](../scenes/) is the source of truth.** Where
+> this file and the script disagree, this file is wrong.
 
 | Scene | Setting | Time | Principal characters |
 |---|---|---|---|

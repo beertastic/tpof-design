@@ -169,7 +169,7 @@ per-scene props, set dressings and costumes are preserved in
 | | |
 |---|---|
 | **Shada** | Costume approved. **20/20 images, 5/5 boards.** Three images need replacing — see [`Shada-Image-TODO.md`](11-production-tracking/Shada-Image-TODO.md) |
-| **Baylan** | Documented and locked. Four outfits, 32 images planned |
+| **Baylan** | Documented and locked. **One costume** with a removable robe. 5 turnarounds + 13 plates, none generated yet |
 | **Shin** | Documented and locked. Three costume states |
 | **Akk dog** | Asset built and rigged; documented |
 | Everyone else | Placeholder |

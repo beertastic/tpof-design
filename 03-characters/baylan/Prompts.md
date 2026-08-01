@@ -20,7 +20,7 @@ reference governs face and build; this pack governs everything else.
 
 > **Start with the costume turnarounds — they are the primary deliverable.**
 > Twenty paste-ready prompts in
-> [`prompts/turnarounds/`](prompts/turnarounds/): four outfits, five views each.
+> [`prompts/turnarounds/`](prompts/turnarounds/): **one costume, five views.**
 > Generate those in full before any image in this document. Regenerate with
 > `python tools/prompt-splitter/turnarounds.py baylan`.
 >

@@ -202,8 +202,8 @@ once the prop is photographed.
 the reference is a photograph of the build, not a render.**
 
 Baylan inherits this for free — but he needs his own plates locked before his
-figures, not after. He has a blaster, a holster and a rifle across four outfits:
-the same drift, multiplied.
+figures, not after. He carries a blaster, a holster and a rifle: the same drift,
+multiplied across every view.
 
 ---
 
@@ -211,18 +211,20 @@ the same drift, multiplied.
 
 Baylan is next.
 
-**Done 2026-08-01: he is `handedness: right`, and all four outfits now carry
+**Done 2026-08-01: he is `handedness: right`, and his costume carries
 `must_show:`.** The placement checker is silent on him. Blaster on his right hip,
-rifle slung to fall to his right hand, pouches on his left off side, and the
-Scene 12 hilt on his right hip clipped to the obi — the only outfit it appears
-in. Recorded in `Character.md`, `Character-Lock.md` and `outfits.yaml`.
+rifle slung to fall to his right hand, pouches on his left off side. Recorded in
+`Character.md`, `Character-Lock.md` and `outfits.yaml`.
 
-Still owed before his twenty turnarounds:
+**He was also collapsed to ONE costume that day** — the robe is a removable layer,
+and the separate Scene 12 Jedi build is dropped. Five turnarounds, not twenty.
+
+Still owed before those five turnarounds:
 
 - **Lock his plates first, then his figures.** This is the order correction from
-  `8c5bea7` and it matters more for him than it did for Shada: he has a blaster,
-  a holster and a rifle across four outfits, and words will not hold three
-  silhouettes across twenty images. Generate `blaster`, `crystal` and `utility`,
+  `8c5bea7` and it matters more for him than it did for Shada: he carries a
+  blaster, a holster and a rifle, and words will not hold three silhouettes
+  across eighteen images. Generate `blaster`, `crystal` and `utility`,
   approve them, add them to `references:` in `outfits.yaml`, and only then start
   the figures with all of them attached.
 - **A `promo-data.yaml`.** Copy Shada's, keep the structure, replace the copy —

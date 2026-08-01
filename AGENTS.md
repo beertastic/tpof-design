@@ -77,9 +77,13 @@ that costume is matched against.
 
 ### Step 1 — the reference gate. Run this FIRST, every time.
 
-Read `03-characters/<character>/outfits.yaml`.
+Read `03-characters/<character>/outfits.yaml`. **That file is the only authority
+on how many outfits a character has.** Do not answer from `README.md`, from
+`Character.md`, from the status board or from anything you remember — those are
+prose and they go stale. If `outfits.yaml` lists one outfit, there is one
+outfit.
 
-- If there is more than one outfit and the user did not say which, **ask**.
+- If `outfits.yaml` lists more than one and the user did not say which, **ask**.
 - Look for `approved.reference` on that outfit, and check whether the file exists.
 
 **If an approved reference EXISTS — stop and ask before doing anything else.**

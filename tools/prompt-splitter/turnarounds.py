@@ -9,6 +9,7 @@ Five paste-ready prompts per outfit: front, left, right, back, natural.
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -25,6 +26,30 @@ ASYMMETRIC = ("gauntlet", "bracer", "vambrace", "holster", "blaster", "pistol",
               "knife", "sheath", "sword", "bandolier", "bandoleer", "sling",
               "pauldron", "shoulder cap", "shoulder plate", "satchel", "quiver",
               "scabbard", "eyepatch", "prosthetic")
+
+# An outfit that TAKES an item off does not owe it a side. Baylan's
+# shirtsleeves says "no blaster, no holster, no rifle" — the whole point of the
+# costume — and was being told to assign them a side it does not have.
+NEG_BEFORE = ("no ", "not ", "never ", "nor ", "without ")
+NEG_AFTER = re.compile(
+    r"[\s,]*(?:(?:is|are|was|were|all|both|now|has|have|been)\s+)*"
+    r"(?:removed|gone\b|gone\.|off\b)")
+
+
+def _unsided(text: str, word: str) -> bool:
+    """True if `word` appears at least once as something actually worn.
+
+    Matched on word boundaries, so "swordsman" is not a sword, and negated
+    mentions are ignored so a removed item is not reported as unplaced.
+    """
+    for m in re.finditer(rf"\b{re.escape(word)}\b", text):
+        before = text[max(0, m.start() - 12):m.start()]
+        if any(before.endswith(n) for n in NEG_BEFORE):
+            continue
+        if NEG_AFTER.match(text, m.end()):
+            continue
+        return True
+    return False
 
 
 from consistency import check_outfit
@@ -45,7 +70,7 @@ def check_placement(character: str, cfg: dict) -> list[str]:
         if not (o.get("must_show") or []):
             warnings.append(f"{character}/{o['id']}: no `must_show:` — critical "
                             "features will not be hoisted to the top of prompts.")
-        found = [w for w in ASYMMETRIC if w in text]
+        found = [w for w in ASYMMETRIC if _unsided(text, w)]
         if found and not any(sw in text for sw in SIDE_WORDS):
             warnings.append(
                 f"{character}/{o['id']}: mentions {', '.join(sorted(set(found))[:4])} "

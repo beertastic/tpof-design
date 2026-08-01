@@ -51,7 +51,7 @@ him as a Jedi on first sight has failed.
     Jedi life and never given up. Repaired tears, scorching, an unpatched burn. It
     reads as an ordinary weather cape, which the Bible sanctions. **It is the only
     thing he owns for comfort rather than use.** Worn off duty, at the fire, in the
-    tent, on cold nights — less on patrol or hauling. Must **not** produce a Jedi
+    bunk, on cold nights — less on patrol or hauling. Must **not** produce a Jedi
     silhouette: no wide monastic sleeves, no ceremonial drape, no hood-up mystique.
     It is a heavy old coat.
   - **The undertunic** — original Jedi weave, re-dyed dark, patched until the

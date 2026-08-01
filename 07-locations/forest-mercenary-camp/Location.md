@@ -30,15 +30,19 @@ status: "placeholder"
 The exterior camp: **the ground around the parked ship.** Briefing, the akk dog,
 the unloaded stores, the morning muster, and the deployment into the forest.
 
-**The ship sits in it and the crew sleeps in both.** Scene 7 has Nyx setting up a
-makeshift tent while Scene 13 has Baylan waking in a bunk aboard — and that is
-correct, not a contradiction. The YT-2000 is over capacity with ten aboard, so
-some of the crew bed down outside and some inside. **Do not "fix" the tents
-away.** They are the visible evidence that the ship is too small, which is the
-same fact that has made Baylan's eighteen years airless.
+**Nobody sleeps outside. There are no tents.** Decided 2026-08-01 — the whole
+crew beds down aboard, which is why the ship reads as over capacity and why
+Baylan has nowhere to be alone. The camp is a **working** area, not a sleeping
+one: the unloaded stores, a fire, and a tarp rigged as a windbreak.
 
-Sabacc happens in the hold because it is night and dry in there, not because
-nobody camps.
+That is also why Scene 14 matters. When Baylan wants to be unobserved he cannot
+step into his own tent — he has to walk out into the trees, which is exactly how
+Nyx nearly catches him.
+
+**Dressing, then:** crates and ammunition boxes in stacks, a fire, tarpaulins
+rigged as windbreaks and shelter rather than accommodation, and the ship itself.
+No bedrolls on the ground, no personal kit strewn about, nothing that says people
+live out here.
 
 ## Visual Design
 

@@ -278,12 +278,16 @@ Baylan's slot 4 and his `tone-collage` panel both had him in a canvas tent, and
 his `must_show` said the undertunic shows *"in the tent, at night"*. All three now
 say his bunk.
 
-**The tents are not a mistake and must not be tidied away.** Sc.7 still has Nyx
-setting up a makeshift tent while Sc.13 has Baylan waking in a bunk aboard. Both
-are true: the YT-2000 is over capacity with ten aboard, so some of the crew bed
-down outside and some inside. The tents are the visible evidence that the ship is
-too small — the same fact that has made Baylan's eighteen years airless. Recorded
-in the camp location document.
+**The tents are gone entirely — decided 2026-08-01, superseding an earlier note
+here that argued for keeping them.** Nobody sleeps outside. Sc.7's *"begins to set
+up a makeshift tent"* became *"starts dragging a crate clear of the ramp"*, and
+the camp is now a working area rather than a sleeping one: unloaded stores, a
+fire, and a tarp rigged as a windbreak.
+
+It is the better version. With the whole crew bunking aboard, the ship reads as
+over capacity without anyone saying so — and **Baylan has nowhere to be alone**.
+When he wants to be unobserved in Sc.14 he cannot step into his own tent; he has
+to walk out into the trees, which is exactly how Nyx nearly catches him.
 
 **What the move buys beyond the money:** the audience now spends three scenes
 inside this ship before the finale, so when Baylan and Shin leave on it they are

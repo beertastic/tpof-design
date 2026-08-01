@@ -135,7 +135,7 @@ decade later.
 | 7 | Nyx orders him to unload the ship and make camp; he watches, shaken, from the clearing's edge | He does manual labour. The costume is workwear that has actually worked |
 | 9 | Jasu briefs the camp; Baylan worries and recalls past missions | He is a subordinate, not an officer |
 | 12 | Shin's vision: Baylan on a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | **Working dress, not robes** — the separate build was dropped 2026-08-01. Hazy and indistinct; not a specific event |
-| 13 | Wakes gasping, sweating, scans the tents, slips out under the tarpaulin | Sleeps in the camp, in something |
+| 13 | Wakes gasping, sweating, scans the other bunks, slips down the ramp | Sleeps aboard, in a bed roll, with the crew |
 | 14 | Practices telekinesis alone in the storage area until Nyx finds him | The only time he stops performing |
 | 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, which comes apart — **and he rebuilds the lightsaber** | The hero prop and the hero moment |
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
@@ -254,7 +254,8 @@ else.
 
 These are **his own crew**. He has eaten with them, hauled crates for them, taken
 Nyx's teasing about his blaster, fed Jasu's animal, and slept twenty feet from her
-tent. He kills all of them, and he does it because they saw.
+for eighteen years on a ship too small to get away from anyone. He kills all of
+them, and he does it because they saw.
 
 **Killing Nyx should be devastating.** They are brothers in arms — Nyx is the
 person Baylan speaks to most in the film, the one who walks in on him using the
@@ -265,8 +266,8 @@ bodies. See [`03-characters/nyx/`](../nyx/) and
 
 ### Design consequences
 
-- **He fights with the lightsaber.** It was rebuilt in Scene 15, alone in his
-  tent. The finale is its **first ignition** — and the first time in eighteen
+- **He fights with the lightsaber.** It was rebuilt in Scene 15, in his bunk with
+  the crew asleep around him. The finale is its **first ignition** — and the first time in eighteen
   years anyone has seen a lit blade.
 - **Build in private, ignite in public.** The decision is made alone by glowrod
   light; the consequence is public and irreversible. He does not draw it to
@@ -376,7 +377,7 @@ functional and impersonal — he has deliberately kept nothing that says anythin
 about him. The robe is the exception, and it is the only thing in his possession
 that exists because he *likes* it.
 
-- Worn when he can rather than always: off duty, at the fire, in the tent, cold
+- Worn when he can rather than always: off duty, at the fire, in his bunk, cold
   nights. Less likely on patrol or hauling cargo.
 - It should look like the most comfortable object in the film.
 - It must **not** produce a Jedi silhouette — no wide monastic sleeves, no
@@ -423,7 +424,7 @@ else sees a man in an old shirt.
 
 ### Sleepwear and undress
 
-Scenes 13 and 15 put him in the tent, in shirt and trousers. This is where the
+Scenes 13 and 15 put him in his bunk, in shirt and trousers. This is where the
 undertunic and the cord around his neck are visible. The costume must be built
 to strip back to this layer.
 

@@ -149,7 +149,7 @@ Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, fad
 olive, dust brown, sand, bone white. Brass and oxidised bronze sparingly. Bright
 colour only for rank, warning markings, or one significant personal object.
 
-Locations: dense wet temperate forest, a mercenary camp of tents and tarpaulins
+Locations: dense wet temperate forest, a mercenary camp of tarpaulins
 and crates, a ragged escapee camp with no fire, a ditch, a clearing where it
 ends. One sequence elsewhere entirely — pale sand dunes under a hard sky, seen in
 a vision. A single mercenary ship, salvaged and repaired, seen coming down

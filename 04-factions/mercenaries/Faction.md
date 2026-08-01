@@ -219,7 +219,7 @@ to four people without reading thin.
 
 ## Shared Equipment
 
-Blasters, rifles, a scanner, tents, tarpaulins, crates, ammunition, field-camp
+Blasters, rifles, a scanner, tarpaulins, crates, ammunition, field-camp
 equipment. All maintained, all functional, none of it issued.
 
 ## Rejections

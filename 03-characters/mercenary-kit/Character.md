@@ -48,7 +48,7 @@ authority on the split.
 
 | Scene | Beat |
 |---|---|
-| 10 | **The Sabacc game.** All ten of the crew in one frame, one night, one campfire |
+| 10 | **The Sabacc game.** All ten of the crew in one frame, one night, **the ship's main hold** under a single work lamp |
 | 20–23 | The pursuit. Sc.23 splits the crew into three groups |
 | 24 | **Merc 1 hauls Vala off her feet.** She takes a thermal detonator from his chest rig; it detonates. Mercs 1, 2 and 3 die. Nyx survives |
 | 25 | **Merc 4** is the one who *"swallows hard, their weapon wavering a little"* during Krellis's speech — the only mercenary in the film who visibly doubts. He dies in Baylan's massacre |
@@ -297,7 +297,7 @@ in one frame, at night, by firelight.**
 
 ## Equipment and Hero Props
 
-Blasters, rifles, a scanner, tents, tarpaulins, crates, ammunition, field-camp
+Blasters, rifles, a scanner, tarpaulins, crates, ammunition, field-camp
 equipment. All maintained, all functional, **none of it issued**.
 
 **The grenade on the large one's belt is a hero prop**, not set dressing. It is

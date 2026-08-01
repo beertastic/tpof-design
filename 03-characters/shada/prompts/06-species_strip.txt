@@ -1,10 +1,10 @@
 [SHADA — SLOT 06 — ANCESTRY STUDY]
 Output file: species_strip.png
 Aspect ratio: 21:9  (wide banner)
-Prompt version: 7da0b134 · repo commit a2cc855 2026-08-01 17:12
+Prompt version: 7da0b134 · repo commit 12a523f 2026-08-01 18:05
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt 7da0b134.
+    Working from commit 12a523f, prompt 7da0b134.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

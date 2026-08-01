@@ -95,25 +95,32 @@ a plausible, wrong image.
 Those are written for humans and are the wrong shape to generate from. Only files
 under `prompts/` are prompts.
 
-**3. Reference IMAGES are attached by the human. You read TEXT.**
+**3. FETCH the reference images yourself. Every one has a public URL.**
 
-A repository connector reads text. It does not hand a JPEG or a PNG to the image
-generator as something to condition on, so **fetching an actor photograph from
-this repo does not put that face in front of the model.**
+Prompt files carry lines like:
 
-Prompt files carry lines like
-`[for the operator, not the model: also attach <path>]`.
-**Those are addressed to the human, and they still are.** Your job is to name
-them and check they were attached — not to fetch them.
+```
+FETCH AND USE AS THE LIKENESS REFERENCE (1 of 2) — front on, neutral:
+    https://raw.githubusercontent.com/.../headshot-neutral.jpg
+```
 
-Before generating, list every reference image the prompt calls for and ask the
-user to confirm each one is attached to this conversation. If any is missing,
-say which, and do not generate without it — except the front turnaround, which
-has no costume reference by design.
+**Open every one of them before generating.** They are public raw files with no
+authentication, and they open — verified 2026-08-01, when a model fetched an actor
+headshot from one of these URLs and described it accurately down to the shirt and
+the background blur.
 
-**Evidence:** manually uploaded actor photographs have produced a genuine likeness
-in this production. Repository-fetched ones have not. Same tool, same prompts —
-the difference is how the image reached it.
+Three kinds appear, and all three are fetchable:
+
+- **The likeness reference** — the actor. There may be several, numbered; they are
+  the same person from different angles and all of them should be used.
+- **The approved costume reference** — on every view except the one that creates
+  it.
+- **Plate references** — a material, a weapon, a piece of kit already locked.
+
+**If a URL will not open, say which one and stop.** Do not generate without a
+reference the prompt asked for, and do not invent a face. The user can attach the
+image by hand as a fallback, and that route has always worked — but ask for it,
+rather than silently proceeding.
 
 **4. Read the non-negotiables back before generating.**
 List them, one line each. If you cannot, you did not read the file properly —

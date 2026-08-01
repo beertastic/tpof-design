@@ -42,7 +42,10 @@ ABSOLUTELY NOT, IN ANY FORM:
 If the result looks like a designed page rather than a photograph taken
 in a costume fitting, it is wrong and cannot be used.
 
-AN ACTOR REFERENCE IS ATTACHED — TAKE THE FACE AND THE BUILD FROM IT.
+FETCH THE ACTOR REFERENCE FROM THE URL ABOVE — TAKE THE FACE AND THE
+BUILD FROM IT. It is a public raw file and it opens; if it does not, say
+so and stop rather than inventing a face.
+
 Bone structure, features, proportions, skin, the shape of the head. The
 person in your image must be recognisably the SAME HUMAN BEING as the
 person in the photograph.
@@ -74,8 +77,8 @@ output resembles the attached photograph in anything but the face, you
 have edited it instead of using it.
 
 
-[for the operator, not the model: also attach ACTOR REFERENCE 1 of 1, headshot-neutral.jpg — front on, neutral]
-    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+FETCH AND USE AS THE LIKENESS REFERENCE (1 of 1) — front on, neutral:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET.
 

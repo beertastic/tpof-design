@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
-from split import find_repo_root, parse_blocks, actor_refs  # noqa: E402
+from split import find_repo_root, parse_blocks, actor_refs, raw_url  # noqa: E402
 
 SIDE_WORDS = ("her right", "her left", "his right", "his left",
               "their right", "their left")
@@ -197,8 +197,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     # that creates the costume reference — the material is already locked even
     # when the costume is not.
     cdir = outfit.get("_dir", character)
-    extra = [f"[for the operator, not the model: also attach "
-             f"03-characters/{cdir}/{r['path']} — {r['what']}]"
+    extra = [f"FETCH AND USE AS REFERENCE — {r['what']}:\n    "
+             f"{raw_url(f'03-characters/{cdir}/{r[chr(39)+chr(39)] if False else r["path"]}')}"
              for r in (outfit.get("references") or [])]
 
     # The actor reference is named if one exists, and its absence is stated
@@ -209,15 +209,17 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     if actors:
         for _n, _name, _url, _what in actors:
             _label = f" — {_what}" if _what else ""
-            extra.append(f"[for the operator, not the model: also attach ACTOR "
-                         f"REFERENCE {_n} of {len(actors)}, {_name}{_label}]")
-            extra.append(f"    public URL: {_url}")
+            extra.append(f"FETCH AND USE AS THE LIKENESS REFERENCE "
+                         f"({_n} of {len(actors)}){_label}:\n    {_url}")
         _many = (f"THERE ARE {len(actors)} ACTOR REFERENCES, numbered 1 to "
                  f"{len(actors)}. They are all the SAME PERSON seen from"
                  f" different\nangles. Use every one of them.\n\n"
                  if len(actors) > 1 else "")
         actor_line = (_many +
-            "AN ACTOR REFERENCE IS ATTACHED — TAKE THE FACE AND THE BUILD FROM IT.\n"
+            "FETCH THE ACTOR REFERENCE FROM THE URL ABOVE — TAKE THE FACE AND THE\n"
+            "BUILD FROM IT. It is a public raw file and it opens; if it does not, say\n"
+            "so and stop rather than inventing a face.\n"
+            "\n"
             "Bone structure, features, proportions, skin, the shape of the head. The\n"
             "person in your image must be recognisably the SAME HUMAN BEING as the\n"
             "person in the photograph.\n"
@@ -254,7 +256,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
                       "believable face. DO NOT reach for\na handsome or striking one, and "
                       "do not drift toward any actor you have seen\nplay a similar part.")
     ref_note = "\n".join(
-        ([f"[for the operator, not the model: attach {ref_path}]"] if gate else [])
+        ([f"FETCH AND MATCH — the approved costume reference:\n    "
+           f"{raw_url(ref_path)}"] if gate else [])
         + extra)
     must = outfit.get("must_show") or []
     must_block = ""

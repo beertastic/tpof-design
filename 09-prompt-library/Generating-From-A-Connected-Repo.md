@@ -20,14 +20,18 @@ connected model can read the prompt *and* fetch its own reference plates, which
 removes the failure that causes nine faults in ten — the operator forgetting to
 attach something.
 
-**But it does not remove the need to attach reference images.** A repository
-connector reads *text*. It does not deliver a JPEG to the image generator as
-something to condition on — so the workflow is **hybrid**: the model reads the
-prompt from the repo, and **the human still attaches the photographs by hand.**
+**Superseded 2026-08-01: it fetches the images too.** This document previously
+said a connector reads only text and that photographs had to be attached by hand.
+That was wrong, and the reason the earlier attempts failed was much more boring —
+the actor file was called `Tristan Pretty.jpg`, and a space makes a raw URL fail
+as a connection error rather than a 404, which looks exactly like having no access.
 
-That was learned the expensive way. Manually uploaded actor photographs have
-produced a genuine likeness in this production; a repository-fetched one produced
-a generic face. Same tool, same prompt, same photograph.
+Renamed, it opens. A model fetched it from its public URL and described the hair,
+the beard, the shirt and the background blur accurately.
+
+So every reference in every prompt now carries a full public URL and the model is
+told to fetch it. **Attaching by hand still works and remains the fallback**, but
+it is no longer the expected route.
 
 It also introduces a new failure, and a worse one: **a connected model will
 summarise the prompt instead of using it.** The instruction below exists mostly to

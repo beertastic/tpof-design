@@ -36,6 +36,11 @@ def raw_base() -> str:
     return f"https://raw.githubusercontent.com/{m.group(1)}/main" if m else RAW_BASE_FALLBACK
 
 
+def raw_url(repo_path: str) -> str:
+    """Public raw URL for any path in this repository."""
+    return f"{raw_base()}/{quote(str(repo_path).lstrip('/'))}"
+
+
 ACTOR_EXT = (".jpg", ".jpeg", ".png", ".webp")
 
 # Filenames from 03-characters/CAST-REFERENCE.md, so a numbered list can still

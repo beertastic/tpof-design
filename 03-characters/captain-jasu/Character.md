@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.9"
+version: "1.0"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -409,12 +409,29 @@ borrowed.
   Until it exists the A180 is held by words alone, and words do not hold a
   silhouette.
 
-  **This is already happening.** The 2026-08-01 turnaround came back with a
-  generic pistol despite the prompt naming the weapon, which is the predicted
-  failure and not a generation error. The written description has been sharpened
-  — angular, boxy, squared receiver and barrel shroud, visible modular rails —
-  but **a named weapon with no image will keep arriving as a shape the model
-  already knows.** The fix is a picture, and nothing else is.
+  **Reference supplied 2026-08-01** at `reference/props/a180.jpg`, after four
+  generations returned a generic pistol from the name alone. It is a third-party
+  image of the weapon, not a photograph of our build — **when the prop is made,
+  replace it**, per the rule Shada's WESTAR-35 established.
+
+  **It corrected the written description substantially**, which is the argument
+  for references in one line. The prompt had said *dark metal, matte, boxy*. The
+  weapon is none of those things:
+
+  | | |
+  |---|---|
+  | **Build** | A Luger-pattern pistol with a long barrel — the same kind of construction as Han Solo's DL-44 on a Mauser |
+  | **Finish** | **Two-tone** — bright polished steel forward, black at the back |
+  | **Barrel** | Long, bare polished metal. A row of **six round vent holes** near the muzzle, a band of fine fluting part way back, a stepped muzzle, a flat polished blade running forward underneath |
+  | **Receiver** | Black with bright polished plates, small levers and screws. A **mounting rail** on top with a knurled knob at the rear — this is the modular fitting |
+  | **Grip** | Black, finely chequered, raked steeply back, large round-headed screw at the heel. Big open circular trigger guard |
+
+  **It is the only gleaming object in this crew, and the palette rule now
+  protects it.** Everything about this production is muted, dulled and
+  previously owned; her blaster is bright polished steel and must stay bright.
+  Everyone else carries salvage. She carries something she paid for and looks
+  after — the third place her share shows without ever looking like rank, after
+  the tailoring and the modularity.
 
   **Verify the designation** with the armourer before it is engraved anywhere.
   "A180" is recorded here from the production's note; the object is *"Jyn Erso's
@@ -481,6 +498,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 1.0 | 2026-08-01 | in-development | **A180 reference supplied**, correcting a written description that had the weapon dark, matte and boxy when it is a two-tone Luger-pattern pistol with a long bright barrel. Palette rule amended so the polished steel is not dulled down to match her — it is the only gleaming object in the crew. |
 | 0.9 | 2026-08-01 | in-development | **The horns are trophies from what the akk kills** — decided. The one decorative object on her displays the beast's power rather than her own. Also added a hard scoping rule to the prompts: the figure photographs are a stylised collector's piece, and only the headdress and hair may be taken from them. |
 | 0.8 | 2026-08-01 | in-development | **Headdress reinstated** from a painted figure built off the concept drawings, now a reference plate: pale curved bone horns set into swept-up hair, asymmetric. Confirmed the horns cannot be from her akk — the creature document forbids horns — and proposed the reading that they are trophies from what the animal kills, which is the only justification that survives her no-ornament rule. A180 description sharpened after it generated as a generic pistol; flagged that only an image will fix it. |
 | 0.7 | 2026-08-01 | in-development | **Blaster specified as the A180**, the weapon Jyn Erso carries in Rogue One. Period-correct at ~1 BBY. Modular, and therefore expensive — the second place her share shows without looking like rank. Reference entry left commented pending a photograph of the built prop, per the rule Shada's WESTAR-35 established. |

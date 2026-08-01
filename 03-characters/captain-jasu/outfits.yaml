@@ -73,12 +73,13 @@ outfits:
       - path: reference/build/jasu-figure-side.jpg
         what: the headdress and hair, profile
       # Her blaster is the A180 — the weapon Jyn Erso carries in Rogue One.
-      # Same rule as Shada's WESTAR-35: for anything PHYSICALLY BUILT the
-      # reference is a photograph of the build, not a film still and not a
-      # render. Photograph the prop, save it below and uncomment. Until then the
-      # A180 is held by words alone, and words do not hold a silhouette.
-      # - path: reference/props/a180.jpg
-      #   what: the A180 blaster pistol, as built
+      # Supplied by the production 2026-08-01, after four generations returned a
+      # generic pistol from the name alone. It is a third-party image of the
+      # weapon rather than a photograph of OUR build; when the prop is made,
+      # replace it with a photograph of that, per the rule Shada's WESTAR-35
+      # established.
+      - path: reference/props/a180.jpg
+        what: the A180 blaster pistol
     scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
     description: >
       The only coherent, deliberately assembled outfit in this crew, and that is
@@ -228,12 +229,21 @@ outfits:
         draw. It is a MODULAR weapon — a compact pistol built to be reconfigured
         — and the fittings for that are visible on it: rails and mounting points
         along the top and the fore-end where the other parts attach.
-        THE SHAPE IS ANGULAR AND BOXY, not curved and not organic: a squared-off
-        receiver, a heavy squared barrel shroud running forward, a short muzzle
-        and a slim grip raked back. Dark metal, matte, machined.
+        IT IS TWO-TONE — BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK — and
+        that is the fastest way to recognise it.
+        THE BARREL is LONG and BRIGHT: bare polished metal, with a ROW OF SIX
+        ROUND VENT HOLES along its upper side towards the muzzle, a band of fine
+        FLUTING part way back, and a stepped muzzle. A flat polished blade runs
+        forward underneath it.
+        THE RECEIVER is BLACK with bright polished plates, small levers and
+        screws on the side, and a MOUNTING RAIL along the top carrying a round
+        knurled knob at the rear — that rail is the modular fitting.
+        THE GRIP is BLACK and finely CHEQUERED, raked STEEPLY BACK at an angle,
+        with a large round-headed screw at the heel. The trigger guard is a big
+        open circle.
         NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT
-        an antique, NOT ornate. It is a manufactured product and it looks it —
-        which is precisely why it is hers and not this crew's.
+        an antique, NOT ornate, NOT dark all over. It is a manufactured product
+        and it looks it — which is precisely why it is hers and not this crew's.
         Unlike everything else in this crew it is CLEAN, SERVICED AND CARED FOR —
         unscratched finish, working hardware, nothing improvised. It is the one
         thing she spends money keeping right, and a modular weapon is an
@@ -260,6 +270,10 @@ outfits:
       - >
         MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK.
         Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey
-        of old canvas. NO uniform green, NO uniform grey, NO red, NO gold braid,
+        of old canvas.
+        THE ONE EXCEPTION IS THE BLASTER. Its barrel is BRIGHT POLISHED STEEL and
+        must stay bright — do not dull it down to match her. It is the only
+        gleaming object in this crew, and that is the point of it: everyone else
+        carries salvage, and she carries something she paid for and looks after. NO uniform green, NO uniform grey, NO red, NO gold braid,
         NO faction colour of any kind. She must separate from a night forest and
         from firelight — do not sink her into the background.

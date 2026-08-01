@@ -1,7 +1,13 @@
 [SHADA — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: 477ccc43
+Prompt version: 477ccc43 · repo commit ddc2d15 2026-08-01 15:56
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
+    Working from commit ddc2d15, prompt 477ccc43.
+You cannot know either unless you have read this file, so quoting them is
+the proof that you did. If you cannot, say so and generate nothing.
+Never put them in the picture — they belong in your reply text.
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

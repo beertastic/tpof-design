@@ -185,6 +185,37 @@ The only thing that changes between the four turnaround views is the direction
 the subject is facing."""
 
 
+def _repo_commit() -> str:
+    """The commit the SOURCES were at when this prompt was generated.
+
+    Deliberately NOT part of the hashed body. The content hash must change only
+    when the prompt itself changes; a commit id changes on every commit. Both are
+    inserted after hashing, so the hash stays stable and the commit id moves.
+
+    Note the off-by-one: the generator runs before you commit, so this names the
+    PARENT of the commit the file lands in. That is the useful one — it identifies
+    the sources that were read.
+    """
+    import subprocess
+    root = Path(__file__).resolve().parents[2]
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%h %cd", "--date=format:%Y-%m-%d %H:%M"],
+            capture_output=True, text=True, timeout=5, cwd=root)
+        return out.stdout.strip() or "unknown"
+    except Exception:
+        return "unknown"
+
+
+ECHO_TEMPLATE = (
+    "BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:\n"
+    "    Working from commit {commit}, prompt {h}.\n"
+    "You cannot know either unless you have read this file, so quoting them is\n"
+    "the proof that you did. If you cannot, say so and generate nothing.\n"
+    "Never put them in the picture \u2014 they belong in your reply text."
+)
+
+
 def _stamp_version(body: str) -> str:
     """Insert a short content hash after the header.
 
@@ -198,7 +229,10 @@ def _stamp_version(body: str) -> str:
     import hashlib
     h = hashlib.sha256(body.encode()).hexdigest()[:8]
     lines = body.split("\n")
-    return "\n".join(lines[:3] + [f"Prompt version: {h}"] + lines[3:])
+    commit = _repo_commit()
+    stamp = f"Prompt version: {h} \u00b7 repo commit {commit}"
+    echo = ECHO_TEMPLATE.format(commit=commit.split()[0], h=h)
+    return "\n".join(lines[:3] + [stamp, "", echo] + lines[3:])
 
 
 def build(character: str, outfit: dict, view_id: str, view_name: str,

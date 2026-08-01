@@ -1,7 +1,13 @@
 [SHIN — AS WE MEET HER — RIGHT]
 Output file: turn-early-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: b78516ac (short)
+Prompt version: b78516ac (short) · repo commit ddc2d15 2026-08-01 15:56
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
+    Working from commit ddc2d15, prompt b78516ac.
+You cannot know either unless you have read this file, so quoting them is
+the proof that you did. If you cannot, say so and generate nothing.
+Never put them in the picture — they belong in your reply text.
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

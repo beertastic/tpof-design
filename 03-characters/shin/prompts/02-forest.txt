@@ -1,7 +1,13 @@
 [SHIN — SLOT 02 — THE RUN]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: d96a73dd
+Prompt version: d96a73dd · repo commit ddc2d15 2026-08-01 15:56
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
+    Working from commit ddc2d15, prompt d96a73dd.
+You cannot know either unless you have read this file, so quoting them is
+the proof that you did. If you cannot, say so and generate nothing.
+Never put them in the picture — they belong in your reply text.
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

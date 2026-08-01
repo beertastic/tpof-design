@@ -1,7 +1,13 @@
 [SHIN — TURNAROUND — AS WE MEET HER — RIGHT SIDE]
 Output file: turn-early-right.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 075cb5b9
+Prompt version: 075cb5b9 · repo commit ddc2d15 2026-08-01 15:56
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
+    Working from commit ddc2d15, prompt 075cb5b9.
+You cannot know either unless you have read this file, so quoting them is
+the proof that you did. If you cannot, say so and generate nothing.
+Never put them in the picture — they belong in your reply text.
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.

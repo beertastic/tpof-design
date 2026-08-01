@@ -20,9 +20,35 @@ reading cached content.** Say so and stop — do not generate from stale files.
 Nothing in this repository can force you to refetch; only the user starting a
 fresh conversation reliably clears it.
 
-**Also state what you actually read.** When you open a prompt file, quote its
-`Prompt version:` line — the eight-character hash on line 4. That is the exact
-check: it changes whenever the prompt changes and never otherwise.
+**Also state what you actually read.** Line 4 of every prompt file now carries
+both a content hash and the repository commit:
+
+```
+Prompt version: 5e85b186 (short) · repo commit ddc2d15 2026-08-01 15:56
+```
+
+and the file tells you, in its own words, to say this back before generating:
+
+> Working from commit `ddc2d15`, prompt `5e85b186`.
+
+**That line is not a formality — it is the whole check.** Neither value can be
+guessed or remembered. The hash changes when the prompt changes and never
+otherwise; the commit id changes on every commit. Quoting both proves you opened
+the current file. **No line, no image.** If you cannot produce it, say so plainly
+and generate nothing.
+
+The Production Designer can verify any hash you quote:
+
+```bash
+grep -rl "Prompt version: <hash>" 03-characters/*/prompts/
+git log --oneline -1 <commit>
+```
+
+**Added 2026-08-01, after a run that spent three and a half minutes and returned a
+character design board with an orange blade, a row of hilts and a data panel of
+invented fields — having reported no stamp at all.** It had read nothing. Silence
+about provenance turned out to be the reliable early warning, so it is now
+forbidden: every reply says where its information came from, or there is no reply.
 
 **Do not rely on character counts.** A model reported 28,195 characters for a file
 that has never been that size at any commit, because it counts its own

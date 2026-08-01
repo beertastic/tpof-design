@@ -1,7 +1,13 @@
 [SHIN — TURNAROUND — DESTROYED BY THE FOREST — FRONT]
 Output file: turn-late-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: da6ecabf
+Prompt version: da6ecabf · repo commit ddc2d15 2026-08-01 15:56
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
+    Working from commit ddc2d15, prompt da6ecabf.
+You cannot know either unless you have read this file, so quoting them is
+the proof that you did. If you cannot, say so and generate nothing.
+Never put them in the picture — they belong in your reply text.
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.

@@ -26,7 +26,8 @@ THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
 Match the costume, materials, colours, face and build from the attached
 reference exactly. Only the setting, pose and lighting change.
 
-
+[for the operator, not the model: also attach ACTOR REFERENCE 1, headshot-neutral.jpg — front on, neutral]
+    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 ====================================================================
 THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.

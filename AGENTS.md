@@ -146,7 +146,10 @@ says so, that is the retrieval.
 
 ## Command — "make the reference picture for `<character>`"
 
-Also: *"make `<character>`'s reference"*, *"generate the front turnaround"*.
+Accepted phrasings, all meaning the same thing:
+*"make the reference image for: baylan"*, *"make the reference picture for
+baylan"*, *"make baylan's reference"*, *"generate the front turnaround"*.
+The character name is the folder name, **lower case**.
 
 This produces the **front turnaround**, which is the image every other image of
 that costume is matched against.
@@ -189,8 +192,11 @@ for that character, minus the front view itself.
 
 1. Read `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt`.
 2. Fetch every file named in an operator line.
-3. Fetch the actor reference from `03-characters/<character>/reference/actor/`
-   if one exists, and use it for face and build.
+3. **Actor references are listed in the prompt itself, numbered, each with a
+   full public URL.** There may be several — they are the same person from
+   different angles and all of them should be used. Ask the user to attach them;
+   fetching a URL is not the same as having the image in front of the generator,
+   and attaching has produced a genuine likeness where fetching has not.
 4. Read the non-negotiables back.
 5. Generate one image at the aspect ratio in the file header.
 6. Self-check.

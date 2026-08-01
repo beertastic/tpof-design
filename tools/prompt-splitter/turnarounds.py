@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
-from split import find_repo_root, parse_blocks  # noqa: E402
+from split import find_repo_root, parse_blocks, actor_refs  # noqa: E402
 
 SIDE_WORDS = ("her right", "her left", "his right", "his left",
               "their right", "their left")
@@ -205,14 +205,18 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     # explicitly rather than left silent — a model given no instruction about
     # the face invents a striking one, and a striking face is the wrong answer
     # for every character in this film.
-    actor_dir = Path("03-characters") / cdir / "reference" / "actor"
-    actor = sorted(f for f in actor_dir.glob("*")
-                   if f.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")) \
-            if actor_dir.is_dir() else []
-    if actor:
-        extra.append(f"[for the operator, not the model: also attach "
-                     f"{actor[0].as_posix()} — the actor. Match the face and build]")
-        actor_line = (
+    actors = actor_refs(cdir)
+    if actors:
+        for _n, _name, _url, _what in actors:
+            _label = f" — {_what}" if _what else ""
+            extra.append(f"[for the operator, not the model: also attach ACTOR "
+                         f"REFERENCE {_n} of {len(actors)}, {_name}{_label}]")
+            extra.append(f"    public URL: {_url}")
+        _many = (f"THERE ARE {len(actors)} ACTOR REFERENCES, numbered 1 to "
+                 f"{len(actors)}. They are all the SAME PERSON seen from"
+                 f" different\nangles. Use every one of them.\n\n"
+                 if len(actors) > 1 else "")
+        actor_line = (_many +
             "AN ACTOR REFERENCE IS ATTACHED — TAKE THE FACE AND THE BUILD FROM IT.\n"
             "Bone structure, features, proportions, skin, the shape of the head. The\n"
             "person in your image must be recognisably the SAME HUMAN BEING as the\n"

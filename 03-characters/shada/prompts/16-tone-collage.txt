@@ -29,6 +29,10 @@ reference exactly. Only the setting, pose and lighting change.
 [for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
+[for the operator, not the model: also attach ACTOR REFERENCE 1, dasha-svistunenko-heashot.jpg]
+    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+[for the operator, not the model: also attach ACTOR REFERENCE 2, dasha-svistunenko-posed.png]
+    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
 
 This character is RIGHT-HANDED. All positions are given from
 THEIR OWN left and right, never the viewer's.

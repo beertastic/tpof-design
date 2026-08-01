@@ -11,8 +11,60 @@ from __future__ import annotations
 
 import argparse
 import re
+from urllib.parse import quote
 import sys
 from pathlib import Path
+
+
+RAW_BASE_FALLBACK = "https://raw.githubusercontent.com/beertastic/tpof-design/main"
+
+
+def raw_base() -> str:
+    """Public raw-file base URL for this repository.
+
+    Emitted into every prompt so a connected model can fetch a reference by URL
+    instead of guessing a path. Derived from the git remote so a fork does not
+    silently point at the original.
+    """
+    import subprocess
+    try:
+        url = subprocess.run(["git", "remote", "get-url", "origin"],
+                             capture_output=True, text=True, timeout=5).stdout.strip()
+    except Exception:
+        return RAW_BASE_FALLBACK
+    m = re.search(r"github\.com[:/](.+?)(?:\.git)?$", url)
+    return f"https://raw.githubusercontent.com/{m.group(1)}/main" if m else RAW_BASE_FALLBACK
+
+
+ACTOR_EXT = (".jpg", ".jpeg", ".png", ".webp")
+
+# Filenames from 03-characters/CAST-REFERENCE.md, so a numbered list can still
+# say what each angle actually is.
+ACTOR_ANGLES = {
+    "headshot-neutral": "front on, neutral",
+    "headshot-profile": "full side profile",
+    "headshot-three-quarter": "three-quarter — the most useful working angle",
+    "full-body": "standing, whole figure — build and proportion",
+}
+
+
+def actor_refs(character: str) -> list[tuple[int, str, str, str]]:
+    """Every actor reference for a character, numbered.
+
+    Returns (n, filename, url, what) so prompts can list them 1, 2, 3 with a
+    fetchable URL each.
+    """
+    d = Path("03-characters") / character / "reference" / "actor"
+    if not d.is_dir():
+        return []
+    files = sorted(f for f in d.iterdir() if f.suffix.lower() in ACTOR_EXT)
+    out = []
+    for i, f in enumerate(files, 1):
+        stem = f.stem.lower()
+        what = next((v for k, v in ACTOR_ANGLES.items() if stem.startswith(k)), "")
+        url = f"{raw_base()}/{quote(f.as_posix())}"
+        out.append((i, f.name, url, what))
+    return out
 
 
 def find_repo_root(start: Path) -> Path:
@@ -160,6 +212,13 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         ref_note += (("\n" if ref_note else "")
                      + f"[for the operator, not the model: also attach "
                        f"03-characters/{character}/{r['path']} — {r['what']}]")
+    # Every actor reference, numbered, each with a fetchable public URL.
+    for _n, _name, _url, _what in actor_refs(character):
+        _label = f" — {_what}" if _what else ""
+        ref_note += (("\n" if ref_note else "")
+                     + f"[for the operator, not the model: also attach ACTOR "
+                       f"REFERENCE {_n}, {_name}{_label}]"
+                     + f"\n    public URL: {_url}")
     if narrative:
         demand = (
             "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"

@@ -28,6 +28,17 @@ production inputs, like `source/artwork/`, not regenerable output.
 If consent for AI use is not given, the character can still be designed — the
 prompt packs are written to work from description alone, as Shada's did.
 
+## Filenames
+
+**No spaces.** A space makes the raw URL fail as a connection error rather than a
+404, which is indistinguishable from having no repository access at all. It cost
+an afternoon on 2026-08-01, and the generators now warn about it on every run.
+
+The names below are preferred because the prompt can then say *what angle each
+reference is* rather than just numbering it. Anything else still works — the
+prompts number every file they find, in sorted order, and emit a fetchable public
+URL for each.
+
 ## What to put here
 
 | Filename | What |

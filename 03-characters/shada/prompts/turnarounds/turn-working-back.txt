@@ -42,6 +42,9 @@ ABSOLUTELY NOT, IN ANY FORM:
 If the result looks like a designed page rather than a photograph taken
 in a costume fitting, it is wrong and cannot be used.
 
+THERE ARE 2 ACTOR REFERENCES, numbered 1 to 2. They are all the SAME PERSON seen from different
+angles. Use every one of them.
+
 AN ACTOR REFERENCE IS ATTACHED — TAKE THE FACE AND THE BUILD FROM IT.
 Bone structure, features, proportions, skin, the shape of the head. The
 person in your image must be recognisably the SAME HUMAN BEING as the
@@ -95,7 +98,10 @@ reference exactly. Only the setting, pose and lighting change.
 [for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
-[for the operator, not the model: also attach 03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg — the actor. Match the face and build]
+[for the operator, not the model: also attach ACTOR REFERENCE 1 of 2, dasha-svistunenko-heashot.jpg]
+    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+[for the operator, not the model: also attach ACTOR REFERENCE 2 of 2, dasha-svistunenko-posed.png]
+    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
 
 This character is RIGHT-HANDED. All positions below are given from
 THEIR OWN left and right, never the viewer's.

@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE NEAR-HUMAN — BACK]
-Output file: turn-nearhuman-back.png
+[MERCENARY KIT — TURNAROUND — MERC 4 — THE NEAR-HUMAN — LEFT SIDE]
+Output file: turn-merc-4-left.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -51,21 +51,7 @@ Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
 no lens flare, no vignetting. This is documentation, not cinematography.
 
 === VIEW ===
-The subject faces directly away from the camera, showing the whole of the back. Shoulders level and parallel to the frame. Head level, facing away.
-
-CRITICAL — THIS IS A ROTATION, NOT A MIRROR.
-The person has turned around. They have NOT been flipped horizontally.
-Because she has turned, HER RIGHT SIDE IS NOW ON THE VIEWER'S LEFT and her
-left side is on the viewer's RIGHT — the opposite of the front view.
-
-So in THIS image specifically:
-  - anything worn on HER RIGHT appears on the VIEWER'S LEFT
-  - anything worn on HER LEFT appears on the VIEWER'S RIGHT
-
-If this image looks like a horizontally flipped copy of the front view, it
-is wrong. Check every asymmetric item — the forearm piece, the shoulder
-piece, the thigh piece, the holster and the blade — and confirm each one
-has swapped which side of the FRAME it appears on, compared with the front.
+The subject is rotated exactly ninety degrees to show their LEFT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
@@ -218,7 +204,7 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The near-human — 10, 20-23 — the Sabacc game and the pursuit
+Merc 4 — the near-human — 10, 20-23 — the Sabacc game and the pursuit
 
 A near-human, achieved in make-up alone — decided 2026-07-31. Distinct skin colour and geometric inked facial markings, nothing glued on, so he can be shot from any angle including close. A long weathered coat over layered cloth, worn open, the only long outer layer in the crew. Belt and braces rather than a chest rig. More visible personal decoration than any of the other three: small kept objects threaded onto the belt, from a life before this one. His gear is the same quality as everyone else's, which is the point — different species, same standard, found each other rather than recruited.
 

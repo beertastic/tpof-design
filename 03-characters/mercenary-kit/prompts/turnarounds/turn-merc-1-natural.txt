@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE CLOSE ONE — LEFT SIDE]
-Output file: turn-armoured-left.png
+[MERCENARY KIT — TURNAROUND — MERC 1 — THE WOOKIEE — NATURAL POSE]
+Output file: turn-merc-1-natural.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -18,37 +18,36 @@ this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open. Cut from scrap and refitted, clearly not issued and clearly not a matching pair with anything. No full helmet, no faceplate, no visor across both eyes.
-  2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
-  3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
-  4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
-  5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather than bought. His only decoration, and nobody else in the crew carries trophies.
+  1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. Broad chest, very long and powerful arms, a heavy brow over deep-set dark eyes, and a projecting muzzle. He stands and moves like a person, not like an animal.
+  2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling almost to white around the muzzle. He is OLD and it shows plainly: thinning patches over the shoulders, old scarring, sections matted and badly healed. His coat is COARSE, UNEVEN AND BADLY KEPT — worn down and patchy rather than long, clean, glossy or evenly-flowing. His bandolier is broad, thick and obviously hand-built from salvaged leather, and it is crossed by a second narrower strap the other way. Metal rings and beads are braided into the fur at the shoulder and muzzle.
+  3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, never implied and never covered.
+  4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+  5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+  6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that is what it is to him. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon. HE IS RIGHT-HANDED and nothing is mirrored — no matching item on both sides.
+  7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle. This is his only decoration and no other member of this crew decorates themselves this way.
 
 === SHOT ===
-FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
 
-Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
-lighting. No atmosphere, no haze, no mood, no environment, no set.
+Same plain seamless neutral mid-grey studio background, same even soft frontal
+lighting, same full-figure framing and same scale as the four turnaround views.
 
-Pose: arms held clearly away from the body, roughly thirty degrees out, so
-nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
-on both feet. Standing straight. Neutral expression. This is a costume record,
-not a performance — no attitude, no character, no acting.
+But the subject now stands as this person actually stands. Weight settled on one
+leg, shoulders as they naturally sit, hands where this character would rest them,
+head at the angle they hold it. A real posture, not a display position.
 
-Framing: the entire figure from the top of the head to below the feet, with a
-small even margin above and below. Shot from chest height on a long lens so
-there is minimal perspective distortion. Figure centred, filling the frame
-vertically.
+Expression is the character's default — the face they wear when nobody is asking
+anything of them.
 
-Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
-be clearly visible and readable. Nothing obscured by shadow, by pose, or by
-another layer.
+Still sharp across the frame, still evenly lit, still no environment. The only
+thing that changes from the turnaround views is the human being inside the
+clothes: how the costume hangs when it is not being presented, where it creases,
+what it does under a real body.
 
-Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
-no lens flare, no vignetting. This is documentation, not cinematography.
+Facing the camera, three-quarters on.
 
 === VIEW ===
-The subject is rotated exactly ninety degrees to show their LEFT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
+The subject stands naturally, facing the camera three-quarters on.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
@@ -201,17 +200,19 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The close one — 10, 20-24 — the Sabacc game, the pursuit, and the clearing
+Merc 1 — the Wookiee — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
 
-Built for the clearing rather than the chase. The most plating of the four after the large one, but placed differently — a segmented chest rig over a layered tunic, plates on both forearms, and a partial salvaged helmet that covers the crown and one side of the face and leaves the jaw open. A short weapon on the belt. Heavy, deliberate movement. Everything on him is about closing distance and surviving what happens when he gets there.
+The large one — a towering fur-covered humanoid, and an established member of the crew. Decided 2026-07-31, see the faction guide. Standing well over two metres and the biggest thing in any frame he is in. Long shaggy fur in a dark iron-grey shot through with rust brown, greying at the muzzle and across one shoulder where an old injury healed badly. He is not young. Very little clothing: a broad, heavily built leather bandolier over one shoulder carrying ammunition and grenades, a second narrower utility strap crossing it the other way, a thick working belt with tools and pouches, and salvaged plate strapped over the forearms and one shoulder. Everything he carries is oversized because it was made or refitted for him. Slow, planted, physically certain. He stops things rather than chasing them.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open. Cut from scrap and refitted, clearly not issued and clearly not a matching pair with anything. No full helmet, no faceplate, no visor across both eyes.
-  2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
-  3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
-  4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
-  5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather than bought. His only decoration, and nobody else in the crew carries trophies.
+  1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. Broad chest, very long and powerful arms, a heavy brow over deep-set dark eyes, and a projecting muzzle. He stands and moves like a person, not like an animal.
+  2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling almost to white around the muzzle. He is OLD and it shows plainly: thinning patches over the shoulders, old scarring, sections matted and badly healed. His coat is COARSE, UNEVEN AND BADLY KEPT — worn down and patchy rather than long, clean, glossy or evenly-flowing. His bandolier is broad, thick and obviously hand-built from salvaged leather, and it is crossed by a second narrower strap the other way. Metal rings and beads are braided into the fur at the shoulder and muzzle.
+  3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, never implied and never covered.
+  4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+  5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+  6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that is what it is to him. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon. HE IS RIGHT-HANDED and nothing is mirrored — no matching item on both sides.
+  7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle. This is his only decoration and no other member of this crew decorates themselves this way.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

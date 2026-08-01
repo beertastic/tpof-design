@@ -159,7 +159,7 @@ correctly than printed ones anyway.
 
 The Wookiee's primary weapon is specified as **a human-sized blaster rifle worn
 on his hip like a pistol** — the scale is what sells it. That is the same class
-of weapon the `ranged` build carries in two hands.
+of weapon the `merc-2` build carries in two hands.
 
 **One printed rifle model, two uses.** The saving was a design decision before it
 was a production one, and it should survive into the build.

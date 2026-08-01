@@ -24,7 +24,7 @@ Mood and narrative images are context. Three or four per character is enough.
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
 | Shada | 1 | 5 | 5/5 — design closed, images indicative |
-| Mercenary Kit | 4 builds (Merc 1–4) | 20 | 3/4 fronts done. **Merc 1, the Wookiee, has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
+| Mercenary Kit | 4 people (Merc 1–4) | 20 | **Ids renamed to the people, 2026-08-01** — files are `turn-merc-1-front` etc, and there is now a board config with one turnaround sheet each. 3/4 fronts were generated but **are not in the repository**. **Merc 1, the Wookiee, has no generated turnaround by decision** — fill his sheet from concept art or build photos |
 | Baylan | **1** | **5** | not started. Collapsed from four outfits to one on 2026-08-01 — the robe is a removable layer and the separate Jedi build is dropped. `handedness: right`, checker clean. Lock his prop plates before his figures |
 | Shin | 3 states | 15 | not started — **blocked the same way Baylan was**: no `handedness:`, no `must_show:` on any state |
 

@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE RIFLE — NATURAL POSE]
-Output file: turn-ranged-natural.png
+[MERCENARY KIT — TURNAROUND — MERC 3 — THE CLOSE ONE — RIGHT SIDE]
+Output file: turn-merc-3-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -18,34 +18,37 @@ this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar. This is the visible difference between him and the others.
-  2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
-  3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-  4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow. Never a helmet — that belongs to another build.
-  5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits. His only decoration, and nobody else in the crew marks themselves this way.
+  1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open. Cut from scrap and refitted, clearly not issued and clearly not a matching pair with anything. No full helmet, no faceplate, no visor across both eyes.
+  2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
+  3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
+  4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
+  5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather than bought. His only decoration, and nobody else in the crew carries trophies.
 
 === SHOT ===
-FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
 
-Same plain seamless neutral mid-grey studio background, same even soft frontal
-lighting, same full-figure framing and same scale as the four turnaround views.
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
 
-But the subject now stands as this person actually stands. Weight settled on one
-leg, shoulders as they naturally sit, hands where this character would rest them,
-head at the angle they hold it. A real posture, not a display position.
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
 
-Expression is the character's default — the face they wear when nobody is asking
-anything of them.
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
 
-Still sharp across the frame, still evenly lit, still no environment. The only
-thing that changes from the turnaround views is the human being inside the
-clothes: how the costume hangs when it is not being presented, where it creases,
-what it does under a real body.
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
 
-Facing the camera, three-quarters on.
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
 
 === VIEW ===
-The subject stands naturally, facing the camera three-quarters on.
+The subject is rotated exactly ninety degrees the other way to show their RIGHT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
@@ -198,17 +201,17 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The rifle — 10, 20-23 — the Sabacc game and the pursuit
+Merc 3 — the close one — 10, 20-24 — the Sabacc game, the pursuit, and the clearing
 
-Built entirely around a long gun. The lightest armour of the four: a close-fitting technical knit, a sleeveless padded vest over it, and a single shoulder pad on the trigger side only. The most pouches of anyone — ammunition, tools, a scanner — arranged low on the hips and thighs where they do not foul going prone. Best boots in the crew, high and properly laced. A short-brimmed work cap worn low over the eyes, with goggles hanging around his neck. Lean, quick, always the one looking at the horizon.
+Built for the clearing rather than the chase. The most plating of the four after the large one, but placed differently — a segmented chest rig over a layered tunic, plates on both forearms, and a partial salvaged helmet that covers the crown and one side of the face and leaves the jaw open. A short weapon on the belt. Heavy, deliberate movement. Everything on him is about closing distance and surviving what happens when he gets there.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar. This is the visible difference between him and the others.
-  2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
-  3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-  4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow. Never a helmet — that belongs to another build.
-  5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits. His only decoration, and nobody else in the crew marks themselves this way.
+  1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open. Cut from scrap and refitted, clearly not issued and clearly not a matching pair with anything. No full helmet, no faceplate, no visor across both eyes.
+  2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
+  3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
+  4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
+  5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather than bought. His only decoration, and nobody else in the crew carries trophies.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

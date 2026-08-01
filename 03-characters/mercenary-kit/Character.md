@@ -39,10 +39,10 @@ authority on the split.
 
 | Build | Person | Group | Dies |
 |---|---|---|---|
-| `heavy` — the large one | **Merc 1**, the Wookiee | Vala squad | Sc.24, Vala's grenade — taken from his own chest rig |
-| `ranged` — the rifle | **Merc 2** | Vala squad | Sc.24, Vala's grenade |
-| `armoured` — the close one | **Merc 3** | Vala squad | Sc.24, Vala's grenade |
-| `nearhuman` — the near-human | **Merc 4** | Pincer, from the left | Sc.25, Baylan's massacre |
+| `merc-1` — the large one | **Merc 1**, the Wookiee | Vala squad | Sc.24, Vala's grenade — taken from his own chest rig |
+| `merc-2` — the rifle | **Merc 2** | Vala squad | Sc.24, Vala's grenade |
+| `merc-3` — the close one | **Merc 3** | Vala squad | Sc.24, Vala's grenade |
+| `merc-4` — the near-human | **Merc 4** | Pincer, from the left | Sc.25, Baylan's massacre |
 
 **One build each. No costume is made twice.**
 
@@ -94,10 +94,10 @@ different **category** of object:
 
 | Build | Kind | What it is |
 |---|---|---|
-| `heavy` | **Worked into the body** | Metal rings, beads and small tokens braided into the fur |
-| `ranged` | **Marks of the trade** | Job tallies notched into the rifle stock, counted and deliberate |
-| `armoured` | **Trophies** | Taken from targets. Worn on the helmet and the chest rig |
-| `nearhuman` | **Kept objects** | Small things from a life before this, threaded onto the belt |
+| `merc-1` | **Worked into the body** | Metal rings, beads and small tokens braided into the fur |
+| `merc-2` | **Marks of the trade** | Job tallies notched into the rifle stock, counted and deliberate |
+| `merc-3` | **Trophies** | Taken from targets. Worn on the helmet and the chest rig |
+| `merc-4` | **Kept objects** | Small things from a life before this, threaded onto the belt |
 
 This is also what makes the kit cheap to build. Without a uniform to match, the
 costume department can source and assemble freely — **but everything must still
@@ -109,7 +109,7 @@ military, Earth historical or contemporary fashion. See the Design Bible.
 
 Proposed. The classes above are the system; these are one valid assembly of it.
 
-### 1. The Wookiee — `heavy`
+### Merc 1 — the Wookiee (`merc-1`)
 
 **Decided 2026-07-31: a full Wookiee, and an established member of the crew.** He
 is at the Sabacc game and on the pursuit, not only in the Vala fight. See
@@ -206,7 +206,7 @@ document.
 Beyond the fur he carries the heaviest gear of the four, and the least of it is
 clothing.
 
-### 2. The rifle — `ranged`
+### Merc 2 — the rifle (`merc-2`)
 
 Long gun, and the kit is built around it. Lightest armour of the four, most
 pouches, best boots. A shooter's silhouette: nothing on the shoulder that fouls a
@@ -218,7 +218,7 @@ well-known character's signature and the image generator refused this build
 repeatedly until it was changed. See the note under the Wookiee about describing
 rather than referencing.
 
-### 3. The close one — `armoured`
+### Merc 3 — the close one (`merc-3`)
 
 **The most actual armour of the four** — the Wookiee is bigger but mostly fur,
 and carries plate only on his forearms and one shoulder. This one has a segmented
@@ -228,7 +228,7 @@ Shortest weapon, built for the clearing rather than the chase, and the only one
 wearing anything on the head that could be called a helmet — partial, salvaged,
 and clearly not issued.
 
-### 4. The near-human — `nearhuman`
+### Merc 4 — the near-human (`merc-4`)
 
 **Decided 2026-07-31: a near-human, achieved in make-up alone.** A Mirialan or
 Pantoran read — a distinct skin colour plus geometric inked facial markings, and

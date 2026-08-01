@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE RIFLE — FRONT]
-Output file: turn-ranged-front.png
+[MERCENARY KIT — TURNAROUND — MERC 4 — THE NEAR-HUMAN — RIGHT SIDE]
+Output file: turn-merc-4-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -18,11 +18,14 @@ this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar. This is the visible difference between him and the others.
-  2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
-  3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-  4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow. Never a helmet — that belongs to another build.
-  5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits. His only decoration, and nobody else in the crew marks themselves this way.
+  1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only. THE SKIN COLOUR IS THE POINT AND IT KEEPS BEING MISSED. His skin is a clearly NON-HUMAN COLOUR over his whole face, neck and hands — a muted GREEN-GOLD or a desaturated GREY-BLUE, obvious at a glance and never mistakable for a human complexion, a suntan or weathering. If he could pass for a human with tattoos, the image has failed: the colour must do the work, not the markings. THE MARKINGS ARE SECONDARY. Geometric inked markings across the face, on top of that non-human skin tone. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
+  4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
+  5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
+  7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
+  8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
@@ -48,7 +51,7 @@ Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
 no lens flare, no vignetting. This is documentation, not cinematography.
 
 === VIEW ===
-The subject faces the camera squarely, straight on. Shoulders level and parallel to the frame. Head level, looking directly at the lens.
+The subject is rotated exactly ninety degrees the other way to show their RIGHT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
@@ -201,17 +204,20 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The rifle — 10, 20-23 — the Sabacc game and the pursuit
+Merc 4 — the near-human — 10, 20-23 — the Sabacc game and the pursuit
 
-Built entirely around a long gun. The lightest armour of the four: a close-fitting technical knit, a sleeveless padded vest over it, and a single shoulder pad on the trigger side only. The most pouches of anyone — ammunition, tools, a scanner — arranged low on the hips and thighs where they do not foul going prone. Best boots in the crew, high and properly laced. A short-brimmed work cap worn low over the eyes, with goggles hanging around his neck. Lean, quick, always the one looking at the horizon.
+A near-human, achieved in make-up alone — decided 2026-07-31. Distinct skin colour and geometric inked facial markings, nothing glued on, so he can be shot from any angle including close. A long weathered coat over layered cloth, worn open, the only long outer layer in the crew. Belt and braces rather than a chest rig. More visible personal decoration than any of the other three: small kept objects threaded onto the belt, from a life before this one. His gear is the same quality as everyone else's, which is the point — different species, same standard, found each other rather than recruited.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar. This is the visible difference between him and the others.
-  2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
-  3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-  4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow. Never a helmet — that belongs to another build.
-  5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits. His only decoration, and nobody else in the crew marks themselves this way.
+  1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only. THE SKIN COLOUR IS THE POINT AND IT KEEPS BEING MISSED. His skin is a clearly NON-HUMAN COLOUR over his whole face, neck and hands — a muted GREEN-GOLD or a desaturated GREY-BLUE, obvious at a glance and never mistakable for a human complexion, a suntan or weathering. If he could pass for a human with tattoos, the image has failed: the colour must do the work, not the markings. THE MARKINGS ARE SECONDARY. Geometric inked markings across the face, on top of that non-human skin tone. Human bone structure, human proportions, human scale. This must hold a close-up and survive a full day in a forest.
+  2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
+  3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
+  4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
+  5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
+  6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
+  7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
+  8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

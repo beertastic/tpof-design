@@ -10,26 +10,26 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| The large one | in progress | FRONT | `turn-heavy-front.txt` | `turn-heavy-front.png` |
-| The large one | in progress | LEFT SIDE | `turn-heavy-left.txt` | `turn-heavy-left.png` |
-| The large one | in progress | RIGHT SIDE | `turn-heavy-right.txt` | `turn-heavy-right.png` |
-| The large one | in progress | BACK | `turn-heavy-back.txt` | `turn-heavy-back.png` |
-| The large one | in progress | NATURAL POSE | `turn-heavy-natural.txt` | `turn-heavy-natural.png` |
-| The rifle | in progress | FRONT | `turn-ranged-front.txt` | `turn-ranged-front.png` |
-| The rifle | in progress | LEFT SIDE | `turn-ranged-left.txt` | `turn-ranged-left.png` |
-| The rifle | in progress | RIGHT SIDE | `turn-ranged-right.txt` | `turn-ranged-right.png` |
-| The rifle | in progress | BACK | `turn-ranged-back.txt` | `turn-ranged-back.png` |
-| The rifle | in progress | NATURAL POSE | `turn-ranged-natural.txt` | `turn-ranged-natural.png` |
-| The close one | in progress | FRONT | `turn-armoured-front.txt` | `turn-armoured-front.png` |
-| The close one | in progress | LEFT SIDE | `turn-armoured-left.txt` | `turn-armoured-left.png` |
-| The close one | in progress | RIGHT SIDE | `turn-armoured-right.txt` | `turn-armoured-right.png` |
-| The close one | in progress | BACK | `turn-armoured-back.txt` | `turn-armoured-back.png` |
-| The close one | in progress | NATURAL POSE | `turn-armoured-natural.txt` | `turn-armoured-natural.png` |
-| The near-human | in progress | FRONT | `turn-nearhuman-front.txt` | `turn-nearhuman-front.png` |
-| The near-human | in progress | LEFT SIDE | `turn-nearhuman-left.txt` | `turn-nearhuman-left.png` |
-| The near-human | in progress | RIGHT SIDE | `turn-nearhuman-right.txt` | `turn-nearhuman-right.png` |
-| The near-human | in progress | BACK | `turn-nearhuman-back.txt` | `turn-nearhuman-back.png` |
-| The near-human | in progress | NATURAL POSE | `turn-nearhuman-natural.txt` | `turn-nearhuman-natural.png` |
+| Merc 1 — the Wookiee | in progress | FRONT | `turn-merc-1-front.txt` | `turn-merc-1-front.png` |
+| Merc 1 — the Wookiee | in progress | LEFT SIDE | `turn-merc-1-left.txt` | `turn-merc-1-left.png` |
+| Merc 1 — the Wookiee | in progress | RIGHT SIDE | `turn-merc-1-right.txt` | `turn-merc-1-right.png` |
+| Merc 1 — the Wookiee | in progress | BACK | `turn-merc-1-back.txt` | `turn-merc-1-back.png` |
+| Merc 1 — the Wookiee | in progress | NATURAL POSE | `turn-merc-1-natural.txt` | `turn-merc-1-natural.png` |
+| Merc 2 — the rifle | in progress | FRONT | `turn-merc-2-front.txt` | `turn-merc-2-front.png` |
+| Merc 2 — the rifle | in progress | LEFT SIDE | `turn-merc-2-left.txt` | `turn-merc-2-left.png` |
+| Merc 2 — the rifle | in progress | RIGHT SIDE | `turn-merc-2-right.txt` | `turn-merc-2-right.png` |
+| Merc 2 — the rifle | in progress | BACK | `turn-merc-2-back.txt` | `turn-merc-2-back.png` |
+| Merc 2 — the rifle | in progress | NATURAL POSE | `turn-merc-2-natural.txt` | `turn-merc-2-natural.png` |
+| Merc 3 — the close one | in progress | FRONT | `turn-merc-3-front.txt` | `turn-merc-3-front.png` |
+| Merc 3 — the close one | in progress | LEFT SIDE | `turn-merc-3-left.txt` | `turn-merc-3-left.png` |
+| Merc 3 — the close one | in progress | RIGHT SIDE | `turn-merc-3-right.txt` | `turn-merc-3-right.png` |
+| Merc 3 — the close one | in progress | BACK | `turn-merc-3-back.txt` | `turn-merc-3-back.png` |
+| Merc 3 — the close one | in progress | NATURAL POSE | `turn-merc-3-natural.txt` | `turn-merc-3-natural.png` |
+| Merc 4 — the near-human | in progress | FRONT | `turn-merc-4-front.txt` | `turn-merc-4-front.png` |
+| Merc 4 — the near-human | in progress | LEFT SIDE | `turn-merc-4-left.txt` | `turn-merc-4-left.png` |
+| Merc 4 — the near-human | in progress | RIGHT SIDE | `turn-merc-4-right.txt` | `turn-merc-4-right.png` |
+| Merc 4 — the near-human | in progress | BACK | `turn-merc-4-back.txt` | `turn-merc-4-back.png` |
+| Merc 4 — the near-human | in progress | NATURAL POSE | `turn-merc-4-natural.txt` | `turn-merc-4-natural.png` |
 
 ## Approved outfits
 

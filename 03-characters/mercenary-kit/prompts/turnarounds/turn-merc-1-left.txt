@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE LARGE ONE — FRONT]
-Output file: turn-heavy-front.png
+[MERCENARY KIT — TURNAROUND — MERC 1 — THE WOOKIEE — LEFT SIDE]
+Output file: turn-merc-1-left.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -50,7 +50,7 @@ Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
 no lens flare, no vignetting. This is documentation, not cinematography.
 
 === VIEW ===
-The subject faces the camera squarely, straight on. Shoulders level and parallel to the frame. Head level, looking directly at the lens.
+The subject is rotated exactly ninety degrees to show their LEFT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
@@ -203,7 +203,7 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The large one — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
+Merc 1 — the Wookiee — 10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23
 
 The large one — a towering fur-covered humanoid, and an established member of the crew. Decided 2026-07-31, see the faction guide. Standing well over two metres and the biggest thing in any frame he is in. Long shaggy fur in a dark iron-grey shot through with rust brown, greying at the muzzle and across one shoulder where an old injury healed badly. He is not young. Very little clothing: a broad, heavily built leather bandolier over one shoulder carrying ammunition and grenades, a second narrower utility strap crossing it the other way, a thick working belt with tools and pouches, and salvaged plate strapped over the forearms and one shoulder. Everything he carries is oversized because it was made or refitted for him. Slow, planted, physically certain. He stops things rather than chasing them.
 

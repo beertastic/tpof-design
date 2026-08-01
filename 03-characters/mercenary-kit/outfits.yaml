@@ -18,8 +18,8 @@ handedness: right
 # NO TWO OF THESE FOUR SHARE A SILHOUETTE CUE.
 
 outfits:
-  - id: heavy
-    name: The large one
+  - id: merc-1
+    name: Merc 1 — the Wookiee
     scenes: "10, 20-23 — the Sabacc game, the pursuit, and the Vala fight in 23"
     description: >
       The large one — a towering fur-covered humanoid, and an established member of
@@ -83,8 +83,8 @@ outfits:
         This is his only decoration and no other member of this crew decorates
         themselves this way.
 
-  - id: ranged
-    name: The rifle
+  - id: merc-2
+    name: Merc 2 — the rifle
     scenes: "10, 20-23 — the Sabacc game and the pursuit"
     description: >
       Built entirely around a long gun. The lightest armour of the four: a
@@ -120,8 +120,8 @@ outfits:
         stock in deliberate counted groups, worn smooth where his hand sits. His
         only decoration, and nobody else in the crew marks themselves this way.
 
-  - id: armoured
-    name: The close one
+  - id: merc-3
+    name: Merc 3 — the close one
     scenes: "10, 20-24 — the Sabacc game, the pursuit, and the clearing"
     description: >
       Built for the clearing rather than the chase. The most plating of the four
@@ -153,8 +153,8 @@ outfits:
         each one obviously off somebody else's gear rather than bought. His only
         decoration, and nobody else in the crew carries trophies.
 
-  - id: nearhuman
-    name: The near-human
+  - id: merc-4
+    name: Merc 4 — the near-human
     scenes: "10, 20-23 — the Sabacc game and the pursuit"
     description: >
       A near-human, achieved in make-up alone — decided 2026-07-31. Distinct

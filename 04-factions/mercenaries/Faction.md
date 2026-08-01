@@ -137,7 +137,7 @@ and the suit and hair maintenance scale with them. That is the price of the beat
 working, and it is now a known cost rather than a discovered one.
 
 Build him from the modular kit as
-[`mercenary-kit` / `heavy`](../../03-characters/mercenary-kit/outfits.yaml).
+[`mercenary-kit` / `merc-1`](../../03-characters/mercenary-kit/outfits.yaml).
 
 ### What the beat still needs
 

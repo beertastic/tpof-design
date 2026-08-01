@@ -1,5 +1,5 @@
-[MERCENARY KIT — TURNAROUND — THE CLOSE ONE — NATURAL POSE]
-Output file: turn-armoured-natural.png
+[MERCENARY KIT — TURNAROUND — MERC 3 — THE CLOSE ONE — NATURAL POSE]
+Output file: turn-merc-3-natural.png
 Aspect ratio: 2:3  (tall, full figure)
 
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
@@ -198,7 +198,7 @@ unit discipline. They are not soldiers and never were. They are racing a city,
 not strolling a wilderness.
 
 === THIS COSTUME ===
-The close one — 10, 20-24 — the Sabacc game, the pursuit, and the clearing
+Merc 3 — the close one — 10, 20-24 — the Sabacc game, the pursuit, and the clearing
 
 Built for the clearing rather than the chase. The most plating of the four after the large one, but placed differently — a segmented chest rig over a layered tunic, plates on both forearms, and a partial salvaged helmet that covers the crown and one side of the face and leaves the jaw open. A short weapon on the belt. Heavy, deliberate movement. Everything on him is about closing distance and surviving what happens when he gets there.
 

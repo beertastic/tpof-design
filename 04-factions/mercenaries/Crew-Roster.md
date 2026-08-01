@@ -43,10 +43,10 @@ kit."*
 
 | # | Name | Build | Group | Dies |
 |---|---|---|---|---|
-| 7 | **Merc 1** — the Wookiee | `heavy` — *the large one* | Vala squad | Sc.24 — Vala's grenade, taken from his own chest rig |
-| 8 | **Merc 2** | `ranged` — *the rifle* | Vala squad | Sc.24 — Vala's grenade |
-| 9 | **Merc 3** | `armoured` — *the close one* | Vala squad | Sc.24 — Vala's grenade |
-| 10 | **Merc 4** | `nearhuman` — *the near-human* | Pincer, from the left | Sc.25 — Baylan's massacre |
+| 7 | **Merc 1** — the Wookiee | `merc-1` — *the large one* | Vala squad | Sc.24 — Vala's grenade, taken from his own chest rig |
+| 8 | **Merc 2** | `merc-2` — *the rifle* | Vala squad | Sc.24 — Vala's grenade |
+| 9 | **Merc 3** | `merc-3` — *the close one* | Vala squad | Sc.24 — Vala's grenade |
+| 10 | **Merc 4** | `merc-4` — *the near-human* | Pincer, from the left | Sc.25 — Baylan's massacre |
 
 **Four builds, four mercs, one each.** No costume is built twice and no two
 figures in any frame wear the same thing, which is the faction's whole identity —

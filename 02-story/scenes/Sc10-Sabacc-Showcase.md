@@ -82,10 +82,10 @@ not.
 
 | Who | Build | Suggested moment | What it also does |
 |---|---|---|---|
-| **Merc 1** — the Wookiee | `heavy` | Physical comedy of scale in a cramped hold. He cannot fit. Sits on the deck and is still the tallest at the table. Vocalises, no subtitles. **Wins the hand** | **Puts the grenades on his chest rig in frame, ten scenes before Vala takes one.** This is already a hard design requirement and this is where it gets paid |
-| **Merc 2** | `ranged` | Does not play. Sits slightly out, working on the rifle, checking the notches cut into the stock | Shows his personal mark — job tallies — and quietly says what kind of man he is |
-| **Merc 3** | `armoured` | Gets ribbed about a new trophy on his rig. Enjoys it | Shows his personal mark and gets a second voice into the room |
-| **Merc 4** | `nearhuman` | **The youngest at the table. Laughs a beat behind everyone else. Folds early. Watching more than playing** | **See below — this is the important one** |
+| **Merc 1** — the Wookiee | `merc-1` | Physical comedy of scale in a cramped hold. He cannot fit. Sits on the deck and is still the tallest at the table. Vocalises, no subtitles. **Wins the hand** | **Puts the grenades on his chest rig in frame, ten scenes before Vala takes one.** This is already a hard design requirement and this is where it gets paid |
+| **Merc 2** | `merc-2` | Does not play. Sits slightly out, working on the rifle, checking the notches cut into the stock | Shows his personal mark — job tallies — and quietly says what kind of man he is |
+| **Merc 3** | `merc-3` | Gets ribbed about a new trophy on his rig. Enjoys it | Shows his personal mark and gets a second voice into the room |
+| **Merc 4** | `merc-4` | **The youngest at the table. Laughs a beat behind everyone else. Folds early. Watching more than playing** | **See below — this is the important one** |
 
 ### Merc 4 is the one to get right
 

@@ -29,7 +29,7 @@ from `outfits.yaml` by `tools/prompt-splitter/turnarounds.py`, and they carry th
 per-build non-negotiables. Nothing in this file can be generated properly until
 at least one build has an approved front view to attach as a reference.
 
-1. Generate `turn-heavy-front` and the other three front views.
+1. Generate `turn-merc-1-front` and the other three front views.
 2. Approve them, and record each as `approved.reference` in `outfits.yaml`.
 3. Generate the remaining turnaround views against those references.
 4. Then work through the slots below.
@@ -187,7 +187,7 @@ fantasy. Costume adapts to anatomy without sacrificing practicality.
 > **Applies to slots 9, 10** — the bandolier and the fur study.
 >
 > **Deliberately narrow, and it must stay that way.** The generator injects the
-> non-negotiables of the *first* outfit in `outfits.yaml`, which is `heavy`, the
+> non-negotiables of the *first* outfit in `outfits.yaml`, which is `merc-1`, the
 > large one. That is correct for a plate showing only him and wrong for anything
 > showing the other three. Every other slot gets all four builds through the
 > Character Constants block instead. Do not widen this list.

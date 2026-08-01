@@ -389,42 +389,66 @@ that exists because he *likes* it.
 
 That it survives at all says something he would never say aloud.
 
-#### 2. The undertunic — hidden, and unconscious
+#### 2. The chevrons — hiding in plain sight
 
-**One garment survives underneath everything.**
+**Revised 2026-08-01.** These used to live on the undertunic, seen only when the
+jacket came off in his bunk — which put the one shape he is remembered for later
+into two night scenes and nowhere else. A plant nobody could reasonably catch.
+**They are now on the outermost layer**, worn all day, in every scene he is in.
 
-Original Jedi weave, worn under everything, re-dyed dark years ago and patched so
-many times that the original fabric survives only in panels. The cut is wrong for
-salvage, but it is so far gone that nobody has ever remarked on it.
+**It is a better kind of hiding.** Not concealment, but an audience looking
+straight at the thing for ninety minutes and reading it as workwear, because
+that is precisely what it looks like. The reveal is not that it was covered up.
+It is that it was never hidden and nobody saw it.
 
-Its construction is distinctive and deliberate: across the chest run
+Across the chest of the top layer run
 **four or five nested chevrons, apex pointing downward** — widest at the
 shoulders and narrowing toward the sternum. They are raised panels of matte,
 suede-like leather appliquéd onto the woven base and stitched at the edges,
 sitting slightly proud of the cloth. **Tonal, not contrasting** — dark on dark,
-so the pattern reads through texture and shadow rather than colour. A standing
-collar sits above it.
+so the pattern reads through texture and shadow rather than colour — never as a
+stripe, a marking or a badge.
+
+**The chest harness crosses over them** and interrupts the run of the panels.
+That is correct, and it helps: the interruption is what makes the shape read as
+construction rather than as a design. The chevrons are not moved or shortened to
+make room for the harness.
 
 This is **construction, not decoration**: layered overlapping panels that read as
 padding or light protection, which is why the garment has survived being worn
 under workwear for decades.
 
 **It is the ancestor of the chest piece he is known for later.** Here it is
-hidden, worn under everything, unremarked. Later he makes a proper outer version
-of the thing he has been wearing underneath all along.
+work clothing and nobody remarks on it. Later he makes a proper version of the
+shape he has been wearing in plain sight the whole time.
 
 He did not keep it out of sentiment. He kept it because it was good cloth and he
 could not afford to replace it, and by the time he could, it had been years and
 he was not going to. Unlike the robe, he does not think about it at all.
 
-It should be visible only where the outer layers open — at the collar, at the
-cuff, when he is seated in Scene 3, and in shirtsleeves in Scenes 13 and 15.
+**It must be plainly visible in every view and every scene**, including all five
+turnarounds. Only the long coat covers it, and only partly, and the coat is not
+worn in the turnarounds.
+
+#### 2b. The undertunic — worn out, and unconscious
+
+Original Jedi weave, re-dyed dark, patched until the original fabric survives
+only in panels: a cross-wrapped front, a standing collar, a shaped shoulder no
+industrial workwear would have. **It carries no chevrons** — those are on the
+layer above it now. It shows as a dark edge at the collar and cuff, and fully in
+shirtsleeves in Scenes 13 and 15.
+
+He did not keep it out of sentiment. He kept it because it was good cloth.
 
 **Scene 15 is where it matters.** In shirtsleeves, by glowrod light, he opens the
-pouch and rebuilds the lightsaber — and the chevroned tunic is visible while he
-does it. The two surviving objects from his old life appear in the same shot, and
-neither is remarked on. A viewer who knows the later costume sits up. Everyone
-else sees a man in an old shirt.
+pouch and rebuilds the lightsaber. The two surviving objects from his old life
+are in the same shot and neither is remarked on.
+
+With the chevrons moved outward this scene no longer carries the reveal by
+itself — the audience has been looking at that shape all film. What it does
+instead is put the shirt with the chevrons on the bunk beside him while the hilt
+comes together in his hands. A viewer who knows the later costume sits up.
+Everyone else sees a man mending something.
 
 ### Sleepwear and undress
 
@@ -683,6 +707,7 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 2.1 | 2026-07-31 | in-development | Undertunic given the nested-chevron construction — the ancestor of the chest piece he is known for later. Hidden here; revealed in shirtsleeves in Sc.13 and 15. |
+| 2.2 | 2026-08-01 | in-development | **Chevrons moved from the undertunic to the outermost layer.** Hidden under a jacket they appeared in two night scenes and nowhere else, which is not a plant anyone could catch. Now worn in every scene and read as workwear — the audience looks straight at the shape for ninety minutes. Harness crosses over them |
 | 2.0 | 2026-07-31 | in-development | Added the robe — a long dark battle-worn garment from his Jedi life, kept for comfort. Reads as a weather cape, not as Jedi dress. Two remnants now: robe (visible, chosen) and undertunic (hidden, unconscious). |
 | 1.9 | 2026-07-30 | in-development | The conversion was psychological survival, not tactical — he could not look at the saber and could not let it go. No breaking incident required. Scene 15 reframed as the first time in years he has opened the pouch. |
 | 1.8 | 2026-07-30 | in-development | Life split into four parts: taken as a child, the purge, failed Outer Rim years, then the crew — where he is safe for the first time. The blaster conversion is dated to his surrender, not the purge. |

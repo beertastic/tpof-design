@@ -55,15 +55,21 @@ him as a Jedi on first sight has failed.
     bunk, on cold nights — less on patrol or hauling. Must **not** produce a Jedi
     silhouette: no wide monastic sleeves, no ceremonial drape, no hood-up mystique.
     It is a heavy old coat.
+  - **Four or five nested chevrons, apex down**, across the chest of the
+    OUTERMOST layer: raised matte suede-like leather panels appliquéd on the woven
+    base, widest at the shoulders, narrowing to the sternum, sitting proud of the
+    cloth. Tonal, dark on dark — texture and shadow, never colour contrast.
+    **Plainly visible in every view and every scene**, including all five
+    turnarounds. Only the long coat covers them, and only partly. The chest
+    harness crosses over them and interrupts them; that is correct.
+    **Construction, not decoration** — which is what keeps them inside the
+    no-ornament rule. They are the ancestor of the chest piece he is known for
+    later, worn in plain sight rather than concealed. *Moved outward 2026-08-01;
+    they used to be on the undertunic and seen only in Sc.13 and Sc.15.*
   - **The undertunic** — original Jedi weave, re-dyed dark, patched until the
-    original fabric survives only in panels. Visible only at collar and cuff, or
-    in shirtsleeves. He does not think about it.
-    **Four or five nested chevrons, apex down**, across the chest: raised matte
-    suede-like leather panels appliquéd on the woven base, widest at the
-    shoulders, narrowing to the sternum, sitting proud of the cloth. Tonal, dark
-    on dark — texture and shadow, never colour contrast. Standing collar.
-    **Construction, not decoration.** It is the ancestor of the chest piece he is
-    known for later, and it is deliberately hidden in this film.
+    original fabric survives only in panels. Cross-wrapped front, standing collar,
+    a shaped shoulder no workwear would have. **No chevrons on it.** Visible only
+    at collar and cuff, or in shirtsleeves. He does not think about it.
 - Costume must strip back to shirt and trousers for Scenes 13 and 15.
 
 ## Hero props

@@ -60,9 +60,11 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       leather wraps on both forearms, wrist to below the elbow. Heavy boots,
       resoled. Everything muted: charcoal, ash brown, dust brown, faded olive.
-      The undertunic is visible only as a dark edge at the collar and cuff — its
-      chevron construction shows only when the jacket comes off. A
-      thin cord runs around his neck and disappears under the shirt.
+      Across the chest of the top layer, four or five nested chevrons, apex down —
+      raised suede-like panels sitting proud of the weave, tonal and dark on dark.
+      The harness crosses over them. The undertunic beneath shows only as a dark
+      edge at the collar and cuff. A thin cord runs around his neck and
+      disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
     must_show:
       - >
@@ -104,18 +106,33 @@ outfits:
         the sort of coat any freighter crew would own. It is visibly the oldest
         and most comfortable thing he owns. If the silhouette reads as a Jedi, the
         image has failed.
+      # Moved out to the top layer on 2026-08-01. These used to live on the
+      # undertunic, seen only when the jacket came off in his bunk — which meant
+      # the one shape he is remembered for later appeared in two night scenes and
+      # nowhere else. It is his silhouette; it has to be on him.
       - >
-        UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a
-        dark edge at the collar and at the cuff — a slightly finer, older weave
-        than the shirt over it. WHEN THE JACKET AND HARNESS COME OFF (his bunk
-        aboard the ship, at night) it is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE
-        ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a
+        FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. THEY ARE ON
+        THE OUTERMOST TOP LAYER AND MUST BE PLAINLY VISIBLE IN EVERY VIEW — never
+        hidden, never under another garment. Only the long coat covers them, and
+        only partly, and the coat is not worn in the turnaround views.
+        Raised matte suede-like leather panels appliquéd onto the woven base,
+        sitting PROUD of the cloth — widest at the shoulders, narrowing to the
+        sternum. TONAL, DARK ON DARK: texture and shadow, NEVER colour contrast,
+        NEVER a stripe or a badge.
+        The chest harness crosses OVER them and breaks the run of the panels in
+        places. That is correct — they read through and around it, and they are
+        not moved or shrunk to make room for it.
+        It is CONSTRUCTION, NOT DECORATION. This does not contradict the no-ornament
+        rule: the chevrons are how the garment is built, not something added to it,
+        and he does not think about them.
+      - >
+        UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the
+        collar and at the cuff — a slightly finer, older weave than the garment
+        over it. WHEN THE TOP LAYER AND HARNESS COME OFF (his bunk aboard the
+        ship, at night) it is clearly visible: re-dyed dark, PATCHED SO MANY TIMES
+        THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a
         STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would
-        have. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST — raised
-        matte suede-like leather panels appliquéd onto the woven base, sitting
-        PROUD of the cloth, widest at the shoulders and narrowing to the sternum.
-        TONAL, DARK ON DARK — texture and shadow, NEVER colour contrast. It is
-        CONSTRUCTION, NOT DECORATION, and he does not think about it.
+        have. It carries no chevrons — those are on the layer above it.
       - >
         A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must
         read as nothing else — this is the man with no ornament on him.

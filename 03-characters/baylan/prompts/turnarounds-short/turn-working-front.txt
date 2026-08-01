@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 939586a0 (short) · repo commit 5a17051 2026-08-01 17:21
+Prompt version: 78589fa2 (short) · repo commit 5e6820a 2026-08-01 17:33
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 5a17051, prompt 939586a0.
+    Working from commit 5e6820a, prompt 78589fa2.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -31,12 +31,13 @@ MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. No hood.
 2. ABSOLUTELY NO ORNAMENT. Every other mercenary is marked; he is not.
 3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND…
-5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff. TONAL.
-6. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. It is what the holster hangs from and it is doing a job. Neither is a flourish.
-7. A THIN CORD AROUND HIS NECK, disappearing under the shirt. No pendant, no charm, no jewellery of any kind at his throat.
-8. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. He carries weight. NOTHING may suggest he could still fight.
-9. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE…
+5. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. THEY ARE ON THE OUTERMOST TOP LAYER AND MUST BE PLAINLY…
+6. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
+7. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. It is what the holster hangs from and it is doing a job.
+8. A THIN CORD AROUND HIS NECK, disappearing under the shirt. No pendant, no charm, no jewellery of any kind at his throat.
+9. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. NOTHING may suggest he could still fight.
+10. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
 
 SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

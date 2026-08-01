@@ -194,7 +194,7 @@ effect dies.
 
 | In this film | Becomes |
 |---|---|
-| **The chevron undertunic.** Four or five nested chevrons, apex down, raised suede-like panels on an old re-dyed weave. Hidden under his shirt; visible only in Sc.13 and 15 | **The chest piece.** "Later he makes a proper outer version of the thing he has been wearing underneath all along." He has been wearing it against his skin for eighteen years |
+| **The chevron top layer.** Four or five nested chevrons, apex down, raised suede-like panels across the chest of his outermost garment. Worn in every scene, read by everyone as workwear | **The chest piece.** "Later he makes a proper outer version of the thing he has been wearing underneath all along." He has been wearing it against his skin for eighteen years |
 | **The long dark coat.** Weathered black, below the knee, worn open, scorched down his left side, repaired and never patched properly. Reads as ordinary mercenary weather gear | **The cloak.** Same garment, same silhouette, no ceremony attached to it yet |
 | **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
 | **The crystal.** Small, jagged, yellow, in a worn pouch against his skin | The blade that **finishes orange** in this film's last act |

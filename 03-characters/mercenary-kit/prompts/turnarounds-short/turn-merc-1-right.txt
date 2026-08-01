@@ -1,0 +1,36 @@
+[MERCENARY-KIT — MERC 1 — THE WOOKIEE — RIGHT]
+Output file: turn-merc-1-right.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: fa354173 (short)
+
+ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. over 2.2 m — the tallest figure in the film by a clear margin
+
+MUST BE TRUE OF THIS IMAGE:
+1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew.
+2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling…
+3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to…
+4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way.
+5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching.
+6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that…
+7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle.
+
+SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

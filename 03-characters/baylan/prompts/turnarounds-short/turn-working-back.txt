@@ -1,0 +1,41 @@
+[BAYLAN — WORKING DRESS — BACK]
+Output file: turn-working-back.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: aadca695 (short)
+
+ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+
+You are thinking of the austere silver-haired Jedi in flowing black robes with a hood up and an orange lightsaber. THAT MAN IS EIGHTEEN YEARS IN HIS FUTURE — reject his BEARING and his SILHOUETTE: no hood up, no monastic sleeves, no ceremonial drape, no visible hilt, no gravitas, no silver mane. He DOES own a long dark coat and it is his, but it is not worn in these views.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
+
+MUST BE TRUE OF THIS IMAGE:
+1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting.
+2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind.
+3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right hip, belt-mounted, grip up and angled slightly forward for a right-hand draw. NEVER his left.
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND VIEWS — those record the base costume, and a long coat over the top hides…
+5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff — a slightly finer, older weave than the shirt over it.
+6. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must read as nothing else — this is the man with no ornament on him.
+7. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the…
+8. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight.
+9. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned.
+
+SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

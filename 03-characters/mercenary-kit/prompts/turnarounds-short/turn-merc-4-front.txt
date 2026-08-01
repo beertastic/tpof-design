@@ -1,0 +1,37 @@
+[MERCENARY-KIT — MERC 4 — THE NEAR-HUMAN — FRONT]
+Output file: turn-merc-4-front.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: 2b5a97fd (short)
+
+ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
+MUST BE TRUE OF THIS IMAGE:
+1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only.
+2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers.
+3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
+4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
+5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
+6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
+7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them.
+8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

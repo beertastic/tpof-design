@@ -10,6 +10,12 @@ ratio: "2:3"
 # shoulders as design language, no artful tearing, no adult posing, no makeup.
 # Damage follows the route she ran and the work she did — never a designer's hand.
 
+do_not_retrieve_short: >
+  You are thinking of the poised young woman in tailored dark Jedi dress with an
+  orange lightsaber. THAT IS YEARS LATER. This Shin is FIFTEEN and has been a
+  slave her whole life — filthy, exhausted, frightened. No weapon, no tailoring,
+  no poise, and NOTHING may suggest she is becoming a warrior.
+
 # THE NAME RETRIEVES, exactly as Baylan's does.
 do_not_retrieve: >
   You are thinking of a poised young woman in tailored dark Jedi-style dress with

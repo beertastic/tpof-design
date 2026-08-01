@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+"""Generate SHORT paste-ready prompts, sized for an image model's real input.
+
+    python tools/prompt-splitter/short.py baylan
+    python tools/prompt-splitter/short.py --all
+
+The long prompts under prompts/ are ~28,000 characters. Image models accept
+around 4,000, so everything we send is compressed by the host before it reaches
+the generator — lossily, and differently every time. That is why the same prompt
+produced a usable costume plate one run and a Jedi character sheet the next: the
+top of the file survives compression and the middle does not.
+
+These are written to fit. The long files remain the specification; this is the
+thing you actually paste.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import re
+import sys
+import textwrap
+from pathlib import Path
+
+import yaml
+
+sys.path.insert(0, str(Path(__file__).parent))
+from split import find_repo_root, actor_refs, raw_url  # noqa: E402
+
+BUDGET = 3600          # target; the hard limit out there is about 4,000
+RULE_CHARS = 200       # per non-negotiable
+
+
+def trim(text: str, limit: int) -> str:
+    """Cut to a sentence boundary under `limit`, never mid-word."""
+    flat = " ".join(text.split())
+    if len(flat) <= limit:
+        return flat
+    cut = flat[:limit]
+    stop = max(cut.rfind(". "), cut.rfind("! "))
+    return (cut[:stop + 1] if stop > limit * 0.5 else cut.rsplit(" ", 1)[0] + "…")
+
+
+VIEWS = {
+    "front":   "Facing camera square on. Shoulders level, head level, looking down the lens.",
+    "left":    "Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body.",
+    "right":   "Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.",
+    "back":    "Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.",
+    "natural": "Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.",
+}
+
+
+def build(character: str, cfg: dict, outfit: dict, view: str) -> str:
+    approved = (outfit.get("approved") or {}).get("reference")
+    gate = approved and view != (outfit.get("approved") or {}).get("view", "front")
+
+    refs = []
+    if gate:
+        refs.append(f"COSTUME (match exactly): {raw_url(approved)}")
+    for r in (outfit.get("references") or []):
+        refs.append(f"{r['what'].upper()[:38]}: "
+                    f"{raw_url(f"03-characters/{character}/{r['path']}")}")
+    for n, name, url, what in actor_refs(character):
+        refs.append(f"FACE + BUILD ({n}): {url}")
+
+    rules = [trim(m, RULE_CHARS) for m in (outfit.get("must_show") or [])]
+    hand = cfg.get("handedness")
+    height = outfit.get("height") or cfg.get("height")
+    retrieve = cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve")
+
+    parts = [
+        f"[{character.upper()} — {outfit['name'].upper()} — {view.upper()}]",
+        f"Output file: turn-{outfit['id']}-{view}.png",
+        f"Aspect ratio: {cfg.get('ratio', '2:3')} — TALL. Generate at 1024x1536. Never square.",
+        "",
+        "ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.",
+        "NO text, labels, captions, titles, logos, borders or layout. NO second view,",
+        "no inset heads, no detail crops, no swatches, no colour palette.",
+        "FULL LENGTH — head to below the feet. Not a portrait.",
+        "",
+        "FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:",
+        *[f"  {r}" for r in refs],
+        "  Take the FACE and BUILD from the actor image only. Hair, beard, age,",
+        "  grooming and costume come from the text below and override the photo.",
+        "  Do not edit or re-crop that photo — make a new photograph of that person.",
+        "",
+    ]
+    if retrieve:
+        parts += [trim(retrieve, 420), ""]
+    if hand or height:
+        bits = []
+        if hand:
+            bits.append(f"{hand.upper()}-HANDED — sides are given from THEIR own left/right.")
+        if height:
+            bits.append(trim(height, 90))
+        parts += [" ".join(bits), ""]
+    parts += ["MUST BE TRUE OF THIS IMAGE:"]
+    parts += [f"{i}. {r}" for i, r in enumerate(rules, 1)]
+    parts += [
+        "",
+        f"SHOT: {VIEWS.get(view, '')}",
+        "Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.",
+        "Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep",
+        "focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and",
+        "fastening clearly readable.",
+        "",
+        "LOOK: a real photograph of a real performer in a real, built costume.",
+        "Used-future Star Wars — industrial salvage, nothing factory fresh, muted",
+        "and sun-faded. Real skin with pores and lines. Not a render, not concept",
+        "art, not AI-looking.",
+    ]
+    body = "\n".join(parts).strip() + "\n"
+    h = hashlib.sha256(body.encode()).hexdigest()[:8]
+    lines = body.split("\n")
+    return "\n".join(lines[:3] + [f"Prompt version: {h} (short)"] + lines[3:])
+
+
+def run(repo: Path, character: str) -> int:
+    cfg_path = repo / "03-characters" / character / "outfits.yaml"
+    if not cfg_path.is_file():
+        return 0
+    cfg = yaml.safe_load(cfg_path.read_text())
+    outdir = repo / "03-characters" / character / "prompts" / "turnarounds-short"
+    outdir.mkdir(parents=True, exist_ok=True)
+    n = 0
+    sizes = []
+    for outfit in cfg.get("outfits", []):
+        for view in VIEWS:
+            text = build(character, cfg, outfit, view)
+            (outdir / f"turn-{outfit['id']}-{view}.txt").write_text(text, encoding="utf-8")
+            sizes.append(len(text))
+            n += 1
+    if n:
+        print(f"  {character}: {n} short prompts, {min(sizes)}–{max(sizes)} chars "
+              f"-> {outdir.relative_to(repo)}")
+    return n
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("character", nargs="?")
+    ap.add_argument("--all", action="store_true")
+    a = ap.parse_args()
+    repo = find_repo_root(Path.cwd())
+    names = ([p.name for p in sorted((repo / "03-characters").iterdir()) if p.is_dir()]
+             if a.all else [a.character])
+    total = sum(run(repo, c) for c in names if c)
+    print(f"\n{total} short prompts written.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

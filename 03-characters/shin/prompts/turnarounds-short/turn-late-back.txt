@@ -1,0 +1,29 @@
+[SHIN — DESTROYED BY THE FOREST — BACK]
+Output file: turn-late-back.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: 8d1bbef9 (short)
+
+ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+
+You are thinking of the poised young woman in tailored dark Jedi dress with an orange lightsaber. THAT IS YEARS LATER. This Shin is FIFTEEN and has been a slave her whole life — filthy, exhausted, frightened. No weapon, no tailoring, no poise, and NOTHING may suggest she is becoming a warrior.
+
+MUST BE TRUE OF THIS IMAGE:
+
+SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

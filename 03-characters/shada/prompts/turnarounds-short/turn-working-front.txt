@@ -1,0 +1,41 @@
+[SHADA — INFILTRATION DRESS — FRONT]
+Output file: turn-working-front.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: fee31652 (short)
+
+ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+FETCH EACH URL, DECODE IT, AND USE IT AS AN IMAGE INPUT:
+  THE SCALE PLATES, THEIR FINISH AND HOW: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+  THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
+MUST BE TRUE OF THIS IMAGE:
+1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE.
+2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold.
+3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat.
+4. BARE ARMS AND BARE SHOULDERS. Her arms are UNCOVERED from the shoulder down — no sleeves of any length, no sleeve, no arm wrap, no gloves, no undershirt showing at the arm. The vest is SLEEVELESS.
+5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN. The snake ancestry is TENS OF THOUSANDS OF YEARS BACK — so distant that almost nothing of it survives.
+6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from HER OWN left and right, not the viewer's.
+7. EXTERIOR, WITH ONE EXCEPTION. Almost every place she is seen is exterior: wet forest, forest clearing, or the mercenary camp among the trees.
+8. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

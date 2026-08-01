@@ -282,6 +282,7 @@ likes him.
 | Baylan's crystal and pouch | Continues |
 | Shin's costume | Reference for what she leaves the clearing in |
 | The akk dog rig | **Survives.** Left alive on the planet; recurs |
+| **Scene 9 — the akk dog leaves Jasu and lies down beside Bay.** She watches it happen and says nothing. Reads as a nice beat about a man animals like | **The finale.** The animal refuses her, goes to Baylan, and *that* is the last thing that happens to Jasu before she dies. Same beat, twice — the first time it is charming, the second it is the end of her |
 
 ## Open
 

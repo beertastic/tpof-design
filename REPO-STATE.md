@@ -1,15 +1,15 @@
 # Repository state
 
-**Stamped 2026-08-01 18:26 UTC** — automatically, by `tools/hooks/pre-commit`, at the moment of
+**Stamped 2026-08-01 20:03 UTC** — automatically, by `tools/hooks/pre-commit`, at the moment of
 the commit that contains this file.
 
 | | |
 |---|---|
 | Branch | `main` |
-| Commit before this one | `480dd42` |
+| Commit before this one | `32b304e` |
 | Screenplay | `the-price-of-freedom-v10.fountain` |
 | Character folders | 12 |
-| Generated prompt files | 157 |
+| Generated prompt files | 167 |
 
 ## For any AI agent reading this repository
 

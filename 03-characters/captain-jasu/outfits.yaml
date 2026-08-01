@@ -1,0 +1,140 @@
+character: Captain Jasu
+ratio: "2:3"
+
+# Required. Every weapon and armour placement follows from this.
+# See 09-prompt-library/Handedness-And-Placement.md
+handedness: right
+
+# The script says "a powerful woman with a mean streak" and gives no height.
+# 175 cm is an art department proposal, not a script fact — she is tall and
+# heavy for the crew, and Baylan still stands a clear head above her.
+height: >
+  Around 175 cm and POWERFULLY BUILT — broad through the shoulders and back,
+  heavy through the arms, thick-set rather than lean or athletic. NOT slight,
+  NOT willowy, never styled. Twenty years of this work and she can still do it
+
+do_not_retrieve_short: >
+  DO NOT draw an Imperial officer and DO NOT draw a samurai. She has a high
+  collar, a hard shoulder and a long coat, and that is where the resemblance
+  stops: no Imperial grey, no rank badge, no code cylinders, no peaked military
+  cap, no lacquered plate armour, no helmet, no horns, no face mask. She belongs
+  to no army and never did.
+
+# THE TWO THINGS THAT WILL RETRIEVE. A high collar plus a hard shoulder plus a
+# crest at the brow sits very close to two costumes an image model knows
+# extremely well, and both are wrong for opposite reasons.
+do_not_retrieve: >
+  TWO DEPICTIONS WILL TRY TO ARRIVE HERE AND BOTH ARE WRONG.
+
+  NOT AN IMPERIAL OFFICER. No flat grey-green uniform, no tunic with a rank
+  plaque on the chest, no code cylinders at the shoulder, no peaked military cap,
+  no jodhpurs, no gleaming jackboots, no insignia of any kind. She commands eight
+  people and a dog. There is no empire behind her and nothing she wears may imply
+  one.
+
+  NOT A SAMURAI, AND NOT A JEDI. No lacquered lamellar plate, no laced armour
+  panels, no wide flaring shoulder guards, no horned or winged helmet, no face
+  mask, no mempo, no topknot, no robes, no sash-wrapped front, no sword. The man
+  standing beside her in the finale is a Jedi hiding as a mercenary, and his
+  entire design depends on nobody in frame reading as one.
+
+  WHAT IS TRUE INSTEAD: she has bought the SHAPE of authority — a closed high
+  collar, a square shoulder, a long coat and a cinched waist — because she has
+  none of the real thing. It is well made and it has been in a forest for weeks.
+  Battered, faded, mended, and worn by somebody who fights in it.
+
+outfits:
+  - id: field
+    name: Field dress
+    scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
+    description: >
+      The only coherent, deliberately assembled outfit in this crew, and that is
+      the point of it. A long coat in good dark hide, falling in a skirted panel
+      below the knee and split at the back for walking. It is cut with a hard
+      square shoulder line, and it closes high at the throat on a stiff stand
+      collar that stands upright and never opens. The waist is
+      pulled in hard by a wide, heavy belt with plain working hardware. Tall
+      boots, the best in the crew, resoled and cared for. Beneath the coat a
+      close-fitting dark garment, high to the neck. At her brow a low ornate
+      band, asymmetric, carrying a small worn crest to one side — the only
+      decorative object on her and clearly something she chose rather than
+      earned. On her right hip a holstered blaster pistol, clean and serviced. A
+      worn whistle on a cord at her throat, and a heavy leash coiled at her belt.
+      Everything is good material and everything is battered: faded across the
+      shoulders, mended at the cuffs, mud to the knee. Nothing about her is
+      insignia, and nothing about her was issued.
+    must_show:
+      - >
+        THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER.
+        NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
+        This is the whole design. She commands because she owns a monster and
+        everyone knows it — not through seniority, not through tactical skill,
+        not through the crew's respect. Whatever authority she projects is on
+        loan from the beast. She has bought the SHAPE of an officer because she
+        has none of the substance, and the outfit should read as chosen rather
+        than earned: a woman dressed as an officer of an army that does not
+        exist. If she reads as a person who would be obeyed without the animal,
+        the image has failed.
+      - >
+        THE SILHOUETTE IS HIGH COLLAR, HARD SQUARE SHOULDER, LONG SKIRTED COAT,
+        HARD-CINCHED WAIST, TALL BOOTS.
+        THE COLLAR is stiff and STANDS, closed to the throat — never open, never
+        a lapel, never a shawl or a cowl.
+        THE SHOULDER LINE is square and structured, cut to sit proud of the body.
+        NOT a flared armour guard, NOT a pauldron, NOT a spiked or winged shape.
+        THE COAT falls in a skirted panel BELOW THE KNEE and is split at the back
+        for walking. It is cloth and hide, not plate.
+        THE WAIST is pulled in HARD by a wide heavy belt, and that cinch is what
+        makes the whole shape read.
+        THE BOOTS are tall, the best in the crew, resoled and looked after.
+        The severity is the point. Everything about the line is closed, upright
+        and deliberate, and everything about the condition contradicts it.
+      - >
+        A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK.
+        It sits low across the forehead, hugging the head, with a small worn
+        crest set ASYMMETRICALLY to one side. NO horns, NO wings, NO plume, NO
+        face plate, NO neck guard, NO visor, and it covers NONE of her face.
+        Her head is otherwise bare and her hair is visible.
+        It is THE ONLY DECORATIVE OBJECT ON HER, and it must read as something
+        she picked out and put on rather than something awarded to her. Slightly
+        too much, and nobody in this crew is going to say so.
+      - >
+        GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART.
+        She takes the largest share and it shows in the QUALITY, never in the
+        condition. Real hide, close tailoring, hardware that works and has been
+        maintained. And then: faded across the shoulders and the crown of the
+        coat, mended at the cuffs and the hem, mud to the knee, the collar worn
+        shiny where it rubs. NOT clean, NOT pressed, NOT ceremonial, NOT new.
+        She has been in a forest for weeks and she fights in these clothes.
+      - >
+        THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE
+        ANIMAL AND NEITHER FOR THE CREW.
+        A small worn WHISTLE on a cord at her throat, plainly visible, cheap and
+        much handled. It is the most important object she owns: she whistles and
+        the beast comes, and she whistles and it kills.
+        A HEAVY LEASH — chain or thick strap — COILED AND HUNG AT HER BELT, on
+        her LEFT, off the drawing side. She is not holding it and the animal is
+        not on it. Carrying restraint she does not need is a display for the
+        crew, and it is the difference between commanding an animal and
+        controlling a weapon.
+      - >
+        BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. A holstered blaster
+        pistol, belt-mounted, grip up and angled forward for a right-hand draw.
+        NEVER her left. Unlike everything else in this crew the weapon is CLEAN,
+        SERVICED AND CARED FOR — unscratched finish, working hardware, no
+        mismatched parts. It is the one thing she spends money keeping right.
+        The leash, pouches and tools sit on her LEFT, off the drawing side.
+      - >
+        FORTIES, AND POWERFULLY BUILT. Broad through the shoulders and back,
+        heavy through the arms, thick-set — NOT lean, NOT athletic, NOT styled,
+        NOT glamorous. A woman who has done twenty years of this and can still
+        do it. Her face is hard and unsentimental and it is capable of a small,
+        genuinely amused smile — she kills a man mid-sentence and smiles
+        afterwards, and it must read as characteristic rather than theatrical.
+        NO makeup that reads as makeup.
+      - >
+        MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK.
+        Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey
+        of old canvas. NO uniform green, NO uniform grey, NO red, NO gold braid,
+        NO faction colour of any kind. She must separate from a night forest and
+        from firelight — do not sink her into the background.

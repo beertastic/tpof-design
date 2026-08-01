@@ -156,14 +156,26 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
         "no inset heads, no detail crops, no swatches, no colour palette.",
         "FULL LENGTH — head to below the feet. Not a portrait.",
         "",
-        "USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing",
-        "is attached, fetch these URLs instead — and say which route you used:",
-        *[f"  {r}" for r in refs],
-        "  Take the FACE and BUILD from the actor image only. Hair, beard, age,",
-        "  grooming and costume come from the text below and override the photo.",
-        "  Do not edit or re-crop that photo — make a new photograph of that person.",
-        "  Say whether you used an attached file or a URL. If neither worked, stop.",
-        "",
+        # A character with no references at all used to get this block anyway,
+        # listing nothing and still ending "if neither worked, stop" — an
+        # instruction to abort over a photograph that was never named. Captain
+        # Jasu is the first uncast principal to reach this generator.
+        *([
+            "USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing",
+            "is attached, fetch these URLs instead — and say which route you used:",
+            *[f"  {r}" for r in refs],
+            "  Take the FACE and BUILD from the actor image only. Hair, beard, age,",
+            "  grooming and costume come from the text below and override the photo.",
+            "  Do not edit or re-crop that photo — make a new photograph of that person.",
+            "  Say whether you used an attached file or a URL. If neither worked, stop.",
+            "",
+        ] if refs else [
+            "NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT",
+            "A LIKENESS OF A REAL PERSON. Build the face from the written description",
+            "alone: an ordinary, unremarkable, plausible human being who could exist,",
+            "photographed in a fitting room. Do not resemble any actor or public figure.",
+            "",
+        ]),
     ]
     if retrieve:
         parts += [trim(retrieve, 420), ""]

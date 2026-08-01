@@ -1,19 +1,17 @@
 [MERCENARY-KIT — MERC 3 — THE CLOSE ONE — BACK]
 Output file: turn-merc-3-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 3bfd968a (short) · repo commit 1a0df4e 2026-08-01 19:02
+Prompt version: 42d7419b (short) · repo commit 32b304e 2026-08-01 19:26
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
 
-USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
-is attached, fetch these URLs instead — and say which route you used:
-  Take the FACE and BUILD from the actor image only. Hair, beard, age,
-  grooming and costume come from the text below and override the photo.
-  Do not edit or re-crop that photo — make a new photograph of that person.
-  Say whether you used an attached file or a URL. If neither worked, stop.
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
 
 RIGHT-HANDED — sides are given from THEIR own left/right.
 

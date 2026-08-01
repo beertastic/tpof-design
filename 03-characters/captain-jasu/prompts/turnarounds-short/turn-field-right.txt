@@ -1,0 +1,39 @@
+[CAPTAIN-JASU — FIELD DRESS — RIGHT]
+Output file: turn-field-right.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: d146a4eb (short) · repo commit 32b304e 2026-08-01 19:26
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+DO NOT draw an Imperial officer and DO NOT draw a samurai. She has a high collar, a hard shoulder and a long coat, and that is where the resemblance stops: no Imperial grey, no rank badge, no code cylinders, no peaked military cap, no lacquered plate armour, no helmet, no horns, no face mask. She belongs to no army and never did.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. Around 175 cm and POWERFULLY BUILT — broad through the shoulders and back, heavy through…
+
+MUST BE TRUE OF THIS IMAGE:
+1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design.
+2. THE SILHOUETTE IS HIGH COLLAR, HARD SQUARE SHOULDER, LONG SKIRTED COAT, HARD-CINCHED WAIST, TALL BOOTS. NOT a flared armour guard, NOT a pauldron, NOT a spiked or winged shape.
+3. A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK. NO horns, NO wings, NO plume, NO face plate, NO neck guard, NO visor, and it covers NONE of her face.
+4. GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART. She takes the largest share and it shows in the QUALITY, never in the condition. NOT clean, NOT pressed, NOT ceremonial, NOT new.
+5. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. A small worn WHISTLE on a cord at her throat, plainly visible, cheap and much handled.
+6. BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. A holstered blaster pistol, belt-mounted, grip up and angled forward for a right-hand draw. NEVER her left.
+7. FORTIES, AND POWERFULLY BUILT. Broad through the shoulders and back, heavy through the arms, thick-set — NOT lean, NOT athletic, NOT styled, NOT glamorous. NO makeup that reads as makeup.
+8. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind.
+
+SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

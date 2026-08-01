@@ -2,7 +2,7 @@
 title: "Script v9 — Reconciliation"
 asset_id: "TRACK-SCRIPT-V9"
 updated: "2026-08-01"
-status: "open — 2 of 9 resolved; the rest need Production Designer decisions"
+status: "open — 3 of 9 resolved or actioned; the rest need Production Designer decisions"
 ---
 
 # Script v9 — Reconciliation
@@ -119,9 +119,9 @@ character being wrong about what he did not see.
 |---|---|---|
 | Krellis | **Shot through the head by Jasu**, on screen, Sc.25 | No death recorded. "Placeholder — escapee medic" |
 | Jasu | Killed by a blaster bolt **Baylan deflects** into her chest | "Baylan kills everyone" |
-| Reya Fenn | **Alive in Sc.25**, has dialogue, dies in Baylan's final massacre | "Killed by Vala's grenade, off screen" |
-| Loryl | **Does not appear in v9 at all** | "Killed by Vala's grenade, off screen" |
-| Nyx | Killed last, blade withdrawn orange ✓ | ✓ matches |
+| Reya Fenn | **Alive in Sc.25**, has dialogue, dies in Baylan's final massacre | ~~"Killed by Vala's grenade"~~ **corrected in roster v2.0** |
+| Loryl | **Does not appear in v10 at all** | ~~"Killed by Vala's grenade"~~ **marked DO NOT BUILD** |
+| Nyx | Blade withdrawn orange ✓ — but **killed BEFORE the massacre, not last.** Baylan stabs him, talks to Shin, then *"I have to take care of this first"* and cuts down the rest | ~~"Nyx is killed last"~~ **corrected in roster v2.0** |
 | The akk dog | **Baylan locks eyes with it and sends it away** — "something passes between them" | "Knocked out, left alive and abandoned" |
 
 The akk dog change is an improvement and I would take it: he does not spare it,
@@ -134,15 +134,38 @@ deliberate misdirect"* is not in v9.
 
 ---
 
-## 4. A named mercenary with no file, and one who has vanished
+## 4. A named mercenary with no file, and one who has vanished — **ACTIONED 2026-08-01**
 
 **`YASLO BIS`** has dialogue in Scene 10 (deals the sabacc hand) and again in
-Scene 25. There is no character folder, no entry in the crew roster, and no
+Scene 25. There was no character folder, no entry in the crew roster, and no
 mention anywhere in the repository.
 
-**`Loryl`** has a `Character.md` and a folder, and does not appear in v9.
+**`Loryl`** has a `Character.md` and a folder, and does not appear in v10.
 
-Most likely Loryl was renamed. Worth confirming rather than assuming.
+**Done:** `03-characters/yaslo-bis/` created with his scene beats and the two
+lines that make him matter. `03-characters/loryl/` carries a DO NOT BUILD notice
+and is out of the roster and the headcount.
+
+**Still open, and deliberately not assumed: is Yaslo Bis a rename of Loryl?** If
+yes, merge and delete the Loryl folder. If Loryl was a separate part that was cut,
+just delete it. Nobody should guess this.
+
+### And the whole roster was rebuilt on the back of it
+
+`Crew-Roster.md` v2.0 replaces the "four generic extras" idea with **Merc 1 to
+Merc 4** — four specific people, one per kit build, each in a named group from the
+Sc.23 split, each with a death. `03-characters/generic-mercenary/` is now
+`03-characters/mercenary-kit/`, which is what its own first line always called it.
+
+Three further v1.0 errors were corrected in the process: Reya Fenn survives the
+grenade and dies in the finale, Nyx dies **before** the massacre rather than last,
+and **Jasu is not killed by Baylan** — Nyx fires at him, he deflects without
+looking, and the bolt hits her in the chest.
+
+**One script change:** Sc.23's *"You three — pincer movement"* became **"You
+four"**, so Baylan's massacre is four bodies rather than three. Production
+Designer's call — it is the film's only demonstration that he can take several
+opponents at once and it has to read as easy.
 
 **Also:** Scene 10 refers to Shada as **"him"** — *"as Shada knuckles Nyx's hair.
 Nyx pushes him off."* Shada is designed and cast as a woman, with an actor

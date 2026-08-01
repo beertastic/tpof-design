@@ -23,7 +23,7 @@ Mood and narrative images are context. Three or four per character is enough.
 | Character | Outfits | Turnaround prompts | Generated |
 |---|---|---|---|
 | Shada | 1 | 5 | 5/5 — design closed, images indicative |
-| Generic Mercenary | 4 builds | 20 | 3/4 fronts done. **The large one has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
+| Mercenary Kit | 4 builds (Merc 1–4) | 20 | 3/4 fronts done. **Merc 1, the Wookiee, has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
 | Baylan | **1** | **5** | not started. Collapsed from four outfits to one on 2026-08-01 — the robe is a removable layer and the separate Jedi build is dropped. `handedness: right`, checker clean. Lock his prop plates before his figures |
 | Shin | 3 states | 15 | not started — **blocked the same way Baylan was**: no `handedness:`, no `must_show:` on any state |
 
@@ -37,9 +37,10 @@ See `09-prompt-library/Turnaround-Block.md`.
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
 | Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
 | Nyx | In development | **PRIORITY.** Killed last; the blade changes colour on him. Baseline human — decided. Design still TBD |
-| Reya Fenn | Placeholder | Formerly "Freya". Killed by Vala's grenade, off screen |
-| Loryl | Placeholder | Killed by Vala's grenade, off screen |
-| Generic Mercenary | In development | Modular kit, 4 builds. 33 prompts ready. Includes **the Wookiee** |
+| Reya Fenn | Placeholder | Formerly "Freya". **Survives the grenade** — speaks first in the finale, killed in Baylan's massacre. Pincer group |
+| **Yaslo Bis** | Placeholder | **Speaking part, created 2026-08-01 from v10.** Deals the sabacc hand; pincer group; killed in Baylan's massacre |
+| Loryl | **NOT IN v10** | Appears nowhere in the script. Probably renamed to Yaslo Bis, unconfirmed. Not in the roster, do not build |
+| Mercenary Kit | In development | **Not a character — a build system.** 4 builds, one each to Merc 1–4. 33 prompts ready. Merc 1 is **the Wookiee**, confirmed in v10 |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
 | Vala | Placeholder | **Survives.** Do not stage a death; show no injury. Killed by Shin in Film 2 |
@@ -49,7 +50,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 
 | Faction | Status |
 |---|---|
-| Mercenaries | In development — crew of 10, Wookiee confirmed, kit written |
+| Mercenaries | **Roster v2.0, derived from script v10.** Ten individuals, three groups, every death assigned. See `Crew-Roster.md` |
 | Slaves / Escapees | Placeholder |
 
 ## Locations

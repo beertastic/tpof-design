@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — LEFT]
 Output file: turn-field-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 61d714b4 (short) · repo commit 97a2027 2026-08-01 21:29
+Prompt version: dc15d926 (short) · repo commit 9d02d71 2026-08-01 21:38
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -28,7 +28,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. NOTHING ON HER HEAD. NO headdress, NO circlet, NO diadem, NO crown, NO band, NO helmet, NO ornament of any kind at her brow or in her hair.
 5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. NOT clean, NOT pressed, NOT ceremonial, NOT new. AND IT WAS MADE FOR HER.
 6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW.
-7. BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. NEVER her left. It is the one thing she spends money keeping right.
+7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left.
 8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way. SHE IS COLD.
 9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green.
 

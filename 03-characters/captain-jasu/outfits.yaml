@@ -65,6 +65,13 @@ outfits:
     references:
       - path: reference/concept/jasu-concept-sketch.jpg
         what: the shoulder mantle, the ribbed torso and the leg panels
+      # Her blaster is the A180 — the weapon Jyn Erso carries in Rogue One.
+      # Same rule as Shada's WESTAR-35: for anything PHYSICALLY BUILT the
+      # reference is a photograph of the build, not a film still and not a
+      # render. Photograph the prop, save it below and uncomment. Until then the
+      # A180 is held by words alone, and words do not hold a silhouette.
+      # - path: reference/props/a180.jpg
+      #   what: the A180 blaster pistol, as built
     scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
     description: >
       The only coherent, deliberately assembled outfit in this crew, and that is
@@ -191,11 +198,17 @@ outfits:
         crew, and it is the difference between commanding an animal and
         controlling a weapon.
       - >
-        BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. A holstered blaster
-        pistol, belt-mounted, grip up and angled forward for a right-hand draw.
-        NEVER her left. Unlike everything else in this crew the weapon is CLEAN,
-        SERVICED AND CARED FOR — unscratched finish, working hardware, no
-        mismatched parts. It is the one thing she spends money keeping right.
+        THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN
+        ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left.
+        Holstered, belt-mounted, grip up and angled forward for a right-hand
+        draw. It is a MODULAR weapon — a compact pistol built to be reconfigured,
+        with the fittings for that visible on it. NOT a generic sidearm, NOT a
+        scratch-built mismatch, NOT an antique.
+        Unlike everything else in this crew it is CLEAN, SERVICED AND CARED FOR —
+        unscratched finish, working hardware, nothing improvised. It is the one
+        thing she spends money keeping right, and a modular weapon is an
+        expensive weapon: it is the same statement as the made-to-measure
+        clothes, in a different material.
         The leash, pouches and tools sit on her LEFT, off the drawing side.
       - >
         TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM.

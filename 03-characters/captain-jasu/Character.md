@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.6"
+version: "0.7"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -344,10 +344,32 @@ borrowed.
   not need is a display for the crew — the difference between commanding an
   animal and controlling a weapon. Decided 2026-08-01. Something to physically
   drop in the finale.
-- **The blaster.** Her right hip, belt-mounted, grip up and angled forward.
-  **Clean, serviced and cared for** — unlike everything else in this crew. The one
-  thing she spends money keeping right. In Sc.25 it is *"still glowing"* after
-  Krellis.
+- **The blaster — the A180.** *The weapon Jyn Erso carries in Rogue One,
+  specified by the production 2026-08-01.* Her right hip, belt-mounted, grip up
+  and angled forward. **Clean, serviced and cared for** — unlike everything else
+  in this crew. In Sc.25 it is *"still glowing"* after Krellis.
+
+  **Why it suits her better than a generic sidearm.** The A180 is *modular* — a
+  compact pistol built to be reconfigured — and a modular weapon is an expensive
+  weapon. That is the same statement as the made-to-measure clothes, made in a
+  different material, and it is the second place her share becomes visible
+  without ever looking like rank.
+
+  **It is period-correct.** This film is set ~1 BBY and Rogue One is 0 BBY, so
+  the weapon is contemporaneous rather than anachronistic. Worth knowing, because
+  it also means **an audience may recognise it as Jyn's** — an in-universe
+  non-issue (BlasTech sells them) but a real recognition risk, in the same class
+  as the Imperial and samurai reads already blocked in `outfits.yaml`.
+
+  **The reference must be a photograph of the built prop**, not a film still and
+  not a render — the rule Shada's WESTAR-35 established. The entry sits commented
+  in `outfits.yaml` at `reference/props/a180.jpg`, waiting for that photograph.
+  Until it exists the A180 is held by words alone, and words do not hold a
+  silhouette.
+
+  **Verify the designation** with the armourer before it is engraved anywhere.
+  "A180" is recorded here from the production's note; the object is *"Jyn Erso's
+  blaster from Rogue One"* and that is the unambiguous part.
 
 ## Performance and Body Language
 
@@ -394,7 +416,13 @@ TBD.
   changes how much of her life it has been.
 - **Is her family alive, and does she ever go back?** Not decided, and probably
   Film 2 or 3 business rather than this one.
-- **What does the crest on the brow band depict?** It should be salvage or
+- **Does she ever use the A180's other configurations?** Its defining feature is
+  that it converts. She is only ever specified with the pistol; if a rifle
+  configuration appears in the pursuit scenes that is a prop build and a
+  continuity track, and nobody has decided.
+- **Photograph the A180 prop** and uncomment its reference entry.
+- **What does the crest on the brow band depict?** *(Moot — the band was removed
+  2026-08-01. Kept until somebody confirms it is not coming back.)* It should be salvage or
   purchase, never an award. Nobody has decided what it is.
 - **Does she wear the coat in every scene**, or does it come off for the pursuit
   in Sc.23–24? One costume is currently specified.
@@ -404,6 +432,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.7 | 2026-08-01 | in-development | **Blaster specified as the A180**, the weapon Jyn Erso carries in Rogue One. Period-correct at ~1 BBY. Modular, and therefore expensive — the second place her share shows without looking like rank. Reference entry left commented pending a photograph of the built prop, per the rule Shada's WESTAR-35 established. |
 | 0.6 | 2026-08-01 | in-development | **Concept sketch adopted as a reference plate**, attached to every prompt. Gains the **shoulder mantle** — a stiff ribbed cloth yoke, the signature of the costume and the only thing on her wider than she is. **Headdress removed entirely**; the mantle carries what it was carrying and does it as construction rather than jewellery. Materials shifted to **more cloth than leather**, and the cut to an **acrobat fit** — articulated at every joint. |
 | 0.5 | 2026-08-01 | in-development | **Silhouette revised to skin-tight** at the production's request — she has to read as agile. The long skirted coat loses its volume; the officer line now rests entirely on the stand collar, the square shoulder and the belt, over a second skin. Narrow split panels below the belt keep the upright line without a skirt. Reinforces the made-to-measure argument: a garment cut this close cannot be scavenged. |
 | 0.4 | 2026-08-01 | in-development | **Backstory given by the production.** Aggressive intimidator; strict family, displaced fear, targets the intellectually weaker, controls by fear. Met the akk dog on a transport job and kept it — which answers how she captains this crew at twenty-eight, and makes her authority founded on stealing the one thing that has ever loved her. Corrected `08-species/akk-dog/Creature.md`, which said she was fond of it "the way you are fond of a good weapon" — that was already contradicted by this document and is now settled the other way. |

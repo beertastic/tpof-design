@@ -281,8 +281,15 @@ This character has no `board-data.yaml` yet, so `generate.py reya-fenn` will not
 
 ## Open questions blocking this character
 
-- Open question: is Reya Fenn the character previously listed as Freya?
-- Scene 10 is a night camp Sabacc game — firelight is the motivated source and one of the few warm lighting opportunities in the film.
+- ~~Is Reya Fenn the character previously listed as Freya?~~ **Resolved 2026-07-30:
+  yes, renamed.**
+- **Scene 10 moved inside the mercenary ship on 2026-08-01.** It is no longer a
+  campfire — it is the main hold, lit by a work lamp over the cards and the hold's
+  own bulkhead fixtures. Still the warmest lighting in the film, and it is now the
+  mercenary cast's showcase scene: see
+  [`02-story/scenes/Sc10-Sabacc-Showcase.md`](../../02-story/scenes/Sc10-Sabacc-Showcase.md).
+  **Her helmet reveal is in it** — she arrives off patrol in full armour and
+  becomes a person when it comes off.
 
 ## Revision History
 

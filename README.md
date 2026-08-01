@@ -11,6 +11,9 @@ truth; images and boards are generated from them.
 ## The pipeline
 
 ```
+The screenplay                   02-story/scenes/*.fountain — SOURCE OF TRUTH
+        │                        where a document disagrees, the script wins
+        │
 Production Design Bible          the rules, for everything
         │
 Faction guide                    what a group looks like
@@ -49,7 +52,7 @@ in `09-prompt-library/` and must be propagated.
 | Path | Contents |
 |---|---|
 | `01-production-design/` | The Production Design Bible. Governs everything |
-| `02-story/` | Script breakdown, scene index, planted elements for Films 2–3 |
+| `02-story/` | **The screenplay**, scene index, scene elements, blocking, planted elements for Films 2–3 |
 | `03-characters/` | One directory per character |
 | `04-factions/` | Shared group visual language, crew roster |
 | `05-props/` | Hero and background props |
@@ -59,7 +62,7 @@ in `09-prompt-library/` and must be propagated.
 | `09-prompt-library/` | Canonical prompt blocks and conventions |
 | `10-assets/` | Reference images and exported sheets |
 | `11-production-tracking/` | Status board and open questions |
-| `tools/` | The two generators |
+| `tools/` | The three generators — prompts, boards, screenplay |
 
 Each number is used exactly once.
 
@@ -90,15 +93,21 @@ source .venv/bin/activate
 python tools/prompt-splitter/turnarounds.py shada   # costume turnarounds
 python tools/prompt-splitter/split.py shada         # plates and mood images
 python tools/board-generator/generate.py shada      # A2 board PDFs
+python tools/script-convert/render.py               # screenplay -> PDF
+python tools/script-convert/render.py --format fdx  # screenplay -> Final Draft
 ```
 
-All three accept `--all`. The board generator takes `--validate` (check without
-building) and `--board <key>` (one board).
+The first three accept `--all`. The board generator takes `--validate` (check
+without building) and `--board <key>` (one board).
+
+**The screenplay is plain text.** It lives as Fountain under `02-story/scenes/`
+and renders on demand — see [`tools/script-convert/README.md`](tools/script-convert/README.md).
+Rendered PDFs and FDX are gitignored.
 
 **No LibreOffice required.** Boards render straight to PDF with `reportlab`.
 
-**Board count comes from the config**, not the tool. Shada has five; Baylan has
-eight, including one turnaround sheet per outfit.
+**Board count comes from the config**, not the tool. Shada 5, Baylan 5, Shin 7,
+Mercenary Kit 4 — one turnaround sheet per costume, plus the supporting boards.
 
 **The prompt generators check placement** on every run and warn if handedness is
 undeclared or an asymmetric item has no side.
@@ -129,6 +138,10 @@ are context; three or four per character is enough.
 **Attach references, always.** Every prompt containing a person refuses to
 generate without the approved costume and actor reference attached. Text alone
 produces the wrong costume and the wrong face.
+
+**One exception: the front turnaround.** It is generated without a costume
+reference because it is the image that *creates* the reference. Get it right
+before anything else — an error there propagates into every other view.
 
 ---
 
@@ -166,13 +179,22 @@ Fountain file. The Filmanize breakdown that preceded it has been deleted; its
 per-scene props, set dressings and costumes are preserved in
 [`02-story/Scene-Elements.md`](02-story/Scene-Elements.md).
 
-| | |
+| Character | State |
 |---|---|
-| **Shada** | Costume approved. **20/20 images, 5/5 boards.** Three images need replacing — see [`Shada-Image-TODO.md`](11-production-tracking/Shada-Image-TODO.md) |
-| **Baylan** | Documented and locked. **One costume** with a removable robe. 5 turnarounds + 13 plates, none generated yet |
-| **Shin** | Documented and locked. Three costume states |
+| **Shada** | **Design closed.** 21 images, 5 boards. Several superseded by the hexagonal-plate and WESTAR-35 revisions — see [`Shada-Image-TODO.md`](11-production-tracking/Shada-Image-TODO.md) |
+| **Baylan** | Locked. **One costume**, removable robe. `handedness: right`, checker clean. 5 turnarounds + 13 plates, **none generated** |
+| **Mercenary Kit** | **Four people — Merc 1 to 4**, one build each. 20 turnarounds + 13 plates, none generated. Merc 1 is the Wookiee and gets no generated turnaround by decision |
+| **Shin** | Locked, three costume states. **BLOCKED** — no `handedness:` or `must_show:`, the last checker warning in the project |
 | **Akk dog** | Asset built and rigged; documented |
-| Everyone else | Placeholder |
+| Nyx, Captain Jasu, Krellis, Reya Fenn, Yaslo Bis, Jeyin, Vala | Documented to varying depth. **Every death is now written** — see [`Deaths-And-Effects.md`](11-production-tracking/Deaths-And-Effects.md) |
+| Palpatine | Glimpsed only. Reference note, by decision |
+
+**The mercenary crew is ten people**, each with a costume build, a group and a
+scene they die in — [`Crew-Roster.md`](04-factions/mercenaries/Crew-Roster.md).
+
+Where the design documents and the screenplay disagree is tracked in
+[`Script-v9-Reconciliation.md`](11-production-tracking/Script-v9-Reconciliation.md)
+— 7 of 9 closed.
 
 Open questions live in
 [`11-production-tracking/Open-Questions.md`](11-production-tracking/Open-Questions.md).

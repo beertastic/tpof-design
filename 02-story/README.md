@@ -19,8 +19,11 @@ Rendered output is gitignored. See
 [`tools/script-convert/README.md`](../tools/script-convert/README.md) for how the
 conversion was verified and where it stops being the right tool.
 
-`script-breakdown/` holds the Filmanize export, which predates v9. Useful for the
-production elements it extracts; **not** authoritative on scene numbering any more.
+[`Scene-Index.md`](Scene-Index.md) is the scene list, following the screenplay.
+[`Scene-Elements.md`](Scene-Elements.md) holds the per-scene props, set dressings
+and costumes extracted from the Filmanize breakdown before that export was
+deleted on 2026-08-01 — the screenplay lists none of those, so it was worth
+keeping.
 
 Open disagreements between the script and the design documents are tracked in
 [`11-production-tracking/Script-v9-Reconciliation.md`](../11-production-tracking/Script-v9-Reconciliation.md).

@@ -159,7 +159,10 @@ Commit style: `docs(character):`, `design(costume):`, `prop(shada):`,
 
 ## Status
 
-The Filmanize scene breakdown is imported under `02-story/script-breakdown/`.
+**The screenplay is the source of truth** — `02-story/scenes/`, currently v10 as a
+Fountain file. The Filmanize breakdown that preceded it has been deleted; its
+per-scene props, set dressings and costumes are preserved in
+[`02-story/Scene-Elements.md`](02-story/Scene-Elements.md).
 
 | | |
 |---|---|

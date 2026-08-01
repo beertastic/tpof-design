@@ -6,7 +6,7 @@
 > an ordinary forest scene when it is a vision. Scenes 10, 13 and 15 have since
 > moved inside the mercenary ship.
 >
-> **The screenplay at [`../scenes/`](../scenes/) is the source of truth.** Where
+> **The screenplay at [`scenes/`](scenes/) is the source of truth.** Where
 > this file and the script disagree, this file is wrong.
 
 | Scene | Setting | Time | Principal characters |
@@ -57,4 +57,4 @@
   set-dressing list. The rule is **wherever Jasu is, the akk dog is** — scenes 9, 19, 20,
   23 and 25 — plus background presence during mercenary movement. It kills Jeyin in
   the finale. **Any schedule built from the Filmanize export is missing a creature unit
-  across six scenes.** See [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).
+  across six scenes.** See [`08-species/akk-dog/Creature.md`](../08-species/akk-dog/Creature.md).

@@ -407,7 +407,7 @@ nothing that says anything about him, while she has nothing at all.
 Scenes **4** (voice only), 6, 8, 11, 12, 16, 17, 18, 21, 22, 25 — eleven
 scenes, of which one is a sound heard inside another character's vision.
 
-See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+See [`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Trilogy Position
 

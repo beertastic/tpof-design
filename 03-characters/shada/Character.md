@@ -443,7 +443,7 @@ Scenes **10 and 25**, plus crew presence through the pursuit. (Renumbered
 2026-08-01: v10 has no 24A, and Sc.24 is the Vala fight, which she is not in —
 she is in the pincer group. See `04-factions/mercenaries/Crew-Roster.md`.)
 
-See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+See [`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Canonical Prompt Framework
 

@@ -412,7 +412,7 @@ planted in Scene 10 and paid off in Scene 23.
 ## Scene Appearances
 
 Scenes **10, 20–23, 24**. See
-[`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+[`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Canonical Prompt Framework
 

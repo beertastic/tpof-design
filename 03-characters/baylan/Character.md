@@ -631,7 +631,7 @@ Scenes 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25 — more than any other charac
 Credited as `Bay` throughout, and as both `Bay` and `Baylan` in Scene 25, where
 he names himself: *"My name. Is Baylan Skoll."*
 
-See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+See [`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Timeline
 

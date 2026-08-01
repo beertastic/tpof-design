@@ -95,7 +95,7 @@ TBD.
 
 ## Scene Appearances
 
-See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+See [`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Visual References
 

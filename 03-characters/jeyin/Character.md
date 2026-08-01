@@ -222,7 +222,7 @@ TBD.
 Scenes 6, 8, 11, 16, 17, 18, 21, 22, 25. (Renumbered 2026-08-01: v10 has no 24A,
 and Sc.24 is Vala's fight, which Jeyin is not in.)
 
-See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
+See [`Scene-Index.md`](../../02-story/Scene-Index.md).
 
 ## Visual References
 

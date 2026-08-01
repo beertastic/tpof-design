@@ -91,11 +91,11 @@ crew, for opposite reasons, and the crew gossips about both of them the moment
 they are out of the room. That is worth staging deliberately rather than treating
 as two people who happened to be elsewhere.
 
-**Baylan may be present, silent, at the edge of the lamp light.** Decided
-2026-08-01: out for now, but he has no dialogue in the scene, so nothing stops him
-lurking and taking the remarks about him — Nyx's *"Bay's her right hand"* lands
-differently if he is standing there. Optional, and it costs one more body on the
-hold set.
+**Baylan stays out — decided 2026-08-01, and the lurking option is withdrawn.**
+He is the point-of-view character, and an audience that has followed him for nine
+scenes will watch him instead of the crew. **This scene belongs to the mercenary
+cast**: their acting, their costumes, and the reason their deaths should cost
+something. See [`02-story/scenes/Sc10-Sabacc-Showcase.md`](../../02-story/scenes/Sc10-Sabacc-Showcase.md).
 
 **This is not the full-crew scene. Sc.9 and Sc.19 are** — both have all ten,
 Jasu and Baylan included. What Sc.10 does that they cannot is show the crew as

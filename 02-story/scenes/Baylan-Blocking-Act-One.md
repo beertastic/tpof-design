@@ -105,9 +105,11 @@ the only person in the film who touches Baylan.
 The Sabacc game. Nyx, Shada, Reya Fenn, Yaslo Bis and Mercs 1–4. **Jasu is absent
 too**, and the crew gossips about both of them in consecutive lines.
 
-**Decided 2026-08-01: he stays out.** The live option is that he is there and
-silent — at the edge of the lamp light, taking the remarks about himself. He has
-no dialogue either way. See question 3.
+**Decided 2026-08-01: he stays out, and the lurking option is withdrawn.** The
+scene has been reassigned as the mercenary cast's showcase, and he is the
+point-of-view character — an audience nine scenes into following him will watch
+him rather than the crew. See
+[`Sc10-Sabacc-Showcase.md`](Sc10-Sabacc-Showcase.md).
 
 ### Sc.13 — INT. SHIP, CREW BUNKS. Night. **Space D. Alone, among sleepers.**
 

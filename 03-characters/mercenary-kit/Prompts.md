@@ -319,16 +319,26 @@ pack.
 
 The Sabacc game in a cramped, salvaged cargo hold at night. All four sitting
 around a crate with cards and a pile of chips, comfortable with each other,
-mid-game. **A single work lamp swings overhead and is the only source** — hard
-top light, moving shadows, deep falloff into the corners. Exposed pipework,
-tie-downs, mismatched paint, scuffed decking, stacked salvage, service markings.
-Lived-in and over-occupied: this crew sleeps in a space too small for them.
+mid-game. Exposed pipework, tie-downs, mismatched paint, scuffed decking, stacked
+salvage, service markings. Lived-in and over-occupied: this crew sleeps in a space
+too small for them.
 
-This is the frame that establishes the crew exists, and it has to survive being
-lit by one lamp — the four silhouettes must still separate from each other and
-from the dark hold behind them.
+**LIGHT THEM PROPERLY. This is the costume showcase.** A work lamp hooked over
+the cards, plus the hold's own bulkhead fixtures — several motivated practical
+sources, all salvaged and grimy, none of them flattering, but **every face and
+every costume readable.** Low and dirty, not dark. If half the table is in shadow
+the image has failed.
 
-Relaxed, off duty, weapons still on them because they always are.
+This is the only frame in the film with all four builds together, so it is the
+only place the kit can be judged: **four people who each assembled their own gear,
+not one costume in four colours.** Their personal marks are the point and they are
+small — the rings braided into fur, the notches cut in a rifle stock, the trophies
+on a chest rig, the kept objects threaded onto a belt. Frame wide enough to hold
+the table and close enough to see a wrist.
+
+Relaxed, off duty, weapons still on them because they always are. **The large
+one's grenades must be visible on his chest rig** — Vala takes one off it later,
+and this is where the audience needs to have seen them.
 
 **Not a clean ship.** No polished surfaces, no glowing consoles, no bridge or
 cockpit. This is a hold that has had cargo dragged across it for twenty years.

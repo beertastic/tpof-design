@@ -223,7 +223,7 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         ref_note = ("FETCH AND MATCH — the approved costume reference:\n    "
                     + raw_url(approved["reference"]))
     # Approved material and prop plates. The figure prompts no longer describe
-    # the plate in full — the reference image carries it — so these must attach.
+    # the plate in full — the plate photograph carries it — so these must attach.
     for r in (refs or []):
         ref_note += (("\n" if ref_note else "")
                      + f"FETCH AND USE AS REFERENCE — {r['what']}:\n    "
@@ -274,7 +274,7 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "Do not proceed from the text alone. The written description is not sufficient",
         "on its own and will produce the wrong costume and the wrong face.",
         "",
-        "THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.",
+        "THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.",
         "Match the costume, materials, colours, face and build from them exactly.",
         "Only the setting, pose and lighting change.",
         "" if gate else None,
@@ -376,7 +376,7 @@ def run(repo: Path, character: str) -> int:
         "One file per image. Each is completely self-contained: open it, select all,",
         "paste into the image generator. Nothing to assemble, nothing to remove.",
         "",
-        "Each prompt lists every reference image it needs as a public URL — fetch",
+        "Each prompt lists every photograph it needs as a public URL — fetch",
         "them, do not ask for attachments. See 03-characters/CAST-REFERENCE.md.",
         "",
         "Save each result to source/artwork/ using the exact filename stated at the",

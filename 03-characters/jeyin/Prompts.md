@@ -275,7 +275,7 @@ This character has no `board-data.yaml` yet, so `generate.py jeyin` will not run
 ## Continuity rules across the set
 
 - Same face and same distinguishing detail in every image of this character.
-- Same costume build across slots 1–5 and 12. Slots 6–8 are reference sheets.
+- Same costume build across slots 1–5 and 12. Slots 6–8 are study plates.
 - Props shown in slots 9–11 are the same objects visible on the body in slots 1–5.
 - Nothing gains a decorative element between images.
 

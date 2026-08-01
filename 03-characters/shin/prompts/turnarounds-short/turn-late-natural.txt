@@ -1,9 +1,9 @@
 [SHIN — DESTROYED BY THE FOREST — NATURAL]
 Output file: turn-late-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 77ca0460 (short)
+Prompt version: d20f202c (short)
 
-ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.

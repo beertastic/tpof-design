@@ -116,7 +116,7 @@ Per Bible §12, every prompt applies, in order:
 
 1. Style Bible (Block A + Block B above)
 2. Faction guide — `04-factions/<faction>/Faction.md`
-3. Character sheet — `Character.md` + `Character-Lock.md`
+3. Character documents — `Character.md` + `Character-Lock.md`
 4. Scene description — `02-story/Scene-Index.md`
 5. Camera direction
 

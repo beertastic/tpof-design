@@ -1,7 +1,7 @@
 [BAYLAN — SLOT 11 — THE RECONSTRUCTION]
 Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: dfc7980e
+Prompt version: 14345e65
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real
@@ -23,7 +23,7 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
 Match the costume, materials, colours, face and build from them exactly.
 Only the setting, pose and lighting change.
 

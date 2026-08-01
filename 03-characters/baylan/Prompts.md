@@ -13,7 +13,7 @@ governing_documents:
 
 # Baylan — Image Prompt Pack
 
-**Before you start:** if actor reference images exist, **attach them to the
+**Before you start:** if actor reference photographs exist, **attach them to the
 conversation** — see [`../CAST-REFERENCE.md`](../CAST-REFERENCE.md). A repository
 connector may not let the model see images even when it can read this file. The
 reference governs face and build; this pack governs everything else.
@@ -376,7 +376,7 @@ eighteen years of handling on the grip. No ornament, no engraving, no glow.
 ## 9. `crystal.png` — the pouch
 **Square, 1:1.**
 
-Close product-reference image on a dark neutral surface, lit low and warm as if
+Close product photograph on a dark neutral surface, lit low and warm as if
 by a single glowrod: a small, worn leather pouch, opened, with a fine cord
 threaded through it; beside it a small, jagged, raw yellow crystal resting on the
 leather. The crystal is uncut and irregular — a rough natural stone, not a

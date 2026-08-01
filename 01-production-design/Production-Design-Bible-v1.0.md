@@ -372,7 +372,7 @@ Every prompt should follow this hierarchy:
 
 1. Apply the **Style Bible**.
 2. Apply the relevant **Faction Guide**.
-3. Apply the **Character Sheet**.
+3. Apply the **character documents**.
 4. Apply the **Scene Description**.
 5. Apply the **Camera Direction**.
 

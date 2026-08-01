@@ -3,7 +3,7 @@
 One file per image. Each is completely self-contained: open it, select all,
 paste into the image generator. Nothing to assemble, nothing to remove.
 
-Each prompt lists every reference image it needs as a public URL — fetch
+Each prompt lists every photograph it needs as a public URL — fetch
 them, do not ask for attachments. See 03-characters/CAST-REFERENCE.md.
 
 Save each result to source/artwork/ using the exact filename stated at the

@@ -1,6 +1,6 @@
 # Cast Reference Convention
 
-Where actor reference images live, and how to use them.
+Where actor reference photographs live, and how to use them.
 
 ## Location
 
@@ -63,7 +63,7 @@ thing to check.
 
 Practical order for each prompt:
 
-1. Attach the actor reference images.
+1. Attach the actor reference photographs.
 2. Paste **Style** + **Do Not** + **Character Constants** from the character's
    `Prompts.md`.
 3. Paste **one** numbered slot.

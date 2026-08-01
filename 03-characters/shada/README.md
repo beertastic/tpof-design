@@ -29,7 +29,7 @@ python tools/board-generator/generate.py shada
 | `Character.md`, `Character-Lock.md`, `Prompts.md` | Yes | Source of truth |
 | `board-data.yaml` | Yes | The board master |
 | `source/artwork/*.png` | Yes | **Not reproducible** — the generated artwork itself |
-| `references/` | Yes | Approved reference images |
+| `references/` | Yes | Approved reference photographs |
 | `*.pdf` (five board PDFs) | Yes | The review deliverable |
 | `renders/*.png` | No | ~87 MB per character, fully regenerable |
 | `source/*.pptx`, `source/*-Production-Boards.pdf` | No | Intermediate build output |

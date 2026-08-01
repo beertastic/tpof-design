@@ -1,7 +1,7 @@
 [SHIN — TURNAROUND — AS WE MEET HER — FRONT]
 Output file: turn-early-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 190703d6
+Prompt version: 531a615f
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
@@ -49,14 +49,14 @@ nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
 a handsome or striking one, and do not drift toward any actor you have seen
 play a similar part.
 
-THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET.
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
 
 Build it from the description below, which is the only source. Read the
 NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
 them must be visible and correct in this image.
 
-Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
-this costume is matched against. An error here propagates into all of
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
 ====================================================================

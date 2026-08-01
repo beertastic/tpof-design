@@ -664,7 +664,7 @@ python tools/board-generator/generate.py shada
 ## Continuity rules across the set
 
 - Same face, same scale density and placement, in every image containing her.
-- Same costume build in slots 1–5 and 12. Slots 6–8 are reference sheets.
+- Same costume build in slots 1–5 and 12. Slots 6–8 are study plates.
 - The knife in slot 9 is the same knife visible at her hip in slots 1–5.
 - Nothing gains a decorative element between images.
 

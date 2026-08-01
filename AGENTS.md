@@ -71,7 +71,7 @@ said do not stop. They now agree.
 > I can't fetch the repository, so I won't generate anything — an invented
 > character sheet is worse than no answer. To proceed, paste the contents of
 > `03-characters/<character>/prompts/turnarounds-short/turn-<outfit>-front.txt` and
-> attach the reference images it names.
+> attach the photographs it names.
 
 The stop is not optional and the fallback is not a substitute for it. Failing
 visibly is the point; the paste route is what the user does next.
@@ -114,7 +114,7 @@ Your own compression is not the same thing.
 Those are written for humans and are the wrong shape to generate from. Only files
 under `prompts/` are prompts.
 
-**3. FETCH the reference images yourself. Every one has a public URL.**
+**3. FETCH the reference photographs yourself. Every one has a public URL.**
 
 Prompt files carry lines like:
 
@@ -176,17 +176,44 @@ says so, that is the retrieval.
 
 ---
 
-## Command — "make the reference picture for `<character>`"
+## Command — "make the front turnaround for: `<character>`"
 
 Accepted phrasings, all meaning the same thing:
-*"make the reference image for: baylan"*, *"make the reference picture for
-baylan"*, *"make baylan's reference"*, *"generate the front turnaround"*.
+*"make the front turnaround for: baylan"*, *"make baylan's front turnaround"*,
+*"make the front costume photo for baylan"*.
 The character name is the folder name, **lower case**.
 
-This produces the **front turnaround**, which is the image every other image of
-that costume is matched against.
+This produces the **front turnaround** — a single costume fitting photograph of
+one person, which every other photograph of that costume is then matched against.
 
-### Step 1 — the reference gate. Run this FIRST, every time.
+### Never call this a "reference image", and never draw one
+
+**Recorded 2026-08-01, after it cost a full day.** The command used to be phrased
+*"make the reference image for `<character>`"*. Asked that, a model produced a
+multi-panel character design board: name banner, front/side/back row, portrait
+strip, colour swatches, detail crops, an invented data panel with ALIGNMENT and
+FACTION fields that exist nowhere in this repository — and it captioned the whole
+thing **REFERENCE IMAGE**.
+
+It was not disobeying. *Reference image*, *character sheet* and *reference sheet*
+are the names of a **genre of picture**, and naming a genre summons its layout.
+The prompt forbade every element of that board and lost, because two words in the
+request outweighed three thousand characters of instruction.
+
+So the word is gone from the command, from the prompts, and from the generators.
+Say what the picture **is**, in the words a camera department would use:
+
+| Say this | Never this |
+|---|---|
+| front turnaround | reference image |
+| costume fitting photograph | character sheet |
+| plate photograph | reference sheet |
+| the approved front turnaround | the reference |
+
+**"Reference" is still correct for an INPUT** — a photograph you fetch and match
+against. It is never correct for the thing you are making.
+
+### Step 1 — the approval gate. Run this FIRST, every time.
 
 Read `03-characters/<character>/outfits.yaml`. **That file is the only authority
 on how many outfits a character has.** Do not answer from `README.md`, from
@@ -261,15 +288,15 @@ python tools/prompt-splitter/split.py <character>
 
 ---
 
-## Command — "make all `<character>` images from the reference"
+## Command — "make all `<character>` photographs from the front turnaround"
 
 ### Step 1 — require a reference
 
 Read `outfits.yaml`. **If there is no `approved.reference`, or the file is
 missing, stop.** Say:
 
-> `<character>` has no approved reference image yet. Everything else is matched
-> against it, so that has to come first. Shall I make the reference picture?
+> `<character>` has no approved front turnaround yet. Everything else is matched
+> against it, so that has to come first. Shall I make the front turnaround?
 
 Do not offer to generate the other images anyway.
 

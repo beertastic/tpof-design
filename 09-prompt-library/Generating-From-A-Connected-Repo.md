@@ -92,6 +92,18 @@ git add -A && git commit -m "prompts(shada): regenerate" && git push
 
 ---
 
+## Never ask for a "reference image"
+
+**Added 2026-08-01.** The phrase names a genre — a multi-panel character design
+board with a name banner, a portrait strip and colour swatches. Ask for one and
+you will get one, however long the prompt arguing otherwise. It happened, and it
+captioned itself `REFERENCE IMAGE`.
+
+Ask for a **front turnaround**, or a **costume fitting photograph**. Both are
+what a costume department actually calls the thing, and neither retrieves a
+layout. `reference` is fine for an input you fetch and match against; it is never
+the name of what you are making. See [`AGENTS.md`](../AGENTS.md).
+
 ## The front view is the special one
 
 **It is the only image generated without a costume reference, because it is the

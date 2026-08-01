@@ -1,7 +1,7 @@
 [SHADA — SLOT 06 — ANCESTRY STUDY]
 Output file: species_strip.png
 Aspect ratio: 21:9  (wide banner)
-Prompt version: 02970d60
+Prompt version: ed54bef4
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -24,7 +24,7 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
 Match the costume, materials, colours, face and build from them exactly.
 Only the setting, pose and lighting change.
 

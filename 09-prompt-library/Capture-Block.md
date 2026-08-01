@@ -207,7 +207,7 @@ and move on.
 
 ## Honest limits
 
-**Prompt language helps. Reference images help far more.**
+**Prompt language helps. Fetched photographs help far more.**
 
 The single biggest lever on photographic realism is attaching a real photograph
 with the look you want, alongside actor reference. Words steer; images anchor.

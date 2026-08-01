@@ -28,7 +28,7 @@ All at **2:3**, tall, full figure.
 
 ## Approved outfits
 
-An outfit marked **APPROVED** has a locked reference image. Every other view
+An outfit marked **APPROVED** has a locked front turnaround. Every other view
 of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming
 the URL to fetch — and states that where the text and the image disagree,
 **the image wins**.

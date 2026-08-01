@@ -15,7 +15,7 @@ source: "Filmanize script breakdown; existing production 3D asset"
 > **Production rule:** Refer to the Production Design Bible before any visual development or image generation.
 
 > **The built asset is canonical.** A 3D akk dog has been modelled and rigged for
-> this production. That asset — not this document, not any reference image, and
+> this production. That asset — not this document, not any photograph, and
 > not any generated picture — defines the creature. Everything here exists to
 > keep generated imagery consistent *with the rig*.
 

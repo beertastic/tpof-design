@@ -38,7 +38,7 @@ python tools/prompt-splitter/turnarounds.py shada
 **Every other view now opens with a match instruction** naming the file to
 attach, and ending:
 
-> Where this text and the reference image disagree, **THE IMAGE WINS.**
+> Where this text and the approved front turnaround disagree, **THE PHOTOGRAPH WINS.**
 
 That last line matters. A long prompt will always contain something the approved
 image contradicts — a phrase that reads differently, a detail described loosely.

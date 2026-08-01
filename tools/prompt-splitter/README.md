@@ -173,11 +173,11 @@ The fix was not to shorten the plate spec but to **move it**. Once an approved
 plate image is attached via `references:`, the figure prompts do not need to
 describe how a plate is made — the image carries it, far better than words. Rule
 1 became 390 words ending in "for what a plate looks like, match the attached
-plate reference image", and the full specification lives where it belongs: in the
+plate photograph", and the full specification lives where it belongs: in the
 material-plate slot and in `Character.md`.
 
 **The prompt had grown 38% at exactly the moment it should have shrunk.** When a
-reference image gets locked, go and delete the words it replaces.
+plate photograph gets locked, go and delete the words it replaces.
 
 ### The checker cannot see inside `must_show`
 

@@ -1,7 +1,7 @@
 [SHIN — SLOT 09 — THE HERO PROP]
 Output file: clasp.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: 4f0a3d2c
+Prompt version: 0aa2a0e0
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real
@@ -24,7 +24,7 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
 Match the costume, materials, colours, face and build from them exactly.
 Only the setting, pose and lighting change.
 ====================================================================

@@ -20,7 +20,7 @@ This pack has two jobs, and they are different:
 
 1. **Placement** — putting the akk dog into a scene alongside characters. This is
    the common case. Use the Creature Constants block plus a scene prompt.
-2. **Board plates** — reference imagery for a creature production board.
+2. **Board plates** — reference photographs for a creature production board.
 
 **Always attach the reference plates from `reference/` to the conversation.**
 Text alone will not hold an animal's shape across images, and a model with

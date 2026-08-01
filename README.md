@@ -60,7 +60,7 @@ in `09-prompt-library/` and must be propagated.
 | `07-locations/` | Sets, planets, environments |
 | `08-species/` | Species and creatures |
 | `09-prompt-library/` | Canonical prompt blocks and conventions |
-| `10-assets/` | Reference images and exported sheets |
+| `10-assets/` | Reference photographs and exported sheets |
 | `11-production-tracking/` | Status board and open questions |
 | `tools/` | The three generators — prompts, boards, screenplay |
 

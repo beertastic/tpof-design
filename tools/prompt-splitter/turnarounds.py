@@ -378,14 +378,14 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "Do not proceed from the text alone. The written description is not sufficient" if gate else None,
         "on its own and will produce the wrong costume and the wrong face." if gate else None,
         "" if gate else None,
-        "THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win." if gate else None,
+        "THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win." if gate else None,
         "Match the costume, materials, colours, face and build from them exactly." if gate else None,
         "Only the setting, pose and lighting change." if gate else None,
         "" if ref_note else None,
         ref_note if ref_note else None,
         "" if ref_note else None,
         # No reference yet: this prompt IS the one that creates it.
-        "THIS IS THE FIRST IMAGE OF THIS COSTUME. THERE IS NO REFERENCE YET."
+        "THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET."
         if not gate else None,
         "" if not gate else None,
         "Build it from the description below, which is the only source. Read the"
@@ -395,9 +395,9 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "them must be visible and correct in this image."
         if not gate else None,
         "" if not gate else None,
-        "Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of"
+        "Once approved, every other view of this costume is matched against THIS"
         if not gate else None,
-        "this costume is matched against. An error here propagates into all of"
+        "PHOTOGRAPH. An error here propagates into all of"
         if not gate else None,
         "them, so it is worth several attempts to get right."
         if not gate else None,
@@ -432,7 +432,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "",
         (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
          if must_block else ""),
-        ("The fetched reference images outrank this text. If none were fetched, "
+        ("The fetched photographs outrank this text. If none were fetched, "
          "you should not have generated this." if gate else ""),
         f"Deliver a single image at {ratio}. It must look photographed, not generated.",
     ]
@@ -518,7 +518,7 @@ def run(repo: Path, character: str) -> int:
         "",
         "## Approved outfits",
         "",
-        "An outfit marked **APPROVED** has a locked reference image. Every other view",
+        "An outfit marked **APPROVED** has a locked front turnaround. Every other view",
         "of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming",
         "the URL to fetch — and states that where the text and the image disagree,",
         "**the image wins**.",

@@ -73,7 +73,7 @@ def build(character: str, cfg: dict, outfit: dict, view: str) -> str:
         f"Output file: turn-{outfit['id']}-{view}.png",
         f"Aspect ratio: {cfg.get('ratio', '2:3')} — TALL. Generate at 1024x1536. Never square.",
         "",
-        "ONE PHOTOGRAPH OF ONE FIGURE. A costume fitting photo, not a design board.",
+        "THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.",
         "NO text, labels, captions, titles, logos, borders or layout. NO second view,",
         "no inset heads, no detail crops, no swatches, no colour palette.",
         "FULL LENGTH — head to below the feet. Not a portrait.",

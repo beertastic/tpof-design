@@ -247,7 +247,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     # that creates the costume reference — the material is already locked even
     # when the costume is not.
     cdir = outfit.get("_dir", character)
-    extra = [f"FETCH AND USE AS REFERENCE — {r['what']}:\n    "
+    extra = [f"USE THE ATTACHED PHOTOGRAPH — {r['what']}. If not attached, fetch:\n    "
              f"{raw_url(f'03-characters/{cdir}/{r[chr(39)+chr(39)] if False else r["path"]}')}"
              for r in (outfit.get("references") or [])]
 
@@ -259,14 +259,14 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     if actors:
         for _n, _name, _url, _what in actors:
             _label = f" — {_what}" if _what else ""
-            extra.append(f"FETCH AND USE AS THE LIKENESS REFERENCE "
+            extra.append(f"LIKENESS "
                          f"({_n} of {len(actors)}){_label}:\n    {_url}")
         _many = (f"THERE ARE {len(actors)} ACTOR REFERENCES, numbered 1 to "
                  f"{len(actors)}. They are all the SAME PERSON seen from"
                  f" different\nangles. Use every one of them.\n\n"
                  if len(actors) > 1 else "")
         actor_line = (_many +
-            "FETCH THE ACTOR REFERENCE FROM THE URL ABOVE — TAKE THE FACE AND THE\n"
+            "USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE\n"
             "BUILD FROM IT. It is a public raw file and it opens; if it does not, say\n"
             "so and stop rather than inventing a face.\n"
             "\n"

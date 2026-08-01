@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — NATURAL POSE]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 1697eef1 · repo commit 8e6d271 2026-08-01 17:08
+Prompt version: 190db18c · repo commit 201f18b 2026-08-01 17:08
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 8e6d271, prompt 1697eef1.
+    Working from commit 201f18b, prompt 190db18c.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.
@@ -49,7 +49,7 @@ ABSOLUTELY NOT, IN ANY FORM:
 If the result looks like a designed page rather than a photograph taken
 in a costume fitting, it is wrong and cannot be used.
 
-FETCH THE ACTOR REFERENCE FROM THE URL ABOVE — TAKE THE FACE AND THE
+USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE
 BUILD FROM IT. It is a public raw file and it opens; if it does not, say
 so and stop rather than inventing a face.
 
@@ -84,7 +84,7 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-FETCH AND USE AS THE LIKENESS REFERENCE (1 of 1) — front on, neutral:
+LIKENESS (1 of 1) — front on, neutral:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.

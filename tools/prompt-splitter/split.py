@@ -260,13 +260,13 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
     # the plate in full — the plate photograph carries it — so these must attach.
     for r in (refs or []):
         ref_note += (("\n" if ref_note else "")
-                     + f"FETCH AND USE AS REFERENCE — {r['what']}:\n    "
+                     + f"USE THE ATTACHED PHOTOGRAPH — {r['what']}. If not attached, fetch:\n    "
                      + raw_url(f"03-characters/{character}/{r['path']}"))
     # Every actor reference, numbered, each with a fetchable public URL.
     for _n, _name, _url, _what in actor_refs(character):
         _label = f" — {_what}" if _what else ""
         ref_note += (("\n" if ref_note else "")
-                     + f"FETCH AND USE AS THE LIKENESS REFERENCE ({_n}){_label}:"
+                     + f"LIKENESS ({_n}){_label} — attached, or fetch:"
                      + f"\n    {_url}")
     if narrative:
         demand = (

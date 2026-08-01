@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 13 — THE LONG COAT, WORN]
 Output file: coat.png
 Aspect ratio: 2:3  (tall portrait)
-Prompt version: 76472561 · repo commit 8e6d271 2026-08-01 17:08
+Prompt version: 0a928b45 · repo commit 201f18b 2026-08-01 17:08
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 8e6d271, prompt 76472561.
+    Working from commit 201f18b, prompt 0a928b45.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.
@@ -33,7 +33,7 @@ THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs
 Match the costume, materials, colours, face and build from them exactly.
 Only the setting, pose and lighting change.
 
-FETCH AND USE AS THE LIKENESS REFERENCE (1) — front on, neutral:
+LIKENESS (1) — front on, neutral — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 ====================================================================

@@ -1,5 +1,10 @@
 # Generating Shada — the actual procedure
 
+> **If ChatGPT is connected to the repository, use
+> [`09-prompt-library/Generating-From-A-Connected-Repo.md`](../../../09-prompt-library/Generating-From-A-Connected-Repo.md)
+> instead.** It fetches its own reference plates, which removes the failure this
+> document is mostly about. What follows is the paste-by-hand procedure.
+
 The single most common failure is generating **without the reference images
 attached**. The result looks plausible and is the wrong costume, the wrong face
 and often the wrong location. Every prompt now refuses to proceed if nothing is

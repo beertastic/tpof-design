@@ -109,6 +109,7 @@ undeclared or an asymmetric item has no side.
 
 | Document | Covers |
 |---|---|
+| [`09-prompt-library/Generating-From-A-Connected-Repo.md`](09-prompt-library/Generating-From-A-Connected-Repo.md) | **What to say to a model that can read this repo.** The exact instruction, and what goes wrong |
 | [`09-prompt-library/Capture-Block.md`](09-prompt-library/Capture-Block.md) | Anamorphic house style, photographic realism, defeating the synthetic look |
 | [`09-prompt-library/Turnaround-Block.md`](09-prompt-library/Turnaround-Block.md) | Costume turnarounds — the primary deliverable |
 | [`09-prompt-library/Handedness-And-Placement.md`](09-prompt-library/Handedness-And-Placement.md) | Which side everything sits on, and why it matters |

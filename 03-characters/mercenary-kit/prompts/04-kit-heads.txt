@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 04 — HEAD TREATMENTS]
 Output file: kit-heads.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 6f9890c1
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

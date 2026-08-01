@@ -1,6 +1,7 @@
 [SHIN — SLOT 08 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
+Prompt version: 41918dd2
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

@@ -1,6 +1,7 @@
 [SHIN — SLOT 14 — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3  (tall portrait)
+Prompt version: f26ce070
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

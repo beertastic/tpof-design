@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 03 — THE STORAGE AREA]
 Output file: industrial_b.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: 859185bb
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

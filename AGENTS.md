@@ -20,9 +20,13 @@ reading cached content.** Say so and stop — do not generate from stale files.
 Nothing in this repository can force you to refetch; only the user starting a
 fresh conversation reliably clears it.
 
-**Also state what you actually read.** When you open a prompt file, say its path
-and its length. A model that has silently fallen back on memory cannot do that,
-and the user needs to be able to tell the difference.
+**Also state what you actually read.** When you open a prompt file, quote its
+`Prompt version:` line — the eight-character hash on line 4. That is the exact
+check: it changes whenever the prompt changes and never otherwise.
+
+**Do not rely on character counts.** A model reported 28,195 characters for a file
+that has never been that size at any commit, because it counts its own
+post-processed text rather than raw bytes. The hash has no such ambiguity.
 
 This file defines the commands a connected model should understand and the checks
 it must run before acting. Human background is in

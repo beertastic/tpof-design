@@ -1,6 +1,7 @@
 [SHIN — SLOT 11 — WHAT SHE CARRIES]
 Output file: utility.png
 Aspect ratio: 1:1  (square)
+Prompt version: d5602474
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

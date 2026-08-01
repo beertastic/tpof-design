@@ -1,6 +1,7 @@
 [SHIN — SLOT 05 — CARRYING JEYIN]
 Output file: mother.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: 4ac71c9d
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

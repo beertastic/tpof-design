@@ -1,6 +1,7 @@
 [SHIN — SLOT 02 — THE RUN]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: eba764f1
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

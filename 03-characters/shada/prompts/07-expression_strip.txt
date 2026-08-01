@@ -1,6 +1,7 @@
 [SHADA — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
+Prompt version: a7d090cd
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

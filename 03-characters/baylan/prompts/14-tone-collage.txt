@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 14 — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3  (tall portrait)
+Prompt version: 9e2c2b5a
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

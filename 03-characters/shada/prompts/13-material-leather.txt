@@ -1,6 +1,7 @@
 [SHADA — SLOT 13 — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1  (square)
+Prompt version: b93ba00b
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

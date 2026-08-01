@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 01 — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: 44f9d5de
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

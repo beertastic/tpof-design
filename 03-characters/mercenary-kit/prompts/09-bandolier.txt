@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 09 — THE HERO PROP]
 Output file: bandolier.png
 Aspect ratio: 1:1  (square)
+Prompt version: 4e1841aa
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

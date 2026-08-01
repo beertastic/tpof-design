@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 12 — MATERIALS AND PALETTE]
 Output file: materials.png
 Aspect ratio: 5:4  (landscape)
+Prompt version: 9b93b47a
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

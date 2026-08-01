@@ -1,6 +1,7 @@
 [MERCENARY KIT — TURNAROUND — MERC 2 — THE RIFLE — RIGHT SIDE]
 Output file: turn-merc-2-right.png
 Aspect ratio: 2:3  (tall, full figure)
+Prompt version: 58d2c143
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.

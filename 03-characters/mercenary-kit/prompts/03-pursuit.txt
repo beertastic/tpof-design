@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 03 — MOVING THROUGH THE FOREST]
 Output file: pursuit.png
 Aspect ratio: 16:9  (landscape)
+Prompt version: 14d7e814
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 10 — FUR COLOUR AND TEXTURE]
 Output file: heavy-fur.png
 Aspect ratio: 1:1  (square)
+Prompt version: 55911f87
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

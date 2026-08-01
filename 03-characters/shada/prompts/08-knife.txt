@@ -1,6 +1,7 @@
 [SHADA — SLOT 08 — HERO PROP]
 Output file: knife.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: acb25f04
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

@@ -1,6 +1,7 @@
 [SHADA — SLOT 06 — ANCESTRY STUDY]
 Output file: species_strip.png
 Aspect ratio: 21:9  (wide banner)
+Prompt version: 02970d60
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

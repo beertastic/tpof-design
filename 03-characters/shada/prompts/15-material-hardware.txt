@@ -1,6 +1,7 @@
 [SHADA — SLOT 15 — BUCKLES AND FITTINGS]
 Output file: material-hardware.png
 Aspect ratio: 1:1  (square)
+Prompt version: fb3564ea
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

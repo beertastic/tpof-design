@@ -1,6 +1,7 @@
 [SHADA — SLOT 14 — COARSE TECHNICAL FABRIC]
 Output file: material-cloth.png
 Aspect ratio: 1:1  (square)
+Prompt version: ac14b8c5
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

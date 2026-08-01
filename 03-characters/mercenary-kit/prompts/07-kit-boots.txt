@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 07 — FOUR PAIRS, NONE MATCHING]
 Output file: kit-boots.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 675298e4
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

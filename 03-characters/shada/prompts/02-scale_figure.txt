@@ -1,6 +1,7 @@
 [SHADA — SLOT 02 — SCALE REFERENCE]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
+Prompt version: 400f55d9
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

@@ -1,6 +1,7 @@
 [SHIN — SLOT 09 — THE HERO PROP]
 Output file: clasp.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 4f0a3d2c
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

@@ -1,6 +1,7 @@
 [SHADA — SLOT 09 — HERO PROP]
 Output file: blaster.png
 Aspect ratio: 1:1  (square)
+Prompt version: 04ba15b7
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

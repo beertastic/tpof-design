@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 01 — THE FOUR TOGETHER]
 Output file: lineup.png
 Aspect ratio: 2:1  (wide)
+Prompt version: b359ca37
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

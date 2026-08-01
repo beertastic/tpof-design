@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 08 — THE CONVERTED LIGHTSABER]
 Output file: blaster.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 0c888873
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

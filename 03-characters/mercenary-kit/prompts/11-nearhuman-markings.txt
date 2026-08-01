@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 11 — THE MAKE-UP REFERENCE]
 Output file: nearhuman-markings.png
 Aspect ratio: 3:4  (portrait)
+Prompt version: cc668cdc
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

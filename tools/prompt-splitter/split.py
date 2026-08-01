@@ -177,6 +177,17 @@ def parse_slots(md: str) -> list[dict]:
     return slots
 
 
+def _stamp_version(body: str) -> str:
+    """Short content hash after the header — an exact "did you read THIS version"
+    check. Character counts are not: a connected model reported 28,195 for a file
+    that has never been that size, because it counts post-processed text.
+    """
+    import hashlib
+    h = hashlib.sha256(body.encode()).hexdigest()[:8]
+    lines = body.split("\n")
+    return "\n".join(lines[:3] + [f"Prompt version: {h}"] + lines[3:])
+
+
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],
           approved: dict | None = None, must: list | None = None,
           handed: str | None = None, costume: set[int] | None = None,
@@ -300,7 +311,7 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
              "It must look like a frame from a real film, not a generated image.")))
         if slot["ratio"] else "",
     ]
-    return "\n".join(p for p in parts if p is not None).strip() + "\n"
+    return _stamp_version("\n".join(p for p in parts if p is not None).strip() + "\n")
 
 
 def run(repo: Path, character: str) -> int:

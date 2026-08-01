@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 06 — THE DUNE]
 Output file: vision_dune.png
 Aspect ratio: 21:9  (wide banner)
+Prompt version: 4ef62e33
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

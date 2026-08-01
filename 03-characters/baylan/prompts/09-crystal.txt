@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 09 — THE POUCH]
 Output file: crystal.png
 Aspect ratio: 1:1  (square)
+Prompt version: 7cfbcf45
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

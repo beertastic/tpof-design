@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 06 — WHERE THE ARMOUR SITS]
 Output file: kit-plating.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 9941b59d
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

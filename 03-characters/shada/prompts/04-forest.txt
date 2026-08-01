@@ -1,6 +1,7 @@
 [SHADA — SLOT 04 — IN-ENVIRONMENT]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: f8be607d
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

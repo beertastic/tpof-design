@@ -185,6 +185,22 @@ The only thing that changes between the four turnaround views is the direction
 the subject is facing."""
 
 
+def _stamp_version(body: str) -> str:
+    """Insert a short content hash after the header.
+
+    A model can be asked to quote it, which is an exact check that it read THIS
+    version of the prompt. Character counts are not — a connected model reported
+    28,195 for a file that has never been that size at any commit, because it
+    counts its own post-processed text rather than raw bytes.
+
+    Hashed from the body, so it changes only when the prompt actually changes.
+    """
+    import hashlib
+    h = hashlib.sha256(body.encode()).hexdigest()[:8]
+    lines = body.split("\n")
+    return "\n".join(lines[:3] + [f"Prompt version: {h}"] + lines[3:])
+
+
 def build(character: str, outfit: dict, view_id: str, view_name: str,
           view_desc: str, blocks: dict, ratio: str) -> str:
     natural = view_id == "natural"
@@ -420,7 +436,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
          "you should not have generated this." if gate else ""),
         f"Deliver a single image at {ratio}. It must look photographed, not generated.",
     ]
-    return "\n".join(p for p in parts if p is not None).strip() + "\n"
+    return _stamp_version("\n".join(p for p in parts if p is not None).strip() + "\n")
 
 
 def run(repo: Path, character: str) -> int:

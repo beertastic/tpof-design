@@ -1,6 +1,7 @@
 [SHIN — SLOT 04 — CANNOT SLEEP]
 Output file: camp_night.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: 18d38951
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

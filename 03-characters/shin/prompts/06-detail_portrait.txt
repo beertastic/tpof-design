@@ -1,6 +1,7 @@
 [SHIN — SLOT 06 — THE FACE]
 Output file: detail_portrait.png
 Aspect ratio: 3:4  (portrait)
+Prompt version: e8826103
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

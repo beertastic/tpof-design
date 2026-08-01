@@ -1,6 +1,7 @@
 [SHIN — TURNAROUND — THE CLEARING — LEFT SIDE]
 Output file: turn-final-left.png
 Aspect ratio: 2:3  (tall, full figure)
+Prompt version: dec3b38b
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.

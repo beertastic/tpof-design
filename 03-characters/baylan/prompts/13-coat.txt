@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 13 — THE LONG COAT, WORN]
 Output file: coat.png
 Aspect ratio: 2:3  (tall portrait)
+Prompt version: e1e3ae68
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

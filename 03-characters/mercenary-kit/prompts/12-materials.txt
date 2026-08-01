@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 12 — MATERIALS AND PALETTE]
 Output file: materials.png
 Aspect ratio: 1:1  (square)
+Prompt version: f2b42f85
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

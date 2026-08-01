@@ -1,6 +1,7 @@
 [MERCENARY-KIT — SLOT 08 — WHAT MAKES THEM PEOPLE]
 Output file: kit-marks.png
 Aspect ratio: 3:1  (wide banner)
+Prompt version: 655a2d74
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

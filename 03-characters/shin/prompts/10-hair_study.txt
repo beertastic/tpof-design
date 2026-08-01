@@ -1,6 +1,7 @@
 [SHIN — SLOT 10 — THE HAIR]
 Output file: hair_study.png
 Aspect ratio: 1:1  (square)
+Prompt version: 07415f20
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

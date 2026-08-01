@@ -1,6 +1,7 @@
 [BAYLAN — SLOT 02 — STANDING AT THE BACK]
 Output file: industrial_a.png
 Aspect ratio: 9:16  (tall portrait)
+Prompt version: 11ab36cf
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

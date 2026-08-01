@@ -4,8 +4,10 @@
 
 | Asset | Status |
 |---|---|
+| **Screenplay v9** | **Arrived 2026-08-01. `02-story/scenes/`. Outranks everything here** |
+| **Script v9 reconciliation** | **OPEN — see `Script-v9-Reconciliation.md`. Baylan's age, Vala's death and four other items need decisions** |
 | Production Design Bible | v1.0 canonical |
-| Filmanize Script Breakdown | imported |
+| Filmanize Script Breakdown | imported — **scene numbering now superseded by v9** |
 | Character template | available |
 | Costume build method | Recorded — see `Costume-Build-Method.md` |
 
@@ -21,7 +23,7 @@ Mood and narrative images are context. Three or four per character is enough.
 |---|---|---|---|
 | Shada | 1 | 5 | 5/5 — design closed, images indicative |
 | Generic Mercenary | 4 builds | 20 | 3/4 fronts done. **The large one has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
-| Baylan | 4 | 20 | not started — but the pack is now clean: `handedness: right` and `must_show:` on all four outfits, 2026-08-01. Lock his prop plates before his figures |
+| Baylan | **1** | **5** | not started. Collapsed from four outfits to one on 2026-08-01 — the robe is a removable layer and the separate Jedi build is dropped. `handedness: right`, checker clean. Lock his prop plates before his figures |
 | Shin | 3 states | 15 | not started — **blocked the same way Baylan was**: no `handedness:`, no `must_show:` on any state |
 
 See `09-prompt-library/Turnaround-Block.md`.

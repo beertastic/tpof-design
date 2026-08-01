@@ -179,6 +179,50 @@ the person she just killed. It carries her guilt for the rest of the trilogy.
 
 ---
 
+## P5 — the costume he is wearing now becomes the costume he is known for
+
+**Added 2026-08-01 at the Production Designer's request.** The intent: a viewer who
+knows the later material should be able to point at something in this film and say
+*"that is where that came from."*
+
+**The rule that makes it work: nothing here may look deliberate.** Every one of
+these is a working object doing a job in this film, and only becomes significant
+in hindsight. The moment one of them reads as a costume designer winking, the
+effect dies.
+
+### Already planted, and specified
+
+| In this film | Becomes |
+|---|---|
+| **The chevron undertunic.** Four or five nested chevrons, apex down, raised suede-like panels on an old re-dyed weave. Hidden under his shirt; visible only in Sc.13 and 15 | **The chest piece.** "Later he makes a proper outer version of the thing he has been wearing underneath all along." He has been wearing it against his skin for eighteen years |
+| **The long dark coat.** Weathered black, below the knee, worn open, scorched down his left side, repaired and never patched properly. Reads as ordinary mercenary weather gear | **The cloak.** Same garment, same silhouette, no ceremony attached to it yet |
+| **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
+| **The crystal.** Small, jagged, yellow, in a worn pouch against his skin | The blade that **finishes orange** in this film's last act |
+
+### Proposed, not yet decided
+
+Two more that would cost almost nothing, since he needs both anyway:
+
+- **A wide, heavy belt.** He requires one regardless; making it the *same* belt is
+  free.
+- **Forearm wraps or bracers.** Working kit for a man who hauls crates, and a
+  shape that carries forward.
+
+**Not recommended:** anything structural on the shoulders. It reads as fantasy
+armour in this film's language, the Design Bible rejects it by name, and it would
+fight the plainness that is the whole point of him.
+
+### What must NOT carry forward
+
+The bearing. In this film he is a subordinate who stands at the back, practises
+being uninteresting, and is not respected by anyone. **The authority arrives
+later and none of it may be visible now** — see `do_not_retrieve` in his
+`outfits.yaml`.
+
+**See:** [`03-characters/baylan/Character.md`](../03-characters/baylan/Character.md).
+
+---
+
 ## P4 — Baylan and Nyx are brothers in arms
 
 **The blade change is no longer a future plant.** It happens in this film, on

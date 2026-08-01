@@ -91,9 +91,10 @@ THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
 DO NOT DRAW THAT CHARACTER.
 ====================================================================
 
-You are thinking of a tall, austere, silver-haired Jedi in flowing black robes with a cloak and an orange lightsaber, serving a mysterious order. THAT IS A DIFFERENT PRODUCTION AND A DIFFERENT MAN. Draw none of it.
-This Baylan is EIGHTEEN YEARS EARLIER and hiding. He is a working mercenary in salvaged, repaired, filthy industrial workwear. NO robes. NO cloak. NO lightsaber and no hilt anywhere on him. NO ceremonial anything. NO austere bearing, no authority, no gravitas — he has spent eighteen years making himself boring on purpose and it shows in how he stands.
-He is not distinguished. He is not commanding. He is not a Knight of anything, and nobody around him knows what he was. His hair is iron-grey, short and badly cut by his own hand without a mirror. If your image would look at home beside the character you are thinking of, it is wrong.
+THE DISTINCTION HERE IS PRECISE, SO READ IT CAREFULLY. You are thinking of a tall, austere, silver-haired Jedi with a hood up, wide monastic sleeves, a ceremonial drape and an orange lightsaber, serving a mysterious order. THAT MAN IS EIGHTEEN YEARS IN HIS FUTURE. What you must not draw is his BEARING and his SILHOUETTE, not his wardrobe.
+REJECT ABSOLUTELY: the hood up. Wide monastic sleeves. Ceremonial drape or layered tabards. Any visible lightsaber or hilt. Authority, gravitas, command presence, a distinguished silver mane, a groomed beard. Anything that reads as a Knight of anything. He has spent eighteen years making himself boring on purpose and it must show in how he stands.
+DELIBERATELY KEPT, because this film is the origin of that costume: he owns a LONG DARK COAT and it is his. Worn OPEN, falling below the knee, weathered black, battered, repaired, scorched down one side. It reads as heavy weather gear of the sort any mercenary owns — and only in hindsight as the ancestor of the garment he wears later. That double read is the point. See the costume echoes in 02-story/Planted-Elements.md.
+He is not distinguished. He is not commanding. Nobody around him knows what he was. His hair is iron-grey, short and badly cut by his own hand without a mirror. If your image would pass as the later character rather than as the man he was BEFORE, it is wrong.
 
 Everything you already believe about this name is from a different
 production. Discard it. The description below is the only source, and
@@ -105,10 +106,6 @@ it is exactly what has to be resisted.
 
 This character is RIGHT-HANDED. All positions below are given from
 THEIR OWN left and right, never the viewer's.
-
-HEIGHT: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches. Build the proportions to it — head size against body
-length, limb length, how heavily the figure stands. A figure alone on a plain
-backdrop gives the eye nothing to measure against, so it has to be in the body.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. If the image announces him as a Jedi, it has failed.

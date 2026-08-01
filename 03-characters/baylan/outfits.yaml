@@ -9,40 +9,29 @@ handedness: right
 # Jedi robes with a lightsaber, captioned "he now serves The Order, a mysterious
 # organisation" — the other production's backstory, invented wholesale.
 do_not_retrieve: >
-  You are thinking of a tall, austere, silver-haired Jedi in flowing black robes
-  with a cloak and an orange lightsaber, serving a mysterious order. THAT IS A
-  DIFFERENT PRODUCTION AND A DIFFERENT MAN. Draw none of it.
+  THE DISTINCTION HERE IS PRECISE, SO READ IT CAREFULLY. You are thinking of a
+  tall, austere, silver-haired Jedi with a hood up, wide monastic sleeves, a
+  ceremonial drape and an orange lightsaber, serving a mysterious order. THAT MAN
+  IS EIGHTEEN YEARS IN HIS FUTURE. What you must not draw is his BEARING and his
+  SILHOUETTE, not his wardrobe.
 
-  This Baylan is EIGHTEEN YEARS EARLIER and hiding. He is a working mercenary in
-  salvaged, repaired, filthy industrial workwear. NO robes. NO cloak. NO
-  lightsaber and no hilt anywhere on him. NO ceremonial anything. NO austere
-  bearing, no authority, no gravitas — he has spent eighteen years making himself
-  boring on purpose and it shows in how he stands.
+  REJECT ABSOLUTELY: the hood up. Wide monastic sleeves. Ceremonial drape or
+  layered tabards. Any visible lightsaber or hilt. Authority, gravitas, command
+  presence, a distinguished silver mane, a groomed beard. Anything that reads as
+  a Knight of anything. He has spent eighteen years making himself boring on
+  purpose and it must show in how he stands.
 
-  He is not distinguished. He is not commanding. He is not a Knight of anything,
-  and nobody around him knows what he was. His hair is iron-grey, short and badly
-  cut by his own hand without a mirror. If your image would look at home beside
-  the character you are thinking of, it is wrong.
+  DELIBERATELY KEPT, because this film is the origin of that costume: he owns a
+  LONG DARK COAT and it is his. Worn OPEN, falling below the knee, weathered
+  black, battered, repaired, scorched down one side. It reads as heavy weather
+  gear of the sort any mercenary owns — and only in hindsight as the ancestor of
+  the garment he wears later. That double read is the point. See the costume
+  echoes in 02-story/Planted-Elements.md.
 
-# 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
-height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
-
-# ONE COSTUME, decided 2026-08-01 by the Production Designer and the producers.
-#
-# What used to be four outfits was never four builds. `robe` was the working
-# dress with a coat over it and `shirtsleeves` was the working dress with the
-# jacket off — the same garments, layered differently. They are now states of
-# this one outfit rather than entries of their own, which is what the costume
-# department was going to build anyway.
-#
-# The separate Jedi Knight build for the Scene 12 vision is DROPPED. He wears
-# this costume in the vision too. Cheaper, and it suits a vision the script
-# describes as hazy and a man it describes as only "a few years younger".
-# Revisit if the budget allows — see Character.md.
-#
-# Costume turnarounds — the primary deliverable.
-# Five images per outfit: front, left, right, back, natural.
-# See 09-prompt-library/Turnaround-Block.md
+  He is not distinguished. He is not commanding. Nobody around him knows what he
+  was. His hair is iron-grey, short and badly cut by his own hand without a
+  mirror. If your image would pass as the later character rather than as the man
+  he was BEFORE, it is wrong.
 
 outfits:
   - id: working

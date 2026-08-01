@@ -253,6 +253,24 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
 
     # Scale is the single thing image generators get wrong most often, and a lone
     # figure on a seamless backdrop offers nothing to measure against.
+    # Some characters in this film share a name with a well-known one. The name
+    # alone retrieves that depiction, and the model then draws it confidently and
+    # in detail. Lesson learned on the mercenary pack in July; it applies harder
+    # here, because these names ARE the famous ones.
+    retrieve = outfit.get("_do_not_retrieve")
+    retrieve_block = ("=" * 68 + "\n"
+                      "THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.\n"
+                      "DO NOT DRAW THAT CHARACTER.\n"
+                      + "=" * 68 + "\n\n" + retrieve.strip() + "\n\n"
+                      "Everything you already believe about this name is from a different\n"
+                      "production. Discard it. The description below is the only source, and\n"
+                      "where your memory and this document disagree, THIS DOCUMENT IS RIGHT.\n"
+                      "\n"
+                      "If you find yourself adding something because it feels correct for the\n"
+                      "name rather than because it is written below, that is the retrieval and\n"
+                      "it is exactly what has to be resisted."
+                      if retrieve else "")
+
     height = outfit.get("_height")
     height_line = (f"HEIGHT: {height}. Build the proportions to it — head size against "
                    f"body\nlength, limb length, how heavily the figure stands. A figure "
@@ -349,6 +367,8 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "them, so it is worth several attempts to get right."
         if not gate else None,
         "" if not gate else None,
+        retrieve_block if retrieve_block else None,
+        "" if retrieve_block else None,
         scale_block if scale_block else None,
         "" if scale_block else None,
         must_block,
@@ -426,6 +446,7 @@ def run(repo: Path, character: str) -> int:
         # A per-outfit height wins, because mercenary-kit is four different
         # people in one file and Merc 1 is a Wookiee.
         outfit["_height"] = outfit.get("height") or cfg.get("height")
+        outfit["_do_not_retrieve"] = cfg.get("do_not_retrieve")
         outfit["_dir"] = character
         views = VIEWS + [("natural", "NATURAL POSE", "")]
         for view_id, view_name, view_desc in views:

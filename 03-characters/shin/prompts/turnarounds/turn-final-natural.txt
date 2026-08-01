@@ -2,6 +2,12 @@
 Output file: turn-final-natural.png
 Aspect ratio: 2:3  (tall, full figure)
 
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
 A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
@@ -51,6 +57,23 @@ them must be visible and correct in this image.
 Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
+
+====================================================================
+THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
+DO NOT DRAW THAT CHARACTER.
+====================================================================
+
+You are thinking of a poised young woman in tailored dark Jedi-style dress with an orange lightsaber, pale and composed and dangerous. THAT IS A DIFFERENT PRODUCTION AND YEARS LATER. Draw none of it.
+This Shin is FIFTEEN, and she has been a slave her entire life. She is filthy, exhausted, underfed and frightened in almost every scene. NO lightsaber. NO weapon of any kind. NO tailoring, no dark uniform, no poise, no composure, no danger. She is not a warrior and NOTHING may suggest she is becoming one.
+She is a child in worn-out clothes who has just seen the sky for the first time she can remember. If your image would look at home beside the character you are thinking of, it is wrong.
+
+Everything you already believe about this name is from a different
+production. Discard it. The description below is the only source, and
+where your memory and this document disagree, THIS DOCUMENT IS RIGHT.
+
+If you find yourself adding something because it feels correct for the
+name rather than because it is written below, that is the retrieval and
+it is exactly what has to be resisted.
 
 
 === SHOT ===

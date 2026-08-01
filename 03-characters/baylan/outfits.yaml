@@ -5,6 +5,25 @@ ratio: "2:3"
 # See 09-prompt-library/Handedness-And-Placement.md
 handedness: right
 
+# THE NAME RETRIEVES. Added 2026-08-01 after a generation returned him in black
+# Jedi robes with a lightsaber, captioned "he now serves The Order, a mysterious
+# organisation" — the other production's backstory, invented wholesale.
+do_not_retrieve: >
+  You are thinking of a tall, austere, silver-haired Jedi in flowing black robes
+  with a cloak and an orange lightsaber, serving a mysterious order. THAT IS A
+  DIFFERENT PRODUCTION AND A DIFFERENT MAN. Draw none of it.
+
+  This Baylan is EIGHTEEN YEARS EARLIER and hiding. He is a working mercenary in
+  salvaged, repaired, filthy industrial workwear. NO robes. NO cloak. NO
+  lightsaber and no hilt anywhere on him. NO ceremonial anything. NO austere
+  bearing, no authority, no gravitas — he has spent eighteen years making himself
+  boring on purpose and it shows in how he stands.
+
+  He is not distinguished. He is not commanding. He is not a Knight of anything,
+  and nobody around him knows what he was. His hair is iron-grey, short and badly
+  cut by his own hand without a mirror. If your image would look at home beside
+  the character you are thinking of, it is wrong.
+
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
 height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
 

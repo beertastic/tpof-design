@@ -5,9 +5,14 @@
 ## Step 0 — always, before anything else
 
 **Read [`REPO-STATE.md`](REPO-STATE.md) and tell the user the stamp date it
-carries.** One line, at the top of your reply, every time:
+carries.** One line, **in your reply text**, every time:
 
 > Repo state: stamped `<date>`.
+
+**In the TEXT of your message. Never inside an image.** A run on 2026-08-01 read
+this instruction and rendered `REPO-STATE STAMP 2025-08-01` as a caption on the
+artwork. Nothing you are asked to confirm here ever belongs in a generated
+image — see the plate rules below.
 
 That file is rewritten automatically on every commit, so its date is the date of
 the most recent change. **If the user says it is older than they expect, you are
@@ -97,6 +102,15 @@ Rejected images must not reach `source/artwork/`.
 Never a grid, a contact sheet, or four variations in one frame.
 
 **8. The output filename is on line 2 of every prompt file.** Use it exactly.
+
+**9. Some of these names belong to characters you already know.**
+`Baylan` and `Shin` are real characters from another production, and the name
+alone will retrieve that depiction — robes, lightsabers, poise, a backstory about
+a mysterious order. **None of it applies here.** This film is set eighteen years
+earlier and both are in hiding or in chains. Their prompts carry an explicit
+`DO NOT DRAW THAT CHARACTER` block; read it and obey it. If you are adding
+something because it feels right for the name rather than because the document
+says so, that is the retrieval.
 
 ---
 

@@ -2,6 +2,12 @@
 Output file: turn-working-right.png
 Aspect ratio: 2:3  (tall, full figure)
 
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
 THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
 A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
@@ -90,6 +96,9 @@ reference exactly. Only the setting, pose and lighting change.
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
 [for the operator, not the model: also attach 03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg — the actor. Match the face and build]
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At most about a fifth of the costume carries metal; the rest is cloth and worn leather. FOR WHAT A PLATE LOOKS LIKE, MATCH THE ATTACHED PLATE REFERENCE IMAGE. In brief: flat six-sided hexagons, SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many small pieces rather than a dozen big ones, laid TESSELLATED EDGE TO EDGE and NEVER OVERLAPPED OR SHINGLED, each carrying a RAISED SNAKE SWIRL, laced to a hand-cut backing. Salvaged, pitted and worn — never machined, never polished, never carbon fibre or tech panelling. THREE PATCHES ONLY — FOREARM, SHOULDER, THIGH. THERE IS NO METAL ON HER TORSO: her chest, sternum and back are plain cloth. NO chest patch, NO sternum panel, NO bib, NO pendant, NO breastplate. SIDES ARE FIXED, and given from HER OWN left and right, never the viewer's. In a front view her right side appears on the viewer's left; in a back view it appears on the viewer's right. (1) A GAUNTLET ON HER RIGHT FOREARM ONLY — viewer's left in a front view. Wrapping the outer forearm from wrist to just below the elbow, held by two worn leather straps and buckles. EXACTLY ONE GAUNTLET, NOT A PAIR. HER LEFT FOREARM IS COMPLETELY BARE — no gauntlet, no bracer, no wrap, no metal of any kind. If both forearms have metal on them, the image is wrong. (2) A CAP OVER HER LEFT SHOULDER ONLY — viewer's right in a front view, the OPPOSITE side to the gauntlet. Her right shoulder is bare. (3) A PATCH ON HER LEFT OUTER THIGH — viewer's right in a front view, the same side as the shoulder cap. Her right thigh has no metal. Different sizes, different shapes, different ages, NO MATCHING PAIRS OF ANYTHING.

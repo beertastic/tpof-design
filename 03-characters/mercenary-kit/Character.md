@@ -48,15 +48,16 @@ authority on the split.
 
 | Scene | Beat |
 |---|---|
-| 10 | **The Sabacc game.** All ten of the crew in one frame, one night, **the ship's main hold** under a single work lamp |
+| 10 | **The Sabacc game.** Eight of the crew — Jasu and Baylan are absent — in the ship's main hold under one work lamp. **All four kit builds in one frame** |
 | 20–23 | The pursuit. Sc.23 splits the crew into three groups |
 | 24 | **Merc 1 hauls Vala off her feet.** She takes a thermal detonator from his chest rig; it detonates. Mercs 1, 2 and 3 die. Nyx survives |
 | 25 | **Merc 4** is the one who *"swallows hard, their weapon wavering a little"* during Krellis's speech — the only mercenary in the film who visibly doubts. He dies in Baylan's massacre |
 
-**Scene 10 is where these four earn their money.** One frame establishes that
-this crew exists, and the audience believes in it for the rest of the film. It is
-also the only place all four are seen together, which makes it the test of
-whether the kit produced individuals or a set.
+**Scene 10 is where these four earn their money.** It is the only place all four
+are seen together, which makes it the test of whether the kit produced four
+individuals or one costume in four colours. It is also the only scene in the film
+where the mercenaries are people rather than a threat — off duty, laughing,
+taking the mickey out of each other — and that is what makes the finale land.
 
 **Merc 4 needs a face that can act.** The wavering-weapon beat is small and it is
 the only crack in the crew's professionalism; it is why he is a person rather than
@@ -238,10 +239,10 @@ budget is already carrying one full Wookiee suit; a second appliance build is
 where it breaks.
 
 **Why not "keep them out of direct shots".** Shooting around a face converts a
-costume cost into a directing constraint, and it lands hardest on Scene 10 —
-the one frame with all ten of the crew together and the camera moving. Blocking
-every setup around hiding someone is a worse trade than a make-up chair, and a
-miss is unfixable in the edit. Make-up only means this figure can be shot from
+costume cost into a directing constraint, and it lands hardest on Scene 10 — the
+one frame with all four builds together, in a cramped hold, with the camera
+moving. Blocking every setup around hiding someone is a worse trade than a
+make-up chair, and a miss is unfixable in the edit. Make-up only means this figure can be shot from
 any angle, including close.
 
 Three constraints on the design:

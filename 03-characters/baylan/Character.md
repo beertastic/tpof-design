@@ -133,7 +133,8 @@ decade later.
 | 4 | The vision — red and green blades, blaster fire, **a girl's scream** | Fragmentary and dreamlike. See *The Visions* |
 | 5 | Eyes closed, "focusing on a new sound after years of reliving his past" | Eighteen years of the same nightmare; it is on his face |
 | 7 | Nyx orders him to unload the ship and make camp; he watches, shaken, from the clearing's edge | He does manual labour. The costume is workwear that has actually worked |
-| 9 | Jasu briefs the camp; Baylan worries and recalls past missions | He is a subordinate, not an officer |
+| 9 | Jasu briefs the camp; Baylan worries and recalls past missions. **The akk dog leaves her and lies down beside him** | He is a subordinate, not an officer. The animal crossing to him is the plant for Sc.25 |
+| 10 | **Absent from the Sabacc game**, and talked about — *"Bay's her right hand"*. Jasu is absent too | Out for now, 2026-08-01. He has no dialogue, so lurking silently at the edge of the light stays available |
 | 12 | Shin's vision: Baylan on a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | **Working dress, not robes** — the separate build was dropped 2026-08-01. Hazy and indistinct; not a specific event |
 | 13 | Wakes gasping, sweating, scans the other bunks, slips down the ramp | Sleeps aboard, in a bed roll, with the crew |
 | 14 | Practices telekinesis alone in the storage area until Nyx finds him | The only time he stops performing |

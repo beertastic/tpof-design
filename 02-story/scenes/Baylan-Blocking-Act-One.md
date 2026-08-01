@@ -2,7 +2,7 @@
 title: "Baylan — Movement Breakdown, Scenes 1–20"
 asset_id: "BLOCKING-BAYLAN-ACT-ONE"
 version: "1.0"
-status: "working — geography settled 2026-08-01; one question open"
+status: "working — all five blocking questions answered 2026-08-01"
 source: "Screenplay v10"
 ---
 
@@ -100,13 +100,14 @@ the only person in the film who touches Baylan.
 | Briefing, dismissal, they disperse | | |
 | **Bay looks out into the darkening forest, a crease forming** | Ends facing away from the camp | Rhymes with Sc.7's ending |
 
-### Sc.10 — INT. SHIP, MAIN HOLD. Night. **BAYLAN IS ABSENT.**
+### Sc.10 — INT. SHIP, MAIN HOLD. Night. **BAYLAN IS ABSENT — for now.**
 
-The Sabacc game. Nyx, Shada, Reya Fenn, Yaslo Bis and the rest. **He is talked
-about and not there** — *"We all know Bay's her right hand."*
+The Sabacc game. Nyx, Shada, Reya Fenn, Yaslo Bis and Mercs 1–4. **Jasu is absent
+too**, and the crew gossips about both of them in consecutive lines.
 
-**This is the only scene in the first act where the crew is together and he is
-not, and the script does not say why.** See the questions.
+**Decided 2026-08-01: he stays out.** The live option is that he is there and
+silent — at the edge of the lamp light, taking the remarks about himself. He has
+no dialogue either way. See question 3.
 
 ### Sc.13 — INT. SHIP, CREW BUNKS. Night. **Space D. Alone, among sleepers.**
 
@@ -186,7 +187,7 @@ Jasu hands him the scanner. He finds them, and his jaw tightens.
 
 ---
 
-## Questions — four closed, one open
+## Questions — all five answered
 
 ### 1. Where does the ship sit, and how big is the camp? — **ANSWERED 2026-08-01**
 
@@ -210,13 +211,29 @@ Space A is out at the forest edge, away from the unloading. He has walked off to
 be by himself, which is the first thing the film tells us about him and the same
 thing Sc.14 tells us again.
 
-### 3. Where is Baylan during the Sabacc game? — **STILL OPEN**
+### 3. Where is Baylan during the Sabacc game? — **ANSWERED 2026-08-01: out, for now**
 
-He is absent from the only scene where the crew is together off duty, and he is
-talked about while absent — *"We all know Bay's her right hand."*
+He stays out of Sc.10. **But he has no dialogue in it, so nothing stops him being
+there** — and the option is live: lurking at the edge of the lamp light, silent,
+chuckling at the remarks made about him.
 
-The script never says. Whatever the answer it is characterisation, and it decides
-whether he is on the hold set at all.
+That is worth keeping on the table, because **Jasu is absent too, and both of them
+get talked about in consecutive lines:**
+
+> **SHADA:** Can't be upsetting Jasu's golden boy!
+>
+> **NYX:** Oh can it. We all know Bay's her right hand.
+
+**The two people not at the card game are the captain and the one who is hiding.**
+Jasu is apart by rank; Baylan by secret. Neither can afford to be one of the crew,
+for opposite reasons.
+
+If he does lurk, Nyx's line stops being gossip and becomes something said *to*
+him — needling, affectionate, and completely wrong about why he is Jasu's right
+hand. That is a good beat, it needs no dialogue, and it costs one more body on
+the hold set.
+
+**Consequence for the roster: Sc.10 is eight, not ten.** Corrected.
 
 ### 4. How far is the storage area from the ship? — **ANSWERED**
 

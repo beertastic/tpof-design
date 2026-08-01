@@ -75,15 +75,37 @@ Three groups, and everybody is in exactly one of them.
 
 ## Scene by scene
 
-### Sc.10 — the Sabacc game: **all ten**
+### Sc.10 — the Sabacc game: **eight**
 
-One scene, one night, one campfire, the entire crew in frame. Establish the crew
-once and the audience believes in it for the rest of the film, which is what lets
-every later scene carry two to four people without feeling thin.
+Corrected 2026-08-01: **not all ten.** Nyx, Shada, Reya Fenn and Yaslo Bis speak,
+with Mercs 1–4 around them. **Jasu and Baylan are both absent** — and both are
+talked about, in consecutive lines:
 
-Speaking here: Nyx, Shada, Reya Fenn, Yaslo Bis. Yaslo deals.
+> **SHADA:** Can't be upsetting Jasu's golden boy!
+>
+> **NYX:** Oh can it. We all know Bay's her right hand.
 
-**If the budget allows a full crew on exactly one day, make it this one.**
+**The two people not at the card game are the captain and the one who is hiding.**
+Jasu is apart by rank; Baylan by secret. Neither can afford to be one of the
+crew, for opposite reasons, and the crew gossips about both of them the moment
+they are out of the room. That is worth staging deliberately rather than treating
+as two people who happened to be elsewhere.
+
+**Baylan may be present, silent, at the edge of the lamp light.** Decided
+2026-08-01: out for now, but he has no dialogue in the scene, so nothing stops him
+lurking and taking the remarks about him — Nyx's *"Bay's her right hand"* lands
+differently if he is standing there. Optional, and it costs one more body on the
+hold set.
+
+**This is not the full-crew scene. Sc.9 and Sc.19 are** — both have all ten,
+Jasu and Baylan included. What Sc.10 does that they cannot is show the crew as
+**people rather than a threat**: off duty, laughing, taking the mickey out of each
+other. That is what makes Yaslo's *"looks like we get to do this the fun way"* in
+the finale land, and it is why the scene matters more than its headcount.
+
+**It is also the only place all four kit builds are seen together**, which makes
+it the test of whether the kit produced four individuals or one costume in four
+colours.
 
 ### Sc.24 — the Vala fight: **4**
 
@@ -179,8 +201,9 @@ twenty people — ten is already over its nominal capacity, and that is a gift:
   Wookiee. The story is unaffected.
 - **Do not drop Merc 4.** That removes the massacre's fourth body and the
   wavering-weapon beat in one go.
-- **Add extras to Sc.10 and the finale**, never to the Vala squad. That fight is
-  three-quarters off screen and gains nothing from bodies.
+- **Add bodies to Sc.9, Sc.19 and the finale**, never to the Vala squad. That
+  fight is three-quarters off screen and gains nothing from them. Sc.9 and Sc.19
+  are the full-crew scenes; Sc.10 is eight by design.
 - **Merc 1 is the expensive one.** A full Wookiee build, and his suit and hair
   maintenance scale with every day he is called. He is on for Sc.10, the pursuit
   and Sc.24.

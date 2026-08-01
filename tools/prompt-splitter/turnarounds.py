@@ -200,8 +200,25 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     if actor:
         extra.append(f"[for the operator, not the model: also attach "
                      f"{actor[0].as_posix()} — the actor. Match the face and build]")
-        actor_line = ("AN ACTOR REFERENCE IS ATTACHED. The face and build are HIS OR HERS, "
-                      "not\nan invention. Match them.")
+        actor_line = (
+            "AN ACTOR REFERENCE IS ATTACHED — TAKE THE FACE AND THE BUILD FROM IT.\n"
+            "Bone structure, features, proportions, skin, the shape of the head. The\n"
+            "person in your image must be recognisably the SAME HUMAN BEING as the\n"
+            "person in the photograph.\n"
+            "\n"
+            "DO NOT TAKE THE HAIR OR THE BEARD FROM THE PHOTOGRAPH, and do not take\n"
+            "the age or the condition. Where the written description below differs\n"
+            "from the reference — colour, length, grooming, weight, wear, years —\n"
+            "THE DESCRIPTION WINS EVERY TIME.\n"
+            "\n"
+            "The actor is being aged, greyed, roughened or otherwise made up to play\n"
+            "this part. That is normal and it is the whole job. The photograph is a\n"
+            "LIKENESS reference, not a grooming reference and not a costume one.\n"
+            "\n"
+            "If you find yourself unable to satisfy both, keep the FACE and follow the\n"
+            "description for everything else. Do not resolve it by inventing a new\n"
+            "person who fits the description — that is the failure this note exists to\n"
+            "prevent.")
     else:
         actor_line = ("NO ACTOR HAS BEEN CAST. There is no actor reference for this "
                       "character,\nso cast the face yourself — build it from the written "

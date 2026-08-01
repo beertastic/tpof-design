@@ -39,8 +39,20 @@ silhouettes by name, high up, before the costume description.
 
 ## The face
 
-**If an actor reference exists it is attached and named**, and the prompt says the
-face and build are theirs.
+**If an actor reference exists it is attached and named**, and the prompt scopes
+exactly what to take from it: **the face and the build, and nothing else.**
+
+That scoping is not decoration. Baylan's actor has medium-length brown hair and a
+brown beard; Baylan has short, badly self-cut **iron-grey** hair and an unshaped
+beard. An instruction to "match the actor" sitting above a description demanding
+grey is a contradiction, and a generator resolves it the wrong way round — it
+keeps the description and **invents a new person** to fit it, which is how the
+first attempts came back as a generic distinguished older gentleman.
+
+So the prompt now says: take bone structure, features, proportions and skin from
+the photograph; take colour, length, grooming, age and condition from the written
+description; and if you cannot satisfy both, **keep the face.** The actor is being
+aged and greyed to play the part, which is the whole job of a make-up department.
 
 **If one does not, the prompt says so** and instructs the model to cast the face
 from the written description alone — ordinary, unremarkable, believable, and

@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — LEFT]
 Output file: turn-field-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 00ea6140 (short) · repo commit 7bd35e0 2026-08-01 21:42
+Prompt version: 8b3bfffc (short) · repo commit 550fe4e 2026-08-01 21:49
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -11,8 +11,8 @@ FULL LENGTH — head to below the feet. Not a portrait.
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
   THE SHOULDER MANTLE, THE RIBBED TORSO : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
-  THE HEADDRESS AND THE SWEPT-UP HAIR, F: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-front.jpg
-  THE HEADDRESS AND THE SWEPT-UP HAIR, I: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-side.jpg
+  THE HEADDRESS AND HAIR, FRONT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-front.jpg
+  THE HEADDRESS AND HAIR, PROFILE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-side.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
@@ -25,13 +25,13 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) 
 
 MUST BE TRUE OF THIS IMAGE:
 1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia. This is the whole design.
-2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD…
+2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER…
 3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT a pauldron. IT IS THE ONLY THING ON HER WIDER THAN SHE IS.
-4. THE HEADDRESS — PALE CURVED HORNS SET INTO SWEPT-UP HAIR. MATCH THE FIGURE PHOTOGRAPHS ATTACHED ABOVE. NOT a helmet.
+4. THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR. COPY IT FROM THE FIGURE PHOTOGRAPHS AND TAKE NOTHING ELSE FROM THEM.
 5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. NOT clean, NOT pressed, NOT ceremonial, NOT new.
 6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW.
-7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is…
-8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned. SHE IS COLD, NOT ANGRY.
+7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her…
+8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way.
 9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green.
 
 SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body.

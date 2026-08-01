@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.8"
+version: "0.9"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -320,20 +320,27 @@ hair, and that contrast is the whole effect.
 [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md) says
 **"no fantasy horns, no ornamental spikes"** — the animal has none to give.
 
-**So what are they, and this is worth deciding.** It is the only ornamental thing
+**They are trophies from what the animal kills — DECIDED 2026-08-01.** Bone
+taken off creatures her akk has brought down, worn on her head. The single
+decorative object on her is therefore **a display of the beast's power rather
+than her own** — the entire character, made literal and worn where everyone can
+see it. A trophy is a claim rather than a flourish, which is how it survives the
+no-ornament rule.
+
+Build note: **worn, matte, yellowed with age. Never polished, never carved, never
+set in metal.** The moment they are worked they become jewellery and the reading
+collapses.
+
+**Why it needed deciding at all.** It is the only ornamental thing
 in a costume built on *no insignia, nothing a real officer would wear*, and in a
 faction whose rule is that decoration is what everyone else does. It can carry
 that weight, but only if it means something. The strongest available reading:
 
-> **They are trophies from what the animal kills.** She wears pieces of the
-> beast's work on her head. That makes the one decorative object on her a display
-> of *the animal's* power rather than her own — which is the entire character,
-> made literal and worn where everyone can see it.
-
-That reading also survives the no-ornament rule, because a trophy is a claim
-rather than a flourish. **Offered, not decided.** If the production has another
-answer, it should be recorded, because "she just likes them" makes her the one
-person in the film wearing jewellery for no reason.
+It is the only ornamental thing in a costume built on *no insignia, nothing a
+real officer would wear*, inside a faction whose rule is that decoration is what
+everyone else does. Without a reason it made her the one person in the film
+wearing jewellery for no reason. With one, it becomes the clearest statement the
+costume makes.
 
 **Left open:** whether the horns are worn in every scene. A large built
 hairstyle is a continuity and schedule cost across six scenes, and it is the
@@ -474,6 +481,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.9 | 2026-08-01 | in-development | **The horns are trophies from what the akk kills** — decided. The one decorative object on her displays the beast's power rather than her own. Also added a hard scoping rule to the prompts: the figure photographs are a stylised collector's piece, and only the headdress and hair may be taken from them. |
 | 0.8 | 2026-08-01 | in-development | **Headdress reinstated** from a painted figure built off the concept drawings, now a reference plate: pale curved bone horns set into swept-up hair, asymmetric. Confirmed the horns cannot be from her akk — the creature document forbids horns — and proposed the reading that they are trophies from what the animal kills, which is the only justification that survives her no-ornament rule. A180 description sharpened after it generated as a generic pistol; flagged that only an image will fix it. |
 | 0.7 | 2026-08-01 | in-development | **Blaster specified as the A180**, the weapon Jyn Erso carries in Rogue One. Period-correct at ~1 BBY. Modular, and therefore expensive — the second place her share shows without looking like rank. Reference entry left commented pending a photograph of the built prop, per the rule Shada's WESTAR-35 established. |
 | 0.6 | 2026-08-01 | in-development | **Concept sketch adopted as a reference plate**, attached to every prompt. Gains the **shoulder mantle** — a stiff ribbed cloth yoke, the signature of the costume and the only thing on her wider than she is. **Headdress removed entirely**; the mantle carries what it was carrying and does it as construction rather than jewellery. Materials shifted to **more cloth than leather**, and the cut to an **acrobat fit** — articulated at every joint. |

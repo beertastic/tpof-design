@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 05 — THE FACE]
 Output file: detail_portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: c455ef65 · repo commit 34f72ac 2026-08-01 17:11
+Prompt version: c455ef65 · repo commit e003a28 2026-08-01 17:12
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 34f72ac, prompt c455ef65.
+    Working from commit e003a28, prompt c455ef65.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

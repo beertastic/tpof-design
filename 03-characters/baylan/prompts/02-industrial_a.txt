@@ -1,10 +1,10 @@
 [BAYLAN — SLOT 02 — STANDING AT THE BACK]
 Output file: industrial_a.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 5ce2dfd1 · repo commit 34f72ac 2026-08-01 17:11
+Prompt version: 5ce2dfd1 · repo commit e003a28 2026-08-01 17:12
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 34f72ac, prompt 5ce2dfd1.
+    Working from commit e003a28, prompt 5ce2dfd1.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

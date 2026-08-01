@@ -20,9 +20,18 @@ connected model can read the prompt *and* fetch its own reference plates, which
 removes the failure that causes nine faults in ten — the operator forgetting to
 attach something.
 
-It introduces one new failure in its place, and it is worse: **a connected model
-will summarise the prompt instead of using it.** The instruction below exists
-mostly to stop that.
+**But it does not remove the need to attach reference images.** A repository
+connector reads *text*. It does not deliver a JPEG to the image generator as
+something to condition on — so the workflow is **hybrid**: the model reads the
+prompt from the repo, and **the human still attaches the photographs by hand.**
+
+That was learned the expensive way. Manually uploaded actor photographs have
+produced a genuine likeness in this production; a repository-fetched one produced
+a generic face. Same tool, same prompt, same photograph.
+
+It also introduces a new failure, and a worse one: **a connected model will
+summarise the prompt instead of using it.** The instruction below exists mostly to
+stop that.
 
 ---
 
@@ -40,13 +49,12 @@ instruction. Do not summarise it, shorten it, paraphrase it, or pull
 "key points" out of it. It is long on purpose — every NON-NEGOTIABLE
 item in it is there because a previous generation got it wrong.
 
-The file contains lines like:
-  [for the operator, not the model: also attach <path>]
-You are the operator now. Fetch each of those files from the repo and
-use them as reference images.
+I have ATTACHED the reference images by hand — the actor, and the
+plates the prompt names in its operator lines. Do not try to fetch
+those from the repo: a repo connector reads text and will not put an
+image in front of the generator. Use the attached ones.
 
-Also fetch and use as the face and build reference:
-  03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+Tell me which attached images you can actually see before you start.
 
 Before you generate anything, list the NON-NEGOTIABLE items back to me,
 one line each, so I can see you actually have them.

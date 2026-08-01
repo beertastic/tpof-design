@@ -60,10 +60,25 @@ a plausible, wrong image.
 Those are written for humans and are the wrong shape to generate from. Only files
 under `prompts/` are prompts.
 
-**3. You are the operator.**
-Prompt files contain lines like
+**3. Reference IMAGES are attached by the human. You read TEXT.**
+
+A repository connector reads text. It does not hand a JPEG or a PNG to the image
+generator as something to condition on, so **fetching an actor photograph from
+this repo does not put that face in front of the model.**
+
+Prompt files carry lines like
 `[for the operator, not the model: also attach <path>]`.
-Fetch every one of those from the repo and use it as a reference image.
+**Those are addressed to the human, and they still are.** Your job is to name
+them and check they were attached — not to fetch them.
+
+Before generating, list every reference image the prompt calls for and ask the
+user to confirm each one is attached to this conversation. If any is missing,
+say which, and do not generate without it — except the front turnaround, which
+has no costume reference by design.
+
+**Evidence:** manually uploaded actor photographs have produced a genuine likeness
+in this production. Repository-fetched ones have not. Same tool, same prompts —
+the difference is how the image reached it.
 
 **4. Read the non-negotiables back before generating.**
 List them, one line each. If you cannot, you did not read the file properly —

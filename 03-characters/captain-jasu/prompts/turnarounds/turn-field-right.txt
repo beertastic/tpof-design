@@ -1,10 +1,10 @@
 [CAPTAIN JASU — TURNAROUND — FIELD DRESS — RIGHT SIDE]
 Output file: turn-field-right.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 73d6d0e1 · repo commit f15ca90 2026-08-01 22:06
+Prompt version: 73d6d0e1 · repo commit 6022ced 2026-08-01 22:42
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit f15ca90, prompt 73d6d0e1.
+    Working from commit 6022ced, prompt 73d6d0e1.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

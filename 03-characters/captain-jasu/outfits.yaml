@@ -115,6 +115,126 @@ outfits:
       Everything is good material and everything is battered: faded across the
       shoulders, mended at the cuffs, mud to the knee. Nothing about her is
       insignia, and nothing about her was issued.
+    # THE BUILD. Split out of a sourcing guide on 2026-08-01. Routes follow
+    # 11-production-tracking/Costume-Build-Method.md: bought / printed / made.
+    #
+    # SUPPLIER LINKS AND PRICES ARE DELIBERATELY NOT HERE. They live in the
+    # production's Drive, because they rot — a shop closes, a listing sells, a
+    # price doubles, and a repository full of dead links is worse than none
+    # because somebody trusts it. What is durable is the material, the
+    # construction and the things it must not be. That is what is recorded here.
+    components:
+      - item: Ribbed base top — mock neck, stand collar, front closure
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          Heavy ribbed knit, dark warm brown. Search by CONSTRUCTION, not by
+          look — "ribbed mock neck", "ribbed base layer", "ribbed zip
+          turtleneck". MUST BE ALTERED TO FIT HER EXACTLY once found. At 150 cm
+          nothing off the peg fits, and "looks thrifted" is the one thing this
+          costume cannot look.
+      - item: Shoulder mantle
+        route: made
+        qty: 1
+        status: not-started
+        note: >
+          STIFFENED CLOTH — ribbed, quilted or pleated, holding its shape by
+          construction. NOT leather, NOT printed, NOT a bought pauldron. A
+          sourcing guide written from photographs alone recommended an Etsy
+          leather pauldron; that is the single most wrong thing it is possible
+          to buy for this costume. Sharp upswept point at each shoulder, warm
+          dark brown, rising at the back into the stand collar.
+      - item: Trousers — quilted outer-thigh panels, knee pads
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          EQUESTRIAN JODHPURS OR BREECHES are the real-world match — contrast
+          knee patches stitched onto a fabric leg is exactly this construction,
+          and riders resell them constantly. Dark warm brown. Panels and
+          distressing added in-house afterwards.
+      - item: Forearm bracers
+        route: made
+        qty: 2
+        status: not-started
+        note: >
+          Leather, riveted, buckled. FOREARM ONLY — wrist to below the elbow,
+          not continuing up the upper arm. Dark. One of the few places leather
+          is correct on this costume.
+      - item: Wide belt, buckle and fittings
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          Broad leather belt, plain heavy buckle. Men's belts are often the
+          right proportion even on a petite frame. Buckle and fittings printed
+          if nothing suitable turns up.
+      - item: Belt pouches
+        route: bought
+        qty: 2
+        status: not-started
+      - item: Holster — belt-mounted, her RIGHT hip
+        route: made
+        qty: 1
+        status: not-started
+        note: >
+          Leather, hanging from the belt down the right thigh, grip up and
+          angled forward for a right-hand draw. Built around the A180, not
+          around a generic pistol.
+      - item: A180 blaster pistol
+        route: printed
+        qty: 1
+        status: not-started
+        note: >
+          The weapon Jyn Erso carries in Rogue One. Reference at
+          reference/props/a180.jpg. Two-tone — bright polished steel forward,
+          black at the back, six vent holes near the muzzle, fluting part way
+          back, mounting rail with a knurled knob, chequered raked grip.
+          IT MUST FINISH BRIGHT AND CLEAN. Everything else in this production is
+          dulled and distressed; this is the one thing she looks after, and the
+          palette rule protects it. Photograph the build and replace the
+          third-party reference image.
+      - item: Bone horns for the headdress
+        route: printed
+        qty: 2
+        status: not-started
+        note: >
+          Pale bone, matte, YELLOWED WITH AGE. Never polished, never carved,
+          never set in metal — they are trophies from what the akk kills, and a
+          worked finish turns them into jewellery and collapses the reading.
+          THEY MUST NOT MATCH EACH OTHER: long and sweeping on one side, shorter
+          points on the other. This is the printing trap recorded in
+          Costume-Build-Method — a printer produces a perfect matched pair by
+          default, and a matched pair is a manufactured ornament rather than two
+          things taken off two kills.
+      - item: Whistle on a cord
+        route: printed
+        qty: 1
+        status: not-started
+        note: >
+          THE HERO PROP. Small, cheap-looking, much handled, worn at the throat.
+          It is her entire command structure — she whistles and the beast comes,
+          she whistles and it kills — and it is worth nothing to anybody else.
+          A sourcing guide written from the photographs listed it as a "vintage
+          keychain fob". It is the most important object she owns.
+      - item: Leash — heavy, coiled at her LEFT hip
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          Heavy strap or chain, coiled and hung at the belt on her left, off the
+          drawing side. Never in her hand and never on the animal. She is
+          carrying restraint she does not need, as a display for the crew.
+      - item: Boots — tall, close to the calf
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          Brown leather, flat, practical, genuinely worn. Charity shops are the
+          best source and the wear is wanted — do not pay extra for "like new".
+          The best boots in the crew, and looked after.
+
     must_show:
       - >
         THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER.

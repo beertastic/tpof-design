@@ -22,6 +22,19 @@ records the policy and the design consequences that follow from it.
 The third route is where most of the labour actually sits, and it is the one
 easiest to forget when estimating.
 
+**We have a 3D printing studio on the team** — confirmed 2026-08-01. All armour,
+weapons, scales, knives and prop hardware are built in house, which is why the
+printed route is the default for anything hard rather than a last resort. It also
+means the constraints below are OURS to manage rather than a supplier's, and the
+"printed parts come out identical" problem is a paint-shop scheduling decision we
+control.
+
+It changes sourcing advice in one specific way worth stating: **do not buy
+cosplay armour.** Any guide written without knowing about the studio will
+recommend Etsy pauldrons, bought bracers and AliExpress arm guards, and those are
+both worse and slower than printing them. What still gets bought is cloth,
+leather goods and boots.
+
 ---
 
 ## What 3D printing changes about the design
@@ -52,6 +65,15 @@ invisibly — it will look fine in isolation and wrong in the turnaround.
 
 The same applies to the mercenaries' plating, which is specified as *mismatched
 alloys sitting side by side, oxidising at different rates*.
+
+**And to Captain Jasu's horns, which is the sharpest case of all.** They are two
+bone trophies taken off two different kills, and the design says so explicitly:
+*long and sweeping on one side, shorter points on the other.* **A printer
+produces a perfect matched pair by default.** A matched pair is a manufactured
+ornament — jewellery — and the whole reading of that headdress is that it is
+*taken*, not made. Print them as two different objects, or print one twice and
+cut the second down. Finish them matte and yellowed, never polished and never
+carved.
 
 ### Two kinds of sameness — get them the right way round
 
@@ -212,6 +234,42 @@ What that means for the build:
   Wookiee suit who cannot easily reset it themselves.
 - It must also be **recognisable in Scene 10**, ten scenes earlier, which means
   the hero and stunt versions have to match on camera.
+
+---
+
+## Where sourcing links live — **decided 2026-08-01**
+
+**Supplier links, prices and stock live in the production's Drive. They do not
+live in this repository.**
+
+They rot. A shop closes, a listing sells, a price doubles — and a repository full
+of dead links is worse than none, because somebody trusts it. It is the same rule
+as [`10-assets/study/`](../10-assets/study/): *write down the derived decision,
+never the perishable source.*
+
+**What is durable goes into `components:` in the character's `outfits.yaml`** —
+the material, the construction, the quantity, the build route, and the things it
+must not be. That keeps it beside the specification it came from, so the two
+cannot silently disagree. Captain Jasu is the first character to carry one.
+
+**A worked example of why this matters.** A sourcing guide for Jasu was generated
+from her turnaround photographs alone, without the repository. It was competent,
+and four of its recommendations contradicted locked decisions: a **leather
+pauldron** for a mantle specified as stiffened cloth; **carved Viking hair rings**
+for horns specified as unworked trophies; **a cardboard tube in leather-look
+fabric** for the one weapon she keeps clean and serviced; and secondhand
+petite-sizing advice for the only **made-to-measure** costume in the film. It also
+demoted the whistle — her entire command structure — to a "vintage keychain fob",
+and omitted the leash.
+
+None of that was unreasonable from five photographs. It is only wrong if you know
+the mantle is cloth, and a photograph cannot tell you that. **Sourcing written
+away from the specification will always drift toward what the pictures look like
+rather than what the design says**, and the fix is to keep the durable half here.
+
+Its genuinely good idea has been kept: **equestrian jodhpurs and breeches** for
+trousers with contrast knee patches, and searching by *construction* — ribbed,
+quilted, mock-neck — rather than by the look.
 
 ---
 

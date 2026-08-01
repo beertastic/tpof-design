@@ -37,6 +37,27 @@ Every turnaround prompt now carries an explicit block forbidding text, layout,
 logos, second views, inset heads, detail crops, swatches, palettes and scale
 silhouettes by name, high up, before the costume description.
 
+## The reference photograph is not the base image
+
+**Added 2026-08-01, after a run came back as a head-and-shoulders portrait on a
+dark textured background — the same framing, crop, lighting and background as the
+actor headshot that had been attached to it.**
+
+The face was right. Everything else had been inherited from the reference, because
+the model treated the attachment as an image to *edit* rather than a likeness to
+*use*.
+
+So the prompt now says it outright: do not retouch, extend, outpaint, crop or vary
+the attached photograph; take nothing from it but the face and the build; and
+specifically do not copy its framing, pose, lighting, background or the clothes
+the person is wearing in it. **If the output resembles the attachment in anything
+but the face, it was edited rather than used.**
+
+The full-length requirement moved to the top of the prompt at the same time. It
+was in the pose block, two-thirds of the way down, and that was not enough — a
+costume plate with no feet in it is unusable, because the boots, the hem and the
+silhouette are most of what a costume department is looking at.
+
 ## The face
 
 **If an actor reference exists it is attached and named**, and the prompt scopes

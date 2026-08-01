@@ -218,7 +218,19 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
             "If you find yourself unable to satisfy both, keep the FACE and follow the\n"
             "description for everything else. Do not resolve it by inventing a new\n"
             "person who fits the description — that is the failure this note exists to\n"
-            "prevent.")
+            "prevent.\n"
+            "\n"
+            "THE ATTACHED PHOTOGRAPH IS NOT THE BASE IMAGE. DO NOT EDIT IT.\n"
+            "Do not retouch it, extend it, outpaint it, crop it or produce a variation\n"
+            "of it. You are making a COMPLETELY NEW PHOTOGRAPH of the same person.\n"
+            "\n"
+            "Take NOTHING from it except the face and the build. In particular do not\n"
+            "copy its FRAMING, its CROP, its POSE, its LIGHTING, its BACKGROUND or the\n"
+            "CLOTHES the person is wearing in it. The reference is almost certainly a\n"
+            "head-and-shoulders portrait on a dark background; what you are making is a\n"
+            "full-length figure on plain seamless grey under flat even light. If your\n"
+            "output resembles the attached photograph in anything but the face, you\n"
+            "have edited it instead of using it.")
     else:
         actor_line = ("NO ACTOR HAS BEEN CAST. There is no actor reference for this "
                       "character,\nso cast the face yourself — build it from the written "
@@ -250,7 +262,13 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "",
         "=" * 68,
         "THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.",
+        "FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.",
         "=" * 68,
+        "",
+        "NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a",
+        "waist-up. If the feet are not in the frame, the image is unusable — this is",
+        "a COSTUME record and the boots, the hem and the whole silhouette are the",
+        "point. The head should occupy a small part of the frame.",
         "",
         "Deliver a single, plain, full-figure photograph on a seamless studio",
         "backdrop. It is raw material. The production boards are assembled from",

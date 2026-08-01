@@ -548,6 +548,35 @@ See [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).
   tracker without knowing why he is good at it
 - Standard mercenary kit: holster, ammunition, field tools, bed roll
 
+### Handedness and placement
+
+**He is right-handed.** Decided 2026-08-01 by the Production Designer. All sides
+below are given from his own left and right, never the viewer's — in a front view
+his right side appears on the viewer's left, and in a back view on the viewer's
+right.
+
+| Item | Side | Detail |
+|---|---|---|
+| Blaster — the converted saber | **His right hip** | Belt holster, grip up and angled slightly forward, right-hand draw |
+| Heavy rifle | **Falls to his right hand** | Slung muzzle down, strap over his left shoulder crossing to his right hip |
+| Ammunition pouches, field tools | **His left** | The off side, so they never foul the draw |
+| Crystal pouch on its cord | **Centre**, under the shirt | Against the skin. Visible only as a cord at the collar |
+| Lightsaber hilt — Scene 12 only | **His right hip** | Clipped to the obi, unlit |
+
+The default was chosen rather than a characterful exception, and that is the
+point. He has worked for eighteen years at being the least interesting man in
+the room, and a left-handed draw is a thing people notice and remember. Nothing
+about how he wears his kit should give a crewmate a reason to look twice.
+
+It also settles the finale. **The hand he extends to Shin in Scene 24A is his
+right** — the hand that drew the blaster for eighteen years, that rebuilt the
+saber alone in Scene 15, and that has just killed nine people. He offers it open.
+She is the one who moves.
+
+**There is no hilt on his belt in any present-day outfit.** The blaster is the
+hilt, and the Scene 12 vision is the only time the audience sees the object in
+its original form.
+
 ## Performance and Body Language
 
 - **Default: heavy, slow, unremarkable.** He has spent eighteen years practising

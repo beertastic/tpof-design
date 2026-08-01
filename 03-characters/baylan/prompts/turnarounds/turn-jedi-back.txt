@@ -17,6 +17,13 @@ Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THIS IS THE ONLY OUTFIT IN WHICH HE IS A JEDI, AND IT IS A SEPARATE BUILD. Full Jedi Knight robes as of EIGHTEEN YEARS EARLIER: a layered tunic, TABARDS over it falling front and back, a WIDE OBI at the waist, and a HEAVY OVER-ROBE. Campaign boots. Natural undyed and earth-toned cloth — bone, sand, oatmeal, mid-brown. Every rule forbidding a Jedi silhouette in his other three outfits is SUSPENDED here and only here.
+  2. HE IS EIGHTEEN YEARS YOUNGER — ABOUT THIRTY-TWO. Less grey in the hair and beard, less heavy through the body, standing STRAIGHTER, carrying himself like a man who belongs somewhere. RECOGNISABLY THE SAME MAN: same face, same frame, same features. Not a different actor, not a young man — a middle-aged man who has not yet been beaten down. His hair and beard are KEPT here, not self-cut and unshaped as they are later.
+  3. FIELD-DIRTY: A WAR, NOT A COUNCIL CHAMBER. Worn and travelled. SAND IN THE SEAMS, SUN-BLEACHING ACROSS THE SHOULDERS, DUST TO THE KNEE. The hem is soiled and the cloth has been repaired. NOT clean, NOT pressed, NOT ceremonial, NOT new. He has been living in these clothes on campaign.
+  4. THE LIGHTSABER HILT IS ON HIS RIGHT HIP, clipped to the obi — he is RIGHT-HANDED. It is UNLIT and it is the ONLY costume in which it appears. NEVER ignited, no blade, no glow. It is the same object that becomes the ugly blaster he carries in every other scene.
+  5. NO ORNAMENT BEYOND THE ORDER'S OWN DRESS. No trophies, no jewellery, no rank markings, no decoration. Even here he is plain.
+  6. THIS IS A VISION AND IT MUST NOT BE LEGIBLE AS A STORY. Fragmentary, associative, out of order. NO readable action, NO establishing geography, NO clear narrative. NO INJURY of any kind — his damage is entirely internal and nothing from the purge is designed onto his body.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
@@ -122,7 +129,11 @@ Baylan-specific rejections.
 - His dark robe must read as a heavy weathered coat, never as Jedi dress. No
   wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
   Jedi robes appear only in slot 7, which is the vision.
-- No visible lightsaber and no hilt on his belt. The blaster is the hilt.
+- No visible lightsaber and no hilt on his belt in the present day. The
+  blaster is the hilt. The one exception is the Scene 12 vision, eighteen years
+  earlier, where he is a Knight and the unlit hilt is on his right hip — it is
+  the same object, and seeing it whole once is what makes the blaster read as a
+  conversion. It is never ignited in any prompt.
 - Not a wise mentor. Not serene, not teaching, not at peace.
 - Not a ranking officer. He is a subordinate who stands at the back.
 - Not athletic or agile. Fifty, thickened, slow.
@@ -230,6 +241,14 @@ Jedi Knight robes — 12 only — the vision, eighteen years earlier. A separate
 
 Full Jedi Knight robes as of eighteen years before the film: a layered tunic, tabards over it, a wide obi at the waist, and a heavy over-robe. Campaign boots. Worn, travelled and field-dirty — this is a man fighting a war, not attending a council. Sand in the seams, sun-bleaching across the shoulders, dust to the knee. Natural undyed and earth-toned cloth. He is eighteen years younger here: less grey, less heavy, standing straighter, but recognisably the same man. This is the only costume in which he carries himself like someone who belongs somewhere.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THIS IS THE ONLY OUTFIT IN WHICH HE IS A JEDI, AND IT IS A SEPARATE BUILD. Full Jedi Knight robes as of EIGHTEEN YEARS EARLIER: a layered tunic, TABARDS over it falling front and back, a WIDE OBI at the waist, and a HEAVY OVER-ROBE. Campaign boots. Natural undyed and earth-toned cloth — bone, sand, oatmeal, mid-brown. Every rule forbidding a Jedi silhouette in his other three outfits is SUSPENDED here and only here.
+  2. HE IS EIGHTEEN YEARS YOUNGER — ABOUT THIRTY-TWO. Less grey in the hair and beard, less heavy through the body, standing STRAIGHTER, carrying himself like a man who belongs somewhere. RECOGNISABLY THE SAME MAN: same face, same frame, same features. Not a different actor, not a young man — a middle-aged man who has not yet been beaten down. His hair and beard are KEPT here, not self-cut and unshaped as they are later.
+  3. FIELD-DIRTY: A WAR, NOT A COUNCIL CHAMBER. Worn and travelled. SAND IN THE SEAMS, SUN-BLEACHING ACROSS THE SHOULDERS, DUST TO THE KNEE. The hem is soiled and the cloth has been repaired. NOT clean, NOT pressed, NOT ceremonial, NOT new. He has been living in these clothes on campaign.
+  4. THE LIGHTSABER HILT IS ON HIS RIGHT HIP, clipped to the obi — he is RIGHT-HANDED. It is UNLIT and it is the ONLY costume in which it appears. NEVER ignited, no blade, no glow. It is the same object that becomes the ugly blaster he carries in every other scene.
+  5. NO ORNAMENT BEYOND THE ORDER'S OWN DRESS. No trophies, no jewellery, no rank markings, no decoration. Even here he is plain.
+  6. THIS IS A VISION AND IT MUST NOT BE LEGIBLE AS A STORY. Fragmentary, associative, out of order. NO readable action, NO establishing geography, NO clear narrative. NO INJURY of any kind — his damage is entirely internal and nothing from the purge is designed onto his body.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

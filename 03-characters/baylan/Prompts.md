@@ -106,7 +106,11 @@ no 3D-render look, no plastic or waxy skin.
 - **His dark robe must read as a heavy weathered coat, never as Jedi dress.** No
   wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
   Jedi robes appear only in slot 7, which is the vision.
-- **No visible lightsaber and no hilt on his belt.** The blaster is the hilt.
+- **No visible lightsaber and no hilt on his belt in the present day.** The
+  blaster is the hilt. The one exception is the Scene 12 vision, eighteen years
+  earlier, where he is a Knight and the unlit hilt is on his right hip — it is
+  the same object, and seeing it whole once is what makes the blaster read as a
+  conversion. **It is never ignited in any prompt.**
 - **Not a wise mentor.** Not serene, not teaching, not at peace.
 - **Not a ranking officer.** He is a subordinate who stands at the back.
 - **Not athletic or agile.** Fifty, thickened, slow.

@@ -17,6 +17,13 @@ Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. JACKET, HARNESS AND HOLSTER ARE REMOVED. NO WEAPON IS VISIBLE — no blaster, no holster, no rifle, no ammunition pouches, no chest harness. This is the only place in the film he is unguarded and the costume must say so. He is in the heavy work shirt, OPEN AT THE COLLAR, SLEEVES PUSHED UP HIS FOREARMS, heavy work trousers, boots still on. This is the least he is ever seen wearing.
+  2. THE UNDERTUNIC IS NOW CLEARLY VISIBLE and this is the whole point of the outfit. At the open collar and at the rolled sleeves, an OLDER AND FINER WEAVE than anything over it, re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS. It has a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have.
+  3. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. Raised matte suede-like leather panels appliquéd onto the woven base, sitting PROUD of the cloth so they catch a shadow edge. WIDEST AT THE SHOULDERS, NARROWING TO THE STERNUM. TONAL — DARK ON DARK. Read them as texture and shadow, NOT as colour contrast. They are CONSTRUCTION, NOT DECORATION, and he does not think about them. Never bright, never trimmed, never ornamental.
+  4. A THIN CORD AROUND HIS NECK, running into the shirt. A small worn leather pouch may hang from it against the skin — older and more repaired than anything else he owns. Nothing else at his throat. No pendant, no charm, no jewellery of any kind.
+  5. FIFTY YEARS OLD, TALL AND BROAD AND THICKENED. With the jacket off his actual build is visible for the only time: heavy through the chest and waist, thickened with age and labour, powerful once and merely large now. NOT muscular, NOT athletic, NOT a fighter's body. Forearms are those of a man who does manual labour, not a swordsman's.
+  6. IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard, deep lines from years of not sleeping. INTERIOR — inside the tent, lamplight or glowrod, close and unguarded.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
@@ -105,7 +112,11 @@ Baylan-specific rejections.
 - His dark robe must read as a heavy weathered coat, never as Jedi dress. No
   wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
   Jedi robes appear only in slot 7, which is the vision.
-- No visible lightsaber and no hilt on his belt. The blaster is the hilt.
+- No visible lightsaber and no hilt on his belt in the present day. The
+  blaster is the hilt. The one exception is the Scene 12 vision, eighteen years
+  earlier, where he is a Knight and the unlit hilt is on his right hip — it is
+  the same object, and seeing it whole once is what makes the blaster read as a
+  conversion. It is never ignited in any prompt.
 - Not a wise mentor. Not serene, not teaching, not at peace.
 - Not a ranking officer. He is a subordinate who stands at the back.
 - Not athletic or agile. Fifty, thickened, slow.
@@ -213,6 +224,14 @@ Shirtsleeves — 13, 15 — inside the tent, the only place he is unguarded
 
 Jacket, harness and holster removed. He is in the heavy work shirt, open at the collar, sleeves pushed up his forearms, and heavy work trousers with the boots still on. Beneath the shirt, at the collar and where the sleeves are rolled, the patched dark undertunic is clearly visible — an older, finer weave than anything over it, with a cross-wrapped front and a shaped shoulder that no industrial workwear would have, patched so many times the original fabric survives only in panels. A thin cord runs around his neck and disappears into the shirt. This is the least he is ever seen wearing.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. JACKET, HARNESS AND HOLSTER ARE REMOVED. NO WEAPON IS VISIBLE — no blaster, no holster, no rifle, no ammunition pouches, no chest harness. This is the only place in the film he is unguarded and the costume must say so. He is in the heavy work shirt, OPEN AT THE COLLAR, SLEEVES PUSHED UP HIS FOREARMS, heavy work trousers, boots still on. This is the least he is ever seen wearing.
+  2. THE UNDERTUNIC IS NOW CLEARLY VISIBLE and this is the whole point of the outfit. At the open collar and at the rolled sleeves, an OLDER AND FINER WEAVE than anything over it, re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS. It has a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have.
+  3. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. Raised matte suede-like leather panels appliquéd onto the woven base, sitting PROUD of the cloth so they catch a shadow edge. WIDEST AT THE SHOULDERS, NARROWING TO THE STERNUM. TONAL — DARK ON DARK. Read them as texture and shadow, NOT as colour contrast. They are CONSTRUCTION, NOT DECORATION, and he does not think about them. Never bright, never trimmed, never ornamental.
+  4. A THIN CORD AROUND HIS NECK, running into the shirt. A small worn leather pouch may hang from it against the skin — older and more repaired than anything else he owns. Nothing else at his throat. No pendant, no charm, no jewellery of any kind.
+  5. FIFTY YEARS OLD, TALL AND BROAD AND THICKENED. With the jacket off his actual build is visible for the only time: heavy through the chest and waist, thickened with age and labour, powerful once and merely large now. NOT muscular, NOT athletic, NOT a fighter's body. Forearms are those of a man who does manual labour, not a swordsman's.
+  6. IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard, deep lines from years of not sleeping. INTERIOR — inside the tent, lamplight or glowrod, close and unguarded.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

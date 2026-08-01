@@ -17,6 +17,13 @@ Once approved, THIS IMAGE BECOMES THE REFERENCE that every other view of
 this costume is matched against. An error here propagates into all of
 them, so it is worth several attempts to get right.
 
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THE ROBE IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. THIS IS THE FAULT MOST LIKELY TO OCCUR AND IT RUINS THE CHARACTER. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. If the silhouette reads as a Jedi, the image has failed.
+  2. WORN OPEN, FALLING BELOW THE KNEE, weathered black or very near it. It has been through at least one real fight: repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. It is visibly the oldest and most comfortable thing he owns, and the only thing he owns for comfort rather than use.
+  3. HE READS AS A MERCENARY, NEVER AS A JEDI. No lightsaber hilt anywhere on his belt or body. ABSOLUTELY NO ORNAMENT — no trophies, no faction colours, no insignia, no jewellery. His plainness is the characterisation.
+  4. THE WORKING DRESS IS UNCHANGED UNDERNEATH. He is RIGHT-HANDED: the holster is on his RIGHT HIP with the ugly modified blaster in it, grip up and angled forward, and it must remain visible through the open front of the robe. NEVER his left. The chest harness, ammunition pouches on his LEFT, and the resoled heavy boots are all as before.
+  5. FIFTY YEARS OLD, TALL AND BROAD AND THICKENED — heavy, slow, not athletic. IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard. Not a silver mane, not a groomed beard, not the noble old warrior.
+  6. MUTED THROUGHOUT and still separating from night forest and firelight. This outfit is worn off duty, at the fire and in the cold — the light on it is usually firelight.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
@@ -105,7 +112,11 @@ Baylan-specific rejections.
 - His dark robe must read as a heavy weathered coat, never as Jedi dress. No
   wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
   Jedi robes appear only in slot 7, which is the vision.
-- No visible lightsaber and no hilt on his belt. The blaster is the hilt.
+- No visible lightsaber and no hilt on his belt in the present day. The
+  blaster is the hilt. The one exception is the Scene 12 vision, eighteen years
+  earlier, where he is a Knight and the unlit hilt is on his right hip — it is
+  the same object, and seeing it whole once is what makes the blaster read as a
+  conversion. It is never ignited in any prompt.
 - Not a wise mentor. Not serene, not teaching, not at peace.
 - Not a ranking officer. He is a subordinate who stands at the back.
 - Not athletic or agile. Fifty, thickened, slow.
@@ -211,8 +222,16 @@ is genuinely at ease, and that ease is not part of the performance.
 === THIS COSTUME ===
 Working dress with robe — 5, 10, 13 — off duty, at the fire, in the cold
 
-The same working dress, with a long, heavy, dark robe over it — weathered black or near it, falling below the knee, worn open. The robe has been through at least one real fight: repaired tears, scorching along one side, a burn that was never properly patched. It must read as an ordinary heavy weather cape or working coat and never as Jedi dress — no wide monastic sleeves, no ceremonial drape, no cowl, hood down. It is visibly the oldest and most comfortable thing he owns. The harness, holster and boots remain as in the working dress.
+The same working dress, with a long, heavy, dark robe over it — weathered black or near it, falling below the knee, worn open. The robe has been through at least one real fight: repaired tears, scorching along one side, a burn that was never properly patched. It must read as an ordinary heavy weather cape or working coat and never as Jedi dress — no wide monastic sleeves, no ceremonial drape, no cowl, hood down. It is visibly the oldest and most comfortable thing he owns. Underneath, the working dress is unchanged: the chest harness, the blaster holstered on his right hip, and the same resoled heavy boots.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THE ROBE IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. THIS IS THE FAULT MOST LIKELY TO OCCUR AND IT RUINS THE CHARACTER. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. If the silhouette reads as a Jedi, the image has failed.
+  2. WORN OPEN, FALLING BELOW THE KNEE, weathered black or very near it. It has been through at least one real fight: repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. It is visibly the oldest and most comfortable thing he owns, and the only thing he owns for comfort rather than use.
+  3. HE READS AS A MERCENARY, NEVER AS A JEDI. No lightsaber hilt anywhere on his belt or body. ABSOLUTELY NO ORNAMENT — no trophies, no faction colours, no insignia, no jewellery. His plainness is the characterisation.
+  4. THE WORKING DRESS IS UNCHANGED UNDERNEATH. He is RIGHT-HANDED: the holster is on his RIGHT HIP with the ugly modified blaster in it, grip up and angled forward, and it must remain visible through the open front of the robe. NEVER his left. The chest harness, ammunition pouches on his LEFT, and the resoled heavy boots are all as before.
+  5. FIFTY YEARS OLD, TALL AND BROAD AND THICKENED — heavy, slow, not athletic. IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard. Not a silver mane, not a groomed beard, not the noble old warrior.
+  6. MUTED THROUGHOUT and still separating from night forest and firelight. This outfit is worn off duty, at the fire and in the cold — the light on it is usually firelight.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

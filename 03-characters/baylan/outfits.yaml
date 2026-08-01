@@ -1,6 +1,10 @@
 character: Baylan
 ratio: "2:3"
 
+# Required. Every weapon and armour placement follows from this.
+# See 09-prompt-library/Handedness-And-Placement.md
+handedness: right
+
 # Costume turnarounds — the primary deliverable.
 # Five images per outfit: front, left, right, back, natural.
 # See 09-prompt-library/Turnaround-Block.md
@@ -14,13 +18,63 @@ outfits:
       work shirt, layered technical cloth and worn synth-leather over it, and a
       padded jacket that has been re-shouldered at least once. A functional
       harness across the chest carrying ammunition pouches and field tools —
-      no trophies, no personal marks, no decoration of any kind. A holster on the
-      hip holding an ugly, heavily modified blaster pistol. Heavy boots,
+      no trophies, no personal marks, no decoration of any kind. A holster on his
+      right hip holding an ugly, heavily modified blaster pistol. Heavy boots,
       resoled. Everything muted: charcoal, ash brown, dust brown, faded olive.
       The undertunic is visible only as a dark edge at the collar and cuff — its
       chevron construction is NOT visible in this outfit. A
       thin cord runs around his neck and disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
+    must_show:
+      - >
+        HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and
+        everything else serves it. An audience must be able to watch him for half
+        the film without suspecting. NO ROBE IN THIS OUTFIT, no hood, no cowl, no
+        monastic sleeve, no ceremonial drape, no lightsaber hilt anywhere on his
+        belt or body. If the image announces him as a Jedi, it has failed.
+      - >
+        ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no
+        patches, no badges, no beads, no jewellery, no personal marks of any kind.
+        THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and
+        his plainness is the only odd thing about him. Every other mercenary is
+        marked; he is not. Do not add a single decorative element to make the
+        costume more interesting — the absence IS the design.
+      - >
+        BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right
+        hip, belt-mounted, grip up and angled slightly forward for a right-hand
+        draw. NEVER his left. The weapon in it is UGLY and HEAVILY MODIFIED — a
+        scratch-built, unbalanced-looking pistol assembled from mismatched parts,
+        not a clean factory sidearm. It is the least elegant thing in the film.
+        WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand —
+        muzzle down, strap over his left shoulder crossing to his right hip, so
+        the sling never sits under his drawing arm. The rifle is battered,
+        reliable and boring. Ammunition pouches and field tools sit on his LEFT,
+        on the off side, where they cannot foul the draw.
+      - >
+        FIFTY YEARS OLD, TALL AND BROAD AND THICKENED. Powerful once and merely
+        large now. Heavy through the chest and waist, not muscular, not athletic,
+        not lean. He carries weight and years. NOTHING may suggest he could still
+        fight — no fighter's stance, no coiled readiness, no combat posture.
+      - >
+        IRON-GREY HAIR, SHORT AND BADLY SELF-CUT. Uneven, no shape, cut by his own
+        hand without a mirror. Full UNSHAPED beard, untrimmed, going grey. NOT a
+        distinguished silver mane, NOT a groomed beard, NOT the noble old warrior.
+        Deep lines from years of not sleeping. He is nobody and he looks it.
+      - >
+        THE UNDERTUNIC IS BARELY VISIBLE. It shows ONLY as a dark edge at the
+        collar and at the cuff — a slightly finer, older weave than the shirt over
+        it. THE CHEVRON CONSTRUCTION MUST NOT BE VISIBLE IN THIS OUTFIT. No
+        chevrons, no appliqué panels, no shaped shoulder showing. It is hidden and
+        it stays hidden.
+      - >
+        A THIN CORD AROUND HIS NECK, disappearing under the shirt. What hangs on it
+        is never visible in this outfit. No pendant, no charm, no visible pouch —
+        just the cord at the back of his neck and at the collar.
+      - >
+        MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded
+        olive. Everything repaired, resoled, re-shouldered, previously owned.
+        He must still SEPARATE from a night forest and from camp firelight —
+        do not sink him into the background.
 
   - id: robe
     name: Working dress with robe
@@ -32,8 +86,42 @@ outfits:
       a burn that was never properly patched. It must read as an ordinary heavy
       weather cape or working coat and never as Jedi dress — no wide monastic
       sleeves, no ceremonial drape, no cowl, hood down. It is visibly the oldest
-      and most comfortable thing he owns. The harness, holster and boots remain
-      as in the working dress.
+      and most comfortable thing he owns. Underneath, the working dress is
+      unchanged: the chest harness, the blaster holstered on his right hip, and
+      the same resoled heavy boots.
+    must_show:
+      - >
+        THE ROBE IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. THIS IS THE FAULT
+        MOST LIKELY TO OCCUR AND IT RUINS THE CHARACTER. NO wide monastic sleeves —
+        the sleeves are ordinary, set-in and close to the arm. NO ceremonial
+        drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS
+        DOWN or there is no hood at all. It is weather gear worn by a cold man,
+        the sort of coat any freighter crew would own. If the silhouette reads as
+        a Jedi, the image has failed.
+      - >
+        WORN OPEN, FALLING BELOW THE KNEE, weathered black or very near it. It has
+        been through at least one real fight: repaired tears, SCORCHING ALONG ONE
+        SIDE ONLY — never symmetrical damage — and a burn that was never properly
+        patched. It is visibly the oldest and most comfortable thing he owns, and
+        the only thing he owns for comfort rather than use.
+      - >
+        HE READS AS A MERCENARY, NEVER AS A JEDI. No lightsaber hilt anywhere on
+        his belt or body. ABSOLUTELY NO ORNAMENT — no trophies, no faction colours,
+        no insignia, no jewellery. His plainness is the characterisation.
+      - >
+        THE WORKING DRESS IS UNCHANGED UNDERNEATH. He is RIGHT-HANDED: the holster
+        is on his RIGHT HIP with the ugly modified blaster in it, grip up and
+        angled forward, and it must remain visible through the open front of the
+        robe. NEVER his left. The chest harness, ammunition pouches on his LEFT,
+        and the resoled heavy boots are all as before.
+      - >
+        FIFTY YEARS OLD, TALL AND BROAD AND THICKENED — heavy, slow, not athletic.
+        IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard. Not a
+        silver mane, not a groomed beard, not the noble old warrior.
+      - >
+        MUTED THROUGHOUT and still separating from night forest and firelight.
+        This outfit is worn off duty, at the fire and in the cold — the light on
+        it is usually firelight.
 
   - id: shirtsleeves
     name: Shirtsleeves
@@ -47,6 +135,43 @@ outfits:
       shoulder that no industrial workwear would have, patched so many times the
       original fabric survives only in panels. A thin cord runs around his neck
       and disappears into the shirt. This is the least he is ever seen wearing.
+    must_show:
+      - >
+        JACKET, HARNESS AND HOLSTER ARE REMOVED. NO WEAPON IS VISIBLE — no blaster,
+        no holster, no rifle, no ammunition pouches, no chest harness. This is the
+        only place in the film he is unguarded and the costume must say so. He is
+        in the heavy work shirt, OPEN AT THE COLLAR, SLEEVES PUSHED UP HIS
+        FOREARMS, heavy work trousers, boots still on. This is the least he is
+        ever seen wearing.
+      - >
+        THE UNDERTUNIC IS NOW CLEARLY VISIBLE and this is the whole point of the
+        outfit. At the open collar and at the rolled sleeves, an OLDER AND FINER
+        WEAVE than anything over it, re-dyed dark, PATCHED SO MANY TIMES THE
+        ORIGINAL FABRIC SURVIVES ONLY IN PANELS. It has a CROSS-WRAPPED FRONT, a
+        STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would
+        have.
+      - >
+        FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST. Raised matte
+        suede-like leather panels appliquéd onto the woven base, sitting PROUD of
+        the cloth so they catch a shadow edge. WIDEST AT THE SHOULDERS, NARROWING
+        TO THE STERNUM. TONAL — DARK ON DARK. Read them as texture and shadow, NOT
+        as colour contrast. They are CONSTRUCTION, NOT DECORATION, and he does not
+        think about them. Never bright, never trimmed, never ornamental.
+      - >
+        A THIN CORD AROUND HIS NECK, running into the shirt. A small worn leather
+        pouch may hang from it against the skin — older and more repaired than
+        anything else he owns. Nothing else at his throat. No pendant, no charm,
+        no jewellery of any kind.
+      - >
+        FIFTY YEARS OLD, TALL AND BROAD AND THICKENED. With the jacket off his
+        actual build is visible for the only time: heavy through the chest and
+        waist, thickened with age and labour, powerful once and merely large now.
+        NOT muscular, NOT athletic, NOT a fighter's body. Forearms are those of a
+        man who does manual labour, not a swordsman's.
+      - >
+        IRON-GREY HAIR, SHORT AND BADLY SELF-CUT, full unshaped beard, deep lines
+        from years of not sleeping. INTERIOR — inside the tent, lamplight or
+        glowrod, close and unguarded.
 
   - id: jedi
     name: Jedi Knight robes
@@ -60,3 +185,36 @@ outfits:
       eighteen years younger here: less grey, less heavy, standing straighter,
       but recognisably the same man. This is the only costume in which he
       carries himself like someone who belongs somewhere.
+    must_show:
+      - >
+        THIS IS THE ONLY OUTFIT IN WHICH HE IS A JEDI, AND IT IS A SEPARATE BUILD.
+        Full Jedi Knight robes as of EIGHTEEN YEARS EARLIER: a layered tunic,
+        TABARDS over it falling front and back, a WIDE OBI at the waist, and a
+        HEAVY OVER-ROBE. Campaign boots. Natural undyed and earth-toned cloth —
+        bone, sand, oatmeal, mid-brown. Every rule forbidding a Jedi silhouette in
+        his other three outfits is SUSPENDED here and only here.
+      - >
+        HE IS EIGHTEEN YEARS YOUNGER — ABOUT THIRTY-TWO. Less grey in the hair and
+        beard, less heavy through the body, standing STRAIGHTER, carrying himself
+        like a man who belongs somewhere. RECOGNISABLY THE SAME MAN: same face,
+        same frame, same features. Not a different actor, not a young man — a
+        middle-aged man who has not yet been beaten down. His hair and beard are
+        KEPT here, not self-cut and unshaped as they are later.
+      - >
+        FIELD-DIRTY: A WAR, NOT A COUNCIL CHAMBER. Worn and travelled. SAND IN THE
+        SEAMS, SUN-BLEACHING ACROSS THE SHOULDERS, DUST TO THE KNEE. The hem is
+        soiled and the cloth has been repaired. NOT clean, NOT pressed, NOT
+        ceremonial, NOT new. He has been living in these clothes on campaign.
+      - >
+        THE LIGHTSABER HILT IS ON HIS RIGHT HIP, clipped to the obi — he is
+        RIGHT-HANDED. It is UNLIT and it is the ONLY costume in which it appears.
+        NEVER ignited, no blade, no glow. It is the same object that becomes the
+        ugly blaster he carries in every other scene.
+      - >
+        NO ORNAMENT BEYOND THE ORDER'S OWN DRESS. No trophies, no jewellery, no
+        rank markings, no decoration. Even here he is plain.
+      - >
+        THIS IS A VISION AND IT MUST NOT BE LEGIBLE AS A STORY. Fragmentary,
+        associative, out of order. NO readable action, NO establishing geography,
+        NO clear narrative. NO INJURY of any kind — his damage is entirely
+        internal and nothing from the purge is designed onto his body.

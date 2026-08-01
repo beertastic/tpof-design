@@ -114,6 +114,23 @@ him as a Jedi on first sight has failed.
 - A scanner, handed to him by Jasu in Scene 20.
 - Holster, ammunition, field tools, bed roll. Nothing else.
 
+## Handedness and placement
+
+**Right-handed.** Decided 2026-08-01. All sides are given from his own left and
+right, never the viewer's. See
+[`09-prompt-library/Handedness-And-Placement.md`](../../09-prompt-library/Handedness-And-Placement.md).
+
+| Item | Side | Detail |
+|---|---|---|
+| Blaster (the converted saber) | **His right hip** | Belt holster, grip up and angled forward, right-hand draw |
+| Heavy rifle | **Falls to his right hand** | Slung muzzle down, strap over his left shoulder to his right hip, so it never sits under the drawing arm |
+| Ammunition pouches, field tools | **His left** | Off side, where they cannot foul the draw |
+| Crystal pouch on its cord | **Centre** | Under the shirt, against the skin |
+| Lightsaber hilt — Scene 12 only | **His right hip** | Clipped to the obi. Unlit. The only costume it appears in |
+
+**There is no hilt on his belt in any present-day outfit.** The blaster is the
+hilt.
+
 ## Jedi robes — Scene 12 only
 
 - A separate build: full Knight robes as of eighteen years earlier.

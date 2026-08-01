@@ -21,8 +21,8 @@ Mood and narrative images are context. Three or four per character is enough.
 |---|---|---|---|
 | Shada | 1 | 5 | 5/5 — design closed, images indicative |
 | Generic Mercenary | 4 builds | 20 | 3/4 fronts done. **The large one has no turnaround by decision** — generator refuses the species; spec is written, bandolier plate stands in |
-| Baylan | 4 | 20 | not started |
-| Shin | 3 states | 15 | not started |
+| Baylan | 4 | 20 | not started — but the pack is now clean: `handedness: right` and `must_show:` on all four outfits, 2026-08-01. Lock his prop plates before his figures |
+| Shin | 3 states | 15 | not started — **blocked the same way Baylan was**: no `handedness:`, no `must_show:` on any state |
 
 See `09-prompt-library/Turnaround-Block.md`.
 

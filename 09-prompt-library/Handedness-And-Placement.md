@@ -175,12 +175,13 @@ Right-handed.
 
 | Item | Side | Detail |
 |---|---|---|
-| Compact blaster | **Her right thigh** | Drop-leg holster with a leg strap, grip up, right-hand draw |
+| WESTAR-35 blaster | **Her right side** | Hip or thigh, either acceptable. Grip up, right-hand draw. Never her left |
 | Combat knife | **Her left hip** | On the belt, grip up, cross-draw |
 | Scale gauntlet | **Her right forearm** | Left forearm completely bare |
 | Scale shoulder cap | **Her left shoulder** | Opposite side to the gauntlet |
-| Scale sternum patch | **Centre** | Stitched flat |
 | Scale thigh patch | **Her left outer thigh** | Same side as the shoulder cap |
+
+Her torso carries no metal at all — the sternum patch was dropped on 2026-07-31.
 
 Her right side carries the gauntlet and the blaster; her left carries the
 shoulder cap, the knife and the thigh patch. **Nothing is mirrored, and no two

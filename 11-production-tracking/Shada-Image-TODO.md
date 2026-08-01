@@ -209,14 +209,25 @@ the same drift, multiplied.
 
 ## After Shada
 
-Baylan is next, and one thing must happen before generating any of his twenty
-turnarounds:
+Baylan is next.
 
-**Declare `handedness:` in `03-characters/baylan/outfits.yaml`, and add
-`must_show:` to each of his four outfits.**
+**Done 2026-08-01: he is `handedness: right`, and all four outfits now carry
+`must_show:`.** The placement checker is silent on him. Blaster on his right hip,
+rifle slung to fall to his right hand, pouches on his left off side, and the
+Scene 12 hilt on his right hip clipped to the obi — the only outfit it appears
+in. Recorded in `Character.md`, `Character-Lock.md` and `outfits.yaml`.
 
-The placement checker is already warning about both — he has a blaster, a holster
-and a rifle with no side assigned. One edit now, or twenty regenerations later.
+Still owed before his twenty turnarounds:
 
-He will also want a `promo-data.yaml`. Copy Shada's, keep the structure, replace
-the copy — see `tools/board-generator/README.md`.
+- **Lock his plates first, then his figures.** This is the order correction from
+  `8c5bea7` and it matters more for him than it did for Shada: he has a blaster,
+  a holster and a rifle across four outfits, and words will not hold three
+  silhouettes across twenty images. Generate `blaster`, `crystal` and `utility`,
+  approve them, add them to `references:` in `outfits.yaml`, and only then start
+  the figures with all of them attached.
+- **A `promo-data.yaml`.** Copy Shada's, keep the structure, replace the copy —
+  see `tools/board-generator/README.md`.
+
+**Shin is now the character with the placement checker warning against her** — no
+`handedness:`, and no `must_show:` on any of her three states. Same job, same
+half hour.

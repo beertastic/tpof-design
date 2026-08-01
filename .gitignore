@@ -25,3 +25,7 @@ __pycache__/
 
 # Build/patch archives
 *.zip
+
+# Rendered scene drafts — regenerable from the .fountain beside them
+02-story/scenes/drafts/*.pdf
+02-story/scenes/drafts/*.fdx

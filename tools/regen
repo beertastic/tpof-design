@@ -74,7 +74,12 @@ if [ -z "$(git status --porcelain)" ]; then
     ok "nothing changed — prompts were already current"
 else
     git add -A
-    if git commit -q -m "prompts($CHAR): regenerate"; then
+    # An optional second argument is the commit message. Without it the message is
+    # generic, which is right for a plain regeneration and wrong when the run also
+    # carries a change worth explaining — regen would otherwise swallow the
+    # reasoning into "regenerate" and leave nothing to commit afterwards.
+    MSG="${2:-prompts($CHAR): regenerate}"
+    if git commit -q -m "$MSG"; then
         ok "committed $(git rev-parse --short HEAD)"
     else
         no "commit failed"; exit 1

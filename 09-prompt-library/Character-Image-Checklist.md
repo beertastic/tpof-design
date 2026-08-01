@@ -95,6 +95,15 @@ Substitute the character's folder name — `baylan`, `shada`, `shin`,
 ./tools/regen
 ```
 
+**Pass a commit message when the change deserves one:**
+
+```bash
+./tools/regen baylan "design(baylan): scorch moves to the left shoulder"
+```
+
+Without one it commits as `prompts(<character>): regenerate`, which is right for a
+plain regeneration and wrong when the run also carries a decision worth recording.
+
 **It stops you if the character is not ready.** Missing `handedness:` or
 `must_show:` and it refuses to print the next steps, because without them every
 weapon and armour placement is decided by the generator, differently each time.

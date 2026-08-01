@@ -7,6 +7,32 @@ A photograph of a real performer wearing a real, physically built costume,
 standing in a real studio under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
 
+====================================================================
+THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
+====================================================================
+
+Deliver a single, plain, full-figure photograph on a seamless studio
+backdrop. It is raw material. The production boards are assembled from
+plates like this one by a separate tool, and anything you add here has
+to be removed before it can be used.
+
+ABSOLUTELY NOT, IN ANY FORM:
+  - NO text of any kind. No name, no title, no caption, no labels, no
+    headings, no annotation, no measurements, no height marks.
+  - NO logo, no watermark, no signature, no production branding.
+  - NO layout, no frame, no border, no vignette panel, no title bar.
+  - NO second view. One figure, one angle. No front-and-back pair, no
+    multi-view sheet, no turnaround strip, no contact sheet, no montage.
+  - NO inset head shots, no profile studies, no detail crops.
+  - NO material swatches, NO colour palette chips, NO prop call-outs.
+  - NO scale silhouette, no ruler, no grid.
+
+If the result looks like a designed page rather than a photograph taken
+in a costume fitting, it is wrong and cannot be used.
+
+AN ACTOR REFERENCE IS ATTACHED. The face and build are HIS OR HERS, not
+an invention. Match them.
+
 BEFORE YOU GENERATE — CHECK THIS FIRST.
 
 Two reference images must be attached to this conversation:
@@ -29,6 +55,7 @@ reference exactly. Only the setting, pose and lighting change.
 [for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
 [for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
+[for the operator, not the model: also attach 03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg — the actor. Match the face and build]
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At most about a fifth of the costume carries metal; the rest is cloth and worn leather. FOR WHAT A PLATE LOOKS LIKE, MATCH THE ATTACHED PLATE REFERENCE IMAGE. In brief: flat six-sided hexagons, SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many small pieces rather than a dozen big ones, laid TESSELLATED EDGE TO EDGE and NEVER OVERLAPPED OR SHINGLED, each carrying a RAISED SNAKE SWIRL, laced to a hand-cut backing. Salvaged, pitted and worn — never machined, never polished, never carbon fibre or tech panelling. THREE PATCHES ONLY — FOREARM, SHOULDER, THIGH. THERE IS NO METAL ON HER TORSO: her chest, sternum and back are plain cloth. NO chest patch, NO sternum panel, NO bib, NO pendant, NO breastplate. SIDES ARE FIXED, and given from HER OWN left and right, never the viewer's. In a front view her right side appears on the viewer's left; in a back view it appears on the viewer's right. (1) A GAUNTLET ON HER RIGHT FOREARM ONLY — viewer's left in a front view. Wrapping the outer forearm from wrist to just below the elbow, held by two worn leather straps and buckles. EXACTLY ONE GAUNTLET, NOT A PAIR. HER LEFT FOREARM IS COMPLETELY BARE — no gauntlet, no bracer, no wrap, no metal of any kind. If both forearms have metal on them, the image is wrong. (2) A CAP OVER HER LEFT SHOULDER ONLY — viewer's right in a front view, the OPPOSITE side to the gauntlet. Her right shoulder is bare. (3) A PATCH ON HER LEFT OUTER THIGH — viewer's right in a front view, the same side as the shoulder cap. Her right thigh has no metal. Different sizes, different shapes, different ages, NO MATCHING PAIRS OF ANYTHING.

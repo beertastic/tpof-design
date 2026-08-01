@@ -16,6 +16,42 @@ character.
 
 ---
 
+## A plate is not a board
+
+**Added 2026-08-01, after the first connected-model run came back with two
+beautifully composed character sheets and neither was usable.**
+
+A turnaround view is **raw material**. One photograph, one figure, seamless grey,
+nothing else. The production boards are assembled from plates like it by
+`tools/board-generator/`, and every element a generator adds — a title, a name
+plate, material swatches, inset head studies, a scale silhouette, a multi-view
+strip — has to be removed before the plate can be used.
+
+Image generators reach for the composed sheet unprompted, because that is what
+"character reference" looks like in their training data. **Saying "plain grey
+background" is not enough** — the first Baylan attempt had a plain background and
+still arrived with a title, a faction block, a height figure, six swatches and a
+production logo.
+
+Every turnaround prompt now carries an explicit block forbidding text, layout,
+logos, second views, inset heads, detail crops, swatches, palettes and scale
+silhouettes by name, high up, before the costume description.
+
+## The face
+
+**If an actor reference exists it is attached and named**, and the prompt says the
+face and build are theirs.
+
+**If one does not, the prompt says so** and instructs the model to cast the face
+from the written description alone — ordinary, unremarkable, believable, and
+explicitly *not* handsome or striking, and not drifting toward any actor it has
+seen play a similar part.
+
+The absence has to be stated rather than left silent. A model given no
+instruction about the face invents a striking one, and a striking face is the
+wrong answer for every character in this film.
+
+
 ## The five images
 
 | # | View | Purpose |

@@ -188,6 +188,26 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
     extra = [f"[for the operator, not the model: also attach "
              f"03-characters/{cdir}/{r['path']} — {r['what']}]"
              for r in (outfit.get("references") or [])]
+
+    # The actor reference is named if one exists, and its absence is stated
+    # explicitly rather than left silent — a model given no instruction about
+    # the face invents a striking one, and a striking face is the wrong answer
+    # for every character in this film.
+    actor_dir = Path("03-characters") / cdir / "reference" / "actor"
+    actor = sorted(f for f in actor_dir.glob("*")
+                   if f.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")) \
+            if actor_dir.is_dir() else []
+    if actor:
+        extra.append(f"[for the operator, not the model: also attach "
+                     f"{actor[0].as_posix()} — the actor. Match the face and build]")
+        actor_line = ("AN ACTOR REFERENCE IS ATTACHED. The face and build are HIS OR HERS, "
+                      "not\nan invention. Match them.")
+    else:
+        actor_line = ("NO ACTOR HAS BEEN CAST. There is no actor reference for this "
+                      "character,\nso cast the face yourself — build it from the written "
+                      "description and\nnothing else. An ordinary, unremarkable, "
+                      "believable face. DO NOT reach for\na handsome or striking one, and "
+                      "do not drift toward any actor you have seen\nplay a similar part.")
     ref_note = "\n".join(
         ([f"[for the operator, not the model: attach {ref_path}]"] if gate else [])
         + extra)
@@ -210,6 +230,31 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "A photograph of a real performer wearing a real, physically built costume,",
         "standing in a real studio under real light. Not a render, not an",
         "illustration, not concept art, not AI-looking output.",
+        "",
+        "=" * 68,
+        "THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.",
+        "=" * 68,
+        "",
+        "Deliver a single, plain, full-figure photograph on a seamless studio",
+        "backdrop. It is raw material. The production boards are assembled from",
+        "plates like this one by a separate tool, and anything you add here has",
+        "to be removed before it can be used.",
+        "",
+        "ABSOLUTELY NOT, IN ANY FORM:",
+        "  - NO text of any kind. No name, no title, no caption, no labels, no",
+        "    headings, no annotation, no measurements, no height marks.",
+        "  - NO logo, no watermark, no signature, no production branding.",
+        "  - NO layout, no frame, no border, no vignette panel, no title bar.",
+        "  - NO second view. One figure, one angle. No front-and-back pair, no",
+        "    multi-view sheet, no turnaround strip, no contact sheet, no montage.",
+        "  - NO inset head shots, no profile studies, no detail crops.",
+        "  - NO material swatches, NO colour palette chips, NO prop call-outs.",
+        "  - NO scale silhouette, no ruler, no grid.",
+        "",
+        "If the result looks like a designed page rather than a photograph taken",
+        "in a costume fitting, it is wrong and cannot be used.",
+        "",
+        actor_line,
         "",
         # The gate protects every view that has something to match against. The
         # first image of a costume has nothing, so demanding a reference there

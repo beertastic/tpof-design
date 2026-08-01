@@ -45,12 +45,13 @@ specific, repeatable failure.
 | 4 | At least one actor photograph | `reference/actor/` | Generic face, and no way to match later views |
 | 5 | `do_not_retrieve:` **if the name belongs to a known character** | `outfits.yaml` | The name alone retrieves the wrong person |
 
-**The generators tell you.** Run this and read the `!` lines:
+**You do not have to check by hand.** Run this and read what it says:
 
 ```bash
-source .venv/bin/activate
-python tools/prompt-splitter/turnarounds.py --all
+./tools/regen baylan
 ```
+
+It prints every warning and refuses to go further if anything blocking is missing.
 
 ### Current state — checked 2026-08-01
 
@@ -77,17 +78,37 @@ python tools/prompt-splitter/turnarounds.py --all
 
 **Every time you change `outfits.yaml`, `Prompts.md`, or an actor photograph.**
 
+Open a terminal in the project folder and type exactly this:
+
 ```bash
-source .venv/bin/activate
-python tools/prompt-splitter/short.py <character>
-python tools/prompt-splitter/turnarounds.py <character>
-python tools/prompt-splitter/split.py <character>
-git add -A && git commit -m "prompts(<character>): regenerate" && git push
+./tools/regen baylan
 ```
 
-**Push before generating.** The reference photograph URLs inside the prompt point
-at `main`. Unpushed actor photos will not fetch, and unpushed prompt changes are
-invisible.
+That is the whole step. It runs all three generators, shows any warnings, commits,
+pushes, and then prints the full path of the file to paste, which photograph to
+attach, and the exact line ChatGPT must say back to you.
+
+Substitute the character's folder name — `baylan`, `shada`, `shin`,
+`mercenary-kit`. Run it with no name to list them:
+
+```bash
+./tools/regen
+```
+
+**It stops you if the character is not ready.** Missing `handedness:` or
+`must_show:` and it refuses to print the next steps, because without them every
+weapon and armour placement is decided by the generator, differently each time.
+
+**It stops you if the push fails.** The reference photograph URLs inside the
+prompt point at the pushed branch, so unpushed work is invisible to ChatGPT and
+you would generate from stale files without knowing.
+
+### First time only, per clone
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate && pip install pyyaml reportlab
+git config core.hooksPath tools/hooks
+```
 
 ---
 
@@ -277,17 +298,29 @@ missing, `--validate` names it.
 
 ## The whole thing, on one card
 
+**Type this:**
+
+```bash
+./tools/regen baylan
 ```
-0.  Check outfits.yaml: handedness, height, must_show, actor photo, do_not_retrieve
-1.  Regenerate all three generators, commit, PUSH
-2.  Fresh chat · High · paste turnarounds-short/turn-<outfit>-front.txt · attach actor
-3.  Check the "Working from commit …, prompt …" line BEFORE looking at the image
-4.  Wrong? Re-paste the whole file with a correction line on top. Never "same again but…"
-5.  Right? Save as the filename on line 2, into source/artwork/, commit, push
-6.  Tell me — I record `approved:`, regenerate, push. This switches on the gate
-7.  The other four views, one fresh chat each, approved front attached
-8.  The numbered plates
-9.  Boards
+
+**Then do what it tells you**, which is:
+
+```
+1.  Fresh ChatGPT chat. Tier set to High.
+2.  Paste the whole file it named. Nothing before it, nothing after it.
+3.  Attach the actor photograph it named.
+4.  Its reply must open with:  Working from commit <id>, prompt <hash>.
+    NO LINE, NO IMAGE. Discard it and start a fresh chat.
+5.  Wrong? Re-paste the WHOLE file with a correction line on top.
+    Never "same again but…" — that works from its own last output.
+6.  Right? Save it into 03-characters/baylan/source/artwork/
+    under the exact filename on line 2 of the prompt. Then:
+        git add -A && git commit -m "art(baylan): approved front turnaround" && git push
+7.  Tell Claude: "Baylan's front is approved and pushed. Record it and regenerate."
+8.  The other four views — one fresh chat each, approved front attached too.
+9.  The numbered plates in prompts/.
+10. Boards:  python tools/board-generator/generate.py baylan
 ```
 
 ---

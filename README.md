@@ -91,6 +91,9 @@ Each number is used exactly once.
 ```bash
 source .venv/bin/activate
 
+./tools/regen shada                                 # THE ONE YOU WANT: all three,
+                                                    # commit, push, and what to do next
+
 python tools/prompt-splitter/turnarounds.py shada   # costume turnarounds — the spec
 python tools/prompt-splitter/short.py shada         # the same, cut to fit a generator
 python tools/prompt-splitter/split.py shada         # plates and mood images

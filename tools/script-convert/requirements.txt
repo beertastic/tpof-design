@@ -1,0 +1,6 @@
+# Fountain -> PDF / HTML / FDX. MIT, github.com/vilcans/screenplain
+# Its only dependency is reportlab, which the board generator already uses.
+screenplain>=0.12.0
+
+# Reading the incoming typeset PDF.
+PyMuPDF>=1.28.0

@@ -16,5 +16,12 @@ __pycache__/
 03-characters/*/source/*.pptx
 03-characters/*/source/*-Production-Boards.pdf
 
+# Generated screenplay output — regenerable via tools/script-convert/render.py
+# The .fountain file is the source and IS committed. So is the incoming typeset
+# draft it was converted from, because that is what the writer actually sent.
+02-story/scenes/the-price-of-freedom-*.pdf
+02-story/scenes/the-price-of-freedom-*.fdx
+02-story/scenes/the-price-of-freedom-*.html
+
 # Build/patch archives
 *.zip

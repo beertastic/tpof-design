@@ -1,5 +1,5 @@
-[BAYLAN — SLOT 13 — THE SHARE SHEET]
-Output file: tone-collage.png
+[BAYLAN — SLOT 13 — THE LONG COAT, WORN]
+Output file: coat.png
 Aspect ratio: 2:3  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
@@ -48,13 +48,13 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. If the image announces him as a Jedi, it has failed.
   2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Every other mercenary is marked; he is not. Do not add a single decorative element to make the costume more interesting — the absence IS the design.
   3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right hip, belt-mounted, grip up and angled slightly forward for a right-hand draw. NEVER his left. The weapon in it is UGLY and HEAVILY MODIFIED — a scratch-built, unbalanced-looking pistol assembled from mismatched parts, not a clean factory sidearm. It is the least elegant thing in the film. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm. The rifle is battered, reliable and boring. Ammunition pouches and field tools sit on his LEFT, on the off side, where they cannot foul the draw.
-  4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. He wears it off duty, at the fire and in the cold, and takes it off to work. It must be BUILT AS ITS OWN PIECE: long, weathered black or very near it, falling below the knee, worn OPEN. Repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. It is visibly the oldest and most comfortable thing he owns. If the silhouette reads as a Jedi, the image has failed.
+  4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND VIEWS — those record the base costume, and a long coat over the top hides the harness, the belt and the holster. The coat has its own plate, slot 13. He wears it off duty, at the fire and in the cold, and takes it off to work. It must be BUILT AS ITS OWN PIECE: long, weathered black or very near it, falling below the knee, worn OPEN. Repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. It is visibly the oldest and most comfortable thing he owns. If the silhouette reads as a Jedi, the image has failed.
   5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff — a slightly finer, older weave than the shirt over it. WHEN THE JACKET AND HARNESS COME OFF (his bunk aboard the ship, at night) it is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST — raised matte suede-like leather panels appliquéd onto the woven base, sitting PROUD of the cloth, widest at the shoulders and narrowing to the sternum. TONAL, DARK ON DARK — texture and shadow, NEVER colour contrast. It is CONSTRUCTION, NOT DECORATION, and he does not think about it.
   6. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
   7. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
   8. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
 
-Generate one image, divided into panels, to the description below.
+Generate a single image to the description below.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -237,43 +237,38 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Not a board asset. This is the one image to send someone on a phone when
-they ask what this character looks like. It is a tone and casting reference for
-quick sharing, never a costume authority — nothing is ever matched against it.
+The one garment the turnarounds do not record. The five turnaround views show
+the base costume with the coat OFF, because the pose block forbids anything being
+obscured by another layer — so this is where the coat itself gets fixed.
 
-A single image divided into SIX panels in an irregular contact-sheet layout —
-uneven panel sizes, hard white gutters between them, no captions, no text, no
-numbering. One large panel carries the sheet; the rest are supporting sizes.
+Same plate conditions as a turnaround: full length, head to below the feet, plain
+seamless mid-grey, flat even frontal light, sharp across the frame, arms about
+thirty degrees out. Facing camera. One figure, no text, no layout.
 
-The same person in the same costume in all six, photographed across one day.
-Vary only setting, light, framing and action:
+He is in the full working dress with the long coat on over it, worn OPEN so the
+harness, belt and holstered blaster stay visible underneath.
 
-1. A full-figure standing shot in open daylight — the whole costume legible.
-2. A tight portrait, head and shoulders, eyes off camera.
-3. A mid shot at work, hands doing something specific.
-4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
-   reads when it goes dark.
-5. A wide frame where the environment dominates and the figure is small.
-6. A detail: hands, a weapon, a fitting, a worn edge.
+The coat: long, weathered black or very near it, falling below the knee.
+Ordinary set-in sleeves close to the arm — NO wide monastic sleeves, NO ceremonial
+drape, NO wrapped front, NO sash, NO cowl, and the hood is down or absent
+entirely. It is heavy weather gear of the sort any freighter crew would own, and
+it is visibly the oldest and most comfortable thing he owns.
 
-CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
-the face must be identical in every panel — same garment, same fastenings, same
-metal in the same places on the same sides. Panels that disagree with each other
-have failed, however good they look individually. If an asymmetric item sits on
-one side in one panel it sits on that same side of the body in all six.
+The damage is asymmetric and it is on HIS LEFT — repaired tears, scorching
+running down that side, and a burn that was never properly patched. His right side,
+where he draws, is comparatively unmarked. Never symmetrical damage.
 
-Every panel obeys the costume rules above. The rules do not relax because a
-panel is small.
+If the silhouette reads as a Jedi, the image has failed.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. If the image announces him as a Jedi, it has failed.
   2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Every other mercenary is marked; he is not. Do not add a single decorative element to make the costume more interesting — the absence IS the design.
   3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right hip, belt-mounted, grip up and angled slightly forward for a right-hand draw. NEVER his left. The weapon in it is UGLY and HEAVILY MODIFIED — a scratch-built, unbalanced-looking pistol assembled from mismatched parts, not a clean factory sidearm. It is the least elegant thing in the film. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm. The rifle is battered, reliable and boring. Ammunition pouches and field tools sit on his LEFT, on the off side, where they cannot foul the draw.
-  4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. He wears it off duty, at the fire and in the cold, and takes it off to work. It must be BUILT AS ITS OWN PIECE: long, weathered black or very near it, falling below the knee, worn OPEN. Repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. It is visibly the oldest and most comfortable thing he owns. If the silhouette reads as a Jedi, the image has failed.
+  4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND VIEWS — those record the base costume, and a long coat over the top hides the harness, the belt and the holster. The coat has its own plate, slot 13. He wears it off duty, at the fire and in the cold, and takes it off to work. It must be BUILT AS ITS OWN PIECE: long, weathered black or very near it, falling below the knee, worn OPEN. Repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — and a burn that was never properly patched. NO wide monastic sleeves — the sleeves are ordinary, set-in and close to the arm. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS DOWN or there is no hood at all. It is weather gear worn by a cold man, the sort of coat any freighter crew would own. It is visibly the oldest and most comfortable thing he owns. If the silhouette reads as a Jedi, the image has failed.
   5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff — a slightly finer, older weave than the shirt over it. WHEN THE JACKET AND HARNESS COME OFF (his bunk aboard the ship, at night) it is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have. FOUR OR FIVE NESTED CHEVRONS, APEX DOWN, ACROSS THE CHEST — raised matte suede-like leather panels appliquéd onto the woven base, sitting PROUD of the cloth, widest at the shoulders and narrowing to the sternum. TONAL, DARK ON DARK — texture and shadow, NEVER colour contrast. It is CONSTRUCTION, NOT DECORATION, and he does not think about it.
   6. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
   7. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
   8. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
 
-Deliver ONE image at 2:3, containing all six panels. Every panel must look photographed, not generated.
+Deliver a single image at 2:3. It must look like a frame from a real film, not a generated image.

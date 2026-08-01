@@ -433,7 +433,33 @@ older cloth than everything surrounding it.
 
 ---
 
-## 13. `tone-collage.png` — the share sheet
+## 13. `coat.png` — the long coat, worn
+**Tall portrait, 2:3.**
+
+**The one garment the turnarounds do not record.** The five turnaround views show
+the base costume with the coat OFF, because the pose block forbids anything being
+obscured by another layer — so this is where the coat itself gets fixed.
+
+Same plate conditions as a turnaround: full length, head to below the feet, plain
+seamless mid-grey, flat even frontal light, sharp across the frame, arms about
+thirty degrees out. Facing camera. **One figure, no text, no layout.**
+
+He is in the full working dress with **the long coat on over it, worn OPEN** so the
+harness, belt and holstered blaster stay visible underneath.
+
+The coat: **long, weathered black or very near it, falling below the knee.**
+Ordinary set-in sleeves close to the arm — NO wide monastic sleeves, NO ceremonial
+drape, NO wrapped front, NO sash, NO cowl, and the hood is down or absent
+entirely. It is heavy weather gear of the sort any freighter crew would own, and
+it is visibly the oldest and most comfortable thing he owns.
+
+**The damage is asymmetric and it is on HIS LEFT** — repaired tears, scorching
+running down that side, and a burn that was never properly patched. His right side,
+where he draws, is comparatively unmarked. Never symmetrical damage.
+
+If the silhouette reads as a Jedi, the image has failed.
+
+## 14. `tone-collage.png` — the share sheet
 
 **Tall portrait, 2:3.**
 
@@ -483,8 +509,10 @@ panel is small.
 | 10 | `utility.png` | 1:1 |
 | 11 | `maintenance.png` | 9:16 |
 | 12 | `materials.png` | 5:4 |
+| 13 | `coat.png` | 2:3 |
+| 14 | `tone-collage.png` | 16:9 |
 
-All thirteen land in `03-characters/baylan/source/artwork/`. The board generator
+All fourteen land in `03-characters/baylan/source/artwork/`. The board generator
 places images with a **contain** operation and never crops — supplying the wrong
 ratio produces letterboxing on the board. Then:
 

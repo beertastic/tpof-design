@@ -1,0 +1,207 @@
+[BAYLAN — SLOT 14 — THE SHARE SHEET]
+Output file: tone-collage.png
+Aspect ratio: 2:3  (tall portrait)
+
+THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
+A studio photograph of real physical objects on a real surface under real
+light — the kind an art department shoots to document what it has built.
+Flat, even, sharp across the frame. Not a render, not an illustration,
+not concept art, not AI-looking output.
+
+BEFORE YOU GENERATE — CHECK THIS FIRST.
+
+Two reference images must be attached to this conversation:
+  1. The APPROVED COSTUME reference for this character.
+  2. The ACTOR reference.
+
+IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
+Do not generate anything. Reply with exactly:
+  "No reference images attached. Please attach the approved costume
+   reference and the actor reference, then resend this prompt."
+
+Do not proceed from the text alone. The written description is not
+sufficient on its own and will produce the wrong costume and the wrong
+face.
+
+THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from the attached
+reference exactly. Only the setting, pose and lighting change.
+====================================================================
+THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
+DO NOT DRAW THAT CHARACTER.
+====================================================================
+
+You are thinking of a tall, austere, silver-haired Jedi in flowing black robes with a cloak and an orange lightsaber, serving a mysterious order. THAT IS A DIFFERENT PRODUCTION AND A DIFFERENT MAN. Draw none of it.
+This Baylan is EIGHTEEN YEARS EARLIER and hiding. He is a working mercenary in salvaged, repaired, filthy industrial workwear. NO robes. NO cloak. NO lightsaber and no hilt anywhere on him. NO ceremonial anything. NO austere bearing, no authority, no gravitas — he has spent eighteen years making himself boring on purpose and it shows in how he stands.
+He is not distinguished. He is not commanding. He is not a Knight of anything, and nobody around him knows what he was. His hair is iron-grey, short and badly cut by his own hand without a mirror. If your image would look at home beside the character you are thinking of, it is wrong.
+
+Everything you already believe about this name is from a different
+production. Discard it. The description below is the only source, and
+where your memory and this document disagree, THIS DOCUMENT IS RIGHT.
+
+Generate one image, divided into panels, to the description below.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Materials: ballistic weave, quilted flight fabric, reinforced synth-leather,
+flexible armour mesh, woven technical textiles, plastoid plates, insulated work
+fabric, industrial rubber, brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Accents (brass, copper, oxidised bronze)
+used sparingly. Bright colour only for rank, warning markings or a significant
+personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight,
+glowrod.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Baylan-specific rejections.
+
+- His dark robe must read as a heavy weathered coat, never as Jedi dress. No
+  wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique.
+  There are no Jedi robes anywhere in this pack — the separate Scene 12 build
+  was dropped on 2026-08-01 and he wears his working dress in the vision.
+- No visible lightsaber and no hilt on his belt, in any image. The blaster is
+  the hilt, and it is never ignited in any prompt.
+- Not a wise mentor. Not serene, not teaching, not at peace.
+- Not a ranking officer. He is a subordinate who stands at the back.
+- Not athletic or agile. Late forties, thickened, slow.
+- No ornament — no trophies, faction colours, insignia or jewellery beyond
+  the hidden cord.
+- No distinguished silver mane. Iron-grey, short, badly cut by his own hand.
+- Nothing tailored, clean or authoritative. He is nobody, and he has worked hard
+  to be.
+
+=== PHOTOGRAPHIC REALISM ===
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, fingerprints, scuffs, uneven wear,
+slight asymmetry, threads out of place, edges that are not quite straight.
+
+Real optics and real capture: genuine lens behaviour, natural highlight rolloff,
+fine photographic grain present in the image rather than added on top.
+
+Reject entirely the look of computer-generated imagery — the smooth,
+evenly-lit, uniformly-detailed, faintly plastic quality of a render. If the
+result looks manufactured rather than photographed, it has failed.
+
+=== CHARACTER ===
+Baylan. Human male, late forties. A Jedi Knight who survived Order 66, tried
+and failed to keep being a Jedi on the Outer Rim, gave up, and has spent years
+since hiding inside a mercenary crew — where he is, for the first time in his
+life, safe. Nobody in the crew knows what he is.
+
+Tall and broad, thickened through the middle and shoulders — he was powerful once
+and is merely large now. Iron-grey hair, short, cut by himself or a crewmate
+rather than anyone skilled. Full unshaped beard, grown to be left alone. Deep
+lines around the eyes from squinting into distances and from eighteen years of
+not sleeping properly. Heavy working hands: scarred, thickened knuckles, split
+nails, ingrained dirt.
+
+He wears salvaged, repaired mercenary workwear that has genuinely worked —
+layered technical cloth and worn synth-leather over a heavy work shirt, a padded
+jacket re-shouldered at least once, a functional harness carrying ammunition and
+tools, heavy resoled boots. Muted charcoal, ash brown, dust brown, faded olive
+throughout. No ornament, no faction marking, no trophies, no personal flourish.
+In a crew that decorates itself, his plainness is the only unusual thing about
+him — and it reads as a dull man rather than a hiding one.
+
+He often wears a long, heavy, dark robe — weathered black or near it — that he
+has had since before, and which has been through at least one real fight:
+repaired tears, scorching, a burn never properly patched. It reads as an ordinary
+weather cape or heavy coat, not as Jedi dress: no wide monastic sleeves, no
+ceremonial drape, no hood-up mystique. It is visibly the most comfortable thing
+he owns and the only object he keeps because he likes it. He wears it off duty,
+at the fire and in the cold; less when working or on patrol.
+
+Under everything he wears one further surviving garment: a dark undertunic of an
+older, finer weave, re-dyed years ago and patched so often the original fabric
+survives only in panels. Across its chest run four or five nested chevrons with
+the apex pointing downward — raised panels of matte suede-like leather appliqued
+onto the woven base and stitched at the edges, widest at the shoulders and
+narrowing toward the sternum, sitting slightly proud of the cloth. Dark on dark:
+the pattern reads through texture and shadow, never through colour contrast. A
+standing collar sits above it. This is construction, not decoration — layered
+overlapping panels that read as padding. Visible only at the collar and cuff, or
+when he is in shirtsleeves.
+
+On a cord around his neck, under the shirt and against the skin, hangs a small
+worn leather pouch containing a raw, jagged yellow crystal.
+
+He looks like a man who could still do serious damage and would strongly prefer
+not to. He moves heavily and slowly and has spent years practising being
+uninteresting — but he can be still in a way nobody else can. Around this crew he
+is genuinely at ease, and that ease is not part of the performance.
+
+=== THIS IMAGE ===
+Not a board asset. This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
+
+
+Deliver ONE image at 2:3, containing all six panels. Every panel must look photographed, not generated.

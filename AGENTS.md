@@ -49,6 +49,9 @@ Say this instead:
 **Then generate from the pasted text.** That route works and has worked every
 time.
 
+The human procedure this fits into is
+[`09-prompt-library/Character-Image-Checklist.md`](09-prompt-library/Character-Image-Checklist.md).
+
 **What you ARE good for**, and it is most of the job: reading the repository,
 checking the approval gate, quoting the commit and prompt hash, fetching
 reference photographs, answering questions about the design, committing accepted

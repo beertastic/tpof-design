@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — DESTROYED BY THE FOREST — BACK]
 Output file: turn-late-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 8ddf71d8 · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 8ddf71d8 · repo commit 9f3de02 2026-08-01 16:59
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 8ddf71d8.
+    Working from commit 9f3de02, prompt 8ddf71d8.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

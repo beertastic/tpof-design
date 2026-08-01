@@ -126,6 +126,7 @@ undeclared or an asymmetric item has no side.
 
 | Document | Covers |
 |---|---|
+| [`09-prompt-library/Character-Image-Checklist.md`](09-prompt-library/Character-Image-Checklist.md) | **Start here to generate a character.** The whole procedure, documents to boards |
 | [`AGENTS.md`](AGENTS.md) | **Instructions for AI agents with repo access.** Read its first section: a connected model can read the prompts but **cannot hand them to an image generator** — prompts must be pasted by hand |
 | [`09-prompt-library/Generating-From-A-Connected-Repo.md`](09-prompt-library/Generating-From-A-Connected-Repo.md) | The reasoning behind `AGENTS.md`, for humans |
 | [`09-prompt-library/Capture-Block.md`](09-prompt-library/Capture-Block.md) | Anamorphic house style, photographic realism, defeating the synthetic look |

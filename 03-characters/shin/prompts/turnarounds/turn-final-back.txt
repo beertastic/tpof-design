@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — THE CLEARING — BACK]
 Output file: turn-final-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 76223815 · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: 76223815 · repo commit 9f3de02 2026-08-01 16:59
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt 76223815.
+    Working from commit 9f3de02, prompt 76223815.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

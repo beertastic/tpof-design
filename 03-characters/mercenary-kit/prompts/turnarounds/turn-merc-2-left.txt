@@ -1,10 +1,10 @@
 [MERCENARY KIT — TURNAROUND — MERC 2 — THE RIFLE — LEFT SIDE]
 Output file: turn-merc-2-left.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: fc00b15d · repo commit ddc2d15 2026-08-01 15:56
+Prompt version: fc00b15d · repo commit 9f3de02 2026-08-01 16:59
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit ddc2d15, prompt fc00b15d.
+    Working from commit 9f3de02, prompt fc00b15d.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

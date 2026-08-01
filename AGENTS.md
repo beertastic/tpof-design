@@ -36,10 +36,10 @@ it must run before acting. Human background is in
 to be true at once, and any one of them missing produced a confident, wrong,
 handsome character sheet:
 
-1. **A reasoning tier, not the fast one.** On ChatGPT this means `High`, not
-   `Instant`. Instant has no browsing and no connectors — it cannot read this
-   repository at all, and will invent a character sheet from whatever is attached
-   rather than saying so.
+1. **A reasoning tier.** `High` has read this repository reliably. `Instant`
+   failed to, twice, then succeeded once — so treat the tier as *strongly
+   correlated* with success rather than as a hard rule. If a run cannot fetch,
+   raising the tier is the first thing to try.
 2. **The instruction present.** In project instructions, or pasted as the first
    message. A fresh chat inherits the connector and none of the rules.
 3. **The prompt text in the conversation.** Reading it from the repo works;
@@ -55,16 +55,23 @@ costume language, no retrieved character. It took just under four minutes.
 
 ## If you cannot read this repository
 
-**Say so immediately and offer the fallback. Do not refuse and stop.**
+**Reply with exactly `CANNOT READ REPO`, generate nothing, and then say how to
+proceed.** All three, in that order.
 
-Everything here is designed to work without repository access — the prompt files
-are deliberately self-contained, and that is the fallback. If your file reads are
-failing or unavailable, say:
+This supersedes an earlier version of this section that told you to offer the
+fallback *instead of* stopping. A connected model correctly flagged the two as
+contradictory on 2026-08-01 — the project-level instruction said stop, this file
+said do not stop. They now agree.
 
-> I can't read the repository from here. Paste the contents of
+> **CANNOT READ REPO**
+>
+> I can't fetch the repository, so I won't generate anything — an invented
+> character sheet is worse than no answer. To proceed, paste the contents of
 > `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt` and
-> attach the reference images named in its operator lines, and I'll work from
-> that.
+> attach the reference images named in its operator lines.
+
+The stop is not optional and the fallback is not a substitute for it. Failing
+visibly is the point; the paste route is what the user does next.
 
 Then follow every other rule below exactly as written. The only thing lost is
 that the user has to fetch the files by hand.

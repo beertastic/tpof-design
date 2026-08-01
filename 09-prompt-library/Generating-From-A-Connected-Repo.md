@@ -125,6 +125,36 @@ Then regenerate and push, so the connected model can see the new reference.
 
 ---
 
+## Why access is inconsistent
+
+**Diagnosed 2026-08-01, partly by the connected model itself when asked.** There
+is not one access mechanism, there are several, and they fail differently:
+
+| Route | Behaviour |
+|---|---|
+| **Public raw fetch** — `raw.githubusercontent.com` | The most predictable for a known path. Intermediary caching can still return an older copy |
+| **GitHub connector** | Subject to auth expiry, branch and permission scope, and whether the connector was selected for that particular operation. Its index can lag `main` |
+| **Ordinary web search** | Does not reliably index raw files or recent commits. A failed search is not proof the repo is unreachable |
+| **Conversation cache** | A previous turn's fetch may be reused. A read earlier in the conversation is not evidence of current state |
+
+Two more that look like access failures and are not:
+
+- **Case.** `03-characters/Shada/` fails where `03-characters/shada/` succeeds.
+  A capitalised path returns nothing, which is indistinguishable from having no
+  access.
+- **Unpushed work.** The model sees `origin/main`. Local commits are invisible,
+  and both parties can honestly believe they are looking at "the repo".
+
+### The test that settles it
+
+**Every image-related reply must show the `REPO-STATE.md` stamp, and — whenever a
+prompt is used — that file's exact path and character count.** Missing either is
+evidence the live file was not demonstrably read.
+
+This works. On 2026-08-01 a model reported `AGENTS.md` at 11,969 characters when
+the file on `main` was 12,031, and the stamp it quoted was half an hour old. The
+count exposed a stale read that the prose around it did not.
+
 ## What will go wrong
 
 **It summarises the prompt.** By far the most likely failure. The Shada front

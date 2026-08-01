@@ -133,8 +133,12 @@ def _placements(text: str) -> dict[str, set[str]]:
     found: dict[str, set[str]] = {}
     for m in item_re.finditer(text):
         item = SYNONYMS.get(m.group(1), m.group(1))
-        # A placement claim does not survive a full stop.
-        rest = text[m.end():m.end() + 90].split(".")[0]
+        # A placement claim does not survive a full stop — nor a listing comma.
+        # "hides the harness, the belt and the holster" is three items in a row,
+        # not a harness worn at the belt. `belt` is both an item and a place,
+        # which is what made that read the wrong way.
+        rest = re.split(r"\.|;|,\s+(?:the|and|a|an)\b",
+                        text[m.end():m.end() + 90])[0]
         # Stop at the next *different* item — "blaster pistol" is one thing,
         # but "blaster ... and a knife" is two.
         for nxt in item_re.finditer(rest):

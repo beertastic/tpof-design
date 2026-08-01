@@ -199,16 +199,17 @@ effect dies.
 | **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
 | **The crystal.** Small, jagged, yellow, in a worn pouch against his skin | The blade that **finishes orange** in this film's last act |
 
-### Proposed, not yet decided
+### Confirmed 2026-08-01
 
-Two more that would cost almost nothing, since he needs both anyway:
+| In this film | Becomes |
+|---|---|
+| **A wide, heavy belt.** Broad salvaged leather, plain heavy buckle, no decoration, cracked from use. It carries the holster | The belt he still wears. He needed one anyway; making it the *same* one is free |
+| **Worn forearm wraps.** Leather, strapped or laced, wrist to below the elbow, **on both arms**. Protection for a man who hauls cargo all day | The bracers. A shape that carries forward without meaning anything yet |
 
-- **A wide, heavy belt.** He requires one regardless; making it the *same* belt is
-  free.
-- **Forearm wraps or bracers.** Working kit for a man who hauls crates, and a
-  shape that carries forward.
+Both are in his `must_show` with an explicit warning: if either reads as
+decorative, or as armour, it is wrong. They are there because he needs them.
 
-**Not recommended:** anything structural on the shoulders. It reads as fantasy
+**Rejected:** anything structural on the shoulders. It reads as fantasy
 armour in this film's language, the Design Bible rejects it by name, and it would
 fight the plainness that is the whole point of him.
 

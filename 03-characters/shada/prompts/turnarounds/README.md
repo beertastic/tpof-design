@@ -3,8 +3,8 @@
 **The primary deliverable.** Five images per outfit: four technical views
 and one natural pose. Generate these in full before any mood image.
 
-Each file is self-contained — open, select all, paste. Attach actor
-reference first.
+Each file is self-contained — open, select all, paste. Every reference it
+needs is listed inside it as a public URL, to be fetched not attached.
 
 All at **2:3**, tall, full figure.
 
@@ -20,7 +20,7 @@ All at **2:3**, tall, full figure.
 
 An outfit marked **APPROVED** has a locked reference image. Every other view
 of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming
-the file to attach — and states that where the text and the image disagree,
+the URL to fetch — and states that where the text and the image disagree,
 **the image wins**.
 
 **Editing an approved outfit invalidates artwork already made from it.** The

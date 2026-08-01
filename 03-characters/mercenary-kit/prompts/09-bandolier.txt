@@ -8,24 +8,24 @@ light — the kind an art department shoots to document what it has built.
 Flat, even, sharp across the frame. Not a render, not an illustration,
 not concept art, not AI-looking output.
 
-BEFORE YOU GENERATE — CHECK THIS FIRST.
+BEFORE YOU GENERATE — GET THE REFERENCES.
 
-Two reference images must be attached to this conversation:
-  1. The APPROVED COSTUME reference for this character.
-  2. The ACTOR reference.
+Every reference this image must match is listed above as a public URL.
+For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
+MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
+fetched but never handed to the generator is not a reference, and that gap
+is exactly what produced a run of wrong faces on 2026-08-01.
 
-IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
-Do not generate anything. Reply with exactly:
-  "No reference images attached. Please attach the approved costume
-   reference and the actor reference, then resend this prompt."
+Do NOT ask for a manual attachment when the download and the handoff both
+succeed. Ask only if a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed.
 
-Do not proceed from the text alone. The written description is not
-sufficient on its own and will produce the wrong costume and the wrong
-face.
+Do not proceed from the text alone. The written description is not sufficient
+on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
-Match the costume, materials, colours, face and build from the attached
-reference exactly. Only the setting, pose and lighting change.
+THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from them exactly.
+Only the setting, pose and lighting change.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. Broad chest, very long and powerful arms, a heavy brow over deep-set dark eyes, and a projecting muzzle. He stands and moves like a person, not like an animal.
   2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling almost to white around the muzzle. He is OLD and it shows plainly: thinning patches over the shoulders, old scarring, sections matted and badly healed. His coat is COARSE, UNEVEN AND BADLY KEPT — worn down and patchy rather than long, clean, glossy or evenly-flowing. His bandolier is broad, thick and obviously hand-built from salvaged leather, and it is crossed by a second narrower strap the other way. Metal rings and beads are braided into the fur at the shoulder and muzzle.

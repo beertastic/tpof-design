@@ -8,32 +8,35 @@ light — the kind an art department shoots to document what it has built.
 Flat, even, sharp across the frame. Not a render, not an illustration,
 not concept art, not AI-looking output.
 
-BEFORE YOU GENERATE — CHECK THIS FIRST.
+BEFORE YOU GENERATE — GET THE REFERENCES.
 
-Two reference images must be attached to this conversation:
-  1. The APPROVED COSTUME reference for this character.
-  2. The ACTOR reference.
+Every reference this image must match is listed above as a public URL.
+For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
+MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
+fetched but never handed to the generator is not a reference, and that gap
+is exactly what produced a run of wrong faces on 2026-08-01.
 
-IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.
-Do not generate anything. Reply with exactly:
-  "No reference images attached. Please attach the approved costume
-   reference and the actor reference, then resend this prompt."
+Do NOT ask for a manual attachment when the download and the handoff both
+succeed. Ask only if a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed.
 
-Do not proceed from the text alone. The written description is not
-sufficient on its own and will produce the wrong costume and the wrong
-face.
+Do not proceed from the text alone. The written description is not sufficient
+on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
-Match the costume, materials, colours, face and build from the attached
-reference exactly. Only the setting, pose and lighting change.
+THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.
+Match the costume, materials, colours, face and build from them exactly.
+Only the setting, pose and lighting change.
 
-[for the operator, not the model: attach 03-characters/shada/source/artwork/turn-working-front.png]
-[for the operator, not the model: also attach 03-characters/shada/source/artwork/material-scale.png — the scale plates, their finish and how the panel is assembled]
-[for the operator, not the model: also attach 03-characters/shada/source/artwork/knife.png — the combat knife]
-[for the operator, not the model: also attach ACTOR REFERENCE 1, dasha-svistunenko-heashot.jpg]
-    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
-[for the operator, not the model: also attach ACTOR REFERENCE 2, dasha-svistunenko-posed.png]
-    public URL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
+FETCH AND MATCH — the approved costume reference:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
+FETCH AND USE AS REFERENCE — the scale plates, their finish and how the panel is assembled:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+FETCH AND USE AS REFERENCE — the combat knife:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+FETCH AND USE AS THE LIKENESS REFERENCE (1):
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+FETCH AND USE AS THE LIKENESS REFERENCE (2):
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
 
 This character is RIGHT-HANDED. All positions are given from
 THEIR OWN left and right, never the viewer's.

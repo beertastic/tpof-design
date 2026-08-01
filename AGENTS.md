@@ -45,9 +45,8 @@ handsome character sheet:
 3. **The prompt text in the conversation.** Reading it from the repo works;
    pasting the file whole also works and never fails. Both are fine.
 
-**Attaching an image on the same turn appears to suppress repo reading.** If the
-model must read files, keep that turn text-only and attach the actor reference on
-the next one.
+**Attaching an image on the same turn appeared to suppress repo reading.** With
+references now fetched by URL this should not arise — nothing needs attaching.
 
 The successful run: `High`, project instructions set, prompt text pasted, actor
 headshot attached — full-length figure on seamless grey, correct face, correct
@@ -68,7 +67,7 @@ said do not stop. They now agree.
 > I can't fetch the repository, so I won't generate anything — an invented
 > character sheet is worse than no answer. To proceed, paste the contents of
 > `03-characters/<character>/prompts/turnarounds/turn-<outfit>-front.txt` and
-> attach the reference images named in its operator lines.
+> attach the reference images it names.
 
 The stop is not optional and the fallback is not a substitute for it. Failing
 visibly is the point; the paste route is what the user does next.
@@ -117,10 +116,16 @@ Three kinds appear, and all three are fetchable:
   it.
 - **Plate references** — a material, a weapon, a piece of kit already locked.
 
-**If a URL will not open, say which one and stop.** Do not generate without a
-reference the prompt asked for, and do not invent a face. The user can attach the
-image by hand as a fallback, and that route has always worked — but ask for it,
-rather than silently proceeding.
+**Fetching is not enough on its own.** For each URL: download it, decode it,
+look at it to confirm it opened, and **make the downloaded file available as an
+image input to the generator.** A file retrieved by a repository tool but never
+handed to the generator is not a reference — that gap, not the URLs, is what
+produced a run of wrong faces on 2026-08-01.
+
+**Do not ask for a manual attachment when the download and the handoff both
+succeed.** Ask only when a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed and stop. Never
+invent a face.
 
 **4. Read the non-negotiables back before generating.**
 List them, one line each. If you cannot, you did not read the file properly —
@@ -201,17 +206,16 @@ for that character, minus the front view itself.
 2. Fetch every file named in an operator line.
 3. **Actor references are listed in the prompt itself, numbered, each with a
    full public URL.** There may be several — they are the same person from
-   different angles and all of them should be used. Ask the user to attach them;
-   fetching a URL is not the same as having the image in front of the generator,
-   and attaching has produced a genuine likeness where fetching has not.
+   different angles and all of them should be used. **Fetch them yourself**,
+   decode them, and hand them to the generator as image inputs.
 4. Read the non-negotiables back.
 5. Generate one image at the aspect ratio in the file header.
 6. Self-check.
 
 **The front view is the only image generated without a costume reference**,
 because it is the one that creates it. The prompt says so itself. Do not go
-looking for a costume reference to attach — the plates and the actor photo are
-all there is.
+looking for a costume reference — the plates and the actor references are all
+there is, and both are fetchable.
 
 ### Step 3 — after the user approves
 

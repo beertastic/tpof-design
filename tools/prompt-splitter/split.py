@@ -209,21 +209,20 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
                       + "\n".join(f"  {i}. {m.strip()}" for i, m in enumerate(must, 1)))
     ref_note = ""
     if approved and approved.get("reference"):
-        ref_note = (f"[for the operator, not the model: attach "
-                    f"{approved['reference']}]")
+        ref_note = ("FETCH AND MATCH — the approved costume reference:\n    "
+                    + raw_url(approved["reference"]))
     # Approved material and prop plates. The figure prompts no longer describe
     # the plate in full — the reference image carries it — so these must attach.
     for r in (refs or []):
         ref_note += (("\n" if ref_note else "")
-                     + f"[for the operator, not the model: also attach "
-                       f"03-characters/{character}/{r['path']} — {r['what']}]")
+                     + f"FETCH AND USE AS REFERENCE — {r['what']}:\n    "
+                     + raw_url(f"03-characters/{character}/{r['path']}"))
     # Every actor reference, numbered, each with a fetchable public URL.
     for _n, _name, _url, _what in actor_refs(character):
         _label = f" — {_what}" if _what else ""
         ref_note += (("\n" if ref_note else "")
-                     + f"[for the operator, not the model: also attach ACTOR "
-                       f"REFERENCE {_n}, {_name}{_label}]"
-                     + f"\n    public URL: {_url}")
+                     + f"FETCH AND USE AS THE LIKENESS REFERENCE ({_n}){_label}:"
+                     + f"\n    {_url}")
     if narrative:
         demand = (
             "THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.\n"
@@ -249,24 +248,24 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "",
         demand,
         "",
-        "BEFORE YOU GENERATE — CHECK THIS FIRST.",
+        "BEFORE YOU GENERATE — GET THE REFERENCES.",
         "",
-        "Two reference images must be attached to this conversation:",
-        "  1. The APPROVED COSTUME reference for this character.",
-        "  2. The ACTOR reference.",
+        "Every reference this image must match is listed above as a public URL.",
+        "For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and",
+        "MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been",
+        "fetched but never handed to the generator is not a reference, and that gap",
+        "is exactly what produced a run of wrong faces on 2026-08-01.",
         "",
-        "IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP.",
-        "Do not generate anything. Reply with exactly:",
-        "  \"No reference images attached. Please attach the approved costume",
-        "   reference and the actor reference, then resend this prompt.\"",
+        "Do NOT ask for a manual attachment when the download and the handoff both",
+        "succeed. Ask only if a URL will not download, a file will not decode, or the",
+        "generator cannot receive it — and then name the one that failed.",
         "",
-        "Do not proceed from the text alone. The written description is not",
-        "sufficient on its own and will produce the wrong costume and the wrong",
-        "face.",
+        "Do not proceed from the text alone. The written description is not sufficient",
+        "on its own and will produce the wrong costume and the wrong face.",
         "",
-        "THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.",
-        "Match the costume, materials, colours, face and build from the attached",
-        "reference exactly. Only the setting, pose and lighting change.",
+        "THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win.",
+        "Match the costume, materials, colours, face and build from them exactly.",
+        "Only the setting, pose and lighting change.",
         "" if gate else None,
         ref_note if gate else None,
         "" if gate else None,
@@ -366,8 +365,8 @@ def run(repo: Path, character: str) -> int:
         "One file per image. Each is completely self-contained: open it, select all,",
         "paste into the image generator. Nothing to assemble, nothing to remove.",
         "",
-        "Attach actor reference images to the conversation first — see",
-        "03-characters/CAST-REFERENCE.md.",
+        "Each prompt lists every reference image it needs as a public URL — fetch",
+        "them, do not ask for attachments. See 03-characters/CAST-REFERENCE.md.",
         "",
         "Save each result to source/artwork/ using the exact filename stated at the",
         "top of the prompt, then run:",

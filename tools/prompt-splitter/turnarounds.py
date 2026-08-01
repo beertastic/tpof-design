@@ -93,7 +93,7 @@ def check_placement(character: str, cfg: dict) -> list[str]:
             if not (Path("03-characters") / character / r["path"]).is_file():
                 warnings.append(
                     f"{character}/{o['id']}: reference plate {r['path']} does "
-                    f"not exist, but every prompt tells the operator to attach "
+                    f"not exist, but every prompt tells the model to fetch "
                     f"it. Create it or remove the entry.")
 
         # The description is injected into the same prompt as the rules above,
@@ -238,7 +238,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
             "person who fits the description — that is the failure this note exists to\n"
             "prevent.\n"
             "\n"
-            "THE ATTACHED PHOTOGRAPH IS NOT THE BASE IMAGE. DO NOT EDIT IT.\n"
+            "THE ACTOR PHOTOGRAPH IS NOT THE BASE IMAGE. DO NOT EDIT IT.\n"
             "Do not retouch it, extend it, outpaint it, crop it or produce a variation\n"
             "of it. You are making a COMPLETELY NEW PHOTOGRAPH of the same person.\n"
             "\n"
@@ -247,7 +247,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
             "CLOTHES the person is wearing in it. The reference is almost certainly a\n"
             "head-and-shoulders portrait on a dark background; what you are making is a\n"
             "full-length figure on plain seamless grey under flat even light. If your\n"
-            "output resembles the attached photograph in anything but the face, you\n"
+            "output resembles that photograph in anything but the face, you\n"
             "have edited it instead of using it.")
     else:
         actor_line = ("NO ACTOR HAS BEEN CAST. There is no actor reference for this "
@@ -347,24 +347,24 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         # The gate protects every view that has something to match against. The
         # first image of a costume has nothing, so demanding a reference there
         # would refuse the one prompt that has to work from text alone.
-        "BEFORE YOU GENERATE — CHECK THIS FIRST." if gate else None,
+        "BEFORE YOU GENERATE — GET THE REFERENCES." if gate else None,
         "" if gate else None,
-        "Two reference images must be attached to this conversation:" if gate else None,
-        "  1. The APPROVED COSTUME reference for this character." if gate else None,
-        "  2. The ACTOR reference." if gate else None,
+        "Every reference this image must match is listed above as a public URL." if gate else None,
+        "For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and" if gate else None,
+        "MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been" if gate else None,
+        "fetched but never handed to the generator is not a reference, and that gap" if gate else None,
+        "is exactly what produced a run of wrong faces on 2026-08-01." if gate else None,
         "" if gate else None,
-        "IF NO IMAGES ARE ATTACHED TO THIS CONVERSATION, STOP." if gate else None,
-        "Do not generate anything. Reply with exactly:" if gate else None,
-        "  \"No reference images attached. Please attach the approved costume" if gate else None,
-        "   reference and the actor reference, then resend this prompt.\"" if gate else None,
+        "Do NOT ask for a manual attachment when the download and the handoff both" if gate else None,
+        "succeed. Ask only if a URL will not download, a file will not decode, or the" if gate else None,
+        "generator cannot receive it — and then name the one that failed." if gate else None,
         "" if gate else None,
-        "Do not proceed from the text alone. The written description is not" if gate else None,
-        "sufficient on its own and will produce the wrong costume and the wrong" if gate else None,
-        "face." if gate else None,
+        "Do not proceed from the text alone. The written description is not sufficient" if gate else None,
+        "on its own and will produce the wrong costume and the wrong face." if gate else None,
         "" if gate else None,
-        "THE ATTACHED IMAGES OUTRANK THIS TEXT. Where they disagree, the images win." if gate else None,
-        "Match the costume, materials, colours, face and build from the attached" if gate else None,
-        "reference exactly. Only the setting, pose and lighting change." if gate else None,
+        "THE REFERENCE IMAGES OUTRANK THIS TEXT. Where they disagree, the images win." if gate else None,
+        "Match the costume, materials, colours, face and build from them exactly." if gate else None,
+        "Only the setting, pose and lighting change." if gate else None,
         "" if ref_note else None,
         ref_note if ref_note else None,
         "" if ref_note else None,
@@ -416,7 +416,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         "",
         (("=== CHECK BEFORE YOU FINISH ===\n" + must_block + "\n")
          if must_block else ""),
-        ("The attached reference images outrank this text. If nothing was attached, "
+        ("The fetched reference images outrank this text. If none were fetched, "
          "you should not have generated this." if gate else ""),
         f"Deliver a single image at {ratio}. It must look photographed, not generated.",
     ]
@@ -483,8 +483,8 @@ def run(repo: Path, character: str) -> int:
         "**The primary deliverable.** Five images per outfit: four technical views",
         "and one natural pose. Generate these in full before any mood image.",
         "",
-        "Each file is self-contained — open, select all, paste. Attach actor",
-        "reference first.",
+        "Each file is self-contained — open, select all, paste. Every reference it",
+        "needs is listed inside it as a public URL, to be fetched not attached.",
         "",
         f"All at **{ratio}**, tall, full figure.",
         "",
@@ -504,7 +504,7 @@ def run(repo: Path, character: str) -> int:
         "",
         "An outfit marked **APPROVED** has a locked reference image. Every other view",
         "of that costume carries a `MATCH THE APPROVED REFERENCE` instruction naming",
-        "the file to attach — and states that where the text and the image disagree,",
+        "the URL to fetch — and states that where the text and the image disagree,",
         "**the image wins**.",
         "",
         "**Editing an approved outfit invalidates artwork already made from it.** The",

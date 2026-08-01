@@ -426,13 +426,34 @@ Scenes 13 and 15 put him in the tent, in shirt and trousers. This is where the
 undertunic and the cord around his neck are visible. The costume must be built
 to strip back to this layer.
 
-### The Jedi robes — Scene 12 only
+### Scene 12 — the vision. No separate Jedi build
 
-A separate build. Full Knight robes as they were eighteen years ago, on a
-sand dune, in daylight: layered tunic, tabards, obi, over-robe, campaign boots.
-Worn, travelled, field-dirty — he was fighting a war, not attending a council.
-This is the only time the audience sees who he was, and it should be a physical
-shock next to the man in the forest.
+**Decided 2026-08-01** by the Production Designer with the producers: **he wears
+his working dress in the vision.** The separate Knight-robe build is dropped on
+cost. It can come back if the budget allows.
+
+This is a **deliberate departure from the script.** The v9 screenplay says *"a
+hazy vision of a man we can't quite make out in Jedi robes as he stands on the top
+of a sand dune"*, and it is one of only four scenes in the whole film where the
+script names a costume. Filmanize extracted it as `Costumes (1): Jedi Robes`.
+Recorded here so nobody finds it later and files it as a mistake.
+
+What makes it defensible:
+
+- The script calls the vision **hazy** and the man **"we can't quite make out"**.
+  It is not asking for a costume plate.
+- It dates him only *"a few years younger and less haunted"* — not the eighteen
+  years these documents had assumed. The gap being small makes one costume across
+  both far easier to accept.
+- The scene is Shin's, not his. She has never seen a Jedi and has no way to read
+  robes as meaningful. What she registers is a man on a dune who later turns out
+  to be standing in front of her.
+
+**What it costs, and this should be a conscious loss:** the film now contains no
+sight of him as a Jedi at all. Everything that reveal was carrying moves onto two
+objects — the crystal in Scene 15 and the ignited blade in the finale. That is
+arguably the stronger version, since the documents already hold that the saber
+*is* the character. But it means Scene 15 has no support if it underperforms.
 
 ## Equipment and Hero Props
 
@@ -561,7 +582,6 @@ right.
 | Heavy rifle | **Falls to his right hand** | Slung muzzle down, strap over his left shoulder crossing to his right hip |
 | Ammunition pouches, field tools | **His left** | The off side, so they never foul the draw |
 | Crystal pouch on its cord | **Centre**, under the shirt | Against the skin. Visible only as a cord at the collar |
-| Lightsaber hilt — Scene 12 only | **His right hip** | Clipped to the obi, unlit |
 
 The default was chosen rather than a characterful exception, and that is the
 point. He has worked for eighteen years at being the least interesting man in
@@ -573,9 +593,16 @@ right** — the hand that drew the blaster for eighteen years, that rebuilt the
 saber alone in Scene 15, and that has just killed nine people. He offers it open.
 She is the one who moves.
 
-**There is no hilt on his belt in any present-day outfit.** The blaster is the
-hilt, and the Scene 12 vision is the only time the audience sees the object in
-its original form.
+**There is no lightsaber hilt on his belt anywhere in the film.** The blaster is
+the hilt.
+
+**And after Scene 15 the holster is empty, which the script makes a plot point.**
+He dismantles the blaster to build the saber, and in Scene 20 Nyx asks him
+outright: *"Bay, where's your blaster?"* He covers with the heavy rifle. So from
+Scene 15 onward the rig on his right hip is **visibly empty**, the rifle is doing
+its job, and the saber is concealed under the jacket until he draws it — *"He
+takes something from under his jacket."* That is a costume continuity track across
+the last third of the film and none of the images currently show it.
 
 ## Performance and Body Language
 

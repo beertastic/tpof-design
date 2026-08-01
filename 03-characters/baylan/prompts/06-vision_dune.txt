@@ -1,6 +1,6 @@
-[BAYLAN — SLOT 11 — THE RECONSTRUCTION]
-Output file: maintenance.png
-Aspect ratio: 9:16  (tall portrait)
+[BAYLAN — SLOT 06 — THE DUNE]
+Output file: vision_dune.png
+Aspect ratio: 21:9  (wide banner)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real
@@ -224,20 +224,23 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Baylan seated cross-legged in his tent at night, glowrod on the ground, in
-shirtsleeves. He holds the small jagged yellow crystal in his open palm. In front
-of him, unsupported, the components of his blaster hang separated in mid-air —
-and they are drawing back together into a different shape: a machined
-cylindrical lightsaber hilt, mid-assembly, its parts converging. The crystal has
-not gone in yet.
+Wide, hazy vision-image: a lone figure standing atop a sand dune under a hard
+afternoon sky, sea visible far beyond, gazing out. He is in his ordinary
+working dress — the same costume as every other slot. No robes, no tabards, no
+Jedi dress of any kind; the separate Knight build was dropped on 2026-08-01. His
+long dark coat may be on him, worn open and moving in the wind.
 
-He is not triumphant and not afraid. He is looking at it the way a man looks at
-something he could not bear to look at for years — and has just found he can.
-There should be hesitation in him, and then decision.
+He is turning toward camera, caught mid-movement, as if something behind him has
+just made a noise. Blown sand, heat shimmer, a bleached and desaturated palette
+utterly unlike the wet forest.
 
-Warm low glowrod light, deep shadow, the tent close around him. No glow effects,
-no energy, no magic — only objects hanging in the air that should not be, and
-assembling themselves.
+The script's word is "hazy", and the man is one "we can't quite make out" — so
+resist resolving him. Distance, glare, heat shimmer and grain are all doing
+work here. This is the one image in the pack that is allowed to be soft,
+over-bright and unreal at the edges, and it should not read as a costume plate.
+He is slightly less worn than in the forest slots — the script says "a few
+years younger and less haunted" — but it is the same man in the same clothes and
+nothing should announce a time jump.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
@@ -250,4 +253,4 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   7. TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
   8. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
 
-Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.
+Deliver a single image at 21:9. It must look like a frame from a real film, not a generated image.

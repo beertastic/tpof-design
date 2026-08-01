@@ -126,17 +126,31 @@ right, never the viewer's. See
 | Heavy rifle | **Falls to his right hand** | Slung muzzle down, strap over his left shoulder to his right hip, so it never sits under the drawing arm |
 | Ammunition pouches, field tools | **His left** | Off side, where they cannot foul the draw |
 | Crystal pouch on its cord | **Centre** | Under the shirt, against the skin |
-| Lightsaber hilt — Scene 12 only | **His right hip** | Clipped to the obi. Unlit. The only costume it appears in |
 
-**There is no hilt on his belt in any present-day outfit.** The blaster is the
-hilt.
+**There is no lightsaber hilt on his belt anywhere in the film.** The blaster is
+the hilt, and after Scene 15 he has neither — see below.
 
-## Jedi robes — Scene 12 only
+**Scene 15 empties the holster, and Scene 20 says so out loud.** He takes the
+blaster apart to build the saber, and in Scene 20 Nyx asks *"Bay, where's your
+blaster?"* From that point he carries the heavy rifle instead. Costume continuity:
+**the holster is visibly empty from Scene 15 onward**, and the saber is concealed
+under the jacket until he draws it in the finale.
 
-- A separate build: full Knight robes as of eighteen years earlier.
-- Layered tunic, tabards, obi, over-robe, campaign boots.
-- Worn, travelled and field-dirty — a war, not a council chamber.
-- The only sight of who he was. It should be a physical shock beside the forest man.
+## Scene 12 — the vision. **No separate Jedi build.**
+
+**Decided 2026-08-01** by the Production Designer and the producers: he wears his
+working dress in the vision. The separate Knight-robe build is dropped on cost.
+
+This is a **deliberate departure from the script**, which says *"a hazy vision of a
+man we can't quite make out in Jedi robes"* and which Filmanize extracted as a
+costume element. Recorded so nobody rediscovers it as an error.
+
+What makes it defensible: the script calls the vision hazy and the man
+indistinct, and dates him only *"a few years younger and less haunted"* — not the
+eighteen years the design documents had assumed. Revisit if budget allows.
+
+**Consequence:** the film now contains no sight of him as a Jedi. The saber
+rebuild and the finale ignition carry that reveal alone.
 
 ## Performance
 

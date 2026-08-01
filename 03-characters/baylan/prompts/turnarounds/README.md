@@ -15,21 +15,6 @@ All at **2:3**, tall, full figure.
 | Working dress | in progress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
 | Working dress | in progress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
 | Working dress | in progress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
-| Working dress with robe | in progress | FRONT | `turn-robe-front.txt` | `turn-robe-front.png` |
-| Working dress with robe | in progress | LEFT SIDE | `turn-robe-left.txt` | `turn-robe-left.png` |
-| Working dress with robe | in progress | RIGHT SIDE | `turn-robe-right.txt` | `turn-robe-right.png` |
-| Working dress with robe | in progress | BACK | `turn-robe-back.txt` | `turn-robe-back.png` |
-| Working dress with robe | in progress | NATURAL POSE | `turn-robe-natural.txt` | `turn-robe-natural.png` |
-| Shirtsleeves | in progress | FRONT | `turn-shirtsleeves-front.txt` | `turn-shirtsleeves-front.png` |
-| Shirtsleeves | in progress | LEFT SIDE | `turn-shirtsleeves-left.txt` | `turn-shirtsleeves-left.png` |
-| Shirtsleeves | in progress | RIGHT SIDE | `turn-shirtsleeves-right.txt` | `turn-shirtsleeves-right.png` |
-| Shirtsleeves | in progress | BACK | `turn-shirtsleeves-back.txt` | `turn-shirtsleeves-back.png` |
-| Shirtsleeves | in progress | NATURAL POSE | `turn-shirtsleeves-natural.txt` | `turn-shirtsleeves-natural.png` |
-| Jedi Knight robes | in progress | FRONT | `turn-jedi-front.txt` | `turn-jedi-front.png` |
-| Jedi Knight robes | in progress | LEFT SIDE | `turn-jedi-left.txt` | `turn-jedi-left.png` |
-| Jedi Knight robes | in progress | RIGHT SIDE | `turn-jedi-right.txt` | `turn-jedi-right.png` |
-| Jedi Knight robes | in progress | BACK | `turn-jedi-back.txt` | `turn-jedi-back.png` |
-| Jedi Knight robes | in progress | NATURAL POSE | `turn-jedi-natural.txt` | `turn-jedi-natural.png` |
 
 ## Approved outfits
 

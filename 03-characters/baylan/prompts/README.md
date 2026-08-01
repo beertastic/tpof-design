@@ -18,7 +18,7 @@ top of the prompt, then run:
 | `03-industrial_b.txt` | `industrial_b.png` | 9:16 | yes | yes | yes |
 | `04-industrial_c.txt` | `industrial_c.png` | 9:16 | yes | yes | yes |
 | `05-detail_portrait.txt` | `detail_portrait.png` | 3:4 | yes | — | yes |
-| `06-vision_robes.txt` | `vision_robes.png` | 21:9 | yes | yes | yes |
+| `06-vision_dune.txt` | `vision_dune.png` | 21:9 | yes | yes | yes |
 | `07-expression_strip.txt` | `expression_strip.png` | 16:9 | yes | — | yes |
 | `08-blaster.txt` | `blaster.png` | 3:1 | yes | — | — |
 | `09-crystal.txt` | `crystal.png` | 1:1 | yes | — | — |

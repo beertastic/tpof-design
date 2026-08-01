@@ -104,13 +104,11 @@ no 3D-render look, no plastic or waxy skin.
 **Baylan-specific rejections.**
 
 - **His dark robe must read as a heavy weathered coat, never as Jedi dress.** No
-  wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique. Full
-  Jedi robes appear only in slot 7, which is the vision.
-- **No visible lightsaber and no hilt on his belt in the present day.** The
-  blaster is the hilt. The one exception is the Scene 12 vision, eighteen years
-  earlier, where he is a Knight and the unlit hilt is on his right hip — it is
-  the same object, and seeing it whole once is what makes the blaster read as a
-  conversion. **It is never ignited in any prompt.**
+  wide monastic sleeves, no ceremonial drape, no cowl, no hood-up mystique.
+  **There are no Jedi robes anywhere in this pack** — the separate Scene 12 build
+  was dropped on 2026-08-01 and he wears his working dress in the vision.
+- **No visible lightsaber and no hilt on his belt, in any image.** The blaster is
+  the hilt, and it is never ignited in any prompt.
 - **Not a wise mentor.** Not serene, not teaching, not at peace.
 - **Not a ranking officer.** He is a subordinate who stands at the back.
 - **Not athletic or agile.** Fifty, thickened, slow.
@@ -314,18 +312,26 @@ is neutral and absolutely unreadable — he has spent two decades giving nothing
 away. But the eyes are older than the rest of him. Practical make-up realism,
 every pore and broken capillary present. No costume detail competing.
 
-## 6. `vision_robes.png` — the dune, eighteen years earlier
+## 6. `vision_dune.png` — the dune
 **Wide banner, 21:9.**
 
-Wide, hazy vision-image: a lone figure in full Jedi Knight robes standing atop a
-sand dune under a hard afternoon sky, sea visible far beyond. Layered tunic,
-tabards, obi, heavy over-robe, campaign boots — worn, travelled and field-dirty,
-a man fighting a war rather than attending a council. He is turning toward
-camera, caught mid-movement. Blown sand, heat shimmer, a bleached and desaturated
-palette utterly unlike the wet forest. This is a memory, so it may be soft,
-over-bright and slightly unreal at the edges. **This is the only image in the set
-in which he wears robes.** Same man as the other slots: tall, broad, but eighteen
-years younger — less grey, less weight, still upright.
+Wide, hazy vision-image: a lone figure standing atop a sand dune under a hard
+afternoon sky, sea visible far beyond, gazing out. **He is in his ordinary
+working dress — the same costume as every other slot.** No robes, no tabards, no
+Jedi dress of any kind; the separate Knight build was dropped on 2026-08-01. His
+long dark coat may be on him, worn open and moving in the wind.
+
+He is turning toward camera, caught mid-movement, as if something behind him has
+just made a noise. Blown sand, heat shimmer, a bleached and desaturated palette
+utterly unlike the wet forest.
+
+**The script's word is "hazy", and the man is one "we can't quite make out" — so
+resist resolving him.** Distance, glare, heat shimmer and grain are all doing
+work here. This is the one image in the pack that is allowed to be soft,
+over-bright and unreal at the edges, and it should not read as a costume plate.
+He is *slightly* less worn than in the forest slots — the script says "a few
+years younger and less haunted" — but it is the same man in the same clothes and
+nothing should announce a time jump.
 
 ## 7. `expression_strip.png` — performance range
 **Landscape, 16:9.**
@@ -458,7 +464,7 @@ panel is small.
 | 3 | `industrial_b.png` | 9:16 |
 | 4 | `industrial_c.png` | 9:16 |
 | 5 | `detail_portrait.png` | 3:4 |
-| 6 | `vision_robes.png` | 21:9 |
+| 6 | `vision_dune.png` | 21:9 |
 | 7 | `expression_strip.png` | 16:9 |
 | 8 | `blaster.png` | 3:1 |
 | 9 | `crystal.png` | 1:1 |
@@ -477,8 +483,10 @@ python tools/board-generator/generate.py baylan
 
 ## Continuity rules across the set
 
-- Same face, same build, same beard and haircut in every image except slot 7.
-- **Slot 7 is the only image with robes.** Everywhere else he is a mercenary.
+- Same face, same build, same beard and haircut in **every** image, slot 6
+  included. One costume across the whole pack.
+- **There are no Jedi robes in this pack at all.** The only garment that could be
+  mistaken for one is his long dark coat, and every slot that shows it says so.
 - The blaster on his hip in slots 1–3 is the same object as in slots 9 and 12.
 - Every component visible in the reconstructing hilt (slot 12) was visible on the
   assembled blaster (slot 9). Same object, different arrangement.

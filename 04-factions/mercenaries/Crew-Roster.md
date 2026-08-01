@@ -1,152 +1,226 @@
 ---
 title: "Mercenary Crew Roster"
 asset_id: "FACTION-MERCENARIES-ROSTER"
-version: "1.0"
-status: "proposal"
+version: "2.0"
+status: "derived from script v10"
 ship: "YT-2000 Corellian light freighter"
 ---
 
 # Mercenary Crew Roster
 
-Headcount reconciling **ship capacity**, **scene requirements** and **budget**.
+**Ten mercenaries. Every one of them is an individual with a name or a number, a
+costume build, and a scene they die in.**
 
-> **Status: proposal.** Numbers are a starting point for discussion, built from
-> the constraints below. Adjust the extras count; the named roster is fixed by
-> the script.
+> **v2.0 — rebuilt from screenplay v10 on 2026-08-01.** Version 1.0 was written
+> from the Filmanize breakdown before anyone had read the script, and it had four
+> of these wrong. See *What changed* at the end.
 
-## The constraint that solves the problem
+**There is no "generic mercenary" any more.** The concept is gone as a casting
+idea, because it produced a headcount nobody could plan against — four
+interchangeable bodies moved wherever a scene looked thin. What replaced it is
+below: **Merc 1 to Merc 4**, four specific people, each assigned one of the four
+builds in the modular kit, each in a named group, each with a death.
 
-The crew operates a **YT-2000 Corellian light freighter**. It cannot house twenty
-people — in fact ten is already over its nominal capacity — and that is a gift
-rather than a limitation:
+The kit itself survives and is still the right tool — it is now at
+[`03-characters/mercenary-kit/`](../../03-characters/mercenary-kit/), which is
+what its own opening line always said it was: *"This is not a character. It is a
+kit."*
 
-- **A small crew is diegetically correct.** Nobody has to justify why there are
-  only ten mercenaries — the ship barely holds ten.
-- **Being over capacity is characterful.** Bunks improvised in cargo space,
-  someone sleeping in a corridor, no privacy anywhere.
-- It matches the Production Design Bible's requirement that interiors feel
-  *cramped, functional and lived in rather than luxurious*.
-- It makes **Baylan's eighteen years considerably worse**. He has been hiding in a
-  space where you cannot get away from anyone, ever.
-- A second ship would remove the constraint but adds a vehicle design, an
-  exterior, an interior and a reason for two crews. Not recommended unless the
-  story needs it.
+## The ten
 
-## Proposed roster — 10
+### Named — speaking parts (6)
 
-### Named (6)
+| # | Name | Build | Group | Dies |
+|---|---|---|---|---|
+| 1 | **Captain Jasu** | own costume | Right flank, with Bay | **Sc.25 — Nyx's bolt, deflected off Baylan's blade into her chest** |
+| 2 | **Baylan** | own costume | Right flank, with Jasu | **Survives.** The only one |
+| 3 | **Nyx** | own costume | Leads the Vala squad | Sc.25 — Baylan, through the chest. The blade changes on him |
+| 4 | **Shada** | own costume | Pincer, from the left | Sc.25 — Baylan's massacre |
+| 5 | **Reya Fenn** | own costume | Pincer, from the left | Sc.25 — Baylan's massacre |
+| 6 | **Yaslo Bis** | own costume | Pincer, from the left | Sc.25 — Baylan's massacre |
 
-| Name | Role | Ends the film |
+### Numbered — built from the kit (4)
+
+| # | Name | Build | Group | Dies |
+|---|---|---|---|---|
+| 7 | **Merc 1** — the Wookiee | `heavy` — *the large one* | Vala squad | Sc.24 — Vala's grenade, taken from his own chest rig |
+| 8 | **Merc 2** | `ranged` — *the rifle* | Vala squad | Sc.24 — Vala's grenade |
+| 9 | **Merc 3** | `armoured` — *the close one* | Vala squad | Sc.24 — Vala's grenade |
+| 10 | **Merc 4** | `nearhuman` — *the near-human* | Pincer, from the left | Sc.25 — Baylan's massacre |
+
+**Four builds, four mercs, one each.** No costume is built twice and no two
+figures in any frame wear the same thing, which is the faction's whole identity —
+nothing is issued and nothing matches.
+
+Plus **the akk dog**, wherever Jasu is.
+
+## How the crew splits, in the script's own words
+
+Scene 23 does it explicitly:
+
+> **CAPTAIN JASU:** Nyx. Take a squad after that woman. Get her.
+>
+> *Nyx nods to a few of the mercenaries and they shoot off after Vala.*
+>
+> **CAPTAIN JASU:** We'll go after them. **You four** — pincer movement. Take them
+> from the left. **Bay — you're with me.** We'll come in from the right.
+
+Three groups, and everybody is in exactly one of them.
+
+| Group | Who | Where |
 |---|---|---|
-| **Captain Jasu** | Commands, via the akk dog | Killed in the clearing |
-| **Baylan** | Embedded 18 years | Leaves with Shin |
-| **Nyx** | Patrol, pursuit. Baylan's friend | Killed last, in the clearing |
-| **Shada** | Assassin, thief, scout, tracker | Killed in the clearing |
-| **Loryl** | Sabacc scene, pursuit | Killed by Vala's grenade |
-| **Reya Fenn** | Sabacc scene, pursuit | Killed by Vala's grenade |
+| **The Vala squad — 4** | Nyx, Merc 1 (Wookiee), Merc 2, Merc 3 | Sc.24, the clearing |
+| **The pincer — 4** | Shada, Reya Fenn, Yaslo Bis, Merc 4 | Sc.25, from the left |
+| **The right flank — 2** | Captain Jasu, Baylan | Sc.25, arriving second |
 
-Plus **the akk dog**, which goes wherever Jasu goes.
+## Scene by scene
 
-### Extras (4)
+### Sc.10 — the Sabacc game: **all ten**
 
-Four background mercenaries, built from the Generic Mercenary modular kit. Two
-die with the grenade, two in the clearing.
+One scene, one night, one campfire, the entire crew in frame. Establish the crew
+once and the audience believes in it for the rest of the film, which is what lets
+every later scene carry two to four people without feeling thin.
 
-**One of them is the Wookiee** — the large mercenary who crushes Vala. Decided
-2026-07-31: a full Wookiee and an established member of the crew, present at the
-Sabacc game and on the pursuit rather than appearing only for the fight. See the
-faction document for the cost and the do-not-be-Chewbacca rule.
+Speaking here: Nyx, Shada, Reya Fenn, Yaslo Bis. Yaslo deals.
 
-## How the crew splits
+**If the budget allows a full crew on exactly one day, make it this one.**
 
-### Scene 10 — the Sabacc game: **all ten**
+### Sc.24 — the Vala fight: **4**
 
-**This is where you spend your extras.** One scene, one night, one campfire — the
-entire crew in a single frame.
+Nyx, the Wookiee, Merc 2, Merc 3.
 
-Establishing the full crew once means the audience believes in it for the rest of
-the film, and every other scene can carry two to four people without feeling
-thin. The scene is already written for it: cards, a hand of Sabacc, a pile of
-chips, a campfire, a tarpaulin.
+> The group of mercenaries emerge from the trees, **surrounding her like predators
+> with injured prey** … She charges at one mercenary **before they get the chance
+> to all attack at once** … **The wookie hauls her off of her feet.**
 
-If the budget allows extras on exactly one day, make it this one.
+Four is the floor for that staging — "surrounding" and "all attack at once" both
+need bodies, and one of them has to be big enough to lift her off the ground.
 
-### Scene 23 onward — the Vala pursuit: **5**
+**Vala's grenade kills three.** Nyx survives it, which the script insists on — he
+walks into the finale *"tattered and singed, blood running down the side of his
+face."* The blast was survivable at his distance, and that matters: it is also why
+nothing in the script actually confirms Vala died in it.
 
-| | |
-|---|---|
-| Nyx | Leads the squad. **Survives**, dazed |
-| Loryl | Killed |
-| Reya Fenn | Killed |
-| Extra — the Wookiee | Killed. Vala takes the grenade from his bandolier |
-| Extra | Killed |
+### Sc.25 — the finale: **6, then 7**
 
-**Vala's grenade accounts for four.** Within the intended three-to-five range.
+The pincer four arrive first and hold the escapees at gunpoint. Jasu and Baylan
+come in from the right. Nyx arrives last, on foot and injured.
 
-Loryl and Reya Fenn both die here, off screen, which is efficient: two named
-characters with Sabacc-scene presence removed without staging two more deaths in
-the clearing.
+The script gives two of the pincer group beats beyond their lines:
 
-### Scene 24/24A — the clearing: **5, then 6**
+> One of the mercenaries **nudges another**.
 
-| | |
-|---|---|
-| Captain Jasu | Killed by Baylan |
-| Shada | Killed by Baylan |
-| Extra | Killed by Baylan |
-| Extra | Killed by Baylan |
-| Baylan | — |
-| **Nyx**, arriving late and dazed | **Killed last.** The blade changes on him |
+> One of the mercenary **swallows hard, their weapon wavering a little**.
 
-Plus the akk dog, knocked out by Shin.
+**The wavering one is Merc 4.** That is the only moment in the film where a
+mercenary is visibly unsure, it lands during Krellis's speech about there being
+another way, and it is the reason Merc 4 is a person rather than a number. Cast
+accordingly — it needs a face that can do it.
 
-**Baylan kills five people.** Enough to be a massacre, few enough to stage.
+Then Shin's blast puts them all down unconscious, and:
+
+| Beat | Who dies | By |
+|---|---|---|
+| Deflected bolt | **Captain Jasu** | Nyx, firing at Baylan. He kills his own captain by accident, through the man he is shooting at |
+| Through the chest | **Nyx** | Baylan. Blade withdrawn orange |
+| **The massacre** | **Shada, Reya Fenn, Yaslo Bis, Merc 4** | Baylan, as they stir |
+
+### The massacre is four people, and that is the point
+
+> The unconscious mercenaries begin to stir. … *"I have to take care of this
+> first."* He whirls into battle, **cutting down his ex-comrades in a flurry of
+> light and screams.** … With all of the mercenaries dead, Baylan returns to her
+> side. **He's barely broken a sweat.**
+
+**Four, not counting Nyx.** This is the film's only demonstration that he can take
+several opponents at once, and it has to read as easy — the design has spent
+twenty-four scenes insisting he is heavy, slow and unremarkable, and this is the
+payoff. Three would be a fight. Four is a capability.
+
+It is also why the pincer group is four rather than three, which is the one script
+change this roster required.
 
 ## The arithmetic
 
 ```
-Crew total                    10   (6 named + 4 extras)
-  Vala pursuit                 5   → 4 killed by the grenade, Nyx survives
-  Clearing                     5   → all killed by Baylan
-  Nyx returns to the clearing      → killed last
-                              ---
-Baylan kills                   5
-Vala kills                     4
-Survivors                      1   (Baylan)
+Crew total                     10   (6 named + 4 numbered)
+
+  Vala squad                    4   Nyx + Merc 1, 2, 3
+    Vala's grenade kills        3   Nyx survives
+  Pincer                        4   Shada, Reya Fenn, Yaslo Bis, Merc 4
+  Right flank                   2   Jasu + Baylan
+                               ---
+Killed by Vala                  3
+Killed by Nyx (via Baylan)      1   Jasu, deflected bolt
+Killed by Baylan                5   the massacre of 4, plus Nyx
+                               ---
+Dead                            9
+Survivors                       1   Baylan
 ```
 
 **Every mercenary in the film dies except Baylan.**
 
+## Why ten, and why it holds
+
+The crew operates a **YT-2000 Corellian light freighter**, which cannot house
+twenty people — ten is already over its nominal capacity, and that is a gift:
+
+- **Nobody has to justify the number.** The ship barely holds ten.
+- **Being over capacity is characterful.** Bunks improvised in cargo space,
+  someone sleeping in a corridor, no privacy anywhere.
+- It matches the Bible's requirement that interiors read *cramped, functional and
+  lived in rather than luxurious*.
+- It makes **Baylan's eighteen years considerably worse.** He has been hiding in a
+  space where you cannot get away from anyone, ever.
+
+## If the numbers have to move
+
+- **The floor is 8.** Drop Merc 2 and Merc 3; the grenade takes one plus the
+  Wookiee. The story is unaffected.
+- **Do not drop Merc 4.** That removes the massacre's fourth body and the
+  wavering-weapon beat in one go.
+- **Add extras to Sc.10 and the finale**, never to the Vala squad. That fight is
+  three-quarters off screen and gains nothing from bodies.
+- **Merc 1 is the expensive one.** A full Wookiee build, and his suit and hair
+  maintenance scale with every day he is called. He is on for Sc.10, the pursuit
+  and Sc.24.
+
 ## Notes
 
-- **Shada dies in the clearing.** The character with the most complete design
-  package in the project is killed by Baylan. Worth knowing before more is
+- **Shada dies in the finale.** The character with the most complete design
+  package in the project is cut down in the massacre. Worth knowing before more is
   invested in her.
-- The crew must read as **big enough to lose four people and still be a threat**,
-  which is what the Sabacc scene is for.
-- Camp scenes (9, 13, 15, 19) can carry whatever number is available. Only Scene
-  10 needs everyone.
-- If extras are unavailable, the floor is **8** — drop two extras, and the grenade
-  takes three instead of four. The story is unaffected.
-- If more extras become available, add them to the Sabacc scene and the clearing
-  rather than the Vala pursuit; the pursuit happens off screen and gains nothing
-  from bodies.
+- **Nyx is not killed last** — he dies before the massacre, not after it. Earlier
+  design documents had this the other way round.
+- The crew must read as **big enough to lose three people and still be a threat**,
+  which is what Sc.10 is for.
+- Camp scenes 9, 13, 15 and 19 can carry whatever number is available. Only Sc.10
+  needs everyone.
+
+## What changed from v1.0
+
+Four errors, all from working off the breakdown before the script was here:
+
+| v1.0 said | v10 says |
+|---|---|
+| Reya Fenn killed by Vala's grenade, off screen | **Alive in the finale.** She speaks first, and dies in the massacre |
+| **Loryl** in the Sabacc scene and pursuit | **Loryl is not in v10 at all.** `Yaslo Bis` has those beats |
+| Nyx killed last | He dies **before** the massacre |
+| Baylan kills five, Jasu among them | Baylan kills five, but **Jasu is not one of them** — Nyx's deflected bolt is |
 
 ## Open
 
-- Confirm exact YT-2000 dimensions against production reference before the
-  exterior is locked.
+- **Is `Yaslo Bis` a rename of `Loryl`, or a different character?** Determines
+  whether `03-characters/loryl/` is deleted or was always this person under
+  another name. Flagged, not assumed.
+- Confirm exact YT-2000 dimensions before the exterior is locked.
 - The ship has no name or registry.
-- ~~Is the large mercenary a Wookiee?~~ **Decided 2026-07-31: yes, and an
-  established member of the crew.** See [`Faction.md`](Faction.md).
-- Does the Wookiee's presence at the Sabacc game change the shooting schedule for
-  Scene 10? His suit and hair maintenance scale with the days he is on.
-- Have any named crew been missed from the clearing?
-- Does the akk dog count against ship capacity? It is a large animal on a small
-  freighter, which is its own design problem — where does it live?
+- Does the akk dog count against ship capacity? Where does it sleep?
+- Does the Wookiee's presence at Sc.10 change that day's schedule?
 
 ## Revision History
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
-| 1.0 | 2026-07-30 | proposal | Roster of 10 proposed from ship capacity and scene splits. |
+| 2.0 | 2026-08-01 | derived from script v10 | Rebuilt against the screenplay. Generic mercenaries replaced by Merc 1–4 as named individuals, one per kit build. Groups derived from the Sc.23 split. Pincer raised to four so the massacre is four bodies. Four v1.0 errors corrected. |
+| 1.0 | 2026-07-30 | proposal | Roster of 10 proposed from ship capacity and scene splits, before the script was available. |

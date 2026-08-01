@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 02 — SCENE 10, THE CAMPFIRE]
+[MERCENARY-KIT — SLOT 02 — SCENE 10, THE CAMPFIRE]
 Output file: sabacc.png
 Aspect ratio: 16:9  (landscape)
 

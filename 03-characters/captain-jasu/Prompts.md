@@ -281,7 +281,7 @@ This character has no `board-data.yaml` yet, so `generate.py captain-jasu` will 
 
 ## Open questions blocking this character
 
-- As captain, this design sets the rank language for the whole mercenary faction. Settle it before Nyx, Loryl, Reya Fenn and Generic Mercenary — their answers cascade from it.
+- As captain, this design sets the rank language for the whole mercenary faction. Settle it before Nyx, Loryl, Reya Fenn and Mercenary Kit — their answers cascade from it.
 - Rank is one of the few sanctioned uses of bright colour in the Bible. Decide whether Jasu carries a rank marking and what it is.
 
 ## Revision History

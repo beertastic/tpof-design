@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE CLOSE ONE — FRONT]
+[MERCENARY KIT — TURNAROUND — THE CLOSE ONE — FRONT]
 Output file: turn-armoured-front.png
 Aspect ratio: 2:3  (tall, full figure)
 

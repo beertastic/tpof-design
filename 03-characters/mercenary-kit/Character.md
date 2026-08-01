@@ -1,13 +1,13 @@
 ---
-title: "Generic Mercenary"
-asset_id: "CHAR-GENERIC-MERCENARY"
+title: "Mercenary Kit"
+asset_id: "CHAR-MERCENARY-KIT"
 version: "0.2"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown, Mercenaries faction guide, Crew-Roster"
 ---
 
-# Generic Mercenary
+# Mercenary Kit
 
 > **Production rule:** Refer to the Production Design Bible before any visual
 > development or image generation.
@@ -30,21 +30,37 @@ boots. No two pairs match.
 
 ## Story Function
 
-Four extras, drawn from this kit. See
-[`Crew-Roster.md`](../../04-factions/mercenaries/Crew-Roster.md).
+**These are not extras and they are not interchangeable.** Rebuilt 2026-08-01
+against script v10: the four builds are now four specific people, **Merc 1 to
+Merc 4**, each in a named group with a scene they die in. Nobody gets moved
+between fights to fill a frame. See
+[`Crew-Roster.md`](../../04-factions/mercenaries/Crew-Roster.md), which is the
+authority on the split.
+
+| Build | Person | Group | Dies |
+|---|---|---|---|
+| `heavy` — the large one | **Merc 1**, the Wookiee | Vala squad | Sc.24, Vala's grenade — taken from his own chest rig |
+| `ranged` — the rifle | **Merc 2** | Vala squad | Sc.24, Vala's grenade |
+| `armoured` — the close one | **Merc 3** | Vala squad | Sc.24, Vala's grenade |
+| `nearhuman` — the near-human | **Merc 4** | Pincer, from the left | Sc.25, Baylan's massacre |
+
+**One build each. No costume is made twice.**
 
 | Scene | Beat |
 |---|---|
 | 10 | **The Sabacc game.** All ten of the crew in one frame, one night, one campfire |
-| 20–23 | The pursuit. The crew splits |
-| 23 | **The large one takes hold of Vala.** She pulls a grenade from his belt; he panics and drops her; it detonates |
-| 23 | Two die with the grenade |
-| 24 | Two are killed by Baylan in the clearing |
+| 20–23 | The pursuit. Sc.23 splits the crew into three groups |
+| 24 | **Merc 1 hauls Vala off her feet.** She takes a thermal detonator from his chest rig; it detonates. Mercs 1, 2 and 3 die. Nyx survives |
+| 25 | **Merc 4** is the one who *"swallows hard, their weapon wavering a little"* during Krellis's speech — the only mercenary in the film who visibly doubts. He dies in Baylan's massacre |
 
 **Scene 10 is where these four earn their money.** One frame establishes that
 this crew exists, and the audience believes in it for the rest of the film. It is
 also the only place all four are seen together, which makes it the test of
 whether the kit produced individuals or a set.
+
+**Merc 4 needs a face that can act.** The wavering-weapon beat is small and it is
+the only crack in the crew's professionalism; it is why he is a person rather than
+a number, and it is why he must not be cut to save a costume.
 
 **Every mercenary in the film dies except Baylan.**
 

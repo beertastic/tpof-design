@@ -1,6 +1,6 @@
 ---
-title: "Generic Mercenary — Image Prompt Pack"
-asset_id: "CHAR-GENERIC-MERCENARY"
+title: "Mercenary Kit — Image Prompt Pack"
+asset_id: "CHAR-MERCENARY-KIT"
 version: "0.2"
 status: "ready"
 faction: "Mercenaries"
@@ -11,7 +11,7 @@ governing_documents:
   - outfits.yaml
 ---
 
-# Generic Mercenary — Image Prompt Pack
+# Mercenary Kit — Image Prompt Pack
 
 **Faction:** Mercenaries
 **Scenes:** 10, 20–23, 24
@@ -49,7 +49,7 @@ whether the kit produced four individuals or one costume in four colours. Every
 ## How to use
 
 Each numbered slot is a complete, self-contained prompt. Save the result to the
-exact filename given, in `03-characters/generic-mercenary/source/artwork/`.
+exact filename given, in `03-characters/mercenary-kit/source/artwork/`.
 
 Everything needed is written out below — no other file has to be read first.
 

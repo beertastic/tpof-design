@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 10 — FUR COLOUR AND TEXTURE]
+[MERCENARY-KIT — SLOT 10 — FUR COLOUR AND TEXTURE]
 Output file: heavy-fur.png
 Aspect ratio: 1:1  (square)
 

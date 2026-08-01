@@ -25,7 +25,7 @@ each other and stayed together because the work pays.
 | [Reya Fenn](../../03-characters/reya-fenn/) | Sabacc scene, final clearing |
 | [Loryl](../../03-characters/loryl/) | Sabacc scene, final clearing |
 | [Shada](../../03-characters/shada/) | Assassin, thief, scout and tracker |
-| [Generic Mercenary](../../03-characters/generic-mercenary/) | Reusable background family |
+| [Mercenary Kit](../../03-characters/mercenary-kit/) | Reusable background family |
 
 Also present: **an akk dog** belonging to Jasu — see
 [`08-species/akk-dog/`](../../08-species/akk-dog/).
@@ -106,7 +106,7 @@ He has been here eighteen years and owns nothing that says anything about him. I
 this faction that is not invisible — it is the one odd thing about him, and it is
 deliberate.
 
-## Generic Mercenary — a kit of parts
+## Mercenary Kit — a kit of parts
 
 Because there is no uniform, the background family cannot be built as one costume
 in multiple copies. It needs a **modular system**: a set of shared component
@@ -116,7 +116,7 @@ background figures read as individuals who chose their own gear.
 The rule is the class of item, not the item itself. Every mercenary has good
 boots; no two pairs match.
 
-See [`03-characters/generic-mercenary/`](../../03-characters/generic-mercenary/).
+See [`03-characters/mercenary-kit/`](../../03-characters/mercenary-kit/).
 
 ## The large mercenary — a Wookiee. DECIDED 2026-07-31
 
@@ -137,7 +137,7 @@ and the suit and hair maintenance scale with them. That is the price of the beat
 working, and it is now a known cost rather than a discovered one.
 
 Build him from the modular kit as
-[`generic-mercenary` / `heavy`](../../03-characters/generic-mercenary/outfits.yaml).
+[`mercenary-kit` / `heavy`](../../03-characters/mercenary-kit/outfits.yaml).
 
 ### What the beat still needs
 

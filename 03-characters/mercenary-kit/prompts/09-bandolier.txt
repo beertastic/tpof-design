@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 09 — THE HERO PROP]
+[MERCENARY-KIT — SLOT 09 — THE HERO PROP]
 Output file: bandolier.png
 Aspect ratio: 1:1  (square)
 

@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 01 — THE FOUR TOGETHER]
+[MERCENARY-KIT — SLOT 01 — THE FOUR TOGETHER]
 Output file: lineup.png
 Aspect ratio: 2:1  (wide)
 

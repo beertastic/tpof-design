@@ -1,4 +1,4 @@
-# generic-mercenary — paste-ready prompts
+# mercenary-kit — paste-ready prompts
 
 One file per image. Each is completely self-contained: open it, select all,
 paste into the image generator. Nothing to assemble, nothing to remove.
@@ -9,7 +9,7 @@ Attach actor reference images to the conversation first — see
 Save each result to source/artwork/ using the exact filename stated at the
 top of the prompt, then run:
 
-    python tools/board-generator/generate.py generic-mercenary
+    python tools/board-generator/generate.py mercenary-kit
 
 | File | Image | Ratio | Realism | Anamorphic | Skin |
 |---|---|---|---|---|---|

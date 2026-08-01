@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 11 — THE MAKE-UP REFERENCE]
+[MERCENARY-KIT — SLOT 11 — THE MAKE-UP REFERENCE]
 Output file: nearhuman-markings.png
 Aspect ratio: 3:4  (portrait)
 

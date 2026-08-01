@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 05 — HOW EACH ONE CARRIES]
+[MERCENARY-KIT — SLOT 05 — HOW EACH ONE CARRIES]
 Output file: kit-harness.png
 Aspect ratio: 3:1  (wide banner)
 

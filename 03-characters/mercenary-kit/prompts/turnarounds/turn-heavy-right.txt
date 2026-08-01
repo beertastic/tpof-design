@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE LARGE ONE — RIGHT SIDE]
+[MERCENARY KIT — TURNAROUND — THE LARGE ONE — RIGHT SIDE]
 Output file: turn-heavy-right.png
 Aspect ratio: 2:3  (tall, full figure)
 

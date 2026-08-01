@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 08 — WHAT MAKES THEM PEOPLE]
+[MERCENARY-KIT — SLOT 08 — WHAT MAKES THEM PEOPLE]
 Output file: kit-marks.png
 Aspect ratio: 3:1  (wide banner)
 

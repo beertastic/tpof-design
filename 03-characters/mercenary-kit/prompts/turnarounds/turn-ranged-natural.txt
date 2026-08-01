@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE RIFLE — NATURAL POSE]
+[MERCENARY KIT — TURNAROUND — THE RIFLE — NATURAL POSE]
 Output file: turn-ranged-natural.png
 Aspect ratio: 2:3  (tall, full figure)
 

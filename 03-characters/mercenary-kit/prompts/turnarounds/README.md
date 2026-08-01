@@ -1,4 +1,4 @@
-# Generic Mercenary — costume turnarounds
+# Mercenary Kit — costume turnarounds
 
 **The primary deliverable.** Five images per outfit: four technical views
 and one natural pose. Generate these in full before any mood image.

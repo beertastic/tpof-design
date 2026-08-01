@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE NEAR-HUMAN — RIGHT SIDE]
+[MERCENARY KIT — TURNAROUND — THE NEAR-HUMAN — RIGHT SIDE]
 Output file: turn-nearhuman-right.png
 Aspect ratio: 2:3  (tall, full figure)
 

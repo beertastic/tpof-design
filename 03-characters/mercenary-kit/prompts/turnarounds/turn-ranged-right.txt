@@ -1,4 +1,4 @@
-[GENERIC MERCENARY — TURNAROUND — THE RIFLE — RIGHT SIDE]
+[MERCENARY KIT — TURNAROUND — THE RIFLE — RIGHT SIDE]
 Output file: turn-ranged-right.png
 Aspect ratio: 2:3  (tall, full figure)
 

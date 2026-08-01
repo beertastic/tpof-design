@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 06 — WHERE THE ARMOUR SITS]
+[MERCENARY-KIT — SLOT 06 — WHERE THE ARMOUR SITS]
 Output file: kit-plating.png
 Aspect ratio: 3:1  (wide banner)
 

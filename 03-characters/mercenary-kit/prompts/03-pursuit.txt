@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 03 — MOVING THROUGH THE FOREST]
+[MERCENARY-KIT — SLOT 03 — MOVING THROUGH THE FOREST]
 Output file: pursuit.png
 Aspect ratio: 16:9  (landscape)
 

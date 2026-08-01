@@ -1,4 +1,4 @@
-[GENERIC-MERCENARY — SLOT 04 — HEAD TREATMENTS]
+[MERCENARY-KIT — SLOT 04 — HEAD TREATMENTS]
 Output file: kit-heads.png
 Aspect ratio: 3:1  (wide banner)
 

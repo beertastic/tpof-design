@@ -2,7 +2,7 @@
 title: "Baylan — Movement Breakdown, Scenes 1–20"
 asset_id: "BLOCKING-BAYLAN-ACT-ONE"
 version: "1.0"
-status: "working — open questions block the map"
+status: "working — geography settled 2026-08-01; one question open"
 source: "Screenplay v10"
 ---
 
@@ -22,19 +22,32 @@ anyone, and he is alone in most of it.
 | # | Space | Scenes | Int/Ext |
 |---|---|---|---|
 | **A** | **The meditation clearing** — "a small clearing" | 3, 5, 7 | Ext |
-| **B** | **The camp clearing** — "a small, cramped clearing", tarpaulin against a tree | 9, 19 | Ext |
+| **B1** | **Jasu's nook** — "a small, cramped clearing" at the treeline, under a low branch, tarpaulin against a tree | 9 | Ext |
+| **B2** | **The open camp** — the landing clearing, the ship, the fire, the stores | 19 | Ext |
 | **C** | **The ship — main hold** | 10 | Int |
 | **D** | **The ship — crew bunks** | 13, 15 | Int |
 | **E** | **The storage area** — "makeshift storage area, surrounded by crates and spare ammo boxes" | 14 | Ext |
 
-**A and B are written as two different clearings.** In Sc.7 he "approaches the
-edge of the clearing" and in Sc.9 he "ducks under a particularly low branch into
-a small, cramped clearing". Whether that is a real second space or the same one
-re-entered is the first thing the map has to settle — see the questions.
+**Settled 2026-08-01.** The mercenaries could not overfly the dampening field or
+set down at the wreck, so they landed at **the first clearing that would hold a
+YT-2000**, out on the outskirts of the dense forest, about two kilometres from
+the crash. That clearing is big.
 
-**The ship is not placed relative to any of them.** Nobody walks to it on screen.
-Its only geographic anchor is the ramp in Sc.13, which puts him straight into the
-trees for Sc.14.
+Which means **Sc.9's "small, cramped clearing" is not the camp** — it is Jasu's
+nook at the treeline, and no line has to change. The set has two registers and
+the scenes divide cleanly between them:
+
+| Register | Character | Scenes |
+|---|---|---|
+| **Open, at the ship** | Room for ten people, sky overhead, hull behind them | 19 |
+| **Tight, at the treeline** | Nooks, low branches, no sky, a man can be unobserved | 9, 14 |
+
+**The ramp faces the treeline, not the fire** — Sc.13 runs ramp → trees →
+storage in one move, so he gets into cover without crossing open ground or
+passing anyone.
+
+See [`07-locations/forest-mercenary-camp/`](../../07-locations/forest-mercenary-camp/)
+and [`07-locations/forest-world/`](../../07-locations/forest-world/).
 
 ---
 
@@ -69,7 +82,7 @@ Nyx has walked in and got down to his level while he was under.
 **Contact:** Nyx touches him twice in one scene, both times on the shoulder. He is
 the only person in the film who touches Baylan.
 
-### Sc.9 — EXT. MERCENARY CAMP. Evening. **Space B. With JASU, the akk dog, then the whole crew.**
+### Sc.9 — EXT. MERCENARY CAMP. Evening. **Space B1, Jasu's nook. With JASU, the akk dog, then the whole crew.**
 
 > Bay **ducks under a particularly low branch** into a small, cramped clearing.
 
@@ -140,7 +153,7 @@ Cord, pouch, crystal, the blaster comes apart.
 **The most private thing he does in the film happens in a room with four other
 people in it.** That is the whole value of moving it aboard.
 
-### Sc.19 — EXT. MERCENARY CAMP. Early morning. **Space B. Whole crew.**
+### Sc.19 — EXT. MERCENARY CAMP. Early morning. **Space B2, open by the ship. Whole crew.**
 
 | Beat | Movement |
 |---|---|
@@ -160,11 +173,11 @@ Jasu hands him the scanner. He finds them, and his jaw tightens.
 
 ## What the map has to support
 
-1. **A stoop-height branch** between the camp and wherever Baylan comes from.
+1. **A stoop-height branch** into Jasu's nook at the treeline.
 2. **A tarpaulin leaned against a tree**, big enough for Jasu and a large animal,
    with room for a second person to kneel.
-3. **Space for ten people to form a semi-circle** with several kneeling (Sc.19)
-   in the same clearing described as "small, cramped" (Sc.9).
+3. **Space for ten people to form a semi-circle** with several kneeling (Sc.19),
+   in the open by the ship — a different part of the set from Sc.9's nook.
 4. **A ramp** that puts a man straight into trees.
 5. **A stack of crates and ammunition boxes** with a sittable rock, far enough
    from the ship to feel unobserved and on somebody's patrol route.
@@ -173,33 +186,49 @@ Jasu hands him the scanner. He finds them, and his jaw tightens.
 
 ---
 
-## Open questions — these block the map
+## Questions — four closed, one open
 
-### 1. Where does the ship actually sit, and how big is the camp clearing?
+### 1. Where does the ship sit, and how big is the camp? — **ANSWERED 2026-08-01**
 
-**A YT-2000 is roughly 30 m long.** Scene 9 calls the camp *"a small, cramped
-clearing"* and Scene 19 puts ten people in a semi-circle in it. Those do not fit
-together, and neither fits a landed freighter.
+**The landing clearing is big.** They could not overfly the dampening field or
+set down at the wreck, so they went out to the outskirts of the dense forest and
+took the first clearing that would hold a YT-2000, about two kilometres from the
+crash.
 
-### 2. Are the meditation clearing and the camp two spaces or one?
+**And Scene 9 needs no change.** *"A small, cramped clearing"* under *"a
+particularly low branch"* is **Jasu's nook at the treeline**, not the main camp —
+she has taken a pocket at the edge for herself and the animal, and the crew comes
+to her. Sc.9 has her call *"Gather round!"* **through the trees**, and they crowd
+in and kneel around her in the dirt.
 
-The script implies two. If they are one, Sc.7's *"approaches the edge of the
-clearing"* and Sc.9's *"ducks under a low branch into"* need reconciling.
+So the set has two registers: **open at the ship** (Sc.19, ten people, sky) and
+**tight at the treeline** (Sc.9 and 14, no sky, a person can be unobserved).
 
-### 3. Where is Baylan during the Sabacc game?
+### 2. Meditation clearing and camp — two spaces or one? — **TWO**
 
-He is absent from the only scene where the crew is together off duty, and the
-script never says where he is. Whatever the answer, it is characterisation.
+Space A is out at the forest edge, away from the unloading. He has walked off to
+be by himself, which is the first thing the film tells us about him and the same
+thing Sc.14 tells us again.
 
-### 4. How far is the storage area from the ship?
+### 3. Where is Baylan during the Sabacc game? — **STILL OPEN**
 
-Far enough that he risks using the Force. Close enough to be on Nyx's patrol
-route and to walk back in one cut.
+He is absent from the only scene where the crew is together off duty, and he is
+talked about while absent — *"We all know Bay's her right hand."*
 
-### 5. Which way does the ramp face?
+The script never says. Whatever the answer it is characterisation, and it decides
+whether he is on the hold set at all.
 
-Sc.13 goes ramp → trees → storage in one move. If the ramp faces the camp, he
-walks through the middle of it first, past the fire, and someone could see him.
+### 4. How far is the storage area from the ship? — **ANSWERED**
+
+At the treeline, past the fire and past the ramp light. Far enough to be in the
+dark and out of casual sight, close enough for Nyx to walk into on a patrol
+route and for Baylan to head *"back towards the camp"* in one cut.
+
+### 5. Which way does the ramp face? — **THE TREELINE**
+
+Scene 13 runs ramp → trees → storage in one move, so he gets off the ship into
+cover **without crossing the open ground or passing the fire.** That is the
+difference between a man slipping out and a man being seen to leave.
 
 ## Revision History
 

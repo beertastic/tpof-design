@@ -46,24 +46,84 @@ live out here.
 
 ## Visual Design
 
-TBD. The one fixed point: this is a camp **around a landed freighter**, not a
-camp in empty woodland. The ship should be readable in the background of the
-exterior scenes.
+A camp **around a landed freighter**, not a camp in empty woodland. The ship
+should be readable in most exterior frames here.
 
 ## Geography and Layout
 
-TBD. Needs the ship's footprint and ramp position settled first — the Scene 13
-beat has Baylan going from his bunk *"down the ramp into the crisp night air"*
-and straight into Scene 14, so the ramp, the stores and the tree line are one
-continuous piece of geography.
+**Settled 2026-08-01.** They could not overfly the dampening field or set down at
+the wreck, so they went out to the **outskirts of the dense forest and landed at
+the first clearing that would take a YT-2000** — about two kilometres from the
+crash. See [`../forest-world/`](../forest-world/).
+
+That gives the set two registers, and the scenes divide cleanly between them:
+
+```
+        dense forest ────────────────────────────────
+                                                     \
+   [ E ] storage ....... treeline ....... [ B ] Jasu's nook
+    crates, ammo boxes,        low branch    tarp against a tree
+    a sittable rock                          the akk dog
+             .                                    .
+             .            THE LANDING CLEARING    .
+             .                                    .
+              ......  [ ship + ramp ] .... fire ...
+                       C = hold                    tarp windbreak
+                       D = bunks
+                                    open ground, sky overhead
+```
+
+| Register | What it is | Scenes |
+|---|---|---|
+| **Open, at the ship** | Room to stand ten people up, sky overhead, the hull behind them | 19, the muster |
+| **Tight, at the treeline** | Nooks, low branches, no sky. A person can be unobserved here | 9, 14 |
+
+**This is what resolves Scene 9.** The script calls it *"a small, cramped
+clearing"* reached by ducking *"under a particularly low branch"* — which never
+fitted a thirty-metre freighter, and does not have to. **That is Jasu's nook at
+the treeline, not the main camp.** She has taken a pocket at the edge for herself
+and the animal, and the crew comes to *her* — Sc.9 has her call *"Gather round!"*
+**through the trees** and the crew crowd in and kneel around her in the dirt.
+
+Nobody has to change a line. It is also characterisation: the captain does not
+walk out to brief her people, and the one place in camp with a roof over it
+belongs to her dog.
+
+**Scene 19 is the other register** — the morning muster, in the open by the ship,
+where ten people can form a semi-circle and Baylan can stand at the back.
+
+### The ramp
+
+Scene 13 runs ramp → trees → storage in one move, so **the ramp faces the
+treeline, not the fire.** He gets off the ship and into cover without crossing
+the open ground or passing anyone. That is the difference between a man slipping
+out and a man being seen leaving.
 
 ## Set Dressing
 
-TBD.
+**Nobody sleeps outside. There are no tents** — the whole crew beds down aboard,
+which is why the ship reads as over capacity and why Baylan has nowhere to be
+alone. The camp is a **working** area, not a sleeping one.
+
+- **Unloaded stores** — crates and ammunition boxes in stacks. Sc.7 has Nyx
+  hefting one; Sc.14 has Baylan lifting one with the Force.
+- **A fire**, in the open.
+- **Tarpaulins as windbreaks and shelter**, never as accommodation. One of them,
+  leaned against a tree, is Jasu's.
+- **The ship**, and the ramp.
+
+No bedrolls on the ground, no personal kit strewn about, nothing that says people
+live out here.
 
 ## Lighting and Atmosphere
 
-TBD.
+Evening for Sc.9, night for Sc.14, early morning for Sc.19 — see
+[`../forest-world/`](../forest-world/).
+
+The camp has **two practical sources and they belong to different registers**:
+the fire in the open, and the ship's own working lights spilling down the ramp.
+Sc.14 has neither — he is out past both, in the dark, which is why he risks
+what he risks.
 
 ## Scene Appearances
 

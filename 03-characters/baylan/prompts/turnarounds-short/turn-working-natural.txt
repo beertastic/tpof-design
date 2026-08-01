@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 4a909724 (short) · repo commit 5e6820a 2026-08-01 17:33
+Prompt version: 4a909724 (short) · repo commit 870ad6f 2026-08-01 17:40
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 5e6820a, prompt 4a909724.
+    Working from commit 870ad6f, prompt 4a909724.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

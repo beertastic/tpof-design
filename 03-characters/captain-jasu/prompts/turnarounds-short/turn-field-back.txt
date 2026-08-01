@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — BACK]
 Output file: turn-field-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 06dec32e (short) · repo commit 327f476 2026-08-01 21:23
+Prompt version: 5ffd8c0b (short) · repo commit 97a2027 2026-08-01 21:29
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,6 +10,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
+  THE SHOULDER MANTLE, THE RIBBED TORSO : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
@@ -21,14 +22,15 @@ SHE IS 28 AND 150 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a mercena
 RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in…
 
 MUST BE TRUE OF THIS IMAGE:
-1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. Do not compensate for that.
-2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE. NOT a full skirt, NOT a wide coat, NOT robes.
-3. A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK. NO horns, NO wings, NO plume, NO face plate, NO neck guard, NO visor, and it covers NONE of her face.
-4. GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART. She takes the largest share and it shows in the QUALITY, never in the condition. NOT clean, NOT pressed, NOT ceremonial, NOT new.
-5. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. A small worn WHISTLE on a cord at her throat, plainly visible, cheap and much handled.
-6. BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. A holstered blaster pistol, belt-mounted, grip up and angled forward for a right-hand draw. NEVER her left.
-7. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. SHE IS COLD, NOT ANGRY.
-8. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind.
+1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
+2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE.
+3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar.
+4. NOTHING ON HER HEAD. NO headdress, NO circlet, NO diadem, NO crown, NO band, NO helmet, NO ornament of any kind at her brow or in her hair.
+5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. NOT clean, NOT pressed, NOT ceremonial, NOT new. AND IT WAS MADE FOR HER.
+6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW.
+7. BLASTER ON HER RIGHT HIP. She is RIGHT-HANDED. NEVER her left. It is the one thing she spends money keeping right.
+8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way. SHE IS COLD.
+9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

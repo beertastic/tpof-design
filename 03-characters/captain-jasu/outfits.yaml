@@ -59,19 +59,27 @@ do_not_retrieve: >
 outfits:
   - id: field
     name: Field dress
+    # The production's own early concept drawing, added 2026-08-01. The shoulder
+    # mantle is the signature of this costume and prose was never going to land
+    # it — attach the sketch and let it carry the shape.
+    references:
+      - path: reference/concept/jasu-concept-sketch.jpg
+        what: the shoulder mantle, the ribbed torso and the leg panels
     scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
     description: >
       The only coherent, deliberately assembled outfit in this crew, and that is
       the point of it, on a woman of twenty-eight who stands 150 cm and is the
-      smallest adult in the film. The garment is a SECOND SKIN in good dark hide
-      and technical cloth, close to the body from the throat all the way down —
-      torso, arms and legs — with no volume anywhere on her. Over it, structure:
-      a hard square shoulder line, a stiff stand collar closed at the throat, and
-      a wide heavy belt with plain working hardware pulling the waist in hard.
-      Below the belt, narrow split panels hang straight and free over the
-      skin-tight leg, long enough to keep the upright line and parting completely
-      when she walks. Tall boots close to the calf, the best in the crew, resoled
-      and cared for. At her brow a low ornate
+      smallest adult in the film. The garment is a SECOND SKIN in heavy ribbed
+      knit and dense woven cloth, close to the body from the throat all the way
+      down — torso, arms and legs — with no volume anywhere on her, cut and
+      articulated for an acrobat. Over the shoulders, a stiff dark RIBBED MANTLE
+      standing proud of the body and reaching out past the shoulder points before
+      angling down over the upper arm, rising at the back into a stand collar
+      closed at the throat. A wide heavy belt with plain working hardware pulls
+      the waist in hard. Below it, narrow split panels hang straight over the
+      skin-tight leg, and there are textured panels down the outer thigh and over
+      the knee. Hard bracers on the forearms. Tall boots close to the calf, flat
+      and practical, the best in the crew. Nothing on her head at all. At her brow a low ornate
       band, asymmetric, carrying a small worn crest to one side — the only
       decorative object on her and clearly something she chose rather than
       earned. On her right hip a holstered blaster pistol, clean and serviced. A
@@ -106,9 +114,12 @@ outfits:
         glance. If fabric hangs away from her anywhere, it is wrong.
         THE COLLAR is stiff and STANDS, closed to the throat — never open, never
         a lapel, never a shawl or a cowl.
-        THE SHOULDER LINE is square and structured, sitting proud of the body.
-        NOT a flared armour guard, NOT a pauldron, NOT a spiked or winged shape.
-        It is the ONLY place the costume is wider than she is.
+        SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. Cut for a gymnast,
+        not a soldier: articulated at the shoulder, elbow, hip and knee, with
+        panelled seams and give across every joint. NOTHING restricts her,
+        NOTHING is stiff except the mantle, and NOTHING is bulky. She is the
+        smallest adult in the film and she is the quickest.
+        THE SHOULDER is the mantle — see its own rule below.
         THE WAIST is pulled in HARD by a wide heavy belt over the second skin.
         BELOW THE WAIST, NARROW SPLIT PANELS hang straight and free over the
         skin-tight leg — long, reaching towards the knee or past it, so the
@@ -128,22 +139,39 @@ outfits:
         working kit of a very small person who has to keep up with people twice
         her size, and it is filthy from a forest.
       - >
-        A LOW ORNATE BAND AT HER BROW — NOT A HELMET, NOT A CROWN, NOT A MASK.
-        It sits low across the forehead, hugging the head, with a small worn
-        crest set ASYMMETRICALLY to one side. NO horns, NO wings, NO plume, NO
-        face plate, NO neck guard, NO visor, and it covers NONE of her face.
-        Her head is otherwise bare and her hair is visible: LONG AND DARK, and
-        BOUND BACK OR UP for the field — off the face and off the collar. Never
-        loose and flowing, never styled, never a hairstyle anyone maintained.
-        She works in a forest and handles an animal that could take her arm off.
-        It is THE ONLY DECORATIVE OBJECT ON HER, and it must read as something
-        she picked out and put on rather than something awarded to her. Slightly
-        too much, and nobody in this crew is going to say so.
+        A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. SEE THE CONCEPT
+        SKETCH ATTACHED ABOVE AND MATCH ITS SHAPE.
+        A stiff, dark, RIBBED yoke sitting over BOTH shoulders, standing proud of
+        the body and reaching out past the shoulder points before angling down
+        over the top of the upper arm. It is WIDE — deliberately wider than she
+        is — and it comes to a defined point at each shoulder. It rises at the
+        back into the stand collar.
+        It is STIFFENED CLOTH, not plate and not leather: ribbed, quilted or
+        pleated, holding its shape by construction rather than by being armour.
+        NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a
+        fur collar.
+        IT IS THE ONLY THING ON HER WIDER THAN SHE IS, and on a 150 cm frame that
+        is the whole point: it is the shape of authority, worn. She had it made.
       - >
-        GOOD MATERIALS, BADLY WEATHERED — EXPENSIVE, NEVER SMART.
+        NOTHING ON HER HEAD. NO headdress, NO circlet, NO diadem, NO crown, NO
+        band, NO helmet, NO ornament of any kind at her brow or in her hair.
+        Removed by the production 2026-08-01 — the shoulder mantle carries what
+        the band was carrying, and carries it better, because it is construction
+        rather than jewellery.
+        HER HAIR IS LONG AND DARK, and BOUND UP AND BACK for the field — off the
+        face and off the collar, in a tight worked shape that holds. Never loose
+        and flowing, never styled, never a hairstyle anyone maintained. She works
+        in a forest and handles an animal that could take her arm off.
+      - >
+        MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART.
+        THE BODY IS TEXTILE: heavy ribbed knit, quilted panels, dense woven
+        canvas — matte, dry, and clearly FABRIC rather than hide. The ribbing on
+        the torso and the mantle is visible and structural.
+        LEATHER IS THE MINORITY and it is confined to the working parts: the
+        belt, the boots, the forearm bracers, the holster. If the costume reads
+        as a leather bodysuit, it is WRONG.
         She takes the largest share and it shows in the QUALITY, never in the
-        condition. Real hide, close tailoring, hardware that works and has been
-        maintained. And then: faded across the shoulders and the crown of the
+        condition. Close tailoring, hardware that works and has been maintained. And then: faded across the shoulders and the crown of the
         coat, mended at the cuffs and the hem, mud to the knee, the collar worn
         shiny where it rubs. NOT clean, NOT pressed, NOT ceremonial, NOT new.
         She has been in a forest for weeks and she fights in these clothes.

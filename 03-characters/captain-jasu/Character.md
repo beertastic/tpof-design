@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.5"
+version: "0.6"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -269,6 +269,9 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 
 | Element | Note |
 |---|---|
+| **Shoulder mantle** | **The signature.** A stiff dark *ribbed cloth* yoke over both shoulders, standing proud and reaching past the shoulder points before angling down over the upper arm; rises at the back into the stand collar. **The only thing on her wider than she is.** From the concept sketch, 2026-08-01 |
+| **Materials** | **More cloth than leather.** Heavy ribbed knit, quilted panels, dense canvas. Leather confined to belt, boots, bracers, holster |
+| **Head** | **Nothing.** No headdress, circlet, crown or band. Removed 2026-08-01 |
 | **Body garment** | **A second skin** — good dark hide and technical cloth, close to the body from throat to ankle. No volume anywhere. **Revised 2026-08-01: she has to be agile and the costume must say so at a glance** |
 | **Below the belt** | **Narrow split panels** hanging straight over the skin-tight leg, long enough to keep the upright line, parting completely when she moves. Never a skirt, never a flare |
 | **Shoulder** | Hard, square, structured — **the only place the costume is wider than she is** |
@@ -296,10 +299,35 @@ same way and for the same reason.
 
 **What the tight cut costs, and why it is worth it.** The long skirted coat was
 carrying part of the officer silhouette. Removing its volume moves all of that
-work onto three hard elements — **the stand collar, the square shoulder and the
+work onto three hard elements — **the stand collar, the shoulder mantle and the
 belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast is
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
+
+### The concept sketch, and losing the headdress — **2026-08-01**
+
+The production's early concept drawing is now a reference plate at
+[`reference/concept/`](reference/concept/) and is attached to every prompt. The
+**shoulder mantle** is its contribution and it is the thing prose kept failing to
+land: a stiff ribbed yoke, wide, pointed at the shoulders, rising into the
+collar.
+
+**The brow band is gone**, and the design is better for it. The band was
+carrying "the only decorative object on her — chosen, not earned", which is the
+visible sign of bought authority. **The mantle carries that better**, because it
+is *construction rather than jewellery*: a garment deliberately wider than the
+woman inside it, on the smallest adult in the film. She had the shape of
+authority made for her. That is a stronger statement than a circlet, and it
+cannot be mistaken for an award.
+
+It also fixes the no-ornament problem. The band was always slightly at odds with
+a character built on *nothing that a real officer would wear*. A structural yoke
+is not ornament.
+
+**Also from the sketch:** ribbed and quilted textile rather than hide, textured
+panels down the outer thigh and over the knee, hard forearm bracers, and flat
+practical boots. The costume is now **more cloth than leather**, which was the
+production's note and which the sketch supports throughout.
 
 **No insignia, no rank badge, no faction mark, no medal, no braid.** The moment
 she carries a real marking, the design collapses — her authority stops being
@@ -376,6 +404,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 0.6 | 2026-08-01 | in-development | **Concept sketch adopted as a reference plate**, attached to every prompt. Gains the **shoulder mantle** — a stiff ribbed cloth yoke, the signature of the costume and the only thing on her wider than she is. **Headdress removed entirely**; the mantle carries what it was carrying and does it as construction rather than jewellery. Materials shifted to **more cloth than leather**, and the cut to an **acrobat fit** — articulated at every joint. |
 | 0.5 | 2026-08-01 | in-development | **Silhouette revised to skin-tight** at the production's request — she has to read as agile. The long skirted coat loses its volume; the officer line now rests entirely on the stand collar, the square shoulder and the belt, over a second skin. Narrow split panels below the belt keep the upright line without a skirt. Reinforces the made-to-measure argument: a garment cut this close cannot be scavenged. |
 | 0.4 | 2026-08-01 | in-development | **Backstory given by the production.** Aggressive intimidator; strict family, displaced fear, targets the intellectually weaker, controls by fear. Met the akk dog on a transport job and kept it — which answers how she captains this crew at twenty-eight, and makes her authority founded on stealing the one thing that has ever loved her. Corrected `08-species/akk-dog/Creature.md`, which said she was fond of it "the way you are fond of a good weapon" — that was already contradicted by this document and is now settled the other way. |
 | 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 150 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |

@@ -52,7 +52,7 @@
 - [x] ~~Where does Captain Jasu's "dog-like beast" live?~~ It is an **akk dog**, already
       modelled and rigged. Filed at `08-species/akk-dog/`. Confirmed 2026-07-30.
 - [x] ~~Which scenes does the akk dog appear in?~~ **Wherever Jasu is** — 9, 19, 20, 23, 24,
-      24A — plus background during mercenary movement. A sleeping insert may be added later.
+      25 — plus background during mercenary movement. A sleeping insert may be added later.
       Confirmed 2026-07-30. SCHEDULING: the Filmanize export tracks none of these.
 - [x] ~~Is the akk dog ordered to kill Jeyin?~~ **Yes.** Jasu sets it on her and calls it
       off afterwards. Confirmed 2026-07-30. The animal needs tack, present from Scene 9.
@@ -77,9 +77,12 @@
       recommendation on file: play it on her face; her lack of fear is the shot.
 - [ ] Confirm akk dog tack. Recommendation on file: heavy salvaged collar, no lead, no
       muzzle — it obeys by voice and nothing ever physically restrains it.
-- [x] ~~Does the akk dog survive?~~ **Yes.** Knocked out, left alive and abandoned in the
-      clearing — the only living thing Baylan spares, because he fed it. Recommendation:
-      put it in Vala's post-credit. 2026-07-30.
+- [x] ~~Does the akk dog survive?~~ **Yes** — but **corrected 2026-08-01 against v10.**
+      Not knocked out and abandoned. It absorbs Shin's blast to protect Jasu, stays on
+      its feet, and then **Baylan dismisses it** — they lock eyes, he nods toward the
+      woods, and it goes. He does not spare it; it obeys him instead of its master,
+      in front of her, moments before she dies. Set up in Sc.9 when it leaves Jasu and
+      lies down beside him. Recommendation: put it in Vala's post-credit.
 - [x] ~~What drives Shin's Force blast?~~ **Fear and anger.** Which makes it proof that
       Baylan is right and her mother wrong, seconds after the unfinished warning. Exact
       placement in the sequence still open. 2026-07-30.
@@ -140,7 +143,8 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
       condition, not marking. 2026-07-30.
 - [x] ~~What facility did they escape?~~ **A slave auction.** An accident triggered a mass
       revolt; dozens fled; these four found each other and stole a ship. 2026-07-30.
-- [x] ~~Does Baylan speak in Sc.24A?~~ **Open, but the gesture is fixed: he extends his hand
+- [x] ~~Does Baylan speak in Sc.25?~~ **He does** in v10 — *"It's okay. You're safe."* —
+      but the gesture is what matters and it is fixed: he extends his hand
       and she takes it.** She must be the one who moves. 2026-07-30.
 - [ ] Does the auction appear on screen — cold open, flashback, or referenced only?
 - [x] ~~What was the accident that triggered the revolt?~~ **Deliberately vague and never

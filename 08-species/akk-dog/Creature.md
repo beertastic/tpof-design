@@ -6,7 +6,7 @@ status: "asset-built"
 named: false
 category: "creature"
 owner: "Captain Jasu"
-scenes: "Follows Jasu — 9, 19, 20, 23, 24, 24A + background"
+scenes: "Follows Jasu — 9, 19, 20, 23, 25 + background"
 source: "Filmanize script breakdown; existing production 3D asset"
 ---
 
@@ -81,9 +81,11 @@ Evening, forest mercenary camp. The animal is calm and being handled
 affectionately in the middle of a military briefing. It must be warm, heavy,
 unthreatening and slightly comic — an enormous animal enjoying a scratch.
 
-### Scene 24 / 24A — the kill
+### Scene 25 — the kill
 
-The akk dog kills Jeyin in the forest clearing during the final confrontation.
+The akk dog kills Jeyin during the final confrontation. **Scene numbering corrected
+2026-08-01: v10 has no Scene 24A.** The clearing fight with Vala is Sc.24 and the
+finale is Sc.25.
 
 **It is an ordered killing.** Jasu sets the animal on her and **calls it off
 afterwards** — the akk dog is under command throughout and obeys. It does not get
@@ -127,8 +129,7 @@ it goes where she goes. This follows directly from the animal being her authorit
 | 19 | Forest Mercenary Camp, early morning | With Jasu at the dawn briefing |
 | 20 | Forest, early morning | With Jasu on patrol |
 | 23 | Forest, morning | With Jasu organising the pursuit |
-| 24 | Forest Clearing, morning | With Jasu |
-| 24A | Forest Clearing, morning | **Kills Jeyin, then is called off** |
+| 25 | Forest, morning | **Kills Jeyin on command, is called off — then takes Shin's blast for Jasu, and is dismissed by Baylan** |
 
 Plus **background presence** during mercenary movement — patrols and walking
 shots — where it reads as part of the crew rather than as an event.
@@ -184,6 +185,39 @@ This is one of the most useful facts about the animal:
 Design consequence: their proximity should be visible earlier — he should be near
 it, unbothered by it, in at least one camp scene before the finale, so the
 audience has the information before they need it.
+
+**The script already does this, and better than the note asked for.** In Sc.9 the
+animal is curled against Jasu, Baylan kneels beside her, and then:
+
+> He and the beast lock eyes and immediately, **it gets up and lays beside Bay
+> instead.**
+
+It leaves its master, unprompted, in front of her. That is the whole plant in one
+move, ten scenes early.
+
+## How it survives — **corrected 2026-08-01**
+
+The design documents had it *"knocked out, left alive and abandoned in the
+clearing — the only living thing Baylan spares."* **That is not what v10 does, and
+the script's version is stronger.**
+
+It takes Shin's Force blast **deliberately** — *"The beast jumps in front of Jasu,
+absorbing most of the impact"* — and is still on its feet. Then, when Jasu signals
+it at Baylan:
+
+> Bay locks eyes with the beast and **something passes between them**. He nods
+> towards the woods, and the pet turns and runs away.
+
+**He does not spare it. He dismisses it, and it obeys him instead of her.** Jasu
+is alive and watching when her own animal refuses her and takes an instruction
+from somebody else — and she charges Baylan *"filled with confusion and rage"*
+seconds later, and dies. **The last thing that happens to her before she dies is
+her dog choosing him.**
+
+**Requires:** creature animation for a silent exchange and an exit. **No injury,
+no unconscious animal on the ground.** It leaves under its own power, which also
+means it is somewhere on this planet at the end of the film, unhurt — see the
+post-credit recommendation.
 
 ## Where it lives
 

@@ -2,7 +2,7 @@
 title: "Script v9 — Reconciliation"
 asset_id: "TRACK-SCRIPT-V9"
 updated: "2026-08-01"
-status: "open — 3 of 9 resolved or actioned; the rest need Production Designer decisions"
+status: "open — 6 of 9 resolved or actioned"
 ---
 
 # Script v9 — Reconciliation
@@ -113,7 +113,16 @@ character being wrong about what he did not see.
 
 ---
 
-## 3. Deaths, generally, do not match
+## 3. Deaths, generally, do not match — **ACTIONED 2026-08-01**
+
+All of these are now written into the character documents, and the full picture —
+who dies, whether the camera sees it, and what each costs to build — is in
+[`Deaths-And-Effects.md`](Deaths-And-Effects.md).
+
+**The cost finding is worth repeating here: only two deaths in the film are
+expensive.** Krellis needs one hard VFX shot and Jeyin needs the most demanding
+prosthetic in the production. Seven of the eleven cost almost nothing, because
+the script cuts away from the grenade and plays the massacre on Shin's face.
 
 | | Script v9 | Design documents |
 |---|---|---|
@@ -211,7 +220,11 @@ on.
 
 ---
 
-## 7. The scene numbering has changed
+## 7. The scene numbering has changed — **ACTIONED 2026-08-01**
+
+Every stale `24A` in the design documents is repointed, and `Scene-Index.md` is
+updated to v10 with a note saying the screenplay outranks it. The remaining
+mentions across the repository are deliberate historical ones.
 
 The breakdown lists 25 scenes including a **24A**. Script v9 has 25 scenes and
 **no 24A** — the clearing fight is Sc.24 and the finale is Sc.25.

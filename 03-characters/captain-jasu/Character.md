@@ -17,10 +17,38 @@ Mercenary captain and field commander.
 
 ## Story Function
 
-Commands the mercenary crew hunting the escapees. Briefs the camp (Scene 9),
-briefs the squad at dawn (Scene 19), hands Baylan the scanner (Scene 20), and
-organises the pursuit (Scene 23). In the finale she **sets her akk dog on Jeyin**
-and calls it off afterwards.
+Commands the mercenary crew hunting the escapees. Briefs the camp (Sc.9), briefs
+the squad at dawn (Sc.19), hands Baylan the scanner (Sc.20), and splits the crew
+for the pursuit (Sc.23). In the finale she **sets her akk dog on Jeyin** and calls
+it off afterwards.
+
+### The two things she does in the finale, and they define her
+
+**She kills Krellis.** Not from cover, not at distance. She walks up beside a man
+making a speech about mercy and puts a bolt through his head while he is still
+talking — then **smiles**. Everything else about her should be built so that reads
+as characteristic rather than shocking.
+
+**She sets the animal she loves on a dying woman.** Sc.9 establishes that the
+affection is genuine; the finale is her spending something she loves to make a
+point to a fifteen-year-old. She calls it off afterwards, and it comes.
+
+### How she dies — **corrected 2026-08-01**
+
+**Not by Baylan.** The design documents said he kills everyone; he does not kill
+her.
+
+> A blaster fires from behind them and, without looking, **Bay deflects it from
+> his lightsaber. It hits Jasu in the chest**, and she falls to the ground,
+> unmoving.
+
+**Nyx kills his own captain by accident, through the man he is shooting at**, and
+nobody in the film ever remarks on it. Nyx does not appear to realise, and he is
+dead a page later.
+
+She charges Baylan first — *"filled with confusion and rage"* — after the akk dog
+refuses her and goes to him. **The last thing that happens to her before she dies
+is her own animal choosing somebody else.**
 
 ### She commands because of the akk dog
 

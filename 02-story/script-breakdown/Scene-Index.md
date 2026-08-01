@@ -1,5 +1,11 @@
 # Scene Index
 
+> **Updated to screenplay v10, 2026-08-01.** The original of this table came from
+> the Filmanize breakdown, which was exported from an earlier draft: it listed a
+> **Scene 24A that v10 does not have**, and had Scene 6 as an ordinary forest
+> scene rather than a vision. Scenes 10, 13 and 15 have also moved inside the
+> mercenary ship. **The screenplay at `02-story/scenes/` outranks this file.**
+
 | Scene | Setting | Time | Principal characters |
 |---|---|---|---|
 | 1 | Space | Evening | — |
@@ -7,7 +13,7 @@
 | 3 | Forest | Evening | Baylan |
 | 4 | Force Vision | Evening | Shin (voice only) |
 | 5 | Forest | Evening | Baylan |
-| 6 | Forest | Evening | Nyx, Jeyin, Shin |
+| 6 | Forest **(VISION)** | Evening | Shin, Jeyin — Nyx's voice over |
 | 7 | Forest | Evening | Nyx, Baylan, Mercenary |
 | 8 | Dense Forest | Evening | Vala, Krellis, Jeyin, Shin |
 | 9 | Forest Mercenary Camp | Evening | Captain Jasu, Baylan, Mercenaries |
@@ -25,13 +31,13 @@
 | 21 | Forest | Morning | Mercenary, Vala, Krellis, Jeyin, Shin |
 | 22 | Forest Ditch | Morning | Krellis, Vala, Shin, Jeyin |
 | 23 | Forest | Morning | Captain Jasu, Nyx, Mercenaries, Vala |
-| 24 | Forest Clearing | Morning | Ensemble |
-| 24A | Forest Clearing | Morning | Ensemble (12 characters) |
+| 24 | Forest Clearing | Morning | Vala, Nyx, Merc 1–3 |
+| 25 | Forest | Morning | Ensemble — Krellis, Jeyin, Shin, the pincer group, Jasu, Bay, Nyx |
 
 ## Continuity flags
 
 - RESOLVED 2026-07-30: `Bay` and `Baylan` are the same character. Canonical asset name is
-  `Baylan`; `Bay` is the short form. The breakdown credits both names separately in Scene 24A,
+  `Baylan`; `Bay` is the short form. The breakdown credits both names separately in its Scene 24A,
   so that scene's stated count of 13 characters is really 12.
 - RESOLVED 2026-07-30: the `Young Girl` of Scene 4 is **Shin**. Baylan's Scene 4 vision and
   Shin's Scene 12 vision are the same vision seen from both ends; the scream he hears is the
@@ -46,6 +52,6 @@
 - **The akk dog is not tracked by the breakdown at all.** Captain Jasu's akk dog is named
   only inside the Scene 9 description as a "dog-like beast" and appears in no character or
   set-dressing list. The rule is **wherever Jasu is, the akk dog is** — scenes 9, 19, 20,
-  23, 24 and 24A — plus background presence during mercenary movement. It kills Jeyin in
+  23 and 25 — plus background presence during mercenary movement. It kills Jeyin in
   the finale. **Any schedule built from the Filmanize export is missing a creature unit
   across six scenes.** See [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md).

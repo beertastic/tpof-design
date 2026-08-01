@@ -6,7 +6,8 @@
 |---|---|
 | **Screenplay v9** | **Arrived 2026-08-01, as delivered by the writer. Outranks everything here** |
 | **Screenplay v10** | **Working draft. `02-story/scenes/*.fountain` is the editable source; render with `tools/script-convert/render.py`** |
-| **Script reconciliation** | **OPEN — see `Script-v9-Reconciliation.md`. Age resolved (48); Vala was a false alarm. Seven items still need decisions** |
+| **Script reconciliation** | **6 of 9 closed** — see `Script-v9-Reconciliation.md`. Age, Vala, the roster, the sabacc set, the deaths and the renumbering are all done |
+| **Deaths and effects** | **New.** Every death, who does it, on or off camera, and what it costs — `Deaths-And-Effects.md` |
 | Production Design Bible | v1.0 canonical |
 | Filmanize Script Breakdown | imported — **scene numbering now superseded by v9** |
 | Character template | available |
@@ -35,15 +36,15 @@ See `09-prompt-library/Turnaround-Block.md`.
 |---|---|---|
 | Shada | **Design closed** | Documents, outfits.yaml and 21 prompts current and consistent. Images are a guide, not a lock — regenerate as needed. See `Shada-Image-TODO.md` |
 | Baylan ("Bay") | In development | Locked for board review. Order 66 survivor; 11 scenes. Prompt pack ready. |
-| Captain Jasu | Placeholder | Commands via the akk dog. Killed in the clearing |
+| Captain Jasu | Placeholder — **death and finale written** | Commands via the akk dog. Kills Krellis mid-sentence and smiles. **Killed by Nyx's deflected bolt, not by Baylan** |
 | Nyx | In development | **PRIORITY.** The blade changes colour on him — killed **before** the massacre, not last. His deflected shot kills Jasu. Baseline human — decided. Design still TBD |
-| Reya Fenn | Placeholder | Formerly "Freya". **Survives the grenade** — speaks first in the finale, killed in Baylan's massacre. Pincer group |
+| Reya Fenn | Placeholder — **story function written** | Formerly "Freya". The helmet reveal in Sc.10; speaks first in the finale; killed in Baylan's massacre. Pincer group |
 | **Yaslo Bis** | Placeholder | **Formerly `Loryl`** — renamed 2026-08-01. Deals the sabacc hand; pincer group; killed in Baylan's massacre |
 | Mercenary Kit | In development | **Not a character — a build system.** 4 builds, one each to Merc 1–4. 33 prompts ready. Merc 1 is **the Wookiee**, confirmed in v10 |
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
 | Vala | Placeholder | **Survives.** Do not stage a death; show no injury. Killed by Shin in Film 2 |
-| Krellis | Placeholder | Escapee medic |
+| Krellis | Placeholder — **death written** | Escapee medic. **Shot through the head by Jasu mid-plea, Sc.25** — the hardest shot in the film |
 
 ## Factions
 

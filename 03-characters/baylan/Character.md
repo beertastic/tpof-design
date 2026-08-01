@@ -273,9 +273,10 @@ bodies. See [`03-characters/nyx/`](../nyx/) and
 - **Build in private, ignite in public.** The decision is made alone by glowrod
   light; the consequence is public and irreversible. He does not draw it to
   threaten. He draws it and they die.
-- **He kills Nyx last, and the blade changes colour doing it.** Yellow going in,
-  orange coming out. See [`03-characters/nyx/`](../nyx/) for the full sequence and
-  its staging requirements.
+- **He kills Nyx before the massacre, and the blade changes colour doing it.**
+  Yellow going in, orange coming out. Then he kneels with him, names himself, and
+  only afterwards turns on the other four. See [`03-characters/nyx/`](../nyx/)
+  for the full sequence and its staging requirements.
 - **The costume must survive a fight and finish the film changed.** Whatever
   state he ends in is what walks out of the clearing with Shin, and it is his
   first frame in the next film.
@@ -591,7 +592,7 @@ point. He has worked for eighteen years at being the least interesting man in
 the room, and a left-handed draw is a thing people notice and remember. Nothing
 about how he wears his kit should give a crewmate a reason to look twice.
 
-It also settles the finale. **The hand he extends to Shin in Scene 24A is his
+It also settles the finale. **The hand he extends to Shin in Scene 25 is his
 right** — the hand that drew the blaster for eighteen years, that rebuilt the
 saber alone in Scene 15, and that has just killed nine people. He offers it open.
 She is the one who moves.
@@ -625,9 +626,10 @@ the last third of the film and none of the images currently show it.
 
 ## Scene Appearances
 
-Scenes 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 24A — eleven scenes, more than any other character.
+Scenes 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25 — more than any other character.
 
-Credited as `Bay` in scenes 3–20, and as both `Bay` and `Baylan` in Scene 24A.
+Credited as `Bay` throughout, and as both `Bay` and `Baylan` in Scene 25, where
+he names himself: *"My name. Is Baylan Skoll."*
 
 See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
 

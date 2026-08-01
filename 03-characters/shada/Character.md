@@ -29,20 +29,23 @@ Terrain, scent, access routes, where a frightened person would go and where they
 would hide. In a hunt across a forest world she is the most useful person on the
 payroll, and she works alone by preference.
 
-She appears in three scenes and dies in the last of them.
+She appears in two scenes with dialogue and dies in the second.
 
 ### Scene beats
 
 | Scene | Setting | Beat |
 |---|---|---|
-| 10 | Forest Mercenary Camp, night | The Sabacc game. Nyx wins the pot. She is present, at the edge of the firelight, watching rather than playing |
-| 24 | Forest Clearing, morning | The confrontation |
-| 24A | Forest Clearing, morning | **Baylan kills her** |
+| 10 | **INT. Mercenary Ship, main hold**, night | The Sabacc game. She has two lines and the only affectionate moment between mercenaries in the film — she knuckles Nyx's hair. Moved inside 2026-08-01 |
+| 23 | Forest, morning | Assigned to the **pincer group**, from the left |
+| 25 | Forest, morning | **Killed in Baylan's massacre**, with Reya Fenn, Yaslo Bis and Merc 4 |
 
-### She dies in the clearing
+### She dies in the massacre
 
-**Killed by Baylan**, along with Jasu and the rest of the crew, after Jasu sets
-the akk dog on Jeyin.
+**Killed by Baylan** in Sc.25, with Reya Fenn, Yaslo Bis and Merc 4, after Shin's
+Force blast puts them all on the ground.
+
+**Not by Baylan: Jasu.** Corrected 2026-08-01 — Nyx fires at Baylan, the bolt is
+deflected, and it kills their captain.
 
 She has worked alongside him for years. See
 [`04-factions/mercenaries/Crew-Roster.md`](../../04-factions/mercenaries/Crew-Roster.md).
@@ -436,7 +439,9 @@ starship.
 
 ## Scene Appearances
 
-Scenes **10, 24, 24A** — three scenes.
+Scenes **10 and 25**, plus crew presence through the pursuit. (Renumbered
+2026-08-01: v10 has no 24A, and Sc.24 is the Vala fight, which she is not in —
+she is in the pincer group. See `04-factions/mercenaries/Crew-Roster.md`.)
 
 See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
 

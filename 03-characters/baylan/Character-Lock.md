@@ -186,9 +186,15 @@ rebuild and the finale ignition carry that reveal alone.
 - The blade **ignites yellow and finishes orange.** The change happens on screen at
   Nyx's death, and it is the film's only statement about what Baylan has become:
   no longer a Jedi, and not a Sith.
-- **Nyx is killed last.** The audience must not see the blade enter; his raised
-  hands must read as a Force push for at least a beat. The withdrawal is a held
-  shot. Nyx is not Force-sensitive — the implication is a deliberate misdirect.
+- **Nyx is killed BEFORE the massacre, not last** (corrected 2026-08-01 against
+  v10). Baylan stabs him, kneels with him as he dies, speaks to Shin, and only
+  then turns on the rest.
+- **The misdirect is on Shin.** Nyx pulls a knife and goes for her; she shuts her
+  eyes and throws her hands up; he stops. For a beat the audience believes **she**
+  did it — she produced a Force blast minutes earlier and does not know how. Then
+  she opens her eyes and it was the old man behind him. **The audience must not
+  see the blade enter** — stay on her through it.
+- The withdrawal is a held shot, and the blade comes out **orange**.
 
 ## Design Drift Prevention
 

@@ -72,7 +72,7 @@ Six scenes of visible progression. Planned, not improvised on the day.
 | 17–18 | Hiding the severity from Shin. The limp is the performance |
 | 21 | Can barely run |
 | 22 | Being pulled along |
-| 24A | Cannot run at all. Killed |
+| 25 | Cannot run at all. Killed by the akk dog on Jasu's command |
 
 The binding gets dirtier and never cleaner. Whatever it was dressed with came
 from the ship or from someone's clothing.
@@ -219,7 +219,8 @@ TBD.
 
 ## Scene Appearances
 
-Scenes 6, 8, 11, 16, 17, 18, 21, 22, 24, 24A.
+Scenes 6, 8, 11, 16, 17, 18, 21, 22, 25. (Renumbered 2026-08-01: v10 has no 24A,
+and Sc.24 is Vala's fight, which Jeyin is not in.)
 
 See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
 

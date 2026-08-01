@@ -43,24 +43,55 @@ land.
 
 ## His death — the most important beat in the film
 
-**Baylan kills Nyx last, and the blade changes colour doing it.**
+**Baylan kills Nyx, and the blade changes colour doing it.**
+
+> **Corrected 2026-08-01 against script v10.** This section had him killed *last*
+> and had the misdirect on his own raised hands. Both are wrong, and what the
+> script actually does is better.
 
 ### The sequence
 
-1. Nyx is away from the clearing. He **leads a squad after Vala** (Scene 23). A
-   large mercenary catches her and begins crushing her; she pulls a grenade from
-   his belt, he panics and drops her, and **it detonates.** The audience is led to
-   believe Vala was blown up.
-2. **Dazed**, Nyx stumbles back to the others.
-3. He walks into: Baylan, a **yellow lightsaber**, and his dead friends. He sees
-   the girl and her mother. The akk dog is possibly still unconscious.
-4. He goes to Baylan to ask what the hell is happening.
-5. **He raises his hands to stop him** as Baylan ignites.
-6. **The audience is led to believe Nyx is Force-sensitive** — no strike appears to
-   land, and his raised hands read as a Force push holding the blade off.
-7. **He is not.** Baylan has already stabbed him through the chest.
-8. The yellow blade **protrudes from Nyx's back.** It is withdrawn slowly — and as
-   it comes out, **it is orange.**
+1. Nyx **leads a squad after Vala** (Sc.23). The Wookiee catches her and hauls
+   her off her feet; she takes a thermal detonator from his chest rig, and it
+   detonates. **He survives it** — *"His clothes are tattered and singed. Blood
+   runs down the side of his face."* Close enough to be burned, far enough to
+   live.
+2. He walks back into the clearing on foot and finds: **Jasu dead**, the crew
+   unconscious, Krellis and Jeyin's bodies, a shaking Shin, and Baylan standing
+   over all of it with a lit blade.
+3. **He does not know he killed Jasu.** His own shot at Baylan was deflected into
+   her chest moments earlier. Nobody tells him, and he is dead a page later.
+4. *"Bay — what... what happened?"* He is not attacking. He is asking.
+5. The argument. Nyx is the only person who tries to talk Baylan out of it, and he
+   does it with *"We're a family"* and *"you and me. Like we have been for years."*
+   **He is not wrong, and that is the problem.**
+6. Baylan tells him what he is. Nyx stammers *"You're... you're a Jedi."*
+7. When talking fails, **Nyx pulls a knife and goes for Shin.**
+8. **Shin squeezes her eyes shut and raises her hands over her face to shield
+   herself. Nyx stops in his tracks.**
+9. She lowers her hands and opens her eyes — and the reveal is **the tip of
+   Baylan's lightsaber protruding from Nyx's chest.**
+10. It is withdrawn slowly. As it comes out, **it is orange.**
+11. **He dies before the massacre, not after it.** Baylan kneels with him, turns
+    the weapon off, tells him *"My name. Is Baylan Skoll,"* and only then turns on
+    the others.
+
+### The misdirect is on Shin, not on Nyx
+
+The old version of this document had **Nyx** raise his hands, so the audience
+would think *he* was Force-sensitive. **v10 puts the hands on Shin instead**, and
+it is a considerably better beat:
+
+- She has produced one Force blast already, minutes earlier, and does not know how.
+- So when she throws her hands up and the man with the knife **stops**, the
+  audience concludes **she did it again.**
+- Then she opens her eyes, and it was not her. It was the old man behind him.
+
+It keeps the misdirect, moves it onto the character the film is about, and pays
+off her blast instead of inventing a power for a man who has none.
+
+**Nyx never sees it coming and never sees who did it.** He looks *down*, not
+round.
 
 ### What the colour change means
 
@@ -74,8 +105,9 @@ killing the one person who was kind to him.
 ### Staging and design requirements
 
 - **The audience must not see the blade enter.** The misdirect fails if the stab
-  is visible. Framing has to hide it for at least a beat while the raised hands
-  read as a Force push.
+  is visible. Frame on **Shin** through the moment — her eyes shut, her hands up —
+  so the audience is looking at the wrong person entirely. The blade arrives in
+  the cut back.
 - **The withdrawal is a held shot.** It must be slow enough for the colour change
   to register as a change, not a cut.
 - **Through-and-through stab.** The blade exits his back, so Nyx's costume needs

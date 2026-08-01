@@ -57,7 +57,7 @@ what Jeyin dies doing.
 | 18 | Jeyin hides the severity of her injury **from Shin** | She is being protected and does not fully know it |
 | 21 | A blaster shot nearly hits Krellis; Vala pulls them into a ditch | Terror, mud, close quarters |
 | 22 | Vala goes to draw the enemy off and **gives Shin a clasp as a promise.** Costume noted as **"Tunic"** | The hero prop enters |
-| 24/24A | The clearing. See **The Ending** below | Everything she has is taken, and the man from her visions is standing there |
+| 25 | The clearing. See **The Ending** below | Everything she has is taken, and the man from her visions is standing there |
 
 ## The Two Visions
 
@@ -404,7 +404,7 @@ nothing that says anything about him, while she has nothing at all.
 
 ## Scene Appearances
 
-Scenes **4** (voice only), 6, 8, 11, 12, 16, 17, 18, 21, 22, 24, 24A — eleven
+Scenes **4** (voice only), 6, 8, 11, 12, 16, 17, 18, 21, 22, 25 — eleven
 scenes, of which one is a sound heard inside another character's vision.
 
 See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
@@ -449,7 +449,9 @@ See [`Prompts.md`](Prompts.md) for the image prompt pack.
   stunt and staging question with a real safety dimension.
 - What is Scene 12 exactly — she sees a vision *and* stands within it. Is she
   watching herself? A VFX and staging decision.
-- Does Baylan speak to her in Scene 24A, or is the meeting silent?
+- Does Baylan speak to her in Scene 25 before he offers his hand, or is the
+  gesture silent? (In v10 he speaks — *"It's okay. You're safe."* — but the hand
+  itself is wordless.)
 - **Does the script take on the grooming implication?** If it does, the costume
   detail becomes support rather than the sole carrier — which is a better
   distribution of weight. Raised 2026-07-30, under consideration.

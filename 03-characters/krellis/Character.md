@@ -18,10 +18,41 @@ Medic among the escapees; involved in the final confrontation.
 ## Story Function
 
 **A medic** — poor and badly under-supplied. He met Vala in the arena, where he
-treated fighters (Scene 17). He directs the group's route toward **Prodona** — a busy
-spaceport city, and the only option besides the woods — tends Jeyin's injury, and
-is shot in the final clearing — the
-breakdown flags a `Krellis head shot` visual effect in Scene 24.
+treated fighters (Sc.17). He directs the group's route toward **Prodona** — a busy
+spaceport city, and the only option besides the woods — and tends Jeyin's injury.
+
+### How he dies, and why it is the film's cruellest beat
+
+**Shot through the head by Captain Jasu in Scene 25, mid-sentence, while
+pleading.** Recorded from script v10 — the design documents previously had no
+death for him at all.
+
+He is not killed fighting. He steps in front of Shin and Jeyin, draws himself up
+to his full height, and argues:
+
+> It doesn't have to be like this. This doesn't have to be who you are. You can
+> let us go, let us have the freedom that everyone deserves. You have that power.
+> So please just—
+
+> *Krellis stops suddenly. **We pull back through a hole in his head** to find
+> Captain Jasu standing beside him, her blaster still glowing. She smiles wickedly
+> as Krellis crumples to the floor.*
+
+**The film's one argument for mercy is interrupted by a blaster bolt, and the
+person who fires it smiles.** He is a man who cannot fight — he says so himself in
+Sc.17, *"I'm really not the fighting type"* — and the last thing he does is try
+to talk armed people out of it. It nearly works: the script has one mercenary's
+weapon waver while he speaks.
+
+**This is the hardest shot in the film.** A pull-back that begins inside the wound
+and widens to find the killer. Method needs deciding early, because it governs how
+he is covered through the whole scene. See
+[`11-production-tracking/Deaths-And-Effects.md`](../../11-production-tracking/Deaths-And-Effects.md).
+
+**Design consequence:** he must read as a man worth listening to. Large — Shin
+remarks on his *"looming stature"* — gentle, and completely unarmoured in every
+sense. The size is the joke and the point: the biggest person in the group is the
+one who does not fight.
 
 ## Costume note
 

@@ -8,7 +8,7 @@ handedness: right
 outfits:
   - id: working
     name: Infiltration dress
-    scenes: "10, 24, 24A — her only costume"
+    scenes: "10, 23, 25 — her only costume"
 
     # See 03-characters/APPROVAL.md. Clear this block to unlock.
     approved:

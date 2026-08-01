@@ -111,7 +111,7 @@ no 3D-render look, no plastic or waxy skin.
   the hilt, and it is never ignited in any prompt.
 - **Not a wise mentor.** Not serene, not teaching, not at peace.
 - **Not a ranking officer.** He is a subordinate who stands at the back.
-- **Not athletic or agile.** Fifty, thickened, slow.
+- **Not athletic or agile.** Late forties, thickened, slow.
 - **No ornament** — no trophies, faction colours, insignia or jewellery beyond
   the hidden cord.
 - **No distinguished silver mane.** Iron-grey, short, badly cut by his own hand.
@@ -209,7 +209,7 @@ falloff, underexposed corners. Do not render every fibre at maximum sharpness.
 
 ## Character Constants — paste with every prompt
 
-Baylan. Human male, fifty years old. A Jedi Knight who survived Order 66, tried
+Baylan. Human male, late forties. A Jedi Knight who survived Order 66, tried
 and failed to keep being a Jedi on the Outer Rim, gave up, and has spent years
 since hiding inside a mercenary crew — where he is, for the first time in his
 life, safe. Nobody in the crew knows what he is.
@@ -337,7 +337,7 @@ nothing should announce a time jump.
 **Landscape, 16:9.**
 
 Horizontal strip of four head-and-shoulders expressions of the same
-fifty-year-old bearded face, evenly lit and consistently framed: (1) neutral
+late-forties bearded face, evenly lit and consistently framed: (1) neutral
 blankness — the manufactured dull expression he wears in company; (2) waking in
 terror, gasping, sweating, eyes wide; (3) quiet grief, entirely private and
 contained; (4) the real man underneath — focused, dangerous, absolutely still.

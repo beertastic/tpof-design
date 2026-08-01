@@ -9,8 +9,8 @@ recorded revision.
 
 ## Identity
 
-- Human male, 50 years old.
-- Jedi Knight who survived Order 66; ~32 and established at the time of the purge.
+- Human male, late forties — 48.
+- Jedi Knight who survived Order 66; ~30 and established at the time of the purge.
 - Afterwards he **tried to keep being a Jedi on the Outer Rim** and was beaten down
   by it. He gave up, converted his lightsaber into a blaster, and found the crew.
 - **With these people he has been safe for the first time in his life.** Not the
@@ -164,7 +164,7 @@ rebuild and the finale ignition carry that reveal alone.
 
 ## Timeline
 
-- Set ~1 BBY, eighteen years after Order 66. Baylan 50, Shin 15.
+- Set ~1 BBY, eighteen years after Order 66. Baylan 48, Shin 15.
 - Roughly a decade before the events he is later known for.
 
 ## The ending
@@ -201,7 +201,7 @@ Reject any design that becomes:
   is a tired man doing manual labour for people he does not respect.
 - **A ranking officer.** He is a subordinate who stands at the back and gets
   handed the scanner.
-- **Athletic or agile.** Fifty, thickened, slow. Any implication that he could
+- **Athletic or agile.** Late forties, thickened, slow. Any implication that he could
   still fight like a Knight is wrong until the moment it isn't.
 - **Ornamented.** No trophies, no faction colours, no jewellery beyond the hidden
   cord. His plainness is characterisation.

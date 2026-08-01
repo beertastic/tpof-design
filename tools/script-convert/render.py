@@ -17,7 +17,7 @@ import argparse
 import sys
 from pathlib import Path
 
-DEFAULT_SOURCE = Path("02-story/scenes/the-price-of-freedom-v9.fountain")
+DEFAULT_SOURCE = Path("02-story/scenes/the-price-of-freedom-v10.fountain")
 
 
 def main() -> int:

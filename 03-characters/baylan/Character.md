@@ -6,8 +6,8 @@ status: "in-development"
 faction: "Mercenaries"
 also_known_as: "Bay"
 species: "Human"
-age: 50
-source: "Filmanize script breakdown, production notes, Production Designer interview 2026-07-30"
+age: 48
+source: "Screenplay v10, Filmanize script breakdown, Production Designer interview 2026-07-30"
 ---
 
 # Baylan
@@ -16,13 +16,14 @@ source: "Filmanize script breakdown, production notes, Production Designer inter
 
 > **Naming.** `Baylan` and `Bay` are the same character. `Baylan` is the canonical
 > asset name; `Bay` is the short form used through most of the script. The name
-> `Baylan` first appears in Scene 24A — at the climax — which the art department
-> treats as the point of reveal. The Filmanize breakdown credits both names
+> `Baylan` first appears in Scene 25 — he names himself over Nyx's body, *"My
+> name. Is Baylan Skoll."* — which the art department treats as the point of
+> reveal. The Filmanize breakdown credits both names
 > separately in that scene, inflating its character count from 12 to 13.
 
 ## Art Department Brief
 
-A fifty-year-old Jedi Knight who survived Order 66. He spent years afterwards
+A Jedi Knight in his late forties who survived Order 66. He spent years afterwards
 trying to keep being a Jedi on the Outer Rim until life beat it out of him, then
 gave up and found a mercenary crew — where, for the first time in his life, he
 has been safe. He has rejected his past deliberately and
@@ -42,7 +43,7 @@ scenes, more than anyone else.
 **1. Taken as a child by the Jedi.** Removed from whatever family he had and
 raised by an Order that then failed and abandoned hope.
 
-**2. Order 66, and it was devastating.** He was ~32, an established Knight, in the
+**2. Order 66, and it was devastating.** He was ~30, an established Knight, in the
 field.
 
 **3. He tried to keep being a Jedi.** Alone, on the Outer Rim, for years —
@@ -133,13 +134,13 @@ decade later.
 | 5 | Eyes closed, "focusing on a new sound after years of reliving his past" | Eighteen years of the same nightmare; it is on his face |
 | 7 | Nyx orders him to unload the ship and make camp; he watches, shaken, from the clearing's edge | He does manual labour. The costume is workwear that has actually worked |
 | 9 | Jasu briefs the camp; Baylan worries and recalls past missions | He is a subordinate, not an officer |
-| 12 | Shin's vision: Baylan in **Jedi robes** atop a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | The one image of who he was. A separate costume build. Not a specific event |
+| 12 | Shin's vision: Baylan on a sand dune. Palpatine: *"Execute Order Sixty-Six."* A blaster fires. He turns | **Working dress, not robes** — the separate build was dropped 2026-08-01. Hazy and indistinct; not a specific event |
 | 13 | Wakes gasping, sweating, scans the tents, slips out under the tarpaulin | Sleeps in the camp, in something |
 | 14 | Practices telekinesis alone in the storage area until Nyx finds him | The only time he stops performing |
 | 15 | By glowrod light, pulls the cord from his neck, opens the pouch, tips out the crystal. It levitates the blaster, which comes apart — **and he rebuilds the lightsaber** | The hero prop and the hero moment |
 | 19 | The squad kneels or readies gear. **He stands silent at the back** | He is the only one there who has seen a real war |
 | 20 | Carries a heavy rifle; Nyx teases him about his blaster; Jasu hands him the scanner | The rifle is his working weapon. The blaster is not |
-| 24A | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
+| 25 | The clearing. **He kills everyone.** See *The Ending* | The disguise ends, permanently |
 
 ## The Visions
 
@@ -301,7 +302,7 @@ reads as salvage to everyone but us. It should be invisible on first viewing and
 obvious on the second. See *Costume and Armour*.
 
 **3. He is heavy now.** He was a Knight at thirty-two — trained, fit, in the
-field. He is fifty, and years of hauling crates have settled on him. He does not
+field. He is forty-eight, and years of hauling crates have settled on him. He does not
 move like a Jedi. He moves like a tired man who is very, very good at being
 still.
 
@@ -312,7 +313,7 @@ underneath it is real — and it is what he throws away in the clearing.
 ## Physical Design
 
 - **Species:** Human
-- **Age:** 50. Was ~32 and an established Knight at Order 66. Eighteen years since
+- **Age:** 48, late forties. Was ~30 and an established Knight at Order 66. Eighteen years since
   the purge: some spent trying to remain a Jedi on the Outer Rim, the rest — long
   enough that they are his people — with this crew
 - **Build:** Tall and broad, thickened through the middle and shoulders. He was
@@ -632,7 +633,7 @@ See [`Scene-Index.md`](../../02-story/script-breakdown/Scene-Index.md).
 
 | Event | When | Baylan | Shin |
 |---|---|---|---|
-| Order 66 | 19 BBY | ~32, established Knight | not born |
+| Order 66 | 19 BBY | ~30, established Knight | not born |
 | **This film** | **~1 BBY** | **50** | **15** |
 | Roughly a decade later | ~9 ABY | ~60 | ~25 |
 

@@ -2,7 +2,7 @@
 title: "Script v9 — Reconciliation"
 asset_id: "TRACK-SCRIPT-V9"
 updated: "2026-08-01"
-status: "open — needs Production Designer decisions"
+status: "open — 2 of 9 resolved; the rest need Production Designer decisions"
 ---
 
 # Script v9 — Reconciliation
@@ -28,7 +28,24 @@ Nothing below has been changed in the design documents. These are decisions.
 
 ---
 
-## 1. Baylan's age. The documents say fifty; the script says early thirties
+## 1. Baylan's age — **RESOLVED 2026-08-01. Late forties, 48. Script changed.**
+
+> **BAY (late 40s)**, a haunted yet strong-willed man — *v10, Scene 3*
+
+Settled as a compromise, and it is a better number than either side had. The
+Production Designer plays the part and is fifty; the script said early thirties.
+Late forties splits it and reads on camera.
+
+**It also rescues the timeline rather than breaking it.** At 48 in ~1 BBY he was
+**30 at Order 66** — an established Knight, comfortably. The documents' original
+*"~32 and established"* barely moves, and the eighteen-year gap that everything
+else hangs on survives untouched. Early thirties would have made him a child at
+the purge and taken the whole backstory with it.
+
+Changed in the script (v10) and propagated through `Character.md`,
+`Character-Lock.md`, `board-data.yaml`, `Prompts.md` and the prompt pack.
+
+The original disagreement, for the record:
 
 > **BAY (early 30s)**, a haunted yet strong-willed man — *Scene 3*
 
@@ -50,13 +67,9 @@ The script supports the younger reading elsewhere. Scene 12 dates the vision at
 him say *"I had my life ripped from me. Twice"* and *"It was instilled in me. But
 then it died"* — the language of someone raised into it young and cut off early.
 
-**This is the largest open question in the project.** It affects casting, make-up,
+It was the largest open question in the project — it reaches casting, make-up,
 the costume's read, the performance notes, the timeline and every prompt in his
-pack. His prompts currently carry no age at all — I removed *"FIFTY YEARS OLD"*
-from `must_show` rather than bake a contradiction into five turnarounds. They say
-*"tall, broad, thickened"* and describe the wear without dating it.
-
-**Needed:** his actual age, and whether the eighteen-year timeline holds.
+pack. Hence changing the script rather than quietly designing against it.
 
 ---
 
@@ -222,4 +235,5 @@ Neither is hard to change. Both are wrong until somebody does.
   — recorded in `Character.md` and `Character-Lock.md` so it is not rediscovered
   as an error.
 - **The empty holster after Sc.15** written into his documents.
-- **Age removed from his prompts** rather than assert fifty against the script.
+- **Age settled at 48** and propagated everywhere, including back into his
+  prompts.

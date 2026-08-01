@@ -4,8 +4,9 @@
 
 | Asset | Status |
 |---|---|
-| **Screenplay v9** | **Arrived 2026-08-01. `02-story/scenes/`. Outranks everything here** |
-| **Script v9 reconciliation** | **OPEN — see `Script-v9-Reconciliation.md`. Baylan's age, Vala's death and four other items need decisions** |
+| **Screenplay v9** | **Arrived 2026-08-01, as delivered by the writer. Outranks everything here** |
+| **Screenplay v10** | **Working draft. `02-story/scenes/*.fountain` is the editable source; render with `tools/script-convert/render.py`** |
+| **Script reconciliation** | **OPEN — see `Script-v9-Reconciliation.md`. Age resolved (48); Vala was a false alarm. Seven items still need decisions** |
 | Production Design Bible | v1.0 canonical |
 | Filmanize Script Breakdown | imported — **scene numbering now superseded by v9** |
 | Character template | available |

@@ -158,6 +158,16 @@ repository, and Git keeps every version of a binary forever.
 
 ## Working method
 
+**Install the hooks once, per clone:**
+
+```bash
+git config core.hooksPath tools/hooks
+```
+
+That stamps [`REPO-STATE.md`](REPO-STATE.md) on every commit, which is how a
+connected AI agent can tell whether it is reading current files or cached ones.
+See [`AGENTS.md`](AGENTS.md).
+
 Small commits straight to `main`, pushed as you go. There is a `git acp` alias
 that adds, commits and pushes in one line:
 

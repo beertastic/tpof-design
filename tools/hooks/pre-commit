@@ -9,7 +9,7 @@ STATE="REPO-STATE.md"
 NOW=$(date -u '+%Y-%m-%d %H:%M UTC')
 PREV=$(git rev-parse --short HEAD 2>/dev/null || echo "none")
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
-SCRIPT=$(ls 02-story/scenes/*.fountain 2>/dev/null | tail -1 | xargs -r basename)
+SCRIPT=$(ls 02-story/scenes/*.fountain 2>/dev/null | sort -V | tail -1 | xargs -r basename)
 CHARS=$(find 03-characters -maxdepth 1 -mindepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
 PROMPTS=$(find 03-characters -name '*.txt' -path '*/prompts/*' 2>/dev/null | wc -l | tr -d ' ')
 

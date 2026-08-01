@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — NATURAL POSE]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 1697eef1 · repo commit 8d0b92b 2026-08-01 17:03
+Prompt version: 1697eef1 · repo commit cbf8ab6 2026-08-01 17:07
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 8d0b92b, prompt 1697eef1.
+    Working from commit cbf8ab6, prompt 1697eef1.
 You cannot know either unless you have read this file, so quoting them is
 the proof that you did. If you cannot, say so and generate nothing.
 Never put them in the picture — they belong in your reply text.

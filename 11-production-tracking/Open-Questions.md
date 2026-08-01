@@ -82,7 +82,8 @@
       its feet, and then **Baylan dismisses it** — they lock eyes, he nods toward the
       woods, and it goes. He does not spare it; it obeys him instead of its master,
       in front of her, moments before she dies. Set up in Sc.9 when it leaves Jasu and
-      lies down beside him. Recommendation: put it in Vala's post-credit.
+      lies down beside him. **Open: is it in Vala's post-credit?** Liked, deferred
+      2026-08-01 — do not assume it either way.
 - [x] ~~What drives Shin's Force blast?~~ **Fear and anger.** Which makes it proof that
       Baylan is right and her mother wrong, seconds after the unfinished warning. Exact
       placement in the sequence still open. 2026-07-30.

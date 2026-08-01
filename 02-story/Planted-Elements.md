@@ -106,8 +106,10 @@ when it happened.
 
 ### Required in this film
 
-- **Include it in Vala's post-credit scene.** The shot is being made anyway and
-  the rig exists. Costs one element.
+- **Include it in Vala's post-credit scene — NOT DECIDED.** Recommendation only.
+  The shot is being made anyway and the rig exists, so it costs one element. The
+  Production Designer likes it but has explicitly deferred it (2026-08-01). **Do
+  not build the post-credit assuming the animal is in it.**
 - Shin is never asked whether it should die. That absence is deliberate and she
   may return to it.
 - **Archive the rig.**

@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 88010536 (short) · repo commit e16ac2a 2026-08-01 18:40
+Prompt version: dafc0c0a (short) · repo commit 32f5489 2026-08-01 18:42
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit e16ac2a, prompt 88010536.
+    Working from commit 32f5489, prompt dafc0c0a.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -33,7 +33,7 @@ MUST BE TRUE OF THIS IMAGE:
 1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH.
 2. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A…
 3. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG.
-4. FITTED AND CLOSE TO THE BODY, FULLY COVERING HER TORSO — NO BARE MIDRIFF, NO…
+4. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET,…
 5. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE…
 6. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE…
 7. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER.

@@ -96,16 +96,43 @@ outfits:
         Three clearly different colours and three different states of wear,
         readable side by side at a glance. Within any ONE patch the metal is
         consistent.
+      # The garment and its coverage were two rules until 2026-08-01; merged,
+      # because they describe one object and eleven rules dropped the per-rule
+      # budget far enough to start truncating the others.
+      #
+      # Written from a garment reference the same day. The vest kept generating
+      # as a plain scoop-neck tank, because "sleeveless vest, fitted, front
+      # closure" is an accurate description of one. What makes it read as BUILT
+      # rather than bought is the panelling — and a concealed placket also
+      # removes the modern coil zip, the fault this costume has never beaten.
       - >
-        FITTED AND CLOSE TO THE BODY, FULLY COVERING HER TORSO — NO BARE
-        MIDRIFF, NO CROP TOP.
-        NO ONE-SHOULDER DRAPE.
-        The vest runs from the collarbone to below the waist and fastens up the
-        front. Her stomach, flanks and lower back are NEVER exposed — she is an
-        infiltrator in salvaged working kit, not a figure in a costume designed
-        to be looked at. Her silhouette is compact and agile. The
-        costume follows her figure — waist defined, nothing bulky, nothing loose,
-        no oversized jacket or coat. She is small and quick, and the clothes say so.
+        A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED
+        PLACKET, PRINCESS SEAMS, RAW HEM.
+        NO BARE MIDRIFF, NO CROP TOP, NO ONE-SHOULDER DRAPE, NO VISIBLE ZIP.
+        THIS IS NOT A TANK TOP AND NOT A VEST TOP.
+        It runs from the collarbone to below the waist. Her stomach, flanks and
+        lower back are NEVER exposed — she is an infiltrator in salvaged working
+        kit, not a figure in a costume designed to be looked at. Her silhouette
+        is compact and agile, the costume cut to her figure, waist defined,
+        nothing bulky, nothing loose, no oversized jacket or coat.
+        THE COLLAR is a low band, 2 to 3 cm, standing away from the neck and OPEN
+        at the front — her throat and collarbone stay visible and the scale
+        pattern on them must still read. Never a funnel, never a polo neck,
+        never closed to the chin.
+        THE FRONT CLOSURE is hidden behind a flat band of cloth down the centre
+        front. Nothing on the outside shows how it fastens.
+        THE SEAMING is what makes it: curved princess seams running from the
+        shoulder over the bust down to the hem, and a curved panel seam under the
+        bust. The body is built from shaped panels, not cut from one piece, and
+        every seam is visible as construction.
+        THE SHOULDER is CUT ON — the cloth extends from the body to a small
+        squared cap just past the point of the shoulder, with NO set-in sleeve
+        and no seam at the top of the armhole. Her arm is bare below it and the
+        armhole is cut high and close under the arm.
+        THE HEM is shaped, dipping at centre front and back and rising at the
+        sides, and its edge is RAW AND FRAYING — cut and left, never turned,
+        never topstitched.
+        THE CLOTH is a dry crinkled matte weave that does not catch the light.
       # The exception has to be in the first sentence. Trimmed to "BARE ARMS AND
       # BARE SHOULDERS", this rule contradicted the gauntlet and the shoulder
       # cap outright, and the generator resolved the contradiction by moving all
@@ -113,15 +140,16 @@ outfits:
       - >
         BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM
         AND THE CAP ON HER LEFT SHOULDER.
-        NOTHING AROUND HER NECK OR HEAD.
+        NO SCARF, COWL, HOOD OR NECK WRAP.
         Apart from those two pieces her arms are UNCOVERED from the shoulder
         down — no sleeves of any length, no sleeve, no arm wrap, no gloves, no
         undershirt showing at the arm. The vest is SLEEVELESS. Her shoulders,
         upper arms, forearms, hands, collarbone and neck are otherwise exposed
         skin, showing the fine inherited scales. No scarf, no shawl, no cowl, no hood, no
         neck wrap, no headwrap. Her hair is up and her neck and collarbone are
-        visible. If her arms are covered or there is cloth at her throat, the
-        image is wrong.
+        visible above the vest's low open collar, which is the ONLY cloth
+        permitted near her throat. If her arms are covered, or anything is
+        wrapped round her neck, the image is wrong.
       - >
         FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST
         BE VISIBLE HERE, NEVER SMOOTH SKIN.

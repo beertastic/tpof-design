@@ -1,10 +1,10 @@
 [SHADA — SLOT 15 — BUCKLES AND FITTINGS]
 Output file: material-hardware.png
 Aspect ratio: 1:1  (square)
-Prompt version: ee2a285b · repo commit e16ac2a 2026-08-01 18:40
+Prompt version: ee2a285b · repo commit 32f5489 2026-08-01 18:42
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit e16ac2a, prompt ee2a285b.
+    Working from commit 32f5489, prompt ee2a285b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

@@ -6,7 +6,7 @@
 |---|---|
 | **Screenplay v9** | **Arrived 2026-08-01, as delivered by the writer. Outranks everything here** |
 | **Screenplay v10** | **Working draft. `02-story/scenes/*.fountain` is the editable source; render with `tools/script-convert/render.py`** |
-| **Script reconciliation** | **6 of 9 closed** — see `Script-v9-Reconciliation.md`. Age, Vala, the roster, the sabacc set, the deaths and the renumbering are all done |
+| **Script reconciliation** | **7 of 9 closed** — see `Script-v9-Reconciliation.md`. Age, Vala, the roster, the sabacc set, the deaths, the renumbering and the exit are all done |
 | **Deaths and effects** | **New.** Every death, who does it, on or off camera, and what it costs — `Deaths-And-Effects.md` |
 | Production Design Bible | v1.0 canonical |
 | Filmanize Script Breakdown | imported — **scene numbering now superseded by v9** |

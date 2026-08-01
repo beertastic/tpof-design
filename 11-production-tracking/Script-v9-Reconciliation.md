@@ -2,7 +2,7 @@
 title: "Script v9 — Reconciliation"
 asset_id: "TRACK-SCRIPT-V9"
 updated: "2026-08-01"
-status: "open — 6 of 9 resolved or actioned"
+status: "open — 7 of 9 resolved or actioned"
 ---
 
 # Script v9 — Reconciliation
@@ -203,20 +203,39 @@ resolve the cost.
 
 ---
 
-## 6. How they leave, and on what
+## 6. How they leave — **RESOLVED 2026-08-01. No script change.**
 
-The documents say they steal the mercenary ship and it is theirs from Film 2:
+**They leave on the mercenary ship, and Scene 25 stays exactly as written.**
 
-> **They steal the mercenary ship.** It is theirs from Film 2 onward. Archive it.
+The apparent conflict dissolves once the post-credit scene is counted. That was
+decided on 2026-07-30 and is already specified in
+[`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md):
 
-The script's last line sends them the other way:
+> Where she fell, a blast crater, dead mercenaries. **Shot from behind — head and
+> shoulders only — as the stolen ship lifts away.** She does not know Shin is
+> aboard.
 
-> together, they run off into the trees, towards the still-swirling column of
-> smoke from **the ship crashing** — *Scene 25*
+*"The stolen ship"* is the mercenaries'. So the exit is settled, the Film 2 plant
+holds, and the three scenes now set inside that ship pay off when it is taken.
 
-That is the **escapees'** wreck, not the mercenary ship. Which also means the
-escapee ship — still the only asset with no document — may be the one they leave
-on.
+**The smoke is a landmark, not a destination.** The script's last line —
+*"they run off into the trees, towards the still-swirling column of smoke"* — is
+the only thing on the horizon and reads as *away*. Nothing says they are going to
+the wreck, and nothing needs to.
+
+**The ending is not to be touched.** It was briefly proposed that the film should
+end on Baylan's extended hand, cutting before Shin takes it. The Production
+Designer withdrew it the same day. As written, the hand is fourth from the end and
+the script explicitly has her take it, with *"hope in her eyes, as if she's seeing
+the future she can finally have — the one her mother had hoped for her."* That is
+the payoff of Jeyin's dying line, and *"Ready?" / "Ready."* is the beat the whole
+film has been walking toward. Both stay.
+
+### Still outstanding: the post-credit is decided but not written
+
+It exists in the design documents in full detail and **appears nowhere in the
+screenplay**, which currently ends at `FADE TO BLACK`. Somebody has to write it,
+and it is the shot that carries Vala into Film 2.
 
 ---
 

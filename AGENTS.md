@@ -269,6 +269,32 @@ self-check, and wait for the user to accept or reject before moving on.
 **Do not batch. Do not say "same again but…"** — that makes the model work from
 its own last output instead of the reference, and the costume drifts.
 
+### Step 4 — commit each accepted image, one at a time
+
+When the user accepts an image, commit it to
+`03-characters/<character>/source/artwork/<filename from line 2 of the prompt>`.
+
+**Only accepted images.** A rejected generation must never reach the repository.
+
+**Say the exact path you committed to**, so the user can check it against the
+board configuration.
+
+### What you cannot do, and must hand back
+
+**You cannot run the generators.** The prompt files are built from `outfits.yaml`
+and `Prompts.md` by `tools/prompt-splitter/`, and after an approval those sources
+change — recording an approved reference switches on the gate that makes every
+other view fetch and match it.
+
+So after the FRONT view is approved and committed, stop and say:
+
+> The front view is committed. Before the other views can match against it,
+> `outfits.yaml` needs its `approved:` block and the prompts need regenerating and
+> pushing — I can't run the generators. Once that's done I'll continue.
+
+Generating the other views before that happens produces four images matched
+against nothing.
+
 ---
 
 ## Before generating anything, check the prompts are current

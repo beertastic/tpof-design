@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 764d4fbd (short) · repo commit 32b304e 2026-08-01 19:26
+Prompt version: 83742b69 (short) · repo commit cea222a 2026-08-01 21:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -22,17 +22,17 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. METAL ON HER LEFT SHOULDER, LEFT THIGH, AND A PAIR OF FLANK PANELS OVER HER RIBS — NOWHERE ELSE. NO PLATES ON THE GAUNTLET.
-2. THE FLANK PANELS ARE SCALE ARMOUR LACED ACROSS HER CENTRE FRONT, WORN OVER THE VEST — NOT A BREASTPLATE AND NOT A CORSET.
-3. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A DOZEN BIG ONES. TESSELLATED EDGE TO EDGE AND NEVER…
-4. FOUR METAL PIECES, FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold. NOT brass.
-5. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET, PRINCESS SEAMS, RAW HEM. NO BARE MIDRIFF.
-6. BARE ARMS AND BARE SHOULDERS, EXCEPT A PLAIN LEATHER GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NO SCARF.
-7. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
-8. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
-9. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
-10. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
-11. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal.
+1. METAL ON HER LEFT SHOULDER, LEFT THIGH, AND A PAIR OF FLANK PANELS OVER HER RIBS — NOWHERE ELSE. NO PLATES ON THE GAUNTLET. NEVER A FULL SUIT. NO BREASTPLATE. EXACTLY ONE GAUNTLET.
+2. THE FLANK PANELS ARE SCALE ARMOUR LACED ACROSS HER CENTRE FRONT, WORN OVER THE VEST — NOT A BREASTPLATE AND NOT A CORSET. NO buckle plate, NO clasp, NO zip, NO seamless join.
+3. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A DOZEN BIG ONES. TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR SHINGLED. About the size of a thumbnail.
+4. FOUR METAL PIECES, FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold. NOT brass, NOT gold, NOT warm-toned.
+5. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET, PRINCESS SEAMS, RAW HEM. NO BARE MIDRIFF, NO CROP TOP, NO ZIP. THIS IS NOT A TANK TOP AND NOT A VEST TOP.
+6. BARE ARMS AND BARE SHOULDERS, EXCEPT A PLAIN LEATHER GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NO SCARF, COWL, HOOD OR NECK WRAP. The vest is SLEEVELESS.
+7. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. This is what makes her not HUMAN. TONAL, NOT COLOURED.
+8. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE — hip or thigh, either is fine, but ALWAYS HER RIGHT AND NEVER HER LEFT.
+9. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors — EXCEPT the mercenary ship's main hold in Scene 10, the Sabacc game, which moved inside on 2026-08-01.
+10. FACE — BARELY THERE. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth.
+11. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it, and do NOT lose it to shadow.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

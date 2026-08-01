@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: d5138448 (short) · repo commit 32b304e 2026-08-01 19:26
+Prompt version: a06dded8 (short) · repo commit cea222a 2026-08-01 21:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -21,16 +21,16 @@ You are thinking of the austere silver-haired Jedi in flowing black robes with a
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. No hood.
-2. ABSOLUTELY NO ORNAMENT. Every other mercenary is marked; he is not.
-3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body.
+2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind.
+3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film. The rifle is battered, reliable and boring.
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS. Repaired tears.
 5. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS. NEVER a flat graphic across the chest. TONAL.
-6. EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF GREEN — coarse, hand-worked, standing proud of the leather.
+6. EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF GREEN — coarse, hand-worked, standing proud of the leather. It is CONSTRUCTION.
 7. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
 8. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must read as nothing else — this is the man with no ornament on him.
 9. A THIN CORD AROUND HIS NECK, disappearing under the shirt. No pendant, no charm, no jewellery of any kind at his throat.
-10. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+10. LATE FORTIES — FORTY-EIGHT. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
 11. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned.
 
 SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.

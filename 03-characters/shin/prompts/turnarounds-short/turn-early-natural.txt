@@ -1,7 +1,7 @@
 [SHIN — AS WE MEET HER — NATURAL]
 Output file: turn-early-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 79fb5da0 (short) · repo commit 32b304e 2026-08-01 19:26
+Prompt version: 79fb5da0 (short) · repo commit cea222a 2026-08-01 21:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

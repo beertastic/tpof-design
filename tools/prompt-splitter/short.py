@@ -271,10 +271,21 @@ def fit(character: str, cfg: dict, outfit: dict, view: str) -> str:
 
     Rules are shortened together rather than dropped. A truncated non-negotiable
     still names its subject; a missing one is invisible.
+
+    REFERENCE URLS DO NOT COUNT AGAINST THE BUDGET, from 2026-08-01. They are
+    fixed overhead rather than prose, and they do not make a prompt "long" in the
+    sense this budget exists to prevent — nobody skims a URL.
+
+    Counting them was actively harmful. Captain Jasu reached five reference
+    images, whose links came to 1,406 characters of the 4,000, and the cap
+    collapsed to the floor of 80: every non-negotiable was truncated mid-clause
+    to pay for links to the pictures that prove them. The rules were funding
+    their own references out of the same purse.
     """
     for cap in range(RULE_CHARS, 70, -10):
         text = build(character, cfg, outfit, view, cap)
-        if len(text) <= BUDGET:
+        links = sum(len(l) + 1 for l in text.split("\n") if "https://" in l)
+        if len(text) - links <= BUDGET:
             return text
     return text
 

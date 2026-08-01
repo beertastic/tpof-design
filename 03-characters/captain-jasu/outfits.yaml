@@ -63,6 +63,11 @@ outfits:
     # mantle is the signature of this costume and prose was never going to land
     # it — attach the sketch and let it carry the shape.
     references:
+      # THE COSTUME REFERENCE. The 2026-08-01 generation the production chose,
+      # before the palette drifted pale. Everything except the head comes from
+      # this: colour, mantle, bracers, leg panels, belt, boots.
+      - path: reference/costume/field-dress-approved-front.png
+        what: THE COSTUME - match it exactly except the head
       - path: reference/concept/jasu-concept-sketch.jpg
         what: the shoulder mantle, the ribbed torso and the leg panels
       # A painted figure built from the concept drawings, 2026-08-01. It is the
@@ -154,8 +159,13 @@ outfits:
         working kit of a very small person who has to keep up with people twice
         her size, and it is filthy from a forest.
       - >
-        A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. SEE THE CONCEPT
-        SKETCH ATTACHED ABOVE AND MATCH ITS SHAPE.
+        A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. MATCH THE COSTUME
+        REFERENCE ATTACHED ABOVE.
+        IT COMES TO A SHARP UPSWEPT POINT AT EACH SHOULDER — a defined peak
+        angling up and out past the shoulder, not a flat slab and not a rounded
+        pad. That point is what makes it read.
+        IT IS WARM DARK BROWN, the same family as the rest of the costume. NOT
+        grey, NOT black, NOT pale.
         A stiff, dark, RIBBED yoke sitting over BOTH shoulders, standing proud of
         the body and reaching out past the shoulder points before angling down
         over the top of the upper arm. It is WIDE — deliberately wider than she
@@ -188,6 +198,11 @@ outfits:
         NOT a visor. Nothing covers her face or her brow, and nothing is
         engraved, jewelled or polished. The horns are BONE — worn, matte, and
         clearly taken off something that was once alive.
+        THE HORNS ARE THE ONLY PALE THING ON HER. Nothing else in this costume is
+        bone, cream, ivory, light grey or pale in any way — not the bracers, not
+        the leg panels, not the mantle, not the boots. If the pallor of the horns
+        has spread anywhere else, the image is WRONG. This happened on
+        2026-08-01 and it is the reason this sentence exists.
         THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS — decided 2026-08-01. Bone
         taken off creatures her akk brought down, worn on her head. This is the
         ONE ornamental thing in her costume and it is deliberate: the single
@@ -271,9 +286,16 @@ outfits:
         MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK.
         Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey
         of old canvas.
-        THE ONE EXCEPTION IS THE BLASTER. Its barrel is BRIGHT POLISHED STEEL and
-        must stay bright — do not dull it down to match her. It is the only
-        gleaming object in this crew, and that is the point of it: everyone else
-        carries salvage, and she carries something she paid for and looks after. NO uniform green, NO uniform grey, NO red, NO gold braid,
+        THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE
+        ALL DARK WARM BROWN — the same family as everything else she wears. NONE
+        of them is bone, cream, ivory or pale grey. They drifted pale on
+        2026-08-01 and they must not.
+        THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled.
+        They do NOT continue up the upper arm.
+        TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. The blaster barrel
+        is BRIGHT POLISHED STEEL and must stay bright — do not dull it to match
+        her. It is the only gleaming object in this crew, and that is the point:
+        everyone else carries salvage, and she carries something she paid for and
+        looks after. Nothing else on her is pale and nothing else is bright. NO uniform green, NO uniform grey, NO red, NO gold braid,
         NO faction colour of any kind. She must separate from a night forest and
         from firelight — do not sink her into the background.

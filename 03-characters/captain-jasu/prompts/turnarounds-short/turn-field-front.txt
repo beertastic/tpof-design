@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — FRONT]
 Output file: turn-field-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 31a17fa4 (short) · repo commit 25d3b36 2026-08-01 21:52
+Prompt version: e2311db7 (short) · repo commit cea222a 2026-08-01 21:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,6 +10,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
+  THE COSTUME - MATCH IT EXACTLY EXCEPT : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/costume/field-dress-approved-front.png
   THE SHOULDER MANTLE, THE RIBBED TORSO : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   THE HEADDRESS AND HAIR, FRONT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-front.jpg
   THE HEADDRESS AND HAIR, PROFILE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-side.jpg
@@ -25,15 +26,15 @@ SHE IS 28 AND 150 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a mercena
 RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in…
 
 MUST BE TRUE OF THIS IMAGE:
-1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia. This is the whole design.
-2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE…
-3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT a pauldron. She had it made.
-4. THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR. COPY IT FROM THE FIGURE PHOTOGRAPHS AND TAKE NOTHING…
-5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. NOT clean. AND IT WAS MADE FOR HER.
-6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW.
-7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and…
-8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned. SHE IS COLD.
-9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. NO uniform green.
+1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. Do not compensate for that.
+2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE. NOT a full skirt, NOT a wide coat, NOT robes.
+3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT grey, NOT black, NOT pale. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar. She had it made.
+4. THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR. COPY IT FROM THE FIGURE PHOTOGRAPHS AND TAKE NOTHING ELSE FROM THEM. NOT a helmet. THE HORNS ARE THE ONLY PALE THING ON HER.
+5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. The ribbing on the torso and the mantle is visible and structural. NOT clean, NOT pressed, NOT ceremonial, NOT new.
+6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. She is not holding it and the animal is not on it.
+7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left. NOT a generic sidearm.
+8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. SHE IS COLD.
+9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
 
 SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "1.0"
+version: "1.1"
 status: "in-development"
 faction: "Mercenaries"
 source: "Filmanize script breakdown and production notes"
@@ -304,6 +304,35 @@ belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
 
+### The costume is now locked to a picture — **2026-08-01**
+
+`reference/costume/field-dress-approved-front.png` is the generation the
+production chose, and it is the first reference listed on every prompt: *match it
+exactly except the head.* Everything comes from it — colour, mantle, bracers, leg
+panels, belt, boots.
+
+**Why it was needed.** The generation after it drifted pale: bone-coloured
+bracers, cream leg panels, a grey mantle, the whole palette lifted off dark
+brown. The cause was traced and it was the brief, not the generator. **Two rules
+added that day introduced "pale", "bone", "bright polished steel" and "bare
+polished metal"** — meant locally, for the horns and the gun barrel — and nothing
+scoped them, so the pallor spread across the costume.
+
+Three fixes, all now in `outfits.yaml`:
+
+- **"THE HORNS ARE THE ONLY PALE THING ON HER."** Named, with the parts that
+  drifted listed: not the bracers, not the leg panels, not the mantle, not the
+  boots.
+- **"TWO EXCEPTIONS AND ONLY TWO."** Pale horns, bright barrel. Nothing else is
+  either.
+- **The mantle is warm dark brown and comes to a sharp upswept point** at each
+  shoulder — the shape from the chosen render, not the flat grey slab that
+  replaced it.
+
+**The lesson generalises.** Colour words in a costume brief are not local unless
+you say so. Any future rule introducing a bright or pale element needs the
+sentence that fences it in.
+
 ### The headdress comes back — **2026-08-01, and it needs a reason**
 
 Reinstated by the production from a **painted figure built off the concept
@@ -498,6 +527,7 @@ TBD.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |
+| 1.1 | 2026-08-01 | in-development | **Costume locked to a chosen generation**, kept whole while adopting the horns from the next one. Diagnosed the pale drift as colour bleed from the horn and blaster rules and fenced it: the horns are the only pale thing, the barrel the only bright one. Mantle specified warm dark brown with a sharp upswept point; bracers forearm-only. |
 | 1.0 | 2026-08-01 | in-development | **A180 reference supplied**, correcting a written description that had the weapon dark, matte and boxy when it is a two-tone Luger-pattern pistol with a long bright barrel. Palette rule amended so the polished steel is not dulled down to match her — it is the only gleaming object in the crew. |
 | 0.9 | 2026-08-01 | in-development | **The horns are trophies from what the akk kills** — decided. The one decorative object on her displays the beast's power rather than her own. Also added a hard scoping rule to the prompts: the figure photographs are a stylised collector's piece, and only the headdress and hair may be taken from them. |
 | 0.8 | 2026-08-01 | in-development | **Headdress reinstated** from a painted figure built off the concept drawings, now a reference plate: pale curved bone horns set into swept-up hair, asymmetric. Confirmed the horns cannot be from her akk — the creature document forbids horns — and proposed the reading that they are trophies from what the animal kills, which is the only justification that survives her no-ornament rule. A180 description sharpened after it generated as a generic pistol; flagged that only an image will fix it. |

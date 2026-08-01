@@ -30,6 +30,29 @@ it must run before acting. Human background is in
 
 ---
 
+## The sequence that actually works
+
+**Established 2026-08-01 after a long afternoon of failures.** Three things have
+to be true at once, and any one of them missing produced a confident, wrong,
+handsome character sheet:
+
+1. **A reasoning tier, not the fast one.** On ChatGPT this means `High`, not
+   `Instant`. Instant has no browsing and no connectors — it cannot read this
+   repository at all, and will invent a character sheet from whatever is attached
+   rather than saying so.
+2. **The instruction present.** In project instructions, or pasted as the first
+   message. A fresh chat inherits the connector and none of the rules.
+3. **The prompt text in the conversation.** Reading it from the repo works;
+   pasting the file whole also works and never fails. Both are fine.
+
+**Attaching an image on the same turn appears to suppress repo reading.** If the
+model must read files, keep that turn text-only and attach the actor reference on
+the next one.
+
+The successful run: `High`, project instructions set, prompt text pasted, actor
+headshot attached — full-length figure on seamless grey, correct face, correct
+costume language, no retrieved character. It took just under four minutes.
+
 ## If you cannot read this repository
 
 **Say so immediately and offer the fallback. Do not refuse and stop.**

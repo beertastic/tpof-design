@@ -1,10 +1,10 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 71c64827 (short) · repo commit fe7c514 2026-08-01 18:31
+Prompt version: 88010536 (short) · repo commit e16ac2a 2026-08-01 18:40
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit fe7c514, prompt 71c64827.
+    Working from commit e16ac2a, prompt 88010536.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -30,15 +30,16 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH. NO BREASTPLATE.
-2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. NOT brass.
-3. FITTED AND CLOSE TO THE BODY, AND FULLY COVERING HER TORSO — NO BARE MIDRIFF, NO CROP TOP, NO…
-4. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT…
-5. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER…
-6. WEAPONS — SIDES ARE FIXED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE.
-7. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors.
-8. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
-9. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE.
+1. THREE SCALE PATCHES ONLY — HER RIGHT FOREARM, HER LEFT SHOULDER, HER LEFT THIGH.
+2. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A…
+3. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG.
+4. FITTED AND CLOSE TO THE BODY, FULLY COVERING HER TORSO — NO BARE MIDRIFF, NO…
+5. BARE ARMS AND BARE SHOULDERS, EXCEPT THE GAUNTLET ON HER RIGHT FOREARM AND THE…
+6. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE…
+7. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER.
+8. EXTERIOR, WITH ONE EXCEPTION. NO buildings.
+9. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
+10. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN…
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

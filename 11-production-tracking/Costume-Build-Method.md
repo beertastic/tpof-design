@@ -109,7 +109,14 @@ Two things follow for the build:
 
 ### The plate count is the hidden cost
 
-**Plate size confirmed 2026-07-31: 10 to 15 mm across.**
+**Plate size confirmed 2026-07-31: 10 to 15 mm across. Re-confirmed 2026-08-01**
+against a generation that came back three to four times too coarse.
+
+The size had never reached the generator — it sat inside the placement rule in
+`outfits.yaml` and the short prompts trimmed it away, so every image invented its
+own plate size. It is now its own non-negotiable. **If a new image shows plates
+you can count at a glance, the plates are wrong, not the figure**, and the ~370
+count below stands.
 
 That is much finer than it sounds, and it multiplies. A hexagon 12.5 mm across
 covers roughly 1.35 cm², so a rough estimate from patch area:

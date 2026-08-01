@@ -46,12 +46,6 @@ outfits:
         SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE. At
         most about a fifth of the costume carries metal; the rest is cloth and
         worn leather.
-        FOR WHAT A PLATE LOOKS LIKE, MATCH THE PLATE PHOTOGRAPH FETCHED ABOVE.
-        In brief: flat six-sided hexagons, SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many small pieces rather than a dozen big ones, laid
-        TESSELLATED EDGE TO EDGE and NEVER OVERLAPPED OR SHINGLED, each carrying
-        a RAISED SNAKE SWIRL, laced to a hand-cut backing. Salvaged, pitted and
-        worn — never machined, never polished, never carbon fibre or tech
-        panelling.
         THREE PATCHES ONLY — FOREARM, SHOULDER, THIGH. THERE IS NO METAL ON HER
         TORSO: her chest, sternum and back are plain cloth. NO chest patch, NO
         sternum panel, NO bib, NO pendant, NO breastplate.
@@ -70,6 +64,22 @@ outfits:
         same side as the shoulder cap. Her right thigh has no metal.
         Different sizes, different shapes, different ages, NO MATCHING PAIRS OF
         ANYTHING.
+      # Plate geometry given its own rule 2026-08-01. It used to be a paragraph
+      # inside the placement rule, which meant the short prompts carried no
+      # dimension and no count at all — the plates were free-floating in every
+      # generation, and came back three to four times too big. Size confirmed
+      # 2026-07-31 and re-confirmed today: 10 to 15 mm stands.
+      - >
+        EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER
+        A DOZEN BIG ONES.
+        TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR SHINGLED.
+        About the size of a thumbnail. The forearm gauntlet alone carries WELL
+        OVER A HUNDRED of them and the costume carries roughly 370 in total, so
+        if the plates in a patch can be counted at a glance they are far too big.
+        FOR WHAT A PLATE LOOKS LIKE, MATCH THE PLATE PHOTOGRAPH FETCHED ABOVE.
+        Flat six-sided hexagons, each carrying a RAISED SNAKE SWIRL, laced to a
+        hand-cut backing. Salvaged, pitted and worn — never machined, never
+        polished, never carbon fibre or tech panelling.
       - >
         THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK
         WRONG. They must NOT all be brass or all be gold. If the three patches
@@ -87,8 +97,9 @@ outfits:
         readable side by side at a glance. Within any ONE patch the metal is
         consistent.
       - >
-        FITTED AND CLOSE TO THE BODY, AND FULLY COVERING HER TORSO — NO BARE
-        MIDRIFF, NO CROP TOP, NO ONE-SHOULDER DRAPE.
+        FITTED AND CLOSE TO THE BODY, FULLY COVERING HER TORSO — NO BARE
+        MIDRIFF, NO CROP TOP.
+        NO ONE-SHOULDER DRAPE.
         The vest runs from the collarbone to below the waist and fastens up the
         front. Her stomach, flanks and lower back are NEVER exposed — she is an
         infiltrator in salvaged working kit, not a figure in a costume designed
@@ -194,7 +205,7 @@ outfits:
       BE CLEARLY VISIBLE IN EVERY VIEW.
       She wears armour made of individual six-sided metal plates. Every plate is
       a hexagon with six straight sides — never round, never a coin, never a
-      fish-scale shape. EACH PLATE IS SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many small pieces rather than a dozen big ones. Each is flat and laced
+      fish-scale shape. EACH PLATE IS SMALL — 10 to 15 mm across, about the size of a thumbnail. These are FINE SCALE, NOT LARGE PLATES: the forearm gauntlet alone carries well over a hundred of them, and a patch reads as a dense field of many tiny pieces, not a few large ones. Each is flat and laced
       and riveted onto a flexible leather-and-fabric backing and laid so that each
       plate sits edge to edge with its neighbours, almost touching, separated only
       by a thin dark seam, and no frame or bezel around any plate. The lacing is

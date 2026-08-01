@@ -172,6 +172,16 @@ costume language, no retrieved character. It took just under four minutes.
 
 ## If you cannot read this repository
 
+**This section does not apply to a pasted prompt.** If the prompt is in the
+conversation, generate from it — see Step 0a. Replying `CANNOT READ REPO` to a
+self-contained prompt happened on 2026-08-01 and was wrong.
+
+The rule that produced it lives in ChatGPT's project instructions, not here, so
+fixing this file alone changed nothing. The master copy of that block is
+[`09-prompt-library/ChatGPT-Project-Instructions.md`](09-prompt-library/ChatGPT-Project-Instructions.md)
+— if a rule must hold, it has to be there.
+
+
 **Reply with exactly `CANNOT READ REPO`, generate nothing, and then say how to
 proceed.** All three, in that order.
 

@@ -1,10 +1,10 @@
 [BAYLAN — WORKING DRESS — LEFT]
 Output file: turn-working-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 74e175bb (short) · repo commit 1fa423f 2026-08-01 17:15
+Prompt version: 74e175bb (short) · repo commit efeca92 2026-08-01 17:17
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1fa423f, prompt 74e175bb.
+    Working from commit efeca92, prompt 74e175bb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

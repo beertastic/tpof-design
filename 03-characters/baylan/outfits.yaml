@@ -5,6 +5,9 @@ ratio: "2:3"
 # See 09-prompt-library/Handedness-And-Placement.md
 handedness: right
 
+# 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
+height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
+
 # ONE COSTUME, decided 2026-08-01 by the Production Designer and the producers.
 #
 # What used to be four outfits was never four builds. `robe` was the working

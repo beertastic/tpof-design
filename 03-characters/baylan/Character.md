@@ -316,6 +316,8 @@ underneath it is real — and it is what he throws away in the clearing.
 ## Physical Design
 
 - **Species:** Human
+- **Height:** **198 cm (6 ft 6 in).** The tallest human in the film. Only the
+  Wookiee is bigger, and not by as much as people expect.
 - **Age:** 48, late forties. Was ~30 and an established Knight at Order 66. Eighteen years since
   the purge: some spent trying to remain a Jedi on the Outer Rim, the rest — long
   enough that they are his people — with this crew

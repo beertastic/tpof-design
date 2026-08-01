@@ -18,7 +18,8 @@ recorded revision.
 - He knows it is temporary. He owns nothing and could leave in ten minutes.
 - **The finale is him destroying the only safety he has ever known.**
 - **Nobody in the crew knows what he is.**
-- Tall and broad, thickened with age and labour. Powerful once, merely large now.
+- **198 cm (6 ft 6 in).** Tall and broad, thickened with age and labour. Powerful
+  once, merely large now. The tallest human in the film.
 - Iron-grey hair, short and self-cut. Full unshaped beard.
 - Point-of-view character; eleven of twenty-five scenes.
 

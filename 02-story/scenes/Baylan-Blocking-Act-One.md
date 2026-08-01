@@ -88,7 +88,7 @@ the only person in the film who touches Baylan.
 
 | Beat | Movement | Note |
 |---|---|---|
-| Enters under a low branch | Has to stoop. He is tall and broad — make the branch do that work | |
+| Enters under a low branch | **He is 198 cm.** He does not duck, he folds — make the branch do that work | |
 | Jasu is under a tarpaulin leaned against a tree, the akk dog curled beside her | She does not look up | |
 | **Bay kneels beside her** | Down to her level, unbidden | **He kneels here, and refuses to in Sc.19.** Same body, opposite meaning |
 | Tatooine exchange | Shared history, easy | The only time he is warm with anyone but Nyx |
@@ -176,7 +176,8 @@ Jasu hands him the scanner. He finds them, and his jaw tightens.
 
 ## What the map has to support
 
-1. **A stoop-height branch** into Jasu's nook at the treeline.
+1. **A stoop-height branch** into Jasu's nook at the treeline. **Baylan is 198 cm**
+   — build it to fold him, not merely to make him tip his head.
 2. **A tarpaulin leaned against a tree**, big enough for Jasu and a large animal,
    with room for a second person to kneel.
 3. **Space for ten people to form a semi-circle** with several kneeling (Sc.19),

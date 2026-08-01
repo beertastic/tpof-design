@@ -217,10 +217,19 @@ is not one access mechanism, there are several, and they fail differently:
 
 | Route | Behaviour |
 |---|---|
-| **Public raw fetch** — `raw.githubusercontent.com` | The most predictable for a known path. Intermediary caching can still return an older copy |
+| **Public raw fetch** — `raw.githubusercontent.com` | The most predictable for a known path, and **measured current within seconds** on 2026-08-01: a commit pushed at 17:20 local was being served by raw immediately after. Do not blame this layer first |
 | **GitHub connector** | Subject to auth expiry, branch and permission scope, and whether the connector was selected for that particular operation. Its index can lag `main` |
 | **Ordinary web search** | Does not reliably index raw files or recent commits. A failed search is not proof the repo is unreachable |
-| **Conversation cache** | A previous turn's fetch may be reused. A read earlier in the conversation is not evidence of current state |
+| **Conversation cache** | **The one that actually bites.** A previous turn's fetch is reused for the rest of the chat. A read earlier in the conversation is not evidence of current state |
+
+**Measured 2026-08-01, and it corrected a wrong guess of mine.** A model reported
+`REPO-STATE.md` stamped 15:28 UTC while `raw.githubusercontent.com` was serving
+16:20 UTC — checked by hand, at the same moment, with `curl`. GitHub was current.
+The 52-minute-old copy was the conversation's own.
+
+So *"wait for the CDN to catch up"* is bad advice and I gave it. **The fix is a
+fresh chat, immediately** — there is nothing to wait for, and waiting in the same
+conversation changes nothing however long you leave it.
 
 Two more that look like access failures and are not:
 

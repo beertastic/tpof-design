@@ -58,7 +58,36 @@ reference photographs, answering questions about the design, committing accepted
 images, and editing `outfits.yaml`. Do all of that. Just do not pretend the
 generator can see what you can see.
 
-## Step 0 — always, before anything else
+## Step 0a — was this prompt PASTED to you? Then skip the repo entirely.
+
+**If the user has pasted a prompt into the conversation, generate from it. Do not
+read `REPO-STATE.md`. Do not compare anything. Do not check whether the repository
+is current.**
+
+A pasted prompt is self-contained by design — every rule it needs is inlined, and
+it carries its own commit id and content hash on line 4. **Nothing about the
+repository can make a pasted prompt stale.** The text in front of you is the text
+the Production Designer chose to send.
+
+**Recorded 2026-08-01, because the rule below blocked the only workflow that
+works.** A run correctly noticed that the `REPO-STATE.md` it could fetch was
+stamped older than the commit named in a pasted prompt, correctly applied the
+stale-content rule, and correctly refused to generate. Every step was right and
+the outcome was wrong: the repository was irrelevant to the request. The cached
+copy was behind; the pasted prompt was current; and comparing the two was a
+category error I had written into this file.
+
+**So the scope is now explicit.** The staleness check below governs reading FROM
+the repository. It does not govern text handed to you directly.
+
+The commit id and hash on line 4 are **provenance for the human**, not a gate for
+you to satisfy. Quote them back — that is the proof you read the file — and then
+generate. If they happen to disagree with anything you can fetch, say so in one
+line and generate anyway.
+
+---
+
+## Step 0 — when you are READING from the repository, always, before anything else
 
 **Read [`REPO-STATE.md`](REPO-STATE.md) and tell the user the stamp date it
 carries.** One line, **in your reply text**, every time:

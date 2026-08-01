@@ -1,13 +1,14 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 50d5f621 (short) · repo commit e003a28 2026-08-01 17:12
+Prompt version: bb8d1112 (short) · repo commit a2cc855 2026-08-01 17:12
 
-BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit e003a28, prompt 50d5f621.
-You cannot know either unless you have read this file, so quoting them is
-the proof that you did. If you cannot, say so and generate nothing.
-Never put them in the picture — they belong in your reply text.
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit a2cc855, prompt bb8d1112.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -27,15 +28,15 @@ You are thinking of the austere silver-haired Jedi in flowing black robes with a
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. An audience must be able to watch him for half the film without suspecting.
-2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind.
-3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right hip, belt-mounted, grip up and angled slightly forward for a right-hand draw. NEVER his left.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THE TURNAROUND VIEWS — those record the base costume, and a long coat over the top hides…
-5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff — a slightly finer, older weave than the shirt over it.
-6. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must read as nothing else — this is the man with no ornament on him.
-7. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the…
-8. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight.
-9. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it.
+2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal…
+3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right hip, belt-mounted, grip up and angled slightly forward…
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS.
+5. UNDER THE JACKET, THE UNDERTUNIC. In the base costume it shows ONLY as a dark edge at the collar and at the cuff — a slightly…
+6. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must read as nothing else — this is the man with no ornament…
+7. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and…
+8. LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND BROAD AND THICKENED.
+9. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive.
 
 SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

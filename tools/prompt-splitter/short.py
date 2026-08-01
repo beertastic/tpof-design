@@ -27,7 +27,11 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from split import find_repo_root, actor_refs, raw_url  # noqa: E402
 
-BUDGET = 3600          # target; the hard limit out there is about 4,000
+BUDGET = 3800          # hard ceiling for the FINISHED file, header included. The header, the version stamp and
+                       # the echo block are added after trimming and cost about
+                       # 500 characters, so the budget has to leave room for them
+                       # or the fit guarantee is a lie. The real limit out there
+                       # is about 4,000.
 RULE_CHARS = 200       # per non-negotiable
 
 
@@ -50,7 +54,7 @@ VIEWS = {
 }
 
 
-def build(character: str, cfg: dict, outfit: dict, view: str) -> str:
+def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = RULE_CHARS) -> str:
     approved = (outfit.get("approved") or {}).get("reference")
     gate = approved and view != (outfit.get("approved") or {}).get("view", "front")
 
@@ -63,7 +67,7 @@ def build(character: str, cfg: dict, outfit: dict, view: str) -> str:
     for n, name, url, what in actor_refs(character):
         refs.append(f"FACE + BUILD ({n}): {url}")
 
-    rules = [trim(m, RULE_CHARS) for m in (outfit.get("must_show") or [])]
+    rules = [trim(m, rule_chars) for m in (outfit.get("must_show") or [])]
     hand = cfg.get("handedness")
     height = outfit.get("height") or cfg.get("height")
     retrieve = cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve")
@@ -143,12 +147,31 @@ def _repo_commit() -> str:
 
 
 ECHO_TEMPLATE = (
-    "BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:\n"
+    "BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:\n"
     "    Working from commit {commit}, prompt {h}.\n"
-    "You cannot know either unless you have read this file, so quoting them is\n"
-    "the proof that you did. If you cannot, say so and generate nothing.\n"
-    "Never put them in the picture \u2014 they belong in your reply text."
+    "That is your proof you read this file. It is provenance for the human, NOT\n"
+    "something to check against the repository — this prompt is self-contained and\n"
+    "a cached REPO-STATE.md cannot make it stale. Do not go and look. If you\n"
+    "cannot quote it, say so and generate nothing. Never put it in the picture."
 )
+
+
+def fit(character: str, cfg: dict, outfit: dict, view: str) -> str:
+    """Build the prompt, then tighten the per-rule cap until the whole thing fits.
+
+    BUDGET used to be declared and never applied: `trim` capped each rule at 200
+    characters and nothing capped the total, so every line added anywhere pushed
+    files over the limit silently. Ten of forty-five were over 4,000 before this
+    existed — the exact failure the short prompts were built to prevent.
+
+    Rules are shortened together rather than dropped. A truncated non-negotiable
+    still names its subject; a missing one is invisible.
+    """
+    for cap in range(RULE_CHARS, 70, -10):
+        text = build(character, cfg, outfit, view, cap)
+        if len(text) <= BUDGET:
+            return text
+    return text
 
 
 def run(repo: Path, character: str) -> int:
@@ -162,7 +185,7 @@ def run(repo: Path, character: str) -> int:
     sizes = []
     for outfit in cfg.get("outfits", []):
         for view in VIEWS:
-            text = build(character, cfg, outfit, view)
+            text = fit(character, cfg, outfit, view)
             (outdir / f"turn-{outfit['id']}-{view}.txt").write_text(text, encoding="utf-8")
             sizes.append(len(text))
             n += 1

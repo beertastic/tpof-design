@@ -1,13 +1,14 @@
 [SHIN — DESTROYED BY THE FOREST — RIGHT]
 Output file: turn-late-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: d3df3da3 (short) · repo commit 34f72ac 2026-08-01 17:11
+Prompt version: d3df3da3 (short) · repo commit a2cc855 2026-08-01 17:12
 
-BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 34f72ac, prompt d3df3da3.
-You cannot know either unless you have read this file, so quoting them is
-the proof that you did. If you cannot, say so and generate nothing.
-Never put them in the picture — they belong in your reply text.
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit a2cc855, prompt d3df3da3.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

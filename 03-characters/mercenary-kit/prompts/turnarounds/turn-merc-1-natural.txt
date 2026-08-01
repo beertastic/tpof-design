@@ -1,13 +1,14 @@
 [MERCENARY KIT — TURNAROUND — MERC 1 — THE WOOKIEE — NATURAL POSE]
 Output file: turn-merc-1-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 3acacbab · repo commit 34f72ac 2026-08-01 17:11
+Prompt version: 3acacbab · repo commit a2cc855 2026-08-01 17:12
 
-BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 34f72ac, prompt 3acacbab.
-You cannot know either unless you have read this file, so quoting them is
-the proof that you did. If you cannot, say so and generate nothing.
-Never put them in the picture — they belong in your reply text.
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit a2cc855, prompt 3acacbab.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
 
 ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
 the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.

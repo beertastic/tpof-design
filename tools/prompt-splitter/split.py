@@ -200,11 +200,12 @@ def _repo_commit() -> str:
 
 
 ECHO_TEMPLATE = (
-    "BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:\n"
+    "BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:\n"
     "    Working from commit {commit}, prompt {h}.\n"
-    "You cannot know either unless you have read this file, so quoting them is\n"
-    "the proof that you did. If you cannot, say so and generate nothing.\n"
-    "Never put them in the picture \u2014 they belong in your reply text."
+    "That is your proof you read this file. It is provenance for the human, NOT\n"
+    "something to check against the repository — this prompt is self-contained and\n"
+    "a cached REPO-STATE.md cannot make it stale. Do not go and look. If you\n"
+    "cannot quote it, say so and generate nothing. Never put it in the picture."
 )
 
 

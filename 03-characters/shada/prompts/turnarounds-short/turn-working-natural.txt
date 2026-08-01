@@ -1,13 +1,14 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 6925d868 (short) · repo commit 34f72ac 2026-08-01 17:11
+Prompt version: 60f9bcd3 (short) · repo commit a2cc855 2026-08-01 17:12
 
-BEFORE YOU GENERATE, SAY THIS LINE BACK TO THE USER, WORD FOR WORD:
-    Working from commit 34f72ac, prompt 6925d868.
-You cannot know either unless you have read this file, so quoting them is
-the proof that you did. If you cannot, say so and generate nothing.
-Never put them in the picture — they belong in your reply text.
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit a2cc855, prompt 60f9bcd3.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -29,14 +30,14 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE. NO TORSO PANEL. NO CHEST PLATE.
-2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold.
-3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile. The costume follows her figure — waist defined, nothing bulky, nothing loose, no oversized jacket or coat.
-4. BARE ARMS AND BARE SHOULDERS. Her arms are UNCOVERED from the shoulder down — no sleeves of any length, no sleeve, no arm wrap, no gloves, no undershirt showing at the arm. The vest is SLEEVELESS.
-5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN. The snake ancestry is TENS OF THOUSANDS OF YEARS BACK — so distant that almost nothing of it survives.
+1. SCALE ARMOUR — THREE SMALL PATCHES ONLY, NEVER A SUIT AND NEVER A MATCHED SET. NO BREASTPLATE. NO FULL YOKE.
+2. THE THREE PATCHES ARE THREE DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG.
+3. FITTED AND CLOSE TO THE BODY. Her silhouette is compact and agile.
+4. BARE ARMS AND BARE SHOULDERS. Her arms are UNCOVERED from the shoulder down — no sleeves of any length, no sleeve, no…
+5. HER SKIN CARRIES FINE INHERITED SCALES, AND THIS IS WHAT MAKES HER NOT HUMAN.
 6. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. Positions are given from HER OWN left and right, not the viewer's.
-7. EXTERIOR, WITH ONE EXCEPTION. Almost every place she is seen is exterior: wet forest, forest clearing, or the mercenary camp among the trees.
-8. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the cheekbone, along the jawline, down the side of the neck, behind the ear.
+7. EXTERIOR, WITH ONE EXCEPTION. Almost every place she is seen is exterior: wet forest, forest clearing, or the mercenary…
+8. FACE — BARELY THERE. Fine scale texture on the skin at the EDGES of her face only: the temples, the outer edge of the…
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

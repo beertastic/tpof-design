@@ -78,9 +78,13 @@ Both are interesting. Neither is decided. See *Open Questions*.
   stay plain cloth between the panels.**
 - **Flexible metallic scale patches in place of rigid plates**, with the single
   exception of the gauntlet, which is a solid printed shell.
-- **The vest hide carries a faint serpentine grain** — the material, not a
-  pattern, and not to be confused with the scale armour.
-- Muted, practical forest palette.
+- **A cloth vest, not hide** — a heavy close-woven working fabric in a dusty
+  grey, soft enough to crease where the hard pieces bear on it. It is the
+  flexible base layer the armour is strapped over.
+- **The vest cloth carries a faint serpentine grain** — woven into the material,
+  not a pattern applied to it, and not to be confused with the scale armour.
+- **A grey, grey-green and khaki palette.** The bronze thigh patch is the one
+  warm thing in it.
 - **WESTAR-35 blaster pistol** on her right thigh, and a well-used knife on her left hip.
 - No unnecessary technology or decorative equipment.
 - Movement is economical, controlled and observant.
@@ -146,13 +150,19 @@ loses her build *and* her speed. Fitted serves both.
 
 ### Belt and boots — recorded 2026-08-01 from the reference
 
-**The belt is two tiers.** A worn brown leather waist belt with a plain squared
+**All the leather is grey-brown taupe** — desaturated and sun-bleached, with a
+greenish-grey cast. Never chestnut, never tan, never saddle brown. Recorded
+2026-08-02 with the palette change: warm leather is the fastest way back to the
+brown costume this design left behind, and it drifts there on nearly every
+generation.
+
+**The belt is two tiers.** A worn taupe leather waist belt with a plain squared
 metal buckle, sitting level; and a second belt slung diagonally below it,
 dropping to her right to carry the holster, with a strap and buckle round the
 thigh. Nothing decorative, nothing matching — two belts that ended up on the
 same body.
 
-**The boots are mid-calf and wrapped.** Dark weathered brown leather, flat
+**The boots are mid-calf and wrapped.** Weathered grey-brown taupe leather, flat
 soled, round toed, with the trouser legs tucked in. Long leather straps wound
 criss-cross up the shaft and buckled off at the top. The wrapping is the point:
 it is not a fastening the boot came with, it is something she does every morning,
@@ -328,23 +338,34 @@ and a tie to the vest shoulder hold it on, and both are visibly improvised.
 
 **It is scale, not a plate.** The cap is a field of the same 10–15 mm hexagons
 as the flank panels and the thigh patch, in blackened iron — not a solid piece
-with a scale texture on it, and not a single smooth plate. Worth saying twice,
-because the costume photograph now attached as the primary reference shows a
-smooth plate on that shoulder, and an image beats a paragraph.
+with a scale texture on it, and not a single smooth plate.
+
+**And it is small — a palm's width.** Settled 2026-08-02 after three passes, each
+of which overshot the last. It covers the point of her left shoulder and nothing
+else: its outer edge stops where the shoulder becomes the arm, its inner edge
+stays clear of her collarbone, and its lower edge stops well above the armpit.
+**An oversized cap is how a yoke gets back into this costume under another
+name**, and the yoke is the failure this character has had more often than any
+other.
 
 A cap that fits her shoulder is a cap somebody made for her. This one was cut
 off something else and tied on.
 
 ### The vest itself is serpentine
 
-**The hide the vest is cut from carries a faint snake-skin grain** — fine, close,
-irregular, pressed into the material rather than printed on it. Tonal, the same
-colour as the rest of the vest, and readable only where light rakes across the
-surface. At two paces it is a plain dark worn vest; the grain is something you
-find on the third look.
+**The cloth the vest is cut from carries a faint snake-skin grain** — fine,
+close, irregular, woven into the material rather than printed on it. Tonal, the
+same colour as the rest of the vest, and readable only where light rakes across
+the surface. At two paces it is a plain worn grey vest; the grain is something
+you find on the third look.
 
 **She did not choose it**, exactly as she did not choose the mill mark on the
-plates. It is what the hide was.
+plates. It is what the cloth was.
+
+*Until 2026-08-02 this was a grain pressed into scavenged hide.* When the vest
+became cloth the grain could have gone with it; it was kept, translated into the
+weave, because it is the quietest thing in the costume carrying her ancestry and
+nothing else does that job.
 
 **This is not the scale armour and must never be confused with it.** The armour
 is discrete, countable, physically separate pieces of metal; the grain is the
@@ -622,6 +643,7 @@ High-resolution PNG previews are stored in `renders/` (gitignored — regenerabl
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 5.0 | 2026-08-02 | **LOCKED** | **The costume is settled and has its first approved reference.** Seven variant generations in one session moved five things: the vest becomes **cloth** rather than scavenged hide; the palette becomes **grey, grey-green and khaki** rather than brown, with the bronze thigh patch the one warm note; the plates are fixed at **about twelve across a flank panel**, with a floor as well as a ceiling after one pass shrank them into chain mail; tessellation is described **positively** — flat in one plane, a thin dark line between neighbours — because the prohibition alone never worked; the shoulder cap is fixed at **a palm's width**; and **wear becomes part of the specification**, with plates missing from the panels and the cap. The two direction photographs are retired: `turn-working-front.png` is the single approved reference and every other view matches it |
 | 4.1 | 2026-08-02 | in-development | **The two costume references swapped roles.** `flank-panels.png` becomes the costume and `costume-front-v2.png` is scoped to the shoulder cap, the gauntlet and the plate size. Two full-figure references competing over one garment is a fight the written rules cannot win. The shoulder cap is restated as a **field of small scale plates**, because the new primary reference shows a smooth solid plate there. No change to the build: the gauntlet stays a solid printed shell. **Seven `must_show` rules re-ordered** so the load-bearing sentence leads — the collar, the lacing, the trousers, the knife and the side assignments had all been trimmed out of the short prompt |
 | 4.0 | 2026-08-01 | in-development | **Flank panels restored**, against a generation that showed the laced-brigandine shape working. Five pieces, five metals; the strip of vest cloth visible in the lacing gap is now itself a rule. Gauntlet face changed from a hexagon field to plain worn plate, matching the accepted render. **Face-precedence rule added** after a generation took its likeness off the costume reference — full-figure references must now state what they are *not* for |
 | 3.0 | 2026-08-01 | in-development | **Costume revised against a supplied reference photograph** (`reference/approved/costume-direction-front.png`). Flank panels dropped and all metal off the torso again; forearm gauntlet becomes a solid 3D-printed shell with two dim wrist telltales; shoulder cap specified as loose scavenged scale; the vest hide gains a faint serpentine grain. Belt and boots recorded. Turnaround artwork superseded — all twenty images need regenerating |

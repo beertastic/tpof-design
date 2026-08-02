@@ -12,25 +12,21 @@ outfits:
 
     # See 03-characters/APPROVAL.md. Clear this block to unlock.
     #
-    # STILL UNLOCKED. Second revision of 2026-08-01, recorded in
-    # Character-Lock.md v3.0: the flank panels are gone, the gauntlet is a solid
-    # 3D-PRINTED SHELL with two dim wrist telltales, the shoulder cap is LOOSE,
-    # and the vest hide carries a faint serpentine grain.
+    # LOCKED 2026-08-02, after seven variant generations settled the design.
+    # Recorded in Character-Lock.md v5.0. What the front view establishes:
+    # a CLOTH vest, not hide; a GREY-GREEN / KHAKI palette; plates tessellated
+    # edge to edge at about twelve across a flank panel; a shoulder cap the size
+    # of a palm; and visible wear with plates missing from the panels.
     #
-    # The Production Designer supplied a costume reference photograph, now at
-    # reference/approved/costume-direction-front.png and attached to every view
-    # below. It is deliberately NOT set as `approved:`, because it predates two
-    # of the three changes above and its plates are about twice the specified
-    # size. Approving it would lock the very things this revision changes.
-    #
-    # DO NOT approve until a new front turnaround has been generated against
-    # this spec and checked. Then add the block below pointing at the new file,
-    # and redo the other four views and the narrative plates against it.
-    # approved:
-    #   date: "2026-07-31"
-    #   view: front
-    #   reference: 03-characters/shada/source/artwork/turn-working-front.png
-    #   note: "Front view locked. Match this for all other views"
+    # This is the first APPROVED costume reference this character has had. The
+    # two DIRECTION photographs it supersedes — costume-front-v2.png and
+    # flank-panels.png — are kept on disk as history and are no longer attached.
+    # Every other view and every narrative plate matches against this one image.
+    approved:
+      date: "2026-08-02"
+      view: front
+      reference: 03-characters/shada/source/artwork/turn-working-front.png
+      note: "Front view locked. Match this for all other views"
 
     # Approved reference PLATES. Attached alongside the costume reference so the
     # material and the props stop being redrawn from words every time. This is
@@ -41,50 +37,17 @@ outfits:
       # matters, and for the two FULL-FIGURE references that instruction is
       # NOT THE FACE. The detail after it is for the long prompts only.
       #
-      # THE TWO COSTUME PHOTOGRAPHS SWAPPED ROLES 2026-08-02, on the Production
-      # Designer's call. flank-panels.png is now THE costume reference and
-      # costume-front-v2.png is scoped down to two pieces.
+      # THE TWO DIRECTION PHOTOGRAPHS ARE GONE, 2026-08-02. There is now ONE
+      # approved costume reference — the front turnaround above — and it is
+      # attached by the tooling as the match target for every other view.
       #
-      # They were the other way round, and the generation of 2026-08-02 shows
-      # why that failed: with the fuller, more detailed photograph named as the
-      # costume and the better one scoped to "one thing only", the vest lost its
-      # stand collar to a wrap front and a skirt appeared over the trousers.
-      # Two full-figure references competing over the same garment is a fight
-      # the rules cannot win — so only ONE of them is the costume now.
-      - path: reference/approved/flank-panels.png
-        what: >-
-          THE COSTUME — NOT THE FACE. This is the costume, and the silhouette in
-          it is right: the close-fitting sleeveless vest with its STAND COLLAR
-          and centre-front placket, the pair of scale flank panels LACED ACROSS
-          THE CENTRE FRONT with a strip of vest cloth showing in the gap, the
-          scale patch on her left thigh, the two mismatched belts, the
-          close-fitting trousers with NOTHING WORN OVER THEM, and the mid-calf
-          boots. THREE THINGS IN IT ARE WRONG and the rules below correct them:
-          (1) its SHOULDER PIECE is a smooth solid plate — it must be a LOOSE
-          FIELD OF SMALL SCALE PLATES instead, see the other photograph; (2) its
-          FOREARM is a leather wrap — it must be the SOLID PRINTED STEEL
-          GAUNTLET, see the other photograph; (3) its PLATES ARE TWICE THE SIZE
-          THEY SHOULD BE and it mixes several metals inside one panel. THE WOMAN
-          IN THIS PHOTOGRAPH IS NOT THE ACTOR. Take NOTHING of the face, head,
-          hair or likeness from it
-      # Attached for two pieces only. Saying so is the whole point: handed a
-      # full-figure photograph with no scope, a generator takes the face from it.
-      # This one is the accepted 2026-08-01 generation and it holds the two
-      # pieces the costume photograph gets wrong — plus the correct plate size,
-      # which is the fault that keeps coming back.
-      - path: reference/approved/costume-front-v2.png
-        what: >-
-          THE SHOULDER CAP AND GAUNTLET ONLY — NOT THE FACE, NOT THE REST OF IT.
-          Use this for THREE things and nothing else: (1) the LOOSE SCALE CAP on
-          her LEFT SHOULDER — a field of small separate plates on a hand-cut
-          backing, exactly as shown, NEVER the smooth solid plate in the other
-          photograph; (2) the SOLID PRINTED STEEL GAUNTLET on her RIGHT FOREARM
-          with its dim amber wrist telltales, NEVER a leather wrap; (3) HOW BIG
-          A PLATE IS — the fine dense field on its shoulder and thigh is the
-          correct size, and the plates in the other photograph are twice too
-          large. Its vest, its flank panels (it has none) and its boots are not
-          the reference — the other photograph governs those. THE WOMAN IN THIS
-          PHOTOGRAPH IS NOT THE ACTOR either. Take no face from it
+      # costume-front-v2.png and flank-panels.png are kept on disk as history.
+      # They are no longer attached because every one of their faults has been
+      # designed out: the smooth shoulder plate, the leather forearm wrap, the
+      # oversized plates, the brown palette and the hide vest. Attaching a
+      # superseded photograph is how a settled decision quietly comes undone —
+      # and TWO full-figure references competing over one garment is a fight the
+      # written rules cannot win, which is the lesson that cost five generations.
       - path: source/artwork/material-scale.png
         what: >-
           THE SCALE PLATES — SIZE AND FINISH. What one plate looks like, how big
@@ -108,11 +71,11 @@ outfits:
       # photographs have to be explicitly disqualified.
       - >
         TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS.
-        THE COSTUME PHOTOGRAPHS ARE NOT FACE REFERENCES.
-        THOSE WOMEN ARE NOT THE ACTOR.
-        Several full-figure photographs are attached and they are attached for
-        the COSTUME. Take no face, no head, no hair and no likeness from any of
-        them, however clear or well-lit the face in them is.
+        THE COSTUME PHOTOGRAPH IS ATTACHED FOR THE COSTUME, NOT THE FACE.
+        Build the face from the actor photographs alone.
+        A full-figure costume photograph is attached and it is attached for the
+        COSTUME. Take no face, no head, no hair and no likeness from it, however
+        clear or well-lit the face in it is.
         The face, the head, the bone structure and the build come from the ACTOR
         photographs and from nowhere else. If the person in your image is
         recognisably the woman in a costume photograph rather than the woman in
@@ -206,7 +169,7 @@ outfits:
         ON THE COSTUME.
         MATCH THE GAUNTLET IN THE COSTUME PHOTOGRAPH EXACTLY.
         It wraps the OUTER RIGHT FOREARM from the wrist to just below the elbow,
-        strapped over a worn brown leather cuff that shows above and below it.
+        strapped over a worn taupe leather cuff that shows above and below it.
         It is ONE RIGID SURFACE — a single moulded piece with no separate plates,
         no lacing and no backing showing through. It does not flex.
         THE FACE OF THE SHELL IS PLAIN WORN PLATE, not a field of hexagons: a
@@ -234,14 +197,20 @@ outfits:
       # the reference showed a scale cap; it is not safe now.
       - >
         THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT
-        SHOULDER.
+        SHOULDER, A PALM'S WIDTH.
         NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
-        NEVER MOULDED TO HER SHOULDER.
-        THE COSTUME PHOTOGRAPH IS WRONG HERE — its shoulder piece is a single
-        smooth plate. Take the shoulder from the OTHER photograph, which shows
-        the correct field of small plates, and match its plate size.
+        NEVER DOWN THE ARM AND NEVER TO THE COLLARBONE.
+        It covers THE POINT OF HER LEFT SHOULDER AND NOTHING ELSE, roughly the
+        size of the palm of a hand — a size that took three passes to settle. Its
+        OUTER edge stops where the shoulder becomes the arm — it does not run
+        down her upper arm. Its INNER edge stays well clear of her collarbone and
+        never crosses toward the centre front of the vest. Its lower edge stops
+        well above the armpit. An oversized cap is how a YOKE gets back into this
+        costume under another name, and the yoke is the most persistent failure
+        this character has.
         The plates are the same 10-15 mm hexagons as the rest of the costume,
-        and the cap is OBVIOUSLY SCAVENGED.
+        about twenty-five to thirty-five of them, and three to five are MISSING.
+        The cap is OBVIOUSLY SCAVENGED.
         Genuinely SEPARATE plates laced to a HAND-CUT, IRREGULAR backing, sitting
         AWAY FROM THE BODY over the point of her left shoulder. It hangs, it
         lifts, it swings when she turns, and DAYLIGHT SHOWS UNDER ITS LOWER EDGE.
@@ -301,11 +270,33 @@ outfits:
       # against an image and not just against a habit. Second sentence says so
       # outright, and the trim keeps the first negation after the head.
       - >
-        EACH PLATE IS 10-15 mm ACROSS — HALF THE SIZE IN THE COSTUME PHOTOGRAPH.
-        NEVER OVERLAPPED OR SHINGLED.
-        FIVE DIFFERENT METALS AND NO BRASS.
-        A DENSE FIELD OF HUNDREDS, TESSELLATED EDGE TO EDGE, AND NEVER A DOZEN
-        BIG ONES. HALVE THE PLATES IN THE COSTUME PHOTOGRAPH AND YOU HAVE IT.
+        EACH PLATE IS 10-15 mm — TWELVE OF THEM ACROSS A FLANK PANEL.
+        NEVER OVERLAPPED — THEY BUTT EDGE TO EDGE.
+        FIVE METALS, NO BRASS, AND PLATES MISSING.
+        Match the plate size in the costume photograph exactly.
+        TESSELLATION, SAID POSITIVELY, because the prohibition alone has never
+        been enough: every plate lies FLAT IN THE SAME PLANE as its neighbours,
+        six flat sides butted against six flat sides. Between two plates there
+        is a THIN DARK LINE showing the backing beneath, and nothing else — no
+        plate edge riding over another, no shadow of an upper plate falling on a
+        lower one, no stepped or layered surface. A hand run flat across the
+        panel would not catch. NOT shingled, NOT lamellar, NOT roof tiles, NOT
+        fish scales.
+        THE WEAR IS PART OF THE SPECIFICATION. Five to ten plates MISSING from
+        each flank panel and three to five from the shoulder cap, leaving
+        scattered dark gaps where the hand-cut backing shows through — along the
+        edges, at the waist, over the hip, at the top edge of the cap, the places
+        that catch and flex. Bent corners, chipped and cracked plates, rows
+        drifting out of line, an eyelet torn out and re-punched beside the old
+        hole, a different cord spliced into the lacing where it broke. Worn hard
+        and repaired badly, but still maintained — she is alive because it works.
+        It must read as SURVIVED IN, never as laid out, and never as ruined.
+        A DENSE FIELD OF HUNDREDS, AND NEVER A DOZEN BIG ONES. But do not go
+        finer either: at about twelve across a panel each plate is still an
+        INDIVIDUALLY VISIBLE hexagon you could put a fingertip on. A pass that
+        shrank them further turned the panels into CHAIN MAIL, which is as wrong
+        as making them too big. NOT chain mail, NOT ring mail, NOT a woven metal
+        fabric, NOT a fine allover shimmer with no separate pieces in it.
         If they read as the same
         metal, the image has failed — the mismatch is the whole point, because it
         is what proves nobody made this costume for her.
@@ -329,14 +320,8 @@ outfits:
         NO BRASS AND NO VERDIGRIS ANYWHERE ON THIS COSTUME.
         EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER
         A DOZEN BIG ONES.
-        TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR SHINGLED.
         About the size of a thumbnail. ONE FLANK PANEL alone carries WELL OVER A
-        HUNDRED of them, so if the plates in a patch can be counted at a glance
-        they are far too big.
-        THE FLANK PANELS ARE THE ONE THAT KEEPS COMING BACK WRONG. In the flank
-        panel photograph the plates are ABOUT TWICE THE SIZE THEY SHOULD BE —
-        roughly fifteen across each panel, countable at a glance. They must be
-        the same fine, dense field as the thigh patch: FAR MORE, FAR SMALLER.
+        HUNDRED of them — about twelve across its width and fifteen rows down.
         The gauntlet is not part of this rule — it is a plain shell, not a
         hexagon field.
         FOR WHAT A PLATE LOOKS LIKE, MATCH THE PLATE PHOTOGRAPH FETCHED ABOVE.
@@ -356,11 +341,33 @@ outfits:
       # They were sentence two, the trim dropped them, and the vest came back as
       # a crossover V-neck wrap — a garment nothing in the file describes, and
       # the one shape the short prompt had stopped forbidding.
+      # MATERIAL AND COLOUR BOTH CHANGED 2026-08-02, on the Production
+      # Designer's call, after two variant generations tested them. The vest was
+      # scavenged HIDE in dark brown; it is now CLOTH in a dusty grey. The hide
+      # was never wrong, but cloth reads as the flexible base layer the hard
+      # pieces are strapped over, and the grey lets the five metals separate
+      # from the garment instead of sinking into it.
       - >
-        A PANELLED SLEEVELESS VEST WITH A STAND COLLAR AND CONCEALED PLACKET.
-        NEVER A WRAP FRONT, NEVER A V-NECK, NEVER A CROSSOVER, NO ZIP.
+        A PANELLED SLEEVELESS VEST IN DUSTY GREY CLOTH, WITH A STAND COLLAR AND
+        CONCEALED PLACKET.
+        CLOTH, NEVER LEATHER — NO WRAP FRONT, NO V-NECK, NO ZIP.
         The placket runs DOWN THE CENTRE FRONT and the collar stands away from
         the neck, open at the throat.
+        THE MATERIAL IS CLOTH — a heavy, close-woven working fabric, matte, dry
+        and sun-faded, with the softness and the give of cloth. It is her BASE
+        LAYER: the flexible thing the hard pieces are strapped over. It must read
+        as FABRIC AND NOT AS HIDE — no leather sheen, no leather grain, no stiff
+        moulded panel edges, no rigidity anywhere in the garment. Where a plate,
+        a strap or a buckle bears on it THE CLOTH COMPRESSES AND WRINKLES, and
+        there are soft creases at the waist above the belt and at the armhole.
+        Flexible is not slack: it is still close-fitting and cut to her figure.
+        THE COLOUR IS A DUSTY, SUN-BLEACHED STONE GREY with only a HINT of
+        khaki-green left in it. The green is a CAST, not a colour — enough that
+        it does not read as neutral concrete, not enough that anyone would call
+        it olive. NOT blue-grey, NOT slate, NOT charcoal, NOT silver, NOT a clean
+        neutral grey. The colour of weathered canvas left out for years. It is
+        the LIGHTEST thing she wears, lighter than the trousers, rubbed paler
+        still at the seams and the wear points.
         BARE ARMS AND BARE SHOULDERS. PRINCESS SEAMS, RAW HEM.
         NO SLEEVES, NO BARE MIDRIFF, NO CROP TOP.
         THIS IS NOT A TANK TOP AND NOT A VEST TOP, AND NOT A ONE-SHOULDER DRAPE.
@@ -386,17 +393,19 @@ outfits:
         THE HEM is shaped, dipping at centre front and back and rising at the
         sides, and its edge is RAW AND FRAYING — cut and left, never turned,
         never topstitched.
-        THE CLOTH CARRIES A FAINT SERPENTINE GRAIN — IN THE MATERIAL, NEVER A
-        PRINTED PATTERN. A dry matte scavenged hide that does not catch the
-        light, rubbed through to a paler brown at the seams and the wear points,
-        cut from a skin whose surface holds a FINE, CLOSE, IRREGULAR SNAKE-SKIN
-        GRAIN pressed into it. TONAL — exactly the same colour as the rest of the
-        vest — and readable ONLY where light rakes across the surface. At two
-        paces it is a plain dark worn vest; the grain is something you find on
-        the third look.
-        NOT REPTILE-PRINT LEATHER. No repeating motif, no decorative pattern, no
+        THE CLOTH CARRIES A FAINT SERPENTINE GRAIN — WOVEN INTO THE MATERIAL,
+        NEVER A PRINTED PATTERN. A dry matte cloth that does not catch the light,
+        rubbed paler at the seams and the wear points, whose WEAVE ITSELF holds a
+        FINE, CLOSE, IRREGULAR SNAKE-SKIN TEXTURE. TONAL — exactly the same
+        colour as the rest of the vest — and readable ONLY where light rakes
+        across the surface. At two paces it is a plain worn grey vest; the grain
+        is something you find on the third look.
+        NOT A REPTILE PRINT. No repeating motif, no decorative pattern, no
         crocodile or python print, nothing that looks bought. She did not choose
-        it; it is simply what the hide was.
+        it; it is simply what the cloth was. (Until 2026-08-02 this was a grain
+        pressed into scavenged hide. The vest is cloth now, so the same idea
+        lives in the weave — it survived the material change on purpose,
+        because it is the quietest thing in the costume carrying her ancestry.)
         IT IS NOT THE SCALE ARMOUR AND MUST NEVER BE CONFUSED WITH IT. The armour
         is discrete, countable, separate pieces of METAL that catch the light;
         this is the surface of a piece of cloth and it catches nothing. It is
@@ -473,21 +482,28 @@ outfits:
       # described her lower half — and a full layered skirt and tabard appeared
       # over the trousers, the single largest silhouette failure so far.
       - >
-        CLOSE-FITTING DARK TROUSERS TUCKED INTO MID-CALF BOOTS.
+        CLOSE-FITTING GREY-GREEN TROUSERS TUCKED INTO GREY-BROWN TAUPE BOOTS.
         NOTHING IS WORN OVER THE TROUSERS — NO SKIRT, TABARD, APRON, OVERSKIRT,
         WRAP OR HANGING PANEL.
         TWO BELTS THAT DO NOT MATCH.
+        THE PALETTE, recorded 2026-08-02: the TROUSERS are a darker, colder
+        grey-green than the vest, close-fitting, matte and heavily worn. ALL THE
+        LEATHER — the two belts, the holster, the thigh strap, the boots and the
+        cuff under the gauntlet — is GREY-BROWN TAUPE, desaturated and
+        sun-bleached with a greenish-grey cast. NEVER chestnut, NEVER tan, NEVER
+        saddle brown; the leather drifts warm on almost every generation and it
+        pulls the whole costume back toward the brown this design left behind.
         Her legs read as legs from hip to boot: nothing drapes, nothing hangs
         below the hem of the vest, and no cloth crosses the front of her thighs.
         LONG LEATHER STRAPS WOUND CRISS-CROSS UP THE BOOT SHAFT
         — never laced boots, never modern combat
         boots, never tall riding boots.
-        THE BELTS: a worn BROWN LEATHER WAIST BELT sitting level, with a plain
+        THE BELTS: a worn TAUPE LEATHER WAIST BELT sitting level, with a plain
         squared metal buckle; and a SECOND BELT SLUNG DIAGONALLY below it,
         dropping to HER RIGHT to carry the holster, with a strap and buckle round
         the thigh. The two do not match and were never a set.
-        THE BOOTS: DARK WEATHERED BROWN LEATHER, mid-calf, FLAT SOLED and ROUND
-        TOED, with the TROUSER LEGS TUCKED IN. The straps are buckled off at the
+        THE BOOTS: WEATHERED GREY-BROWN TAUPE LEATHER, mid-calf, FLAT SOLED and
+        ROUND TOED, with the TROUSER LEGS TUCKED IN. The straps are buckled off at the
         top and wrapped by hand — not a fastening the boot came with. Never
         buckled biker boots.
         THE TROUSERS are dark, close-fitting, matte and heavily worn, creased
@@ -533,8 +549,9 @@ outfits:
       on her right forearm, a loose scale cap on her left shoulder, a scale patch
       on her left outer thigh, and a pair of unmatched scale flank panels laced
       across the centre front over her ribs — worn over a fitted sleeveless vest
-      of scavenged hide. NO BREASTPLATE: her chest and sternum stay plain cloth
-      between the panels.
+      of dusty grey cloth. NO BREASTPLATE: her chest and sternum stay plain cloth
+      between the panels. The palette is grey, grey-green and khaki throughout,
+      with the bronze thigh patch the one warm thing in it.
       CRITICAL — THE SCALE ARMOUR IS THE DEFINING FEATURE OF THIS COSTUME AND MUST
       BE CLEARLY VISIBLE IN EVERY VIEW.
       She wears armour made of individual six-sided metal plates. Every plate is
@@ -573,12 +590,13 @@ outfits:
       printed shell that does not flex at all.
       DO NOT make the armour leather. DO NOT make it a printed
       pattern. DO NOT make it forged or ceremonial armour. Layered
-      technical cloth, worn leather and repaired matte hardware. A worn leather
-      waist belt with a second belt slung diagonally below it, a knife sheath and
-      a holster on her right thigh. Mid-calf dark brown boots with long
-      leather straps wound criss-cross up the shaft. Muted forest palette
-      throughout — charcoal, ash brown, dust brown, faded olive — matte and
-      low-noise, with nothing that would snag or rattle.
+      technical cloth, worn leather and repaired matte hardware. A worn taupe
+      leather waist belt with a second belt slung diagonally below it, a knife
+      sheath and a holster on her right thigh. Mid-calf grey-brown taupe boots
+      with long leather straps wound criss-cross up the shaft. Muted forest
+      palette throughout — dusty stone grey, grey-green, khaki and taupe — matte
+      and low-noise, with nothing that would snag or rattle. The one warm thing
+      in the costume is the dark bronze thigh patch.
       Functional exposed skin at the shoulders, upper arms and selected mobility
       zones: for freedom of movement, heat and sensory function, and because it is
       what makes her inherited scales legible.

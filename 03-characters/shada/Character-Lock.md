@@ -1,38 +1,31 @@
 # Shada Character Lock
 
 **Status:** LOCKED FOR BOARD REVIEW  
-**Version:** 4.1  
+**Version:** 5.0  
 **Date:** 2026-08-02
 
-**Costume references — two, with different scopes. They swapped roles on
-2026-08-02.**
+**There is now ONE approved costume reference, and it is the front turnaround.**
 
-`reference/approved/flank-panels.png` is **the costume**, and the match target
-for the whole garment: silhouette, the vest with its stand collar and
-centre-front placket, the flank panels laced across the centre front with vest
-cloth showing in the gap, the thigh patch, the two mismatched belts, the
-close-fitting trousers with nothing worn over them, and the boots.
+`source/artwork/turn-working-front.png` — **APPROVED 2026-08-02.** Every other
+view and every narrative plate matches against this single image. It settles the
+five things that seven variant generations moved: a **cloth** vest rather than
+hide, a **grey / grey-green / khaki** palette rather than brown, plates
+**tessellated edge to edge at about twelve across a flank panel**, a shoulder cap
+**the size of a palm**, and **visible wear with plates missing** from the panels.
 
-Three things in it are **wrong** and the specification overrides them: its
-**shoulder piece** is a smooth solid plate and must be a loose field of small
-scale plates; its **forearm** is a leather wrap and must be the solid printed
-steel gauntlet; and its **plates are about twice the specified size** and mix
-several metals inside one panel.
+**It is not a face reference.** The face comes from the actor photographs. This
+has already cost one generation, which came back in the right costume on the
+wrong person; the failure was that the reference carried no scope, not that the
+model misbehaved. Any full-figure photograph attached to a prompt must say what
+it is *for* and what it is *not*.
 
-`reference/approved/costume-front-v2.png` is the match target for **three things
-only** — the loose scale shoulder cap, the printed gauntlet with its amber wrist
-telltales, and **how big a plate is**. Its vest, its boots and its missing flank
-panels are not the reference.
-
-**Neither is a face reference.** The women in both are not the actor. This has
-already cost one generation, which came back in the right costume on the wrong
-person; the failure was that the reference carried no scope, not that the model
-misbehaved. Any full-figure photograph attached to a prompt must say what it is
-*for* and what it is *not*.
-
-`reference/approved/costume-direction-front.png` is the original 2026-08-01
-direction. Kept as history, no longer attached: v2 shows everything it did and
-more.
+**The two direction photographs are retired.** `costume-front-v2.png`,
+`flank-panels.png` and `costume-direction-front.png` are kept on disk as history
+and are no longer attached to anything. Every fault they carried has been
+designed out — the smooth shoulder plate, the leather forearm wrap, the oversized
+plates, the brown palette, the hide vest. **Two full-figure references competing
+over one garment is a fight the written rules cannot win**, and that lesson cost
+five generations before it was learned.
 
 These traits are non-negotiable unless the Production Designer approves a
 recorded revision.
@@ -70,6 +63,30 @@ recorded revision.
     shingled**. No frame or bezel around any plate.
     Never round, never a fish-scale shape.
     **Individually visible and countable** — never a texture or a printed pattern.
+  - **The density, fixed 2026-08-02: about twelve plates across the width of a
+    flank panel and fifteen rows down** — well over a hundred in one panel. This
+    is the single most persistent error in the costume; it has come back wrong in
+    five generations, both too coarse and, once corrected too hard, too fine.
+    There is a floor as well as a ceiling: **at twelve across, a plate is still an
+    individually visible hexagon you could put a fingertip on. Any finer and the
+    panel becomes chain mail**, which is as wrong as a dozen big tiles.
+  - **What tessellation looks like, said positively** — added 2026-08-02, because
+    the prohibition on its own has never been enough. Every plate lies **flat in
+    the same plane** as its neighbours, six flat sides butted against six flat
+    sides. Between two plates there is **a thin dark line** showing the backing
+    beneath, and nothing else: no plate edge riding over another, no shadow of an
+    upper plate falling on a lower one, no stepped or layered surface. A hand run
+    flat across the panel would not catch. Not shingled, not lamellar, not roof
+    tiles, not fish scales.
+  - **The wear is part of the specification** — added 2026-08-02. **Five to ten
+    plates are missing from each flank panel and three to five from the shoulder
+    cap**, leaving scattered dark gaps where the hand-cut backing shows through —
+    along the edges, at the waist, over the hip, at the top edge of the cap, the
+    places that catch and flex. Bent corners, chipped and cracked plates, rows
+    drifting out of line, an eyelet torn out and re-punched beside the old hole, a
+    different cord spliced into the lacing where it broke. **Survived in, never
+    laid out — and never ruined:** she is alive because this works, and she
+    maintains it badly, with what she has.
   - **Every plate carries the same shallow serpent stamp** — a manufacturer's
     mark on cheap hull plate, industrial and meaningless, worn soft and grimed.
     Never crisp, never ornamental. She did not choose it.
@@ -81,11 +98,11 @@ recorded revision.
     dull glints across many facets. It must read as *metal*.
   - **Coverage — five hard pieces, five different materials, all asymmetric.**
     **REVISED 2026-08-01 (third revision of the day)** by the Production
-    Designer, against two reference photographs now held at
-    `reference/approved/costume-front-v2.png` and
-    `reference/approved/flank-panels.png`. It keeps everything from the second
-    revision and **restores the pair of flank panels the second revision had
-    dropped.**
+    Designer, against two reference photographs since retired. It keeps
+    everything from the second revision and **restores the pair of flank panels
+    the second revision had dropped.** The coverage has not moved since; what
+    changed on 2026-08-02 was the material, the palette and the sizes, not which
+    pieces exist or where they sit.
 
     *Why the flank panels come back:* the second revision dropped them on the
     argument that a shaped panel each side, laced at the centre front, would read
@@ -103,7 +120,7 @@ recorded revision.
 
     **Sides are fixed, and given from her own left and right.**
     - **Gauntlet — her RIGHT forearm — a SOLID 3D-PRINTED SHELL.** Wrist to just
-      below the elbow, wrapping the outer forearm, on a worn brown leather cuff
+      below the elbow, wrapping the outer forearm, on a worn taupe leather cuff
       that shows above and below it. **One rigid surface** — not individual
       plates, no lacing, and it does not flex. Its face is **plain worn plate,
       not a hexagon field**: a broad flat panel with a shallow border line at the
@@ -121,13 +138,23 @@ recorded revision.
       a tie to the vest shoulder, both visibly improvised. **Blackened iron**,
       near-black and matte, rust in the pitting. The plates are **the same
       10–15 mm hexagons as the rest of the costume** — the cap is a scale field,
-      not a plate with a scale texture on it. Confirmed 2026-08-02: **the costume
-      photograph is wrong here**, and shows a single smooth plate. Take the
-      shoulder from `costume-front-v2.png`.
+      not a plate with a scale texture on it, and **three to five of its plates
+      are missing.**
+      **SIZE — a palm's width, settled 2026-08-02 after three passes.** It covers
+      the point of her left shoulder and nothing else. Its outer edge stops where
+      the shoulder becomes the arm; it does not run down her upper arm. Its inner
+      edge stays well clear of her collarbone and never crosses toward the centre
+      front. Its lower edge stops well above the armpit. About twenty-five to
+      thirty-five plates. **An oversized cap is how a yoke gets back into this
+      costume under another name**, and the yoke is this character's most
+      persistent failure.
     - **Patch — her LEFT outer thigh** — the same side as the shoulder cap; her
-      right thigh has no metal. **Dark bronze**, almost brown and the warmest
-      thing on the costume, and the newest piece: cleaner, less worn, clearly
-      added later.
+      right thigh has no metal. A **field of the same small hexagonal plates**
+      laced onto the outer trouser leg from hip to above the knee — never a solid
+      patch, never leather, never a pocket. **Dark bronze**, almost brown and the
+      warmest thing on the costume, and the newest piece: cleaner, less worn,
+      clearly added later. Against the grey palette it is now the **only warm
+      thing in the whole costume**, which is deliberate.
     - **Flank panels — BOTH sides, LOWER TORSO ONLY.** Shaped scale panels
       covering ribs, waist and hip: from below the armpit — **never above it** —
       down to the hem of the vest, following the ribs, drawing in at the waist
@@ -169,31 +196,54 @@ recorded revision.
     - Both visible in every costume view. Nothing is mirrored.
   - **Moves like heavy cloth, not plate.** That is why she wears it.
   - **It reads as serpentine: she wears her own ancestry as armour.**
-- **The vest hide carries a serpentine grain.** Added 2026-08-01 from the
-  supplied reference. The sleeveless vest is cut from a scavenged hide whose
-  surface holds a **faint, fine, irregular snake-skin grain** — pressed into the
-  material, tonal, the same colour as the rest of the vest, and readable only
-  where light rakes across it. It is the material, not a pattern applied to it,
-  and she did not choose it any more than she chose the mill mark on the plates.
+- **The vest is CLOTH, and it is GREY. Changed 2026-08-02.** A heavy,
+  close-woven working fabric — matte, dry, sun-faded, with the softness and the
+  give of cloth. It is her **base layer**: the flexible thing the hard pieces are
+  strapped over, and it compresses and wrinkles wherever a plate, a strap or a
+  buckle bears on it. Never leather, never stiff, never moulded. Still
+  close-fitting and cut to her figure — flexible is not slack.
+  - **The colour is a dusty, sun-bleached stone grey with a hint of khaki-green.**
+    The green is a *cast*, not a colour: enough that it does not read as neutral
+    concrete, not enough that anyone would call it olive. Not blue-grey, not
+    slate, not charcoal, not a clean neutral grey. It is the lightest thing she
+    wears.
+  - *Until 2026-08-02 this was scavenged hide in dark brown.* The hide was never
+    wrong, but cloth reads as the layer the armour is strapped over, and the grey
+    lets the five metals separate from the garment instead of sinking into it.
+- **The vest carries a serpentine grain.** Added 2026-08-01, and it survived the
+  change of material on purpose. The grain is now **woven into the cloth** rather
+  than pressed into a hide: a **faint, fine, irregular snake-skin texture** in the
+  weave itself, tonal, the same colour as the rest of the vest, readable only
+  where light rakes across it. She did not choose it any more than she chose the
+  mill mark on the plates. It is the quietest thing in the costume carrying her
+  ancestry, which is why it was worth keeping.
   - **This does not reopen "scale as texture".** That prohibition governs the
     **armour**, where every plate must stay a discrete, countable, physically
-    separate piece, and it stands unchanged. A grained hide is cloth, not armour,
+    separate piece, and it stands unchanged. A grained cloth is cloth, not armour,
     and the two must never be confused: if the grain starts to read as plates, or
     the plates start to read as grain, both are wrong.
-  - **It must never become a pattern.** No printed snakeskin, no reptile-print
-    leather, no repeating motif, nothing decorative. At two paces it is a plain
-    dark worn vest; the grain is something you find on the third look.
+  - **It must never become a pattern.** No printed snakeskin, no reptile print,
+    no repeating motif, nothing decorative. At two paces it is a plain worn grey
+    vest; the grain is something you find on the third look.
 - Functional exposed skin for mobility, heat and sensory function.
 - Layered technical cloth, worn leather and repaired matte hardware.
 - Practical harness, belt, sheath and concealed holster.
-- **Belt — two tiers.** Recorded 2026-08-01 from the reference. A worn brown
+- **All the leather is GREY-BROWN TAUPE. Changed 2026-08-02.** Belts, holster,
+  thigh strap, boots and the cuff under the gauntlet: desaturated and
+  sun-bleached, with a greenish-grey cast. Never chestnut, never tan, never
+  saddle brown. It drifts warm on almost every generation, and warm leather pulls
+  the whole costume back toward the brown this design left behind.
+- **Trousers — grey-green.** Darker and colder than the vest, close-fitting,
+  matte and heavily worn, creased behind the knee and rubbed pale at the thigh
+  and seat. Nothing is ever worn over them.
+- **Belt — two tiers.** Recorded 2026-08-01 from the reference. A worn taupe
   leather waist belt with a plain squared metal buckle, sitting level; and a
   second belt slung diagonally below it, dropping to her right to carry the
   holster, with a strap and buckle round the thigh.
-- **Boots — mid-calf, wrapped.** Recorded 2026-08-01 from the reference. Dark
-  weathered brown leather, flat soled, round toed, trouser legs tucked in. Long
-  leather straps wound criss-cross up the shaft and buckled off at the top —
-  visibly wrapped by hand every morning, not a fastening the boot came with.
+- **Boots — mid-calf, wrapped.** Recorded 2026-08-01 from the reference.
+  Weathered grey-brown taupe leather, flat soled, round toed, trouser legs tucked
+  in. Long leather straps wound criss-cross up the shaft and buckled off at the
+  top — visibly wrapped by hand every morning, not a fastening the boot came with.
 - Nothing polished, ornamental or factory fresh.
 
 ## Weapons
@@ -254,6 +304,15 @@ Reject any design that becomes:
   hem of the vest.
 - **A wrap front, a V-neck or a crossover vest.** It fastens on a concealed
   placket behind a stand collar, straight down the centre front.
+- **A leather vest.** It is cloth, and it creases where the hard pieces bear on
+  it. If it reads as hide, the base layer has become armour.
+- **A brown costume.** The palette is grey, grey-green and khaki. The leather in
+  particular drifts warm on nearly every generation.
+- **Plates that shingle.** They butt edge to edge in one flat plane, with a thin
+  dark line of backing between them. No plate rides over another.
+- **Chain mail.** Plates so fine they lose their edges and become an allover
+  metallic fabric. Twelve across a flank panel is the floor as well as the target.
+- **Armour that looks laid out.** Plates are missing, bent and badly repaired.
 - **A lit gauntlet.** A small cluster of dim recessed telltales at the wrist, and nothing more.
   No glowing seams, no edge lighting, no light spilling onto skin or leather, no
   illuminated hexagons. If the gauntlet lights the shot, it has become a prop

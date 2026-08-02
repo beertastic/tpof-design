@@ -270,13 +270,20 @@ lacing gap between the panels, with the collar, the placket and the centre-front
 seam still readable. Layered technical cloth, worn leather, repaired matte
 hardware.
 
-The vest is cut from a scavenged hide carrying a **faint serpentine grain** —
-fine, irregular, tonal, in the material rather than printed on it, readable only
-in raking light. It is not the scale armour and must never be confused with it.
+The vest is **cloth, not hide** — a heavy close-woven working fabric in a dusty
+sun-bleached **grey with a hint of khaki-green**, soft enough to crease where the
+hard pieces bear on it. It is the flexible base layer the armour is strapped
+over. Its weave carries a **faint serpentine grain** — fine, irregular, tonal, in
+the material rather than printed on it, readable only in raking light. It is not
+the scale armour and must never be confused with it.
 
-Two belts: a worn brown leather waist belt, and a second slung diagonally below
-it to carry the drop-leg holster on her right. Mid-calf dark brown boots with
-long leather straps wound criss-cross up the shaft.
+**The palette is grey, grey-green and khaki.** Trousers colder and darker than
+the vest; all leather in **grey-brown taupe**, never chestnut or tan. The dark
+bronze thigh patch is the one warm thing in the costume.
+
+Two belts: a worn taupe leather waist belt, and a second slung diagonally below
+it to carry the drop-leg holster on her right. Mid-calf taupe boots with long
+leather straps wound criss-cross up the shaft.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 

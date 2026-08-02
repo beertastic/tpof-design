@@ -1,7 +1,7 @@
 ---
 title: "Costume Build Method"
 asset_id: "TRACK-BUILD-METHOD"
-updated: "2026-08-01"
+updated: "2026-08-02"
 status: "reference"
 ---
 
@@ -15,7 +15,7 @@ records the policy and the design consequences that follow from it.
 
 | Route | What goes this way |
 |---|---|
-| **Bought** | All fabric and leather: garments, coats, trousers, boots, webbing, straps, wraps |
+| **Bought** | All fabric and leather: garments, coats, trousers, boots, webbing, straps, wraps — including Shada's vest, cloth since 2026-08-02 |
 | **Printed** | Weapons, buckles and fittings, armour plate, helmets, Shada's scales, prop hardware |
 | **Made** | Assembly, distressing, paint and patina, lacing printed parts onto bought backing |
 
@@ -125,6 +125,42 @@ worn dies.
 **One piece may be hardened hide rather than metal**, cut to the same hexagon.
 Leather plates carry the serpent faintly or not at all — a mill mark belongs in
 metal, and its absence is evidence of where that plate came from.
+
+### The vest is bought cloth, not hide — changed 2026-08-02
+
+Shada's vest was specified as scavenged hide until the design locked. **It is now
+a heavy close-woven cloth in a dusty grey**, which moves it firmly into the
+*bought* route and simplifies it: a garment to source and distress rather than a
+hide to find. The palette moved with it — grey, grey-green and khaki throughout,
+**all leather in grey-brown taupe**, with the bronze thigh patch the one warm
+thing in the costume.
+
+Two consequences for the build:
+
+- **The serpentine grain is now a weave, not a pressing.** It has to be found in
+  the cloth at purchase or it does not exist — there is no equivalent of
+  embossing a hide. Look for a fine, close, irregular texture woven in, tonal and
+  readable only in raking light. **Not a reptile print**, which is the thing the
+  market will offer.
+- **Taupe leather is a dyeing and distressing job.** Belts, holster, thigh strap,
+  boots and the gauntlet cuff all read warm brown as bought. The costume drifts
+  back toward brown on almost every image, and it will do the same on the bench.
+
+### Plates are missing on purpose — recorded 2026-08-02
+
+**Five to ten plates are absent from each flank panel and three to five from the
+shoulder cap**, leaving the hand-cut backing showing through. Bent corners,
+cracked plates, rows out of line, an eyelet re-punched beside a torn one, a
+different cord spliced into the lacing.
+
+This is a **finishing instruction, not a licence to make fewer plates.** The gaps
+have to fall along the edges, at the waist and over the hip — the places that
+catch and flex — which means the panel is patterned and laced complete and then
+plates are removed, or specific positions are left empty by design. Scattered
+absence reads as wear; regular absence reads as a pattern.
+
+It takes roughly 15 plates off the ~440 count, which is noise. **The labour is
+unchanged**, and the backing behind the gaps now has to be worth looking at.
 
 ### Printed scale must not fight the backing
 

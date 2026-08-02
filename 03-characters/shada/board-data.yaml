@@ -109,11 +109,12 @@ boards:
       h: 3.4
       font_size: 11
       items:
-      - 'Charcoal #2B2A26   Ash brown #3A352F'
-      - 'Dust brown #544E42   Leather #6B5A47'
-      - 'Faded tan #7C6F5B   Faded olive #4F563F'
-      - 'Weathered black #2E2F33   Natural bone #BDAF95'
+      - 'Stone grey #8A8778   Ash grey #6E6E66'
+      - 'Grey-green #4E5348   Khaki drab #7A7560'
+      - 'Taupe leather #6B6155   Weathered black #2E2F33'
+      - 'Pale pewter #A8A79E   Dark bronze #7A5A34'
       - Matte and low-noise throughout nothing reflective
+      - Bronze thigh patch is the only warm note
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
@@ -413,14 +414,14 @@ boards:
       h: 4.15
       font_size: 11.5
       items:
-      - 'Charcoal #2B2A26'
-      - 'Ash brown #3A352F'
-      - 'Dust brown #544E42'
-      - 'Leather #6B5A47'
-      - 'Faded tan #7C6F5B'
-      - 'Faded olive #4F563F'
+      - 'Stone grey #8A8778'
+      - 'Ash grey #6E6E66'
+      - 'Grey-green #4E5348'
+      - 'Khaki drab #7A7560'
+      - 'Taupe leather #6B6155'
       - 'Weathered black #2E2F33'
-      - 'Natural bone #BDAF95'
+      - 'Pale pewter #A8A79E'
+      - 'Dark bronze #7A5A34'
     - heading: SURFACE LANGUAGE
       x: 0.45
       y: 11.6

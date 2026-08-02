@@ -1,0 +1,89 @@
+[SHADA — INFILTRATION DRESS — FRONT — CLOTH VEST VARIANT]
+Output file: variant-front-cloth-vest.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+
+HAND-WRITTEN, NOT GENERATED. A one-off A/B test of ONE variable: the vest
+material. Nothing else in the costume changes. If cloth wins, the change goes
+into outfits.yaml and every prompt regenerates from there — do not treat this
+file as a source of truth, and delete it once the question is settled.
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+USE THE ATTACHED PHOTOGRAPHS:
+  THE COSTUME — NOT THE FACE. This is the costume and it is correct in every
+  respect EXCEPT the vest material, which is what this image changes. Match its
+  silhouette, its stand collar and centre-front closure, the scale cap on her
+  LEFT shoulder, the gauntlet on her RIGHT forearm, the flank panels laced
+  across the centre front, the thigh patch, the belts, the holster, the knife,
+  the trousers and the boots — all of it, unchanged. THE WOMAN IN IT IS NOT THE
+  ACTOR: take no face, head, hair or likeness from it.
+  THE SCALE PLATES — size and finish. What one plate looks like.
+  FACE + BUILD — the two actor photographs. The face comes from these and from
+  nowhere else.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
+THE ONE CHANGE:
+
+THE VEST IS CLOTH, NOT LEATHER. A heavy close-woven working fabric — matte,
+dry, sun-faded, with the softness and the give of cloth. It is her BASE LAYER:
+the flexible thing the hard pieces are strapped over.
+
+IT MUST READ AS FABRIC AND NOT AS HIDE. No leather sheen, no leather grain, no
+stiff moulded panel edges, no armour-like rigidity anywhere in the garment.
+
+SHOW THE FLEXIBILITY — this is the whole point of the image. Small soft creases
+at the waist where it meets the belt. The cloth drawn in and slightly gathered
+where the flank-panel lacing pulls on it. Soft folds at the armhole and across
+the front of the shoulder. A collar that stands but is a little soft at its top
+edge. Where a plate, a strap or a buckle bears on it, THE CLOTH COMPRESSES AND
+WRINKLES — leather would not, and that difference is the answer we are looking
+for.
+
+STILL CLOSE-FITTING. Cut to her figure, waist defined, nothing loose, nothing
+baggy, nothing draping. Flexible is not slack.
+
+EVERYTHING ELSE ABOUT THE GARMENT IS UNCHANGED: sleeveless, stand collar,
+concealed placket down the centre front, curved princess seams, a shaped hem
+with a raw fraying edge, running from the collarbone to below the waist. Same
+dark charcoal-brown, same sun-fading and dirt, rubbed paler at the seams and
+the wear points.
+
+NO ZIP. NO VISIBLE ZIP TEETH OR COIL ANYWHERE. The front fastens behind a flat
+band of cloth and nothing on the outside shows how. This has come back wrong on
+almost every generation — if you can see a zip, the image has failed.
+
+THE SERPENTINE GRAIN IS NOW WOVEN IN, not pressed into hide: a fine, close,
+irregular texture in the weave itself, exactly the same colour as the cloth and
+readable ONLY where light rakes across it. At two paces it is a plain dark worn
+vest. NOT a printed pattern, NOT reptile print, NOT a repeating motif.
+
+MUST BE TRUE OF THIS IMAGE:
+1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPH IS NOT A FACE REFERENCE. THAT WOMAN IS NOT THE ACTOR.
+2. SHE IS SHADA, NOT ANY OTHER CHARACTER IN THIS FILM. NO HORNS, NO HEADDRESS, NO HELMET. NO YOKE ACROSS SHOULDERS OR UPPER CHEST. NO SLEEVES.
+3. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES. CAP AND GAUNTLET NEVER SWAP.
+4. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL, NOT LACED PLATES AND NOT LEATHER. ITS FACE IS PLAIN WORN PLATE WITH A FAINT SERPENT SWIRL — NOT A FIELD OF HEXAGONS. A SMALL CLUSTER OF DIM AMBER TELLTALES AT THE WRIST.
+5. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT SHOULDER. NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
+6. THE FLANK PANELS LACE ACROSS HER CENTRE FRONT OVER THE VEST, WITH A STRIP OF VEST CLOTH SHOWING IN THE GAP. RIBS, WAIST AND HIP ONLY. NOT A YOKE.
+7. EACH PLATE IS 10-15 mm ACROSS. NEVER OVERLAPPED OR SHINGLED. FIVE DIFFERENT METALS AND NO BRASS.
+8. THE VEST IS CLOTH, NOT LEATHER — SOFT, FLEXIBLE, CREASING WHERE THE HARD PIECES BEAR ON IT. STAND COLLAR, CONCEALED PLACKET, NO ZIP, NO WRAP FRONT, NO V-NECK.
+9. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
+10. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35.
+11. CLOSE-FITTING DARK TROUSERS TUCKED INTO MID-CALF BOOTS. NOTHING IS WORN OVER THE TROUSERS — NO SKIRT, TABARD, APRON, OVERSKIRT, WRAP OR HANGING PANEL.
+12. FACE — BARELY THERE. Fine scale texture at the EDGES of her face only. NOT across the nose, forehead, cheeks or mouth.
+13. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

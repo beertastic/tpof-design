@@ -1,0 +1,108 @@
+[SHADA — INFILTRATION DRESS — FRONT — GREEN / GREY / KHAKI VARIANT]
+Output file: variant-front-green-khaki.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+
+HAND-WRITTEN, NOT GENERATED. A one-off A/B test of ONE variable: the PALETTE of
+the whole costume. The cloth vest from the previous variant is kept and comes
+from the attached photograph. If this palette wins it goes into outfits.yaml and
+every prompt regenerates from there — do not treat this file as a source of
+truth, and delete it once the question is settled.
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+USE THE ATTACHED PHOTOGRAPHS:
+  THE COSTUME — NOT THE FACE. This is the costume: the cloth vest, its stand
+  collar and concealed centre-front placket, the scale cap on her LEFT shoulder,
+  the gauntlet on her RIGHT forearm, the flank panels laced across the centre
+  front, the thigh patch, the belts, the holster, the knife and the trousers.
+  Keep all of it. ONLY THE COLOUR CHANGES, plus the three corrections listed at
+  the end. THE WOMAN IN IT IS NOT THE ACTOR: take no face, head, hair or
+  likeness from it.
+  THE SCALE PLATES — size and finish. What one plate looks like.
+  FACE + BUILD — the two actor photographs. The face comes from these and from
+  nowhere else.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
+THE ONE CHANGE — THE WHOLE COSTUME MOVES FROM BROWN TO GREEN / GREY / KHAKI.
+
+THIS IS A PALETTE, NOT A TINT. Every material is re-dyed and re-weathered in
+the new family. It must look like a costume assembled from these colours, not a
+brown costume photographed through a green filter. NO WARM BROWN ANYWHERE
+EXCEPT THE ONE ACCENT NAMED BELOW.
+
+The family: DUSTY FADED KHAKI, GREYED OLIVE-GREEN, COLD STONE GREY. Muted,
+sun-bleached, dirt-worn, low saturation throughout. Nothing bright, nothing
+fresh, nothing that reads as new dye.
+
+  THE VEST — faded khaki-olive cloth, greyed and dusty, rubbed paler at the
+  seams and the wear points. The lightest thing she wears.
+  THE TROUSERS — a darker, colder grey-green, close-fitting and heavily worn,
+  rubbed pale at the thigh and seat.
+  THE LEATHER — belts, holster, thigh strap, boots and the cuff under the
+  gauntlet: GREY-BROWN TAUPE, sun-bleached and desaturated, with a greenish cast.
+  Never chestnut, never tan, never a warm saddle brown.
+  THE BOOTS — the same grey-brown taupe, with the long straps wound criss-cross
+  up the shaft.
+  THE METALS — cool and grey-toned, and STILL FIVE DIFFERENT ONES: dull grey
+  steel at the gauntlet, near-black blackened iron at the shoulder cap, pale
+  worn pewter on her right flank, and rust-red oxidised iron on her left flank.
+  NO BRASS, NO GOLD, NO VERDIGRIS.
+  THE ONE WARM ACCENT — the THIGH PATCH stays DARK BRONZE, and it is now the
+  single warm thing in the whole costume. It is the newest piece, added last and
+  from somewhere else, and against a cool palette that reads harder than it did
+  against brown. Keep it warm on purpose. Everything else stays cool.
+
+KEEP IT SALVAGED, NOT MILITARY. Khaki and olive drab can slide straight into
+modern army surplus and that is the failure mode here. Nothing matches, nothing
+was issued, nothing is a uniform: scavenged cloth that happens to be these
+colours, weathered by weather and work. No webbing, no pouches, no patches, no
+insignia, no ripstop, no camouflage print of any kind.
+
+THREE CORRECTIONS TO THE ATTACHED PHOTOGRAPH — these drifted, and they are not
+the palette question:
+
+  1. THE SCALE PATTERN ON HER SKIN HAS ALL BUT VANISHED and it must come back.
+  Fine, close-set scale texture on her SHOULDERS, UPPER ARMS, FOREARMS, the
+  backs of her hands, her COLLARBONE and the sides of her NECK — tonal, the same
+  colour as her skin, like faint ink under the surface, readable where light
+  rakes across it. IF HER ARMS AND SHOULDERS ARE SMOOTH HUMAN SKIN THE IMAGE HAS
+  FAILED. It is the only trace of her serpentine ancestry and the reason the
+  character looks the way she does.
+  2. THE FIVE METALS COLLAPSED INTO ONE. They must be five visibly different
+  colours and five different states of wear, readable side by side at a glance —
+  see the list above. Within any ONE piece the metal is all one metal.
+  3. THE BOOTS LOST THEIR WRAPPING. Long leather straps wound criss-cross up the
+  boot shaft, buckled off at the top and wrapped by hand. Never plain buckled
+  biker boots.
+
+MUST BE TRUE OF THIS IMAGE:
+1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPH IS NOT A FACE REFERENCE. THAT WOMAN IS NOT THE ACTOR.
+2. SHE IS SHADA, NOT ANY OTHER CHARACTER IN THIS FILM. NO HORNS, NO HEADDRESS, NO HELMET. NO YOKE ACROSS SHOULDERS OR UPPER CHEST. NO SLEEVES.
+3. GREEN / GREY / KHAKI THROUGHOUT — vest, trousers, leather, boots and metals all in the cool family. NO WARM BROWN except the bronze thigh patch.
+4. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES. CAP AND GAUNTLET NEVER SWAP.
+5. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL, NOT LACED PLATES AND NOT LEATHER. ITS FACE IS PLAIN WORN PLATE WITH A FAINT SERPENT SWIRL — NOT A FIELD OF HEXAGONS. A SMALL CLUSTER OF DIM AMBER TELLTALES AT THE WRIST.
+6. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT SHOULDER. NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
+7. THE FLANK PANELS LACE ACROSS HER CENTRE FRONT OVER THE VEST, WITH A STRIP OF VEST CLOTH SHOWING IN THE GAP. RIBS, WAIST AND HIP ONLY. NOT A YOKE, NOT A PEPLUM, NOT A SKIRT.
+8. EACH PLATE IS 10-15 mm ACROSS. NEVER OVERLAPPED OR SHINGLED. FIVE DIFFERENT METALS AND NO BRASS.
+9. THE VEST IS CLOTH, NOT LEATHER — SOFT, FLEXIBLE, CREASING WHERE THE HARD PIECES BEAR ON IT. STAND COLLAR, CONCEALED PLACKET, NO ZIP, NO WRAP FRONT, NO V-NECK.
+10. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
+11. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35.
+12. CLOSE-FITTING TROUSERS TUCKED INTO MID-CALF BOOTS. NOTHING IS WORN OVER THE TROUSERS — NO SKIRT, TABARD, APRON, OVERSKIRT, WRAP OR HANGING PANEL.
+13. FACE — BARELY THERE. Fine scale texture at the EDGES of her face only. NOT across the nose, forehead, cheeks or mouth.
+14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

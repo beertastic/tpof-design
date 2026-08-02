@@ -1,0 +1,118 @@
+[SHADA — INFILTRATION DRESS — FRONT — SIDES AND WEAR]
+Output file: variant-front-green-khaki-v5.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+
+HAND-WRITTEN, NOT GENERATED. Sixth in a one-off variant series, and the last
+one before this goes into the documents. THE ATTACHED PHOTOGRAPH IS CORRECT IN
+ALMOST EVERY RESPECT — including the plate size and the shoulder cap size, which
+are now RIGHT and must not change again. Two things change.
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+USE THE ATTACHED PHOTOGRAPHS:
+  THE COSTUME — NOT THE FACE. Keep the khaki cloth vest with its stand collar
+  and concealed placket, the grey-green trousers, the taupe leather, the wrapped
+  boots, the belts, the holster, the weapons, the gauntlet design, the flank
+  panels laced across the centre front with cloth showing in the gap, the bronze
+  thigh patch, the subtle tonal scale pattern on her skin, AND ABOVE ALL THE
+  PLATE SIZE AND THE SHOULDER CAP SIZE — both are correct now. THE WOMAN IN IT
+  IS NOT THE ACTOR: take no face, head, hair or likeness from it.
+  FACE + BUILD — the two actor photographs. The face comes from these and from
+  nowhere else.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+CHANGE 1 — TWO PIECES ARE ON THE WRONG SIDE OF HER BODY.
+
+SHE IS RIGHT-HANDED. Sides are given from HER OWN left and right. This is a
+FRONT view, so HER RIGHT APPEARS ON THE LEFT OF THE FRAME.
+
+In the attached photograph the GAUNTLET and the THIGH PATCH are both on the
+wrong side. Move those two objects across her body. **DO NOT MIRROR OR FLIP THE
+PHOTOGRAPH — everything else is already on the correct side and must stay
+exactly where it is.**
+
+| Piece | Her own side | In THIS front view it appears |
+|---|---|---|
+| Printed gauntlet | her RIGHT forearm | on the LEFT of the frame |
+| Scale shoulder cap | her LEFT shoulder | on the RIGHT of the frame — CORRECT ALREADY |
+| Scale thigh patch | her LEFT outer thigh | on the RIGHT of the frame |
+| WESTAR-35 blaster | her RIGHT hip/thigh | on the LEFT of the frame |
+| Combat knife | her LEFT hip | on the RIGHT of the frame |
+
+So: ONE gauntlet, on the same side of the frame as the blaster. Her LEFT forearm
+is COMPLETELY BARE — no gauntlet, no bracer, no wrap of any kind.
+The THIGH PATCH is on the SAME side as the shoulder cap and the knife, and her
+RIGHT thigh carries no metal at all.
+The gauntlet and the shoulder cap are on OPPOSITE sides of her body. The thigh
+patch is on the SAME side as the cap. Nothing is mirrored and nothing is paired.
+
+CHANGE 2 — THE SCALE PANELS ARE TOO NEAT. WEAR THEM OUT AND KNOCK HOLES IN THEM.
+
+The plates currently look laid out. They should look SURVIVED IN. This armour
+was cut from scrap, laced on by hand, worn for years and repaired badly.
+
+  PLATES ARE MISSING. Five to ten gone from each flank panel and three to five
+  from the shoulder cap, leaving small dark gaps where the hand-cut backing
+  shows through. Most of them along the edges, at the waist, over the hip and at
+  the top edge of the cap — the places that catch on things and flex when she
+  moves. Not a neat pattern of gaps: scattered, uneven, some single, some in
+  twos and threes.
+  PLATES ARE DAMAGED. A few bent up at one corner, one or two cracked or split
+  across, several with a chipped edge. They no longer all sit flat.
+  THE ROWS ARE NOT PERFECT. Slight drift and unevenness where the lacing has
+  stretched or been re-threaded, a row that steps out of line, plates that sit a
+  little proud or a little sunk.
+  THE LACING IS REPAIRED. An eyelet or two torn out and re-punched beside the
+  old hole, the thong knotted where it broke, a short length of a different cord
+  spliced in.
+  THE BACKING SHOWS ITS AGE — hand-cut, ragged at the edges, scuffed pale where
+  the plates have rubbed it.
+  WEAR VARIES ACROSS ONE PANEL. Some plates rubbed bright where a strap or an
+  arm passes over them, others dark with grime in the pitting.
+
+  BUT: WITHIN ONE PANEL THE METAL IS STILL ALL ONE METAL. Pale worn pewter on
+  her right side, rust-red oxidised iron on her left, blackened iron at the cap,
+  dark bronze at the thigh. The variation is WEAR AND DAMAGE, never a mixture of
+  different alloys speckled together — that reads as decorative mottling and
+  loses the story.
+  AND: DO NOT CHANGE THE PLATE SIZE. About twelve plates across the width of a
+  flank panel, exactly as in the attached photograph. Still separate visible
+  hexagons, still tessellated edge to edge, never overlapped. NOT chain mail.
+  AND: DO NOT ENLARGE THE SHOULDER CAP. It covers the point of her left shoulder
+  only, a palm's width, exactly as in the attached photograph.
+
+The costume must still read as functional and worn every day, not as ruined.
+She maintains it because her life depends on it — badly, with what she has.
+
+NOTHING ELSE CHANGES. Same face, same hair, same pose, same light, same
+background, same palette, same garments, same boots, same skin.
+
+MUST BE TRUE OF THIS IMAGE:
+1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPH IS NOT A FACE REFERENCE. THAT WOMAN IS NOT THE ACTOR.
+2. THE GAUNTLET IS ON HER RIGHT FOREARM — THE LEFT OF THE FRAME, THE SAME SIDE AS THE BLASTER. HER LEFT FOREARM IS COMPLETELY BARE.
+3. THE THIGH PATCH IS ON HER LEFT OUTER THIGH — THE RIGHT OF THE FRAME, THE SAME SIDE AS THE SHOULDER CAP AND THE KNIFE. HER RIGHT THIGH HAS NO METAL.
+4. THE SHOULDER CAP IS ON HER LEFT SHOULDER — THE RIGHT OF THE FRAME. IT IS ALREADY CORRECT. DO NOT MOVE IT AND DO NOT MIRROR THE IMAGE.
+5. PLATES ARE MISSING FROM THE FLANK PANELS AND THE SHOULDER CAP, LEAVING SCATTERED DARK GAPS WHERE THE BACKING SHOWS THROUGH.
+6. THE PLATES ARE BENT, CHIPPED, UNEVEN AND BADLY REPAIRED — NEVER A NEAT REGULAR GRID.
+7. WITHIN ONE PANEL THE METAL IS STILL ALL ONE METAL. Pewter right, rust-red iron left, blackened iron cap, bronze thigh. NO BRASS.
+8. DO NOT CHANGE THE PLATE SIZE — ABOUT TWELVE ACROSS A FLANK PANEL, AS IN THE ATTACHED PHOTOGRAPH. STILL SEPARATE HEXAGONS, NOT CHAIN MAIL.
+9. DO NOT ENLARGE THE SHOULDER CAP — THE POINT OF HER LEFT SHOULDER ONLY, A PALM'S WIDTH. NOT DOWN THE ARM, NOT TO THE COLLARBONE, NOT A YOKE.
+10. THE FLANK PANELS SIT OVER THE SIDES OF HER RIBS, LACED ACROSS THE CENTRE FRONT WITH A STRIP OF PLAIN VEST CLOTH SHOWING IN THE GAP. NOT A CORSET.
+11. GREEN / GREY / KHAKI THROUGHOUT. NO WARM BROWN except the bronze thigh patch.
+12. THE VEST IS CLOTH, NOT LEATHER — SOFT, FLEXIBLE, CREASING WHERE THE HARD PIECES BEAR ON IT. STAND COLLAR, CONCEALED PLACKET, NO ZIP.
+13. THE SCALE PATTERN ON HER SKIN IS TONAL AND SUBTLE, AS IN THE ATTACHED PHOTOGRAPH.
+14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

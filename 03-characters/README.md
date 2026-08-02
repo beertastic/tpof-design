@@ -19,6 +19,7 @@ All visual development must begin with the Production Design Bible in `../01-pro
 | `Prompts.md` | Self-contained image prompt pack — one prompt per artwork slot. |
 | `board-data.yaml` | Board layout and content. **This is the board master.** |
 | `source/artwork/` | Generated images, named to match `board-data.yaml`. Tracked — not reproducible. |
+| `evolution/` | How the design got to where it is: one prompt and one image per pass. History, never specification. See below. |
 | `*.pdf` | The five A2 review boards. Tracked. |
 | `renders/` | 300 DPI PNG previews. **Gitignored** — regenerable, ~87 MB per character. |
 | `source/*.pptx` | Intermediate build output. **Gitignored** — overwritten on every run. |
@@ -36,6 +37,45 @@ it to the character files.
 A pack marked `status: scaffold` has correct shared style rules but incomplete
 character content. Every `**NEEDS:**` marker is an unanswered design question.
 Fill in `Character.md` before completing the pack.
+
+## `evolution/` — how a design converged
+
+**Established 2026-08-02, from Shada.** When a costume is worked out by
+generating variants — change one thing, look at it, change the next — the passes
+go in `evolution/`. Shada's is the worked example.
+
+```
+evolution/
+  README.md                     the sequence, what each pass changed, what it cost
+  01-cloth-vest.txt             the prompt for pass 1
+  01-cloth-vest.png             what it produced
+  02-green-khaki.txt
+  02-green-khaki.png
+  ...
+```
+
+Zero-padded sequence, a short slug naming **the variable that pass changed**, and
+the `.txt` and `.png` sharing a stem. The final pass produces the image that gets
+approved into `source/artwork/`, so the last `.png` here and the approved
+reference are the same picture.
+
+**Three rules, and the first is the one that matters:**
+
+1. **It is history, not specification, and nothing in it is a source of truth.**
+   The design lives in `outfits.yaml`, `Character.md` and `Character-Lock.md`.
+   **Never attach an evolution image to a generation prompt** — every one but the
+   last shows a costume that no longer exists, and a superseded photograph is how
+   a settled decision quietly comes undone.
+2. **Variant prompts are hand-written and must never sit in `prompts/`.** That
+   directory is generated: `split.py` and `turnarounds.py` delete `*.txt` there on
+   every run, and a hand-written file among generated ones will either be lost or
+   mistaken for current. `evolution/` is outside their reach.
+3. **Write the README as you go, not afterwards.** What a pass *cost* — the thing
+   it broke while fixing something else — is the part worth keeping, and it is
+   the part nobody remembers a week later.
+
+The folder is created when a character's first variant is run. There is no value
+in empty ones.
 
 ## Workflow
 

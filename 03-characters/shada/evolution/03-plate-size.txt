@@ -1,0 +1,117 @@
+[SHADA — INFILTRATION DRESS — FRONT — GREEN / GREY / KHAKI, PLATE SIZE FIX]
+Output file: variant-front-green-khaki-v2.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+
+HAND-WRITTEN, NOT GENERATED. Third in a one-off variant series. The cloth vest
+and the green/grey/khaki palette are SETTLED and come from the attached
+photograph. This pass changes THREE THINGS ONLY — the size of the plates, the
+thigh patch, and the size of the shoulder cap. If it lands, all of it goes into
+outfits.yaml and every prompt regenerates from there.
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+USE THE ATTACHED PHOTOGRAPHS:
+  THE COSTUME — NOT THE FACE. This is the costume and the colour is right: the
+  khaki cloth vest, the grey-green trousers, the taupe leather, the wrapped
+  boots, the belts, the holster, the knife, the gauntlet on her RIGHT forearm.
+  KEEP ALL OF IT EXACTLY. Only the four corrections below change. THE WOMAN IN
+  IT IS NOT THE ACTOR: take no face, head, hair or likeness from it.
+  THE SCALE PLATES — THE MOST IMPORTANT ATTACHMENT IN THIS MESSAGE. This is how
+  big one plate is and what it looks like. Compare it directly against the
+  costume photograph: the plates in that photograph are FAR TOO LARGE.
+  FACE + BUILD — the two actor photographs. The face comes from these and from
+  nowhere else.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
+CORRECTION 1 — THE PLATES ARE FAR TOO BIG. HALVE THEM, THEN HALVE THEM AGAIN.
+
+This is the single most persistent error in this costume and it has now come
+back five times. Millimetres have not worked as an instruction, so here it is as
+something countable:
+
+  A PLATE IS SMALLER THAN HER THUMBNAIL. About 10-15 mm across — you could sit
+  eight to ten of them side by side across the palm of her hand.
+  ACROSS THE WIDTH OF ONE FLANK PANEL THERE ARE ABOUT TWELVE PLATES, and about
+  TWENTY ROWS from its top edge down to its bottom edge.
+  ONE FLANK PANEL THEREFORE CARRIES WELL OVER A HUNDRED PLATES. In the attached
+  costume photograph you can count them at a glance — there are perhaps six
+  across a panel. THAT IS THREE TIMES TOO LARGE.
+  IF YOU CAN COUNT THE PLATES IN A PANEL AT A GLANCE, THEY ARE TOO BIG.
+  The correct read from two paces is a FINE DENSE TEXTURE, like a mail shirt or
+  a fish's flank — not a small number of visible tiles.
+
+Flat six-sided hexagons, TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR
+SHINGLED, each carrying a small raised snake swirl, laced to a hand-cut backing.
+The swirl is a fine worn stamp at this size, not a large graphic.
+
+CORRECTION 2 — THE THIGH PATCH IS A FIELD OF THE SAME SMALL PLATES.
+
+In the attached photograph it is a solid patch, and that is wrong. It is a DENSE
+FIELD OF THE SAME SMALL HEXAGONAL PLATES as everything else, laced onto the
+outer face of her LEFT trouser leg, from the hip down to above the knee.
+NEVER a solid plate, NEVER a leather patch, NEVER a pocket, NEVER a panel of
+cloth. Roughly forty to sixty small plates.
+It stays DARK BRONZE — the one warm thing in the costume, the newest piece,
+cleaner and less worn than the rest.
+
+CORRECTION 3 — THE SHOULDER CAP IS MUCH SMALLER AND STAYS ON THE SHOULDER.
+
+In the attached photograph it is far too large and it spreads onto her chest.
+It covers the POINT OF HER LEFT SHOULDER AND NOTHING MORE — roughly the size of
+the palm of a hand, about as wide as her shoulder is deep.
+IT NEVER REACHES HER COLLARBONE, NEVER CROSSES TOWARD HER STERNUM, AND NEVER
+TOUCHES THE CENTRE FRONT OF THE VEST. NOT A YOKE. A yoke is the single most
+persistent failure this costume has, and an oversized shoulder cap is how it
+gets back in.
+Its lower edge stops WELL ABOVE THE ARMPIT, high on the upper arm.
+It is still a LOOSE FIELD OF THE SAME SMALL SCALE PLATES on a hand-cut,
+irregular backing — about twenty-five to thirty-five plates, not six. It hangs
+away from the body, it lifts and swings, and daylight shows under its lower
+edge. NEVER a solid pauldron, NEVER one smooth plate, NEVER moulded to her
+shoulder.
+Her RIGHT shoulder is completely bare.
+
+CORRECTION 4 — THE FLANK PANELS HAVE CLIMBED. BRING THEM DOWN.
+
+They cover RIBS, WAIST AND HIP. The top edge sits at about the level of the
+BOTTOM OF HER SHOULDER BLADE — below the armpit, never above it — and
+everything above that line is plain cloth: her chest, her sternum and her
+collarbone are bare vest.
+NOT A BODICE, NOT A CORSET, NOT A BREASTPLATE, NOT A YOKE.
+They still LACE ACROSS HER CENTRE FRONT with a leather thong through punched
+eyelets, and A STRIP OF VEST CLOTH SHOWS BETWEEN THEM with the collar, the
+placket and the centre-front seam readable in the gap. That gap must not close.
+The two panels DO NOT MATCH — pale worn pewter on her right, rust-red oxidised
+iron on her left. Within one panel the metal is all one metal.
+
+MUST BE TRUE OF THIS IMAGE:
+1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPH IS NOT A FACE REFERENCE. THAT WOMAN IS NOT THE ACTOR.
+2. THE PLATES ARE SMALLER THAN A THUMBNAIL — ABOUT TWELVE ACROSS THE WIDTH OF A FLANK PANEL, WELL OVER A HUNDRED PER PANEL. NEVER OVERLAPPED.
+3. THE THIGH PATCH IS A FIELD OF THE SAME SMALL PLATES — NEVER A SOLID PATCH, NEVER LEATHER, NEVER A POCKET.
+4. THE SHOULDER CAP COVERS THE POINT OF HER LEFT SHOULDER ONLY — A HAND'S WIDTH. NEVER ONTO THE CHEST, NEVER TO THE COLLARBONE, NOT A YOKE.
+5. THE FLANK PANELS SIT ON RIBS, WAIST AND HIP — BELOW THE ARMPIT, NEVER ABOVE. HER CHEST AND STERNUM ARE PLAIN CLOTH.
+6. GREEN / GREY / KHAKI THROUGHOUT — vest, trousers, leather, boots and metals in the cool family. NO WARM BROWN except the bronze thigh patch.
+7. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES. CAP AND GAUNTLET NEVER SWAP.
+8. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL — PLAIN WORN PLATE WITH A FAINT SERPENT SWIRL, NOT A FIELD OF HEXAGONS. DIM AMBER TELLTALES AT THE WRIST.
+9. THE VEST IS CLOTH, NOT LEATHER — SOFT, FLEXIBLE, CREASING WHERE THE HARD PIECES BEAR ON IT. STAND COLLAR, CONCEALED PLACKET, NO ZIP, NO WRAP FRONT.
+10. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
+11. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35.
+12. CLOSE-FITTING TROUSERS TUCKED INTO MID-CALF BOOTS WITH STRAPS WOUND CRISS-CROSS UP THE SHAFT. NOTHING IS WORN OVER THE TROUSERS.
+13. FACE — BARELY THERE. Fine scale texture at the EDGES of her face only. NOT across the nose, forehead, cheeks or mouth.
+14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

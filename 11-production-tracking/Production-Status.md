@@ -45,7 +45,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 | Jeyin | Placeholder | Shin's mother. Killed by the akk dog in the finale. Injury is a continuity track. |
 | Shin | In development | **Co-lead.** Locked for board review. 11 scenes (incl. Sc.4 voice); pack ready. |
 | Vala | Placeholder | **Survives.** Do not stage a death; show no injury. Killed by Shin in Film 2 |
-| Krellis | Placeholder — **death written** | Escapee medic. **Shot through the head by Jasu mid-plea, Sc.25** — the hardest shot in the film |
+| Krellis | Placeholder — **death and backstory written** | Escapee medic. **Shot through the head by Jasu mid-plea, Sc.25** — the hardest shot in the film. **Backstory from the production 2026-08-02, partial:** war-torn planet, oldest of many siblings, watched his parents die for want of medical help, captured protecting them, now the arena's medic. It answers the navigator question — his wayfinding is a childhood survival skill, so his death costs the group a *skill*, not a map — and it argues his kit is the wreck of a real professional one rather than improvised. Physical design still entirely TBD |
 
 ## Factions
 

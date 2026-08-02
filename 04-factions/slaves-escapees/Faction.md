@@ -189,7 +189,20 @@ roll that is mostly empty.
 
 His occupation must read from silhouette per the Bible — and for a medic that
 means the carry, not the clothing. Decide what he salvaged or hid, and what it is
-carried in. He met Vala in the arena, so his gear may carry that history too.
+carried in.
+
+**Revised by his backstory, 2026-08-02.** He did not scrape a kit together — **he
+held the post of arena medic**, with sanctioned access to whatever the arena
+provided. So his gear is likelier the **wreck of a real working kit** than a bag
+of improvisations: proper instruments, worn out, unreplaced and steadily fewer.
+**The poverty is the arena's, not his.** That is the better object, because a
+professional stripped of supply reads as loss where an amateur with scraps reads
+only as poor. See [`../../03-characters/krellis/Character.md`](../../03-characters/krellis/Character.md).
+
+He met Vala in the arena — **as her medic.** Whatever breaks and old injuries she
+carries from twenty years there, he is the one who set them. **Their shared
+history is on her body, not in their gear**, and it is a continuity note covering
+both of them.
 
 ## Shin — a note on the subtext
 

@@ -241,6 +241,11 @@ TBD.
 - How much of the arena is visible on her body — scarring, breaks, missing
   fingers? It should be readable without being displayed.
 - She and Krellis met in the arena. Does anything in their gear match?
+  **Partly answered 2026-08-02 by his backstory: he was the arena's MEDIC, so she
+  was his patient.** Whatever breaks and old injuries she carries from twenty
+  years there, he is the one who set them — so the shared history is most likely
+  **on her body rather than in their kit.** Worth deciding alongside the scarring
+  question above, since it is the same decision.
 
 ## Revision History
 

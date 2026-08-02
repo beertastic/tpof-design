@@ -5,6 +5,32 @@ All notable production-bible changes are recorded here.
 ## Unreleased
 
 ### Added
+- **Krellis has a backstory, 2026-08-02** — partial, from the production, and
+  recorded as given with the interpretation flags marked. War-torn planet, oldest
+  of many siblings, watched his parents die for want of medical support and vowed
+  to become a medic, learned to navigate danger to keep the family safe, captured
+  protecting his siblings, and is now the arena's medic. It settles three things
+  the documents were carrying open:
+  - **The navigator question.** His wayfinding is a **childhood survival skill**,
+    not knowledge of Prodona — so when he is shot in the clearing the group loses
+    a *skill*, not a map, and a skill cannot be handed over in the seconds he has.
+  - **The size and the gentleness, which had not reconciled.** His body has spent
+    its whole life **interposing** — oldest of many, the man of the family from
+    childhood, captured protecting his siblings. Stepping in front of Shin and
+    Jeyin in Sc.25 is the last instance of a lifelong habit, not courage arriving
+    from nowhere. And his death repeats his origin exactly: he became a medic
+    because he watched people he loved die for want of help, and he dies trying to
+    save two more with the only instrument he has left.
+  - **What his kit probably is.** He held the *post* of arena medic, with
+    sanctioned access to supplies, so his gear is likelier **the wreck of a real
+    working kit** than a bag of improvisations. **The poverty is the arena's, not
+    his** — and a professional stripped of supply reads as loss where an amateur
+    with scraps reads only as poor. Propagated to
+    `04-factions/slaves-escapees/Faction.md`, which had assumed the latter.
+
+  It also partly answers a question in **Vala's** file: he was her medic, so
+  whatever she carries from twenty years in the arena, he set it. **Their shared
+  history is on her body, not in their gear.**
 - **`Jasu-Image-TODO.md`, 2026-08-02**, and a run list at the top of
   `Shada-Image-TODO.md`. Two characters, two opposite problems. Shada's design
   churned and her documents kept up: she has 21 current prompts and 17 images to

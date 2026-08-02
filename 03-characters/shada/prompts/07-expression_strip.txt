@@ -1,10 +1,10 @@
 [SHADA — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: 9ace93d7 · repo commit f78b339 2026-08-01 22:57
+Prompt version: e3e9cd2a · repo commit bbf6cf9 2026-08-02 08:28
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit f78b339, prompt 9ace93d7.
+    Working from commit bbf6cf9, prompt e3e9cd2a.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -35,10 +35,8 @@ THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs
 Match the costume, materials, colours, face and build from them exactly.
 Only the setting, pose and lighting change.
 
-USE THE ATTACHED PHOTOGRAPH — THE COSTUME — NOT THE FACE. This is the costume, and the silhouette in it is right: the close-fitting sleeveless vest with its STAND COLLAR and centre-front placket, the pair of scale flank panels LACED ACROSS THE CENTRE FRONT with a strip of vest cloth showing in the gap, the scale patch on her left thigh, the two mismatched belts, the close-fitting trousers with NOTHING WORN OVER THEM, and the mid-calf boots. THREE THINGS IN IT ARE WRONG and the rules below correct them: (1) its SHOULDER PIECE is a smooth solid plate — it must be a LOOSE FIELD OF SMALL SCALE PLATES instead, see the other photograph; (2) its FOREARM is a leather wrap — it must be the SOLID PRINTED STEEL GAUNTLET, see the other photograph; (3) its PLATES ARE TWICE THE SIZE THEY SHOULD BE and it mixes several metals inside one panel. THE WOMAN IN THIS PHOTOGRAPH IS NOT THE ACTOR. Take NOTHING of the face, head, hair or likeness from it. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/approved/flank-panels.png
-USE THE ATTACHED PHOTOGRAPH — THE SHOULDER CAP AND GAUNTLET ONLY — NOT THE FACE, NOT THE REST OF IT. Use this for THREE things and nothing else: (1) the LOOSE SCALE CAP on her LEFT SHOULDER — a field of small separate plates on a hand-cut backing, exactly as shown, NEVER the smooth solid plate in the other photograph; (2) the SOLID PRINTED STEEL GAUNTLET on her RIGHT FOREARM with its dim amber wrist telltales, NEVER a leather wrap; (3) HOW BIG A PLATE IS — the fine dense field on its shoulder and thigh is the correct size, and the plates in the other photograph are twice too large. Its vest, its flank panels (it has none) and its boots are not the reference — the other photograph governs those. THE WOMAN IN THIS PHOTOGRAPH IS NOT THE ACTOR either. Take no face from it. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/approved/costume-front-v2.png
+FETCH AND MATCH — the approved costume reference:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
 USE THE ATTACHED PHOTOGRAPH — THE SCALE PLATES — SIZE AND FINISH. What one plate looks like, how big it is and how a panel is assembled. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
 USE THE ATTACHED PHOTOGRAPH — the combat knife. If not attached, fetch:
@@ -184,13 +182,20 @@ lacing gap between the panels, with the collar, the placket and the centre-front
 seam still readable. Layered technical cloth, worn leather, repaired matte
 hardware.
 
-The vest is cut from a scavenged hide carrying a faint serpentine grain —
-fine, irregular, tonal, in the material rather than printed on it, readable only
-in raking light. It is not the scale armour and must never be confused with it.
+The vest is cloth, not hide — a heavy close-woven working fabric in a dusty
+sun-bleached grey with a hint of khaki-green, soft enough to crease where the
+hard pieces bear on it. It is the flexible base layer the armour is strapped
+over. Its weave carries a faint serpentine grain — fine, irregular, tonal, in
+the material rather than printed on it, readable only in raking light. It is not
+the scale armour and must never be confused with it.
 
-Two belts: a worn brown leather waist belt, and a second slung diagonally below
-it to carry the drop-leg holster on her right. Mid-calf dark brown boots with
-long leather straps wound criss-cross up the shaft.
+The palette is grey, grey-green and khaki. Trousers colder and darker than
+the vest; all leather in grey-brown taupe, never chestnut or tan. The dark
+bronze thigh patch is the one warm thing in the costume.
+
+Two belts: a worn taupe leather waist belt, and a second slung diagonally below
+it to carry the drop-leg holster on her right. Mid-calf taupe boots with long
+leather straps wound criss-cross up the shaft.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 

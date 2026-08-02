@@ -1,18 +1,137 @@
 ---
 title: "Shada — Finish List"
 asset_id: "TRACK-SHADA-IMAGES"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # Shada — Finish List
 
-**Status: DESIGN REOPENED 2026-08-01** by a costume reference supplied by the
-Production Designer. Documents, `outfits.yaml` and all 21 prompts are current
-with the revision; **the images are not.** Documents are the deliverable; images
-are a guide.
+**Status: DESIGN SETTLED AND LOCKED 2026-08-02.** Seven variant generations in
+one session moved the vest from hide to cloth, the palette from brown to grey /
+grey-green / khaki, and fixed the plate size, the tessellation, the shoulder cap
+size and the wear. The front turnaround is **APPROVED** and is now the single
+match target for everything else. Documents, `outfits.yaml` and all 21 prompts
+are current; **the other twenty images are not.** Documents are the deliverable;
+images are a guide.
+
+**What the lock changed, in one place:**
+
+| | Was | Is |
+|---|---|---|
+| Vest material | Scavenged hide | **Cloth** — heavy close-woven working fabric |
+| Palette | Dark brown, charcoal | **Grey vest, grey-green trousers, taupe leather**; bronze thigh patch the one warm note |
+| Plate density | "10–15 mm", nothing countable | **About twelve across a flank panel**, fifteen rows — with a floor: any finer is chain mail |
+| Tessellation | "Never overlapped" | Said **positively** — flat in one plane, a thin dark line of backing between neighbours |
+| Shoulder cap | "Loose, scavenged" | **A palm's width**, the point of the shoulder only |
+| Wear | Not specified | **Plates missing** — 5–10 per flank panel, 3–5 on the cap — bent, chipped, badly repaired |
+| Serpentine grain | Pressed into hide | **Woven into the cloth** |
 
 Her documents, `outfits.yaml` and all 21 prompts are current and internally
 consistent. The checker is clean and the boards validate.
+
+---
+
+## THE RUN LIST — start here
+
+**17 images to regenerate.** Every one: **fresh chat**, paste the prompt whole,
+attach `source/artwork/turn-working-front.png` and the two actor photographs, and
+save the result into `source/artwork/` under the exact name on the prompt's
+`Output file:` line. The boards look those up by name.
+
+**Keep the files they have — nothing in them changed:** `species_strip`,
+`expression_strip` (face and head only) and `knife` (locked as a prop reference).
+`turn-working-front` is **done and approved — do not regenerate it.**
+
+### 1. `scale_portrait` — first, and lock it as the MAKEUP reference
+
+- [ ] Generate `scale_portrait.png` against the approved front
+- [ ] Check: **reptilian slit pupils, clearly readable** — absent from the
+      approved front, and recorded everywhere as the highest-value make-up item
+- [ ] Check: **scale on the neck, jaw and collarbone** — nearly clear in the
+      approved front
+- [ ] Check: the pattern is **tonal, the same colour as her skin** — in the
+      approved front it is noticeably warmer than her skin, which is wrong
+- [ ] Tell the repo it is approved, so the other sixteen inherit it
+
+**Why first:** the four turnaround views and every narrative frame show her face
+and neck. Generate them before the make-up is locked and it drifts across all of
+them — the same failure that cost this character her props, recorded below and
+fixed in `8c5bea7`. *Lock the plates before the figures.* The face is the plates.
+
+### 2. The four remaining turnarounds
+
+Against the approved front **plus** the makeup portrait. Prompts in
+`prompts/turnarounds-short/`.
+
+- [ ] `turn-working-natural.png`
+- [ ] `turn-working-left.png`
+- [ ] `turn-working-right.png`
+- [ ] `turn-working-back.png` — check it with the anatomy test below, not the
+      frame-side test
+
+### 3. Prop and material plates
+
+- [ ] `blaster.png` — WESTAR-35, and the taupe leather
+- [ ] `material-scale.png` — hexagons, tessellated flat, plates missing
+- [ ] `material-cloth.png` — **changes most.** Grey woven cloth with the
+      serpentine grain in the weave, not brown hide with it pressed in
+- [ ] `material-leather.png` — taupe, not warm brown
+- [ ] `material-hardware.png` — palette
+- [ ] `utility.png`
+
+### 4. Narrative frames
+
+- [ ] `hero.png`
+- [ ] `scale_figure.png`
+- [ ] `camp_day.png`
+- [ ] `forest.png` — **still owed a dusk frame**, and the palette change makes it
+      more urgent. The old risk was a charcoal costume vanishing into shadow; the
+      new one is grey-green and khaki vanishing into wet foliage
+- [ ] `maintenance.png`
+- [ ] `tone-collage.png`
+
+### 5. Rebuild the sheets
+
+```bash
+cd /home/tris/tpof-design && source .venv/bin/activate
+python tools/board-generator/generate.py shada --validate   # missing images, overlapping panels
+python tools/board-generator/generate.py shada              # the 5 board PDFs
+python tools/board-generator/generate.py shada --promo      # Shada-Promo.pdf — a SEPARATE command
+```
+
+**`--validate` will stay green throughout and that is not reassurance.** It
+catches images that are *absent*, never images that are *stale*. Until the
+seventeen are done the boards show one current front against sixteen pictures of
+a costume that no longer exists, and only your eye catches that.
+
+---
+
+## BLOCKER — sixteen of the twenty-one prompts cannot be pasted
+
+**Found 2026-08-02. Read before starting section 3 or 4 above.**
+
+`short.py` only builds short prompts for the **five turnaround views**. The
+sixteen numbered slots exist only as the long files in `prompts/`:
+
+| Slots | Size | Against a ~4,000 character budget |
+|---|---|---|
+| `hero`, `camp_day`, `forest`, `maintenance`, `tone-collage` | ~65 KB | **16× over** |
+| `scale_portrait`, `species_strip`, `expression_strip`, `material-scale` | ~18 KB | 4× over |
+| the remaining plates | ~16 KB | 4× over |
+
+So for those sixteen there is no deliberate prompt to paste — you would be
+handing over the long file and letting the host compress it, **which is the exact
+failure `Prompt-Reliability-TODO.md` exists to document.** The overflow is
+discarded silently, from the middle, and nothing reports it.
+
+**The fix is to extend `short.py` to cover the numbered slots.** The trim logic,
+the rule handling and the reference block all already exist; what is missing is
+the per-slot shot and scene text, which is what `VIEWS` does for turnarounds.
+Roughly the same shape of change, one level up.
+
+**Section 1 and section 2 are not blocked** — `scale_portrait` at 18 KB is
+borderline but workable, and the five turnaround views have proper short prompts.
+Do those first regardless.
 
 **The images are deliberately not "finished", and that is the right call.** Every
 generation lands differently, and the build will change again with budget and
@@ -108,59 +227,90 @@ happened once and it cost a full generation.
 - `03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg` — actor
 - `03-characters/shada/source/artwork/material-scale.png` — the plates
 
-**There is no APPROVED costume reference yet, but there are two accepted
-DIRECTION references**, both attached automatically by every generated prompt.
-**They swapped roles on 2026-08-02** — check you are reading the current table:
+**There is ONE approved costume reference, as of 2026-08-02:**
 
 | File | Use it for | Ignore in it |
 |---|---|---|
-| `reference/approved/flank-panels.png` | **The costume.** Silhouette, the vest with its stand collar and centre-front placket, the flank panels laced across the front with vest cloth in the gap, the thigh patch, the two belts, the close-fitting trousers with nothing over them, the boots | **The face.** Its shoulder piece (a smooth solid plate — should be scale), its forearm (a leather wrap — should be the printed gauntlet), and its plate size (twice too big, and it mixes metals inside one panel) |
-| `reference/approved/costume-front-v2.png` | **Three things only** — the loose scale shoulder cap, the printed gauntlet with its amber wrist telltales, and how big a plate is | **The face.** Its vest, its boots, and the fact that it has no flank panels |
+| `source/artwork/turn-working-front.png` | **Everything.** The whole costume: the grey cloth vest with its stand collar and centre-front placket, the palette, the plate size, the tessellation, the wear, the shoulder cap size, the flank panels laced across the front, the thigh patch, the belts, the trousers, the boots, and which side every piece is on | **The face**, which comes from the actor photographs |
 
-*Why they swapped.* They were the other way round, and the generation of
-2026-08-02 shows why that failed. With the fuller photograph named as "the
-costume" and the better one scoped to one thing, the vest lost its stand collar
-to a crossover wrap and a full layered skirt appeared over the trousers. Two
-full-figure references competing over the same garment is a fight the written
-rules cannot win, so **only one of them is the costume now** and the other is
-scoped to the pieces it holds better.
+*Why there is only one.* There were two DIRECTION photographs with different
+scopes, and the generation of 2026-08-02 shows why that failed: with two
+full-figure references competing over the same garment, the vest lost its stand
+collar to a crossover wrap and a full layered skirt appeared over the trousers.
+The written rules cannot win that fight. **One costume reference, and it is the
+approved front.**
 
-**Neither is a face reference, and saying so is not optional.** A generation on
+`costume-front-v2.png`, `flank-panels.png` and `costume-direction-front.png` are
+kept on disk as history and **must not be attached to anything.** Every fault
+they carried has been designed out — the smooth shoulder plate, the leather
+forearm wrap, the oversized plates, the brown palette, the hide vest.
+
+**It is not a face reference, and saying so is not optional.** A generation on
 2026-08-01 came back in a perfect costume on the wrong woman because the costume
 reference carried no scope. Any full-figure photograph attached to a prompt must
 state what it is *not* for.
-
-Do not attach `turn-working-front.png` or `costume-direction-front.png`: both are
-pictures of costumes that no longer exist.
 
 ---
 
 ## The order to work in
 
-**1. `turn-working-front` first, and nothing else until it is right.**
+**1. `turn-working-front` is DONE and APPROVED.** Do not regenerate it. It is the
+image every other view matches against, and regenerating it would move the target
+under twenty images that have not been made yet.
 
-It becomes the approved reference in `outfits.yaml` — every other image matches
-against it, so a wrong front view propagates into all twenty. Check it against
-the revised spec before approving: hexagonal plates 10–15 mm across, tessellated
-edge to edge and **never overlapped**, the same worn serpent stamp on every
-plate, a **solid printed** gauntlet on her right forearm with a cluster of dim
-wrist telltales, a **loose** cap on her left shoulder, **flank panels laced
-across the centre front with vest cloth showing in the gap**, five visibly
-different metals, and a WESTAR-35 on her right side.
+**2. `scale_portrait` next, and lock it as the MAKEUP reference.**
 
-Re-approve it in `outfits.yaml` once it is right.
+**The costume has a lock. The makeup does not** — and this is the same gap that
+cost this character her props, recorded below and fixed in `8c5bea7`. *Lock the
+plates before the figures.* The face is the plates, here.
 
-**2. The other four turnaround views**, matched against it.
+Two things the approved front does not carry, both noticed after it was approved:
 
-**3. `blaster` and `material-scale`** — the two plates that define the changed
+- **The reptilian contact lenses.** Her eyes are plain blue in it. No slit pupil.
+  This is recorded everywhere as the single highest-value item in her make-up.
+- **The scale pattern on her neck**, which is nearly clear, while the pattern on
+  her arms is **stronger and warmer in colour than the specification allows** —
+  it should be *tonal*, the same colour as her skin, readable only in raking
+  light. In the approved front it is a distinctly warmer tone than her skin.
+
+**None of that is a reason to regenerate the front**, and doing so would be a
+mistake. A slit pupil is a handful of pixels at full-figure scale and cannot
+carry there; the front took seven passes to converge on silhouette, palette,
+plate size, cap size, tessellation, wear and sides, and re-rolling it to chase
+something that will not read risks all of it.
+
+`scale_portrait` is a close portrait and it is the right instrument. Generate it
+against the approved front, get the lenses and the neck right, and **approve it
+as a second, scoped reference**:
+
+| Reference | Scoped to | Not for |
+|---|---|---|
+| `turn-working-front.png` | The costume — everything below the collar | The face, the eyes, the neck |
+| `scale_portrait.png` | **The makeup** — the slit pupils, the strength and colour of the scale pattern, and where it sits on the neck, jaw and collarbone | The costume |
+
+Two references with **stated, non-overlapping scopes** is not the failure that
+cost five generations. That failure was two references competing over *the same
+garment*. Scope is what makes the difference, and it has to be written down.
+
+**3. The other four turnaround views** — `natural`, `left`, `right`, `back` —
+matched against the approved front, with the makeup portrait attached. This is
+the method Captain Jasu's set proved: generate each view *against the approved
+image* rather than from the prompt alone. Her five pass the mirror check; every
+character generated view-by-view from prompts alone got five near-misses.
+
+**4. `blaster` and `material-scale`** — the two plates that define the changed
 objects. Once approved these become prop references in their own right.
 
-**4. Everything else**, with all three references attached.
+**5. Everything else**, with the approved front and the plate references attached.
 
-**5. `forest` is still owed a dusk frame.** It came back as a daylight camp, so
-the question the slot exists to answer — does the charcoal costume separate from
-wet forest at dusk — is still open, and it now overlaps `camp_day`. If it returns
-a six-panel collage again, that is the prompt length talking: say *"one frame,
+**6. `forest` is still owed a dusk frame — and the question has changed.** It came
+back as a daylight camp, so the slot's question is still open and it now overlaps
+`camp_day`. **The palette change on 2026-08-02 makes this more urgent, not less.**
+The old risk was that a charcoal costume would vanish into shadow; the new risk is
+that a grey-green and khaki one vanishes into wet foliage. For an infiltrator that
+is arguably correct in-world and bad for the camera, and only this frame settles
+it. If it returns a six-panel collage again, that is the prompt length talking:
+say *"one frame,
 not a contact sheet"* when you paste it.
 
 ---
@@ -206,25 +356,34 @@ building.
 
 ---
 
-## Do not regenerate
+## What still needs regenerating
 
-`species_strip`, `expression_strip`, `knife`, `utility`, `scale_portrait`,
-`material-leather`, `material-cloth`, `material-hardware`.
+**The 2026-08-02 lock invalidated more than the previous revisions did**, because
+the palette and the vest material are visible in every frame that shows the
+costume at all — not just the ones showing armour detail.
 
-**Superseded by the build — these now need regenerating:**
+**Leave alone — nothing in them changed:**
+
+`species_strip`, `expression_strip`. Both are face and head only, both are
+particularly good, and neither shows enough costume to be affected. `knife` is
+also unaffected and is already locked as a prop reference.
+
+**Regenerate — the costume in them no longer exists:**
 
 | Image | Why |
 |---|---|
-| All five `turn-working-*` | **Superseded four times.** Hexagonal plates and WESTAR-35; then the flank panels and leather gauntlet; then the 2026-08-01 reference revision — printed gauntlet, loose shoulder cap, no torso metal, vest grain |
-| `blaster` | It is a WESTAR-35 now, not a generic sidearm |
-| `material-scale` | Hexagons with a pressed stamp, not round coins |
-| `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Scale shape and blaster model both visible |
+| `turn-working-natural`, `left`, `right`, `back` | The front is approved; these four must be matched against it. **Do not regenerate the front** |
+| `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Full figure — cloth vest, grey palette, plate size, cap size, wear |
+| `scale_portrait` | Shows the collar, the shoulder and the vest cloth |
+| `material-cloth` | It is now a grey woven cloth with the serpentine grain in the weave, not a brown hide with it pressed in |
+| `material-leather` | Taupe, not warm brown |
+| `material-scale` | Hexagons with a pressed stamp, tessellated flat, with plates missing |
+| `material-hardware` | Palette |
+| `blaster`, `utility` | The WESTAR-35, and the taupe leather |
+| `tone-collage` | Everything above |
 
-**The front turnaround is no longer approved** — the block is commented out in
-`outfits.yaml`. **Redo it first**, re-approve it there, then everything else
-matches against the new one.
-
-`species_strip` and `expression_strip` are particularly good — leave them alone.
+**The front turnaround is APPROVED in `outfits.yaml`.** Every image above matches
+against it.
 
 `tone-collage` is slot 16, the new **share sheet** — one image, six panels, for
 sending to people on a phone. It is not on any board and is never used as a
@@ -236,6 +395,22 @@ costume reference. Every character now has this slot.
 
 The failures that keep recurring:
 
+- **Plates that shingle.** They butt edge to edge in one flat plane with a thin
+  dark line of backing between them — no plate rides over another and none casts
+  a shadow onto its neighbour. "Never overlapped" was in the spec for days and
+  never worked; what works is describing what tessellation *looks like*.
+- **Chain mail.** The opposite over-correction, and it arrived within one
+  generation of fixing the size. Twelve plates across a flank panel is the
+  **floor** as well as the target — any finer and the plates lose their edges.
+- **A leather vest.** It is cloth now, and it creases where the hard pieces bear
+  on it. If it reads as hide, the base layer has become armour.
+- **A brown costume.** The leather especially drifts warm on nearly every
+  generation, and warm leather drags the whole palette back to where it started.
+- **Armour that looks laid out.** Plates are missing, bent and badly repaired.
+- **A shoulder cap creeping down the arm or in toward the collarbone.** It is a
+  palm's width, on the point of the shoulder. This is how a yoke returns under
+  another name.
+- **The thigh patch as a solid patch.** It is a field of the same small plates.
 - **A skirt, tabard or apron over the trousers.** New on 2026-08-02, and the
   largest silhouette failure so far. The trousers were the last sentence of the
   boots rule and the trim cut them from every short prompt, so nothing described

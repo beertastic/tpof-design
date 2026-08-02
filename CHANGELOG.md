@@ -4,6 +4,86 @@ All notable production-bible changes are recorded here.
 
 ## Unreleased
 
+### Added
+- **`Jasu-Image-TODO.md`, 2026-08-02**, and a run list at the top of
+  `Shada-Image-TODO.md`. Two characters, two opposite problems. Shada's design
+  churned and her documents kept up: she has 21 current prompts and 17 images to
+  regenerate, in a fixed order starting with `scale_portrait` as a scoped
+  **makeup** lock. Jasu's design is settled and her *documents are missing*: no
+  `Character-Lock.md`, no `board-data.yaml`, no boards, and a `Prompts.md` still
+  marked `scaffold` with **16 `NEEDS:` markers**, so `split.py` refuses it and
+  fourteen of her images cannot be generated at all. Writing hers surfaced the
+  item with the widest blast radius in the production: **her rank language is
+  undecided, and Nyx, Yaslo Bis, Reya Fenn and the four-person Mercenary Kit all
+  inherit it** — settling it after they are designed means redoing them.
+- **A blocker found while writing the run list: sixteen of Shada's twenty-one
+  prompts cannot be pasted.** `short.py` only builds short prompts for the five
+  turnaround views. The numbered slots exist only as their long files — ~16–18 KB
+  for the plates and **~65 KB** for `hero`, `camp_day`, `forest`, `maintenance`
+  and `tone-collage`, against a real budget near 4,000 characters. Generating
+  from them means handing the host a file to compress, which is exactly the
+  silent-truncation failure `Prompt-Reliability-TODO.md` documents. Recorded, not
+  yet fixed; the fix is to extend `short.py` one level up from `VIEWS`, and it
+  would fix every character at once.
+- **`evolution/` — a per-character convention for recording how a design
+  converged, 2026-08-02.** One prompt and one image per pass, zero-padded, the
+  slug naming the variable that pass changed, with a README saying what each pass
+  changed *and what it broke while doing it*. Shada's seven passes are the worked
+  example. Three rules: it is history and never specification, evolution images
+  are never attached to a generation prompt, and variant prompts never sit in
+  `prompts/` — that directory is generated and `split.py` deletes `*.txt` there on
+  every run. The folder is created when a character's first variant is run; there
+  is no value in empty ones.
+- **Shada's costume is LOCKED, 2026-08-02, and has its first approved reference.**
+  `turn-working-front.png` is now the single match target for every other view
+  and every narrative plate. Seven variant generations in one session settled it,
+  each testing one variable against the last accepted image rather than against
+  the prompt — the method Captain Jasu's turnaround set proved, applied to design
+  rather than to views.
+
+### Changed
+- **The vest is CLOTH, not scavenged hide, and the palette is GREY.** Both on the
+  Production Designer's call, both tested as variants first. A heavy close-woven
+  working fabric in a dusty sun-bleached grey with a hint of khaki-green; trousers
+  a colder grey-green; **all leather in grey-brown taupe**, which it resists — it
+  drifts warm on nearly every generation and warm leather pulls the whole costume
+  back toward the brown it left behind. The **bronze thigh patch is now the only
+  warm thing in the costume**, which makes it read harder than it ever did against
+  brown. The hide was never wrong; cloth reads as the flexible base layer the hard
+  pieces are strapped over, and grey lets the five metals separate from the
+  garment instead of sinking into it.
+- **The serpentine grain survived the material change** — it is woven into the
+  cloth now rather than pressed into a hide. It could have gone with the leather;
+  it was kept because it is the quietest thing in the costume carrying her
+  ancestry and nothing else does that job. For the build this is a **sourcing**
+  requirement, not a finishing one: the texture has to be found in the cloth at
+  purchase, and the thing the market will offer instead is a reptile print.
+- **Plate density fixed at about twelve across a flank panel**, fifteen rows down.
+  Millimetres had failed five times. What worked was a count, with **a floor as
+  well as a ceiling** — one pass shrank the plates until the panels became chain
+  mail, which is as wrong as a dozen big tiles. Both failure modes are now named.
+- **Tessellation is described positively for the first time** — every plate flat
+  in the same plane, six flat sides butted against six, a thin dark line of
+  backing between neighbours and nothing else, no plate riding over another and no
+  shadow falling from one onto the next. "Never overlapped" had been in the
+  specification for days and the plates shingled anyway. **A prohibition does not
+  tell a generator what to draw.**
+- **The shoulder cap is a palm's width** — the point of the shoulder and nothing
+  else, after three passes each of which overshot the last. Recorded with the
+  reason: an oversized cap is how a **yoke** gets back into this costume under
+  another name, and the yoke is this character's most persistent failure.
+- **Wear is now part of the specification, not a finishing note.** Five to ten
+  plates missing from each flank panel and three to five from the shoulder cap,
+  leaving the hand-cut backing showing through at the edges, the waist and the
+  hip — the places that catch and flex — with bent corners, cracked plates, rows
+  out of line and lacing spliced with a different cord. For the build this is an
+  instruction about **where** the gaps fall, not a licence to make fewer plates:
+  scattered absence reads as wear, regular absence reads as a pattern. It takes
+  about 15 plates off the ~440 count, which is noise, and the labour is unchanged.
+- **The two direction photographs are retired.** `costume-front-v2.png` and
+  `flank-panels.png` are kept on disk as history and attached to nothing. Every
+  fault they carried has been designed out.
+
 ### Changed
 - **Shada's two costume references swapped roles, 2026-08-02**, on the
   Production Designer's call. `flank-panels.png` becomes **the costume** —

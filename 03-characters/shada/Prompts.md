@@ -211,6 +211,37 @@ The non-negotiable costume rules are injected here automatically from
 
 ---
 
+## Attachments — read this before attaching anything
+
+**Any full-figure photograph you attach must say what it is NOT for.**
+
+Learned the hard way on 2026-08-01. A costume reference was attached with the
+label *"match its silhouette, cut, palette…"* and the generation came back in a
+perfect costume on the wrong woman: with six images attached and one of them a
+well-lit full-length portrait of a person in exactly this costume, the most
+face-like image wins the likeness unless it is explicitly disqualified. Naming
+the actor photograph is not enough — the competing photographs have to be ruled
+out by name.
+
+Every costume reference in `outfits.yaml` therefore leads with **NOT THE FACE**,
+and the first non-negotiable rule says the same thing again. This applies to
+every character, not only Shada.
+
+**And use a fresh conversation for every character.**
+
+Learned the next day, 2026-08-02, when a Shada prompt returned **Captain Jasu's
+costume on Shada's face** — bone horns, a scale yoke across the shoulders, a
+quilted long-sleeved bodysuit, matched wrist bracers. Nothing in the prompt asked
+for any of it. Her turnaround set had been generated the day before, and a model
+that has just drawn one character in this production carries that costume
+forward unless the conversation is cleared.
+
+The prompts now name the specific tells as prohibitions so they survive the
+mistake, but that is a backstop. **The fix is a new chat per character**, and it
+costs nothing.
+
+---
+
 ## Character Constants — paste with every prompt
 
 Shada. Female mercenary assassin, thief, scout and tracker. Compact, agile
@@ -230,19 +261,32 @@ a creature in prosthetics. Eyes carry a reptilian quality while
 remaining expressive and recognisably human. Movement stays human, restrained
 and economical.
 
-Costume: light, fitted, scavenged armour in four pieces — a pair of unmatched
-flank panels laced across her ribs, a shoulder cap and a thigh patch, with her
-chest and sternum plain cloth and a PLAIN LEATHER gauntlet on her right forearm.
-Layered technical cloth, worn leather, repaired matte hardware.
+Costume: light, fitted, scavenged armour in **five pieces** — a SOLID
+3D-PRINTED gauntlet on her right forearm, a LOOSE scale cap hanging off her left
+shoulder, a scale patch on her left outer thigh, and a pair of **unmatched scale
+flank panels** over her ribs, laced together across the centre front and worn
+over the vest. **No breastplate** — her chest and sternum stay plain cloth in the
+lacing gap between the panels, with the collar, the placket and the centre-front
+seam still readable. Layered technical cloth, worn leather, repaired matte
+hardware.
+
+The vest is cut from a scavenged hide carrying a **faint serpentine grain** —
+fine, irregular, tonal, in the material rather than printed on it, readable only
+in raking light. It is not the scale armour and must never be confused with it.
+
+Two belts: a worn brown leather waist belt, and a second slung diagonally below
+it to carry the drop-leg holster on her right. Mid-calf dark brown boots with
+long leather straps wound criss-cross up the shaft.
 
 SCALE ARMOUR — THE DEFINING FEATURE OF THIS COSTUME.
 
 **THE PLATE — THIS IS THE BUILT OBJECT. MATCH IT.**
 
 A flat six-sided plate, **10 to 15 mm across — about the size of a
-thumbnail.** These are **fine scale, not large plates**: the forearm gauntlet
+thumbnail.** These are **fine scale, not large plates**: one flank panel
 alone carries well over a hundred, and a patch reads as a dense field of many
-small pieces rather than a dozen big ones. A **regular equilateral
+small pieces rather than a dozen big ones. The gauntlet is outside this rule —
+it is a plain shell, not a field of plates. A **regular equilateral
 hexagon** with six straight sides and slightly soft, rounded, uneven edges — cut
 and cast by hand, never machine-crisp. Not round, not a coin, not a teardrop,
 not a fish scale.
@@ -275,13 +319,23 @@ differently. She did not choose it, and nobody remarks on it.
 **Two small lacing holes** per plate, punched near opposite edges, for the cord
 or wire that fixes it to the backing. The holes are visible.
 
-**Four pieces, four different materials.** Mismatched salvaged alloys — dull grey
-steel, blackened iron, brass with green verdigris, dark bronze — and one piece may
-be **hardened hide** cut to the same hexagon rather than metal. Whatever it is cut
-from, **every plate is a discrete, countable, physically separate piece.** Never
-an embossed or printed pattern on a continuous leather panel, never a texture,
-never a pattern on cloth. Leather plates carry the serpent only faintly or not at
-all — a mill mark belongs in metal.
+**Five pieces, five different materials.** Mismatched salvaged alloys — **dull
+grey steel** in the gauntlet, **blackened iron** in the shoulder cap, **dark
+bronze** in the thigh patch, **pale worn pewter** in her right flank panel and
+**rust-red oxidised iron** in her left. **No brass and no verdigris anywhere on
+this costume.** On the four flexible pieces, **every plate is a discrete,
+countable, physically separate piece** — never an embossed or printed pattern on
+a continuous leather panel, never a texture, never a pattern on cloth.
+
+**Within any one piece the metal is all one metal.** A panel speckled with
+several alloys reads as decorative mottling: one panel is one piece of salvage
+from one trip. The mismatch is between the five pieces, never inside one.
+
+**The gauntlet is the exception and only the gauntlet.** It is a single rigid
+printed shell, and its face is **plain worn plate rather than a hexagon field** —
+a broad flat panel with a shallow border line at the edge, a scatter of rivets
+and a faint raised serpent swirl worn almost away. It must read as a hull offcut,
+never as a manufactured tech panel.
 
 **TESSELLATED, NOT OVERLAPPED.** The plates sit edge to edge in a single flat
 plane. They do not lap over one another — no layering, no shingling.
@@ -314,10 +368,13 @@ The flex comes from the seams and the lacing.
 **IT MUST NOT READ AS TECHNOLOGY.** Regular hexagons meeting edge to edge is also
 the shape of carbon fibre, machined hex panelling and energy shielding, and that
 is this design's failure mode. **No frames, no bezels, no channels around the
-plates, no carbon weave, no composite, no glowing elements, no polished or
-moulded surfaces, no two plates finished alike.** This is scrap cut into hexagons
-by hand and laced on, and the **worn salvaged finish** is the only thing
-separating it from a tech panel.
+plates, no carbon weave, no composite, no polished surfaces, no two plates
+finished alike.** This is scrap cut into hexagons by hand and laced on, and the
+**worn salvaged finish** is the only thing separating it from a tech panel.
+
+**The only light on this costume is a small cluster of dim recessed telltales at
+the gauntlet wrist** — amber, dirty, half-dead, no spill onto skin or leather. Nothing else
+glows: no lit seams, no illuminated hexagons, no edge lighting, no blue.
 
 **The shape and the motif repeat. The material and the finish do not.**
 
@@ -388,7 +445,7 @@ open sky, no deep shadow, no atmosphere obscuring anything. Tarpaulins,
 crates and a dead campfire behind her. She is doing something ordinary: coiling a
 line, checking a strap, about to move off.
 
-Full or three-quarter figure, close enough that **the four scale patches, both
+Full or three-quarter figure, close enough that **the five armour pieces, both
 weapons and the material of every layer are clearly legible**. This is the image
 someone looks at to answer "what does it actually look like out there" — so the
 costume must be readable, not atmospheric.

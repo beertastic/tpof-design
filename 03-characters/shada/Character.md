@@ -4,7 +4,11 @@
 **Faction:** Mercenaries
 **Role:** Assassin, thief, scout and tracker
 **Species:** Human, with inherited serpentine ancestry
-**Status:** Complete — costume approved 2026-07-31, all 20 images and 5 boards delivered
+**Status:** Costume revised three times on 2026-08-01 — **artwork superseded.**
+The 20 delivered images and 5 boards show a costume that no longer exists. Two
+accepted reference photographs are held in `reference/approved/`; the front
+turnaround must be regenerated against them and re-approved before anything else
+is rebuilt from it.
 
 ## Art Department Brief
 
@@ -68,10 +72,14 @@ Both are interesting. Neither is decided. See *Open Questions*.
 - Functional exposed skin at shoulders, upper arms and selected mobility zones.
 - Fine inherited scales visible on exposed skin.
 - Subtle reptilian eyes; expressive and recognisably human.
-- Light scavenged armour in **four pieces** — a pair of flank panels over the
-  ribs, a shoulder cap, a thigh patch. Her chest, sternum and the middle of her
-  back stay plain cloth. **The forearm gauntlet is plain leather, not metal.**
-- **Flexible metallic scale patches in place of rigid plates.**
+- Light scavenged armour in **five pieces** — a printed forearm gauntlet, a
+  loose shoulder cap, a thigh patch, and a pair of unmatched flank panels laced
+  across the centre front over her ribs. **No breastplate; her chest and sternum
+  stay plain cloth between the panels.**
+- **Flexible metallic scale patches in place of rigid plates**, with the single
+  exception of the gauntlet, which is a solid printed shell.
+- **The vest hide carries a faint serpentine grain** — the material, not a
+  pattern, and not to be confused with the scale armour.
 - Muted, practical forest palette.
 - **WESTAR-35 blaster pistol** on her right thigh, and a well-used knife on her left hip.
 - No unnecessary technology or decorative equipment.
@@ -135,6 +143,20 @@ job — but it is fitted rather than concealing.
 
 Practically, this and the agility requirement point the same way: a bulky costume
 loses her build *and* her speed. Fitted serves both.
+
+### Belt and boots — recorded 2026-08-01 from the reference
+
+**The belt is two tiers.** A worn brown leather waist belt with a plain squared
+metal buckle, sitting level; and a second belt slung diagonally below it,
+dropping to her right to carry the holster, with a strap and buckle round the
+thigh. Nothing decorative, nothing matching — two belts that ended up on the
+same body.
+
+**The boots are mid-calf and wrapped.** Dark weathered brown leather, flat
+soled, round toed, with the trouser legs tucked in. Long leather straps wound
+criss-cross up the shaft and buckled off at the top. The wrapping is the point:
+it is not a fastening the boot came with, it is something she does every morning,
+and it is what stops the shaft catching on undergrowth.
 
 ## Fastenings
 
@@ -239,36 +261,117 @@ sheen. It catches light in small dull glints across many facets rather than
 reflecting. It reads unmistakably as *metal* — this is the detail that failed
 when it was described only as "matte and non-reflective."
 
-**Where it sits — four pieces, all different, all asymmetric. Her chest, sternum
-and the middle of her back are plain cloth; the only metal on her torso is at
-the sides.** Revised 2026-08-01 — see `Character-Lock.md` for the record.
+**Where it sits — five pieces, all different, all asymmetric. The only metal on
+her torso is the pair of flank panels at her sides; her chest and sternum stay
+plain cloth between them.** Revised 2026-08-01, third revision of the day — see
+`Character-Lock.md` v4.0 for the record, including why the flank panels were
+dropped and then restored inside a day.
 
-| # | Where | Metal | Note |
+| # | Where | Material | Note |
 |---|---|---|---|
-| 1 | **Flank panel — her RIGHT ribs** | **Dull grey steel**, scratched, the most worn | The oldest piece she owns. Under the arm to the point of the hip |
-| 2 | **Flank panel — her LEFT ribs** | **Blackened iron**, near-black, rust in the pitting | Obviously not the same salvage as the right, and obviously acquired later |
-| 3 | **Cap — her LEFT shoulder** | **Brass**, green verdigris in the gaps | The opposite side to the leather gauntlet. Her right shoulder is bare |
-| 4 | **Patch — her LEFT outer thigh** | **Dark bronze**, almost brown, and the newest — cleaner, less worn | Same side as the shoulder cap. Her right thigh has no metal |
+| 1 | **Gauntlet — her RIGHT forearm** | **Dull grey steel**, pitted, worn silver on the edges | A **solid 3D-printed shell**, not laced plates, and a plain plate face rather than a hexagon field. A cluster of dim amber telltales at the wrist. Exactly one; her left forearm is bare |
+| 2 | **Cap — her LEFT shoulder** | **Blackened iron**, near-black, rust in the pitting | **Loose** — separate plates on a hand-cut backing, hanging off the point of the shoulder. Opposite side to the gauntlet. Her right shoulder is bare |
+| 3 | **Patch — her LEFT outer thigh** | **Dark bronze**, almost brown, the warmest thing on the costume, and the newest | Same side as the shoulder cap. Her right thigh has no metal |
+| 4 | **Flank panel — her RIGHT ribs** | **Pale worn pewter**, cold and almost white-grey, scratched through in places | The oldest thing she owns. Under the arm to the hem of the vest |
+| 5 | **Flank panel — her LEFT ribs** | **Rust-red oxidised iron**, brown-red, heavily corroded | Obviously not the same salvage as her right panel, and obviously acquired later |
 
-**The two flank panels are laced together across her centre front** — a leather
-thong through punched eyelets down both facing edges, a visible gap of vest cloth
-between them, two salvaged straps and buckles at the back. Nothing goes over the
-shoulder; they hang on the lacing and the straps. Worn **over** the vest.
+### The flank panels, and the gap down the middle
 
-**The gauntlet on her right forearm is plain leather with no plates on it** —
-same shape, same two straps and buckles, a visibly different tan and age from her
-belt and holster. It is salvage, not armour.
+**The two panels are laced together across her centre front** — a leather thong
+zig-zagging through punched eyelets down both facing edges and tied off at the
+bottom, with two salvaged straps and buckles at the back. Nothing goes over the
+shoulder; they hang on the lacing and the straps, so her arms stay clear. Worn
+**over** the vest.
+
+**A strip of vest cloth must stay visible between them.** The collar, the
+concealed placket and the centre-front seam all stay readable in the lacing gap.
+
+That gap is doing more work than it looks. These panels were dropped on
+2026-08-01 on the argument that a shaped panel each side, meeting at the middle,
+reads as a corset — a made-for-her garment, which is the one thing this costume
+exists to deny. The picture that restored them settled it: with cloth showing
+down the centre and the lacing visible, it reads as **brigandine**. Close the gap
+and the original fear comes true immediately.
+
+### The gauntlet is the one rigid thing she wears
+
+**Her right forearm carries a solid, one-piece 3D-printed shell**, wrist to just
+below the elbow, wrapping the outer forearm on a worn brown leather cuff that
+shows above and below it. It is a single rigid surface that does not flex and is
+not made of separate plates. Its face is **plain worn plate rather than a hexagon
+field** — a broad flat panel with a shallow border line at the edge, a scatter of
+small rivets and a faint raised serpent swirl worn almost away. Dull grey steel,
+pitted, pale worn silver along the raised edges where a hand has gripped it for
+years.
+
+The hexagon field belongs to the other pieces. This one is a hull offcut, and it
+reads more like genuine salvage for being plain.
+
+**A small cluster of four to six telltales sits near the wrist** — dim amber,
+the size of a match head, grimy, half-dead. Salvaged electronics that happen to still work; not a light source,
+and nothing that spills onto her skin or the leather. The Design Bible permits
+bright colour only for rank, warning markings or a significant personal item,
+and this sits inside that allowance only while it stays this dim. The moment the
+gauntlet lights the shot, it belongs to a different film.
+
+**Everything else about the costume flexes, and this does not.** That is the
+point of it. One hard object among four soft ones makes the flexible-scale rule
+visible instead of merely stated — and it is what the build can actually print.
+
+### The shoulder cap hangs loose
+
+**It is scavenged and it looks it.** Genuinely separate plates laced to a
+hand-cut backing, sitting **away from the body** — it lifts, it hangs, it swings
+when she turns, and daylight shows under its lower edge. Never moulded to the
+deltoid, never shrunk to fit, never a solid pauldron. A thin strap under the arm
+and a tie to the vest shoulder hold it on, and both are visibly improvised.
+
+**It is scale, not a plate.** The cap is a field of the same 10–15 mm hexagons
+as the flank panels and the thigh patch, in blackened iron — not a solid piece
+with a scale texture on it, and not a single smooth plate. Worth saying twice,
+because the costume photograph now attached as the primary reference shows a
+smooth plate on that shoulder, and an image beats a paragraph.
+
+A cap that fits her shoulder is a cap somebody made for her. This one was cut
+off something else and tied on.
+
+### The vest itself is serpentine
+
+**The hide the vest is cut from carries a faint snake-skin grain** — fine, close,
+irregular, pressed into the material rather than printed on it. Tonal, the same
+colour as the rest of the vest, and readable only where light rakes across the
+surface. At two paces it is a plain dark worn vest; the grain is something you
+find on the third look.
+
+**She did not choose it**, exactly as she did not choose the mill mark on the
+plates. It is what the hide was.
+
+**This is not the scale armour and must never be confused with it.** The armour
+is discrete, countable, physically separate pieces of metal; the grain is the
+surface of a piece of cloth. If the grain starts to read as plates, or the plates
+start to read as grain, both are wrong. The long-standing prohibition on
+*embossed scale pattern standing in for real plates* is unchanged.
+
+So the costume now carries the idea in three registers at once: **soft organic
+scale on her skin, hard salvaged plate at five points, and a serpent grain in
+the cloth between them.** Armour and serpent, the same argument twice.
 
 **Sides are fixed and described from her own left and right**, not the viewer's.
-In a front view her right appears on the viewer's left. The leather gauntlet and
-the shoulder cap are on **opposite** sides — that diagonal is what makes the
+In a front view her right appears on the viewer's left. The gauntlet and the
+shoulder cap are on **opposite** sides — that diagonal is what makes the
 asymmetry read as accumulated rather than random.
 
-**The four pieces must be four different materials, and the two flank panels
-must not match each other.** A symmetrical pair meeting in the middle is, by
-definition, a set someone made for her — the opposite of what this costume is
-arguing. Different metals, different ages, one plainly added later: a pair in
-function, never in appearance.
+**The five pieces must be five different materials in five different states of
+wear** — dull grey steel, blackened iron, dark bronze, pale worn pewter,
+rust-red oxidised iron — readable side by side at a glance. Nothing is mirrored
+except the flank panels, which exist on both sides because ribs do, and which are
+kept unmatched for exactly that reason. A symmetrical set is, by definition, a
+set someone made for her.
+
+**Within any one piece, the metal is all one metal.** A panel speckled with four
+alloys reads as decorative mottling and loses the story: one panel is one piece
+of salvage from one trip. The mismatch lives between the pieces, never inside
+one.
 
 **One of the metal pieces need not be metal at all.** Hardened hide cut to the
 same hexagon is as good a piece of salvage as a hull offcut, and it gives the set
@@ -285,9 +388,9 @@ A leather plate carries the serpent only faintly, or not at all. A mill mark
 belongs in metal, and the absence is itself evidence of where that plate came
 from.
 
-**They came from three different scavenging trips over years and nothing matches — that mismatch is the proof
-nobody made this for her. Four identical patches quietly recreates the
-matched-set problem in four places instead of one.
+**They came from three different scavenging trips over years and nothing
+matches** — that mismatch is the proof nobody made this for her. Five identical
+patches quietly recreates the matched-set problem in five places instead of one.
 
 **No breastplate. No full yoke. No matching pair of bracers.** She added these
 piecemeal over years, as she found material — a matched set would mean somebody
@@ -358,8 +461,8 @@ exactly the territory the Bible forbids.
 and they carry a repeating stamp, because that is what stamped-out industrial
 plate looks like — that sameness is the *point*, and it is what proves the
 material was mass-produced for something else. What must never become uniform is
-the **metal**: four pieces, four alloys, four ages, four states of wear. Regular
-shape, irregular material. Get those the wrong way round and the costume says
+the **metal**: five pieces, five alloys, five ages, five states of wear.
+Regular shape, irregular material. Get those the wrong way round and the costume says
 somebody made her a matching set.
 
 ### Why it exists
@@ -372,6 +475,12 @@ protection that moves with her.
 **It is a functional solution, not a decorative flourish.** That is what earns it
 a place in a world where nothing is worn for looks.
 
+**The gauntlet is allowed to break this** because a forearm is the one place on
+her body where rigidity costs nothing. It does not bend, it is the thing she puts
+between herself and a blade, and it is the part of her she leads with going
+through a gap. Everywhere the body needs to move, the armour flexes; the one
+place it does not, the armour is solid.
+
 ### Her weapons live on this costume
 
 **She is right-handed.** Sides below are given from her own left and right.
@@ -381,11 +490,14 @@ a place in a world where nothing is worn for looks.
 | **WESTAR-35 blaster pistol** | Her **right thigh** | Drop-leg holster, belt loop and thigh strap, grip up and angled slightly forward. Right-hand draw |
 | **Combat knife** | Her **left hip** | On the belt, grip up. Cross-draw with the right hand |
 
-Her right side carries the leather gauntlet and the blaster; her left carries the
-shoulder cap, the knife and the thigh patch. **Nothing is mirrored** — with the
-single deliberate exception of the flank panels, which exist on both sides
-because ribs do, and which are kept unmatched in metal and age for exactly that
-reason.
+Her right side carries the printed gauntlet and the blaster; her left carries the
+shoulder cap, the knife and the thigh patch. **Nothing is mirrored and there are
+no pairs** — every single item on this costume exists once, on one side only.
+
+*Note for the next generation:* the supplied costume reference does not show the
+knife. It is still required in every costume view — a costume record without her
+weapons is incomplete — so it has to be put back rather than matched from the
+photograph.
 
 ### The blaster — a WESTAR-35
 
@@ -510,5 +622,8 @@ High-resolution PNG previews are stored in `renders/` (gitignored — regenerabl
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 4.1 | 2026-08-02 | in-development | **The two costume references swapped roles.** `flank-panels.png` becomes the costume and `costume-front-v2.png` is scoped to the shoulder cap, the gauntlet and the plate size. Two full-figure references competing over one garment is a fight the written rules cannot win. The shoulder cap is restated as a **field of small scale plates**, because the new primary reference shows a smooth solid plate there. No change to the build: the gauntlet stays a solid printed shell. **Seven `must_show` rules re-ordered** so the load-bearing sentence leads — the collar, the lacing, the trousers, the knife and the side assignments had all been trimmed out of the short prompt |
+| 4.0 | 2026-08-01 | in-development | **Flank panels restored**, against a generation that showed the laced-brigandine shape working. Five pieces, five metals; the strip of vest cloth visible in the lacing gap is now itself a rule. Gauntlet face changed from a hexagon field to plain worn plate, matching the accepted render. **Face-precedence rule added** after a generation took its likeness off the costume reference — full-figure references must now state what they are *not* for |
+| 3.0 | 2026-08-01 | in-development | **Costume revised against a supplied reference photograph** (`reference/approved/costume-direction-front.png`). Flank panels dropped and all metal off the torso again; forearm gauntlet becomes a solid 3D-printed shell with two dim wrist telltales; shoulder cap specified as loose scavenged scale; the vest hide gains a faint serpentine grain. Belt and boots recorded. Turnaround artwork superseded — all twenty images need regenerating |
 | 2.0 | 2026-07-31 | in-development | Story function, scene beats, death, performance notes and open questions added. Costume approved; scale armour, face treatment, weapon placement and handedness specified. Boards rebuilt around turnarounds. |
 | 1.0 | 2026-07-30 | in-development | Original package: brief, visual language, five boards. |

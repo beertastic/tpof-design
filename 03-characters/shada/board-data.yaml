@@ -64,20 +64,20 @@ boards:
       w: 3.4
       h: 3.4
     sections:
-    - heading: THE FOUR SCALE PATCHES
+    - heading: THE FIVE ARMOUR PIECES
       x: 0.45
       y: 8.177
       w: 7.063
       h: 2.75
       font_size: 11
       items:
-      - Flank panel right ribs dull grey steel oldest
-      - Flank panel left ribs blackened iron with rust
-      - Cap one shoulder brass with verdigris
-      - One outer thigh dark bronze newest and least worn
-      - Forearm gauntlet plain leather no plates
-      - No metal on the torso at all
-      - Three scavenging trips nothing matches
+      - Right forearm solid printed shell dull grey steel
+      - A cluster of dim amber telltales at the wrist
+      - Left shoulder cap loose blackened iron with rust
+      - Left outer thigh dark bronze newest and least worn
+      - Flank panels pewter and rust-red laced at centre front
+      - Vest cloth shows in the lacing gap no breastplate
+      - Five scavenging trips nothing matches
     - heading: CONSTRUCTION
       x: 8.163
       y: 8.177
@@ -194,7 +194,7 @@ boards:
       font_size: 10.5
       items:
       - Matte and low-noise surfaces
-      - Four metal pieces four different metals
+      - Five hard pieces five different metals
       - Test harness during crouch and climb
       - Knife and holster remain reachable
       - Weathering follows contact and repair history
@@ -432,15 +432,18 @@ boards:
       - Coarse technical fabric
       - Weathered matte metal
       - Rope stitching patches mud and patina
-    - heading: THE FOUR METALS
+    - heading: THE FIVE METALS
       x: 7.9
       y: 11.6
       w: 7.25
       h: 4.1
       items:
-      - Flank panels steel and blackened iron unmatched
-      - Shoulder brass with green verdigris
+      - Gauntlet dull grey steel pitted and worn
+      - Shoulder cap blackened iron with rust in the pitting
       - Thigh dark bronze almost brown and newest
+      - Right flank pale worn pewter the oldest piece
+      - Left flank rust-red oxidised iron added later
+      - One metal per panel no brass no verdigris
       - Torso plain cloth no metal
       - Nothing matches nothing was made for her
     - heading: OVERALL LOOK

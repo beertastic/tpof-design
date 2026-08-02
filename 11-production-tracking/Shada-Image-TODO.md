@@ -6,8 +6,10 @@ updated: "2026-08-01"
 
 # Shada — Finish List
 
-**Status: DESIGN CLOSED 2026-07-31. Documents are the deliverable; images are a
-guide.**
+**Status: DESIGN REOPENED 2026-08-01** by a costume reference supplied by the
+Production Designer. Documents, `outfits.yaml` and all 21 prompts are current
+with the revision; **the images are not.** Documents are the deliverable; images
+are a guide.
 
 Her documents, `outfits.yaml` and all 21 prompts are current and internally
 consistent. The checker is clean and the boards validate.
@@ -20,17 +22,33 @@ useful, approve what is close enough, and do not chase pixel agreement.
 
 What the build actually needs is settled:
 
-- **Four metal pieces** — a pair of flank panels over the ribs, left shoulder
-  cap, left thigh. **The right forearm gauntlet is plain leather, no plates.**
-  Chest, sternum and the middle of the back stay plain cloth. *Revised
-  2026-08-01 — see `Character-Lock.md`.*
-- **Four different metals** — dull grey steel (right flank), blackened iron
-  (left flank), brass with verdigris (shoulder), dark bronze (thigh). The
-  mismatch is the point, and **the two flank panels must not match each other**.
+- **Five hard pieces** — right forearm gauntlet, left shoulder cap, left thigh
+  patch, and a pair of unmatched flank panels over her ribs. *Revised three
+  times on 2026-08-01; the third is current — see `Character-Lock.md` v4.0.*
+- **The flank panels lace across her centre front**, worn over the vest, with a
+  **strip of vest cloth visible in the gap** — collar, placket and centre-front
+  seam still readable. That gap is what makes them brigandine and not a corset,
+  and it must not close. No breastplate.
+- **The gauntlet is a SOLID 3D-PRINTED SHELL** with a **plain worn plate face,
+  not a hexagon field**, and a small cluster of **dim amber telltales at the
+  wrist**. It is the only rigid piece on the costume and the only light on it.
+- **The shoulder cap HANGS LOOSE** — separate plates on a hand-cut backing,
+  sitting away from the body, daylight under its lower edge. Never a moulded
+  pauldron.
+- **Five different metals** — dull grey steel (gauntlet), blackened iron
+  (shoulder cap), dark bronze (thigh), pale worn pewter (right flank), rust-red
+  oxidised iron (left flank). **No brass and no verdigris.** The mismatch is the
+  point — and it lives *between* the pieces: **within one panel the metal is all
+  one metal.**
+- **The vest hide carries a faint serpentine grain** — in the material, tonal,
+  visible only in raking light. Not the scale armour, and never a printed
+  snakeskin.
 - **Plates 10–15 mm**, regular hexagons, tessellated edge to edge, never
   overlapped, each carrying a raised snake swirl that varies plate to plate.
-- **Roughly 440 plates.** See `Costume-Build-Method.md` — this is the largest
-  hidden labour item in the costume.
+- **Roughly 440 loose plates.** The printed gauntlet permanently removed ~150,
+  and the restored flank panels put ~220 back. See `Costume-Build-Method.md` —
+  still the largest hidden labour item in the costume, and the flank panels are
+  half of it. Pattern them first.
 - **WESTAR-35** on her right side; combat knife on her left hip.
 - **Skin:** a faint scale pattern like a tattoo, ancestry tens of thousands of
   years back. Reptilian contact lenses are the highest-value make-up item.
@@ -38,8 +56,28 @@ What the build actually needs is settled:
 Open, non-blocking: photograph the printed WESTAR-35 and add it under
 `references:` in `outfits.yaml` — the entry is there, commented. And run a noise
 test on the first finished patch; she is an infiltrator and 440 hard plates is
-not obviously a quiet garment — and the flank panels sit over the ribs, where
-she breathes.
+not obviously a quiet garment. The loose shoulder cap swings, and the flank
+panels sit over her ribs, where she breathes.
+
+---
+
+## Before you run anything, read this
+
+**Only about 11% of Shada's written specification currently reaches the image
+generator.** Her `must_show` rules total 18,061 characters; the short prompt that
+gets pasted carries 1,988 of them, and the loss is silent. Three of the four
+recorded failures were rules that existed and were correct but were trimmed away
+before the generator saw them.
+
+**Partly addressed 2026-08-02.** The proportion is unchanged — the rules are the
+same length — but seven of the fourteen were re-ordered so the sentence that
+does the work comes first. `trim()` always keeps the opening sentence and then
+the first hard negation, so what survives is now chosen rather than accidental.
+All fourteen rules land whole in the short prompt, with no ellipsis.
+
+The fix list is [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md).
+Until item 2 there is done, expect to check generated images against the
+**documents**, not against the prompt — the prompt is a lossy summary of them.
 
 ---
 
@@ -50,21 +88,50 @@ cd /home/tris/tpof-design
 source .venv/bin/activate
 python tools/prompt-splitter/split.py shada
 python tools/prompt-splitter/turnarounds.py shada
+python tools/prompt-splitter/short.py shada
 ```
 
-**Run this first, every time.** The prompts have changed since the last images
+**Run all three, every time.** The prompts have changed since the last images
 were made, and two images have already been lost to stale copies.
 
-Then open a **fresh** ChatGPT conversation and attach both references *before*
-pasting anything:
+**The third line is the one that matters and it was missing from this list until
+2026-08-02.** `turnarounds.py` writes the long prompts; `short.py` writes
+`turnarounds-short/`, which is what you actually paste. Running the first two
+alone leaves the short prompts stale, and nothing says so — the header even
+carries a version stamp from the run that made the long file.
+
+Then open a **fresh** ChatGPT conversation — genuinely fresh, not a continuation
+— and attach the references *before* pasting anything. A chat that has already
+drawn another character in this production will carry that costume over; it has
+happened once and it cost a full generation.
 
 - `03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg` — actor
 - `03-characters/shada/source/artwork/material-scale.png` — the plates
 
-**There is no approved costume reference at present.** It was unlocked on
-2026-08-01 by the structural revision, because the approved front shows a metal
-gauntlet and no flank panels. Do not attach `turn-working-front.png`: it is a
-picture of a costume that no longer exists.
+**There is no APPROVED costume reference yet, but there are two accepted
+DIRECTION references**, both attached automatically by every generated prompt.
+**They swapped roles on 2026-08-02** — check you are reading the current table:
+
+| File | Use it for | Ignore in it |
+|---|---|---|
+| `reference/approved/flank-panels.png` | **The costume.** Silhouette, the vest with its stand collar and centre-front placket, the flank panels laced across the front with vest cloth in the gap, the thigh patch, the two belts, the close-fitting trousers with nothing over them, the boots | **The face.** Its shoulder piece (a smooth solid plate — should be scale), its forearm (a leather wrap — should be the printed gauntlet), and its plate size (twice too big, and it mixes metals inside one panel) |
+| `reference/approved/costume-front-v2.png` | **Three things only** — the loose scale shoulder cap, the printed gauntlet with its amber wrist telltales, and how big a plate is | **The face.** Its vest, its boots, and the fact that it has no flank panels |
+
+*Why they swapped.* They were the other way round, and the generation of
+2026-08-02 shows why that failed. With the fuller photograph named as "the
+costume" and the better one scoped to one thing, the vest lost its stand collar
+to a crossover wrap and a full layered skirt appeared over the trousers. Two
+full-figure references competing over the same garment is a fight the written
+rules cannot win, so **only one of them is the costume now** and the other is
+scoped to the pieces it holds better.
+
+**Neither is a face reference, and saying so is not optional.** A generation on
+2026-08-01 came back in a perfect costume on the wrong woman because the costume
+reference carried no scope. Any full-figure photograph attached to a prompt must
+state what it is *not* for.
+
+Do not attach `turn-working-front.png` or `costume-direction-front.png`: both are
+pictures of costumes that no longer exist.
 
 ---
 
@@ -76,9 +143,10 @@ It becomes the approved reference in `outfits.yaml` — every other image matche
 against it, so a wrong front view propagates into all twenty. Check it against
 the revised spec before approving: hexagonal plates 10–15 mm across, tessellated
 edge to edge and **never overlapped**, the same worn serpent stamp on every
-plate, **a pair of unmatched flank panels laced across the centre front**, a
-**plain leather** gauntlet on her right forearm, four visibly different metals,
-and a WESTAR-35 on her right side.
+plate, a **solid printed** gauntlet on her right forearm with a cluster of dim
+wrist telltales, a **loose** cap on her left shoulder, **flank panels laced
+across the centre front with vest cloth showing in the gap**, five visibly
+different metals, and a WESTAR-35 on her right side.
 
 Re-approve it in `outfits.yaml` once it is right.
 
@@ -109,9 +177,9 @@ sides carries the item.** In a back view:
 
 | Element | Her side | Back view: viewer's |
 |---|---|---|
-| Leather gauntlet | right forearm | **right** |
+| Printed gauntlet | right forearm | **right** |
+| Loose shoulder cap | left shoulder | **left** |
 | Flank panels | both sides | **both** — but still unmatched |
-| Shoulder cap | left shoulder | **left** |
 | Thigh patch | left thigh | **left** |
 | Blaster | right thigh | **right** |
 | Knife | left hip | **left** |
@@ -147,7 +215,7 @@ building.
 
 | Image | Why |
 |---|---|
-| All five `turn-working-*` | **Superseded twice.** Hexagonal plates and WESTAR-35, then the 2026-08-01 flank panels and leather gauntlet |
+| All five `turn-working-*` | **Superseded four times.** Hexagonal plates and WESTAR-35; then the flank panels and leather gauntlet; then the 2026-08-01 reference revision — printed gauntlet, loose shoulder cap, no torso metal, vest grain |
 | `blaster` | It is a WESTAR-35 now, not a generic sidearm |
 | `material-scale` | Hexagons with a pressed stamp, not round coins |
 | `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Scale shape and blaster model both visible |
@@ -168,24 +236,51 @@ costume reference. Every character now has this slot.
 
 The failures that keep recurring:
 
-- **Metal on the gauntlet.** It is plain leather now. One gauntlet, her right,
-  and her left forearm is bare.
+- **A skirt, tabard or apron over the trousers.** New on 2026-08-02, and the
+  largest silhouette failure so far. The trousers were the last sentence of the
+  boots rule and the trim cut them from every short prompt, so nothing described
+  her lower half at all. Now the first sentence of that rule.
+- **The gauntlet and the shoulder cap swapped over.** Her right forearm, her
+  left shoulder, always. On 2026-08-02 they exchanged sides while the blaster
+  stayed correct, so it was not a mirrored image — the two pieces simply read as
+  interchangeable. They are on opposite sides on purpose.
+- **A crossover or V-neck vest.** Stand collar and a concealed placket straight
+  down the centre front. The collar sentence used to be trimmed away.
+- **Another character's costume entirely.** Captain Jasu's horns, shoulder yoke,
+  quilted sleeves and matched bracers arrived on 2026-08-02 from a shared
+  conversation. **Use a fresh chat for every character** — the prohibitions in
+  the prompt are a backstop, not the fix.
+- **A yoke, or panels that climb onto the chest.** The scale panels are
+  lower-torso only: ribs, waist and hip, never above the armpit.
+- **The wrong face.** The single most expensive failure so far. The costume
+  photographs are not face references; the actor photographs are.
+- **A laced or leather gauntlet.** It is a solid printed shell now. One
+  gauntlet, her right, and her left forearm is bare.
+- **Flank panels that close up in the middle.** The strip of vest cloth in the
+  lacing gap is what stops them reading as a corset.
+- **A panel speckled with four metals.** One panel, one alloy. The mismatch is
+  between the five pieces.
+- **A glowing gauntlet.** Two dim amber pinpoints at the wrist. No lit seams, no
+  edge lighting, nothing spilling onto skin.
+- **A shoulder cap moulded to the shoulder.** It hangs loose and light gets under
+  it.
 - **Shoulder caps on both shoulders.** One cap, her left — the opposite side to
   the gauntlet. This is the rule doing the most work in the design: symmetry
   quietly turns scavenged mismatch into a costume somebody made for her.
-- **Matching flank panels.** They are a pair in function only — different
-  metals, different ages, one visibly added later.
 - **A bulky silhouette.** Close-fitting, cut to the figure.
 - **Any interior except the Sabacc hold.** Forest, clearing or camp — with the single exception of slot 2, Scene 10, which moved inside the ship on 2026-08-01. Anywhere else, a wall or ceiling is wrong.
 - **A modern coil zip.** Industrial hardware, or hooks and lacing. Still slipping
   through on nearly every frame — the one recurring fault not yet beaten.
 - **The blaster on her left.** It is on her right thigh; only the knife is on her
   left.
-- **Pieces in the same metal.** Steel and iron flanks, brass cap, dark bronze
-  thigh. They drift toward matching brass.
-- **Metal on the chest.** The flank panels sit at the SIDES, over the ribs. Her
-  chest, sternum and the middle of her back stay plain cloth — a chest patch,
-  bib, pendant or breastplate is still wrong.
+- **Pieces in the same metal.** Steel gauntlet, iron cap, bronze thigh, pewter
+  and rust-red flanks. They drift toward matching brass, and there is no brass on
+  this costume.
+- **Metal on her chest.** The flank panels sit at the SIDES, over the ribs. Her
+  sternum, her centre front and the middle of her back stay plain cloth — a chest
+  patch, bib, pendant or breastplate is still wrong.
+- **Printed snakeskin on the vest.** The grain is in the hide, faint and
+  irregular, or it is not there at all.
 
 Two or more together almost always means **the references were not attached**.
 

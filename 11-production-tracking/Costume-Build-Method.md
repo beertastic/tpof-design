@@ -47,19 +47,27 @@ depend on which.
 
 **This is the single most important consequence, and it lands hardest on Shada.**
 
-Her whole costume rests on **four pieces of scale in four different metals** —
-dull grey steel on her right flank, blackened iron on her left, brass with
-verdigris on the shoulder, dark bronze on the thigh. That mismatch is the proof
-nobody made the costume for her. Identical pieces quietly recreate the
-matched-set problem in four places instead of one.
+Her whole costume rests on **five pieces of scale in five different metals** —
+dull grey steel on the right forearm gauntlet, blackened iron on the left
+shoulder cap, dark bronze on the left thigh, pale worn pewter on her right flank
+panel and rust-red oxidised iron on her left. That mismatch is the proof nobody
+made the costume for her. Identical pieces quietly recreate the matched-set
+problem in five places instead of one.
 
-**The two flank panels are the acute case**, because they are a left-and-right
-pair in the same place on the body. If those two match, the costume reads as a
-cuirass somebody fitted to her, and the whole scavenger argument collapses.
+**The two flank panels are the acute case for matching**, because they are a
+left-and-right pair in the same place on the body. If those two come off the
+same print run and get the same finish, the costume reads as a cuirass somebody
+fitted to her.
 
-A printer will produce all four in the same filament. **The difference between
+**The gauntlet is the acute case now**, because from 2026-08-01 it is the one
+piece printed as a solid shell rather than assembled from separate plates. It
+comes off the printer as a finished object, which means every scrap of its
+salvaged history is paint. A clean print reads as a manufactured tech panel, and
+that is the failure mode the whole scale specification exists to prevent.
+
+A printer will produce all five in the same filament. **The difference between
 those metals is now entirely a paint and patina job**, not a material one,
-and it has to be scheduled and costed as such. If the four pieces come off the
+and it has to be scheduled and costed as such. If the five pieces come off the
 same print run and get the same finish pass, the design fails and it fails
 invisibly — it will look fine in isolation and wrong in the turnaround.
 
@@ -94,10 +102,15 @@ So the rule for the paint shop is precise:
 | | The exact form of the serpent |
 
 **Regular shape, irregular material.** One print file is correct and expected;
-one finish across all four pieces is not. They came off four different
-scavenging trips and must read as four different metals — dull grey steel on her
-right flank, blackened iron on her left, brass with verdigris on the shoulder,
-dark bronze on the thigh.
+one finish across all five pieces is not. They came off five different
+scavenging trips and must read as five different metals — dull grey steel on
+the right forearm gauntlet, blackened iron on the left shoulder cap, dark bronze
+on the left thigh, pale worn pewter on her right flank panel, rust-red oxidised
+iron on her left. **No brass and no verdigris**, dropped 2026-08-01.
+
+**And one finish per piece, not one finish per plate.** A panel speckled with
+four alloys is decorative mottling: one panel is one piece of salvage from one
+trip. The variation belongs between the five pieces, never inside one.
 
 **The serpent is raised, not incised**, so it wears from the top down — the ridge
 goes flat and pale where the plate has been handled, and nearly disappears on the
@@ -148,32 +161,41 @@ count below stands.
 That is much finer than it sounds, and it multiplies. A hexagon 12.5 mm across
 covers roughly 1.35 cm², so a rough estimate from patch area:
 
-| Patch | Approx. area | Plates |
+| Patch | Approx. area | Loose plates |
 |---|---|---|
 | Flank panel — her right | ~150 cm² | ~110 |
 | Flank panel — her left | ~150 cm² | ~110 |
-| Shoulder cap | ~120 cm² | ~90 |
-| Thigh | ~180 cm² | ~130 |
+| Shoulder cap — her left | ~120 cm² | ~90 |
+| Thigh — her left | ~180 cm² | ~130 |
+| Gauntlet — her right forearm | ~200 cm² | **0 — printed as one shell** |
 | | | **~440** |
 
 *Revised 2026-07-31: the sternum patch was dropped, taking about 75 plates with
 it.*
 
-**Revised 2026-08-01, and the total went UP by about 70.** The forearm gauntlet
-became plain leather, releasing ~150 plates; a pair of scale flank panels was
-added over the ribs, costing ~220. Net **+19%** on what was already the largest
-labour item in the costume.
+**Revised three times on 2026-08-01, and it has landed back at ~440.** The
+morning made the gauntlet plain leather and added the flank panels (~440). The
+second change dropped the panels and printed the gauntlet (~220). The third
+restored the panels while keeping the printed gauntlet — so **~440 again, but
+with the gauntlet's ~150 hand-laced plates permanently gone.**
+
+**Printing the gauntlet is still worth ~150 plates**, each of which would have
+needed two punched holes and hand lacing. Nothing else in this build offers a
+saving of that size, and it survives every revision because it is a property of
+the piece, not of the coverage.
+
+**Pattern the flank panels first.** They are now half the plate count in the
+costume and their area depends on a pattern nobody has cut yet, so they are both
+the biggest number here and the least certain one.
 
 *Estimated from assumed patch dimensions — confirm against the real patterns
-before committing to a print run.* The flank panels are the least certain
-figure here, because their area depends on a pattern nobody has cut yet, and
-they are now **half the plate count in the costume**. Pattern them first.
+before committing to a print run.*
 
 **Getting on for four hundred and fifty plates, each needing two holes and hand
-lacing.** That is the largest single labour item in this costume and it is easy
-to miss, because each plate is trivial on its own.
+lacing.** Still the largest single labour item in this costume, and still easy to
+miss, because each plate is trivial on its own.
 
-**The flank panels also add work the other patches never had:** punched eyelets
+**The flank panels also add work the other pieces never had:** punched eyelets
 down both facing edges, a leather thong long enough to lace the full height, and
 two strap-and-buckle fixings at the back. The lacing is visible and structural,
 so it cannot be faked with a hidden fastening.
@@ -181,11 +203,15 @@ so it cannot be faked with a hidden fastening.
 Three consequences:
 
 - **The pressure to print pre-linked sheets will be enormous**, and it is exactly
-  the shortcut that kills the flex. If assembly time is the problem, reduce the
-  patch areas rather than linking the plates.
+  the shortcut that kills the flex. **On the shoulder cap and the thigh patch
+  this is forbidden** — and on the flank panels too. All four must move like
+  heavy cloth; the shoulder cap has to hang loose and swing, and the panels sit
+  over her ribs, where she breathes. If assembly time is the problem, reduce
+  the patch areas rather than linking the plates.
 - **The raised swirl is now a 12 mm detail.** It has to survive at print
   resolution and it will need a wash or dry-brush to read at all — the relief
-  alone will not carry it at that size.
+  alone will not carry it at that size. **On the printed gauntlet this is the
+  whole job**, since nothing else distinguishes it from a moulded tech panel.
 - **Print and finish a full patch before committing.** Several hundred plates is not
   something to discover a problem in halfway through.
 
@@ -289,11 +315,13 @@ not as itemised components. It would need a structured block per outfit:
 
 ```yaml
 components:
-  - item: Scale gauntlet, right forearm
+  - item: Gauntlet, right forearm — solid printed shell
     route: printed
     qty: 1
     status: not-started      # not-started | in-progress | done
-    note: Dull grey steel finish. Must NOT match the other three pieces
+    note: >-
+      Dull grey steel finish, a cluster of dim amber telltales at the wrist.
+      Must NOT match the other four pieces
   - item: Work vest
     route: bought
     qty: 1

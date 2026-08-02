@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 83742b69 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: c720e0a4 (short) · repo commit f78b339 2026-08-01 22:57
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,7 +10,9 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE SCALE PLATES, THEIR FINISH AND HOW: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+  THE COSTUME — NOT THE FACE. THIS IS TH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/approved/flank-panels.png
+  THE SHOULDER CAP AND GAUNTLET ONLY — N: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/approved/costume-front-v2.png
+  THE SCALE PLATES — SIZE AND FINISH. WH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
@@ -22,17 +24,20 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. METAL ON HER LEFT SHOULDER, LEFT THIGH, AND A PAIR OF FLANK PANELS OVER HER RIBS — NOWHERE ELSE. NO PLATES ON THE GAUNTLET. NEVER A FULL SUIT. NO BREASTPLATE. EXACTLY ONE GAUNTLET.
-2. THE FLANK PANELS ARE SCALE ARMOUR LACED ACROSS HER CENTRE FRONT, WORN OVER THE VEST — NOT A BREASTPLATE AND NOT A CORSET. NO buckle plate, NO clasp, NO zip, NO seamless join.
-3. EACH PLATE IS 10-15 mm ACROSS — A DENSE FIELD OF MANY TINY PIECES, NEVER A DOZEN BIG ONES. TESSELLATED EDGE TO EDGE AND NEVER OVERLAPPED OR SHINGLED. About the size of a thumbnail.
-4. FOUR METAL PIECES, FOUR DIFFERENT METALS, AND THIS KEEPS COMING BACK WRONG. They must NOT all be brass or all be gold. NOT brass, NOT gold, NOT warm-toned.
-5. A PANELLED SLEEVELESS VEST COVERING HER TORSO: STAND COLLAR, CONCEALED PLACKET, PRINCESS SEAMS, RAW HEM. NO BARE MIDRIFF, NO CROP TOP, NO ZIP. THIS IS NOT A TANK TOP AND NOT A VEST TOP.
-6. BARE ARMS AND BARE SHOULDERS, EXCEPT A PLAIN LEATHER GAUNTLET ON HER RIGHT FOREARM AND THE CAP ON HER LEFT SHOULDER. NO SCARF, COWL, HOOD OR NECK WRAP. The vest is SLEEVELESS.
-7. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. This is what makes her not HUMAN. TONAL, NOT COLOURED.
-8. WEAPONS — SIDES ARE FIXED. SHE IS RIGHT-HANDED. BLASTER: a WESTAR-35 BLASTER PISTOL ON HER RIGHT SIDE — hip or thigh, either is fine, but ALWAYS HER RIGHT AND NEVER HER LEFT.
-9. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors — EXCEPT the mercenary ship's main hold in Scene 10, the Sabacc game, which moved inside on 2026-08-01.
-10. FACE — BARELY THERE. Tonal — the same colour as her skin, readable only where light rakes across it, easy to miss entirely in flat light. NOT across the nose, forehead, cheeks or mouth.
-11. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it, and do NOT lose it to shadow.
+1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPHS ARE NOT FACE REFERENCES. THOSE WOMEN ARE NOT THE ACTOR.
+2. SHE IS SHADA, NOT ANY OTHER CHARACTER IN THIS FILM. NO HORNS, NO HEADDRESS, NO HELMET. NO YOKE ACROSS SHOULDERS OR UPPER CHEST. NO SLEEVES.
+3. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES. CAP AND GAUNTLET NEVER SWAP.
+4. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL, NOT LACED PLATES AND NOT LEATHER. A SMALL CLUSTER OF DIM AMBER TELLTALES AT THE WRIST.
+5. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT SHOULDER. NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
+6. THE FLANK PANELS LACE ACROSS HER CENTRE FRONT OVER THE VEST, WITH A STRIP OF VEST CLOTH SHOWING IN THE GAP. RIBS, WAIST AND HIP ONLY. NOT A YOKE.
+7. EACH PLATE IS 10-15 mm ACROSS — HALF THE SIZE IN THE COSTUME PHOTOGRAPH. NEVER OVERLAPPED OR SHINGLED. FIVE DIFFERENT METALS AND NO BRASS. NOT brass.
+8. A PANELLED SLEEVELESS VEST WITH A STAND COLLAR AND CONCEALED PLACKET. NEVER A WRAP FRONT, NEVER A V-NECK, NEVER A CROSSOVER, NO ZIP. NO SLEEVES.
+9. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
+10. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible in every view. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35.
+11. CLOSE-FITTING DARK TROUSERS TUCKED INTO MID-CALF BOOTS. NOTHING IS WORN OVER THE TROUSERS — NO SKIRT, TABARD, APRON, OVERSKIRT, WRAP OR HANGING PANEL.
+12. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
+13. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics.
+14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

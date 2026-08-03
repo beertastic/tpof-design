@@ -8,9 +8,10 @@ one cannot silently change the other, and neither is the source of the other.
 
 | Output | Read by | Used for |
 |---|---|---|
-| `turnarounds-short/` | **The image generator** | The only thing pasted into a chat. Under 3,800 characters, which is what an image model accepts |
+| `turnarounds-short/` | **The image generator** | Pasted into a chat. Inside the budget an image model actually accepts — currently 8,000 characters |
+| `slots-short/` | **The image generator** | The same, for the numbered slots. Plates, materials, expression strips and narrative frames |
 | `turnarounds/` | **People** | The full specification. What a costume supervisor builds from, and what settles an argument about what a rule actually says |
-| `prompts/*.txt` | The image generator | Plates and mood images, one per slot |
+| `prompts/*.txt` | **People** | The long slot files. 5–8× over budget — **not for pasting**, despite the name |
 
 **The long turnarounds are a build document, not a prompt.** They carry the whole
 of every `must_show` rule where the short version keeps the first sentence and the
@@ -20,15 +21,27 @@ in the long file and cannot fit in the short one.
 If they ever stop being read by a human, they should be deleted rather than
 maintained out of habit.
 
-Two generators. Both read from the character's documents and emit **paste-ready
-plain-text prompts** — open one, select all, paste.
+**Three generators, and one command that runs all three.** They read from the
+character's documents and emit plain-text prompts — open one, select all, paste.
 
 ```bash
-python tools/prompt-splitter/turnarounds.py baylan   # costume turnarounds
-python tools/prompt-splitter/split.py baylan         # plates and mood images
+./tools/regen baylan                                 # THE ONE YOU WANT
 ```
 
-Both accept `--all`.
+`regen` exists because **a hand-typed list omits `short.py`** — the generator
+that writes what you actually paste. A run of the two commands below leaves the
+short prompts stale, reports success, and leaves a version stamp on the stale
+file. That omission cost Shada two images.
+
+```bash
+python tools/prompt-splitter/turnarounds.py baylan   # costume turnarounds — the spec
+python tools/prompt-splitter/split.py baylan         # plates and mood images — the spec
+python tools/prompt-splitter/short.py baylan         # the same, cut to fit a generator
+```
+
+All three accept `--all`. `short.py` also takes `--dry-run`, which reports the
+share of each outfit's specification reaching the generator, and every sentence
+dropped, **without writing anything**.
 
 ## Priority
 

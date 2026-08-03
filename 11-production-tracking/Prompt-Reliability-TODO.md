@@ -436,5 +436,28 @@ operator to run `split.py` and `turnarounds.py`, neither of which writes
 `turnarounds-short/` — the directory the pasted prompt comes from. A run of the
 documented two commands leaves the short prompts stale and reports success,
 and the stale file's header still carries a version stamp. Corrected in
-`Shada-Image-TODO.md`; **the other characters' finish lists have not been
-checked for the same omission.**
+`Shada-Image-TODO.md`; ~~**the other characters' finish lists have not been
+checked for the same omission.**~~
+
+**Checked 2026-08-03, and the omission was in five more places — plus a worse
+fault nobody had recorded.**
+
+| File | What it said | Fixed to |
+|---|---|---|
+| `shada/Prompts.md` | regenerate with `turnarounds.py` / `split.py` | `./tools/regen shada` |
+| `baylan/Prompts.md` | the same | `./tools/regen baylan` |
+| `shin/Prompts.md` | the same | `./tools/regen shin` |
+| `mercenary-kit/Prompts.md` | `turnarounds.py` only | `./tools/regen mercenary-kit` |
+| `tools/prompt-splitter/README.md` | **"Two generators"**, `short.py` absent entirely | Three, with `regen` first and `--dry-run` documented |
+
+`captain-jasu/Prompts.md` was already correct — it was written on 2026-08-03,
+after the lesson.
+
+**The worse fault: three of those files pointed the operator at the long
+prompts.** Shada's, Baylan's and Shin's headers said *"paste-ready prompts in
+`prompts/turnarounds/`"* and *"pre-assembled versions of the slots below are in
+`prompts/`"* — the specification files, 5–8× over budget, which is exactly the
+silent-host-compression failure this document exists to describe. Both
+`slots-short/` and `turnarounds-short/` have existed for all five characters
+since fix 7 landed, and nothing in those three packs mentioned either. All three
+now lead with **paste from the short directories, never from `prompts/`**.

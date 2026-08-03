@@ -72,6 +72,7 @@ See `09-prompt-library/Turnaround-Block.md`.
 | Sand Dunes | Placeholder |
 | Forest Ditch | Placeholder |
 | Forest Clearing | Placeholder |
+| **Forest Crash Site** | **Written 2026-08-03.** New. The wreck two clicks out — briefed in Sc.9, its smoke is set dressing in Sc.24–25, and no scene goes there. The smoke column is the only part of it the audience sees |
 
 ## Creatures
 
@@ -84,4 +85,4 @@ See `09-prompt-library/Turnaround-Block.md`.
 | Asset | Status | Notes |
 |---|---|---|
 | Mercenary ship | **YT-2000.** Digital interior built | **Stolen by Baylan and Shin in the finale** — theirs from Film 2. Unnamed |
-| Escapee ship | Not started | Crashes in Sc.2. Source of Jeyin's fatal wound. Wreck is a location; the torn metal is a prop |
+| Escapee ship | **Documented 2026-08-03. No visual design** | Crashes in Sc.2. Source of Jeyin's fatal wound. `06-vehicles/escapee-ship/Vehicle.md` records the three scripted lines that are all there is; the wreck now has a location document; **the torn metal still has no prop entry** |

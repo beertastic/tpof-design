@@ -24,10 +24,16 @@ own gear.
 
 ## Order of work
 
-**The turnarounds come first.** They live in `prompts/turnarounds/`, generated
-from `outfits.yaml` by `tools/prompt-splitter/turnarounds.py`, and they carry the
-per-build non-negotiables. Nothing in this file can be generated properly until
-at least one build has an approved front view to attach as a reference.
+**The turnarounds come first.** They carry the per-build non-negotiables, and
+nothing in this file can be generated properly until at least one build has an
+approved front view to attach as a reference.
+
+**Paste from `prompts/turnarounds-short/` and `prompts/slots-short/`, never from
+`prompts/` or `prompts/turnarounds/`** — the version line says `(short)`. The
+long files are the specification, not something to hand a generator. Regenerate
+everything with **`./tools/regen mercenary-kit`**, one command; running
+`turnarounds.py` and `split.py` by hand leaves the short prompts stale and
+reports success. See [`../Character-Build-Recipe.md`](../Character-Build-Recipe.md).
 
 1. Generate `turn-merc-1-front` and the other three front views.
 2. Approve them, and record each as `approved.reference` in `outfits.yaml`.

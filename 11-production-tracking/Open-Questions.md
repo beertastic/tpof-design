@@ -61,12 +61,14 @@
 - [x] ~~What is Jeyin's injury?~~ **Impaled by torn metal in the Scene 2 crash.** Septic by
       Sc.11; six-scene continuity track written. She is already dying when the akk dog
       reaches her. Confirmed 2026-07-30. Crash currently off screen for budget.
-- [ ] **The escapees' ship has no asset entry.** It crashes in Scene 2, is the subject of
-      Jasu's Scene 9 briefing, is the source of Jeyin's fatal wound, and its smoke is set
-      dressing in Scene 24. `06-vehicles/README.md` now names it and sets out the three
-      things it needs — the ship, the wreck as a location, the torn metal as a prop — but
-      it still has no `Vehicle.md` of its own and no crash-site entry under
-      `07-locations/`.
+- [x] ~~**The escapees' ship has no asset entry.**~~ **Two of the three written 2026-08-03.**
+      `06-vehicles/escapee-ship/Vehicle.md` and `07-locations/forest-crash-site/Location.md`
+      now exist. Neither decides any visual design — they record what the three scripted
+      lines fix (rickety, tumbling, engine smoke; two clicks out; smoke still up a day
+      later) and what is open. **The torn metal that impaled Jeyin still has no entry
+      under `05-props/`** and is the one of the three that kills a principal — it is
+      needed only if the crash is filmed, but the *wound* is on screen from Sc.8 and a
+      prosthetic has to match something.
 - [x] ~~When does Shin cut her hair?~~ **Not in this film** — Film 2 or just before it.
       Confirmed 2026-07-30. No shorn variant needed in her pack.
 - [x] ~~How does Baylan kill the mercenaries?~~ **With the lightsaber**, rebuilt alone in

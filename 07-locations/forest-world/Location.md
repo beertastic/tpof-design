@@ -94,9 +94,12 @@ One day and one night, in order, which fixes every scene's light:
 
 ## Assets this implies that do not exist yet
 
-- **The crash site.** No location document. It is briefed in Sc.9, its smoke is
-  set dressing in Sc.24 and 25, and it may be where Baylan and Shin are heading
-  in the last shot.
+- ~~**The crash site.** No location document.~~ **Written 2026-08-03** —
+  [`../forest-crash-site/Location.md`](../forest-crash-site/Location.md), and the
+  ship that made it now has one too:
+  [`06-vehicles/escapee-ship/`](../../06-vehicles/escapee-ship/Vehicle.md). It is
+  briefed in Sc.9, its smoke is set dressing in Sc.24 and 25, and it is where
+  Baylan and Shin are heading in the last shot.
 - **The mines.** Referenced once and never seen — the same treatment as Prodona.
   Probably needs nothing beyond this entry, but somebody should decide that rather
   than forget it.

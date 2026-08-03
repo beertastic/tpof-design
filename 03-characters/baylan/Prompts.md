@@ -18,21 +18,26 @@ conversation** — see [`../CAST-REFERENCE.md`](../CAST-REFERENCE.md). A reposit
 connector may not let the model see images even when it can read this file. The
 reference governs face and build; this pack governs everything else.
 
+> **PASTE FROM [`prompts/turnarounds-short/`](prompts/turnarounds-short/) AND
+> [`prompts/slots-short/`](prompts/slots-short/), never from `prompts/` or
+> `prompts/turnarounds/`.** The version line says `(short)`. The long files are
+> the specification and run 5–8× over any generator's working budget, so pasting
+> one hands the compression to the host where nothing can report on it. See
+> [`../Character-Build-Recipe.md`](../Character-Build-Recipe.md).
+>
 > **Start with the costume turnarounds — they are the primary deliverable.**
-> Twenty paste-ready prompts in
-> [`prompts/turnarounds/`](prompts/turnarounds/): **one costume, five views.**
-> Generate those in full before any image in this document. Regenerate with
-> `python tools/prompt-splitter/turnarounds.py baylan`.
+> Twenty prompts: **one costume, five views**, plus the coat's own five.
+> Generate those in full before any image in this document.
 >
 > **The slots below are plates and mood images** — props, materials, expression
 > range, and a few atmospheric frames. Three or four mood images is enough; they
 > are context, not something anyone builds from.
 >
-> **Pre-assembled versions of the slots below are in [`prompts/`](prompts/).** One
-> plain-text file per image, each fully self-contained — open it, select all,
-> paste. No sections to gather, no markdown to strip. Generated from this
-> document; if you change anything here, run
-> `python tools/prompt-splitter/split.py baylan`.
+> **If you change anything here or in `outfits.yaml`, run
+> `./tools/regen baylan`** — all three generators, in one command. Running
+> `split.py` and `turnarounds.py` by hand leaves the short prompts stale and
+> reports success, and the stale file still carries a version stamp. That
+> omission cost Shada two images.
 
 **How to use** (if assembling by hand)**.** Each numbered slot below is a complete, self-contained prompt.
 Paste **Style**, **Do Not**, **Character Constants**, then the single slot you

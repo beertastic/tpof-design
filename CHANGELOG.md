@@ -24,6 +24,36 @@ All notable production-bible changes are recorded here.
 ## Unreleased
 
 ### Added
+
+- **The escapees' ship and its crash site have documents, 2026-08-03** — two
+  assets that the script names in three scenes and the repository had never
+  filed. `06-vehicles/escapee-ship/Vehicle.md` and
+  `07-locations/forest-crash-site/Location.md`.
+
+  **Neither decides any visual design**, because none has been decided. They
+  record what the three scripted lines fix — *rickety*, tumbling, engine smoke,
+  dropping past the treeline (Sc.2); **two clicks** from the mercenary landing
+  and the dampening field as the cause (Sc.9); the column of smoke **still up a
+  full day later** and the bearing of the last shot in the film (Sc.25) — and
+  everything else is written down as open.
+
+  Three things came out of writing them:
+  - **Scene 2 is the ship's only appearance**, perhaps three seconds, in the air,
+    at distance. So the entire design load is **silhouette and behaviour**, and
+    the contrast with the maintained YT-2000 has to survive being read in a few
+    seconds against an evening sky.
+  - **The smoke column is the only part of the crash site any audience sees**,
+    and it is up across evening, night and morning — lit four ways, in every
+    exterior scene from 3 onward. It should be planned once and treated as part
+    of the sky, not added where it happens to be scripted.
+  - **The torn metal that impaled Jeyin still has no entry under `05-props/`.**
+    It is needed only if the crash is filmed, but the *wound* is on screen from
+    Sc.8 and a prosthetic has to match something — so whoever designs the wound
+    is implicitly designing the prop. Now named as outstanding in three places
+    rather than none.
+
+  `Open-Questions.md` closed accordingly; `forest-world`, `06-vehicles/README.md`
+  and the status board updated.
 - **Krellis has a backstory, 2026-08-02** — partial, from the production, and
   recorded as given with the interpretation flags marked. War-torn planet, oldest
   of many siblings, watched his parents die for want of medical support and vowed
@@ -150,6 +180,28 @@ All notable production-bible changes are recorded here.
   places. No change to the build, and the gauntlet stays a solid printed shell.
 
 ### Fixed
+- **Three prompt packs were pointing the operator at the long files, 2026-08-03.**
+  A follow-up to the note left open on 2026-08-02, which said the other
+  characters' run instructions had not been checked for the missing-`short.py`
+  omission. They had it — and something worse.
+
+  Shada's, Baylan's and Shin's `Prompts.md` headers offered
+  `prompts/turnarounds/` and `prompts/` as *"paste-ready"*. Those are the
+  specification files, 5–8× over any generator's budget; pasting one hands the
+  compression to the host, where nothing can report on what was dropped. That is
+  the precise failure `Prompt-Reliability-TODO.md` exists to describe, and the
+  packs were recommending it. `slots-short/` and `turnarounds-short/` have
+  existed for all five characters since fix 7 and none of the three mentioned
+  either.
+
+  All three now lead with **paste from the short directories, never from
+  `prompts/`**, and name `./tools/regen <character>` instead of the two-command
+  list that leaves the short prompts stale. `mercenary-kit/Prompts.md` and
+  `tools/prompt-splitter/README.md` had the same omission — the tools README
+  said **"Two generators"** and did not mention `short.py` at all, which is the
+  generator that writes what you actually paste. `captain-jasu/Prompts.md` was
+  already correct, having been written after the lesson.
+
 - **Seven of Shada's fourteen `must_show` rules re-ordered, 2026-08-02, so the
   load-bearing sentence leads.** A fifth generation came back with a skirt and
   tabard over the trousers, a crossover V-neck vest, the gauntlet and shoulder

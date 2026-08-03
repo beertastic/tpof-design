@@ -49,7 +49,7 @@ panels:
 
 weapons:
   heading: Weapons & Equipment
-  plate_height: 1.50
+  plate_height: 1.22
   plates:
     - path: source/artwork/knife.png
       caption: Combat knife. Her left hip, grip up, cross-draw with the right hand.
@@ -64,12 +64,11 @@ weapons:
       knife and the thigh patch. That diagonal is deliberate.
     - >
       Her armour is scrap metal cut small and laced on — a loose cap of blackened
-      iron hanging off one shoulder, a dark bronze patch on one thigh, and two
-      unmatched panels over her ribs laced together up the front, from scavenging
-      trips years apart. The one rigid piece is the printed steel gauntlet on her
-      right forearm, with a few dim lights at the wrist that still work. No
-      breastplate — her chest stays cloth between the panels — and no matched
-      pair of anything. Nobody made it for her.
+      iron off one shoulder, a dark bronze patch on one thigh, two unmatched
+      panels over her ribs laced up the front, from scavenging trips years apart.
+      The one rigid piece is the printed gauntlet on her right forearm, a few dim
+      lights at the wrist still working. No breastplate, and no matched pair of
+      anything. Nobody made it for her.
 
 disclaimer: >
   The Price of Freedom is an unofficial, non-commercial fan production. Star Wars

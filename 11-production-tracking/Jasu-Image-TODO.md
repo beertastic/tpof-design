@@ -7,19 +7,54 @@ status: "open"
 
 # Captain Jasu — Finish List
 
-> ## UNBLOCKED 2026-08-03 — the run list is below
+> ## THE FRONT IS APPROVED, v2 — 2026-08-03. Everything below runs against it.
 >
-> **Both blockers are cleared.** `Prompts.md` was `status: scaffold`, so `short.py`
-> wrote NO slot prompts for her, silently — and its slots put her in ship
-> corridors she is never in. And there was no `board-data.yaml` at all, so her
-> boards could not be generated whatever images existed.
+> `source/artwork/turn-field-front.png` carries **tall boots with a low heel,
+> exactly one whistle at the throat, and hair worn down** — the three things the
+> first approved front never showed, because the rules carrying them were being
+> trimmed out of every prompt before it was sent.
 >
-> **Now: sixteen slot prompts written, six boards configured, references staged.**
-> `--validate` reports the sixteen images as missing and no overlaps, which is
-> exactly right — the configuration is sound and the images do not exist yet.
+> **Four passes to get there**, all recorded in
+> [`../03-characters/captain-jasu/evolution/README.md`](../03-characters/captain-jasu/evolution/README.md).
+> The 2026-08-01 front is kept as `00-first-approved-2026-08-01.png` and **must
+> not be attached to anything.**
 >
-> **THE RUN ORDER**, following
-> [`../03-characters/Character-Build-Recipe.md`](../03-characters/Character-Build-Recipe.md):
+> **`./tools/regen captain-jasu` has been run, so every prompt and the staged
+> attachment folder already point at the new front.** Verified by checksum.
+>
+> ### RUN THIS NEXT — the four remaining views
+>
+> They are the primary deliverable and they are ready now. **Fresh chat each.**
+>
+> | Order | Paste | Attach |
+> |---|---|---|
+> | 1 | `prompts/turnarounds-short/turn-field-left.txt` | everything in `prompts/attach/field/` — **all 3** |
+> | 2 | `prompts/turnarounds-short/turn-field-right.txt` | the same 3 |
+> | 3 | `prompts/turnarounds-short/turn-field-back.txt` | the same 3 |
+> | 4 | `prompts/turnarounds-short/turn-field-natural.txt` | the same 3 |
+>
+> Save each as `source/artwork/<Output file>` exactly as the prompt names it.
+> Unlike the front, these views **do** take the costume photograph — a plate is
+> only excluded from being its own reference.
+>
+> **Check each against the front:** boots tall, one whistle at the throat, hair
+> down, horns unchanged, and every asymmetric piece on the correct side — blaster
+> on her RIGHT, leash on her LEFT. **The profile views are where side errors
+> appear**, and the prompts now carry a visibility rule telling the model which
+> side the camera cannot see and forbidding it from moving a hidden piece round
+> into shot.
+>
+> > **Known and accepted:** on the left and right prompts the budget settles
+> > lower, and five tail sentences are dropped — articulation, the yoke rising
+> > into the collar, the leather-minority list, the grip angle. All construction
+> > detail; none of it silhouette or placement. Recorded as item 11 in
+> > [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md).
+>
+> ### THEN the sixteen slots, in this order
+>
+> Following
+> [`../03-characters/Character-Build-Recipe.md`](../03-characters/Character-Build-Recipe.md).
+> Paste from `prompts/slots-short/`, never from `prompts/`.
 >
 > | | Slots | Why this order |
 > |---|---|---|
@@ -30,6 +65,22 @@ status: "open"
 > | 5 | `01-hero` · `03-camp_day` · `04-captaining` · `05-candid` · `12-akk_together` | The frames |
 > | 6 | `16-tone_collage`, then the boards | `--promo` is a separate command |
 >
+> **`09-blaster` now carries the barrel, receiver and grip detail** that used to
+> sit in `must_show` — it moved there on 2026-08-03 because no full-length figure
+> can resolve it.
+>
+> ### Then the boards
+>
+> ```bash
+> source .venv/bin/activate
+> python tools/board-generator/generate.py captain-jasu --validate
+> python tools/board-generator/generate.py captain-jasu
+> python tools/board-generator/generate.py captain-jasu --promo
+> ```
+>
+> `--validate` should report only the images that genuinely do not exist yet.
+> **She still has no `Character-Lock.md` and no `promo-data.yaml`** — see below.
+>
 > **Read [`../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md) first.**
 > Eight lessons from Shada, each paid for by a wasted generation.
 >
@@ -39,7 +90,11 @@ status: "open"
 > akk dog goes wherever she is: it is 0.85 m at the crest, **level with the bottom
 > of her belt**, measured off the rig.
 
-> ### THE APPROVED FRONT FAILS THREE RULES THAT NEVER REACHED THE GENERATOR — found 2026-08-03
+> ### HOW THIS STARTED — the FIRST approved front failed three rules that never reached the generator
+>
+> *Historical, and the reason for the four passes above. The front described
+> here was replaced on 2026-08-03; it survives as
+> `evolution/00-first-approved-2026-08-01.png`.*
 >
 > Checked after the `must_show` rewrite, because the regeneration warned that
 > `field` is approved and its artwork may no longer match. **It does not match,
@@ -132,7 +187,9 @@ status: "open"
 >       comparison — and the akk landmark is unchanged. `scale_figure` is the only
 >       image the change invalidates.
 
-**Status: TURNAROUNDS COMPLETE. SIXTEEN SLOTS AND SIX BOARDS NOW CONFIGURED.**
+**Status: FRONT APPROVED v2 (2026-08-03). FOUR VIEWS AND SIXTEEN SLOTS READY TO RUN. SIX BOARDS CONFIGURED.**
+
+> The four other views were generated on 2026-08-01 against the *previous* front and **are now superseded** — they show ankle boots, a belt whistle and hair that no longer matches. They must be re-rolled against the new front, which is why they are the next thing in the run list above.
 
 She is the first character in the production with a **full five-view turnaround
 set built off an approved reference** — front approved and locked in

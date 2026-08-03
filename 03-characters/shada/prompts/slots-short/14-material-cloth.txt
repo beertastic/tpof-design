@@ -1,7 +1,7 @@
 [SHADA — COARSE TECHNICAL FABRIC]
 Output file: material-cloth.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 76468f7c (short) · repo commit b17b63b 2026-08-03 13:33
+Prompt version: b9530dc2 (short) · repo commit 8578b69 2026-08-03 13:34
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -20,9 +20,25 @@ is attached, fetch these URLs instead — and say which route you used:
 THE SHOT:
 Extreme close-up macro photograph of coarse woven technical fabric, lying flat on
 a plain neutral surface and filling the frame. The weave clearly visible at
-thread level. Muted and desaturated, dye faded unevenly by sun and washing. A
-frayed cut edge, a patch stitched over it by hand, and staining worked into the
-fibres. Even flat lighting, sharp across the frame. A single material sample
+thread level.
+
+THIS IS THE CLOTH HER VEST IS MADE FROM, AND IT IS A LIGHT WARM GREY. Match
+the vest in the attached costume photograph: a pale, dusty, warm-toned grey —
+clearly LIGHTER than the mid-grey surface it lies on, and much lighter than the
+trousers or any leather. NOT charcoal, NOT dark grey, NOT near-black, and
+never brown. Dye faded unevenly by sun and washing, but faded means PALER, not
+darker.
+
+THE SERPENTINE GRAIN IS WOVEN INTO THE CLOTH. A faint, irregular
+serpent-skin figure in the weave itself — made by the threads, tonal, the SAME
+COLOUR as the cloth, catching the light only where it lies at an angle. It is
+structure, not decoration. NEVER a printed snakeskin, never a stamped or
+pressed pattern, never a different colour from the cloth, and never the hexagon
+scale armour. It should be easy to miss at a glance and unmistakable once
+seen. This is the single thing that makes it this costume's cloth.
+
+A frayed cut edge, a patch stitched over it by hand, and staining worked into
+the fibres. Even flat lighting, sharp across the frame. A single material sample
 photographed for reference — no styling, no arrangement, no other objects.
 
 A material sample, not an object. A flat swatch or offcut with cut edges,

@@ -681,12 +681,35 @@ no other objects.
 **Square, 1:1.**
 
 Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
-lying flat on a plain neutral surface and filling the frame. Years of use: the
-surface cracked and softened, colour worn away at the high points, a repaired
-tear with visible hand stitching in mismatched thread, and one edge showing a
-stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
-across the frame. A single material sample photographed for reference — no
-styling, no arrangement, no other objects.
+lying flat on a plain neutral surface and filling the frame.
+
+**THE COLOUR IS GREY-BROWN TAUPE** — desaturated and sun-bleached, with a
+greenish-grey cast. This is the leather of her two belts, her holster, her thigh
+strap, her boots, her knife sheath and the cuff under her gauntlet, and it is
+one of the three colours the whole costume is built from. **NEVER chestnut,
+NEVER tan, NEVER saddle brown** — the leather drifts warm on almost every
+generation and it pulls the costume back toward the brown this design left
+behind.
+
+**AND IT IS A MID-TONE, NOT NEAR-BLACK.** Clearly lighter than the dark grey
+surface it lies on: a muted, dusty, sun-faded grey-brown you could still read
+the grain of across a room. Not chocolate, not near-black, not a dark shadowy
+swatch. If it reads as black leather, it is wrong in the other direction.
+
+Years of use: the surface cracked and softened, colour worn away at the high
+points, a repaired tear with visible hand stitching in mismatched thread, and
+one edge showing a stitched seam and a rivet. Dust worked into the grain. Even
+flat lighting, sharp across the frame. A single material sample photographed for
+reference — no styling, no arrangement, no other objects.
+
+<!--
+Colour added 2026-08-03. This slot named no colour at all, and the generation
+came back at 17% value, sat 15% — neutral in hue, so the documented chestnut
+drift did NOT happen, but far darker than any leather on the costume. Measured
+against the approved front: boots 24%, belt 33%. The prompt asked for "colour
+worn away at the high points" and nothing else, so "worn" was read as "dark".
+-->
+
 
 
 **A material sample, not an object.** A flat swatch or offcut with cut edges,
@@ -697,10 +720,37 @@ or finished. If the thing in frame could be put on or carried, it is wrong.
 
 Extreme close-up macro photograph of coarse woven technical fabric, lying flat on
 a plain neutral surface and filling the frame. The weave clearly visible at
-thread level. Muted and desaturated, dye faded unevenly by sun and washing. A
-frayed cut edge, a patch stitched over it by hand, and staining worked into the
-fibres. Even flat lighting, sharp across the frame. A single material sample
+thread level.
+
+**THIS IS THE CLOTH HER VEST IS MADE FROM, AND IT IS A LIGHT WARM GREY.** Match
+the vest in the attached costume photograph: a pale, dusty, warm-toned grey —
+clearly LIGHTER than the mid-grey surface it lies on, and much lighter than the
+trousers or any leather. **NOT charcoal, NOT dark grey, NOT near-black, and
+never brown.** Dye faded unevenly by sun and washing, but faded means PALER, not
+darker.
+
+**THE SERPENTINE GRAIN IS WOVEN INTO THE CLOTH.** A faint, irregular
+serpent-skin figure in the weave itself — made by the threads, tonal, the SAME
+COLOUR as the cloth, catching the light only where it lies at an angle. It is
+structure, not decoration. **NEVER a printed snakeskin, never a stamped or
+pressed pattern, never a different colour from the cloth, and never the hexagon
+scale armour.** It should be easy to miss at a glance and unmistakable once
+seen. This is the single thing that makes it *this* costume's cloth.
+
+A frayed cut edge, a patch stitched over it by hand, and staining worked into
+the fibres. Even flat lighting, sharp across the frame. A single material sample
 photographed for reference — no styling, no arrangement, no other objects.
+
+<!--
+Colour and grain added 2026-08-03. This slot asked for "coarse woven technical
+fabric... muted and desaturated" and NOTHING else — no colour, and no mention of
+the serpentine grain, despite the run list calling this the plate that "changes
+most" precisely because of the grain. The generation came back at 27% value
+against the vest's 58%: a dark charcoal swatch that does not read as the same
+fabric as the garment it represents. The generator delivered what was asked; the
+prompt was incomplete.
+-->
+
 
 
 **A material sample, not an object.** A flat swatch or offcut with cut edges,

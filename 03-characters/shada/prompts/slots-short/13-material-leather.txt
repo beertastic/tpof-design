@@ -1,7 +1,7 @@
 [SHADA — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: d379232a (short) · repo commit b17b63b 2026-08-03 13:33
+Prompt version: 3485aa07 (short) · repo commit 8578b69 2026-08-03 13:34
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -19,12 +19,26 @@ is attached, fetch these URLs instead — and say which route you used:
 
 THE SHOT:
 Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
-lying flat on a plain neutral surface and filling the frame. Years of use: the
-surface cracked and softened, colour worn away at the high points, a repaired
-tear with visible hand stitching in mismatched thread, and one edge showing a
-stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
-across the frame. A single material sample photographed for reference — no
-styling, no arrangement, no other objects.
+lying flat on a plain neutral surface and filling the frame.
+
+THE COLOUR IS GREY-BROWN TAUPE — desaturated and sun-bleached, with a
+greenish-grey cast. This is the leather of her two belts, her holster, her thigh
+strap, her boots, her knife sheath and the cuff under her gauntlet, and it is
+one of the three colours the whole costume is built from. NEVER chestnut,
+NEVER tan, NEVER saddle brown — the leather drifts warm on almost every
+generation and it pulls the costume back toward the brown this design left
+behind.
+
+AND IT IS A MID-TONE, NOT NEAR-BLACK. Clearly lighter than the dark grey
+surface it lies on: a muted, dusty, sun-faded grey-brown you could still read
+the grain of across a room. Not chocolate, not near-black, not a dark shadowy
+swatch. If it reads as black leather, it is wrong in the other direction.
+
+Years of use: the surface cracked and softened, colour worn away at the high
+points, a repaired tear with visible hand stitching in mismatched thread, and
+one edge showing a stitched seam and a rivet. Dust worked into the grain. Even
+flat lighting, sharp across the frame. A single material sample photographed for
+reference — no styling, no arrangement, no other objects.
 
 A material sample, not an object. A flat swatch or offcut with cut edges,
 roughly the size of a hand. Not a garment, not a bag, not anything wearable

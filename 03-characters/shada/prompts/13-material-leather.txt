@@ -1,10 +1,10 @@
 [SHADA — SLOT 13 — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1  (square)
-Prompt version: 99ad2ea9 · repo commit b17b63b 2026-08-03 13:33
+Prompt version: a43a4d76 · repo commit 8578b69 2026-08-03 13:34
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b17b63b, prompt 99ad2ea9.
+    Working from commit 8578b69, prompt a43a4d76.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -291,12 +291,26 @@ shaped by wet forest — she belongs in it, and it shows.
 
 === THIS IMAGE ===
 Extreme close-up macro photograph of a piece of worn reinforced synth-leather,
-lying flat on a plain neutral surface and filling the frame. Years of use: the
-surface cracked and softened, colour worn away at the high points, a repaired
-tear with visible hand stitching in mismatched thread, and one edge showing a
-stitched seam and a rivet. Dust worked into the grain. Even flat lighting, sharp
-across the frame. A single material sample photographed for reference — no
-styling, no arrangement, no other objects.
+lying flat on a plain neutral surface and filling the frame.
+
+THE COLOUR IS GREY-BROWN TAUPE — desaturated and sun-bleached, with a
+greenish-grey cast. This is the leather of her two belts, her holster, her thigh
+strap, her boots, her knife sheath and the cuff under her gauntlet, and it is
+one of the three colours the whole costume is built from. NEVER chestnut,
+NEVER tan, NEVER saddle brown — the leather drifts warm on almost every
+generation and it pulls the costume back toward the brown this design left
+behind.
+
+AND IT IS A MID-TONE, NOT NEAR-BLACK. Clearly lighter than the dark grey
+surface it lies on: a muted, dusty, sun-faded grey-brown you could still read
+the grain of across a room. Not chocolate, not near-black, not a dark shadowy
+swatch. If it reads as black leather, it is wrong in the other direction.
+
+Years of use: the surface cracked and softened, colour worn away at the high
+points, a repaired tear with visible hand stitching in mismatched thread, and
+one edge showing a stitched seam and a rivet. Dust worked into the grain. Even
+flat lighting, sharp across the frame. A single material sample photographed for
+reference — no styling, no arrangement, no other objects.
 
 A material sample, not an object. A flat swatch or offcut with cut edges,
 roughly the size of a hand. Not a garment, not a bag, not anything wearable

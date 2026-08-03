@@ -1,7 +1,7 @@
 [SHADA — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
-Prompt version: 7c4b3a4f (short) · repo commit 8a9dae7 2026-08-03 14:01
+Prompt version: bfc36b28 (short) · repo commit a2c148e 2026-08-03 14:08
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -25,5 +25,25 @@ evenly lit and consistently framed: (1) neutral alertness — the resting state;
 (4) cold lethal calm. Restrained throughout — this face does not perform. Same
 lighting, same angle, same scale detail in every panel. Reference-sheet
 evenness, not four dramatic portraits.
+
+HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, IN EVERY ONE
+OF THE FOUR PANELS. This is a CONTACT LENS on a human performer, not a
+prosthetic and not a creature eye: the eye keeps its human shape, its lids, its
+lashes and its expression, and only the pupil is wrong — a narrow vertical
+slit, not a round pupil. It is the single highest-value element in her make-up,
+these are close head-and-shoulders portraits so it can carry here, and a round
+pupil means the image has failed. Do not make the whole eye animal, do not
+enlarge it, and do not lose it to shadow.
+
+A CONCEALED PLACKET, NEVER A VISIBLE ZIP. Stand collar with a plain
+concealed closure straight down the centre front. No coil zip, no zip tape, no
+slider, no teeth.
+
+THE SCALE PLATES LIE FLAT, NEVER SHINGLED. On the shoulder cap and anywhere
+else in frame, the hexagons butt edge to edge in ONE FLAT PLANE with a thin dark
+line of backing between neighbours. No plate rides over another and none casts a
+shadow onto its neighbour. And no metal on her chest — the scale panels are
+lower torso only, ribs and below, never climbing above the armpit, and never a
+bib, breastplate or pendant.
 
 LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

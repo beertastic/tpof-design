@@ -12,10 +12,10 @@
 [SHADA — SLOT 06 — ANCESTRY STUDY]
 Output file: species_strip.png
 Aspect ratio: 21:9  (wide banner)
-Prompt version: ec4b7a1e · repo commit 8a9dae7 2026-08-03 14:01
+Prompt version: bc13c161 · repo commit a2c148e 2026-08-03 14:08
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8a9dae7, prompt ec4b7a1e.
+    Working from commit a2c148e, prompt bc13c161.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -347,6 +347,17 @@ forearm; scale transition at the collarbone and shoulder; close eye detail
 showing the reptilian iris structure; profile of the neck and jawline. Even,
 flat reference lighting — this is a make-up and prosthetics reference, not a
 dramatic image. Consistent skin tone and scale density across every view.
+
+THE EYE PANEL MUST SHOW A VERTICAL SLIT PUPIL on an otherwise human eye —
+human shape, human lids and lashes, and only the pupil wrong. A round pupil
+means the image has failed.
+
+A CONCEALED PLACKET, NEVER A VISIBLE ZIP. Stand collar, plain closure
+straight down the centre front. No coil zip, no zip tape, no slider, no teeth.
+
+THE SCALE PLATES LIE FLAT, NEVER SHINGLED — hexagons butted edge to edge in
+one flat plane, a thin dark line of backing between neighbours, no plate riding
+over another.
 
 
 Deliver a single image at 21:9. It must look photographed, not generated.

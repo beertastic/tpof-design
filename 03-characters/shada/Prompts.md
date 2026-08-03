@@ -502,6 +502,25 @@ showing the reptilian iris structure; profile of the neck and jawline. Even,
 flat reference lighting — this is a make-up and prosthetics reference, not a
 dramatic image. Consistent skin tone and scale density across every view.
 
+**THE EYE PANEL MUST SHOW A VERTICAL SLIT PUPIL** on an otherwise human eye —
+human shape, human lids and lashes, and only the pupil wrong. A round pupil
+means the image has failed.
+
+**A CONCEALED PLACKET, NEVER A VISIBLE ZIP.** Stand collar, plain closure
+straight down the centre front. No coil zip, no zip tape, no slider, no teeth.
+
+**THE SCALE PLATES LIE FLAT, NEVER SHINGLED** — hexagons butted edge to edge in
+one flat plane, a thin dark line of backing between neighbours, no plate riding
+over another.
+
+<!--
+Added 2026-08-03. Neither strip slot takes the costume rules, so neither can
+inherit the CHECK block or the pinned reptilian-eye rule — see the longer note
+under slot 7. This slot got the pupil right only because "reptilian iris
+structure" was already in its shot text; the zip and the shingled cap were not
+covered by anything and both appeared.
+-->
+
 ## 7. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
@@ -511,6 +530,46 @@ evenly lit and consistently framed: (1) neutral alertness — the resting state;
 (4) cold lethal calm. Restrained throughout — this face does not perform. Same
 lighting, same angle, same scale detail in every panel. Reference-sheet
 evenness, not four dramatic portraits.
+
+**HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, IN EVERY ONE
+OF THE FOUR PANELS.** This is a CONTACT LENS on a human performer, not a
+prosthetic and not a creature eye: the eye keeps its human shape, its lids, its
+lashes and its expression, and **only the pupil is wrong** — a narrow vertical
+slit, not a round pupil. It is the single highest-value element in her make-up,
+these are close head-and-shoulders portraits so it can carry here, and **a round
+pupil means the image has failed.** Do not make the whole eye animal, do not
+enlarge it, and do not lose it to shadow.
+
+**A CONCEALED PLACKET, NEVER A VISIBLE ZIP.** Stand collar with a plain
+concealed closure straight down the centre front. No coil zip, no zip tape, no
+slider, no teeth.
+
+**THE SCALE PLATES LIE FLAT, NEVER SHINGLED.** On the shoulder cap and anywhere
+else in frame, the hexagons butt edge to edge in ONE FLAT PLANE with a thin dark
+line of backing between neighbours. No plate rides over another and none casts a
+shadow onto its neighbour. **And no metal on her chest** — the scale panels are
+lower torso only, ribs and below, never climbing above the armpit, and never a
+bib, breastplate or pendant.
+
+<!--
+Added 2026-08-03 after the remake reproduced the exact fault it was made to fix:
+all four panels came back with ROUND PUPILS, which is the first of the three
+reasons this strip was demoted off the KEEP list that morning.
+
+The cause is structural and it matters beyond this slot. The reptilian-eye rule
+is must_show rule 14 and it is pin: true — the strongest protection in the file.
+But must_show reaches only the six costume slots, and 06 and 07 are not among
+them. PIN PROTECTS A RULE FROM BEING TRIMMED, NOT FROM A SLOT THAT TAKES NO
+RULES AT ALL. The most protected rule in the pack could not reach the two images
+whose entire subject is her face.
+
+06-species_strip got it right by accident: its shot text happens to say "close
+eye detail showing the reptilian iris structure". 07 said nothing about eyes.
+
+The zip and flat-plate lines are here for the same reason — neither strip can
+inherit the CHECK block. The zip appeared on 06 the same day.
+-->
+
 
 ## 8. `knife.png` — hero prop
 **Wide banner, 3:1.**

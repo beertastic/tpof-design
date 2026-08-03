@@ -625,6 +625,24 @@ has worn down, where the paint has chipped, which are nearly smooth. **A blank
 plate means the image has failed** — at this magnification every swirl must be
 clearly legible.
 
+**THE SHAPE IS UNIFORM. THE WEAR IS NOT — AND THIS IS WHAT KEEPS IT OFF
+MACHINED PANELLING.** The plates are salvage and they are worn. They must never
+read as carbon fibre, machined hex panelling, embossed tile or new decorative
+metalwork. Because every plate is now the same printed shape, **the finish is the
+only thing left carrying the salvage**, so it has to do visible work:
+
+- Some serpent ridges **worn almost flat and nearly smooth**, others still sharp.
+- Paint and grime **gone from the high points** of some ridges, still dark in the
+  hollows of others.
+- Scratches, dents, chips and pitting that **differ on every plate**.
+- The raised rim **softens where a plate has been handled** — never a crisp bezel
+  around every one.
+
+*Added 2026-08-03. The 12-material-scale slot takes no costume rules, so the
+CHECK block does not reach it and this had to be said in the shot text. The
+generation that day came back perfectly uniform in shape AND finish — crisp
+embossed tile, every plate equally new.*
+
 **This is one patch, so the metal is broadly consistent** — one salvage source,
 one alloy, with only two or three plates obviously replaced later in something
 else. Scratched, dulled, weathered to a low sheen. The lacing and the backing are

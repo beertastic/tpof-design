@@ -11,7 +11,7 @@ approved references with stated, non-overlapping scopes: `turn-working-front.png
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is
 generated against both.
 
-**Thirteen images to make.** The run list below is the only place that carries
+**Twelve images to make.** The run list below is the only place that carries
 the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
@@ -33,13 +33,13 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**Seven done. One kept. Thirteen to make.**
+**Eight done. One kept. Twelve to make.**
 
 | | |
 |---|---|
-| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** |
+| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** · **`material-hardware` (2026-08-03)** |
 | **KEEP** | `knife.png` — locked prop reference, unaffected |
-| **TO MAKE** | 13 numbered slots |
+| **TO MAKE** | 12 numbered slots |
 
 `species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
 are **not** any more. Both contradict the make-up lock — round pupils, and the
@@ -156,12 +156,26 @@ this command runs.
 
 ### STEP 3 — the remaining plates
 
-- [ ] `09-blaster.txt`
-- [ ] `10-utility.txt`
-- [ ] `13-material-leather.txt` — taupe, never chestnut or tan
-- [ ] `14-material-cloth.txt` — grey woven cloth with the serpentine grain IN the
-      weave, not brown hide with it pressed in. **Changes most.**
-- [ ] `15-material-hardware.txt`
+- [ ] `09-blaster.txt` — the WESTAR-35. **Brass is CORRECT here and only here**;
+      do not reject it as palette drift. Stays out of `references:` afterwards
+      until the printed prop is photographed
+- [ ] `10-utility.txt` — **re-roll, fresh chat.** The first came back as a costume
+      knolling sheet with two gauntlets. Prompt rescoped 2026-08-03
+- [ ] `13-material-leather.txt` — **re-roll.** Prompt named no colour at all and
+      it came back at 17% value against a costume range of 24–33%. Aim at the
+      leather visible in `material-hardware.png`, which measures 36% / sat 23%
+      against the approved belt's 32% / sat 19%
+- [ ] `14-material-cloth.txt` — **re-roll.** Prompt named neither the colour nor
+      the serpentine grain. Came back 27% against the vest's 58%. Should return
+      roughly double the value of the swatch it replaces
+- [x] `15-material-hardware.txt` — **DONE 2026-08-03.** Two buckles, a hook, a
+      strap end, two rivets, three distinguishable metals. Rivets measured at
+      sat 24–27%: worn bronze, not brass, so on-spec
+
+**All three re-rolls are prompt fixes, not generator failures.** In each case the
+prompt did not ask for the thing that came back wrong — no colour on the leather,
+no colour and no grain on the cloth, "everything Shada carries" on the utility
+kit. Checked before blaming the generator, and it was right every time.
 
 ### STEP 4 — the two strips, remade against the make-up lock
 

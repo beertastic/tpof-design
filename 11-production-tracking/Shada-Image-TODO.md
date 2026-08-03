@@ -173,10 +173,26 @@ this command runs.
       strap end, two rivets, three distinguishable metals. Rivets measured at
       sat 24–27%: worn bronze, not brass, so on-spec
 
-**All three re-rolls are prompt fixes, not generator failures.** In each case the
-prompt did not ask for the thing that came back wrong — no colour on the leather,
-no colour and no grain on the cloth, "everything Shada carries" on the utility
-kit. Checked before blaming the generator, and it was right every time.
+**Why all three failed, corrected 2026-08-03 after a wrong first answer.** These
+were first recorded as "the prompt did not ask". That was true of the SHORT
+prompts, which is what got checked — but the LONG files were the ones being
+pasted, and they are a different question.
+
+| | Was it in the long file? | Real cause |
+|---|---|---|
+| Leather colour | **Yes** — "all leather in grey-brown taupe, never chestnut or tan" | **Truncation.** 17 KB against a ~4 KB budget |
+| Cloth grain | **Yes** — "its weave carries a faint serpentine grain" | **Truncation** |
+| Cloth colour | No — absent from both | Genuine omission |
+| Utility wording | Same in both | Genuine wording fault |
+
+**Two of the four were written, reached the file, and never reached the
+generator.** That is the failure `slots-short/` exists to prevent, and the fix
+was never more words — it was pasting from `prompts/slots-short/`. The long files
+now carry a DO-NOT-PASTE banner across the top, added the same day.
+
+The prompt edits still stand: they close the two genuine gaps and front-load the
+rest. But do not read this list as evidence that the generator obeys and the
+documents fail. **Check which file was pasted before diagnosing anything.**
 
 ### STEP 4 — the two strips, remade against the make-up lock
 

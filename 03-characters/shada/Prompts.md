@@ -734,11 +734,18 @@ flat lighting, sharp across the frame. A single material sample photographed for
 reference — no styling, no arrangement, no other objects.
 
 <!--
-Colour added 2026-08-03. This slot named no colour at all, and the generation
-came back at 17% value, sat 15% — neutral in hue, so the documented chestnut
-drift did NOT happen, but far darker than any leather on the costume. Measured
-against the approved front: boots 24%, belt 33%. The prompt asked for "colour
-worn away at the high points" and nothing else, so "worn" was read as "dark".
+Colour added 2026-08-03, and the reason was mis-diagnosed at first. The SHORT
+prompt named no colour, and that is what was checked. But the LONG file was the
+one being pasted, and it DID carry the requirement — "all leather in grey-brown
+taupe, never chestnut or tan". At 17 KB against a ~4 KB working budget the
+overflow is dropped silently from the middle, so the rule was in the file and
+never reached the generator. The result came back at 17% value, sat 15%:
+neutral in hue, so the documented chestnut drift did NOT happen, but far darker
+than any leather on the costume — boots 24%, belt 33% on the approved front.
+
+Stating the colour here is still worth doing, because the short prompt genuinely
+lacked it. But the failure was truncation, not omission, and the real fix was
+pasting from slots-short/.
 -->
 
 
@@ -773,13 +780,20 @@ the fibres. Even flat lighting, sharp across the frame. A single material sample
 photographed for reference — no styling, no arrangement, no other objects.
 
 <!--
-Colour and grain added 2026-08-03. This slot asked for "coarse woven technical
-fabric... muted and desaturated" and NOTHING else — no colour, and no mention of
-the serpentine grain, despite the run list calling this the plate that "changes
-most" precisely because of the grain. The generation came back at 27% value
-against the vest's 58%: a dark charcoal swatch that does not read as the same
-fabric as the garment it represents. The generator delivered what was asked; the
-prompt was incomplete.
+Colour and grain added 2026-08-03. Two different causes, and only one was what
+it first looked like.
+
+THE GRAIN was in the LONG file all along — "Its weave carries a faint serpentine
+grain, fine, irregular, tonal" — but the long file runs 17 KB against a ~4 KB
+working budget, and it was the long file being pasted. The requirement was
+written, reached the file, and was dropped silently from the middle. Truncation,
+not omission. Saying it here front-loads it; pasting from slots-short/ is what
+actually fixes it.
+
+THE COLOUR was genuinely absent, long and short. The slot asked for "coarse woven
+technical fabric... muted and desaturated" and named no value, so it came back at
+27% against the vest's 58% — a dark charcoal swatch that does not read as the
+same fabric as the garment it represents.
 -->
 
 

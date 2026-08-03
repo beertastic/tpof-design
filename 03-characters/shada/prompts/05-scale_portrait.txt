@@ -1,14 +1,6 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
 !!  GENERATOR. It is 5-8x over the working budget; the overflow is
-Prompt version: ba97c03c · repo commit 1606b64 2026-08-03 13:53
-
-BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1606b64, prompt ba97c03c.
-That is your proof you read this file. It is provenance for the human, NOT
-something to check against the repository — this prompt is self-contained and
-a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
-cannot quote it, say so and generate nothing. Never put it in the picture.
 !!  dropped silently, from the middle, and nothing tells you.
 !!
 !!  PASTE THIS INSTEAD:  prompts/slots-short/05-scale_portrait.txt
@@ -20,6 +12,14 @@ cannot quote it, say so and generate nothing. Never put it in the picture.
 [SHADA — SLOT 05 — SPECIES DETAIL]
 Output file: scale_portrait.png
 Aspect ratio: 3:4  (portrait)
+Prompt version: ba97c03c · repo commit 2c7fff1 2026-08-03 14:00
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit 2c7fff1, prompt ba97c03c.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

@@ -274,7 +274,15 @@ def _stamp_version(body: str) -> str:
     commit = _repo_commit()
     stamp = f"Prompt version: {h} \u00b7 repo commit {commit}"
     echo = ECHO_TEMPLATE.format(commit=commit.split()[0], h=h)
-    return "\n".join(lines[:3] + [stamp, "", echo] + lines[3:])
+    # Find the header instead of assuming it is the first three lines. It was
+    # lines[:3] until 2026-08-03, when a do-not-paste banner was added above it
+    # and the stamp spliced itself into the middle of the banner \u2014 cutting the
+    # warning in half and putting the version line before the slot header.
+    # Anything added above the header would have done the same.
+    cut = next((i + 1 for i, l in enumerate(lines) if l.startswith("Output file:")), 3)
+    if cut < len(lines) and lines[cut].startswith("Aspect ratio:"):
+        cut += 1
+    return "\n".join(lines[:cut] + [stamp, "", echo] + lines[cut:])
 
 
 def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int],

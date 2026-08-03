@@ -1,10 +1,10 @@
 [SHADA — SLOT 09 — HERO PROP]
 Output file: blaster.png
 Aspect ratio: 1:1  (square)
-Prompt version: 9bde090f · repo commit 17f8c94 2026-08-03 11:04
+Prompt version: 9bde090f · repo commit 3ff943b 2026-08-03 11:14
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 17f8c94, prompt 9bde090f.
+    Working from commit 3ff943b, prompt 9bde090f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

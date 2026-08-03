@@ -520,8 +520,16 @@ outfits:
       # came back on her centre front. Both weapons and both sides now sit in
       # the lead sentence, and the detail follows.
       - >
-        BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible in every view.
+        BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP.
         NEVER THE OTHER WAY ROUND.
+        # "both visible in every view" was the lead clause here until 2026-08-03.
+        # It was written before the profile views carried occlusion text and it
+        # flatly contradicts them: in a LEFT profile the blaster is behind her
+        # body and CANNOT be visible, and in a RIGHT profile neither can the
+        # knife. The prompt was arguing with itself, and "make both visible" is
+        # exactly the instruction that drags a far-side piece round into shot.
+        # Which SIDE OF HER carries each piece is the rule; whether the camera
+        # can see it is the view's business, not this rule's.
         The blaster is a WESTAR-35, NOT a generic sidearm.
         Sides are fixed and she is RIGHT-HANDED. Positions are given from
         HER OWN left and right, not the viewer's, and nothing is mirrored — she

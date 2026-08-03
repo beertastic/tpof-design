@@ -192,12 +192,16 @@ def _label(what: str, limit: int) -> str:
 VIEWS = {
     "front":   "Facing camera square on. Shoulders level, head level, looking down the lens. "
                "BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.",
-    "left":    "Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body. "
+    "left":    "Rotated exactly 90° to show their LEFT side in full profile. THEY FACE THE VIEWER'S LEFT — their "
+               "nose, chest and toes all point to the LEFT EDGE of the frame. If they face the right edge, the "
+               "image is MIRRORED and it is wrong. Head faces the same way as the body. "
                "OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, "
                "right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES "
                "PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to "
                "show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.",
-    "right":   "Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body. "
+    "right":   "Rotated exactly 90° the other way to show their RIGHT side in full profile. THEY FACE THE VIEWER'S "
+               "RIGHT — their nose, chest and toes all point to the RIGHT EDGE of the frame. If they face the left "
+               "edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. "
                "OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, "
                "left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES "
                "PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to "

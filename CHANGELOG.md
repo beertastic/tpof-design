@@ -58,6 +58,48 @@ All notable production-bible changes are recorded here.
   **Not yet runnable — rclone is not installed.** The script says so and prints
   the setup. Publishing Jasu is the first job once it is.
 
+- **Drive publishing widened to every image and every board, 2026-08-03** — it
+  was turnarounds only. Each approved character now gets three subfolders:
+  `turnarounds/` for the build plates, `artwork/` for every other generated
+  `.png`, and `boards/` for the finished PDFs. That is 8 images for Jasu and 21
+  images plus 7 boards for Shada. `evolution/` and `renders/` deliberately do
+  **not** publish — the first is superseded by definition, and the second is the
+  same content as the PDFs at twenty times the bytes.
+
+  **Two real faults were found by checking the live folder rather than assuming
+  it, and both would have caused the exact duplicate this tool exists to
+  prevent.**
+
+  **The Drive folder names are not the repo slugs.** `captain-jasu` lives in a
+  folder called **`Jasu`**, named by hand long before any of this. The old
+  script would have created a *second* folder called `captain-jasu` beside it.
+  The mapping is now explicit in `drive_folder()`, an unmapped character is an
+  error rather than a new folder, and every run prints the folder names actually
+  on Drive so a mismatch is visible before anything is written.
+
+  **The superseded v1 plates are loose at the folder root, not in a
+  `turnarounds/` subfolder.** Publishing into subfolders would have left all
+  five sitting one level up, still called `turn-field-front.png` — two files,
+  same name, different boots. The sync cannot reach the folder root by design,
+  because a hand-written build guide lives there, so the script now **reports**
+  shadowed files and removes them only on `--purge-shadows`, and only those
+  whose names exactly match something being published.
+
+- **The daily Drive check is now a script, 2026-08-03** — `tools/check-drive`,
+  read-only, exit 1 on drift, with a `crontab` line in `Drive-Publishing.md`. It
+  reports four states per set: stale on Drive (the dangerous one), not yet
+  published, same name but different bytes, and shadowed at the folder root.
+
+  It never writes, because the fix always needs a person to have decided the
+  repository is right. It logs to `~/.local/state/tpof/drive-check.log` and
+  raises a desktop notification on drift, so a cron job nobody reads still
+  reaches somebody on the day it matters.
+
+  **`PUBLISHED-FROM-REPO.txt` lost its wall-clock timestamp** and gained the
+  commit that last touched those exact files, plus their sizes. It is now a pure
+  function of repository content, which is what makes a daily byte-for-byte
+  check possible — a timestamp would have reported drift on every single run.
+
   A daily drift check is logged in `Drive-Publishing.md`, with what counts as
   drift and the note that a scheduled agent is the right shape for it — reporting
   only, because the fix needs a person to have decided the repo is right.

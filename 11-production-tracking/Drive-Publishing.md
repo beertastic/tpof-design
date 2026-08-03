@@ -1,23 +1,29 @@
 ---
-title: "Publishing to Drive — signed-off turnarounds"
+title: "Publishing to Drive — images, boards and the daily check"
 asset_id: "TRACK-DRIVE-PUBLISHING"
 updated: "2026-08-03"
 status: "open — rclone not yet installed"
 ---
 
-# Publishing to Drive — signed-off turnarounds
+# Publishing to Drive — images, boards and the daily check
 
-**When a character is signed off, their turnarounds go to Google Drive so the
-costume department can build from them.** One folder per character, inside
-**Costume / Wardrobe**:
+**When a character is signed off, their generated images and finished boards go
+to Google Drive so the costume department can build from them.** One folder per
+character, inside **Costume / Wardrobe**:
 
 <https://drive.google.com/drive/folders/1twIFwScVQhGSgHpTfmPieEMA5jjU5g8T>
 
 ```
 Costume / Wardrobe /
-  Captain Jasu / turnarounds /   turn-field-front.png … + PUBLISHED-FROM-REPO.txt
-  Shada        / turnarounds /   …
+  Jasu /                       ← the folder name is NOT the repo slug. See below.
+    turnarounds /   turn-*.png            the build plates
+    artwork /       every other .png      hero, scale, props, materials, expressions
+    boards /        *.pdf                 the finished boards
+    Jasu_outfit_build_guide.md            hand-written, NOT touched by publishing
 ```
+
+Each set carries a `PUBLISHED-FROM-REPO.txt` listing the files, their sizes and
+the commit that last changed them.
 
 ## The rule
 
@@ -25,17 +31,36 @@ Costume / Wardrobe /
 > overwritten without asking.**
 
 Publishing is **one-way and destructive on the Drive side**: Drive is made to
-match the repo, and anything in the character's `turnarounds/` folder that is not
-in the repo is deleted.
+match the repo, and anything in those three subfolders that is not in the repo
+is deleted.
 
 That is deliberate. **The failure this exists to prevent is somebody building
 from a superseded image**, and a stale file sitting beside a current one — same
 character, same costume, different boots — is exactly how that happens. A
 duplicate is worse than an absence, because an absence gets noticed.
 
-Only the **turnarounds** are synced, into a `turnarounds/` subfolder, so a sync
-can never delete build guides, sketches or notes that live in the same character
-folder.
+Each set syncs into **its own subfolder**, so a sync can never reach anything
+else in the character's folder: build guides, fitting photographs, notes.
+
+### What does not publish
+
+| | |
+|---|---|
+| `evolution/` | **Superseded by definition.** It is the record of what was rejected, and putting it where a maker can see it is the precise failure above |
+| `renders/` | The A2 300 dpi PNGs of the boards. Same content as the PDFs, twenty times the bytes |
+| `prompts/attach/` | Inputs to the generator, not outputs. Reference images belong to whoever they came from |
+
+## The Drive folder names are not the repo slugs
+
+`captain-jasu` in this repository is a folder called **`Jasu`** on Drive. People
+made those folders by hand before any of this existed.
+
+**The mapping is explicit, in `drive_folder()` at the top of the script, and a
+character who is not in it is an error rather than a new folder.** Deriving the
+name would be a guess, and a wrong guess does not fail loudly — it quietly
+creates a *second* folder for the same character, which is the duplicate this
+whole tool exists to prevent. **Add new characters to that mapping using the
+exact name of their folder**, which the script prints on every run.
 
 ## Sign-off means an approved outfit
 
@@ -45,21 +70,45 @@ generator, the turnaround prompts and `APPROVAL.md` all key off it — and it is
 the gate here too. **No approval, no publish**, and the script says so per
 character rather than silently skipping.
 
-## How
+Right now that is **Captain Jasu** (8 images, no boards yet) and **Shada**
+(21 images, 7 boards).
+
+## What you need to install
+
+**One thing: `rclone`.** It is not installed yet, and nothing publishes until it
+is. It needs no root beyond the install itself, and no Google Cloud project.
 
 ```bash
-./tools/publish-to-drive                 # dry run — shows what WOULD change
-./tools/publish-to-drive --go            # publish everything approved
-./tools/publish-to-drive captain-jasu --go
+sudo apt install rclone          # or: brew install rclone
+rclone config
 ```
 
-**It needs `rclone`, which is not installed yet.** Setup is in the header of the
-script: install it, run `rclone config`, create a Drive remote named exactly
-`tpof`, and choose **full drive scope** — `drive.file` scope cannot see the
-existing Costume/Wardrobe folder, because rclone did not create it.
+In `rclone config`:
 
-The Drive account is **`info@tristanpretty.com`**, which is not the Claude
-account.
+| | |
+|---|---|
+| **n** | new remote |
+| **name** | `tpof` — exactly this, the scripts look for it |
+| **storage** | `drive` |
+| **scope** | **`1`, full access.** `drive.file` scope can only see files rclone itself created, so it would not find the existing Costume / Wardrobe folder at all |
+| **auth** | accept the browser prompt, and **sign in as `info@tristanpretty.com`** |
+
+Then check it, and publish:
+
+```bash
+rclone lsd tpof:                            # should list the Wardrobe folders
+./tools/publish-to-drive                    # dry run — shows what WOULD change
+./tools/publish-to-drive --go               # publish everything approved
+./tools/publish-to-drive captain-jasu --go  # one character
+```
+
+That gives full **read, write, overwrite and delete** on Drive. One caveat worth
+knowing: **native Google formats** — Docs, Sheets, Slides — can be read and
+exported but not overwritten in place. Everything this repo publishes is PNG and
+PDF, so it does not arise here.
+
+**The Drive account is `info@tristanpretty.com`**, which is not the Claude
+account. That mismatch is expected.
 
 ### Why not the Drive connector Claude already has
 
@@ -76,11 +125,44 @@ Two hard limits, both checked rather than assumed:
 So the connector is used for **checking** — which is cheap, because listing
 names, sizes and dates needs no file contents — and `rclone` does the moving.
 
+## The daily check
+
+```bash
+./tools/check-drive          # read-only; exit 1 if anything has drifted
+```
+
+**Read-only, always.** It never writes to Drive, because the fix always needs a
+person to have decided the repository is right. It appends to
+`~/.local/state/tpof/drive-check.log` and raises a desktop notification when
+something has drifted, so a cron job nobody reads still reaches you on the day
+it matters.
+
+To run it daily — no root, no sudo:
+
+```bash
+crontab -e
+# then add, adjusting the path if the repo moves:
+17 9 * * *  /home/tris/tpof-design/tools/check-drive >/dev/null 2>&1
+```
+
+**What counts as drift**, in the words the report uses:
+
+| | |
+|---|---|
+| `-` **stale on Drive** | A file on Drive the repo does not have. **The dangerous one** — something was superseded and the old copy is still being shown |
+| `+` **not published** | A file in the repo not yet on Drive |
+| `*` **differ** | Same name, different bytes. Somebody edited the Drive copy, or a publish was interrupted |
+| **SHADOWED** | A file loose at the character's folder **root** with the same name as one we publish into a subfolder — see below |
+
+The fix for all of them is `./tools/publish-to-drive --go`.
+
 ## KNOWN DRIFT, 2026-08-03 — Drive is currently wrong
 
+Verified against the live folder, not assumed.
+
 **Captain Jasu's Drive folder holds the SUPERSEDED v1 turnarounds**, uploaded
-2026-08-01. `turn-field-front.png` there is **2,207,890 bytes — byte-for-byte the
-v1 front** now archived at `evolution/00-first-approved-2026-08-01.png`.
+2026-08-01. `turn-field-front.png` there is **2,207,890 bytes — byte-for-byte
+the v1 front** now archived at `evolution/00-first-approved-2026-08-01.png`.
 
 So the costume department currently has, from Drive:
 
@@ -88,37 +170,31 @@ So the costume department currently has, from Drive:
 - **a whistle at the belt** where there is exactly one, at the throat
 - the superseded hair
 
-**This is the first thing to publish once rclone is set up.** A stray `.gitkeep`
-also got uploaded and the sync will remove it.
+**And they are loose at the folder root, not in a `turnarounds/` subfolder.**
+That matters more than it looks. Publishing creates `turnarounds/` with the
+correct plates and **leaves the five superseded ones sitting one level up, still
+called `turn-field-front.png`** — two files, same name, different boots, which
+is this document's opening failure with extra steps.
 
-## The daily check
+The sync deliberately cannot reach the folder root, because
+`Jasu_outfit_build_guide.md` lives there and is hand-written. So the script
+**reports** shadowed files, and removes them only when asked:
 
-- [ ] **Check Drive against the repository, daily.** Compare each published
-      character's `turnarounds/` folder against `source/artwork/`: same filenames,
-      and a `PUBLISHED-FROM-REPO.txt` whose commit matches what the repo has for
-      those images. Report drift; do not fix it silently.
+```bash
+./tools/publish-to-drive captain-jasu --go --purge-shadows
+```
 
-**Claude can run this check through the Drive connector** — it needs only file
-listings, not contents, so it is cheap. It cannot fix the drift, only report it,
-because the connector cannot delete or overwrite. Fixing is
-`./tools/publish-to-drive --go`.
+That deletes **only** root files whose names exactly match something being
+published. The build guide is untouched. A stray `.gitkeep` is also up there;
+it is excluded from publishing and is harmless, so it is left alone.
 
-**What counts as drift:**
-
-| | |
-|---|---|
-| A file in Drive that is not in the repo | **Stale — the dangerous one.** Something was superseded and the old copy is still being shown |
-| A file in the repo that is not in Drive | Not yet published |
-| Two files with the same name | Somebody uploaded by hand, or through a tool that cannot overwrite |
-| `PUBLISHED-FROM-REPO.txt` missing or on an old commit | Published before this process existed, or published and then the repo moved on |
-
-**Worth automating as a scheduled agent** rather than remembering — see `/schedule`.
-Not set up yet; a daily run that reports drift and does nothing else is the
-right shape, because the fix needs a person to have decided the repo is right.
+**This is the first job once rclone is set up.**
 
 ## See also
 
 - [`Cast-Data-Source.md`](Cast-Data-Source.md) — the traffic in the other
   direction, and why it does **not** happen: personal data stays in Drive and
-  never enters this repository
+  never enters this repository. Note that the Costume / Wardrobe folder holds
+  cast measurements and a mood board belonging to other people. **Publishing
+  never touches the parent folder**, only the per-character subfolders
 - [`../03-characters/APPROVAL.md`](../03-characters/APPROVAL.md) — what sign-off means

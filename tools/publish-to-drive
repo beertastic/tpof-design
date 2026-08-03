@@ -1,16 +1,26 @@
 #!/usr/bin/env bash
 #
-# Publish signed-off turnarounds to the production Google Drive.
+# Publish signed-off character work to the production Google Drive.
 #
 #   ./tools/publish-to-drive              # dry run — shows what WOULD change
 #   ./tools/publish-to-drive --go         # actually sync
+#   ./tools/publish-to-drive --check      # read-only drift report, exit 1 on drift
 #   ./tools/publish-to-drive shada --go   # one character
 #
+# WHAT GOES, per approved character, each into its own Drive subfolder:
+#
+#   turnarounds/   source/artwork/turn-*.png    the build plates
+#   artwork/       source/artwork/*.png         every other generated image
+#   boards/        *.pdf                        the finished boards
+#
 # THE REPOSITORY IS THE SOURCE OF TRUTH. This is a one-way push: Drive is made
-# to match the repo, and anything in the character's Drive folder that is not in
-# the repo is DELETED. That is deliberate — the failure this exists to prevent is
+# to match the repo, and anything in those three subfolders that is not in the
+# repo is DELETED. That is deliberate — the failure this exists to prevent is
 # the costume department building from a superseded image, and a stale file left
 # beside a current one is exactly how that happens.
+#
+# Each set syncs into its OWN subfolder so a sync can never reach anything else
+# in the character's Drive folder — hand-added notes, fittings, photographs.
 #
 # WHY rclone AND NOT THE DRIVE CONNECTOR. The connector Claude uses can create
 # files but cannot update or delete them, so re-publishing through it leaves two
@@ -37,15 +47,38 @@ cd "$(dirname "$0")/.." || exit 1
 DRIVE_PARENT="1twIFwScVQhGSgHpTfmPieEMA5jjU5g8T"
 REMOTE="tpof"
 
-b() { printf '\033[1m%s\033[0m\n' "$*"; }
-ok() { printf '  \033[32m✓\033[0m %s\n' "$*"; }
-no() { printf '  \033[31m✗\033[0m %s\n' "$*"; }
-warn() { printf '  \033[33m!\033[0m %s\n' "$*"; }
+# THE DRIVE FOLDER NAMES ARE NOT THE REPO SLUGS. People made those folders
+# before this script existed and named them by hand — captain-jasu lives in a
+# folder called "Jasu". Deriving the name would be a guess, and a wrong guess
+# does not fail: it quietly creates a SECOND folder for the same character,
+# which is the exact duplicate this tool exists to prevent. So the mapping is
+# explicit, and a character that is not in it is an error, not a new folder.
+drive_folder() {
+    case "$1" in
+        captain-jasu) printf 'Jasu' ;;
+        shada)        printf 'Shada' ;;
+        *)            printf '' ;;
+    esac
+}
 
-GO=0; ONLY=""
+# Colour only for a human at a terminal — this runs from cron, and escape codes
+# in a log file are noise nobody reads twice.
+if [ -t 1 ]; then
+    C_B=$'\033[1m'; C_R=$'\033[31m'; C_G=$'\033[32m'; C_Y=$'\033[33m'; C_0=$'\033[0m'
+else
+    C_B=''; C_R=''; C_G=''; C_Y=''; C_0=''
+fi
+b() { printf '%s%s%s\n' "$C_B" "$*" "$C_0"; }
+ok() { printf '  %s✓%s %s\n' "$C_G" "$C_0" "$*"; }
+no() { printf '  %s✗%s %s\n' "$C_R" "$C_0" "$*"; }
+warn() { printf '  %s!%s %s\n' "$C_Y" "$C_0" "$*"; }
+
+MODE="dry"; ONLY=""; PURGE=0
 for a in "$@"; do
     case "$a" in
-        --go) GO=1 ;;
+        --go) MODE="go" ;;
+        --check) MODE="check" ;;
+        --purge-shadows) PURGE=1 ;;
         -*) no "unknown flag: $a"; exit 1 ;;
         *) ONLY="$a" ;;
     esac
@@ -61,15 +94,139 @@ if ! rclone listremotes 2>/dev/null | grep -qx "${REMOTE}:"; then
     exit 1
 fi
 
+RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*")
+RC_FLAGS=("${RO_FLAGS[@]}")
+[ "$MODE" = "dry" ] && RC_FLAGS+=(--dry-run)
+
 echo
-[ "$GO" -eq 1 ] || b "DRY RUN — nothing will be changed. Add --go to publish."
-[ "$GO" -eq 1 ] && b "PUBLISHING — Drive will be made to match the repository."
+case "$MODE" in
+    dry)   b "DRY RUN — nothing will be changed. Add --go to publish." ;;
+    go)    b "PUBLISHING — Drive will be made to match the repository." ;;
+    check) b "CHECKING — read-only. Nothing on Drive will be touched." ;;
+esac
 
-RC_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".gitkeep" --exclude ".*")
-[ "$GO" -eq 1 ] || RC_FLAGS+=(--dry-run)
+b "Costume / Wardrobe — the folders currently on Drive:"
+rclone lsd "${REMOTE}:" "${RO_FLAGS[@]}" 2>/dev/null | awk '{$1=$1};1' | cut -d' ' -f5- | sed 's/^/    /'
 
-PUBLISHED=0; SKIPPED=0
+# The manifest is a pure function of the repository content: the commit that
+# last touched these exact files, and their names and sizes. No wall-clock
+# stamp, deliberately — that keeps it byte-stable, so --check can compare it
+# like any other file instead of reporting false drift on every run.
+manifest() {
+    local char="$1" set_name="$2" src="$3"; shift 3
+    local rev
+    rev=$(git log -1 --format='%h  %cs' -- "$@" 2>/dev/null)
+    [ -n "$rev" ] || rev="(uncommitted)"
+    printf 'Published from the repository by tools/publish-to-drive.\n'
+    printf 'DO NOT EDIT THESE HERE. The repository is the source of truth and this\n'
+    printf 'folder is overwritten on every publish, including deletions.\n\n'
+    printf 'character   : %s\n' "$char"
+    printf 'set         : %s\n' "$set_name"
+    printf 'source      : %s\n' "$src"
+    printf 'last change : %s\n\n' "$rev"
+    printf 'files:\n'
+    local f
+    for f in "$@"; do
+        printf '  %10s  %s\n' "$(stat -c%s "$f")" "$(basename "$f")"
+    done
+}
+
+DRIFT=0; SYNCED=0; SKIPPED=0; SHADOWS=0
+PUBLISHED_NAMES=""   # every basename this run publishes, for the shadow check
+
+# Stage one set of files and make its Drive subfolder match, or report on it.
+publish_set() {
+    local folder="$1" sub="$2" src="$3"; shift 3
+    local n=$#
+    if [ "$n" -eq 0 ]; then
+        printf '    %-12s —\n' "$sub"
+        return 0
+    fi
+
+    local stage; stage=$(mktemp -d)
+    if ! cp "$@" "$stage/"; then
+        rm -rf "$stage"; no "$folder/$sub — could not stage"; return 1
+    fi
+    manifest "$folder" "$sub" "$src" "$@" > "$stage/PUBLISHED-FROM-REPO.txt"
+
+    local f
+    for f in "$@"; do PUBLISHED_NAMES+="$(basename "$f")"$'\n'; done
+
+    local dest="${REMOTE}:${folder}/${sub}"
+    local rc=0
+
+    if [ "$MODE" = "check" ]; then
+        # --combined gives one line per file:
+        #   -  only on Drive     STALE, the dangerous one
+        #   +  only in the repo  not yet published
+        #   *  present in both, different contents
+        local out stale fresh differ
+        out=$(rclone check "$stage" "$dest" --combined - "${RC_FLAGS[@]}" 2>/dev/null)
+        stale=$(grep -c '^- ' <<<"$out")
+        fresh=$(grep -c '^+ ' <<<"$out")
+        differ=$(grep -c '^\* ' <<<"$out")
+        if [ "$((stale + fresh + differ))" -eq 0 ]; then
+            printf '    %-12s %s files, up to date\n' "$sub" "$n"
+        else
+            DRIFT=$((DRIFT + 1))
+            printf '    %s%-12s DRIFT%s — %s stale on Drive, %s not published, %s differ\n' \
+                "$C_R" "$sub" "$C_0" "$stale" "$fresh" "$differ"
+            grep -E '^[-+*] ' <<<"$out" | sed 's/^/        /'
+        fi
+    else
+        rclone sync "$stage" "$dest" "${RC_FLAGS[@]}" 2>&1 | sed 's/^/        /' | tail -4
+        rc=${PIPESTATUS[0]}
+        if [ "$rc" -eq 0 ]; then
+            printf '    %-12s %s files\n' "$sub" "$n"
+        else
+            no "$folder/$sub — rclone exited $rc"
+        fi
+    fi
+
+    rm -rf "$stage"
+    return "$rc"
+}
+
+# Files sitting LOOSE at the character's Drive folder root, with the same name
+# as something we publish into a subfolder. This is not hypothetical: on
+# 2026-08-03 Jasu's folder held the five superseded v1 turnarounds exactly this
+# way, and publishing into turnarounds/ would have left them in place, one level
+# up, still called turn-field-front.png. Two files, same name, different boots.
+#
+# The sync deliberately cannot reach the folder root — a hand-written build
+# guide lives there — so these are REPORTED, and only removed if you ask.
+check_shadows() {
+    local folder="$1"
+    local loose shadowed
+    loose=$(rclone lsf "${REMOTE}:${folder}" --files-only "${RO_FLAGS[@]}" 2>/dev/null)
+    [ -n "$loose" ] || return 0
+    shadowed=$(grep -Fxf <(printf '%s' "$PUBLISHED_NAMES" | sort -u) <<<"$loose" | sort -u)
+    [ -n "$shadowed" ] || return 0
+
+    local count; count=$(wc -l <<<"$shadowed")
+    SHADOWS=$((SHADOWS + count))
+    printf '    %sSHADOWED%s — %s file(s) loose at the folder root, same name as a published file:\n' \
+        "$C_R" "$C_0" "$count"
+    sed 's/^/        /' <<<"$shadowed"
+
+    if [ "$PURGE" -eq 1 ] && [ "$MODE" = "go" ]; then
+        local f
+        while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            if rclone deletefile "${REMOTE}:${folder}/${f}" "${RO_FLAGS[@]}" 2>/dev/null; then
+                ok "deleted from the folder root: $f"
+                SHADOWS=$((SHADOWS - 1))
+            else
+                no "could not delete: $f"
+            fi
+        done <<<"$shadowed"
+    else
+        printf '        Remove them with: ./tools/publish-to-drive%s --go --purge-shadows\n' "${ONLY:+ $ONLY}"
+    fi
+}
+
 for dir in 03-characters/*/ 08-species/*/; do
+    dir="${dir%/}"
     char=$(basename "$dir")
     [ -n "$ONLY" ] && [ "$ONLY" != "$char" ] && continue
     [ -f "$dir/outfits.yaml" ] || continue
@@ -80,29 +237,54 @@ for dir in 03-characters/*/ 08-species/*/; do
         warn "$char — no approved outfit, not published"
         SKIPPED=$((SKIPPED+1)); continue
     fi
+
     art="$dir/source/artwork"
-    if ! ls "$art"/turn-*.png >/dev/null 2>&1; then
-        warn "$char — approved but no turnaround images on disk"
+    turns=(); others=(); boards=()
+    for f in "$art"/turn-*.png; do [ -f "$f" ] && turns+=("$f"); done
+    for f in "$art"/*.png; do
+        [ -f "$f" ] || continue
+        case "$(basename "$f")" in turn-*) ;; *) others+=("$f") ;; esac
+    done
+    for f in "$dir"/*.pdf; do [ -f "$f" ] && boards+=("$f"); done
+
+    if [ "${#turns[@]}" -eq 0 ] && [ "${#others[@]}" -eq 0 ] && [ "${#boards[@]}" -eq 0 ]; then
+        warn "$char — approved but nothing on disk to publish"
         SKIPPED=$((SKIPPED+1)); continue
     fi
 
-    # Stage only the turnarounds, so `sync` cannot delete anything else that
-    # lives in the character's Drive folder by accident — build guides, notes.
-    stage=$(mktemp -d)
-    cp "$art"/turn-*.png "$stage/"
-    printf 'Published from the repository by tools/publish-to-drive.\nDo not edit these here — the repo is the source of truth.\n\ncharacter : %s\ncommit    : %s\npublished : %s\nfiles     : %s\n' \
-        "$char" "$(git rev-parse --short HEAD)" "$(date -u +%Y-%m-%dT%H:%MZ)" \
-        "$(ls "$art"/turn-*.png | wc -l)" > "$stage/PUBLISHED-FROM-REPO.txt"
+    folder=$(drive_folder "$char")
+    if [ -z "$folder" ]; then
+        no "$char — no Drive folder mapped. Add it to drive_folder() in this script,"
+        echo "     using the EXACT name of their folder in the list above. Publishing"
+        echo "     under a guessed name would create a second folder for them."
+        SKIPPED=$((SKIPPED+1)); continue
+    fi
 
-    b "$char"
-    rclone sync "$stage" "${REMOTE}:${char}/turnarounds" "${RC_FLAGS[@]}" --progress 2>&1 \
-        | sed 's/^/    /' | tail -5
-    rc=$?
-    rm -rf "$stage"
-    [ $rc -eq 0 ] && { ok "$char"; PUBLISHED=$((PUBLISHED+1)); } || no "$char — rclone exited $rc"
+    b "$char  →  $folder/"
+    PUBLISHED_NAMES=""
+    publish_set "$folder" turnarounds "$art/turn-*.png"       ${turns[@]+"${turns[@]}"}
+    publish_set "$folder" artwork     "$art/*.png (non-turn)" ${others[@]+"${others[@]}"}
+    publish_set "$folder" boards      "$dir/*.pdf"            ${boards[@]+"${boards[@]}"}
+    check_shadows "$folder"
+    SYNCED=$((SYNCED+1))
 done
 
 echo
-b "$PUBLISHED published, $SKIPPED skipped"
-[ "$GO" -eq 1 ] || echo "  This was a dry run. Re-run with --go to apply."
+plural() { [ "$1" -eq 1 ] && printf '%s %s' "$1" "$2" || printf '%s %s' "$1" "$3"; }
+
+if [ "$MODE" = "check" ]; then
+    if [ "$((DRIFT + SHADOWS))" -eq 0 ]; then
+        ok "$(plural "$SYNCED" character characters) checked, $SKIPPED skipped — Drive matches the repository"
+    else
+        [ "$DRIFT" -gt 0 ] && no "$(plural "$DRIFT" set sets) drifted, across $(plural "$SYNCED" character characters)"
+        [ "$SHADOWS" -gt 0 ] && no "$(plural "$SHADOWS" file files) shadowing a published name from a folder root"
+        echo "  Fix with: ./tools/publish-to-drive --go   (the repository wins)"
+        echo
+        exit 1
+    fi
+else
+    b "$(plural "$SYNCED" character characters), $SKIPPED skipped"
+    [ "$SHADOWS" -gt 0 ] && no "$(plural "$SHADOWS" file files) still shadowing at a folder root — see above"
+    [ "$MODE" = "go" ] || echo "  This was a dry run. Re-run with --go to apply."
+fi
 echo

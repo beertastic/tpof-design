@@ -82,7 +82,15 @@ Each number is used exactly once.
 | `reference/actor/` | Actor photographs. See `03-characters/CAST-REFERENCE.md` |
 | `renders/` | **Gitignored.** 300 DPI board previews |
 
-`03-characters/shada/` is the worked reference for all of it.
+`03-characters/shada/` is the worked reference for all of it — 21 images, six
+boards and a promo sheet, with a documented failure behind every rule in her pack.
+
+**Starting a new character?** Read these two first, in this order:
+
+| | |
+|---|---|
+| [`03-characters/Character-Build-Recipe.md`](03-characters/Character-Build-Recipe.md) | The order of operations, from documents to boards |
+| [`09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md) | How to phrase a rule so it survives the trim and lands in the image |
 
 ---
 

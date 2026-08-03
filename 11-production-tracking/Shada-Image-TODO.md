@@ -6,6 +6,16 @@ updated: "2026-08-03"
 
 # Shada — Finish List
 
+> ## COMPLETE — 2026-08-03
+>
+> **21 of 21 images current. Six boards and the A4 promo built.** Nothing on this
+> list is outstanding except one cosmetic re-roll, noted in step 4.
+>
+> Kept in full because the reasoning is the value: every rule in Shada's pack has
+> a documented failure behind it, and the generalisations drawn from them now live
+> in [`09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md).
+> **Read that before starting another character.**
+
 **Status: FRONT v2 APPROVED 2026-08-03, MAKE-UP LOCKED.** There are now TWO
 approved references with stated, non-overlapping scopes: `turn-working-front.png`
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is

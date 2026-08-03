@@ -1,5 +1,11 @@
 # Character Bible
 
+> **Building a character from scratch? Start with
+> [`Character-Build-Recipe.md`](Character-Build-Recipe.md)** — the order of
+> operations from documents to six boards, with `shada/` as the worked example.
+> Then [`../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md).
+
+
 Each character has an individual folder and a canonical Markdown file. Status values are:
 
 - `placeholder`

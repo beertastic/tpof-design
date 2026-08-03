@@ -8,7 +8,7 @@ a generation prompt.**
 | Pass | Variable | Result |
 |---|---|---|
 | `01a` / `01b` | **The boots — tall to the calf, or ankle** | **TALL WINS, 2026-08-03.** `01b` was never needed — `01a` settled it on sight. Now the default in `outfits.yaml` |
-| `02` | **Correction pass — tall boots, flat heel, one whistle at the throat** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
+| `02` | **Correction pass — tall boots, flat heel, one whistle at the throat, hair UP** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
 
 ## The result
 
@@ -140,20 +140,44 @@ at her belt. Decide it separately.
 
 ---
 
-## 02 — the correction pass: boots and whistle
+## 02 — the correction pass: boots, whistle and hair
 
 **`02-boots-and-whistle.txt`.** The prompt that produces the replacement front
-turnaround. Same costume, two items corrected.
+turnaround. Same costume, three items corrected.
 
 It is built the same way as `01a`: the previously approved front is attached and
-governs everything, **with two named exceptions where the numbered rules
-override it** — the boots become tall with a flat heel, and the belt whistle is
-removed leaving exactly one at the throat. Everything else must not move.
+governs everything, **with three named exceptions where the numbered rules
+override it** — the boots become tall with a flat heel, the belt whistle is
+removed leaving exactly one at the throat, and **the hair goes up**. Everything
+else must not move.
+
+> ### The hair exception is the risky one, and it is deliberately fenced
+>
+> The other two swap one object for another. **The hair changes the head
+> silhouette**, and the horns are *set into* the hair — so the moment the hair
+> moves, the photograph stops holding the headdress still, and the headdress is
+> half her design.
+>
+> So the exception is scoped twice: the hair changes, and **the horns explicitly
+> do not.** Their size, curve, asymmetry, colour and position all come from the
+> photograph; the only difference is that they are set into a raised rolled mass
+> instead of into loose hair. Without that second sentence this pass would be an
+> open invitation to redesign the headdress, and *"more ornamental"* is the
+> direction it would go.
+>
+> **Her hair has come back down before when the rule reached the generator
+> intact** — logged against `scale_figure`. So this is the first real test of
+> whether the hair rule can win at all, and the answer is worth knowing before
+> the sixteen narrative slots are generated.
+>
+> **If the horns drift, re-roll rather than accept it.** Three simultaneous
+> changes is already one more than is comfortable; a fourth, unasked-for change
+> to the headdress would make it impossible to tell what caused what.
 
 **Attach these three, and nothing else:**
 
 ```
-source/artwork/turn-field-front.png            the costume — SCOPED, two exceptions
+source/artwork/turn-field-front.png            the costume — SCOPED, three exceptions
 reference/props/a180.jpg                       the blaster
 reference/actor/ling-jiu-headshot.jpg          face and build
 ```
@@ -170,8 +194,13 @@ is the point** — the job is to change two items and hold everything else still
   got wrong once.
 - **ONE whistle, at the throat.** Look at the belt as well as the neck — the last
   pass drew both and it is easy to see only the one you asked for.
+- **The hair actually up**, and a BUILT shape rather than a tidy everyday
+  updo. This is the one most likely to come back unchanged.
+- **The horns unchanged** — same size, same curve, same asymmetry, same worn
+  bone. If they have grown, become symmetrical, or started to read as a crown or
+  a headdress, re-roll.
 - **Nothing else moved** — mantle points, collar, bracers, belt, thigh panels,
-  knee pads, horns, palette.
+  knee pads, palette.
 
 If it passes, it replaces `source/artwork/turn-field-front.png` and gets
 re-approved in `outfits.yaml`; then the other four views are re-rolled against

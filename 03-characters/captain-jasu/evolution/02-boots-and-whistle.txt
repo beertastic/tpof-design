@@ -1,4 +1,4 @@
-[CAPTAIN-JASU — FIELD DRESS — FRONT] — CORRECTION PASS: BOOTS + WHISTLE
+[CAPTAIN-JASU — FIELD DRESS — FRONT] — CORRECTION PASS: BOOTS + WHISTLE + HAIR
 Output file: 02-boots-and-whistle.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
 Prompt version: 25e175b8 (short) · repo commit 214d3a5 2026-08-03 22:09
@@ -10,7 +10,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE COSTUME (match exactly, EXCEPT the two items named below):
+  THE COSTUME (match exactly, EXCEPT the three items named below):
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
   THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
@@ -27,10 +27,10 @@ THE ATTACHED COSTUME PHOTOGRAPH IS SCOPED, AND THIS IS THE WHOLE POINT OF
 THIS IMAGE. It is the previously approved front view. MATCH IT EXACTLY — the
 mantle and its upswept points, the stand collar, the ribbed torso, the belt
 and buckle, the bracers, the quilted thigh panels, the knee pads, the
-trousers, the horns, the palette, the wear and the pose are all correct in it
-and MUST NOT CHANGE. This is a correction of two items, not a redesign.
+trousers, the palette, the wear and the pose are all correct in it and MUST
+NOT CHANGE. This is a correction of three items, not a redesign.
 
-TWO EXCEPTIONS, AND ONLY TWO. On these the photograph is WRONG and the
+THREE EXCEPTIONS, AND ONLY THREE. On these the photograph is WRONG and the
 numbered rules below OVERRIDE it:
 
   1. THE BOOTS. The photograph shows ANKLE boots. They must now be TALL —
@@ -40,6 +40,19 @@ numbered rules below OVERRIDE it:
   2. THE WHISTLE. The photograph shows a whistle hanging at her BELT. There
      must be EXACTLY ONE whistle and it hangs on a cord AT HER THROAT. The
      belt whistle is REMOVED. Do not draw both.
+
+  3. THE HAIR. The photograph shows it DOWN AND LOOSE around the face and
+     shoulders. It must now be SWEPT UP AND BACK off the face into a large
+     rolled, worked mass held HIGH ON THE HEAD, with the length falling loose
+     behind and to the sides. Nothing loose at the front. It is a BUILT
+     shape.
+
+     THE HORNS THEMSELVES DO NOT CHANGE. Take their size, their curve, their
+     asymmetry, their worn pale bone colour and their position relative to
+     her head FROM THE PHOTOGRAPH exactly. The ONLY difference is what they
+     are set into: they now sit set into the raised, rolled mass of hair
+     instead of into loose hair. Do not make them larger, smaller, more
+     symmetrical, more ornamental or more like a headdress or crown.
 
 Everything else in the photograph outranks this text, as usual.
 

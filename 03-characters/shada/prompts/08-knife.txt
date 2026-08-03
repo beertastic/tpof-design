@@ -1,10 +1,10 @@
 [SHADA — SLOT 08 — HERO PROP]
 Output file: knife.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: c4c6f682 · repo commit b6159af 2026-08-03 08:52
+Prompt version: 4cda7ba9 · repo commit caaa4a8 2026-08-03 10:03
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b6159af, prompt c4c6f682.
+    Working from commit caaa4a8, prompt 4cda7ba9.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -31,8 +31,12 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
-Match the costume, materials, colours, face and build from them exactly.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.
+Take the COSTUME, materials and colours from the costume photograph.
+Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never
+from the costume photograph, however clearly the face reads in it.
+Where a photograph is silent, or is labelled NOT an authority on
+something, the written text below wins.
 Only the setting, pose and lighting change.
 Generate a single image to the description below.
 

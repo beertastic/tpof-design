@@ -136,8 +136,18 @@ several attempts.**
    `03-characters/<character>/prompts/turnarounds-short/turn-<outfit>-front.txt`
 4. **Select all. Copy. Paste as your entire first message.** Nothing before it,
    nothing after it, no "here's a prompt for you". Do not trim the top.
-5. **Attach the actor photograph** from `reference/actor/`. The URLs are in the
-   prompt, but attaching is more reliable and costs nothing.
+5. **Attach every image in `03-characters/<character>/prompts/attach/<outfit>/`.**
+   All of them, not a selection. They are staged there by `short.py` from the
+   same list the prompt declares, and named by what each one is FOR. Read
+   `MANIFEST.txt` first for the front view — the approved front is the one image
+   a front turnaround must not be given, since it cannot match itself.
+
+   The URLs are in the prompt as a **fallback**, not a substitute. Attaching is
+   the reliable route, and the prompt asks the model to say which one it used —
+   **if it says it fetched URLs, or says nothing, the references did not arrive.**
+   This step used to read "attach the actor photograph", which is how three
+   generations on 2026-08-03 ran with two of five references and no costume
+   front at all.
 6. **Send. Wait.** Two to four minutes is normal at `High`.
 
 ### Before you look at the picture, check the reply
@@ -259,8 +269,9 @@ handsome images of four different costumes.
 
 Same procedure as Phase 2, with two differences:
 
-- **Attach the approved front turnaround as well as the actor photograph.** This
-  is the costume reference, and these prompts refuse to run without it.
+- **Attach the whole `prompts/attach/<outfit>/` folder** — for these four views
+  that includes the approved front turnaround, which is the costume reference,
+  and these prompts refuse to run without it.
 - **A fresh chat per view** is safest. Continuing a chat invites the model to
   work from its own previous image.
 
@@ -318,7 +329,7 @@ missing, `--validate` names it.
 ```
 1.  Fresh ChatGPT chat. Tier set to High.
 2.  Paste the whole file it named. Nothing before it, nothing after it.
-3.  Attach the actor photograph it named.
+3.  Attach EVERY image in the attach/ folder it named.
 4.  Its reply must open with:  Working from commit <id>, prompt <hash>.
     NO LINE, NO IMAGE. Discard it and start a fresh chat.
 5.  Wrong? Re-paste the WHOLE file with a correction line on top.

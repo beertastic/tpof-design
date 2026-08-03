@@ -66,6 +66,27 @@ outfits:
           plates fill the frame because the camera is close, not because they
           are big. SIZE AND DENSITY COME FROM THE WRITTEN RULE — 10-15 mm, about
           twelve across a flank panel, fifteen rows — AND THE RULE WINS.
+      # THE MAKE-UP LOCK, approved 2026-08-03. The costume had an approved
+      # reference and the make-up did not, which is the same gap that cost this
+      # character her props — and it bit on 2026-08-03, when a turnaround
+      # generated against the approved front inherited the front's face: plain
+      # round pupils and a scale pattern stronger and warmer than the rule allows.
+      #
+      # Two references with STATED, NON-OVERLAPPING SCOPES is not the failure
+      # that cost five generations. That failure was two references competing
+      # over the SAME garment. This one is cropped to head and neck precisely so
+      # there is no costume left in it to compete with anything — the collar and
+      # the shoulder plates were cropped out rather than described away.
+      - path: source/artwork/scale_portrait.png
+        what: >-
+          THE MAKE-UP — NOT THE COSTUME. Her REPTILIAN VERTICAL SLIT PUPILS on an
+          otherwise human eye, and the scale pattern: FLAT LIKE A TATTOO, never
+          raised or pebbled, in BROKEN PATCHES at the EDGES only — temples, outer
+          cheekbone, jawline, the SIDE of the neck. Never the middle of the cheek
+          and never the front of the throat.
+          IT RUNS SLIGHTLY WARM AND THE WRITTEN RULE WINS ON COLOUR: the pattern
+          is TONAL, the same colour as her skin. There is no costume in this
+          frame and nothing about the costume may be taken from it.
       - path: source/artwork/knife.png
         what: the combat knife
       # For anything PHYSICALLY BUILT, the reference is a photograph of the

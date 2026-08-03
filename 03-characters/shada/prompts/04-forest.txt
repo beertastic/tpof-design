@@ -1,10 +1,10 @@
 [SHADA — SLOT 04 — IN-ENVIRONMENT]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 87723ba7 · repo commit b6159af 2026-08-03 08:52
+Prompt version: 6298f5e6 · repo commit caaa4a8 2026-08-03 10:03
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b6159af, prompt 87723ba7.
+    Working from commit caaa4a8, prompt 6298f5e6.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -30,14 +30,20 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
-Match the costume, materials, colours, face and build from them exactly.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.
+Take the COSTUME, materials and colours from the costume photograph.
+Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never
+from the costume photograph, however clearly the face reads in it.
+Where a photograph is silent, or is labelled NOT an authority on
+something, the written text below wins.
 Only the setting, pose and lighting change.
 
 FETCH AND MATCH — the approved costume reference:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
 USE THE ATTACHED PHOTOGRAPH — PLATE SHAPE AND FINISH — NOT SIZE. The hexagon, the flat edge-to-edge tessellation with a dark line of backing between neighbours, the raised snake swirl that varies plate to plate, the mixed unmatched metals and the wear. THIS IS A MACRO DETAIL CROP AND IT PROVES NOTHING ABOUT SCALE — the plates fill the frame because the camera is close, not because they are big. SIZE AND DENSITY COME FROM THE WRITTEN RULE — 10-15 mm, about twelve across a flank panel, fifteen rows — AND THE RULE WINS.. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+USE THE ATTACHED PHOTOGRAPH — THE MAKE-UP — NOT THE COSTUME. Her REPTILIAN VERTICAL SLIT PUPILS on an otherwise human eye, and the scale pattern: FLAT LIKE A TATTOO, never raised or pebbled, in BROKEN PATCHES at the EDGES only — temples, outer cheekbone, jawline, the SIDE of the neck. Never the middle of the cheek and never the front of the throat. IT RUNS SLIGHTLY WARM AND THE WRITTEN RULE WINS ON COLOUR: the pattern is TONAL, the same colour as her skin. There is no costume in this frame and nothing about the costume may be taken from it.. If not attached, fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
 USE THE ATTACHED PHOTOGRAPH — the combat knife. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
 LIKENESS (1) — attached, or fetch:

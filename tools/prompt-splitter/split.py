@@ -259,7 +259,16 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
                     + raw_url(approved["reference"]))
     # Approved material and prop plates. The figure prompts no longer describe
     # the plate in full — the plate photograph carries it — so these must attach.
+    #
+    # A plate is never a reference for ITSELF. Once an approved plate lives in
+    # source/artwork/ and is also declared under references:, the slot that
+    # generates it would otherwise be handed its own previous version and told
+    # to match it — which freezes the image at whatever it was and makes
+    # regenerating it pointless. scale_portrait was the first to hit this, on
+    # 2026-08-03, the day it became the make-up lock.
     for r in (refs or []):
+        if Path(r["path"]).name == slot["file"]:
+            continue
         ref_note += (("\n" if ref_note else "")
                      + f"USE THE ATTACHED PHOTOGRAPH — {r['what']}. If not attached, fetch:\n    "
                      + raw_url(f"03-characters/{character}/{r['path']}"))
@@ -309,8 +318,17 @@ def build(character: str, slot: dict, blocks: dict, cap: set[int], anti: set[int
         "Do not proceed from the text alone. The written description is not sufficient",
         "on its own and will produce the wrong costume and the wrong face.",
         "",
-        "THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.",
-        "Match the costume, materials, colours, face and build from them exactly.",
+        # "face" used to be in this list, which made the COSTUME photograph an
+        # authority on the face — the 2026-08-01 failure that came back in a
+        # perfect costume on the wrong woman, and a direct contradiction of the
+        # face-precedence rule further down this same file. Each photograph is
+        # an authority on its own scope and nothing else.
+        "THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.",
+        "Take the COSTUME, materials and colours from the costume photograph.",
+        "Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never",
+        "from the costume photograph, however clearly the face reads in it.",
+        "Where a photograph is silent, or is labelled NOT an authority on",
+        "something, the written text below wins.",
         "Only the setting, pose and lighting change.",
         "" if gate else None,
         ref_note if gate else None,

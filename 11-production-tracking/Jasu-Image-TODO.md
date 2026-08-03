@@ -77,13 +77,19 @@ status: "open"
 >       officer reference does not transfer. **The approved front was right about
 >       this all along**, and one of its three mismatches was the document being
 >       wrong rather than the image.
-> - [ ] **DECISION NEEDED: does the front get re-rolled?** Per the lock, any
->       change to `outfits.yaml` means clearing `approved` and redoing the front
->       first — and the other four views are matched to the front, so they follow
->       it. Against that: the design has not changed, and re-rolling risks the
->       five things that did land. **Recommendation: re-roll.** Tall boots and a
->       long skirted line are silhouette, and silhouette is what a turnaround is
->       for.
+> - [ ] **THE BOOTS GO TO AN A/B TEST — staged 2026-08-03, not yet generated.**
+>       Decided by the Production Designer: generate both boot styles and choose
+>       from the pictures rather than from the documents. Two prompts differing
+>       by exactly one line are in
+>       [`../03-characters/captain-jasu/evolution/`](../03-characters/captain-jasu/evolution/README.md),
+>       with what to attach, what to judge, and what each outcome costs.
+>       **Nobody has ever seen her in the boots the build list describes** — the
+>       sentence never reached a generator — so this is not a re-roll of a known
+>       thing, it is the first look at it.
+> - [ ] **The whistle is the same class of problem and is NOT in that test.**
+>       Build list: on a cord at her throat, plainly visible. Approved front: at
+>       her belt on a chain. Decide separately, and it needs no generation — it is
+>       a small prop and the question is only which record is right.
 >
 > ### Open on her, 2026-08-03
 >

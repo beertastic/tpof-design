@@ -78,9 +78,9 @@ Right now that is **Captain Jasu** (8 images, no boards yet) and **Shada**
 **One thing: `rclone`.** It needs no Google Cloud project and no API keys — but
 it does need to be a **current** build.
 
-> **DO NOT install it with `apt`.** Ubuntu 24.04 ships **v1.60.1-DEV, built in
-> 2022**, and its OAuth flow could not complete against Google on 2026-08-03.
-> Use the official installer.
+> **Prefer the official installer over `apt`.** Ubuntu 24.04 ships
+> **v1.60.1-DEV, built in 2022**, whose errors during setup are close to
+> unreadable. v1.75 says what is actually wrong.
 
 ```bash
 sudo -v && curl https://rclone.org/install.sh | sudo bash
@@ -88,14 +88,39 @@ rclone version                   # confirm it is no longer 1.60.x
 rclone config
 ```
 
-**Why the old one fails, diagnosed rather than guessed.** It binds the callback
-server on `127.0.0.1:53682` correctly, and localhost is reachable — a `curl` to
-it answered in under a millisecond. But **any request to that port without an
-OAuth `code` parameter kills the flow instantly**, with
-`Auth Error … No code returned by remote server`, after which the port closes
-and the browser shows `ERR_CONNECTION_REFUSED`. A browser that prefetches or
-preconnects the URL — Brave is the default here — trips it before the real
-redirect ever arrives. The failure looks like a firewall problem and is not one.
+### LEAVE `client_id` AND `client_secret` BLANK
+
+**This is the one that cost an evening.** Both prompts say *"Leave blank
+normally"* and they mean it — blank makes rclone use its own registered Google
+application, which is what you want.
+
+A stray keystroke put `client_id = scope1` in the config on the first attempt —
+the answer to the *scope* question, one prompt too early. Every symptom after
+that was downstream of it:
+
+| What it looked like | What it was |
+|---|---|
+| rclone 1.60: `No code returned by remote server`, then the browser showing `ERR_CONNECTION_REFUSED` | Google rejected the client and redirected back with no code. The old build could not say so, and the closed port made it look like a firewall |
+| rclone 1.75: **`Access blocked: Authorisation error — The OAuth client was not found. Error 401: invalid_client`** | The same thing, said plainly |
+
+If you see `invalid_client`, check the config before anything else:
+
+```bash
+cat ~/.config/rclone/rclone.conf
+```
+
+It should be exactly this — no `client_id`, no `client_secret`:
+
+```ini
+[tpof]
+type = drive
+scope = drive
+token = {"access_token":...}
+```
+
+**Sign in as `info@tristanpretty.com`.** The browser will offer whichever Google
+account you last used; a personal account will authorise happily and then see
+none of the production folders.
 
 In `rclone config`:
 
@@ -105,6 +130,7 @@ In `rclone config`:
 | **name** | `tpof` — exactly this, the scripts look for it |
 | **storage** | `drive` |
 | **scope** | **`1`, full access.** `drive.file` scope can only see files rclone itself created, so it would not find the existing Costume / Wardrobe folder at all |
+| **client_id** / **client_secret** | **blank, both.** See above — this is where it went wrong |
 | **service_account_file** | blank. That is for non-interactive server auth |
 | **advanced config** | `n` |
 | **auth** | `y` to use the browser, then **sign in as `info@tristanpretty.com`** |
@@ -147,7 +173,9 @@ rclone config update tpof token '{"access_token":...}'
 ```
 
 **Do not touch `http://127.0.0.1:53682/` while it waits** — not with `curl`, not
-with a second browser tab. On the old rclone that request alone ends the flow.
+with a second browser tab. A request there without an OAuth `code` ends the flow
+immediately, and on rclone 1.60 it does so fatally. That is a real effect, but
+it was **not** what broke the setup here; `client_id` was.
 
 ### Why not the Drive connector Claude already has
 

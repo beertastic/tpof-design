@@ -97,12 +97,22 @@ So the rule for the paint shop is precise:
 
 | Must repeat | Must never repeat |
 |---|---|
-| The hexagonal shape | The material |
-| The serpent motif | The finish, age and state of wear |
-| | The exact form of the serpent |
+| The hexagonal shape — **one master, identical everywhere** | The material |
+| The serpent motif — **three or four variants, in rotation** | The finish, age and state of wear |
+| | **How far each serpent has worn down** |
 
-**Regular shape, irregular material.** One print file is correct and expected;
-one finish across all five pieces is not. They came off five different
+**Bounded to three or four serpents, 2026-08-03.** The row above read *"the exact
+form of the serpent — must never repeat"* until then, and `Character.md` said "no
+two are identical". That is unbuildable as a printed part: at ~440 plates it means
+sculpting 440 faces, or printing one master and then hand-finishing every plate —
+which lands squarely on the largest hidden labour item in this costume and
+doubles it. **Three or four STLs in rotation reads the same at arm's length.**
+The story survives intact, because three scavenging trips is three or four mills,
+batches and worn dies — and never four hundred. What differs between neighbouring
+plates is now the wear, not the mark.
+
+**Regular shape, irregular material.** Three or four print files are correct and
+expected; one finish across all five pieces is not. They came off five different
 scavenging trips and must read as five different metals — dull grey steel on
 the right forearm gauntlet, blackened iron on the left shoulder cap, dark bronze
 on the left thigh, pale worn pewter on her right flank panel, rust-red oxidised
@@ -117,10 +127,16 @@ goes flat and pale where the plate has been handled, and nearly disappears on th
 oldest patch. If it comes out crisp and identical on every plate it reads as
 jewellery, and the costume says somebody made it for her.
 
-**No two serpents should be identical.** The samples already vary, which is
-correct and worth preserving: one die used once would produce a matched set, and
-the story is four scavenging trips. Different mills, different batches, different
-worn dies.
+**Three or four serpents, and the paint shop supplies the rest.** *This read "no
+two serpents should be identical" until 2026-08-03 — see the bound above.* One
+die used once would produce a matched set, and the story is four scavenging
+trips, so a single serpent across the whole costume is wrong. Three or four
+carries that. Beyond four, the difference stops being visible at any distance a
+camera will see and becomes labour spent on nothing.
+
+**Two neighbouring plates carrying the same mark is correct**, and it is the
+finishing that must stop them reading as a matched pair: one worn flatter, one
+chipped, one with the paint gone off the ridge.
 
 **One piece may be hardened hide rather than metal**, cut to the same hexagon.
 Leather plates carry the serpent faintly or not at all — a mill mark belongs in

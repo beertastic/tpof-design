@@ -616,7 +616,8 @@ def _slug(label: str, n: int) -> str:
     return f"{n}-{s}"
 
 
-def stage_attachments(repo: Path, character: str, outfit: dict) -> tuple[int, list[str]]:
+def stage_attachments(repo: Path, character: str, outfit: dict,
+                      slots: list | None = None) -> tuple[int, list[str]]:
     """Copy every reference this outfit needs into one folder, ready to drag in.
 
     Written 2026-08-03 because "hunt down five images across three directories,
@@ -624,9 +625,16 @@ def stage_attachments(repo: Path, character: str, outfit: dict) -> tuple[int, li
     the same reasoning that produced tools/regen. The operator was attaching two
     of five, which is not an operator error: the documents told them to.
 
-    The folder holds the SUPERSET across views. The approved view is the one
-    exception and MANIFEST.txt names it: a front turnaround must not be given
-    the approved front to match, because it cannot match itself.
+    The folder holds the SUPERSET, and MANIFEST.txt names every exception to it.
+    A plate is never a reference for itself, so any prompt whose `Output file:`
+    is one of the staged images is given every file EXCEPT that one.
+
+    The exception list is DERIVED, not written. Until 2026-08-03 it was one
+    hardcoded sentence naming the approved front, which was true of the front
+    and wrong about three others — scale_portrait, knife and material-scale each
+    omit their own plate, and the manifest told the operator to attach all six.
+    A hand-written list of exceptions is the same failure as a hand-written list
+    of attachments, one level up.
 
     Not committed — see .gitignore. It is 8.6 MB of duplicated binaries per
     outfit, regenerated on every run, and reproducible from outfits.yaml and the
@@ -653,12 +661,30 @@ def stage_attachments(repo: Path, character: str, outfit: dict) -> tuple[int, li
         lines.append(f"{dst.name}\n    scope : {label}\n    source: {path}")
         n += 1
 
+    # Which prompt, if any, omits each staged file — because that file IS the
+    # image it makes. Derived from the same data the prompts are built from, so
+    # it cannot disagree with them.
     approved_view = (outfit.get("approved") or {}).get("view", "front")
+    approved_ref = (outfit.get("approved") or {}).get("reference")
+    omits = []
+    for i, (_label, path, _url) in enumerate(refs, 1):
+        base = Path(path).name
+        if approved_ref and path == approved_ref:
+            omits.append((i, f"turn-{outfit['id']}-{approved_view}"))
+            continue
+        for slot in (slots or []):
+            if Path(slot["file"]).name == base:
+                omits.append((i, f"{slot['n']:02d}-{Path(slot['file']).stem}"))
+                break
+
     note = ""
-    if any(l.startswith("COSTUME") for l, _, _ in refs):
-        note = (f"\nEXCEPTION — turn-{outfit['id']}-{approved_view}: attach everything EXCEPT\n"
-                f"file 1. The approved {approved_view} cannot be given to itself as a match\n"
-                f"target. Every other view takes all {n}.\n")
+    if omits:
+        rows = "\n".join(f"  file {i}  is omitted by  {who}" for i, who in omits)
+        note = ("\nEXCEPTIONS — a plate is never a reference for itself.\n"
+                f"These prompts take {n - 1}, not {n}, omitting the one file that IS the\n"
+                "image they make:\n\n" + rows + "\n\n"
+                f"Every other prompt takes all {n}. When in doubt the prompt's own\n"
+                "URL block is authoritative — it lists exactly what to attach.\n")
 
     head = (f"ATTACH ALL {n} OF THESE FILES, and nothing else.\n"
             if n else "NOTHING TO ATTACH — this outfit declares no references.\n")
@@ -730,6 +756,9 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
     # specification files.
     md_path = repo / "03-characters" / character / "Prompts.md"
     outfits = cfg.get("outfits", [])
+    # Defined up here because stage_attachments needs it to name the exceptions,
+    # and a scaffold or a missing Prompts.md skips the block that fills it.
+    slots = []
     if md_path.is_file() and outfits:
         md = md_path.read_text(encoding="utf-8")
         status = (re.search(r"^status:\s*\"?(\w+)", md, flags=re.M) or [None, ""])[1]
@@ -759,7 +788,7 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
 
     if not dry_run:
         for outfit in cfg.get("outfits", []):
-            k, missing = stage_attachments(repo, character, outfit)
+            k, missing = stage_attachments(repo, character, outfit, slots)
             rel = f"prompts/attach/{outfit['id']}"
             print(f"    {character}/{outfit['id']}: {k} reference images staged -> {rel}/")
             for m in missing:

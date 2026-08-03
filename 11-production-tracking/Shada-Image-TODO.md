@@ -11,7 +11,7 @@ approved references with stated, non-overlapping scopes: `turn-working-front.png
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is
 generated against both.
 
-**Eighteen images to make.** The run list below is the only place that carries
+**Fourteen images to make.** The run list below is the only place that carries
 the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
@@ -33,13 +33,13 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**Two done. One kept. Eighteen to make.**
+**Six done. One kept. Fourteen to make.**
 
 | | |
 |---|---|
-| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) |
+| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** |
 | **KEEP** | `knife.png` — locked prop reference, unaffected |
-| **TO MAKE** | 4 turnaround views + 14 numbered slots |
+| **TO MAKE** | 14 numbered slots |
 
 `species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
 are **not** any more. Both contradict the make-up lock — round pupils, and the
@@ -72,14 +72,35 @@ different hand-written attachment lists existed in this repository on
 
 ---
 
-### STEP 1 — the four turnaround views  *(in progress)*
+### STEP 1 — the four turnaround views  *(DONE 2026-08-03)*
 
 Paste from `03-characters/shada/prompts/turnarounds-short/`:
 
-- [ ] `turn-working-natural.txt`
-- [ ] `turn-working-left.txt`
-- [ ] `turn-working-right.txt`
-- [ ] `turn-working-back.txt`
+- [x] `turn-working-natural.txt`
+- [x] `turn-working-left.txt` — took three rolls; see the note below
+- [x] `turn-working-right.txt`
+- [x] `turn-working-back.txt`
+
+**All five views checked as a set on 2026-08-03.** Sides correct in all five,
+including the back, which is a true rotation — shoulder blades, back seams, rear
+pockets — with all six placements landing on the right side of the frame. Vest
+cloth measures RGB 132–149 with a warm bias of +11 to +19 across the set, so the
+palette holds; `natural` is the warmest and darkest, `front` the lightest.
+
+Accepted deviations, consistent across all five and **not** worth a roll: plates
+~6–7 across a flank panel, arm scale running warm and reticulated rather than
+tonal, flank panels reading pewter rather than rust-red. `natural` also carries a
+visible zip at the throat — the one recurring fault still unbeaten, and the only
+view with it.
+
+**What the three rolls of `left` taught, because it generalises.** Roll one
+shingled the shoulder cap and made it a yoke, collar to deltoid. Roll two fixed
+the plate size and the boots but *swapped the props* — the blaster appeared on
+her visible left side and the knife vanished — because the CHECK block names
+which side each piece is **on** and says nothing about a profile view **hiding**
+the far side. Roll three fixed both, and only because the correction line named
+both faults at once. **Each roll fixes what the correction names and quietly
+trades away something it does not.** Name every open fault, every time.
 
 Attach **all six**. Check each one for:
 
@@ -102,11 +123,24 @@ Attach **all six**. Check each one for:
 it is an attached reference for all of them. Getting it right first means the
 rest inherit a corrected plate.
 
+**Attach FIVE files, not six** — everything in `prompts/attach/working/` except
+`2-plate-shape-and-finish-not-size.png`, which *is* the image you are making. The
+prompt's own URL block declares exactly these five. `MANIFEST.txt` now derives
+every such exception; there are four in total, and until 2026-08-03 it named only
+one.
+
 **When you regenerate it, put MORE and SMALLER plates in frame.** The current one
 shows about fourteen at macro scale, which teaches "big plates" to every
 generation it is attached to — and the plates have come back two to three times
 oversized in every figure so far. Its label already says it proves shape and not
 size; the image should stop arguing otherwise.
+
+**THEN RERUN `./tools/regen shada` BEFORE STEP 3.** The staged file
+`2-plate-shape-and-finish-not-size.png` is a *copy* of `material-scale.png`, made
+at regen time. Save the new plate and the copy is still the old one — so every
+prompt in steps 3, 4 and 5 would attach the oversized plate and teach "big
+plates" all over again. "The rest inherit a corrected plate" is only true after
+this command runs.
 
 ### STEP 3 — the remaining plates
 
@@ -261,7 +295,10 @@ What the build actually needs is settled:
   visible only in raking light. Not the scale armour, and never a printed
   snakeskin.
 - **Plates 10–15 mm**, regular hexagons, tessellated edge to edge, never
-  overlapped, each carrying a raised snake swirl that varies plate to plate.
+  overlapped, each carrying a raised snake swirl — **three or four variants
+  repeating, not one per plate.** *Changed 2026-08-03 when the plates became a
+  printed part: identical outline from one master, three or four swirl STLs in
+  rotation, and all remaining variation comes from wear.*
 - **Roughly 440 loose plates.** The printed gauntlet permanently removed ~150,
   and the restored flank panels put ~220 back. See `Costume-Build-Method.md` —
   still the largest hidden labour item in the costume, and the flank panels are
@@ -479,15 +516,16 @@ costume at all — not just the ones showing armour detail.
 
 **Leave alone — nothing in them changed:**
 
-`species_strip`, `expression_strip`. Both are face and head only, both are
-particularly good, and neither shows enough costume to be affected. `knife` is
-also unaffected and is already locked as a prop reference.
+`knife` only. It is unaffected and is already locked as a prop reference.
+
+*`species_strip` and `expression_strip` were listed here until 2026-08-03 and are
+not any more — both contradict the make-up lock. They are STEP 4 of the run list.*
 
 **Regenerate — the costume in them no longer exists:**
 
 | Image | Why |
 |---|---|
-| `turn-working-natural`, `left`, `right`, `back` | The front is approved; these four must be matched against it. **Do not regenerate the front** |
+| ~~`turn-working-natural`, `left`, `right`, `back`~~ | **DONE 2026-08-03.** Matched against the approved front. Do not regenerate any of the five |
 | `hero`, `camp_day`, `forest`, `maintenance`, `scale_figure` | Full figure — cloth vest, grey palette, plate size, cap size, wear |
 | `scale_portrait` | Shows the collar, the shoulder and the vest cloth |
 | `material-cloth` | It is now a grey woven cloth with the serpentine grain in the weave, not a brown hide with it pressed in |

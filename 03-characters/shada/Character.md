@@ -237,13 +237,23 @@ plate face — coiling back on itself, loosely S-shaped or spiralling, a slightl
 thicker head at one end tapering to a fine tail at the other, filling most of the
 face. Every plate has one. A blank plate is not this costume.
 
-**And no two are identical.** The curl sits differently, the line runs thicker or
-thinner, some are nearly worn away. That variation is not a fault — it is what
-makes the story hold. A mark that came off one die on one day would be identical
-every time and would imply a single object, made once, for her. A mark that
-varies is a **common motif rendered by different mills, different batches and
-different worn dies** — which is exactly what three scavenging trips would
-produce.
+**There are three or four of them, and they repeat.** Not one unique curl per
+plate — a handful of marks recurring across a panel, the same few over and over.
+
+That bound is the story *and* the build, and they agree. A mark that came off one
+die on one day would be identical every time and would imply a single object,
+made once, for her. **Three or four marks is a common motif rendered by three or
+four different mills, batches and worn dies** — which is exactly what three
+scavenging trips would produce, and no more. Four hundred unique marks would
+imply four hundred mills.
+
+**Revised 2026-08-03, when the plates became a printed part.** The rule said "no
+two are identical", which is unbuildable at 440 plates: it means sculpting 440
+faces, or printing one master and hand-finishing every plate. Three or four STLs
+gives the same read at arm's length for a fraction of the labour. What varies
+between neighbours is now the **wear** — paint, chipping, how far the ridge has
+worn down, which plates are missing — and never the mark itself. See
+[`Costume-Build-Method.md`](../../11-production-tracking/Costume-Build-Method.md).
 
 It is a **manufacturer's mark** — a common motif found on cheap hull plate
 throughout the Outer Rim, cast into the sheet at the mill long before anyone

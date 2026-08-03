@@ -608,9 +608,12 @@ face.
 along its top edge and casting a faint shadow beside it. Not engraved, not
 incised, not a recessed stamp, not etched or printed.
 
-**No two are identical:** the curl sits differently, the line runs thicker or
-thinner, some are nearly worn away. **A blank plate means the image has failed** —
-at this magnification every swirl must be clearly legible.
+**THREE OR FOUR DIFFERENT SWIRLS, REPEATING:** the same few marks recur across
+the patch — never a unique curl on every plate. Neighbouring plates may well
+carry the same mark. What differs between them is the **wear**: how far the ridge
+has worn down, where the paint has chipped, which are nearly smooth. **A blank
+plate means the image has failed** — at this magnification every swirl must be
+clearly legible.
 
 **This is one patch, so the metal is broadly consistent** — one salvage source,
 one alloy, with only two or three plates obviously replaced later in something

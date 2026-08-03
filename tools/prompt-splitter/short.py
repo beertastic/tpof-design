@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import re
+import shutil
 import sys
 import textwrap
 from pathlib import Path
@@ -257,6 +258,41 @@ VIEWS = {
 }
 
 
+def _ref_path(character: str, r: dict) -> str:
+    """Where a declared reference actually lives.
+
+    `path:` is relative to the character folder, which is right for costume
+    plates and actor photographs. `repo_path:` is relative to the repository
+    root, which is the only way to reach a reference that is not the
+    character's own — the akk dog's rendered plates live under 08-species/ and
+    belong to the creature, not to Captain Jasu. Copying them into her folder
+    would have made a second copy that could go stale against the rig.
+    """
+    if r.get("repo_path"):
+        return r["repo_path"]
+    return f"03-characters/{character}/{r['path']}"
+
+
+def slot_reference_list(character: str, outfit: dict, slot: dict) -> list[tuple[str, str, str]]:
+    """Extra references that belong to ONE slot and must not reach the others.
+
+    Added 2026-08-04. References were outfit-level only, so there were two bad
+    options for a creature that appears in two frames out of twenty-one:
+    attach it to everything, which invites the animal into costume turnarounds
+    it has no business in, or attach it to nothing and describe it in prose —
+    which is what was happening, and `captaining` came back with a generic dog.
+
+    Keyed by the slot's output stem, so it reads as a name rather than a
+    number and does not break when slots are reordered.
+    """
+    out = []
+    stem = Path(slot["file"]).stem
+    for r in ((outfit.get("slot_references") or {}).get(stem) or []):
+        p = _ref_path(character, r)
+        out.append((_label(r["what"], 52), p, raw_url(p)))
+    return out
+
+
 def reference_list(character: str, outfit: dict, view: str) -> list[tuple[str, str, str]]:
     """Every reference this view needs: (label, repo-relative path, url).
 
@@ -277,7 +313,7 @@ def reference_list(character: str, outfit: dict, view: str) -> list[tuple[str, s
     if approved and view != (outfit.get("approved") or {}).get("view", "front"):
         out.append(("COSTUME (match exactly)", approved, raw_url(approved)))
     for r in (outfit.get("references") or []):
-        p = f"03-characters/{character}/{r['path']}"
+        p = _ref_path(character, r)
         out.append((_label(r["what"], 52), p, raw_url(p)))
     for n, name, url, what in actor_refs(character):
         out.append((f"FACE + BUILD ({n})", f"03-characters/{character}/reference/actor/{name}", url))
@@ -534,7 +570,8 @@ def build_slot(character: str, cfg: dict, outfit: dict, slot: dict,
     Blocks 26 images: twelve of Shada's and all fourteen of Captain Jasu's.
     """
     refs = [f"{label}: {url}"
-            for label, path, url in reference_list(character, outfit, "")
+            for label, path, url in (reference_list(character, outfit, "")
+                                     + slot_reference_list(character, outfit, slot))
             # A plate is never a reference for itself. See split.py.
             if Path(path).name != slot["file"]]
 
@@ -642,8 +679,7 @@ def stage_attachments(repo: Path, character: str, outfit: dict,
     """
     outdir = repo / "03-characters" / character / "prompts" / "attach" / str(outfit["id"])
     if outdir.is_dir():
-        for f in outdir.iterdir():
-            f.unlink()
+        shutil.rmtree(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
     # The superset: the non-approved views need everything.
@@ -696,6 +732,42 @@ def stage_attachments(repo: Path, character: str, outfit: dict,
         "in before the approved-front method existed.\n"
         "\nAdd references: to outfits.yaml, or approve a front and let the other\n"
         "four match it. See 03-characters/APPROVAL.md.\n")
+
+    # A slot with its own references gets its OWN COMPLETE FOLDER — the shared
+    # files plus its extras — rather than the extras alone. The operator drags
+    # one folder either way, which is the whole point of staging; asking them to
+    # drag two and remember which is a step, not a fix.
+    extra_notes = []
+    for slot in (slots or []):
+        extras = slot_reference_list(character, outfit, slot)
+        if not extras:
+            continue
+        stem = f"{slot['n']:02d}-{Path(slot['file']).stem}"
+        sub = outdir / stem
+        sub.mkdir(parents=True, exist_ok=True)
+        rows, k = [], 0
+        for j, (label, path, _u) in enumerate(refs + extras, 1):
+            if Path(path).name == Path(slot["file"]).name:
+                continue
+            src = repo / path
+            if not src.is_file():
+                missing.append(f"{label} -> {path}")
+                continue
+            dst = sub / f"{_slug(label, j)}{src.suffix.lower()}"
+            dst.write_bytes(src.read_bytes())
+            rows.append(f"{dst.name}\n    scope : {label}\n    source: {path}")
+            k += 1
+        (sub / "MANIFEST.txt").write_text(
+            f"ATTACH ALL {k} OF THESE FILES, and nothing else.\n"
+            f"{character} / {stem} — this slot needs references the others do not.\n\n"
+            "Use THIS folder for this prompt, not the one above it.\n\n"
+            + "\n".join(rows) + "\n", encoding="utf-8")
+        extra_notes.append(f"  {stem}/  — {k} files, use that folder for that prompt")
+
+    if extra_notes:
+        note += ("\nSLOTS WITH THEIR OWN FOLDER. These prompts need a reference the\n"
+                 "others do not, so a complete folder is staged for each:\n\n"
+                 + "\n".join(extra_notes) + "\n")
 
     (outdir / "MANIFEST.txt").write_text(
         head

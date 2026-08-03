@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
-Prompt version: e1dc4843 (short) · repo commit c4e5bc3 2026-08-04 00:13
+Prompt version: e1dc4843 (short) · repo commit db4b9ef 2026-08-04 00:16
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

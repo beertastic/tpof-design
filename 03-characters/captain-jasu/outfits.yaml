@@ -336,6 +336,43 @@ outfits:
     # `Prompts.md`. It is unreadable in a full-length figure and was spending
     # ~700 characters in all 21 prompts to be legible in one. Same argument as
     # fix 9.
+    # PER-SLOT REFERENCES — added 2026-08-04. These attach to the named slot and
+    # to nothing else.
+    #
+    # The akk dog appears in three of her twenty-one images and in none of the
+    # turnarounds. Declaring it at outfit level would attach a creature plate to
+    # every costume fitting photograph, which is an invitation for the animal to
+    # wander into frames it is not in. Declaring it nowhere is what was
+    # happening, and `captaining` duly came back with a GENERIC DOG while
+    # `camp_day` got a reptile — from the same prompt pack, seven minutes apart.
+    #
+    # `repo_path:` because these belong to the creature, not to her. Copying
+    # them into her folder would create a second copy that goes stale against
+    # the rig.
+    #
+    # The scale plate is first deliberately: the creature document says image
+    # generators get creature scale wrong more reliably than anything else.
+    slot_references:
+      captaining:
+        - repo_path: 08-species/akk-dog/reference/scale-with-figure.png
+          what: THE AKK DOG — SIZE against a 1.8 m figure
+        - repo_path: 08-species/akk-dog/reference/turnaround-three-quarter.png
+          what: THE AKK DOG — SHAPE, 3/4 view
+      akk_together:
+        - repo_path: 08-species/akk-dog/reference/scale-with-figure.png
+          what: THE AKK DOG — SIZE against a 1.8 m figure
+        - repo_path: 08-species/akk-dog/reference/turnaround-three-quarter.png
+          what: THE AKK DOG — SHAPE, 3/4 view
+        - repo_path: 08-species/akk-dog/reference/head-detail.png
+          what: THE AKK DOG — HEAD, where generators drift most
+        - repo_path: 08-species/akk-dog/reference/hide-detail.png
+          what: THE AKK DOG — HIDE at real scale
+      camp_day:
+        - repo_path: 08-species/akk-dog/reference/scale-with-figure.png
+          what: THE AKK DOG — SIZE against a 1.8 m figure
+        - repo_path: 08-species/akk-dog/reference/turnaround-three-quarter.png
+          what: THE AKK DOG — SHAPE, 3/4 view
+
     must_show:
       - pin: true
         text: >

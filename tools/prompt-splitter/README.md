@@ -43,6 +43,36 @@ All three accept `--all`. `short.py` also takes `--dry-run`, which reports the
 share of each outfit's specification reaching the generator, and every sentence
 dropped, **without writing anything**.
 
+## `slot_references:` — a reference for ONE slot
+
+Added 2026-08-04. `references:` in `outfits.yaml` attaches to every prompt for
+that outfit. That is right for the costume front and the actor photograph, and
+wrong for anything that appears in a few frames only.
+
+```yaml
+slot_references:
+  akk_together:
+    - repo_path: 08-species/akk-dog/reference/scale-with-figure.png
+      what: THE AKK DOG — SIZE against a 1.8 m figure
+```
+
+Keyed by the slot's **output stem**, so it reads as a name and survives slots
+being reordered. `repo_path:` is relative to the repository root, for references
+that belong to another asset; plain `path:` stays relative to the character
+folder.
+
+**Why it exists.** Captain Jasu's akk dog appears in three of her twenty-one
+images. Declared at outfit level, a creature plate would be attached to every
+costume fitting photograph — an invitation for the animal to wander into frames
+it is not in. Declared nowhere, which is what was happening, `captaining` came
+back with **a generic dog** while `camp_day` got a reptile, from the same pack
+seven minutes apart.
+
+**Staging gives each such slot its own complete folder** — the shared files plus
+its extras — under `prompts/attach/<outfit>/<NN-slot>/`, and the parent
+MANIFEST names them. The operator drags one folder either way. Asking them to
+drag two and remember which is a step, not a fix.
+
 ## Priority
 
 **Turnarounds first, and in full.** They are the primary deliverable — what a

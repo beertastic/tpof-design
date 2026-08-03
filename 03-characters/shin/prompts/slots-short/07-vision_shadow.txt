@@ -1,7 +1,7 @@
 [SHIN — THE MANIFESTATION]
 Output file: vision_shadow.png
 Aspect ratio: 21:9. Generate at that shape and never square unless it says 1:1.
-Prompt version: 7a8d1316 (short) · repo commit d55a1ab 2026-08-03 17:14
+Prompt version: 7a8d1316 (short) · repo commit db4b9ef 2026-08-04 00:16
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

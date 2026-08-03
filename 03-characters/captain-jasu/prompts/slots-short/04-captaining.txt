@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — GIVING AN ORDER]
 Output file: captaining.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: 2a0a3cc3 (short) · repo commit c4e5bc3 2026-08-04 00:13
+Prompt version: 92ce3aa1 (short) · repo commit db4b9ef 2026-08-04 00:16
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -10,6 +10,8 @@ is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
   THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  THE AKK DOG — SIZE AGAINST A 1.8 M FIGURE: https://raw.githubusercontent.com/beertastic/tpof-design/main/08-species/akk-dog/reference/scale-with-figure.png
+  THE AKK DOG — SHAPE, 3/4 VIEW: https://raw.githubusercontent.com/beertastic/tpof-design/main/08-species/akk-dog/reference/turnaround-three-quarter.png
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
   Take the FACE and BUILD from the actor images only.
   Say whether you used an attached file or a URL. If neither worked, stop.

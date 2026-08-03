@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 1 — THE WOOKIEE — BACK]
 Output file: turn-merc-1-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: aa90516e (short) · repo commit 215358f 2026-08-03 17:14
+Prompt version: aa90516e (short) · repo commit db4b9ef 2026-08-04 00:16
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

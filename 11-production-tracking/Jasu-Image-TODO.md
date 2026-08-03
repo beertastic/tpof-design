@@ -179,6 +179,46 @@ status: "open"
 > - [x] ~~**The whistle — belt or throat?**~~ **Throat, and exactly one.**
 >       Settled 2026-08-03 by the same image, which came back wearing both.
 >
+> ### CHECKED 2026-08-04 — ten slot images in, three faults
+>
+> All ten were generated AFTER the mantle rule landed at 23:36, so nothing below
+> is a stale-prompt artifact.
+>
+> **Clean:** `mantle_detail` (the re-roll — irregular crazing, no grid, exactly
+> right), `material_cloth`, `material_leather`, `material_hardware`, `hero`,
+> `camp_day`.
+>
+> - [ ] **`captaining` — WRONG ANIMAL. Re-roll.** It shows a large canid with a
+>       harness. The akk is a low-slung reptile with pebbled scale, a plated
+>       spiked crest and brow horns — `camp_day`, generated seven minutes
+>       earlier, has it right. **And the animal appears leashed**, which
+>       `must_show` forbids outright: *"She is NEVER holding it and the animal is
+>       NEVER on it."* Carrying restraint she does not need is the whole point of
+>       the leash; clipping it on destroys the idea.
+> - [ ] **Horn asymmetry is inconsistent across the pack.** The rule says
+>       ASYMMETRIC — long on one side, shorter points on the other. `headdress`
+>       and `captaining` have it right. **`portrait` and `expression_strip` came
+>       back with matched pairs**, which reads as a symmetrical ornament — closer
+>       to headphones than to trophies, and it undoes *"a trophy, not
+>       jewellery"*.
+> - [ ] **`headdress` — the hair is gathered into a half-up knot**, against a
+>       rule that says worn down and loose, NEVER a bun. The horns in it are the
+>       best in the pack, so this is a re-roll worth doing carefully rather than
+>       a discard.
+> - [ ] **The mantle lattice is back in three close crops** — `portrait`,
+>       `headdress`, `expression_strip` — as a regular triangular grid, which
+>       rule 13 forbids by name. **This is the rule arriving and losing**, not the
+>       rule being trimmed. The likely cause is the attached approved front: its
+>       mantle carries faint irregular crazing, and at close crop the model
+>       regularises that into a grid. A photograph beats a paragraph, which is the
+>       oldest finding in `Prompt-Reliability-TODO.md`.
+>
+>       **`mantle_detail` is the proof and the fix.** It was generated from the
+>       same reference and came back correct, because its slot text hammers the
+>       surface. **So any slot where the mantle is large in frame needs the same
+>       emphasis in its own shot text** — the `must_show` rule alone does not beat
+>       the photograph at close crop.
+>
 > ### Open on her, 2026-08-03
 >
 > - [ ] **`02-scale_figure` — re-roll.** First attempt measured **133 cm** against

@@ -178,6 +178,35 @@ unit stills photographer's frame from the same set. Not a rendered picture.
 
 ---
 
+## Cinematic Framing — NARRATIVE slots only
+
+> **Paste with the same slots as Capture, above.** Canonical source:
+> [`../../09-prompt-library/Cinematic-Framing-Block.md`](../../09-prompt-library/Cinematic-Framing-Block.md)
+>
+> **Do NOT paste with reference plates.** Shallow depth of field and an
+> off-centre crop on a materials board is a fault, not a style.
+
+**CAMERA.** Not at chest height and not centred. The subject sits OFF CENTRE and
+the frame is not balanced. Something may run out of frame — a trailing arm, the
+top of a tree. **A film frame crops. A reference plate does not.**
+
+**LIGHT, MOTIVATED AND DIRECTIONAL.** Name where it comes from and let it do
+something — low sun raking through trees, a shaft through a gap, firelight from
+below, a work lamp off frame. Catch a hard rim on a wet edge and throw long
+shadows. Faces sit in bounce rather than in the source. **Flat overcast light
+from nowhere is what a reference plate looks like.**
+
+**DEPTH IN THREE LAYERS.** Something out of focus across a near corner — ferns, a
+branch, a shoulder. The subject sharp in the middle. Separation behind, with
+atmosphere BETWEEN the layers. Anamorphic glass earns its keep in the foreground,
+and a frame with nothing in front of the subject has nothing to render.
+
+<!--
+Added 2026-08-03 from the Captain Jasu lens test. More realism language moved
+nothing; this produced the first frame in the project that reads as a film still
+rather than a costume record.
+-->
+
 ## Anti-synthetic — any slot containing a FACE
 
 > **Paste with slots 1, 2, 3, 4, 5, 6, 7, 11, 13.** Wider than the Capture block: a portrait study or

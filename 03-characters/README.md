@@ -1,5 +1,10 @@
 # Character Bible
 
+> **Picking up the next character?** Read
+> [`NEXT-CHARACTERS-BRIEF.md`](NEXT-CHARACTERS-BRIEF.md) — where everyone stands,
+> what each one is blocked on, and the exact questions to settle before writing
+> their files.
+>
 > **Building a character from scratch? Start with
 > [`Character-Build-Recipe.md`](Character-Build-Recipe.md)** — the order of
 > operations from documents to six boards, with `shada/` as the worked example.

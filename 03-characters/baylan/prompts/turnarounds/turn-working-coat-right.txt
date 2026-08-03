@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS WITH THE LONG COAT — RIGHT SIDE]
 Output file: turn-working-coat-right.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 38172a2b · repo commit 3a72ac7 2026-08-01 18:05
+Prompt version: a25080cf · repo commit d690a36 2026-08-03 16:59
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 3a72ac7, prompt 38172a2b.
+    Working from commit d690a36, prompt a25080cf.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -161,6 +161,16 @@ no lens flare, no vignetting. This is documentation, not cinematography.
 
 === VIEW ===
 The subject is rotated exactly ninety degrees the other way to show their RIGHT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
+
+OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN.
+Their left shoulder, left arm, left forearm, left hand, left hip and left
+thigh are hidden behind the body in this view.
+
+SO: anything the rules place on THEIR LEFT does not appear in this image
+at all. DO NOT move it round to the near side so that it can be seen. DO
+NOT duplicate it onto the right. A near-side limb that carries nothing is
+BARE, and bare is CORRECT — an empty shoulder here is the rules being
+obeyed, not a detail forgotten.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.

@@ -7,6 +7,87 @@ status: "open"
 
 # Captain Jasu — Finish List
 
+> # PICK UP HERE — 2026-08-04
+>
+> **7 images left. Every prompt is current; nothing needs editing before you
+> generate.** Fresh chat each, save under the exact `Output file:` name.
+>
+> ## Attachments — READ THIS, IT CHANGED
+>
+> Three slots now have **their own folder** because they need the akk dog plates.
+> Drag the folder named for the slot, not the parent:
+>
+> | Slot | Drag this folder | Files |
+> |---|---|---|
+> | `04-captaining` | `prompts/attach/field/04-captaining/` | 5 |
+> | `12-akk_together` | `prompts/attach/field/12-akk_together/` | 7 |
+> | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
+> | **everything else** | `prompts/attach/field/` | 3 |
+>
+> ## The 7
+>
+> **Re-rolls — all four failed for a reason that is now fixed in the prompt:**
+>
+> | Paste | Why it failed |
+> |---|---|
+> | `04-captaining.txt` | Drew a **generic dog**. The slot never said what an akk is, and no creature plate was attached. Both fixed |
+> | `07-headdress.txt` | Came back with a **half-up knot** because this slot still carried the *superseded* "swept UP AND BACK, a BUILT shape" hair. My miss. Now says worn down |
+> | `06-portrait.txt` | **Symmetric horns** and a mantle lattice. Neither was mentioned in the slot, so both were left to `must_show` and lost |
+> | `08-expression_strip.txt` | Same two faults, same fix |
+>
+> **Not yet generated:**
+>
+> | Paste | Note |
+> |---|---|
+> | `05-candid.txt` | Generated once and came back a near-black night frame — **the slot asked for it** ("crouched by the fire"). Now daylight or dusk. The pose was right; keep it |
+> | `12-akk_together.txt` | Crest **level with the bottom of her belt**. Seven attachments |
+> | `16-tone_collage.txt` | Last — it reads better once the rest exist |
+>
+> **Already correct, leave alone:** all 5 turnarounds · `scale_figure` ·
+> `blaster` · `whistle_and_leash` · `mantle_detail` · the three `material_*` ·
+> `hero` · `camp_day`.
+>
+> > **`camp_day` got the akk right by luck** — its slot never described the
+> > creature either, and it happened to produce a reptile seven minutes before
+> > `captaining` produced a dog. It now has the plates attached if you ever
+> > re-roll it.
+>
+> ## Then
+>
+> ```bash
+> source .venv/bin/activate
+> python tools/board-generator/generate.py captain-jasu --validate   # expect clean
+> python tools/board-generator/generate.py captain-jasu
+> ```
+>
+> ## Still open on her, and neither needs an image
+>
+> - [ ] **No `Character-Lock.md`.** Her drift-rejection list — Imperial officer,
+>       samurai, and the "captain makes her tall" failure — lives only in
+>       `outfits.yaml`. Shada's lock is the model. **Offered and not yet done.**
+> - [ ] **No `promo-data.yaml`**, so `--promo` will fail until it exists.
+> - [ ] **The rank-marking question**, which sets the rank language for Nyx,
+>       Yaslo Bis, Reya Fenn and the four mercenaries. Still the highest-leverage
+>       open item in the production.
+>
+> ## Elsewhere, logged tonight
+>
+> - [ ] **Drive is serving the WRONG turnarounds.** Her Drive folder still holds
+>       the superseded v1 set — ankle boots, belt whistle. `rclone` is not
+>       installed, so `./tools/publish-to-drive --go` cannot run yet. **First job
+>       once it is.** See [`Drive-Publishing.md`](Drive-Publishing.md).
+> - [ ] **The akk dog's own document contradicts itself on horns.** The anatomy
+>       table, measured off the rig, says *"three to four swept-back horns above
+>       each eye"*; the design-rules section says *"no fantasy horns"*. Her
+>       `Character.md` leans on the second to argue her trophy horns cannot come
+>       from her akk. **The story may still be right; the stated reason is not.**
+> - [ ] **Actor headshots are public** and `CAST-REFERENCE.md` warned about
+>       exactly this case. Open decision, with the consent question stated there.
+> - [ ] **A live webmail password sits in plaintext** in the shared `Master org`
+>       Drive sheet. Rotate it. Nothing to do with this repo.
+>
+> ---
+>
 > ## THE FRONT IS APPROVED, v2 — 2026-08-03. Everything below runs against it.
 >
 > `source/artwork/turn-field-front.png` carries **tall boots with a low heel,

@@ -65,7 +65,9 @@ affected"; they show collar, zip, vest, shoulder and chest.
    the prompt's `Output file:` line. The boards look them up by name.
 
 **What to attach: every image in `03-characters/shada/prompts/attach/working/`.**
-Six files. Do not curate the list, and do not type your own — that folder is
+SEVEN files as of 2026-08-03, when the WESTAR-35 reference was added — it was
+six before, so any count written down elsewhere is stale. Do not curate the
+list and do not type your own; that folder is
 generated from the same list the prompt declares, so it cannot drift. Five
 different hand-written attachment lists existed in this repository on
 2026-08-03 and none of them matched the prompt.
@@ -102,7 +104,7 @@ the far side. Roll three fixed both, and only because the correction line named
 both faults at once. **Each roll fixes what the correction names and quietly
 trades away something it does not.** Name every open fault, every time.
 
-Attach **all six**. Check each one for:
+Attach everything in the folder. Check each one for:
 
 - **The far side stays hidden.** In `left`, her right forearm and right thigh are
   behind her — so **no gauntlet and no blaster**, and her near forearm is BARE.
@@ -135,11 +137,10 @@ CHECK line 2, *"Plates SMALL: TWELVE across a flank panel, not six big ones."*
 it is an attached reference for all of them. Getting it right first means the
 rest inherit a corrected plate.
 
-**Attach FIVE files, not six** — everything in `prompts/attach/working/` except
-`2-plate-shape-and-finish-not-size.png`, which *is* the image you are making. The
-prompt's own URL block declares exactly these five. `MANIFEST.txt` now derives
-every such exception; there are four in total, and until 2026-08-03 it named only
-one.
+**Attach everything EXCEPT** `2-plate-shape-and-finish-not-size.png`, which *is*
+the image being made. The prompt's own URL block declares the rest. `MANIFEST.txt`
+derives every such exception; there are four in total, and until 2026-08-03 it
+named only one.
 
 **When you regenerate it, put MORE and SMALLER plates in frame.** The current one
 shows about fourteen at macro scale, which teaches "big plates" to every

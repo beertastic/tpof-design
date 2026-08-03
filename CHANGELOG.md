@@ -23,6 +23,45 @@ All notable production-bible changes are recorded here.
 
 ## Unreleased
 
+### Added
+
+- **A standing rule on cast data, 2026-08-03 — it stays in Google Drive and
+  never enters this repository.** `11-production-tracking/Cast-Data-Source.md`.
+
+  A proposal to import the production's Drive data — measurements and hundreds of
+  other points — ran into the fact that **this repository is public**, and public
+  deliberately: every prompt's `raw.githubusercontent.com` fallback resolves only
+  on a public repo, and `regen` treats a failed push as a hard error for that
+  reason.
+
+  **The decisive detail:** the cast includes at least one performer with a
+  chaperone budgeted, and their full body measurements are in the Drive sheet.
+  A git push is not reversible by a later commit.
+
+  So the split is: **character specifications here, performer data in Drive.**
+  *"Captain Jasu is 155 cm"* is a design fact about a fictional person. The
+  measurement record of the performer playing her is not, even though one derives
+  from the other. The costume department uses both and gets them from two places.
+
+  **What the Drive check gave back, without importing anything:**
+  - **"Charlie" is confirmed a cast member and never a character** — it appears
+    in the cast payment schedule. `Open-Questions.md` had resolved this by
+    inference on 2026-07-30; it is now settled outright.
+  - **Jasu's 155 cm is confirmed by casting** — her performer is 5 ft 1 in, which
+    is 154.9 cm. A Drive sheet rounds the same figure to 156; that is a rounding,
+    not a disagreement, and the 2026-08-03 recast was right.
+  - **Baylan at 198 cm confirmed.**
+  - **Merc 1 is cast as the largest performer in the company**, consistent with
+    the Wookiee and with the large mercenary in the Vala fight — though it does
+    not settle that open question, which is about cost and prosthetics.
+
+  **Two things flagged that this repository does not own:** a live webmail
+  password sitting in plaintext in a shared Drive sheet, and the fact that the
+  named actor headshots already committed here are public — the exact case
+  `CAST-REFERENCE.md` warned about, now recorded there as an open decision with
+  the consent question stated and the point that removal would need a history
+  rewrite rather than a `git rm`.
+
 ### Changed
 
 - **Captain Jasu's boots are TALL, decided 2026-08-03 from an A/B** —

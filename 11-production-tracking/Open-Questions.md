@@ -7,6 +7,10 @@
       name recorded as a character by mistake. **Superseded 2026-08-01:** the
       character is `Yaslo Bis`. `Loryl` was itself a stale name from a pre-v10
       draft and has been removed too.
+      **CONFIRMED OUTRIGHT 2026-08-03**, no longer an inference: the name appears
+      in the production's cast payment schedule alongside other performers. It was
+      always a person, never a part. See
+      [`Cast-Data-Source.md`](Cast-Data-Source.md).
 - [x] ~~What is the forest world's canonical name?~~ **Never named on screen.** Deliberate.
       Do not invent one. 2026-07-30.
 - [x] ~~Are “Slaves” and “Escapees” one label?~~ **Keep both** — captivity is as much their

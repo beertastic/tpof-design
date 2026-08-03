@@ -25,6 +25,37 @@ production inputs, like `source/artwork/`, not regenerable output.
   images are the first thing to reconsider.** Everything else here is text about
   fictional people; this is photographs of real ones.
 
+> ## THE CONDITION ABOVE IS NOW TRUE — OPEN, 2026-08-03
+>
+> **The repository is public.** `github.com/beertastic/tpof-design`, verified
+> 2026-08-03. So the warning written into this document has been triggered, and
+> the named performer photographs in `reference/actor/` are publicly fetchable
+> today.
+>
+> **It is public on purpose.** Every generated prompt carries
+> `raw.githubusercontent.com` URLs as a fallback for when attachments do not
+> arrive, and those resolve only on a public repository. This is not an oversight
+> to quietly correct — the generation workflow depends on it, and `tools/regen`
+> treats a failed push as a hard error for that reason.
+>
+> **So it is a real decision with a real trade-off, and it is the Production
+> Designer's.** Flagged, not acted on, 2026-08-03. The question is narrow:
+>
+> - **Does the consent on file cover *public* use?** Consent to use a photograph
+>   as a design reference within a production is not the same as consent to host
+>   it at a permanent public URL. If it was not asked in those terms, it was not
+>   given in those terms.
+> - **If not, removing the files is not enough.** They would remain in git
+>   history, in every clone, and in GitHub's caches. That needs a history rewrite
+>   and a force push — a deliberate act, not a `git rm`.
+> - **The packs still work without them.** Every prompt is written to generate
+>   from description alone, as Shada's did. Losing the photographs costs likeness
+>   accuracy, not the ability to work.
+>
+> Cast measurements and every other kind of performer data are governed
+> separately and are **not in this repository at all** — see
+> [`../11-production-tracking/Cast-Data-Source.md`](../11-production-tracking/Cast-Data-Source.md).
+
 If consent for AI use is not given, the character can still be designed — the
 prompt packs are written to work from description alone, as Shada's did.
 

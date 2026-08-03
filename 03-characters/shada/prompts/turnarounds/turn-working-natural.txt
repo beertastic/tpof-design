@@ -1,10 +1,10 @@
 [SHADA — TURNAROUND — INFILTRATION DRESS — NATURAL POSE]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: bb6aa54d · repo commit c586441 2026-08-03 12:00
+Prompt version: ff4ff54c · repo commit 336cb8a 2026-08-03 12:59
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit c586441, prompt bb6aa54d.
+    Working from commit 336cb8a, prompt ff4ff54c.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -347,9 +347,16 @@ thumbnail. These are fine scale, not large plates: one flank panel
 alone carries well over a hundred, and a patch reads as a dense field of many
 small pieces rather than a dozen big ones. The gauntlet is outside this rule —
 it is a plain shell, not a field of plates. A regular equilateral
-hexagon with six straight sides and slightly soft, rounded, uneven edges — cut
-and cast by hand, never machine-crisp. Not round, not a coin, not a teardrop,
-not a fish scale.
+hexagon with six straight sides and slightly soft, rounded edges. EVERY PLATE
+IS THE SAME HEXAGON — identical in size and outline, one master repeated. The
+outlines never vary plate to plate, are never wonky or hand-cut, and are never
+five-, seven- or eight-sided. Not round, not a coin, not a teardrop, not a fish
+scale.
+
+Said positively 2026-08-03. This read "uneven edges — cut and cast by hand,
+never machine-crisp", and the generator obeyed it: the plates came back as
+irregular polygons at varying sizes. The plates are a printed part. It is the
+FINISH that is hand-worn, never the outline.
 
 Surface: rough and pitted, like sand-cast or corroded metal. A shallow raised
 lip runs around the rim of each plate. Dark iron-grey, almost black, going to

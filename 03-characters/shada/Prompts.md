@@ -294,9 +294,16 @@ thumbnail.** These are **fine scale, not large plates**: one flank panel
 alone carries well over a hundred, and a patch reads as a dense field of many
 small pieces rather than a dozen big ones. The gauntlet is outside this rule —
 it is a plain shell, not a field of plates. A **regular equilateral
-hexagon** with six straight sides and slightly soft, rounded, uneven edges — cut
-and cast by hand, never machine-crisp. Not round, not a coin, not a teardrop,
-not a fish scale.
+hexagon** with six straight sides and slightly soft, rounded edges. **EVERY PLATE
+IS THE SAME HEXAGON — identical in size and outline, one master repeated.** The
+outlines never vary plate to plate, are never wonky or hand-cut, and are never
+five-, seven- or eight-sided. Not round, not a coin, not a teardrop, not a fish
+scale.
+
+*Said positively 2026-08-03. This read "uneven edges — cut and cast by hand,
+never machine-crisp", and the generator obeyed it: the plates came back as
+irregular polygons at varying sizes. The plates are a printed part. It is the
+FINISH that is hand-worn, never the outline.*
 
 **Surface:** rough and pitted, like sand-cast or corroded metal. A shallow raised
 lip runs around the rim of each plate. Dark iron-grey, almost black, going to
@@ -595,8 +602,11 @@ and one thigh. **There is no breastplate and no full torso panel anywhere
 in this production.**
 
 **SIX STRAIGHT SIDES ON EVERY PLATE.** Never round, never a coin, never a
-teardrop, never a fish-scale shape. **Tessellated, not overlapped** — the plates
-meet edge to edge in a single flat plane and never lap over one another.
+teardrop, never a fish-scale shape, and **never seven or eight sides**.
+**EVERY PLATE IS THE SAME HEXAGON** — one printed master, identical in size and
+outline across the whole patch. The outlines do not vary and are not hand-cut.
+**Tessellated, not overlapped** — the plates meet edge to edge in a single flat
+plane and never lap over one another.
 
 **EVERY PLATE CARRIES A RAISED SNAKE SWIRL, AND THIS IS THE POINT OF THE IMAGE.**
 A single continuous line curling and winding across the plate face in the shape of

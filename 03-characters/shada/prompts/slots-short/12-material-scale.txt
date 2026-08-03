@@ -1,7 +1,7 @@
 [SHADA — THE SALVAGED METAL SCALES]
 Output file: material-scale.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 6afb1200 (short) · repo commit c586441 2026-08-03 12:00
+Prompt version: 1b25de0d (short) · repo commit 336cb8a 2026-08-03 12:59
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -51,8 +51,11 @@ and one thigh. There is no breastplate and no full torso panel anywhere
 in this production.
 
 SIX STRAIGHT SIDES ON EVERY PLATE. Never round, never a coin, never a
-teardrop, never a fish-scale shape. Tessellated, not overlapped — the plates
-meet edge to edge in a single flat plane and never lap over one another.
+teardrop, never a fish-scale shape, and never seven or eight sides.
+EVERY PLATE IS THE SAME HEXAGON — one printed master, identical in size and
+outline across the whole patch. The outlines do not vary and are not hand-cut.
+Tessellated, not overlapped — the plates meet edge to edge in a single flat
+plane and never lap over one another.
 
 EVERY PLATE CARRIES A RAISED SNAKE SWIRL, AND THIS IS THE POINT OF THE IMAGE.
 A single continuous line curling and winding across the plate face in the shape of

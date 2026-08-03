@@ -1,0 +1,29 @@
+[CAPTAIN-JASU — THE RIBBED KNIT AND THE WOVEN CLOTH]
+Output file: material_cloth.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: e1ba9d6e (short) · repo commit b886455 2026-08-03 16:40
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
+  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
+  THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Extreme close-up macro of two fabrics side by side on a plain neutral surface,
+filling the frame: the heavy RIBBED KNIT of the base layer, and the DENSE WOVEN
+CLOTH of the mantle and leg panels. The weave clearly visible at thread level.
+
+THE COLOUR IS DEEP BROWN AND DARK UMBER, MUTED. Never Imperial grey, never
+black, never blue-black. Good material, expensive, and never smart — this is
+quality cloth that has been in a forest for weeks. Dye faded unevenly across the
+shoulders, mended at one edge with mismatched thread, mud worked into the fibres
+and dried. A material sample, not a garment.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

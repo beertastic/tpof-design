@@ -1,34 +1,31 @@
 ---
 title: "Captain Jasu — Image Prompt Pack"
 asset_id: "CHAR-CAPTAIN-JASU"
-version: "0.1"
-status: "scaffold"
+version: "1.0"
+status: "ready"
 faction: "Mercenaries"
 governing_documents:
   - ../../01-production-design/Production-Design-Bible-v1.0.md
   - ../../04-factions/mercenaries/Faction.md
+  - ../../08-species/akk-dog/Creature.md
   - Character.md
 ---
 
 # Captain Jasu — Image Prompt Pack
 
-> **SCAFFOLD — not ready to generate from.**
-> The shared style rules below are complete and correct. The character-specific
-> content is not: every `**NEEDS:**` marker is an unanswered design question.
-> Fill in `Character.md` first, then complete the slots below.
+> **Written 2026-08-03 from `outfits.yaml`, which was already complete while this
+> file was still a scaffold with `NEEDS:` markers and ship corridors she is never
+> in.** Her nine `must_show` rules are the source of truth; everything here is the
+> per-slot shot text those rules attach to.
+>
+> **Paste from `prompts/slots-short/` and `prompts/turnarounds-short/`**, never
+> from `prompts/`. See [`../Character-Build-Recipe.md`](../Character-Build-Recipe.md).
 
-**Faction:** Mercenaries  
-**Scenes:** 9, 19, 20, 23  
-**Primary environment:** Forest Mercenary Camp  
-**Brief:** Mercenary captain and field commander.
-
----
-
-## How to use
-
-Each numbered slot is a complete, self-contained prompt. Paste **Style**, **Do Not**, **Character Constants**, then a single slot. Save the result to the exact filename given, in `03-characters/captain-jasu/source/artwork/`.
-
-Everything needed is written out below — no other file has to be read first.
+**Faction:** Mercenaries
+**Scenes:** 9, 19, 20, 23, 24, 25 — her only costume
+**Primary environment:** Forest mercenary camp, and forest
+**Brief:** Mercenary captain. Twenty-eight, 150 cm, and the smallest adult in the
+film. **The animal is her rank.**
 
 ---
 
@@ -44,248 +41,406 @@ faded paint, replaced components, grime, evidence of servicing.
 
 Costume is functional workwear first — real, buildable construction with
 believable seams and fasteners, no floating armour, nothing purely decorative.
-Occupation should be readable from silhouette alone. Materials: ballistic weave,
-quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
-technical textiles, plastoid plates, insulated work fabric, industrial rubber,
-brushed alloy.
-
-Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
-olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
-forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
-yellow) used sparingly. Bright colour only for rank, warning markings, cultural
-identity or a significant personal item.
 
 Lighting motivated by believable sources only: natural sunlight, overcast sky,
-work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+dusk, mist, campfire and firelight, and hand-carried work lamps.
 
-Camera: naturalistic composition over heroic posing. Restrained colour grade,
-subtle atmospheric haze, realistic depth of field, fine film grain, practical
-lens behaviour. Subject engaged in meaningful activity rather than looking at
-camera unless specified. The world feels larger than the people within it.
+**JASU IS ALWAYS OUTDOORS.** Wet temperate forest, forest clearing, or the
+mercenary camp among the trees. No corridors, no bulkheads, no control panels, no
+buildings, no crowds, no desert, no sand.
 
 ---
 
 ## Do Not — paste with every prompt
 
-No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
-corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
-shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
-Roman armour, modern tactical/SWAT gear.
+No Caribbean or Earth pirate costume, tricorn silhouettes, corsets, Renaissance
+or medieval clothing, fantasy shoulder pads, swashbuckler aesthetics, Roman
+armour, modern tactical or SWAT gear.
 
 No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
-ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
-decorative technology. No gadget overload.
+ceremonial equipment. No oversized or stylised weapons. No glowing decorative
+technology. No datapad.
 
-No glamour posing, no sexualisation, no fashion-editorial lighting.
-
-No text, logos, watermarks, captions, labels or lettering in the image.
-
-No crushed blacks — the silhouette must stay separated from the background.
+No text, logos, watermarks or lettering in the image. No crushed blacks.
 
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic or waxy skin.
 
 ---
 
-## Species rendering — paste if non-human
-
-Alien species must feel biologically plausible and grounded in live-action Star
-Wars. Favour practical make-up and prosthetic effects over exaggerated digital
-fantasy. Costume adapts to anatomy without sacrificing practicality.
-
----
-
-## Character Constants — paste with every prompt
-
-> **INCOMPLETE.** Fill this from `Character.md` and `Character-Lock.md` before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
-
-Captain Jasu. Mercenary captain and field commander.
-
-**NEEDS:**
-
-- Species, age range, gender presentation
-- Build and silhouette — the shape read at distance, in one line
-- Distinguishing physical traits
-- Costume: layers, construction, what is protected and what is exposed, and why
-- Equipment carried, and what is deliberately absent
-- Movement and body language
-- The one sentence that separates them from everyone else in their faction
-
----
-
 ## Character-specific rejections
 
-> The Shada lock carries a `Design Drift Prevention` list — the specific wrong directions a generator will drift toward for *this* character. Write the equivalent for Captain Jasu. It is the single most useful part of the pack.
+**Three depictions will try to arrive here and all three are wrong.**
 
-**NEEDS:** five to eight specific rejections.
+1. **NOT AN IMPERIAL OFFICER.** No flat grey-green uniform, no rank plaque, no
+   code cylinders, no peaked cap, no jodhpurs, no jackboots, no insignia of any
+   kind. She commands eight people and a dog. There is no empire behind her.
+2. **NOT A SAMURAI AND NOT A JEDI.** No lacquered lamellar plate, no laced armour
+   panels, no flaring shoulder guards, no horned helmet, no face mask, no
+   topknot, no robes, no sash-wrapped front, no sword. The man beside her in the
+   finale is a Jedi hiding as a mercenary, and his design depends on nobody else
+   in frame reading as one.
+3. **NOT PHYSICALLY IMPOSING.** The word "captain" pulls toward someone tall,
+   broad and weathered. Refuse it. She is twenty-eight, 150 cm, slight and
+   fine-boned, and her own animal outweighs her.
+
+**And never a big head.** She is small; her head is in NORMAL ADULT PROPORTION to
+her body. Never oversized, never a caricature, never a child's proportions.
+
+*What is true instead:* she has bought the SHAPE of authority — closed high
+collar, square shoulder, cinched waist — because she has none of the real thing.
+
+---
+
+## Realism — paste with EVERY prompt, without exception
+
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, scuffs, uneven wear, slight asymmetry,
+threads out of place, edges that are not quite straight.
+
+Reject entirely the look of computer-generated imagery. If the result looks
+manufactured rather than photographed, it has failed.
+
+---
+
+## Capture — NARRATIVE slots only
+
+> **Paste with slots 1, 3, 4, 5, 12, 16** — in-scene frames.
+>
+> **Do NOT paste with reference plates** (2, 6–11, 13–15). Those want flat, even
+> documentation light and sharpness across the whole frame. Shallow depth of
+> field on a materials board is a fault, not a style.
+
+Shot on **anamorphic lenses** in the manner of the original Star Wars trilogy.
+Oval, horizontally-stretched bokeh in out-of-focus highlights. Gentle barrel
+distortion. Softer toward the frame edges while the focal plane stays sharp.
+Shallow depth of field with smooth falloff. Mild chromatic aberration at
+high-contrast edges. Slight vignetting.
+
+The response of **35 mm motion picture negative** — fine organic grain in shadows
+and midtones rather than added uniformly. Gentle halation around bright sources.
+Highlight rolloff that compresses rather than clips. Rich shadow that retains
+detail instead of going black. Colour restrained, filmic, desaturated toward the
+muted end. No digital vibrance, no teal-and-orange grade.
+
+---
+
+## Cinematic Framing — NARRATIVE slots only
+
+> **Paste with slots 1, 3, 4, 5, 12, 16.** Canonical source:
+> [`../../09-prompt-library/Cinematic-Framing-Block.md`](../../09-prompt-library/Cinematic-Framing-Block.md)
+
+**CAMERA.** Not at chest height and not centred. The subject sits OFF CENTRE and
+the frame is not balanced. Something may run out of frame — a trailing arm, the
+hindquarters of an animal, the top of a tree. **A film frame crops. A reference
+plate does not.**
+
+**LIGHT, MOTIVATED AND DIRECTIONAL.** Name where it comes from and let it do
+something — low sun raking through trees, a shaft through a gap, firelight from
+below, a work lamp off frame. Catch a hard rim on a wet edge and throw long
+shadows. Faces sit in bounce rather than in the source. Flat overcast light from
+nowhere is what a reference plate looks like.
+
+**DEPTH IN THREE LAYERS.** Something out of focus across a near corner — ferns, a
+branch, a shoulder. The subject sharp in the middle. Separation behind, with
+atmosphere BETWEEN the layers.
+
+---
+
+## Anti-synthetic — any slot containing a FACE
+
+> **Paste with slots 1, 2, 3, 4, 5, 6, 7, 8, 12, 16.**
+
+A real human face with real skin: visible pores, fine lines, uneven tone,
+asymmetry between the two sides. Stray hairs out of place. Slight shine where
+skin is oily and matte where it is not. Never smooth, never poreless, never
+airbrushed, never symmetrical.
+
+**Take the likeness from the actor photograph and from nothing else.** Not from
+the costume reference, which is a full-length photograph of a woman in exactly
+this costume and is NOT a face reference.
+
+---
+
+## Costume rules
+
+> **Applies to slots 1, 2, 3, 4, 5, 12, 16** — images showing the whole costume.
+
+The full `must_show` set from `outfits.yaml` attaches here. In brief, and the
+long form governs:
+
+- **A SECOND SKIN from collar to ankle** in heavy ribbed knit and dense woven
+  cloth. No volume anywhere. Cut for an acrobat.
+- **A stiff dark RIBBED MANTLE** over the shoulders, standing proud of the body,
+  reaching past the shoulder points before angling down over the upper arm, and
+  rising at the back into a stand collar closed at the throat. **The signature.**
+- **A wide heavy belt** with plain working hardware, waist pulled in hard.
+- **Narrow split panels** hanging straight over the skin-tight leg; textured
+  panels down the outer thigh and over the knee.
+- **Hard bracers** on the forearms. **Tall boots** close to the calf, flat and
+  practical, the best in the crew.
+- **PALE CURVED BONE HORNS set into swept-up dark hair** — asymmetric, worn,
+  matte, yellowed. Trophies from what the animal kills. **The only pale thing on
+  her**; if the pallor has spread anywhere else the image is wrong.
+- **The A180 blaster on her RIGHT hip.** A worn whistle on a cord at her throat
+  and a heavy leash coiled at her belt.
+- **Deep browns and dark umber, muted** — never Imperial grey, never
+  black-on-black.
 
 ---
 
 # Prompt slots
 
-## 1. `portrait.png` — hero portrait
+## 1. `hero.png` — the captain
 **Tall portrait, 9:16.**
 
-Waist-up portrait of Captain Jasu in forest mercenary camp, three-quarter angle, engaged in the moment rather than posing. Neutral working expression.
+Captain Jasu standing in the mercenary camp among the trees, weight settled,
+looking off frame at something she has already decided about. The whole costume
+legible. She is not posing and she is not performing — that comes later, for the
+crew.
 
-**NEEDS:** face, age range, species, build, hair, costume upper layers, what they are reacting to.
+**She must read SMALL.** Nothing in frame should flatter her height. If she looks
+like a tall woman photographed close, the image has failed.
 
-## 2. `environment.png` — in their environment
-**Tall portrait, 9:16.**
-
-Full-figure shot of Captain Jasu in evening and early-morning camp, forest pursuit, in motion or mid-task, read at the scale of the location around them.
-
-**NEEDS:** silhouette, posture, gait, full costume, what they are doing here.
-
-## 3. `industrial_a.png` — ship corridor
-**Tall portrait, 9:16.**
-
-Captain Jasu in a cramped, lived-in starship corridor — exposed pipework, access panels, mismatched paint, service markings, scuffed decking. Lit by bulkhead fixtures and warning lights.
-
-**NEEDS:** how this character occupies an interior; do they belong here or not?
-
-## 4. `industrial_b.png` — crew or group space
-**Tall portrait, 9:16.**
-
-Captain Jasu in a cramped shared compartment among their group, lit by work lamp and screen glow. Salvaged fittings, crates, worn webbing, visible repairs.
-
-**NEEDS:** their standing within the group; where they sit and who they sit near.
-
-## 5. `industrial_c.png` — working interior
-**Tall portrait, 9:16.**
-
-Captain Jasu in a dim hold or storage space, full body visible, silhouette clear. Stacked salvage, tie-downs, fuel staining, repaired plating. Single overhead work lamp with strong falloff, blacks kept open.
-
-**NEEDS:** what task brings them here.
-
-## 6. `detail_portrait.png` — close detail
+## 2. `scale_figure.png` — how small she actually is
 **Portrait, 3:4.**
 
-Close portrait of Captain Jasu, head and shoulders, lit at a grazing angle to reveal skin and material texture. Practical make-up and prosthetic quality, not digital fantasy. Soft overcast daylight, no costume detail competing.
+Captain Jasu standing beside a plain 1.8 m human reference figure on a neutral
+studio grey background, both full length, both feet on the same ground, even flat
+lighting. A costume department scale plate, not a scene.
 
-**NEEDS:** the single distinguishing physical trait this image exists to show.
+**SHE IS 150 cm AND THE FIGURE IS 180 cm.** The top of her head reaches roughly
+the figure's eyebrows — she is a full head shorter. **This is the single most
+important plate for this character**, because every other image will drift her
+taller. No dramatic angle, no low camera, nothing that flatters.
 
-## 7. `species_strip.png` — species and ancestry study
-**Wide banner, 21:9.**
+## 3. `camp_day.png` — Scene 9, the briefing
+**Tall portrait, 9:16.**
 
-Horizontal study strip, three to four separate views on a neutral, evenly lit background. Make-up and prosthetics reference, not a dramatic image. Consistent skin tone and detail density across every view.
+Evening at the forest mercenary camp. Captain Jasu briefing her mercenaries about
+the crashed ship, one hand resting on the akk dog beside her while she talks.
+Crew half-listening around her in the background, out of focus.
 
-**NEEDS:** species; which anatomical details need reference views. Omit this slot entirely if the character is baseline human.
+**THE AFFECTION IS SINCERE AND THE INTIMIDATION IS A BY-PRODUCT.** She is not
+performing here — this is the one moment in the film where she is not. The animal
+is calm and enjoying it. The scene is cold in effect precisely because nothing
+about it is staged.
+
+**THE AKK DOG:** a very large dog, 0.85 m at the highest point of its back —
+**its shoulder crest is level with the bottom of her belt.** Warm red-brown hide,
+coarse overlapping plates and a spiked crest over the neck and shoulders, large
+round black eyes, swept-back horns above each eye, broad splayed feet with long
+pale claws.
+
+## 4. `captaining.png` — giving an order
+**Tall portrait, 9:16.**
+
+Early morning, forest. Captain Jasu directing the pursuit — mid-instruction, arm
+out, pointing a direction, mercenaries moving off in the background to do it. The
+akk dog at her hip.
+
+**AUTHORITY WITHOUT PHYSICAL PRESENCE.** She is the smallest person in frame and
+plainly the one in charge, and the reason is standing next to her. Everyone
+else's body language is deference; hers is not a performance of command, it is
+the flatness of somebody who expects to be obeyed.
+
+## 5. `candid.png` — off duty, unobserved
+**Tall portrait, 9:16.**
+
+Captain Jasu alone at the edge of the camp, not aware of being watched. Sitting
+on a crate or crouched by the fire, hands doing something small and ordinary —
+checking the leash, working a knot, warming her hands.
+
+**THIS IS THE ONLY IMAGE WHERE SHE IS TWENTY-EIGHT.** Not a captain, not
+composed. Tired, small, and much younger than she is allowed to look in front of
+the crew. No blaster in her hand, no command, no audience.
+
+## 6. `portrait.png` — hero portrait
+**Portrait, 3:4.**
+
+Head and shoulders. Even, flat reference lighting on a neutral background. Direct
+and unsmiling, eyes to camera. Casting and make-up reference, not a dramatic
+image. The mantle and the stand collar visible at the bottom of frame, the
+headdress complete at the top.
+
+## 7. `headdress.png` — the bone horns
+**Portrait, 3:4.**
+
+Close study of the headdress from a three-quarter rear angle, showing how the
+horns are set into the hair. Even flat lighting, neutral background.
+
+**HER HAIR** is long and dark, swept UP AND BACK off the face into a large rolled,
+worked mass held high on the head, the length falling loose behind and to the
+sides. A BUILT shape, not a hairstyle anyone maintains daily.
+
+**SET INTO IT, PALE CURVED HORNS** — bone or bone-coloured, smooth, tapering to
+points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,
+shorter points on the other. **ASYMMETRIC.** Pale against very dark hair, and
+that contrast is the whole effect.
+
+**THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS.** Worn, matte and yellowed with
+age. Never polished, never carved, never set in metal. A trophy, not jewellery.
+**NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band.** Nothing covers her
+face or her brow.
 
 ## 8. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 
-Horizontal strip of four head-and-shoulders expressions of the same face, evenly lit and consistently framed. Same lighting, same angle, same detail in every panel — reference-sheet evenness, not four dramatic portraits.
+Horizontal strip of four head-and-shoulders expressions of the same face, evenly
+lit and consistently framed: (1) flat command neutrality — the resting state;
+(2) genuine warmth, which she only shows to the animal; (3) cold assessment of a
+person who has become a problem; (4) the moment in the finale when she spends
+something she loves. Restrained throughout. Same lighting, same angle, same scale
+in every panel.
 
-**NEEDS:** the four emotional states that define this character's range.
+**A CONCEALED CLOSURE, NEVER A VISIBLE ZIP.** No coil zip, no zip tape, no slider.
 
-## 9. `weapon_primary.png` — hero prop — primary
-**Wide banner, 3:1.**
-
-Product-reference layout of the character's primary weapon or tool on a neutral surface, evenly lit. Repaired grip, scratched finish, replacement components, field repairs. Mechanically believable, no ornament, no engraving.
-
-**NEEDS:** what the weapon or primary tool is, and its history of use.
-
-## 10. `weapon_secondary.png` — hero prop — secondary
+## 9. `blaster.png` — the A180
 **Square, 1:1.**
 
-Product-reference layout of a secondary weapon or signature tool on a neutral surface, evenly lit. Evidence of long-term use and modification.
+Product-reference layout of the A180 blaster pistol on a neutral surface, lit
+evenly, side-on and filling the frame — the specific in-universe model, not a
+generic sidearm. **ONE WEAPON, ALONE IN FRAME.**
 
-**NEEDS:** what the second item is — or delete this slot if they carry one thing.
+Long-barrelled, angular, industrial. Well maintained and clean where it matters,
+worn at the contact points. **This is the one thing she services properly**, and
+it should look it against the rest of her kit. Weathered, never factory fresh. No
+scope, no glowing elements, no ornament.
 
-## 11. `utility.png` — kit layout
+## 10. `whistle_and_leash.png` — her instruments of command
 **Square, 1:1.**
 
-Overhead flat-lay of Captain Jasu's complete carried kit on a worn surface, laid out in the order that person would keep it. Every item shows use and repair. Even, flat reference lighting.
+Flat-lay of the whistle and the leash on a worn surface, evenly lit, filling the
+frame. **A properties department reference photograph** of two small hand props
+built for a costume.
 
-**NEEDS:** the full kit list, and explicitly what they do *not* carry — the absences characterise as much as the contents.
+A plain worn metal whistle on a dark cord, small and unremarkable and handled to
+a shine at the mouthpiece. Beside it a heavy leash — thick worn strap, a serious
+snap hook, industrial hardware, repaired at least once.
 
-## 12. `maintenance.png` — character at work
+**THESE ARE THE TWO OBJECTS HER AUTHORITY ACTUALLY RUNS ON**, and both are for the
+animal and neither is a weapon. They must read as equipment used daily for years.
+**Nothing else in frame.**
+
+## 11. `mantle_detail.png` — the signature
+**Square, 1:1.**
+
+Close crop of the shoulder mantle from a three-quarter angle: how it stands proud
+of the body, reaches past the shoulder point before angling down over the upper
+arm, and rises at the back into a stand collar closed at the throat. Even flat
+lighting.
+
+The RIBBING running through it, the stiffness of the material, the edge finish,
+and how it sits away from the ribbed base layer underneath. **This is the shape
+that reads at distance and the one thing a viewer will remember.** Faded across
+the top where the weather hits it.
+
+## 12. `akk_together.png` — the animal is her rank
 **Tall portrait, 9:16.**
 
-Captain Jasu absorbed in an ordinary, unhurried task that reveals character — repairing, checking, treating, preparing. Not looking up. Warm practical lamp light against a dim salvaged interior. Hands prominent.
+Captain Jasu and the akk dog in wet forest, standing together, her near hand
+resting flat on the crest of its shoulders. Neither looking at camera. Calm, and
+plainly used to each other.
 
-**NEEDS:** the one habitual task that says who this person is.
+**THE SCALE IS THE POINT.** Its shoulder crest is level with the bottom of her
+belt. Her resting hand hangs naturally onto it — she does NOT reach down and she
+does NOT reach up. **IT OUTWEIGHS HER.**
 
-## 13. `materials.png` — materials and palette
-**Landscape, 5:4.**
+**IT LIVES OUTDOORS AND IT LOOKS LIKE IT.** Hide damp and darker where wet, mud on
+the feet and up the forelegs, wet leaf litter stuck to it. The plating is uniform
+in SHAPE and never in CONDITION — scutes chipped and missing, old scarring across
+the shoulders. Its feet are IN the ground, not on it. **The eye is wet and alive:
+a curved cornea with a bright meniscus at the lids and several soft reflections,
+never one hard highlight on a smooth ball.**
 
-Materials reference board: physical swatches and close details on a neutral surface, evenly lit. Matte and low-noise throughout. Dark values must remain separable by texture and value, never merging.
+## 13. `material_cloth.png` — the ribbed knit and the woven cloth
+**Square, 1:1.**
 
-**NEEDS:** this character's material list and their palette subset with hex values, drawn from the Bible palette.
+Extreme close-up macro of two fabrics side by side on a plain neutral surface,
+filling the frame: the heavy RIBBED KNIT of the base layer, and the DENSE WOVEN
+CLOTH of the mantle and leg panels. The weave clearly visible at thread level.
 
----
+**THE COLOUR IS DEEP BROWN AND DARK UMBER, MUTED.** Never Imperial grey, never
+black, never blue-black. Good material, expensive, and never smart — this is
+quality cloth that has been in a forest for weeks. Dye faded unevenly across the
+shoulders, mended at one edge with mismatched thread, mud worked into the fibres
+and dried. A material sample, not a garment.
 
-## 14. `tone-collage.png` — the share sheet
+## 14. `material_leather.png` — belt, bracers and boots
+**Square, 1:1.**
 
-**Tall portrait, 2:3.**
+Extreme close-up macro of worn leather on a plain neutral surface, filling the
+frame. Years of use: the surface cracked and softened, colour worn away at the
+high points, a repaired tear with hand stitching in mismatched thread, one edge
+showing a stitched seam and a rivet.
 
-**Not a board asset.** This is the one image to send someone on a phone when
-they ask what this character looks like. It is a tone and casting reference for
-quick sharing, never a costume authority — nothing is ever matched against it.
+**A MID-TONE DARK BROWN, NOT NEAR-BLACK.** Clearly lighter than the surface it
+lies on — you could read the grain across a room. Not chocolate, not black. If it
+reads as black leather it is wrong in the other direction.
+
+## 15. `material_hardware.png` — buckles and fittings
+**Square, 1:1.**
+
+Extreme close-up macro of a small group of weathered metal fittings on a plain
+neutral surface: two or three buckles, a hook, a strap end, a rivet. Salvaged and
+mismatched — different metals, different ages, one plainly newer than the rest.
+Matte and tarnished, scratched from use. **Nothing polished, nothing reflective,
+and no brass.** Even flat lighting.
+
+## 16. `tone_collage.png` — the share sheet
+**Portrait, 2:3.**
+
+Not a board asset. The one image to send someone when they ask what this
+character looks like. A tone and casting reference, never a costume authority —
+nothing is matched against it.
 
 A single image divided into SIX panels in an irregular contact-sheet layout —
-uneven panel sizes, hard white gutters between them, no captions, no text, no
-numbering. One large panel carries the sheet; the rest are supporting sizes.
+uneven panel sizes, hard gutters, no captions, no text. The same person in the
+same costume in all six.
 
-The same person in the same costume in all six, photographed across one day.
-Vary only setting, light, framing and action:
+**EVERY PANEL IS WET TEMPERATE FOREST OR THE CAMP AMONG THE TREES.** Never desert,
+never a settlement.
 
-1. A full-figure standing shot in open daylight — the whole costume legible.
-2. A tight portrait, head and shoulders, eyes off camera.
-3. A mid shot at work, hands doing something specific.
-4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
-   reads when it goes dark.
-5. A wide frame where the environment dominates and the figure is small.
-6. A detail: hands, a weapon, a fitting, a worn edge.
+1. Full figure in bright overcast daylight in a clearing — the costume legible,
+   and the brightest panel on the sheet.
+2. A tight portrait, eyes off camera, soft daylight.
+3. A mid shot commanding — arm out, mid-order.
+4. With the akk dog, her hand on its crest.
+5. A low-light frame — firelight or a work lamp.
+6. A detail: the horns, the whistle, or her hand on the leash.
 
-CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
-the face must be identical in every panel — same garment, same fastenings, same
-metal in the same places on the same sides. Panels that disagree with each other
-have failed, however good they look individually. If an asymmetric item sits on
-one side in one panel it sits on that same side of the body in all six.
-
-Every panel obeys the costume rules above. The rules do not relax because a
-panel is small.
+**THE SIX PANELS MUST SPAN A REAL RANGE OF LIGHT.** If all six are dark it reads
+as one mood repeated. **CONTINUITY IS THE POINT** — the costume, the hardware, the
+hair and the face identical in every panel, and every asymmetric item on the same
+side of the body throughout.
 
 ---
 
 ## Output checklist
 
-| # | File | Ratio |
-|---|---|---|
-| 1 | `portrait.png` | 9:16 |
-| 2 | `environment.png` | 9:16 |
-| 3 | `industrial_a.png` | 9:16 |
-| 4 | `industrial_b.png` | 9:16 |
-| 5 | `industrial_c.png` | 9:16 |
-| 6 | `detail_portrait.png` | 3:4 |
-| 7 | `species_strip.png` | 21:9 |
-| 8 | `expression_strip.png` | 16:9 |
-| 9 | `weapon_primary.png` | 3:1 |
-| 10 | `weapon_secondary.png` | 1:1 |
-| 11 | `utility.png` | 1:1 |
-| 12 | `maintenance.png` | 9:16 |
-| 13 | `materials.png` | 5:4 |
-
-All land in `03-characters/captain-jasu/source/artwork/`. The board generator places images with a **contain** operation and never crops — supplying the wrong ratio produces letterboxing on the board.
-
-This character has no `board-data.yaml` yet, so `generate.py captain-jasu` will not run. Create one modelled on `03-characters/shada/board-data.yaml`, using the filenames above.
-
-## Continuity rules across the set
-
-- Same face and same distinguishing detail in every image of this character.
-- Same costume build across slots 1–5 and 12. Slots 6–8 are study plates.
-- Props shown in slots 9–11 are the same objects visible on the body in slots 1–5.
-- Nothing gains a decorative element between images.
-
-## Open questions blocking this character
-
-- As captain, this design sets the rank language for the whole mercenary faction. Settle it before Nyx, Yaslo Bis, Reya Fenn and Mercenary Kit — their answers cascade from it.
-- Rank is one of the few sanctioned uses of bright colour in the Bible. Decide whether Jasu carries a rank marking and what it is.
-
-## Revision History
-
-| Version | Date | Status | Notes |
+| Slot | File | Ratio | Board |
 |---|---|---|---|
-| 0.1 | 2026-07-30 | scaffold | Shared style blocks complete; character content pending. |
+| 1 | `hero.png` | 9:16 | Performance |
+| 2 | `scale_figure.png` | 3:4 | Costume |
+| 3 | `camp_day.png` | 9:16 | Performance |
+| 4 | `captaining.png` | 9:16 | Performance |
+| 5 | `candid.png` | 9:16 | Performance |
+| 6 | `portrait.png` | 3:4 | Make-up |
+| 7 | `headdress.png` | 3:4 | Make-up |
+| 8 | `expression_strip.png` | 16:9 | Make-up |
+| 9 | `blaster.png` | 1:1 | Weapons |
+| 10 | `whistle_and_leash.png` | 1:1 | Weapons |
+| 11 | `mantle_detail.png` | 1:1 | Costume |
+| 12 | `akk_together.png` | 9:16 | Weapons |
+| 13 | `material_cloth.png` | 1:1 | Materials |
+| 14 | `material_leather.png` | 1:1 | Materials |
+| 15 | `material_hardware.png` | 1:1 | Materials |
+| 16 | `tone_collage.png` | 2:3 | *(share sheet — no board)* |

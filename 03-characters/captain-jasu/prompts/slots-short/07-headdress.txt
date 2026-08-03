@@ -1,0 +1,36 @@
+[CAPTAIN-JASU — THE BONE HORNS]
+Output file: headdress.png
+Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
+Prompt version: b6ae0d31 (short) · repo commit b886455 2026-08-03 16:40
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
+  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
+  THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Close study of the headdress from a three-quarter rear angle, showing how the
+horns are set into the hair. Even flat lighting, neutral background.
+
+HER HAIR is long and dark, swept UP AND BACK off the face into a large rolled,
+worked mass held high on the head, the length falling loose behind and to the
+sides. A BUILT shape, not a hairstyle anyone maintains daily.
+
+SET INTO IT, PALE CURVED HORNS — bone or bone-coloured, smooth, tapering to
+points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,
+shorter points on the other. ASYMMETRIC. Pale against very dark hair, and
+that contrast is the whole effect.
+
+THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS. Worn, matte and yellowed with
+age. Never polished, never carved, never set in metal. A trophy, not jewellery.
+NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band. Nothing covers her
+face or her brow.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

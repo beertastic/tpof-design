@@ -1,0 +1,132 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
+!!  GENERATOR. It is 5-8x over the working budget; the overflow is
+!!  dropped silently, from the middle, and nothing tells you.
+!!
+!!  PASTE THIS INSTEAD:  prompts/slots-short/14-material_leather.txt
+!!
+!!  The one you want says (short) on its Prompt version line.
+!!  This file is the specification, for reading and editing.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[CAPTAIN-JASU — SLOT 14 — BELT, BRACERS AND BOOTS]
+Output file: material_leather.png
+Aspect ratio: 1:1  (square)
+Prompt version: 496b28f9 · repo commit b886455 2026-08-03 16:40
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit b886455, prompt 496b28f9.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
+
+THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
+A studio photograph of real physical objects on a real surface under real
+light — the kind an art department shoots to document what it has built.
+Flat, even, sharp across the frame. Not a render, not an illustration,
+not concept art, not AI-looking output.
+
+BEFORE YOU GENERATE — GET THE REFERENCES.
+
+Every reference this image must match is listed above as a public URL.
+For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
+MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
+fetched but never handed to the generator is not a reference, and that gap
+is exactly what produced a run of wrong faces on 2026-08-01.
+
+Do NOT ask for a manual attachment when the download and the handoff both
+succeed. Ask only if a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed.
+
+Do not proceed from the text alone. The written description is not sufficient
+on its own and will produce the wrong costume and the wrong face.
+
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.
+Take the COSTUME, materials and colours from the costume photograph.
+Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never
+from the costume photograph, however clearly the face reads in it.
+Where a photograph is silent, or is labelled NOT an authority on
+something, the written text below wins.
+Only the setting, pose and lighting change.
+====================================================================
+THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
+DO NOT DRAW THAT CHARACTER.
+====================================================================
+
+TWO DEPICTIONS WILL TRY TO ARRIVE HERE AND BOTH ARE WRONG.
+NOT AN IMPERIAL OFFICER. No flat grey-green uniform, no tunic with a rank plaque on the chest, no code cylinders at the shoulder, no peaked military cap, no jodhpurs, no gleaming jackboots, no insignia of any kind. She commands eight people and a dog. There is no empire behind her and nothing she wears may imply one.
+NOT A SAMURAI, AND NOT A JEDI. No lacquered lamellar plate, no laced armour panels, no wide flaring shoulder guards, no horned or winged helmet, no face mask, no mempo, no topknot, no robes, no sash-wrapped front, no sword. The man standing beside her in the finale is a Jedi hiding as a mercenary, and his entire design depends on nobody in frame reading as one.
+AND SHE IS NOT PHYSICALLY IMPOSING. She is twenty-eight years old, 150 cm, slight and fine-boned — the smallest adult in the film, and her own animal outweighs her. The word "captain" will pull you toward someone tall, broad and weathered. Refuse it. She is obeyed because of the beast at her side and for no other reason, and an image that makes her physically formidable has destroyed the only idea in the design.
+WHAT IS TRUE INSTEAD: she has bought the SHAPE of authority — a closed high collar, a square shoulder, a long coat and a cinched waist — because she has none of the real thing. It is well made and it has been in a forest for weeks. Battered, faded, mended, and worn by somebody who fights in it.
+
+Everything you already believe about this name is from a different
+production. Discard it. The description below is the only source, and
+where your memory and this document disagree, THIS DOCUMENT IS RIGHT.
+
+Generate a single image to the description below.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+dusk, mist, campfire and firelight, and hand-carried work lamps.
+
+JASU IS ALWAYS OUTDOORS. Wet temperate forest, forest clearing, or the
+mercenary camp among the trees. No corridors, no bulkheads, no control panels, no
+buildings, no crowds, no desert, no sand.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, corsets, Renaissance
+or medieval clothing, fantasy shoulder pads, swashbuckler aesthetics, Roman
+armour, modern tactical or SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial equipment. No oversized or stylised weapons. No glowing decorative
+technology. No datapad.
+
+No text, logos, watermarks or lettering in the image. No crushed blacks.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+=== PHOTOGRAPHIC REALISM ===
+This is a photograph. A real image, made with a real camera, of real physical
+objects, under real light. It is not a render, not an illustration, not concept
+art, and not a picture that looks like it was generated.
+
+Every surface is a real material behaving like one: weave visible in cloth, grain
+in leather, tool marks and micro-scratches in metal, dust settled in crevices,
+moisture where it would collect. Nothing is perfectly clean, perfectly even or
+perfectly smooth.
+
+Physical imperfection throughout — dust, scuffs, uneven wear, slight asymmetry,
+threads out of place, edges that are not quite straight.
+
+Reject entirely the look of computer-generated imagery. If the result looks
+manufactured rather than photographed, it has failed.
+
+=== CHARACTER ===
+
+
+=== THIS IMAGE ===
+Extreme close-up macro of worn leather on a plain neutral surface, filling the
+frame. Years of use: the surface cracked and softened, colour worn away at the
+high points, a repaired tear with hand stitching in mismatched thread, one edge
+showing a stitched seam and a rivet.
+
+A MID-TONE DARK BROWN, NOT NEAR-BLACK. Clearly lighter than the surface it
+lies on — you could read the grain across a room. Not chocolate, not black. If it
+reads as black leather it is wrong in the other direction.
+
+
+Deliver a single image at 1:1. It must look photographed, not generated.

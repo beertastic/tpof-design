@@ -1,0 +1,28 @@
+[CAPTAIN-JASU — PERFORMANCE RANGE]
+Output file: expression_strip.png
+Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
+Prompt version: 82d0aea8 (short) · repo commit b886455 2026-08-03 16:40
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
+  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
+  THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Horizontal strip of four head-and-shoulders expressions of the same face, evenly
+lit and consistently framed: (1) flat command neutrality — the resting state;
+(2) genuine warmth, which she only shows to the animal; (3) cold assessment of a
+person who has become a problem; (4) the moment in the finale when she spends
+something she loves. Restrained throughout. Same lighting, same angle, same scale
+in every panel.
+
+A CONCEALED CLOSURE, NEVER A VISIBLE ZIP. No coil zip, no zip tape, no slider.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

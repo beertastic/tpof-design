@@ -1,0 +1,28 @@
+[CAPTAIN-JASU — BELT, BRACERS AND BOOTS]
+Output file: material_leather.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 867a5efe (short) · repo commit b886455 2026-08-03 16:40
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
+  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
+  THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Extreme close-up macro of worn leather on a plain neutral surface, filling the
+frame. Years of use: the surface cracked and softened, colour worn away at the
+high points, a repaired tear with hand stitching in mismatched thread, one edge
+showing a stitched seam and a rivet.
+
+A MID-TONE DARK BROWN, NOT NEAR-BLACK. Clearly lighter than the surface it
+lies on — you could read the grain across a room. Not chocolate, not black. If it
+reads as black leather it is wrong in the other direction.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

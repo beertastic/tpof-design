@@ -1,91 +1,30 @@
-[CAPTAIN JASU — TURNAROUND — FIELD DRESS — NATURAL POSE]
-Output file: turn-field-natural.png
-Aspect ratio: 2:3  (tall, full figure)
-Prompt version: c30c3419 · repo commit b886455 2026-08-03 16:40
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
+!!  GENERATOR. It is 5-8x over the working budget; the overflow is
+!!  dropped silently, from the middle, and nothing tells you.
+!!
+!!  PASTE THIS INSTEAD:  prompts/slots-short/03-camp_day.txt
+!!
+!!  The one you want says (short) on its Prompt version line.
+!!  This file is the specification, for reading and editing.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[CAPTAIN-JASU — SLOT 03 — SCENE 9, THE BRIEFING]
+Output file: camp_day.png
+Aspect ratio: 9:16  (tall portrait)
+Prompt version: 32cd3ca8 · repo commit b886455 2026-08-03 16:40
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b886455, prompt c30c3419.
+    Working from commit b886455, prompt 32cd3ca8.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
 cannot quote it, say so and generate nothing. Never put it in the picture.
 
-ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
-the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
-A square frame cannot hold a standing figure with headroom and floor, and the
-board generator fits plates without cropping — a square one letterboxes on the
-sheet and wastes half the panel.
-
-THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
-A photograph of a real performer wearing a real, physically built costume,
-standing in a real studio under real light. Not a render, not an
+THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
+A photograph made on a real film set, on 35mm anamorphic lenses, of real
+people wearing real costumes under real light. Not a render, not an
 illustration, not concept art, not AI-looking output.
-
-====================================================================
-THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
-FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.
-====================================================================
-
-NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a
-waist-up. If the feet are not in the frame, the image is unusable — this is
-a COSTUME record and the boots, the hem and the whole silhouette are the
-point. The head should occupy a small part of the frame.
-
-Deliver a single, plain, full-figure photograph on a seamless studio
-backdrop. It is raw material. The production boards are assembled from
-plates like this one by a separate tool, and anything you add here has
-to be removed before it can be used.
-
-ABSOLUTELY NOT, IN ANY FORM:
-  - NO text of any kind. No name, no title, no caption, no labels, no
-    headings, no annotation, no measurements, no height marks.
-  - NO logo, no watermark, no signature, no production branding.
-  - NO layout, no frame, no border, no vignette panel, no title bar.
-  - NO second view. One figure, one angle. No front-and-back pair, no
-    multi-view sheet, no turnaround strip, no contact sheet, no montage.
-  - NO inset head shots, no profile studies, no detail crops.
-  - NO material swatches, NO colour palette chips, NO prop call-outs.
-  - NO scale silhouette, no ruler, no grid.
-
-If the result looks like a designed page rather than a photograph taken
-in a costume fitting, it is wrong and cannot be used.
-
-USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE BUILD
-FROM IT. It is normally attached to this message. If nothing is
-attached, fetch the URL above instead — it is a public raw file and it
-opens. Say which of the two you used.
-
-If neither works, say so and stop. Never invent a face.
-
-Bone structure, features, proportions, skin, the shape of the head. The
-person in your image must be recognisably the SAME HUMAN BEING as the
-person in the photograph.
-
-DO NOT TAKE THE HAIR OR THE BEARD FROM THE PHOTOGRAPH, and do not take
-the age or the condition. Where the written description below differs
-from the reference — colour, length, grooming, weight, wear, years —
-THE DESCRIPTION WINS EVERY TIME.
-
-The actor is being aged, greyed, roughened or otherwise made up to play
-this part. That is normal and it is the whole job. The photograph is a
-LIKENESS reference, not a grooming reference and not a costume one.
-
-If you find yourself unable to satisfy both, keep the FACE and follow the
-description for everything else. Do not resolve it by inventing a new
-person who fits the description — that is the failure this note exists to
-prevent.
-
-THE ACTOR PHOTOGRAPH IS NOT THE BASE IMAGE. DO NOT EDIT IT.
-Do not retouch it, extend it, outpaint it, crop it or produce a variation
-of it. You are making a COMPLETELY NEW PHOTOGRAPH of the same person.
-
-Take NOTHING from it except the face and the build. In particular do not
-copy its FRAMING, its CROP, its POSE, its LIGHTING, its BACKGROUND or the
-CLOTHES the person is wearing in it. The reference is almost certainly a
-head-and-shoulders portrait on a dark background; what you are making is a
-full-length figure on plain seamless grey under flat even light. If your
-output resembles that photograph in anything but the face, you
-have edited it instead of using it.
 
 BEFORE YOU GENERATE — GET THE REFERENCES.
 
@@ -102,8 +41,12 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
-Match the costume, materials, colours, face and build from them exactly.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.
+Take the COSTUME, materials and colours from the costume photograph.
+Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never
+from the costume photograph, however clearly the face reads in it.
+Where a photograph is silent, or is labelled NOT an authority on
+something, the written text below wins.
 Only the setting, pose and lighting change.
 
 FETCH AND MATCH — the approved costume reference:
@@ -112,8 +55,8 @@ USE THE ATTACHED PHOTOGRAPH — the shoulder mantle, the ribbed torso and the le
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
 USE THE ATTACHED PHOTOGRAPH — the A180 blaster pistol. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
-LIKENESS (1 of 1) — attached to this message.
-    If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+LIKENESS (1) — attached, or fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
 
 ====================================================================
 THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
@@ -130,17 +73,8 @@ Everything you already believe about this name is from a different
 production. Discard it. The description below is the only source, and
 where your memory and this document disagree, THIS DOCUMENT IS RIGHT.
 
-If you find yourself adding something because it feels correct for the
-name rather than because it is written below, that is the retrieval and
-it is exactly what has to be resisted.
-
-This character is RIGHT-HANDED. All positions below are given from
+This character is RIGHT-HANDED. All positions are given from
 THEIR OWN left and right, never the viewer's.
-
-HEIGHT: 150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in the film. She is TWENTY-EIGHT. NOT imposing, NOT muscular, NOT physically dangerous-looking in any way. Baylan stands 48 cm taller than her and her own animal outweighs her
-. Build the proportions to it — head size against body
-length, limb length, how heavily the figure stands. A figure alone on a plain
-backdrop gives the eye nothing to measure against, so it has to be in the body.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. She commands because she owns a monster and everyone knows it — not through seniority, not through tactical skill, not through the crew's respect. Whatever authority she projects is on loan from the beast. She has bought the SHAPE of an officer because she has none of the substance, and the outfit should read as chosen rather than earned: a woman dressed as an officer of an army that does not exist. If she reads as a person who would be obeyed without the animal, the image has failed. SHE IS THE SMALLEST PERSON IN ALMOST EVERY SCENE SHE IS IN, and she commands anyway. Do not compensate for that. Do not make her taller, broader, older or harder-looking to justify the rank — the gap between what she is and what she controls IS the character.
@@ -153,39 +87,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she could win a fight or hold a room by force, because the entire point is that she cannot and does not have to. She is a young East Asian woman with long dark hair. SHE IS COLD, NOT ANGRY. Calm, still, watchful, unsentimental — an expression that is assessing you rather than threatening you. She kills a man mid-sentence and smiles afterwards, and that must read as characteristic rather than theatrical. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. She controls people by fear and she never has to raise her voice to do it — the threat is what everyone already knows about her, not what her face is doing. NO makeup that reads as makeup, NO glamour, NO styling. She is not presented as attractive; she is presented as a person doing a job.
   9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey of old canvas. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN — the same family as everything else she wears. NONE of them is bone, cream, ivory or pale grey. They drifted pale on 2026-08-01 and they must not. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm. TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. The blaster barrel is BRIGHT POLISHED STEEL and must stay bright — do not dull it to match her. It is the only gleaming object in this crew, and that is the point: everyone else carries salvage, and she carries something she paid for and looks after. Nothing else on her is pale and nothing else is bright. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind. She must separate from a night forest and from firelight — do not sink her into the background.
 
-=== SHOT ===
-FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
-
-Same plain seamless neutral mid-grey studio background, same even soft frontal
-lighting, same full-figure framing and same scale as the four turnaround views.
-
-But the subject now stands as this person actually stands. Weight settled on one
-leg, shoulders as they naturally sit, hands where this character would rest them,
-head at the angle they hold it. A real posture, not a display position.
-
-Expression is the character's default — the face they wear when nobody is asking
-anything of them.
-
-Still sharp across the frame, still evenly lit, still no environment. The only
-thing that changes from the turnaround views is the human being inside the
-clothes: how the costume hangs when it is not being presented, where it creases,
-what it does under a real body.
-
-Facing the camera, three-quarters on.
-
-=== VIEW ===
-The subject stands naturally, facing the camera three-quarters on.
-
-=== CONSISTENCY ===
-CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
-
-All five share the same distance, same lens, same camera height, same lighting
-setup, same background, same exposure and the same scale: the figure occupies
-exactly the same height in every frame. The costume is identical in all five —
-nothing added, removed, opened or adjusted between views.
-
-The only thing that changes between the four turnaround views is the direction
-the subject is facing.
+Generate a single image to the description below.
 
 === STYLE ===
 Live-action Star Wars production still. Outer Rim frontier realism in the manner
@@ -220,10 +122,6 @@ No text, logos, watermarks or lettering in the image. No crushed blacks.
 Photographic realism only: no anime, no cel shading, no painterly illustration,
 no 3D-render look, no plastic or waxy skin.
 
-Additionally, for this image only: ignore any instruction about imperfect,
-off-centre or loose framing. A turnaround is deliberately centred and
-square-on. Keep every rule about real skin and real materials.
-
 === PHOTOGRAPHIC REALISM ===
 This is a photograph. A real image, made with a real camera, of real physical
 objects, under real light. It is not a render, not an illustration, not concept
@@ -240,6 +138,19 @@ threads out of place, edges that are not quite straight.
 Reject entirely the look of computer-generated imagery. If the result looks
 manufactured rather than photographed, it has failed.
 
+=== CAPTURE ===
+Shot on anamorphic lenses in the manner of the original Star Wars trilogy.
+Oval, horizontally-stretched bokeh in out-of-focus highlights. Gentle barrel
+distortion. Softer toward the frame edges while the focal plane stays sharp.
+Shallow depth of field with smooth falloff. Mild chromatic aberration at
+high-contrast edges. Slight vignetting.
+
+The response of 35 mm motion picture negative — fine organic grain in shadows
+and midtones rather than added uniformly. Gentle halation around bright sources.
+Highlight rolloff that compresses rather than clips. Rich shadow that retains
+detail instead of going black. Colour restrained, filmic, desaturated toward the
+muted end. No digital vibrance, no teal-and-orange grade.
+
 === SKIN AND REALISM ===
 A real human face with real skin: visible pores, fine lines, uneven tone,
 asymmetry between the two sides. Stray hairs out of place. Slight shine where
@@ -253,10 +164,21 @@ this costume and is NOT a face reference.
 === CHARACTER ===
 
 
-=== THIS COSTUME ===
-Field dress — 9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is
+=== THIS IMAGE ===
+Evening at the forest mercenary camp. Captain Jasu briefing her mercenaries about
+the crashed ship, one hand resting on the akk dog beside her while she talks.
+Crew half-listening around her in the background, out of focus.
 
-The only coherent, deliberately assembled outfit in this crew, and that is the point of it, on a woman of twenty-eight who stands 150 cm and is the smallest adult in the film. The garment is a SECOND SKIN in heavy ribbed knit and dense woven cloth, close to the body from the throat all the way down — torso, arms and legs — with no volume anywhere on her, cut and articulated for an acrobat. Over the shoulders, a stiff dark RIBBED MANTLE standing proud of the body and reaching out past the shoulder points before angling down over the upper arm, rising at the back into a stand collar closed at the throat. A wide heavy belt with plain working hardware pulls the waist in hard. Below it, narrow split panels hang straight over the skin-tight leg, and there are textured panels down the outer thigh and over the knee. Hard bracers on the forearms. Tall boots close to the calf, flat and practical, the best in the crew. Nothing on her head at all. At her brow a low ornate band, asymmetric, carrying a small worn crest to one side — the only decorative object on her and clearly something she chose rather than earned. On her right hip a holstered blaster pistol, clean and serviced. A worn whistle on a cord at her throat, and a heavy leash coiled at her belt. Everything is good material and everything is battered: faded across the shoulders, mended at the cuffs, mud to the knee. Nothing about her is insignia, and nothing about her was issued.
+THE AFFECTION IS SINCERE AND THE INTIMIDATION IS A BY-PRODUCT. She is not
+performing here — this is the one moment in the film where she is not. The animal
+is calm and enjoying it. The scene is cold in effect precisely because nothing
+about it is staged.
+
+THE AKK DOG: a very large dog, 0.85 m at the highest point of its back —
+its shoulder crest is level with the bottom of her belt. Warm red-brown hide,
+coarse overlapping plates and a spiked crest over the neck and shoulders, large
+round black eyes, swept-back horns above each eye, broad splayed feet with long
+pale claws.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
@@ -270,5 +192,4 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she could win a fight or hold a room by force, because the entire point is that she cannot and does not have to. She is a young East Asian woman with long dark hair. SHE IS COLD, NOT ANGRY. Calm, still, watchful, unsentimental — an expression that is assessing you rather than threatening you. She kills a man mid-sentence and smiles afterwards, and that must read as characteristic rather than theatrical. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. She controls people by fear and she never has to raise her voice to do it — the threat is what everyone already knows about her, not what her face is doing. NO makeup that reads as makeup, NO glamour, NO styling. She is not presented as attractive; she is presented as a person doing a job.
   9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey of old canvas. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN — the same family as everything else she wears. NONE of them is bone, cream, ivory or pale grey. They drifted pale on 2026-08-01 and they must not. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm. TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. The blaster barrel is BRIGHT POLISHED STEEL and must stay bright — do not dull it to match her. It is the only gleaming object in this crew, and that is the point: everyone else carries salvage, and she carries something she paid for and looks after. Nothing else on her is pale and nothing else is bright. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind. She must separate from a night forest and from firelight — do not sink her into the background.
 
-The fetched photographs outrank this text. If none were fetched, you should not have generated this.
-Deliver a single image at 2:3. It must look photographed, not generated.
+Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

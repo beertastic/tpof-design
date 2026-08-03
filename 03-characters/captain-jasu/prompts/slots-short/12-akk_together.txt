@@ -1,26 +1,23 @@
-[CAPTAIN-JASU — FIELD DRESS — FRONT]
-Output file: turn-field-front.png
-Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: c7626474 (short) · repo commit b886455 2026-08-03 16:40
+[CAPTAIN-JASU — THE ANIMAL IS HER RANK]
+Output file: akk_together.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: b22f15e1 (short) · repo commit b886455 2026-08-03 16:40
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
-NO text, labels, captions, titles, logos, borders or layout. NO second view,
-no inset heads, no detail crops, no swatches, no colour palette.
-FULL LENGTH — head to below the feet. Not a portrait.
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
   THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
-  Take the FACE and BUILD from the actor image only. Hair, beard, age,
-  grooming and costume come from the text below and override the photo.
-  Do not edit or re-crop that photo — make a new photograph of that person.
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
   Say whether you used an attached file or a URL. If neither worked, stop.
 
 SHE IS 28 AND 150 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a mercenary captain tall, broad, older or physically formidable. DO NOT draw an Imperial officer and DO NOT draw a samurai. She belongs to no army and never did.
 
-RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in…
+RIGHT-HANDED — sides are given from THEIR own left/right, never the viewer's.
 
 MUST BE TRUE OF THIS IMAGE:
 1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. She commands because she owns a monster and everyone knows it — not through seniority, not through tactical skill, not through the crew's respect. Whatever authority she projects is on loan from the beast. She has bought the SHAPE of an officer because she has none of the substance, and the outfit should read as chosen rather than earned: a woman dressed as an officer of an army that does not exist. If she reads as a person who would be obeyed without the animal, the image has failed.
@@ -30,16 +27,23 @@ MUST BE TRUE OF THIS IMAGE:
 5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. THE BODY IS TEXTILE: heavy ribbed knit, quilted panels, dense woven canvas — matte, dry, and clearly FABRIC rather than hide. The ribbing on the torso and the mantle is visible and structural. LEATHER IS THE MINORITY and it is confined to the working parts: the belt, the boots, the forearm bracers, the holster. If the costume reads as a leather bodysuit, it is WRONG. She takes the largest share and it shows in the QUALITY, never in the condition. Close tailoring, hardware that works and has been maintained. NOT clean, NOT pressed, NOT ceremonial, NOT new. AND IT WAS MADE FOR HER.
 6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. A small worn WHISTLE on a cord at her throat, plainly visible, cheap and much handled. It is the most important object she owns: she whistles and the beast comes, and she whistles and it kills. A HEAVY LEASH — chain or thick strap — COILED AND HUNG AT HER BELT, on her LEFT, off the drawing side. She is not holding it and the animal is not on it. Carrying restraint she does not need is a display for the crew, and it is the difference between commanding an animal and controlling a weapon.
 7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left. Holstered, belt-mounted, grip up and angled forward for a right-hand draw. It is a MODULAR weapon — a compact pistol built to be reconfigured — and the fittings for that are visible on it: rails and mounting points along the top and the fore-end where the other parts attach. IT IS TWO-TONE — BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK — and that is the fastest way to recognise it. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
-8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she could win a fight or hold a room by force, because the entire point is that she cannot and does not have to. She is a young East Asian woman with long dark hair. SHE IS COLD, NOT ANGRY. Calm, still, watchful, unsentimental — an expression that is assessing you rather than threatening you. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. NO makeup that reads as makeup, NO glamour, NO styling.
+8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she could win a fight or hold a room by force, because the entire point is that she cannot and does not have to. She is a young East Asian woman with long dark hair. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. NO makeup that reads as makeup, NO glamour, NO styling. She is not presented as attractive; she is presented as a person doing a job.
 9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey of old canvas. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN — the same family as everything else she wears. NONE of them is bone, cream, ivory or pale grey. They drifted pale on 2026-08-01 and they must not. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm. TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. NO uniform green, NO uniform grey, NO red, NO gold braid, NO faction colour of any kind.
 
-SHOT: Facing camera square on. Shoulders level, head level, looking down the lens. BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.
-Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
-Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
-focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
-fastening clearly readable.
+THE SHOT:
+Captain Jasu and the akk dog in wet forest, standing together, her near hand
+resting flat on the crest of its shoulders. Neither looking at camera. Calm, and
+plainly used to each other.
 
-LOOK: a real photograph of a real performer in a real, built costume.
-Used-future Star Wars — industrial salvage, nothing factory fresh, muted
-and sun-faded. Real skin with pores and lines. Not a render, not concept
-art, not AI-looking.
+THE SCALE IS THE POINT. Its shoulder crest is level with the bottom of her
+belt. Her resting hand hangs naturally onto it — she does NOT reach down and she
+does NOT reach up. IT OUTWEIGHS HER.
+
+IT LIVES OUTDOORS AND IT LOOKS LIKE IT. Hide damp and darker where wet, mud on
+the feet and up the forelegs, wet leaf litter stuck to it. The plating is uniform
+in SHAPE and never in CONDITION — scutes chipped and missing, old scarring across
+the shoulders. Its feet are IN the ground, not on it. The eye is wet and alive:
+a curved cornea with a bright meniscus at the lids and several soft reflections,
+never one hard highlight on a smooth ball.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

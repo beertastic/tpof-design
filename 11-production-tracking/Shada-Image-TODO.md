@@ -1,18 +1,18 @@
 ---
 title: "Shada — Finish List"
 asset_id: "TRACK-SHADA-IMAGES"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # Shada — Finish List
 
-**Status: DESIGN SETTLED AND LOCKED 2026-08-02.** Seven variant generations in
-one session moved the vest from hide to cloth, the palette from brown to grey /
-grey-green / khaki, and fixed the plate size, the tessellation, the shoulder cap
-size and the wear. The front turnaround is **APPROVED** and is now the single
-match target for everything else. Documents, `outfits.yaml` and all 21 prompts
-are current; **the other twenty images are not.** Documents are the deliverable;
-images are a guide.
+**Status: FRONT v2 APPROVED 2026-08-03, MAKE-UP LOCKED.** There are now TWO
+approved references with stated, non-overlapping scopes: `turn-working-front.png`
+for the costume, `scale_portrait.png` for the make-up. Every remaining image is
+generated against both.
+
+**Eighteen images to make.** The run list below is the only place that carries
+the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
 
@@ -33,94 +33,149 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**17 images to regenerate.** Every one: **fresh chat**, paste the prompt whole,
-**attach every image in `prompts/attach/working/`**, and save the result into
-`source/artwork/` under the exact name on the prompt's `Output file:` line. The
-boards look those up by name.
+**Two done. One kept. Eighteen to make.**
 
-**Do not hand-list the attachments.** This file used to name three of them in one
-place and two different ones fifty lines further down, and the repository held
-five conflicting answers in total — none of which matched the five the prompt
-actually declares. Three generations on 2026-08-03 ran with two of five
-references attached, **including the approved costume front**, which is the image
-the entire turnaround method rests on. `short.py` now stages the exact set into
-`prompts/attach/<outfit>/`, named by what each image is FOR, with a
-`MANIFEST.txt`. Attach the folder; do not curate it.
+| | |
+|---|---|
+| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) |
+| **KEEP** | `knife.png` — locked prop reference, unaffected |
+| **TO MAKE** | 4 turnaround views + 14 numbered slots |
 
-**Read `MANIFEST.txt` before the front view** — the approved front is the one
-image a front turnaround must not be given, because it cannot match itself.
-
-**Make the model confirm it used the attachments.** The prompt asks it to say
-which route it took. If it says it fetched URLs, or says nothing, the references
-did not arrive and the image is not trustworthy.
-
-**Keep the files they have — nothing in them changed:** `species_strip`,
-`expression_strip` (face and head only) and `knife` (locked as a prop reference).
-`turn-working-front` is **done and approved — do not regenerate it.**
-
-### 1. `scale_portrait` — first, and lock it as the MAKEUP reference
-
-- [ ] Generate `scale_portrait.png` against the approved front
-- [ ] Check: **reptilian slit pupils, clearly readable** — absent from the
-      approved front, and recorded everywhere as the highest-value make-up item
-- [ ] Check: **scale on the neck, jaw and collarbone** — nearly clear in the
-      approved front
-- [ ] Check: the pattern is **tonal, the same colour as her skin** — in the
-      approved front it is noticeably warmer than her skin, which is wrong
-- [ ] Tell the repo it is approved, so the other sixteen inherit it
-
-**Why first:** the four turnaround views and every narrative frame show her face
-and neck. Generate them before the make-up is locked and it drifts across all of
-them — the same failure that cost this character her props, recorded below and
-fixed in `8c5bea7`. *Lock the plates before the figures.* The face is the plates.
-
-### 2. The four remaining turnarounds
-
-Against the approved front **plus** the makeup portrait. Prompts in
-`prompts/turnarounds-short/`.
-
-- [ ] `turn-working-natural.png`
-- [ ] `turn-working-left.png`
-- [ ] `turn-working-right.png`
-- [ ] `turn-working-back.png` — check it with the anatomy test below, not the
-      frame-side test
-
-### 3. Prop and material plates
-
-- [ ] `blaster.png` — WESTAR-35, and the taupe leather
-- [ ] `material-scale.png` — hexagons, tessellated flat, plates missing
-- [ ] `material-cloth.png` — **changes most.** Grey woven cloth with the
-      serpentine grain in the weave, not brown hide with it pressed in
-- [ ] `material-leather.png` — taupe, not warm brown
-- [ ] `material-hardware.png` — palette
-- [ ] `utility.png`
-
-### 4. Narrative frames
-
-- [ ] `hero.png`
-- [ ] `scale_figure.png`
-- [ ] `camp_day.png`
-- [ ] `forest.png` — **still owed a dusk frame**, and the palette change makes it
-      more urgent. The old risk was a charcoal costume vanishing into shadow; the
-      new one is grey-green and khaki vanishing into wet foliage
-- [ ] `maintenance.png`
-- [ ] `tone-collage.png`
-
-### 5. Rebuild the sheets
-
-```bash
-cd /home/tris/tpof-design && source .venv/bin/activate
-python tools/board-generator/generate.py shada --validate   # missing images, overlapping panels
-python tools/board-generator/generate.py shada              # the 5 board PDFs
-python tools/board-generator/generate.py shada --promo      # Shada-Promo.pdf — a SEPARATE command
-```
-
-**`--validate` will stay green throughout and that is not reassurance.** It
-catches images that are *absent*, never images that are *stale*. Until the
-seventeen are done the boards show one current front against sixteen pictures of
-a costume that no longer exists, and only your eye catches that.
+`species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
+are **not** any more. Both contradict the make-up lock — round pupils, and the
+old heavy all-over scale. `expression_strip` also carries a visible ZIP, BRASS
+shoulder plates and a BRASS CHEST BIB, all three of which are forbidden. The
+2026-08-02 note kept them because they "do not show enough costume to be
+affected"; they show collar, zip, vest, shoulder and chest.
 
 ---
+
+### THE RULE FOR EVERY SINGLE IMAGE
+
+1. **A genuinely fresh chat.** Not a continuation. A chat that has drawn another
+   character carries that costume over — it has happened, and it cost a full
+   generation.
+2. **Attach the images FIRST, before pasting anything.**
+3. **Paste the whole prompt file as the first message.** Nothing before it,
+   nothing after it, no "here is a prompt for you". Do not trim the top.
+4. **Check the reply says it used the ATTACHMENTS.** The prompt asks. If it says
+   it fetched URLs, or says nothing, the references did not arrive — discard it
+   and start again.
+5. **Save into `03-characters/shada/source/artwork/`** under the exact name on
+   the prompt's `Output file:` line. The boards look them up by name.
+
+**What to attach: every image in `03-characters/shada/prompts/attach/working/`.**
+Six files. Do not curate the list, and do not type your own — that folder is
+generated from the same list the prompt declares, so it cannot drift. Five
+different hand-written attachment lists existed in this repository on
+2026-08-03 and none of them matched the prompt.
+
+---
+
+### STEP 1 — the four turnaround views  *(in progress)*
+
+Paste from `03-characters/shada/prompts/turnarounds-short/`:
+
+- [ ] `turn-working-natural.txt`
+- [ ] `turn-working-left.txt`
+- [ ] `turn-working-right.txt`
+- [ ] `turn-working-back.txt`
+
+Attach **all six**. Check each one for:
+
+- **The far side stays hidden.** In `left`, her right forearm and right thigh are
+  behind her — so **no gauntlet and no blaster**, and her near forearm is BARE.
+  In `right`, the mirror: no shoulder cap and no knife on the visible side. An
+  empty limb is the rule being obeyed, not a detail forgotten.
+- **`back` is a rotation, not a mirror.** Her right is on the VIEWER'S RIGHT.
+  Judge it by anatomy — shoulder blades, back seams, the back of her head. If you
+  can see her face or the front closure, it is a mirror. Frame position cannot
+  catch this; a flip swaps the sides too.
+- **The shoulder cap HANGS**, standing off her shoulder with daylight under a
+  ragged lower edge. Never moulded to the shoulder.
+
+### STEP 2 — `material-scale`, on its own, before anything else
+
+- [ ] `prompts/slots-short/12-material-scale.txt`
+
+**Do this one before the other plates and before every narrative frame**, because
+it is an attached reference for all of them. Getting it right first means the
+rest inherit a corrected plate.
+
+**When you regenerate it, put MORE and SMALLER plates in frame.** The current one
+shows about fourteen at macro scale, which teaches "big plates" to every
+generation it is attached to — and the plates have come back two to three times
+oversized in every figure so far. Its label already says it proves shape and not
+size; the image should stop arguing otherwise.
+
+### STEP 3 — the remaining plates
+
+- [ ] `09-blaster.txt`
+- [ ] `10-utility.txt`
+- [ ] `13-material-leather.txt` — taupe, never chestnut or tan
+- [ ] `14-material-cloth.txt` — grey woven cloth with the serpentine grain IN the
+      weave, not brown hide with it pressed in. **Changes most.**
+- [ ] `15-material-hardware.txt`
+
+### STEP 4 — the two strips, remade against the make-up lock
+
+- [ ] `06-species_strip.txt`
+- [ ] `07-expression_strip.txt`
+
+Both must now carry the **vertical slit pupil**, and a scale pattern that is
+FLAT, TONAL and at the EDGES only. No zip, no brass, nothing on her chest.
+
+### STEP 5 — the narrative frames
+
+- [ ] `01-hero.txt`
+- [ ] `02-scale_figure.txt`
+- [ ] `03-camp_day.txt`
+- [ ] `04-forest.txt` — **still owed a DUSK frame.** It came back as a daylight
+      camp, which makes it a duplicate of `camp_day`. The palette change makes it
+      more urgent: the old risk was charcoal vanishing into shadow, the new one is
+      grey-green and khaki vanishing into wet foliage.
+- [ ] `11-maintenance.txt`
+- [ ] `16-tone-collage.txt` — the share sheet. One image, six panels. **The only
+      slot where a multi-panel result is correct.** Never used as a reference.
+
+### STEP 6 — build the sheets
+
+```bash
+source .venv/bin/activate
+python tools/board-generator/generate.py shada --validate
+python tools/board-generator/generate.py shada
+python tools/board-generator/generate.py shada --promo
+```
+
+`--promo` is a **separate command** and is easy to forget.
+
+**`--validate` will stay green throughout and that is not reassurance.** It
+catches images that are *absent*, never images that are *stale*.
+
+---
+
+### DO NOT re-roll for these three
+
+All three are recorded as known deviations against the approved front. Each costs
+a generation, and a generation risks the things that are finally right.
+
+| | |
+|---|---|
+| **Boots strapped and buckled** | Rule says never. `pin:` work |
+| **Plates ~6–7 across a flank panel** | Spec says twelve. `pin:` work |
+| **Arm scale runs warm** | Should be tonal. The written rule wins on colour |
+
+**And do not chase slit pupils in any full-length frame.** Her eyes are about
+twenty pixels there and a slit pupil is two or three — it cannot render, and
+re-rolling for it risks everything that took seven passes to win. That is
+precisely what `scale_portrait.png` is for, and it is attached to every prompt.
+
+---
+
+### If you have to correct a generation
+
+**Re-paste the WHOLE file with a correction line on top.** Never "same again
+but…" — that works from its own last output and compounds the error.
 
 ## ~~BLOCKER — sixteen of the twenty-one prompts cannot be pasted~~ **CLEARED 2026-08-03**
 

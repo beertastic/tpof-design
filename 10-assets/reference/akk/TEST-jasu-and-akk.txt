@@ -1,0 +1,103 @@
+[CAPTAIN JASU + AKK DOG — LENS TEST]
+Output file: test-jasu-akk.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet,
+NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO
+colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. Say whether you
+used them. Each is an authority WITHIN ITS OWN SCOPE AND NOWHERE ELSE:
+
+  1. JASU'S COSTUME — match it exactly. NOT her face. NOT the creature.
+  2. JASU'S HEADDRESS AND HAIR, front.
+  3. JASU'S HEADDRESS AND HAIR, profile.
+  4. JASU'S FACE AND BUILD — take the likeness from this and nothing else.
+  5. HER A180 BLASTER PISTOL.
+  6. THE CREATURE'S SIZE against a standing human. Size only.
+  7. THE CREATURE'S BUILD, CREST AND HIDE. Not its pose.
+  8. THE CREATURE'S HEAD — horns, eye, jaw.
+
+ONE WOMAN AND ONE ANIMAL, ALONE IN FRAME. No other people, no second creature,
+no crowd, no vehicles.
+
+THE SHOT:
+A film frame. Captain Jasu stands in a wet temperate forest clearing at the
+mercenary camp among the trees, her akk dog standing quietly at her side. Her
+near hand rests flat on the crest of its shoulders. Neither is looking at the
+camera; both are looking off to the same side, calm and unhurried. She is not
+restraining it and it is not threatening anyone. They are used to each other.
+
+THE WOMAN. Captain Jasu is 150 cm — FOUR FOOT ELEVEN, VERY SMALL AND SLIGHT, the
+smallest adult in this film, and twenty-eight years old. She is NOT imposing, NOT
+muscular and NOT physically dangerous-looking. Her costume is a SECOND SKIN in
+heavy ribbed knit and dense woven cloth, close to the body from throat to ankle,
+with NO volume anywhere. Over the shoulders a stiff dark RIBBED MANTLE stands
+proud of the body, reaching past the shoulder points before angling down over the
+upper arm and rising at the back into a stand collar closed at the throat. A wide
+heavy belt pulls the waist in hard. Narrow split panels hang straight over the
+skin-tight leg. Hard bracers on the forearms, tall boots close to the calf.
+
+THE ANIMAL — AND ITS SIZE IS THE THING MOST OFTEN GOT WRONG:
+IT IS A VERY LARGE DOG, NOT A HORSE AND NOT A BEAR. Measured from the rig: 0.85 m
+at the highest point of its back, about 1.05 m from nose to the base of the tail.
+Great Dane height, at the top of that range.
+
+AGAINST THIS PARTICULAR WOMAN, WHO IS ONLY 150 cm: THE CREST OVER ITS SHOULDERS
+COMES UP TO HER WAIST. Her resting hand hangs naturally onto it — she does NOT
+reach down and she does NOT reach up. IT OUTWEIGHS HER. If she could sit on it,
+or if it could walk under her hand without her lowering it, the scale is wrong.
+The attached size plate shows it beside a 1.8 m figure; SHE IS 30 cm SHORTER THAN
+THAT FIGURE, so it reads proportionally LARGER next to her.
+
+Quadruped, low-slung and heavy through the shoulders, head carried low and
+forward. Hide warm red-brown to tan: fine pebbled scale over the body, with
+COARSE OVERLAPPING PLATES AND A SPIKED CREST over the neck and shoulders. Broad
+short head on a long tapering snout, LARGE ROUND BLACK EYES set in a raised bony
+socket ring, THREE TO FOUR SWEPT-BACK HORNS ABOVE EACH EYE. Many small conical
+teeth. Broad splayed feet with long pale claws. Long thick tail tapering to a
+point. Mouth closed or barely parted — it is at rest, not snarling.
+
+EXTERIOR ONLY. Wet forest, forest clearing or the camp among the trees. No walls,
+no bulkheads, no buildings, no interiors, no desert, no sand.
+
+REALISM. This is a photograph. A real image, made with a real camera, of real
+physical objects, under real light. It is not a render, not an illustration, not
+concept art, and not a picture that looks generated. Every surface is a real
+material behaving like one: weave visible in cloth, grain in leather, tool marks
+in metal, dust in crevices, moisture where it would collect. Nothing is perfectly
+clean, even or smooth. Physical imperfection throughout — dust, scuffs, uneven
+wear, slight asymmetry, threads out of place, edges not quite straight. The
+animal reads as a real creature that was on set: real weight on its feet, real
+contact where her hand presses the hide down, its own shadow tying it to the
+ground she stands on.
+
+CAPTURE. Shot on ANAMORPHIC lenses in the manner of the original Star Wars
+trilogy — Panavision-style anamorphic glass, not modern clinical optics. Oval,
+horizontally-stretched bokeh in out-of-focus highlights. Gentle barrel
+distortion. Noticeably softer toward the frame edges while the focal plane stays
+sharp. Shallow depth of field with smooth falloff. Faint horizontal streak flare
+only if a bright practical is in frame — restrained, never a showpiece. Mild
+chromatic aberration at high-contrast edges. Slight vignetting.
+
+The response of 35 mm MOTION PICTURE NEGATIVE — fine organic grain present in
+shadows and midtones rather than added uniformly. Gentle halation blooming around
+bright sources. Highlight rolloff that compresses rather than clips. Rich shadow
+that retains detail instead of going black. Colour restrained, filmic,
+desaturated toward the muted end. Skin natural and slightly warm. No digital
+vibrance, no teal-and-orange grade.
+
+Lighting motivated by believable sources only: overcast forest daylight, or low
+sun through trees. One plane sharp, everything else falling away.
+
+LOOK: a real photograph of real people in real, built costumes and a real animal.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted and
+sun-faded. Real skin with pores and lines. Not a render, not concept art, not
+AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. The creature's shoulder crest comes to HER WAIST. She is 150 cm.
+  2. Its back is PLATED with a spiked crest. Never smooth.
+  3. Three to four horns above EACH eye. Eyes large, round and black.
+  4. ONE woman, ONE animal, exterior forest. Nothing else in frame.
+  5. Her face comes from the actor photograph, never from the costume plate.

@@ -1,0 +1,388 @@
+project: The Price of Freedom
+character: Captain Jasu
+asset_id: CH-005
+version: '1.0'
+status: IN PROGRESS
+date: '2026-08-03'
+footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
+governing_documents:
+  - Production Design Bible v1.0
+  - Character.md
+  - outfits.yaml
+  - 08-species/akk-dog/Creature.md
+
+# Geometry copied from shada/board-data.yaml, which is the worked example.
+# A2 landscape, 23.386 x 16.535 in. Margins 0.45. --validate catches overlaps.
+#
+# SIX BOARDS, same set as Shada. Board 05 is the make-up board added 2026-08-03
+# after her face turned out to have no home -- see 03-characters/shada/board-data.yaml
+# for the reasoning. Every character needs it, not only the ones with a species.
+boards:
+  production:
+    label: BOARD 01
+    title: COSTUME TURNAROUND
+    output_pdf: Turnaround-Board.pdf
+    output_png: Turnaround-Board-A2-300dpi.png
+    tagline: One costume. Six scenes. Never issued.
+    images:
+      - {path: source/artwork/turn-field-front.png,   x: 0.45,   y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-left.png,    x: 4.988,  y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-right.png,   x: 9.526,  y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-back.png,    x: 14.064, y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-natural.png, x: 18.602, y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/material_cloth.png,     x: 0.45,   y: 11.32, w: 3.4, h: 3.4}
+      - {path: source/artwork/material_leather.png,   x: 4.05,   y: 11.32, w: 3.4, h: 3.4}
+      - {path: source/artwork/material_hardware.png,  x: 7.65,   y: 11.32, w: 3.4, h: 3.4}
+    sections:
+      - heading: THE SILHOUETTE
+        x: 0.45
+        y: 8.177
+        w: 7.063
+        h: 2.75
+        font_size: 11
+        items:
+          - Second skin from collar to ankle no volume anywhere
+          - Hard ribbed mantle standing proud past the shoulder points
+          - Wide heavy belt waist pulled in hard
+          - Split panels straight over the skin tight leg
+          - Cut and articulated for an acrobat
+      - heading: CONSTRUCTION
+        x: 8.163
+        y: 8.177
+        w: 7.063
+        h: 2.75
+        font_size: 11
+        items:
+          - Heavy ribbed knit base with a stand collar
+          - Dense woven cloth mantle stiffened to hold its shape
+          - Hard bracers on both forearms
+          - Tall boots close to the calf flat and practical
+          - Bought well and worn hard mended at the cuffs
+      - heading: DESIGN DRIFT - DO NOT
+        x: 15.877
+        y: 8.177
+        w: 7.063
+        h: 2.75
+        font_size: 11
+        items:
+          - Not an Imperial officer no insignia no rank plaque no cap
+          - Not a samurai and not a Jedi no lamellar no robes no sword
+          - Not physically imposing she is 150 cm and slight
+          - Never a big head normal adult proportion always
+          - The horns are the only pale thing on her
+      - heading: 'MATERIALS  —  CLOTH / LEATHER / HARDWARE'
+        x: 11.25
+        y: 11.32
+        w: 11.69
+        h: 3.4
+        font_size: 11
+        items:
+          - Deep brown and dark umber muted throughout
+          - Never Imperial grey and never black on black
+          - Ribbed knit and dense woven cloth more cloth than leather
+          - Leather a mid tone dark brown never near black
+          - Hardware salvaged mismatched matte and tarnished no brass
+
+  costume:
+    label: BOARD 02
+    title: COSTUME CONSTRUCTION BOARD
+    output_pdf: Costume-Board.pdf
+    output_png: Costume-Board-A2-300dpi.png
+    tagline: She bought the shape of authority because she has none of the real thing.
+    images:
+      - {path: source/artwork/turn-field-front.png,   x: 0.45,   y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-back.png,    x: 4.988,  y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-natural.png, x: 9.526,  y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/scale_figure.png,       x: 14.064, y: 1.35, w: 4.338, h: 5.784}
+      - {path: source/artwork/mantle_detail.png,      x: 18.602, y: 1.35, w: 4.338, h: 4.338}
+    sections:
+      - heading: THE MANTLE - THE SIGNATURE
+        x: 0.45
+        y: 8.4
+        w: 7.063
+        h: 3.2
+        font_size: 11
+        items:
+          - Stands proud of the body never draped
+          - Reaches past the shoulder point then angles down the upper arm
+          - Rises at the back into a stand collar closed at the throat
+          - Ribbing runs through it and holds the shape
+          - The one thing a viewer will remember
+      - heading: SCALE - READ THIS FIRST
+        x: 8.163
+        y: 8.4
+        w: 7.063
+        h: 3.2
+        font_size: 11
+        items:
+          - 150 cm and twenty eight the smallest adult in the film
+          - Baylan stands 48 cm taller than her
+          - Her own animal outweighs her
+          - Every image will drift her taller check it every time
+          - The scale plate is the most important image in this pack
+      - heading: WHAT IS TRUE INSTEAD
+        x: 15.877
+        y: 8.4
+        w: 7.063
+        h: 3.2
+        font_size: 11
+        items:
+          - Closed high collar square shoulder cinched waist
+          - Well made and in a forest for weeks
+          - Battered faded mended worn by somebody who fights in it
+          - Nothing is insignia and nothing was issued
+          - She is obeyed because of the beast and for no other reason
+      - heading: THE HEADDRESS
+        x: 0.45
+        y: 12.0
+        w: 22.49
+        h: 3.7
+        font_size: 11.5
+        items:
+          - Pale curved bone horns set into swept up dark hair asymmetric
+          - Long and sweeping on one side shorter points on the other
+          - Trophies from what the animal kills bone off creatures it brought down
+          - Worn matte and yellowed never polished never carved never set in metal
+          - The only ornamental object on her and it displays the beast's power not hers
+          - THE ONLY PALE THING ON HER - if the pallor has spread the image is wrong
+
+  weapons:
+    label: BOARD 03
+    title: WEAPONS & EQUIPMENT BOARD
+    output_pdf: Weapons-Board.pdf
+    output_png: Weapons-Board-A2-300dpi.png
+    tagline: A whistle and a leash. Neither is a weapon and both are how she rules.
+    images:
+      - {path: source/artwork/blaster.png,            x: 0.45,  y: 1.35, w: 5.25, h: 5.25}
+      - {path: source/artwork/whistle_and_leash.png,  x: 0.45,  y: 6.75, w: 5.25, h: 4.0}
+      - {path: source/artwork/material_hardware.png,  x: 5.9,   y: 1.35, w: 5.25, h: 5.25}
+      - {path: source/artwork/akk_together.png,       x: 11.55, y: 1.35, w: 5.4,  h: 9.4}
+      - {path: source/artwork/captaining.png,         x: 17.15, y: 1.35, w: 5.75, h: 9.4}
+    sections:
+      - heading: THE A180 BLASTER
+        x: 0.45
+        y: 11.0
+        w: 7.25
+        h: 4.7
+        items:
+          - On her RIGHT hip always she is right handed
+          - The weapon Jyn Erso carries in Rogue One
+          - Long barrelled angular industrial
+          - The one thing she services properly and it looks it
+          - Clean where it matters worn at the contact points
+      - heading: THE WHISTLE AND THE LEASH
+        x: 7.9
+        y: 11.0
+        w: 7.25
+        h: 4.7
+        items:
+          - Her two instruments of command both for the animal
+          - Neither is a weapon and that is the point
+          - Plain worn metal whistle on a cord at her throat
+          - Heavy leash coiled at her belt repaired at least once
+          - Used daily for years and they must read that way
+      - heading: THE ANIMAL IS THE RANK
+        x: 15.35
+        y: 11.0
+        w: 7.55
+        h: 4.7
+        font_size: 11.5
+        items:
+          - Wherever Jasu is the akk dog is it is not scheduled scene by scene
+          - 0.85 m at the crest a very large dog Great Dane height
+          - Its shoulder crest is level with the bottom of her belt
+          - She was paid to transport it and kept it
+          - It is the first unconditional love she has ever had
+          - She has never named it because nobody taught her how
+
+  performance:
+    label: BOARD 04
+    title: PERFORMANCE & MOVEMENT BOARD
+    output_pdf: Performance-Board.pdf
+    output_png: Performance-Board-A2-300dpi.png
+    tagline: She is not performing in Scene 9. That is what makes it cold.
+    images:
+      - {path: source/artwork/hero.png,             x: 0.45,  y: 1.35,  w: 5.15, h: 9.2}
+      - {path: source/artwork/camp_day.png,         x: 5.8,   y: 1.35,  w: 5.15, h: 9.2}
+      - {path: source/artwork/captaining.png,       x: 11.15, y: 1.35,  w: 5.15, h: 9.2}
+      - {path: source/artwork/candid.png,           x: 16.5,  y: 1.35,  w: 5.15, h: 9.2}
+      - {path: source/artwork/expression_strip.png, x: 0.45,  y: 10.8,  w: 7.25, h: 2.6}
+      - {path: source/artwork/portrait.png,         x: 8.35,  y: 10.8,  w: 1.95, h: 2.6}
+    sections:
+      - heading: MOVEMENT PRINCIPLES
+        x: 0.45
+        y: 13.6
+        w: 5.322
+        h: 2.1
+        font_size: 9.5
+        items:
+          - Economical and quick trained for acrobatics
+          - Takes up less room than anyone expects
+          - Never squares up never postures never raises her voice
+          - Stillness where a bigger person would move
+          - The animal moves when she does
+      - heading: ACTOR NOTES
+        x: 6.173
+        y: 13.6
+        w: 5.322
+        h: 2.1
+        font_size: 9.5
+        items:
+          - Expects to be obeyed and has never had to insist
+          - Warmth only toward the animal and only when unobserved
+          - Twenty eight and hiding it in front of the crew
+          - Flat delivery no theatre no threat display
+          - She is performing in every scene except Scene 9
+      - heading: FACIAL LANGUAGE
+        x: 11.895
+        y: 13.6
+        w: 5.322
+        h: 2.1
+        font_size: 9.5
+        items:
+          - Flat command neutrality the resting state
+          - Genuine warmth shown only to the animal
+          - Cold assessment of a person who is now a problem
+          - The finale - spending something she loves
+          - Never anger anger would be a loss of control
+      - heading: THE ONE UNGUARDED FRAME
+        x: 17.617
+        y: 13.6
+        w: 5.322
+        h: 2.1
+        font_size: 9.5
+        items:
+          - candid.png is the only image where she is twenty eight
+          - Not a captain not composed tired and small
+          - No blaster no command no audience
+          - Everything else in this pack is the performance
+          - Cast for this frame not for the others
+
+  makeup:
+    label: BOARD 05
+    title: MAKE-UP & CONTINUITY BOARD
+    output_pdf: Makeup-Board.pdf
+    output_png: Makeup-Board-A2-300dpi.png
+    tagline: The horns are the only pale thing on her.
+    images:
+      - {path: source/artwork/portrait.png,         x: 0.45,  y: 1.35, w: 5.24,  h: 6.98}
+      - {path: source/artwork/headdress.png,        x: 6.09,  y: 1.35, w: 5.24,  h: 6.98}
+      - {path: source/artwork/expression_strip.png, x: 11.73, y: 1.35, w: 11.21, h: 6.31}
+    sections:
+      - heading: THE HORNS
+        x: 0.45
+        y: 8.6
+        w: 7.16
+        h: 3.5
+        font_size: 9.5
+        items:
+          - Pale curved bone projecting up and outward from both sides
+          - Long and sweeping on one side shorter points on the other
+          - ASYMMETRIC and that asymmetry is deliberate
+          - Worn matte yellowed with age never polished never carved
+          - Trophies off creatures the animal brought down
+          - Never set in metal a trophy and not jewellery
+      - heading: THE HAIR
+        x: 8.01
+        y: 8.6
+        w: 7.16
+        h: 3.5
+        font_size: 9.5
+        items:
+          - Long and very dark swept UP AND BACK off the face
+          - A large rolled worked mass held high on the head
+          - The length falling loose behind and to the sides
+          - A BUILT shape not a hairstyle anyone maintains daily
+          - Pale horns against very dark hair is the whole effect
+      - heading: SKIN AND FACE
+        x: 15.57
+        y: 8.6
+        w: 7.37
+        h: 3.5
+        font_size: 9.5
+        items:
+          - Baseline human no prosthetics no species treatment
+          - Real skin pores fine lines uneven tone asymmetry
+          - Weathered by living outdoors not by age she is twenty eight
+          - Nothing covers her face or her brow
+          - Likeness comes from the actor photograph and nothing else
+      - heading: CONTINUITY ACROSS THE SHOOT
+        x: 0.45
+        y: 12.4
+        w: 22.49
+        h: 3.3
+        font_size: 11
+        items:
+          - One costume six scenes - 9, 19, 20, 23, 24, 25
+          - Dirt increases across the shoot the headdress does not change
+          - Mud to the knee from Scene 9 onward she never leaves the forest
+          - Blaster on her RIGHT hip whistle at her throat leash at her belt in every scene
+          - She is never indoors and never on a ship
+          - NEVER A BIG HEAD - normal adult proportion on a 150 cm woman
+
+  materials:
+    label: BOARD 06
+    title: MATERIALS & COLOUR BOARD
+    output_pdf: Materials-Board.pdf
+    output_png: Materials-Board-A2-300dpi.png
+    tagline: More cloth than leather, and good cloth. Expensive, never smart.
+    images:
+      - {path: source/artwork/material_cloth.png,    x: 0.45, y: 1.35, w: 2.72, h: 2.72}
+      - {path: source/artwork/material_leather.png,  x: 3.37, y: 1.35, w: 2.72, h: 2.72}
+      - {path: source/artwork/material_hardware.png, x: 0.45, y: 4.27, w: 2.72, h: 2.72}
+      - {path: source/artwork/mantle_detail.png,     x: 3.37, y: 4.27, w: 2.72, h: 2.72}
+      - {path: source/artwork/hero.png,              x: 6.6,  y: 1.35, w: 6.07, h: 10.8}
+      - {path: source/artwork/turn-field-front.png,  x: 13.2, y: 1.35, w: 4.338, h: 6.507}
+      - {path: source/artwork/turn-field-left.png,   x: 17.8, y: 1.35, w: 4.338, h: 6.507}
+    sections:
+      - heading: APPROVED PALETTE
+        x: 0.45
+        y: 7.4
+        w: 5.64
+        h: 4.75
+        font_size: 11.5
+        items:
+          - Dark umber #4A3B2E
+          - Deep brown #5C4733
+          - Bark brown #3E332A
+          - Weathered olive #4C4A3A
+          - Belt leather #6B5340
+          - Tarnished steel #6E6A63
+          - Worn bone #C8BFA6
+          - Near black brown #2A2320
+      - heading: SURFACE LANGUAGE
+        x: 13.2
+        y: 8.4
+        w: 4.338
+        h: 3.75
+        font_size: 10
+        items:
+          - Heavy ribbed knit
+          - Dense woven cloth
+          - Stiffened mantle
+          - Cracked worn leather
+          - Salvaged matte hardware
+      - heading: THE COLOUR RULE
+        x: 17.8
+        y: 8.4
+        w: 5.14
+        h: 3.75
+        font_size: 10
+        items:
+          - Muted and dark throughout
+          - NEVER Imperial grey
+          - NEVER black on black
+          - The horns are the only pale thing
+          - No brass and nothing polished
+      - heading: WHAT THE MATERIAL SAYS ABOUT HER
+        x: 0.45
+        y: 12.4
+        w: 22.49
+        h: 3.3
+        font_size: 11
+        items:
+          - The only coherent deliberately assembled outfit in this crew and that is the point
+          - Good material chosen and paid for not scavenged and not issued
+          - Everything is battered - faded across the shoulders mended at the cuffs mud to the knee
+          - Expensive and never smart she is not trying to look like an officer she is trying to be obeyed
+          - Compare the mercenary kit - four people in whatever they could find

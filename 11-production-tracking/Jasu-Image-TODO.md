@@ -1,13 +1,45 @@
 ---
 title: "Captain Jasu — Finish List"
 asset_id: "TRACK-JASU-IMAGES"
-updated: "2026-08-02"
+updated: "2026-08-03"
 status: "open"
 ---
 
 # Captain Jasu — Finish List
 
-**Status: TURNAROUNDS COMPLETE, EVERYTHING ELSE NOT STARTED.**
+> ## UNBLOCKED 2026-08-03 — the run list is below
+>
+> **Both blockers are cleared.** `Prompts.md` was `status: scaffold`, so `short.py`
+> wrote NO slot prompts for her, silently — and its slots put her in ship
+> corridors she is never in. And there was no `board-data.yaml` at all, so her
+> boards could not be generated whatever images existed.
+>
+> **Now: sixteen slot prompts written, six boards configured, references staged.**
+> `--validate` reports the sixteen images as missing and no overlaps, which is
+> exactly right — the configuration is sound and the images do not exist yet.
+>
+> **THE RUN ORDER**, following
+> [`../03-characters/Character-Build-Recipe.md`](../03-characters/Character-Build-Recipe.md):
+>
+> | | Slots | Why this order |
+> |---|---|---|
+> | 1 | `02-scale_figure` | **First.** She is 150 cm and every image drifts her taller. The plate that fixes it |
+> | 2 | `09-blaster` · `10-whistle_and_leash` · `11-mantle_detail` | Lock the plates before the figures |
+> | 3 | `13/14/15-material_*` | Cloth, leather, hardware |
+> | 4 | `06-portrait` · `07-headdress` · `08-expression_strip` | Close work, and the make-up board |
+> | 5 | `01-hero` · `03-camp_day` · `04-captaining` · `05-candid` · `12-akk_together` | The frames |
+> | 6 | `16-tone_collage`, then the boards | `--promo` is a separate command |
+>
+> **Read [`../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md) first.**
+> Eight lessons from Shada, each paid for by a wasted generation.
+>
+> **Two things specific to her.** The Funko headdress references were detached on
+> 2026-08-03 — a 1:1 head-to-body ratio is exactly how a 150 cm woman turns into a
+> caricature, and the approved turnarounds carry the horns better anyway. And the
+> akk dog goes wherever she is: it is 0.85 m at the crest, **level with the bottom
+> of her belt**, measured off the rig.
+
+**Status: TURNAROUNDS COMPLETE. SIXTEEN SLOTS AND SIX BOARDS NOW CONFIGURED.**
 
 She is the first character in the production with a **full five-view turnaround
 set built off an approved reference** — front approved and locked in

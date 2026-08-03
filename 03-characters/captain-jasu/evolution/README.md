@@ -32,7 +32,8 @@ cannot drift from the prompt: change the prompt, run it again.
 |---|---|---|
 | `01a` / `01b` | **The boots — tall to the calf, or ankle** | **TALL WINS, 2026-08-03.** `01b` was never needed — `01a` settled it on sight. Now the default in `outfits.yaml` |
 | `02` | **Correction pass — tall boots, flat heel, one whistle at the throat, hair UP** | **Generated 2026-08-03. Three of three landed and the costume held still.** The hair came back too high — see below |
-| `03` | **The hair alone — lower and rougher** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
+| `03` | **The hair alone — lower and rougher** | **Generated 2026-08-03. Landed exactly as asked — and the answer was that the whole direction was wrong.** Costume is correct in it |
+| `04` | **Hair back DOWN — costume from `03`, hair from the original** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
 
 ## The result
 
@@ -284,3 +285,68 @@ Fresh chat. Paste `03-hair-lower.txt` whole as the first message.
 
 If it passes it becomes `source/artwork/turn-field-front.png`, is re-approved in
 `outfits.yaml`, and the other four views are re-rolled against it.
+
+---
+
+## 04 — the final pass: costume from `03`, hair from the original
+
+**`04-hair-down.txt`.**
+
+**Pass 03 did exactly what it was asked** — the hair came down low, rough and
+messy, and the costume held. Seen against the original, the answer was that
+**the direction was wrong, not the execution.** Her hair is worn **down and
+loose**, as it has been in every image from the start, and the rule that said
+*"NEVER down"* was the thing that was wrong. It had never once been tested
+against a picture.
+
+So `04` combines two images that each hold half of the current design:
+
+| | From | What it governs |
+|---|---|---|
+| **Image 1** | `evolution/03-hair-lower.png` | **The costume, head to foot.** Tall boots, flat heel, one whistle at the throat, and everything that was already right |
+| **Image 2** | `source/artwork/turn-field-front.png` | **The hair and horns ONLY.** Long, dark, down and loose |
+
+### This breaks a standing rule, deliberately, and it is the risk in the pass
+
+> *"Two full-figure references competing over the same garment is a fight the
+> written rules cannot win"* — and *"do not add a second full costume
+> photograph."* This pass attaches exactly that.
+
+It is done because **no single image in the production now shows the whole
+design**: `03` has the costume and the wrong hair, the approved front has the
+hair and two superseded items. The alternative — describing the hair in words —
+was rejected only because the horns need to match precisely, and a photograph
+carries them better than a paragraph.
+
+**Three things fence it:**
+
+1. The staged files are **named by scope** — `1-the-costume.png`,
+   `2-the-hair-only.png` — so the split survives the drag-and-drop.
+2. The prompt says which item in image 2 is out of date, **by name**: ankle
+   boots, and a whistle at the belt.
+3. It gives a one-look test: *"if your image has ankle boots, or a whistle
+   anywhere below her throat, you have taken the costume from the wrong
+   photograph."*
+
+**If it fails that test, do not re-roll it as written.** Drop image 2 entirely
+and let the text carry the hair. That is likely to work: the generator's own
+default is hair down — it returned hair down twice when the rule said not to —
+so this is the one instruction that does not need a photograph to win.
+
+### What to attach
+
+Everything in `attachments/04-hair-down/` — **four files**, named by scope. Read
+its `MANIFEST.txt` first.
+
+### Check before approving
+
+- **Tall boots. One whistle, at the throat.** These come from image 1 and they
+  are the two that image 2 will try to overwrite.
+- **Hair long, dark, down and loose**, swept off the face, slightly dishevelled.
+- **Horns as they have always been** — pale, worn, asymmetric, above and behind
+  the ears.
+- **Nothing else moved** from `03`.
+
+If it passes it becomes `source/artwork/turn-field-front.png`, is re-approved in
+`outfits.yaml`, and the four other views are re-rolled against it. **That is the
+end of this sequence** — every open item on her front view is then closed.

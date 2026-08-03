@@ -375,10 +375,27 @@ drawings**, now a reference plate at [`reference/build/`](reference/build/). It 
 the only three-dimensional record of the headdress, which is exactly the thing a
 drawing cannot hold.
 
-**What it is:** long dark hair swept up and back into a large rolled, worked mass,
-with **pale curved horns** — bone or bone-coloured, tapering, asymmetric — set
-into it and projecting up and outward from both sides. Pale against very dark
-hair, and that contrast is the whole effect.
+**What it is:** long dark hair swept back off the face and gathered at the back
+of the head, with **pale curved horns** — bone or bone-coloured, tapering,
+asymmetric — set into it and projecting up and outward from both sides. Pale
+against very dark hair, and that contrast is the whole effect.
+
+> **LOWER AND MESSIER — corrected 2026-08-03, from a generated pass.** The rule
+> used to say *"a large rolled, worked mass held high on the head"* and that is
+> exactly what came back: a high, smooth, sculpted shape. Too high, and too
+> tidy for her.
+>
+> **It sits no higher than the crown, and it is rough** — uneven, hand-made,
+> strands escaping, the sort of thing gathered in the field by somebody not
+> thinking about it. **The horns are unchanged**; they just sit in a lower,
+> looser mass.
+>
+> This also resolves the tension the old wording carried. A *"built shape"* that
+> is *"not a hairstyle anyone maintains daily"* was asking for something
+> constructed and immaculate at the same time. The answer is that it is worked
+> but not kept — and it makes the open question below cheaper, because a rough
+> low gather is far less of a continuity cost across six scenes than a sculpted
+> one.
 
 **They are not from her akk.** Checked before assuming it:
 [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md) says

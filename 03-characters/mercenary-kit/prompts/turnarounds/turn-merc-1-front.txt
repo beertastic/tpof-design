@@ -1,10 +1,10 @@
 [MERCENARY KIT — TURNAROUND — MERC 1 — THE WOOKIEE — FRONT]
 Output file: turn-merc-1-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 144560da · repo commit a2cc855 2026-08-01 17:12
+Prompt version: 144560da · repo commit 215358f 2026-08-03 17:14
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt 144560da.
+    Working from commit 215358f, prompt 144560da.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

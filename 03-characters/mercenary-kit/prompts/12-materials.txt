@@ -1,10 +1,21 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
+!!  GENERATOR. It is 5-8x over the working budget; the overflow is
+!!  dropped silently, from the middle, and nothing tells you.
+!!
+!!  PASTE THIS INSTEAD:  prompts/slots-short/12-materials.txt
+!!
+!!  The one you want says (short) on its Prompt version line.
+!!  This file is the specification, for reading and editing.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 [MERCENARY-KIT — SLOT 12 — MATERIALS AND PALETTE]
 Output file: materials.png
 Aspect ratio: 1:1  (square)
-Prompt version: d91cb45b · repo commit a2cc855 2026-08-01 17:12
+Prompt version: ce653aa5 · repo commit 215358f 2026-08-03 17:14
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt d91cb45b.
+    Working from commit 215358f, prompt ce653aa5.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -31,8 +42,12 @@ generator cannot receive it — and then name the one that failed.
 Do not proceed from the text alone. The written description is not sufficient
 on its own and will produce the wrong costume and the wrong face.
 
-THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
-Match the costume, materials, colours, face and build from them exactly.
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH WITHIN ITS OWN SCOPE.
+Take the COSTUME, materials and colours from the costume photograph.
+Take the FACE, HEAD and BUILD from the ACTOR photographs ONLY — never
+from the costume photograph, however clearly the face reads in it.
+Where a photograph is silent, or is labelled NOT an authority on
+something, the written text below wins.
 Only the setting, pose and lighting change.
 Generate a single image to the description below.
 

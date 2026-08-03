@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 3 — THE CLOSE ONE — BACK]
 Output file: turn-merc-3-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 72598906 (short) · repo commit 3325dc4 2026-08-03 11:55
+Prompt version: 72598906 (short) · repo commit 215358f 2026-08-03 17:14
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

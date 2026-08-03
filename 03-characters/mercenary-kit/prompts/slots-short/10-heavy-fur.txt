@@ -1,7 +1,7 @@
 [MERCENARY-KIT — FUR COLOUR AND TEXTURE]
 Output file: heavy-fur.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 9c7766b5 (short) · repo commit 3325dc4 2026-08-03 11:55
+Prompt version: 9c7766b5 (short) · repo commit 215358f 2026-08-03 17:14
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

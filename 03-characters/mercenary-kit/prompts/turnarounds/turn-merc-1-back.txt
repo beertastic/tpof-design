@@ -1,10 +1,10 @@
 [MERCENARY KIT — TURNAROUND — MERC 1 — THE WOOKIEE — BACK]
 Output file: turn-merc-1-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 07653c4f · repo commit a2cc855 2026-08-01 17:12
+Prompt version: 59ff055b · repo commit 215358f 2026-08-03 17:14
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a2cc855, prompt 07653c4f.
+    Working from commit 215358f, prompt 59ff055b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -110,17 +110,22 @@ The subject faces directly away from the camera, showing the whole of the back. 
 
 CRITICAL — THIS IS A ROTATION, NOT A MIRROR.
 The person has turned around. They have NOT been flipped horizontally.
-Because she has turned, HER RIGHT SIDE IS NOW ON THE VIEWER'S LEFT and her
-left side is on the viewer's RIGHT — the opposite of the front view.
+Because they have turned, THEIR RIGHT SIDE IS NOW ON THE VIEWER'S RIGHT
+and their left side is on the viewer's LEFT — the opposite of the front
+view, where their right was on the viewer's left.
 
 So in THIS image specifically:
-  - anything worn on HER RIGHT appears on the VIEWER'S LEFT
-  - anything worn on HER LEFT appears on the VIEWER'S RIGHT
+  - anything worn on THEIR RIGHT appears on the VIEWER'S RIGHT
+  - anything worn on THEIR LEFT appears on the VIEWER'S LEFT
 
-If this image looks like a horizontally flipped copy of the front view, it
-is wrong. Check every asymmetric item — the forearm piece, the shoulder
-piece, the thigh piece, the holster and the blade — and confirm each one
-has swapped which side of the FRAME it appears on, compared with the front.
+BOTH SIDES ARE VISIBLE in this view, so every asymmetric piece must be
+present — nothing is occluded by the body here.
+
+Frame position alone cannot prove this is right: a horizontal flip of the
+front view swaps the frame sides too. What proves it is ANATOMY. A real
+back view shows shoulder blades, the back seams of the garments, rear
+pockets and the back of the head. If any part of the face, the front
+closure or the centre-front fastening is visible, it is wrong.
 
 === CONSISTENCY ===
 CONSISTENCY REQUIREMENT — this is one of five images of the same costume.

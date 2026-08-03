@@ -911,6 +911,13 @@ uneven panel sizes, hard white gutters between them, no captions, no text, no
 numbering. One large panel carries the sheet; the rest are supporting sizes.
 
 The same person in the same costume in all six, photographed across one day.
+
+**EVERY PANEL IS WET TEMPERATE FOREST, A FOREST CLEARING, OR THE MERCENARY CAMP
+AMONG THE TREES.** Tall trees, wet undergrowth, leaf litter, mist. **NEVER
+desert, sand, dry scrub, rocky waste or open arid country**, and never a
+settlement. The wide panel especially — an environment that dominates the frame
+is still forest.
+
 Vary only setting, light, framing and action:
 
 1. A full-figure standing shot in open daylight — the whole costume legible.

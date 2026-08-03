@@ -528,7 +528,38 @@ no engraving, no jewelling.
 
 Product-reference layout of **a WESTAR-35 blaster pistol** on a neutral surface,
 lit evenly, side-on and filling the frame — the specific in-universe model, not a
-generic sidearm.
+generic sidearm. **ONE WEAPON, ALONE IN FRAME.** No knife, no sheath, no other
+props, nothing beside it.
+
+**THE ATTACHED WESTAR-35 PHOTOGRAPH IS THE AUTHORITY ON SHAPE, AND ON NOTHING
+ELSE.** Take the SILHOUETTE and the LAYOUT from it exactly: the slab side, the
+long squared upper receiver running most of the length, the stepped muzzle, the
+open trigger guard, the angled panel above the grip, and the flared magazine
+base. That shape is the whole reason it is attached.
+
+**IT IS THE STOCK WEAPON AND IT IS WRONG ABOUT THIS PROP IN THREE WAYS. THE
+WRITTEN DESCRIPTION BELOW WINS ALL THREE:**
+
+- The grip in the photograph is **BROWN**. On this build it is **BLACK and
+  textured**, worn through where a hand sits.
+- The photograph has **NO brass**. This build has **BRASS PANELS** let into the
+  top of the slide and at the rear.
+- The photograph is **clean and unweathered**. This one is heavily weathered and
+  field-repaired.
+
+<!--
+Stock reference attached 2026-08-03, after five generations held this prop by
+words alone and the last returned a generic sidearm WITH A SCOPE, which this
+slot explicitly forbids, and with the knife and sheath in frame uninvited.
+
+The three overrides above are not incidental. The 2026-08-01 note in
+outfits.yaml recorded the two faults of the generated blaster.png as "no brass
+panels in the slide, brown ribbed grip instead of black" — and the stock
+photograph has exactly those two properties. Attached unscoped it would teach
+the errors it was brought in to prevent. Shape only, and say so in the prompt as
+well as in the reference label, because the label alone is one line.
+-->
+
 
 Slab-sided and angular. A brushed bare-metal body in **dull silver-steel**, with
 **brass panels** let into the top of the slide and at the rear. Squared trigger

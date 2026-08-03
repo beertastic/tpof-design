@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 8b11df3b (short) · repo commit 8578b69 2026-08-03 13:34
+Prompt version: 7717e9aa (short) · repo commit 1ec5660 2026-08-03 13:46
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -14,6 +14,7 @@ is attached, fetch these URLs instead — and say which route you used:
   PLATE SHAPE AND FINISH — NOT SIZE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE MAKE-UP — NOT THE COSTUME: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  THE WESTAR-35 — ITS SHAPE ONLY, NOT ITS FINISH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/props/westar-35.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
   Take the FACE and BUILD from the actor image only. Hair, beard, age,

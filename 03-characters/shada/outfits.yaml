@@ -111,8 +111,23 @@ outfits:
       # blaster.png does not match the printed prop — no brass panels in the
       # slide, brown ribbed grip instead of black. Photograph the prop, save it
       # below, and uncomment. Until then the WESTAR-35 is held by words alone.
-      # - path: reference/props/westar-35.jpg
-      #   what: the WESTAR-35 blaster pistol, as built
+      # Uncommented 2026-08-03 with a STOCK reference rather than the printed
+      # prop, because five generations held the WESTAR-35 by words alone and the
+      # last one returned a generic sidearm with a scope — which the prompt
+      # explicitly forbids. Words cannot hold a silhouette; only an image can.
+      #
+      # SCOPED HARD, and the label is why. This photograph is the stock weapon
+      # and it is WRONG about this build in exactly the two ways the 2026-08-01
+      # note already recorded as faults: its grip is BROWN where this build's is
+      # black and textured, and it has NO brass where this build has brass
+      # panels let into the slide. It is also clean. Attached unscoped it would
+      # teach the two errors it was brought in to prevent, so it is the
+      # authority on SHAPE and nothing else, and 09-blaster.txt says so outright.
+      #
+      # Replace with a photograph of the printed prop when one exists — that is
+      # still the rule for anything physically built.
+      - path: reference/props/westar-35.png
+        what: THE WESTAR-35 — ITS SHAPE ONLY, NOT ITS FINISH
     must_show:
       # FIRST, AND FIRST FOR A REASON. Added 2026-08-01 after a generation came
       # back wearing the right costume on the wrong woman: it took the likeness

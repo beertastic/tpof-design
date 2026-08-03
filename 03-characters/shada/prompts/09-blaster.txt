@@ -1,10 +1,10 @@
 [SHADA — SLOT 09 — HERO PROP]
 Output file: blaster.png
 Aspect ratio: 1:1  (square)
-Prompt version: 608124de · repo commit 8578b69 2026-08-03 13:34
+Prompt version: c3111f52 · repo commit 1ec5660 2026-08-03 13:46
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8578b69, prompt 608124de.
+    Working from commit 1ec5660, prompt c3111f52.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -292,7 +292,24 @@ shaped by wet forest — she belongs in it, and it shows.
 === THIS IMAGE ===
 Product-reference layout of a WESTAR-35 blaster pistol on a neutral surface,
 lit evenly, side-on and filling the frame — the specific in-universe model, not a
-generic sidearm.
+generic sidearm. ONE WEAPON, ALONE IN FRAME. No knife, no sheath, no other
+props, nothing beside it.
+
+THE ATTACHED WESTAR-35 PHOTOGRAPH IS THE AUTHORITY ON SHAPE, AND ON NOTHING
+ELSE. Take the SILHOUETTE and the LAYOUT from it exactly: the slab side, the
+long squared upper receiver running most of the length, the stepped muzzle, the
+open trigger guard, the angled panel above the grip, and the flared magazine
+base. That shape is the whole reason it is attached.
+
+IT IS THE STOCK WEAPON AND IT IS WRONG ABOUT THIS PROP IN THREE WAYS. THE
+WRITTEN DESCRIPTION BELOW WINS ALL THREE:
+
+- The grip in the photograph is BROWN. On this build it is BLACK and
+  textured, worn through where a hand sits.
+- The photograph has NO brass. This build has BRASS PANELS let into the
+  top of the slide and at the rear.
+- The photograph is clean and unweathered. This one is heavily weathered and
+  field-repaired.
 
 Slab-sided and angular. A brushed bare-metal body in dull silver-steel, with
 brass panels let into the top of the slide and at the rear. Squared trigger

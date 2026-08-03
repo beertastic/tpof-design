@@ -1,10 +1,10 @@
 [SHADA — SLOT 02 — SCALE REFERENCE]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: e5231f0f · repo commit 8578b69 2026-08-03 13:34
+Prompt version: 70099fca · repo commit 1ec5660 2026-08-03 13:46
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8578b69, prompt e5231f0f.
+    Working from commit 1ec5660, prompt 70099fca.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -47,6 +47,8 @@ USE THE ATTACHED PHOTOGRAPH — THE MAKE-UP — NOT THE COSTUME. Her REPTILIAN V
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
 USE THE ATTACHED PHOTOGRAPH — the combat knife. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+USE THE ATTACHED PHOTOGRAPH — THE WESTAR-35 — ITS SHAPE ONLY, NOT ITS FINISH. If not attached, fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/props/westar-35.png
 LIKENESS (1) — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
 LIKENESS (2) — attached, or fetch:

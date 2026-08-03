@@ -1,7 +1,7 @@
 [SHADA — THE SALVAGED METAL SCALES]
 Output file: material-scale.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 0d97dde7 (short) · repo commit 8578b69 2026-08-03 13:34
+Prompt version: a3e2ba0d (short) · repo commit 1ec5660 2026-08-03 13:46
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -10,6 +10,7 @@ is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
   THE MAKE-UP — NOT THE COSTUME: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  THE WESTAR-35 — ITS SHAPE ONLY, NOT ITS FINISH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/props/westar-35.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.

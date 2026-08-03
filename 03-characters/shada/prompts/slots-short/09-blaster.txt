@@ -1,7 +1,7 @@
 [SHADA — HERO PROP]
 Output file: blaster.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 746c5efa (short) · repo commit 8578b69 2026-08-03 13:34
+Prompt version: bdeaeba3 (short) · repo commit 1ec5660 2026-08-03 13:46
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -11,6 +11,7 @@ is attached, fetch these URLs instead — and say which route you used:
   PLATE SHAPE AND FINISH — NOT SIZE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE MAKE-UP — NOT THE COSTUME: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  THE WESTAR-35 — ITS SHAPE ONLY, NOT ITS FINISH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/props/westar-35.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
@@ -20,7 +21,24 @@ is attached, fetch these URLs instead — and say which route you used:
 THE SHOT:
 Product-reference layout of a WESTAR-35 blaster pistol on a neutral surface,
 lit evenly, side-on and filling the frame — the specific in-universe model, not a
-generic sidearm.
+generic sidearm. ONE WEAPON, ALONE IN FRAME. No knife, no sheath, no other
+props, nothing beside it.
+
+THE ATTACHED WESTAR-35 PHOTOGRAPH IS THE AUTHORITY ON SHAPE, AND ON NOTHING
+ELSE. Take the SILHOUETTE and the LAYOUT from it exactly: the slab side, the
+long squared upper receiver running most of the length, the stepped muzzle, the
+open trigger guard, the angled panel above the grip, and the flared magazine
+base. That shape is the whole reason it is attached.
+
+IT IS THE STOCK WEAPON AND IT IS WRONG ABOUT THIS PROP IN THREE WAYS. THE
+WRITTEN DESCRIPTION BELOW WINS ALL THREE:
+
+- The grip in the photograph is BROWN. On this build it is BLACK and
+  textured, worn through where a hand sits.
+- The photograph has NO brass. This build has BRASS PANELS let into the
+  top of the slide and at the rear.
+- The photograph is clean and unweathered. This one is heavily weathered and
+  field-repaired.
 
 Slab-sided and angular. A brushed bare-metal body in dull silver-steel, with
 brass panels let into the top of the slide and at the rear. Squared trigger

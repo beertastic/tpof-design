@@ -11,7 +11,7 @@ approved references with stated, non-overlapping scopes: `turn-working-front.png
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is
 generated against both.
 
-**Fourteen images to make.** The run list below is the only place that carries
+**Thirteen images to make.** The run list below is the only place that carries
 the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
@@ -33,13 +33,13 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**Six done. One kept. Fourteen to make.**
+**Seven done. One kept. Thirteen to make.**
 
 | | |
 |---|---|
-| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** |
+| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** |
 | **KEEP** | `knife.png` — locked prop reference, unaffected |
-| **TO MAKE** | 14 numbered slots |
+| **TO MAKE** | 13 numbered slots |
 
 `species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
 are **not** any more. Both contradict the make-up lock — round pupils, and the
@@ -115,9 +115,21 @@ Attach **all six**. Check each one for:
 - **The shoulder cap HANGS**, standing off her shoulder with daylight under a
   ragged lower edge. Never moulded to the shoulder.
 
-### STEP 2 — `material-scale`, on its own, before anything else
+### STEP 2 — `material-scale`, on its own, before anything else  *(DONE 2026-08-03)*
 
-- [ ] `prompts/slots-short/12-material-scale.txt`
+- [x] `prompts/slots-short/12-material-scale.txt` — took three rolls, and the
+      third is the locked plate. Restaged; the staged copy is byte-identical to
+      `source/artwork/material-scale.png`, so steps 3–5 inherit it.
+
+**Still open on this plate, deliberately not chased.** The serpent is one mark
+rotated rather than three or four distinct ones — the written rule carries that,
+the build needs 3–4 STLs regardless, and nothing downstream inherits the count
+from this image. And it still shows ~16 plates at macro scale rather than the
+denser field asked for below. **Watch the first figure image of step 5:** if the
+plates come back oversized again, that is the trigger to re-roll this plate with
+more in frame. The mitigations that did not exist before are the attachment
+label — *"PLATE SHAPE AND FINISH — NOT SIZE... proves nothing about scale"* — and
+CHECK line 2, *"Plates SMALL: TWELVE across a flank panel, not six big ones."*
 
 **Do this one before the other plates and before every narrative frame**, because
 it is an attached reference for all of them. Getting it right first means the

@@ -1,10 +1,10 @@
 [SHADA — SLOT 12 — THE SALVAGED METAL SCALES]
 Output file: material-scale.png
 Aspect ratio: 1:1  (square)
-Prompt version: 52bf823d · repo commit 336cb8a 2026-08-03 12:59
+Prompt version: 52bf823d · repo commit 074add5 2026-08-03 13:00
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 336cb8a, prompt 52bf823d.
+    Working from commit 074add5, prompt 52bf823d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

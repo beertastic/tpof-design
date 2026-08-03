@@ -1,7 +1,7 @@
 [SHADA — COARSE TECHNICAL FABRIC]
 Output file: material-cloth.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 76468f7c (short) · repo commit 336cb8a 2026-08-03 12:59
+Prompt version: 76468f7c (short) · repo commit 074add5 2026-08-03 13:00
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

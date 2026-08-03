@@ -397,8 +397,35 @@ outfits:
           hexagon field.
           FOR WHAT A PLATE LOOKS LIKE, MATCH THE PLATE PHOTOGRAPH FETCHED ABOVE.
           Flat six-sided hexagons, each carrying a RAISED SNAKE SWIRL, laced to a
-          hand-cut backing. Salvaged, pitted and worn — never machined, never
-          polished, never carbon fibre or tech panelling.
+          hand-cut backing.
+      # Promoted to its own rule 2026-08-03 — the third time this exact failure
+      # has been fixed the same way, after the reptilian eyes and the trousers.
+      # "Salvaged, pitted and worn — never machined, never polished, never carbon
+      # fibre or tech panelling" was the LAST SENTENCE of the rule above, which is
+      # the longest in the file at 3,555 characters, so the trim cut it from every
+      # short prompt. The same sentence also sat in the outfit `description:`,
+      # which short.py does not read at all. It therefore reached no short prompt
+      # by either route.
+      #
+      # It became load-bearing on 2026-08-03, when the plates were made a printed
+      # part and the shape was deliberately locked to one master. Uniform shape
+      # plus uniform finish is machined tile — and that is exactly what came back:
+      # crisp embossed panelling, every plate equally new. Once the geometry stops
+      # varying, the WEAR is the only thing left carrying the salvage, so the rule
+      # that protects it can no longer be the clause most likely to be trimmed.
+      - check: "Plates WORN salvage — uniform SHAPE, uneven WEAR. Never crisp machined panelling."
+        text: >
+          THE PLATES ARE SALVAGE AND THEY ARE WORN. They must NEVER read as carbon
+          fibre, machined hex panelling, embossed tile or new decorative
+          metalwork. The shape is deliberately uniform, so the worn finish is the
+          ONLY thing keeping them off that.
+          THE SHAPE IS UNIFORM; THE WEAR IS NOT. Between neighbouring plates the
+          serpent ridge is worn flat on some and still sharp on others; paint and
+          grime have gone from the high points of some and stayed in the hollows
+          of others; the scratches, dents, chips and pitting differ on every
+          plate. The raised rim softens where a plate has been handled, and never
+          reads as a crisp bezel around every one. Two or three plates in any
+          patch are plainly later replacements in a different metal.
       # The garment and its coverage were two rules until 2026-08-01; merged,
       # because they describe one object and eleven rules dropped the per-rule
       # budget far enough to start truncating the others.

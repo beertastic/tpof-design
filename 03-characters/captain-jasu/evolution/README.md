@@ -2,8 +2,31 @@
 
 How her design converged. **History, never specification** — the design lives in
 `Character.md`, `outfits.yaml` and the approved reference. Per
-[`../../README.md`](../../README.md), **never attach an image from this folder to
-a generation prompt.**
+[`../../README.md`](../../README.md), **never attach a SUPERSEDED image from this
+folder to a generation prompt** — the latest pass is the exception, and pass 03
+below relies on it.
+
+## `attachments/` — one folder per pass, drag it in
+
+Each pass has its files staged under `attachments/<pass>/`, numbered and named by
+what each one is FOR, with a `MANIFEST.txt`. Same idea as `prompts/attach/`, which
+`short.py` writes for the generated prompts.
+
+```bash
+./tools/stage-evolution-attachments captain-jasu
+```
+
+**Run that after a fresh clone.** The folders are gitignored — they are copies of
+images already in the repository — and unlike `prompts/attach/` nothing else
+rebuilds them. The script reads each prompt's own URL block, so the staged folder
+cannot drift from the prompt: change the prompt, run it again.
+
+> **It found a fault the first time it ran.** `01a` and `01b` stage only **two**
+> files, because their URL block never listed the costume photograph — the
+> instruction to attach it was in prose only. The test still worked, because the
+> operator attached it by hand from this README, but anyone falling back to the
+> URLs would have generated without it and got a drifting costume. `02` and `03`
+> list all three properly.
 
 | Pass | Variable | Result |
 |---|---|---|
@@ -81,13 +104,8 @@ should be ignored.
 1. **A fresh chat for each variant.** Not one chat with two prompts — the second
    will copy the first. This is the rule that cost a full Shada set.
 2. Paste one file whole as the first message.
-3. **Attach all three of these:**
-
-   ```
-   source/artwork/turn-field-front.png            the costume — SCOPED, see below
-   reference/props/a180.jpg                       the blaster
-   reference/actor/ling-jiu-headshot.jpg          face and build
-   ```
+3. **Attach everything in `attachments/01a-boots-tall/`** (or `01b-`), plus the
+   approved front — see the note below.
 
 4. Save the results here as `01a-boots-tall.png` and `01b-boots-ankle.png`.
 
@@ -175,12 +193,13 @@ else must not move.
 > changes is already one more than is comfortable; a fourth, unasked-for change
 > to the headdress would make it impossible to tell what caused what.
 
-**Attach these three, and nothing else:**
+**Drag in everything in `attachments/02-boots-and-whistle/`** — three files,
+staged and named by what each is FOR.
 
 ```
-source/artwork/turn-field-front.png            the costume — SCOPED, three exceptions
-reference/props/a180.jpg                       the blaster
-reference/actor/ling-jiu-headshot.jpg          face and build
+1-the-costume.png                 <- source/artwork/turn-field-front.png, SCOPED
+2-the-a180-blaster-pistol.jpg     <- reference/props/a180.jpg
+3-face-build.jpg                  <- reference/actor/ling-jiu-headshot.jpg
 ```
 
 Note this is the opposite of `MANIFEST.txt` for a normal front view, which omits
@@ -235,10 +254,13 @@ crown, uneven, strands escaping.
 
 ### What to attach — note that this one is different
 
+**Drag in everything in `attachments/03-hair-lower/`** — three files, staged for
+you and named by what each one is FOR. Read its `MANIFEST.txt` first.
+
 ```
-evolution/02-boots-and-whistle.png             the costume — SCOPED, one exception
-reference/props/a180.jpg                       the blaster
-reference/actor/ling-jiu-headshot.jpg          face and build
+1-the-costume.png                 <- evolution/02-boots-and-whistle.png, SCOPED
+2-the-a180-blaster-pistol.jpg     <- reference/props/a180.jpg
+3-face-build.jpg                  <- reference/actor/ling-jiu-headshot.jpg
 ```
 
 **This attaches an evolution image, which the folder rules normally forbid.** The

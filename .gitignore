@@ -19,6 +19,14 @@ __pycache__/
 # too, and is worthless without the images it describes.
 03-characters/*/prompts/attach/
 
+# The same thing for the hand-written evolution prompts, staged per pass by
+# tools/stage-evolution-attachments. Copies of images that already live in this
+# repository, so never committed — but note these have no other generator, and
+# the script reads each prompt's own URL block to rebuild them. Run it after a
+# fresh clone, or the folders will not exist.
+03-characters/*/evolution/attachments/
+08-species/*/evolution/attachments/
+
 # Generated board output — regenerable via tools/board-generator/generate.py
 # Kept on disk (one current copy), never committed.
 03-characters/*/renders/

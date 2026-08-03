@@ -63,6 +63,11 @@ evolution/
   02-green-khaki.txt
   02-green-khaki.png
   ...
+  attachments/                  staged references, one folder per pass — gitignored
+    01-cloth-vest/
+      1-the-costume.png
+      2-...
+      MANIFEST.txt
 ```
 
 Zero-padded sequence, a short slug naming **the variable that pass changed**, and
@@ -70,13 +75,30 @@ the `.txt` and `.png` sharing a stem. The final pass produces the image that get
 approved into `source/artwork/`, so the last `.png` here and the approved
 reference are the same picture.
 
+**`attachments/` is staged by `./tools/stage-evolution-attachments <character>`**
+— the same service `short.py`'s `prompts/attach/` provides for the generated
+prompts, so the operator drags one folder in rather than hunting three files
+across three directories. It reads each prompt's own **URL block**, which is
+therefore the source of truth: change the prompt and run it again.
+
+**Run it after a fresh clone.** The folders are gitignored — copies of images that
+are already in the repository — and unlike `prompts/attach/` there is no other
+generator that would rebuild them.
+
 **Three rules, and the first is the one that matters:**
 
 1. **It is history, not specification, and nothing in it is a source of truth.**
    The design lives in `outfits.yaml`, `Character.md` and `Character-Lock.md`.
-   **Never attach an evolution image to a generation prompt** — every one but the
-   last shows a costume that no longer exists, and a superseded photograph is how
-   a settled decision quietly comes undone.
+   **Never attach a SUPERSEDED evolution image to a generation prompt** — all but
+   the last show a costume that no longer exists, and a superseded photograph is
+   how a settled decision quietly comes undone.
+
+   **The latest pass is the exception, and it is a real one.** Mid-sequence, the
+   newest evolution image is often the only picture of the current design —
+   `source/artwork/` still holds the last *approved* one, which by definition
+   predates every correction since. Captain Jasu's pass 03 attaches pass 02 for
+   exactly this reason: `source/artwork/` still showed ankle boots and a belt
+   whistle, two decisions already reversed. Attaching it would have undone them.
 2. **Variant prompts are hand-written and must never sit in `prompts/`.** That
    directory is generated: `split.py` and `turnarounds.py` delete `*.txt` there on
    every run, and a hand-written file among generated ones will either be lost or

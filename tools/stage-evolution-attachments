@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""Stage the attachments for hand-written evolution prompts.
+
+    ./tools/stage-evolution-attachments captain-jasu
+    ./tools/stage-evolution-attachments --all
+
+`prompts/attach/` does this for the GENERATED prompts, written by short.py.
+Evolution prompts are hand-written one-offs — nothing generates them, so
+nothing staged their attachments either, and the operator was left reading a
+URL block and hunting three files across three directories.
+
+THE PROMPT'S OWN URL BLOCK IS THE SOURCE OF TRUTH, exactly as MANIFEST.txt
+says it is for the generated ones. This script reads it back out of each
+`.txt`, resolves each URL to the file it points at in this repository, and
+copies them numbered into `evolution/attachments/<pass>/`. So the staged
+folder cannot disagree with the prompt: change the prompt, run this again.
+
+The staged copies are gitignored, like `prompts/attach/`. That is why this
+script exists — a gitignored folder with no generator is lost on the next
+clone and cannot be rebuilt from anything.
+"""
+import argparse
+import re
+import shutil
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+URL = re.compile(r"https://raw\.githubusercontent\.com/[^/]+/[^/]+/[^/]+/(\S+)")
+
+# The line above a URL usually names what the reference is FOR. Scope matters
+# more here than in the generated prompts, because these passes deliberately
+# attach an image and then overrule part of it.
+LABEL = re.compile(r"^\s*([A-Z][A-Z0-9 +/()',—-]{3,}?)\s*[:(]")
+
+
+def slug(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:48] or "reference"
+
+
+def stage(prompt: Path) -> int:
+    lines = prompt.read_text().splitlines()
+    refs, label = [], None
+    for line in lines:
+        m = LABEL.match(line)
+        if m:
+            label = m.group(1).strip()
+        u = URL.search(line)
+        if u:
+            refs.append((label, u.group(1)))
+            label = None
+
+    if not refs:
+        print(f"  {prompt.name}: no reference URLs — nothing to stage")
+        return 0
+
+    out = prompt.parent / "attachments" / prompt.stem
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    manifest, missing = [], []
+    for i, (what, rel) in enumerate(refs, 1):
+        src = REPO / rel
+        if not src.exists():
+            missing.append(rel)
+            continue
+        dst = out / f"{i}-{slug(what or Path(rel).stem)}{src.suffix}"
+        shutil.copy2(src, dst)
+        manifest.append(f"{dst.name}\n    scope : {what or '—'}\n    source: {rel}")
+
+    (out / "MANIFEST.txt").write_text(
+        f"ATTACH ALL {len(manifest)} OF THESE FILES, and nothing else.\n"
+        f"{prompt.name} — staged by tools/stage-evolution-attachments.\n\n"
+        "Read the prompt's scope block before generating. These passes attach a\n"
+        "photograph and then OVERRULE part of it, and which part is the whole\n"
+        "point of the pass.\n\n"
+        "If this folder and the prompt ever disagree, the prompt is right and\n"
+        "this folder is stale — run the script again.\n\n"
+        + "\n".join(manifest) + "\n"
+    )
+
+    for rel in missing:
+        print(f"  ! {prompt.name}: MISSING {rel}")
+    print(f"  {prompt.stem}: {len(manifest)} file(s) -> {out.relative_to(REPO)}")
+    return len(missing)
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("characters", nargs="*")
+    ap.add_argument("--all", action="store_true")
+    a = ap.parse_args()
+
+    dirs = sorted(REPO.glob("0[38]-*/*/evolution")) if a.all else [
+        d for c in a.characters
+        for d in (REPO / "03-characters" / c / "evolution", REPO / "08-species" / c / "evolution")
+        if d.is_dir()
+    ]
+    if not dirs:
+        print("No evolution folder found. Try --all.")
+        return 1
+
+    missing = 0
+    for d in dirs:
+        print(f"\n{d.parent.name}")
+        for prompt in sorted(d.glob("*.txt")):
+            missing += stage(prompt)
+    if missing:
+        print(f"\n{missing} reference(s) missing — those prompts cannot be run as written.")
+    return 1 if missing else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

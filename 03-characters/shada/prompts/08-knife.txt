@@ -1,14 +1,25 @@
-[SHADA — SLOT 08 — HERO PROP]
-Output file: knife.png
-Aspect ratio: 3:1  (wide banner)
-Prompt version: be88f4c9 · repo commit 1ec5660 2026-08-03 13:46
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
+!!  GENERATOR. It is 5-8x over the working budget; the overflow is
+Prompt version: 5c477fdf · repo commit 1606b64 2026-08-03 13:53
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1ec5660, prompt be88f4c9.
+    Working from commit 1606b64, prompt 5c477fdf.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
 cannot quote it, say so and generate nothing. Never put it in the picture.
+!!  dropped silently, from the middle, and nothing tells you.
+!!
+!!  PASTE THIS INSTEAD:  prompts/slots-short/08-knife.txt
+!!
+!!  The one you want says (short) on its Prompt version line.
+!!  This file is the specification, for reading and editing.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[SHADA — SLOT 08 — HERO PROP]
+Output file: knife.png
+Aspect ratio: 3:1  (wide banner)
 
 THIS MUST LOOK LIKE A REAL REFERENCE PHOTOGRAPH.
 A studio photograph of real physical objects on a real surface under real

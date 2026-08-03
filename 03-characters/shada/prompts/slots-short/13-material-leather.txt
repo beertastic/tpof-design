@@ -1,7 +1,7 @@
 [SHADA — WORN SYNTH-LEATHER]
 Output file: material-leather.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 1b2bfe84 (short) · repo commit 1ec5660 2026-08-03 13:46
+Prompt version: 1b2bfe84 (short) · repo commit 1606b64 2026-08-03 13:53
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

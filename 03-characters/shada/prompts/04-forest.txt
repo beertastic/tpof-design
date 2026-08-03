@@ -1,14 +1,25 @@
-[SHADA — SLOT 04 — IN-ENVIRONMENT]
-Output file: forest.png
-Aspect ratio: 9:16  (tall portrait)
-Prompt version: d7a2f822 · repo commit 1ec5660 2026-08-03 13:46
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  THIS IS THE LONG SPECIFICATION FILE. DO NOT PASTE IT INTO A
+!!  GENERATOR. It is 5-8x over the working budget; the overflow is
+Prompt version: 285366b3 · repo commit 1606b64 2026-08-03 13:53
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1ec5660, prompt d7a2f822.
+    Working from commit 1606b64, prompt 285366b3.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
 cannot quote it, say so and generate nothing. Never put it in the picture.
+!!  dropped silently, from the middle, and nothing tells you.
+!!
+!!  PASTE THIS INSTEAD:  prompts/slots-short/04-forest.txt
+!!
+!!  The one you want says (short) on its Prompt version line.
+!!  This file is the specification, for reading and editing.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[SHADA — SLOT 04 — IN-ENVIRONMENT]
+Output file: forest.png
+Aspect ratio: 9:16  (tall portrait)
 
 THIS MUST LOOK LIKE A FRAME FROM A REAL MOTION PICTURE.
 A photograph made on a real film set, on 35mm anamorphic lenses, of real

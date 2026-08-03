@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — LEFT]
 Output file: turn-working-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 671461ba (short) · repo commit bfcde27 2026-08-03 13:19
+Prompt version: 671461ba (short) · repo commit b17b63b 2026-08-03 13:33
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

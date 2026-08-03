@@ -563,13 +563,21 @@ repair. Explicitly no datapad and no unnecessary technology. Even, flat
 reference lighting. The restraint of the kit is the point — this is a short
 list, well maintained.
 
-*Scoped 2026-08-03. This opened "everything Shada carries", and the generation
+<!--
+Scoped 2026-08-03. This opened "everything Shada carries", and the generation
 read that as her whole loadout: it returned a costume knolling sheet — vest,
 trousers, boots, belt, knife and TWO gauntlets — with almost none of the kit
 above. "Carries" and "wears" are not distinguishable to a generator unless the
 prompt distinguishes them. The attached full-figure costume front, labelled
 COSTUME (match exactly), will have pushed the same way; see the reference-scoping
-item in `Prompt-Reliability-TODO.md`.*
+item in Prompt-Reliability-TODO.md.
+-->
+
+<!--
+NOTE FOR EDITORS: everything under a slot heading becomes prompt text. Notes
+belong in an HTML comment like this one; nothing else in Prompts.md is stripped.
+-->
+
 
 ## 11. `maintenance.png` — character at work
 **Tall portrait, 9:16.**
@@ -655,10 +663,12 @@ only thing left carrying the salvage**, so it has to do visible work:
 - The raised rim **softens where a plate has been handled** — never a crisp bezel
   around every one.
 
-*Added 2026-08-03. The 12-material-scale slot takes no costume rules, so the
+<!--
+Added 2026-08-03. The 12-material-scale slot takes no costume rules, so the
 CHECK block does not reach it and this had to be said in the shot text. The
 generation that day came back perfectly uniform in shape AND finish — crisp
-embossed tile, every plate equally new.*
+embossed tile, every plate equally new.
+-->
 
 **This is one patch, so the metal is broadly consistent** — one salvage source,
 one alloy, with only two or three plates obviously replaced later in something

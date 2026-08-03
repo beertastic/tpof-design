@@ -1,10 +1,10 @@
 [SHADA — SLOT 10 — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1  (square)
-Prompt version: 4ca1eace · repo commit bfcde27 2026-08-03 13:19
+Prompt version: 75194576 · repo commit b17b63b 2026-08-03 13:33
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit bfcde27, prompt 4ca1eace.
+    Working from commit b17b63b, prompt 75194576.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -306,14 +306,6 @@ kit, cloth wraps, and a compact dented water flask. Every item shows use and
 repair. Explicitly no datapad and no unnecessary technology. Even, flat
 reference lighting. The restraint of the kit is the point — this is a short
 list, well maintained.
-
-Scoped 2026-08-03. This opened "everything Shada carries", and the generation
-read that as her whole loadout: it returned a costume knolling sheet — vest,
-trousers, boots, belt, knife and TWO gauntlets — with almost none of the kit
-above. "Carries" and "wears" are not distinguishable to a generator unless the
-prompt distinguishes them. The attached full-figure costume front, labelled
-COSTUME (match exactly), will have pushed the same way; see the reference-scoping
-item in Prompt-Reliability-TODO.md.
 
 
 Deliver a single image at 1:1. It must look photographed, not generated.

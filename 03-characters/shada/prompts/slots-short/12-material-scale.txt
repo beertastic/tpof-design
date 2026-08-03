@@ -1,7 +1,7 @@
 [SHADA — THE SALVAGED METAL SCALES]
 Output file: material-scale.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 669013b7 (short) · repo commit bfcde27 2026-08-03 13:19
+Prompt version: 0d97dde7 (short) · repo commit b17b63b 2026-08-03 13:33
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -86,11 +86,6 @@ only thing left carrying the salvage, so it has to do visible work:
 - Scratches, dents, chips and pitting that differ on every plate.
 - The raised rim softens where a plate has been handled — never a crisp bezel
   around every one.
-
-Added 2026-08-03. The 12-material-scale slot takes no costume rules, so the
-CHECK block does not reach it and this had to be said in the shot text. The
-generation that day came back perfectly uniform in shape AND finish — crisp
-embossed tile, every plate equally new.
 
 This is one patch, so the metal is broadly consistent — one salvage source,
 one alloy, with only two or three plates obviously replaced later in something

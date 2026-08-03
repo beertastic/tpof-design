@@ -121,7 +121,20 @@ def find_repo_root(start: Path) -> Path:
 
 
 def demarkdown(text: str) -> str:
-    """Strip markdown decoration that is noise inside a prompt."""
+    """Strip markdown decoration that is noise inside a prompt.
+
+    HTML comments are removed FIRST and entirely, which is what makes it
+    possible to write a note in Prompts.md that is not prompt text. Until
+    2026-08-03 there was no such thing: parse_slots takes the whole chunk
+    between two slot headers, so every word under a heading reached the
+    generator. A provenance note added to the utility slot that day — naming the
+    wrong items it had just produced, "vest, trousers, boots, belt, knife and
+    TWO gauntlets" — was pasted to the generator as instructions.
+
+    Same failure as 733b5dd, where a YAML comment inside a block scalar turned
+    out to be prompt text. Twice is a missing feature, not two mistakes.
+    """
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)     # notes, never prompt text
     text = re.sub(r"^>\s?", "", text, flags=re.M)          # blockquotes
     text = re.sub(r"\*\*(.+?)\*\*", r"\1", text, flags=re.S)  # bold
     text = re.sub(r"(?<!\w)\*(?!\s)(.+?)(?<!\s)\*(?!\w)", r"\1", text, flags=re.S)  # italic

@@ -1,7 +1,7 @@
 [SHADA — HERO PROP]
 Output file: knife.png
 Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 409a6932 (short) · repo commit bfcde27 2026-08-03 13:19
+Prompt version: 409a6932 (short) · repo commit b17b63b 2026-08-03 13:33
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

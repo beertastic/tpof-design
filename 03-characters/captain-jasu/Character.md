@@ -85,7 +85,7 @@ see below.**
 
 ### CAST 2026-08-01 — and it departs from the script. Recorded, not hidden.
 
-**Cast: a Chinese actress, 28 years old, 150 cm (4 ft 11 in).** Headshot at
+**Cast: a Chinese actress, 28 years old, 155 cm (5 ft 1 in).** Headshot at
 `reference/actor/`.
 
 The screenplay says *"(40s), a powerful woman"*. She is now **twenty-eight and
@@ -96,7 +96,7 @@ and "corrects" it back.
 **Why it makes the design better rather than worse.** *The animal is her rank*
 was already the central fact of this character — but at forty and powerfully
 built, an audience had other explanations available: she is strong, she is
-experienced, she has done this a long time. **At twenty-eight and 4 ft 11 in
+experienced, she has done this a long time. **At twenty-eight and 5 ft 1 in
 there are no other explanations left.** She is obeyed because of the beast and
 for no other reason. The gap between what she is and what she controls is now the
 whole character, and it is visible in every frame without a line of dialogue.
@@ -107,9 +107,9 @@ Everything that was frightening about her gets worse, not softer:
   thirds his size, and he jokes about it.
 - **Sc.19, the crew kneels to her.** Kneeling, most of them are at her eye level.
 - **Her own animal outweighs her.** The akk dog is described as *a large,
-  dog-like beast*; she is 150 cm. In Sc.9 she is curled up beside something
+  dog-like beast*; she is 155 cm. In Sc.9 she is curled up beside something
   bigger than she is, worrying about whether it has eaten.
-- **Baylan stands 48 cm taller** and takes her orders for eighteen years.
+- **Baylan stands 43 cm taller** and takes her orders for eighteen years.
 
 **The one thing this must never become is pitiable.** She is not a small person
 overwhelmed by a big job, and nothing may read as a child in adult clothes. Her
@@ -181,7 +181,7 @@ patient. Neither is prey. That is very likely *why* Baylan is
 *"Jasu's golden boy"* — he is one of the few she cannot dominate, so the
 relationship had to become something else. **Nyx is the one whose eye she took.**
 
-**The intimidation is a strategy, not a temper.** At 150 cm she cannot loom, so
+**The intimidation is a strategy, not a temper.** At 155 cm she cannot loom, so
 she gets in first and escalates faster than anyone expects. Taking an eye off a
 grown mercenary is not cruelty for its own sake — it buys years of compliance
 from people who could overpower her in a second, and it only has to be done once.
@@ -254,7 +254,7 @@ the identifiable garments. No tunic, no peaked cap, no lacquered plate, no sword
 - **Build: small and slight**, fine-boned. Not muscular, not broad, not
   physically imposing in any way. Nothing about her body may suggest she could
   win a fight or hold a room by force.
-- **Height: 150 cm (4 ft 11 in).** From casting. The smallest adult in the film.
+- **Height: 155 cm (5 ft 1 in).** From casting. The smallest adult in the film.
   Baylan is 198 — he stands 48 cm above her.
 - **Long dark hair**, bound back or up for the field. Never loose, never styled.
 - **Handedness: RIGHT.** Decided 2026-08-01. Blaster on her right hip; leash,
@@ -285,7 +285,7 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 **The fit is where the money shows**, and the 2026-08-01 revision to a skin-tight
 cut makes the argument airtight. In a crew wearing dead men's kit and salvage,
 hers is the only outfit in the film that was **made to measure** — and a garment
-fitted this close *cannot be anything else*. At 150 cm nothing could have been
+fitted this close *cannot be anything else*. At 155 cm nothing could have been
 scavenged to fit her anyway. Nobody out here has anything made. That is what her
 share actually looks like, and it is a better answer than "more of it" or
 "shinier".
@@ -300,7 +300,7 @@ same way and for the same reason.
 **What the tight cut costs, and why it is worth it.** The long skirted coat was
 carrying part of the officer silhouette. Removing its volume moves all of that
 work onto three hard elements — **the stand collar, the shoulder mantle and the
-belt** — sitting on a body with no bulk at all. On a 150 cm frame the contrast is
+belt** — sitting on a body with no bulk at all. On a 155 cm frame the contrast is
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
 
@@ -550,5 +550,5 @@ TBD.
 | 0.6 | 2026-08-01 | in-development | **Concept sketch adopted as a reference plate**, attached to every prompt. Gains the **shoulder mantle** — a stiff ribbed cloth yoke, the signature of the costume and the only thing on her wider than she is. **Headdress removed entirely**; the mantle carries what it was carrying and does it as construction rather than jewellery. Materials shifted to **more cloth than leather**, and the cut to an **acrobat fit** — articulated at every joint. |
 | 0.5 | 2026-08-01 | in-development | **Silhouette revised to skin-tight** at the production's request — she has to read as agile. The long skirted coat loses its volume; the officer line now rests entirely on the stand collar, the square shoulder and the belt, over a second skin. Narrow split panels below the belt keep the upright line without a skirt. Reinforces the made-to-measure argument: a garment cut this close cannot be scavenged. |
 | 0.4 | 2026-08-01 | in-development | **Backstory given by the production.** Aggressive intimidator; strict family, displaced fear, targets the intellectually weaker, controls by fear. Met the akk dog on a transport job and kept it — which answers how she captains this crew at twenty-eight, and makes her authority founded on stealing the one thing that has ever loved her. Corrected `08-species/akk-dog/Creature.md`, which said she was fond of it "the way you are fond of a good weapon" — that was already contradicted by this document and is now settled the other way. |
-| 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 150 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |
+| 0.3 | 2026-08-01 | in-development | **Cast** — Chinese actress, 28, 155 cm. Recorded departure from the script's "(40s), a powerful woman". Age, height and build rewritten across `outfits.yaml` and this document; the costume gains a made-to-measure fit note, since at her size nothing could be scavenged. The design intent is unchanged and strengthened: with no physical presence at all, the animal is the only possible source of her authority. |
 | 0.2 | 2026-08-01 | in-development | Physical design decided: human, forties, powerfully built, right-handed. Costume resolved from a Japanese-officer reference abstracted to proportions only per Bible §6.5. Whistle and coiled leash decided. `outfits.yaml` written; five turnaround prompts generate. Script facts recovered — the eye taken from Nyx, the friendship with Baylan, and the Sc.9 plant of the finale. |

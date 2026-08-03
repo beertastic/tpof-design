@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 06 — HERO PORTRAIT]
 Output file: portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 7e50556a · repo commit 4592550 2026-08-03 16:54
+Prompt version: 47c46d0b · repo commit 6340173 2026-08-03 16:56
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 4592550, prompt 7e50556a.
+    Working from commit 6340173, prompt 47c46d0b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -65,7 +65,7 @@ DO NOT DRAW THAT CHARACTER.
 TWO DEPICTIONS WILL TRY TO ARRIVE HERE AND BOTH ARE WRONG.
 NOT AN IMPERIAL OFFICER. No flat grey-green uniform, no tunic with a rank plaque on the chest, no code cylinders at the shoulder, no peaked military cap, no jodhpurs, no gleaming jackboots, no insignia of any kind. She commands eight people and a dog. There is no empire behind her and nothing she wears may imply one.
 NOT A SAMURAI, AND NOT A JEDI. No lacquered lamellar plate, no laced armour panels, no wide flaring shoulder guards, no horned or winged helmet, no face mask, no mempo, no topknot, no robes, no sash-wrapped front, no sword. The man standing beside her in the finale is a Jedi hiding as a mercenary, and his entire design depends on nobody in frame reading as one.
-AND SHE IS NOT PHYSICALLY IMPOSING. She is twenty-eight years old, 150 cm, slight and fine-boned — the smallest adult in the film, and her own animal outweighs her. The word "captain" will pull you toward someone tall, broad and weathered. Refuse it. She is obeyed because of the beast at her side and for no other reason, and an image that makes her physically formidable has destroyed the only idea in the design.
+AND SHE IS NOT PHYSICALLY IMPOSING. She is twenty-eight years old, 155 cm, slight and fine-boned — the smallest adult in the film, and her own animal outweighs her. The word "captain" will pull you toward someone tall, broad and weathered. Refuse it. She is obeyed because of the beast at her side and for no other reason, and an image that makes her physically formidable has destroyed the only idea in the design.
 WHAT IS TRUE INSTEAD: she has bought the SHAPE of authority — a closed high collar, a square shoulder, a long coat and a cinched waist — because she has none of the real thing. It is well made and it has been in a forest for weeks. Battered, faded, mended, and worn by somebody who fights in it.
 
 Everything you already believe about this name is from a different

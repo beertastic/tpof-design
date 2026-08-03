@@ -206,7 +206,7 @@ belt". A belt is in shot and measurable; a waist is an idea. Same lesson as
 
 | Character | Height | Their waist | Akk crest lands at |
 |---|---|---|---|
-| **Captain Jasu** | 150 cm | ~90 cm | **Level with the bottom of her belt.** Confirmed by measurement, 2026-08-03 |
+| **Captain Jasu** | 155 cm | ~93 cm | **Level with the bottom of her belt.** Confirmed by measurement 2026-08-03, when she was 150 cm; re-cast to 155 cm the same day and the landmark is UNCHANGED — the crest still sits just under her belt |
 | **Baylan** | 198 cm | ~119 cm | **Mid-thigh, well below his belt** — about 43% of his height |
 | A standard 1.8 m figure | 180 cm | ~108 cm | Upper thigh, below the hip |
 

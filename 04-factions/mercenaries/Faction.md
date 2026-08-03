@@ -72,7 +72,7 @@ In practice:
 **How she got it — added 2026-08-01.** She was hired to transport the animal and
 kept it. She did not rise through this crew; **the animal made her**, and her
 authority is founded on stealing something she was paid to deliver. She is
-twenty-eight and 150 cm, the smallest adult in the film, and there is no other
+twenty-eight and 155 cm, the smallest adult in the film, and there is no other
 explanation available for why anyone obeys her.
 
 **She is an aggressive intimidator who cannot physically intimidate**, so she

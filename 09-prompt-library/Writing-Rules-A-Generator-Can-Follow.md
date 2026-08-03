@@ -28,7 +28,7 @@ an image; plates across a panel can. Anchor to something the generator can see
 and count in the picture it is making.
 
 **Corollary: the landmark must be recomputed per subject.** "Level with her belt"
-is right for a 150 cm character and wrong for a 198 cm one — the same animal
+is right for a 155 cm character and wrong for a 198 cm one — the same animal
 reaches the tall character's mid-thigh. A landmark works *because* it is specific;
 standardising it destroys the mechanism. See
 [`08-species/akk-dog/Creature.md`](../08-species/akk-dog/Creature.md).

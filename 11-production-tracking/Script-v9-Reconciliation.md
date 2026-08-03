@@ -339,7 +339,7 @@ asleep in it.
 **The script:** *"CAPTAIN JASU (40s), a powerful woman with a mean streak."*
 Sc.9, unchanged between v9 and v10.
 
-**Cast 2026-08-01:** a **twenty-eight-year-old actress, 150 cm (4 ft 11 in)** —
+**Cast 2026-08-01:** a **twenty-eight-year-old actress, 155 cm (5 ft 1 in)** —
 the smallest adult in the film.
 
 Both halves of the description are now wrong. "A powerful woman" can be read as
@@ -356,7 +356,7 @@ not the art department's:
 
 **The art department has proceeded on the casting**, because the costume could
 not be specified without a body. `outfits.yaml` and `Character.md` are written to
-28 and 150 cm, and the departure is recorded in both.
+28 and 155 cm, and the departure is recorded in both.
 
 **Worth saying to the writer:** the casting sharpens the character rather than
 compromising it. *The animal is her rank* was always the point, but a powerfully

@@ -24,7 +24,7 @@ governing_documents:
 **Faction:** Mercenaries
 **Scenes:** 9, 19, 20, 23, 24, 25 — her only costume
 **Primary environment:** Forest mercenary camp, and forest
-**Brief:** Mercenary captain. Twenty-eight, 150 cm, and the smallest adult in the
+**Brief:** Mercenary captain. Twenty-eight, 155 cm, and the smallest adult in the
 film. **The animal is her rank.**
 
 ---
@@ -81,7 +81,7 @@ no 3D-render look, no plastic or waxy skin.
    finale is a Jedi hiding as a mercenary, and his design depends on nobody else
    in frame reading as one.
 3. **NOT PHYSICALLY IMPOSING.** The word "captain" pulls toward someone tall,
-   broad and weathered. Refuse it. She is twenty-eight, 150 cm, slight and
+   broad and weathered. Refuse it. She is twenty-eight, 155 cm, slight and
    fine-boned, and her own animal outweighs her.
 
 **And never a big head.** She is small; her head is in NORMAL ADULT PROPORTION to
@@ -217,11 +217,11 @@ Captain Jasu standing beside a plain 1.8 m human reference figure on a neutral
 studio grey background, both full length, both feet on the same ground, even flat
 lighting. A costume department scale plate, not a scene.
 
-**SHE IS 150 cm AND THE FIGURE IS 180 cm — SHE IS 83% OF HIS HEIGHT.**
+**SHE IS 155 cm AND THE FIGURE IS 180 cm — SHE IS 86% OF HIS HEIGHT.**
 
-**THE TOP OF HER HEAD IS LEVEL WITH HIS CHIN.** Slightly below it, and clearly
-ABOVE his shoulder. That is the landmark; use it and ignore any other impression
-of how small she should look.
+**THE TOP OF HER HEAD IS LEVEL WITH HIS CHIN.** Not below it, not above it —
+level. Clearly ABOVE his shoulder. That is the landmark; use it and ignore any
+other impression of how small she should look.
 
 **NOT his eyebrows** — that would make her 168 cm. **NOT his shoulder or his
 chest** — that would make her 133 cm and a child. She is a small adult woman, not
@@ -239,9 +239,16 @@ came back at 133 cm measured -- overshooting the other way, because the rest of
 the pack says "very small, the smallest adult in the film, not imposing" and with
 a bad landmark that is what it followed.
 
-Chin height on a 180 cm figure is about 156 cm; her head top is 150 cm. The chin
-is the correct landmark and it is visible in frame, which is the whole point --
-see 09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md, rule 1.
+Chin height on a 180 cm figure is about 156 cm; her head top is 155 cm, so the
+landmark is now near-exact rather than approximate. The chin is the correct
+landmark and it is visible in frame, which is the whole point -- see
+09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md, rule 1.
+
+RE-CAST 2026-08-03 from 150 cm to 155 cm (5 ft 1 in), same day. The change makes
+this landmark BETTER, not worse: at 150 cm her head top sat just under his chin,
+at 155 cm it is level with it. Nothing else about her scale reasoning moves --
+she is still the smallest adult in the film and her own animal still outweighs
+her.
 -->
 
 ## 3. `camp_day.png` — Scene 9, the briefing

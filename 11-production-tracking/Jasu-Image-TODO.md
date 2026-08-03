@@ -23,7 +23,7 @@ status: "open"
 >
 > | | Slots | Why this order |
 > |---|---|---|
-> | 1 | `02-scale_figure` | **First.** She is 150 cm and every image drifts her taller. The plate that fixes it |
+> | 1 | `02-scale_figure` | **First.** She is 155 cm and every image drifts her taller. The plate that fixes it |
 > | 2 | `09-blaster` · `10-whistle_and_leash` · `11-mantle_detail` | Lock the plates before the figures |
 > | 3 | `13/14/15-material_*` | Cloth, leather, hardware |
 > | 4 | `06-portrait` · `07-headdress` · `08-expression_strip` | Close work, and the make-up board |
@@ -34,7 +34,7 @@ status: "open"
 > Eight lessons from Shada, each paid for by a wasted generation.
 >
 > **Two things specific to her.** The Funko headdress references were detached on
-> 2026-08-03 — a 1:1 head-to-body ratio is exactly how a 150 cm woman turns into a
+> 2026-08-03 — a 1:1 head-to-body ratio is exactly how a 155 cm woman turns into a
 > caricature, and the approved turnarounds carry the horns better anyway. And the
 > akk dog goes wherever she is: it is 0.85 m at the crest, **level with the bottom
 > of her belt**, measured off the rig.
@@ -136,7 +136,7 @@ other characters, sits behind them.
 block in `outfits.yaml` already names the two costumes an image model will try to
 substitute — an **Imperial officer** and a **samurai** — and a third failure that
 the *word* "captain" causes on its own, which is making her tall, broad and
-formidable when she is 28, 150 cm and the smallest adult in the film. Those
+formidable when she is 28, 155 cm and the smallest adult in the film. Those
 belong in the lock, not only in the YAML.
 
 **3. Complete `Prompts.md`** — answer the 16 `NEEDS:` markers, delete the slots

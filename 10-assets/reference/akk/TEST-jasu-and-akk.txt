@@ -18,7 +18,7 @@ used them. Each is an authority WITHIN ITS OWN SCOPE AND NOWHERE ELSE:
   6. THE CREATURE'S BUILD, CREST AND HIDE. Not its pose.
   7. THE CREATURE'S HEAD — horns, eye, jaw.
 
-HER HEAD IS NORMAL ADULT PROPORTION. She is small — 150 cm — but her head is in
+HER HEAD IS NORMAL ADULT PROPORTION. She is small — 155 cm — but her head is in
 proportion to her body like any adult's. Never oversized, never a caricature,
 never a child's proportions.
 
@@ -32,7 +32,7 @@ near hand rests flat on the crest of its shoulders. Neither is looking at the
 camera; both are looking off to the same side, calm and unhurried. She is not
 restraining it and it is not threatening anyone. They are used to each other.
 
-THE WOMAN. Captain Jasu is 150 cm — FOUR FOOT ELEVEN, VERY SMALL AND SLIGHT, the
+THE WOMAN. Captain Jasu is 155 cm — FIVE FOOT ONE, VERY SMALL AND SLIGHT, the
 smallest adult in this film, and twenty-eight years old. She is NOT imposing, NOT
 muscular and NOT physically dangerous-looking. Her costume is a SECOND SKIN in
 heavy ribbed knit and dense woven cloth, close to the body from throat to ankle,
@@ -47,7 +47,7 @@ IT IS A VERY LARGE DOG, NOT A HORSE AND NOT A BEAR. Measured from the rig: 0.85 
 at the highest point of its back, about 1.05 m from nose to the base of the tail.
 Great Dane height, at the top of that range.
 
-AGAINST THIS PARTICULAR WOMAN, WHO IS ONLY 150 cm: he crest over its shoulders is level with the bottom of her belt.
+AGAINST THIS PARTICULAR WOMAN, WHO IS ONLY 155 cm: he crest over its shoulders is level with the bottom of her belt.
 Her resting hand hangs naturally onto it — she does NOT
 reach down and she does NOT reach up. IT OUTWEIGHS HER. If she could sit on it,
 or if it could walk under her hand without her lowering it, the scale is wrong.
@@ -116,7 +116,7 @@ sun-faded. Real skin with pores and lines. Not a render, not concept art, not
 AI-looking.
 
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
-  1. The creature's shoulder crest comes to HER WAIST. She is 150 cm.
+  1. The creature's shoulder crest comes to HER WAIST. She is 155 cm.
   2. Its back is PLATED with a spiked crest. Never smooth.
   3. Three to four horns above EACH eye. Eyes large, round and black.
   4. ONE woman, ONE animal, exterior forest. Nothing else in frame.

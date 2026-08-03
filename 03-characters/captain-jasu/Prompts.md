@@ -217,10 +217,32 @@ Captain Jasu standing beside a plain 1.8 m human reference figure on a neutral
 studio grey background, both full length, both feet on the same ground, even flat
 lighting. A costume department scale plate, not a scene.
 
-**SHE IS 150 cm AND THE FIGURE IS 180 cm.** The top of her head reaches roughly
-the figure's eyebrows — she is a full head shorter. **This is the single most
-important plate for this character**, because every other image will drift her
-taller. No dramatic angle, no low camera, nothing that flatters.
+**SHE IS 150 cm AND THE FIGURE IS 180 cm — SHE IS 83% OF HIS HEIGHT.**
+
+**THE TOP OF HER HEAD IS LEVEL WITH HIS CHIN.** Slightly below it, and clearly
+ABOVE his shoulder. That is the landmark; use it and ignore any other impression
+of how small she should look.
+
+**NOT his eyebrows** — that would make her 168 cm. **NOT his shoulder or his
+chest** — that would make her 133 cm and a child. She is a small adult woman, not
+a young teenager: adult proportions, adult face, adult body, simply short.
+
+**This is the single most important plate for this character**, because every
+other image will drift her taller. No dramatic angle, no low camera, nothing that
+flatters, both feet flat on the same ground, both figures facing camera square.
+
+<!--
+Corrected 2026-08-03 after the first attempt. The original said "roughly the
+figure's eyebrows", which is arithmetically wrong: eyebrow height on a 180 cm man
+is about 168 cm, so that instruction describes a 168 cm woman. The generation
+came back at 133 cm measured -- overshooting the other way, because the rest of
+the pack says "very small, the smallest adult in the film, not imposing" and with
+a bad landmark that is what it followed.
+
+Chin height on a 180 cm figure is about 156 cm; her head top is 150 cm. The chin
+is the correct landmark and it is visible in frame, which is the whole point --
+see 09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md, rule 1.
+-->
 
 ## 3. `camp_day.png` — Scene 9, the briefing
 **Tall portrait, 9:16.**

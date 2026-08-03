@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 02 — HOW SMALL SHE ACTUALLY IS]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 24c5beeb · repo commit d1002fb 2026-08-03 16:50
+Prompt version: e99e1889 · repo commit 4592550 2026-08-03 16:54
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d1002fb, prompt 24c5beeb.
+    Working from commit 4592550, prompt e99e1889.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -155,10 +155,19 @@ Captain Jasu standing beside a plain 1.8 m human reference figure on a neutral
 studio grey background, both full length, both feet on the same ground, even flat
 lighting. A costume department scale plate, not a scene.
 
-SHE IS 150 cm AND THE FIGURE IS 180 cm. The top of her head reaches roughly
-the figure's eyebrows — she is a full head shorter. This is the single most
-important plate for this character, because every other image will drift her
-taller. No dramatic angle, no low camera, nothing that flatters.
+SHE IS 150 cm AND THE FIGURE IS 180 cm — SHE IS 83% OF HIS HEIGHT.
+
+THE TOP OF HER HEAD IS LEVEL WITH HIS CHIN. Slightly below it, and clearly
+ABOVE his shoulder. That is the landmark; use it and ignore any other impression
+of how small she should look.
+
+NOT his eyebrows — that would make her 168 cm. NOT his shoulder or his
+chest — that would make her 133 cm and a child. She is a small adult woman, not
+a young teenager: adult proportions, adult face, adult body, simply short.
+
+This is the single most important plate for this character, because every
+other image will drift her taller. No dramatic angle, no low camera, nothing that
+flatters, both feet flat on the same ground, both figures facing camera square.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:

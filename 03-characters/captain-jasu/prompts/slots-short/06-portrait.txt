@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — HERO PORTRAIT]
 Output file: portrait.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: bfb61bdc (short) · repo commit 3c1b3af 2026-08-03 23:36
+Prompt version: 16ea7d56 (short) · repo commit c4e5bc3 2026-08-04 00:13
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -19,5 +19,20 @@ Head and shoulders. Even, flat reference lighting on a neutral background. Direc
 and unsmiling, eyes to camera. Casting and make-up reference, not a dramatic
 image. The mantle and the stand collar visible at the bottom of frame, the
 headdress complete at the top.
+
+HER HAIR IS WORN DOWN AND LOOSE — long and dark, swept back off the face.
+Never gathered up, never a bun.
+
+THE HORNS ARE ASYMMETRIC — long and sweeping on one side, shorter points on
+the other. NEVER a matched pair, which reads as a symmetrical ornament
+rather than trophies taken off different kills.
+
+THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION. Fine irregular
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture. At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the must_show rule alone does not beat the
+photograph at this distance.
 
 LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

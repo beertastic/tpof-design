@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 04 — GIVING AN ORDER]
 Output file: captaining.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 5c643861 · repo commit 3c1b3af 2026-08-03 23:36
+Prompt version: a82f9b7d · repo commit c4e5bc3 2026-08-04 00:13
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 3c1b3af, prompt 5c643861.
+    Working from commit c4e5bc3, prompt a82f9b7d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -186,6 +186,19 @@ this costume and is NOT a face reference.
 Early morning, forest. Captain Jasu directing the pursuit — mid-instruction, arm
 out, pointing a direction, mercenaries moving off in the background to do it. The
 akk dog at her hip.
+
+THE AKK DOG IS A REPTILE, NOT A DOG. Low-slung and heavy through the
+shoulders, warm red-brown pebbled scale, coarse overlapping plates and a
+spiked crest over the neck and shoulders, a broad short-muzzled head with a
+long tapering snout, three to four swept-back horns above each eye, large
+round black eyes, broad splayed feet with long pale claws. NOT a canid, NOT a
+wolf, NOT a mastiff, NO fur of any kind. Its crest is level with the bottom of
+her belt.
+
+IT IS NOT ON A LEAD. The heavy leash stays coiled at her belt on her LEFT and
+is never clipped to the animal — no lead running to it, no harness, no
+collar in her hand. She carries restraint she does not need, and that is the
+whole point of it.
 
 AUTHORITY WITHOUT PHYSICAL PRESENCE. She is the smallest person in frame and
 plainly the one in charge, and the reason is standing next to her. Everyone

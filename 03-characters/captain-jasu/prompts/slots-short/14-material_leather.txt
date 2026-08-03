@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — BELT, BRACERS AND BOOTS]
 Output file: material_leather.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 3bd126e7 (short) · repo commit 3c1b3af 2026-08-03 23:36
+Prompt version: 3bd126e7 (short) · repo commit c4e5bc3 2026-08-04 00:13
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

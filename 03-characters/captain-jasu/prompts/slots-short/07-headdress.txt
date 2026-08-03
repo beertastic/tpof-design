@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 2f3f3407 (short) · repo commit 3c1b3af 2026-08-03 23:36
+Prompt version: 8a7bee8b (short) · repo commit c4e5bc3 2026-08-04 00:13
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -18,9 +18,15 @@ THE SHOT:
 Close study of the headdress from a three-quarter rear angle, showing how the
 horns are set into the hair. Even flat lighting, neutral background.
 
-HER HAIR is long and dark, swept UP AND BACK off the face into a large rolled,
-worked mass held high on the head, the length falling loose behind and to the
-sides. A BUILT shape, not a hairstyle anyone maintains daily.
+HER HAIR IS WORN DOWN AND LOOSE — long and dark, falling over her shoulders
+and down her back, swept back off the face, field-worn and slightly dishevelled.
+NEVER piled up, NEVER a bun, NEVER a half-up knot, NEVER gathered at the back
+of the crown, NEVER styled. The horns sit in loose hair, not in a built shape.
+
+Corrected 2026-08-04. This slot still carried the superseded "swept UP AND
+BACK into a large rolled, worked mass held high on the head" after the hair
+was changed to worn down, and the plate duly came back with a half-up knot.
+The slot text asked for it.
 
 SET INTO IT, PALE CURVED HORNS — bone or bone-coloured, smooth, tapering to
 points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,

@@ -276,6 +276,19 @@ Early morning, forest. Captain Jasu directing the pursuit — mid-instruction, a
 out, pointing a direction, mercenaries moving off in the background to do it. The
 akk dog at her hip.
 
+**THE AKK DOG IS A REPTILE, NOT A DOG.** Low-slung and heavy through the
+shoulders, **warm red-brown pebbled scale**, coarse overlapping plates and a
+**spiked crest over the neck and shoulders**, a broad short-muzzled head with a
+long tapering snout, **three to four swept-back horns above each eye**, large
+round black eyes, broad splayed feet with long pale claws. **NOT a canid, NOT a
+wolf, NOT a mastiff, NO fur of any kind.** Its crest is level with the bottom of
+her belt.
+
+**IT IS NOT ON A LEAD.** The heavy leash stays coiled at her belt on her LEFT and
+is **never clipped to the animal** — no lead running to it, no harness, no
+collar in her hand. She carries restraint she does not need, and that is the
+whole point of it.
+
 **AUTHORITY WITHOUT PHYSICAL PRESENCE.** She is the smallest person in frame and
 plainly the one in charge, and the reason is standing next to her. Everyone
 else's body language is deference; hers is not a performance of command, it is
@@ -300,15 +313,37 @@ and unsmiling, eyes to camera. Casting and make-up reference, not a dramatic
 image. The mantle and the stand collar visible at the bottom of frame, the
 headdress complete at the top.
 
+**HER HAIR IS WORN DOWN AND LOOSE** — long and dark, swept back off the face.
+Never gathered up, never a bun.
+
+**THE HORNS ARE ASYMMETRIC** — long and sweeping on one side, shorter points on
+the other. **NEVER a matched pair**, which reads as a symmetrical ornament
+rather than trophies taken off different kills.
+
+**THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular**
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. **NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture.** At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the `must_show` rule alone does not beat the
+photograph at this distance.
+
+
 ## 7. `headdress.png` — the bone horns
 **Portrait, 3:4.**
 
 Close study of the headdress from a three-quarter rear angle, showing how the
 horns are set into the hair. Even flat lighting, neutral background.
 
-**HER HAIR** is long and dark, swept UP AND BACK off the face into a large rolled,
-worked mass held high on the head, the length falling loose behind and to the
-sides. A BUILT shape, not a hairstyle anyone maintains daily.
+**HER HAIR IS WORN DOWN AND LOOSE** — long and dark, falling over her shoulders
+and down her back, swept back off the face, field-worn and slightly dishevelled.
+**NEVER piled up, NEVER a bun, NEVER a half-up knot, NEVER gathered at the back
+of the crown, NEVER styled.** The horns sit in loose hair, not in a built shape.
+
+> *Corrected 2026-08-04. This slot still carried the superseded "swept UP AND
+> BACK into a large rolled, worked mass held high on the head" after the hair
+> was changed to worn down, and the plate duly came back with a half-up knot.
+> The slot text asked for it.*
 
 **SET INTO IT, PALE CURVED HORNS** — bone or bone-coloured, smooth, tapering to
 points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,
@@ -331,6 +366,21 @@ something she loves. Restrained throughout. Same lighting, same angle, same scal
 in every panel.
 
 **A CONCEALED CLOSURE, NEVER A VISIBLE ZIP.** No coil zip, no zip tape, no slider.
+
+**HER HAIR IS WORN DOWN AND LOOSE** in every panel, and identical in all four.
+
+**THE HORNS ARE ASYMMETRIC** — long and sweeping on one side, shorter points on
+the other. **NEVER a matched pair**, which reads as a symmetrical ornament
+rather than trophies taken off different kills.
+
+**THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular**
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. **NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture.** At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the `must_show` rule alone does not beat the
+photograph at this distance.
+
 
 ## 9. `blaster.png` — the A180
 **Square, 1:1.**
@@ -430,6 +480,10 @@ will remember.**
 Captain Jasu and the akk dog in wet forest, standing together, her near hand
 resting flat on the crest of its shoulders. Neither looking at camera. Calm, and
 plainly used to each other.
+
+**IT IS NOT ON A LEAD.** The heavy leash stays coiled at her belt on her LEFT and
+is never clipped to the animal — no lead running to it, no harness, nothing in
+her hand.
 
 **THE SCALE IS THE POINT.** Its shoulder crest is level with the bottom of her
 belt. Her resting hand hangs naturally onto it — she does NOT reach down and she

@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE ANIMAL IS HER RANK]
 Output file: akk_together.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: 7a47e953 (short) · repo commit 3c1b3af 2026-08-03 23:36
+Prompt version: a3cdd1e3 (short) · repo commit c4e5bc3 2026-08-04 00:13
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -28,11 +28,11 @@ MUST BE TRUE OF THIS IMAGE:
 7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
 8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the shaft rises well up the calf, close-fitting, ending below the knee. They are NOT ankle boots, NOT low, NOT pale and NOT ornamented.
 9. THE BOOT HEEL IS FLAT, OR AS NEAR FLAT AS THE BOOT ALLOWS — a walking sole, no more than about 25 mm at the heel. NEVER a block heel, NEVER a shaped or raised heel, and NEVER anything that adds height to her.
-10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
+10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky.
 11. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes.
 12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar.
-13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after, not derelict: NO splits, NO holes, NO rot.
-14. A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is. It rises at the back into the stand collar.
+13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after, not derelict.
+14. A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is.
 15. HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her shoulders and down her back, swept back off the face, field-worn and slightly dishevelled. NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
 16. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor.
 17. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
@@ -46,13 +46,17 @@ MUST BE TRUE OF THIS IMAGE:
 25. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
 26. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
 27. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
-28. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled. They do NOT continue up the upper arm.
+28. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
 29. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
 
 THE SHOT:
 Captain Jasu and the akk dog in wet forest, standing together, her near hand
 resting flat on the crest of its shoulders. Neither looking at camera. Calm, and
 plainly used to each other.
+
+IT IS NOT ON A LEAD. The heavy leash stays coiled at her belt on her LEFT and
+is never clipped to the animal — no lead running to it, no harness, nothing in
+her hand.
 
 THE SCALE IS THE POINT. Its shoulder crest is level with the bottom of her
 belt. Her resting hand hangs naturally onto it — she does NOT reach down and she

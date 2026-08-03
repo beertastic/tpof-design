@@ -3,7 +3,7 @@ character: Shada
 asset_id: CH-006
 version: '2.0'
 status: APPROVED
-date: '2026-07-31'
+date: '2026-08-03'
 footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
 governing_documents:
 - ../../01-production-design/Production-Design-Bible-v1.0.md
@@ -364,8 +364,104 @@ boards:
       - Tonal and readable only in raking light
       - Makeup not prosthetics
       - Reptilian contact lenses do most of the work
-  materials:
+  # BOARD 05 — MAKE-UP, added 2026-08-03.
+  #
+  # The three make-up images were split across two boards and neither was about
+  # make-up: scale_portrait sat on MATERIALS as the largest image on a page of
+  # cloth and metal swatches, with nothing in the text referring to it, and the
+  # two study strips sat on PERFORMANCE among the narrative frames. A make-up
+  # artist had to open two documents and ignore most of both.
+  #
+  # Every character needs this board, not just the ones with a species. A human
+  # face still needs hair, dirt state, scarring and continuity across a shoot.
+  # Copy this block, keep the geometry, replace the copy.
+  makeup:
     label: BOARD 05
+    title: MAKE-UP & CONTINUITY BOARD
+    output_pdf: Makeup-Board.pdf
+    output_png: Makeup-Board-A2-300dpi.png
+    tagline: The lenses do most of the work.
+    images:
+    - path: source/artwork/scale_portrait.png
+      x: 0.45
+      y: 1.35
+      w: 5.79
+      h: 6.98
+    - path: source/artwork/species_strip.png
+      x: 6.64
+      y: 1.35
+      w: 16.30
+      h: 6.99
+    - path: source/artwork/expression_strip.png
+      x: 0.45
+      y: 8.74
+      w: 7.37
+      h: 4.15
+    sections:
+    - heading: THE CONTACT LENSES
+      x: 8.22
+      y: 8.74
+      w: 7.16
+      h: 4.15
+      font_size: 9.5
+      items:
+      - A vertical slit pupil clearly readable
+      - Otherwise a human eye shape lids lashes expression
+      - Only the pupil is wrong
+      - The highest value item in her make-up
+      - Never a full creature eye and never enlarged
+      - Cannot render at full figure distance this is close work
+    - heading: SCALE PLACEMENT
+      x: 15.78
+      y: 8.74
+      w: 7.16
+      h: 4.15
+      font_size: 9.5
+      items:
+      - Edges only never the middle of a surface
+      - Temples outer cheekbone jawline behind the ear
+      - The side of the neck never the front of the throat
+      - Collarbone and the tops of the shoulders
+      - Backs of the hands and the forearms
+      - Broken patches never a continuous sheet
+    - heading: FINISH AND COLOUR
+      x: 0.45
+      y: 13.29
+      w: 7.16
+      h: 2.4
+      font_size: 9.5
+      items:
+      - Tonal the same colour as her skin
+      - Flat like a tattoo never raised or pebbled
+      - Readable only in raking light
+      - Never warm orange or tan
+      - Make-up never prosthetics
+    - heading: CONTINUITY
+      x: 8.01
+      y: 13.29
+      w: 7.16
+      h: 2.4
+      font_size: 9.5
+      items:
+      - One costume three scenes 10 23 and 25
+      - Dirt increases across the shoot the scale does not
+      - Lenses in for every close and mid shot
+      - Match the portrait plate not the full figures
+      - She is never indoors except the Sabacc hold
+    - heading: WHAT IT IS NOT
+      x: 15.57
+      y: 13.29
+      w: 7.37
+      h: 2.4
+      font_size: 9.5
+      items:
+      - Not a prosthetic and not an appliance
+      - Not a full creature design
+      - Not a printed or transferred snakeskin
+      - Not covering the whole face
+      - A human performer with inherited ancestry
+  materials:
+    label: BOARD 06
     title: MATERIALS & COLOUR BOARD
     output_pdf: Materials-Board.pdf
     output_png: Materials-Board-A2-300dpi.png

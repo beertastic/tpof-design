@@ -23,7 +23,7 @@ status: "open"
 >
 > | | Slots | Why this order |
 > |---|---|---|
-> | 1 | `02-scale_figure` | **First.** She is 155 cm and every image drifts her taller. The plate that fixes it |
+> | 1 | `02-scale_figure` | **Attempted 2026-08-03 and needs a re-roll — see below** |
 > | 2 | `09-blaster` · `10-whistle_and_leash` · `11-mantle_detail` | Lock the plates before the figures |
 > | 3 | `13/14/15-material_*` | Cloth, leather, hardware |
 > | 4 | `06-portrait` · `07-headdress` · `08-expression_strip` | Close work, and the make-up board |
@@ -38,6 +38,22 @@ status: "open"
 > caricature, and the approved turnarounds carry the horns better anyway. And the
 > akk dog goes wherever she is: it is 0.85 m at the crest, **level with the bottom
 > of her belt**, measured off the rig.
+
+> ### Open on her, 2026-08-03
+>
+> - [ ] **`02-scale_figure` — re-roll.** First attempt measured **133 cm** against
+>       a 180 cm reference, and the landmark in the prompt was wrong: it said
+>       "roughly the figure's eyebrows", which describes a 168 cm woman.
+>       **Corrected to "the top of her head is level with his chin"**, now bounded
+>       in both directions. At 155 cm the landmark is near-exact.
+> - [ ] **Her hair came back down and loose.** The rule says swept UP AND BACK
+>       into a large rolled, worked mass held high on the head, with the horns set
+>       into it — *"a BUILT shape, not a hairstyle anyone maintains daily"*. Name
+>       it in the correction; the headdress is half her design.
+> - [ ] **RE-CAST to 155 cm (5 ft 1 in) on 2026-08-03.** Fifty-four references
+>       updated. The five turnarounds are unaffected — they contain no scale
+>       comparison — and the akk landmark is unchanged. `scale_figure` is the only
+>       image the change invalidates.
 
 **Status: TURNAROUNDS COMPLETE. SIXTEEN SLOTS AND SIX BOARDS NOW CONFIGURED.**
 

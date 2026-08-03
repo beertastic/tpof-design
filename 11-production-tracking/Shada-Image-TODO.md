@@ -2,6 +2,7 @@
 title: "Shada — Finish List"
 asset_id: "TRACK-SHADA-IMAGES"
 updated: "2026-08-03"
+status: "closed"
 ---
 
 # Shada — Finish List
@@ -243,20 +244,20 @@ takes no rules. Patched by hand into both slots, and written up as **fixes 8 and
 being that the same rule reaches all thirteen full-length prompts, where a slit
 pupil is 2–3 px and cannot render at all.
 
-### STEP 5 — the narrative frames
+### STEP 5 — the narrative frames  *(DONE 2026-08-03)*
 
-- [ ] `01-hero.txt`
-- [ ] `02-scale_figure.txt`
-- [ ] `03-camp_day.txt`
-- [ ] `04-forest.txt` — **still owed a DUSK frame.** It came back as a daylight
+- [x] `01-hero.txt`
+- [x] `02-scale_figure.txt`
+- [x] `03-camp_day.txt`
+- [x] `04-forest.txt` — **the dusk frame landed.** — **still owed a DUSK frame.** It came back as a daylight
       camp, which makes it a duplicate of `camp_day`. The palette change makes it
       more urgent: the old risk was charcoal vanishing into shadow, the new one is
       grey-green and khaki vanishing into wet foliage.
-- [ ] `11-maintenance.txt`
-- [ ] `16-tone-collage.txt` — the share sheet. One image, six panels. **The only
+- [x] `11-maintenance.txt`
+- [x] `16-tone-collage.txt` — took three rolls: desert, then all six panels dark, then right. — the share sheet. One image, six panels. **The only
       slot where a multi-panel result is correct.** Never used as a reference.
 
-### STEP 6 — build the sheets
+### STEP 6 — build the sheets  *(DONE 2026-08-03 — six boards and the A4 promo)*
 
 ```bash
 source .venv/bin/activate

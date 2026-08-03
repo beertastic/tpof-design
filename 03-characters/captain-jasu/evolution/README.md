@@ -8,7 +8,8 @@ a generation prompt.**
 | Pass | Variable | Result |
 |---|---|---|
 | `01a` / `01b` | **The boots — tall to the calf, or ankle** | **TALL WINS, 2026-08-03.** `01b` was never needed — `01a` settled it on sight. Now the default in `outfits.yaml` |
-| `02` | **Correction pass — tall boots, flat heel, one whistle at the throat, hair UP** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
+| `02` | **Correction pass — tall boots, flat heel, one whistle at the throat, hair UP** | **Generated 2026-08-03. Three of three landed and the costume held still.** The hair came back too high — see below |
+| `03` | **The hair alone — lower and rougher** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
 
 ## The result
 
@@ -206,3 +207,58 @@ If it passes, it replaces `source/artwork/turn-field-front.png` and gets
 re-approved in `outfits.yaml`; then the other four views are re-rolled against
 it. Until that happens the approved reference still teaches ankle boots and a
 belt whistle to every image made from it.
+
+---
+
+## 03 — the hair, lower and rougher
+
+**`03-hair-lower.txt`.** A one-item correction on top of `02`.
+
+**Pass 02 worked.** All three exceptions landed — tall boots, a flat-enough heel,
+a single whistle at the throat — and the mantle, collar, bracers, belt, thigh
+panels, knee pads, palette and pose all held still against the photograph. **The
+horns survived the hair change**, which was the thing the fence was written to
+protect.
+
+**What was wrong: the hair went too high and too smooth.** And that is what the
+rule asked for — it said *"a large rolled, worked mass HELD HIGH ON THE HEAD"*.
+The generator obeyed it exactly. The rule has been rewritten: swept back and
+gathered **LOW, ROUGH AND MESSY** at the back of the head, no higher than the
+crown, uneven, strands escaping.
+
+> **The wording of that rewrite is itself worth keeping.** The first attempt put
+> *"messy and hand-made"* in the third sentence — and `short.py` dropped it. The
+> single word the whole correction exists for was being trimmed out of the
+> prompt. It now leads the rule, where it always survives, with the `NEVER` list
+> second, which also always survives. **A correction that does not reach the
+> generator is not a correction.**
+
+### What to attach — note that this one is different
+
+```
+evolution/02-boots-and-whistle.png             the costume — SCOPED, one exception
+reference/props/a180.jpg                       the blaster
+reference/actor/ling-jiu-headshot.jpg          face and build
+```
+
+**This attaches an evolution image, which the folder rules normally forbid.** The
+reason for that rule is that *"every one but the last shows a costume that no
+longer exists"* — and `02` **is** the last. It is also the only image in the
+production showing the tall boots and the single throat whistle; the file in
+`source/artwork/` still shows ankle boots and a belt whistle and would undo two
+settled decisions if attached instead.
+
+Fresh chat. Paste `03-hair-lower.txt` whole as the first message.
+
+### Check before approving
+
+- **The hair no higher than the crown.** The silhouette above her head should be
+  her head, not her hair.
+- **Actually messy** — uneven, strands escaping. Not a neater version of the same
+  sculpted shape.
+- **The horns identical to `02`** — same size, curve, asymmetry and colour. This
+  is the second pass in a row that moves the hair around them.
+- **Boots, whistle and the rest unchanged from `02`.**
+
+If it passes it becomes `source/artwork/turn-field-front.png`, is re-approved in
+`outfits.yaml`, and the other four views are re-rolled against it.

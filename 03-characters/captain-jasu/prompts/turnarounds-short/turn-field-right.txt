@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — RIGHT]
 Output file: turn-field-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ea1aa317 (short) · repo commit 6022ced 2026-08-01 22:42
+Prompt version: 5854c709 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -11,7 +11,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
-  THE SHOULDER MANTLE, THE RIBBED TORSO : https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
+  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   THE HEADDRESS AND HAIR, FRONT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-front.jpg
   THE HEADDRESS AND HAIR, PROFILE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/build/jasu-figure-side.jpg
   THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
@@ -26,17 +26,17 @@ SHE IS 28 AND 150 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a mercena
 RIGHT-HANDED — sides are given from THEIR own left/right. 150 cm (4 ft 11 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in…
 
 MUST BE TRUE OF THIS IMAGE:
-1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. This is the whole design. Do not compensate for that.
-2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE. NOT a full skirt, NOT a wide coat, NOT robes.
-3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT grey, NOT black, NOT pale. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar. She had it made.
-4. THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR. COPY IT FROM THE FIGURE PHOTOGRAPHS AND TAKE NOTHING ELSE FROM THEM. NOT a helmet. THE HORNS ARE THE ONLY PALE THING ON HER.
-5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. The ribbing on the torso and the mantle is visible and structural. NOT clean, NOT pressed, NOT ceremonial, NOT new.
-6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW. She is not holding it and the animal is not on it.
-7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left. NOT a generic sidearm.
-8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way: NOT muscular, NOT broad, NOT heavy, NOT tall. SHE IS COLD.
-9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
+1. THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
+2. SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT. NO FLARE.
+3. A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. NOT grey, NOT black, NOT pale. NOT a pauldron. IT IS THE ONLY THING ON HER WIDER THAN SHE IS.
+4. THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR. COPY IT FROM THE FIGURE PHOTOGRAPHS AND TAKE NOTHING ELSE FROM THEM. ASYMMETRIC. NOT a helmet.
+5. MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART. NOT clean, NOT pressed, NOT ceremonial, NOT new. AND IT WAS MADE FOR HER.
+6. THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE ANIMAL AND NEITHER FOR THE CREW.
+7. THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left.
+8. TWENTY-EIGHT, AND VERY SMALL — 150 cm, THE SMALLEST ADULT IN THE FILM. Slight, fine-boned, and NOT physically imposing in any way. SHE IS COLD, NOT ANGRY.
+9. MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. NO uniform green.
 
-SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.
+SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

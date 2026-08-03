@@ -109,28 +109,53 @@ VIEWS = [
     ("left", "LEFT SIDE",
      "The subject is rotated exactly ninety degrees to show their LEFT side in "
      "full profile. Head faces the same direction as the body — not turned "
-     "toward camera. A clean side-on profile of the whole figure."),
+     "toward camera. A clean side-on profile of the whole figure.\n"
+     "\n"
+     "OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN.\n"
+     "Their right shoulder, right arm, right forearm, right hand, right hip and\n"
+     "right thigh are hidden behind the body in this view.\n"
+     "\n"
+     "SO: anything the rules place on THEIR RIGHT does not appear in this image\n"
+     "at all. DO NOT move it round to the near side so that it can be seen. DO\n"
+     "NOT duplicate it onto the left. A near-side limb that carries nothing is\n"
+     "BARE, and bare is CORRECT — an empty forearm here is the rules being\n"
+     "obeyed, not a detail forgotten."),
     ("right", "RIGHT SIDE",
      "The subject is rotated exactly ninety degrees the other way to show their "
      "RIGHT side in full profile. Head faces the same direction as the body — "
-     "not turned toward camera. A clean side-on profile of the whole figure."),
+     "not turned toward camera. A clean side-on profile of the whole figure.\n"
+     "\n"
+     "OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN.\n"
+     "Their left shoulder, left arm, left forearm, left hand, left hip and left\n"
+     "thigh are hidden behind the body in this view.\n"
+     "\n"
+     "SO: anything the rules place on THEIR LEFT does not appear in this image\n"
+     "at all. DO NOT move it round to the near side so that it can be seen. DO\n"
+     "NOT duplicate it onto the right. A near-side limb that carries nothing is\n"
+     "BARE, and bare is CORRECT — an empty shoulder here is the rules being\n"
+     "obeyed, not a detail forgotten."),
     ("back", "BACK",
      "The subject faces directly away from the camera, showing the whole of the "
      "back. Shoulders level and parallel to the frame. Head level, facing away.\n"
      "\n"
      "CRITICAL — THIS IS A ROTATION, NOT A MIRROR.\n"
      "The person has turned around. They have NOT been flipped horizontally.\n"
-     "Because she has turned, HER RIGHT SIDE IS NOW ON THE VIEWER'S LEFT and her\n"
-     "left side is on the viewer's RIGHT — the opposite of the front view.\n"
+     "Because they have turned, THEIR RIGHT SIDE IS NOW ON THE VIEWER'S RIGHT\n"
+     "and their left side is on the viewer's LEFT — the opposite of the front\n"
+     "view, where their right was on the viewer's left.\n"
      "\n"
      "So in THIS image specifically:\n"
-     "  - anything worn on HER RIGHT appears on the VIEWER'S LEFT\n"
-     "  - anything worn on HER LEFT appears on the VIEWER'S RIGHT\n"
+     "  - anything worn on THEIR RIGHT appears on the VIEWER'S RIGHT\n"
+     "  - anything worn on THEIR LEFT appears on the VIEWER'S LEFT\n"
      "\n"
-     "If this image looks like a horizontally flipped copy of the front view, it\n"
-     "is wrong. Check every asymmetric item — the forearm piece, the shoulder\n"
-     "piece, the thigh piece, the holster and the blade — and confirm each one\n"
-     "has swapped which side of the FRAME it appears on, compared with the front."),
+     "BOTH SIDES ARE VISIBLE in this view, so every asymmetric piece must be\n"
+     "present — nothing is occluded by the body here.\n"
+     "\n"
+     "Frame position alone cannot prove this is right: a horizontal flip of the\n"
+     "front view swaps the frame sides too. What proves it is ANATOMY. A real\n"
+     "back view shows shoulder blades, the back seams of the garments, rear\n"
+     "pockets and the back of the head. If any part of the face, the front\n"
+     "closure or the centre-front fastening is visible, it is wrong."),
 ]
 
 TURN_POSE = """FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.

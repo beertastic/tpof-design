@@ -30,8 +30,13 @@ outfits:
 Then regenerate:
 
 ```bash
-python tools/prompt-splitter/turnarounds.py shada
+./tools/regen shada
 ```
+
+**Use `regen`, not the generators individually.** Approval changes what every
+*other* view says, and that text has to reach `prompts/turnarounds-short/` — the
+directory the pasted prompt comes from — or the match instruction you just added
+never gets used. `regen` runs all three generators, commits and pushes.
 
 ## What that does
 

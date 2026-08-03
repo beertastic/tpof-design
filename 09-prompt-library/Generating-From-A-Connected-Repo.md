@@ -154,10 +154,13 @@ the old ones — which is exactly the stale-copy failure the old workflow had, i
 new place.
 
 ```bash
-python tools/prompt-splitter/turnarounds.py shada
-python tools/prompt-splitter/split.py shada
-git add -A && git commit -m "prompts(shada): regenerate" && git push
+./tools/regen shada
 ```
+
+That is the whole step: all three generators, then commit and push. It exists
+because "regenerate, commit, push" is a description of a step rather than a step,
+and because a hand-typed list of generators tends to omit `short.py` — which is
+the one that writes what you paste.
 
 ---
 

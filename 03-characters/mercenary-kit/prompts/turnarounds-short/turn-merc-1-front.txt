@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 1 — THE WOOKIEE — FRONT]
 Output file: turn-merc-1-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: e150161a (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: ac001c7a (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -16,15 +16,15 @@ photographed in a fitting room. Do not resemble any actor or public figure.
 RIGHT-HANDED — sides are given from THEIR own left/right. over 2.2 m — the tallest figure in the film by a clear margin
 
 MUST BE TRUE OF THIS IMAGE:
-1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. He stands and moves like a person, not like an animal.
-2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. Metal rings and beads are braided into the fur at the shoulder and muzzle.
-3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE.
-4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way.
-5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching.
-6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon.
-7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle.
+1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. He stands and moves like a person, not like an animal.
+2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling almost to white around the muzzle. Metal rings and beads are braided into the fur at the shoulder and muzzle.
+3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one.
+4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that is what it is to him. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon.
+7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle. This is his only decoration and no other member of this crew decorates themselves this way.
 
-SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens. BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

@@ -34,9 +34,25 @@ consistent. The checker is clean and the boards validate.
 ## THE RUN LIST — start here
 
 **17 images to regenerate.** Every one: **fresh chat**, paste the prompt whole,
-attach `source/artwork/turn-working-front.png` and the two actor photographs, and
-save the result into `source/artwork/` under the exact name on the prompt's
-`Output file:` line. The boards look those up by name.
+**attach every image in `prompts/attach/working/`**, and save the result into
+`source/artwork/` under the exact name on the prompt's `Output file:` line. The
+boards look those up by name.
+
+**Do not hand-list the attachments.** This file used to name three of them in one
+place and two different ones fifty lines further down, and the repository held
+five conflicting answers in total — none of which matched the five the prompt
+actually declares. Three generations on 2026-08-03 ran with two of five
+references attached, **including the approved costume front**, which is the image
+the entire turnaround method rests on. `short.py` now stages the exact set into
+`prompts/attach/<outfit>/`, named by what each image is FOR, with a
+`MANIFEST.txt`. Attach the folder; do not curate it.
+
+**Read `MANIFEST.txt` before the front view** — the approved front is the one
+image a front turnaround must not be given, because it cannot match itself.
+
+**Make the model confirm it used the attachments.** The prompt asks it to say
+which route it took. If it says it fetched URLs, or says nothing, the references
+did not arrive and the image is not trustworthy.
 
 **Keep the files they have — nothing in them changed:** `species_strip`,
 `expression_strip` (face and head only) and `knife` (locked as a prop reference).
@@ -129,6 +145,11 @@ the rule handling and the reference block all already exist; what is missing is
 the per-slot shot and scene text, which is what `VIEWS` does for turnarounds.
 Roughly the same shape of change, one level up.
 
+**This is now fix 7 in [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md)**,
+where it belongs — it blocks twelve images here and all fourteen of Captain
+Jasu's, and until 2026-08-03 it was recorded only in this file, so the tooling
+list did not name the item gating the most images.
+
 **Section 1 and section 2 are not blocked** — `scale_portrait` at 18 KB is
 borderline but workable, and the five turnaround views have proper short prompts.
 Do those first regardless.
@@ -182,9 +203,17 @@ panels sit over her ribs, where she breathes.
 
 ## Before you run anything, read this
 
-**Only about 11% of Shada's written specification currently reaches the image
-generator.** Her `must_show` rules total 18,061 characters; the short prompt that
-gets pasted carries 1,988 of them, and the loss is silent. Three of the four
+**Only about 8% of Shada's written specification currently reaches the image
+generator.** Her `must_show` rules total **22,915** characters and the pasted
+prompt carries roughly 1,800 of them.
+
+*Re-measured 2026-08-03. This file said 11% of 18,061 — that was 2026-08-02, and
+both numbers moved the wrong way: the specification grew 27% while the share
+reaching the generator fell.* **The loss is no longer silent** — `short.py` now
+names every dropped sentence on every run — but it is still a loss, and she is
+the one character no plausible budget rescues. Zero trimming for her would need a
+budget of 24,760 characters; nothing accepts that. **She needs fix 2: shorter
+rules, with the prose moved to `Character.md`.** Three of the four
 recorded failures were rules that existed and were correct but were trimmed away
 before the generator saw them.
 
@@ -203,29 +232,28 @@ Until item 2 there is done, expect to check generated images against the
 ## Start here
 
 ```bash
-cd /home/tris/tpof-design
-source .venv/bin/activate
-python tools/prompt-splitter/split.py shada
-python tools/prompt-splitter/turnarounds.py shada
-python tools/prompt-splitter/short.py shada
+cd /home/tris/tpof-design && ./tools/regen shada
 ```
 
-**Run all three, every time.** The prompts have changed since the last images
-were made, and two images have already been lost to stale copies.
+**One command, not three.** `regen` runs all three generators, activates the
+venv, commits, pushes, and prints the front prompt's path with the version line
+its reply must open with.
 
-**The third line is the one that matters and it was missing from this list until
-2026-08-02.** `turnarounds.py` writes the long prompts; `short.py` writes
-`turnarounds-short/`, which is what you actually paste. Running the first two
-alone leaves the short prompts stale, and nothing says so — the header even
-carries a version stamp from the run that made the long file.
+This list used to name the generators individually, and it named only two of
+them. `turnarounds.py` writes the long prompts; **`short.py` writes
+`turnarounds-short/`, which is what you actually paste.** A run of the documented
+two left the short prompts stale and reported success — the header even carried a
+version stamp from the run that made the long file. That cost two images. The
+fix is to stop typing the list.
 
 Then open a **fresh** ChatGPT conversation — genuinely fresh, not a continuation
 — and attach the references *before* pasting anything. A chat that has already
 drawn another character in this production will carry that costume over; it has
 happened once and it cost a full generation.
 
-- `03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg` — actor
-- `03-characters/shada/source/artwork/material-scale.png` — the plates
+**The references are staged for you** in `03-characters/shada/prompts/attach/working/`.
+Attach all of them. The list that used to sit here named two files and was wrong;
+the folder is generated from the same list the prompt is, so it cannot drift.
 
 **There is ONE approved costume reference, as of 2026-08-02:**
 
@@ -252,13 +280,20 @@ state what it is *not* for.
 
 ---
 
-## The order to work in
+## Why the order is what it is
 
-**1. `turn-working-front` is DONE and APPROVED.** Do not regenerate it. It is the
-image every other view matches against, and regenerating it would move the target
-under twenty images that have not been made yet.
+**The order itself lives in one place — [THE RUN LIST](#the-run-list--start-here),
+above.** This section is the reasoning, and deliberately does not restate the
+sequence; there were two numbered lists here until 2026-08-03 and keeping them in
+step was a standing invitation to drift.
 
-**2. `scale_portrait` next, and lock it as the MAKEUP reference.**
+### Why the front is not regenerated
+
+`turn-working-front` is DONE and APPROVED. It is the image every other view
+matches against, and regenerating it would move the target under twenty images
+that have not been made yet.
+
+### Why `scale_portrait` is the makeup lock
 
 **The costume has a lock. The makeup does not** — and this is the same gap that
 cost this character her props, recorded below and fixed in `8c5bea7`. *Lock the
@@ -292,26 +327,29 @@ Two references with **stated, non-overlapping scopes** is not the failure that
 cost five generations. That failure was two references competing over *the same
 garment*. Scope is what makes the difference, and it has to be written down.
 
-**3. The other four turnaround views** — `natural`, `left`, `right`, `back` —
-matched against the approved front, with the makeup portrait attached. This is
-the method Captain Jasu's set proved: generate each view *against the approved
-image* rather than from the prompt alone. Her five pass the mirror check; every
-character generated view-by-view from prompts alone got five near-misses.
+### Why the four views are matched, not re-derived
 
-**4. `blaster` and `material-scale`** — the two plates that define the changed
-objects. Once approved these become prop references in their own right.
+Generate each view *against the approved image* rather than from the prompt
+alone. This is the method Captain Jasu's set proved: her five pass the mirror
+check, and every character generated view-by-view from prompts alone got five
+near-misses.
 
-**5. Everything else**, with the approved front and the plate references attached.
+### Why the plates come before the rest
 
-**6. `forest` is still owed a dusk frame — and the question has changed.** It came
-back as a daylight camp, so the slot's question is still open and it now overlaps
-`camp_day`. **The palette change on 2026-08-02 makes this more urgent, not less.**
-The old risk was that a charcoal costume would vanish into shadow; the new risk is
-that a grey-green and khaki one vanishes into wet foliage. For an infiltrator that
-is arguably correct in-world and bad for the camera, and only this frame settles
-it. If it returns a six-panel collage again, that is the prompt length talking:
-say *"one frame,
-not a contact sheet"* when you paste it.
+`blaster` and `material-scale` define the two changed objects. Once approved they
+become prop references in their own right, and everything after them is generated
+with those plates attached as well as the front. *Lock the plates before the
+figures* — the order correction from `8c5bea7`.
+
+### `forest` is still owed a dusk frame, and the question has changed
+
+It came back as a daylight camp, so the slot's question is still open and it now
+overlaps `camp_day`. **The palette change on 2026-08-02 makes this more urgent,
+not less.** The old risk was that a charcoal costume would vanish into shadow;
+the new risk is that a grey-green and khaki one vanishes into wet foliage. For an
+infiltrator that is arguably correct in-world and bad for the camera, and only
+this frame settles it. If it returns a six-panel collage again, that is the
+prompt length talking: say *"one frame, not a contact sheet"* when you paste it.
 
 ---
 

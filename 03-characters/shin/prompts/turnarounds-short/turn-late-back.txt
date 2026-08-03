@@ -1,7 +1,7 @@
 [SHIN — DESTROYED BY THE FOREST — BACK]
 Output file: turn-late-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 2fde1077 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: b2a305ce (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -17,7 +17,7 @@ You are thinking of the poised young woman in tailored dark Jedi dress with an o
 
 MUST BE TRUE OF THIS IMAGE:
 
-SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
+SHOT: Facing directly away. A ROTATION, NOT A MIRROR — because they turned, THEIR RIGHT IS NOW ON THE VIEWER'S RIGHT, the opposite of the front view. BOTH SIDES VISIBLE, nothing occluded, every asymmetric piece present. Show shoulder blades, back seams, rear pockets, the back of the head. No face, no front closure.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

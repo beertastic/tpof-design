@@ -1,7 +1,7 @@
 [SHADA — INFILTRATION DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ba76216e (short) · repo commit 9a4fec8 2026-08-02 10:16
+Prompt version: 9995516a (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -11,7 +11,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
-  THE SCALE PLATES — SIZE AND FINISH. WH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+  PLATE SHAPE AND FINISH — NOT SIZE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
   THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
@@ -24,21 +24,21 @@ RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
 1. TAKE THE FACE ONLY FROM THE ACTOR PHOTOGRAPHS. THE COSTUME PHOTOGRAPH IS ATTACHED FOR THE COSTUME, NOT THE FACE.
-2. SHE IS SHADA, NOT ANY OTHER CHARACTER IN THIS FILM. NO HORNS, NO HEADDRESS, NO HELMET. NO YOKE ACROSS SHOULDERS OR UPPER CHEST. NO SLEEVES.
-3. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES. CAP AND GAUNTLET NEVER SWAP.
-4. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL, NOT LACED PLATES AND NOT LEATHER. A SMALL CLUSTER OF DIM AMBER TELLTALES AT THE WRIST.
-5. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT SHOULDER, A PALM'S WIDTH. NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
-6. THE FLANK PANELS LACE ACROSS HER CENTRE FRONT OVER THE VEST, WITH A STRIP OF VEST CLOTH SHOWING IN THE GAP. RIBS, WAIST AND HIP ONLY. NOT A YOKE.
-7. EACH PLATE IS 10-15 mm — TWELVE OF THEM ACROSS A FLANK PANEL. NEVER OVERLAPPED — THEY BUTT EDGE TO EDGE. FIVE METALS, NO BRASS, AND PLATES MISSING.
-8. A PANELLED SLEEVELESS VEST IN DUSTY GREY CLOTH, WITH A STAND COLLAR AND CONCEALED PLACKET. CLOTH, NEVER LEATHER — NO WRAP FRONT, NO V-NECK, NO ZIP.
-9. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL, NOT COLOURED.
-10. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible in every view. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35.
-11. CLOSE-FITTING GREY-GREEN TROUSERS TUCKED INTO GREY-BROWN TAUPE BOOTS. NOTHING IS WORN OVER THE TROUSERS. TWO BELTS THAT DO NOT MATCH. NEVER chestnut.
-12. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors. That is the ONLY interior she is ever in.
-13. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth. She is a human actor in makeup, not a creature in prosthetics.
-14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal, do NOT enlarge it.
+2. SHE IS SHADA, NOT ANY OTHER CHARACTER IN THIS FILM. NO HORNS, NO HEADDRESS, NO HELMET. NO SLEEVES.
+3. FIVE HARD PIECES: GAUNTLET HER RIGHT FOREARM, CAP HER LEFT SHOULDER, PATCH HER LEFT THIGH, FLANK PANELS BOTH SIDES.
+4. THE GAUNTLET IS A SOLID ONE-PIECE PRINTED SHELL, NOT LACED PLATES AND NOT LEATHER. A SMALL CLUSTER OF DIM AMBER TELLTALES AT…
+5. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT SHOULDER, A PALM'S WIDTH. NEVER A SOLID PAULDRON OR ONE…
+6. THE FLANK PANELS LACE ACROSS HER CENTRE FRONT OVER THE VEST, WITH A STRIP OF VEST CLOTH SHOWING IN THE GAP. RIBS. NOT A YOKE.
+7. EACH PLATE IS 10-15 mm — TWELVE OF THEM ACROSS A FLANK PANEL. NEVER OVERLAPPED — THEY BUTT EDGE TO EDGE. FIVE METALS.
+8. A PANELLED SLEEVELESS VEST IN DUSTY GREY CLOTH, WITH A STAND COLLAR AND CONCEALED PLACKET. CLOTH, NEVER LEATHER. NO SLEEVES.
+9. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. TONAL.
+10. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP — both visible in every view. NEVER THE OTHER WAY ROUND.
+11. CLOSE-FITTING GREY-GREEN TROUSERS TUCKED INTO GREY-BROWN TAUPE BOOTS. NOTHING IS WORN OVER THE TROUSERS. NEVER chestnut.
+12. EXTERIOR, WITH ONE EXCEPTION. NO buildings, NO market stalls, NO crowds, NO interiors.
+13. FACE — BARELY THERE. NOT across the nose, forehead, cheeks or mouth.
+14. HER EYES ARE REPTILIAN — A VERTICAL SLIT PUPIL, CLEARLY READABLE, ON AN OTHERWISE HUMAN EYE. Do NOT make the whole eye animal.
 
-SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body.
+SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: dadc0273 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 3b35df45 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -23,14 +23,14 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) �
 MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI, AND THIS IS THE VIEW WHERE THAT IS HARDEST. The coat is the one garment that could betray him, so the silhouette is the whole test: NO HOOD UP.
 2. THE COAT IS WORN OPEN AND HANGS STRAIGHT. Weathered black, heavy, battered. SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — plus repaired tears and one burn that was never patched.
-3. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT.
+3. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT. Showing that panel is the point of this view; the coat only frames it.
 4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else.
 5. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. NEVER his left.
 6. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat.
 7. LATE FORTIES — FORTY-EIGHT. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle. NOTHING may suggest he could still fight.
 8. MUTED BUT NEVER BLACK-ON-BLACK. The coat is the darkest thing on him, so the costume beneath must still separate from it — charcoal, ash brown, dust brown, faded olive against weathered black.
 
-SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
+SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

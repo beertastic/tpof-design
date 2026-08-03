@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 4 — THE NEAR-HUMAN — BACK]
 Output file: turn-merc-4-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: afdfaaee (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 643e30a0 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -16,16 +16,16 @@ photographed in a fitting room. Do not resemble any actor or public figure.
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only. THE MARKINGS ARE SECONDARY.
-2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew.
+1. A NEAR-HUMAN, ACHIEVED IN MAKE-UP ALONE — NO APPLIANCES, NO PROSTHETICS, NOTHING GLUED ON. He differs from human in SKIN COLOUR and MARKINGS only. THE SKIN COLOUR IS THE POINT AND IT KEEPS BEING MISSED. His skin is a clearly NON-HUMAN COLOUR over his whole face, neck and hands — a muted GREEN-GOLD or a desaturated GREY-BLUE, obvious at a glance and never mistakable for a human complexion, a suntan or weathering. If he could pass for a human with tattoos, the image has failed: the colour must do the work, not the markings. THE MARKINGS ARE SECONDARY. Human bone structure, human proportions, human scale.
+2. THREE THINGS HE IS NOT. Not serpentine and not scaled — that language belongs to Shada and duplicating it weakens hers. Not large and NOT FURRED — that read belongs to the large one in this same crew. Not a creature build — no horns, no tentacles, no head-tails, no appliance of any kind.
 3. THE MARKINGS ARE EARNED, NOT DECORATIVE. Geometric, deliberate and clearly meaning something to him. Never tribal pastiche, never a tattoo chosen for looks.
 4. BARE HEAD. Nothing covering the head or the face — no cap, no wrap, no goggles, no helmet. Those belong to other builds, and the markings are the whole point of this one. They must be legible.
 5. THE ONLY LONG COAT IN THE CREW. A weathered coat below the knee, worn open, over layered cloth. No other build carries this silhouette.
 6. BELT AND BRACES. Nothing worn diagonally across the chest — that silhouette belongs to the large one. A compact blaster on HIS RIGHT HIP.
-7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them.
+7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
 8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
-SHOT: Facing directly away. A ROTATION, NOT A MIRROR — their right side is now on the viewer's LEFT. Show shoulder blades, back seams, the back of the head.
+SHOT: Facing directly away. A ROTATION, NOT A MIRROR — because they turned, THEIR RIGHT IS NOW ON THE VIEWER'S RIGHT, the opposite of the front view. BOTH SIDES VISIBLE, nothing occluded, every asymmetric piece present. Show shoulder blades, back seams, rear pockets, the back of the head. No face, no front closure.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 3 — THE CLOSE ONE — LEFT]
 Output file: turn-merc-3-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: d1c6eb69 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 7db8d5da (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -16,13 +16,13 @@ photographed in a fitting room. Do not resemble any actor or public figure.
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open.
+1. A PARTIAL SALVAGED HELMET — the only headgear in the crew that could be called one. It covers the crown and ONE SIDE of the face and leaves the jaw and the other side open. Cut from scrap and refitted, clearly not issued and clearly not a matching pair with anything. No full helmet, no faceplate, no visor across both eyes.
 2. PLATES ON BOTH FOREARMS AND A SEGMENTED CHEST RIG. He is the only one of the four with armour on both arms. Legs and shoulders stay cloth.
 3. A SHORT WEAPON. A compact blaster or a heavy blade on HIS RIGHT HIP for a right-hand draw. NO LONG GUN — the rifle belongs to another build and two riflemen in four figures kills the individuality.
 4. NO LONG COAT AND NO CAPE. The outer-layer silhouette belongs to another build; his read is plating and bulk at the chest.
-5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. His only decoration, and nobody else in the crew carries trophies.
+5. PERSONAL MARKS — TROPHIES TAKEN FROM TARGETS. Small hard objects fixed to the helmet and the chest rig: a fastening, a badge, a cut-down fitting, each one obviously off somebody else's gear rather than bought. His only decoration, and nobody else in the crew carries trophies.
 
-SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body.
+SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

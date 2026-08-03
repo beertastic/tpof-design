@@ -128,7 +128,18 @@ echo "  2. Paste this whole file as your first message, nothing else:"
 echo
 printf '       \033[36m%s\033[0m\n' "$ROOT/${FRONT#./}"
 echo
-if [ -n "$ACTOR" ]; then
+OUTFIT=$(basename "$FRONT" .txt | sed 's/^turn-//; s/-front$//')
+ATTACH="$DIR/prompts/attach/$OUTFIT"
+if [ -d "$ATTACH" ]; then
+    NFILES=$(find "$ATTACH" -type f ! -name MANIFEST.txt | wc -l)
+    echo "  3. Attach EVERY image in this folder — all $NFILES of them:"
+    echo
+    printf '       \033[36m%s\033[0m\n' "$ROOT/${ATTACH#./}"
+    echo
+    echo "     They are staged there for you, named by what each one is FOR."
+    echo "     Read MANIFEST.txt in that folder before the front view — the"
+    echo "     approved front is the one image a front view must NOT be given."
+elif [ -n "$ACTOR" ]; then
     echo "  3. Attach the actor photograph:"
     echo "$ACTOR" | sed "s|^|       $ROOT/|"
 else

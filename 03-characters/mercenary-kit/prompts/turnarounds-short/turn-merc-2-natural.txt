@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 2 — THE RIFLE — NATURAL]
 Output file: turn-merc-2-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: f891a899 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: c052ee31 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -16,13 +16,13 @@ photographed in a fitting room. Do not resemble any actor or public figure.
 RIGHT-HANDED — sides are given from THEIR own left/right.
 
 MUST BE TRUE OF THIS IMAGE:
-1. A LONG GUN, AND THE KIT IS CUT AROUND IT. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar.
+1. A LONG GUN, AND THE KIT IS CUT AROUND IT. A salvaged blaster rifle carried on a shoulder sling. NOTHING ON THE SHOULDERS OR UPPER CHEST THAT WOULD FOUL A RIFLE STOCK — no bandolier across the chest, no chest plate, no high collar. This is the visible difference between him and the others.
 2. LIGHTEST ARMOUR OF THE FOUR. One shoulder pad only, on HIS RIGHT — the trigger side. No chest plate, no forearm guards. He trades protection for speed and it must be obvious.
 3. POUCHES CARRIED LOW. Ammunition and tools on the hips and thighs, never on the chest, so he can go flat on the ground. The most pouches of any of the four.
-4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow.
-5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits.
+4. A SHORT-BRIMMED WORK CAP, worn low, shading the eyes — a shooter's cap, practical and salvaged. His goggles hang AROUND HIS NECK, never pushed up on the forehead and never over a wrapped head-cloth. NO head wrap, NO scarf over the head, NO cloth wound around the skull, NO goggles on the brow. Never a helmet — that belongs to another build.
+5. PERSONAL MARKS — MARKS OF THE TRADE. Job tallies notched into the rifle stock in deliberate counted groups, worn smooth where his hand sits. His only decoration, and nobody else in the crew marks themselves this way.
 
-SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
+SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

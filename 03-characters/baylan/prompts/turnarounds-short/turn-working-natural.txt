@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: b79be161 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 50e3878c (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -24,7 +24,7 @@ MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. No hood.
 2. ABSOLUTELY NO ORNAMENT. Every other mercenary is marked; he is not.
 3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film.
-4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS.
+4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS. Repaired tears.
 5. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS. NEVER a flat graphic across the chest. TONAL.
 6. EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF GREEN — coarse, hand-worked, standing proud of the leather.
 7. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
@@ -33,7 +33,7 @@ MUST BE TRUE OF THIS IMAGE:
 10. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
 11. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned.
 
-SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position.
+SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

@@ -120,19 +120,21 @@ for all five characters — then `promo-data.yaml`.
 **6. Build the sheets:**
 
 ```bash
-cd /home/tris/tpof-design && source .venv/bin/activate
-python tools/prompt-splitter/split.py captain-jasu
-python tools/prompt-splitter/turnarounds.py captain-jasu
-python tools/prompt-splitter/short.py captain-jasu
+cd /home/tris/tpof-design && ./tools/regen captain-jasu
+
+source .venv/bin/activate
 python tools/board-generator/generate.py captain-jasu --validate
 python tools/board-generator/generate.py captain-jasu
 python tools/board-generator/generate.py captain-jasu --promo
 ```
 
-**Run all three splitter commands, every time.** `turnarounds.py` writes the long
-prompts; **`short.py` writes what you actually paste.** Running the first two
-alone leaves the short prompts stale and reports success. This omission cost
-Shada two images.
+**`regen` is the prompt half — one command, all three generators, commit and
+push.** It exists because a hand-typed list omits `short.py`, which is the
+generator that writes what you actually paste. That omission cost Shada two
+images.
+
+The board generator is a separate step and `--promo` is a separate command
+again; neither is part of `regen`.
 
 ---
 

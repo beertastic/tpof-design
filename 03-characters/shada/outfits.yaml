@@ -48,10 +48,24 @@ outfits:
       # superseded photograph is how a settled decision quietly comes undone —
       # and TWO full-figure references competing over one garment is a fight the
       # written rules cannot win, which is the lesson that cost five generations.
+      # Rescoped 2026-08-03. It used to read "THE SCALE PLATES — SIZE AND FINISH…
+      # how big it is", which pointed the generator at this image for the ONE
+      # thing it cannot show. There is no hand, no rule and no garment in frame,
+      # so nothing establishes scale — and fourteen plates filling a macro crop
+      # reads as LARGE PLATES. Tests A, B and C all had it attached and all came
+      # back at eight or nine plates across a flank panel against a spec of
+      # twelve. The label was overruling the rule, which is the plate-size
+      # failure of 2026-08-01 repeating with the prompt's own encouragement.
       - path: source/artwork/material-scale.png
         what: >-
-          THE SCALE PLATES — SIZE AND FINISH. What one plate looks like, how big
-          it is and how a panel is assembled
+          PLATE SHAPE AND FINISH — NOT SIZE. The hexagon, the flat edge-to-edge
+          tessellation with a dark line of backing between neighbours, the
+          raised snake swirl that varies plate to plate, the mixed unmatched
+          metals and the wear.
+          THIS IS A MACRO DETAIL CROP AND IT PROVES NOTHING ABOUT SCALE — the
+          plates fill the frame because the camera is close, not because they
+          are big. SIZE AND DENSITY COME FROM THE WRITTEN RULE — 10-15 mm, about
+          twelve across a flank panel, fifteen rows — AND THE RULE WINS.
       - path: source/artwork/knife.png
         what: the combat knife
       # For anything PHYSICALLY BUILT, the reference is a photograph of the

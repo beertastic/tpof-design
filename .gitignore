@@ -10,6 +10,15 @@ __pycache__/
 *.pyc
 .claude/*.tmp.*
 
+# Staged reference attachments — copies of images that already live in this
+# repository, gathered per outfit so the operator drags one folder in rather
+# than hunting five files across three directories. Regenerable via
+# tools/prompt-splitter/short.py; 8.6 MB of duplicated binaries per outfit,
+# rewritten on every run. Same reasoning as renders/ below: kept on disk, one
+# current copy, never committed. MANIFEST.txt goes with them — it is generated
+# too, and is worthless without the images it describes.
+03-characters/*/prompts/attach/
+
 # Generated board output — regenerable via tools/board-generator/generate.py
 # Kept on disk (one current copy), never committed.
 03-characters/*/renders/

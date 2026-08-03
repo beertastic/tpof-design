@@ -428,9 +428,14 @@ You may make that edit if asked. **Say clearly that the prompt files must then b
 regenerated and pushed** — you cannot run the generators yourself:
 
 ```bash
-python tools/prompt-splitter/turnarounds.py <character>
-python tools/prompt-splitter/split.py <character>
+./tools/regen <character>
 ```
+
+**That one command, not the individual generators.** There are three of them —
+`short.py` writes `turnarounds-short/`, which is what actually gets pasted — and a
+run that names only two leaves the short prompts stale while reporting success.
+`regen` runs all three, commits, pushes, and prints the next step. Listing the
+generators by hand is how two of Shada's images were lost.
 
 ---
 

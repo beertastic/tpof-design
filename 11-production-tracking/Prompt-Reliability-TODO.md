@@ -1,9 +1,9 @@
 ---
 title: "Prompt Reliability — Fix List"
 asset_id: "TRACK-PROMPT-RELIABILITY"
-updated: "2026-08-02"
+updated: "2026-08-03"
 status: "open"
-note: "Fifth failure recorded and diagnosed. Fixes 1 and 3-6 still open."
+note: "Fix 2 half-done (Shada re-ordered, Jasu not). Fix 7 added — it gates 26 images and was only recorded in Shada's file. Work the order in 'Which of these to do first', not the numbering."
 ---
 
 # Prompt Reliability — Fix List
@@ -17,6 +17,13 @@ stop patching symptoms and name what is actually broken.
 ## The finding
 
 **Most of the specification never reaches the generator, and nothing says so.**
+
+> **Superseded 2026-08-03.** The table below is the original measurement, kept as
+> the record. Re-measured a day later, **Shada is at 22,915 spec characters and
+> 8%, not 18,061 and 11%** — the specification grew and the share reaching the
+> generator fell. Current figures, and the finding that the binding constraint
+> was `RULE_CHARS` rather than `BUDGET`, are in
+> [*What fix 4 actually found*](#what-fix-4-actually-found-2026-08-03).
 
 Measured 2026-08-02 across every outfit in the production, comparing the
 `must_show` rules in `outfits.yaml` against what survives into the short prompt
@@ -62,15 +69,15 @@ quietly shortens every other rule. **The fix has been making the problem worse.*
 
 `tools/prompt-splitter/short.py` has a total budget of 3,800 characters and a
 uniform per-rule cap. `fit()` lowers that one cap across *all* rules until the
-whole file fits:
+whole file fits. As written on 2026-08-02:
 
 ```python
-for cap in range(RULE_CHARS, 70, -10):
+for cap in range(RULE_CHARS, 70, -10):     # RULE_CHARS was 200
     text = build(character, cfg, outfit, view, cap)
     ...
 ```
 
-Three consequences, none of them visible when you run it:
+Four consequences, none of them visible when you run it:
 
 1. **Adding any rule shortens every other rule.** Going from 14 to 16 rules on
    Shada cut roughly 35 characters off all sixteen.
@@ -81,18 +88,101 @@ Three consequences, none of them visible when you run it:
    nothing else. `trim()` appends `…` only when it cuts mid-sentence; whole
    dropped sentences leave no mark at all. Counting ellipses finds 1 truncated
    rule out of 67. Measuring content finds 89% of Shada's spec missing.
+   **Fixed 2026-08-03 — see fix 1.**
+4. **The loop never searches upward, so 200 is a target and not a ceiling.**
+   Found 2026-08-03 and not visible in the loop above until you ask what happens
+   when the file has room to spare: nothing. The cap stays at 200 and the rules
+   stay cut. Four outfits were losing 30–60% of their specification to a limit no
+   budget required. **Fixed — see fix 4.** Point 1 above still stands; points 2
+   and 3's diagnosis was right and incomplete.
+
+---
+
+## Which of these to do first
+
+**The numbers below are stable identifiers, not a running order.** They are cited
+from `Shada-Image-TODO.md`, `Jasu-Image-TODO.md` and the changelog, so they do not
+get renumbered when the priority changes. The priority changes here:
+
+| Order | Fix | Status | Why here |
+|---|---|---|---|
+| — | **1 — report what was dropped** | **DONE 2026-08-03** | `short.py` now prints, per outfit, the settled cap, the share of the spec reaching the generator, and every sentence lost — marked `DROPPED` or `cut`. Warns with `!` under 80% |
+| — | **4 — check the budget** | **DONE, and it found a different constant** | See below. `RULE_CHARS` was the binding limit, not `BUDGET`. Fixed; four outfits recovered with no budget change |
+| 1st | **7 — `short.py` covers only turnaround views** | open | **26 images.** Twelve of Shada's seventeen and all fourteen of Jasu's are behind this one file |
+| 2nd | **2 — imperative-only `must_show`** | **half done, and now the main event** | The cheap half — sentence ordering — is done for Shada's fourteen rules and **not for Jasu's nine**. Fix 4 proved no plausible budget rescues Shada: she needs shorter rules |
+| 3rd | **5 — Shin has no `must_show`** | open | Half an hour, and it unblocks a co-lead entirely |
+| 4th | **3 — per-rule priority** | open | Still worth it for Shada and Jasu, who stay budget-bound after everything above |
+| 5th | **6 — no verification loop** | open | Last. It checks work the fixes above stop producing |
+
+### What fix 4 actually found, 2026-08-03
+
+**The expensive constant was `RULE_CHARS`, not `BUDGET`, and raising the budget
+alone does almost nothing.** `fit()` searched the per-rule cap *downward* from
+200 and stopped at the first value that fit — which silently made 200 a target
+rather than a ceiling. An outfit whose entire prompt came to 2,458 characters
+against a 3,800 budget still had every rule cut to 200, and lost 30% of its
+specification to capacity nobody was using.
+
+Measured across every outfit, share of `must_show` reaching the generator:
+
+| Outfit | Spec chars | Before | Cap searches up | At budget 8,000 |
+|---|---|---|---|---|
+| mercenary-kit/merc-2 | 1,180 | 70% | **100%** | 100% |
+| mercenary-kit/merc-3 | 1,061 | 69% | **100%** | 100% |
+| mercenary-kit/merc-4 | 2,065 | 61% | **100%** | 100% |
+| mercenary-kit/merc-1 | 2,605 | 39% | **80%** | 100% |
+| baylan/working-coat | 3,203 | 39% | **48%** | 100% |
+| baylan/working | 7,438 | 20% | 20% | 77% |
+| captain-jasu/field | 11,674 | 13% | 14% | 50% |
+| **shada/working** | **22,915** | **8%** | 8% | **27%** |
+
+**Three outfits went to full specification for free**, and two more improved
+sharply — no budget raised, every file still inside 3,800. Merc 2, 3 and 4 are
+now sent whole; Merc 1 went 39% → 80% and Baylan's coat 39% → 48%. For those
+five it was never a budget problem.
+
+**Three corrections this forces on the rest of this document:**
+
+1. **Shada's numbers here were stale and generous.** This document says 18,061
+   spec characters and 11% reaching the generator. Measured 2026-08-03:
+   **22,915 and 8%.** The specification grew 27% since it was measured and the
+   share reaching the generator got *worse*, not better.
+2. **"Most of this problem disappears for the price of one constant" is wrong
+   for Shada.** Zero trimming for her would need a budget of **24,760**. No image
+   model takes that. Even at 16,000 she is at 61%.
+3. **So fix 2 is not optional for her.** Her rules are 3× Jasu's and 7× Baylan's
+   coat. She is not budget-bound, she is *prose*-bound, and no ceiling rescues
+   her. **The remaining question for fix 4 is narrow**: whether the generator
+   accepts ~8,000, which would take Baylan to 77% and Jasu to 50%. Test pending —
+   `short.py --budget 8000 --dry-run` reports it without writing anything.
 
 ---
 
 ## Fixes, in order of value per hour
 
-### 1. Report what was dropped — do this first
+*Superseded as an ordering by the table above — kept because the numbers are
+cited elsewhere. Read this section for what each fix **is**, and the table for
+when to do it.*
 
-`short.py` should print, per outfit, which rules lost text and how much, and
-should warn hard when a rule loses more than a set fraction. Roughly twenty
-lines, no behaviour change, and it turns an invisible failure into a visible one.
+### 1. Report what was dropped — ~~do this first~~ **DONE 2026-08-03**
 
-Without this, everything below is guesswork.
+`short.py` now prints, per outfit, the cap it settled on, the share of the
+specification reaching the generator, and **every sentence that did not survive**
+— marked `DROPPED` where the sentence is gone entirely and `cut` where only its
+leading clause was kept. An outfit under 80% is flagged `!`.
+
+It earned itself on the first run. Merc 1's rule 6 was silently losing:
+
+```
+  ! mercenary-kit/merc-1: rules trimmed at cap 385 — 80% of 2605 spec chars reach the generator
+      rule 6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN A…
+        DROPPED HE IS RIGHT-HANDED and nothing is mirrored — no matching item on both sides.
+```
+
+That is a handedness rule — the class of loss this whole document exists for —
+disappearing with no mark on the file and a success message printed.
+
+`--dry-run` reports without writing, which is how to test a budget change safely.
 
 ### 2. Stop writing prose into `must_show`
 
@@ -118,13 +208,17 @@ precedence, character identity, handedness — are never trimmed, and low-priori
 rules absorb the cut instead. Requires a change to `fit()` to allocate per-rule
 rather than uniformly.
 
-### 4. Check whether the 3,800 budget is still real
+### 4. Check whether the 3,800 budget is still real — **DONE 2026-08-03, and the answer was not the budget**
 
-`BUDGET = 3800` with a comment saying "the real limit out there is about 4,000".
-That was measured against an older generation of image tools. **If the tool now
-accepts 8,000+, most of this problem disappears for the price of one constant.**
+The premise was that `BUDGET = 3800` was the binding constraint and one constant
+would fix it. **Measured, it was the wrong constant.** `RULE_CHARS = 200` was
+doing the damage, because `fit()` only ever searched downward from it and never
+asked whether there was room for more. Fixed: the search now finds the *largest*
+cap that fits. Four outfits went to full specification with no budget change.
 
-*Needs input: what is actually being pasted into, and what does it accept?*
+Full figures in *What fix 4 actually found* above. What survives of this item is
+one narrow question — **does the generator accept ~8,000?** — which is worth
+about 77% for Baylan and 50% for Jasu, and does not rescue Shada at any value.
 
 ### 5. Shin has no `must_show` rules at all
 
@@ -139,6 +233,33 @@ Nothing checks a generated image against the rules that produced it. Every check
 so far has been a person looking at a picture and noticing. A checklist generated
 from `must_show`, in the order most-often-wrong first, would at least make the
 looking systematic.
+
+### 7. `short.py` covers only the five turnaround views
+
+**Added 2026-08-03. It was recorded in `Shada-Image-TODO.md` as a blocker and
+never reached this list, which is why the tooling list did not name the item
+gating the most images.**
+
+`short.py` builds short prompts for the views in `VIEWS` and nothing else. The
+sixteen numbered slots in `Prompts.md` exist only as the long files in `prompts/`:
+
+| Slots | Size | Against a 3,800 budget |
+|---|---|---|
+| `hero`, `camp_day`, `forest`, `maintenance`, `tone-collage` | ~65 KB | **16× over** |
+| `scale_portrait`, `species_strip`, `expression_strip`, `material-scale` | ~18 KB | 4× over |
+| the remaining plates | ~16 KB | 4× over |
+
+So for those sixteen there is **no deliberate prompt to paste.** You hand over the
+long file and let the host compress it — which is precisely the failure this
+document exists to describe, with the compression moved somewhere nothing can
+report on it.
+
+**Cost: 26 images.** Twelve of Shada's seventeen regenerations, and all fourteen
+of Captain Jasu's narrative slots the moment her pack stops being a scaffold.
+
+The trim logic, the rule handling and the reference block all already exist. What
+is missing is the per-slot shot and scene text — what `VIEWS` does for
+turnarounds, one level up.
 
 ---
 

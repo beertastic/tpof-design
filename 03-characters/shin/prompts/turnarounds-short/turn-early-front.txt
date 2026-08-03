@@ -1,7 +1,7 @@
 [SHIN — AS WE MEET HER — FRONT]
 Output file: turn-early-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: fe33ed87 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 4ade90d5 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -17,7 +17,7 @@ You are thinking of the poised young woman in tailored dark Jedi dress with an o
 
 MUST BE TRUE OF THIS IMAGE:
 
-SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens. BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

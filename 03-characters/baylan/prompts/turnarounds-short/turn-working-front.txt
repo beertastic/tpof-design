@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 530e4757 (short) · repo commit cea222a 2026-08-01 21:55
+Prompt version: 47201f04 (short) · repo commit b6159af 2026-08-03 08:52
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -21,7 +21,7 @@ You are thinking of the austere silver-haired Jedi in flowing black robes with a
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and everything else serves it. No hood.
 2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind.
 3. BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. NEVER his left. It is the least elegant thing in the film. The rifle is battered, reliable and boring.
 4. THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS. Repaired tears.
@@ -30,10 +30,10 @@ MUST BE TRUE OF THIS IMAGE:
 7. UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the collar and at the cuff.
 8. A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must read as nothing else — this is the man with no ornament on him.
 9. A THIN CORD AROUND HIS NECK, disappearing under the shirt. No pendant, no charm, no jewellery of any kind at his throat.
-10. LATE FORTIES — FORTY-EIGHT. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+10. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
 11. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned.
 
-SHOT: Facing camera square on. Shoulders level, head level, looking down the lens.
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens. BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

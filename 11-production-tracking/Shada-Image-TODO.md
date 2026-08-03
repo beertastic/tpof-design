@@ -11,7 +11,7 @@ approved references with stated, non-overlapping scopes: `turn-working-front.png
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is
 generated against both.
 
-**Twelve images to make.** The run list below is the only place that carries
+**Eight images to make.** The run list below is the only place that carries
 the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
@@ -33,13 +33,13 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**Eight done. One kept. Twelve to make.**
+**Twelve done. One kept. Eight to make.**
 
 | | |
 |---|---|
-| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** · **`material-hardware` (2026-08-03)** |
+| **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** · **`material-hardware` (2026-08-03)** · **all of step 3 — `blaster`, `utility`, `material-leather`, `material-cloth` (2026-08-03)** |
 | **KEEP** | `knife.png` — locked prop reference, unaffected |
-| **TO MAKE** | 12 numbered slots |
+| **TO MAKE** | 8 numbered slots — steps 4 and 5 |
 
 `species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
 are **not** any more. Both contradict the make-up lock — round pupils, and the
@@ -155,23 +155,37 @@ prompt in steps 3, 4 and 5 would attach the oversized plate and teach "big
 plates" all over again. "The rest inherit a corrected plate" is only true after
 this command runs.
 
-### STEP 3 — the remaining plates
+### STEP 3 — the remaining plates  *(DONE 2026-08-03)*
 
-- [ ] `09-blaster.txt` — the WESTAR-35. **Brass is CORRECT here and only here**;
-      do not reject it as palette drift. Stays out of `references:` afterwards
-      until the printed prop is photographed
-- [ ] `10-utility.txt` — **re-roll, fresh chat.** The first came back as a costume
-      knolling sheet with two gauntlets. Prompt rescoped 2026-08-03
-- [ ] `13-material-leather.txt` — **re-roll.** Prompt named no colour at all and
-      it came back at 17% value against a costume range of 24–33%. Aim at the
-      leather visible in `material-hardware.png`, which measures 36% / sat 23%
-      against the approved belt's 32% / sat 19%
-- [ ] `14-material-cloth.txt` — **re-roll.** Prompt named neither the colour nor
-      the serpentine grain. Came back 27% against the vest's 58%. Should return
-      roughly double the value of the swatch it replaces
-- [x] `15-material-hardware.txt` — **DONE 2026-08-03.** Two buckles, a hook, a
-      strap end, two rivets, three distinguishable metals. Rivets measured at
-      sat 24–27%: worn bronze, not brass, so on-spec
+- [x] `09-blaster.txt` — **the cleanest result of the run.** The stock reference
+      pushed for a brown grip and no brass and lost on both: grip measured sat
+      3%, slide panel sat 39% against 11–27% everywhere else on this costume.
+      Silhouette matches the template. Stays out of `references:` until the
+      printed prop is photographed
+- [x] `10-utility.txt` — kit only, complete list, nothing worn. *The tool roll
+      shows picks rather than the named drivers, pliers and spanner. Left alone:
+      a detail nobody builds from, and re-rolling re-exposes the refusal below*
+- [x] `13-material-leather.txt` — **38% / sat 18%**, against the approved belt's
+      32% / 19%. Lighter than the boots, as intended. Cracked, stitched repair,
+      seam and rivet. Was 17%
+- [x] `14-material-cloth.txt` — **50% / sat 13%** against the vest's 58% / 9%.
+      Was 27%. **And the serpentine grain is there** — confirmed by suppressing
+      the weave and stretching contrast, which shows a coherent winding figure
+      with lozenge enclosures, not staining. Faint enough to miss at a glance,
+      which is the brief
+- [x] `15-material-hardware.txt` — two buckles, a hook, a strap end, two rivets,
+      three distinguishable metals. Rivets measured sat 24–27%: worn bronze, not
+      brass, so on-spec. Its incidental leather at 36% / 23% is the closest match
+      on disk to the approved belt, and was the target for the leather re-roll
+
+**The host refused `10-utility` outright before it ever generated**, citing
+guardrails around illicit activity. Nothing about the kit was wrong: "a row of
+slender steel probes" beside "thin climbing line" and "checks it after every job",
+with a blaster among the seven attachments, reads as a burglary kit. The slot
+already listed a repair kit, spare parts and a cleaning kit — these were always
+servicing tools, and the prompt never said so. Reworded to name what the tools
+are for, and to say at the top that the shot is a properties department
+reference, which is what it actually is. Generated first time after that.
 
 **Why all three failed, corrected 2026-08-03 after a wrong first answer.** These
 were first recorded as "the prompt did not ask". That was true of the SHORT

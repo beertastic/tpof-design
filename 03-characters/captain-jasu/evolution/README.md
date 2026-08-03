@@ -30,10 +30,11 @@ cannot drift from the prompt: change the prompt, run it again.
 
 | Pass | Variable | Result |
 |---|---|---|
+| `00` | *(not a pass)* — the **first approved front**, 2026-08-01, kept as the starting point | Superseded 2026-08-03. **Do not attach it to anything** |
 | `01a` / `01b` | **The boots — tall to the calf, or ankle** | **TALL WINS, 2026-08-03.** `01b` was never needed — `01a` settled it on sight. Now the default in `outfits.yaml` |
 | `02` | **Correction pass — tall boots, flat heel, one whistle at the throat, hair UP** | **Generated 2026-08-03. Three of three landed and the costume held still.** The hair came back too high — see below |
 | `03` | **The hair alone — lower and rougher** | **Generated 2026-08-03. Landed exactly as asked — and the answer was that the whole direction was wrong.** Costume is correct in it |
-| `04` | **Hair back DOWN — costume from `03`, hair from the original** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
+| `04` | **Hair back DOWN — costume from `03`, hair from the original** | **GENERATED AND APPROVED 2026-08-03.** Now `source/artwork/turn-field-front.png` |
 
 ## The result
 
@@ -350,3 +351,39 @@ its `MANIFEST.txt` first.
 If it passes it becomes `source/artwork/turn-field-front.png`, is re-approved in
 `outfits.yaml`, and the four other views are re-rolled against it. **That is the
 end of this sequence** — every open item on her front view is then closed.
+
+---
+
+## The sequence closed, 2026-08-03
+
+**`04-hair-down.png` is the approved front.** It is now
+`source/artwork/turn-field-front.png`, locked in `outfits.yaml`, and the four
+remaining views are generated against it from the standard prompts.
+
+**The two-photograph split worked.** The pass that broke the one-costume-reference
+rule did so deliberately, and the check it was given — *"if your image has ankle
+boots, or a whistle anywhere below her throat, you have taken the costume from
+the wrong photograph"* — passed. The costume came from image 1 and the hair from
+image 2, as asked.
+
+### What the four passes actually cost, and why
+
+**Five images to fix three faults that were in the documents from day one.** None
+of them was a design that changed its mind:
+
+| Fault | In the documents since | Why no image ever showed it |
+|---|---|---|
+| Ankle boots, not tall | 2026-08-01 | Sentence 8 of a 2,166-character rule. Never sent |
+| Whistle at the belt, not the throat | 2026-08-01 | Sentence 2 of a rule cut at the old cap of 200. Never sent |
+| Hair up | 2026-08-01 | **Sent, and wrong.** The rule said "NEVER down" and had never been tested against a picture |
+
+The first two are the trim. The third is the opposite failure and the more
+interesting one: **a rule that reached the generator every time, was obeyed, and
+was itself the mistake.** It survived four days because the image that
+contradicted it was the approved reference, and nobody reads a reference as an
+argument.
+
+**The order mattered.** Her `must_show` was rewritten from nine prose rules to
+twenty-eight imperative ones *before* any of this was generated. Had these passes
+run against the old rules, the boots and whistle corrections would have been
+trimmed out of the prompts that were supposed to make them.

@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 04 — GIVING AN ORDER]
 Output file: captaining.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 1ab311b4 · repo commit eeb2694 2026-08-03 22:40
+Prompt version: 1ab311b4 · repo commit 51f2049 2026-08-03 22:54
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit eeb2694, prompt 1ab311b4.
+    Working from commit 51f2049, prompt 1ab311b4.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

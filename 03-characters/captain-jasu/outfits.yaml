@@ -59,18 +59,28 @@ do_not_retrieve: >
 outfits:
   - id: field
     name: Field dress
-    # The production's own early concept drawing, added 2026-08-01. The shoulder
-    # mantle is the signature of this costume and prose was never going to land
-    # it — attach the sketch and let it carry the shape.
-    # APPROVED 2026-08-01. See 03-characters/APPROVAL.md. Clear this to unlock.
-    # The front turnaround is right — mantle, palette, bracers, leg panels and
-    # the horns all landed together — so the remaining four views are now matched
-    # against the photograph instead of re-derived from the paragraph.
+    # RE-APPROVED 2026-08-03, replacing the 2026-08-01 front. Same file path,
+    # new image. See 03-characters/APPROVAL.md. Clear this block to unlock.
+    #
+    # The first approval was sound about what it covered — the mantle, the
+    # palette, the bracers, the leg panels and the horns all landed together and
+    # all five are unchanged here. It could not cover the three rules that were
+    # never reaching the generator: the boots, the whistle and, as it turned out,
+    # a hair rule that was itself wrong.
+    #
+    # This front carries all of them. TALL BOOTS with a low heel, EXACTLY ONE
+    # WHISTLE at the throat, and HAIR WORN DOWN. Four generated passes to get
+    # here, recorded in evolution/ with the previous approved front kept as
+    # 00-first-approved-2026-08-01.png.
     approved:
-      date: "2026-08-01"
+      date: "2026-08-03"
       view: front
       reference: 03-characters/captain-jasu/source/artwork/turn-field-front.png
-      note: "Front view locked. Match this for all other views"
+      note: >
+        Front view locked, v2. Match this for all other views. Supersedes the
+        2026-08-01 front, which showed ankle boots, a whistle at the belt and
+        hair that no longer matches the rule. Do not attach the superseded
+        image to anything — it is kept only as history in evolution/.
 
     references:
       # The interim costume plate at reference/costume/ is superseded by the

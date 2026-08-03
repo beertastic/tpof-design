@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| Field dress | **APPROVED** 2026-08-01 | FRONT | `turn-field-front.txt` | `turn-field-front.png` |
-| Field dress | **APPROVED** 2026-08-01 | LEFT SIDE | `turn-field-left.txt` | `turn-field-left.png` |
-| Field dress | **APPROVED** 2026-08-01 | RIGHT SIDE | `turn-field-right.txt` | `turn-field-right.png` |
-| Field dress | **APPROVED** 2026-08-01 | BACK | `turn-field-back.txt` | `turn-field-back.png` |
-| Field dress | **APPROVED** 2026-08-01 | NATURAL POSE | `turn-field-natural.txt` | `turn-field-natural.png` |
+| Field dress | **APPROVED** 2026-08-03 | FRONT | `turn-field-front.txt` | `turn-field-front.png` |
+| Field dress | **APPROVED** 2026-08-03 | LEFT SIDE | `turn-field-left.txt` | `turn-field-left.png` |
+| Field dress | **APPROVED** 2026-08-03 | RIGHT SIDE | `turn-field-right.txt` | `turn-field-right.png` |
+| Field dress | **APPROVED** 2026-08-03 | BACK | `turn-field-back.txt` | `turn-field-back.png` |
+| Field dress | **APPROVED** 2026-08-03 | NATURAL POSE | `turn-field-natural.txt` | `turn-field-natural.png` |
 
 ## Approved outfits
 

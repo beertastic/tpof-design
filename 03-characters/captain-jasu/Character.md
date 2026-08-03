@@ -329,11 +329,39 @@ belt** — sitting on a body with no bulk at all. On a 155 cm frame the contrast
 sharper than the coat ever was: the only wide thing about her is a shoulder line
 she had made.
 
-### The front turnaround is APPROVED — **2026-08-01**
+### The front turnaround is APPROVED — **v2, 2026-08-03**
 
 `source/artwork/turn-field-front.png`, locked in `outfits.yaml` per
-[`../APPROVAL.md`](../APPROVAL.md). The mantle, the palette, the bracers, the leg
-panels and the horns all landed in one image.
+[`../APPROVAL.md`](../APPROVAL.md).
+
+> **This replaces the 2026-08-01 front, which is kept as history at
+> `evolution/00-first-approved-2026-08-01.png`. Do not attach it to anything.**
+>
+> **The first approval was not wrong about what it covered.** It says it was
+> approving the mantle, the palette, the bracers, the leg panels and the horns —
+> and all five are unchanged in v2. What it could not cover were three rules that
+> **were never reaching the generator at all**, so no image had ever been asked
+> to satisfy them: the tall boots, the whistle at the throat, and — as it turned
+> out — a hair rule that was itself wrong.
+>
+> **v2 carries all of them.** Tall boots with a low heel, exactly one whistle at
+> the throat, hair worn down and loose with the horns in it.
+>
+> **Four generated passes, all in [`evolution/`](evolution/README.md):** an A/B
+> that settled the boots, a correction pass for boots and whistle, a hair pass
+> that did exactly as asked and proved the direction wrong, and a final pass that
+> took the costume from one image and the hair from another.
+>
+> **What it cost, and the lesson.** Five images, to fix faults that were in the
+> documents from the first day and could not be seen because the rules carrying
+> them were being silently trimmed out of every prompt. The specification was
+> right; the pipeline was losing it. That is why
+> [`../../11-production-tracking/Prompt-Reliability-TODO.md`](../../11-production-tracking/Prompt-Reliability-TODO.md)
+> exists, and why her `must_show` was rewritten before any of this was
+> generated.
+
+The mantle, the palette, the bracers, the leg panels and the horns all landed in
+one image.
 
 **The remaining four views are now matched against the photograph rather than
 re-derived from the paragraph.** Each opens with `COSTUME (match exactly)` naming

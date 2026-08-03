@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE ANIMAL IS HER RANK]
 Output file: akk_together.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: cde00ab9 (short) · repo commit eeb2694 2026-08-03 22:40
+Prompt version: cde00ab9 (short) · repo commit 51f2049 2026-08-03 22:54
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

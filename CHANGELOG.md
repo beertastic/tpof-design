@@ -25,6 +25,45 @@ All notable production-bible changes are recorded here.
 
 ### Added
 
+- **Signed-off turnarounds now publish to Google Drive, 2026-08-03** —
+  `tools/publish-to-drive` and `11-production-tracking/Drive-Publishing.md`. One
+  folder per character under Costume / Wardrobe, so the costume department builds
+  from the current images.
+
+  **The repository is the source of truth and Drive is overwritten**, including
+  deleting anything in the character's `turnarounds/` folder that the repo does
+  not have. That is deliberate: the failure being prevented is somebody building
+  from a superseded plate, and a stale file beside a current one is exactly how
+  that happens — a duplicate is worse than an absence, because an absence gets
+  noticed. Only `turn-*.png` is synced, into a `turnarounds/` subfolder, so a
+  sync can never delete build guides or sketches sharing the folder.
+
+  **Sign-off is an `approved:` block in `outfits.yaml`** — already the gate for
+  the board generator, the turnaround prompts and `APPROVAL.md`, so it is the
+  gate here too.
+
+  **It found live drift immediately.** Captain Jasu's Drive folder holds the
+  **superseded v1 turnarounds** from 2026-08-01: `turn-field-front.png` there is
+  2,207,890 bytes, byte-for-byte the v1 front archived tonight as
+  `evolution/00-first-approved-2026-08-01.png`. **The costume department is
+  currently looking at ankle boots and a whistle at the belt.**
+
+  **Why rclone and not the Drive connector**, both checked rather than assumed:
+  the connector **cannot update or delete**, only create — so re-publishing
+  through it leaves two files with the same name and different contents, which is
+  the exact failure the process exists to prevent. And it carries images inline,
+  about 2.7 million characters for a 2 MB plate. So the connector does the
+  **checking**, which needs only listings, and rclone does the moving.
+
+  **Not yet runnable — rclone is not installed.** The script says so and prints
+  the setup. Publishing Jasu is the first job once it is.
+
+  A daily drift check is logged in `Drive-Publishing.md`, with what counts as
+  drift and the note that a scheduled agent is the right shape for it — reporting
+  only, because the fix needs a person to have decided the repo is right.
+
+### Added
+
 - **Captain Jasu's turnaround set is complete and correct — v2, 2026-08-03.**
   Front re-approved and all four remaining views regenerated against it. The v1
   set, generated 2026-08-01, is superseded in full: it carried ankle boots, a

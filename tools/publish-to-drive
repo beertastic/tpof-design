@@ -1,0 +1,108 @@
+#!/usr/bin/env bash
+#
+# Publish signed-off turnarounds to the production Google Drive.
+#
+#   ./tools/publish-to-drive              # dry run — shows what WOULD change
+#   ./tools/publish-to-drive --go         # actually sync
+#   ./tools/publish-to-drive shada --go   # one character
+#
+# THE REPOSITORY IS THE SOURCE OF TRUTH. This is a one-way push: Drive is made
+# to match the repo, and anything in the character's Drive folder that is not in
+# the repo is DELETED. That is deliberate — the failure this exists to prevent is
+# the costume department building from a superseded image, and a stale file left
+# beside a current one is exactly how that happens.
+#
+# WHY rclone AND NOT THE DRIVE CONNECTOR. The connector Claude uses can create
+# files but cannot update or delete them, so re-publishing through it leaves two
+# files with the same name and different contents. It also has to carry image
+# bytes inline, which is impractical at ~2 MB a plate. rclone does a real sync.
+#
+# ONE-TIME SETUP
+#
+#   1. Install rclone:            sudo apt install rclone     (or brew install rclone)
+#   2. Configure a Drive remote:  rclone config
+#        - new remote, name it exactly:  tpof
+#        - storage: drive
+#        - scope: 1 (full access) — 'drive.file' will NOT see the existing
+#          folder, because it was not created by rclone
+#        - accept the browser auth prompt
+#   3. Check it:                  rclone lsd tpof:
+#
+# The Drive account is info@tristanpretty.com, which is NOT the Claude account.
+set -uo pipefail
+cd "$(dirname "$0")/.." || exit 1
+
+# Costume / Wardrobe, inside the Price of Freedom folder. Each character gets a
+# subfolder of this, named for the character.
+DRIVE_PARENT="1twIFwScVQhGSgHpTfmPieEMA5jjU5g8T"
+REMOTE="tpof"
+
+b() { printf '\033[1m%s\033[0m\n' "$*"; }
+ok() { printf '  \033[32m✓\033[0m %s\n' "$*"; }
+no() { printf '  \033[31m✗\033[0m %s\n' "$*"; }
+warn() { printf '  \033[33m!\033[0m %s\n' "$*"; }
+
+GO=0; ONLY=""
+for a in "$@"; do
+    case "$a" in
+        --go) GO=1 ;;
+        -*) no "unknown flag: $a"; exit 1 ;;
+        *) ONLY="$a" ;;
+    esac
+done
+
+if ! command -v rclone >/dev/null 2>&1; then
+    no "rclone is not installed — see the setup notes at the top of this script."
+    echo "     sudo apt install rclone && rclone config"
+    exit 1
+fi
+if ! rclone listremotes 2>/dev/null | grep -qx "${REMOTE}:"; then
+    no "no rclone remote called '${REMOTE}'. Run: rclone config"
+    exit 1
+fi
+
+echo
+[ "$GO" -eq 1 ] || b "DRY RUN — nothing will be changed. Add --go to publish."
+[ "$GO" -eq 1 ] && b "PUBLISHING — Drive will be made to match the repository."
+
+RC_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".gitkeep" --exclude ".*")
+[ "$GO" -eq 1 ] || RC_FLAGS+=(--dry-run)
+
+PUBLISHED=0; SKIPPED=0
+for dir in 03-characters/*/ 08-species/*/; do
+    char=$(basename "$dir")
+    [ -n "$ONLY" ] && [ "$ONLY" != "$char" ] && continue
+    [ -f "$dir/outfits.yaml" ] || continue
+
+    # A character is publishable when an outfit is APPROVED. Approval is the
+    # sign-off gate everywhere else in this repo; it is the gate here too.
+    if ! grep -q "^    approved:" "$dir/outfits.yaml" 2>/dev/null; then
+        warn "$char — no approved outfit, not published"
+        SKIPPED=$((SKIPPED+1)); continue
+    fi
+    art="$dir/source/artwork"
+    if ! ls "$art"/turn-*.png >/dev/null 2>&1; then
+        warn "$char — approved but no turnaround images on disk"
+        SKIPPED=$((SKIPPED+1)); continue
+    fi
+
+    # Stage only the turnarounds, so `sync` cannot delete anything else that
+    # lives in the character's Drive folder by accident — build guides, notes.
+    stage=$(mktemp -d)
+    cp "$art"/turn-*.png "$stage/"
+    printf 'Published from the repository by tools/publish-to-drive.\nDo not edit these here — the repo is the source of truth.\n\ncharacter : %s\ncommit    : %s\npublished : %s\nfiles     : %s\n' \
+        "$char" "$(git rev-parse --short HEAD)" "$(date -u +%Y-%m-%dT%H:%MZ)" \
+        "$(ls "$art"/turn-*.png | wc -l)" > "$stage/PUBLISHED-FROM-REPO.txt"
+
+    b "$char"
+    rclone sync "$stage" "${REMOTE}:${char}/turnarounds" "${RC_FLAGS[@]}" --progress 2>&1 \
+        | sed 's/^/    /' | tail -5
+    rc=$?
+    rm -rf "$stage"
+    [ $rc -eq 0 ] && { ok "$char"; PUBLISHED=$((PUBLISHED+1)); } || no "$char — rclone exited $rc"
+done
+
+echo
+b "$PUBLISHED published, $SKIPPED skipped"
+[ "$GO" -eq 1 ] || echo "  This was a dry run. Re-run with --go to apply."
+echo

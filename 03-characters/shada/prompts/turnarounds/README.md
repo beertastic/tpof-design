@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| Infiltration dress | **APPROVED** 2026-08-02 | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
-| Infiltration dress | **APPROVED** 2026-08-02 | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
-| Infiltration dress | **APPROVED** 2026-08-02 | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
-| Infiltration dress | **APPROVED** 2026-08-02 | BACK | `turn-working-back.txt` | `turn-working-back.png` |
-| Infiltration dress | **APPROVED** 2026-08-02 | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+| Infiltration dress | **APPROVED** 2026-08-03 | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
+| Infiltration dress | **APPROVED** 2026-08-03 | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
+| Infiltration dress | **APPROVED** 2026-08-03 | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
+| Infiltration dress | **APPROVED** 2026-08-03 | BACK | `turn-working-back.txt` | `turn-working-back.png` |
+| Infiltration dress | **APPROVED** 2026-08-03 | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
 
 ## Approved outfits
 

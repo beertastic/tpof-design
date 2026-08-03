@@ -23,10 +23,27 @@ outfits:
     # flank-panels.png — are kept on disk as history and are no longer attached.
     # Every other view and every narrative plate matches against this one image.
     approved:
-      date: "2026-08-02"
+      date: "2026-08-03"
       view: front
       reference: 03-characters/shada/source/artwork/turn-working-front.png
-      note: "Front view locked. Match this for all other views"
+      note: >-
+        Front view locked. Match this for all other views.
+        v2, 2026-08-03. Replaces the 2026-08-02 front, kept at
+        reference/alternates/turn-working-front-superseded-2026-08-02.png and
+        NOT to be attached to anything. One piece changed: THE SHOULDER CAP NOW
+        HANGS LOOSE, standing off her shoulder with daylight under its ragged
+        lower edge, instead of gripping it front to back like a fitted pauldron.
+        That was never a design change — must_show rule 5 had described the
+        drape in detail since 2026-08-01 and 137 of its 1,555 characters were
+        reaching the generator. Re-ordering the rule fixed it in one pass.
+        KNOWN DEVIATIONS, all three tolerated rather than chased, because each
+        costs a re-roll that risks the cap: the scale pattern on her arms runs
+        WARMER than the tonal rule allows; the boots are strapped and buckled
+        against a rule that says never; the plates run about six or seven across
+        a flank panel against a spec of twelve. THE WRITTEN RULE WINS ON ALL
+        THREE. Her eyes are human here and that is CORRECT for this plate — a
+        slit pupil cannot render at full-figure scale. The eyes are locked in
+        scale_portrait.png, which is attached to every prompt.
 
     # Approved reference PLATES. Attached alongside the costume reference so the
     # material and the props stop being redrawn from words every time. This is
@@ -230,9 +247,21 @@ outfits:
       # the costume photograph it is attached to shows a smooth solid plate on
       # that shoulder and an image beats a paragraph. "Cap" alone was safe while
       # the reference showed a scale cap; it is not safe now.
+      # Re-ordered 2026-08-03. The lead used to be "A LOOSE FIELD OF SMALL SCALE
+      # PLATES… A PALM'S WIDTH", so at Shada's cap of ~146 the generator received
+      # the cap's SIZE and nothing about how it SITS — and returned a cap moulded
+      # tight to the shoulder in every generation for four days. The drape was
+      # written, detailed and correct, 700 characters further down, and was cut
+      # from every short prompt ever produced. It reads as a design fault and it
+      # is a trim fault. DAYLIGHT UNDER THE LOWER EDGE now leads, because that is
+      # the single observable that distinguishes a scavenged cap from a pauldron.
       - >
-        THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT
-        SHOULDER, A PALM'S WIDTH.
+        THE SHOULDER CAP HANGS LOOSE ON HER LEFT SHOULDER, A PALM'S WIDTH, WITH
+        DAYLIGHT UNDER ITS LOWER EDGE.
+        NEVER MOULDED OR FITTED TO THE SHOULDER.
+        It lifts away from the body, swings when she turns, and stands off her
+        shoulder by a few centimetres along its lower edge — it drapes over the
+        shoulder rather than gripping it front to back.
         NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
         NEVER DOWN THE ARM AND NEVER TO THE COLLARBONE.
         It covers THE POINT OF HER LEFT SHOULDER AND NOTHING ELSE, roughly the

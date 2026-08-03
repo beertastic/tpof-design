@@ -1,17 +1,63 @@
 # Shada Character Lock
 
 **Status:** LOCKED FOR BOARD REVIEW  
-**Version:** 5.0  
-**Date:** 2026-08-02
+**Version:** 6.0  
+**Date:** 2026-08-03
 
-**There is now ONE approved costume reference, and it is the front turnaround.**
+**There are now TWO approved references, with stated, non-overlapping scopes.**
 
-`source/artwork/turn-working-front.png` — **APPROVED 2026-08-02.** Every other
-view and every narrative plate matches against this single image. It settles the
-five things that seven variant generations moved: a **cloth** vest rather than
-hide, a **grey / grey-green / khaki** palette rather than brown, plates
-**tessellated edge to edge at about twelve across a flank panel**, a shoulder cap
-**the size of a palm**, and **visible wear with plates missing** from the panels.
+| Reference | Authoritative for | NOT for |
+|---|---|---|
+| `source/artwork/turn-working-front.png` | **The costume** — everything below the collar | The face, the eyes, the make-up |
+| `source/artwork/scale_portrait.png` | **The make-up** — the slit pupils, and the relief, placement and extent of the scale pattern | The costume. There is none in frame |
+
+Two references with **stated, non-overlapping scopes** is not the failure that
+cost five generations. That failure was two references competing over the *same
+garment*. The make-up plate is cropped to head and neck **precisely so there is
+no costume left in it to compete with anything** — the collar and the shoulder
+plates were cropped out rather than described away.
+
+## The costume front — APPROVED 2026-08-03 (v2)
+
+Every other view and every narrative plate matches against this single image. It
+settles the five things that seven variant generations moved: a **cloth** vest
+rather than hide, a **grey / grey-green / khaki** palette rather than brown,
+plates **tessellated edge to edge**, a shoulder cap **the size of a palm**, and
+**visible wear with plates missing** from the panels.
+
+**v2 changed exactly one piece: the shoulder cap now HANGS LOOSE**, standing off
+her shoulder by a few centimetres with daylight under its ragged lower edge,
+instead of gripping the shoulder front to back like a fitted pauldron. The
+superseded 2026-08-02 front is at
+`reference/alternates/turn-working-front-superseded-2026-08-02.png` and **must
+not be attached to anything.**
+
+**That was never a design change.** `must_show` rule 5 had described the drape in
+detail — *"sitting AWAY FROM THE BODY… it hangs, it lifts, it swings when she
+turns, and DAYLIGHT SHOWS UNDER ITS LOWER EDGE"* — since 2026-08-01. **137 of its
+1,555 characters were reaching the generator**, and the drape was not among them.
+For four days the cap came back moulded, and it read as a design fault when it
+was a trim fault. Re-ordering the rule so the drape leads fixed it in one pass,
+with no new words. *This is the clearest single instance of the failure
+[`Prompt-Reliability-TODO.md`](../../11-production-tracking/Prompt-Reliability-TODO.md)
+exists to describe.*
+
+### Known deviations in the approved front — the written rule wins on all three
+
+Tolerated rather than chased, because each costs a re-roll that risks the cap:
+
+- **The scale pattern on her arms runs WARMER** than the tonal rule allows. The
+  make-up plate is the authority, and it too runs slightly warm; **the rule wins
+  on colour — tonal, the same colour as her skin.**
+- **The boots are strapped and buckled** against a rule that says never.
+- **The plates run about six or seven across a flank panel** against a spec of
+  twelve.
+
+**Her eyes are human in the front, and that is CORRECT for this plate.** A
+vertical slit pupil is two or three pixels at full-figure scale and cannot
+render there; chasing it in a full-length view risks everything that took seven
+passes to win. **The eyes are locked in `scale_portrait.png`**, at a scale where
+they read, and that plate is attached to every prompt.
 
 **It is not a face reference.** The face comes from the actor photographs. This
 has already cost one generation, which came back in the right costume on the

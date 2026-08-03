@@ -327,6 +327,44 @@ was all found by reading a generated image and then reading the file. It does
 suggest fix 1 should report **which sentences of a rule were dropped**, not just
 how many characters were lost.
 
+### The sixth failure, 2026-08-03 — and the cheapest fix in this document
+
+**A design was declared wrong and remade, when the design was right and one
+sentence of it had never reached the generator.**
+
+Shada's shoulder cap came back moulded tight to her shoulder in every generation
+for four days. It was read as a design problem, and the production was on the
+point of redesigning the piece. `must_show` rule 5 already said, since
+2026-08-01:
+
+> *"Genuinely SEPARATE plates laced to a HAND-CUT, IRREGULAR backing, sitting
+> AWAY FROM THE BODY over the point of her left shoulder. It hangs, it lifts, it
+> swings when she turns, and DAYLIGHT SHOWS UNDER ITS LOWER EDGE."*
+
+The rule is 1,555 characters. This is what the pasted prompt carried:
+
+```
+5. THE SHOULDER CAP IS A LOOSE FIELD OF SMALL SCALE PLATES ON HER LEFT
+   SHOULDER, A PALM'S WIDTH. NEVER A SOLID PAULDRON OR ONE SMOOTH PLATE.
+```
+
+**137 characters of 1,555 — 9%.** The lead sentence carried the cap's *size* and
+its *side* and said nothing about how it *sits*, so the one observable that
+distinguishes a scavenged cap from a pauldron never arrived.
+
+Re-ordering the rule so the drape leads fixed it **in a single generation, with
+no new words and no design change.** The cap now hangs correctly and the front
+was re-approved as v2.
+
+**Why this one matters more than the five above it.** The earlier failures cost
+images. This one nearly cost a *design*: the piece was about to be changed to fix
+a fault it did not have. A trim that silently drops the load-bearing half of a
+rule does not just produce wrong pictures — **it produces wrong conclusions about
+the costume**, and those propagate into documents, build notes and cost.
+
+It is also the strongest possible argument for fix 2. Rule 5 is 1,555 characters
+of correct, considered specification, and nine per cent of it is doing any work.
+
 ### Also found, 2026-08-02
 
 **`short.py` was missing from the run instructions.** The finish list told the

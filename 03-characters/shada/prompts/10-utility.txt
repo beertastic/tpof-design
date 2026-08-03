@@ -1,10 +1,10 @@
 [SHADA — SLOT 10 — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1  (square)
-Prompt version: 78c913c0 · repo commit caaa4a8 2026-08-03 10:03
+Prompt version: 78c913c0 · repo commit fbce8f2 2026-08-03 10:32
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit caaa4a8, prompt 78c913c0.
+    Working from commit fbce8f2, prompt 78c913c0.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

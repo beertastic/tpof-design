@@ -349,8 +349,6 @@ outfits:
       - >
         THE ANIMAL IS HER RANK.
         NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
-        If she reads as a person who would be obeyed without the animal, the
-        image has failed.
       - >
         THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN,
         WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS.
@@ -407,13 +405,33 @@ outfits:
         IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE.
         It must NEVER look borrowed, oversized, or like a child in adult
         clothes.
+      # ITS SURFACE WAS UNSPECIFIED until 2026-08-03 and the generator filled
+      # the gap: the mantle_detail plate came back as crackled, tooled leather
+      # with a cross-hatch lattice. The sentence that used to describe the
+      # material was cut earlier the same day to pay for the heel and whistle
+      # rules — judged redundant, and it was not. A trimmed tail can leave a
+      # HOLE, and a generator does not leave holes empty.
+      #
+      # PLAIN AND FLAT is the Production Designer's direction: cleaner,
+      # flatter, less design.
       - >
         A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT
         POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME.
         NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT
-        a fur collar, NOT a flat slab.
+        a fur collar.
+      # THE SHAPE IS UNIFORM, THE WEAR IS NOT — the same rule the akk dog lens
+      # test and Shada's scale plate both arrived at. What came back wrong on
+      # 2026-08-03 was a REGULAR cross-hatch lattice, which reads as a designed
+      # pattern. The irregular crazing in the approved front is WANTED: it is
+      # worn leather-like cloth, not decoration.
       - >
-        A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and
+        THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and
+        cracking, heavier where it flexes and rubs.
+        NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating
+        texture.
+        Looked after, not derelict: NO splits, NO holes, NO rot.
+      - >
+        A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and
         reaching out past the shoulder points before angling down over the top
         of the upper arm.
         It is the ONLY thing on her wider than she is.
@@ -431,9 +449,7 @@ outfits:
         HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her
         shoulders and down her back, swept back off the face, field-worn and
         slightly dishevelled.
-        NEVER piled up, NEVER a bun, NEVER a tower, NEVER scraped back tight,
-        NEVER styled, NEVER salon-neat.
-        The horns sit in it above and behind the ears.
+        NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
       - >
         SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM
         BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other.
@@ -474,7 +490,6 @@ outfits:
         HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD,
         BLACK AT THE BACK.
         She is RIGHT-HANDED and it is NEVER on her left.
-        Grip up and angled forward for a right-hand draw.
       - >
         THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object
         in this crew.
@@ -503,8 +518,8 @@ outfits:
       - >
         THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE
         ALL DARK WARM BROWN.
-        NEVER bone, NEVER cream, NEVER ivory, NEVER pale grey.
-        THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled.
+        NEVER bone, NEVER cream, NEVER ivory, NEVER pale.
+        THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
         They do NOT continue up the upper arm.
       - >
         TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER

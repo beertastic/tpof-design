@@ -335,6 +335,60 @@ slots is the opposite of what the author asked for.
 
 **This affects every character, not just Shada.**
 
+### 12. A trimmed tail leaves a HOLE, and a generator does not leave holes empty — **found 2026-08-03**
+
+**The most important item on this list, because it inverts the assumption behind
+every fix above.**
+
+The whole document treats trimming as *loss* — a rule arrives incomplete and the
+image misses something. This is the other half: **when a trim removes the only
+sentence describing a property, the generator does not omit that property. It
+invents one.**
+
+Captain Jasu's mantle rule ended with *"Ribbed, quilted or pleated, holding its
+shape by construction rather than by being armour."* It was cut on 2026-08-03 —
+by hand, deliberately, to buy budget for the new heel and whistle rules, and
+judged redundant because the rule already opened with `STIFFENED CLOTH`.
+
+It was not redundant. It was **the only description of the surface**, and with it
+gone the rule specified a shape and nothing else. The `mantle_detail` plate came
+back as **crackled, tooled leather in a cross-hatch lattice** — a material the
+costume does not use, on the one garment the documents call *the signature of
+this costume*.
+
+**Three things follow:**
+
+1. **"Redundant" is not the test. "Is this the only sentence that says what X
+   looks like?" is the test.** A property named once is load-bearing however
+   ordinary the sentence sounds.
+2. **Absence is not neutral.** Every unspecified property is a decision handed to
+   the generator, and it will make an interesting one rather than a plain one.
+3. **Close crops magnify whatever the text emphasises.** The same mantle reads
+   acceptably at full length in the approved front — the pattern is there but
+   subtle enough to pass as crazing. At detail-plate crop it became the subject.
+   **A detail slot needs its surface specified as hard as its shape.**
+
+**The first fix over-corrected, and that is worth recording too.** It specified
+`PLAIN AND FLAT … NO pattern of any kind` — which would have removed the worn
+leather-like crazing the Production Designer actually wants. The mantle in the
+approved front has that crazing and it reads as *age*, not as *design*.
+
+**The distinction is wear versus decoration**, and it is the same rule this
+project has now reached three separate times — the akk dog lens test and Shada's
+scale plate both landed on *"uniform shape AND uniform condition reads
+manufactured… the shape is uniform, the wear is not."*
+
+So the mantle is now **two rules**: one for shape and its prohibitions, one for
+surface — `THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and
+cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular
+grid, NO tooling, NO repeating texture. Looked after, not derelict: NO splits, NO
+holes, NO rot.` Splitting it gives each half its own protected lead sentence,
+which is the only reason both survive the cap.
+
+**The general fix is a check, not a rule:** before cutting a sentence for budget,
+grep the rest of the pack for the property it names. If nothing else names it,
+the cut is not free.
+
 ### 10. `"NONE"` is not a hard token, so a prohibition can start with it and be unprotected — **found 2026-08-03**
 
 `trim()` guarantees the first sentence after the head that matches

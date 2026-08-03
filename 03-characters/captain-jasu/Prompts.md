@@ -393,10 +393,36 @@ of the body, reaches past the shoulder point before angling down over the upper
 arm, and rises at the back into a stand collar closed at the throat. Even flat
 lighting.
 
-The RIBBING running through it, the stiffness of the material, the edge finish,
-and how it sits away from the ribbed base layer underneath. **This is the shape
-that reads at distance and the one thing a viewer will remember.** Faded across
-the top where the weather hits it.
+**THE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular** crazing and
+surface cracking in a worn leather-like cloth — heavier where it flexes at the
+shoulder and where it rubs, lighter elsewhere, and **never the same twice across
+the panel.**
+
+**NO designed pattern of any kind: NO quilting, NO lattice, NO regular
+cross-hatch or diamond grid, NO tooling, NO embossing, NO repeating texture.**
+Every mark on it is something that happened to it, not something somebody put
+there.
+
+**She has looked after it and time has taken its toll anyway.** No splits, no
+holes, no rot, nothing hanging off — this is the best-kept item in a crew wearing
+salvage, and it still shows a hard few years. Faded across the top where the
+weather hits it.
+
+Otherwise the plate is for **the stiffness, the edge finish, and how it sits away
+from the ribbed base layer underneath** — the base top is the ribbed thing, not
+the mantle. **This is the shape that reads at distance and the one thing a viewer
+will remember.**
+
+> **Written this way on 2026-08-03, after two corrections.** The slot first led
+> with *"the RIBBING running through it"* and the generator answered with a
+> **regular cross-hatch lattice** — a designed pattern. The fix over-corrected to
+> "plain and flat", which would have killed the worn look the Production Designer
+> actually wants. **The distinction is wear versus decoration**, and it is the
+> same rule the akk dog lens test and Shada's scale plate both arrived at:
+> **the shape is uniform, the wear is not.**
+>
+> **A detail plate magnifies whatever the text emphasises**, so on a close crop
+> the surface has to be specified as hard as the shape.
 
 ## 12. `akk_together.png` — the animal is her rank
 **Tall portrait, 9:16.**

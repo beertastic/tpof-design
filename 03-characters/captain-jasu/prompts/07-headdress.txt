@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 07 — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 7fa1057b · repo commit aded156 2026-08-03 22:28
+Prompt version: 7fa1057b · repo commit eeb2694 2026-08-03 22:40
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit aded156, prompt 7fa1057b.
+    Working from commit eeb2694, prompt 7fa1057b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

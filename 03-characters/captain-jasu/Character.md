@@ -276,8 +276,12 @@ sword.
   physically imposing in any way. Nothing about her body may suggest she could
   win a fight or hold a room by force.
 - **Height: 155 cm (5 ft 1 in).** From casting. The smallest adult in the film.
-  Baylan is 198 — he stands 48 cm above her.
-- **Long dark hair**, bound back or up for the field. Never loose, never styled.
+  Baylan is 198 — he stands 43 cm above her. *(Was written as 48 here until
+  2026-08-03 — a leftover from the 150 cm casting, missed when the recast updated
+  fifty-four other references. Every other file in the production says 43.)*
+- **Long dark hair, worn DOWN and LOOSE** — over the shoulders and down the back,
+  swept off the face, field-worn and slightly dishevelled. Never styled, never
+  gathered up. **Corrected 2026-08-03** — see the headdress note below.
 - **Handedness: RIGHT.** Decided 2026-08-01. Blaster on her right hip; leash,
   pouches and tools on her left, off the drawing side.
 - **CAST 2026-08-01.** Reference headshot at
@@ -292,9 +296,9 @@ Full specification in [`outfits.yaml`](outfits.yaml). In summary:
 |---|---|
 | **Shoulder mantle** | **The signature.** A stiff dark *ribbed cloth* yoke over both shoulders, standing proud and reaching past the shoulder points before angling down over the upper arm; rises at the back into the stand collar. **The only thing on her wider than she is.** From the concept sketch, 2026-08-01 |
 | **Materials** | **More cloth than leather.** Heavy ribbed knit, quilted panels, dense canvas. Leather confined to belt, boots, bracers, holster |
-| **Head** | **Pale curved horns set into swept-up hair.** Bone, asymmetric, projecting up and outward. Reinstated 2026-08-01 from the painted figure — see below |
+| **Head** | **Pale curved horns set into long dark hair worn DOWN and loose.** Bone, asymmetric, projecting up and outward, sitting above and behind the ears. Reinstated 2026-08-01 from the painted figure; **hair corrected from swept-up to down, 2026-08-03** — see below |
 | **Body garment** | **A second skin** — good dark hide and technical cloth, close to the body from throat to ankle. No volume anywhere. **Revised 2026-08-01: she has to be agile and the costume must say so at a glance** |
-| **Below the belt** | **Narrow split panels** hanging straight over the skin-tight leg, long enough to keep the upright line, parting completely when she moves. Never a skirt, never a flare |
+| **Below the belt** | **Skin-tight trousers** with quilted outer-thigh panels stitched flat to the leg, and knee pads. **Nothing hangs from the belt.** The narrow split panels that used to be specified here were deleted 2026-08-03 — they existed only in `must_show`, had no component, and no image ever showed them |
 | **Shoulder** | Hard, square, structured — **the only place the costume is wider than she is** |
 | **Collar** | Stiff, stands, closed to the throat. Never open, never a lapel |
 | **Waist** | Cinched hard by a wide heavy belt — the cinch is what makes the silhouette read |
@@ -375,27 +379,33 @@ drawings**, now a reference plate at [`reference/build/`](reference/build/). It 
 the only three-dimensional record of the headdress, which is exactly the thing a
 drawing cannot hold.
 
-**What it is:** long dark hair swept back off the face and gathered at the back
-of the head, with **pale curved horns** — bone or bone-coloured, tapering,
-asymmetric — set into it and projecting up and outward from both sides. Pale
-against very dark hair, and that contrast is the whole effect.
+**What it is:** long dark hair worn **down and loose**, with **pale curved
+horns** — bone or bone-coloured, tapering, asymmetric — set into it above and
+behind the ears, projecting up and outward from both sides. Pale against very
+dark hair, and that contrast is the whole effect.
 
-> **LOWER AND MESSIER — corrected 2026-08-03, from a generated pass.** The rule
-> used to say *"a large rolled, worked mass held high on the head"* and that is
-> exactly what came back: a high, smooth, sculpted shape. Too high, and too
-> tidy for her.
+> ### THE HAIR IS WORN DOWN — decided 2026-08-03, and the rule was the thing that was wrong
 >
-> **It sits no higher than the crown, and it is rough** — uneven, hand-made,
-> strands escaping, the sort of thing gathered in the field by somebody not
-> thinking about it. **The horns are unchanged**; they just sit in a lower,
-> looser mass.
+> It had said *"swept UP AND BACK … a large rolled, worked mass held HIGH on the
+> head … NEVER down"* since 2026-08-01. **Two generated passes put it up and
+> neither was her** — first high and sculpted, then, after that was called too
+> high, low and rough. Seen against the original, both were wrong.
 >
-> This also resolves the tension the old wording carried. A *"built shape"* that
-> is *"not a hairstyle anyone maintains daily"* was asking for something
-> constructed and immaculate at the same time. The answer is that it is worked
-> but not kept — and it makes the open question below cheaper, because a rough
-> low gather is far less of a continuity cost across six scenes than a sculpted
-> one.
+> **The approved front had it right from the beginning.** Her hair was never a
+> generator failure; it was down in every image because the reference had it
+> down, and the rule that contradicted it had simply never been tested against a
+> picture.
+>
+> **It also retires a tension the old wording carried.** A *"BUILT shape"* that
+> is *"not a hairstyle anyone maintains daily"* was asking for constructed and
+> unmaintained at the same time, and no image was ever going to satisfy both.
+>
+> **And it makes the open question below almost free.** A large built hairstyle
+> was logged as a continuity and schedule cost across six scenes, and the first
+> thing that would be dropped for the pursuit. Hair worn down is not a build: it
+> costs the schedule nothing, and it degrades *correctly* — it gets dirtier and
+> more disordered as the day goes on, which is what the film needs from her
+> anyway.
 
 **They are not from her akk.** Checked before assuming it:
 [`08-species/akk-dog/Creature.md`](../../08-species/akk-dog/Creature.md) says
@@ -423,9 +433,14 @@ everyone else does. Without a reason it made her the one person in the film
 wearing jewellery for no reason. With one, it becomes the clearest statement the
 costume makes.
 
-**Left open:** whether the horns are worn in every scene. A large built
-hairstyle is a continuity and schedule cost across six scenes, and it is the
-first thing that would be dropped for the pursuit sequence.
+**Left open:** whether the horns are worn in every scene — **but much cheaper
+since 2026-08-03.** The cost logged here was the *hairstyle*: a large built shape
+is a continuity and schedule burden across six scenes and the first thing that
+would be dropped for the pursuit. With the hair worn down, only the horns are a
+decision, and a horn that clips into loose hair is a minute in the chair rather
+than a build. **Recommendation: worn throughout.** They are the one ornamental
+thing she has and they are her claim on the animal — dropping them for the
+pursuit drops the statement in the scenes where she is most dangerous.
 
 ### The concept sketch — **2026-08-01**
 

@@ -23,6 +23,43 @@ All notable production-bible changes are recorded here.
 
 ## Unreleased
 
+### Changed
+
+- **Captain Jasu's `must_show` rewritten, 2026-08-03 — nine prose rules became
+  twenty-six imperative ones, and her specification went from 50% reaching the
+  generator to 100%.** Total 11,559 → 5,662 characters with **nothing removed
+  from the design**. `fit()` now settles at the 4,000 per-rule ceiling instead of
+  a cap of 664, which means no rule is trimmed at all. Verified by rebuilding the
+  prompt and checking every sentence of every rule survives into it — zero
+  missing.
+
+  **What the 50% was hiding was not padding.** Her rule 2 was a single
+  2,166-character block carrying eight separate garments — the body garment, the
+  collar, the agility, the belt, the split panels, the boots, the made-to-measure
+  line and the not-for-display line. `trim()` keeps the first sentence and the
+  first negation, so the rest never reached a generator. **The stand collar, the
+  boots and *"they never gather, never flare, and never close into a skirt"* were
+  being dropped every single time.** A skirt over the trousers is precisely the
+  fault that cost Shada her fifth generation, and Jasu was set up to repeat it.
+
+  **The method, which is mechanical and should be reused.** `trim()` protects
+  sentence one and the first sentence containing
+  `NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST`, then competes on length. So: lead with
+  the constraint rather than the subject, make sentence two a prohibition, keep
+  each rule under the cap, and **give every enforceable thing its own rule** — a
+  rule covering two objects only ever protects one of them. Her height and her
+  head proportion are `pin: true`; both are the failures the word "captain"
+  causes on its own.
+
+  **No reasoning was lost.** Every cut sentence was checked against
+  `Character.md` first, and the one line not already there — that the garment is
+  what a very small person wears to keep up with people twice her size — was
+  added to it. The A180's barrel, receiver and grip detail moved to slot 9 of
+  `Prompts.md`: ~700 characters that no full-length figure can resolve, which
+  were being carried in all 21 prompts to be legible in one. That is fix 9's
+  argument, applied by hand because per-rule slot applicability does not exist
+  yet.
+
 ### Added
 
 - **The escapees' ship and its crash site have documents, 2026-08-03** — two

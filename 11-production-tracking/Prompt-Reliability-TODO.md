@@ -110,7 +110,7 @@ get renumbered when the priority changes. The priority changes here:
 | — | **4 — check the budget** | **DONE, and it found a different constant** | See below. `RULE_CHARS` was the binding limit, not `BUDGET`. Fixed; four outfits recovered with no budget change |
 | — | **7 — `short.py` covers only turnaround views** | **DONE 2026-08-03** | `prompts/slots-short/` — sixteen slot prompts at 2.2–8.9 KB where the long files ran 16–68 KB. **Unblocked 26 images** |
 | 1st | **3 — per-rule priority (`pin:`)** | open | **Promoted from 6th.** Five faults now demonstrably REACH the generator and are overruled anyway: plate density, scale-pattern colour, the boots, the zip, the collar. Not truncation, not budget — priority |
-| 2nd | **2 — imperative-only `must_show`** | **half done** | Sentence ordering is done for Shada and **not for Jasu's nine**. The budget raise took Shada from 8% to 26%, so this is less urgent than it was and still the only thing that fixes her properly |
+| 2nd | **2 — imperative-only `must_show`** | **DONE FOR JASU 2026-08-03 — 50% → 100%.** Open for Shada | Her nine prose rules became **26 imperative ones** and **nothing is trimmed at all**: the cap search now settles at the 4,000 ceiling. See below. Shada is the remaining case and the hard one |
 | 3rd | **5 — Shin has no `must_show`** | open | Half an hour, and it unblocks a co-lead entirely |
 | 4th | **6 — no verification loop** | open | Last. It checks work the fixes above stop producing |
 
@@ -190,6 +190,39 @@ disappearing with no mark on the file and a success message printed.
 `--dry-run` reports without writing, which is how to test a budget change safely.
 
 ### 2. Stop writing prose into `must_show`
+
+> #### Done for Captain Jasu, 2026-08-03 — and it went to 100%
+>
+> **Nine prose rules became twenty-six imperative ones. The specification did not
+> change; only its shape did.** Her total went 11,559 → 5,662 characters and the
+> share reaching the generator went **50% → 100%** — `fit()` now settles at the
+> 4,000 per-rule ceiling, which means **no rule is trimmed at all**. Verified by
+> rebuilding the prompt and checking every sentence of every rule appears in it:
+> **zero missing.**
+>
+> **What the 50% was hiding.** Her rule 2 was a 2,166-character block carrying
+> eight separate garments — body, collar, agility, belt, split panels, boots,
+> made-to-measure, not-for-display — so only its first sentence and its first
+> negation ever reached a generator. **The collar, the boots and *"they never
+> close into a skirt"* were being dropped every time.** That last one is the
+> exact fault that cost Shada her fifth generation: a skirt appeared over the
+> trousers because the prohibition was buried in a long rule.
+>
+> **The rule that makes this work, and it is mechanical.** `trim()` keeps
+> sentence one, then the first sentence containing
+> `NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST`, then competes on length. So:
+> **lead with the constraint, make sentence two a prohibition, keep each rule
+> under the cap, and give every enforceable thing its own rule.** A rule covering
+> two objects only ever protects one of them.
+>
+> **Two rules are pinned** — her height and her head proportion. Both are the
+> failures the *word* "captain" causes on its own.
+>
+> **The reasoning was not deleted, it was already elsewhere.** Every cut sentence
+> was checked against `Character.md` first; the one line that was not there
+> ("keep up with people twice her size") was added to it. The A180's barrel,
+> receiver and grip detail moved to slot 9 of `Prompts.md` — see fix 9's argument,
+> which this applies by hand.
 
 **This is the real cause and the cheapest fix.** `must_show` currently serves two
 masters: it is the build specification *and* the generator's rule list. Those

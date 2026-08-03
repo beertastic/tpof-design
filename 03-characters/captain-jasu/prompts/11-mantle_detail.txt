@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 11 — THE SIGNATURE]
 Output file: mantle_detail.png
 Aspect ratio: 1:1  (square)
-Prompt version: 52210c20 · repo commit 6340173 2026-08-03 16:56
+Prompt version: 52210c20 · repo commit c01c131 2026-08-03 21:44
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 6340173, prompt 52210c20.
+    Working from commit c01c131, prompt 52210c20.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

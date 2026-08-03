@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 2f3f3407 (short) · repo commit 6340173 2026-08-03 16:56
+Prompt version: 2f3f3407 (short) · repo commit c01c131 2026-08-03 21:44
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

@@ -279,194 +279,177 @@ outfits:
           best source and the wear is wanted — do not pay extra for "like new".
           The best boots in the crew, and looked after.
 
+    # RESTRUCTURED 2026-08-03 — fix 2 from `Prompt-Reliability-TODO.md`, applied
+    # to her the way it was applied to Shada on 2026-08-02.
+    #
+    # NINE RULES BECAME TWENTY-SIX, and the specification did not change. The
+    # nine were prose: rule 2 alone carried the body garment, the collar, the
+    # agility, the belt, the split panels, the boots, the made-to-measure line
+    # and the not-for-display line in one 2,166-character block, so only its
+    # first sentence and its first negation ever reached a generator. The
+    # collar, the boots and "they never close into a skirt" were all being
+    # dropped — the last of those is the exact fault that cost Shada her fifth
+    # generation.
+    #
+    # HOW `trim()` ACTUALLY WORKS, and therefore how to write these:
+    #   1. Sentence one ALWAYS survives. Put the constraint there, not the
+    #      subject — "THE COLLAR IS STIFF AND STANDS", not "THE COLLAR".
+    #   2. The first sentence after it carrying NOT/NEVER/NO/NOTHING/ONLY/
+    #      ALWAYS/MUST also always survives. Make sentence two a prohibition.
+    #   3. Everything after that competes on LENGTH. Short sentences win.
+    # One rule per enforceable thing. If a rule covers two objects, only one of
+    # them is protected. KEEP EVERY RULE UNDER ~250 CHARACTERS — that is the cap
+    # the budget settles on, and a rule under it is never trimmed at all.
+    #
+    # THE REASONING IS NOT HERE ANY MORE, and it is not lost — it is in
+    # `Character.md`, which is where a human reads it. A generator does not need
+    # to be persuaded, and every character of persuasion displaces a constraint.
+    #
+    # The A180's barrel, receiver and grip detail moved to slot 9 in
+    # `Prompts.md`. It is unreadable in a full-length figure and was spending
+    # ~700 characters in all 21 prompts to be legible in one. Same argument as
+    # fix 9.
     must_show:
+      - pin: true
+        text: >
+          SHE IS 155 cm AND THE SMALLEST ADULT IN THE FILM, AND NOTHING
+          COMPENSATES FOR IT.
+          NEVER make her taller, broader, older or harder-looking to justify the
+          rank.
+          Slight and fine-boned: NOT muscular, NOT broad, NOT heavy, NOT tall.
+      - pin: true
+        text: >
+          HER HEAD IS IN NORMAL ADULT PROPORTION TO HER BODY.
+          NEVER oversized, NEVER a caricature, NEVER a child's proportions.
+          The FACE comes from the actor photograph and the BODY from this
+          description.
+          A young East Asian woman with long dark hair.
       - >
-        THE ANIMAL IS HER RANK, AND SHE MUST NOT READ AS A NATURAL LEADER.
+        THE ANIMAL IS HER RANK.
         NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
-        This is the whole design. She commands because she owns a monster and
-        everyone knows it — not through seniority, not through tactical skill,
-        not through the crew's respect. Whatever authority she projects is on
-        loan from the beast. She has bought the SHAPE of an officer because she
-        has none of the substance, and the outfit should read as chosen rather
-        than earned: a woman dressed as an officer of an army that does not
-        exist. If she reads as a person who would be obeyed without the animal,
-        the image has failed.
-        SHE IS THE SMALLEST PERSON IN ALMOST EVERY SCENE SHE IS IN, and she
-        commands anyway. Do not compensate for that. Do not make her taller,
-        broader, older or harder-looking to justify the rank — the gap between
-        what she is and what she controls IS the character.
+        If she reads as a person who would be obeyed without the animal, the
+        image has failed.
       - >
-        SKIN-TIGHT THROUGH THE BODY — A SECOND SKIN FROM COLLAR TO ANKLE — WITH
-        THE OFFICER LINE CARRIED ONLY IN THE HARD STRUCTURE OVER IT.
-        NO FLARE, NO SWING, NO VOLUME, NO GATHERED OR DRAPED FABRIC ANYWHERE.
-        NOT a full skirt, NOT a wide coat, NOT robes.
-        THE BODY GARMENT follows her exactly — torso, arms and legs — close to
-        the skin from the collar down, with no bulk over the ribs, the waist, the
-        hips or the limbs. She has to be AGILE and the costume must say so at a
-        glance. If fabric hangs away from her anywhere, it is wrong.
-        THE COLLAR is stiff and STANDS, closed to the throat — never open, never
-        a lapel, never a shawl or a cowl.
-        SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. Cut for a gymnast,
-        not a soldier: articulated at the shoulder, elbow, hip and knee, with
-        panelled seams and give across every joint. NOTHING restricts her,
-        NOTHING is stiff except the mantle, and NOTHING is bulky. She is the
-        smallest adult in the film and she is the quickest.
-        THE SHOULDER is the mantle — see its own rule below.
-        THE WAIST is pulled in HARD by a wide heavy belt over the second skin.
-        BELOW THE WAIST, NARROW SPLIT PANELS hang straight and free over the
-        skin-tight leg — long, reaching towards the knee or past it, so the
-        upright line survives. They are NARROW and they PART COMPLETELY when she
-        moves. They never gather, never flare, and never close into a skirt.
-        THE BOOTS are tall and close to the calf, the best in the crew, resoled
+        THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN,
+        WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS.
+        NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere,
+        and NOT a full skirt, NOT a wide coat, NOT robes.
+        If fabric hangs away from her anywhere, it is wrong.
+      - >
+        THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT.
+        NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
+      - >
+        THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin.
+        The holster is belt-mounted on her RIGHT.
+        The leash, the pouches and the tools sit on her LEFT, off the drawing
+        side.
+      - >
+        BELOW THE WAIST, NARROW SPLIT PANELS HANG STRAIGHT AND FREE over the
+        skin-tight leg, reaching towards the knee or past it.
+        They NEVER gather, NEVER flare, and NEVER close into a skirt.
+        They PART COMPLETELY when she moves.
+      - >
+        THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled
         and looked after.
-        The severity is the point. Everything about the line is closed, upright
-        and deliberate, and everything about the condition contradicts it.
-        IT IS CUT TO HER AND ONLY TO HER. She is 155 cm, and a garment fitted
-        this close cannot be anything but made to measure — which is precisely
-        what nobody else in this crew has. It must NEVER look borrowed,
-        oversized, or like a child in an adult's clothes. That misreading would
-        make her pitiable, and she is not.
-        IT IS CLOSE-FITTING FOR MOVEMENT, NOT FOR DISPLAY. No glamour, no posing,
-        no fashion-editorial styling, nothing cut to be looked at. It is the
-        working kit of a very small person who has to keep up with people twice
-        her size, and it is filthy from a forest.
+        They are NOT pale and NOT ornamented.
       - >
-        A HARD SHOULDER MANTLE — THE SIGNATURE OF THIS COSTUME. MATCH THE COSTUME
-        REFERENCE ATTACHED ABOVE.
-        IT COMES TO A SHARP UPSWEPT POINT AT EACH SHOULDER — a defined peak
-        angling up and out past the shoulder, not a flat slab and not a rounded
-        pad. That point is what makes it read.
-        IT IS WARM DARK BROWN, the same family as the rest of the costume. NOT
-        grey, NOT black, NOT pale.
-        A stiff, dark, RIBBED yoke sitting over BOTH shoulders, standing proud of
-        the body and reaching out past the shoulder points before angling down
-        over the top of the upper arm. It is WIDE — deliberately wider than she
-        is — and it comes to a defined point at each shoulder. It rises at the
-        back into the stand collar.
-        It is STIFFENED CLOTH, not plate and not leather: ribbed, quilted or
-        pleated, holding its shape by construction rather than by being armour.
-        NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a
-        fur collar.
-        IT IS THE ONLY THING ON HER WIDER THAN SHE IS, and on a 155 cm frame that
-        is the whole point: it is the shape of authority, worn. She had it made.
+        CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE
+        COSTUME MUST SAY SO.
+        NOTHING restricts her and NOTHING is bulky.
+        Articulated at the shoulder, the elbow, the hip and the knee, with
+        panelled seams and give across every joint.
       - >
-        THE HEADDRESS — PALE CURVED BONE HORNS IN SWEPT-UP HAIR.
-        COPY IT FROM THE APPROVED TURNAROUNDS ATTACHED — the front and the left
-        profile both carry it clearly. The FACE comes from the actor photograph
-        and the BODY from the written description: a real woman of 155 cm,
-        photographed as a real person, with a HEAD IN NORMAL ADULT PROPORTION to
-        her body — never oversized, never a caricature, never a child's
-        proportions.
-        HER HAIR is long and dark, swept UP AND BACK off the face into a large
-        rolled, worked mass held high on the head, with the length falling loose
-        behind and to the sides. It is a BUILT shape, not a hairstyle anyone
-        maintains daily.
-        SET INTO IT, PALE CURVED HORNS — bone or bone-coloured, smooth, tapering
-        to points, projecting UP AND OUTWARD from both sides. Long and sweeping
-        on one side, shorter points on the other. ASYMMETRIC. They are pale
-        against very dark hair and that contrast is the whole effect.
+        IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE.
+        It must NEVER look borrowed, oversized, or like a child in adult
+        clothes.
+        Close-fitting for MOVEMENT, never for display.
+      - >
+        A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT
+        POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME.
+        NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT
+        a fur collar, NOT a flat slab, NOT a rounded pad.
+        Ribbed, quilted or pleated, holding its shape by construction rather
+        than by being armour.
+      - >
+        A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and
+        reaching out past the shoulder points before angling down over the top
+        of the upper arm.
+        It is the ONLY thing on her wider than she is.
+        It rises at the back into the stand collar.
+      - >
+        HER HAIR IS SWEPT UP AND BACK OFF THE FACE INTO A LARGE ROLLED, WORKED
+        MASS HELD HIGH ON THE HEAD, the length falling loose behind and to the
+        sides.
+        It is NEVER down and NEVER loose at the front — a BUILT shape, not a
+        hairstyle anyone maintains daily.
+      - >
+        SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM
+        BOTH SIDES — ASYMMETRIC, long and sweeping on one side, shorter points
+        on the other.
         NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask,
-        NOT a visor. Nothing covers her face or her brow, and nothing is
-        engraved, jewelled or polished. The horns are BONE — worn, matte, and
-        clearly taken off something that was once alive.
-        THE HORNS ARE THE ONLY PALE THING ON HER. Nothing else in this costume is
-        bone, cream, ivory, light grey or pale in any way — not the bracers, not
-        the leg panels, not the mantle, not the boots. If the pallor of the horns
-        has spread anywhere else, the image is WRONG. This happened on
-        2026-08-01 and it is the reason this sentence exists.
-        THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS — decided 2026-08-01. Bone
-        taken off creatures her akk brought down, worn on her head. This is the
-        ONE ornamental thing in her costume and it is deliberate: the single
-        decorative object on her is a display of THE BEAST'S power rather than
-        her own. They are worn, matte and yellowed with age, never polished,
-        never carved, never set in metal. A trophy, not jewellery.
+        NOT a visor.
+        Nothing covers her face or her brow.
       - >
-        MORE CLOTH THAN LEATHER, AND GOOD CLOTH — EXPENSIVE, NEVER SMART.
-        THE BODY IS TEXTILE: heavy ribbed knit, quilted panels, dense woven
-        canvas — matte, dry, and clearly FABRIC rather than hide. The ribbing on
-        the torso and the mantle is visible and structural.
-        LEATHER IS THE MINORITY and it is confined to the working parts: the
-        belt, the boots, the forearm bracers, the holster. If the costume reads
-        as a leather bodysuit, it is WRONG.
-        She takes the largest share and it shows in the QUALITY, never in the
-        condition. Close tailoring, hardware that works and has been maintained. And then: faded across the shoulders and the crown of the
-        coat, mended at the cuffs and the hem, mud to the knee, the collar worn
-        shiny where it rubs. NOT clean, NOT pressed, NOT ceremonial, NOT new.
-        She has been in a forest for weeks and she fights in these clothes.
-        AND IT WAS MADE FOR HER. In a crew wearing dead men's kit and salvage,
-        hers is the only outfit in the film that was cut to measure — at her
-        size, nothing could be scavenged to fit anyway. Nobody out here has
-        anything made. That is what the money actually looks like on her.
+        THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that
+        was once alive.
+        NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled.
+        Smooth, and tapering to points.
       - >
-        THE WHISTLE AND THE LEASH — HER TWO INSTRUMENTS OF COMMAND, BOTH FOR THE
-        ANIMAL AND NEITHER FOR THE CREW.
-        A small worn WHISTLE on a cord at her throat, plainly visible, cheap and
-        much handled. It is the most important object she owns: she whistles and
-        the beast comes, and she whistles and it kills.
-        A HEAVY LEASH — chain or thick strap — COILED AND HUNG AT HER BELT, on
-        her LEFT, off the drawing side. She is not holding it and the animal is
-        not on it. Carrying restraint she does not need is a display for the
-        crew, and it is the difference between commanding an animal and
-        controlling a weapon.
+        THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels,
+        dense woven canvas, matte and dry.
+        If the costume reads as a leather bodysuit, it is WRONG.
+        Leather is the MINORITY: the belt, the boots, the forearm bracers, the
+        holster.
       - >
-        THE A180 BLASTER PISTOL ON HER RIGHT HIP — THE WEAPON JYN ERSO CARRIES IN
-        ROGUE ONE. She is RIGHT-HANDED and it is NEVER on her left.
-        Holstered, belt-mounted, grip up and angled forward for a right-hand
-        draw. It is a MODULAR weapon — a compact pistol built to be reconfigured
-        — and the fittings for that are visible on it: rails and mounting points
-        along the top and the fore-end where the other parts attach.
-        IT IS TWO-TONE — BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK — and
-        that is the fastest way to recognise it.
-        THE BARREL is LONG and BRIGHT: bare polished metal, with a ROW OF SIX
-        ROUND VENT HOLES along its upper side towards the muzzle, a band of fine
-        FLUTING part way back, and a stepped muzzle. A flat polished blade runs
-        forward underneath it.
-        THE RECEIVER is BLACK with bright polished plates, small levers and
-        screws on the side, and a MOUNTING RAIL along the top carrying a round
-        knurled knob at the rear — that rail is the modular fitting.
-        THE GRIP is BLACK and finely CHEQUERED, raked STEEPLY BACK at an angle,
-        with a large round-headed screw at the heel. The trigger guard is a big
-        open circle.
+        THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT,
+        NEVER IN THE CONDITION.
+        NOT clean, NOT pressed, NOT ceremonial, NOT new.
+        Faded across the shoulders, mended at the cuffs and the hem, mud to the
+        knee, the collar worn shiny where it rubs.
+      - >
+        A SMALL WORN WHISTLE ON A CORD AT HER THROAT, PLAINLY VISIBLE.
+        NOT ornamental and NOT jewellery — cheap, plain and much handled.
+        It is the most important object she owns.
+      - >
+        A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON
+        HER LEFT.
+        She is NEVER holding it and the animal is NEVER on it.
+      - >
+        THE A180 BLASTER PISTOL HOLSTERED ON HER RIGHT HIP, TWO-TONE — BRIGHT
+        POLISHED STEEL FORWARD, BLACK AT THE BACK.
+        She is RIGHT-HANDED and it is NEVER on her left.
+        Grip up and angled forward for a right-hand draw.
+        The weapon Jyn Erso carries in Rogue One.
+      - >
+        THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object
+        in this crew.
         NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT
-        an antique, NOT ornate, NOT dark all over. It is a manufactured product
-        and it looks it — which is precisely why it is hers and not this crew's.
-        Unlike everything else in this crew it is CLEAN, SERVICED AND CARED FOR —
-        unscratched finish, working hardware, nothing improvised. It is the one
-        thing she spends money keeping right, and a modular weapon is an
-        expensive weapon: it is the same statement as the made-to-measure
-        clothes, in a different material.
-        The leash, pouches and tools sit on her LEFT, off the drawing side.
+        an antique, NOT ornate, NOT dark all over.
+        It is MODULAR and the rails and mounting points show.
       - >
-        TWENTY-EIGHT, AND VERY SMALL — 155 cm, THE SMALLEST ADULT IN THE FILM.
-        Slight, fine-boned, and NOT physically imposing in any way: NOT muscular,
-        NOT broad, NOT heavy, NOT tall. NOTHING about her body may suggest she
-        could win a fight or hold a room by force, because the entire point is
-        that she cannot and does not have to.
-        She is a young East Asian woman with long dark hair.
-        SHE IS COLD, NOT ANGRY. Calm, still, watchful, unsentimental — an
-        expression that is assessing you rather than threatening you. She kills a
-        man mid-sentence and smiles afterwards, and that must read as
-        characteristic rather than theatrical. NO snarl, NO glare, NO scowl, NO
-        bared teeth, NO clenched fists, NO aggressive posturing of any kind. She
-        controls people by fear and she never has to raise her voice to do it —
-        the threat is what everyone already knows about her, not what her face is
-        doing.
-        NO makeup that reads as makeup, NO glamour, NO styling. She is not
-        presented as attractive; she is presented as a person doing a job.
+        SHE IS COLD, NOT ANGRY.
+        NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO
+        aggressive posturing of any kind.
+        Calm, still, watchful and unsentimental — assessing you rather than
+        threatening you.
       - >
-        MUTED AND DARK, BUT NEVER IMPERIAL GREY AND NEVER BLACK-ON-BLACK.
-        Deep browns, dark umber, faded charcoal, oiled hide, the dull warm grey
-        of old canvas.
+        NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING.
+        She is not presented as attractive; she is presented as a person doing a
+        job.
+      - >
+        MUTED AND DARK — DEEP BROWNS, DARK UMBER, FADED CHARCOAL, OILED HIDE,
+        THE DULL WARM GREY OF OLD CANVAS.
+        NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO
+        gold braid, NO faction colour of any kind.
+        She must separate from a night forest and from firelight.
+      - >
         THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE
-        ALL DARK WARM BROWN — the same family as everything else she wears. NONE
-        of them is bone, cream, ivory or pale grey. They drifted pale on
-        2026-08-01 and they must not.
+        ALL DARK WARM BROWN.
+        NONE of them is bone, cream, ivory or pale grey.
         THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled.
         They do NOT continue up the upper arm.
-        TWO EXCEPTIONS AND ONLY TWO. The horns are pale bone. The blaster barrel
-        is BRIGHT POLISHED STEEL and must stay bright — do not dull it to match
-        her. It is the only gleaming object in this crew, and that is the point:
-        everyone else carries salvage, and she carries something she paid for and
-        looks after. Nothing else on her is pale and nothing else is bright. NO uniform green, NO uniform grey, NO red, NO gold braid,
-        NO faction colour of any kind. She must separate from a night forest and
-        from firelight — do not sink her into the background.
+      - >
+        TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER
+        BARREL.
+        NOTHING else on her is pale and NOTHING else is bright.
+        Do not dull the barrel to match her.

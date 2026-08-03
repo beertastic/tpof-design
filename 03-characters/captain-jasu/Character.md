@@ -226,6 +226,11 @@ It should be very slightly absurd, and nobody is going to say so, because of the
 animal. This is how "she must not look like a natural leader" and "she is the
 best-equipped of them" stop contradicting each other.
 
+**And underneath the shape it is working kit.** Cut for a gymnast rather than a
+soldier — articulated at every joint, nothing restricting, nothing bulky — because
+it is what a very small person wears to keep up with people twice her size. The
+severity is worn over the top of that; it is not what the garment is for.
+
 ### Where the shape came from, and the rule it had to satisfy
 
 The reference is a Japanese army officer, battle-hardened but elegant. Bible

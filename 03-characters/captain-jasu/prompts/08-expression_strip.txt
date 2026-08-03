@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 08 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: 6423334d · repo commit 6340173 2026-08-03 16:56
+Prompt version: 6423334d · repo commit c01c131 2026-08-03 21:44
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 6340173, prompt 6423334d.
+    Working from commit c01c131, prompt 6423334d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

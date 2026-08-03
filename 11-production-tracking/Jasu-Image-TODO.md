@@ -195,12 +195,26 @@ first:
   only handles turnaround views. **Jasu's fourteen narrative slots will have the
   same problem the moment they generate.** Fixing `short.py` once fixes it for
   every character; see `Shada-Image-TODO.md`.
-- **Only ~13% of her `must_show` specification reaches the generator.** Her rules
-  total 11,665 characters and the pasted prompt carries 1,601. The fix that works
-  is ordering, not length: `trim()` always keeps the first sentence and then the
-  first hard negation, so **the load-bearing clause must lead each rule.** Shada's
-  fourteen rules were re-ordered on that basis and all now land whole. **Jasu's
-  nine have not been.** Worth doing before her narrative run, not after.
+- ~~**Only ~13% of her `must_show` specification reaches the generator.**~~
+  **FIXED 2026-08-03 — she is at 100%, and nothing is trimmed at all.** The 13%
+  became 50% when the budget went to 8,000, and 100% when her **nine prose rules
+  were rewritten as twenty-six imperative ones** on 2026-08-03. Total spec
+  11,559 → 5,662 characters with no specification removed; `fit()` now settles at
+  the 4,000 ceiling rather than a cap. Verified sentence by sentence against the
+  rebuilt prompt.
+
+  **What she was losing, and it was not small:** the stand collar, the boots, and
+  *"they never gather, never flare, and never close into a skirt"* — all buried
+  inside a single 2,166-character rule that also carried the body garment, the
+  belt, the split panels and the made-to-measure line. **A skirt over the
+  trousers is exactly the fault that cost Shada her fifth generation.**
+
+  **Two rules are pinned:** her height and her head proportion — the two things
+  the word "captain" breaks on its own.
+
+  **She is now the worked example for fix 2**, the way Shada is for everything
+  else. Shada is the remaining case and the hard one — 23,807 characters, and no
+  budget rescues her.
 
 - **Fresh chat per character.** A Shada prompt returned Jasu's costume — horns,
   yoke, quilted sleeves, matched bracers — because her set had been generated in

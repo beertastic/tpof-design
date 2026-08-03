@@ -339,10 +339,36 @@ Product-reference layout of the A180 blaster pistol on a neutral surface, lit
 evenly, side-on and filling the frame — the specific in-universe model, not a
 generic sidearm. **ONE WEAPON, ALONE IN FRAME.**
 
-Long-barrelled, angular, industrial. Well maintained and clean where it matters,
-worn at the contact points. **This is the one thing she services properly**, and
-it should look it against the rest of her kit. Weathered, never factory fresh. No
-scope, no glowing elements, no ornament.
+**It is the weapon Jyn Erso carries in *Rogue One*.** Long-barrelled, angular,
+industrial, and **TWO-TONE — bright polished steel forward, black at the back.**
+That contrast is the fastest way to recognise it.
+
+**THE BARREL** is long and bright bare polished metal, with a **row of six round
+vent holes** along its upper side towards the muzzle, a band of fine **fluting**
+part way back, and a stepped muzzle. A flat polished blade runs forward
+underneath it.
+
+**THE RECEIVER** is black, with bright polished plates, small levers and screws
+on the side, and a **mounting rail** along the top carrying a round knurled knob
+at the rear — that rail is the modular fitting, and this is a modular weapon.
+
+**THE GRIP** is black and finely **chequered**, raked steeply back at an angle,
+with a large round-headed screw at the heel. The trigger guard is a big open
+circle.
+
+Well maintained and clean where it matters, worn at the contact points. **This is
+the one thing she services properly**, and it should look it against the rest of
+her kit. Weathered, never factory fresh. No scope, no glowing elements, no
+ornament.
+
+> **The barrel, receiver and grip detail lives here and not in `must_show`,
+> from 2026-08-03.** It is ~700 characters that no full-length figure can
+> resolve, and carrying it in the rules spent that budget in all 21 prompts to
+> be legible in one. The rules keep what a figure CAN show — right hip,
+> right-handed, two-tone, clean. Same argument as fix 9 in
+> [`../../11-production-tracking/Prompt-Reliability-TODO.md`](../../11-production-tracking/Prompt-Reliability-TODO.md).
+> The full specification is the table in
+> [`Character.md`](Character.md), which is the source of truth for this prop.
 
 ## 10. `whistle_and_leash.png` — her instruments of command
 **Square, 1:1.**

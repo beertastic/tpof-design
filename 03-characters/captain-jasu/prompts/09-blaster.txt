@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 09 — THE A180]
 Output file: blaster.png
 Aspect ratio: 1:1  (square)
-Prompt version: f5d8daaf · repo commit b886455 2026-08-03 16:40
+Prompt version: f5d8daaf · repo commit d1002fb 2026-08-03 16:50
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b886455, prompt f5d8daaf.
+    Working from commit d1002fb, prompt f5d8daaf.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

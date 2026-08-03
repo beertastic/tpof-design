@@ -76,8 +76,33 @@ outfits:
       # The interim costume plate at reference/costume/ is superseded by the
       # approved front above and has been removed — two costume references would
       # have disagreed with each other eventually.
-      - path: reference/concept/jasu-concept-sketch.jpg
-        what: the shoulder mantle, the ribbed torso and the leg panels
+      # DETACHED 2026-08-03, for the same reason as the figure photographs above.
+      # The production's own early concept drawing, added 2026-08-01, and it did
+      # its job: the mantle is the signature of this costume and prose was never
+      # going to land it.
+      #
+      # Its declared scope was "the shoulder mantle, the ribbed torso and the leg
+      # panels", and the approved turnarounds now carry all three photoreal from
+      # five angles — including the quilted outer-thigh panels and the ribbed
+      # knee pads, which read more clearly there than in the drawing.
+      #
+      # THREE REASONS IT IS NOW A LIABILITY:
+      #
+      # 1. IT IS A PENCIL DRAWING. Every prompt in this pack opens by insisting
+      #    the image is a photograph and not an illustration. Attaching a drawing
+      #    to that instruction is a contradiction the written rules have to fight.
+      # 2. THE PROPORTIONS ARE STYLISED — long-legged, small-headed, drawn the way
+      #    costume illustration is always drawn. She is 150 cm and slight. This is
+      #    the Funko problem in the opposite direction.
+      # 3. IT CONTAINS A SUPERSEDED DESIGN. One study on the sheet has a BARE
+      #    MIDRIFF, and the costume is now a second skin from collar to ankle with
+      #    no volume anywhere. A reference with no scope teaches everything in it,
+      #    including the parts that are no longer true.
+      #
+      # The approved front outranks it by definition — that is what approval means.
+      # Kept on disk as history. Do not attach it to anything.
+      # - path: reference/concept/jasu-concept-sketch.jpg
+      #   what: the shoulder mantle, the ribbed torso and the leg panels
       # DETACHED 2026-08-03. A painted figure built from the concept drawings on
       # 2026-08-01, and for two days the only three-dimensional record of the
       # headdress and the hair — which is exactly what a drawing cannot hold.

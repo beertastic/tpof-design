@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 16 — THE SHARE SHEET]
 Output file: tone_collage.png
 Aspect ratio: 2:3  (portrait)
-Prompt version: b20ea06f · repo commit b886455 2026-08-03 16:40
+Prompt version: c8271156 · repo commit d1002fb 2026-08-03 16:50
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b886455, prompt b20ea06f.
+    Working from commit d1002fb, prompt c8271156.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -51,8 +51,6 @@ Only the setting, pose and lighting change.
 
 FETCH AND MATCH — the approved costume reference:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
-USE THE ATTACHED PHOTOGRAPH — the shoulder mantle, the ribbed torso and the leg panels. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
 USE THE ATTACHED PHOTOGRAPH — the A180 blaster pistol. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
 LIKENESS (1) — attached, or fetch:

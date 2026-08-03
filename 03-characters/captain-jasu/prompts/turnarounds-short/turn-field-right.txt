@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — RIGHT]
 Output file: turn-field-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: f7efafcd (short) · repo commit b886455 2026-08-03 16:40
+Prompt version: a7793b47 (short) · repo commit d1002fb 2026-08-03 16:50
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -11,7 +11,6 @@ FULL LENGTH — head to below the feet. Not a portrait.
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
   COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
-  THE SHOULDER MANTLE, THE RIBBED TORSO AND THE LEG: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
   THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
   Take the FACE and BUILD from the actor image only. Hair, beard, age,

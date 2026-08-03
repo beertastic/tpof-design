@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 10 — HER INSTRUMENTS OF COMMAND]
 Output file: whistle_and_leash.png
 Aspect ratio: 1:1  (square)
-Prompt version: 7c20144e · repo commit b886455 2026-08-03 16:40
+Prompt version: 7c20144e · repo commit d1002fb 2026-08-03 16:50
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b886455, prompt 7c20144e.
+    Working from commit d1002fb, prompt 7c20144e.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

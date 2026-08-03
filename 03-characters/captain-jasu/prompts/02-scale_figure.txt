@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 02 — HOW SMALL SHE ACTUALLY IS]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 9e0233fe · repo commit b886455 2026-08-03 16:40
+Prompt version: 24c5beeb · repo commit d1002fb 2026-08-03 16:50
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b886455, prompt 9e0233fe.
+    Working from commit d1002fb, prompt 24c5beeb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -52,8 +52,6 @@ Only the setting, pose and lighting change.
 
 FETCH AND MATCH — the approved costume reference:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
-USE THE ATTACHED PHOTOGRAPH — the shoulder mantle, the ribbed torso and the leg panels. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/concept/jasu-concept-sketch.jpg
 USE THE ATTACHED PHOTOGRAPH — the A180 blaster pistol. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
 LIKENESS (1) — attached, or fetch:

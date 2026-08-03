@@ -1,10 +1,10 @@
 [SHADA — SLOT 02 — SCALE REFERENCE]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: abbf411e · repo commit fbce8f2 2026-08-03 10:32
+Prompt version: abbf411e · repo commit 1c1865f 2026-08-03 10:55
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit fbce8f2, prompt abbf411e.
+    Working from commit 1c1865f, prompt abbf411e.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

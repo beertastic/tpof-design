@@ -27,11 +27,36 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from split import find_repo_root, actor_refs, raw_url  # noqa: E402
 
-BUDGET = 3800          # hard ceiling for the FINISHED file, header included. The header, the version stamp and
+BUDGET = 8000          # hard ceiling for the FINISHED file, header included. The header, the version stamp and
                        # the echo block are added after trimming and cost about
                        # 500 characters, so the budget has to leave room for them
-                       # or the fit guarantee is a lie. The real limit out there
-                       # is about 4,000.
+                       # or the fit guarantee is a lie.
+                       #
+                       # RAISED FROM 3,800 ON 2026-08-03. That figure was measured
+                       # against an older generation of image tools and carried the
+                       # comment "the real limit out there is about 4,000". Two
+                       # things retired it:
+                       #
+                       # 1. An A/B on Shada's left view. At 8,000 the prompt carries
+                       #    54 constraint sentences that 3,800 drops — the same
+                       #    fourteen rules, with the halves the trim discards. B beat
+                       #    A by four checks on a twelve-point sheet, and won on
+                       #    precisely the four constraints it had gained: vest-as-
+                       #    fabric, no-brass, never-tan, scale-as-tattoo. A
+                       #    mechanistic link, not a coincidence.
+                       # 2. The operator pastes into a ChatGPT project, which accepts
+                       #    far more. ~7,000-12,000 characters is the working target;
+                       #    past ~15,000 the risk is the host compressing earlier
+                       #    context, and past ~30,000 it is likely.
+                       #
+                       # The approved front (v2) and every image accepted on
+                       # 2026-08-03 were generated at this budget. The other four
+                       # views must match it or they are specified more thinly than
+                       # the image they are matching against.
+                       #
+                       # NOT settled: whether 3,800 would now do as well, since the
+                       # A/B predates references being attached at all and images may
+                       # be carrying work the text was doing. Worth one test pair.
 RULE_CHARS = 4000      # per non-negotiable — the CEILING the search starts from, not a target.
                        # It was 200 until 2026-08-03, and `fit()` only ever searched
                        # DOWNWARD from it, so a rule was cut to 200 characters even when

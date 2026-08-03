@@ -194,6 +194,27 @@ at the same depth and the ratio holds.
 | Feet | Broad, splayed, long pale claws |
 | Tail | Long, thick at the base, tapering to a point |
 
+### Where 0.85 m lands on each person — use the landmark, not the number
+
+**Prompts must name a landmark that is visible in the frame, not a measurement.**
+On 2026-08-03 the same prompt produced 0.78 m twice from "the crest comes up to
+her waist", and 0.87 m first time from "the crest is level with the bottom of her
+belt". A belt is in shot and measurable; a waist is an idea. Same lesson as
+"twelve plates across a flank panel" beating "10-15 mm".
+
+**The animal does not change size. The landmark does.** Compute it per character:
+
+| Character | Height | Their waist | Akk crest lands at |
+|---|---|---|---|
+| **Captain Jasu** | 150 cm | ~90 cm | **Level with the bottom of her belt.** Confirmed by measurement, 2026-08-03 |
+| **Baylan** | 198 cm | ~119 cm | **Mid-thigh, well below his belt** — about 43% of his height |
+| A standard 1.8 m figure | 180 cm | ~108 cm | Upper thigh, below the hip |
+
+**Do NOT peg the animal to a tall character's waist.** At Baylan's waist it would
+be 1.19 m — forty per cent oversized, and a pony rather than a dog. He is the
+tallest person in the film and the animal reaches his mid-thigh; that contrast is
+the point, not an error to correct.
+
 **State the height in every prompt.** Creature scale is the single thing image
 generators get wrong most often, and "large quadruped" produces anything from
 knee-height to elephant-sized between one image and the next. The number and the

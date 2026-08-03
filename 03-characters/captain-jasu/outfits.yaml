@@ -78,13 +78,32 @@ outfits:
       # have disagreed with each other eventually.
       - path: reference/concept/jasu-concept-sketch.jpg
         what: the shoulder mantle, the ribbed torso and the leg panels
-      # A painted figure built from the concept drawings, 2026-08-01. It is the
-      # only three-dimensional record of the headdress and the hair, which is
-      # exactly what a drawing cannot hold.
-      - path: reference/build/jasu-figure-front.jpg
-        what: the headdress and hair, front
-      - path: reference/build/jasu-figure-side.jpg
-        what: the headdress and hair, profile
+      # DETACHED 2026-08-03. A painted figure built from the concept drawings on
+      # 2026-08-01, and for two days the only three-dimensional record of the
+      # headdress and the hair — which is exactly what a drawing cannot hold.
+      #
+      # The approved turnarounds now hold all of it, photoreal and on the right
+      # actor: the pale bone horns, their curve, how they sit set into swept-back
+      # dark hair above and behind the ear, and the profile read. There is
+      # nothing left that only the figure carries.
+      #
+      # And it is a FUNKO POP — a stylised toy with a 1:1 HEAD-TO-BODY RATIO,
+      # black dot eyes, a flat featureless face, painted brows, photographed on a
+      # kitchen table with a drink and a speaker in shot. Every one of those is
+      # something a photoreal prompt must not learn.
+      #
+      # The head proportion is the dangerous one, and it is dangerous for HER
+      # specifically. This character's whole design rests on reading as VERY
+      # SMALL and slight — 150 cm, the smallest adult in the film. An oversized
+      # head is how a small figure turns into a child or a caricature, which
+      # undoes the one thing her documents work hardest to establish.
+      #
+      # Kept on disk as history, like the superseded costume fronts. Do not
+      # attach them to anything.
+      # - path: reference/build/jasu-figure-front.jpg
+      #   what: the headdress and hair, front
+      # - path: reference/build/jasu-figure-side.jpg
+      #   what: the headdress and hair, profile
       # Her blaster is the A180 — the weapon Jyn Erso carries in Rogue One.
       # Supplied by the production 2026-08-01, after four generations returned a
       # generic pistol from the name alone. It is a third-party image of the

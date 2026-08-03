@@ -8,6 +8,7 @@ a generation prompt.**
 | Pass | Variable | Result |
 |---|---|---|
 | `01a` / `01b` | **The boots — tall to the calf, or ankle** | **TALL WINS, 2026-08-03.** `01b` was never needed — `01a` settled it on sight. Now the default in `outfits.yaml` |
+| `02` | **Correction pass — tall boots, flat heel, one whistle at the throat** | **Prompt written 2026-08-03, not yet generated.** Produces the replacement approved front |
 
 ## The result
 
@@ -136,3 +137,43 @@ Whichever wins, **one of the three records is wrong and must be corrected**:
 The whistle is the same class of problem and is **not** part of this test: the
 build list puts it on a cord at her throat and the approved front has it hanging
 at her belt. Decide it separately.
+
+---
+
+## 02 — the correction pass: boots and whistle
+
+**`02-boots-and-whistle.txt`.** The prompt that produces the replacement front
+turnaround. Same costume, two items corrected.
+
+It is built the same way as `01a`: the previously approved front is attached and
+governs everything, **with two named exceptions where the numbered rules
+override it** — the boots become tall with a flat heel, and the belt whistle is
+removed leaving exactly one at the throat. Everything else must not move.
+
+**Attach these three, and nothing else:**
+
+```
+source/artwork/turn-field-front.png            the costume — SCOPED, two exceptions
+reference/props/a180.jpg                       the blaster
+reference/actor/ling-jiu-headshot.jpg          face and build
+```
+
+Note this is the opposite of `MANIFEST.txt` for a normal front view, which omits
+the costume photograph because a plate is never a reference for itself. **Here it
+is the point** — the job is to change two items and hold everything else still.
+
+**Fresh chat.** Paste `02-boots-and-whistle.txt` whole as the first message.
+
+### Check before approving
+
+- **Tall boots, and a FLAT heel.** The heel is the one the generator has already
+  got wrong once.
+- **ONE whistle, at the throat.** Look at the belt as well as the neck — the last
+  pass drew both and it is easy to see only the one you asked for.
+- **Nothing else moved** — mantle points, collar, bracers, belt, thigh panels,
+  knee pads, horns, palette.
+
+If it passes, it replaces `source/artwork/turn-field-front.png` and gets
+re-approved in `outfits.yaml`; then the other four views are re-rolled against
+it. Until that happens the approved reference still teaches ankle boots and a
+belt whistle to every image made from it.

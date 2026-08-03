@@ -1,0 +1,39 @@
+[BAYLAN — THE LONG COAT, WORN]
+Output file: coat.png
+Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
+Prompt version: 8433727f (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+The one garment the turnarounds do not record. The five turnaround views show
+the base costume with the coat OFF, because the pose block forbids anything being
+obscured by another layer — so this is where the coat itself gets fixed.
+
+Same plate conditions as a turnaround: full length, head to below the feet, plain
+seamless mid-grey, flat even frontal light, sharp across the frame, arms about
+thirty degrees out. Facing camera. One figure, no text, no layout.
+
+He is in the full working dress with the long coat on over it, worn OPEN so the
+harness, belt and holstered blaster stay visible underneath.
+
+The coat: long, weathered black or very near it, falling below the knee.
+Ordinary set-in sleeves close to the arm — NO wide monastic sleeves, NO ceremonial
+drape, NO wrapped front, NO sash, NO cowl, and the hood is down or absent
+entirely. It is heavy weather gear of the sort any freighter crew would own, and
+it is visibly the oldest and most comfortable thing he owns.
+
+The damage is asymmetric and it is on HIS LEFT — repaired tears, scorching
+running down that side, and a burn that was never properly patched. His right side,
+where he draws, is comparatively unmarked. Never symmetrical damage.
+
+If the silhouette reads as a Jedi, the image has failed.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

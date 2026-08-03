@@ -1,0 +1,16 @@
+[MERCENARY-KIT — FOUR PAIRS, NONE MATCHING]
+Output file: kit-boots.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: a6f5d0bd (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Four pairs of boots side by side on a plain neutral surface, flat even light.
+Every mercenary has good boots and no two pairs match: different heights,
+different lacing, different soles, different wear patterns. One pair is enormous.
+
+All well made, all maintained, all repaired properly. This plate exists to prove
+the class-not-item rule.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

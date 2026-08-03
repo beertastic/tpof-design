@@ -1,0 +1,25 @@
+[MERCENARY-KIT — THE FOUR TOGETHER]
+Output file: lineup.png
+Aspect ratio: 2:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 63264f4a (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+THE KEY IMAGE OF THIS PACK. The only one that proves the kit produced four
+individuals rather than one costume in four variations.
+
+All four builds standing in a single frame, side by side, facing camera, evenly
+spaced against a plain neutral studio backdrop. Flat, even documentation
+lighting, sharp across the whole frame, no atmosphere and no mood. Full figure,
+head to boots, all four standing on the same ground line at true relative scale —
+the large one towers over the other three and that size difference must be honest.
+
+Left to right: the large one, the rifle, the close one, the near-human.
+
+Each of the four must be immediately distinguishable from the other three at a
+glance, by silhouette alone, before any detail is read. Different heights,
+different bulk, different outer layers, different headwear, different weapons
+carried differently.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

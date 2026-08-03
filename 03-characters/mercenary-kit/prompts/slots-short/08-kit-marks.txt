@@ -1,0 +1,17 @@
+[MERCENARY-KIT — WHAT MAKES THEM PEOPLE]
+Output file: kit-marks.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 786fccd0 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Four small studies of personal decoration, flat even light on a plain neutral
+ground. Metal rings and beads braided into shaggy fur; job tallies notched into a
+worn rifle stock in counted groups, smooth where a hand sits; small hard trophies
+obviously cut from other people's gear, fixed to a helmet and a chest rig; and
+small worn kept objects, clearly not equipment, threaded onto a belt.
+
+Four different kinds of decoration, not four versions of the same one.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

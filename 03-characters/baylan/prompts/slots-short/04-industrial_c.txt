@@ -1,0 +1,34 @@
+[BAYLAN — IN HIS BUNK]
+Output file: industrial_c.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: f4f81fe2 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+INTERIOR — the mercenary ship's crew bunks. Scenes 13 and 15 moved inside on
+2026-08-01.
+
+Baylan seated cross-legged on his bunk at night, lit low and warm by a glowrod
+set down beside him. He is in shirtsleeves — jacket and harness off, work shirt
+open at the collar, the patched dark undertunic visible underneath. His long dark
+robe is around his shoulders like a blanket. A cord runs around his neck and
+disappears into the shirt. His rifle propped in the corner.
+
+A cramped salvaged berth with bunks packed in too close together — exposed
+pipework, tie-downs, scuffed decking, someone else's kit within arm's reach.
+Other crew asleep nearby, out of focus. Not a cabin, not private: this is a
+freighter carrying more people than it was built for.
+
+Quiet and exhausted, and the point of the image is that he has nowhere to be
+unguarded. He has hidden for eighteen years in a space where you cannot get
+away from anyone.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

@@ -1,10 +1,10 @@
 [SHADA — SLOT 08 — HERO PROP]
 Output file: knife.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: 4cda7ba9 · repo commit 1c1865f 2026-08-03 10:55
+Prompt version: 4cda7ba9 · repo commit 17f8c94 2026-08-03 11:04
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1c1865f, prompt 4cda7ba9.
+    Working from commit 17f8c94, prompt 4cda7ba9.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

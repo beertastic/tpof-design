@@ -1,0 +1,38 @@
+[SHADA — HERO PROP]
+Output file: blaster.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 746c5efa (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
+  PLATE SHAPE AND FINISH — NOT SIZE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/material-scale.png
+  THE MAKE-UP — NOT THE COSTUME: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
+  THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Product-reference layout of a WESTAR-35 blaster pistol on a neutral surface,
+lit evenly, side-on and filling the frame — the specific in-universe model, not a
+generic sidearm.
+
+Slab-sided and angular. A brushed bare-metal body in dull silver-steel, with
+brass panels let into the top of the slide and at the rear. Squared trigger
+guard, prominent front sight post, a circular vented port through the mid-body,
+and a black textured grip worn through and chipped where a hand sits.
+
+Modified for reliability rather than power — replacement components, mismatched
+finish, a field-repaired grip, worn bluing at the contact points. Mechanically
+believable construction with visible fasteners and access.
+
+Weathered, never factory fresh. Scratched finish, grime settled in the
+recesses, at least one component plainly newer than the rest. No scope, no
+glowing elements, no ornament.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

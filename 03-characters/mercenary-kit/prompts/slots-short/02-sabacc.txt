@@ -1,0 +1,39 @@
+[MERCENARY-KIT — SCENE 10, THE SHIP'S HOLD]
+Output file: sabacc.png
+Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
+Prompt version: 5106c0aa (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+INTERIOR. Moved inside on 2026-08-01 — the scene plays in the mercenary
+ship's main hold, not at a campfire. It is the only interior in the mercenary
+pack.
+
+The Sabacc game in a cramped, salvaged cargo hold at night. All four sitting
+around a crate with cards and a pile of chips, comfortable with each other,
+mid-game. Exposed pipework, tie-downs, mismatched paint, scuffed decking, stacked
+salvage, service markings. Lived-in and over-occupied: this crew sleeps in a space
+too small for them.
+
+LIGHT THEM PROPERLY. This is the costume showcase. A work lamp hooked over
+the cards, plus the hold's own bulkhead fixtures — several motivated practical
+sources, all salvaged and grimy, none of them flattering, but every face and
+every costume readable. Low and dirty, not dark. If half the table is in shadow
+the image has failed.
+
+This is the only frame in the film with all four builds together, so it is the
+only place the kit can be judged: four people who each assembled their own gear,
+not one costume in four colours. Their personal marks are the point and they are
+small — the rings braided into fur, the notches cut in a rifle stock, the trophies
+on a chest rig, the kept objects threaded onto a belt. Frame wide enough to hold
+the table and close enough to see a wrist.
+
+Relaxed, off duty, weapons still on them because they always are. The large
+one's grenades must be visible on his chest rig — Vala takes one off it later,
+and this is where the audience needs to have seen them.
+
+Not a clean ship. No polished surfaces, no glowing consoles, no bridge or
+cockpit. This is a hold that has had cargo dragged across it for twenty years.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

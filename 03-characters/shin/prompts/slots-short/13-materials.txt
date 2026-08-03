@@ -1,0 +1,20 @@
+[SHIN — MATERIALS AND PALETTE]
+Output file: materials.png
+Aspect ratio: 5:4. Generate at that shape and never square unless it says 1:1.
+Prompt version: 849c2663 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Materials reference board: physical swatches and close details on a neutral
+surface, evenly lit. Coarse undyed woven cloth; badly-dyed fabric gone patchy;
+hand-stitched repairs in mismatched thread; frayed hems; failing footwear leather
+with a split sole; cord and torn cloth used as ties; mud, damp and staining; the
+small metal clasp at one corner; and a lock of the red hair for colour matching.
+Palette held to charcoal #2B2A26, ash brown #3A352F, dust brown #544E42,
+leather #6B5A47, faded tan #7C6F5B, faded olive #4F563F, weathered black
+#2E2F33, natural bone #BDAF95 — plus the hair, which is the only saturated
+colour permitted anywhere in this film. Matte throughout. The repairs must
+read as done by hand, in poor light, by someone who cared.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

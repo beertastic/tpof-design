@@ -1,0 +1,31 @@
+[MERCENARY-KIT — THE SHARE SHEET]
+Output file: tone-collage.png
+Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
+Prompt version: 9e8b5df8 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Not a board asset. This is the one image to send someone on a phone when
+they ask what these characters look like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+Because this character is four people rather than one, the panels show the crew
+rather than an individual:
+
+1. All four together, full figure, open daylight.
+2. The large one alone, showing scale against a tree.
+3. A tight portrait of the near-human, markings legible.
+4. The rifle and the close one working together at distance.
+5. The hold at night under one work lamp, figures small.
+6. A detail: braided fur, a notched stock, a trophy, a kept object.
+
+The four builds must be identical to their turnaround views in every panel — same
+gear, same marks, same sides. Panels that disagree with each other have failed,
+however good they look individually.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

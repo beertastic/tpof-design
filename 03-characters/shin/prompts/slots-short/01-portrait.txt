@@ -1,0 +1,16 @@
+[SHIN — HERO PORTRAIT]
+Output file: portrait.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: c2152964 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Waist-up portrait of Shin in a dim forest at dusk, three-quarter angle, caught
+mid-movement and looking off past camera. Fifteen, slight, pale, dirt-smeared.
+Long red hair bound back and dull with grime — the only colour in an otherwise
+charcoal and dust-brown frame. Coarse unfitted captivity clothing, hand-patched.
+Overcast light through wet canopy. She is frightened and trying not to show it,
+and not quite managing. Not posed, not heroic, not composed.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

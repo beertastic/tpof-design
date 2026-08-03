@@ -1,0 +1,17 @@
+[SHIN — THE HAIR]
+Output file: hair_study.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: a2e1dc1f (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Reference study of the character's hair: three or four views on a neutral,
+evenly lit background showing how the long red hair is bound, braided and
+wrapped back for a forest run — from behind, from the side, and a close crop of
+the binding itself. Practical and unglamorous, tied with cord or torn cloth
+rather than anything made for the purpose. Dirty, matted, with loose strands
+escaping. This is a hair-and-makeup reference, not a beauty shot. The colour must
+be consistent and repeatable — it is the only strong colour in the film.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

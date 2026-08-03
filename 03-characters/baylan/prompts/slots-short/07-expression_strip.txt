@@ -1,0 +1,24 @@
+[BAYLAN — PERFORMANCE RANGE]
+Output file: expression_strip.png
+Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
+Prompt version: 4633c984 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Horizontal strip of four head-and-shoulders expressions of the same
+late-forties bearded face, evenly lit and consistently framed: (1) neutral
+blankness — the manufactured dull expression he wears in company; (2) waking in
+terror, gasping, sweating, eyes wide; (3) quiet grief, entirely private and
+contained; (4) the real man underneath — focused, dangerous, absolutely still.
+Same lighting, angle and scale in every panel. The strip should show how little
+he lets show, and then how much is there.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

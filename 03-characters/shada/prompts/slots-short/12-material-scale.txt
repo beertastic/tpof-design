@@ -1,0 +1,78 @@
+[SHADA — THE SALVAGED METAL SCALES]
+Output file: material-scale.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: a0321ced (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/turn-working-front.png
+  THE MAKE-UP — NOT THE COSTUME: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/scale_portrait.png
+  THE COMBAT KNIFE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/source/artwork/knife.png
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-heashot.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/shada/reference/actor/dasha-svistunenko-posed.png
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Extreme close-up macro photograph of a section of the scale armour, lying flat on
+a plain neutral surface, filling the frame.
+
+Flat six-sided plates 10 to 15 mm across, about the size of a thumbnail — regular equilateral
+hexagons with slightly soft, rounded, uneven edges and a shallow raised lip
+around each rim. The surface is rough and pitted, like sand-cast or corroded
+metal: dark iron-grey going almost black, with pale worn silver on the raised
+edges. Two small lacing holes punched near opposite edges of each plate, cord
+or wire running through them to the leather backing beneath.
+
+Laid edge to edge and almost touching — the gap between neighbours is a thin
+dark seam, a line rather than a space. The lacing is fine and mostly hidden
+behind the plates: no chunky toggles, no rubber knots, no web of connectors. No
+frame or bezel around any plate.
+
+The backing beneath is hand-cut worn leather with an irregular edge and uneven
+hand stitching — never a neat manufactured panel.
+
+THIS IS A FRAGMENT, NOT A GARMENT. A torn-off scrap of the material, roughly
+the size of a hand, with only twelve to twenty plates visible and cut or torn
+edges on every side. One edge runs out of frame. Not symmetrical, not centred,
+not a finished piece.
+
+IT IS NOT CLOTHING AND MUST NOT BECOME ANY. Not a vest, not a plate carrier,
+not body armour, not a chest panel, not a bib, not anything wearable or complete.
+No shoulder straps, no webbing, no buckles, no velcro, no closures, no armholes,
+no neckline. If the object in frame could be put on, the image is wrong.
+
+No modern body-armour silhouette of any kind. This material appears on her
+costume only as four small patches — one forearm, one shoulder, the centre of the
+and one thigh. There is no breastplate and no full torso panel anywhere
+in this production.
+
+SIX STRAIGHT SIDES ON EVERY PLATE. Never round, never a coin, never a
+teardrop, never a fish-scale shape. Tessellated, not overlapped — the plates
+meet edge to edge in a single flat plane and never lap over one another.
+
+EVERY PLATE CARRIES A RAISED SNAKE SWIRL, AND THIS IS THE POINT OF THE IMAGE.
+A single continuous line curling and winding across the plate face in the shape of
+a small snake — coiling back on itself, loosely S-shaped or spiralling, a slightly
+thicker head at one end tapering to a fine tail at the other, filling most of the
+face.
+
+It stands proud of the surface as a soft, worn, rounded ridge, catching light
+along its top edge and casting a faint shadow beside it. Not engraved, not
+incised, not a recessed stamp, not etched or printed.
+
+No two are identical: the curl sits differently, the line runs thicker or
+thinner, some are nearly worn away. A blank plate means the image has failed —
+at this magnification every swirl must be clearly legible.
+
+This is one patch, so the metal is broadly consistent — one salvage source,
+one alloy, with only two or three plates obviously replaced later in something
+else. Scratched, dulled, weathered to a low sheen. The lacing and the backing are
+visible at the edge of the piece. Even flat lighting, sharp across the frame. A
+single material sample photographed for reference — no styling, no arrangement,
+no other objects.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

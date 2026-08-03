@@ -1,0 +1,15 @@
+[SHIN — CARRYING JEYIN]
+Output file: mother.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: 0135eb6a (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Shin at dawn supporting her injured mother through the forest, her mother's arm
+across her shoulders, taking weight she is too small to take. Early grey morning
+light, mist between the trunks. Both are filthy and exhausted. The composition
+must read as the child carrying the parent. Shin's face shows effort and fear;
+her mother is concealing how bad it is.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

@@ -1,0 +1,16 @@
+[SHIN — PERFORMANCE RANGE]
+Output file: expression_strip.png
+Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
+Prompt version: a04606f8 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Horizontal strip of four head-and-shoulders expressions of the same
+fifteen-year-old face, evenly lit and consistently framed: (1) open wonder,
+looking up; (2) horror at something she has just been told; (3) hollow sleepless
+exhaustion; (4) grief — total, unguarded, the face of a child who has just lost
+everything. Same lighting, angle and scale in every panel. Dirt-smeared
+throughout. Nothing performed or restrained: this face shows everything.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

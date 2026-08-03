@@ -1,0 +1,44 @@
+[BAYLAN — THE SHARE SHEET]
+Output file: tone-collage.png
+Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
+Prompt version: 5cd38741 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Not a board asset. This is the one image to send someone on a phone when
+they ask what this character looks like. It is a tone and casting reference for
+quick sharing, never a costume authority — nothing is ever matched against it.
+
+A single image divided into SIX panels in an irregular contact-sheet layout —
+uneven panel sizes, hard white gutters between them, no captions, no text, no
+numbering. One large panel carries the sheet; the rest are supporting sizes.
+
+The same person in the same costume in all six, photographed across one day.
+Vary only setting, light, framing and action:
+
+1. A full-figure standing shot in open daylight — the whole costume legible.
+2. A tight portrait, head and shoulders, eyes off camera.
+3. A mid shot at work, hands doing something specific.
+4. A low-light frame — dusk, firelight or a work lamp — showing how the costume
+   reads when it goes dark.
+5. A wide frame where the environment dominates and the figure is small.
+6. A detail: hands, a weapon, a fitting, a worn edge.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

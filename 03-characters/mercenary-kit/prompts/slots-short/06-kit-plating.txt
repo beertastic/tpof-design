@@ -1,0 +1,18 @@
+[MERCENARY-KIT — WHERE THE ARMOUR SITS]
+Output file: kit-plating.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: e378685a (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+The four plating solutions laid out flat on a neutral surface, evenly lit, sharp
+across the frame. Oversized forearm and single-shoulder plate cut for a limb that size;
+a single shoulder pad; a segmented chest rig with both forearm plates; and an
+empty space where the fourth would be, because the near-human wears no plate at
+all.
+
+All salvaged, all mismatched alloys, all obviously cut and refitted rather than
+manufactured as a set. Nothing here matches anything else here.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

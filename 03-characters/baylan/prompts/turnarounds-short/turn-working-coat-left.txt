@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — LEFT]
 Output file: turn-working-coat-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 05d03594 (short) · repo commit b6159af 2026-08-03 08:52
+Prompt version: 5a5f9111 (short) · repo commit 17f8c94 2026-08-03 11:04
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -21,14 +21,14 @@ You are thinking of the austere silver-haired Jedi in flowing black robes with a
 RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) — very tall, and broad and thickened with it.
 
 MUST BE TRUE OF THIS IMAGE:
-1. HE READS AS A MERCENARY, NEVER AS A JEDI, AND THIS IS THE VIEW WHERE THAT IS HARDEST. The coat is the one garment that could betray him. NO wide monastic sleeves.
-2. THE COAT IS WORN OPEN AND HANGS STRAIGHT. SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — plus repaired tears and one burn that was never patched.
-3. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT.
-4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else.
-5. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. NEVER his left.
-6. ABSOLUTELY NO ORNAMENT, on the coat or under it. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
-7. LATE FORTIES — FORTY-EIGHT. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle. Full UNSHAPED beard, untrimmed.
-8. MUTED BUT NEVER BLACK-ON-BLACK. He must also separate from a night forest and from camp firelight. Do not sink him into the background.
+1. HE READS AS A MERCENARY, NEVER AS A JEDI, AND THIS IS THE VIEW WHERE THAT IS HARDEST. The coat is the one garment that could betray him, so the silhouette is the whole test: NO HOOD UP — the hood is down or there is no hood at all. NO wide monastic sleeves. NO ceremonial drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. NO visible lightsaber or hilt. He is a cold man in an old coat. If the silhouette reads as a Jedi, or as a robed figure of any kind, the image has FAILED.
+2. THE COAT IS WORN OPEN AND HANGS STRAIGHT. It is not fastened, not belted over, not wrapped across the body. It falls from the shoulders below the knee, and the working costume underneath stays visible down the whole centre front. Weathered black, heavy, battered. SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage — plus repaired tears and one burn that was never patched.
+3. FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT. Showing that panel is the point of this view; the coat only frames it. A plain rounded area at the top rises to a blunt point below the throat, then the five bands fill the panel to the waist — each about a hand's width, touching, at a shallow angle of about 30° below horizontal. Raised, mottled, distressed waxed leather sitting PROUD of the cloth, every band edge carrying a coarse hand-worked stitch line. TONAL, DARK ON DARK — texture and relief, never colour contrast, never a flat graphic.
+4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else. It is the only colour on him, and nothing else on the costume or the coat is green — no panel, no cloth, no leather, no trim, no piping.
+5. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the harness must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
+6. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
+7. LATE FORTIES — FORTY-EIGHT. TALL AND BROAD AND THICKENED, heavy through the chest and waist, not muscular, not lean, not athletic. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
+8. MUTED BUT NEVER BLACK-ON-BLACK. The coat is the darkest thing on him, so the costume beneath must still separate from it — charcoal, ash brown, dust brown, faded olive against weathered black. He must also separate from a night forest and from camp firelight. Do not sink him into the background.
 
 SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

@@ -122,7 +122,29 @@ a costume that no longer exists, and only your eye catches that.
 
 ---
 
-## BLOCKER — sixteen of the twenty-one prompts cannot be pasted
+## ~~BLOCKER — sixteen of the twenty-one prompts cannot be pasted~~ **CLEARED 2026-08-03**
+
+`short.py` now writes `prompts/slots-short/` — sixteen paste-ready slot prompts,
+**2,204 to 8,870 characters** where the long files run 16 KB to 68 KB. Same trim,
+same rules, same reference block as the turnaround prompts, with the per-slot
+shot text that was the only missing piece.
+
+The 67 KB was never the slot. Measured: the sixteen slot bodies run 421 to 3,199
+characters and total 13.5 KB between them. **The rest was shared boilerplate,
+repeated in full sixteen times.**
+
+Also fixed: a plate is no longer a reference for itself, so
+`12-material-scale.txt` is not handed the previous `material-scale.png` and told
+to match it.
+
+**This unblocked 26 images** — twelve here and all fourteen of Captain Jasu's,
+the moment her pack stops being a scaffold. Recorded as fix 7 in
+[`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md).
+
+The original finding is kept below, because the reasoning is why the fix looks
+the way it does.
+
+---
 
 **Found 2026-08-02. Read before starting section 3 or 4 above.**
 

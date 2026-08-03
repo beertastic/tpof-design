@@ -1,0 +1,19 @@
+[MERCENARY-KIT — HOW EACH ONE CARRIES]
+Output file: kit-harness.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: a369f58d (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+The four chest and harness solutions, torso only, flat even documentation light
+against a plain neutral ground. Left to right: a broad hand-built ammunition
+bandolier with grenades seated on the front, crossed by a narrower utility strap;
+a bare chest and shoulders deliberately clear of anything that would foul a rifle
+stock, with pouches carried low instead; a segmented armour chest rig; belt and
+braces with nothing worn across the chest.
+
+This plate is where the individuality either works or fails — it is the same
+problem solved four ways.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

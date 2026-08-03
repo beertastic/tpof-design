@@ -1,0 +1,22 @@
+[MERCENARY-KIT — MATERIALS AND PALETTE]
+Output file: materials.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: e1c19ae4 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+A flat-lay material board for the mercenary faction on a plain neutral surface,
+evenly lit, sharp across the frame. Swatches of the materials this crew is built
+from: good worn leather in several different tans and blacks, ballistic weave,
+quilted work fabric, salvaged alloy plate in mismatched finishes, brass and
+oxidised bronze fittings, heavy webbing, rope, boot leather.
+
+Muted and practical — charcoal, ash grey, weathered black, faded olive, dust
+brown, sand, bone white, with rust red and ochre as secondaries and brass used
+sparingly.
+
+Every swatch is good quality and well kept. Nothing here is a matched set: it
+is the material vocabulary four different people drew from independently.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

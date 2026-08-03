@@ -25,7 +25,8 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
-from split import find_repo_root, actor_refs, raw_url  # noqa: E402
+from split import (find_repo_root, actor_refs, raw_url, parse_slots,  # noqa: E402
+                   parse_applicability)
 
 BUDGET = 8000          # hard ceiling for the FINISHED file, header included. The header, the version stamp and
                        # the echo block are added after trimming and cost about
@@ -453,6 +454,106 @@ def losses(outfit: dict, cap: int) -> list[tuple[int, str, list[str]]]:
     return out
 
 
+SLOT_SKELETON = (
+    "NO text, labels, captions, titles, logos, borders or layout. NO contact "
+    "sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail "
+    "crops and NO colour swatches. ONE FRAME ONLY.",
+    "LOOK: a real photograph of real people in real, built costumes. "
+    "Used-future Star Wars — industrial salvage, nothing factory fresh, muted "
+    "and sun-faded. Real skin with pores and lines. Not a render, not concept "
+    "art, not AI-looking.",
+)
+
+
+def build_slot(character: str, cfg: dict, outfit: dict, slot: dict,
+               costume_slots: set, rule_chars: int = RULE_CHARS) -> str:
+    """A paste-ready prompt for one NUMBERED slot.
+
+    `short.py` covered the five turnaround views and nothing else until
+    2026-08-03, so the sixteen numbered slots existed only as the long files in
+    prompts/ — 16 KB for a plate and 67 KB for a narrative frame, against a
+    working ceiling near 12 KB. There was no deliberate prompt to paste for any
+    of them: you handed over the long file and let the host compress it, which
+    is this document's own failure mode moved somewhere nothing can report on.
+
+    What was missing was never the machinery — the trim, the rules and the
+    reference block all already existed. It was the per-slot shot text, which is
+    what VIEWS does for turnarounds. `parse_slots` had it all along: the slot
+    bodies run 421 to 3,199 characters and total 13.5 KB across all sixteen. The
+    67 KB was shared boilerplate, repeated in full for every slot.
+
+    Blocks 26 images: twelve of Shada's and all fourteen of Captain Jasu's.
+    """
+    refs = [f"{label}: {url}"
+            for label, path, url in reference_list(character, outfit, "")
+            # A plate is never a reference for itself. See split.py.
+            if Path(path).name != slot["file"]]
+
+    show_costume = slot["n"] in costume_slots
+    rules = [trim(m, rule_chars) for m in (outfit.get("must_show") or [])] if show_costume else []
+    hand = cfg.get("handedness")
+    retrieve = (outfit.get("do_not_retrieve_short") or outfit.get("do_not_retrieve")
+                or cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve"))
+
+    parts = [
+        f"[{character.upper()} — {slot['title'].upper()}]",
+        f"Output file: {slot['file']}",
+        f"Aspect ratio: {slot.get('ratio') or '2:3'}. Generate at that shape and never square unless it says 1:1.",
+        "",
+        SLOT_SKELETON[0],
+        "",
+    ]
+    if refs:
+        parts += [
+            "USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing",
+            "is attached, fetch these URLs instead — and say which route you used:",
+            *[f"  {r}" for r in refs],
+            "  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.",
+            "  Take the FACE and BUILD from the actor images only.",
+            "  Say whether you used an attached file or a URL. If neither worked, stop.",
+            "",
+        ]
+    if show_costume and retrieve:
+        parts += [trim(retrieve, 420), ""]
+    if show_costume and hand:
+        parts += [f"{hand.upper()}-HANDED — sides are given from THEIR own left/right, never the viewer's.", ""]
+    if rules:
+        parts += ["MUST BE TRUE OF THIS IMAGE:"]
+        parts += [f"{i}. {r}" for i, r in enumerate(rules, 1)]
+        parts += [""]
+    parts += [
+        "THE SHOT:",
+        slot["body"].strip(),
+        "",
+        SLOT_SKELETON[1],
+    ]
+    body = "\n".join(parts).strip() + "\n"
+    h = hashlib.sha256(body.encode()).hexdigest()[:8]
+    lines = body.split("\n")
+    stamp = f"Prompt version: {h} (short) · repo commit {_repo_commit()}"
+    return "\n".join(lines[:3] + [stamp] + lines[3:])
+
+
+def fit_slot(character: str, cfg: dict, outfit: dict, slot: dict,
+             costume_slots: set, budget: int = None) -> tuple[str, int]:
+    """Largest per-rule cap whose slot prompt fits. Mirrors fit()."""
+    budget = BUDGET if budget is None else budget
+    text = build_slot(character, cfg, outfit, slot, costume_slots, RULE_CHARS)
+    if payload(text) <= budget:
+        return text, RULE_CHARS
+    lo, hi = MIN_RULE_CHARS, RULE_CHARS
+    best, best_cap = build_slot(character, cfg, outfit, slot, costume_slots, lo), lo
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        t = build_slot(character, cfg, outfit, slot, costume_slots, mid)
+        if payload(t) <= budget:
+            best, best_cap = t, mid
+            lo = mid + 1
+        else:
+            hi = mid - 1
+    return best, best_cap
+
+
 def _slug(label: str, n: int) -> str:
     """A filename that carries the reference's SCOPE, not just its subject.
 
@@ -573,6 +674,38 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
                 print(f"      rule {i}. {subject}…")
                 for kind, sent in gone:
                     print(f"        {kind} {sent[:96]}")
+
+    # The sixteen numbered slots. They share the outfit's rules and references,
+    # so they are generated here rather than in split.py, which writes the long
+    # specification files.
+    md_path = repo / "03-characters" / character / "Prompts.md"
+    outfits = cfg.get("outfits", [])
+    if md_path.is_file() and outfits:
+        md = md_path.read_text(encoding="utf-8")
+        status = (re.search(r"^status:\s*\"?(\w+)", md, flags=re.M) or [None, ""])[1]
+        if status == "scaffold":
+            print(f"  ! {character}: Prompts.md is a scaffold — no slot prompts written")
+        else:
+            try:
+                slots = parse_slots(md)
+                _cap, _anti, costume_slots = parse_applicability(md)
+            except SystemExit:
+                slots, costume_slots = [], set()
+            sdir = repo / "03-characters" / character / "prompts" / "slots-short"
+            if slots and not dry_run:
+                sdir.mkdir(parents=True, exist_ok=True)
+                for f in sdir.glob("*.txt"):
+                    f.unlink()
+            ssizes = []
+            for slot in slots:
+                text, _c = fit_slot(character, cfg, outfits[0], slot, costume_slots, budget)
+                if not dry_run:
+                    (sdir / f"{slot['n']:02d}-{Path(slot['file']).stem}.txt").write_text(
+                        text, encoding="utf-8")
+                ssizes.append(len(text))
+            if ssizes:
+                print(f"  {character}: {len(ssizes)} slot prompts, "
+                      f"{min(ssizes)}–{max(ssizes)} chars -> prompts/slots-short/")
 
     if not dry_run:
         for outfit in cfg.get("outfits", []):

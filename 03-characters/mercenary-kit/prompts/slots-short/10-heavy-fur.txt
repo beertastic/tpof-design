@@ -1,0 +1,32 @@
+[MERCENARY-KIT — FUR COLOUR AND TEXTURE]
+Output file: heavy-fur.png
+Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 9c7766b5 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+RIGHT-HANDED — sides are given from THEIR own left/right, never the viewer's.
+
+MUST BE TRUE OF THIS IMAGE:
+1. A TOWERING FUR-COVERED HUMANOID. Over two metres tall and massively built — substantially larger and heavier than every other figure in the crew. If he reads as merely a big man, the Vala fight does not work. His head, torso, arms and legs are entirely covered in coarse body hair. Broad chest, very long and powerful arms, a heavy brow over deep-set dark eyes, and a projecting muzzle. He stands and moves like a person, not like an animal.
+2. HE IS A SPECIFIC, ELDERLY INDIVIDUAL — DESCRIBE THIS ONE, NOT THE SPECIES IN GENERAL. His fur is DARK IRON-GREY SHOT THROUGH WITH RUST BROWN, mottled and uneven rather than any single tone, paling almost to white around the muzzle. He is OLD and it shows plainly: thinning patches over the shoulders, old scarring, sections matted and badly healed. His coat is COARSE, UNEVEN AND BADLY KEPT — worn down and patchy rather than long, clean, glossy or evenly-flowing. His bandolier is broad, thick and obviously hand-built from salvaged leather, and it is crossed by a second narrower strap the other way. Metal rings and beads are braided into the fur at the shoulder and muzzle.
+3. GRENADES ON THE BANDOLIER, CLEARLY VISIBLE AND CLEARLY REACHABLE. At least two grenades seated on the FRONT of the bandolier at mid-chest height, where someone held against him could get a hand to one. This is a hero prop planted in Scene 10 and paid off in Scene 23 — it must be legible in every image of him, never implied and never covered.
+4. TWO STRAPS CROSSING, NOT ONE. The heavy ammunition bandolier over one shoulder and a narrower utility strap crossing it the other way. This is the silhouette that separates him from the familiar single-bandolier read, and he is the only figure in this crew wearing anything DIAGONALLY across the chest.
+5. PLATING ON THE FOREARMS AND ONE SHOULDER ONLY, SALVAGED AND OVERSIZED — cut or refitted for a limb that size. No chest plate over the fur, no full armour, nothing matching. Most of him is fur, not gear.
+6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that is what it is to him. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon. HE IS RIGHT-HANDED and nothing is mirrored — no matching item on both sides.
+7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle. This is his only decoration and no other member of this crew decorates themselves this way.
+
+THE SHOT:
+A close study of the large one's body hair: shoulder, upper arm and the side of the
+muzzle, evenly lit and sharp, filling the frame.
+
+Dark iron-grey shot through with rust brown, greying and paling at the
+muzzle, coarse and long, matted and darkened in places by weather and work.
+Visibly an older animal. Metal rings and beads worked into braids close to the
+skin.
+
+This plate exists to settle the colour, because the difference between this
+character and a famous one is largely this surface. It is not warm chestnut
+brown.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

@@ -1,0 +1,16 @@
+[SHIN — MARVELLING]
+Output file: sky.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: 37dc9797 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Shin standing still in a forest clearing at dusk, head tilted right back,
+looking up at the open sky with unguarded wonder on her filthy face. Around
+and behind her, other exhausted escapees have slumped down and are not looking at
+anything. She is the only one looking up. Soft dusk light falling on her upturned
+face and catching in her red hair. This is the only moment of joy in the film and
+it belongs to a child who has almost nothing.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

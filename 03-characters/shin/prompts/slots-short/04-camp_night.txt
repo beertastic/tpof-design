@@ -1,0 +1,17 @@
+[SHIN — CANNOT SLEEP]
+Output file: camp_night.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: 86db52e6 (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Shin at a makeshift forest camp at night, lit only by a dying fire. She is
+awake, sitting up, arms around her knees, staring at nothing. Her face is
+dirt-smeared and hollow with exhaustion. Beside her, her mother sleeps — pale,
+sweaty, brow creased in pain even asleep. Low warm firelight raking across
+Shin's face and picking out the red in her bound hair. She is exhausted beyond
+description and she is not sleeping, because she is afraid of what happens when
+she closes her eyes.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

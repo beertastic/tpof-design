@@ -1,0 +1,15 @@
+[SHIN — HIDING]
+Output file: ditch.png
+Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
+Prompt version: 639fee9e (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Shin pressed into a muddy forest ditch, low, curled small, being physically held
+down and shielded by an older woman's arm across her back. Wet earth, tangled
+roots, standing water. Morning light above but almost none reaching them. Her
+face is turned up and sideways, filthy, wide-eyed, listening. Absolute terror
+held completely silent. She is as small as she can make herself.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

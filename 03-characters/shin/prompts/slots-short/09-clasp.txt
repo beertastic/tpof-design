@@ -1,0 +1,18 @@
+[SHIN — THE HERO PROP]
+Output file: clasp.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: 014f7d7f (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Product-reference layout on a neutral surface, evenly lit: a small metal clasp —
+a functional fastener, not jewellery — shown from two angles with its mechanism
+visible. It has been used constantly for years: worn smooth and bright at the
+contact points, dulled and slightly tarnished elsewhere, with fine scratching
+from handling. Sturdy, plain and well-made in the way of an object that has
+outlived several owners. No gems, no engraving, no ornament, no shine. Small
+enough to close a hand around. This object has to carry an entire relationship,
+so it must be specific and memorable in silhouette.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

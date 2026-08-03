@@ -1,0 +1,17 @@
+[SHIN — THE FACE]
+Output file: detail_portrait.png
+Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
+Prompt version: d145a24f (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+THE SHOT:
+Close portrait of Shin, head and shoulders, in soft overcast daylight. Fifteen
+years old — the face must read unmistakably as a child, not a young adult. Pale
+skin under a layer of dirt, freckles if the actor has them, chapped lips,
+shadows under the eyes from days without sleep. Long red hair bound back off her
+face, dull and matted, a few strands loose and stuck to her skin. Her expression
+is open and frightened — she is very bad at hiding things. Practical realism:
+every pore, every smear of dirt. No makeup, no styling, nothing softened.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

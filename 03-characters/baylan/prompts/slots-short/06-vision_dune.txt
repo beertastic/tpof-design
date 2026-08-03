@@ -1,0 +1,34 @@
+[BAYLAN — THE DUNE]
+Output file: vision_dune.png
+Aspect ratio: 21:9. Generate at that shape and never square unless it says 1:1.
+Prompt version: 5c77162f (short) · repo commit 17f8c94 2026-08-03 11:04
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Wide, hazy vision-image: a lone figure standing atop a sand dune under a hard
+afternoon sky, sea visible far beyond, gazing out. He is in his ordinary
+working dress — the same costume as every other slot. No robes, no tabards, no
+Jedi dress of any kind; the separate Knight build was dropped on 2026-08-01. His
+long dark coat may be on him, worn open and moving in the wind.
+
+He is turning toward camera, caught mid-movement, as if something behind him has
+just made a noise. Blown sand, heat shimmer, a bleached and desaturated palette
+utterly unlike the wet forest.
+
+The script's word is "hazy", and the man is one "we can't quite make out" — so
+resist resolving him. Distance, glare, heat shimmer and grain are all doing
+work here. This is the one image in the pack that is allowed to be soft,
+over-bright and unreal at the edges, and it should not read as a costume plate.
+He is slightly less worn than in the forest slots — the script says "a few
+years younger and less haunted" — but it is the same man in the same clothes and
+nothing should announce a time jump.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

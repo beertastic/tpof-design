@@ -108,11 +108,16 @@ get renumbered when the priority changes. The priority changes here:
 |---|---|---|---|
 | — | **1 — report what was dropped** | **DONE 2026-08-03** | `short.py` now prints, per outfit, the settled cap, the share of the spec reaching the generator, and every sentence lost — marked `DROPPED` or `cut`. Warns with `!` under 80% |
 | — | **4 — check the budget** | **DONE, and it found a different constant** | See below. `RULE_CHARS` was the binding limit, not `BUDGET`. Fixed; four outfits recovered with no budget change |
-| 1st | **7 — `short.py` covers only turnaround views** | open | **26 images.** Twelve of Shada's seventeen and all fourteen of Jasu's are behind this one file |
-| 2nd | **2 — imperative-only `must_show`** | **half done, and now the main event** | The cheap half — sentence ordering — is done for Shada's fourteen rules and **not for Jasu's nine**. Fix 4 proved no plausible budget rescues Shada: she needs shorter rules |
+| — | **7 — `short.py` covers only turnaround views** | **DONE 2026-08-03** | `prompts/slots-short/` — sixteen slot prompts at 2.2–8.9 KB where the long files ran 16–68 KB. **Unblocked 26 images** |
+| 1st | **3 — per-rule priority (`pin:`)** | open | **Promoted from 6th.** Five faults now demonstrably REACH the generator and are overruled anyway: plate density, scale-pattern colour, the boots, the zip, the collar. Not truncation, not budget — priority |
+| 2nd | **2 — imperative-only `must_show`** | **half done** | Sentence ordering is done for Shada and **not for Jasu's nine**. The budget raise took Shada from 8% to 26%, so this is less urgent than it was and still the only thing that fixes her properly |
 | 3rd | **5 — Shin has no `must_show`** | open | Half an hour, and it unblocks a co-lead entirely |
-| 4th | **3 — per-rule priority** | open | Still worth it for Shada and Jasu, who stay budget-bound after everything above |
-| 5th | **6 — no verification loop** | open | Last. It checks work the fixes above stop producing |
+| 4th | **6 — no verification loop** | open | Last. It checks work the fixes above stop producing |
+
+**Fix 3 changed places with fix 2 on 2026-08-03**, on evidence rather than
+theory. Six generations that day established that the remaining failures are not
+rules being cut — they are rules arriving intact and losing to something else in
+the prompt. Fix 2 shortens rules that already fit; fix 3 decides which rules win.
 
 ### What fix 4 actually found, 2026-08-03
 

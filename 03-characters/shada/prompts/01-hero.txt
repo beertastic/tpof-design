@@ -1,10 +1,10 @@
 [SHADA — SLOT 01 — THE HERO PORTRAIT]
 Output file: hero.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 37747643 · repo commit 1c1865f 2026-08-03 10:55
+Prompt version: 37747643 · repo commit 17f8c94 2026-08-03 11:04
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1c1865f, prompt 37747643.
+    Working from commit 17f8c94, prompt 37747643.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

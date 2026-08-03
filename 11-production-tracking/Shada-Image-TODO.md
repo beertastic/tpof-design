@@ -11,7 +11,7 @@ approved references with stated, non-overlapping scopes: `turn-working-front.png
 for the costume, `scale_portrait.png` for the make-up. Every remaining image is
 generated against both.
 
-**Eight images to make.** The run list below is the only place that carries
+**Six images to make.** The run list below is the only place that carries
 the order. Documents are the deliverable; images are a guide.
 
 **What the lock changed, in one place:**
@@ -33,13 +33,13 @@ consistent. The checker is clean and the boards validate.
 
 ## THE RUN LIST — start here
 
-**Twelve done. One kept. Eight to make.**
+**Thirteen done, one to re-roll when convenient. One kept. Six to make.**
 
 | | |
 |---|---|
 | **DONE — do not regenerate** | `turn-working-front` (v2, approved 2026-08-03) · `scale_portrait` (the make-up lock) · **the four remaining turnaround views — `natural`, `left`, `right`, `back`, completed 2026-08-03** · **`material-scale` (v2, 2026-08-03 — the locked plate reference)** · **`material-hardware` (2026-08-03)** · **all of step 3 — `blaster`, `utility`, `material-leather`, `material-cloth` (2026-08-03)** |
 | **KEEP** | `knife.png` — locked prop reference, unaffected |
-| **TO MAKE** | 8 numbered slots — steps 4 and 5 |
+| **TO MAKE** | 6 numbered slots — all of step 5 |
 
 `species_strip` and `expression_strip` were on the KEEP list until 2026-08-03 and
 are **not** any more. Both contradict the make-up lock — round pupils, and the
@@ -208,13 +208,30 @@ The prompt edits still stand: they close the two genuine gaps and front-load the
 rest. But do not read this list as evidence that the generator obeys and the
 documents fail. **Check which file was pasted before diagnosing anything.**
 
-### STEP 4 — the two strips, remade against the make-up lock
+### STEP 4 — the two strips, remade against the make-up lock  *(DONE 2026-08-03)*
 
-- [ ] `06-species_strip.txt`
-- [ ] `07-expression_strip.txt`
+- [x] `07-expression_strip.txt` — **slit pupils in all four panels**, no zip, no
+      brass, nothing on her chest, cap on her left and flat. All three of the
+      faults that demoted the old one are cleared. *Iris drifted amber-green
+      where every other image is pale blue-grey; iris colour is stated nowhere,
+      so nothing is broken, but that is the gap if they ever need to match*
+- [~] `06-species_strip.txt` — **the eye panel is excellent**, four panels as
+      specified. But it carries **a visible zip and a shingled shoulder cap**,
+      both generated before the prompt was fixed. Kept, because it is attached to
+      nothing and its job is the make-up. **Re-roll when convenient** — the
+      prompt now covers both faults
 
-Both must now carry the **vertical slit pupil**, and a scale pattern that is
-FLAT, TONAL and at the EDGES only. No zip, no brass, nothing on her chest.
+**Both slots took two attempts and the reason was structural, not stylistic.**
+Neither strip is a costume slot, so neither receives `must_show` — including the
+PINNED reptilian-eye rule. `07` never mentioned eyes at all and came back with
+round pupils, which is the exact fault that demoted it. `06` got its pupil right
+only because its shot text happened to say "reptilian iris structure".
+
+`pin:` protects a rule from being trimmed; it does nothing about a slot that
+takes no rules. Patched by hand into both slots, and written up as **fixes 8 and
+9 in [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md)** — the second
+being that the same rule reaches all thirteen full-length prompts, where a slit
+pupil is 2–3 px and cannot render at all.
 
 ### STEP 5 — the narrative frames
 

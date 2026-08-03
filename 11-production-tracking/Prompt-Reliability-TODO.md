@@ -268,6 +268,65 @@ turnarounds, one level up.
 
 ---
 
+### 8. `pin:` cannot reach a slot that takes no rules — **found 2026-08-03**
+
+**The most protected rule in Shada's pack could not reach the two images whose
+entire subject is her face.**
+
+Rule 14, the reptilian slit pupil, is `pin: true` — it survives any cap
+untrimmed. But `must_show` is only emitted for slots listed as costume slots in
+`Prompts.md`, and of sixteen numbered slots only six are. `06-species_strip` and
+`07-expression_strip` are not among them.
+
+**`pin:` protects a rule from being trimmed. It does nothing about a slot that
+never asks for rules at all.** The two mechanisms are unaware of each other, and
+nothing warns.
+
+What it cost, all on 2026-08-03:
+
+| Slot | What was missing | Result |
+|---|---|---|
+| `07-expression_strip` | the eye rule entirely | four panels of ROUND pupils — the first of the three faults that demoted this image off the KEEP list that morning |
+| `06-species_strip` | the anti-zip rule, the flat-plate rule | a visible zip and a shingled cap |
+
+`06` got its pupil right only by accident: its shot text happens to say "close eye
+detail showing the reptilian iris structure". `07` said nothing about eyes, so
+nothing asked.
+
+**Patched by hand** — both rules are now written into both slots' shot text. That
+is a per-slot fix for a general fault and it will rot. **The fix is to make
+applicability explicit:** let a rule declare which slots it applies to, or emit
+pinned rules to every slot regardless of costume applicability. A pinned rule is
+by definition one that must not be lost; silently dropping it for ten of sixteen
+slots is the opposite of what the author asked for.
+
+**This affects every character, not just Shada.**
+
+### 9. The eye rule is pointed at the frames that cannot show it — **found 2026-08-03**
+
+The same rule, the opposite problem, and the two together are almost funny:
+
+| Carries the pinned eye rule | Can it render a slit pupil? |
+|---|---|
+| all five turnarounds, `01-hero`, `02-scale_figure`, `03-camp_day`, `04-forest`, `11-maintenance`, `16-tone-collage` | **No** |
+| `06-species_strip`, `07-expression_strip` | **Yes** — and until fix 8 was patched they were the only two without it |
+
+Measured in a full-length 1024x1535 frame: her eye is about 30 px wide, the pupil
+about 8 px, so a vertical slit is 2-3 px. At 6x magnification the whole face is
+already soft before you reach the pupil. `Shada-Image-TODO.md` had already reached
+this conclusion by eye — "do not chase slit pupils in any full-length frame... that
+is precisely what `scale_portrait.png` is for" — but nothing acts on it.
+
+So a pinned 459-character rule spends its protected budget in thirteen prompts
+that physically cannot use it, in a pack where **23% of the specification reaches
+the generator**. It is not free: it displaces rules those frames could have used.
+
+**The fix is the same as 8** — per-rule slot applicability. Then the eye rule goes
+to close portraits, and full-length frames get the budget back.
+
+*Both of these are arguments for fix 2 as well: while rules are long, every
+misdirected rule is expensive.*
+
 ## Process, not tooling
 
 **Use a fresh conversation for every character.** A Shada prompt returned Captain

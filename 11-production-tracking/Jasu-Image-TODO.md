@@ -22,33 +22,41 @@ status: "open"
 > **`./tools/regen captain-jasu` has been run, so every prompt and the staged
 > attachment folder already point at the new front.** Verified by checksum.
 >
-> ### RUN THIS NEXT — the four remaining views
+> ### TURNAROUNDS COMPLETE — 5/5, v2, checked 2026-08-03
 >
-> They are the primary deliverable and they are ready now. **Fresh chat each.**
+> Left, right, back and natural all regenerated against the v2 front and all
+> four pass. **The v1 set is gone** — it had ankle boots, a belt whistle and the
+> superseded hair.
 >
-> | Order | Paste | Attach |
+> **Handedness verified, not eyeballed.** Both profiles were cropped and
+> magnified at the hip:
+>
+> | | Blaster | Leash |
 > |---|---|---|
-> | 1 | `prompts/turnarounds-short/turn-field-left.txt` | everything in `prompts/attach/field/` — **all 3** |
-> | 2 | `prompts/turnarounds-short/turn-field-right.txt` | the same 3 |
-> | 3 | `prompts/turnarounds-short/turn-field-back.txt` | the same 3 |
-> | 4 | `prompts/turnarounds-short/turn-field-natural.txt` | the same 3 |
+> | **right profile** | Flat against the near thigh, full width, grip up and angled forward | Not visible — correctly hidden on her far side |
+> | **left profile** | Edge-on, protruding past the front of the hip only | On the near side, hook and coil fully visible |
 >
-> Save each as `source/artwork/<Output file>` exactly as the prompt names it.
-> Unlike the front, these views **do** take the costume photograph — a plate is
-> only excluded from being its own reference.
+> That is exactly how a far-side holster reads from the opposite profile, and it
+> means **the visibility rule added on 2026-08-03 did its job.** The documented
+> failure it was written against was the opposite — an A/B where *nothing that
+> belonged on the hidden side survived being hidden*, and the most emphatically
+> described object got dragged round into shot. It stayed put this time.
 >
-> **Check each against the front:** boots tall, one whistle at the throat, hair
-> down, horns unchanged, and every asymmetric piece on the correct side — blaster
-> on her RIGHT, leash on her LEFT. **The profile views are where side errors
-> appear**, and the prompts now carry a visibility rule telling the model which
-> side the camera cannot see and forbidding it from moving a hidden piece round
-> into shot.
+> Also correct across all four: tall boots with a low heel, exactly one whistle
+> at the throat, hair down and loose, horns asymmetric and pale, bracers forearm
+> only, and the six vent holes on the blaster barrel legible in the back view.
 >
-> > **Known and accepted:** on the left and right prompts the budget settles
-> > lower, and five tail sentences are dropped — articulation, the yoke rising
-> > into the collar, the leather-minority list, the grip angle. All construction
-> > detail; none of it silhouette or placement. Recorded as item 11 in
-> > [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md).
+> **Two things to watch rather than fix:**
+>
+> - **The heel is slightly higher in `natural` than in the other four.** Within
+>   tolerance, but it is the detail the generator has already got wrong once, so
+>   check it in every future frame.
+> - **The mantle reads smoother in the two profiles** than in front and back,
+>   where its quilting is clear. This is *predicted*: `Ribbed, quilted or
+>   pleated.` is one of the five tail sentences the profile views drop, because
+>   their longer shot text settles the budget lower. Item 11 in
+>   [`Prompt-Reliability-TODO.md`](Prompt-Reliability-TODO.md). If a future
+>   profile loses the mantle's construction entirely, that is the cause.
 >
 > ### THEN the sixteen slots, in this order
 >

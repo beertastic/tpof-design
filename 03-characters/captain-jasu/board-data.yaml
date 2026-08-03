@@ -5,11 +5,16 @@ version: '1.0'
 status: IN PROGRESS
 date: '2026-08-03'
 footer_left: THE PRICE OF FREEDOM - PRODUCTION DESIGN BIBLE
+# Paths are relative to THIS FILE, as Shada's are. Written as a bare title and a
+# repo-root path until 2026-08-03, and --validate reported both as missing
+# governing documents — the only two failures in her whole board set that were
+# not simply an image not generated yet.
 governing_documents:
-  - Production Design Bible v1.0
+  - ../../01-production-design/Production-Design-Bible-v1.0.md
+  - ../../04-factions/mercenaries/Faction.md
   - Character.md
   - outfits.yaml
-  - 08-species/akk-dog/Creature.md
+  - ../../08-species/akk-dog/Creature.md
 
 # Geometry copied from shada/board-data.yaml, which is the worked example.
 # A2 landscape, 23.386 x 16.535 in. Margins 0.45. --validate catches overlaps.

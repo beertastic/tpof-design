@@ -25,6 +25,48 @@ All notable production-bible changes are recorded here.
 
 ### Added
 
+- **Captain Jasu's turnaround set is complete and correct — v2, 2026-08-03.**
+  Front re-approved and all four remaining views regenerated against it. The v1
+  set, generated 2026-08-01, is superseded in full: it carried ankle boots, a
+  whistle at the belt and hair matching a rule that was itself wrong, and none of
+  that was visible until her `must_show` was rewritten and the rules began
+  reaching the generator.
+
+  **Handedness was verified rather than eyeballed** — both profiles cropped and
+  magnified at the hip. In the right profile the holster lies flat against the
+  near thigh at full width with no leash visible; in the left it appears edge-on,
+  protruding past the front of the hip only, with the leash on the near side.
+  That is exactly how a far-side holster reads from the opposite profile.
+
+  **So the visibility rule added on 2026-08-03 works.** It was written against an
+  A/B in which *nothing that belonged on the hidden side survived being hidden* —
+  the most emphatically described object in the costume was dragged round into
+  shot. This time everything stayed where it belongs.
+
+  Also correct in all four: tall boots with a low heel, exactly one whistle at
+  the throat, hair down and loose, asymmetric pale horns, forearm-only bracers,
+  and the blaster barrel's six vent holes legible in the back view.
+
+  **Two watch items, neither a defect.** The heel sits slightly higher in
+  `natural` than the rest — the one detail already got wrong once. And the mantle
+  reads smoother in the two profiles than in front and back, which is *predicted*:
+  `Ribbed, quilted or pleated.` is one of the five tail sentences the profile
+  views drop, because their longer shot text settles the budget lower. Item 11 in
+  `Prompt-Reliability-TODO.md`.
+
+### Fixed
+
+- **Captain Jasu's board governing-document paths were both broken, 2026-08-03.**
+  `--validate` reported *"missing governing document"* for the Production Design
+  Bible and the akk dog creature document — the only two failures in her entire
+  board set that were not simply an image not generated yet. They were written as
+  a bare title (`Production Design Bible v1.0`) and a repo-root path
+  (`08-species/akk-dog/Creature.md`), where the validator resolves relative to the
+  character folder. Rewritten in Shada's style, and the faction document added
+  while there. **Validation now reports only genuinely missing images.**
+
+### Added
+
 - **A standing rule on cast data, 2026-08-03 — it stays in Google Drive and
   never enters this repository.** `11-production-tracking/Cast-Data-Source.md`.
 
@@ -92,6 +134,7 @@ All notable production-bible changes are recorded here.
   reference for the four matched views and all sixteen narrative slots, so every
   image made from it inherits ankle boots and a belt whistle. It must be cleared,
   re-rolled and re-approved before anything else generates.
+  *(Done the same day — see the v2 turnaround entry at the top of Unreleased.)*
 
 ### Fixed
 

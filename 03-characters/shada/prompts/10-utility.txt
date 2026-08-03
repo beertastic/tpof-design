@@ -1,10 +1,10 @@
 [SHADA — SLOT 10 — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1  (square)
-Prompt version: 563059d6 · repo commit 3b81ff7 2026-08-03 13:12
+Prompt version: 4ca1eace · repo commit bfcde27 2026-08-03 13:19
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 3b81ff7, prompt 563059d6.
+    Working from commit bfcde27, prompt 4ca1eace.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -290,13 +290,30 @@ physical dominance. Everything about how she moves, dresses and watches has been
 shaped by wet forest — she belongs in it, and it shows.
 
 === THIS IMAGE ===
-Overhead flat-lay of everything Shada carries, laid out on a worn surface in the
-deliberate order of someone who checks it after every job: a coiled length of
-thin climbing line, a cloth tool roll opened flat to show a row of slender steel
-probes and fine hand tools, a small repair kit, spare parts, a cleaning kit,
-cloth wraps, and a compact dented water flask. Every item shows use and repair. Explicitly no
-datapad and no unnecessary technology. Even, flat reference lighting. The
-restraint of the kit is the point — this is a short list, well maintained.
+Overhead flat-lay of THE KIT Shada carries in her pouches and on her belt, laid
+out on a worn surface in the deliberate order of someone who checks it after
+every job.
+
+NOTHING SHE WEARS. NO GARMENTS AND NO ARMOUR. No vest, no trousers, no
+boots, no belt, no gauntlet, no shoulder cap, no scale panels, no weapons and no
+knife. This image is what comes OUT of her pockets, never what she stands up in.
+If a garment or a piece of armour is in frame, the image is wrong.
+
+THE COMPLETE LIST, and there is nothing else in the picture: a coiled length
+of thin climbing line, a cloth tool roll OPENED FLAT to show a row of slender
+steel probes and fine hand tools, a small repair kit, spare parts, a cleaning
+kit, cloth wraps, and a compact dented water flask. Every item shows use and
+repair. Explicitly no datapad and no unnecessary technology. Even, flat
+reference lighting. The restraint of the kit is the point — this is a short
+list, well maintained.
+
+Scoped 2026-08-03. This opened "everything Shada carries", and the generation
+read that as her whole loadout: it returned a costume knolling sheet — vest,
+trousers, boots, belt, knife and TWO gauntlets — with almost none of the kit
+above. "Carries" and "wears" are not distinguishable to a generator unless the
+prompt distinguishes them. The attached full-figure costume front, labelled
+COSTUME (match exactly), will have pushed the same way; see the reference-scoping
+item in Prompt-Reliability-TODO.md.
 
 
 Deliver a single image at 1:1. It must look photographed, not generated.

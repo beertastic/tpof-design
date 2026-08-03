@@ -546,13 +546,30 @@ glowing elements, no ornament.
 ## 10. `utility.png` — kit layout
 **Square, 1:1.**
 
-Overhead flat-lay of everything Shada carries, laid out on a worn surface in the
-deliberate order of someone who checks it after every job: a coiled length of
-thin climbing line, a cloth tool roll opened flat to show a row of slender steel
-probes and fine hand tools, a small repair kit, spare parts, a cleaning kit,
-cloth wraps, and a compact dented water flask. Every item shows use and repair. Explicitly no
-datapad and no unnecessary technology. Even, flat reference lighting. The
-restraint of the kit is the point — this is a short list, well maintained.
+Overhead flat-lay of THE KIT Shada carries in her pouches and on her belt, laid
+out on a worn surface in the deliberate order of someone who checks it after
+every job.
+
+**NOTHING SHE WEARS. NO GARMENTS AND NO ARMOUR.** No vest, no trousers, no
+boots, no belt, no gauntlet, no shoulder cap, no scale panels, no weapons and no
+knife. This image is what comes OUT of her pockets, never what she stands up in.
+If a garment or a piece of armour is in frame, the image is wrong.
+
+**THE COMPLETE LIST, and there is nothing else in the picture:** a coiled length
+of thin climbing line, a cloth tool roll OPENED FLAT to show a row of slender
+steel probes and fine hand tools, a small repair kit, spare parts, a cleaning
+kit, cloth wraps, and a compact dented water flask. Every item shows use and
+repair. Explicitly no datapad and no unnecessary technology. Even, flat
+reference lighting. The restraint of the kit is the point — this is a short
+list, well maintained.
+
+*Scoped 2026-08-03. This opened "everything Shada carries", and the generation
+read that as her whole loadout: it returned a costume knolling sheet — vest,
+trousers, boots, belt, knife and TWO gauntlets — with almost none of the kit
+above. "Carries" and "wears" are not distinguishable to a generator unless the
+prompt distinguishes them. The attached full-figure costume front, labelled
+COSTUME (match exactly), will have pushed the same way; see the reference-scoping
+item in `Prompt-Reliability-TODO.md`.*
 
 ## 11. `maintenance.png` — character at work
 **Tall portrait, 9:16.**

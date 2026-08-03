@@ -77,19 +77,44 @@ status: "open"
 >       officer reference does not transfer. **The approved front was right about
 >       this all along**, and one of its three mismatches was the document being
 >       wrong rather than the image.
-> - [ ] **THE BOOTS GO TO AN A/B TEST — staged 2026-08-03, not yet generated.**
->       Decided by the Production Designer: generate both boot styles and choose
->       from the pictures rather than from the documents. Two prompts differing
->       by exactly one line are in
->       [`../03-characters/captain-jasu/evolution/`](../03-characters/captain-jasu/evolution/README.md),
->       with what to attach, what to judge, and what each outcome costs.
->       **Nobody has ever seen her in the boots the build list describes** — the
->       sentence never reached a generator — so this is not a re-roll of a known
->       thing, it is the first look at it.
-> - [ ] **The whistle is the same class of problem and is NOT in that test.**
->       Build list: on a cord at her throat, plainly visible. Approved front: at
->       her belt on a chain. Decide separately, and it needs no generation — it is
->       a small prop and the question is only which record is right.
+> ### THE BOOTS ARE DECIDED — TALL, 2026-08-03
+>
+> `evolution/01a-boots-tall.png`. **Tall wins and is now the default rule**, in
+> the wording that actually produced it. Variant B was not generated — the tall
+> boot was obviously right on sight.
+>
+> **The test also proved the scoped-exception wording works**: it attached the
+> approved front, which shows ankle boots, and overrode the photograph on the
+> footwear alone. That is reusable whenever one item has to change against an
+> approved image.
+>
+> Two faults it exposed, both fixed:
+>
+> - **Two whistles** — the new throat rule added one and nothing removed the belt
+>   one inherited from the photograph. Now `EXACTLY ONE WHISTLE`.
+> - **Heeled boots** — the component note has said "flat" since 2026-08-01, and a
+>   build note cannot reach a generator. There is now a heel rule, and the
+>   component note says to re-heel a boot rather than accept the heel.
+>
+> - [ ] **NEXT, AND IT BLOCKS EVERYTHING: re-roll and re-approve the front.**
+>       The approved reference now contradicts the rules on the boots and the
+>       whistle, and **it is the reference for the four matched views and all
+>       sixteen narrative slots** — so every image generated from it inherits
+>       ankle boots and a belt whistle. Per `APPROVAL.md`, clear `approved:` in
+>       `outfits.yaml`, re-roll the front, approve it by eye, then re-roll the
+>       other four against it.
+>
+> ### ~~THE BOOTS GO TO AN A/B TEST~~ — staged and run 2026-08-03
+>
+> - [x] ~~**A/B the boots.** Generate both styles and choose from the pictures
+>       rather than from the documents.~~ **Done.** The prompts and the full
+>       write-up are in
+>       [`../03-characters/captain-jasu/evolution/`](../03-characters/captain-jasu/evolution/README.md).
+>       Nobody had ever seen her in the boots the build list describes, because
+>       the sentence never reached a generator — so it was the first look at it,
+>       not a re-roll.
+> - [x] ~~**The whistle — belt or throat?**~~ **Throat, and exactly one.**
+>       Settled 2026-08-03 by the same image, which came back wearing both.
 >
 > ### Open on her, 2026-08-03
 >

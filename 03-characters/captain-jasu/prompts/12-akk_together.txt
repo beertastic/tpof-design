@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 12 — THE ANIMAL IS HER RANK]
 Output file: akk_together.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 1aa25eeb · repo commit e5b478a 2026-08-03 21:56
+Prompt version: 1bd24243 · repo commit 214d3a5 2026-08-03 22:09
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit e5b478a, prompt 1aa25eeb.
+    Working from commit 214d3a5, prompt 1bd24243.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -78,29 +78,31 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. SHE IS 155 cm AND THE SMALLEST ADULT IN THE FILM, AND NOTHING COMPENSATES FOR IT. NEVER make her taller, broader, older or harder-looking to justify the rank. Slight and fine-boned: NOT muscular, NOT broad, NOT heavy, NOT tall.
   2. HER HEAD IS IN NORMAL ADULT PROPORTION TO HER BODY. NEVER oversized, NEVER a caricature, NEVER a child's proportions. The FACE comes from the actor photograph and the BODY from this description. A young East Asian woman with long dark hair.
   3. THE ANIMAL IS HER RANK. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. If she reads as a person who would be obeyed without the animal, the image has failed.
-  4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes. If fabric hangs away from her anywhere, it is wrong.
+  4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes.
   5. THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT. NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
   6. THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin. The holster is belt-mounted on her RIGHT. The leash, the pouches and the tools sit on her LEFT, off the drawing side.
   7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
-  8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled and looked after. They are NOT pale and NOT ornamented.
-  9. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
-  10. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes. Close-fitting for MOVEMENT, never for display.
-  11. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar, NOT a flat slab, NOT a rounded pad. Ribbed, quilted or pleated, holding its shape by construction rather than by being armour.
-  12. A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is. It rises at the back into the stand collar.
-  13. HER HAIR IS SWEPT UP AND BACK OFF THE FACE INTO A LARGE ROLLED, WORKED MASS HELD HIGH ON THE HEAD, the length falling loose behind and to the sides. It is NEVER down and NEVER loose at the front — a BUILT shape, not a hairstyle anyone maintains daily.
-  14. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long and sweeping on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor. Nothing covers her face or her brow.
-  15. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
-  16. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG. Leather is the MINORITY: the belt, the boots, the forearm bracers, the holster.
-  17. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded across the shoulders, mended at the cuffs and the hem, mud to the knee, the collar worn shiny where it rubs.
-  18. A SMALL WORN WHISTLE ON A CORD AT HER THROAT, PLAINLY VISIBLE. NOT ornamental and NOT jewellery — cheap, plain and much handled. It is the most important object she owns.
-  19. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
-  20. THE A180 BLASTER PISTOL HOLSTERED ON HER RIGHT HIP, TWO-TONE — BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left. Grip up and angled forward for a right-hand draw. The weapon Jyn Erso carries in Rogue One.
-  21. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over. It is MODULAR and the rails and mounting points show.
-  22. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
-  23. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
-  24. MUTED AND DARK — DEEP BROWNS, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour of any kind. She must separate from a night forest and from firelight.
-  25. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NONE of them is bone, cream, ivory or pale grey. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
-  26. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
+  8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the shaft rises well up the calf, close-fitting, ending below the knee. They are NOT ankle boots, NOT low, NOT pale and NOT ornamented.
+  9. THE BOOT HEEL IS FLAT, OR AS NEAR FLAT AS THE BOOT ALLOWS — a walking sole, no more than about 25 mm at the heel. NEVER a block heel, NEVER a shaped or raised heel, and NEVER anything that adds height to her.
+  10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
+  11. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes.
+  12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar, NOT a flat slab.
+  13. A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is. It rises at the back into the stand collar.
+  14. HER HAIR IS SWEPT UP AND BACK OFF THE FACE INTO A LARGE ROLLED, WORKED MASS HELD HIGH ON THE HEAD, the length falling loose behind and to the sides. It is NEVER down and NEVER loose at the front — a BUILT shape, not a hairstyle anyone maintains daily.
+  15. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor.
+  16. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
+  17. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG. Leather is the MINORITY: the belt, the boots, the forearm bracers, the holster.
+  18. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded at the shoulders, mended at cuffs and hem, mud to the knee, the collar worn shiny.
+  19. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
+  20. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
+  21. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left. Grip up and angled forward for a right-hand draw.
+  22. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
+  23. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
+  24. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
+  25. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
+  26. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
+  27. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale grey. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
+  28. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
 
 Generate a single image to the description below.
 
@@ -200,28 +202,30 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. SHE IS 155 cm AND THE SMALLEST ADULT IN THE FILM, AND NOTHING COMPENSATES FOR IT. NEVER make her taller, broader, older or harder-looking to justify the rank. Slight and fine-boned: NOT muscular, NOT broad, NOT heavy, NOT tall.
   2. HER HEAD IS IN NORMAL ADULT PROPORTION TO HER BODY. NEVER oversized, NEVER a caricature, NEVER a child's proportions. The FACE comes from the actor photograph and the BODY from this description. A young East Asian woman with long dark hair.
   3. THE ANIMAL IS HER RANK. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid. If she reads as a person who would be obeyed without the animal, the image has failed.
-  4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes. If fabric hangs away from her anywhere, it is wrong.
+  4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes.
   5. THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT. NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
   6. THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin. The holster is belt-mounted on her RIGHT. The leash, the pouches and the tools sit on her LEFT, off the drawing side.
   7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
-  8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled and looked after. They are NOT pale and NOT ornamented.
-  9. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
-  10. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes. Close-fitting for MOVEMENT, never for display.
-  11. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar, NOT a flat slab, NOT a rounded pad. Ribbed, quilted or pleated, holding its shape by construction rather than by being armour.
-  12. A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is. It rises at the back into the stand collar.
-  13. HER HAIR IS SWEPT UP AND BACK OFF THE FACE INTO A LARGE ROLLED, WORKED MASS HELD HIGH ON THE HEAD, the length falling loose behind and to the sides. It is NEVER down and NEVER loose at the front — a BUILT shape, not a hairstyle anyone maintains daily.
-  14. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long and sweeping on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor. Nothing covers her face or her brow.
-  15. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
-  16. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG. Leather is the MINORITY: the belt, the boots, the forearm bracers, the holster.
-  17. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded across the shoulders, mended at the cuffs and the hem, mud to the knee, the collar worn shiny where it rubs.
-  18. A SMALL WORN WHISTLE ON A CORD AT HER THROAT, PLAINLY VISIBLE. NOT ornamental and NOT jewellery — cheap, plain and much handled. It is the most important object she owns.
-  19. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
-  20. THE A180 BLASTER PISTOL HOLSTERED ON HER RIGHT HIP, TWO-TONE — BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left. Grip up and angled forward for a right-hand draw. The weapon Jyn Erso carries in Rogue One.
-  21. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over. It is MODULAR and the rails and mounting points show.
-  22. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
-  23. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
-  24. MUTED AND DARK — DEEP BROWNS, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour of any kind. She must separate from a night forest and from firelight.
-  25. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NONE of them is bone, cream, ivory or pale grey. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
-  26. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
+  8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the shaft rises well up the calf, close-fitting, ending below the knee. They are NOT ankle boots, NOT low, NOT pale and NOT ornamented.
+  9. THE BOOT HEEL IS FLAT, OR AS NEAR FLAT AS THE BOOT ALLOWS — a walking sole, no more than about 25 mm at the heel. NEVER a block heel, NEVER a shaped or raised heel, and NEVER anything that adds height to her.
+  10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
+  11. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes.
+  12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar, NOT a flat slab.
+  13. A STIFF RIBBED YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is. It rises at the back into the stand collar.
+  14. HER HAIR IS SWEPT UP AND BACK OFF THE FACE INTO A LARGE ROLLED, WORKED MASS HELD HIGH ON THE HEAD, the length falling loose behind and to the sides. It is NEVER down and NEVER loose at the front — a BUILT shape, not a hairstyle anyone maintains daily.
+  15. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor.
+  16. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
+  17. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG. Leather is the MINORITY: the belt, the boots, the forearm bracers, the holster.
+  18. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded at the shoulders, mended at cuffs and hem, mud to the knee, the collar worn shiny.
+  19. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
+  20. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
+  21. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left. Grip up and angled forward for a right-hand draw.
+  22. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
+  23. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
+  24. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
+  25. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
+  26. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
+  27. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale grey. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, dark, buckled. They do NOT continue up the upper arm.
+  28. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

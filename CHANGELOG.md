@@ -25,6 +25,54 @@ All notable production-bible changes are recorded here.
 
 ### Changed
 
+- **Captain Jasu's boots are TALL, decided 2026-08-03 from an A/B** —
+  `03-characters/captain-jasu/evolution/01a-boots-tall.png`. The approved front
+  showed ankle boots; `outfits.yaml` and the build list said tall. They had
+  contradicted each other since 2026-08-01 because the boots sentence sat eighth
+  in a 2,166-character rule and was never sent to a generator, so **nobody had
+  ever seen the design the build list describes.** Tall won on sight and variant
+  B was never generated.
+
+  **The test's method is the reusable part.** The prompt attached the approved
+  front — which a front view is normally never given — scoped so the photograph
+  governed everything except the footwear. It held: tall boots came back against
+  a reference showing low ones. That is the wording to use whenever one item has
+  to change against an approved image.
+
+  **Two faults the image exposed, both now fixed:**
+  - **Two whistles.** The new throat rule added one; the belt one stayed,
+    inherited from the photograph. Nothing had ever said there was only one.
+    Now `EXACTLY ONE WHISTLE`, with the belt named as carrying no second.
+  - **Heeled boots.** The component note has said "flat" since 2026-08-01, and
+    **a build note cannot reach a generator.** There is now a heel rule in
+    `must_show` — flat or as near flat as the boot allows, ~25 mm — and the
+    component note says to re-heel a boot that is otherwise right, a cobbler's
+    job and cheaper than the boot.
+
+  **The approved front is now wrong and blocks everything downstream.** It is the
+  reference for the four matched views and all sixteen narrative slots, so every
+  image made from it inherits ankle boots and a belt whistle. It must be cleared,
+  re-rolled and re-approved before anything else generates.
+
+### Fixed
+
+- **Two general traps in `short.py`, found while checking Jasu's rewrite.**
+  Neither is fixed in the tool; both are written up in
+  `Prompt-Reliability-TODO.md` as items 10 and 11.
+  - **`"NONE"` is not a hard token.** `trim()` protects the first sentence
+    matching `NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST`, and `\bNO\b` does not match
+    `NONE`. Jasu's anti-pale-drift clause — the rule that exists *because* her
+    costume drifted pale — began with "NONE of them is bone, cream, ivory or pale
+    grey" and was therefore unprotected, so on two views it was dropped while the
+    bracer geometry was kept. Rewritten with `NEVER`. Every other character was
+    scanned and none has the same shape, but `NEITHER`, `NOR`, `AVOID`, `EXCEPT`
+    and `WITHOUT` are the same trap waiting.
+  - **The dropped-sentence report is per outfit; the cap is per view.** The
+    profile views carry longer shot text and settle far lower. On Jasu the front
+    reached the 4,000 ceiling with nothing trimmed while **left and right were
+    each dropping five sentences, with no warning printed at all.** The profiles
+    are exactly where placement and handedness faults appear.
+
 - **Captain Jasu's `must_show` rewritten, 2026-08-03 — nine prose rules became
   twenty-six imperative ones, and her specification went from 50% reaching the
   generator to 100%.** Total 11,559 → 5,662 characters with **nothing removed

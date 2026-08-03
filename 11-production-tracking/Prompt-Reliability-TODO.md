@@ -335,6 +335,55 @@ slots is the opposite of what the author asked for.
 
 **This affects every character, not just Shada.**
 
+### 10. `"NONE"` is not a hard token, so a prohibition can start with it and be unprotected — **found 2026-08-03**
+
+`trim()` guarantees the first sentence after the head that matches
+`\b(NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST)\b`. **`NONE` is not in that list, and
+`\bNO\b` does not match it.**
+
+Found in Jasu's palette rule, which existed *because* her costume drifted pale on
+2026-08-01:
+
+> THE BRACERS, THE LEG PANELS … ARE ALL DARK WARM BROWN. **NONE of them is bone,
+> cream, ivory or pale grey.** THE BRACERS ARE FOREARM ONLY …
+
+The `NONE` sentence read as the prohibition, but `trim()` skipped past it and
+protected *"THE BRACERS ARE FOREARM **ONLY**"* instead — so on the back and
+natural views **the anti-pale-drift clause was dropped and the bracer geometry
+was kept.** Rewritten as `NEVER bone, NEVER cream, NEVER ivory, NEVER pale grey`.
+
+**Every other character was scanned for the same shape and none has it.** But the
+trap is invisible when writing: `NONE`, `NEITHER`, `NOR`, `AVOID`, `EXCEPT` and
+`WITHOUT` all read as prohibitions to a person and none of them counts.
+**Either add them to `HARD` or say so in the authoring rules.** The cheap half is
+the authoring rule; the regex change is one line and would protect the next one
+nobody notices.
+
+### 11. The dropped-sentence report is per OUTFIT, but the cap is per VIEW — **found 2026-08-03**
+
+**Fix 1 reports less than it appears to.** `short.py` prints one line per outfit,
+and the profile views have longer shot text than the front — the visibility
+rules added 2026-08-03 — so **they settle on a much lower cap and drop sentences
+the report never mentions.**
+
+Measured on Jasu after her rewrite, the same rules, the same file:
+
+| View | Cap | Sentences dropped |
+|---|---|---|
+| **front** | **4,000** — the ceiling, nothing trimmed | **0** |
+| natural | 254 | 2 |
+| back | 250 | 3 |
+| **left / right** | **240** | **5 each** |
+
+So "captain-jasu/field: 100%" was true of the front and of nothing else, and a
+clean run reported no warning at all while the two profile views were each losing
+five sentences. **The profiles are the views that matter most for placement** —
+they are where the handedness and visibility-bias faults show up.
+
+**The fix is to report per view, or to report the worst view.** Until then, the
+honest way to check a character is to build all five and diff them, which is four
+lines of Python and is not what the tool does.
+
 ### 9. The eye rule is pointed at the frames that cannot show it — **found 2026-08-03**
 
 The same rule, the opposite problem, and the two together are almost funny:

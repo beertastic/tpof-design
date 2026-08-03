@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — RIGHT]
 Output file: turn-field-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: cfae3474 (short) · repo commit db4b9ef 2026-08-04 00:16
+Prompt version: cfae3474 (short) · repo commit 1a75369 2026-08-04 00:21
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

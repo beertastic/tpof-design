@@ -297,13 +297,28 @@ the flatness of somebody who expects to be obeyed.
 ## 5. `candid.png` — off duty, unobserved
 **Tall portrait, 9:16.**
 
-Captain Jasu alone at the edge of the camp, not aware of being watched. Sitting
-on a crate or crouched by the fire, hands doing something small and ordinary —
-checking the leash, working a knot, warming her hands.
+Captain Jasu alone at the edge of the camp, not aware of being watched. **Sitting
+on a crate**, elbows on her knees, head down, hands doing something small and
+ordinary — **working a knot in the leash**, checking a strap.
+
+**DAYLIGHT OR DUSK, NEVER NIGHT.** Late afternoon sun through the trees, or the
+blue-grey of dusk before the fire is the only light left. **The frame is not
+dark**: the costume, her hands and her face all read clearly. **NO firelight as
+the key**, no orange glow across her, no black surround, no campfire scene. If a
+fire is in shot at all it is small, distant and behind her, and it lights
+nothing.
+
+> *Corrected 2026-08-04. This slot used to say "crouched by the fire… warming
+> her hands", and produced exactly that: a near-black night frame lit by
+> firelight. **The pose was right and the light was wrong** — and a costume that
+> cannot be read is a costume plate that does no work, whatever the mood.*
 
 **THIS IS THE ONLY IMAGE WHERE SHE IS TWENTY-EIGHT.** Not a captain, not
 composed. Tired, small, and much younger than she is allowed to look in front of
 the crew. No blaster in her hand, no command, no audience.
+
+**Handling the leash is CORRECT here** and is the one place it happens — she is
+maintaining her own kit alone. The animal is still not on it.
 
 ## 6. `portrait.png` — hero portrait
 **Portrait, 3:4.**

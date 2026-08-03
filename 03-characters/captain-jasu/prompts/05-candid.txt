@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 05 — OFF DUTY, UNOBSERVED]
 Output file: candid.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 15a20072 · repo commit c4e5bc3 2026-08-04 00:13
+Prompt version: c805df45 · repo commit 1a75369 2026-08-04 00:21
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit c4e5bc3, prompt 15a20072.
+    Working from commit 1a75369, prompt c805df45.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -184,12 +184,27 @@ this costume and is NOT a face reference.
 
 === THIS IMAGE ===
 Captain Jasu alone at the edge of the camp, not aware of being watched. Sitting
-on a crate or crouched by the fire, hands doing something small and ordinary —
-checking the leash, working a knot, warming her hands.
+on a crate, elbows on her knees, head down, hands doing something small and
+ordinary — working a knot in the leash, checking a strap.
+
+DAYLIGHT OR DUSK, NEVER NIGHT. Late afternoon sun through the trees, or the
+blue-grey of dusk before the fire is the only light left. The frame is not
+dark: the costume, her hands and her face all read clearly. NO firelight as
+the key, no orange glow across her, no black surround, no campfire scene. If a
+fire is in shot at all it is small, distant and behind her, and it lights
+nothing.
+
+Corrected 2026-08-04. This slot used to say "crouched by the fire… warming
+her hands", and produced exactly that: a near-black night frame lit by
+firelight. The pose was right and the light was wrong — and a costume that
+cannot be read is a costume plate that does no work, whatever the mood.
 
 THIS IS THE ONLY IMAGE WHERE SHE IS TWENTY-EIGHT. Not a captain, not
 composed. Tired, small, and much younger than she is allowed to look in front of
 the crew. No blaster in her hand, no command, no audience.
+
+Handling the leash is CORRECT here and is the one place it happens — she is
+maintaining her own kit alone. The animal is still not on it.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:

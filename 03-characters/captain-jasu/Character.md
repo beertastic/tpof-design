@@ -236,8 +236,24 @@ severity is worn over the top of that; it is not what the garment is for.
 The reference is a Japanese army officer, battle-hardened but elegant. Bible
 §6.5 forbids designs that "appear to originate from a recognisable period of
 Earth history", so **only the proportions transfer** — high closed collar, hard
-square shoulder, long skirted coat, hard-cinched waist, tall boots — and none of
-the identifiable garments. No tunic, no peaked cap, no lacquered plate, no sword.
+square shoulder, ~~long skirted coat~~, hard-cinched waist, tall boots — and none
+of the identifiable garments. No tunic, no peaked cap, no lacquered plate, no
+sword.
+
+> **THE LONG SKIRTED COAT DOES NOT TRANSFER — decided 2026-08-03.** It was
+> carried as "narrow split panels hanging free from the belt to the knee",
+> split into strips precisely so it would not read as a skirt. **It existed only
+> in `must_show`**: there was never a component for it, and the approved front
+> turnaround has never shown one. It survived four days after the design had
+> moved on, because the rule was buried in a 2,166-character block and nothing
+> ever pasted it into a generator, so no image ever contradicted it.
+>
+> **Below the waist she is skin-tight trousers** with quilted outer-thigh panels
+> stitched flat to the leg, and knee pads — as built, as costed, and as approved.
+> The rule is now a prohibition instead: nothing hangs from the belt.
+>
+> It was also the most samurai-adjacent thing she had, which is the retrieval
+> this design has to block hardest.
 
 **Two retrievals had to be blocked, and both are in `outfits.yaml`:**
 

@@ -343,11 +343,25 @@ outfits:
         The holster is belt-mounted on her RIGHT.
         The leash, the pouches and the tools sit on her LEFT, off the drawing
         side.
+      # THE HANGING SPLIT PANELS WERE DELETED 2026-08-03, by the Production
+      # Designer. They were the "long skirted coat" of the officer reference,
+      # split into strips so the silhouette would not read as a skirt — and they
+      # existed ONLY here. There was never a component for them, and the
+      # approved front has never shown them. Two records of three already agreed
+      # they were not in the costume; this one had not caught up.
+      #
+      # They were also the most samurai-adjacent element she had, and
+      # `Character.md` names samurai as the retrieval to block hardest because
+      # Baylan stands beside her in Sc.25.
+      #
+      # BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh
+      # panels stitched flat to the leg, and knee pads. Nothing hangs, nothing
+      # swings, nothing parts.
       - >
-        BELOW THE WAIST, NARROW SPLIT PANELS HANG STRAIGHT AND FREE over the
-        skin-tight leg, reaching towards the knee or past it.
-        They NEVER gather, NEVER flare, and NEVER close into a skirt.
-        They PART COMPLETELY when she moves.
+        BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh
+        panels stitched FLAT to the leg, and knee pads.
+        NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO
+        tabard, NO hanging panel and NO coat tail of any kind.
       - >
         THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled
         and looked after.

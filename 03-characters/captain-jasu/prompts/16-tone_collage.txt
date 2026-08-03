@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 16 — THE SHARE SHEET]
 Output file: tone_collage.png
 Aspect ratio: 2:3  (portrait)
-Prompt version: 2a3d0cd8 · repo commit c01c131 2026-08-03 21:44
+Prompt version: 9b44cddb · repo commit e5b478a 2026-08-03 21:56
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit c01c131, prompt 2a3d0cd8.
+    Working from commit e5b478a, prompt 9b44cddb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -81,7 +81,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes. If fabric hangs away from her anywhere, it is wrong.
   5. THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT. NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
   6. THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin. The holster is belt-mounted on her RIGHT. The leash, the pouches and the tools sit on her LEFT, off the drawing side.
-  7. BELOW THE WAIST, NARROW SPLIT PANELS HANG STRAIGHT AND FREE over the skin-tight leg, reaching towards the knee or past it. They NEVER gather, NEVER flare, and NEVER close into a skirt. They PART COMPLETELY when she moves.
+  7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
   8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled and looked after. They are NOT pale and NOT ornamented.
   9. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
   10. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes. Close-fitting for MOVEMENT, never for display.
@@ -212,7 +212,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere, and NOT a full skirt, NOT a wide coat, NOT robes. If fabric hangs away from her anywhere, it is wrong.
   5. THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT. NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
   6. THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin. The holster is belt-mounted on her RIGHT. The leash, the pouches and the tools sit on her LEFT, off the drawing side.
-  7. BELOW THE WAIST, NARROW SPLIT PANELS HANG STRAIGHT AND FREE over the skin-tight leg, reaching towards the knee or past it. They NEVER gather, NEVER flare, and NEVER close into a skirt. They PART COMPLETELY when she moves.
+  7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
   8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the best in the crew, resoled and looked after. They are NOT pale and NOT ornamented.
   9. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky. Articulated at the shoulder, the elbow, the hip and the knee, with panelled seams and give across every joint.
   10. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes. Close-fitting for MOVEMENT, never for display.

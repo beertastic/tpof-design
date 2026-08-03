@@ -39,6 +39,52 @@ status: "open"
 > akk dog goes wherever she is: it is 0.85 m at the crest, **level with the bottom
 > of her belt**, measured off the rig.
 
+> ### THE APPROVED FRONT FAILS THREE RULES THAT NEVER REACHED THE GENERATOR — found 2026-08-03
+>
+> Checked after the `must_show` rewrite, because the regeneration warned that
+> `field` is approved and its artwork may no longer match. **It does not match,
+> and it never did.** All five rules below were present in `outfits.yaml` at
+> commit `2fb594f`, the commit that added and approved the front — verified
+> against the file as it stood that day, not assumed.
+>
+> | Rule, as written on 2026-08-01 | In `turn-field-front` and `-left` | Why |
+> |---|---|---|
+> | **"THE BOOTS are tall and close to the calf"** | **Ankle boots**, in both views | Sentence 8 of the 2,166-character rule 2. Never sent |
+> | **"BELOW THE WAIST, NARROW SPLIT PANELS hang straight and free"** | **Absent.** Skin-tight trousers with quilted outer-thigh panels applied flat to the leg | Sentences 7–9 of rule 2. Never sent |
+> | **"A small worn WHISTLE on a cord at her throat, plainly visible"** | A whistle **at her belt**, on a chain | Sentence 2 of rule 6, cut at the old cap of 200. Never sent |
+> | "THE COLLAR is stiff and STANDS, closed to the throat" | **Correct** | "collar to ankle" survived in the protected lead sentence |
+> | "HER HAIR … swept UP AND BACK … a BUILT shape" | **Down and loose** | **Not the trim.** "SWEPT-UP HAIR" was in the lead sentence and reached the generator intact. This one was disobeyed — same fault already logged against `scale_figure` below |
+>
+> **This is the sixth failure again, with a costume instead of a shoulder cap.**
+> The design was right, the rules were right, and three of them were cut before
+> the generator saw them — so the image came back missing two of the five
+> proportions the whole costume was derived from. `Character.md` names those
+> proportions as *"high closed collar, hard square shoulder, long skirted coat,
+> hard-cinched waist, tall boots"*. **The long skirted coat and the tall boots
+> are the two that are missing.**
+>
+> The approval was not careless. It says what it was approving — *"the mantle,
+> the palette, the bracers, the leg panels and the horns all landed"* — and all
+> five of those are correct in the image. It simply never covered the three
+> nobody had been shown.
+>
+> - [x] ~~**DECISION NEEDED: are the split panels part of this costume?**~~
+>       **NO — deleted 2026-08-03 by the Production Designer.** They existed only
+>       in `must_show`; there was never a component and the approved front never
+>       showed one. **The rule is now the opposite** — nothing hangs from the
+>       belt, no skirt, no tabard, no coat tail — which also blocks the drift it
+>       was inviting. `Character.md` records that the "long skirted coat" of the
+>       officer reference does not transfer. **The approved front was right about
+>       this all along**, and one of its three mismatches was the document being
+>       wrong rather than the image.
+> - [ ] **DECISION NEEDED: does the front get re-rolled?** Per the lock, any
+>       change to `outfits.yaml` means clearing `approved` and redoing the front
+>       first — and the other four views are matched to the front, so they follow
+>       it. Against that: the design has not changed, and re-rolling risks the
+>       five things that did land. **Recommendation: re-roll.** Tall boots and a
+>       long skirted line are silhouette, and silhouette is what a turnaround is
+>       for.
+>
 > ### Open on her, 2026-08-03
 >
 > - [ ] **`02-scale_figure` — re-roll.** First attempt measured **133 cm** against

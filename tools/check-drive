@@ -36,9 +36,17 @@ rc=$?
 printf '%s\n' "$out"
 
 if [ "$rc" -ne 0 ]; then
+    # cron gives you no session bus and no DISPLAY, so notify-send from here
+    # fails silently -- which would make this whole notification a decoration.
+    # The user bus is at a known path; point at it when the environment has not.
+    [ -n "${DBUS_SESSION_BUS_ADDRESS:-}" ] || \
+        export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
+    [ -n "${DISPLAY:-}" ] || export DISPLAY=:0
+
     if command -v notify-send >/dev/null 2>&1; then
         notify-send -u critical "TPOF — Drive has drifted" \
-            "Google Drive no longer matches the repository. Run tools/publish-to-drive --go" 2>/dev/null
+            "Google Drive no longer matches the repository. Run tools/publish-to-drive --go" 2>/dev/null \
+            || printf 'NOTE: could not raise a desktop notification.\n'
     fi
     printf '\nLogged to %s\n' "$LOG"
 fi

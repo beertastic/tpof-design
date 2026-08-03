@@ -228,13 +228,20 @@ person to have decided the repository is right. It appends to
 something has drifted, so a cron job nobody reads still reaches you on the day
 it matters.
 
-To run it daily — no root, no sudo:
+**INSTALLED 2026-08-04**, in `tris`'s user crontab — no root, no sudo:
 
-```bash
-crontab -e
-# then add, adjusting the path if the repo moves:
-17 9 * * *  /home/tris/tpof-design/tools/check-drive >/dev/null 2>&1
 ```
+17 9 * * * /home/tris/tpof-design/tools/check-drive >/dev/null 2>&1
+```
+
+It points at the **main checkout**, not a worktree, so it keeps working after
+any branch is merged and deleted.
+
+One thing cron does not give you is a session bus or a `DISPLAY`, and without
+them `notify-send` fails silently — which would have made the notification pure
+decoration. The script now falls back to the user bus at
+`/run/user/$(id -u)/bus`, which is where it always is, and says so in the log if
+it still cannot raise one.
 
 **What counts as drift**, in the words the report uses:
 

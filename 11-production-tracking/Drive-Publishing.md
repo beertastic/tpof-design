@@ -75,13 +75,27 @@ Right now that is **Captain Jasu** (8 images, no boards yet) and **Shada**
 
 ## What you need to install
 
-**One thing: `rclone`.** It is not installed yet, and nothing publishes until it
-is. It needs no root beyond the install itself, and no Google Cloud project.
+**One thing: `rclone`.** It needs no Google Cloud project and no API keys — but
+it does need to be a **current** build.
+
+> **DO NOT install it with `apt`.** Ubuntu 24.04 ships **v1.60.1-DEV, built in
+> 2022**, and its OAuth flow could not complete against Google on 2026-08-03.
+> Use the official installer.
 
 ```bash
-sudo apt install rclone          # or: brew install rclone
+sudo -v && curl https://rclone.org/install.sh | sudo bash
+rclone version                   # confirm it is no longer 1.60.x
 rclone config
 ```
+
+**Why the old one fails, diagnosed rather than guessed.** It binds the callback
+server on `127.0.0.1:53682` correctly, and localhost is reachable — a `curl` to
+it answered in under a millisecond. But **any request to that port without an
+OAuth `code` parameter kills the flow instantly**, with
+`Auth Error … No code returned by remote server`, after which the port closes
+and the browser shows `ERR_CONNECTION_REFUSED`. A browser that prefetches or
+preconnects the URL — Brave is the default here — trips it before the real
+redirect ever arrives. The failure looks like a firewall problem and is not one.
 
 In `rclone config`:
 
@@ -115,6 +129,25 @@ PDF, so it does not arise here.
 
 **The Drive account is `info@tristanpretty.com`**, which is not the Claude
 account. That mismatch is expected.
+
+### If the browser step still fails
+
+Take the browser's automatic launch out of it, and paste the link by hand into
+**Firefox** rather than the default browser:
+
+```bash
+rclone authorize "drive" --auth-no-open-browser
+```
+
+Open the link it prints, sign in as `info@tristanpretty.com`, and it will print
+a token as JSON. Put that into the remote:
+
+```bash
+rclone config update tpof token '{"access_token":...}'
+```
+
+**Do not touch `http://127.0.0.1:53682/` while it waits** — not with `curl`, not
+with a second browser tab. On the old rclone that request alone ends the flow.
 
 ### Why not the Drive connector Claude already has
 

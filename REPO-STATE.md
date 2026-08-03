@@ -1,12 +1,12 @@
 # Repository state
 
-**Stamped 2026-08-03 22:51 UTC** — automatically, by `tools/hooks/pre-commit`, at the moment of
+**Stamped 2026-08-03 22:58 UTC** — automatically, by `tools/hooks/pre-commit`, at the moment of
 the commit that contains this file.
 
 | | |
 |---|---|
 | Branch | `worktree-drive-publish-all` |
-| Commit before this one | `9eb806d` |
+| Commit before this one | `7b6eaa6` |
 | Screenplay | `the-price-of-freedom-v10.fountain` |
 | Character folders | 12 |
 | Generated prompt files | 256 |

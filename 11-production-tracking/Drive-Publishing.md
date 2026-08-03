@@ -91,12 +91,18 @@ In `rclone config`:
 | **name** | `tpof` — exactly this, the scripts look for it |
 | **storage** | `drive` |
 | **scope** | **`1`, full access.** `drive.file` scope can only see files rclone itself created, so it would not find the existing Costume / Wardrobe folder at all |
-| **auth** | accept the browser prompt, and **sign in as `info@tristanpretty.com`** |
+| **service_account_file** | blank. That is for non-interactive server auth |
+| **advanced config** | `n` |
+| **auth** | `y` to use the browser, then **sign in as `info@tristanpretty.com`** |
+| **Shared Drive (Team Drive)** | `n`, unless rclone offers a list containing The Price of Freedom |
 
 Then check it, and publish:
 
 ```bash
-rclone lsd tpof:                            # should list the Wardrobe folders
+# Costume / Wardrobe is NOT the top of the Drive, so the folder id is needed
+# here. The scripts pass it themselves; this one check is by hand.
+rclone lsd tpof: --drive-root-folder-id 1twIFwScVQhGSgHpTfmPieEMA5jjU5g8T
+
 ./tools/publish-to-drive                    # dry run — shows what WOULD change
 ./tools/publish-to-drive --go               # publish everything approved
 ./tools/publish-to-drive captain-jasu --go  # one character

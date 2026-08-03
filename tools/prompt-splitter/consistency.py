@@ -24,6 +24,12 @@ from __future__ import annotations
 
 import re
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from split import rule_texts  # noqa: E402
+
 # Things that sit somewhere on a body and can therefore sit in the wrong place.
 ITEMS = [
     "blaster", "pistol", "rifle", "carbine", "bowcaster", "knife", "blade",
@@ -221,7 +227,7 @@ def _excerpt(prose: str, at: int, width: int = 38) -> str:
 def check_outfit(character: str, outfit: dict) -> list[str]:
     """An outfit's own description against its must_show rules."""
     return check_prose(f"{character}/{outfit['id']} description",
-                       outfit.get("must_show") or [],
+                       rule_texts(outfit),
                        outfit.get("description") or "")
 
 

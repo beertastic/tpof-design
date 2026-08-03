@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 4 — THE NEAR-HUMAN — NATURAL]
 Output file: turn-merc-4-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 75c61928 (short) · repo commit 17f8c94 2026-08-03 11:04
+Prompt version: 75c61928 (short) · repo commit 3325dc4 2026-08-03 11:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

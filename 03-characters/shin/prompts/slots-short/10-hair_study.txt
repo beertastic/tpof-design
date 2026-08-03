@@ -1,7 +1,7 @@
 [SHIN — THE HAIR]
 Output file: hair_study.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: a2e1dc1f (short) · repo commit 17f8c94 2026-08-03 11:04
+Prompt version: a2e1dc1f (short) · repo commit 3325dc4 2026-08-03 11:55
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

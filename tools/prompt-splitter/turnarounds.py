@@ -16,7 +16,8 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
-from split import find_repo_root, parse_blocks, actor_refs, raw_url  # noqa: E402
+from split import (find_repo_root, parse_blocks, actor_refs, raw_url,  # noqa: E402
+                   rule_texts)
 
 SIDE_WORDS = ("her right", "her left", "his right", "his left",
               "their right", "their left")
@@ -66,8 +67,8 @@ def check_placement(character: str, cfg: dict) -> list[str]:
             "follows from it. See 09-prompt-library/Handedness-And-Placement.md")
 
     for o in cfg.get("outfits", []):
-        text = " ".join([o.get("description", "")] + list(o.get("must_show") or [])).lower()
-        if not (o.get("must_show") or []):
+        text = " ".join([o.get("description", "")] + rule_texts(o)).lower()
+        if not rule_texts(o):
             warnings.append(f"{character}/{o['id']}: no `must_show:` — critical "
                             "features will not be hoisted to the top of prompts.")
         found = [w for w in ASYMMETRIC if _unsided(text, w)]
@@ -338,7 +339,7 @@ def build(character: str, outfit: dict, view_id: str, view_name: str,
         ([f"FETCH AND MATCH — the approved costume reference:\n    "
            f"{raw_url(ref_path)}"] if gate else [])
         + extra)
-    must = outfit.get("must_show") or []
+    must = rule_texts(outfit)
     must_block = ""
     if must:
         must_block = ("NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:\n"

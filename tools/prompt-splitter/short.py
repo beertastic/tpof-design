@@ -26,7 +26,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
 from split import (find_repo_root, actor_refs, raw_url, parse_slots,  # noqa: E402
-                   parse_applicability)
+                   parse_applicability, rules_of)
 
 BUDGET = 8000          # hard ceiling for the FINISHED file, header included. The header, the version stamp and
                        # the echo block are added after trimming and cost about
@@ -189,6 +189,48 @@ def _label(what: str, limit: int) -> str:
     return flat[:limit].rsplit(" ", 1)[0].rstrip(",;—-")
 
 
+def apply_rules(outfit: dict, rule_chars: int) -> tuple[list[str], list[str]]:
+    """Trim the rules, sparing the pinned ones. Returns (rules, check lines).
+
+    A PINNED rule reaches the generator WHOLE at any cap; the unpinned rules
+    absorb the cut instead. Before this, `fit()` lowered ONE cap across all of
+    them, so on a studio turnaround "EXTERIOR, WITH ONE EXCEPTION" — a rule about
+    locations, in an image with no location — was given the same 457 characters
+    as the rule fixing which side every weapon is on.
+
+    Pinning does not create budget. It decides who pays. If the pinned rules
+    alone overrun the budget the caller finds out, because `fit()` cannot then
+    reach it at any cap — which is the honest failure, and better than the
+    silent one it replaces.
+    """
+    rules, checks = [], []
+    for text, pinned, check in rules_of(outfit):
+        rules.append(" ".join(text.split()) if pinned else trim(text, rule_chars))
+        if check:
+            checks.append(" ".join(str(check).split()))
+    return rules, checks
+
+
+def check_block(checks: list[str]) -> list[str]:
+    """The compact restatement that closes the prompt.
+
+    Aimed at a DIFFERENT failure from the trim. By 2026-08-03 five faults were
+    reaching the generator intact and losing anyway — plate density, the boots,
+    the scale-pattern colour, the zip, the collar. None was truncated; each was
+    outvoted by the rest of the prompt. Volume cannot fix that and more text
+    makes it worse. Recency is the counter, so the non-negotiables are restated
+    once, in a few short lines, at the very END of the file.
+
+    Each line lives on the rule it restates, in `check:`, so the two cannot
+    drift apart — the same reason the attachment folder is generated from the
+    prompt's own reference list rather than typed by hand.
+    """
+    if not checks:
+        return []
+    return ["", "BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:"] + \
+           [f"  {i}. {c}" for i, c in enumerate(checks, 1)]
+
+
 VIEWS = {
     "front":   "Facing camera square on. Shoulders level, head level, looking down the lens. "
                "BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.",
@@ -245,7 +287,7 @@ def reference_list(character: str, outfit: dict, view: str) -> list[tuple[str, s
 def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = RULE_CHARS) -> str:
     refs = [f"{label}: {url}" for label, _, url in reference_list(character, outfit, view)]
 
-    rules = [trim(m, rule_chars) for m in (outfit.get("must_show") or [])]
+    rules, checks = apply_rules(outfit, rule_chars)
     hand = cfg.get("handedness")
     height = outfit.get("height") or cfg.get("height")
     # An outfit may override the file-level block. Baylan needs this: the base
@@ -308,6 +350,7 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
         "and sun-faded. Real skin with pores and lines. Not a render, not concept",
         "art, not AI-looking.",
     ]
+    parts += check_block(checks)
     body = "\n".join(parts).strip() + "\n"
     h = hashlib.sha256(body.encode()).hexdigest()[:8]
     lines = body.split("\n")
@@ -440,7 +483,9 @@ def losses(outfit: dict, cap: int) -> list[tuple[int, str, list[str]]]:
     shown that at the time.
     """
     out = []
-    for i, rule in enumerate((outfit.get("must_show") or []), 1):
+    for i, (rule, pinned, _check) in enumerate(rules_of(outfit), 1):
+        if pinned:
+            continue
         kept = trim(rule, cap)
         flat = " ".join(rule.split())
         if kept == flat:
@@ -494,7 +539,7 @@ def build_slot(character: str, cfg: dict, outfit: dict, slot: dict,
             if Path(path).name != slot["file"]]
 
     show_costume = slot["n"] in costume_slots
-    rules = [trim(m, rule_chars) for m in (outfit.get("must_show") or [])] if show_costume else []
+    rules, checks = apply_rules(outfit, rule_chars) if show_costume else ([], [])
     hand = cfg.get("handedness")
     retrieve = (outfit.get("do_not_retrieve_short") or outfit.get("do_not_retrieve")
                 or cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve"))
@@ -531,6 +576,7 @@ def build_slot(character: str, cfg: dict, outfit: dict, slot: dict,
         "",
         SLOT_SKELETON[1],
     ]
+    parts += check_block(checks)
     body = "\n".join(parts).strip() + "\n"
     h = hashlib.sha256(body.encode()).hexdigest()[:8]
     lines = body.split("\n")
@@ -667,9 +713,9 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
             lost = losses(outfit, cap)
             if not lost:
                 continue
-            rules = outfit.get("must_show") or []
-            spec = sum(len(r) for r in rules)
-            kept = sum(len(trim(r, cap)) for r in rules)
+            triples = rules_of(outfit)
+            spec = sum(len(r) for r, _p, _c in triples)
+            kept = sum(len(r) if p else len(trim(r, cap)) for r, p, _c in triples)
             share = 100 * kept // spec if spec else 100
             mark = "!" if share < 80 else " "
             print(f"  {mark} {character}/{outfit['id']}: rules trimmed at cap {cap} — "

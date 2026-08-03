@@ -1,10 +1,10 @@
 [SHADA — SLOT 14 — COARSE TECHNICAL FABRIC]
 Output file: material-cloth.png
 Aspect ratio: 1:1  (square)
-Prompt version: 3449146a · repo commit e5e6623 2026-08-03 11:28
+Prompt version: 3449146a · repo commit 3325dc4 2026-08-03 11:55
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit e5e6623, prompt 3449146a.
+    Working from commit 3325dc4, prompt 3449146a.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

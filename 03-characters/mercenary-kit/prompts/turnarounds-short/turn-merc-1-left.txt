@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 1 — THE WOOKIEE — LEFT]
 Output file: turn-merc-1-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 90c3901d (short) · repo commit 17f8c94 2026-08-03 11:04
+Prompt version: 2434a2d3 (short) · repo commit 3325dc4 2026-08-03 11:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -24,7 +24,7 @@ MUST BE TRUE OF THIS IMAGE:
 6. HIS PRIMARY WEAPON IS A HUMAN-SIZED RIFLE WORN AS A SIDEARM. The same class of salvaged blaster rifle another mercenary would carry in two hands, holstered on HIS RIGHT HIP like a pistol because that is what it is to him. This sells his scale in every frame and it is why he reaches for Vala with his hands rather than a weapon. HE IS RIGHT-HANDED and nothing is mirrored — no matching item on both sides.
 7. PERSONAL MARKS — WORKED INTO THE BODY. Metal rings, beads and small salvaged tokens braided into the fur at the shoulder and the muzzle. This is his only decoration and no other member of this crew decorates themselves this way.
 
-SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
+SHOT: Rotated exactly 90° to show their LEFT side in full profile. THEY FACE THE VIEWER'S LEFT — their nose, chest and toes all point to the LEFT EDGE of the frame. If they face the right edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

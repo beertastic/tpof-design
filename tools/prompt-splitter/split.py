@@ -72,6 +72,47 @@ def actor_refs(character: str) -> list[tuple[int, str, str, str]]:
     return out
 
 
+def rules_of(outfit: dict) -> list[tuple[str, bool, str | None]]:
+    """An outfit's `must_show` as (text, pinned, check) triples.
+
+    A rule may be a plain string, as every rule was before 2026-08-03, or a
+    mapping:
+
+        must_show:
+          - >
+            AN ORDINARY RULE, TRIMMED LIKE ANY OTHER.
+          - pin: true
+            check: "Gauntlet her RIGHT forearm. Cap her LEFT shoulder."
+            text: >
+              A RULE THAT IS NEVER TRIMMED...
+
+    `pin: true` means the rule reaches the generator WHOLE at any cap, and the
+    unpinned rules absorb the cut instead. The uniform cap was the second
+    consequence recorded in Prompt-Reliability-TODO: "EXTERIOR, WITH ONE
+    EXCEPTION" and "HER EYES ARE REPTILIAN" were given the same allowance, on a
+    studio plate where the first does not apply at all.
+
+    `check:` is a one-line restatement for the compact block at the END of the
+    prompt. It lives on the rule it restates so the two cannot drift apart —
+    the same reason the attachment folder is generated from the prompt's own
+    reference list. It exists because five faults now reach the generator intact
+    and lose anyway; recency is the counter, not volume.
+    """
+    out = []
+    for r in (outfit.get("must_show") or []):
+        if isinstance(r, dict):
+            out.append((str(r.get("text", "")).strip(), bool(r.get("pin")),
+                        (r.get("check") or None)))
+        else:
+            out.append((str(r).strip(), False, None))
+    return out
+
+
+def rule_texts(outfit: dict) -> list[str]:
+    """Just the rule text, for callers that do not care about priority."""
+    return [t for t, _p, _c in rules_of(outfit)]
+
+
 def find_repo_root(start: Path) -> Path:
     for candidate in [start.resolve(), *start.resolve().parents]:
         if (candidate / "03-characters").is_dir() and (candidate / "tools").exists():
@@ -409,7 +450,7 @@ def run(repo: Path, character: str) -> int:
                       outfits[0] if outfits else None)
         if chosen:
             approved = chosen.get("approved") or None
-            must = chosen.get("must_show") or []
+            must = rule_texts(chosen)
             refs = chosen.get("references") or []
 
     outdir = repo / "03-characters" / character / "prompts"

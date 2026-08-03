@@ -1,7 +1,7 @@
 [MERCENARY-KIT — MERC 4 — THE NEAR-HUMAN — LEFT]
 Output file: turn-merc-4-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 8146ce90 (short) · repo commit 17f8c94 2026-08-03 11:04
+Prompt version: e232d1ca (short) · repo commit 3325dc4 2026-08-03 11:55
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -25,7 +25,7 @@ MUST BE TRUE OF THIS IMAGE:
 7. PERSONAL MARKS — KEPT OBJECTS FROM A LIFE BEFORE THIS. Small, worn, obviously not equipment, threaded onto the belt where he can see them. More visible personal decoration than any of the other three, and nobody else in the crew carries anything sentimental.
 8. SAME QUALITY AS THE REST OF THE CREW. Good leather, sound hardware, repairs done properly. Not poorer, not scavenged, not othered by his gear.
 
-SHOT: Rotated exactly 90° to show their LEFT side in full profile. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
+SHOT: Rotated exactly 90° to show their LEFT side in full profile. THEY FACE THE VIEWER'S LEFT — their nose, chest and toes all point to the LEFT EDGE of the frame. If they face the right edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
 Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
 focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and

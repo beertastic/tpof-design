@@ -94,6 +94,27 @@ if ! rclone listremotes 2>/dev/null | grep -qx "${REMOTE}:"; then
     exit 1
 fi
 
+# A remote can exist and still have no OAuth token — quitting rclone config
+# before the browser round-trip finishes leaves exactly that. Reaching Drive
+# once, here, turns what would be the same error repeated per set into one
+# instruction, and proves the folder id resolves before anything is written.
+PREFLIGHT=$(rclone lsd "${REMOTE}:" --drive-root-folder-id "$DRIVE_PARENT" 2>&1)
+if [ $? -ne 0 ]; then
+    no "cannot reach Drive."
+    sed 's/^/     /' <<<"$PREFLIGHT"
+    case "$PREFLIGHT" in
+        *"empty token"*|*"token expired"*|*oauth*)
+            echo
+            echo "     The remote exists but was never authorised — rclone config was quit"
+            echo "     before the browser step finished. Reconnect and sign in as"
+            echo "     info@tristanpretty.com:"
+            echo
+            echo "         rclone config reconnect ${REMOTE}:"
+            ;;
+    esac
+    exit 1
+fi
+
 RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*")
 RC_FLAGS=("${RO_FLAGS[@]}")
 [ "$MODE" = "dry" ] && RC_FLAGS+=(--dry-run)
@@ -106,7 +127,7 @@ case "$MODE" in
 esac
 
 b "Costume / Wardrobe — the folders currently on Drive:"
-rclone lsd "${REMOTE}:" "${RO_FLAGS[@]}" 2>/dev/null | awk '{$1=$1};1' | cut -d' ' -f5- | sed 's/^/    /'
+awk '{$1=$1};1' <<<"$PREFLIGHT" | cut -d' ' -f5- | sed 's/^/    /'
 
 # The manifest is a pure function of the repository content: the commit that
 # last touched these exact files, and their names and sizes. No wall-clock

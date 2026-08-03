@@ -2,6 +2,25 @@
 
 All notable production-bible changes are recorded here.
 
+- **Captain Jasu re-cast to 155 cm, 2026-08-03** — 5 ft 1 in, not 4 ft 11 in.
+  Fifty-four references updated across eleven files: `outfits.yaml`,
+  `Character.md`, `Prompts.md`, `board-data.yaml`, the akk dog's landmark table,
+  the faction document, the script reconciliation and the status board. Derived
+  numbers recomputed, not merely substituted — Baylan is now **43 cm** taller
+  rather than 48, she is **86%** of a 1.8 m figure rather than 83%, and her waist
+  sits at **93 cm** rather than 90.
+
+  **Nothing about the design moves.** She is still the smallest adult in the film,
+  the animal is still her rank, and her own animal still outweighs her. Two things
+  are unaffected and were checked rather than assumed: the **five turnarounds**
+  contain no scale comparison, and the **akk dog's landmark is unchanged** — its
+  crest sits just under her belt at either height, because 5 cm on her is less
+  than the gap between belt and crest. **`scale_figure` is the only image the
+  change invalidates**, and it needed re-rolling anyway.
+
+  The scale landmark got *better*: at 150 cm her head top sat just under a 1.8 m
+  figure's chin, at 155 cm it is level with it.
+
 ## Unreleased
 
 ### Added

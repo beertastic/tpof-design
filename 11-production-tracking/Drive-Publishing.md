@@ -1,8 +1,8 @@
 ---
 title: "Publishing to Drive — images, boards and the daily check"
 asset_id: "TRACK-DRIVE-PUBLISHING"
-updated: "2026-08-03"
-status: "open — rclone not yet installed"
+updated: "2026-08-04"
+status: "live — publishing, Drive verified in sync 2026-08-04"
 ---
 
 # Publishing to Drive — images, boards and the daily check
@@ -156,6 +156,30 @@ PDF, so it does not arise here.
 **The Drive account is `info@tristanpretty.com`**, which is not the Claude
 account. That mismatch is expected.
 
+### DEADLINE — a client_id of our own is needed during 2026
+
+Blank `client_id` means rclone's **shared** Google application, and rclone now
+warns on every run:
+
+> This remote uses rclone's shared Google Drive client_id, which is being
+> retired and **will stop working during 2026**.
+
+So the "no Google Cloud project needed" above is true **now and not for much
+longer**. Before it lapses, make a client id — it is free, takes about ten
+minutes, and the steps are at <https://rclone.org/drive/#making-your-own-client-id>
+— then set it on the existing remote without redoing anything else:
+
+```bash
+rclone config update tpof client_id     <the id>
+rclone config update tpof client_secret <the secret>
+rclone config reconnect tpof:
+```
+
+**When that day comes, `client_id` finally gets a real value.** Until then it
+stays blank, and `scope1` is not a value. The scripts pass
+`--log-level ERROR` so the notice does not print five times a run; this section
+is the record of it.
+
 ### If the browser step still fails
 
 Take the browser's automatic launch out of it, and paste the link by hand into
@@ -223,39 +247,32 @@ crontab -e
 
 The fix for all of them is `./tools/publish-to-drive --go`.
 
-## KNOWN DRIFT, 2026-08-03 — Drive is currently wrong
+## RESOLVED 2026-08-04 — the first publish, and the drift it cleared
 
-Verified against the live folder, not assumed.
+**Drive now matches the repository.** Verified by `--check`, which compares
+every file byte for byte, and again through the Drive connector, which is a
+different account path entirely.
 
-**Captain Jasu's Drive folder holds the SUPERSEDED v1 turnarounds**, uploaded
-2026-08-01. `turn-field-front.png` there is **2,207,890 bytes — byte-for-byte
-the v1 front** now archived at `evolution/00-first-approved-2026-08-01.png`.
+| | |
+|---|---|
+| **Jasu** | 5 turnarounds, 3 artwork. No boards yet |
+| **Shada** | 5 turnarounds, 16 artwork, 7 boards. Folder created by this run |
 
-So the costume department currently has, from Drive:
+**What was wrong, and is no longer.** Jasu's folder held the **superseded v1
+turnarounds** from 2026-08-01 — `turn-field-front.png` there was 2,207,890
+bytes, byte-for-byte the v1 front archived at
+`evolution/00-first-approved-2026-08-01.png`. The costume department was
+looking at **ankle boots**, **a whistle at the belt**, and the superseded hair.
 
-- **ankle boots** where the build list says tall to the calf
-- **a whistle at the belt** where there is exactly one, at the throat
-- the superseded hair
+**They were loose at the folder root, not in a `turnarounds/` subfolder**, which
+mattered more than it looked: publishing into subfolders would have left all
+five one level up, still called `turn-field-front.png` — two files, same name,
+different boots. `--purge-shadows` deleted exactly those five and nothing else.
+`Jasu_outfit_build_guide.md` is untouched, as is the `.gitkeep`.
 
-**And they are loose at the folder root, not in a `turnarounds/` subfolder.**
-That matters more than it looks. Publishing creates `turnarounds/` with the
-correct plates and **leaves the five superseded ones sitting one level up, still
-called `turn-field-front.png`** — two files, same name, different boots, which
-is this document's opening failure with extra steps.
-
-The sync deliberately cannot reach the folder root, because
-`Jasu_outfit_build_guide.md` lives there and is hand-written. So the script
-**reports** shadowed files, and removes them only when asked:
-
-```bash
-./tools/publish-to-drive captain-jasu --go --purge-shadows
-```
-
-That deletes **only** root files whose names exactly match something being
-published. The build guide is untouched. A stray `.gitkeep` is also up there;
-it is excluded from publishing and is harmless, so it is left alone.
-
-**This is the first job once rclone is set up.**
+**The folder root is still not managed by publishing**, by design. Anything
+dropped there by hand will be reported as shadowed if it collides with a
+published name, and ignored otherwise.
 
 ## See also
 

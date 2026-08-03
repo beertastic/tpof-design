@@ -85,6 +85,28 @@ All notable production-bible changes are recorded here.
   shadowed files and removes them only on `--purge-shadows`, and only those
   whose names exactly match something being published.
 
+- **Drive published for the first time, 2026-08-04** — Jasu (5 turnarounds,
+  3 artwork) and Shada (5 turnarounds, 16 artwork, 7 boards). Shada's folder was
+  created by the run. **Drive now matches the repository**, verified by
+  `--check` byte for byte and again through the Drive connector, which is a
+  different account path entirely.
+
+  **The superseded v1 turnarounds are gone.** The costume department was looking
+  at ankle boots, a whistle at the belt and the superseded hair, from five files
+  loose at the root of Jasu's folder. `--purge-shadows` removed exactly those
+  five; the hand-written `Jasu_outfit_build_guide.md` beside them was untouched.
+
+  **The setup failure was `client_id = scope1`** — the answer to the scope
+  question, typed one prompt too early into a field whose help says "Leave blank
+  normally". It cost an evening because rclone 1.60 could only report it as
+  `No code returned by remote server` followed by a browser showing
+  `ERR_CONNECTION_REFUSED`, which reads as a firewall problem. Upgrading to 1.75
+  did not fix it; it made it legible — `401 invalid_client`.
+
+  **Dated warning, now recorded:** rclone's shared Google client_id **is retired
+  during 2026**. A client id of our own is needed before then, and the steps are
+  in `Drive-Publishing.md`.
+
 - **The daily Drive check is now a script, 2026-08-03** — `tools/check-drive`,
   read-only, exit 1 on drift, with a `crontab` line in `Drive-Publishing.md`. It
   reports four states per set: stale on Drive (the dangerous one), not yet

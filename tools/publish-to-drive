@@ -115,7 +115,10 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*")
+# --log-level ERROR keeps rclone's shared-client_id deprecation notice out of
+# every set's output. It is real and dated — see Drive-Publishing.md — but five
+# copies per run is how a warning stops being read.
+RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*" --log-level ERROR)
 RC_FLAGS=("${RO_FLAGS[@]}")
 [ "$MODE" = "dry" ] && RC_FLAGS+=(--dry-run)
 
@@ -127,7 +130,9 @@ case "$MODE" in
 esac
 
 b "Costume / Wardrobe — the folders currently on Drive:"
-awk '{$1=$1};1' <<<"$PREFLIGHT" | cut -d' ' -f5- | sed 's/^/    /'
+# Keep only real lsd rows. Notices go to the same stream and start with a date,
+# so they survive a leading-digit test — match on the NOTICE tag instead.
+grep -v 'NOTICE' <<<"$PREFLIGHT" | grep -E '^ *-?[0-9]' | awk '{$1=$1};1' | cut -d' ' -f5- | sed 's/^/    /'
 
 # The manifest is a pure function of the repository content: the commit that
 # last touched these exact files, and their names and sizes. No wall-clock

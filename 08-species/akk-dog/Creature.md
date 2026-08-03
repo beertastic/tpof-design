@@ -176,22 +176,62 @@ its own time, handling and safety requirements.
 
 ## Physical Design
 
-**To be completed from the built asset.** Record what the rig actually is, not
-what reference says it should be.
+**Measured off the rig on 2026-08-03**, from the turntable render that places the
+animal beside a standard 1.8 m figure on the same ground plane
+(`reference/scale-with-figure.png`). The figure measures 610 px for 1.80 m, giving
+2.95 mm per pixel; the animal's feet sit within 4 px of the figure's, so both are
+at the same depth and the ratio holds.
 
-- Overall length / height at shoulder: TBD
-- Mass and silhouette: TBD
-- Hide: armoured plating, scale, or hair — and its colour range: TBD
-- Head and jaw structure: TBD
-- Number of limbs and stance: TBD
-- Eyes: TBD
-- Tail: TBD
-- Distinguishing marks unique to *this* animal: TBD
+| | |
+|---|---|
+| **Height, highest point of the back** | **0.85 m** |
+| **Length, nose to base of tail** | **~1.05 m** |
+| **Read it as** | **a very large dog.** Great Dane shoulder height is 0.71–0.86 m — this sits at the top of that range |
+| Stance | Quadruped, low-slung, heavy through the shoulders, head carried low and forward |
+| Hide | Warm red-brown to tan. Fine pebbled scale over the body; **coarse overlapping plates and a spiked crest over the neck and shoulders** |
+| Head | Broad and short-muzzled, long tapering snout, large round black eyes with a raised bony socket ring, **three to four swept-back horns above each eye** |
+| Teeth | **Many small conical teeth. No shearing blades** — see below, this decides Scene 25 |
+| Feet | Broad, splayed, long pale claws |
+| Tail | Long, thick at the base, tapering to a point |
 
-**Scale reference is the critical value.** Every generated image containing the
-akk dog needs it correct relative to a human, and it is the single thing image
-generators get wrong most often. Record its height at the shoulder against a
-1.8 m figure and state it in every prompt.
+**State the height in every prompt.** Creature scale is the single thing image
+generators get wrong most often, and "large quadruped" produces anything from
+knee-height to elephant-sized between one image and the next. The number and the
+scale plate together are the fix.
+
+### The dentition decides Scene 25, and it already works
+
+**The teeth are conical grip teeth, not carnassial shears.** This is not a
+stylistic note — it is what makes the scene as scripted physically possible.
+
+Scene 25 requires injuries that read **survivable for the length of Jeyin's
+dialogue and unmistakably fatal**, which pull in opposite directions. A jaw built
+to shear would take the argument away: it would sever, and she has the last line
+of the film's spine to deliver.
+
+This jaw cannot sever. It grips, crushes and tears. And the script already leads
+with the claws — *"scratching with its thick claws and snapping at her flesh"* —
+not with a bite. **The animal as built, at the size it is built, does exactly what
+the scene needs.** Nothing here needs re-scaling or re-modelling.
+
+At 0.85 m it can also land on a prone adult and hold her down, which the scene
+requires. A dog this size can pin a person.
+
+### Open with the VFX team: the dorsal crest
+
+`reference/turnaround-side.png` and the other `sculpt-*` plates are **unrendered
+viewport captures**, and they show a smooth back with no crest at all. Every
+rendered plate shows a pronounced plated crest over the neck and shoulders.
+
+Everything else matches feature for feature — horn count and sweep, eye and
+socket, snout, tooth arrangement, feet and claws — so these are almost certainly
+the same base mesh, with the crest carried by displacement or a groom layer that
+an unrendered viewport does not show.
+
+**What to confirm is not "same model" but "is the crest always on?"** If it is a
+toggleable layer rather than baked displacement, prompts need to say so. Until
+that is answered, **the rendered plates are canonical for the crest** and the
+sculpt plates are canonical for the silhouette underneath it.
 
 ## Baylan feeds it
 

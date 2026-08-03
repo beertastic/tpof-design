@@ -48,3 +48,44 @@ comes back wrong, that is the first thing to check.
 Reference plates are committed to the repository, unlike `renders/` elsewhere.
 Export at a sensible working size — 2048 px on the long edge is plenty. A folder
 of 20 MB turntable frames will undo the repository slimming.
+
+---
+
+## What is actually here — filed 2026-08-03
+
+Extracted from the turntable and head renders in
+`10-assets/reference/akk/video/`, plus three unrendered sculpt captures.
+
+| File | Source | Good for | Caveat |
+|---|---|---|---|
+| `scale-with-figure.png` | rig turntable, frame 80 | **The critical plate.** 1.8 m figure on the same ground plane | — |
+| `turnaround-three-quarter.png` | rig turntable, frame 169 | The working angle, textured, crest legible | — |
+| `pose-standing.png` | rig turntable, frame 80 | Default posture, full ground contact | — |
+| `head-detail.png` | head render, frame 30 | Jaw, eye, horns, crest | Black background, dramatic key |
+| `head-front.png` | head render, frame 100 | Head-on: eye spacing and muzzle width | Black background |
+| `hide-detail.png` | head render, frame 120 | Plating and scute texture at scale | Black background |
+| `turnaround-side.png` | sculpt capture | **True side profile** — the only one that exists | **Unrendered:** no texture, and NO dorsal crest |
+| `sculpt-three-quarter.png` | sculpt capture | Clean silhouette without lighting hiding form | Unrendered |
+| `sculpt-head.png` | sculpt capture | Horn arrangement, socket, tooth shape | Unrendered |
+
+### Still missing, and why
+
+The turntable is **not a 360 orbit** — the camera holds one side and dollies in
+while the animal walks. So there is no head-on or rear view of the whole animal
+in any source, and no seated pose anywhere.
+
+- **`turnaround-front.png`** — needed for chest width and stance, which every
+  side view hides. `head-front.png` covers the head only.
+- **`turnaround-rear.png`** — hindquarters and tail.
+- **`pose-seated.png`** — **Scene 9 needs this**, and it is the pose the animal
+  is actually in on screen.
+
+Three renders from the rig would close the set. They are the last thing standing
+between this creature and a working prompt pack.
+
+### Read the two lit sources differently
+
+The turntable is neutral grey with even light and no motion blur — reference
+conditions, exactly as this document asks for. The head render is a lit beauty
+pass on black. Its **detail** is trustworthy; its **colour and contrast are
+not**, and nothing should take palette from it.

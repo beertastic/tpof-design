@@ -148,35 +148,40 @@ outfits:
       - path: reference/props/a180.jpg
         what: the A180 blaster pistol
     scenes: "9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is"
+    # REWRITTEN 2026-08-03. It had drifted badly and `description` OUTRANKS
+    # must_show in the built prompt, so it was quietly fighting the rules:
+    #   - "narrow split panels hang straight over the skin-tight leg" — a garment
+    #     deleted from the design earlier the same day
+    #   - "a stiff dark RIBBED MANTLE" — the ribbing belongs to the base top
+    #   - "Nothing on her head at all. At her brow a low ornate band … a small
+    #     worn crest" — the superseded headdress, contradicting itself in
+    #     consecutive sentences, and years out of date against the bone horns
+    # short.py's own warning caught the first of those. The other two it could
+    # not see, because nothing forbids a word that is merely stale.
     description: >
       The only coherent, deliberately assembled outfit in this crew, and that is
       the point of it, on a woman of twenty-eight who stands 155 cm and is the
       smallest adult in the film. The garment is a SECOND SKIN in heavy ribbed
       knit and dense woven cloth, close to the body from the throat all the way
       down — torso, arms and legs — with no volume anywhere on her, cut and
-      articulated for an acrobat. Over the shoulders, a stiff dark RIBBED MANTLE
-      standing proud of the body and reaching out past the shoulder points before
-      angling down over the upper arm, rising at the back into a stand collar
-      closed at the throat. A wide heavy belt with plain working hardware pulls
-      the waist in hard. Below it, narrow split panels hang straight over the
-      skin-tight leg, and there are textured panels down the outer thigh and over
-      the knee. Hard bracers on the forearms. Tall boots close to the calf, flat
-      and practical, the best in the crew. Nothing on her head at all. At her brow a low ornate
-      band, asymmetric, carrying a small worn crest to one side — the only
-      decorative object on her and clearly something she chose rather than
-      earned. On her right hip a holstered blaster pistol, clean and serviced. A
-      worn whistle on a cord at her throat, and a heavy leash coiled at her belt.
+      articulated for an acrobat. Over the shoulders, a stiff dark MANTLE
+      standing proud of the body and reaching out past the shoulder points
+      before angling down over the upper arm, rising at the back into a stand
+      collar closed at the throat; its surface is undecorated and carries only
+      the irregular crazing of a well-kept thing that has had a hard few years.
+      A wide heavy belt with plain working hardware pulls the waist in hard.
+      Below it, skin-tight trousers with quilted panels down the outer thigh and
+      pads over the knee — nothing hangs from the belt and nothing swings. Hard
+      bracers on the forearms. Tall boots close to the calf, flat-heeled and
+      practical, the best in the crew. Her long dark hair is worn down and
+      loose, swept back off the face, with PALE CURVED BONE HORNS set into it
+      above and behind the ears — asymmetric, worn and matte, the only
+      decorative object on her and a trophy rather than jewellery. On her right
+      hip a holstered blaster pistol, clean and serviced. A single worn whistle
+      on a cord at her throat, and a heavy leash coiled at her belt on the left.
       Everything is good material and everything is battered: faded across the
       shoulders, mended at the cuffs, mud to the knee. Nothing about her is
       insignia, and nothing about her was issued.
-    # THE BUILD. Split out of a sourcing guide on 2026-08-01. Routes follow
-    # 11-production-tracking/Costume-Build-Method.md: bought / printed / made.
-    #
-    # SUPPLIER LINKS AND PRICES ARE DELIBERATELY NOT HERE. They live in the
-    # production's Drive, because they rot — a shop closes, a listing sells, a
-    # price doubles, and a repository full of dead links is worse than none
-    # because somebody trusts it. What is durable is the material, the
-    # construction and the things it must not be. That is what is recorded here.
     components:
       - item: Ribbed base top — mock neck, stand collar, front closure
         route: bought

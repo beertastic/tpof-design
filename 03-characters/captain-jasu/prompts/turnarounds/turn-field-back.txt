@@ -1,10 +1,10 @@
 [CAPTAIN JASU — TURNAROUND — FIELD DRESS — BACK]
 Output file: turn-field-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 6743ac83 · repo commit e71a1d4 2026-08-03 23:24
+Prompt version: cc9a161f · repo commit 3c1b3af 2026-08-03 23:36
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit e71a1d4, prompt 6743ac83.
+    Working from commit 3c1b3af, prompt cc9a161f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -296,7 +296,7 @@ this costume and is NOT a face reference.
 === THIS COSTUME ===
 Field dress — 9, 19, 20, 23, 24, 25 — her only costume. The akk dog is wherever she is
 
-The only coherent, deliberately assembled outfit in this crew, and that is the point of it, on a woman of twenty-eight who stands 155 cm and is the smallest adult in the film. The garment is a SECOND SKIN in heavy ribbed knit and dense woven cloth, close to the body from the throat all the way down — torso, arms and legs — with no volume anywhere on her, cut and articulated for an acrobat. Over the shoulders, a stiff dark RIBBED MANTLE standing proud of the body and reaching out past the shoulder points before angling down over the upper arm, rising at the back into a stand collar closed at the throat. A wide heavy belt with plain working hardware pulls the waist in hard. Below it, narrow split panels hang straight over the skin-tight leg, and there are textured panels down the outer thigh and over the knee. Hard bracers on the forearms. Tall boots close to the calf, flat and practical, the best in the crew. Nothing on her head at all. At her brow a low ornate band, asymmetric, carrying a small worn crest to one side — the only decorative object on her and clearly something she chose rather than earned. On her right hip a holstered blaster pistol, clean and serviced. A worn whistle on a cord at her throat, and a heavy leash coiled at her belt. Everything is good material and everything is battered: faded across the shoulders, mended at the cuffs, mud to the knee. Nothing about her is insignia, and nothing about her was issued.
+The only coherent, deliberately assembled outfit in this crew, and that is the point of it, on a woman of twenty-eight who stands 155 cm and is the smallest adult in the film. The garment is a SECOND SKIN in heavy ribbed knit and dense woven cloth, close to the body from the throat all the way down — torso, arms and legs — with no volume anywhere on her, cut and articulated for an acrobat. Over the shoulders, a stiff dark MANTLE standing proud of the body and reaching out past the shoulder points before angling down over the upper arm, rising at the back into a stand collar closed at the throat; its surface is undecorated and carries only the irregular crazing of a well-kept thing that has had a hard few years. A wide heavy belt with plain working hardware pulls the waist in hard. Below it, skin-tight trousers with quilted panels down the outer thigh and pads over the knee — nothing hangs from the belt and nothing swings. Hard bracers on the forearms. Tall boots close to the calf, flat-heeled and practical, the best in the crew. Her long dark hair is worn down and loose, swept back off the face, with PALE CURVED BONE HORNS set into it above and behind the ears — asymmetric, worn and matte, the only decorative object on her and a trophy rather than jewellery. On her right hip a holstered blaster pistol, clean and serviced. A single worn whistle on a cord at her throat, and a heavy leash coiled at her belt on the left. Everything is good material and everything is battered: faded across the shoulders, mended at the cuffs, mud to the knee. Nothing about her is insignia, and nothing about her was issued.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:

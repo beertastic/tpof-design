@@ -9,7 +9,7 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-04
 >
-> **4 images left. Every prompt is current; nothing needs editing before you
+> **2 images left. Every prompt is current; nothing needs editing before you
 > generate.** Fresh chat each, save under the exact `Output file:` name.
 >
 > **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
@@ -31,10 +31,30 @@ status: "open"
 > paragraph.** That is why `portrait` came back with a matched pair — not because
 > the slot was weak. It was copying the front.
 >
-> **The cost of deferring is not flat.** Every image generated against the current
-> front inherits the ear cups. Deferred today it costs the front + 4 views +
-> `06-portrait` to fix — **six images.** Generate `05-candid` and
-> `12-akk_together` first and it costs eight, plus a board rebuild.
+> ### AND IT BREAKS RULE 13 TOO — found 2026-08-04, and it makes this cheaper
+>
+> The mantle in `turn-field-front` was cropped and magnified against the mantle in
+> `candid`. **They are the same surface: a web of long straight crossing lines
+> forming rough diamonds.** Rule 13 asks for *"fine IRREGULAR crazing… NO lattice,
+> NO regular grid."*
+>
+> **So `candid` did not fail — it matched the reference, and the reference is what
+> breaks the rule.** This also corrects the earlier theory that rule 13 only loses
+> at close crop: **it loses at full-figure distance as well**, because it is
+> arguing with a photograph rather than being trimmed. Only the dedicated shot
+> paragraph beats it, which is why `portrait` and `mantle_detail` are the two that
+> came back right.
+>
+> **This lowers the price of the horn decision.** Re-rolling the front fixes the
+> horns AND the mantle surface in one pass. Two rule breaches, one generation.
+>
+> **The cost of deferring is not flat, and it has already gone up once.** Every
+> image generated against the current front inherits the ear cups. **`05-candid`
+> and `12-akk_together` were generated on 2026-08-04 while this sat open**, so the
+> bill is now the front + 4 views + `06-portrait` + those two — **eight images**,
+> plus a board rebuild. Generating `16-tone_collage` and `08-expression_strip`
+> against the current front makes it ten. Nothing forbids that; it is the price,
+> and it should be paid knowingly rather than discovered later.
 >
 > - [ ] **DECIDE: are the horns the ear cups, or the trophies?** If the trophies
 >       win, follow `APPROVAL.md` — clear `approved:` in `outfits.yaml`, re-roll
@@ -54,9 +74,9 @@ status: "open"
 > | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
 > | **everything else** | `prompts/attach/field/` | 3 |
 >
-> ## The 4
+> ## The 2
 >
-> **Re-rolls — both failed for a reason that is now fixed in the prompt:**
+> **One re-roll, and one not yet generated:**
 >
 > | Paste | Why it failed |
 > |---|---|
@@ -79,9 +99,18 @@ status: "open"
 >
 > | Paste | Note |
 > |---|---|
-> | `05-candid.txt` | Generated once and came back a near-black night frame — **the slot asked for it** ("crouched by the fire"). Now daylight or dusk. The pose was right; keep it |
-> | `12-akk_together.txt` | Crest **level with the bottom of her belt**. Seven attachments |
-> | `16-tone_collage.txt` | Last — it reads better once the rest exist |
+> | `16-tone_collage.txt` | **In progress 2026-08-04.** Six panels, and it needs a real spread of light |
+>
+> ~~`05-candid.txt`~~ · ~~`12-akk_together.txt`~~ — **both done 2026-08-04.**
+> The candid light correction worked: late-afternoon sun, costume and face
+> legible, and the pose survived intact. **The akk landed at the belt landmark on
+> the third pass** — her hand rests flat on the crest with the arm hanging
+> naturally, which is the slot's own test. Promotion out of the prose is what did
+> it. Two soft notes on the akk plate, neither re-rolled: its plating came back
+> largely unchipped and unscarred against a rule that asks for *"uniform in SHAPE
+> and never in CONDITION"*, and **slot 12 specifies no light**, unlike slot 5
+> after its correction — so the frame is dark and the mantle and leg panels are
+> largely lost. It is a scale plate, not a costume authority.
 >
 > **Already correct, leave alone:** all 5 turnarounds · `scale_figure` ·
 > `blaster` · `whistle_and_leash` · `mantle_detail` · the three `material_*` ·

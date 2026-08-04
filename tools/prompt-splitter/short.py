@@ -792,6 +792,23 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
     if not cfg_path.is_file():
         return 0
     cfg = yaml.safe_load(cfg_path.read_text())
+
+    # A CHARACTER MAY RAISE ITS OWN BUDGET, via `prompt_budget:` in outfits.yaml.
+    #
+    # 8,000 is a conservative default, and the note on BUDGET above says so: the
+    # operator pastes into a ChatGPT project and "~7,000-12,000 characters is the
+    # working target". The reason it has not simply been raised for everyone is
+    # recorded there too — Shada's approved front and every image accepted on
+    # 2026-08-03 were generated at 8,000, and her remaining views must match the
+    # image they are matching against rather than be specified more richly than
+    # it.
+    #
+    # THAT ARGUMENT IS ABOUT APPROVED WORK, AND IT ONLY BINDS CHARACTERS WHO HAVE
+    # SOME. Baylan has no approved image at all, and his working outfit was
+    # losing a fifth of its specification to a ceiling chosen for somebody else's
+    # finished plates. Raising his costs nothing and changes nobody else.
+    if budget is None:
+        budget = cfg.get("prompt_budget") or BUDGET
     outdir = repo / "03-characters" / character / "prompts" / "turnarounds-short"
     if not dry_run:
         outdir.mkdir(parents=True, exist_ok=True)
@@ -897,17 +914,18 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("character", nargs="?")
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--budget", type=int, default=BUDGET,
-                    help=f"total character budget (default {BUDGET}). Raise it to "
-                         "test what the generator actually accepts before "
-                         "committing to a new ceiling.")
+    ap.add_argument("--budget", type=int, default=None,
+                    help=f"override the budget for this run (default {BUDGET}, or "
+                         "the character's own prompt_budget in outfits.yaml). "
+                         "Raise it to test what the generator actually accepts "
+                         "before committing to a new ceiling.")
     ap.add_argument("--dry-run", action="store_true",
                     help="report what would be trimmed without writing anything")
     a = ap.parse_args()
     repo = find_repo_root(Path.cwd())
     names = ([p.name for p in sorted((repo / "03-characters").iterdir()) if p.is_dir()]
              if a.all else [a.character])
-    if a.budget != BUDGET:
+    if a.budget is not None:
         print(f"  budget {a.budget} (default {BUDGET}) — this is a test, not the "
               f"committed setting\n")
     total = sum(run(repo, c, a.budget, a.dry_run) for c in names if c)

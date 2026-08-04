@@ -5,6 +5,13 @@ ratio: "2:3"
 # See 09-prompt-library/Handedness-And-Placement.md
 handedness: right
 
+# RAISED FROM THE 8,000 DEFAULT, 2026-08-04. See the note in short.py: 8,000 was
+# chosen to match Shada's approved plates, and Baylan has none — so the ceiling
+# was costing him a fifth of his specification for somebody else's consistency.
+# His costume is genuinely large: 24 rules and ~6,100 characters, against her
+# 23,807 which no budget could ever carry.
+prompt_budget: 10000
+
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
 height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
 
@@ -258,10 +265,16 @@ outfits:
         without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years
         of not sleeping. He is nobody and he looks it.
       - >
-        MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded
-        olive. Everything repaired, resoled, re-shouldered, previously owned.
-        He must still SEPARATE from a night forest and from camp firelight —
-        do not sink him into the background.
+      # DARKENED 2026-08-04. Three generations came back mid-brown and dusty.
+      # The range moves down; the separation rule stays, because it is the reason
+      # "never black-on-black" was written in the first place.
+      - check: DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
+        text: >
+          DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot
+          brown, cold slate, the last of a faded olive. NEVER black-on-black
+          though: he must still SEPARATE from a night forest and from camp
+          firelight. Everything repaired, resoled, re-shouldered, previously
+          owned.
 
   # HE HAS ONE COSTUME. THIS IS THAT COSTUME WITH ONE MORE GARMENT ON TOP.
   # Confirmed by the production designer 2026-08-04, and it is a correction:

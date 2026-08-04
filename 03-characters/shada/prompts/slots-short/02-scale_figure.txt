@@ -1,7 +1,7 @@
 [SHADA — SCALE REFERENCE]
 Output file: scale_figure.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 5bebb23b (short) · repo commit a9f6adf 2026-08-04 16:26
+Prompt version: 5bebb23b (short) · repo commit 96b5732 2026-08-04 16:56
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

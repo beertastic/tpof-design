@@ -12,10 +12,10 @@
 [SHADA — SLOT 03 — THE CAMP, IN DAYLIGHT]
 Output file: camp_day.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 1cb75333 · repo commit 591e850 2026-08-03 17:59
+Prompt version: 1cb75333 · repo commit 7171a4d 2026-08-04 15:22
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 591e850, prompt 1cb75333.
+    Working from commit 7171a4d, prompt 1cb75333.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

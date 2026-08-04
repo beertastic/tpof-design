@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 087f19bb (short) · repo commit 977200d 2026-08-04 17:11
+Prompt version: d1e0e419 (short) · repo commit 8425ac6 2026-08-04 17:12
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -29,7 +29,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
-7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh. It runs down the CENTRE FRONT over chest and belly, with a stitched edge bounding it at each side. It is CLOTH, and it ends where the belt begins — the hip plates below are a SEPARATE metal thing and the two never merge into one.
+7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh.
 8. FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
 9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
 10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
@@ -41,18 +41,20 @@ MUST BE TRUE OF THIS IMAGE:
 16. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
 17. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
 18. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-19. OVERLAPPING METAL PLATES AT THE HIPS, HUNG FROM THE BELT — four or five broad plates a side, lapping downward, reaching mid-thigh at the longest. SCAVENGED AND MISMATCHED: different metals, different ages, different wear, dented and dulled and filthy. They do NOT match the gauntlets and they are NOT a matched set with anything.
-20. THE HIP PLATES ARE WORK PROTECTION, NOT ARMOUR. They are what a man who hauls crates against his own hips all day ends up wearing, and every other hand in the crew would recognise them as freight kit. NOT a skirt, NOT a tabard, NOT layered cloth, NOT a ceremonial drape, and NOTHING about them may be martial, matched or ornamental.
-21. THE HIP PLATES NEVER BLOCK THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER them, clear and unobstructed, and the plates sit behind and around that kit rather than in front of it. If the holster is buried or the grip is hard to reach, the image is wrong.
-22. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening. DULL, DIRTY AND BATTERED: scratched, dented, the finish worn off at every edge. NOT bright, NOT clean, NOT polished and NOT ceremonial.
-23. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
-24. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-25. 
-26. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
-27. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-28. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-29. 
-30. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
+19. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
+20. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
+21. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather with a plain buckle.
+22. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+23. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
+24. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
+25. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
+26. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
+27. 
+28. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+29. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+30. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+31. 
+32. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
 
 SHOT: Facing directly away. A ROTATION, NOT A MIRROR — because they turned, THEIR RIGHT IS NOW ON THE VIEWER'S RIGHT, the opposite of the front view. BOTH SIDES VISIBLE, nothing occluded, every asymmetric piece present. Show shoulder blades, back seams, rear pockets, the back of the head. No face, no front closure.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -74,7 +76,8 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   6. Chevrons START HIGH — first band at armpit height, small yoke above.
   7. Bands are raised leather, green-stitched edges. Never printed.
   8. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
-  9. Hip plates hang from the belt. Salvage, not armour. Draw is CLEAR.
-  10. Metal gauntlets BOTH forearms, matched. Dull, dented, filthy.
-  11. Build MATCHES the full-body photo. Big and solid, NOT obese.
-  12. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
+  9. Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
+  10. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
+  11. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
+  12. Build MATCHES the full-body photo. Big and solid, NOT obese.
+  13. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.

@@ -245,24 +245,47 @@ outfits:
       # IT IS NOT A PLANT. The 501st CRL for the later costume has shoulder bells
       # and gauntlets and no fauld, so nothing about this carries forward. It is
       # this film's own, and Planted-Elements P5 should not grow a row for it.
-      - check: Hip plates hang from the belt. Salvage, not armour. Draw is CLEAR.
+      # THE FAULD WAS TRIED AND SUPERSEDED, both on 2026-08-04. Overlapping metal
+      # plates hung at the hips generated well and were still not the shape the
+      # Production Designer was after. What he wants is a TUNIC SKIRT — the lower
+      # half of the top layer continuing to the knee, split at the sides. The
+      # reference given was a Jedi robe set, for its skirt only.
+      #
+      # THAT REFERENCE IS THE MOST DANGEROUS ONE THIS CHARACTER HAS BEEN GIVEN,
+      # and the rules below are the whole reason it is safe. `do_not_retrieve`
+      # rejects "ceremonial drape or layered tabards" by name and rule 1 says an
+      # image that announces him as a Jedi has failed.
+      #
+      # BUT THE SKIRT SHAPE IS NOT WHAT MAKES THAT COSTUME READ AS JEDI. Five
+      # other things do: the cream and sand palette, the hood, the wide monastic
+      # sleeves, the crossed wrap front, and the obi sash. A knee-length split
+      # tunic over trousers, in near-black, with fitted sleeves and a broad
+      # salvaged belt, is Norse workwear and reads as nothing else. He already
+      # fails all five Jedi signals, so the shape can be had safely — and the
+      # next rule names them so it stays that way.
+      - check: Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
         text: >
-          OVERLAPPING METAL PLATES AT THE HIPS, HUNG FROM THE BELT — four or five
-          broad plates a side, lapping downward, reaching mid-thigh at the
-          longest. SCAVENGED AND MISMATCHED: different metals, different ages,
-          different wear, dented and dulled and filthy. They do NOT match the
-          gauntlets and they are NOT a matched set with anything.
+          THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the
+          belt it continues as a straight panel of the SAME CLOTH, front and
+          back, SPLIT at both sides from hip to hem so his legs are clear and he
+          can work in it. Heavy, plain, near-black, and hanging straight.
       - >
-        THE HIP PLATES ARE WORK PROTECTION, NOT ARMOUR. They are what a man who
-        hauls crates against his own hips all day ends up wearing, and every
-        other hand in the crew would recognise them as freight kit. NOT a skirt,
-        NOT a tabard, NOT layered cloth, NOT a ceremonial drape, and NOTHING
-        about them may be martial, matched or ornamental.
+        THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is
+        one garment cut long, and the chevron panel on the chest stops well above
+        the belt and never runs down into it. No overlapping plates, no leather
+        strips, no fauld and no apron.
+      - check: NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
+        text: >
+          THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT.
+          NO cream, sand or pale brown — it is near-black like the rest of him.
+          NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the
+          wrist. NO crossed or wrapped front; the chevron panel is his front. NO
+          sash or obi; his belt is broad salvaged leather with a plain buckle.
       - >
-        THE HIP PLATES NEVER BLOCK THE DRAW. The holster on his RIGHT hip and the
-        pouches on his LEFT hang OVER them, clear and unobstructed, and the
-        plates sit behind and around that kit rather than in front of it. If the
-        holster is buried or the grip is hard to reach, the image is wrong.
+        THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the
+        pouches on his LEFT hang OVER it through the side splits, clear and
+        unobstructed. If the holster is buried in cloth or the grip is hard to
+        reach, the image is wrong.
       # CHANGED 2026-08-04 by the Production Designer. These were leather wraps.
       # The gauntlets are already 3D PRINTED, and the later costume's are metal —
       # so the plant recorded in Planted-Elements P5 ("the bracers, a shape that
@@ -273,13 +296,19 @@ outfits:
       # look deliberate. Every one of these is a working object doing a job in
       # this film." A metal gauntlet reads as armour unless it is given a job, so
       # the next rule gives it one.
-      - check: Metal gauntlets BOTH forearms, matched. Dull, dented, filthy.
+      # The finish clause sat third in this rule and was ignored: they came back
+      # POLISHED CHROME, the brightest thing in the frame, on a man whose palette
+      # rule is near-black. It now leads, because the shape was never the problem.
+      - check: Gauntlets DULL and filthy — no shine, no chrome, no highlights.
         text: >
-          METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about
-          three-quarters up the forearm, a smooth clamshell shell closing with no
-          visible fastening. DULL, DIRTY AND BATTERED: scratched, dented, the
-          finish worn off at every edge. NOT bright, NOT clean, NOT polished and
-          NOT ceremonial.
+          THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO
+          polish, NO bright highlights and NOTHING mirror-like. Scratched, dented
+          and greasy, the finish worn off at every edge, darkened almost to the
+          colour of the cloth. They are the oldest-looking thing he owns.
+      - >
+        METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about
+        three-quarters up the forearm, a smooth clamshell shell closing with no
+        visible fastening.
       - >
         THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn
         buttons sit at the inside of each wrist — a freight worker's kit for

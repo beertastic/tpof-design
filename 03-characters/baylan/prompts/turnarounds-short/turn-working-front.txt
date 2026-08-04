@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 53aa2a35 (short) · repo commit bdbc11f 2026-08-04 16:44
+Prompt version: 88bb8da9 (short) · repo commit eba60a9 2026-08-04 16:49
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -34,8 +34,8 @@ MUST BE TRUE OF THIS IMAGE:
 9. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a blunt point below the throat, and no chevron crosses it.
 10. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
 11. THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER appliquéd onto the woven base and sitting PROUD of it, so every band throws a shadow edge.
-12. THE CHEST HARNESS IS TWO STRAPS OVER THE SHOULDERS AND NOTHING ELSE. NO horizontal strap across the chest, NO buckle on the sternum, NO belt worn anywhere on the body above the waist. The straps run vertically, close to the body, and carry nothing themselves.
-13. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
+12. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. His chest is otherwise clear so the chevron panel reads uninterrupted.
+13. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places.
 14. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
 15. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
 16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
@@ -66,6 +66,6 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   4. Panel ENDS just below the belt — NOT a tabard, never to the thigh.
   5. EXACTLY FIVE bands, a hand's width each, touching, shallow V.
   6. Bands are raised leather, green-stitched edges. Never printed.
-  7. NO strap or buckle across the chest — shoulder straps only.
+  7. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
   8. Forearm wraps on BOTH arms.
   9. Build MATCHES the full-body photo. Big and solid, NOT obese.

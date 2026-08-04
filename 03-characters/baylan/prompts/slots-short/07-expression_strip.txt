@@ -1,7 +1,7 @@
 [BAYLAN — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
-Prompt version: d1dfef97 (short) · repo commit bdbc11f 2026-08-04 16:44
+Prompt version: d1dfef97 (short) · repo commit eba60a9 2026-08-04 16:49
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

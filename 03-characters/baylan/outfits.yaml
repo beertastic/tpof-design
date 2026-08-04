@@ -160,12 +160,18 @@ outfits:
       # ADDED 2026-08-04. The first generation put a wide buckled strap
       # horizontally across his sternum, which read as a belt worn on the chest.
       # Nothing forbade it: the spec said "harness" and left the form open.
-      - check: NO strap or buckle across the chest — shoulder straps only.
+      # TIGHTENED TWICE. The first generation put a wide buckled strap
+      # HORIZONTALLY across the sternum. The rule forbade horizontal, so the
+      # second came back with a DIAGONAL bandolier and a buckle mid-chest — the
+      # rule was obeyed and the fault survived it. Naming one direction taught
+      # the generator to use another, so this now refuses the whole class.
+      - check: NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
         text: >
-          THE CHEST HARNESS IS TWO STRAPS OVER THE SHOULDERS AND NOTHING ELSE.
-          NO horizontal strap across the chest, NO buckle on the sternum, NO belt
-          worn anywhere on the body above the waist. The straps run vertically,
-          close to the body, and carry nothing themselves.
+          NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a
+          bandolier, not a sash, and NO buckle, ring or fitting anywhere on the
+          sternum. The harness is TWO PLAIN STRAPS running straight down from the
+          shoulders to the belt, parallel, close to the body, carrying nothing.
+          His chest is otherwise clear so the chevron panel reads uninterrupted.
       - >
         THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never
         under another garment. The two harness straps cross OVER it and break the

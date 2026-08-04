@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 03 — THE STORAGE AREA]
 Output file: industrial_b.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: a284f646 · repo commit c1bd931 2026-08-04 16:36
+Prompt version: d0620dd7 · repo commit eba60a9 2026-08-04 16:49
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit c1bd931, prompt a284f646.
+    Working from commit eba60a9, prompt d0620dd7.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -85,17 +85,19 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   9. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a blunt point below the throat, and no chevron crosses it.
   10. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
   11. THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER appliquéd onto the woven base and sitting PROUD of it, so every band throws a shadow edge.
-  12. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The chest harness crosses OVER it and breaks the run of the bands in places. That is correct: they read through and around it, and they are never moved or shrunk to make room for it.
-  13. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-  14. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
-  15. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-  16. WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have.
+  12. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. The harness is TWO PLAIN STRAPS running straight down from the shoulders to the belt, parallel, close to the body, carrying nothing. His chest is otherwise clear so the chevron panel reads uninterrupted.
+  13. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
+  14. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
+  15. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
+  16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
   18. WORN LEATHER FOREARM WRAPS ON BOTH ARMS — a MATCHED PAIR, unlike others in this crew. Strapped or laced, covering the forearm from wrist to below the elbow. They are protection for a man who hauls cargo and crates all day: NOT scavenged trophies, NOT a flourish, and NOT armour.
   19. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  20. LATE FORTIES — FORTY-EIGHT, TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-  21. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-  22. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
+  20. 
+  21. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+  22. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+  23. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+  24. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
 
 Generate a single image to the description below.
 
@@ -301,16 +303,18 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   9. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a blunt point below the throat, and no chevron crosses it.
   10. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
   11. THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER appliquéd onto the woven base and sitting PROUD of it, so every band throws a shadow edge.
-  12. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The chest harness crosses OVER it and breaks the run of the bands in places. That is correct: they read through and around it, and they are never moved or shrunk to make room for it.
-  13. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-  14. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
-  15. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-  16. WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have.
+  12. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. The harness is TWO PLAIN STRAPS running straight down from the shoulders to the belt, parallel, close to the body, carrying nothing. His chest is otherwise clear so the chevron panel reads uninterrupted.
+  13. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
+  14. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
+  15. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
+  16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
   18. WORN LEATHER FOREARM WRAPS ON BOTH ARMS — a MATCHED PAIR, unlike others in this crew. Strapped or laced, covering the forearm from wrist to below the elbow. They are protection for a man who hauls cargo and crates all day: NOT scavenged trophies, NOT a flourish, and NOT armour.
   19. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  20. LATE FORTIES — FORTY-EIGHT, TALL AND BROAD AND THICKENED. Heavy through the chest and waist, not muscular, not lean, not athletic. He carries weight. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-  21. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-  22. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
+  20. 
+  21. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+  22. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+  23. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+  24. MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded olive. Everything repaired, resoled, re-shouldered, previously owned. He must still SEPARATE from a night forest and from camp firelight — do not sink him into the background.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

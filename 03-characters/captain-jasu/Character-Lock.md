@@ -2,14 +2,14 @@
 title: "Captain Jasu — Character Lock"
 asset_id: "LOCK-CAPTAIN-JASU"
 updated: "2026-08-04"
-status: "locked-with-three-open-deviations"
+status: "locked"
 ---
 
 # Captain Jasu Character Lock
 
-**Status:** LOCKED FOR BOARD REVIEW — with **three** named deviations in the
-approved reference, all governed by one undecided question
-**Version:** 1.1
+**Status:** LOCKED FOR BOARD REVIEW — the horns are SETTLED; two deviations in
+the approved reference remain and are not in dispute
+**Version:** 2.0
 **Date:** 2026-08-04
 
 **One approved reference, and it is scoped to the costume only.**
@@ -19,6 +19,7 @@ approved reference, all governed by one undecided question
 | `source/artwork/turn-field-front.png` | **The costume** — cut, silhouette, palette, placement, hardware | **The horns, the mantle surface and the whistle.** See the three deviations below |
 | `reference/actor/ling-jiu-headshot.jpg` | **The face and the build**, and nothing else | The costume. There is none in frame |
 | `reference/props/a180.jpg` | **The blaster**, and nothing else | Everything else |
+| `reference/headdress/horns-authority-2026-08-04.png` | **The bone horns**, and nothing else | The costume. Cropped above the collar so there is none in frame |
 
 **Do not add a second full-figure costume photograph.** Two references competing
 over the same garment is the failure that cost Shada five generations. Her three
@@ -50,27 +51,34 @@ specification reaching the generator to 100%, with nothing removed.
 ### Known deviations in the approved front
 
 **All three were found on 2026-08-04 by cropping and magnifying the reference
-against the plates generated from it. Unlike Shada's three, these are NOT
-settled** — they are one open decision, not a tolerance.
+against the plates generated from it.** The horns were settled the same day and
+are no longer in dispute; the mantle and the whistle are not disputed either —
+the rule wins on both, as it does on Shada's three. **What remains is scheduling
+the re-roll, not deciding anything.**
 
-- **THE HORNS — OPEN, AND IT IS A DECISION, NOT A TOLERANCE.** The approved front
-  and all four matched views show **a matched pair of small blunt pale cups over
-  each ear.** The written rule, in `outfits.yaml`, in the printed-component note
-  and in slots 6, 7 and 8, says the opposite: *"long and sweeping on one side,
-  shorter points on the other. **NEVER a matched pair**, which reads as a
-  symmetrical ornament rather than trophies taken off different kills."*
+- **THE HORNS — SETTLED 2026-08-04 BY THE PRODUCTION DESIGNER, and the ruling
+  went to neither side of the argument.** The spec is now:
 
-  **The reference does not carry its own rule, and a photograph beats a
-  paragraph.** That is the whole explanation for `portrait.png` returning a
-  matched pair — it was not a weak slot, it was copying the front. `headdress.png`
-  obeys the rule instead and therefore does not match the turnarounds.
+  > **Trophies, and bone. Exactly two, one each side, both curved. Alike in
+  > curve, colour and size, and officially different objects. Each a third to a
+  > half the height of her head.**
 
-  **Recorded as open in
-  [`../../11-production-tracking/Jasu-Image-TODO.md`](../../11-production-tracking/Jasu-Image-TODO.md).
-  It must be settled before the boards are built.** If the trophies win, the
-  front is re-rolled and re-approved per [`../APPROVAL.md`](../APPROVAL.md). If
-  the cups win, **this rule has to be rewritten**, because as written it forbids
-  what five approved images show.
+  **The old rule overstated the asymmetry.** It asked for *"long and sweeping on
+  one side, shorter points on the other"*, and that is not the design — it is a
+  much louder object than what is wanted. **`headdress.png` obeyed that rule and
+  is therefore now out of spec**, with three horns on its visible side.
+  `expression_strip.png` is out too, at 20% and 47% of head height and ridged
+  against a rule that says smooth.
+
+  **`portrait.png` is the only plate compliant on every point** — 46% and 53%,
+  both curved, alike in character, one blunt-tipped and one pointed. It is now
+  the authority, cropped to
+  `reference/headdress/horns-authority-2026-08-04.png` so no costume competes.
+
+  **The approved front remains wrong, but for a narrower reason than before.**
+  Its horns are the right size and the right character; they are **a true
+  mirrored pair** — flipping one produces the other, verified by test — which is
+  exactly the printing trap the component note warns about.
 
 - **THE MANTLE SURFACE — the same fault, milder, same cause.** `must_show` rule
   13 asks for *"fine IRREGULAR crazing and cracking… NO quilting, NO lattice, NO
@@ -107,9 +115,9 @@ settled** — they are one open decision, not a tolerance.
 
 **All three travel together, and one generation fixes all three.**
 
-| Rule the front breaks | Correct authority already on disk |
+| Rule the front breaks | Scoped authority to attach instead |
 |---|---|
-| The horns — a matched pair | `headdress.png` |
+| The horns — a true mirrored pair | `reference/headdress/horns-authority-2026-08-04.png` |
 | The mantle — a lattice, not irregular crazing | `mantle_detail.png` |
 | The whistle — bright polished jewellery | `whistle_and_leash.png` |
 
@@ -256,10 +264,14 @@ up and outward from both sides, sitting above and behind the ears.
 - **They are trophies from what the animal kills.** Worn, matte, yellowed with
   age, tapering to points. **Never polished, never carved, never set in metal.
   A trophy, not jewellery.**
-- **THEY MUST NOT MATCH EACH OTHER** — long and sweeping on one side, shorter
-  points on the other. *This is a printing trap as much as a drawing one: a
-  printer produces a perfect matched pair by default. Recorded in
-  `Costume-Build-Method.md`.* **See the open deviation above.**
+- **EXACTLY TWO, ONE EACH SIDE, each a third to a half the height of her head.**
+  Never three, never a cluster, never a row of points.
+- **ALIKE IN CURVE, COLOUR AND SIZE, AND NOT THE SAME OBJECT.** Both curve; one
+  is blunter and one comes to a point; one runs slightly the longer. **A pair of
+  trophies, not a mirrored pair.** *This is a printing trap as much as a drawing
+  one — a printer produces a perfect matched pair by default, so they must be
+  printed as two separate models. Recorded in `Costume-Build-Method.md`.*
+- **Smooth** — never ridged, never banded, never segmented like a ram's horn.
 - **Pale against very dark hair, and that contrast is the whole effect.**
 - **Nothing covers her face or her brow.** Not a helmet, not a crown, not a
   circlet, not a metal band, not a mask, not a visor.
@@ -363,9 +375,15 @@ she has none of the real thing.*
 
 ### The headdress
 
-- **A matched pair of horns.** A manufactured ornament rather than two things
-  taken off two kills. *Currently shown by five approved images — see the open
-  deviation.*
+- **A MIRRORED PAIR of horns** — two castings of one object. They are alike in
+  curve, colour and size and they are **not the same object**: one blunter, one
+  pointed, one slightly the longer. *The approved front is a true mirrored pair,
+  verified by flipping one onto the other.*
+- **Three or more horns, a cluster, or a row of points.** Exactly two, one each
+  side. *`headdress.png` has three on its visible side, because it obeyed the
+  superseded rule.*
+- **Horns outside a third to a half of her head height**, either way.
+- **Ridged, banded or segmented horns** like a ram's. They are smooth.
 - **Polished, carved, jewelled or metal-set horns.** A worked finish turns them
   into jewellery and collapses the reading.
 - **A helmet, crown, circlet, metal band, mask or visor**, or anything covering

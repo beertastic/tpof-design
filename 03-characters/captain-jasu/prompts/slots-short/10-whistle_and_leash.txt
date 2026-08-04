@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — HER INSTRUMENTS OF COMMAND]
 Output file: whistle_and_leash.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: de958749 (short) · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: de958749 (short) · repo commit 322c7e7 2026-08-04 14:09
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

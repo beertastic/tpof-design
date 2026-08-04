@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE SHARE SHEET]
 Output file: tone_collage.png
 Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
-Prompt version: bb0bb7f1 (short) · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: 35a4196f (short) · repo commit 322c7e7 2026-08-04 14:09
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -34,20 +34,21 @@ MUST BE TRUE OF THIS IMAGE:
 13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after, not derelict.
 14. A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is.
 15. HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her shoulders and down her back, swept back off the face, field-worn and slightly dishevelled. NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
-16. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor.
-17. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
-18. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG.
-19. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded at the shoulders, mended at cuffs and hem, mud to the knee, the collar worn shiny.
-20. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
-21. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
-22. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left.
-23. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
-24. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
-25. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
-26. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
-27. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
-28. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
-29. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
+16. EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair above and behind the ears. Each is A THIRD TO A HALF THE HEIGHT OF HER HEAD. NEVER three, NEVER a cluster, NEVER a row of points.
+17. THE TWO HORNS ARE NOT THE SAME OBJECT — alike in curve, colour and size, but one blunter and one pointed, and one slightly the longer. NEVER A MIRRORED PAIR.
+18. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something once alive. A TROPHY, NOT JEWELLERY. NEVER polished, NEVER carved, NEVER set in metal. NOT a helmet, NOT a crown, NOT a circlet, NOT a band, NOT a mask.
+19. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG.
+20. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new.
+21. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
+22. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
+23. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left.
+24. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
+25. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
+26. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
+27. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
+28. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
+29. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
+30. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
 
 THE SHOT:
 Not a board asset. The one image to send someone when they ask what this

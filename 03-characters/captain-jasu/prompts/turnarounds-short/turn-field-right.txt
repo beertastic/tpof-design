@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — FIELD DRESS — RIGHT]
 Output file: turn-field-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: cfae3474 (short) · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: ba67b914 (short) · repo commit 322c7e7 2026-08-04 14:09
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -34,24 +34,25 @@ MUST BE TRUE OF THIS IMAGE:
 9. THE BOOT HEEL IS FLAT, OR AS NEAR FLAT AS THE BOOT ALLOWS — a walking sole, no more than about 25 mm at the heel. NEVER a block heel, NEVER a shaped or raised heel, and NEVER anything that adds height to her.
 10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky.
 11. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes.
-12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar.
-13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after, not derelict.
+12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron.
+13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after.
 14. A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is.
-15. HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her shoulders and down her back, swept back off the face, field-worn and slightly dishevelled. NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
-16. SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other. NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask, NOT a visor.
-17. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that was once alive. NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled. Smooth, and tapering to points.
-18. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG.
-19. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new.
-20. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
-21. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
-22. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left.
-23. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
-24. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
-25. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
-26. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
-27. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
-28. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
-29. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
+15. HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her shoulders and down her back, swept back off the face, field-worn and slightly dishevelled. NEVER piled up.
+16. EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair above and behind the ears. Each is A THIRD TO A HALF THE HEIGHT OF HER HEAD. NEVER three, NEVER a cluster, NEVER a row of points.
+17. THE TWO HORNS ARE NOT THE SAME OBJECT — alike in curve, colour and size, but one blunter and one pointed, and one slightly the longer. NEVER A MIRRORED PAIR.
+18. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something once alive. A TROPHY, NOT JEWELLERY. NEVER polished, NEVER carved, NEVER set in metal. NOT a helmet.
+19. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG.
+20. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new.
+21. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery.
+22. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
+23. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left.
+24. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
+25. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind.
+26. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
+27. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
+28. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
+29. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
+30. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
 
 SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. THEY FACE THE VIEWER'S RIGHT — their nose, chest and toes all point to the RIGHT EDGE of the frame. If they face the left edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

@@ -359,9 +359,15 @@ headdress complete at the top.
 **HER HAIR IS WORN DOWN AND LOOSE** — long and dark, swept back off the face.
 Never gathered up, never a bun.
 
-**THE HORNS ARE ASYMMETRIC** — long and sweeping on one side, shorter points on
-the other. **NEVER a matched pair**, which reads as a symmetrical ornament
-rather than trophies taken off different kills.
+**EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE**, set into the hair above
+and behind the ears. **Each is between a third and a half the height of her
+head.** Never three, never a cluster, never a row of points.
+
+**THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.**
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+**A pair of trophies, not a mirrored pair** — if flipping one produced the other,
+they were manufactured as a set. **Smooth — never ridged, never banded, never
+segmented like a ram's horn.**
 
 **THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular**
 crazing and cracking in worn leather-like cloth — heavier where it flexes and
@@ -388,10 +394,21 @@ of the crown, NEVER styled.** The horns sit in loose hair, not in a built shape.
 > was changed to worn down, and the plate duly came back with a half-up knot.
 > The slot text asked for it.*
 
-**SET INTO IT, PALE CURVED HORNS** — bone or bone-coloured, smooth, tapering to
-points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,
-shorter points on the other. **ASYMMETRIC.** Pale against very dark hair, and
+**SET INTO IT, EXACTLY TWO PALE CURVED HORNS, ONE EACH SIDE** — bone or
+bone-coloured, smooth, tapering, projecting up and outward. **Each is between a
+third and a half the height of her head.** Never three, never a cluster.
+
+**THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.**
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+**A pair of trophies, not a mirrored pair.** **Smooth — never ridged, never
+banded, never segmented like a ram's horn.** Pale against very dark hair, and
 that contrast is the whole effect.
+
+> *Spec settled by the Production Designer 2026-08-04, and it replaces a rule
+> that asked for a much stronger asymmetry — "long and sweeping on one side,
+> shorter points on the other". **This slot's 2026-08-04 plate obeyed the OLD
+> rule and is now out of spec**: three horns on the visible side, and a sweep far
+> beyond what is wanted. `source/artwork/portrait.png` is the authority.*
 
 **THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS.** Worn, matte and yellowed with
 age. Never polished, never carved, never set in metal. A trophy, not jewellery.
@@ -426,9 +443,15 @@ in every panel.
 
 **HER HAIR IS WORN DOWN AND LOOSE** in every panel, and identical in all four.
 
-**THE HORNS ARE ASYMMETRIC** — long and sweeping on one side, shorter points on
-the other. **NEVER a matched pair**, which reads as a symmetrical ornament
-rather than trophies taken off different kills.
+**EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE**, set into the hair above
+and behind the ears. **Each is between a third and a half the height of her
+head.** Never three, never a cluster, never a row of points.
+
+**THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.**
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+**A pair of trophies, not a mirrored pair** — if flipping one produced the other,
+they were manufactured as a set. **Smooth — never ridged, never banded, never
+segmented like a ram's horn.**
 
 **THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular**
 crazing and cracking in worn leather-like cloth — heavier where it flexes and

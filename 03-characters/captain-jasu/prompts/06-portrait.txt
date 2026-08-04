@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 06 — HERO PORTRAIT]
 Output file: portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 83869dc4 · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: ddecc4e8 · repo commit 322c7e7 2026-08-04 14:09
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 07c7d43, prompt 83869dc4.
+    Working from commit 322c7e7, prompt ddecc4e8.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -148,9 +148,15 @@ headdress complete at the top.
 HER HAIR IS WORN DOWN AND LOOSE — long and dark, swept back off the face.
 Never gathered up, never a bun.
 
-THE HORNS ARE ASYMMETRIC — long and sweeping on one side, shorter points on
-the other. NEVER a matched pair, which reads as a symmetrical ornament
-rather than trophies taken off different kills.
+EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair above
+and behind the ears. Each is between a third and a half the height of her
+head. Never three, never a cluster, never a row of points.
+
+THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+A pair of trophies, not a mirrored pair — if flipping one produced the other,
+they were manufactured as a set. Smooth — never ridged, never banded, never
+segmented like a ram's horn.
 
 THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION. Fine irregular
 crazing and cracking in worn leather-like cloth — heavier where it flexes and

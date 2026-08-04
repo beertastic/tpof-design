@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9. Generate at that shape and never square unless it says 1:1.
-Prompt version: e1dc4843 (short) · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: 4a5425ee (short) · repo commit 322c7e7 2026-08-04 14:09
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -26,9 +26,15 @@ A CONCEALED CLOSURE, NEVER A VISIBLE ZIP. No coil zip, no zip tape, no slider.
 
 HER HAIR IS WORN DOWN AND LOOSE in every panel, and identical in all four.
 
-THE HORNS ARE ASYMMETRIC — long and sweeping on one side, shorter points on
-the other. NEVER a matched pair, which reads as a symmetrical ornament
-rather than trophies taken off different kills.
+EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair above
+and behind the ears. Each is between a third and a half the height of her
+head. Never three, never a cluster, never a row of points.
+
+THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+A pair of trophies, not a mirrored pair — if flipping one produced the other,
+they were manufactured as a set. Smooth — never ridged, never banded, never
+segmented like a ram's horn.
 
 THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION. Fine irregular
 crazing and cracking in worn leather-like cloth — heavier where it flexes and

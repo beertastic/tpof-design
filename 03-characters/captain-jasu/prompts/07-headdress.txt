@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 07 — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: 67dc62ee · repo commit 07c7d43 2026-08-04 13:07
+Prompt version: d3bbd640 · repo commit 322c7e7 2026-08-04 14:09
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 07c7d43, prompt 67dc62ee.
+    Working from commit 322c7e7, prompt d3bbd640.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -153,10 +153,21 @@ BACK into a large rolled, worked mass held high on the head" after the hair
 was changed to worn down, and the plate duly came back with a half-up knot.
 The slot text asked for it.
 
-SET INTO IT, PALE CURVED HORNS — bone or bone-coloured, smooth, tapering to
-points, projecting UP AND OUTWARD from both sides. Long and sweeping on one side,
-shorter points on the other. ASYMMETRIC. Pale against very dark hair, and
+SET INTO IT, EXACTLY TWO PALE CURVED HORNS, ONE EACH SIDE — bone or
+bone-coloured, smooth, tapering, projecting up and outward. Each is between a
+third and a half the height of her head. Never three, never a cluster.
+
+THEY ARE ALIKE IN CURVE, COLOUR AND SIZE, AND THEY ARE NOT THE SAME OBJECT.
+Both curve. One is blunter and one comes to a point; one runs slightly longer.
+A pair of trophies, not a mirrored pair. Smooth — never ridged, never
+banded, never segmented like a ram's horn. Pale against very dark hair, and
 that contrast is the whole effect.
+
+Spec settled by the Production Designer 2026-08-04, and it replaces a rule
+that asked for a much stronger asymmetry — "long and sweeping on one side,
+shorter points on the other". This slot's 2026-08-04 plate obeyed the OLD
+rule and is now out of spec: three horns on the visible side, and a sweep far
+beyond what is wanted. source/artwork/portrait.png is the authority.
 
 THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS. Worn, matte and yellowed with
 age. Never polished, never carved, never set in metal. A trophy, not jewellery.

@@ -174,8 +174,9 @@ outfits:
       pads over the knee — nothing hangs from the belt and nothing swings. Hard
       bracers on the forearms. Tall boots close to the calf, flat-heeled and
       practical, the best in the crew. Her long dark hair is worn down and
-      loose, swept back off the face, with PALE CURVED BONE HORNS set into it
-      above and behind the ears — asymmetric, worn and matte, the only
+      loose, swept back off the face, with TWO PALE CURVED BONE HORNS set into it
+      above and behind the ears, one each side, each a third to a half the
+      height of her head — alike but not identical, worn and matte, the only
       decorative object on her and a trophy rather than jewellery. On her right
       hip a holstered blaster pistol, clean and serviced. A single worn whistle
       on a cord at her throat, and a heavy leash coiled at her belt on the left.
@@ -262,11 +263,18 @@ outfits:
           Pale bone, matte, YELLOWED WITH AGE. Never polished, never carved,
           never set in metal — they are trophies from what the akk kills, and a
           worked finish turns them into jewellery and collapses the reading.
-          THEY MUST NOT MATCH EACH OTHER: long and sweeping on one side, shorter
-          points on the other. This is the printing trap recorded in
-          Costume-Build-Method — a printer produces a perfect matched pair by
-          default, and a matched pair is a manufactured ornament rather than two
-          things taken off two kills.
+          TWO ONLY, ONE EACH SIDE, each a third to a half the height of her
+          head. ALIKE IN CURVE, COLOUR AND SIZE, AND NOT THE SAME OBJECT —
+          both curved, one blunter and one pointed, one slightly the longer.
+          SMOOTH, never ridged or banded.
+          PRINT THEM AS TWO SEPARATE MODELS, NEVER ONE MODEL MIRRORED. This is
+          the printing trap recorded in Costume-Build-Method — a printer
+          produces a perfect matched pair by default, and a matched pair is a
+          manufactured ornament rather than two things taken off two kills.
+          SPEC SETTLED BY THE PRODUCTION DESIGNER 2026-08-04. The authority is
+          source/artwork/portrait.png, the only plate that satisfies it on every
+          point. The approved front is a TRUE MIRRORED PAIR — verified by
+          flipping one horn onto the other — and must not be used for the horns.
       - item: Whistle on a cord
         route: printed
         qty: 1
@@ -493,15 +501,19 @@ outfits:
         slightly dishevelled.
         NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
       - >
-        SET INTO THE HAIR, PALE CURVED BONE HORNS PROJECTING UP AND OUTWARD FROM
-        BOTH SIDES — ASYMMETRIC, long on one side, shorter points on the other.
-        NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band, NOT a mask,
-        NOT a visor.
+        EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair
+        above and behind the ears. Each is A THIRD TO A HALF THE HEIGHT OF HER
+        HEAD. NEVER three, NEVER a cluster, NEVER a row of points.
       - >
-        THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something that
-        was once alive.
-        NEVER polished, NEVER carved, NEVER set in metal, NEVER jewelled.
-        Smooth, and tapering to points.
+        THE TWO HORNS ARE NOT THE SAME OBJECT — alike in curve, colour and size,
+        but one blunter and one pointed, and one slightly the longer.
+        NEVER A MIRRORED PAIR. SMOOTH — never ridged, never banded, never
+        segmented like a ram's horn.
+      - >
+        THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something once
+        alive. A TROPHY, NOT JEWELLERY. NEVER polished, NEVER carved, NEVER set
+        in metal. NOT a helmet, NOT a crown, NOT a circlet, NOT a band, NOT a
+        mask.
       - >
         THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels,
         dense woven canvas, matte and dry.

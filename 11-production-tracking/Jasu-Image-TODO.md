@@ -16,21 +16,46 @@ status: "open"
 > **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
 > released** — see the two RELEASED notes in `../03-characters/captain-jasu/do-not-publish.txt`.
 >
-> ## ⚠ THE APPROVED FRONT BREAKS THREE OF ITS OWN RULES — decide before the boards
+> ## THE HORNS ARE SETTLED — 2026-08-04. The front is re-rolled, and here is the list
 >
-> **Deferred by the Production Designer on 2026-08-04, knowingly.** Both versions
-> are accepted on disk for now. **This is the third instance of the pattern that
-> cost four passes on the boots**, so read the cost before deferring it again.
+> **SETTLED BY THE PRODUCTION DESIGNER, 2026-08-04:**
 >
-> | | Horns |
-> |---|---|
-> | **All 5 approved turnarounds**, and `06-portrait` copying them | A **matched pair of small blunt pale cups over each ear** |
-> | **The rule**, in `outfits.yaml` and in slots 6/7/8 | *"Long and sweeping on one side, shorter points on the other. **NEVER a matched pair**, which reads as a symmetrical ornament rather than trophies taken off different kills"* |
-> | **`07-headdress`, 2026-08-04** | A long sweeping crescent low by the ear plus two shorter points set higher into the hair. **Obeys the rule** |
+> > **Trophies, and bone. Exactly two, one each side, both curved. Alike in
+> > curve, colour and size, and officially different objects. Each a third to a
+> > half the height of her head.**
 >
-> **The approved reference does not carry its own rule, and a photograph beats a
-> paragraph.** That is why `portrait` came back with a matched pair — not because
-> the slot was weak. It was copying the front.
+> **The ruling went to neither side of the argument, and it reverses which plates
+> are wrong.** The old rule — *"long and sweeping on one side, shorter points on
+> the other"* — **overstated the asymmetry**. It was never the design.
+>
+> Measured as a fraction of head height:
+>
+> | Plate | Horns | Verdict |
+> |---|---|---|
+> | **`portrait.png`** | 46% and 53%, one blunt-tipped and one pointed | **COMPLIANT ON EVERY POINT. It is now the authority** |
+> | `turn-field-front.png` | 38% and 53% | **A TRUE MIRRORED PAIR** — flipping one produces the other, verified by test. Right size, wrong objects |
+> | `headdress.png` | **three** on the visible side | **NOW OUT OF SPEC.** It obeyed the superseded rule |
+> | `expression_strip.png` | **20% and 47%**, and ridged | **OUT.** Sizes not alike, and banded against a rule that says smooth |
+>
+> **A scoped horn authority has been cut** from the portrait, above the collar so
+> no costume is left to compete with the front:
+> `../03-characters/captain-jasu/reference/headdress/horns-authority-2026-08-04.png`.
+> Same method as Shada's make-up plate. **Attach it to slots 6, 7 and 8 and to
+> every re-roll.**
+>
+> ### The rules are rewritten and `./tools/regen` has run
+>
+> **The first rewrite was silently truncated and it took a check to catch.** One
+> long rule 17 came back from `fit()` as *"THE TWO ARE ALIKE IN CURVE. Both
+> curve."* — **the clause saying they differ was cut, leaving a rule that argues
+> FOR a matched pair.** The per-rule budget is about 230 characters.
+>
+> **Fixed by splitting the horns into three short rules (16, 17, 18) and leading
+> rule 17 with the differentiation**, so the part that matters survives first.
+> Verified in all six full-figure slots. `05-candid` and `16-tone_collage` still
+> lose the *"SMOOTH — never ridged"* tail because their longer shot text settles
+> the budget lower — the documented behaviour, and acceptable now that the
+> critical clause leads.
 >
 > ### AND IT BREAKS RULE 13 TOO — found 2026-08-04, and it makes this cheaper
 >
@@ -67,15 +92,14 @@ status: "open"
 >
 > ### So it is three rules, and one generation fixes all three
 >
-> | Rule the front breaks | Correct authority already on disk |
+> | Rule the front breaks | Scoped authority to attach instead |
 > |---|---|
-> | The horns — a matched pair | `headdress.png` |
+> | The horns — a true mirrored pair | `reference/headdress/horns-authority-2026-08-04.png` |
 > | The mantle — a lattice, not irregular crazing | `mantle_detail.png` |
 > | The whistle — bright polished jewellery | `whistle_and_leash.png` |
 >
 > **Re-rolling the front fixes the horns, the mantle surface and the whistle in
-> one pass, with a correct reference plate for each.** That is the strongest
-> argument for doing it, and it did not exist this morning.
+> one pass, with a scoped reference plate for each.**
 >
 > **The bill, stated plainly as of 2026-08-04 with everything generated.**
 > **Twelve images carry the pendant whistle, the ear-cup horns, or both:** the
@@ -87,13 +111,26 @@ status: "open"
 > **The counter-argument is that it does not get cheaper by waiting**, and that
 > one pass now fixes three rule breaches with a correct authority plate for each.
 >
-> - [ ] **DECIDE: re-roll the front, or amend the rules to match it?** If the
->       front is re-rolled, follow `APPROVAL.md` — clear `approved:` in
->       `outfits.yaml`, re-roll the front against `headdress`, `mantle_detail` and
->       `whistle_and_leash` as the three scoped authorities, approve by eye, then
->       re-roll the four matched views and work down the twelve. If the front
->       stands, **rules 13, 16, 20 and 29 have to be rewritten**, because as
->       written they forbid what five approved images show.
+> ### THE ORDER OF WORK
+>
+> - [ ] **1. Re-roll the front.** Per `APPROVAL.md`: clear `approved:` in
+>       `outfits.yaml`, generate, approve by eye. **Attach the three scoped
+>       authorities** — the horn crop, `mantle_detail`, `whistle_and_leash` —
+>       and nothing else full-figure.
+> - [ ] **2. Re-roll the four matched views** against the new front.
+> - [ ] **3. `07-headdress` and `08-expression_strip`** — both now out of spec on
+>       the horns, and both are close crops where the horns are the subject.
+> - [ ] **4. `16-tone_collage`** — the wrong animal, independent of all this.
+>       **Give slot 16 the akk plates first.**
+> - [ ] **5. The remaining seven** — `scale_figure`, `hero`, `camp_day`,
+>       `captaining`, `candid`, `akk_together`, and `06-portrait` if the new front
+>       moves anything above the collar. **These carry the pendant whistle and the
+>       mirrored horns and are the least urgent**, because none of them is a
+>       costume authority and the faults are small in frame.
+>
+> **`06-portrait` may not need re-rolling at all.** Its horns are compliant, its
+> mantle is correct, and only its whistle is wrong. **Decide that after the new
+> front exists**, not before.
 >
 > ## Attachments — READ THIS, IT CHANGED
 >

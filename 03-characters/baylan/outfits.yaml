@@ -54,7 +54,8 @@ outfits:
       Salvaged, repaired mercenary workwear that has genuinely worked. A heavy
       work shirt, layered technical cloth and worn synth-leather over it, and a
       padded jacket that has been re-shouldered at least once. A functional
-      harness across the chest carrying ammunition pouches and field tools —
+      harness of two shoulder straps, with ammunition pouches and field tools
+      carried on the waist belt —
       no trophies, no personal marks, no decoration of any kind. At his waist a
       wide, heavy salvaged belt with a plain buckle, and hanging from it on his
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
@@ -156,11 +157,20 @@ outfits:
         THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER
         appliquéd onto the woven base and sitting PROUD of it, so every band
         throws a shadow edge.
+      # ADDED 2026-08-04. The first generation put a wide buckled strap
+      # horizontally across his sternum, which read as a belt worn on the chest.
+      # Nothing forbade it: the spec said "harness" and left the form open.
+      - check: NO strap or buckle across the chest — shoulder straps only.
+        text: >
+          THE CHEST HARNESS IS TWO STRAPS OVER THE SHOULDERS AND NOTHING ELSE.
+          NO horizontal strap across the chest, NO buckle on the sternum, NO belt
+          worn anywhere on the body above the waist. The straps run vertically,
+          close to the body, and carry nothing themselves.
       - >
         THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never
-        under another garment. The chest harness crosses OVER it and breaks the
-        run of the bands in places. That is correct: they read through and around
-        it, and they are never moved or shrunk to make room for it.
+        under another garment. The two harness straps cross OVER it and break the
+        run of the bands in places. That is correct: the bands read through and
+        around them, and are never moved or shrunk to make room.
       - >
           THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge
           stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing
@@ -175,12 +185,20 @@ outfits:
         are on the layer above it. In these views it shows ONLY as a dark edge at
         the collar and at the cuff, a slightly finer and older weave than the
         garment over it.
-      - >
-        WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at
-        night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY
-        TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED
-        FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial
-        workwear would have.
+      # MOVED OUT OF must_show 2026-08-04. What the undertunic looks like with
+      # the top layer OFF is invisible in all seven turnaround views and in every
+      # costume slot — it is a fact about one scene, his bunk aboard the ship at
+      # night. It cost ~290 characters of a budget this outfit is genuinely bound
+      # by, and it was being cut on every run anyway.
+      #
+      # IT IS NOT DELETED AND IT IS NOT OPTIONAL. must_show is per-outfit, not
+      # per-slot, so the place for it is the shot text of the slot that shows it
+      # — see the note in Character-Build-Recipe.md, "pin: does not reach a slot
+      # that takes no rules". WRITE IT INTO THAT SLOT IN Prompts.md:
+      #
+      #   Re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY
+      #   IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED
+      #   SHOULDER that no industrial workwear would have.
       - >
         A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick,
         a plain heavy buckle with no decoration on it, darkened and cracked from
@@ -198,10 +216,20 @@ outfits:
         anything else he owns, and it is not visible with the jacket on. No
         pendant, no charm, no jewellery of any kind at his throat.
       - >
-        LATE FORTIES — FORTY-EIGHT, TALL AND BROAD AND THICKENED. Heavy through
-        the chest and waist, not muscular, not lean, not athletic. He carries
-        weight. NOTHING may suggest he could still fight — no fighter's stance,
-        no coiled readiness, no combat posture.
+      # REWRITTEN 2026-08-04. "Heavy through the chest and waist. He carries
+      # weight." came back obese and short-looking. The words were an invitation
+      # and there was no photograph to argue with them; there is now, so the rule
+      # points at it instead of piling up adjectives.
+      - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
+        text: >
+          BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened —
+          broad through the chest and shoulders, softened at the waist. NOT
+          obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND
+          THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man
+          who has thickened, never a short wide one.
+      - >
+        LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight —
+        no fighter's stance, no coiled readiness, no combat posture.
       - >
         SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand
         without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years

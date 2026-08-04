@@ -49,7 +49,7 @@ boards:
           - Second skin from collar to ankle no volume anywhere
           - Hard ribbed mantle standing proud past the shoulder points
           - Wide heavy belt waist pulled in hard
-          - Split panels straight over the skin tight leg
+          - Nothing hangs from the belt no skirt no tabard no coat tail
           - Cut and articulated for an acrobat
       - heading: CONSTRUCTION
         x: 8.163
@@ -144,8 +144,9 @@ boards:
         h: 3.7
         font_size: 11.5
         items:
-          - Pale curved bone horns set into swept up dark hair asymmetric
-          - Long and sweeping on one side shorter points on the other
+          - Pale curved bone horns set into long dark hair WORN DOWN AND LOOSE
+          - Two only one each side each a third to a half the height of her head
+          - Alike in curve colour and size and NOT the same object never mirrored
           - Trophies from what the animal kills bone off creatures it brought down
           - Worn matte and yellowed never polished never carved never set in metal
           - The only ornamental object on her and it displays the beast's power not hers
@@ -281,12 +282,14 @@ boards:
         h: 3.5
         font_size: 9.5
         items:
-          - Pale curved bone projecting up and outward from both sides
-          - Long and sweeping on one side shorter points on the other
-          - ASYMMETRIC and that asymmetry is deliberate
+          - WORK IN PROGRESS - the final horn shape is not signed off yet
+          - EXACTLY TWO one each side pale curved bone
+          - Each a third to a half the height of her head
+          - Alike in curve colour and size and NOT the same object
+          - Never a mirrored pair and never three or a cluster
+          - Smooth never ridged never banded like a rams horn
           - Worn matte yellowed with age never polished never carved
-          - Trophies off creatures the animal brought down
-          - Never set in metal a trophy and not jewellery
+          - Trophies off creatures the animal brought down not jewellery
       - heading: THE HAIR
         x: 8.01
         y: 8.6
@@ -294,10 +297,10 @@ boards:
         h: 3.5
         font_size: 9.5
         items:
-          - Long and very dark swept UP AND BACK off the face
-          - A large rolled worked mass held high on the head
-          - The length falling loose behind and to the sides
-          - A BUILT shape not a hairstyle anyone maintains daily
+          - Long very dark and WORN DOWN AND LOOSE over the shoulders and back
+          - Swept back off the face field worn and slightly dishevelled
+          - NEVER piled up NEVER a bun NEVER a half up knot NEVER styled
+          - The horns sit in loose hair not in a built shape
           - Pale horns against very dark hair is the whole effect
       - heading: SKIN AND FACE
         x: 15.57

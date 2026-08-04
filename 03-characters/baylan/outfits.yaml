@@ -10,7 +10,10 @@ handedness: right
 # was costing him a fifth of his specification for somebody else's consistency.
 # His costume is genuinely large: 24 rules and ~6,100 characters, against her
 # 23,807 which no budget could ever carry.
-prompt_budget: 10000
+# 11,000 after the hip plates were added 2026-08-04. Still inside the
+# 7,000-12,000 working target recorded on BUDGET in short.py, and well under the
+# ~15,000 where the host starts compressing earlier context.
+prompt_budget: 11000
 
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
 height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
@@ -144,8 +147,10 @@ outfits:
           THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES
           JUST BELOW THE BELT — about a hand's width below it, and no further. It
           is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front
-          piece, and it NEVER reaches the thigh. It runs down the CENTRE FRONT
-          over chest and belly, with a stitched edge bounding it at each side.
+          piece of cloth, and it NEVER reaches the thigh. It runs down the CENTRE
+          FRONT over chest and belly, with a stitched edge bounding it at each
+          side. It is CLOTH, and it ends where the belt begins — the hip plates
+          below are a SEPARATE metal thing and the two never merge into one.
       - check: EXACTLY FIVE bands, a hand's width each, touching, shallow V.
         text: >
           FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND
@@ -217,6 +222,37 @@ outfits:
         a plain heavy buckle with no decoration on it, darkened and cracked from
         years of use. It is what the holster hangs from. If it reads as
         decorative or as armour, it is wrong.
+      # ADDED 2026-08-04 by the Production Designer. A fauld — overlapping metal
+      # plates at the hips, hung from the belt.
+      #
+      # THIS IS THE RISKIEST THING ON HIM AND THE RULES BELOW ARE WHY. It was
+      # chosen over hanging strips and cloth panels knowing that of the four
+      # shapes considered it is the one most likely to read as armour, and armour
+      # reads as status, and status is what he has spent eighteen years hiding.
+      # So it gets the same treatment the gauntlets got: it is given a job, and
+      # it is filthy.
+      #
+      # IT IS NOT A PLANT. The 501st CRL for the later costume has shoulder bells
+      # and gauntlets and no fauld, so nothing about this carries forward. It is
+      # this film's own, and Planted-Elements P5 should not grow a row for it.
+      - check: Hip plates hang from the belt. Salvage, not armour. Draw is CLEAR.
+        text: >
+          OVERLAPPING METAL PLATES AT THE HIPS, HUNG FROM THE BELT — four or five
+          broad plates a side, lapping downward, reaching mid-thigh at the
+          longest. SCAVENGED AND MISMATCHED: different metals, different ages,
+          different wear, dented and dulled and filthy. They do NOT match the
+          gauntlets and they are NOT a matched set with anything.
+      - >
+        THE HIP PLATES ARE WORK PROTECTION, NOT ARMOUR. They are what a man who
+        hauls crates against his own hips all day ends up wearing, and every
+        other hand in the crew would recognise them as freight kit. NOT a skirt,
+        NOT a tabard, NOT layered cloth, NOT a ceremonial drape, and NOTHING
+        about them may be martial, matched or ornamental.
+      - >
+        THE HIP PLATES NEVER BLOCK THE DRAW. The holster on his RIGHT hip and the
+        pouches on his LEFT hang OVER them, clear and unobstructed, and the
+        plates sit behind and around that kit rather than in front of it. If the
+        holster is buried or the grip is hard to reach, the image is wrong.
       # CHANGED 2026-08-04 by the Production Designer. These were leather wraps.
       # The gauntlets are already 3D PRINTED, and the later costume's are metal —
       # so the plant recorded in Planted-Elements P5 ("the bracers, a shape that

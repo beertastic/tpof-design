@@ -2,6 +2,39 @@
 
 All notable production-bible changes are recorded here.
 
+- **The build sheets carry pictures, 2026-08-04.** A printed shopping list is now
+  enough on its own in a charity shop. *"Heavy ribbed knit, dark warm brown"* is
+  unambiguous at a desk and useless on a rail, where the job is to recognise the
+  thing in three seconds.
+
+  **Nothing new was drawn.** All 33 figures are crops of plates already in the
+  repository — the material close-ups, the approved fronts, the locked prop
+  references. Each component names its own in `images:` with an optional `crop:`
+  in fractions of the frame; `build-guide-pdf` grew a `@figure` directive that
+  cuts, downsamples to ~200 dpi and lays them out. The crops are not committed,
+  because a second copy of a picture is the copy that goes stale.
+
+  **Figures are sized by HEIGHT, not width.** The first attempt matched widths
+  and a tall narrow fabric swatch towered over the square plate beside it and ate
+  a whole page — reportlab raised rather than shrinking it. Matching heights is
+  also how anyone reads a row of samples: like against like. Cells have a width
+  floor so captions under narrow swatches do not set six words to a line.
+
+  **A figure can carry a `scope:`, printed in red beneath it, and this is the
+  part that matters.** Several plates here are authoritative for one thing and
+  actively wrong about others. The A180 image is third-party. Shada's WESTAR is
+  **deliberately not locked** — the physical prop has never been photographed,
+  and `Shada-Image-TODO.md` warns that attaching it "would lock every image to a
+  gun nobody is building". The horn authority is right above the collar and
+  nothing below it, and the approved front is a true mirrored pair that must not
+  be used for the horns at all. Her make-up plate has no costume in frame. **A
+  picture with no caveat teaches everything in it equally**, which is precisely
+  how a department builds from a superseded image. Every one of those caveats is
+  now printed next to the picture that needs it.
+
+  Sheets run 0.27–0.37 MB, five to eight pages. `outfits.yaml` is still the only
+  source of truth and nothing about a prompt moved.
+
 - **Two build sheets per character are now generated, 2026-08-04.** A
   `_print_list.pdf` for the bench and a `_shopping_list.pdf` for the shop, built
   by the new `tools/build-lists` from `components:` in `outfits.yaml`. This

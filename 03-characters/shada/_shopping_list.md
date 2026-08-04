@@ -22,6 +22,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 
 **Bought ×1.** Target **£6–15**. *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/material-cloth.png", "caption": "THE ONE TO TAKE SHOPPING. The serpentine grain is a WEAVE \u2014 a faint irregular diamond lattice you can only see because the light is raking across it. Tonal, never a printed pattern. Ask a seller for a photograph lit like this one."}, {"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.32, 0.14, 0.68, 0.34], "caption": "Fitted, sleeveless, dusty grey. The flank panels lace over it \u2014 the vest itself stays plain at the chest."}]}
+
 | | |
 |---|---|
 | **Search** | `linen waistcoat grey`  ·  `sleeveless jacket cotton canvas`  ·  `textured weave waistcoat`  ·  `raw silk waistcoat` |
@@ -33,6 +35,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 ### 2. Waist belt, and a second slung diagonally below it
 
 **Bought ×2.** Target **£8–18 the pair**. *Not started.*
+
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/material-leather.png", "caption": "The leather to look for \u2014 soft, creased, matte, already worn. Note the colour: cool grey-brown, NOT the warm tan you will be offered. That difference is the dye job."}, {"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.3, 0.36, 0.7, 0.5], "caption": "One level at the waist, one slung diagonally below it."}]}
 
 | | |
 |---|---|
@@ -46,6 +50,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 
 **Bought ×6.** Target **£6–15**. *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/material-hardware.png", "caption": "Exactly this: plain steel roller buckles, a sprung hook, flat rivets, no plating and no decoration. Salvage, not jewellery. Everything here is load-bearing and everything here is bought."}]}
+
 | | |
 |---|---|
 | **Search** | `roller buckle steel`  ·  `harness buckle heavy duty`  ·  `load rated strap buckle`  ·  `industrial salvage hardware` |
@@ -57,6 +63,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 ### 4. Boots — mid-calf, grey-brown taupe
 
 **Bought ×1.** Target **£15–35**. *Not started.*
+
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.26, 0.66, 0.76, 1.0], "caption": "Mid-calf, flat, soft enough to slouch and crease. The criss-cross straps are added in-house \u2014 buy the SHAPE, and expect to dye it."}]}
 
 | | |
 |---|---|

@@ -371,6 +371,25 @@ renderer as the build guide, so they publish to Drive with everything else:
 | `_print_list.pdf` | `route: printed` and `route: made` | the bench — approximate sizes, colour swatches, finish and method |
 | `_shopping_list.pdf` | `route: bought` | the shop — search terms, filters, what to refuse, target price |
 
+**Both sheets carry pictures, added 2026-08-04**, so a printed shopping list is
+enough on its own in a charity shop. *"Heavy ribbed knit, dark warm brown"* is
+unambiguous at a desk and useless on a rail, where the job is to recognise the
+thing in three seconds. Each component names its plates in `images:`, with an
+optional `crop:` in fractions of the frame, and the generator cuts and places
+them. **Nothing new is drawn** — every picture is a crop of a plate already in
+the repository, which is why the crops are not committed.
+
+**A figure may carry a `scope:`, and it prints in red under the picture.** This
+matters more than it looks. Several plates here are authoritative for one thing
+and actively wrong about others: the A180 image is third-party, Shada's WESTAR is
+**deliberately not locked** because the prop has never been photographed, the
+horn authority is right above the collar and nothing below it, and her make-up
+plate has no costume in frame at all. **A picture with no caveat teaches
+everything in it equally** — that is exactly how a department ends up building
+from a superseded image, which is the failure `do-not-publish.txt` and the
+`references:` lock both exist to prevent. Where the repository records a scope,
+the sheet prints it.
+
 **Two sheets and not three, because three routes are two days of work** — a day
 at the bench and a day shopping. `printed` and `made` share a sheet but never a
 section: printing a piece that must move like cloth is the failure this document

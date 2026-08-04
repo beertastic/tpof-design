@@ -31,18 +31,21 @@ and it has to survive the trip to paper looking like one.
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
+import tempfile
 from pathlib import Path
 
+from PIL import Image as PILImage
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.platypus import (
-    BaseDocTemplate, Frame, HRFlowable, KeepTogether, ListFlowable, ListItem,
-    PageTemplate, Paragraph, Spacer, Table, TableStyle,
+    BaseDocTemplate, Frame, HRFlowable, Image, KeepTogether, ListFlowable,
+    ListItem, PageTemplate, Paragraph, Spacer, Table, TableStyle,
 )
 
 INK = colors.HexColor("#1a1a1a")
@@ -72,6 +75,10 @@ def styles() -> dict[str, ParagraphStyle]:
                    textColor=INK),
         "cellh": mk(name="ch", fontName="Helvetica-Bold", fontSize=8.5,
                     leading=11.5, textColor=INK),
+        "cap": mk(name="cap", fontName="Helvetica", fontSize=7.8, leading=10,
+                  textColor=MUTED, spaceBefore=3),
+        "scope": mk(name="scp", fontName="Helvetica-Bold", fontSize=7.8,
+                    leading=10, textColor=WARN_EDGE, spaceBefore=2),
     }
 
 
@@ -129,7 +136,110 @@ def cell(text: str, style: ParagraphStyle):
     return pair
 
 
-def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> list:
+# `@figure {...}` — a row of pictures, emitted by tools/build-lists.
+#
+# WHY A PICTURE AT ALL. A shopping list that says "heavy ribbed knit, dark warm
+# brown" is unambiguous at a desk and useless in a charity shop, where the job
+# is to recognise the thing on a rail in three seconds. The plates already exist
+# and already carry the decision; this puts them on the page beside the words.
+#
+# WHY EACH FIGURE CAN CARRY A `scope`. Several plates in this production are
+# authoritative for ONE thing and actively wrong about others — the stock
+# WESTAR-35 is right about shape and wrong about finish, the approved front is
+# right about the costume and a true mirrored pair on the horns. A picture with
+# no caveat teaches everything in it equally, which is the exact failure
+# `Shada-Image-TODO.md` calls "locking every image to a gun nobody is building".
+# So a scoped figure prints its scope in red under the image, and the generator
+# is what decides which plates get one.
+FIGURE_RE = re.compile(r"^@figure\s+(\{.*\})\s*$")
+
+
+def figure(spec: dict, st: dict[str, ParagraphStyle], width: float,
+           tmp: Path, repo: Path, counter: list) -> list:
+    cols = spec.get("cols") or []
+    if not cols:
+        return []
+
+    gap = 7
+
+    # EVERY FIGURE IN A ROW IS SET TO THE SAME HEIGHT, and the widths follow
+    # from each crop's aspect. Sizing by width instead — the obvious way — makes
+    # a tall narrow swatch tower over the square plate beside it and eat a whole
+    # page, which is what the first version did. Matching heights is also how
+    # anyone reads a row of samples: like against like.
+    row_h = 58 * mm
+    loaded = []
+
+    for col in cols:
+        src = repo / col["src"]
+        if not src.is_file():
+            loaded.append((None, col, 1.0))
+            continue
+        im = PILImage.open(src).convert("RGB")
+        if col.get("crop"):
+            l, t, r, b = col["crop"]
+            im = im.crop((int(l * im.width), int(t * im.height),
+                          int(r * im.width), int(b * im.height)))
+        loaded.append((im, col, im.width / im.height))
+
+    # The cell has to be wide enough for the caption even when the picture is a
+    # narrow vertical swatch, or the caption sets six words to a line and reads
+    # like a column of poetry. So the cell gets a floor, the picture keeps its
+    # own width inside it, and the row shrinks until the CELLS fit — which takes
+    # a couple of passes, because the floor stops it being one division.
+    floor = 40 * mm
+    span = width - gap * (len(loaded) - 1)
+    for _ in range(6):
+        cellw = [max(row_h * a, floor) for _, _, a in loaded]
+        if sum(cellw) <= span + 0.5:
+            break
+        flexible = sum(w for w in cellw if w > floor)
+        if flexible <= 0:
+            break
+        row_h *= max((span - sum(floor for w in cellw if w <= floor)), 1) / flexible
+
+    widths, cells = [], []
+    for im, col, aspect in loaded:
+        iw = row_h * aspect
+        widths.append(max(iw, floor))
+        if im is None:
+            cells.append([Paragraph(
+                f"<i>missing image: {col['src']}</i>", st["cap"])])
+            continue
+
+        # Roughly 200 dpi at the placed size. The source plates are 2 MB each
+        # and a sheet carrying twenty at full resolution is not emailable.
+        target_px = max(int(iw / 72 * 200), 1)
+        if im.width > target_px:
+            im = im.resize((target_px, max(int(im.height * target_px / im.width), 1)),
+                           PILImage.LANCZOS)
+
+        counter[0] += 1
+        out = tmp / f"fig{counter[0]:03d}.jpg"
+        im.save(out, "JPEG", quality=84, optimize=True)
+
+        stack = [Image(str(out), width=iw, height=row_h)]
+        if col.get("caption"):
+            stack.append(Paragraph(inline(col["caption"]), st["cap"]))
+        if col.get("scope"):
+            stack.append(Paragraph(inline(col["scope"]), st["scope"]))
+        cells.append(stack)
+
+    row = Table([cells], colWidths=[w + gap for w in widths[:-1]] + widths[-1:],
+                hAlign="LEFT")
+    row.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), gap),
+        ("RIGHTPADDING", (-1, 0), (-1, -1), 0),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    return [Spacer(1, 5), KeepTogether(row), Spacer(1, 9)]
+
+
+def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float,
+                    tmp: Path | None = None, repo: Path | None = None) -> list:
     # Frontmatter is repository bookkeeping, not something a maker needs.
     if md.startswith("---"):
         end = md.find("\n---", 3)
@@ -139,6 +249,7 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> lis
     out: list = []
     lines = md.splitlines()
     i, n = 0, len(lines)
+    counter = [0]
 
     while i < n:
         line = lines[i]
@@ -146,6 +257,14 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> lis
 
         if not stripped:
             i += 1
+            continue
+
+        m = FIGURE_RE.match(stripped)
+        if m:
+            i += 1
+            if tmp is not None and repo is not None:
+                out += figure(json.loads(m.group(1)), st, width, tmp, repo,
+                              counter)
             continue
 
         # Table: a header row followed by a |---|---| separator.
@@ -236,7 +355,7 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> lis
         # Paragraph — gather until a blank line or the start of another block.
         buf = []
         while i < n and lines[i].strip() and not re.match(
-                r"^(#{1,6}\s|[-*+]\s|>|\||---+$)", lines[i].strip()):
+                r"^(#{1,6}\s|[-*+]\s|>|\||---+$|@figure\s)", lines[i].strip()):
             buf.append(lines[i].strip())
             i += 1
         if buf:
@@ -273,7 +392,16 @@ def render(md_path: Path, pdf_path: Path, character: str,
         id="p",
         frames=[Frame(margin, 22 * mm, width, A4[1] - margin - 22 * mm, id="f")],
         onPage=furniture)])
-    doc.build(build_flowables(md_path.read_text(encoding="utf-8"), st, width))
+
+    # Cropped and downsampled figures are written here and thrown away. They are
+    # derived from plates already in the repository, so committing them would be
+    # committing the same picture twice — and the second copy would be the one
+    # that goes stale. The directory must outlive doc.build(), which is the only
+    # reason this is a context manager and not a bare mkdtemp.
+    repo = Path(__file__).resolve().parent.parent
+    with tempfile.TemporaryDirectory(prefix="tpof-fig-") as td:
+        doc.build(build_flowables(md_path.read_text(encoding="utf-8"), st, width,
+                                  Path(td), repo))
 
 
 def main(argv: list[str]) -> int:

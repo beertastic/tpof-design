@@ -34,11 +34,31 @@ and a target price — and never a listing. Confirmed again 2026-08-04.
 THE BUDGET is a per-character cap on BOUGHT ITEMS ONLY. Filament, paint,
 leather, dye and Shada's contact lens are materials and are tracked separately;
 they are not what shopping well controls.
+
+WHY THE SHEETS CARRY PICTURES, added 2026-08-04. "Heavy ribbed knit, dark warm
+brown" is unambiguous at a desk and useless on a rail in a charity shop, where
+the job is to recognise the thing in three seconds. The plates already exist and
+already carry the decision, so each component names its own in `images:` and the
+generator crops and places them.
+
+EVERY IMAGE PATH IS CHECKED HERE, not at render time. A typo should fail the
+build loudly rather than print "missing image" onto a sheet somebody then takes
+shopping.
+
+AND SOME PICTURES CARRY A `scope:`, which prints in red beneath them. Several
+plates in this production are authoritative for one thing and actively wrong
+about others — the A180 photograph is third-party, Shada's WESTAR is
+deliberately not locked because the prop has never been photographed, the horn
+authority is right above the collar and nothing below it, and her make-up plate
+has no costume in frame at all. A picture with no caveat teaches everything in
+it equally, which is how a costume department ends up building from a superseded
+image. Where the repository records a scope, the sheet prints it.
 """
 from __future__ import annotations
 
 import importlib.machinery
 import importlib.util
+import json
 import re
 import sys
 from pathlib import Path
@@ -91,6 +111,31 @@ def money(budget: str) -> tuple[int, int]:
 
 def swatch(hexcode: str | None) -> str:
     return f"{{swatch:{hexcode}}} " if hexcode else ""
+
+
+def figures(c: dict) -> list[str]:
+    """A component's pictures, as a `@figure` directive the renderer reads.
+
+    Paths are checked here rather than at render time so a typo fails the
+    generator loudly instead of printing "missing image" onto a sheet somebody
+    then takes shopping.
+    """
+    imgs = c.get("images") or []
+    if not imgs:
+        return []
+    cols = []
+    for im in imgs:
+        if not (REPO / im["src"]).is_file():
+            raise SystemExit(f"  ✗ missing image: {im['src']}  ({c['item']})")
+        col = {"src": im["src"]}
+        if im.get("crop"):
+            col["crop"] = im["crop"]
+        if im.get("caption"):
+            col["caption"] = clean(im["caption"])
+        if im.get("scope"):
+            col["scope"] = clean(im["scope"])
+        cols.append(col)
+    return ["@figure " + json.dumps({"cols": cols}), ""]
 
 
 def spec_table(b: dict) -> list[str]:
@@ -155,6 +200,7 @@ def print_sheet(char: str, title: str, outfits: list) -> str:
                   f"**{c['route'].capitalize()} ×{c.get('qty', 1)}.** "
                   f"*{c.get('status', 'not-started').replace('-', ' ').capitalize()}.*",
                   ""]
+            s += figures(c)
             s += spec_table(b)
             s += palette_table(b)
             if c.get("note"):
@@ -209,6 +255,7 @@ def shop_sheet(char: str, title: str, outfits: list) -> tuple[str, int, int]:
               f"**Bought ×{c.get('qty', 1)}.** Target **{s.get('budget', '—')}**. "
               f"*{c.get('status', 'not-started').replace('-', ' ').capitalize()}.*",
               ""]
+        L += figures(c)
         rows = ["| | |", "|---|---|"]
         if s.get("search"):
             terms = "  ·  ".join(f"`{t}`" for t in s["search"])

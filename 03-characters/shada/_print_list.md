@@ -18,6 +18,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Printed ×~440.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/material-scale.png", "caption": "THE LOCKED PLATE REFERENCE. One repeated hexagon, a RAISED serpent ridge on each, tessellated edge to edge in one plane with a thin dark seam \u2014 never shingled. The mismatched alloys are all paint; every plate here came off the same master.", "scope": "AUTHORITATIVE FOR THE PLATE \u2014 its size, its outline and its ridge. It shows an ASSEMBLED panel: do not read the linkage as permission to PRINT pre-linked sheets, which is forbidden on every cloth piece."}]}
+
 | | |
 |---|---|
 | **Size** | 10 to 15 mm across the flats — regular equilateral hexagons, ONE printed master repeated ~440 times. That is much finer than it sounds: a hexagon 12.5 mm across covers about 1.35 cm². IF YOU CAN COUNT THE PLATES AT A GLANCE THEY ARE WRONG. Each needs TWO PUNCHED HOLES for lacing. |
@@ -41,6 +43,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Printed ×1.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.21, 0.34, 0.41, 0.52], "caption": "Her RIGHT forearm, which is the LEFT of this picture. A solid shell with a banded cuff \u2014 visibly a different object from the four cloth pieces, which is the whole point."}]}
+
 | | |
 |---|---|
 | **Size** | Covers ~200 cm² of her right forearm — wrist to below the elbow. Printed as ONE SHELL, which is what removes the ~150 hand-laced plates this area would otherwise have cost. |
@@ -55,6 +59,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Printed ×1.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/blaster.png", "caption": "Long barrel, brass panels let into the slide, black textured grip. The silhouette is the thing to hold on to.", "scope": "NOT A LOCKED PROP REFERENCE, deliberately. Props are locked only against a photograph of the physical build, and this weapon has not been photographed yet \u2014 attaching it would lock every image to a gun nobody is building. Shape and intent only; photograph the printed prop and replace it."}]}
+
 | | |
 |---|---|
 | **Size** | ~300 to 330 mm overall — the WESTAR-35 is a long-barrelled pistol and the length is most of its silhouette. ONE PRINTED WEAPON CAN SERVE TWO CHARACTERS: see Costume-Build-Method. Check before printing a second. |
@@ -68,6 +74,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 ### 4. Combat knife
 
 **Printed ×1.** *Not started.*
+
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/knife.png", "caption": "THE LOCKED PROP REFERENCE \u2014 knife and sheath together. A plain working blade with a wrapped grip; the sheath below it is the leather job that goes with it."}]}
 
 | | |
 |---|---|
@@ -87,6 +95,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Made ×2.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.34, 0.25, 0.66, 0.43], "caption": "The laced pair over the ribs, about twelve plates across each panel, with the lacing running up the centre front. NO BREASTPLATE \u2014 the chest between them stays plain cloth."}]}
+
 | | |
 |---|---|
 | **Size** | ~150 cm² each, ~110 plates each — HALF THE PLATE COUNT IN THE COSTUME. About twelve plates across a panel. PATTERN THESE FIRST: their area depends on a pattern nobody has cut yet, so they are both the biggest number in this build and the least certain one. |
@@ -99,6 +109,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 ### 2. Scale cap — her LEFT shoulder
 
 **Made ×1.** *Not started.*
+
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.54, 0.15, 0.76, 0.31], "caption": "Her LEFT shoulder, which is the RIGHT of this picture. A PALM'S WIDTH \u2014 the point of the shoulder only, and it stops there."}]}
 
 | | |
 |---|---|
@@ -113,6 +125,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Made ×1.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.54, 0.47, 0.74, 0.68], "caption": "Her LEFT outer thigh, which is the RIGHT of this picture. This is the only warm-coloured thing on the costume."}]}
+
 | | |
 |---|---|
 | **Size** | ~180 cm², ~130 plates. |
@@ -126,6 +140,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Made ×2.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/turn-working-front.png", "crop": [0.25, 0.4, 0.47, 0.62], "caption": "Her RIGHT thigh, which is the LEFT of this picture. The drop is set by where her hand falls, so build it around the printed WESTAR and not before."}]}
+
 | | |
 |---|---|
 | **Size** | BUILD AROUND THE PRINTED WESTAR-35 AND THE PRINTED KNIFE, and not before they exist. The WESTAR's long barrel sets the holster depth and it is longer than a generic pistol pattern allows for. |
@@ -138,6 +154,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 ### 5. Scale make-up — face, neck, collarbone, shoulders, arms, hands
 
 **Made ×1.** *Not started.*
+
+@figure {"cols": [{"src": "03-characters/shada/source/artwork/scale_portrait.png", "caption": "THE MAKE-UP LOCK. Flat like a tattoo, never raised or pebbled, in BROKEN PATCHES at the EDGES only \u2014 temples, outer cheekbone, jawline, the SIDE of the neck. Never the middle of the cheek and never the front of the throat. Tonal: the same colour as her skin.", "scope": "AUTHORITATIVE FOR THE MAKE-UP AND THE PUPIL ONLY. There is no costume in this frame and nothing about the costume may be taken from it. The written rule wins on colour \u2014 it runs slightly warm."}]}
 
 | | |
 |---|---|

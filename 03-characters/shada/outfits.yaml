@@ -797,6 +797,18 @@ outfits:
             kills the flex — all four cloth pieces must move like heavy cloth.
             If assembly time is the problem, REDUCE THE PATCH AREAS rather than
             link the plates.
+        images:
+          - src: 03-characters/shada/source/artwork/material-scale.png
+            caption: >-
+              THE LOCKED PLATE REFERENCE. One repeated hexagon, a RAISED
+              serpent ridge on each, tessellated edge to edge in one plane with
+              a thin dark seam — never shingled. The mismatched alloys are all
+              paint; every plate here came off the same master.
+            scope: >-
+              AUTHORITATIVE FOR THE PLATE — its size, its outline and its
+              ridge. It shows an ASSEMBLED panel: do not read the linkage as
+              permission to PRINT pre-linked sheets, which is forbidden on
+              every cloth piece.
         note: >
           10 to 15 mm across, regular equilateral hexagons, ONE printed master
           repeated. Re-confirmed 2026-08-01 against a generation that came back
@@ -832,6 +844,13 @@ outfits:
             is visible and structural and cannot be faked with a hidden
             fastening. NO BREASTPLATE: chest and sternum stay plain cloth
             between the panels.
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.34, 0.25, 0.66, 0.43]
+            caption: >-
+              The laced pair over the ribs, about twelve plates across each
+              panel, with the lacing running up the centre front. NO
+              BREASTPLATE — the chest between them stays plain cloth.
         note: >
           ~110 plates each, and half the plate count in the costume. PATTERN THESE
           FIRST — their area depends on a pattern nobody has cut yet. Unmatched to
@@ -855,6 +874,12 @@ outfits:
           method: >-
             MOVES LIKE HEAVY CLOTH, NOT PLATE — it has to hang loose and swing.
             Pre-linked printed sheets are FORBIDDEN here.
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.54, 0.15, 0.76, 0.31]
+            caption: >-
+              Her LEFT shoulder, which is the RIGHT of this picture. A PALM'S
+              WIDTH — the point of the shoulder only, and it stops there.
         note: >
           ~90 plates. A PALM'S WIDTH — the point of the shoulder only. Three to
           five plates absent. Moves like heavy cloth, not plate.
@@ -872,6 +897,12 @@ outfits:
           method: >-
             Must move like heavy cloth. Pre-linked printed sheets are FORBIDDEN
             here.
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.54, 0.47, 0.74, 0.68]
+            caption: >-
+              Her LEFT outer thigh, which is the RIGHT of this picture. This is
+              the only warm-coloured thing on the costume.
         note: >
           ~130 plates. DARK BRONZE — the one warm thing in the whole costume, and
           the only place that colour appears.
@@ -899,6 +930,13 @@ outfits:
             where a hard printed shell is correct. Print the cuff separately if
             it fights the build plate; the cuff reads warm brown as bought
             leather and needs the same taupe dye job as the belts.
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.21, 0.34, 0.41, 0.52]
+            caption: >-
+              Her RIGHT forearm, which is the LEFT of this picture. A solid
+              shell with a banded cuff — visibly a different object from the
+              four cloth pieces, which is the whole point.
         note: >
           Dull grey steel, a cluster of dim amber telltales at the wrist. The one
           piece that does not flex. MUST NOT MATCH the other four pieces.
@@ -933,6 +971,18 @@ outfits:
             you, and not crocodile or python. She did not choose it and it must
             not look chosen. Nothing that looks bought.
           budget: "£6–15"
+        images:
+          - src: 03-characters/shada/source/artwork/material-cloth.png
+            caption: >-
+              THE ONE TO TAKE SHOPPING. The serpentine grain is a WEAVE — a
+              faint irregular diamond lattice you can only see because the
+              light is raking across it. Tonal, never a printed pattern. Ask a
+              seller for a photograph lit like this one.
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.32, 0.14, 0.68, 0.34]
+            caption: >-
+              Fitted, sleeveless, dusty grey. The flank panels lace over it —
+              the vest itself stays plain at the chest.
         note: >
           HEAVY CLOSE-WOVEN CLOTH, not hide — changed 2026-08-02, which moved this
           from a hide to find to a garment to source and distress.
@@ -958,6 +1008,15 @@ outfits:
             BUY FOR CONSTRUCTION, NOT COLOUR — see the dyeing note. Warm brown
             as bought is expected and fine. No branding, no fashion buckles.
           budget: "£8–18 the pair"
+        images:
+          - src: 03-characters/shada/source/artwork/material-leather.png
+            caption: >-
+              The leather to look for — soft, creased, matte, already worn.
+              Note the colour: cool grey-brown, NOT the warm tan you will be
+              offered. That difference is the dye job.
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.30, 0.36, 0.70, 0.50]
+            caption: One level at the waist, one slung diagonally below it.
         note: >
           Worn taupe leather. See the dyeing note under boots — these read warm
           brown as bought.
@@ -985,6 +1044,12 @@ outfits:
             that are seen but not loaded. Nothing bright, nothing plated,
             nothing decorative.
           budget: "£6–15"
+        images:
+          - src: 03-characters/shada/source/artwork/material-hardware.png
+            caption: >-
+              Exactly this: plain steel roller buckles, a sprung hook, flat
+              rivets, no plating and no decoration. Salvage, not jewellery.
+              Everything here is load-bearing and everything here is bought.
         note: >
           LOAD-BEARING, SO BOUGHT HARDWARE. Printed buckles fail at the layer
           lines under exactly the loads a costume puts on them. Real load-rated
@@ -1010,6 +1075,13 @@ outfits:
           method: >-
             Holster on her RIGHT thigh, on the drawing side. The knife sheath
             goes on her LEFT hip — the two are made together and worn apart.
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.25, 0.40, 0.47, 0.62]
+            caption: >-
+              Her RIGHT thigh, which is the LEFT of this picture. The drop is
+              set by where her hand falls, so build it around the printed
+              WESTAR and not before.
         note: Taupe leather, on the drawing side. Built around the WESTAR-35.
       - item: WESTAR-35 blaster pistol
         route: printed
@@ -1031,6 +1103,17 @@ outfits:
             back where a hand and a holster mouth have worn it, and let the
             recesses stay dark.
           method: On her RIGHT side, hip or thigh. She is right handed.
+        images:
+          - src: 03-characters/shada/source/artwork/blaster.png
+            caption: >-
+              Long barrel, brass panels let into the slide, black textured
+              grip. The silhouette is the thing to hold on to.
+            scope: >-
+              NOT A LOCKED PROP REFERENCE, deliberately. Props are locked only
+              against a photograph of the physical build, and this weapon has
+              not been photographed yet — attaching it would lock every image
+              to a gun nobody is building. Shape and intent only; photograph
+              the printed prop and replace it.
         note: On her RIGHT side, hip or thigh. Well used, never factory fresh.
       - item: Combat knife
         route: printed
@@ -1052,6 +1135,12 @@ outfits:
             On her LEFT hip, off the drawing side. PRINT IT BLUNT — a costume
             knife carried against the body needs a rounded edge and a rounded
             point regardless of how it reads on camera.
+        images:
+          - src: 03-characters/shada/source/artwork/knife.png
+            caption: >-
+              THE LOCKED PROP REFERENCE — knife and sheath together. A plain
+              working blade with a wrapped grip; the sheath below it is the
+              leather job that goes with it.
         note: On her LEFT hip. Well used.
       - item: Boots — mid-calf, grey-brown taupe
         route: bought
@@ -1077,6 +1166,12 @@ outfits:
             drifts back toward brown on almost every image. It will do the same
             on the bench. Nothing with a heel, no zips on show, no branding.
           budget: "£15–35"
+        images:
+          - src: 03-characters/shada/source/artwork/turn-working-front.png
+            crop: [0.26, 0.66, 0.76, 1.0]
+            caption: >-
+              Mid-calf, flat, soft enough to slouch and crease. The criss-cross
+              straps are added in-house — buy the SHAPE, and expect to dye it.
         note: >
           Long leather straps wound criss-cross up the shaft.
           TAUPE IS A DYEING AND DISTRESSING JOB. Belts, holster, thigh strap,
@@ -1107,6 +1202,17 @@ outfits:
             optical supplier, needs lead time, and needs a wear-time and
             handling protocol for the performer. Budget and order it
             separately, and early.
+        images:
+          - src: 03-characters/shada/source/artwork/scale_portrait.png
+            caption: >-
+              THE MAKE-UP LOCK. Flat like a tattoo, never raised or pebbled, in
+              BROKEN PATCHES at the EDGES only — temples, outer cheekbone,
+              jawline, the SIDE of the neck. Never the middle of the cheek and
+              never the front of the throat. Tonal: the same colour as her skin.
+            scope: >-
+              AUTHORITATIVE FOR THE MAKE-UP AND THE PUPIL ONLY. There is no
+              costume in this frame and nothing about the costume may be taken
+              from it. The written rule wins on colour — it runs slightly warm.
         note: >
           FINE scales on exposed skin, and a separate discipline from the armour.
           The reptilian pupil is a CONTACT LENS on a human performer — the eye

@@ -207,6 +207,18 @@ outfits:
             altered to fit her exactly, and buying it already fitted is the
             mistake.
           budget: "£3–8"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/material_cloth.png
+            crop: [0.0, 0.0, 0.44, 1.0]
+            caption: >-
+              THE TEXTURE TO MATCH. Fine, dense vertical ribbing — closer to a
+              thermal base layer than to a chunky jumper. If the ribs are wide
+              enough to count across the chest, it is too coarse.
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.30, 0.15, 0.70, 0.42]
+            caption: >-
+              How it sits — high mock neck, close to the body, sleeves to the
+              wrist under the bracers.
         note: >
           Heavy ribbed knit, dark warm brown. Search by CONSTRUCTION, not by
           look — "ribbed mock neck", "ribbed base layer", "ribbed zip
@@ -238,6 +250,18 @@ outfits:
             guide written from photographs alone recommended an Etsy leather
             pauldron, and that is the single most wrong thing it is possible to
             buy for this costume.
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/mantle_detail.png
+            caption: >-
+              THE AUTHORITY ON THIS SURFACE. Irregular crazing and wear,
+              heavier at the shoulder fold — not a regular diamond quilt and
+              not a lattice, both of which have come back from generators and
+              are wrong.
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.26, 0.14, 0.74, 0.34]
+            caption: >-
+              The silhouette — a sharp upswept point at each shoulder, rising
+              at the back into the stand collar.
         note: >
           STIFFENED CLOTH — ribbed, quilted or pleated, holding its shape by
           construction. NOT leather, NOT printed, NOT a bought pauldron. A
@@ -268,6 +292,18 @@ outfits:
             fabrics. Panels and distressing are added in-house afterwards, so
             buy the construction and not the finish.
           budget: "£5–15"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/material_cloth.png
+            crop: [0.44, 0.0, 1.0, 1.0]
+            caption: >-
+              The trouser cloth beside the knit — a flat, dry, close-woven
+              fabric with a stitched panel seam. That seam is the construction
+              to look for.
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.28, 0.42, 0.72, 0.75]
+            caption: >-
+              Close to the leg, panels at the outer thigh, pads at the knee.
+              Jodhpurs already have this shape.
         note: >
           EQUESTRIAN JODHPURS OR BREECHES are the real-world match — contrast
           knee patches stitched onto a fabric leg is exactly this construction,
@@ -292,6 +328,12 @@ outfits:
             Leather, riveted, buckled — one of the few places on this costume
             where leather is correct. Two or three buckles each, on the outside
             of the arm.
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.20, 0.36, 0.82, 0.52]
+            caption: >-
+              Both bracers, wrist to below the elbow, buckles on the outside of
+              the arm. Note where they STOP — the elbow stays clear.
         note: >
           Leather, riveted, buckled. FOREARM ONLY — wrist to below the elbow,
           not continuing up the upper arm. Dark. One of the few places leather
@@ -315,6 +357,16 @@ outfits:
             suitable turns up, the buckle and fittings are printed and only the
             strap is bought.
           budget: "£3–10"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/material_hardware.png
+            caption: >-
+              The hardware language for the whole costume — plain, heavy,
+              salvaged, unpolished. Buy a buckle that looks like these.
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.32, 0.39, 0.68, 0.50]
+            caption: >-
+              Broad at the waist, sitting level. The proportion is why a men's
+              belt often works better than a women's.
         note: >
           Broad leather belt, plain heavy buckle. Men's belts are often the
           right proportion even on a petite frame. Buckle and fittings printed
@@ -339,6 +391,12 @@ outfits:
             Nothing tactical-modern — no MOLLE webbing, no nylon, no visible
             branding. Nothing issued: nothing about her is insignia.
           budget: "£6–14 the pair"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/material_leather.png
+            caption: >-
+              THIS IS THE POUCH. Soft worn leather, a single stud closure, a
+              hand-stitched seam and a rounded flap — not a stiff moulded
+              case. Army surplus sells this shape constantly.
       - item: Holster — belt-mounted, her RIGHT hip
         route: made
         qty: 1
@@ -357,6 +415,12 @@ outfits:
             Grip up and angled forward for a right-hand draw. She is RIGHT
             handed — blaster on the right, leash and pouches on the left, off
             the drawing side.
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.26, 0.40, 0.52, 0.62]
+            caption: >-
+              Her RIGHT hip, which is the LEFT of this picture. Hanging from
+              the belt down the thigh, grip up and angled forward.
         note: >
           Leather, hanging from the belt down the right thigh, grip up and
           angled forward for a right-hand draw. Built around the A180, not
@@ -385,6 +449,18 @@ outfits:
             holes and the fluting do not need support through their openings.
             The knurled knob on the mounting rail is the detail most likely to
             be lost at a coarse layer height — print it separately if it is.
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/blaster.png
+            caption: >-
+              Two-tone: bright polished steel forward, black at the back. Six
+              vent holes near the muzzle, fluting part way back, mounting rail
+              with a knurled knob, chequered raked grip.
+          - src: 03-characters/captain-jasu/reference/props/a180.jpg
+            caption: The real-world original — the A180 Jyn Erso carries in Rogue One.
+            scope: >-
+              THIRD-PARTY REFERENCE. Replace it with a photograph of our own
+              printed build as soon as one exists: for anything physically
+              built the reference is a photograph of the build, not a render.
         note: >
           The weapon Jyn Erso carries in Rogue One. Reference at
           reference/props/a180.jpg. Two-tone — bright polished steel forward,
@@ -435,6 +511,16 @@ outfits:
           source/artwork/portrait.png, the only plate that satisfies it on every
           point. The approved front is a TRUE MIRRORED PAIR — verified by
           flipping one horn onto the other — and must not be used for the horns.
+        images:
+          - src: 03-characters/captain-jasu/reference/headdress/horns-authority-2026-08-04.png
+            caption: >-
+              THE HORN AUTHORITY, cut from portrait.png above the collar. 46%
+              and 53% of head height, one blunt-tipped and one pointed — the
+              only plate compliant on every point of the 2026-08-04 ruling.
+            scope: >-
+              AUTHORITATIVE FOR THE HORNS AND NOTHING ELSE. The approved front
+              is a TRUE MIRRORED PAIR and must not be used for them, and
+              headdress.png shows three on the visible side and is out of spec.
       - item: Whistle on a cord
         route: printed
         qty: 1
@@ -456,6 +542,12 @@ outfits:
           method: >-
             Cord at the throat, not a chain. THERE IS EXACTLY ONE AND IT IS AT
             HER THROAT — the belt carries no second whistle.
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/whistle_and_leash.png
+            crop: [0.0, 0.0, 0.44, 1.0]
+            caption: >-
+              Small, plain, dark, on a thin cord. A tube with a mouthpiece and
+              nothing else — no decoration, no chain, no fob.
         note: >
           THE HERO PROP. Small, cheap-looking, much handled, worn at the throat.
           It is her entire command structure — she whistles and the beast comes,
@@ -486,6 +578,17 @@ outfits:
             her hand and NEVER on the animal — she carries restraint she does
             not need, as a display for the crew.
           budget: "£4–10"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/whistle_and_leash.png
+            crop: [0.42, 0.0, 1.0, 1.0]
+            caption: >-
+              Heavy doubled strap, a plain sprung hook, worn dark. Wide and
+              thick for an animal far bigger than a dog.
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.58, 0.40, 0.82, 0.72]
+            caption: >-
+              Coiled and hung at the belt on her LEFT — off the drawing side.
+              Never in her hand, never on the animal.
         note: >
           Heavy strap or chain, coiled and hung at the belt on her left, off the
           drawing side. Never in her hand and never on the animal. She is
@@ -518,6 +621,13 @@ outfits:
             every other way, RE-HEEL IT — that is a cobbler's job and it costs
             less than the boot. Do not pay extra for "like new".
           budget: "£15–30"
+        images:
+          - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+            crop: [0.26, 0.66, 0.74, 1.0]
+            caption: >-
+              THE SHAFT HEIGHT IS THE TEST — well up the calf, ending below the
+              knee, close to the leg. Flat sole. Scuffed, creased and looked
+              after, which is what a charity shop already sells.
         note: >
           Brown leather, practical, genuinely worn. Charity shops are the best
           source and the wear is wanted — do not pay extra for "like new".

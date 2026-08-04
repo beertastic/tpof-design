@@ -24,6 +24,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 
 **Bought ×1.** Target **£3–8**. *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/material_cloth.png", "crop": [0.0, 0.0, 0.44, 1.0], "caption": "THE TEXTURE TO MATCH. Fine, dense vertical ribbing \u2014 closer to a thermal base layer than to a chunky jumper. If the ribs are wide enough to count across the chest, it is too coarse."}, {"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.3, 0.15, 0.7, 0.42], "caption": "How it sits \u2014 high mock neck, close to the body, sleeves to the wrist under the bracers."}]}
+
 | | |
 |---|---|
 | **Search** | `ribbed mock neck`  ·  `ribbed base layer`  ·  `ribbed zip turtleneck`  ·  `merino base layer half zip` |
@@ -35,6 +37,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 ### 2. Trousers — quilted outer-thigh panels, knee pads
 
 **Bought ×1.** Target **£5–15**. *Not started.*
+
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/material_cloth.png", "crop": [0.44, 0.0, 1.0, 1.0], "caption": "The trouser cloth beside the knit \u2014 a flat, dry, close-woven fabric with a stitched panel seam. That seam is the construction to look for."}, {"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.28, 0.42, 0.72, 0.75], "caption": "Close to the leg, panels at the outer thigh, pads at the knee. Jodhpurs already have this shape."}]}
 
 | | |
 |---|---|
@@ -48,6 +52,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 
 **Bought ×1.** Target **£3–10**. *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/material_hardware.png", "caption": "The hardware language for the whole costume \u2014 plain, heavy, salvaged, unpolished. Buy a buckle that looks like these."}, {"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.32, 0.39, 0.68, 0.5], "caption": "Broad at the waist, sitting level. The proportion is why a men's belt often works better than a women's."}]}
+
 | | |
 |---|---|
 | **Search** | `wide leather belt`  ·  `mens leather belt heavy buckle`  ·  `vintage tan leather belt` |
@@ -59,6 +65,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 ### 4. Belt pouches
 
 **Bought ×2.** Target **£6–14 the pair**. *Not started.*
+
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/material_leather.png", "caption": "THIS IS THE POUCH. Soft worn leather, a single stud closure, a hand-stitched seam and a rounded flap \u2014 not a stiff moulded case. Army surplus sells this shape constantly."}]}
 
 | | |
 |---|---|
@@ -72,6 +80,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 
 **Bought ×1.** Target **£4–10**. *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/whistle_and_leash.png", "crop": [0.42, 0.0, 1.0, 1.0], "caption": "Heavy doubled strap, a plain sprung hook, worn dark. Wide and thick for an animal far bigger than a dog."}, {"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.58, 0.4, 0.82, 0.72], "caption": "Coiled and hung at the belt on her LEFT \u2014 off the drawing side. Never in her hand, never on the animal."}]}
+
 | | |
 |---|---|
 | **Search** | `heavy leather dog lead`  ·  `chain dog lead`  ·  `leather leash large breed` |
@@ -83,6 +93,8 @@ status: "generated from outfits.yaml — do not hand-edit"
 ### 6. Boots — tall, close to the calf
 
 **Bought ×1.** Target **£15–30**. *Not started.*
+
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.26, 0.66, 0.74, 1.0], "caption": "THE SHAFT HEIGHT IS THE TEST \u2014 well up the calf, ending below the knee, close to the leg. Flat sole. Scuffed, creased and looked after, which is what a charity shop already sells."}]}
 
 | | |
 |---|---|

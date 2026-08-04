@@ -18,6 +18,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Printed ×1.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/blaster.png", "caption": "Two-tone: bright polished steel forward, black at the back. Six vent holes near the muzzle, fluting part way back, mounting rail with a knurled knob, chequered raked grip."}, {"src": "03-characters/captain-jasu/reference/props/a180.jpg", "caption": "The real-world original \u2014 the A180 Jyn Erso carries in Rogue One.", "scope": "THIRD-PARTY REFERENCE. Replace it with a photograph of our own printed build as soon as one exists: for anything physically built the reference is a photograph of the build, not a render."}]}
+
 | | |
 |---|---|
 | **Size** | ~230 to 250 mm overall, muzzle to grip heel. CHECK IT IN HER HAND BEFORE PRINTING THE FINAL — a full-size pistol reads noticeably larger on a 155 cm frame, and this is the one prop that must not look like it is wearing her. |
@@ -32,6 +34,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Printed ×2.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/reference/headdress/horns-authority-2026-08-04.png", "caption": "THE HORN AUTHORITY, cut from portrait.png above the collar. 46% and 53% of head height, one blunt-tipped and one pointed \u2014 the only plate compliant on every point of the 2026-08-04 ruling.", "scope": "AUTHORITATIVE FOR THE HORNS AND NOTHING ELSE. The approved front is a TRUE MIRRORED PAIR and must not be used for them, and headdress.png shows three on the visible side and is out of spec."}]}
+
 | | |
 |---|---|
 | **Size** | ~75 to 110 mm each, measured along the curve — a third to a half the height of her head. One slightly the longer of the two. |
@@ -45,6 +49,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 ### 3. Whistle on a cord
 
 **Printed ×1.** *Not started.*
+
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/whistle_and_leash.png", "crop": [0.0, 0.0, 0.44, 1.0], "caption": "Small, plain, dark, on a thin cord. A tube with a mouthpiece and nothing else \u2014 no decoration, no chain, no fob."}]}
 
 | | |
 |---|---|
@@ -64,6 +70,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Made ×1.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/mantle_detail.png", "caption": "THE AUTHORITY ON THIS SURFACE. Irregular crazing and wear, heavier at the shoulder fold \u2014 not a regular diamond quilt and not a lattice, both of which have come back from generators and are wrong."}, {"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.26, 0.14, 0.74, 0.34], "caption": "The silhouette \u2014 a sharp upswept point at each shoulder, rising at the back into the stand collar."}]}
+
 | | |
 |---|---|
 | **Size** | Covers both shoulders and the upper chest, rising at the back into the stand collar. A sharp upswept point at each shoulder, clearing the shoulder line by ~40 to 60 mm. Scale it off HER, not off a pattern — at 155 cm a mantle drafted to a standard block swamps the figure and reads as armour she is borrowing. |
@@ -77,6 +85,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 
 **Made ×2.** *Not started.*
 
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.2, 0.36, 0.82, 0.52], "caption": "Both bracers, wrist to below the elbow, buckles on the outside of the arm. Note where they STOP \u2014 the elbow stays clear."}]}
+
 | | |
 |---|---|
 | **Size** | ~170 to 190 mm long on her forearm — wrist to just below the elbow, and NO FURTHER. Measure her; a bracer cut to a standard forearm runs into the elbow crease on a fine-boned 155 cm arm and stops the joint bending. |
@@ -89,6 +99,8 @@ Printed parts come out identical, so **all mismatch is painted on**. That is the
 ### 3. Holster — belt-mounted, her RIGHT hip
 
 **Made ×1.** *Not started.*
+
+@figure {"cols": [{"src": "03-characters/captain-jasu/source/artwork/turn-field-front.png", "crop": [0.26, 0.4, 0.52, 0.62], "caption": "Her RIGHT hip, which is the LEFT of this picture. Hanging from the belt down the thigh, grip up and angled forward."}]}
 
 | | |
 |---|---|

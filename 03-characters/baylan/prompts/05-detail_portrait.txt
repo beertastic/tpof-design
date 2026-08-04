@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 05 — THE FACE]
 Output file: detail_portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: bce0d9da · repo commit 8425ac6 2026-08-04 17:12
+Prompt version: bce0d9da · repo commit dc608e9 2026-08-04 17:20
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8425ac6, prompt bce0d9da.
+    Working from commit dc608e9, prompt bce0d9da.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

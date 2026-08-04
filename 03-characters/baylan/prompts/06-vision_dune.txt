@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 06 — THE DUNE]
 Output file: vision_dune.png
 Aspect ratio: 21:9  (wide banner)
-Prompt version: 799e09ac · repo commit 8425ac6 2026-08-04 17:12
+Prompt version: 799e09ac · repo commit dc608e9 2026-08-04 17:20
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8425ac6, prompt 799e09ac.
+    Working from commit dc608e9, prompt 799e09ac.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

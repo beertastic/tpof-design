@@ -427,6 +427,22 @@ outfits:
         thread at this distance and NOTHING else. It is the only colour on him,
         and nothing else on the costume or the coat is green — no panel, no
         cloth, no leather, no trim, no piping.
+      # ADDED 2026-08-04. The base five gained a knee-length split skirt and metal
+      # gauntlets and this outfit was never told. Its own description says
+      # "exactly the working dress ... with his long coat on over it", which is
+      # true and is exactly why the omission was invisible: the sentence is
+      # correct and carries none of the detail.
+      - check: Skirt to the knee below the coat. Metal gauntlets, dull and filthy.
+        text: >
+          UNDER THE COAT HE IS IN THE FULL WORKING DRESS. The top layer runs on
+          into a SKIRT TO JUST ABOVE THE KNEE, split at both sides, same
+          near-black cloth, hanging straight and visible below the coat's front
+          edges. NO cream, NO wrap front, NO sash.
+      - >
+        METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm, a
+        smooth clamshell shell with a small dead screen at the inside of each
+        wrist. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing
+        mirror-like. They are visible below the coat's sleeves.
       - >
         BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is
         hidden by the open coat. The belt, the holster and the harness must all
@@ -442,15 +458,22 @@ outfits:
         him. Do not add a fastening or a flourish to make the coat more
         interesting — the absence IS the design.
       - >
-        LATE FORTIES — FORTY-EIGHT. TALL AND BROAD AND THICKENED, heavy through
-        the chest and waist, not muscular, not lean, not athletic. The coat must
-        NOT give him stature, authority or command presence — it is a big man's
-        old coat, not a mantle. NOTHING may suggest he could still fight. SHORT,
-        BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full
-        UNSHAPED beard, untrimmed. He is nobody and he looks it.
+      - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
+        text: >
+          BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad
+          through the chest and shoulders and softened at the waist. NOT obese,
+          NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE
+          HEIGHT MUST READ. The coat must NOT give him stature, authority or
+          command presence — it is a big man's old coat, not a mantle.
       - >
-        MUTED BUT NEVER BLACK-ON-BLACK. The coat is the darkest thing on him, so
-        the costume beneath must still separate from it — charcoal, ash brown,
-        dust brown, faded olive against weathered black. He must also separate
-        from a night forest and from camp firelight. Do not sink him into the
-        background.
+        LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight.
+        SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror.
+        Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
+      - >
+      - check: DARK — near-black. Coat still darker than the costume beneath.
+        text: >
+          DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot
+          brown, cold slate, the last of a faded olive. The coat is the darkest
+          thing on him and the costume beneath must STILL separate from it, and
+          he must still separate from a night forest and from camp firelight.
+          NEVER black-on-black, and never sunk into the background.

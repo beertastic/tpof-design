@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 01 — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: f7e0a8d7 · repo commit d690a36 2026-08-03 16:59
+Prompt version: 0c222351 · repo commit b71109a 2026-08-04 16:05
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d690a36, prompt f7e0a8d7.
+    Working from commit b71109a, prompt 0c222351.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -49,7 +49,9 @@ Where a photograph is silent, or is labelled NOT an authority on
 something, the written text below wins.
 Only the setting, pose and lighting change.
 
-LIKENESS (1) — front on, neutral — attached, or fetch:
+LIKENESS (1) — attached, or fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/Pasted%20image.png
+LIKENESS (2) — front on, neutral — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 ====================================================================

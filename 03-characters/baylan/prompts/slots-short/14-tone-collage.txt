@@ -1,13 +1,14 @@
 [BAYLAN — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
-Prompt version: 5cd38741 (short) · repo commit db4b9ef 2026-08-04 00:16
+Prompt version: 3bd268a9 (short) · repo commit b71109a 2026-08-04 16:05
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/Pasted%20image.png
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
   Take the FACE and BUILD from the actor images only.
   Say whether you used an attached file or a URL. If neither worked, stop.

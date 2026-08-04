@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 04 — IN HIS BUNK]
 Output file: industrial_c.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 110a32e6 · repo commit d690a36 2026-08-03 16:59
+Prompt version: af8d185f · repo commit b71109a 2026-08-04 16:05
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d690a36, prompt 110a32e6.
+    Working from commit b71109a, prompt af8d185f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -49,7 +49,9 @@ Where a photograph is silent, or is labelled NOT an authority on
 something, the written text below wins.
 Only the setting, pose and lighting change.
 
-LIKENESS (1) — front on, neutral — attached, or fetch:
+LIKENESS (1) — attached, or fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/Pasted%20image.png
+LIKENESS (2) — front on, neutral — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 
 ====================================================================

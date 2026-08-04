@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 14 — BELT, BRACERS AND BOOTS]
 Output file: material_leather.png
 Aspect ratio: 1:1  (square)
-Prompt version: cc0398df · repo commit 1a75369 2026-08-04 00:21
+Prompt version: cc0398df · repo commit 8fe13dd 2026-08-04 12:22
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1a75369, prompt cc0398df.
+    Working from commit 8fe13dd, prompt cc0398df.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

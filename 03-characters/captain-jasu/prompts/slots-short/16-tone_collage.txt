@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE SHARE SHEET]
 Output file: tone_collage.png
 Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
-Prompt version: bb0bb7f1 (short) · repo commit 1a75369 2026-08-04 00:21
+Prompt version: bb0bb7f1 (short) · repo commit 8fe13dd 2026-08-04 12:22
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

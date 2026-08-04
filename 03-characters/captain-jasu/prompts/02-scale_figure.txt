@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 02 — HOW SMALL SHE ACTUALLY IS]
 Output file: scale_figure.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: ec271820 · repo commit 1a75369 2026-08-04 00:21
+Prompt version: ec271820 · repo commit 8fe13dd 2026-08-04 12:22
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1a75369, prompt ec271820.
+    Working from commit 8fe13dd, prompt ec271820.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

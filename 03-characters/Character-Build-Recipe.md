@@ -6,10 +6,15 @@ updated: "2026-08-03"
 
 # Character Build Recipe
 
-**From nothing to six boards, in the order that works.**
-[`shada/`](shada/) is the worked example of every step — twenty-one images, six
-boards and a promo sheet, with a documented failure behind every rule in her
-pack. When something here is unclear, go and look at what she actually has.
+**From a paragraph of backstory to a costume somebody can actually build, in the
+order that works.** [`shada/`](shada/) is the worked example of every step —
+twenty-one images, six boards, a promo sheet, a build guide and two build sheets,
+with a documented failure behind every rule in her pack. When something here is
+unclear, go and look at what she actually has.
+
+**Nine phases. You supply three things and phase 0 turns them into files; the
+rest is procedure.** Jasu and Shada have been through all nine and are the
+templates — every other character follows them.
 
 **Read [`../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md`](../09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md)
 before writing a single rule.** It is eight lessons that each cost at least one
@@ -21,6 +26,31 @@ wasted generation.
 
 Doing these out of sequence is how days get spent. Each phase produces the input
 the next one needs.
+
+### Phase 0 — The intake. Three things, and nothing else is needed to start
+
+**This is the whole ask of whoever is commissioning the character.** Everything
+downstream is derived from it.
+
+| | What to give | Why it is load-bearing |
+|---|---|---|
+| **1** | **Description and backstory** — who they are, what they do in the story, what they are afraid of | Becomes `Character.md`. Story function is what stops a costume becoming decoration |
+| **2** | **Casting facts** — age, **height in cm**, build, species, and **handedness** | Height sets every scale landmark and comparison. Handedness places *every* weapon, pouch and tool. Both are cheap to state now and expensive to change later |
+| **3** | **General clothing ideas** — materials, silhouette, palette, what they must NOT look like | Becomes the costume language. Vague is fine; the negations matter more than the positives |
+
+```bash
+./tools/new-character <slug> --name "Full Name" --height 172 --hand right
+```
+
+That scaffolds the folder, both templates, a stub `outfits.yaml` carrying the
+full schema, and the per-character TODO. **It writes no design** — every field
+that needs a decision is left as a `NEEDS:` marker, because a plausible
+auto-filled answer is worse than a blank one.
+
+> **HEIGHT AND HANDEDNESS ARE NOT ADMIN.** Captain Jasu was re-cast by 5 cm and
+> it took a sweep of fifty-four references, one of which was missed and reached
+> Drive twice inside a printed build guide. State them once, correctly, in
+> `outfits.yaml` — which is the only file the tooling reads.
 
 ### Phase 1 — Documents
 
@@ -116,6 +146,64 @@ python tools/board-generator/generate.py <character> --promo
 **`--validate` going green proves only that files exist** — it cannot see a stale
 image. Check timestamps.
 
+### Phase 8 — The build guide and the two build sheets
+
+**Boards are not the end. A costume nobody can shop for is not finished,
+however good the plates are** — and the image manifest counts pictures, which
+makes that easy to miss.
+
+**Fill in `components:` in `outfits.yaml` first.** Every piece of the costume,
+each with a `route:` of `printed`, `made` or `bought`. The full schema — including
+the `build:`, `shop:` and `images:` blocks the sheets are made of — is in
+[`../11-production-tracking/Costume-Build-Method.md`](../11-production-tracking/Costume-Build-Method.md#the-components-schema).
+
+Then three files, in this order, and **nothing is written from the pictures at
+any stage:**
+
+```bash
+./tools/build-guide-pdf <character>     # _build_guide.md  ->  _build_guide.pdf
+./tools/build-lists     <character>     # _print_list.pdf and _shopping_list.pdf
+```
+
+| Sheet | Covers | Read at |
+|---|---|---|
+| `_build_guide.pdf` | the whole costume in prose | the desk, first |
+| `_print_list.pdf` | `route: printed` and `route: made` | the bench |
+| `_shopping_list.pdf` | `route: bought` | in the shop, on paper |
+
+**Both sheets carry cropped pictures**, named per component in `images:`, so the
+shopping list is enough on its own on a charity-shop rail. **Where a plate is
+authoritative for one thing and wrong about others, give it a `scope:`** — it
+prints in red under the picture. A picture with no caveat teaches everything in
+it equally, which is how a department builds from a superseded image.
+
+**Budget is a cap on bought items only** — filament, paint, leather, dye and any
+contact lenses are materials and are counted separately. Jasu came to £36–87 and
+Shada to £35–83 against £100.
+
+**No supplier links, ever.** Search terms, filters and refusals go in `shop:`;
+listings rot and live in Drive. Decided 2026-08-01 and upheld since.
+
+### Phase 9 — Publish
+
+```bash
+./tools/publish-to-drive              # dry run — always do this first
+./tools/publish-to-drive --check      # what differs, by filename
+./tools/publish-to-drive --go         # the repository wins
+```
+
+**One flat folder per character**, no subfolders, because the costume department
+browses by arrowing through images. The `_` prefix sorts the guide and the two
+sheets above the plates.
+
+**Add the character to `drive_folder()` in the script.** The Drive folder names
+are hand-made and are *not* the repo slugs — a character missing from that
+mapping is an error, deliberately, because a wrong guess silently creates a
+second folder for the same person.
+
+**`--check` after `--go`.** It is the only proof Drive matches, and it costs
+seconds.
+
 ---
 
 ## The twenty-one images
@@ -152,7 +240,7 @@ shoot. Copy the commented block from Shada's `board-data.yaml`.
 
 ---
 
-## The five things that will bite you
+## The six things that will bite you
 
 **1. `Prompts.md` left as `scaffold`.** `short.py` writes no slot prompts for a
 scaffold, silently. This is the single most common reason a character produces
@@ -178,6 +266,11 @@ repository on one day and none matched the prompt. **Attach everything in
 `prompts/attach/<outfit>/` except `MANIFEST.txt`** — that folder is generated
 from the same list the prompt declares, so it cannot drift. The manifest names
 every exception.
+
+**6. An `outfits.yaml` with no `components:` block.** `build-lists` skips the
+character and says so in one line that is easy to scroll past, and you get boards
+with no build sheets — a character that looks finished and cannot be built.
+Baylan, Shin and the mercenary kit are all in this state today.
 
 ---
 

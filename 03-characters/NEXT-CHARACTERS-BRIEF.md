@@ -20,19 +20,40 @@ outstanding it is written as a question, not filled in with a plausible answer.
 
 ## Where everyone is
 
-| | `Character.md` | `outfits.yaml` | `Prompts.md` | Boards | Images |
-|---|---|---|---|---|---|
-| **Shada** | ✅ | ✅ | ✅ ready | ✅ 6 | **✅ 21/21 — done** |
-| **Captain Jasu** | ✅ | ✅ | ✅ ready | ✅ 6 | 5 turnarounds + scale plate |
-| **Baylan** | ✅ 38 KB | ✅ | ✅ ready, 14 slots | 5 — **no make-up board** | none |
-| **Shin** | ✅ 23 KB | ✅ | ✅ ready, 14 slots | 7 — **no make-up board** | none |
-| **Mercenary Kit** | ✅ 22 KB | ✅ | ✅ ready, 13 slots | 4 turnarounds only | none |
-| **Nyx** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none |
-| **Krellis** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none |
-| **Vala** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none |
-| **Jeyin** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none |
-| **Reya Fenn** | 3 KB | ❌ | scaffold | ❌ | none |
-| **Yaslo Bis** | 4 KB | ❌ | scaffold | ❌ | none |
+| | `Character.md` | `outfits.yaml` | `Prompts.md` | Boards | Images | `components:` | Build sheets |
+|---|---|---|---|---|---|---|---|
+| **Shada** | ✅ | ✅ | ✅ ready | ✅ 6 | **✅ 21/21 — done** | ✅ 13 | **✅ guide + 2** |
+| **Captain Jasu** | ✅ | ✅ | ✅ ready | ✅ 6 | 19/19 generated — **front re-roll open** | ✅ 12 | **✅ guide + 2** |
+| **Baylan** | ✅ 38 KB | ✅ | ✅ ready, 14 slots | 5 — **no make-up board** | none | ❌ | ❌ |
+| **Shin** | ✅ 23 KB | ✅ | ✅ ready, 14 slots | 7 — **no make-up board** | none | ❌ | ❌ |
+| **Mercenary Kit** | ✅ 22 KB | ✅ | ✅ ready, 13 slots | 4 turnarounds only | none | ❌ | ❌ |
+| **Nyx** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Krellis** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Vala** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Jeyin** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Reya Fenn** | 3 KB | ❌ | scaffold | ❌ | none | ❌ | ❌ |
+| **Yaslo Bis** | 4 KB | ❌ | scaffold | ❌ | none | ❌ | ❌ |
+
+**Shada and Captain Jasu are the templates. Both have been through all nine
+phases** — documents, references, approved front, turnarounds, slots, boards,
+build guide, both build sheets, published to Drive. Every other character follows
+them, and nothing about the *process* needs re-deciding.
+
+**That is not the same as saying Jasu is finished.** Her approved front is
+carrying three open contradictions against her own rules — the mantle surface
+reads as a regular lattice, and the whistle reads as bright jewellery — and the
+front is due a re-roll. See [`../11-production-tracking/Jasu-Image-TODO.md`](../11-production-tracking/Jasu-Image-TODO.md).
+**The pipeline being complete and a character being complete are different
+claims**, and the manifest counts images, which makes that easy to blur.
+
+**The last two columns are the newest gap.** `components:` in `outfits.yaml` is
+what `tools/build-lists` reads, and a character without it gets boards and no
+build sheets — finished-looking and unbuildable. Baylan, Shin and the mercenary
+kit are closest: they have real prompt packs and just need the costume itemised.
+
+**A brand-new character starts with `./tools/new-character`**, which scaffolds
+phase 0 from the three intake facts. See
+[`Character-Build-Recipe.md`](Character-Build-Recipe.md).
 
 ---
 

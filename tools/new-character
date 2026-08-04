@@ -1,0 +1,256 @@
+#!/usr/bin/env python3
+"""Scaffold a new character folder — phase 0 of the Character Build Recipe.
+
+    ./tools/new-character reya-fenn --name "Reya Fenn" --height 168 --hand right
+
+WHAT THIS IS FOR. The recipe asks the commissioner for three things: a
+description and backstory, the casting facts, and general clothing ideas. This
+turns the second of those into files, and leaves labelled holes for the other
+two. Everything downstream — prompts, images, boards, build guide, build sheets —
+is then procedure rather than a conversation.
+
+IT WRITES NO DESIGN, DELIBERATELY. Every field that needs a decision is left as a
+`NEEDS:` marker. A plausible auto-filled answer is worse than a blank one,
+because a blank stops somebody and a plausible answer does not: this repository
+already has a worked example of a competent sourcing guide that contradicted five
+locked decisions at once, and none of it looked wrong.
+
+WHY HEIGHT AND HANDEDNESS ARE ARGUMENTS AND NOT `NEEDS:` MARKERS. They are the
+two facts that silently corrupt everything if they arrive late. Captain Jasu
+moved 5 cm and it cost a sweep of fifty-four references, one of which was missed
+and reached Drive twice inside a printed build guide. Handedness places every
+weapon, pouch and tool in every image. Both are cheap to state now.
+
+WHAT IT DOES NOT DO. It does not add the character to `drive_folder()` in
+`publish-to-drive` — that mapping is deliberately manual, because a wrong guess
+does not fail, it quietly creates a second Drive folder for the same person.
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as _dt
+import re
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+
+REF_DIRS = {
+    "actor": "the performer — the ONLY source for a likeness. See ../../CAST-REFERENCE.md",
+    "props": "photographs of anything physically built. A render is not a prop reference",
+    "concept": "production drawings",
+    "approved": "approved references",
+    "alternates": "superseded, kept as history, NEVER attached",
+}
+
+
+def ft_in(cm: int) -> str:
+    total = round(cm / 2.54)
+    return f"{total // 12} ft {total % 12} in"
+
+
+def character_md(name: str, slug: str, args, today: str) -> str:
+    tpl = (REPO / "03-characters" / "Character-Template.md").read_text(encoding="utf-8")
+    tpl = tpl.replace("title: Character Name", f"title: {name}")
+    tpl = tpl.replace("# Character Name", f"# {name}")
+    tpl = tpl.replace("asset_id: CH-000", f"asset_id: CH-{slug.upper()}")
+
+    filled = f"""| |  |
+|---|---|
+| **Species** | {args.species or 'NEEDS:'} |
+| **Age** | {args.age or 'NEEDS:'} |
+| **Height** | **{args.height} cm ({ft_in(args.height)})** |
+| **Build** | NEEDS: |
+| **Handedness** | **{args.hand.upper()}** — blaster on the {args.hand}; pouches and tools on the {'left' if args.hand == 'right' else 'right'}, off the drawing side |
+| **Hair** | NEEDS: |
+| **Cast** | NEEDS: — headshot in `reference/actor/` |"""
+
+    # Replace the template's blank casting table with one carrying what we know.
+    tpl = re.sub(r"\| \| \|\n\|---\|---\|\n(?:\|.*\|\n)+", filled + "\n", tpl, count=1)
+    return tpl.replace("| 0.1 | Concept | Initial entry |",
+                       f"| 0.1 | Concept | Scaffolded {today} by tools/new-character |")
+
+
+def outfits_yaml(name: str, args, today: str) -> str:
+    off = "left" if args.hand == "right" else "right"
+    return f"""character: {name}
+ratio: "2:3"
+
+# REQUIRED. Every weapon and armour placement follows from this.
+# See 09-prompt-library/Handedness-And-Placement.md
+handedness: {args.hand}
+
+# REQUIRED, and this is the only file the tooling reads — prose in Character.md
+# reaches no generator. Keep the two in step.
+#
+# WRITE THE CONSTRAINT IN THE FIRST SENTENCE. The prompt trim keeps sentence one
+# and the first hard negation and can drop everything after it at any cap.
+height: >
+  {args.height} cm ({ft_in(args.height)}) — NEEDS: what this height MEANS in
+  frame. Who is taller, who is shorter, and what the reader must not assume.
+
+# What an image model will try to draw instead, and why it is wrong. Both fields
+# are load-bearing: a character with a familiar silhouette WILL retrieve one.
+do_not_retrieve_short: >
+  NEEDS:
+
+do_not_retrieve: >
+  NEEDS:
+
+outfits:
+  - id: working
+    # NEEDS: markers are QUOTED because a bare trailing colon is not valid YAML —
+    # the scaffold has to parse from the moment it is written, or the first thing
+    # a new character does is crash the generators.
+    name: "NEEDS:"
+    scenes: "NEEDS:"
+
+    # Cleared until the front turnaround is approved. See 03-characters/APPROVAL.md.
+    # approved:
+    #   date: "YYYY-MM-DD"
+    #   view: front
+    #   reference: 03-characters/{args.slug}/source/artwork/turn-working-front.png
+    #   note: Front view locked. Match this for all other views.
+
+    # Plates that get attached to every prompt. Lock props BEFORE figures —
+    # words will not hold a silhouette across eighteen images.
+    # references:
+    #   - path: 03-characters/{args.slug}/source/artwork/knife.png
+    #     what: the combat knife
+
+    description: >
+      NEEDS: the costume in prose. Materials, silhouette, palette, condition.
+
+    must_show:
+      # One rule per entry, constraint first. `pin: true` protects a rule from
+      # the trim — but a pinned rule does NOT reach slots that take no costume
+      # rules, so repeat it in their shot text if it matters there.
+      - "NEEDS:"
+
+    # ------------------------------------------------------------------
+    # THE BUILD. Fill this in at phase 8 and `./tools/build-lists {args.slug}`
+    # writes the print sheet and the shopping sheet from it.
+    #
+    # Full schema, with both worked examples:
+    #   11-production-tracking/Costume-Build-Method.md#the-components-schema
+    #
+    # route: printed | made | bought  — decides which sheet the item lands on.
+    # There is no fourth value; the generator refuses anything else rather than
+    # dropping a component off both lists.
+    # ------------------------------------------------------------------
+    components: []
+"""
+
+
+def prompts_md(name: str, today: str) -> str:
+    return f"""---
+title: "{name} — Image Prompt Pack"
+status: scaffold
+updated: "{today}"
+---
+
+# {name} — Image Prompt Pack
+
+> **STATUS IS `scaffold`, AND `short.py` WRITES NOTHING UNTIL IT IS `ready`.**
+> Silently. This is the single most common reason a character produces no
+> images. Change it in the frontmatter above once the slots below are written.
+
+Follow [`../Character-Build-Recipe.md`](../Character-Build-Recipe.md) and copy
+the structure from [`../shada/Prompts.md`](../shada/Prompts.md), which is the
+worked example.
+
+## Slots
+
+NEEDS: one section per image slot. Shada has twenty-one; not every character
+needs all of them, but the five turnarounds and the make-up board are not
+optional.
+"""
+
+
+def todo_md(name: str, slug: str, today: str) -> str:
+    return f"""---
+title: "{name} — Finish List"
+asset_id: "TRACK-{slug.upper()}-IMAGES"
+updated: "{today}"
+status: "open"
+---
+
+# {name} — Finish List
+
+> # PICK UP HERE — {today}
+>
+> **Scaffolded, nothing generated.** Phase 0 of
+> [`../03-characters/Character-Build-Recipe.md`](../03-characters/Character-Build-Recipe.md)
+> is done; phase 1 is writing the documents.
+
+**ONE run list, and this is it.** Shada's had two numbered lists until they
+drifted apart and neither could be trusted.
+
+**Record what each failed generation TAUGHT, not just that it failed.** That
+record is what became the rules in the prompt library, and it is worth more than
+the images.
+
+| | |
+|---|---|
+| **TO DO** | Documents · references · approved front · four turnarounds · slots · boards · build guide · build sheets |
+| **DONE** | nothing yet |
+"""
+
+
+def main(argv: list[str]) -> int:
+    p = argparse.ArgumentParser(prog="new-character")
+    p.add_argument("slug", help="folder name, kebab-case, e.g. reya-fenn")
+    p.add_argument("--name", required=True, help='display name, e.g. "Reya Fenn"')
+    p.add_argument("--height", required=True, type=int, metavar="CM",
+                   help="height in CENTIMETRES — sets every scale landmark")
+    p.add_argument("--hand", required=True, choices=("left", "right"),
+                   help="handedness — places every weapon, pouch and tool")
+    p.add_argument("--age", help="optional, saves a NEEDS: marker")
+    p.add_argument("--species", help="optional, saves a NEEDS: marker")
+    args = p.parse_args(argv[1:])
+
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", args.slug):
+        print(f"  ✗ slug must be kebab-case: {args.slug}", file=sys.stderr)
+        return 2
+    if not 60 <= args.height <= 260:
+        print(f"  ✗ height is in CENTIMETRES: {args.height}", file=sys.stderr)
+        return 2
+
+    d = REPO / "03-characters" / args.slug
+    if d.exists():
+        print(f"  ✗ {d.relative_to(REPO)} already exists", file=sys.stderr)
+        return 1
+
+    today = _dt.date.today().isoformat()
+    todo = REPO / "11-production-tracking" / f"{args.name.replace(' ', '-')}-Image-TODO.md"
+
+    (d / "source" / "artwork").mkdir(parents=True)
+    (d / "source" / "artwork" / ".gitkeep").touch()
+    for sub, why in REF_DIRS.items():
+        (d / "reference" / sub).mkdir(parents=True)
+        (d / "reference" / sub / "README.md").write_text(
+            f"# `{sub}/`\n\n{why}\n", encoding="utf-8")
+
+    (d / "Character.md").write_text(
+        character_md(args.name, args.slug, args, today), encoding="utf-8")
+    (d / "outfits.yaml").write_text(outfits_yaml(args.name, args, today),
+                                    encoding="utf-8")
+    (d / "Prompts.md").write_text(prompts_md(args.name, today), encoding="utf-8")
+    todo.write_text(todo_md(args.name, args.slug, today), encoding="utf-8")
+
+    print(f"\n  ✓ {args.name} — {args.height} cm ({ft_in(args.height)}), "
+          f"{args.hand}-handed")
+    print(f"    {d.relative_to(REPO)}/  and  {todo.relative_to(REPO)}\n")
+    print("  NEXT — phase 1, and nothing here invents design:")
+    print("    1. Character.md   — backstory, story function, costume language")
+    print("    2. outfits.yaml   — every NEEDS: marker, especially do_not_retrieve")
+    print("    3. Prompts.md     — the slots, then set status: ready")
+    print(f"    4. ./tools/regen {args.slug}\n")
+    print("  Then phases 2-9 in 03-characters/Character-Build-Recipe.md.")
+    print("  Before publishing, add the character to drive_folder() in")
+    print("  tools/publish-to-drive — that mapping is manual on purpose.\n")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv))

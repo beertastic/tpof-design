@@ -412,6 +412,70 @@ it yet, so progress is still read off the page rather than off the repository.
 Baylan, Shin and the mercenary kit have `outfits.yaml` files with no
 `components:` block; the generator skips them and says so.
 
+### The `components:` schema
+
+**This is the contract. Every character follows it; Jasu and Shada are the worked
+examples.** Only `item`, `route` and `qty` are required — a component with
+nothing else still appears on the right sheet, it just says less.
+
+```yaml
+components:
+  # ---- MADE or PRINTED: gets a `build:` block, lands on the print sheet ----
+  - item: Bone horns for the headdress
+    route: printed              # printed | made | bought  — REQUIRED
+    qty: 2                      # a number, or "~440"
+    status: not-started         # not-started | in-progress | done
+    build:
+      size: ~75 to 110 mm each, measured along the curve
+      colour: Pale bone, yellowed with age
+      hex: "#d9cba4"            # prints as a swatch chip beside the name
+      accent: Deeper ochre in the grain
+      accent_hex: "#b9a476"
+      finish: MATTE AND SMOOTH. Never polished, never carved
+      method: PRINT AS TWO SEPARATE MODELS, NEVER ONE MIRRORED
+      palette:                  # optional, for a multi-colour piece
+        - {name: Dull grey steel, hex: "#8a8d90", note: The base tone}
+    images:
+      - src: 03-characters/captain-jasu/reference/headdress/horns-authority-2026-08-04.png
+        crop: [0.0, 0.0, 1.0, 1.0]   # left, top, right, bottom, as FRACTIONS
+        caption: What the picture is showing and what to take from it
+        scope: >-                    # optional, PRINTS IN RED
+          AUTHORITATIVE FOR THE HORNS AND NOTHING ELSE
+    note: >
+      The prose specification. Reprinted under the table on the sheet
+
+  # ---- BOUGHT: gets a `shop:` block, lands on the shopping sheet ----
+  - item: Boots — tall, close to the calf
+    route: bought
+    qty: 1
+    status: not-started
+    shop:
+      search: [tall brown leather boots flat, leather riding boots brown]
+      where: CHARITY SHOPS FIRST. Vinted and eBay after
+      filter: Check the CALF measurement as well as the foot
+      spec: Brown leather, practical, genuinely worn. TALL
+      avoid: HEEL FLAT. Nothing may add height. No "like new"
+      budget: "£15–30"          # parsed for the per-character total
+    images:
+      - src: 03-characters/captain-jasu/source/artwork/turn-field-front.png
+        crop: [0.26, 0.66, 0.74, 1.0]
+        caption: THE SHAFT HEIGHT IS THE TEST
+```
+
+**Four rules that are easy to get wrong:**
+
+1. **`route:` decides the sheet, and there is no fourth value.** The generator
+   exits non-zero on anything it does not recognise rather than dropping the
+   component off both lists.
+2. **`crop:` is fractions of the frame, not pixels** — `[0.3, 0.15, 0.7, 0.42]`
+   is the middle-left of the upper third. Fractions survive a re-render at a
+   different resolution; pixels do not.
+3. **`src:` is repo-root-relative**, and it is checked when the sheet is
+   generated. A typo fails the build rather than printing "missing image" onto a
+   sheet somebody then takes shopping.
+4. **`scope:` is not decoration.** Use it whenever a plate is authoritative for
+   one thing and wrong about others, which in this production is often.
+
 What the requirement originally asked for, kept for the record:
 
 **It should be generated, not hand-maintained.** Everything else in this repo is

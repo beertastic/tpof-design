@@ -2,6 +2,66 @@
 
 All notable production-bible changes are recorded here.
 
+- **A character can set its own prompt budget, 2026-08-04.** `prompt_budget:` in
+  `outfits.yaml`, falling back to the 8,000 default.
+
+  **8,000 was never a limit of the tool — it was a limit of Shada's approved
+  work.** The note on `BUDGET` in `short.py` says so: the operator pastes into a
+  ChatGPT project and *"~7,000–12,000 characters is the working target"*, and the
+  reason it had not simply been raised was that her approved front and every
+  image accepted on 2026-08-03 were generated at 8,000, so her remaining views
+  must match the image they are matching against rather than be specified more
+  richly than it.
+
+  **That argument binds characters who have approved work. Baylan has none**, and
+  his working outfit was losing a fifth of its specification to a ceiling chosen
+  for somebody else's finished plates. He is at 11,000 and **100% of his
+  specification now reaches the generator**, up from 74% this morning. Shada and
+  Jasu are untouched at 23% and 95%.
+
+  A bug went with it: `--budget` defaulted to `BUDGET` rather than `None`, so it
+  was never absent and a character's own setting could never be reached.
+
+- **Baylan's costume moved on four points, 2026-08-04**, across three generations
+  and their faults.
+
+  **The chest strap took two passes.** The first put a wide buckled strap
+  horizontally across the sternum; the rule then forbade *horizontal*, and the
+  second came back with a **diagonal bandolier** and a buckle mid-chest. The rule
+  was obeyed and the fault survived it — naming one direction taught the
+  generator to use another — so it now refuses the class: nothing crosses his
+  chest, no strap of any angle, no buckle on the sternum.
+
+  **The forearm wraps became metal gauntlets**, because the props are already 3D
+  printed and the later costume's are metal. The plant in `Planted-Elements.md`
+  P5 is now carried by the real object. Keeping it honest is the hard part: a
+  metal gauntlet reads as armour, armour reads as status, and status is what he
+  spent eighteen years hiding — so this film gives it a job. It is a wrist unit
+  for cargo manifests, filthy, dented, nothing lit on the screen.
+
+  **They came back leather anyway, twice**, because the outfit's `description:`
+  still said *"worn leather wraps on both forearms"* while the rules said metal.
+  The description won. A specification that contradicts itself is not a trim
+  failure and no amount of rule-writing fixes it.
+
+  **Hip plates added** — a fauld of overlapping salvaged plates hung from the
+  belt, chosen by the Production Designer over hanging strips, cloth panels and a
+  split hem. It is the shape most likely to read as armour and it carries three
+  rules saying it must not, including one protecting the draw: the holster and
+  pouches hang OVER it, never buried. **It is not a plant** — the CRL for the
+  later costume has no fauld — and P5 should not grow a row for it.
+
+  **Shoulders re-raised and rejected again.** The CRL made the case stronger, not
+  weaker: the later shoulders are dual hammered-metal bells with a raised centre
+  ridge, which is a loud and instantly recognisable silhouette. Gauntlets sit low
+  in frame and read as tools; shoulders sit at eye line and read as rank.
+
+  **What the CRL confirmed rather than changed:** five chevrons, and green. The
+  later vest carries *"five chevrons front and back"* with *"optional green
+  gemstone accents"*, and this film had already specified exactly five nested
+  chevrons and a dark greyed-off green thread as the only colour on him — both
+  settled before anyone read that page.
+
 - **`regen` pointed at the wrong outfit, 2026-08-04.** Its closing "NEXT — the
   front turnaround" step chose the front prompt with `ls turn-*-front.txt |
   head -1`, which is **alphabetical**, and alphabetical is not the same as

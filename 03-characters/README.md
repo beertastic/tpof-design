@@ -28,6 +28,8 @@ All visual development must begin with the Production Design Bible in `../01-pro
 | `Character.md` | The canonical character document. |
 | `Character-Lock.md` | Non-negotiable traits and the design-drift rejection list. Added at lock. |
 | `Prompts.md` | Self-contained image prompt pack — one prompt per artwork slot. |
+| `_build_guide.md` | **What a maker works from.** Derived from `components:` in `outfits.yaml` — never written from photographs. Published to Drive; the `_` sorts it to the top of the folder. See below. |
+| `do-not-publish.txt` | Optional. Names files that exist in `source/artwork/` but are known wrong and must not reach Drive. One filename per line. |
 | `board-data.yaml` | Board layout and content. **This is the board master.** |
 | `source/artwork/` | Generated images, named to match `board-data.yaml`. Tracked — not reproducible. |
 | `evolution/` | How the design got to where it is: one prompt and one image per pass. History, never specification. See below. |
@@ -36,6 +38,35 @@ All visual development must begin with the Production Design Bible in `../01-pro
 | `source/*.pptx` | Intermediate build output. **Gitignored** — overwritten on every run. |
 
 `shada/` is the worked reference for all five.
+
+### `_build_guide.md` — derived, never written from pictures
+
+**Generate it from `components:` in the character's `outfits.yaml`**, which
+carries the material, construction, quantity, build route and the things each
+piece must not be. Never write one from the turnaround images.
+
+That is not a style preference. A sourcing guide for Jasu was written from her
+photographs alone in August 2026 and contradicted five locked decisions at once —
+a bought leather pauldron for a mantle specified as *stiffened cloth*, carved
+Viking hair rings for horns specified as *unworked trophies*, her whistle demoted
+to a "vintage keychain fob", ankle boots for tall ones, and a height two days out
+of date. None of it was unreasonable from five photographs; it is only wrong if
+you know the mantle is cloth, **and a photograph cannot tell you that.**
+
+The full reasoning is in
+[`../11-production-tracking/Costume-Build-Method.md`](../11-production-tracking/Costume-Build-Method.md).
+
+**Captain Jasu is currently the only character with a `components:` list**, and
+therefore the only one with a build guide. Writing one for anybody else starts
+there, not with the pictures.
+
+### The Drive layout is FLAT
+
+One folder per character on Drive, every file loose in it, **no subfolders** —
+so the costume department can open one plate and arrow through the whole set.
+`_build_guide.md` and `_published-from-repo.txt` sort to the top. Publishing is
+`./tools/publish-to-drive --go`; see
+[`../11-production-tracking/Drive-Publishing.md`](../11-production-tracking/Drive-Publishing.md).
 
 ## Prompt packs
 

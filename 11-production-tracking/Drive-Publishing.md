@@ -16,15 +16,49 @@ character, inside **Costume / Wardrobe**:
 ```
 Costume / Wardrobe /
   Jasu /                       ← the folder name is NOT the repo slug. See below.
-    turnarounds /   turn-*.png            the build plates
-    artwork /       every other .png      hero, scale, props, materials, expressions
-    boards /        *.pdf                 the finished boards
-    docs /          Build-Guide.md        what a maker works from
+    _build_guide.md              what a maker works from
+    _published-from-repo.txt     the commit, the files, their sizes
+    turn-field-front.png         the build plates
+    turn-field-left.png
+    …
+    blaster.png                  every other generated image
+    material_cloth.png
+    …
+    Costume-Board.pdf            the finished boards
   archive /                    ← superseded folders and documents, kept not deleted
 ```
 
-Each set carries a `PUBLISHED-FROM-REPO.txt` listing the files, their sizes and
-the commit that last changed them.
+## FLAT IS THE STANDARD — decided 2026-08-04
+
+**One folder per character, every file loose in it, no subfolders.** This applies
+to every character added from now on.
+
+**Why.** The costume department browses Drive by opening one image and arrowing
+left and right through the set. Subfolders broke that: turnarounds, artwork and
+boards each had to be opened separately, and nobody browses a costume that way.
+Flat means the whole character is one uninterrupted scroll.
+
+**The two meta files carry a `_` prefix** so they sort above the images and stay
+out of the way. `_build_guide.md` is the first thing in the folder, which is
+where the thing a maker actually works from belongs.
+
+**What flat costs, stated plainly.** Until 2026-08-04 each set synced into its
+own subfolder, so a sync could never reach the character's folder root and
+anything left there by hand survived. It no longer does — the root *is* the sync
+target, so **a file dropped into a character's Drive folder is deleted on the
+next publish.** That is the contract rather than a regression: the repository is
+the source of truth. But it used to have an escape hatch and no longer does.
+
+**One namespace.** Flat means turnarounds, artwork and boards share a filename
+space. The script refuses to publish a character with duplicate basenames rather
+than let one file silently overwrite another.
+
+**It also retired `check_shadows()`.** That function existed because the sync
+wrote into subfolders and could not reach the folder root, so a superseded file
+left loose up there survived every publish — which is exactly what happened to
+Jasu's v1 turnarounds on 2026-08-03. Publishing flat designs the failure out
+instead of reporting on it, so the function and its `--purge-shadows` flag are
+gone.
 
 ## The build guide is published, not hand-written
 

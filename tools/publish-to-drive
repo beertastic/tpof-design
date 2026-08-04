@@ -7,20 +7,37 @@
 #   ./tools/publish-to-drive --check      # read-only drift report, exit 1 on drift
 #   ./tools/publish-to-drive shada --go   # one character
 #
-# WHAT GOES, per approved character, each into its own Drive subfolder:
+# WHAT GOES, per approved character — ONE FLAT FOLDER, no subfolders:
 #
-#   turnarounds/   source/artwork/turn-*.png    the build plates
-#   artwork/       source/artwork/*.png         every other generated image
-#   boards/        *.pdf                        the finished boards
+#   _build_guide.md            what a maker works from
+#   _published-from-repo.txt   provenance: the commit, the files, their sizes
+#   turn-*.png                 the build plates
+#   *.png                      every other generated image
+#   *.pdf                      the finished boards
+#
+# FLAT IS THE STANDARD, decided 2026-08-04, and it applies to every character
+# added from now on. The costume department browses Drive by opening one image
+# and arrowing left and right through the set. Subfolders broke that — the
+# turnarounds, the artwork and the boards each had to be opened separately, and
+# nobody browses a costume that way. The two meta files carry a `_` prefix so
+# they sort above the images and stay out of the scroll.
 #
 # THE REPOSITORY IS THE SOURCE OF TRUTH. This is a one-way push: Drive is made
-# to match the repo, and anything in those three subfolders that is not in the
+# to match the repo, and anything in the character's folder that is not in the
 # repo is DELETED. That is deliberate — the failure this exists to prevent is
 # the costume department building from a superseded image, and a stale file left
 # beside a current one is exactly how that happens.
 #
-# Each set syncs into its OWN subfolder so a sync can never reach anything else
-# in the character's Drive folder — hand-added notes, fittings, photographs.
+# NOTE WHAT FLAT COSTS. Until 2026-08-04 each set synced into its own subfolder,
+# so a sync could never reach the character's folder root and anything left
+# there by hand survived. It no longer does: the root IS the sync target now, so
+# a file dropped into a character's Drive folder is deleted on the next publish.
+# That is the stated contract rather than a regression, and it is also what
+# retired check_shadows() — see the note further down.
+#
+# ONE NAMESPACE. Flat means turnarounds, artwork and boards share a filename
+# space. The script refuses to publish a character with duplicate basenames
+# rather than let one file silently overwrite another.
 #
 # WHY rclone AND NOT THE DRIVE CONNECTOR. The connector Claude uses can create
 # files but cannot update or delete them, so re-publishing through it leaves two
@@ -88,12 +105,11 @@ ok() { printf '  %s✓%s %s\n' "$C_G" "$C_0" "$*"; }
 no() { printf '  %s✗%s %s\n' "$C_R" "$C_0" "$*"; }
 warn() { printf '  %s!%s %s\n' "$C_Y" "$C_0" "$*"; }
 
-MODE="dry"; ONLY=""; PURGE=0
+MODE="dry"; ONLY=""
 for a in "$@"; do
     case "$a" in
         --go) MODE="go" ;;
         --check) MODE="check" ;;
-        --purge-shadows) PURGE=1 ;;
         -*) no "unknown flag: $a"; exit 1 ;;
         *) ONLY="$a" ;;
     esac
@@ -172,29 +188,45 @@ manifest() {
     done
 }
 
-DRIFT=0; SYNCED=0; SKIPPED=0; SHADOWS=0; HELD_TOTAL=0
-PUBLISHED_NAMES=""   # every basename this run publishes, for the shadow check
-
-# Stage one set of files and make its Drive subfolder match, or report on it.
-publish_set() {
-    local folder="$1" sub="$2" src="$3"; shift 3
+DRIFT=0; SYNCED=0; SKIPPED=0; HELD_TOTAL=0
+# Stage every file for one character and make their Drive folder match.
+#
+# FLAT, DELIBERATELY — decided 2026-08-04. One folder per character with every
+# image loose in it, so the costume department can open any plate in Drive's
+# previewer and arrow left and right through the whole set. Subfolders broke
+# that: turnarounds, artwork and boards each had to be opened separately, and
+# nobody browses a costume that way.
+#
+# The two meta files are prefixed `_` so they sort above the images and stay out
+# of the way of the scroll.
+publish_flat() {
+    local folder="$1" char="$2" dir="$3"; shift 3
     local n=$#
     if [ "$n" -eq 0 ]; then
-        printf '    %-12s —\n' "$sub"
+        printf '    %-12s —\n' "nothing"
         return 0
+    fi
+
+    # A flat folder has one namespace, so two files that were fine in separate
+    # subfolders now silently overwrite each other. Refuse rather than publish
+    # half a costume.
+    local dupes
+    dupes=$(for f in "$@"; do basename "$f"; done | sort | uniq -d)
+    if [ -n "$dupes" ]; then
+        no "$char — duplicate filenames, cannot publish flat:"
+        sed 's/^/        /' <<<"$dupes"
+        return 1
     fi
 
     local stage; stage=$(mktemp -d)
     if ! cp "$@" "$stage/"; then
-        rm -rf "$stage"; no "$folder/$sub — could not stage"; return 1
+        rm -rf "$stage"; no "$folder — could not stage"; return 1
     fi
-    manifest "$folder" "$sub" "$src" "$@" > "$stage/PUBLISHED-FROM-REPO.txt"
+    manifest "$char" "everything" "$dir" "$@" > "$stage/_published-from-repo.txt"
 
-    local f
-    for f in "$@"; do PUBLISHED_NAMES+="$(basename "$f")"$'\n'; done
-
-    local dest="${REMOTE}:${folder}/${sub}"
+    local dest="${REMOTE}:${folder}"
     local rc=0
+    local sub="files"
 
     if [ "$MODE" = "check" ]; then
         # --combined gives one line per file:
@@ -228,43 +260,23 @@ publish_set() {
     return "$rc"
 }
 
-# Files sitting LOOSE at the character's Drive folder root, with the same name
-# as something we publish into a subfolder. This is not hypothetical: on
-# 2026-08-03 Jasu's folder held the five superseded v1 turnarounds exactly this
-# way, and publishing into turnarounds/ would have left them in place, one level
-# up, still called turn-field-front.png. Two files, same name, different boots.
+# check_shadows() lived here until 2026-08-04, and the flat layout retired it.
 #
-# The sync deliberately cannot reach the folder root — a hand-written build
-# guide lives there — so these are REPORTED, and only removed if you ask.
-check_shadows() {
-    local folder="$1"
-    local loose shadowed
-    loose=$(rclone lsf "${REMOTE}:${folder}" --files-only "${RO_FLAGS[@]}" 2>/dev/null)
-    [ -n "$loose" ] || return 0
-    shadowed=$(grep -Fxf <(printf '%s' "$PUBLISHED_NAMES" | sort -u) <<<"$loose" | sort -u)
-    [ -n "$shadowed" ] || return 0
-
-    local count; count=$(wc -l <<<"$shadowed")
-    SHADOWS=$((SHADOWS + count))
-    printf '    %sSHADOWED%s — %s file(s) loose at the folder root, same name as a published file:\n' \
-        "$C_R" "$C_0" "$count"
-    sed 's/^/        /' <<<"$shadowed"
-
-    if [ "$PURGE" -eq 1 ] && [ "$MODE" = "go" ]; then
-        local f
-        while IFS= read -r f; do
-            [ -n "$f" ] || continue
-            if rclone deletefile "${REMOTE}:${folder}/${f}" "${RO_FLAGS[@]}" 2>/dev/null; then
-                ok "deleted from the folder root: $f"
-                SHADOWS=$((SHADOWS - 1))
-            else
-                no "could not delete: $f"
-            fi
-        done <<<"$shadowed"
-    else
-        printf '        Remove them with: ./tools/publish-to-drive%s --go --purge-shadows\n' "${ONLY:+ $ONLY}"
-    fi
-}
+# It existed because the sync wrote into subfolders and could not reach the
+# character's folder root, so a superseded file left loose up there survived
+# every publish. That was not hypothetical: on 2026-08-03 Jasu's root held the
+# five superseded v1 turnarounds under the same names as the live ones, one
+# level up. Two files, same name, different boots.
+#
+# Publishing flat makes the root the thing being synced, so rclone deletes
+# anything there that is not in the repository. The failure mode is designed
+# out rather than reported on, which is why the function and its
+# --purge-shadows flag are gone.
+#
+# THE COST, STATED PLAINLY: a file dropped into a character's Drive folder by
+# hand is now deleted on the next publish. That is the intended contract —
+# "the repository is the source of truth and Drive is overwritten" — but it
+# used to have an escape hatch at the folder root and no longer does.
 
 for dir in 03-characters/*/ 08-species/*/; do
     dir="${dir%/}"
@@ -302,7 +314,7 @@ for dir in 03-characters/*/ 08-species/*/; do
     # and Prompts.md are working documents for this repository and the reasoning in
     # them is not what a maker needs at a bench.
     docs=()
-    for f in "$dir"/Build-Guide.md; do
+    for f in "$dir"/_build_guide.md; do
         [ -f "$f" ] || continue
         held "$hold" "$(basename "$f")" && { warn "held back: $(basename "$f")"; nheld=$((nheld+1)); continue; }
         docs+=("$f")
@@ -323,12 +335,11 @@ for dir in 03-characters/*/ 08-species/*/; do
     fi
 
     b "$char  →  $folder/"
-    PUBLISHED_NAMES=""
-    publish_set "$folder" turnarounds "$art/turn-*.png"       ${turns[@]+"${turns[@]}"}
-    publish_set "$folder" artwork     "$art/*.png (non-turn)" ${others[@]+"${others[@]}"}
-    publish_set "$folder" boards      "$dir/*.pdf"            ${boards[@]+"${boards[@]}"}
-    publish_set "$folder" docs        "$dir/Build-Guide.md"   ${docs[@]+"${docs[@]}"}
-    check_shadows "$folder"
+    publish_flat "$folder" "$char" "$dir" \
+        ${docs[@]+"${docs[@]}"} \
+        ${turns[@]+"${turns[@]}"} \
+        ${others[@]+"${others[@]}"} \
+        ${boards[@]+"${boards[@]}"}
     SYNCED=$((SYNCED+1))
 done
 
@@ -341,18 +352,16 @@ plural() { [ "$1" -eq 1 ] && printf '%s %s' "$1" "$2" || printf '%s %s' "$1" "$3
     warn "$(plural "$HELD_TOTAL" file files) held back by do-not-publish.txt — re-roll, then re-run"
 
 if [ "$MODE" = "check" ]; then
-    if [ "$((DRIFT + SHADOWS))" -eq 0 ]; then
+    if [ "$DRIFT" -eq 0 ]; then
         ok "$(plural "$SYNCED" character characters) checked, $SKIPPED skipped — Drive matches the repository"
     else
-        [ "$DRIFT" -gt 0 ] && no "$(plural "$DRIFT" set sets) drifted, across $(plural "$SYNCED" character characters)"
-        [ "$SHADOWS" -gt 0 ] && no "$(plural "$SHADOWS" file files) shadowing a published name from a folder root"
+        no "$(plural "$DRIFT" character characters) drifted"
         echo "  Fix with: ./tools/publish-to-drive --go   (the repository wins)"
         echo
         exit 1
     fi
 else
     b "$(plural "$SYNCED" character characters), $SKIPPED skipped"
-    [ "$SHADOWS" -gt 0 ] && no "$(plural "$SHADOWS" file files) still shadowing at a folder root — see above"
     [ "$MODE" = "go" ] || echo "  This was a dry run. Re-run with --go to apply."
 fi
 echo

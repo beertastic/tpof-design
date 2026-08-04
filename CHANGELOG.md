@@ -2,6 +2,26 @@
 
 All notable production-bible changes are recorded here.
 
+- **Drive goes FLAT, 2026-08-04, and that is the standard for every character
+  from now on.** One folder per character, every file loose in it, no
+  subfolders. The costume department browses by opening one plate and arrowing
+  left and right through the set; `turnarounds/`, `artwork/` and `boards/` each
+  had to be opened separately, and nobody browses a costume that way.
+
+  `_build_guide.md` and `_published-from-repo.txt` carry a `_` so they sort above
+  the images. The build guide is renamed from `Build-Guide.md` to match, keeping
+  the repository and Drive filenames identical so the drift check stays a plain
+  comparison.
+
+  **Two consequences, both deliberate.** A file dropped into a character's Drive
+  folder by hand is now deleted on the next publish — the root *is* the sync
+  target, where before each subfolder was and the root was unreachable. And flat
+  means one filename namespace, so the script now refuses to publish a character
+  with duplicate basenames rather than let one file overwrite another.
+
+  It also retired `check_shadows()`, which existed only because the sync could
+  not reach the folder root — the failure it reported on is now designed out.
+
 - **Jasu's build guide rebuilt from the design, 2026-08-04** — the last artefact
   anywhere still saying **4 ft 11 in**. The repository, all 46 of her generated
   prompts and all 18 of her images were already correct at 155 cm; the wrong one

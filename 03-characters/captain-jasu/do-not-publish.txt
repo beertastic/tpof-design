@@ -38,5 +38,18 @@
 # reads a little like a headset. Accepted for a casting and make-up plate.
 # The fix, if it is ever wanted, is placement rather than more adjectives.
 
-# Same two faults as portrait.png had, same fix.
-expression_strip.png
+# RELEASED 2026-08-04 — expression_strip.png regenerated and accepted, and it is
+# the best of the four re-rolls. Both documented faults are fixed: the mantle
+# came back irregular, and the horns came back ASYMMETRIC and identical across
+# all four panels, against a prediction that they would copy the matched pair
+# off the attached front. It is the one plate where a slot has beaten the
+# photograph on the horns. Two deviations accepted: the horns are ridged and
+# segmented against a rule that says smooth, and the whistle is the bright
+# pendant inherited from the approved front — see Jasu-Image-TODO.md, where the
+# whistle is logged as the third rule that reference breaks.
+
+# NOTHING IS BLOCKED. All 19 images are generated and none is superseded.
+#
+# Keep this file. The moment the front is re-rolled against the open decision,
+# every plate matched against the old one becomes a superseded plate, and this
+# is where they go.

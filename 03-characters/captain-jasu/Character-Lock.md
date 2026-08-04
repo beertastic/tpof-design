@@ -2,21 +2,21 @@
 title: "Captain Jasu — Character Lock"
 asset_id: "LOCK-CAPTAIN-JASU"
 updated: "2026-08-04"
-status: "locked-with-two-open-deviations"
+status: "locked-with-three-open-deviations"
 ---
 
 # Captain Jasu Character Lock
 
-**Status:** LOCKED FOR BOARD REVIEW — with two named deviations in the approved
-reference, one of them undecided
-**Version:** 1.0
+**Status:** LOCKED FOR BOARD REVIEW — with **three** named deviations in the
+approved reference, all governed by one undecided question
+**Version:** 1.1
 **Date:** 2026-08-04
 
 **One approved reference, and it is scoped to the costume only.**
 
 | Reference | Authoritative for | NOT for |
 |---|---|---|
-| `source/artwork/turn-field-front.png` | **The costume** — cut, silhouette, palette, placement, hardware | **The horns and the mantle surface.** See the deviations below |
+| `source/artwork/turn-field-front.png` | **The costume** — cut, silhouette, palette, placement, hardware | **The horns, the mantle surface and the whistle.** See the three deviations below |
 | `reference/actor/ling-jiu-headshot.jpg` | **The face and the build**, and nothing else | The costume. There is none in frame |
 | `reference/props/a180.jpg` | **The blaster**, and nothing else | Everything else |
 
@@ -49,8 +49,9 @@ specification reaching the generator to 100%, with nothing removed.
 
 ### Known deviations in the approved front
 
-**Both were found on 2026-08-04 by cropping and magnifying the reference against
-the plates generated from it. Unlike Shada's three, one of these is NOT settled.**
+**All three were found on 2026-08-04 by cropping and magnifying the reference
+against the plates generated from it. Unlike Shada's three, these are NOT
+settled** — they are one open decision, not a tolerance.
 
 - **THE HORNS — OPEN, AND IT IS A DECISION, NOT A TOLERANCE.** The approved front
   and all four matched views show **a matched pair of small blunt pale cups over
@@ -86,8 +87,36 @@ the plates generated from it. Unlike Shada's three, one of these is NOT settled.
 
   **`mantle_detail.png` is the authority on this surface, not the front.**
 
-**These two travel together.** One re-roll of the front fixes both, and
-`mantle_detail.png` already shows what the correct surface looks like.
+- **THE WHISTLE — found 2026-08-04 by crop, and it is the third.** `must_show`
+  rule 20 asks for a whistle that is *"cheap, plain and much handled… NOT
+  ornamental and NOT jewellery"*, and rule 29 permits **exactly two pale or
+  bright things, the bone horns and the blaster barrel.**
+
+  **`whistle_and_leash.png` and `mantle_detail.png` both show the correct
+  object** — a dull, dark, tarnished tin whistle. **The approved front carries a
+  clean bright unmarked silver bar on a cord**, with no tarnish and no handling
+  wear, and it reads as a pendant.
+
+  Inherited by `scale_figure`, `hero`, `camp_day`, `expression_strip` and the
+  four other turnarounds. **In `expression_strip` there is no blaster in frame,
+  so the whistle is the brightest object in the picture** — her most important
+  prop rendered as jewellery, which is the precise failure rule 20 exists to
+  stop.
+
+  **`whistle_and_leash.png` is the authority on this object, not the front.**
+
+**All three travel together, and one generation fixes all three.**
+
+| Rule the front breaks | Correct authority already on disk |
+|---|---|
+| The horns — a matched pair | `headdress.png` |
+| The mantle — a lattice, not irregular crazing | `mantle_detail.png` |
+| The whistle — bright polished jewellery | `whistle_and_leash.png` |
+
+**Twelve of the nineteen images carry at least one of the three.** That is most
+of the pack. It does not get cheaper by waiting, and it is stated plainly in
+[`../../11-production-tracking/Jasu-Image-TODO.md`](../../11-production-tracking/Jasu-Image-TODO.md)
+rather than softened.
 
 ---
 
@@ -252,6 +281,10 @@ up and outward from both sides, sitting above and behind the ears.
   - **THERE IS EXACTLY ONE, AND IT IS AT HER THROAT.** Nothing resembling a
     whistle hangs from her belt. *A generated test on 2026-08-03 came back wearing
     two; two makes it an ornament instead of an instrument.*
+  - **DULL, DARK AND TARNISHED, NEVER BRIGHT.** `whistle_and_leash.png` is the
+    authority. **The approved front shows a clean bright silver bar that reads as
+    a pendant** — see the deviation above. A bright whistle is also a third pale
+    object, which rule 29 forbids outright.
   - *A sourcing guide written from the photographs called it a "vintage keychain
     fob".*
 - **THE LEASH.** Heavy chain or thick strap, **coiled and hung at her belt on her
@@ -357,6 +390,9 @@ she has none of the real thing.*
   generator; there is now a heel rule. The heel runs slightly high in
   `turn-field-natural.png` — within tolerance, but check it in every frame.*
 - **A second whistle, or a whistle at the belt.**
+- **A bright, clean, polished or unmarked whistle**, or one that reads as a
+  pendant. It is cheap tin, tarnished and much handled. *Currently shown bright
+  by the approved front and by five plates matched against it.*
 - **The leash in her hand or clipped to the animal.** *`candid.png` is the single
   exception.*
 - **A mantle with quilting, lattice, regular cross-hatch, triangular grid,

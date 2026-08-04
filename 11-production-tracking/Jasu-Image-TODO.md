@@ -1,7 +1,7 @@
 ---
 title: "Captain Jasu — Finish List"
 asset_id: "TRACK-JASU-IMAGES"
-updated: "2026-08-03"
+updated: "2026-08-04"
 status: "open"
 ---
 
@@ -9,8 +9,11 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-04
 >
-> **7 images left. Every prompt is current; nothing needs editing before you
+> **5 images left. Every prompt is current; nothing needs editing before you
 > generate.** Fresh chat each, save under the exact `Output file:` name.
+>
+> **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
+> released** — see the two RELEASED notes in `../03-characters/captain-jasu/do-not-publish.txt`.
 >
 > ## Attachments — READ THIS, IT CHANGED
 >
@@ -24,16 +27,24 @@ status: "open"
 > | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
 > | **everything else** | `prompts/attach/field/` | 3 |
 >
-> ## The 7
+> ## The 5
 >
-> **Re-rolls — all four failed for a reason that is now fixed in the prompt:**
+> **Re-rolls — both failed for a reason that is now fixed in the prompt:**
 >
 > | Paste | Why it failed |
 > |---|---|
-> | `04-captaining.txt` | Drew a **generic dog**. The slot never said what an akk is, and no creature plate was attached. Both fixed |
 > | `07-headdress.txt` | Came back with a **half-up knot** because this slot still carried the *superseded* "swept UP AND BACK, a BUILT shape" hair. My miss. Now says worn down |
-> | `06-portrait.txt` | **Symmetric horns** and a mantle lattice. Neither was mentioned in the slot, so both were left to `must_show` and lost |
-> | `08-expression_strip.txt` | Same two faults, same fix |
+> | `08-expression_strip.txt` | **Symmetric horns** and a mantle lattice, the same two faults `06-portrait` had. The identical fix is already in the slot and it worked on the portrait |
+>
+> ~~`04-captaining.txt`~~ · ~~`06-portrait.txt`~~ — **both done 2026-08-04.**
+> The portrait is the proof that **putting the mantle-surface text in the slot
+> beats the attached photograph at close crop.** `08-expression_strip` carries
+> the same paragraph, so expect it to hold there too. Its horns differ in shape
+> but sit at matched height over each ear, which still reads faintly like a
+> headset — accepted for a make-up plate. **If that bothers you in
+> `07-headdress`, where the horns are the subject, the lever is placement — set
+> them at different heights, or one long sweep against two short points — not
+> more adjectives.**
 >
 > **Not yet generated:**
 >
@@ -269,7 +280,8 @@ status: "open"
 > right), `material_cloth`, `material_leather`, `material_hardware`, `hero`,
 > `camp_day`.
 >
-> - [ ] **`captaining` — WRONG ANIMAL. Re-roll.** It shows a large canid with a
+> - [x] **RESOLVED 2026-08-04 — re-rolled correct on the third pass.**
+>       ~~**`captaining` — WRONG ANIMAL. Re-roll.**~~ It showed a large canid with a
 >       harness. The akk is a low-slung reptile with pebbled scale, a plated
 >       spiked crest and brow horns — `camp_day`, generated seven minutes
 >       earlier, has it right. **And the animal appears leashed**, which
@@ -299,6 +311,17 @@ status: "open"
 >       surface. **So any slot where the mantle is large in frame needs the same
 >       emphasis in its own shot text** — the `must_show` rule alone does not beat
 >       the photograph at close crop.
+>
+>       **CONFIRMED 2026-08-04 on `portrait`.** The surface paragraph went into
+>       the slot and the lattice did not come back — irregular branching crazing,
+>       heavier at the shoulder fold, no repeat. Two for two. `07-headdress` and
+>       `08-expression_strip` carry the same paragraph.
+>
+>       **The horns are the one that only half held.** The portrait's differ in
+>       shape but sit at matched height over each ear, so the pair still reads
+>       faintly like a headset. Accepted on a make-up plate. **The rule describes
+>       shape and the failure is placement** — if it needs tightening, say
+>       different heights, or one long sweep against two short points.
 >
 > ### Open on her, 2026-08-03
 >

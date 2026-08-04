@@ -398,6 +398,20 @@ age. Never polished, never carved, never set in metal. A trophy, not jewellery.
 **NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band.** Nothing covers her
 face or her brow.
 
+**THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION.** Fine **irregular**
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. **NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture.** At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the `must_show` rule alone does not beat the
+photograph at this distance.
+
+> *Added 2026-08-04, and this slot is the controlled experiment that proves the
+> paragraph is what decides it. `mantle_detail` and `portrait` carry it and both
+> came back with correct irregular crazing. This slot did not carry it and came
+> back **diamond-quilted**, with stitch lines, from the same attached reference.
+> Two for two with, four for four without.*
+
 ## 8. `expression_strip.png` — performance range
 **Landscape, 16:9.**
 

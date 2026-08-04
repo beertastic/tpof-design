@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 8a7bee8b (short) · repo commit b5776bb 2026-08-04 12:47
+Prompt version: 2537ca5a (short) · repo commit 07c7d43 2026-08-04 13:07
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -37,5 +37,19 @@ THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS. Worn, matte and yellowed with
 age. Never polished, never carved, never set in metal. A trophy, not jewellery.
 NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band. Nothing covers her
 face or her brow.
+
+THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION. Fine irregular
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture. At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the must_show rule alone does not beat the
+photograph at this distance.
+
+Added 2026-08-04, and this slot is the controlled experiment that proves the
+paragraph is what decides it. mantle_detail and portrait carry it and both
+came back with correct irregular crazing. This slot did not carry it and came
+back diamond-quilted, with stitch lines, from the same attached reference.
+Two for two with, four for four without.
 
 LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

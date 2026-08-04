@@ -13,17 +13,24 @@
 #
 # Added 2026-08-04.
 
-# Drew a GENERIC DOG. The slot never said what an akk is and no creature plate
-# was attached. Both fixed in the prompt.
-captaining.png
+# RELEASED 2026-08-04 — captaining.png regenerated and correct. Took three
+# passes: the generic dog was fixed by attaching the creature plates, then the
+# akk came back half size twice until the size rule was promoted out of the
+# prose. See Jasu-Image-TODO.md. The akk reads slightly under the belt landmark
+# and that was accepted — this is a context image, and the animal's real spec
+# is the measured 0.85 m in Creature.md, not this frame.
 
 # Came back with a HALF-UP KNOT — this slot still carried the superseded
 # "swept up and back, a built shape" hair. Now says worn down.
 headdress.png
 
-# SYMMETRIC HORNS and a mantle lattice. Neither was mentioned in the slot, so
-# both were left to must_show and lost.
-portrait.png
+# RELEASED 2026-08-04 — portrait.png regenerated and accepted. The mantle
+# lattice is gone: the crazing is irregular and heavier at the shoulder fold,
+# which is the slot text beating the attached photograph at close crop. The
+# horns differ in shape — long sweeping point on her left, blunt stub on her
+# right — but sit at matched height over each ear, so the arrangement still
+# reads a little like a headset. Accepted for a casting and make-up plate.
+# The fix, if it is ever wanted, is placement rather than more adjectives.
 
-# Same two faults as portrait.png, same fix.
+# Same two faults as portrait.png had, same fix.
 expression_strip.png

@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 07 — THE BONE HORNS]
 Output file: headdress.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: b62ebbbd · repo commit b5776bb 2026-08-04 12:47
+Prompt version: 67dc62ee · repo commit 07c7d43 2026-08-04 13:07
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b5776bb, prompt b62ebbbd.
+    Working from commit 07c7d43, prompt 67dc62ee.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -162,6 +162,20 @@ THEY ARE TROPHIES FROM WHAT THE ANIMAL KILLS. Worn, matte and yellowed with
 age. Never polished, never carved, never set in metal. A trophy, not jewellery.
 NOT a helmet, NOT a crown, NOT a circlet, NOT a metal band. Nothing covers her
 face or her brow.
+
+THE MANTLE SURFACE CARRIES WEAR, NEVER DECORATION. Fine irregular
+crazing and cracking in worn leather-like cloth — heavier where it flexes and
+rubs, never the same twice. NO quilting, NO lattice, NO regular cross-hatch
+or triangular grid, NO tooling, NO embossing, NO repeating texture. At close
+crop the model regularises the crazing in the attached photograph into a grid
+unless this is said here — the must_show rule alone does not beat the
+photograph at this distance.
+
+Added 2026-08-04, and this slot is the controlled experiment that proves the
+paragraph is what decides it. mantle_detail and portrait carry it and both
+came back with correct irregular crazing. This slot did not carry it and came
+back diamond-quilted, with stitch lines, from the same attached reference.
+Two for two with, four for four without.
 
 
 Deliver a single image at 3:4. It must look photographed, not generated.

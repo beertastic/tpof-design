@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 01 — THE CAPTAIN]
 Output file: hero.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 36781b50 · repo commit b5776bb 2026-08-04 12:47
+Prompt version: 36781b50 · repo commit 07c7d43 2026-08-04 13:07
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b5776bb, prompt 36781b50.
+    Working from commit 07c7d43, prompt 36781b50.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

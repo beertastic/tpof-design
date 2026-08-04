@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS WITH THE LONG COAT — NATURAL POSE]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 795a8c15 · repo commit 5d3a133 2026-08-04 16:36
+Prompt version: 42b0f2fe · repo commit c1bd931 2026-08-04 16:36
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 5d3a133, prompt 795a8c15.
+    Working from commit c1bd931, prompt 42b0f2fe.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -50,7 +50,7 @@ ABSOLUTELY NOT, IN ANY FORM:
 If the result looks like a designed page rather than a photograph taken
 in a costume fitting, it is wrong and cannot be used.
 
-THERE ARE 2 ACTOR REFERENCES, numbered 1 to 2. They are all the SAME PERSON seen from different
+THERE ARE 3 ACTOR REFERENCES, numbered 1 to 3. They are all the SAME PERSON seen from different
 angles. Use every one of them.
 
 USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE BUILD
@@ -91,9 +91,11 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-LIKENESS (1 of 2) — front on, neutral — attached to this message.
+LIKENESS (1 of 3) — standing, whole figure — build and proportion — attached to this message.
+    If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
+LIKENESS (2 of 3) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
-LIKENESS (2 of 2) — three-quarter — the most useful working angle — attached to this message.
+LIKENESS (3 of 3) — three-quarter — the most useful working angle — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
 
 THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.

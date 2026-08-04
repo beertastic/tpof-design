@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 28192663 (short) · repo commit 5d3a133 2026-08-04 16:36
+Prompt version: 1978fb26 (short) · repo commit c1bd931 2026-08-04 16:36
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,8 +10,9 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
-  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
@@ -23,12 +24,12 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) �
 
 MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. An audience must watch him for half the film without suspecting. If the image announces him as a Jedi, it has failed.
-2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Every other mercenary in this crew is marked; he is not. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
+2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
 3. BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The holster is belt-mounted on his right hip, grip up and angled slightly forward for a right-hand draw.
-4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
+4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
-7. THE PANEL RUNS DOWN THE CENTRE FRONT, covering chest and belly and continuing DOWN UNDER THE BELT, bounded by a stitched edge that runs from the base of the throat to the waist.
+7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece, and it NEVER reaches the thigh.
 8. FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
 9. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a blunt point below the throat, and no chevron crosses it.
 10. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
@@ -37,7 +38,7 @@ MUST BE TRUE OF THIS IMAGE:
 13. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
 14. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
 15. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-16. WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would have.
+16. WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial…
 17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
 18. WORN LEATHER FOREARM WRAPS ON BOTH ARMS — a MATCHED PAIR, unlike others in this crew. Strapped or laced, covering the forearm from wrist to below the elbow. They are protection for a man who hauls cargo and crates all day: NOT scavenged trophies, NOT a flourish, and NOT armour.
 19. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
@@ -59,7 +60,8 @@ art, not AI-looking.
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. Blaster his RIGHT hip, UGLY and heavily modified. Pouches his LEFT.
   2. The long coat is OFF — harness, belt and holster all visible.
-  3. Chevron panel NARROWER than his shoulders, plain garment either side.
-  4. Five bands, a hand's width each, touching, shallow open V.
-  5. Chevrons are raised leather throwing a shadow, never printed.
-  6. Forearm wraps on BOTH arms, a matched pair.
+  3. Chevron panel NARROWER than his shoulders, plain cloth either side.
+  4. Panel ENDS just below the belt — NOT a tabard, never to the thigh.
+  5. EXACTLY FIVE bands, a hand's width each, touching, shallow V.
+  6. Bands are raised leather, green-stitched edges. Never printed.
+  7. Forearm wraps on BOTH arms.

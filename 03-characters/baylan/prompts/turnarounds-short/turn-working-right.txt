@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 255219a4 (short) · repo commit 5e00e06 2026-08-04 17:32
+Prompt version: 78dc30f4 (short) · repo commit 62bc499 2026-08-04 17:35
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -27,36 +27,35 @@ MUST BE TRUE OF THIS IMAGE:
 2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
 3. BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The holster is belt-mounted on his right hip, grip up and angled slightly forward for a right-hand draw.
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw.
-5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13.
+5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
 7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh.
 8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V" AND NEVER AN UPTURNED "^": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape.
 9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
 10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
-11. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
-12. THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER appliquéd onto the woven base and sitting PROUD of it, so every band throws a shadow edge.
-13. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. His chest is otherwise clear so the chevron panel reads uninterrupted.
-14. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places.
-15. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-16. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
-17. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-18. A SOFT LEATHER SHOULDER PAD ON HIS LEFT SHOULDER ONLY, covering the shoulder and the top of the upper arm and stopping at mid-bicep. Old, battered, scuffed pale at the crown where loads have rubbed it. It DROOPS and follows the shoulder — it does not stand away from it.
-19. THE SHOULDER PAD IS NOT ARMOUR AND NOT A PAULDRON. NO metal, NO plates, NO hammered bells, NO raised ridge, NO structure and NO hard edge. It is the pad a man who carries crates on one shoulder wears, and his RIGHT shoulder is bare so nothing fouls the draw.
-20. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-21. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
-22. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-23. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front. NO sash or obi.
-24. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
-25. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
-26. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
-27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable.
-28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on.
-29. 
-30. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
-31. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-33. 
-34. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight.
+11. THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED section of the garment and the five V rows are SEAMS STITCHED THROUGH IT, so the cloth DOMES softly between them. NO separate pieces laid on top, NO leather bands, NO hard edges and NO cast shadows.
+12. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG — and equally wrong if they read as a badge, a patch or an insignia. TONAL, DARK ON DARK: soft relief and shadow in the quilting, NEVER colour contrast, NEVER a stripe, NEVER a device.
+13. THE QUILTED PANEL IS WORN AND GRUBBY. Rubbed shiny along the ridges where the padding stands proudest, grimy in the hollows, the wadding flattened and dead in places from years of use. It is a work garment that has been slept in, not a made thing anyone is proud of.
+14. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. His chest is otherwise clear so the chevron panel reads uninterrupted.
+15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places.
+16. THE STITCHING IS WHAT HOLDS THE GARMENT TOGETHER, NOT DECORATION ON IT: every V row sewn in a DARK GREYED-OFF GREEN thread, coarse and hand-worked, puckering the cloth slightly as hand-quilting does. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
+17. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
+18. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
+19. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
+20. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
+21. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
+22. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front. NO sash or obi.
+23. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+24. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
+25. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
+26. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable.
+27. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
+28. 
+29. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+30. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+31. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+32. 
+33. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight.
 
 SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. THEY FACE THE VIEWER'S RIGHT — their nose, chest and toes all point to the RIGHT EDGE of the frame. If they face the left edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -76,11 +75,10 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   4. Panel ENDS just below the belt — NOT a tabard, never to the thigh.
   5. EXACTLY FIVE bands. Each a "V" — point LOW at centre, never a peak.
   6. Chevrons START HIGH — first band at armpit height, small yoke above.
-  7. Bands are raised leather, green-stitched edges. Never printed.
+  7. QUILTED rows stitched through padding. Seams, NOT applied bands.
   8. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
-  9. Soft leather pad, LEFT shoulder only. Drooping, NOT a pauldron.
-  10. Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
-  11. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
-  12. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
-  13. Build MATCHES the full-body photo. Big and solid, NOT obese.
-  14. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
+  9. Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
+  10. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
+  11. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
+  12. Build MATCHES the full-body photo. Big and solid, NOT obese.
+  13. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.

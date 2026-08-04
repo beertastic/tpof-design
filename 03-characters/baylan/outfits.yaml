@@ -77,8 +77,8 @@ outfits:
       shoulders, running from the throat to under the belt: a plain rounded area
       at the top, then five broad nested chevrons, each a V with its point low at
       the centre, filling it to the
-      waist — raised suede-like bands sitting proud of the weave, tonal and dark
-      on dark, each edge stitched. The harness crosses over it. The undertunic beneath shows only as a dark
+      waist — QUILTED rows stitched through a padded panel, doming softly between
+      the seams, tonal and dark on dark, the thread a greyed-off green. The harness crosses over it. The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
       disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
@@ -174,15 +174,41 @@ outfits:
       - >
         THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
         wide and open, never steep, and no chevron crosses the yoke above them.
-      - check: Bands are raised leather, green-stitched edges. Never printed.
+      # APPLIQUÉ BECAME QUILTING, 2026-08-04, and this is the change that answers
+      # "it looks right and it feels wrong" after six generations.
+      #
+      # The panel was five leather bands laid ON the garment. Rule 2 says
+      # ABSOLUTELY NO ORNAMENT, no insignia, no badges — and a centred,
+      # symmetrical five-band device on a man's chest is the most insignia-shaped
+      # object it is possible to give him. The rules were arguing with each
+      # other and the generator kept siding with the picture.
+      #
+      # QUILTING RESOLVES IT. The same five V rows, but stitched THROUGH a padded
+      # garment instead of applied to it: seams, not pieces. A padded work tunic
+      # is invisible — nobody looks twice at a quilted jacket — and the layout
+      # survives untouched for the plant.
+      #
+      # It also fixes three smaller things. The count stops fighting, because
+      # quilting rows are naturally regular. The green thread stops being trim
+      # and becomes the seam holding the coat together, which is exactly what
+      # Planted-Elements P5 asks of it. And the padding adds bulk across the
+      # chest and shoulders — the job the shoulder pad was brought in to do.
+      - check: QUILTED rows stitched through padding. Seams, NOT applied bands.
         text: >
-          IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH,
-          THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER
-          colour contrast, NEVER a stripe, NEVER a badge.
+          THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED
+          section of the garment and the five V rows are SEAMS STITCHED THROUGH
+          IT, so the cloth DOMES softly between them. NO separate pieces laid on
+          top, NO leather bands, NO hard edges and NO cast shadows.
       - >
-        THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER
-        appliquéd onto the woven base and sitting PROUD of it, so every band
-        throws a shadow edge.
+        IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE
+        IMAGE IS WRONG — and equally wrong if they read as a badge, a patch or an
+        insignia. TONAL, DARK ON DARK: soft relief and shadow in the quilting,
+        NEVER colour contrast, NEVER a stripe, NEVER a device.
+      - >
+        THE QUILTED PANEL IS WORN AND GRUBBY. Rubbed shiny along the ridges where
+        the padding stands proudest, grimy in the hollows, the wadding flattened
+        and dead in places from years of use. It is a work garment that has been
+        slept in, not a made thing anyone is proud of.
       # ADDED 2026-08-04. The first generation put a wide buckled strap
       # horizontally across his sternum, which read as a belt worn on the chest.
       # Nothing forbade it: the spec said "harness" and left the form open.
@@ -204,10 +230,10 @@ outfits:
         run of the bands in places. That is correct: the bands read through and
         around them, and are never moved or shrunk to make room.
       - >
-          THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge
-          stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing
-          proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD
-          AND NOTHING ELSE.
+          THE STITCHING IS WHAT HOLDS THE GARMENT TOGETHER, NOT DECORATION ON
+          IT: every V row sewn in a DARK GREYED-OFF GREEN thread, coarse and
+          hand-worked, puckering the cloth slightly as hand-quilting does. AT
+          NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
       - >
         THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or
         weathered bronze, findable only in close-up. NOTHING else on this costume
@@ -231,32 +257,22 @@ outfits:
       #   Re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY
       #   IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED
       #   SHOULDER that no industrial workwear would have.
-      # ADDED 2026-08-04 as a TEST, from a reference at
-      # reference/concept/shoulder-and-hood-source-2026-08-04.png.
+      # THE SHOULDER PAD WAS TRIED AND DROPPED, both on 2026-08-04. It came back
+      # a hard structured pauldron standing off the shoulder — which is what a
+      # shoulder piece wants to be, and why Planted-Elements P5 rejected the idea
+      # twice before. The third attempt failed the same way, so the rejection
+      # stands rather than being argued with again.
       #
-      # THIS DOES NOT OVERTURN THE P5 REJECTION, and the distinction is the whole
-      # point. What Planted-Elements rejects is "anything STRUCTURAL on the
-      # shoulders" — the later costume's dual hammered-metal bells with a raised
-      # centre ridge, which sit at eye line and read as rank. This is the
-      # opposite: SOFT leather, drooping, no structure, no edge, reading as a
-      # worn-out weather flap.
+      # An homage to Captain Jasu's pads was considered and refused on 2026-08-04
+      # for a different reason: Faction.md rejects "no uniform, no insignia, no
+      # matching anything — if two members look like they were dressed by the
+      # same person, it is wrong", and Crew-Roster stages Jasu and Baylan as the
+      # two people who CANNOT be one of the crew, apart by rank and by secret.
+      # A shared shoulder makes them a pair.
       #
-      # AND IT HAS A JOB, which is what every added piece on this man has to
-      # have. A hauler carries crates and sacks on one shoulder all day and wears
-      # a pad there. It is on his LEFT because he draws with his right, the same
-      # discipline as the pouches and the leash — nothing on the drawing side.
-      - check: Soft leather pad, LEFT shoulder only. Drooping, NOT a pauldron.
-        text: >
-          A SOFT LEATHER SHOULDER PAD ON HIS LEFT SHOULDER ONLY, covering the
-          shoulder and the top of the upper arm and stopping at mid-bicep. Old,
-          battered, scuffed pale at the crown where loads have rubbed it. It
-          DROOPS and follows the shoulder — it does not stand away from it.
-      - >
-        THE SHOULDER PAD IS NOT ARMOUR AND NOT A PAULDRON. NO metal, NO plates,
-        NO hammered bells, NO raised ridge, NO structure and NO hard edge. It is
-        the pad a man who carries crates on one shoulder wears, and his RIGHT
-        shoulder is bare so nothing fouls the draw. If it reads as armour, as
-        rank or as ceremonial, it is wrong.
+      # The want behind it was "make him look bigger", and the quilted panel does
+      # that instead — padding across the chest and shoulders, at no cost in
+      # ornament or rank.
       - >
         A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick,
         a plain heavy buckle with no decoration on it, darkened and cracked from
@@ -451,9 +467,10 @@ outfits:
         A plain rounded area at the top rises to a blunt point below the throat,
         then the five bands fill the panel to the waist — each about a hand's
         width, touching, at a shallow angle of about 30° below horizontal.
-        Raised, mottled, distressed waxed leather sitting PROUD of the cloth,
-        every band edge carrying a coarse hand-worked stitch line. TONAL, DARK ON
-        DARK — texture and relief, never colour contrast, never a flat graphic.
+        QUILTED — the rows are SEAMS stitched through a padded panel and the
+        cloth domes softly between them, every row sewn in coarse greyed-off
+        green thread. NOT applied leather bands, NOT separate pieces, NOT a
+        badge. TONAL, DARK ON DARK — soft relief, never colour contrast.
       - >
         THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark
         thread at this distance and NOTHING else. It is the only colour on him,

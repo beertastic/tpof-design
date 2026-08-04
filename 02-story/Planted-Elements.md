@@ -194,7 +194,7 @@ effect dies.
 
 | In this film | Becomes |
 |---|---|
-| **The chevron plastron.** A centre-front panel narrower than his shoulders, throat to belt: five broad nested chevrons — each a **V** with its point low at the centre and its ends high at the sides, never an upward peak — raised suede-like bands appliquéd on his outermost garment. Worn in every scene, read by everyone as workwear | **The chest piece.** Later he makes a proper, formal version of the shape he has worn as work clothing for eighteen years. **Deliberately the same geometry** — the transfer here is the layout, and what changes is the make: this one is cheap, repaired and stitched by hand. Nothing is revealed — it is recognised |
+| **The chevron plastron.** A centre-front panel narrower than his shoulders, throat to belt: five broad nested chevrons — each a **V** with its point low at the centre and its ends high at the sides, never an upward peak — **QUILTING** — the rows are seams stitched through a padded panel, not bands laid on it. Worn in every scene and read by everyone as a padded work garment | **The chest piece.** Later he remakes the same layout properly, in leather, as a formal piece. **Deliberately the same geometry** — the transfer is the layout, and what changes is the MAKE: quilting becomes appliqué, a seam becomes a band. Nothing is revealed — it is recognised |
 | **The green stitching.** The thread holding the chevron panels down is a dark, greyed-off green — the only colour on him, and only findable in close-up | **The colour he is known for.** It was on him the whole time, as thread. Nobody watching Film 1 could name it; everybody rewatching can |
 | **The long dark coat.** Weathered black, below the knee, worn open, scorched down his left side, repaired and never patched properly. Reads as ordinary mercenary weather gear | **The cloak.** Same garment, same silhouette, no ceremony attached to it yet |
 | **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
@@ -229,6 +229,16 @@ is the cleaned-up one; this is the same object doing freight work.
 from the shape, the clamshell and the wrist screen — not the colour. A clean
 cold-toned gauntlet would be the brightest object on a man whose palette rule is
 charcoal, ash brown, dust brown and faded olive, and it would announce him.
+
+**Rejected three times, the last on 2026-08-04 with a generation to show for
+it.** A soft, drooping, non-structural pad was tried on the grounds that it was
+not what P5 refuses; it came back a hard pauldron standing off the shoulder,
+because that is what a shoulder piece wants to be. An homage to Captain Jasu's
+pads was refused separately: `Faction.md` rejects *"no matching anything — if two
+members look like they were dressed by the same person, it is wrong"*, and
+`Crew-Roster.md` stages Jasu and Baylan as the two who cannot be one of the crew,
+apart by rank and by secret. A shared shoulder makes them a pair. **The want
+behind it — making him look bigger — is now carried by the quilted panel.**
 
 **Rejected, and re-raised and rejected again on 2026-08-04:** anything structural
 on the shoulders. It reads as fantasy armour in this film's language, the Design

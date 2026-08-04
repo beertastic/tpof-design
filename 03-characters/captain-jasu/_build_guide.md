@@ -24,7 +24,7 @@ copy, replace it with this one.
 
 | The old guide said | It is actually |
 |---|---|
-| **4'11" (150 cm)** wearer | **155 cm (5 ft 1 in)** — re-cast 2026-08-03 |
+| A **shorter** wearer, height understated | **155 cm (5 ft 1 in)** — re-cast 2026-08-03 |
 | **Ankle-height boots**, "Chelsea or combat" | **TALL** — shaft well up the calf, ending below the knee |
 | A whistle as a **belt fob**, "vintage keychain fob" | **Exactly ONE whistle, at her THROAT.** The belt carries none |
 | A bought **Etsy leather pauldron** for the mantle | **Stiffened cloth, made not bought.** See the warning below |

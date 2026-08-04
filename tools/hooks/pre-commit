@@ -40,3 +40,31 @@ Then read [\`AGENTS.md\`](AGENTS.md) and follow it.
 EOF
 
 git add "$STATE"
+
+# --- Captain Jasu is 155 cm (5 ft 1 in). ------------------------------------
+# She was cast at 150 cm on 2026-08-01 and re-cast on 2026-08-03. The old figure
+# survived the re-cast inside a comparison table in her build guide, was rendered
+# into _build_guide.pdf, and was published to Drive twice — where a maker reads
+# it as current. Fixed 2026-08-04, and blocked here so it cannot return.
+#
+# CHANGELOG.md is exempt: it is the production's history and must be free to
+# record what the old figure was. Nothing else may state it.
+# The pattern is written as a character class so that this line does not
+# itself trip the check it defines.
+SUPERSEDED="4['’]11|4 ?ft ?11"
+
+BAD=$(git diff --cached --name-only --diff-filter=ACM \
+      | grep -v '^CHANGELOG\.md$' \
+      | while read -r f; do
+            [ -f "$f" ] || continue
+            grep -InIE "$SUPERSEDED" -- "$f" | sed "s|^|$f:|"
+        done)
+
+if [ -n "$BAD" ]; then
+    echo "COMMIT BLOCKED — Captain Jasu's superseded height appears in:" >&2
+    echo "$BAD" | sed 's/^/  /' >&2
+    echo >&2
+    echo "She is 155 cm (5 ft 1 in). Correct these, or if you are writing" >&2
+    echo "production history, put it in CHANGELOG.md." >&2
+    exit 1
+fi

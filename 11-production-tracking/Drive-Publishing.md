@@ -69,7 +69,7 @@ was wrong in five ways at once:
 
 | It said | It is |
 |---|---|
-| A **4'11" (150 cm)** wearer | **155 cm (5 ft 1 in)** |
+| A **shorter** wearer, height understated | **155 cm (5 ft 1 in)** |
 | **Ankle boots** | **Tall**, well up the calf |
 | A whistle as a **belt fob** | **One whistle, at her throat** |
 | A bought **Etsy leather pauldron** | **Made, stiffened cloth** — `outfits.yaml` calls the pauldron "the single most wrong thing it is possible to buy for this costume" |

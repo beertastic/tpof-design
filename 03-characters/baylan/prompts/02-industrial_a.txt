@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 02 — STANDING AT THE BACK]
 Output file: industrial_a.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 813a223e · repo commit c78fccb 2026-08-04 17:28
+Prompt version: 86a354fb · repo commit 801ec46 2026-08-04 17:32
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit c78fccb, prompt 813a223e.
+    Working from commit 801ec46, prompt 86a354fb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -81,7 +81,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
   6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
   7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh. It runs down the CENTRE FRONT over chest and belly, with a stitched edge bounding it at each side. It is CLOTH, and it ends where the belt begins — the hip plates below are a SEPARATE metal thing and the two never merge into one.
-  8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V", NOT A "\u039b": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
+  8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V" AND NEVER AN UPTURNED "^": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
   9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
   10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
   11. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.
@@ -306,7 +306,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
   6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
   7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh. It runs down the CENTRE FRONT over chest and belly, with a stitched edge bounding it at each side. It is CLOTH, and it ends where the belt begins — the hip plates below are a SEPARATE metal thing and the two never merge into one.
-  8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V", NOT A "\u039b": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
+  8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V" AND NEVER AN UPTURNED "^": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They TOUCH: no cloth shows between them, because the panel is MADE of them.
   9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
   10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
   11. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast, NEVER a stripe, NEVER a badge.

@@ -103,6 +103,38 @@ def check_placement(character: str, cfg: dict) -> list[str]:
     return warnings
 
 
+ALL_VIEWS = ("front", "left", "right", "back", "natural")
+
+
+def wanted_views(outfit: dict) -> tuple[str, ...]:
+    """Which turnaround views this outfit needs. All five unless it says otherwise.
+
+    AN OUTFIT THAT IS ANOTHER OUTFIT PLUS ONE GARMENT DOES NOT NEED FIVE VIEWS.
+    Baylan is the worked case: he has ONE costume, and a long coat that comes
+    off. The coat set was modelled as a full second outfit and generated ten
+    turnarounds where the costume department builds one costume and one coat.
+    Views left, right and back of the coat set re-photograph a costume the base
+    five already record, at the cost of three generations and three more chances
+    to drift.
+
+    Set `views:` on the outfit to narrow it:
+
+        views: [front, natural]
+
+    An unknown name is an error rather than a silent omission — a typo here
+    would quietly stop a view being generated at all.
+    """
+    v = outfit.get("views")
+    if not v:
+        return ALL_VIEWS
+    bad = [x for x in v if x not in ALL_VIEWS]
+    if bad:
+        raise SystemExit(
+            f"  ✗ outfit '{outfit.get('id')}' asks for unknown view(s): "
+            f"{', '.join(bad)}\n     known views: {', '.join(ALL_VIEWS)}")
+    return tuple(v)
+
+
 VIEWS = [
     ("front", "FRONT",
      "The subject faces the camera squarely, straight on. Shoulders level and "
@@ -550,6 +582,7 @@ def run(repo: Path, character: str) -> int:
                                       or cfg.get("do_not_retrieve"))
         outfit["_dir"] = character
         views = VIEWS + [("natural", "NATURAL POSE", "")]
+        views = [v for v in views if v[0] in wanted_views(outfit)]
         for view_id, view_name, view_desc in views:
             path = outdir / f"turn-{outfit['id']}-{view_id}.txt"
             path.write_text(

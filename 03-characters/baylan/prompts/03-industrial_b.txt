@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 03 — THE STORAGE AREA]
 Output file: industrial_b.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: ad60617b · repo commit 8e3f070 2026-08-04 16:14
+Prompt version: ad60617b · repo commit eb18484 2026-08-04 16:16
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8e3f070, prompt ad60617b.
+    Working from commit eb18484, prompt ad60617b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

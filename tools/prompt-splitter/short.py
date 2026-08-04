@@ -26,6 +26,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
+from turnarounds import wanted_views  # noqa: E402
 from split import (find_repo_root, actor_refs, raw_url, parse_slots,  # noqa: E402
                    parse_applicability, rules_of)
 
@@ -683,7 +684,8 @@ def stage_attachments(repo: Path, character: str, outfit: dict,
     outdir.mkdir(parents=True, exist_ok=True)
 
     # The superset: the non-approved views need everything.
-    views = [v for v in VIEWS if v != (outfit.get("approved") or {}).get("view", "front")]
+    views = [v for v in VIEWS if v in wanted_views(outfit)
+             and v != (outfit.get("approved") or {}).get("view", "front")]
     refs = reference_list(character, outfit, views[0] if views else "left")
 
     lines, missing, n = [], [], 0
@@ -797,7 +799,9 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
     sizes = []
     reported = set()
     for outfit in cfg.get("outfits", []):
-        for view in VIEWS:
+        # Honour `views:` exactly as turnarounds.py does, or the short prompts
+        # and the long ones disagree about which views exist.
+        for view in [v for v in VIEWS if v in wanted_views(outfit)]:
             text, cap = fit(character, cfg, outfit, view, budget)
             if not dry_run:
                 (outdir / f"turn-{outfit['id']}-{view}.txt").write_text(text, encoding="utf-8")

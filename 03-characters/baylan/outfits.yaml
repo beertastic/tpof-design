@@ -202,14 +202,32 @@ outfits:
         He must still SEPARATE from a night forest and from camp firelight —
         do not sink him into the background.
 
-  # Added 2026-08-01. The base five record what the costume department builds;
-  # these five record what the audience actually sees him in for half the film.
-  # The coat was excluded from the turnarounds because it hides the harness, the
-  # belt and the holster — which is true, and is why this is a SECOND set rather
-  # than a change to the first.
+  # HE HAS ONE COSTUME. THIS IS THAT COSTUME WITH ONE MORE GARMENT ON TOP.
+  # Confirmed by the production designer 2026-08-04, and it is a correction:
+  # this was modelled as a full second outfit and generated TEN turnarounds,
+  # where the costume department builds one costume and one coat.
+  #
+  # Added 2026-08-01 for a real reason that still holds — the coat hides the
+  # harness, the belt and the holster, so the base five have to record the
+  # costume without it, and half the film is spent with it on. What was wrong
+  # was the SIZE of the answer, not the answer.
+  #
+  # TWO VIEWS, NOT FIVE. `left`, `right` and `back` of the coat set would
+  # re-photograph a costume the base five already record — three generations and
+  # three more chances to drift, for a garment that is one item. `front` shows
+  # the chevron plastron framed by the open coat, which is the point of the
+  # view, and `natural` shows how it hangs and moves.
+  #
+  # IT IS NOT SEPARATELY APPROVED. The approved `working` front is the one
+  # costume reference for this character — see the rule in APPROVAL.md that
+  # there is never more than one. These views MATCH it and add a coat.
+  #
+  # FOR THE BUILD, THE COAT IS ONE COMPONENT in one `components:` list on the
+  # `working` outfit, not a second costume to source.
   - id: working-coat
     name: Working dress with the long coat
     scenes: "Off duty, at the fire, in the bunk, on cold nights — 3, 5, 14, 19, 23, 25"
+    views: [front, natural]
     # Overrides the file-level block, which tells the generator the coat is not
     # worn. Here it is the subject.
     do_not_retrieve_short: >

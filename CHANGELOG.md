@@ -2,6 +2,39 @@
 
 All notable production-bible changes are recorded here.
 
+- **`regen` pointed at the wrong outfit, 2026-08-04.** Its closing "NEXT — the
+  front turnaround" step chose the front prompt with `ls turn-*-front.txt |
+  head -1`, which is **alphabetical**, and alphabetical is not the same as
+  primary.
+
+  **Baylan is the first character in this production with two outfits, and it
+  sent the operator at `working-coat`** — his off-duty set, worn in eight scenes
+  — instead of `working`, which his own file calls *"his only costume"* and
+  lists in all twelve. Approving the wrong front is not a small error: every
+  other view, every narrative frame and every board matches against it, and the
+  rule that there is only ever ONE costume reference means the mistake would
+  have propagated silently through the whole pack.
+
+  It now reads the **first outfit declared in `outfits.yaml`**, which is the
+  primary by convention, and falls back to alphabetical only where that outfit
+  has no front prompt yet. Shada and Jasu have one outfit each, which is exactly
+  why nothing caught it before; both verified unchanged.
+
+  **Baylan's actor references renamed to the documented names** in the same
+  pass. A file called `Pasted image.png` had arrived in `reference/actor/` and
+  the space in the filename was already warning on every run. It is genuinely
+  front-on, evenly lit, on a plain ground — what `CAST-REFERENCE.md` actually
+  asks for — so it becomes `headshot-neutral.jpg`, and the dramatic side-lit
+  dark-ground portrait that held that name becomes `headshot-three-quarter.jpg`,
+  which is what it is. The repository's own rule decided it: *"a well-lit
+  neutral headshot is worth more than a good photograph."* PNG to JPEG on the
+  way, 8.8 MB down to 1.2 MB.
+
+  **Both fixes are in commit `3b4d079`, labelled `prompts(baylan): regenerate`,
+  because `./tools/regen` commits and pushes the entire working tree under its
+  own message.** That is the third time in two days it has swallowed unrelated
+  work, and it is worth fixing.
+
 - **The build sheets carry pictures, 2026-08-04.** A printed shopping list is now
   enough on its own in a charity shop. *"Heavy ribbed knit, dark warm brown"* is
   unambiguous at a desk and useless on a rail, where the job is to recognise the

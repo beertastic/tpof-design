@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 08 — THE CONVERTED LIGHTSABER]
 Output file: blaster.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: b9cd8ea1 · repo commit a9f6adf 2026-08-04 16:26
+Prompt version: b9cd8ea1 · repo commit 5d3a133 2026-08-04 16:36
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a9f6adf, prompt b9cd8ea1.
+    Working from commit 5d3a133, prompt b9cd8ea1.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

@@ -92,6 +92,43 @@ def split_row(line: str) -> list[str]:
     return [c.strip() for c in line.strip().strip("|").split("|")]
 
 
+# `{swatch:#7a5c33}` in a table cell -> a printed colour chip beside the text.
+# The production names its colours in prose ("dark bronze", "pale worn pewter")
+# and that is deliberate — it is brand-agnostic and cannot go out of stock. But
+# five oxidising alloys described only in words are five arguments at the bench,
+# so the sheet carries the swatch as well as the name.
+SWATCH_RE = re.compile(r"\{swatch:(#[0-9a-fA-F]{6})\}\s*")
+
+
+def cell(text: str, style: ParagraphStyle):
+    m = SWATCH_RE.search(text)
+    if not m:
+        return Paragraph(inline(text), style)
+
+    chip = Table([[""]], colWidths=[11], rowHeights=[11])
+    chip.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor(m.group(1))),
+        ("BOX", (0, 0), (-1, -1), 0.5, INK),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    rest = Paragraph(inline(SWATCH_RE.sub("", text)), style)
+    pair = Table([[chip, rest]], colWidths=[15, None])
+    pair.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (0, 0), "TOP"),
+        ("VALIGN", (1, 0), (1, 0), "TOP"),
+        ("TOPPADDING", (0, 0), (0, 0), 1),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (0, 0), 4),
+        ("RIGHTPADDING", (1, 0), (1, 0), 0),
+        ("TOPPADDING", (1, 0), (1, 0), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    return pair
+
+
 def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> list:
     # Frontmatter is repository bookkeeping, not something a maker needs.
     if md.startswith("---"):
@@ -121,16 +158,21 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> lis
                 rows.append(split_row(lines[i].strip()))
                 i += 1
             cols = len(header)
-            data = [[Paragraph(inline(c), st["cellh"]) for c in header]]
+            # A label/value table has nothing to put in a header, and an empty
+            # header row prints as a stray grey band above it. Drop it.
+            headed = any(c for c in header)
+            data = [[cell(c, st["cellh"]) for c in header]] if headed else []
             for r in rows:
                 r = (r + [""] * cols)[:cols]
-                data.append([Paragraph(inline(c), st["cell"]) for c in r])
+                data.append([cell(c, st["cell"]) for c in r])
             # First column carries the label and wants the room.
             w0 = width * (0.34 if cols > 1 else 1.0)
             rest = (width - w0) / max(cols - 1, 1)
-            t = Table(data, colWidths=[w0] + [rest] * (cols - 1), repeatRows=1)
+            t = Table(data, colWidths=[w0] + [rest] * (cols - 1),
+                      repeatRows=1 if headed else 0)
             t.setStyle(TableStyle([
-                ("BACKGROUND", (0, 0), (-1, 0), HEAD_BG),
+                ("BACKGROUND", (0, 0), (-1, 0),
+                 HEAD_BG if headed else colors.white),
                 ("GRID", (0, 0), (-1, -1), 0.4, RULE),
                 ("VALIGN", (0, 0), (-1, -1), "TOP"),
                 ("LEFTPADDING", (0, 0), (-1, -1), 5),
@@ -203,7 +245,8 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> lis
     return out
 
 
-def render(md_path: Path, pdf_path: Path, character: str) -> None:
+def render(md_path: Path, pdf_path: Path, character: str,
+           label: str = "build guide") -> None:
     st = styles()
     margin = 17 * mm
     width = A4[0] - 2 * margin
@@ -212,7 +255,7 @@ def render(md_path: Path, pdf_path: Path, character: str) -> None:
         canvas.saveState()
         canvas.setFont("Helvetica", 7.5)
         canvas.setFillColor(MUTED)
-        canvas.drawString(margin, 11 * mm, f"{character} — build guide")
+        canvas.drawString(margin, 11 * mm, f"{character} — {label}")
         canvas.drawRightString(A4[0] - margin, 11 * mm, f"page {doc.page}")
         canvas.drawCentredString(
             A4[0] / 2, 11 * mm,
@@ -225,7 +268,7 @@ def render(md_path: Path, pdf_path: Path, character: str) -> None:
         str(pdf_path), pagesize=A4,
         leftMargin=margin, rightMargin=margin,
         topMargin=margin, bottomMargin=22 * mm,
-        title=f"{character} — build guide", author="TPOF Art Department")
+        title=f"{character} — {label}", author="TPOF Art Department")
     doc.addPageTemplates([PageTemplate(
         id="p",
         frames=[Frame(margin, 22 * mm, width, A4[1] - margin - 22 * mm, id="f")],

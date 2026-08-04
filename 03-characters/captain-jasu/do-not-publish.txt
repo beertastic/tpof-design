@@ -1,0 +1,29 @@
+# Captain Jasu — files that exist on disk but must NOT reach Drive.
+#
+# Read by tools/publish-to-drive. One filename per line, `#` for comments.
+#
+# These four are the re-rolls in 11-production-tracking/Jasu-Image-TODO.md. Each
+# failed for a reason that is now fixed in its slot prompt, and each is still in
+# source/artwork because the replacement has not been generated yet. To rclone a
+# failed plate is indistinguishable from a good one.
+#
+# Publishing them is the precise failure this tool exists to prevent: the costume
+# department building from a superseded image. Delete a line the moment its
+# replacement is generated and correct.
+#
+# Added 2026-08-04.
+
+# Drew a GENERIC DOG. The slot never said what an akk is and no creature plate
+# was attached. Both fixed in the prompt.
+captaining.png
+
+# Came back with a HALF-UP KNOT — this slot still carried the superseded
+# "swept up and back, a built shape" hair. Now says worn down.
+headdress.png
+
+# SYMMETRIC HORNS and a mantle lattice. Neither was mentioned in the slot, so
+# both were left to must_show and lost.
+portrait.png
+
+# Same two faults as portrait.png, same fix.
+expression_strip.png

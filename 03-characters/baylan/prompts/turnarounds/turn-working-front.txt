@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: ac1e4003 · repo commit b71109a 2026-08-04 16:05
+Prompt version: d4aa9276 · repo commit 26d7046 2026-08-04 16:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit b71109a, prompt ac1e4003.
+    Working from commit 26d7046, prompt d4aa9276.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -91,10 +91,10 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-LIKENESS (1 of 2) — attached to this message.
-    If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/Pasted%20image.png
-LIKENESS (2 of 2) — front on, neutral — attached to this message.
+LIKENESS (1 of 2) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+LIKENESS (2 of 2) — three-quarter — the most useful working angle — attached to this message.
+    If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
 
 THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
 

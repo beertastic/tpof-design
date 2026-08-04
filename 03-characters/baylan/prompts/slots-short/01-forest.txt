@@ -1,14 +1,14 @@
 [BAYLAN — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: 132e0f61 (short) · repo commit b71109a 2026-08-04 16:05
+Prompt version: d481be3a (short) · repo commit 26d7046 2026-08-04 16:11
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/Pasted%20image.png
-  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
   Take the FACE and BUILD from the actor images only.
   Say whether you used an attached file or a URL. If neither worked, stop.

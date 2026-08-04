@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 15 — BUCKLES AND FITTINGS]
 Output file: material_hardware.png
 Aspect ratio: 1:1  (square)
-Prompt version: d2241b8d · repo commit 322c7e7 2026-08-04 14:09
+Prompt version: d2241b8d · repo commit cd3b350 2026-08-04 15:10
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 322c7e7, prompt d2241b8d.
+    Working from commit cd3b350, prompt d2241b8d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

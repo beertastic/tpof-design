@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 05 — OFF DUTY, UNOBSERVED]
 Output file: candid.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: ee4685eb · repo commit 322c7e7 2026-08-04 14:09
+Prompt version: ee4685eb · repo commit cd3b350 2026-08-04 15:10
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 322c7e7, prompt ee4685eb.
+    Working from commit cd3b350, prompt ee4685eb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

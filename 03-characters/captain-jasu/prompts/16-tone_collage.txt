@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 16 — THE SHARE SHEET]
 Output file: tone_collage.png
 Aspect ratio: 2:3  (portrait)
-Prompt version: a36eb7cd · repo commit cd3b350 2026-08-04 15:10
+Prompt version: a36eb7cd · repo commit 051663e 2026-08-04 16:15
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit cd3b350, prompt a36eb7cd.
+    Working from commit 051663e, prompt a36eb7cd.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

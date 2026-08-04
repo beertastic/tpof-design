@@ -12,10 +12,10 @@
 [CAPTAIN-JASU — SLOT 12 — THE ANIMAL IS HER RANK]
 Output file: akk_together.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 104cd18b · repo commit 8fe13dd 2026-08-04 12:22
+Prompt version: 104cd18b · repo commit b5776bb 2026-08-04 12:47
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8fe13dd, prompt 104cd18b.
+    Working from commit b5776bb, prompt 104cd18b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

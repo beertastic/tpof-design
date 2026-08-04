@@ -273,26 +273,54 @@ pale claws.
 **Tall portrait, 9:16.**
 
 Early morning, forest. Captain Jasu directing the pursuit — mid-instruction, arm
-out, pointing a direction, mercenaries moving off in the background to do it. The
-akk dog at her hip.
+out, pointing a direction. The akk dog stands beside her.
+
+<!-- Size promoted to the top of this slot and stated four ways on 2026-08-04,
+     after two consecutive generations came back with the crest at her knee —
+     roughly half size. It had been the LAST sentence of the appearance
+     paragraph, ~90 words in. Every numbered must_show rule held in both
+     images; the one property that was buried in prose is the one that failed.
+     Same lesson as Shada's plate size: a rule behind a wall loses to the wall. -->
+
+**THE AKK DOG IS WAIST-HIGH ON HER, AND THIS IS THE THING THAT KEEPS GOING
+WRONG.** Its spiked crest — the highest point of its neck and shoulders — is
+**LEVEL WITH THE BOTTOM OF HER BELT.** She could lay a flat hand on that crest
+**without stooping**. Its head alone is **as long as her forearm**.
+
+**NEVER knee-high. NEVER calf-high. NOT a pet, and NOT something she could pick
+up.** Two generations on 2026-08-04 came back at roughly half this size. **If it
+looks like an animal you could lift, it is less than half as big as it should be
+— draw it larger than feels natural.**
+
+**MATCH THE PROPORTION IN THE ATTACHED SCALE PLATE EXACTLY.** That plate shows
+the animal against a 1.8 m figure, and that one measurement is its whole job.
 
 **THE AKK DOG IS A REPTILE, NOT A DOG.** Low-slung and heavy through the
 shoulders, **warm red-brown pebbled scale**, coarse overlapping plates and a
 **spiked crest over the neck and shoulders**, a broad short-muzzled head with a
 long tapering snout, **three to four swept-back horns above each eye**, large
 round black eyes, broad splayed feet with long pale claws. **NOT a canid, NOT a
-wolf, NOT a mastiff, NO fur of any kind.** Its crest is level with the bottom of
-her belt.
+wolf, NOT a mastiff, NO fur of any kind** — those three are wrong in **SHAPE**,
+and it is **LARGER than any of them**, never smaller.
 
 **IT IS NOT ON A LEAD.** The heavy leash stays coiled at her belt on her LEFT and
 is **never clipped to the animal** — no lead running to it, no harness, no
 collar in her hand. She carries restraint she does not need, and that is the
 whole point of it.
 
+**THE MERCENARIES GO WHERE SHE POINTS.** Three or four of them in the middle
+distance, **moving off along the line of her outstretched arm** — backs to
+camera, walking that way — or **turning to look** in that direction. The order
+has just been given and it is being obeyed. **Nobody walks across her line,
+nobody walks the opposite way, and nobody looks at the camera.**
+
 **AUTHORITY WITHOUT PHYSICAL PRESENCE.** She is the smallest person in frame and
 plainly the one in charge, and the reason is standing next to her. Everyone
 else's body language is deference; hers is not a performance of command, it is
 the flatness of somebody who expects to be obeyed.
+
+**BEFORE YOU RENDER, CHECK TWO THINGS: the crest of the akk dog reaches the
+bottom edge of her belt, and the mercenaries are heading where she points.**
 
 ## 5. `candid.png` — off duty, unobserved
 **Tall portrait, 9:16.**

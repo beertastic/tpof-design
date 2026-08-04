@@ -1,7 +1,7 @@
 [CAPTAIN-JASU — OFF DUTY, UNOBSERVED]
 Output file: candid.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: d1cca85b (short) · repo commit 8fe13dd 2026-08-04 12:22
+Prompt version: d1cca85b (short) · repo commit b5776bb 2026-08-04 12:47
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

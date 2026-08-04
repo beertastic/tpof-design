@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 14 — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3  (tall portrait)
-Prompt version: de3944af · repo commit dc608e9 2026-08-04 17:20
+Prompt version: de3944af · repo commit c78fccb 2026-08-04 17:28
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit dc608e9, prompt de3944af.
+    Working from commit c78fccb, prompt de3944af.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

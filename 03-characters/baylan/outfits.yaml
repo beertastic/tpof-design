@@ -75,7 +75,8 @@ outfits:
       last of a faded olive.
       Down the centre front of the top layer, a panel narrower than his
       shoulders, running from the throat to under the belt: a plain rounded area
-      at the top, then five broad nested chevrons, apex down, filling it to the
+      at the top, then five broad nested chevrons, each a V with its point low at
+      the centre, filling it to the
       waist — raised suede-like bands sitting proud of the weave, tonal and dark
       on dark, each edge stitched. The harness crosses over it. The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
@@ -153,9 +154,12 @@ outfits:
           FRONT over chest and belly, with a stitched edge bounding it at each
           side. It is CLOTH, and it ends where the belt begins — the hip plates
           below are a SEPARATE metal thing and the two never merge into one.
-      - check: EXACTLY FIVE bands, a hand's width each, touching, shallow V.
+      - check: EXACTLY FIVE bands. Each a "V" — point LOW at centre, never a peak.
         text: >
-          FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND
+          FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V", NOT A
+          "\u039b": its two ends sit HIGH at the sides of his chest and its point
+          sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER
+          an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND
           ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They
           TOUCH: no cloth shows between them, because the panel is MADE of them.
       # RAISED 2026-08-04. Three generations put the bands low on the belly with
@@ -413,7 +417,9 @@ outfits:
         ONLY — never symmetrical damage — plus repaired tears and one burn that
         was never patched.
       - >
-        FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL
+        FIVE BROAD NESTED CHEVRONS, EACH A "V" WITH ITS POINT LOW AT THE CENTRE
+        AND ITS ENDS HIGH AT THE SIDES — never an upward peak — THROAT TO BELT,
+        ON A PANEL
         NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT.
         Showing that panel is the point of this view; the coat only frames it.
         A plain rounded area at the top rises to a blunt point below the throat,

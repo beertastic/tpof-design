@@ -59,7 +59,8 @@ TBD.
 
 ## Physical Design
 
-- Species: TBD
+- **Species: human.** Decided 2026-08-04 — the Sc.10 helmet reveal depends on a face that reads instantly as tired, fed-up and specific. Prosthetics slow that read, and the beat is one line long
+- **Gender: woman (she/her).** Consistent across every document; recorded here 2026-08-04
 - Age range: TBD
 - Build and silhouette: TBD
 - Distinguishing traits: TBD

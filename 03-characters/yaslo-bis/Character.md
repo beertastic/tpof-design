@@ -62,17 +62,37 @@ be genuinely warm or the finale gains nothing.
 
 ## Design
 
-TBD. Nothing has been specified yet.
+- **Species: human, with cybernetics over the face and possibly the arms.**
+  Decided 2026-08-04. **⚠ PROVISIONAL — check at his design pass**, before any
+  prompt is written. The extent is deliberately unfixed: *face* is the decision,
+  *arms* is a maybe.
+- **Gender: man (he/him).** Consistent across every document; recorded here 2026-08-04
 
-Governed by [`04-factions/mercenaries/Faction.md`](../../04-factions/mercenaries/Faction.md)
+**Why cybernetics rather than a second near-human.** The kit already carries a
+near-human in Merc 4 and a Wookiee in Merc 1, and his own open question warned
+that a second near-human "would need to look nothing like it". Cybernetics solve
+that: they read as visibly *other* without competing with Merc 4's make-up
+language at all, and they are prosthetic-and-props work rather than a full
+make-up build.
+
+**What they have to survive.** He is the warm one — he deals, he takes the mickey
+out of Nyx, and the group laughs *with* him. Then he is the one who says *"looks
+like we get to do this the fun way"* with blasters pointed at a fifteen-year-old.
+**The Sabacc scene has to be genuinely warm**, so the facework cannot cost him
+expression or make him read as a thug. That is the constraint the design pass has
+to hold, and it is the reason the extent is still open.
+
+Otherwise governed by [`04-factions/mercenaries/Faction.md`](../../04-factions/mercenaries/Faction.md)
 until he has his own pack. He should be built from the same salvage language as
 the rest of the crew but is **not** a `mercenary-kit` build — the four kit builds
 are allocated to Merc 1–4.
 
 ## Open
 
-- Species — human, or is there room for a near-human here? The kit already carries
-  one, so a second would need to look nothing like it.
+- ~~Species — human, or is there room for a near-human here?~~ **Answered
+  2026-08-04: human, with cybernetics.** See Design above. **The cybernetics are
+  PROVISIONAL and flagged for checking at his design pass** — confirm them against
+  the script and the Sabacc scene before anything is generated.
 - Does he have a relationship with Reya Fenn? He deals her in by name and she
   answers him directly; it is the only two-way exchange in the scene that is not
   about Nyx.

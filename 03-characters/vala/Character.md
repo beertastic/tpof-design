@@ -194,7 +194,8 @@ TBD.
 
 ## Physical Design
 
-- Species: TBD
+- **Species: human.** Decided 2026-08-04. Her own notes say "nothing in that list requires a specific species", so this was a free choice made on production grounds — she survives into Film 2, and a human build keeps that handover simple
+- **Gender: woman (she/her).** Consistent across every document; recorded here 2026-08-04
 - Age range: TBD
 - Build and silhouette: TBD
 - Distinguishing traits: TBD

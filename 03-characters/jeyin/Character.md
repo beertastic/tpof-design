@@ -200,7 +200,8 @@ TBD.
 
 ## Physical Design
 
-- Species: TBD
+- **Species: human.** Decided 2026-08-04, and effectively forced: she is Shin's mother, Shin is human, and `Open-Questions.md` confirms this Shin is Shin Hati
+- **Gender: woman (she/her).** Consistent across every document; recorded here 2026-08-04
 - Age range: TBD
 - Build and silhouette: TBD
 - Distinguishing traits: TBD

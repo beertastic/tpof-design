@@ -184,7 +184,8 @@ TBD.
 
 ## Physical Design
 
-- Species: TBD
+- **Species: human — baseline.** Confirmed 2026-08-04. `Production-Status.md` had recorded this as decided for some time while this file still said TBD; the file was stale, and this line closes the contradiction
+- **Gender: man (he/him).** Consistent across every document; recorded here 2026-08-04
 - Age range: TBD
 - Build and silhouette: TBD
 - Distinguishing traits: TBD

@@ -166,7 +166,8 @@ TBD.
 
 ## Physical Design
 
-- Species: TBD
+- **Species: human.** Decided 2026-08-04 — a prosthetic head would compound the Sc.25 head shot, which `Deaths-And-Effects.md` calls the hardest shot in the film. His kit and his interposing body language carry the character; species does not need to
+- **Gender: man (he/him).** Consistent across every document; recorded here 2026-08-04
 - Age range: TBD
 - Build and silhouette: TBD
 - Distinguishing traits: TBD

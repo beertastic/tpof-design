@@ -69,8 +69,10 @@ outfits:
       no trophies, no personal marks, no decoration of any kind. At his waist a
       wide, heavy salvaged belt with a plain buckle, and hanging from it on his
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
-      leather wraps on both forearms, wrist to below the elbow. Heavy boots,
-      resoled. Everything muted: charcoal, ash brown, dust brown, faded olive.
+      METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm, and
+      overlapping salvaged plates hung from the belt at the hips. Heavy boots,
+      resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
+      last of a faded olive.
       Down the centre front of the top layer, a panel narrower than his
       shoulders, running from the throat to under the belt: a plain rounded area
       at the top, then five broad nested chevrons, apex down, filling it to the
@@ -156,10 +158,18 @@ outfits:
           FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND
           ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They
           TOUCH: no cloth shows between them, because the panel is MADE of them.
+      # RAISED 2026-08-04. Three generations put the bands low on the belly with
+      # a broad empty yoke above them. Nothing said how high they start, so the
+      # plain area kept growing to fill the space the rule left open.
+      - check: Chevrons START HIGH — first band at armpit height, small yoke above.
+        text: >
+          THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins
+          at about armpit height and they fill DOWNWARD from there. The plain
+          rounded area above them is SMALL — a shallow yoke just under the
+          throat, never a broad empty field of cloth.
       - >
         THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
-        wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a
-        blunt point below the throat, and no chevron crosses it.
+        wide and open, never steep, and no chevron crosses the yoke above them.
       - check: Bands are raised leather, green-stitched edges. Never printed.
         text: >
           IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH,

@@ -205,14 +205,49 @@ effect dies.
 | In this film | Becomes |
 |---|---|
 | **A wide, heavy belt.** Broad salvaged leather, plain heavy buckle, no decoration, cracked from use. It carries the holster | The belt he still wears. He needed one anyway; making it the *same* one is free |
-| **Worn forearm wraps.** Leather, strapped or laced, wrist to below the elbow, **on both arms**. Protection for a man who hauls cargo all day | The bracers. A shape that carries forward without meaning anything yet |
+| **Metal gauntlets.** Both forearms, matched, wrist to three-quarters up the arm, clamshell, with a small dead screen and a few worn buttons at the inside of each wrist. A freight worker's kit for manifests and lifting gear | **The bracers.** The same object, cleaned up and given meaning. Changed from leather wraps 2026-08-04 |
 
-Both are in his `must_show` with an explicit warning: if either reads as
-decorative, or as armour, it is wrong. They are there because he needs them.
+The belt is in his `must_show` with an explicit warning: if it reads as
+decorative, or as armour, it is wrong. It is there because he needs it.
 
-**Rejected:** anything structural on the shoulders. It reads as fantasy
-armour in this film's language, the Design Bible rejects it by name, and it would
-fight the plainness that is the whole point of him.
+### The gauntlets went from leather to metal — 2026-08-04
+
+**They are already 3D printed, and the later costume's are metal**, so the plant
+is now carried by the real object rather than by a leather ancestor of it. The
+501st CRL for the later costume specifies a turquoise-grey clamshell shell from
+wrist to three-quarters of the forearm, closing with no visible fastening, with a
+small screen and six buttons at each wrist.
+
+**This is the hardest plant to keep honest, and P5's rule is why:** *nothing here
+may look deliberate.* A metal gauntlet reads as armour, and armour reads as
+status, and status is the one thing he is hiding. So this film gives it a job —
+**it is a wrist unit for cargo manifests and lifting gear, and it is filthy.**
+Dulled, dented, the finish worn off, nothing lit on the screen. The later version
+is the cleaned-up one; this is the same object doing freight work.
+
+**The finish is deliberately NOT the CRL's turquoise-grey.** Recognition comes
+from the shape, the clamshell and the wrist screen — not the colour. A clean
+cold-toned gauntlet would be the brightest object on a man whose palette rule is
+charcoal, ash brown, dust brown and faded olive, and it would announce him.
+
+**Rejected, and re-raised and rejected again on 2026-08-04:** anything structural
+on the shoulders. It reads as fantasy armour in this film's language, the Design
+Bible rejects it by name, and it would fight the plainness that is the whole
+point of him. The CRL makes the case stronger rather than weaker — the later
+shoulders are **dual hammered-metal bells with a raised centre ridge**, which is
+a loud and instantly recognisable silhouette. Putting that shape on him here does
+not hint that he becomes that man; it announces it, and `do_not_retrieve` exists
+to stop exactly that. **The gauntlets sit low in frame and read as tools. The
+shoulders would sit at eye line and read as rank.**
+
+### What the CRL confirmed, rather than changed
+
+**Five chevrons, and green.** The later vest carries *"five chevrons front and
+back"* with *"optional green gemstone accents"* — and this film already specified
+five nested chevrons and a dark greyed-off green thread as the only colour on
+him, both settled before anyone read the CRL. **Nothing needs changing.** The
+count and the colour were right, and the two plants now have an external check
+behind them.
 
 ### What must NOT carry forward
 

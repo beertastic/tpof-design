@@ -210,12 +210,29 @@ outfits:
         a plain heavy buckle with no decoration on it, darkened and cracked from
         years of use. It is what the holster hangs from. If it reads as
         decorative or as armour, it is wrong.
-      - check: Forearm wraps on BOTH arms.
+      # CHANGED 2026-08-04 by the Production Designer. These were leather wraps.
+      # The gauntlets are already 3D PRINTED, and the later costume's are metal —
+      # so the plant recorded in Planted-Elements P5 ("the bracers, a shape that
+      # carries forward without meaning anything yet") is now carried by the real
+      # object rather than by a leather ancestor of it.
+      #
+      # P5's rule still governs and is the whole difficulty: "nothing here may
+      # look deliberate. Every one of these is a working object doing a job in
+      # this film." A metal gauntlet reads as armour unless it is given a job, so
+      # the next rule gives it one.
+      - check: Metal gauntlets BOTH forearms, matched. Dull, dented, filthy.
         text: >
-          WORN LEATHER FOREARM WRAPS ON BOTH ARMS — a MATCHED PAIR, unlike others
-          in this crew. Strapped or laced, covering the forearm from wrist to
-          below the elbow. They are protection for a man who hauls cargo and
-          crates all day: NOT scavenged trophies, NOT a flourish, and NOT armour.
+          METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about
+          three-quarters up the forearm, a smooth clamshell shell closing with no
+          visible fastening. DULL, DIRTY AND BATTERED: scratched, dented, the
+          finish worn off at every edge. NOT bright, NOT clean, NOT polished and
+          NOT ceremonial.
+      - >
+        THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn
+        buttons sit at the inside of each wrist — a freight worker's kit for
+        cargo manifests and lifting gear, scuffed and half dead, with nothing lit
+        on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS
+        STATUS OR AS A WEAPON, THEY ARE WRONG.
       - >
         A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn
         leather pouch hangs on it against the skin, older and more repaired than

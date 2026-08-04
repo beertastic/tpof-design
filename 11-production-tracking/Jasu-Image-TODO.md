@@ -9,13 +9,14 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-04
 >
-> **1 image left. Every prompt is current; nothing needs editing before you
-> generate.** Fresh chat each, save under the exact `Output file:` name.
+> **ALL 19 IMAGES ARE GENERATED as of 2026-08-04.** Nothing is waiting on a
+> paste. What remains is one certain re-roll, and one decision that governs
+> almost everything else.
 >
 > **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
 > released** — see the two RELEASED notes in `../03-characters/captain-jasu/do-not-publish.txt`.
 >
-> ## ⚠ THE HORNS CONTRADICT THE APPROVED TURNAROUNDS — decide before the boards
+> ## ⚠ THE APPROVED FRONT BREAKS THREE OF ITS OWN RULES — decide before the boards
 >
 > **Deferred by the Production Designer on 2026-08-04, knowingly.** Both versions
 > are accepted on disk for now. **This is the third instance of the pattern that
@@ -45,23 +46,54 @@ status: "open"
 > paragraph beats it, which is why `portrait` and `mantle_detail` are the two that
 > came back right.
 >
-> **This lowers the price of the horn decision.** Re-rolling the front fixes the
-> horns AND the mantle surface in one pass. Two rule breaches, one generation.
+> ### AND THE WHISTLE — found 2026-08-04 by crop, and it is the third
 >
-> **The cost of deferring is not flat, and it has already gone up once.** Every
-> image generated against the current front inherits the ear cups. **`05-candid`
-> and `12-akk_together` were generated on 2026-08-04 while this sat open**, so the
-> bill is now the front + 4 views + `06-portrait` + those two — **eight images**,
-> plus a board rebuild. `08-expression_strip` would make it nine. **`16-tone_collage`
-> is the one image that never adds to this bill** — nothing is matched against it,
-> so it never needs re-rolling for the horns. Nothing forbids generating `08` now;
-> that is the price, and it should be paid knowingly rather than discovered later.
+> **Two plates get the whistle right:** `whistle_and_leash.png` (the prop plate)
+> and `mantle_detail.png` — a **dull, dark, tarnished tin whistle**, cheap and
+> much handled.
 >
-> - [ ] **DECIDE: are the horns the ear cups, or the trophies?** If the trophies
->       win, follow `APPROVAL.md` — clear `approved:` in `outfits.yaml`, re-roll
->       the front, approve by eye, re-roll the other four, then `06-portrait`. If
->       the cups win, **the rule has to be rewritten**, because as written it
->       forbids what five approved images show.
+> **The approved front carries a clean bright unmarked silver bar on a cord**, no
+> tarnish, no handling wear. It reads as a pendant. That breaks **rule 20** —
+> *"NOT ornamental and NOT jewellery — cheap, plain and much handled"* — and
+> **rule 29**, *"TWO PALE OR BRIGHT THINGS AND ONLY TWO… NOTHING else on her is
+> pale and NOTHING else is bright."*
+>
+> **In `expression_strip` there is no blaster in frame, so the whistle is the
+> brightest object in the picture** — her most important prop rendered as
+> jewellery, which is exactly what rule 20 exists to stop.
+>
+> Inherited by `scale_figure`, `hero`, `camp_day`, `expression_strip` and the four
+> other turnarounds.
+>
+> ### So it is three rules, and one generation fixes all three
+>
+> | Rule the front breaks | Correct authority already on disk |
+> |---|---|
+> | The horns — a matched pair | `headdress.png` |
+> | The mantle — a lattice, not irregular crazing | `mantle_detail.png` |
+> | The whistle — bright polished jewellery | `whistle_and_leash.png` |
+>
+> **Re-rolling the front fixes the horns, the mantle surface and the whistle in
+> one pass, with a correct reference plate for each.** That is the strongest
+> argument for doing it, and it did not exist this morning.
+>
+> **The bill, stated plainly as of 2026-08-04 with everything generated.**
+> **Twelve images carry the pendant whistle, the ear-cup horns, or both:** the
+> five turnarounds, `portrait`, `scale_figure`, `hero`, `camp_day`, `captaining`,
+> `candid`, `akk_together`. **That is effectively the whole pack**, and it should
+> not be dressed up. `16-tone_collage` is the one plate that never adds to this
+> bill — nothing is matched against it.
+>
+> **The counter-argument is that it does not get cheaper by waiting**, and that
+> one pass now fixes three rule breaches with a correct authority plate for each.
+>
+> - [ ] **DECIDE: re-roll the front, or amend the rules to match it?** If the
+>       front is re-rolled, follow `APPROVAL.md` — clear `approved:` in
+>       `outfits.yaml`, re-roll the front against `headdress`, `mantle_detail` and
+>       `whistle_and_leash` as the three scoped authorities, approve by eye, then
+>       re-roll the four matched views and work down the twelve. If the front
+>       stands, **rules 13, 16, 20 and 29 have to be rewritten**, because as
+>       written they forbid what five approved images show.
 >
 > ## Attachments — READ THIS, IT CHANGED
 >
@@ -75,13 +107,40 @@ status: "open"
 > | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
 > | **everything else** | `prompts/attach/field/` | 3 |
 >
-> ## The 1
+> ## THE AUDIT — all 19 opened and checked, 2026-08-04
 >
-> **One image, and it is a re-roll:**
+> **Certain re-roll, independent of any decision — 1**
 >
-> | Paste | Why it failed |
+> | Image | Why |
 > |---|---|
-> | `08-expression_strip.txt` | **Symmetric horns** and a mantle lattice, the same two faults `06-portrait` had. The mantle fix is in the slot and it worked on the portrait. **The horns will come back matched** — that is the reference, not the slot, and it is the open decision above |
+> | `tone_collage.png` | Panel 4 is a harnessed long-muzzled quadruped, not an akk. **Attach the creature plates to slot 16 first**, then re-roll |
+>
+> **Clean, no action — 6.** `blaster` · `whistle_and_leash` · `mantle_detail` ·
+> the three `material_*`. **The first three are the authority plates** for the
+> weapon, the whistle and the mantle surface.
+>
+> **Previously flagged, now verified correct.** `scale_figure` measures **154 cm
+> against the 180 cm reference** — the recast landed and the corrected chin
+> landmark worked. `captaining` and `akk_together` both sit at the belt landmark.
+>
+> **Contingent on the decision above — 12.** The five turnarounds · `portrait` ·
+> `scale_figure` · `hero` · `camp_day` · `captaining` · `candid` ·
+> `akk_together`. Every one carries the pendant whistle, the ear-cup horns, or
+> both.
+>
+> **Not opened:** `turn-field-left`, `-right`, `-natural` and the three
+> `material_*`. The three profiles were verified at the hip by crop on 2026-08-03
+> and that record stands.
+>
+> ~~`08-expression_strip.txt`~~ — **done 2026-08-04, and the best of the
+> re-rolls.** Both documented faults fixed: **the mantle came back irregular**
+> (the paragraph is now three for three) and **the horns came back asymmetric and
+> identical across all four panels**, against a prediction that they would copy
+> the matched pair off the front. **The slot beat the photograph on the horns** —
+> the one place that has happened at this crop. Two small deviations accepted:
+> the horns are **ridged and segmented** against a rule that says *"smooth, and
+> tapering to points"*, and the whistle is the bright pendant, which is the
+> reference and is logged above.
 >
 > ~~`07-headdress.txt`~~ — **done, saved and released 2026-08-04. Hair fixed:**
 > fully down and loose, nothing gathered, nothing styled. Its mantle came back

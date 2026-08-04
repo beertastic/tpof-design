@@ -231,6 +231,32 @@ outfits:
       #   Re-dyed dark, PATCHED SO MANY TIMES THE ORIGINAL FABRIC SURVIVES ONLY
       #   IN PANELS, with a CROSS-WRAPPED FRONT, a STANDING COLLAR and a SHAPED
       #   SHOULDER that no industrial workwear would have.
+      # ADDED 2026-08-04 as a TEST, from a reference at
+      # reference/concept/shoulder-and-hood-source-2026-08-04.png.
+      #
+      # THIS DOES NOT OVERTURN THE P5 REJECTION, and the distinction is the whole
+      # point. What Planted-Elements rejects is "anything STRUCTURAL on the
+      # shoulders" — the later costume's dual hammered-metal bells with a raised
+      # centre ridge, which sit at eye line and read as rank. This is the
+      # opposite: SOFT leather, drooping, no structure, no edge, reading as a
+      # worn-out weather flap.
+      #
+      # AND IT HAS A JOB, which is what every added piece on this man has to
+      # have. A hauler carries crates and sacks on one shoulder all day and wears
+      # a pad there. It is on his LEFT because he draws with his right, the same
+      # discipline as the pouches and the leash — nothing on the drawing side.
+      - check: Soft leather pad, LEFT shoulder only. Drooping, NOT a pauldron.
+        text: >
+          A SOFT LEATHER SHOULDER PAD ON HIS LEFT SHOULDER ONLY, covering the
+          shoulder and the top of the upper arm and stopping at mid-bicep. Old,
+          battered, scuffed pale at the crown where loads have rubbed it. It
+          DROOPS and follows the shoulder — it does not stand away from it.
+      - >
+        THE SHOULDER PAD IS NOT ARMOUR AND NOT A PAULDRON. NO metal, NO plates,
+        NO hammered bells, NO raised ridge, NO structure and NO hard edge. It is
+        the pad a man who carries crates on one shoulder wears, and his RIGHT
+        shoulder is bare so nothing fouls the draw. If it reads as armour, as
+        rank or as ceremonial, it is wrong.
       - >
         A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick,
         a plain heavy buckle with no decoration on it, darkened and cracked from
@@ -438,6 +464,17 @@ outfits:
       # "exactly the working dress ... with his long coat on over it", which is
       # true and is exactly why the omission was invisible: the sentence is
       # correct and carries none of the detail.
+      # THE COAT'S OWN RULE ALREADY ALLOWED THIS: "NO HOOD UP — the hood is down
+      # or there is no hood at all." A hood worn DOWN was never forbidden, it was
+      # simply never specified, so no generation ever drew one. It is the hood UP
+      # that reads as monastic, and it is still refused.
+      - check: Hood DOWN at the back of the neck. NEVER up, never over the head.
+        text: >
+          THE COAT HAS A HOOD AND IT IS ALWAYS DOWN — folded soft at the back of
+          the neck, sitting over the collar and the tops of the shoulders,
+          reading as a heap of worn cloth. NEVER up, NEVER over his head, NEVER
+          drawn forward, and NEVER a cowl. Down it is weather gear; up it is the
+          man he becomes in eighteen years, and this film is not that film.
       - check: Skirt to the knee below the coat. Metal gauntlets, dull and filthy.
         text: >
           UNDER THE COAT HE IS IN THE FULL WORKING DRESS. The top layer runs on

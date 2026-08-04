@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 01 — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: a6a77bd9 · repo commit 801ec46 2026-08-04 17:32
+Prompt version: 37b5c953 · repo commit 5e00e06 2026-08-04 17:32
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 801ec46, prompt a6a77bd9.
+    Working from commit 5e00e06, prompt 37b5c953.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -91,21 +91,23 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
   16. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
   17. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-  18. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  19. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
-  20. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-  21. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather with a plain buckle.
-  22. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
-  23. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
-  24. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
-  25. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
-  26. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  27. 
-  28. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
-  29. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-  30. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-  31. 
-  32. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
+  18. A SOFT LEATHER SHOULDER PAD ON HIS LEFT SHOULDER ONLY, covering the shoulder and the top of the upper arm and stopping at mid-bicep. Old, battered, scuffed pale at the crown where loads have rubbed it. It DROOPS and follows the shoulder — it does not stand away from it.
+  19. THE SHOULDER PAD IS NOT ARMOUR AND NOT A PAULDRON. NO metal, NO plates, NO hammered bells, NO raised ridge, NO structure and NO hard edge. It is the pad a man who carries crates on one shoulder wears, and his RIGHT shoulder is bare so nothing fouls the draw. If it reads as armour, as rank or as ceremonial, it is wrong.
+  20. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
+  21. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
+  22. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
+  23. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather with a plain buckle.
+  24. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+  25. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
+  26. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
+  27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
+  28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
+  29. 
+  30. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+  31. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+  32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+  33. 
+  34. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
 
 Generate a single image to the description below.
 
@@ -316,20 +318,22 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
   16. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
   17. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
-  18. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  19. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
-  20. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-  21. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather with a plain buckle.
-  22. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
-  23. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
-  24. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
-  25. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
-  26. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  27. 
-  28. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
-  29. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
-  30. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
-  31. 
-  32. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
+  18. A SOFT LEATHER SHOULDER PAD ON HIS LEFT SHOULDER ONLY, covering the shoulder and the top of the upper arm and stopping at mid-bicep. Old, battered, scuffed pale at the crown where loads have rubbed it. It DROOPS and follows the shoulder — it does not stand away from it.
+  19. THE SHOULDER PAD IS NOT ARMOUR AND NOT A PAULDRON. NO metal, NO plates, NO hammered bells, NO raised ridge, NO structure and NO hard edge. It is the pad a man who carries crates on one shoulder wears, and his RIGHT shoulder is bare so nothing fouls the draw. If it reads as armour, as rank or as ceremonial, it is wrong.
+  20. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
+  21. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
+  22. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
+  23. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather with a plain buckle.
+  24. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+  25. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
+  26. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
+  27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable. IF THEY READ AS ARMOUR, AS STATUS OR AS A WEAPON, THEY ARE WRONG.
+  28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
+  29. 
+  30. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
+  31. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
+  32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
+  33. 
+  34. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

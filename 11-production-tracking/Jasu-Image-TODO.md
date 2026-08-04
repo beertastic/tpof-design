@@ -9,11 +9,38 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-04
 >
-> **5 images left. Every prompt is current; nothing needs editing before you
+> **4 images left. Every prompt is current; nothing needs editing before you
 > generate.** Fresh chat each, save under the exact `Output file:` name.
 >
 > **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
 > released** — see the two RELEASED notes in `../03-characters/captain-jasu/do-not-publish.txt`.
+>
+> ## ⚠ THE HORNS CONTRADICT THE APPROVED TURNAROUNDS — decide before the boards
+>
+> **Deferred by the Production Designer on 2026-08-04, knowingly.** Both versions
+> are accepted on disk for now. **This is the third instance of the pattern that
+> cost four passes on the boots**, so read the cost before deferring it again.
+>
+> | | Horns |
+> |---|---|
+> | **All 5 approved turnarounds**, and `06-portrait` copying them | A **matched pair of small blunt pale cups over each ear** |
+> | **The rule**, in `outfits.yaml` and in slots 6/7/8 | *"Long and sweeping on one side, shorter points on the other. **NEVER a matched pair**, which reads as a symmetrical ornament rather than trophies taken off different kills"* |
+> | **`07-headdress`, 2026-08-04** | A long sweeping crescent low by the ear plus two shorter points set higher into the hair. **Obeys the rule** |
+>
+> **The approved reference does not carry its own rule, and a photograph beats a
+> paragraph.** That is why `portrait` came back with a matched pair — not because
+> the slot was weak. It was copying the front.
+>
+> **The cost of deferring is not flat.** Every image generated against the current
+> front inherits the ear cups. Deferred today it costs the front + 4 views +
+> `06-portrait` to fix — **six images.** Generate `05-candid` and
+> `12-akk_together` first and it costs eight, plus a board rebuild.
+>
+> - [ ] **DECIDE: are the horns the ear cups, or the trophies?** If the trophies
+>       win, follow `APPROVAL.md` — clear `approved:` in `outfits.yaml`, re-roll
+>       the front, approve by eye, re-roll the other four, then `06-portrait`. If
+>       the cups win, **the rule has to be rewritten**, because as written it
+>       forbids what five approved images show.
 >
 > ## Attachments — READ THIS, IT CHANGED
 >
@@ -27,24 +54,28 @@ status: "open"
 > | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
 > | **everything else** | `prompts/attach/field/` | 3 |
 >
-> ## The 5
+> ## The 4
 >
 > **Re-rolls — both failed for a reason that is now fixed in the prompt:**
 >
 > | Paste | Why it failed |
 > |---|---|
-> | `07-headdress.txt` | Came back with a **half-up knot** because this slot still carried the *superseded* "swept UP AND BACK, a BUILT shape" hair. My miss. Now says worn down |
-> | `08-expression_strip.txt` | **Symmetric horns** and a mantle lattice, the same two faults `06-portrait` had. The identical fix is already in the slot and it worked on the portrait |
+> | `08-expression_strip.txt` | **Symmetric horns** and a mantle lattice, the same two faults `06-portrait` had. The mantle fix is in the slot and it worked on the portrait. **The horns will come back matched** — that is the reference, not the slot, and it is the open decision above |
+>
+> ~~`07-headdress.txt`~~ — **generated and accepted 2026-08-04. Hair fixed:**
+> fully down and loose, nothing gathered, nothing styled. **Not yet saved to
+> `source/artwork/`, so it stays in `do-not-publish.txt` until it is** — the file
+> on disk is still the half-up-knot version and releasing the line early would
+> publish exactly the plate the block exists to stop. Its mantle came back
+> diamond-quilted and that was accepted: `mantle_detail` is the authority on the
+> surface, not this frame. Its horns are the reason for the decision above.
 >
 > ~~`04-captaining.txt`~~ · ~~`06-portrait.txt`~~ — **both done 2026-08-04.**
 > The portrait is the proof that **putting the mantle-surface text in the slot
 > beats the attached photograph at close crop.** `08-expression_strip` carries
-> the same paragraph, so expect it to hold there too. Its horns differ in shape
-> but sit at matched height over each ear, which still reads faintly like a
-> headset — accepted for a make-up plate. **If that bothers you in
-> `07-headdress`, where the horns are the subject, the lever is placement — set
-> them at different heights, or one long sweep against two short points — not
-> more adjectives.**
+> the same paragraph, so expect it to hold there too. Its horns came back a
+> matched pair **because the attached front has one** — the open decision above,
+> not a fault in the slot.
 >
 > **Not yet generated:**
 >
@@ -312,16 +343,35 @@ status: "open"
 >       emphasis in its own shot text** — the `must_show` rule alone does not beat
 >       the photograph at close crop.
 >
->       **CONFIRMED 2026-08-04 on `portrait`.** The surface paragraph went into
->       the slot and the lattice did not come back — irregular branching crazing,
->       heavier at the shoulder fold, no repeat. Two for two. `07-headdress` and
->       `08-expression_strip` carry the same paragraph.
+>       **PROVEN 2026-08-04, and `07-headdress` is the control.** The slot text
+>       is the whole variable:
 >
->       **The horns are the one that only half held.** The portrait's differ in
->       shape but sit at matched height over each ear, so the pair still reads
->       faintly like a headset. Accepted on a make-up plate. **The rule describes
->       shape and the failure is placement** — if it needs tightening, say
->       different heights, or one long sweep against two short points.
+>       | Slot | Paragraph in the slot? | Mantle came back |
+>       |---|---|---|
+>       | `11-mantle_detail` | yes | irregular crazing, correct |
+>       | `06-portrait` | yes | irregular crazing, correct |
+>       | `07-headdress` | **no** | **diamond-quilted, with stitch lines** |
+>
+>       **Two for two with it, four for four without it**, all from the same
+>       attached front. The paragraph was added to slot 7 on 2026-08-04 and
+>       `./tools/regen` run.
+>
+>       **The audit is complete and it is four slots, not more.** The mantle is
+>       only large enough in frame to matter in `06`, `07`, `08` and `11` — `11`
+>       hammers the surface in its own shot text, and `06`/`08` already carried
+>       the paragraph, so slot 7 was the only gap. **It is deliberately NOT being
+>       added to the full-figure and narrative slots**, where the mantle is small
+>       and those slots are already the tightest on budget — which is the fault
+>       `Prompt-Reliability-TODO.md` exists to track.
+>
+>       **`16-tone_collage` is excluded on purpose** even though it has a tight
+>       portrait and a detail panel: its own text says it is *"never a costume
+>       authority — nothing is matched against it."*
+>
+>       ~~**The horns are the one that only half held.**~~ **Wrong diagnosis,
+>       corrected same day.** The portrait's matched pair was not weak slot
+>       wording. **It was copying the approved front, which has a matched pair.**
+>       See the horn decision at the top of this file.
 >
 > ### Open on her, 2026-08-03
 >

@@ -95,7 +95,32 @@ else
 fi
 
 # ---- what to do next -------------------------------------------------------
-FRONT=$(ls "$DIR"/prompts/turnarounds-short/turn-*-front.txt 2>/dev/null | head -1)
+#
+# THE FIRST OUTFIT IN outfits.yaml IS THE PRIMARY ONE, and it is the front that
+# has to be approved first — everything else matches against it.
+#
+# This used to be `ls turn-*-front.txt | head -1`, which is ALPHABETICAL, and
+# alphabetical is not the same thing. Baylan is the first character with two
+# outfits and it sent the operator at `working-coat` — his off-duty set, worn in
+# eight scenes — instead of `working`, which his own file calls "his only
+# costume" and lists in all twelve. Shada and Jasu have one outfit each, so
+# nothing caught it until now.
+PRIMARY=$(python - "$DIR/outfits.yaml" <<'PY' 2>/dev/null
+import sys, yaml
+try:
+    d = yaml.safe_load(open(sys.argv[1], encoding="utf-8")) or {}
+    print((d.get("outfits") or [{}])[0].get("id", ""))
+except Exception:
+    print("")
+PY
+)
+
+FRONT=""
+[ -n "$PRIMARY" ] && \
+    FRONT=$(ls "$DIR/prompts/turnarounds-short/turn-$PRIMARY-front.txt" 2>/dev/null)
+# Fall back to alphabetical only if the primary has no front prompt yet.
+[ -z "$FRONT" ] && \
+    FRONT=$(ls "$DIR"/prompts/turnarounds-short/turn-*-front.txt 2>/dev/null | head -1)
 if [ -z "$FRONT" ]; then
     echo; warn "No front turnaround prompt found in $DIR/prompts/turnarounds-short/"
     exit 0

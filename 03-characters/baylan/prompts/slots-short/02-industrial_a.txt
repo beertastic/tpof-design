@@ -1,7 +1,7 @@
 [BAYLAN — STANDING AT THE BACK]
 Output file: industrial_a.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: d6a585d4 (short) · repo commit 18ef520 2026-08-04 16:14
+Prompt version: d6a585d4 (short) · repo commit 8e3f070 2026-08-04 16:14
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

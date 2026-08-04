@@ -19,11 +19,57 @@ Costume / Wardrobe /
     turnarounds /   turn-*.png            the build plates
     artwork /       every other .png      hero, scale, props, materials, expressions
     boards /        *.pdf                 the finished boards
-    Jasu_outfit_build_guide.md            hand-written, NOT touched by publishing
+    docs /          Build-Guide.md        what a maker works from
+  archive /                    ← superseded folders and documents, kept not deleted
 ```
 
 Each set carries a `PUBLISHED-FROM-REPO.txt` listing the files, their sizes and
 the commit that last changed them.
+
+## The build guide is published, not hand-written
+
+**Until 2026-08-04 the build guide was a hand-uploaded Drive document with no
+source in this repository**, and it drifted badly. `Jasu_outfit_build_guide.md.docx`
+was written from photographs on 2026-08-01, two days before the v2 rebuild, and
+was wrong in five ways at once:
+
+| It said | It is |
+|---|---|
+| A **4'11" (150 cm)** wearer | **155 cm (5 ft 1 in)** |
+| **Ankle boots** | **Tall**, well up the calf |
+| A whistle as a **belt fob** | **One whistle, at her throat** |
+| A bought **Etsy leather pauldron** | **Made, stiffened cloth** — `outfits.yaml` calls the pauldron "the single most wrong thing it is possible to buy for this costume" |
+| **Hair cuffs** | **Two mismatched bone horns**, printed |
+
+`outfits.yaml` had already caught two of them in its own component notes — the
+"vintage keychain fob" and the pauldron — because the design moved and the guide
+did not. **Nothing could have caught the rest, because nothing in the repository
+knew the document existed.**
+
+So it now lives at `03-characters/<character>/Build-Guide.md`, derived from
+`outfits.yaml`, and publishes to `docs/` like everything else. **Only
+`Build-Guide.md` is published** — `Character.md` and `Prompts.md` are working
+documents for this repository, and the reasoning in them is not what a maker
+needs at a bench.
+
+The superseded `.docx` is in `archive/`.
+
+## Holding a file back
+
+**`do-not-publish.txt` in a character's folder keeps named files off Drive**, one
+filename per line, `#` for comments. It exists for artwork that is on disk but
+known wrong and waiting on a re-roll — **to rclone, a failed plate is
+indistinguishable from a good one.**
+
+Captain Jasu holds four: `captaining.png`, `headdress.png`, `portrait.png` and
+`expression_strip.png`, all failed re-rolls listed in `Jasu-Image-TODO.md`.
+Publishing them would send the costume department a generic dog and superseded
+hair, which is the exact failure this whole process exists to prevent.
+
+**Held files are reported on every run and counted in the summary**, because a
+hold is a temporary state waiting on a re-roll. Silence is how four failed plates
+become four permanently missing ones. Delete a line the moment its replacement is
+generated and correct.
 
 ## The rule
 

@@ -2,6 +2,39 @@
 
 All notable production-bible changes are recorded here.
 
+- **Jasu's build guide rebuilt from the design, 2026-08-04** — the last artefact
+  anywhere still saying **4 ft 11 in**. The repository, all 46 of her generated
+  prompts and all 18 of her images were already correct at 155 cm; the wrong one
+  was a Drive document nobody here could see.
+
+  **It had no source in this repository, which is why it drifted.** Written from
+  photographs on 2026-08-01, two days before the v2 rebuild, and wrong in five
+  ways: the height, ankle boots for tall ones, the whistle as a belt fob instead
+  of one at her throat, a bought Etsy leather pauldron instead of a made
+  stiffened-cloth mantle, and her bone horns read as hair cuffs. `outfits.yaml`
+  had already caught two of them in its own component notes — it calls the
+  pauldron *"the single most wrong thing it is possible to buy for this
+  costume"* — but nothing could catch the rest, because nothing in the
+  repository knew the document existed.
+
+  Now at `03-characters/captain-jasu/Build-Guide.md`, derived from `outfits.yaml`
+  and published to `docs/` by the tool. The superseded `.docx` is in `archive/`.
+
+- **Drive publishing merged to main, 2026-08-04** — seven commits that had been
+  sitting on a branch: the explicit Drive folder map, the OAuth fix, `artwork/`
+  and `boards/` publishing, `tools/check-drive` and the daily cron drift check.
+
+  Main had only the turnarounds-only script, and running it derived Drive folder
+  names from repo slugs — creating `captain-jasu` beside `Jasu` and `shada`
+  beside `Shada`, the exact duplicate the branch's own comment warns about. Both
+  strays are under `archive/` on Drive.
+
+  **`do-not-publish.txt` added.** Jasu holds four failed re-rolls that are still
+  on disk. To rclone a failed plate is indistinguishable from a good one, and
+  publishing them would send the costume department a generic dog and superseded
+  hair. Held files are reported every run so a hold cannot quietly become
+  permanent.
+
 - **Captain Jasu re-cast to 155 cm, 2026-08-03** — 5 ft 1 in, not 4 ft 11 in.
   Fifty-four references updated across eleven files: `outfits.yaml`,
   `Character.md`, `Prompts.md`, `board-data.yaml`, the akk dog's landmark table,

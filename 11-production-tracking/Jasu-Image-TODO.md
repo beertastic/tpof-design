@@ -9,7 +9,7 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-04
 >
-> **2 images left. Every prompt is current; nothing needs editing before you
+> **1 image left. Every prompt is current; nothing needs editing before you
 > generate.** Fresh chat each, save under the exact `Output file:` name.
 >
 > **`04-captaining` and `06-portrait` came in on 2026-08-04 and are both
@@ -52,9 +52,10 @@ status: "open"
 > image generated against the current front inherits the ear cups. **`05-candid`
 > and `12-akk_together` were generated on 2026-08-04 while this sat open**, so the
 > bill is now the front + 4 views + `06-portrait` + those two — **eight images**,
-> plus a board rebuild. Generating `16-tone_collage` and `08-expression_strip`
-> against the current front makes it ten. Nothing forbids that; it is the price,
-> and it should be paid knowingly rather than discovered later.
+> plus a board rebuild. `08-expression_strip` would make it nine. **`16-tone_collage`
+> is the one image that never adds to this bill** — nothing is matched against it,
+> so it never needs re-rolling for the horns. Nothing forbids generating `08` now;
+> that is the price, and it should be paid knowingly rather than discovered later.
 >
 > - [ ] **DECIDE: are the horns the ear cups, or the trophies?** If the trophies
 >       win, follow `APPROVAL.md` — clear `approved:` in `outfits.yaml`, re-roll
@@ -74,9 +75,9 @@ status: "open"
 > | *(`03-camp_day`)* | `prompts/attach/field/03-camp_day/` | 5 |
 > | **everything else** | `prompts/attach/field/` | 3 |
 >
-> ## The 2
+> ## The 1
 >
-> **One re-roll, and one not yet generated:**
+> **One image, and it is a re-roll:**
 >
 > | Paste | Why it failed |
 > |---|---|
@@ -95,11 +96,31 @@ status: "open"
 > matched pair **because the attached front has one** — the open decision above,
 > not a fault in the slot.
 >
-> **Not yet generated:**
+> ### `16-tone_collage` — DONE 2026-08-04, and the akk is wrong in it
 >
-> | Paste | Note |
-> |---|---|
-> | `16-tone_collage.txt` | **In progress 2026-08-04.** Six panels, and it needs a real spread of light |
+> **The sheet itself is right.** Six panels, irregular layout, no captions, wet
+> forest throughout, and it does span a real range of light — bright overcast
+> clearing, soft daylight portrait, mid-shot commanding, the animal, a warm
+> low-light frame, and a hardware detail. That was the thing to watch and it held.
+>
+> - [ ] **Panel 4 shows a long-muzzled horned quadruped in a HARNESS, not an akk.**
+>       **This is the `captaining` failure exactly**, and from the identical cause:
+>       the slot never says what an akk is, and **`16-tone_collage` is not one of
+>       the three slots given the creature plates** — it draws from
+>       `prompts/attach/field/` (3 files). The fix is the one that already worked
+>       on `captaining`: **give this slot its own attachment folder with the akk
+>       plates, and describe the animal in the slot text.**
+> - [ ] **The horns are not identical across the six panels** — sweeping crescents
+>       in most, blunt ear cups in the low-light one — against the slot's own
+>       *"CONTINUITY IS THE POINT… identical in every panel."* Downstream of the
+>       open horn decision above; not worth chasing before it is settled.
+>
+> **How much this matters is a judgement call, and it cuts both ways.** The slot
+> says it is *"a tone and casting reference, never a costume authority — nothing
+> is matched against it"*, so nothing is built from it. **But it is also the one
+> image you send someone when they ask what this character looks like** — the
+> plate most likely to leave the department — and it currently shows the wrong
+> animal. **Recommend a re-roll once the slot has the plates.**
 >
 > ~~`05-candid.txt`~~ · ~~`12-akk_together.txt`~~ — **both done 2026-08-04.**
 > The candid light correction worked: late-afternoon sun, costume and face
@@ -131,9 +152,14 @@ status: "open"
 >
 > ## Still open on her, and neither needs an image
 >
-> - [ ] **No `Character-Lock.md`.** Her drift-rejection list — Imperial officer,
->       samurai, and the "captain makes her tall" failure — lives only in
->       `outfits.yaml`. Shada's lock is the model. **Offered and not yet done.**
+> - [x] ~~**No `Character-Lock.md`.**~~ **WRITTEN 2026-08-04**, modelled on
+>       Shada's — [`../03-characters/captain-jasu/Character-Lock.md`](../03-characters/captain-jasu/Character-Lock.md).
+>       Carries the three retrievals (Imperial officer, samurai/Jedi, and the
+>       "captain makes her tall" failure), both open deviations in the approved
+>       front, and the akk. **It flagged a live contradiction while being
+>       written:** `Character.md` line 306 still advertises a **brow band** that
+>       was removed on 2026-08-01 and is treated as moot at line 614 of the same
+>       file. No component, no approved image. **The table row should be deleted.**
 > - [ ] **No `promo-data.yaml`**, so `--promo` will fail until it exists.
 > - [ ] **The rank-marking question**, which sets the rank language for Nyx,
 >       Yaslo Bis, Reya Fenn and the four mercenaries. Still the highest-leverage

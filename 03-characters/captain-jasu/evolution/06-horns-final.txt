@@ -1,0 +1,115 @@
+[CAPTAIN-JASU — FIELD DRESS — FRONT] — FINAL: COSTUME AND LIGHT FROM THE APPROVED FRONT, HORNS FROM 05
+Output file: 06-horns-final.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Hand-written evolution pass, 2026-08-04. Not a generated prompt.
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  THE COSTUME AND THE LIGHT (match exactly, EXCEPT the horns):
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/source/artwork/turn-field-front.png
+  THE HORNS ONLY (take the horns from this image and nothing else):
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/evolution/05-horns-funko.png
+  THE A180 BLASTER PISTOL: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/props/a180.jpg
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/captain-jasu/reference/actor/ling-jiu-headshot.jpg
+  Take the FACE and BUILD from the actor image only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+TWO PHOTOGRAPHS OF THIS WOMAN ARE ATTACHED AND THEY ARE SCOPED DIFFERENTLY.
+READ THIS BEFORE ANYTHING ELSE. THEY DISAGREE, AND THE SPLIT BETWEEN THEM IS
+THE WHOLE JOB.
+
+FROM THE FIRST PHOTOGRAPH, TAKE EVERYTHING EXCEPT THE HORNS — the cut, the
+mantle, the belt, the trousers, the boots, the bracers, the holster, the leash,
+the whistle, the hair, the palette, AND THE LIGHT AND THE BACKGROUND.
+
+FROM THE SECOND PHOTOGRAPH, TAKE THE HORNS AND NOTHING ELSE AT ALL. Not its
+light, not its background, not its exposure, not its boots, not its mantle, not
+its proportions. THE SECOND PHOTOGRAPH IS TOO DARK AND ITS LIGHT IS WRONG.
+
+THE LIGHT AND THE BACKGROUND, AND THEY COME FROM THE FIRST PHOTOGRAPH:
+A PLAIN, LIGHT, WARM MID-GREY SEAMLESS BACKDROP, EVENLY LIT CORNER TO CORNER.
+Bright, open, flat fitting-room light. NO vignette, NO gradient, NO dark corners,
+NO pool of shadow behind her, NO moody or cinematic grade. The second photograph
+has a dark grey backdrop that falls off at the edges and THAT IS WRONG — the
+backdrop here is roughly HALF AGAIN AS BRIGHT as that one. The costume is dark
+and it must READ: every panel, seam and buckle legible, shadows open, nothing
+crushed.
+
+THE HORNS, WHICH ARE THE ONE THING THE SECOND PHOTOGRAPH IS RIGHT ABOUT:
+TWO PALE BONE HORNS, ONE EACH SIDE, rising from the hair as BROAD FLATTENED
+BLADES — wide at the base, sweeping UP AND BACK in one clean curve, TAPERING TO
+A FINE POINT. NOT loops, NOT hooks, NOT rings, and they do NOT wrap around or cup
+the ear. The first photograph shows LOOPED HORNS THAT CUP THE EAR and on this one
+item the first photograph is WRONG.
+
+BUT SMOOTH THEM. The horns in the second photograph are RIDGED WITH TRANSVERSE
+BANDS like a ram's horn, and that is WRONG. Ours are SMOOTH along their whole
+length — no bands, no rings, no segments, no growth ridges. Bone, matte and
+YELLOWED WITH AGE, unevenly discoloured, finely pitted, with hairline age cracks
+and a dulled worn tip. NEVER white, NEVER cream, NEVER glossy, NEVER new.
+
+TWO THINGS THE SECOND PHOTOGRAPH GOT WRONG AND THE FIRST GOT RIGHT. Both are
+recorded failures and both are called out here because a photograph beats a
+paragraph:
+  THE HEEL IS FLAT. The second photograph has a STACKED BLOCK HEEL about 45 mm
+  high. That is WRONG and it is the third time it has happened. The heel is a
+  plain walking sole, NO MORE THAN 25 mm, with NO stacked block, NO shaped waist
+  and NO taper. Nothing about the boot adds height to her.
+  THE MANTLE IS WIDE. The second photograph shrank it. It must reach OUT PAST
+  THE SHOULDER POINTS and stand PROUD of the body before angling down over the
+  upper arm, exactly as wide and as emphatic as in the first photograph. IT IS
+  THE ONLY THING ON HER WIDER THAN SHE IS, and it is the signature of the whole
+  costume.
+
+
+SHE IS 28 AND 155 cm — SMALL AND SLIGHT, NEVER IMPOSING. Do not make a mercenary captain tall, broad, older or physically formidable. DO NOT draw an Imperial officer and DO NOT draw a samurai. She belongs to no army and never did.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 155 cm (5 ft 1 in) — VERY SMALL AND SLIGHT, and almost certainly the smallest adult in…
+
+MUST BE TRUE OF THIS IMAGE:
+1. SHE IS 155 cm AND THE SMALLEST ADULT IN THE FILM, AND NOTHING COMPENSATES FOR IT. NEVER make her taller, broader, older or harder-looking to justify the rank. Slight and fine-boned: NOT muscular, NOT broad, NOT heavy, NOT tall.
+2. HER HEAD IS IN NORMAL ADULT PROPORTION TO HER BODY. NEVER oversized, NEVER a caricature, NEVER a child's proportions. The FACE comes from the actor photograph and the BODY from this description. A young East Asian woman with long dark hair.
+3. THE ANIMAL IS HER RANK. NO insignia, NO rank badge, NO faction mark, NO medal, NO braid.
+4. THE BODY GARMENT IS SKIN-TIGHT FROM COLLAR TO ANKLE — A SECOND SKIN, WITH NO BULK OVER THE RIBS, THE WAIST, THE HIPS OR THE LIMBS. NO flare, NO swing, NO volume, NO gathered or draped fabric anywhere.
+5. THE COLLAR IS STIFF AND STANDS, CLOSED TO THE THROAT. NEVER open, NEVER a lapel, NEVER a shawl, NEVER a cowl.
+6. THE WAIST IS PULLED IN HARD BY A WIDE HEAVY BELT over the second skin. The holster is belt-mounted on her RIGHT. The leash, the pouches and the tools sit on her LEFT, off the drawing side.
+7. BELOW THE WAIST SHE IS SKIN-TIGHT TROUSERS with quilted outer-thigh panels stitched FLAT to the leg, and knee pads. NOTHING hangs from the belt, NOTHING swings, and there is NO skirt, NO tabard, NO hanging panel and NO coat tail of any kind.
+8. THE BOOTS ARE TALL AND CLOSE TO THE CALF — the shaft rises well up the calf, close-fitting, ending below the knee. They are NOT ankle boots, NOT low, NOT pale and NOT ornamented.
+9. THE BOOT HEEL IS FLAT, OR AS NEAR FLAT AS THE BOOT ALLOWS — a walking sole, no more than about 25 mm at the heel. NEVER a block heel, NEVER a shaped or raised heel, and NEVER anything that adds height to her.
+10. CUT FOR A GYMNAST, NOT A SOLDIER — SHE MOVES LIKE AN ACROBAT AND THE COSTUME MUST SAY SO. NOTHING restricts her and NOTHING is bulky.
+11. IT IS CUT TO HER AND ONLY TO HER — MADE TO MEASURE. It must NEVER look borrowed, oversized, or like a child in adult clothes.
+12. A HARD SHOULDER MANTLE OF STIFFENED CLOTH, COMING TO A SHARP UPSWEPT POINT AT EACH SHOULDER — THE SIGNATURE OF THIS COSTUME. NOT a pauldron, NOT a spiked guard, NOT a winged shape, NOT a cape, NOT a fur collar.
+13. THE MANTLE CARRIES WEAR, NEVER DECORATION — fine IRREGULAR crazing and cracking, heavier where it flexes and rubs. NO quilting, NO lattice, NO regular grid, NO tooling, NO repeating texture. Looked after, not derelict.
+14. A STIFF YOKE OVER BOTH SHOULDERS, STANDING PROUD OF THE BODY and reaching out past the shoulder points before angling down over the top of the upper arm. It is the ONLY thing on her wider than she is.
+15. HER HAIR IS LONG, DARK AND WORN DOWN AND LOOSE — falling over her shoulders and down her back, swept back off the face, field-worn and slightly dishevelled. NEVER piled up, NEVER a bun, NEVER scraped back tight, NEVER styled.
+16. EXACTLY TWO PALE CURVED BONE HORNS, ONE EACH SIDE, set into the hair above and behind the ears. Each is A THIRD TO A HALF THE HEIGHT OF HER HEAD. NEVER three, NEVER a cluster, NEVER a row of points.
+17. THE TWO HORNS ARE NOT THE SAME OBJECT — alike in curve, colour and size, but one blunter and one pointed, and one slightly the longer. NEVER A MIRRORED PAIR. SMOOTH — never ridged, never banded, never segmented like a ram's horn.
+18. THE HORNS ARE BONE — WORN, MATTE AND YELLOWED, taken off something once alive. A TROPHY, NOT JEWELLERY. NEVER polished, NEVER carved, NEVER set in metal. NOT a helmet, NOT a crown, NOT a circlet, NOT a band, NOT a mask.
+19. THE BODY IS TEXTILE, NOT LEATHER — heavy ribbed knit, quilted panels, dense woven canvas, matte and dry. If the costume reads as a leather bodysuit, it is WRONG. Leather is the MINORITY: the belt, the boots, the forearm bracers, the holster.
+20. THE CLOTH IS EXPENSIVE AND IT IS FILTHY — THE QUALITY IS IN THE CUT, NEVER IN THE CONDITION. NOT clean, NOT pressed, NOT ceremonial, NOT new. Faded at the shoulders, mended at cuffs and hem, mud to the knee, the collar worn shiny.
+21. EXACTLY ONE WHISTLE, ON A CORD AT HER THROAT, PLAINLY VISIBLE. There is NEVER a second whistle, and NOTHING resembling a whistle hangs from her belt. NOT ornamental and NOT jewellery — cheap, plain and much handled.
+22. A HEAVY LEASH — CHAIN OR THICK STRAP — COILED AND HUNG AT HER BELT ON HER LEFT. She is NEVER holding it and the animal is NEVER on it.
+23. THE A180 BLASTER PISTOL — THE WEAPON JYN ERSO CARRIES IN ROGUE ONE — HOLSTERED ON HER RIGHT HIP, TWO-TONE: BRIGHT POLISHED STEEL FORWARD, BLACK AT THE BACK. She is RIGHT-HANDED and it is NEVER on her left.
+24. THE A180 IS CLEAN, SERVICED AND CARED FOR — the only maintained object in this crew. NOT a generic sidearm, NOT a revolver, NOT a scratch-built mismatch, NOT an antique, NOT ornate, NOT dark all over.
+25. SHE IS COLD, NOT ANGRY. NO snarl, NO glare, NO scowl, NO bared teeth, NO clenched fists, NO aggressive posturing of any kind. Calm, still, watchful and unsentimental — assessing you rather than threatening you.
+26. NO MAKEUP THAT READS AS MAKEUP, NO GLAMOUR, NO STYLING. She is not presented as attractive; she is presented as a person doing a job.
+27. MUTED AND DARK — DEEP BROWN, DARK UMBER, FADED CHARCOAL, OILED HIDE, THE DULL WARM GREY OF OLD CANVAS. NEVER imperial grey, NEVER black-on-black, NO uniform green, NO red, NO gold braid, NO faction colour.
+28. SHE MUST SEPARATE FROM A NIGHT FOREST AND FROM FIRELIGHT. Do NOT sink her into the background.
+29. THE BRACERS, THE LEG PANELS, THE KNEE PADS, THE MANTLE AND THE BOOTS ARE ALL DARK WARM BROWN. NEVER bone, NEVER cream, NEVER ivory, NEVER pale. THE BRACERS ARE FOREARM ONLY — wrist to below the elbow, buckled.
+30. TWO PALE OR BRIGHT THINGS AND ONLY TWO — THE BONE HORNS AND THE BLASTER BARREL. NOTHING else on her is pale and NOTHING else is bright. Do not dull the barrel to match her.
+
+SHOT: Facing camera square on. Shoulders level, head level, looking down the lens. BOTH SIDES VISIBLE — THEIR RIGHT IS ON THE VIEWER'S LEFT. Every asymmetric piece must be present.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.

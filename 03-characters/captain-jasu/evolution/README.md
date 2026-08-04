@@ -6,6 +6,72 @@ How her design converged. **History, never specification** — the design lives 
 folder to a generation prompt** — the latest pass is the exception, and pass 03
 below relies on it.
 
+## 06 — THE HORNS ARE RIGHT, NOW PUT THE LIGHT BACK, 2026-08-04
+
+**Staged, not yet run.** Paste `06-horns-final.txt`, attach all 4 files in
+`attachments/06-horns-final/`, save as `06-horns-final.png`.
+
+### What 05 proved, and what it cost
+
+**The horns landed.** `05-horns-funko.png` came back with the figure's shape —
+broad flattened blades sweeping up and back to a fine point — and the Production
+Designer approved them on sight. **The scoped reference did in one pass what
+four days of adjectives had not**, which is the A180 lesson again: a photograph
+fixes a silhouette that words cannot.
+
+**Three things drifted with it**, measured rather than eyeballed:
+
+| | Approved front | `05-horns-funko` |
+|---|---|---|
+| Background luma | **163** — light warm grey | **115**, with a vignette |
+| Heel | low, near flat | **a stacked block heel, ~45 mm against a 25 mm limit** |
+| Mantle | wide and proud | **noticeably narrower and flatter** |
+
+**The heel is the third occurrence.** It is already logged as *"the detail the
+generator has already got wrong once"*, and it has now gone wrong twice more.
+**A build note cannot reach a generator** — that was the finding on 2026-08-03
+and it is still true; what reaches it is a numbered rule, and rule 9 lost to a
+photograph here.
+
+**The mantle loss matters more than it looks.** Rule 14 makes it *"the ONLY thing
+on her wider than she is"*. On a 155 cm frame with a skin-tight costume it is the
+entire silhouette argument, and 05 quietly shrank it.
+
+### The scope, pointed the other way
+
+05 attached the approved front and overruled it on the horns. **06 attaches both
+images and reverses which one is authoritative**: costume, palette, boots,
+mantle, hair **and the light and background** from the approved front; **the
+horns, and nothing else at all, from 05.** Same structure as `04-hair-down`,
+which took the costume from 03 and the hair from the original.
+
+**The light is named explicitly and numerically** — a plain light warm mid-grey
+seamless, evenly lit corner to corner, roughly half again as bright as 05, with
+no vignette and no falloff — because "too dark" is a judgement and a generator
+cannot act on a judgement.
+
+**And the horns are corrected while they are being copied.** 05's came back
+**ridged with transverse bands like a ram's horn**, against rule 17's *"smooth —
+never ridged, never banded, never segmented"*. Shape right, surface wrong. 06
+takes the silhouette and overrides the surface: smooth, matte, yellowed with age,
+unevenly discoloured, finely pitted, hairline cracks, a dulled worn tip.
+
+### What to judge
+
+**Does it read as the approved front wearing 05's horns?** If the light is back,
+the heel is flat, the mantle is wide again and the horns are smooth blades, this
+is the new front and it goes to `APPROVAL.md`.
+
+### Watch for
+
+- **The heel.** It has failed three times. If it comes back stacked a fourth
+  time, the lever is no longer wording — crop the reference to the boot and
+  attach it, the way the horns were just settled.
+- **The horns going back to loops.** The approved front is attached and it shows
+  looped horns; that photograph will argue for them.
+
+---
+
 ## 05 — THE HORNS GO TO A COMPARISON, 2026-08-04
 
 **Staged, not yet run.** Paste `05-horns-funko.txt`, attach all 5 files in

@@ -2,6 +2,61 @@
 
 All notable production-bible changes are recorded here.
 
+- **Two build sheets per character are now generated, 2026-08-04.** A
+  `_print_list.pdf` for the bench and a `_shopping_list.pdf` for the shop, built
+  by the new `tools/build-lists` from `components:` in `outfits.yaml`. This
+  closes the checklist requirement recorded on 2026-07-31, which had already
+  specified the schema and insisted the thing be generated: *"a hand-kept
+  checklist will drift from `outfits.yaml` within a fortnight, and then the
+  checklist is worse than nothing because it is trusted and wrong."*
+
+  **Two sheets and not three**, because the three routes are two days of work.
+  `printed` and `made` share the print sheet but never a section — printing a
+  piece that must move like cloth is the failure `Costume-Build-Method.md` keeps
+  writing warnings about. **Every component lands on exactly one sheet**, and
+  the generator exits non-zero on a route it does not recognise, because a
+  component silently missing from both lists is the bug the sheets exist to
+  prevent.
+
+  **Jasu and Shada gained the durable fields** the sheets are made of — approximate
+  sizes, colours with hex, finish and method on everything made or printed;
+  search terms, filters, refusals and a target price on everything bought. All
+  25 components carry one or the other. Nothing here is new design: it is what
+  `Character.md`, `Character-Lock.md` and `Costume-Build-Method.md` already said,
+  moved to where a generator can reach it.
+
+  **Colour is a name and a hex swatch, never a paint code.** Vallejo and Citadel
+  ranges are reformulated and discontinued; "pale worn pewter" is not. Same rule
+  as the sourcing links. `build-guide-pdf` grew a `{swatch:#rrggbb}` token and
+  now prints the chip beside the name — Shada's five oxidising alloys were five
+  arguments waiting to happen at the bench.
+
+  **The shopping sheet carries no links, upheld against a direct request for
+  them.** The 2026-08-01 decision stands: listings sell, shops close, prices
+  double, and *"a repository full of dead links is worse than none, because
+  somebody trusts it."* What ships is the durable half — what to search, where,
+  what to filter on, what to refuse.
+
+  **The £100 cap is bought items only.** Filament, paint, leather, dye and
+  Shada's contact lens are materials and are budgeted separately; shopping well
+  does not control them. **Jasu £36–87, Shada £35–83**, both inside the cap. The
+  contact lens is flagged on her sheet as a separate, early, lead-time purchase.
+
+- **Captain Jasu's superseded height is gone from the guides and blocked from
+  returning, 2026-08-04.** She was cast at 150 cm on 2026-08-01 and re-cast to
+  155 cm on 2026-08-03. That sweep corrected fifty-four references and missed
+  one, and the miss is instructive: it was in the LEFT column of the "the old
+  guide said / it is actually" table, the column whose whole job is to hold
+  wrong things. It read as correct because it was *supposed* to be wrong, and it
+  rendered into `_build_guide.pdf` and went to Drive twice.
+
+  The row is kept — a maker holding the superseded `.docx` still needs to know
+  its height was wrong — but it now names the error instead of printing the
+  figure. `tools/hooks/pre-commit` refuses any commit that reintroduces the
+  string, because a value that survived one sweep of fifty-four references will
+  survive another. **`CHANGELOG.md` is exempt**, so this entry can say what the
+  old number was; nothing else may.
+
 - **A build guide is now a delivery requirement for every character,
   2026-08-04.** A costume nobody can shop for is not finished, however good the
   plates are — and the manifest counts images, which made that easy to miss.

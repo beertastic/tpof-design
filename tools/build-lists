@@ -1,0 +1,287 @@
+#!/usr/bin/env python3
+"""Generate a character's make-and-print list and shopping list from `outfits.yaml`.
+
+    ./tools/build-lists shada
+    ./tools/build-lists --all
+
+WHY THIS IS GENERATED. `Costume-Build-Method.md` recorded the requirement on
+2026-07-31 and answered this in advance: *"It should be generated, not
+hand-maintained. Everything else in this repo is generated from a source of
+truth and this should be no different — a hand-kept checklist will drift from
+`outfits.yaml` within a fortnight, and then the checklist is worse than nothing
+because it is trusted and wrong."* It also specified the `components:` schema
+this reads. That schema now exists on Captain Jasu and Shada, so the generator
+it was waiting for is this file.
+
+WHY THERE ARE TWO SHEETS AND NOT THREE. Every component carries a `route:` of
+`printed`, `made` or `bought`, and those three routes are two different days of
+work: a day at the bench and a day shopping. So `printed` and `made` share the
+make-and-print sheet — separated into their own sections, because printing a
+piece that must move like cloth is the failure this production keeps writing
+warnings about — and `bought` gets the shopping sheet on its own.
+
+EVERY COMPONENT LANDS ON EXACTLY ONE SHEET, and the generator fails loudly if a
+route it does not recognise appears. A component silently missing from both
+lists is the whole class of bug these sheets exist to prevent.
+
+WHY THE SHOPPING SHEET HAS NO LINKS. Decided 2026-08-01, in
+`Costume-Build-Method.md`: supplier links and prices live in the production's
+Drive, not in this repository, because they rot and *"a repository full of dead
+links is worse than none, because somebody trusts it."* So this sheet carries
+the durable half — what to search for, where, what to filter on, what to refuse,
+and a target price — and never a listing. Confirmed again 2026-08-04.
+
+THE BUDGET is a per-character cap on BOUGHT ITEMS ONLY. Filament, paint,
+leather, dye and Shada's contact lens are materials and are tracked separately;
+they are not what shopping well controls.
+"""
+from __future__ import annotations
+
+import importlib.machinery
+import importlib.util
+import re
+import sys
+from pathlib import Path
+
+import yaml
+
+REPO = Path(__file__).resolve().parent.parent
+BUDGET_CAP = 100          # pounds, per character, bought items only
+SEARCH_ROOTS = ("03-characters", "08-species")
+
+
+def load_renderer():
+    """Import `render` from tools/build-guide-pdf.
+
+    That file has no `.py` suffix, so importlib cannot infer a loader from the
+    name and returns a spec with none attached. Naming the SourceFileLoader is
+    what makes an extensionless script importable, and sharing the renderer is
+    what keeps these sheets looking like the build guide rather than merely
+    similar to it.
+    """
+    src = Path(__file__).resolve().parent / "build-guide-pdf"
+    spec = importlib.util.spec_from_file_location(
+        "guidepdf", src, loader=importlib.machinery.SourceFileLoader(
+            "guidepdf", str(src)))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod.render
+
+
+def find_character(name: str) -> Path | None:
+    for root in SEARCH_ROOTS:
+        p = REPO / root / name / "outfits.yaml"
+        if p.is_file():
+            return p
+    return None
+
+
+def clean(text) -> str:
+    """Folded YAML arrives with newlines that markdown would read as breaks."""
+    return re.sub(r"\s+", " ", str(text)).strip()
+
+
+def money(budget: str) -> tuple[int, int]:
+    """'£15–30' -> (15, 30). '£6–14 the pair' is already a pair total."""
+    nums = [int(n) for n in re.findall(r"(\d+)", budget)]
+    if not nums:
+        return (0, 0)
+    return (nums[0], nums[-1])
+
+
+def swatch(hexcode: str | None) -> str:
+    return f"{{swatch:{hexcode}}} " if hexcode else ""
+
+
+def spec_table(b: dict) -> list[str]:
+    rows = []
+    if b.get("size"):
+        rows.append(f"| **Size** | {clean(b['size'])} |")
+    if b.get("colour"):
+        rows.append(f"| **Colour** | {swatch(b.get('hex'))}{clean(b['colour'])} |")
+    if b.get("accent"):
+        rows.append(
+            f"| **Accent** | {swatch(b.get('accent_hex'))}{clean(b['accent'])} |")
+    if b.get("finish"):
+        rows.append(f"| **Finish** | {clean(b['finish'])} |")
+    if b.get("method"):
+        rows.append(f"| **Method** | {clean(b['method'])} |")
+    if not rows:
+        return []
+    return ["| | |", "|---|---|", *rows, ""]
+
+
+def palette_table(b: dict) -> list[str]:
+    pal = b.get("palette")
+    if not pal:
+        return []
+    out = ["**Palette — all five, mixed irregularly.**", "",
+           "| Colour | Where it goes |", "|---|---|"]
+    for p in pal:
+        out.append(f"| {swatch(p.get('hex'))}**{clean(p['name'])}** "
+                   f"| {clean(p.get('note', ''))} |")
+    return out + [""]
+
+
+def print_sheet(char: str, title: str, outfits: list) -> str:
+    printed, made = [], []
+    for o in outfits:
+        for c in o.get("components") or []:
+            (printed if c["route"] == "printed" else
+             made if c["route"] == "made" else []).append(c)
+
+    L = [f'---', f'title: "{title} — Make and Print List"',
+         f'asset_id: "MAKE-{char.upper()}"',
+         f'status: "generated from outfits.yaml — do not hand-edit"', '---', '',
+         f"# {title} — Make and Print List", '',
+         f"**{len(printed)} pieces to print, {len(made)} to make by hand.** "
+         f"Everything on this sheet is built in-house; everything bought is on "
+         f"the shopping list.", '']
+
+    L += ["> **THIS FILE IS GENERATED FROM `outfits.yaml`.** That file's "
+          "`components:` list is the source of truth. Do not edit this sheet to "
+          "record a decision — edit `outfits.yaml` and run `./tools/build-lists "
+          f"{char}`. Sizes are approximate and several are estimated from "
+          "assumed dimensions; confirm against the real patterns and against the "
+          "performer before committing to a print run.", ""]
+
+    def section(heading, items, blurb):
+        if not items:
+            return []
+        s = [f"## {heading}", "", blurb, ""]
+        for n, c in enumerate(items, 1):
+            b = c.get("build") or {}
+            s += [f"### {n}. {clean(c['item'])}", "",
+                  f"**{c['route'].capitalize()} ×{c.get('qty', 1)}.** "
+                  f"*{c.get('status', 'not-started').replace('-', ' ').capitalize()}.*",
+                  ""]
+            s += spec_table(b)
+            s += palette_table(b)
+            if c.get("note"):
+                s += [f"*From the specification:* {clean(c['note'])}", ""]
+        return s
+
+    L += section("3D printed", printed,
+                 "Printed parts come out identical, so **all mismatch is painted "
+                 "on**. That is the rule this whole section turns on.")
+    L += section("Made by hand — not printed", made,
+                 "**Do not print these.** Each one has to move, flex or be fitted "
+                 "to the performer, and a printed shell is the specific failure "
+                 "recorded against them.")
+    return "\n".join(L) + "\n"
+
+
+def shop_sheet(char: str, title: str, outfits: list) -> tuple[str, int, int]:
+    bought = [c for o in outfits for c in (o.get("components") or [])
+              if c["route"] == "bought"]
+    lo = sum(money(c["shop"]["budget"])[0] for c in bought if c.get("shop"))
+    hi = sum(money(c["shop"]["budget"])[1] for c in bought if c.get("shop"))
+
+    verdict = (f"**Estimated £{lo}–{hi} against a £{BUDGET_CAP} cap.**"
+               if hi <= BUDGET_CAP else
+               f"**Estimated £{lo}–{hi}, and the top of that range is £{hi - BUDGET_CAP} "
+               f"OVER the £{BUDGET_CAP} cap.**")
+
+    L = ['---', f'title: "{title} — Shopping List"',
+         f'asset_id: "SHOP-{char.upper()}"',
+         f'status: "generated from outfits.yaml — do not hand-edit"', '---', '',
+         f"# {title} — Shopping List", '',
+         f"**{len(bought)} items to buy secondhand.** {verdict} The cap covers "
+         f"bought items only — filament, paint, leather, dye and any make-up are "
+         f"materials and are budgeted separately.", '']
+
+    L += ["> **NO LINKS, ON PURPOSE.** Supplier links and prices live in the "
+          "production's Drive, not in this repository — decided 2026-08-01, "
+          "because listings sell, shops close and prices double, and a sheet full "
+          "of dead links is worse than none because somebody trusts it. What is "
+          "here is durable: what to search for, where, what to filter on and what "
+          "to refuse. Paste the search terms in yourself.", ""]
+
+    L += ["| # | Item | Target |", "|---|---|---|"]
+    for n, c in enumerate(bought, 1):
+        s = c.get("shop") or {}
+        L.append(f"| {n} | {clean(c['item'])} | {s.get('budget', '—')} |")
+    L += [f"| | **Total** | **£{lo}–{hi}** |", ""]
+
+    for n, c in enumerate(bought, 1):
+        s = c.get("shop") or {}
+        L += [f"### {n}. {clean(c['item'])}", "",
+              f"**Bought ×{c.get('qty', 1)}.** Target **{s.get('budget', '—')}**. "
+              f"*{c.get('status', 'not-started').replace('-', ' ').capitalize()}.*",
+              ""]
+        rows = ["| | |", "|---|---|"]
+        if s.get("search"):
+            terms = "  ·  ".join(f"`{t}`" for t in s["search"])
+            rows.append(f"| **Search** | {terms} |")
+        for key, lab in (("where", "Where"), ("filter", "Filter"),
+                         ("spec", "Spec"), ("avoid", "Avoid")):
+            if s.get(key):
+                rows.append(f"| **{lab}** | {clean(s[key])} |")
+        L += rows + [""]
+    return "\n".join(L) + "\n", lo, hi
+
+
+def build(char: str, render) -> bool:
+    path = find_character(char)
+    if not path:
+        print(f"  ! {char} — no outfits.yaml", file=sys.stderr)
+        return False
+
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    outfits = data.get("outfits") or []
+    comps = [c for o in outfits for c in (o.get("components") or [])]
+    if not comps:
+        print(f"  · {char} — outfits.yaml has no components: block yet, skipped")
+        return True
+
+    # A route this generator does not know would silently vanish from both
+    # sheets, which is the exact bug the sheets exist to prevent.
+    unknown = {c["route"] for c in comps} - {"printed", "made", "bought"}
+    if unknown:
+        print(f"  ✗ {char} — unknown route(s): {', '.join(sorted(unknown))}",
+              file=sys.stderr)
+        return False
+
+    title = data.get("character", char)
+    out = path.parent
+
+    shop_md, lo, hi = shop_sheet(char, title, outfits)
+    for name, text, label in (
+            ("_print_list", print_sheet(char, title, outfits), "make and print list"),
+            ("_shopping_list", shop_md, "shopping list")):
+        md = out / f"{name}.md"
+        md.write_text(text, encoding="utf-8")
+        render(md, md.with_suffix(".pdf"), title, label)
+
+    n_print = sum(1 for c in comps if c["route"] == "printed")
+    n_made = sum(1 for c in comps if c["route"] == "made")
+    n_buy = sum(1 for c in comps if c["route"] == "bought")
+    flag = "" if hi <= BUDGET_CAP else f"  ** £{hi - BUDGET_CAP} over cap **"
+    print(f"  ✓ {char} — {n_print} printed, {n_made} made, {n_buy} bought "
+          f"(£{lo}–{hi}){flag}")
+    return True
+
+
+def main(argv: list[str]) -> int:
+    args = [a for a in argv[1:] if not a.startswith("-")]
+    every = "--all" in argv[1:]
+    if not args and not every:
+        print("usage: build-lists <character> | --all", file=sys.stderr)
+        return 2
+
+    if every:
+        chars = sorted(
+            p.parent.name
+            for root in SEARCH_ROOTS
+            for p in (REPO / root).glob("*/outfits.yaml"))
+    else:
+        chars = args
+
+    render = load_renderer()
+    ok = all([build(c, render) for c in chars])
+    print()
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv))

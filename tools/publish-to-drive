@@ -10,6 +10,8 @@
 # WHAT GOES, per approved character — ONE FLAT FOLDER, no subfolders:
 #
 #   _build_guide.pdf           what a maker works from — READ IT FIRST
+#   _print_list.pdf            what we make and print: sizes, colours, swatches
+#   _shopping_list.pdf         what we buy secondhand: search terms and budget
 #   _published-from-repo.txt   provenance: the commit, the files, their sizes
 #   _*-board.pdf               the finished boards
 #   turn-*.png                 the build plates
@@ -328,6 +330,21 @@ for dir in 03-characters/*/ 08-species/*/; do
     # bench, and publishing them would invite edits away from the source.
     if [ -f "$dir/_build_guide.md" ] && [ ! -f "$dir/_build_guide.pdf" ]; then
         warn "$char — _build_guide.md has no PDF. Run: ./tools/build-guide-pdf $char"
+    fi
+
+    # The two list sheets are generated from outfits.yaml and the *.pdf glob
+    # above publishes them like any board. If outfits.yaml is newer than the
+    # PDF, Drive is about to receive a sheet that no longer matches the source
+    # of truth — which is the failure the build guide already had once.
+    if [ -f "$dir/outfits.yaml" ]; then
+        for sheet in _print_list _shopping_list; do
+            if [ ! -f "$dir/$sheet.pdf" ]; then
+                grep -q '^      - item:' "$dir/outfits.yaml" 2>/dev/null &&
+                    warn "$char — no $sheet.pdf. Run: ./tools/build-lists $char"
+            elif [ "$dir/outfits.yaml" -nt "$dir/$sheet.pdf" ]; then
+                warn "$char — outfits.yaml is NEWER than $sheet.pdf. Run: ./tools/build-lists $char"
+            fi
+        done
     fi
 
     if [ "${#turns[@]}" -eq 0 ] && [ "${#others[@]}" -eq 0 ] && [ "${#boards[@]}" -eq 0 ]; then

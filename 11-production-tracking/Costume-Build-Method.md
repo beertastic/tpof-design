@@ -351,11 +351,49 @@ quilted, mock-neck — rather than by the look.
 
 ---
 
-## The checklist — not built yet
+## The checklist — BUILT 2026-08-04
 
 **Requirement, recorded 2026-07-31.** A per-character checklist of every costume
 item, showing build route and progress, so the state of the build can be checked
 at a glance.
+
+**Built on 2026-08-04 as `tools/build-lists`, and it went further than a
+checklist.** The `components:` schema sketched below is now real on Captain Jasu
+and Shada, so the generator this section was waiting for exists:
+
+    ./tools/build-lists shada          # or --all
+
+It writes two sheets per character and renders both to PDF through the same
+renderer as the build guide, so they publish to Drive with everything else:
+
+| Sheet | Covers | For |
+|---|---|---|
+| `_print_list.pdf` | `route: printed` and `route: made` | the bench — approximate sizes, colour swatches, finish and method |
+| `_shopping_list.pdf` | `route: bought` | the shop — search terms, filters, what to refuse, target price |
+
+**Two sheets and not three, because three routes are two days of work** — a day
+at the bench and a day shopping. `printed` and `made` share a sheet but never a
+section: printing a piece that must move like cloth is the failure this document
+keeps writing warnings about, and the sheet repeats them.
+
+**Every component lands on exactly one sheet, and the generator fails loudly on
+a route it does not recognise.** A component silently missing from both lists is
+precisely the bug these sheets exist to prevent.
+
+**The colour swatches are brand-agnostic on purpose** — a name and a hex chip,
+never a Vallejo or Citadel code. Paint ranges are reformulated and discontinued;
+"pale worn pewter" is not. It is the same rule as the sourcing links below.
+
+**The budget is a cap on bought items only.** Filament, paint, leather, dye and
+Shada's contact lens are materials, tracked separately — shopping well does not
+control them. Against a £100 cap: **Jasu £36–87, Shada £35–83.**
+
+**Still open.** `status:` is carried through to the sheets but nothing updates
+it yet, so progress is still read off the page rather than off the repository.
+Baylan, Shin and the mercenary kit have `outfits.yaml` files with no
+`components:` block; the generator skips them and says so.
+
+What the requirement originally asked for, kept for the record:
 
 **It should be generated, not hand-maintained.** Everything else in this repo is
 generated from a source of truth and this should be no different — a hand-kept
@@ -390,7 +428,8 @@ is done. It would also close the **prop reference gap** recorded in
 [`Shada-Image-TODO.md`](Shada-Image-TODO.md), since a component list is most of
 what a prop lock needs.
 
-**Not started.** Raise it when the first costume actually goes into build.
+*The per-character sheets are done. The production-wide roll-up is not — the
+generator reports per character and there is no combined view yet.*
 
 ---
 

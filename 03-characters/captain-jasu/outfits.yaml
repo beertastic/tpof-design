@@ -188,6 +188,25 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - ribbed mock neck
+            - ribbed base layer
+            - ribbed zip turtleneck
+            - merino base layer half zip
+          where: >-
+            Vinted and eBay. Ski and thermal base layers and dancewear all turn
+            up constantly secondhand with the right ribbed texture — search the
+            sportswear categories, not the fashion ones.
+          filter: UK 4–6 / XS. Add "Petite" where the filter exists.
+          spec: Heavy ribbed knit, dark warm brown.
+          avoid: >-
+            SEARCH BY CONSTRUCTION, NOT BY LOOK. A "Star Wars" or "cosplay"
+            search returns costume-shop knitwear that photographs as plastic.
+            Do not reject a garment for being too big — this one MUST be
+            altered to fit her exactly, and buying it already fitted is the
+            mistake.
+          budget: "£3–8"
         note: >
           Heavy ribbed knit, dark warm brown. Search by CONSTRUCTION, not by
           look — "ribbed mock neck", "ribbed base layer", "ribbed zip
@@ -198,6 +217,27 @@ outfits:
         route: made
         qty: 1
         status: not-started
+        build:
+          size: >-
+            Covers both shoulders and the upper chest, rising at the back into
+            the stand collar. A sharp upswept point at each shoulder, clearing
+            the shoulder line by ~40 to 60 mm. Scale it off HER, not off a
+            pattern — at 155 cm a mantle drafted to a standard block swamps the
+            figure and reads as armour she is borrowing.
+          colour: Warm dark brown
+          hex: "#4a3a2c"
+          finish: >-
+            Fabric, not a finish — the surface must be irregular crazing and
+            wear, heavier at the shoulder fold. NOT a regular diamond quilt and
+            NOT a lattice; both have come back from generators and both are
+            wrong.
+          method: >-
+            STIFFENED CLOTH — ribbed, quilted or pleated, holding its shape by
+            construction rather than by material. Interface or pad it from the
+            inside. NOT leather, NOT printed, NOT a bought pauldron: a sourcing
+            guide written from photographs alone recommended an Etsy leather
+            pauldron, and that is the single most wrong thing it is possible to
+            buy for this costume.
         note: >
           STIFFENED CLOTH — ribbed, quilted or pleated, holding its shape by
           construction. NOT leather, NOT printed, NOT a bought pauldron. A
@@ -209,6 +249,25 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - equestrian jodhpurs
+            - riding breeches knee patch
+            - jodhpurs brown
+            - full seat breeches
+          where: >-
+            Vinted and eBay, equestrian categories. Riders resell these
+            constantly and in quantity. This is the one genuinely good idea
+            that survived the superseded sourcing guide.
+          filter: UK 4–6 / XS, or children's sizes 26–28 waist.
+          spec: >-
+            Dark warm brown. Contrast knee patches stitched onto a fabric leg
+            IS exactly this construction — it is not an approximation of it.
+          avoid: >-
+            Not black, not navy, and not the modern high-shine technical
+            fabrics. Panels and distressing are added in-house afterwards, so
+            buy the construction and not the finish.
+          budget: "£5–15"
         note: >
           EQUESTRIAN JODHPURS OR BREECHES are the real-world match — contrast
           knee patches stitched onto a fabric leg is exactly this construction,
@@ -218,6 +277,21 @@ outfits:
         route: made
         qty: 2
         status: not-started
+        build:
+          size: >-
+            ~170 to 190 mm long on her forearm — wrist to just below the elbow,
+            and NO FURTHER. Measure her; a bracer cut to a standard forearm
+            runs into the elbow crease on a fine-boned 155 cm arm and stops the
+            joint bending.
+          colour: Dark brown leather, close to the belt but not matched to it
+          hex: "#3b2c21"
+          finish: >-
+            Genuinely worn. Darken the buckle track and the edges where a
+            forearm rubs, leave the flats lighter.
+          method: >-
+            Leather, riveted, buckled — one of the few places on this costume
+            where leather is correct. Two or three buckles each, on the outside
+            of the arm.
         note: >
           Leather, riveted, buckled. FOREARM ONLY — wrist to below the elbow,
           not continuing up the upper arm. Dark. One of the few places leather
@@ -226,6 +300,21 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - wide leather belt
+            - mens leather belt heavy buckle
+            - vintage tan leather belt
+          where: Vinted, eBay, and charity shops — belts are everywhere secondhand.
+          filter: >-
+            Look at MEN'S belts. They are often the right proportion even on a
+            petite frame, and the extra length is cut off and re-punched.
+          spec: Broad leather, plain heavy buckle. Warm brown.
+          avoid: >-
+            No branding, no fashion hardware, nothing polished. If nothing
+            suitable turns up, the buckle and fittings are printed and only the
+            strap is bought.
+          budget: "£3–10"
         note: >
           Broad leather belt, plain heavy buckle. Men's belts are often the
           right proportion even on a petite frame. Buckle and fittings printed
@@ -234,10 +323,40 @@ outfits:
         route: bought
         qty: 2
         status: not-started
+        shop:
+          search:
+            - leather belt pouch
+            - military surplus ammo pouch
+            - leather drawstring belt bag
+          where: >-
+            Army surplus is the best and cheapest source. eBay and Vinted
+            otherwise.
+          filter: Two, and they need NOT match each other.
+          spec: >-
+            Brown leather or heavy canvas, small. Worn on her LEFT, off the
+            drawing side.
+          avoid: >-
+            Nothing tactical-modern — no MOLLE webbing, no nylon, no visible
+            branding. Nothing issued: nothing about her is insignia.
+          budget: "£6–14 the pair"
       - item: Holster — belt-mounted, her RIGHT hip
         route: made
         qty: 1
         status: not-started
+        build:
+          size: >-
+            Hangs from the belt down the right thigh. BUILD IT AROUND THE
+            PRINTED A180, not around a generic pistol and not before the
+            blaster exists — the drop length is set by where her hand falls,
+            and on a 155 cm frame a standard drop puts the grip below her
+            reach.
+          colour: Dark brown leather, matched to the bracers
+          hex: "#3b2c21"
+          finish: Worn at the mouth and along the draw edge.
+          method: >-
+            Grip up and angled forward for a right-hand draw. She is RIGHT
+            handed — blaster on the right, leash and pouches on the left, off
+            the drawing side.
         note: >
           Leather, hanging from the belt down the right thigh, grip up and
           angled forward for a right-hand draw. Built around the A180, not
@@ -246,6 +365,26 @@ outfits:
         route: printed
         qty: 1
         status: not-started
+        build:
+          size: >-
+            ~230 to 250 mm overall, muzzle to grip heel. CHECK IT IN HER HAND
+            BEFORE PRINTING THE FINAL — a full-size pistol reads noticeably
+            larger on a 155 cm frame, and this is the one prop that must not
+            look like it is wearing her.
+          colour: Bright polished steel, forward half
+          hex: "#b9bcc0"
+          accent: Near-black, rear half and grip
+          accent_hex: "#1c1c1e"
+          finish: >-
+            THE ONE CLEAN THING IN THE FILM. Sand and fill the layer lines
+            properly, then polish — everything else in this production is
+            dulled and distressed and the palette rule protects this. No wash,
+            no weathering, no dry-brushed grime. Serviced, not battered.
+          method: >-
+            Print in sections, muzzle along the build axis so the six vent
+            holes and the fluting do not need support through their openings.
+            The knurled knob on the mounting rail is the detail most likely to
+            be lost at a coarse layer height — print it separately if it is.
         note: >
           The weapon Jyn Erso carries in Rogue One. Reference at
           reference/props/a180.jpg. Two-tone — bright polished steel forward,
@@ -259,6 +398,27 @@ outfits:
         route: printed
         qty: 2
         status: not-started
+        build:
+          size: >-
+            ~75 to 110 mm each, measured along the curve — a third to a half
+            the height of her head. One slightly the longer of the two.
+          colour: Pale bone, yellowed with age
+          hex: "#d9cba4"
+          accent: Deeper ochre, settled into the grain and the base
+          accent_hex: "#b9a476"
+          finish: >-
+            MATTE AND SMOOTH. Never polished, never carved, never ridged or
+            banded, never set in metal. They are trophies taken off what the
+            akk kills; a worked finish turns them into jewellery and collapses
+            the reading. Age them with a thin ochre wash pulled into the grain
+            and wiped back off the high points — the yellowing is what sells
+            them as old.
+          method: >-
+            PRINT AS TWO SEPARATE MODELS, NEVER ONE MODEL MIRRORED. This is the
+            printing trap recorded in Costume-Build-Method: a printer produces
+            a perfect matched pair by default, and a matched pair reads as a
+            manufactured ornament rather than as two things taken off two
+            kills. Both curved, one blunter and one pointed.
         note: >
           Pale bone, matte, YELLOWED WITH AGE. Never polished, never carved,
           never set in metal — they are trophies from what the akk kills, and a
@@ -279,6 +439,23 @@ outfits:
         route: printed
         qty: 1
         status: not-started
+        build:
+          size: >-
+            ~45 to 55 mm long. Small enough to close a hand around, and small
+            enough that it is not obviously a costume piece at distance.
+          colour: Dull dark metal, brass gone brown with age
+          hex: "#6e6250"
+          accent: Rubbed brighter where a thumb has worn it for years
+          accent_hex: "#9a8f7d"
+          finish: >-
+            CHEAP-LOOKING AND MUCH HANDLED. This is the hero prop and it must
+            not look like one. Wear it at the edges and the mouthpiece, leave
+            the recesses dark. It is her entire command structure and it is
+            worth nothing to anybody else — that contradiction is the whole
+            point, so resist every instinct to make it handsome.
+          method: >-
+            Cord at the throat, not a chain. THERE IS EXACTLY ONE AND IT IS AT
+            HER THROAT — the belt carries no second whistle.
         note: >
           THE HERO PROP. Small, cheap-looking, much handled, worn at the throat.
           It is her entire command structure — she whistles and the beast comes,
@@ -292,6 +469,23 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - heavy leather dog lead
+            - chain dog lead
+            - leather leash large breed
+          where: Pet resale on Vinted and eBay, or a working-dog supplier.
+          filter: >-
+            Buy for an animal far larger than a dog. It is restraint for a
+            beast that outweighs her, and a normal lead reads as a pet's.
+          spec: >-
+            Heavy strap or chain. Coiled and hung at the belt on her LEFT, off
+            the drawing side.
+          avoid: >-
+            No bright colours, no nylon, no clip-on fashion hardware. NEVER in
+            her hand and NEVER on the animal — she carries restraint she does
+            not need, as a display for the crew.
+          budget: "£4–10"
         note: >
           Heavy strap or chain, coiled and hung at the belt on her left, off the
           drawing side. Never in her hand and never on the animal. She is
@@ -300,6 +494,30 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - tall brown leather boots flat
+            - leather riding boots brown
+            - knee high leather boots flat heel
+          where: >-
+            CHARITY SHOPS FIRST — they are the best source and the cheapest,
+            and the wear is wanted. Vinted and eBay after.
+          filter: >-
+            Her size, and check the CALF measurement as well as the foot — a
+            tall shaft that will not close is the commonest failure on a fine
+            build.
+          spec: >-
+            Brown leather, practical, genuinely worn. TALL — the shaft rises
+            well up the calf and ends below the knee. The best boots in the
+            crew, and looked after.
+          avoid: >-
+            HEEL FLAT, or as near flat as a sourced boot allows — a walking
+            sole, no more than ~25 mm. A heeled riding or fashion boot is the
+            easiest thing to find in this shape and it is the WRONG one;
+            nothing about her costume may add height. If a boot is right in
+            every other way, RE-HEEL IT — that is a cobbler's job and it costs
+            less than the boot. Do not pay extra for "like new".
+          budget: "£15–30"
         note: >
           Brown leather, practical, genuinely worn. Charity shops are the best
           source and the wear is wanted — do not pay extra for "like new".

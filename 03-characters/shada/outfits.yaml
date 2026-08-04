@@ -751,6 +751,52 @@ outfits:
         route: printed
         qty: ~440
         status: not-started
+        build:
+          size: >-
+            10 to 15 mm across the flats — regular equilateral hexagons, ONE
+            printed master repeated ~440 times. That is much finer than it
+            sounds: a hexagon 12.5 mm across covers about 1.35 cm². IF YOU CAN
+            COUNT THE PLATES AT A GLANCE THEY ARE WRONG. Each needs TWO PUNCHED
+            HOLES for lacing.
+          colour: Dull grey steel — the base tone, and the commonest
+          hex: "#8a8d90"
+          palette:
+            - name: Dull grey steel
+              hex: "#8a8d90"
+              note: The base tone and the commonest across all four cloth pieces.
+            - name: Blackened iron
+              hex: "#3a3a3d"
+              note: Scattered singly, never in runs. Reads as the oldest metal.
+            - name: Dark bronze
+              hex: "#7a5c33"
+              note: >-
+                THE THIGH PATCH ONLY. The one warm thing in the whole costume
+                and the only place this colour appears — do not let it drift
+                onto the flank panels.
+            - name: Pale worn pewter
+              hex: "#b6b3ab"
+              note: The highlight tone. Edges and high points that have rubbed.
+            - name: Rust-red oxidised iron
+              hex: "#7c4530"
+              note: >-
+                Sparingly, and at the edges of a panel where damp sits. NO
+                BRASS AND NO VERDIGRIS anywhere on this costume.
+          finish: >-
+            PRINTED IDENTICAL, SO ALL MISMATCH IS PAINTED ON. The five tones
+            above are mismatched alloys oxidising at different rates, not a
+            decorative scheme — mix them irregularly and never in a pattern.
+            Each plate carries a RAISED SERPENT RIDGE, and at 12 mm the relief
+            alone will not carry it: it needs a wash pulled into the ridge and
+            a dry-brush off the top, or it will not read at all on camera.
+          method: >-
+            THREE OR FOUR RIDGE DIES REPEATING across a panel — never a unique
+            curl per plate. PRINT AND FINISH A FULL PATCH BEFORE COMMITTING to
+            a run of several hundred; this is not something to discover a
+            problem in halfway through. DO NOT PRINT PRE-LINKED SHEETS. The
+            pressure to will be enormous and it is exactly the shortcut that
+            kills the flex — all four cloth pieces must move like heavy cloth.
+            If assembly time is the problem, REDUCE THE PATCH AREAS rather than
+            link the plates.
         note: >
           10 to 15 mm across, regular equilateral hexagons, ONE printed master
           repeated. Re-confirmed 2026-08-01 against a generation that came back
@@ -764,6 +810,28 @@ outfits:
         route: made
         qty: 2
         status: not-started
+        build:
+          size: >-
+            ~150 cm² each, ~110 plates each — HALF THE PLATE COUNT IN THE
+            COSTUME. About twelve plates across a panel. PATTERN THESE FIRST:
+            their area depends on a pattern nobody has cut yet, so they are
+            both the biggest number in this build and the least certain one.
+          colour: Mixed from the hex-plate palette — unmatched to each other
+          hex: "#8a8d90"
+          finish: >-
+            FIVE TO TEN PLATES ABSENT from each, along the edges, waist and hip
+            where a panel catches and flexes. LACE COMPLETE, THEN REMOVE —
+            scattered absence reads as wear, regular absence reads as a
+            pattern. A thin dark seam between neighbours.
+          method: >-
+            Laced onto hand-cut leather-and-fabric backing. TESSELLATED FLAT IN
+            ONE PLANE, NEVER SHINGLED. They sit over her ribs where she
+            breathes, so they must move like heavy cloth. Punched eyelets down
+            both facing edges, a leather thong long enough to lace the full
+            height, and two strap-and-buckle fixings at the back — the lacing
+            is visible and structural and cannot be faked with a hidden
+            fastening. NO BREASTPLATE: chest and sternum stay plain cloth
+            between the panels.
         note: >
           ~110 plates each, and half the plate count in the costume. PATTERN THESE
           FIRST — their area depends on a pattern nobody has cut yet. Unmatched to
@@ -777,6 +845,16 @@ outfits:
         route: made
         qty: 1
         status: not-started
+        build:
+          size: >-
+            ~120 cm², ~90 plates. A PALM'S WIDTH — the point of the shoulder
+            only, and no further down the arm.
+          colour: Mixed from the hex-plate palette
+          hex: "#8a8d90"
+          finish: Three to five plates absent.
+          method: >-
+            MOVES LIKE HEAVY CLOTH, NOT PLATE — it has to hang loose and swing.
+            Pre-linked printed sheets are FORBIDDEN here.
         note: >
           ~90 plates. A PALM'S WIDTH — the point of the shoulder only. Three to
           five plates absent. Moves like heavy cloth, not plate.
@@ -784,6 +862,16 @@ outfits:
         route: made
         qty: 1
         status: not-started
+        build:
+          size: ~180 cm², ~130 plates.
+          colour: Dark bronze
+          hex: "#7a5c33"
+          finish: >-
+            THE ONE WARM THING IN THE WHOLE COSTUME, and the only place this
+            colour appears. Everything else is grey, black, pewter and rust.
+          method: >-
+            Must move like heavy cloth. Pre-linked printed sheets are FORBIDDEN
+            here.
         note: >
           ~130 plates. DARK BRONZE — the one warm thing in the whole costume, and
           the only place that colour appears.
@@ -791,6 +879,26 @@ outfits:
         route: printed
         qty: 1
         status: not-started
+        build:
+          size: >-
+            Covers ~200 cm² of her right forearm — wrist to below the elbow.
+            Printed as ONE SHELL, which is what removes the ~150 hand-laced
+            plates this area would otherwise have cost.
+          colour: Dull grey steel
+          hex: "#8a8d90"
+          accent: Dim amber telltales, a cluster at the wrist
+          accent_hex: "#c8862f"
+          finish: >-
+            MUST NOT MATCH the other four pieces — it is scavenged from
+            somewhere else and the mismatch is the point. THE RAISED SWIRL IS
+            THE WHOLE JOB HERE: nothing else distinguishes this from a moulded
+            tech panel, so the wash and dry-brush that make the relief read are
+            not optional. The telltales are dim and warm, not bright LEDs.
+          method: >-
+            The one piece in the costume that does not flex, and the only one
+            where a hard printed shell is correct. Print the cuff separately if
+            it fights the build plate; the cuff reads warm brown as bought
+            leather and needs the same taupe dye job as the belts.
         note: >
           Dull grey steel, a cluster of dim amber telltales at the wrist. The one
           piece that does not flex. MUST NOT MATCH the other four pieces.
@@ -801,6 +909,30 @@ outfits:
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - linen waistcoat grey
+            - sleeveless jacket cotton canvas
+            - textured weave waistcoat
+            - raw silk waistcoat
+          where: >-
+            Vinted and eBay, and worth going in person where you can — this is
+            the ONE item on the list you cannot buy from a photograph. Charity
+            shops and fabric remnant bins.
+          filter: >-
+            HANDLE IT IN RAKING LIGHT BEFORE BUYING. The serpentine grain is
+            now a WEAVE, not a pressing — changed 2026-08-02 — so it has to be
+            found in the cloth at purchase or it does not exist. Online, ask
+            the seller for a photograph taken with light across the surface.
+          spec: >-
+            HEAVY CLOSE-WOVEN CLOTH, NOT HIDE. Fitted, sleeveless, dusty grey.
+            Look for a fine, close, irregular texture — tonal, readable only in
+            raking light.
+          avoid: >-
+            NOT A REPTILE PRINT, which is exactly what the market will offer
+            you, and not crocodile or python. She did not choose it and it must
+            not look chosen. Nothing that looks bought.
+          budget: "£6–15"
         note: >
           HEAVY CLOSE-WOVEN CLOTH, not hide — changed 2026-08-02, which moved this
           from a hide to find to a garment to source and distress.
@@ -812,6 +944,20 @@ outfits:
         route: bought
         qty: 2
         status: not-started
+        shop:
+          search:
+            - leather belt tan
+            - wide leather belt vintage
+            - mens leather belt plain
+          where: Charity shops, Vinted, eBay. Belts are everywhere secondhand.
+          filter: >-
+            Two, and they need not match. One at the waist, one slung
+            diagonally below it. Buy long and re-punch.
+          spec: Worn leather, plain hardware.
+          avoid: >-
+            BUY FOR CONSTRUCTION, NOT COLOUR — see the dyeing note. Warm brown
+            as bought is expected and fine. No branding, no fashion buckles.
+          budget: "£8–18 the pair"
         note: >
           Worn taupe leather. See the dyeing note under boots — these read warm
           brown as bought.
@@ -819,6 +965,26 @@ outfits:
         route: bought
         qty: 6
         status: not-started
+        shop:
+          search:
+            - roller buckle steel
+            - harness buckle heavy duty
+            - load rated strap buckle
+            - industrial salvage hardware
+          where: >-
+            Saddlery and leatherwork suppliers, army surplus, industrial
+            salvage. eBay for job lots.
+          filter: Six. LOAD-RATED, and steel.
+          spec: >-
+            Real load-bearing hardware. The Bible calls for industrial salvage
+            over fine modern hardware, and salvage also reads more correctly on
+            camera.
+          avoid: >-
+            DO NOT PRINT THESE. Printed buckles fail at the layer lines under
+            exactly the loads a costume puts on them. Printing is for buckles
+            that are seen but not loaded. Nothing bright, nothing plated,
+            nothing decorative.
+          budget: "£6–15"
         note: >
           LOAD-BEARING, SO BOUGHT HARDWARE. Printed buckles fail at the layer
           lines under exactly the loads a costume puts on them. Real load-rated
@@ -829,21 +995,88 @@ outfits:
         route: made
         qty: 2
         status: not-started
+        build:
+          size: >-
+            BUILD AROUND THE PRINTED WESTAR-35 AND THE PRINTED KNIFE, and not
+            before they exist. The WESTAR's long barrel sets the holster depth
+            and it is longer than a generic pistol pattern allows for.
+          colour: Taupe — grey-brown, cool
+          hex: "#8b7f70"
+          finish: >-
+            TAUPE IS A DYEING JOB, NOT A PURCHASE. Leather reads warm brown as
+            bought and the costume drifts back toward brown on almost every
+            image; it will do the same on the bench. Dye and knock the warmth
+            out, then check it beside the belts in daylight.
+          method: >-
+            Holster on her RIGHT thigh, on the drawing side. The knife sheath
+            goes on her LEFT hip — the two are made together and worn apart.
         note: Taupe leather, on the drawing side. Built around the WESTAR-35.
       - item: WESTAR-35 blaster pistol
         route: printed
         qty: 1
         status: not-started
+        build:
+          size: >-
+            ~300 to 330 mm overall — the WESTAR-35 is a long-barrelled pistol
+            and the length is most of its silhouette. ONE PRINTED WEAPON CAN
+            SERVE TWO CHARACTERS: see Costume-Build-Method. Check before
+            printing a second.
+          colour: Gunmetal, dulled
+          hex: "#5c5f63"
+          accent: Worn steel at the muzzle, grip and draw edges
+          accent_hex: "#9ea3a6"
+          finish: >-
+            WELL USED, NEVER FACTORY FRESH — the opposite instruction to Jasu's
+            A180, which is the one clean weapon in the film. Rub the finish
+            back where a hand and a holster mouth have worn it, and let the
+            recesses stay dark.
+          method: On her RIGHT side, hip or thigh. She is right handed.
         note: On her RIGHT side, hip or thigh. Well used, never factory fresh.
       - item: Combat knife
         route: printed
         qty: 1
         status: not-started
+        build:
+          size: >-
+            ~200 to 250 mm overall, blade ~120 to 150 mm. A working tool, not a
+            fighting trophy.
+          colour: Dull worn steel
+          hex: "#9ea3a6"
+          accent: Dark wrapped or scaled grip
+          accent_hex: "#3f3a34"
+          finish: >-
+            WELL USED. Sharpen-marks along the edge and a rubbed-back flat;
+            leave the spine and the ricasso darker. It must never look
+            ornamental.
+          method: >-
+            On her LEFT hip, off the drawing side. PRINT IT BLUNT — a costume
+            knife carried against the body needs a rounded edge and a rounded
+            point regardless of how it reads on camera.
         note: On her LEFT hip. Well used.
       - item: Boots — mid-calf, grey-brown taupe
         route: bought
         qty: 1
         status: not-started
+        shop:
+          search:
+            - mid calf leather boots flat
+            - leather lace up boots brown
+            - slouch leather boots flat
+          where: Charity shops first, then Vinted and eBay.
+          filter: >-
+            Her size, and check the calf measurement. Wear is wanted — do not
+            pay extra for "like new".
+          spec: >-
+            Mid-calf leather, flat. Long leather straps wound criss-cross up
+            the shaft are added in-house afterwards, so the boot only has to be
+            the right shape.
+          avoid: >-
+            TAUPE IS A DYEING AND DISTRESSING JOB, NOT A PURCHASE — buy the
+            shape and fix the colour. Belts, holster, thigh strap, boots and
+            the gauntlet cuff ALL read warm brown as bought, and the costume
+            drifts back toward brown on almost every image. It will do the same
+            on the bench. Nothing with a heel, no zips on show, no branding.
+          budget: "£15–35"
         note: >
           Long leather straps wound criss-cross up the shaft.
           TAUPE IS A DYEING AND DISTRESSING JOB. Belts, holster, thigh strap,
@@ -854,6 +1087,26 @@ outfits:
         route: made
         qty: 1
         status: not-started
+        build:
+          size: >-
+            FINE — much finer than the armour plates, and a separate discipline
+            from them. Face, neck, collarbone, shoulders, arms and hands.
+          colour: Skin, with the scale pattern read in raking light
+          hex: "#a8977f"
+          accent: Reptilian pupil — CONTACT LENS on a human performer
+          accent_hex: "#c9b57a"
+          finish: >-
+            IT IS SKIN AND IT READS AS SKIN. Never painted on and never a
+            printed pattern. Locked against scale_portrait.png, NOT against the
+            costume reference.
+          method: >-
+            THE PUPIL IS THE SINGLE HIGHEST-VALUE ELEMENT IN HER MAKE-UP. The
+            eye keeps its human shape, lids, lashes and expression, and only
+            the pupil is wrong. NOT A BOUGHT ITEM ON THE £100 SHOPPING BUDGET —
+            a bespoke-pupil lens is a prescription-adjacent purchase from an
+            optical supplier, needs lead time, and needs a wear-time and
+            handling protocol for the performer. Budget and order it
+            separately, and early.
         note: >
           FINE scales on exposed skin, and a separate discipline from the armour.
           The reptilian pupil is a CONTACT LENS on a human performer — the eye

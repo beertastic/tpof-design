@@ -62,13 +62,11 @@ status: "open"
 > |---|---|
 > | `08-expression_strip.txt` | **Symmetric horns** and a mantle lattice, the same two faults `06-portrait` had. The mantle fix is in the slot and it worked on the portrait. **The horns will come back matched** — that is the reference, not the slot, and it is the open decision above |
 >
-> ~~`07-headdress.txt`~~ — **generated and accepted 2026-08-04. Hair fixed:**
-> fully down and loose, nothing gathered, nothing styled. **Not yet saved to
-> `source/artwork/`, so it stays in `do-not-publish.txt` until it is** — the file
-> on disk is still the half-up-knot version and releasing the line early would
-> publish exactly the plate the block exists to stop. Its mantle came back
-> diamond-quilted and that was accepted: `mantle_detail` is the authority on the
-> surface, not this frame. Its horns are the reason for the decision above.
+> ~~`07-headdress.txt`~~ — **done, saved and released 2026-08-04. Hair fixed:**
+> fully down and loose, nothing gathered, nothing styled. Its mantle came back
+> diamond-quilted and that was accepted — `mantle_detail` is the authority on
+> the surface, not this frame, and the paragraph is now in the slot for any
+> re-roll. **Its horns are the reason for the decision above.**
 >
 > ~~`04-captaining.txt`~~ · ~~`06-portrait.txt`~~ — **both done 2026-08-04.**
 > The portrait is the proof that **putting the mantle-surface text in the slot

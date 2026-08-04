@@ -20,9 +20,15 @@
 # and that was accepted — this is a context image, and the animal's real spec
 # is the measured 0.85 m in Creature.md, not this frame.
 
-# Came back with a HALF-UP KNOT — this slot still carried the superseded
-# "swept up and back, a built shape" hair. Now says worn down.
-headdress.png
+# RELEASED 2026-08-04 — headdress.png regenerated and accepted. The half-up
+# knot is gone: hair fully down and loose, nothing gathered, nothing styled.
+# Two things accepted with it, both deliberate. Its mantle came back
+# DIAMOND-QUILTED, because this was the one close crop whose slot lacked the
+# mantle-surface paragraph — mantle_detail is the authority on that surface,
+# not this frame, and the paragraph is now in the slot for any re-roll. And
+# its horns are a long sweeping crescent plus two shorter points, which obeys
+# the asymmetry rule but does NOT match the five approved turnarounds. That
+# contradiction is open and logged at the top of Jasu-Image-TODO.md.
 
 # RELEASED 2026-08-04 — portrait.png regenerated and accepted. The mantle
 # lattice is gone: the crazing is irregular and heavier at the shoulder fold,

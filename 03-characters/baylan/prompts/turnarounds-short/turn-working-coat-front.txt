@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — FRONT]
 Output file: turn-working-coat-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: c1d0bbeb (short) · repo commit c0add8e 2026-08-04 16:24
+Prompt version: c1d0bbeb (short) · repo commit a9f6adf 2026-08-04 16:26
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

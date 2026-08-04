@@ -70,132 +70,131 @@ outfits:
       Nothing about this costume is decorative, chosen for looks, or new.
     must_show:
       - >
-        HE READS AS A MERCENARY, NEVER AS A JEDI. This is the core rule and
-        everything else serves it. An audience must be able to watch him for half
-        the film without suspecting. No hood, no cowl, no monastic sleeve, no
-        ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. If the
-        image announces him as a Jedi, it has failed.
+        HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic
+        sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or
+        body. An audience must watch him for half the film without suspecting.
+        If the image announces him as a Jedi, it has failed.
       - >
         ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no
         patches, no badges, no beads, no jewellery, no personal marks of any kind.
-        THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and
-        his plainness is the only odd thing about him. Every other mercenary is
-        marked; he is not. Do not add a single decorative element to make the
-        costume more interesting — the absence IS the design.
+        Every other mercenary in this crew is marked; he is not. Do NOT add a
+        decorative element to make the costume more interesting — the absence IS
+        the design.
+      # Split with the chevron rules on 2026-08-04, and for the same reason: at
+      # 697 characters it was losing the rifle sling and the pouch side, which
+      # are exactly the placement facts handedness exists to fix.
+      - check: Blaster his RIGHT hip, UGLY and heavily modified. Pouches his LEFT.
+        text: >
+          BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The
+          holster is belt-mounted on his right hip, grip up and angled slightly
+          forward for a right-hand draw. The weapon in it is UGLY and HEAVILY
+          MODIFIED — a scratch-built, unbalanced-looking pistol assembled from
+          mismatched parts, not a clean factory sidearm.
       - >
-        BLASTER ON HIS RIGHT HIP. He is RIGHT-HANDED. The holster is on his right
-        hip, belt-mounted, grip up and angled slightly forward for a right-hand
-        draw. NEVER his left. The weapon in it is UGLY and HEAVILY MODIFIED — a
-        scratch-built, unbalanced-looking pistol assembled from mismatched parts,
-        not a clean factory sidearm. It is the least elegant thing in the film.
-        WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand —
-        muzzle down, strap over his left shoulder crossing to his right hip, so
-        the sling never sits under his drawing arm. The rifle is battered,
-        reliable and boring. Ammunition pouches and field tools sit on his LEFT,
-        on the off side, where they cannot foul the draw.
+        AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side,
+        where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is
+        slung to fall to his RIGHT hand — muzzle down, strap over his left
+        shoulder crossing to his right hip, so the sling never sits under his
+        drawing arm.
+      # SPLIT 2026-08-04. These six were three rules of 1033, 1972 and 708
+      # characters against a per-rule cap of 707, and the trim keeps the opening
+      # sentence and the first hard negation and discards the rest. The chevron
+      # panel — the one shape he is remembered for — was reaching the generator
+      # as "FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO..." and nothing
+      # else: eleven of its twelve clauses were being dropped, including the
+      # width, the angle, the material and the not-printed negation.
+      #
+      # Splitting alone would not have fixed it. baylan/working is genuinely
+      # BUDGET-bound — see the note on RULE_CHARS in short.py — so volume had to
+      # come down too. What went is prose that constrains nothing: the coat's
+      # Jedi negations, which rule 1 already carries in full; the coat's
+      # construction, which belongs to `working-coat` and to the build, not to
+      # five views where it is not worn; and the closing "because he needs them"
+      # story lines. Every constraint survives; ~1,700 characters of restatement
+      # did not.
+      - check: The long coat is OFF — harness, belt and holster all visible.
+        text: >
+          THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base
+          costume, and a coat over the top hides the harness, the belt and the
+          holster. It is a separate removable garment with its own two views
+          (`working-coat`) and its own plate at slot 13. He takes it off to work.
+      - check: Chevron panel NARROWER than his shoulders, plain garment either side.
+        text: >
+          THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to
+          shoulder, and NEVER a flat graphic across the chest. It does NOT reach
+          the shoulder seams, the armholes or the arms — there is plain garment
+          either side of it.
       - >
-        THE ROBE IS A SEPARATE REMOVABLE GARMENT AND IT IS A HEAVY OLD WORKING
-        COAT, NOT JEDI DRESS. IT IS NOT WORN IN THESE FIVE VIEWS — they record
-        the base costume, and a long coat over the top hides the harness, the
-        belt and the holster. It has its own turnaround set, `working-coat`, and
-        its own narrative plate at slot 13. He wears it off duty, at the fire and
-        in the cold, and takes it off to work. It must be BUILT AS ITS OWN PIECE: long,
-        weathered black or very near it, falling below the knee, worn OPEN.
-        Repaired tears, SCORCHING ALONG ONE SIDE ONLY — never symmetrical damage
-        — and a burn that was never properly patched. NO wide monastic sleeves —
-        the sleeves are ordinary, set-in and close to the arm. NO ceremonial
-        drape, NO layered tabards, NO wrapped front, NO sash, NO cowl. THE HOOD IS
-        DOWN or there is no hood at all. It is weather gear worn by a cold man,
-        the sort of coat any freighter crew would own. It is visibly the oldest
-        and most comfortable thing he owns. If the silhouette reads as a Jedi, the
-        image has failed.
-      # Moved out to the top layer on 2026-08-01. These used to live on the
-      # undertunic, seen only when the jacket came off in his bunk — which meant
-      # the one shape he is remembered for later appeared in two night scenes and
-      # nowhere else. It is his silhouette; it has to be on him.
-      # The first sentence is the only one the short prompts are guaranteed to
-      # keep, so the geometry lives there and nowhere else. The stitching is a
-      # separate rule below for the same reason — sharing this one, it was
-      # trimmed away entirely.
+        THE PANEL RUNS DOWN THE CENTRE FRONT, covering chest and belly and
+        continuing DOWN UNDER THE BELT, bounded by a stitched edge that runs from
+        the base of the throat to the waist.
+      - check: Five bands, a hand's width each, touching, shallow open V.
+        text: >
+          FIVE NESTED CHEVRONS, APEX DOWN, AND EXACTLY FIVE. Each is a BROAD BAND
+          ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They
+          TOUCH: no cloth shows between them, because the panel is MADE of them.
       - >
-        FIVE BROAD NESTED CHEVRONS, APEX DOWN, THROAT TO BELT, ON A PANEL
-        NARROWER THAN HIS SHOULDERS.
-        NEVER a flat graphic across the chest, and NEVER shoulder to shoulder.
-        GET THE GEOMETRY EXACTLY RIGHT; IT IS THE ONE SHAPE HE IS
-        REMEMBERED FOR AND IT HAS BEEN DRAWN WRONG BEFORE.
-        SHAPE AND EXTENT: a single panel down the CENTRE FRONT of the torso,
-        covering chest and belly and running DOWN UNDER THE BELT. It is bounded
-        by a stitched edge that starts at the base of the throat, curves out and
-        down over each side of the chest, and continues to the waist. IT IS
-        NARROWER THAN HIS SHOULDERS — it does NOT reach the shoulder seams, the
-        armholes or the arms, and there is plain garment either side of it.
-        AT THE TOP, above the first chevron, a PLAIN ROUNDED AREA rising to a
-        blunt point just below the throat. No chevron crosses it.
-        BELOW THAT, FIVE NESTED CHEVRONS, APEX DOWN, stacked one beneath the next
-        and filling the panel from the top of the chest to the belt. Each is a
-        BROAD BAND ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted
-        line. The bands TOUCH: no cloth shows between them, because the panel is
-        MADE of them. The angle is SHALLOW, about 30° below horizontal, so each V
-        is wide and open, never steep.
-        MATERIAL: mottled, distressed, waxed suede-like leather appliquéd onto
-        the woven base and sitting PROUD of it, so every band throws a shadow
-        edge. TONAL, DARK ON DARK: texture and relief, NEVER colour contrast,
-        NEVER a stripe, NEVER a badge. If it reads as printed, painted or
-        abraded onto the cloth rather than built from separate pieces, it is
-        WRONG.
-        IT MUST BE PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under
-        another garment. Worn open, the long coat frames it rather than covering
-        it: the panel is exactly what shows in the gap between the coat's front
-        edges.
-        The chest harness crosses OVER it and breaks the run of the bands in
-        places. That is correct — they read through and around it, and they are
-        not moved or shrunk to make room for it.
+        THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
+        wide and open, never steep. ABOVE them a PLAIN ROUNDED AREA rises to a
+        blunt point below the throat, and no chevron crosses it.
+      - check: Chevrons are raised leather throwing a shadow, never printed.
+        text: >
+          IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH,
+          THE IMAGE IS WRONG. TONAL, DARK ON DARK: texture and relief, NEVER
+          colour contrast, NEVER a stripe, NEVER a badge.
       - >
-        EVERY CHEVRON EDGE IS STITCHED, AND THE THREAD IS A DARK GREYED-OFF
-        GREEN — coarse, hand-worked, standing proud of the leather. AT NORMAL
-        DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-        It is the stitching that makes the panel legible at distance, and it must
-        be drawn on every band edge. The green is the colour of old moss or
-        weathered bronze. It is only findable
-        in close-up, and it is the single point of colour on him. Nothing else on
-        this costume is green: no panel, no cloth, no leather, no trim, no piping.
-        It is CONSTRUCTION, NOT DECORATION. This does not contradict the no-ornament
-        rule: the chevrons are how the garment is built, not something added to it,
-        and he does not think about them.
+        THE CHEVRON BANDS ARE MOTTLED, DISTRESSED, WAXED SUEDE-LIKE LEATHER
+        appliquéd onto the woven base and sitting PROUD of it, so every band
+        throws a shadow edge.
       - >
-        UNDER THE TOP LAYER, THE UNDERTUNIC. It shows ONLY as a dark edge at the
-        collar and at the cuff — a slightly finer, older weave than the garment
-        over it. WHEN THE TOP LAYER AND HARNESS COME OFF (his bunk aboard the
-        ship, at night) it is clearly visible: re-dyed dark, PATCHED SO MANY TIMES
-        THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED FRONT, a
-        STANDING COLLAR and a SHAPED SHOULDER that no industrial workwear would
-        have. It carries no chevrons — those are on the layer above it.
+        THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never
+        under another garment. The chest harness crosses OVER it and breaks the
+        run of the bands in places. That is correct: they read through and around
+        it, and they are never moved or shrunk to make room for it.
       - >
-        A WIDE, HEAVY BELT AND WORN FOREARM WRAPS. Both are working kit and must
-        read as nothing else — this is the man with no ornament on him.
-        THE BELT: broad salvaged leather, thick, a plain heavy buckle with no
-        decoration on it, darkened and cracked from years of use. It is what the
-        holster hangs from and it is doing a job.
-        THE FOREARM WRAPS: worn leather, strapped or laced, covering the forearm
-        from wrist to below the elbow. ON BOTH ARMS — unlike some in this crew he
-        wears a matched pair, because they are protection for a man who hauls
-        cargo and crates all day, not scavenged trophies.
-        Neither is a flourish. If either reads as decorative or as armour, it is
-        wrong. Both are here because he needs them, and both quietly become
-        something he still wears eighteen years later.
+        THE CHEVRON STITCHING IS CONSTRUCTION, NOT DECORATION: every edge stitched
+        in a DARK GREYED-OFF GREEN, coarse, hand-worked, standing proud of the
+        leather. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
+      - >
+        THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or
+        weathered bronze, findable only in close-up. NOTHING else on this costume
+        is green: no cloth, no leather, no trim, no piping.
+      - >
+        UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those
+        are on the layer above it. In these views it shows ONLY as a dark edge at
+        the collar and at the cuff, a slightly finer and older weave than the
+        garment over it.
+      - >
+        WHEN THE TOP LAYER AND HARNESS COME OFF — his bunk aboard the ship, at
+        night — the undertunic is clearly visible: re-dyed dark, PATCHED SO MANY
+        TIMES THE ORIGINAL FABRIC SURVIVES ONLY IN PANELS, with a CROSS-WRAPPED
+        FRONT, a STANDING COLLAR and a SHAPED SHOULDER that no industrial
+        workwear would have.
+      - >
+        A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick,
+        a plain heavy buckle with no decoration on it, darkened and cracked from
+        years of use. It is what the holster hangs from. If it reads as
+        decorative or as armour, it is wrong.
+      - check: Forearm wraps on BOTH arms, a matched pair.
+        text: >
+          WORN LEATHER FOREARM WRAPS ON BOTH ARMS — a MATCHED PAIR, unlike others
+          in this crew. Strapped or laced, covering the forearm from wrist to
+          below the elbow. They are protection for a man who hauls cargo and
+          crates all day: NOT scavenged trophies, NOT a flourish, and NOT armour.
       - >
         A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn
         leather pouch hangs on it against the skin, older and more repaired than
         anything else he owns, and it is not visible with the jacket on. No
         pendant, no charm, no jewellery of any kind at his throat.
       - >
-        LATE FORTIES — FORTY-EIGHT. Not a young man and not an old one. TALL AND
-        BROAD AND THICKENED. Heavy through the chest and waist, not
-        muscular, not lean, not athletic. He carries weight. NOTHING may suggest
-        he could still fight — no fighter's stance, no coiled readiness, no combat
-        posture. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own
-        hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from
-        years of not sleeping. He is nobody and he looks it.
+        LATE FORTIES — FORTY-EIGHT, TALL AND BROAD AND THICKENED. Heavy through
+        the chest and waist, not muscular, not lean, not athletic. He carries
+        weight. NOTHING may suggest he could still fight — no fighter's stance,
+        no coiled readiness, no combat posture.
+      - >
+        SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand
+        without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years
+        of not sleeping. He is nobody and he looks it.
       - >
         MUTED BUT NEVER BLACK-ON-BLACK. Charcoal, ash brown, dust brown, faded
         olive. Everything repaired, resoled, re-shouldered, previously owned.

@@ -739,3 +739,124 @@ outfits:
       Fine scales are visible on the exposed skin of her face, neck, collarbone,
       shoulders, arms and hands. A WESTAR-35 blaster pistol on her RIGHT SIDE, hip or
       thigh, and a well-used combat knife on her LEFT HIP. Nothing polished, ornamental or factory fresh.
+    # Added 2026-08-04. Assembled from decisions already recorded elsewhere —
+    # Costume-Build-Method.md for the plate counts, routes and the vest change,
+    # Character-Lock.md for the non-negotiables. Nothing here is new design.
+    #
+    # Routes follow the rules in Costume-Build-Method.md: load-bearing hardware is
+    # BOUGHT because printed buckles fail at the layer lines, and the gauntlet is
+    # PRINTED because that alone removes ~150 hand-laced plates.
+    components:
+      - item: Hex plates — the raw scale
+        route: printed
+        qty: ~440
+        status: not-started
+        note: >
+          10 to 15 mm across, regular equilateral hexagons, ONE printed master
+          repeated. Re-confirmed 2026-08-01 against a generation that came back
+          three to four times too coarse. If you can count the plates at a glance
+          they are wrong. Printed identical, so ALL mismatch is painted on —
+          mismatched alloys oxidising at different rates: dull grey steel,
+          blackened iron, dark bronze, pale worn pewter, rust-red oxidised iron.
+          NO BRASS, NO VERDIGRIS. Each carries a RAISED serpent ridge, three or
+          four dies repeating across a panel, never a unique curl per plate.
+      - item: Flank panels — a laced pair, centre front over the ribs
+        route: made
+        qty: 2
+        status: not-started
+        note: >
+          ~110 plates each, and half the plate count in the costume. PATTERN THESE
+          FIRST — their area depends on a pattern nobody has cut yet. Unmatched to
+          each other. Laced onto hand-cut leather-and-fabric backing, tessellated
+          flat in one plane, never shingled, a thin dark seam between neighbours.
+          FIVE TO TEN PLATES ABSENT from each, along the edges, waist and hip
+          where a panel catches and flexes. Lace complete, then remove — scattered
+          absence reads as wear, regular absence reads as a pattern.
+          NO BREASTPLATE: chest and sternum stay plain cloth between the panels.
+      - item: Scale cap — her LEFT shoulder
+        route: made
+        qty: 1
+        status: not-started
+        note: >
+          ~90 plates. A PALM'S WIDTH — the point of the shoulder only. Three to
+          five plates absent. Moves like heavy cloth, not plate.
+      - item: Scale patch — her LEFT outer thigh
+        route: made
+        qty: 1
+        status: not-started
+        note: >
+          ~130 plates. DARK BRONZE — the one warm thing in the whole costume, and
+          the only place that colour appears.
+      - item: Gauntlet — her RIGHT forearm, solid printed shell
+        route: printed
+        qty: 1
+        status: not-started
+        note: >
+          Dull grey steel, a cluster of dim amber telltales at the wrist. The one
+          piece that does not flex. MUST NOT MATCH the other four pieces.
+          Printing it is worth ~150 hand-laced plates, each of which would have
+          needed two punched holes — the largest single saving in this build, and
+          it survives every revision because it is a property of the piece.
+      - item: Vest — fitted, sleeveless, dusty grey cloth
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          HEAVY CLOSE-WOVEN CLOTH, not hide — changed 2026-08-02, which moved this
+          from a hide to find to a garment to source and distress.
+          THE SERPENTINE GRAIN IS NOW A WEAVE, NOT A PRESSING: it has to be found
+          in the cloth at purchase or it does not exist. Look for a fine, close,
+          irregular texture, tonal and readable only in raking light.
+          NOT A REPTILE PRINT, which is what the market will offer.
+      - item: Waist belt, and a second slung diagonally below it
+        route: bought
+        qty: 2
+        status: not-started
+        note: >
+          Worn taupe leather. See the dyeing note under boots — these read warm
+          brown as bought.
+      - item: Harness buckles and fittings
+        route: bought
+        qty: 6
+        status: not-started
+        note: >
+          LOAD-BEARING, SO BOUGHT HARDWARE. Printed buckles fail at the layer
+          lines under exactly the loads a costume puts on them. Real load-rated
+          buckles also read more correctly — the Bible calls for industrial
+          salvage over fine modern hardware. Printing is for buckles that are seen
+          but not loaded.
+      - item: Holster and knife sheath — her RIGHT thigh
+        route: made
+        qty: 2
+        status: not-started
+        note: Taupe leather, on the drawing side. Built around the WESTAR-35.
+      - item: WESTAR-35 blaster pistol
+        route: printed
+        qty: 1
+        status: not-started
+        note: On her RIGHT side, hip or thigh. Well used, never factory fresh.
+      - item: Combat knife
+        route: printed
+        qty: 1
+        status: not-started
+        note: On her LEFT hip. Well used.
+      - item: Boots — mid-calf, grey-brown taupe
+        route: bought
+        qty: 1
+        status: not-started
+        note: >
+          Long leather straps wound criss-cross up the shaft.
+          TAUPE IS A DYEING AND DISTRESSING JOB. Belts, holster, thigh strap,
+          boots and the gauntlet cuff all read warm brown as bought, and the
+          costume drifts back toward brown on almost every image. It will do the
+          same on the bench.
+      - item: Scale make-up — face, neck, collarbone, shoulders, arms, hands
+        route: made
+        qty: 1
+        status: not-started
+        note: >
+          FINE scales on exposed skin, and a separate discipline from the armour.
+          The reptilian pupil is a CONTACT LENS on a human performer — the eye
+          keeps its human shape, lids, lashes and expression, and only the pupil
+          is wrong. It is the single highest-value element in her make-up.
+          Locked against scale_portrait.png, not against the costume reference.

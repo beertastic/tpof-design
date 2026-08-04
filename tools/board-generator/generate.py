@@ -243,7 +243,7 @@ def split_and_render(character_dir: Path, config: dict[str, Any], master_pdf: Pa
     outputs = []
     for index, board_name in enumerate(boards):
         board = config["boards"][board_name]
-        default_pdf = board_name.replace("_", "-").title() + "-Board.pdf"
+        default_pdf = "_" + board_name.replace("_", "-").lower() + "-board.pdf"
         output_pdf = character_dir / board.get("output_pdf", default_pdf)
         single = fitz.open(); single.insert_pdf(doc, from_page=index, to_page=index); single.save(output_pdf); single.close()
         outputs.append(output_pdf)
@@ -291,7 +291,7 @@ def run_promo(repo: Path, character_dir: Path, args, template: dict[str, Any]):
 
     style_cfg = deep_merge(template.get("style", {}), promo.get("style", {}))
     style = {k: str(v) for k, v in style_cfg.items()}
-    out_pdf = character_dir / f'{promo["character"]}-Promo.pdf'
+    out_pdf = character_dir / f'_{promo["character"].lower()}-promo.pdf'
     warnings = promorender.render_promo(out_pdf, character_dir, promo, style)
     for warning in warnings:
         print(f"  ! {out_pdf.name}: {warning}", file=sys.stderr)
@@ -334,7 +334,7 @@ def run_character(repo: Path, character_dir: Path, args, template: dict[str, Any
     renders = character_dir / "renders"
     for index, board_name in enumerate(selected, 1):
         board = config["boards"][board_name]
-        default_pdf = board_name.replace("_", "-").title() + "-Board.pdf"
+        default_pdf = "_" + board_name.replace("_", "-").lower() + "-board.pdf"
         out_pdf = character_dir / board.get("output_pdf", default_pdf)
         pdfrender.render_board(out_pdf, character_dir, config, style, board,
                                index, len(selected), A2_WIDTH_IN, A2_HEIGHT_IN)

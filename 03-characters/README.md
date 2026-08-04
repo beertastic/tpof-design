@@ -28,7 +28,8 @@ All visual development must begin with the Production Design Bible in `../01-pro
 | `Character.md` | The canonical character document. |
 | `Character-Lock.md` | Non-negotiable traits and the design-drift rejection list. Added at lock. |
 | `Prompts.md` | Self-contained image prompt pack — one prompt per artwork slot. |
-| `_build_guide.md` | **What a maker works from.** Derived from `components:` in `outfits.yaml` — never written from photographs. Published to Drive; the `_` sorts it to the top of the folder. See below. |
+| `_build_guide.md` | **REQUIRED. What a maker works from** — the shopping and build list. Derived from `components:` in `outfits.yaml`, never written from photographs. Source only; not published. See below. |
+| `_build_guide.pdf` | **REQUIRED on Drive.** Built from the `.md` by `tools/build-guide-pdf`. **This is the published copy** — Drive cannot render Markdown. |
 | `do-not-publish.txt` | Optional. Names files that exist in `source/artwork/` but are known wrong and must not reach Drive. One filename per line. |
 | `board-data.yaml` | Board layout and content. **This is the board master.** |
 | `source/artwork/` | Generated images, named to match `board-data.yaml`. Tracked — not reproducible. |
@@ -56,9 +57,25 @@ you know the mantle is cloth, **and a photograph cannot tell you that.**
 The full reasoning is in
 [`../11-production-tracking/Costume-Build-Method.md`](../11-production-tracking/Costume-Build-Method.md).
 
-**Captain Jasu is currently the only character with a `components:` list**, and
-therefore the only one with a build guide. Writing one for anybody else starts
-there, not with the pictures.
+**Every character needs one — it is a delivery requirement, not an optional
+extra.** A costume nobody can shop for is not finished, however good the plates
+are. Jasu and Shada both carry a `components:` list and a guide; the rest do not
+yet, and that is tracked in `Image-Manifest.md` alongside their images.
+
+**It must be a PDF on Drive.** Google Drive does not render Markdown — it shows
+the raw source, hashes and pipe tables and all, which is not something to hand a
+maker who is standing in a charity shop. Build it with:
+
+```bash
+./tools/build-guide-pdf shada      # or --all
+```
+
+That renders A4 with reportlab, the same way the boards are drawn and for the
+same reason — no LibreOffice, no LaTeX. The `.md` stays here as the source; only
+the `.pdf` is published. `publish-to-drive` warns if a guide has no PDF built.
+
+**The order of work is: `components:` first, then the guide, then the PDF.**
+Nothing is written from the pictures at any stage.
 
 ### The Drive layout is FLAT
 

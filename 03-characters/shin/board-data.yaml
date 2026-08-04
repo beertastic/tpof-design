@@ -17,7 +17,7 @@ boards:
   turnaround_early:
     label: TURNAROUND
     title: COSTUME TURNAROUND — AS WE MEET HER
-    output_pdf: Turnaround-Early-Board.pdf
+    output_pdf: _turnaround-early-board.pdf
     output_png: Turnaround-Early-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -86,7 +86,7 @@ boards:
   turnaround_late:
     label: TURNAROUND
     title: COSTUME TURNAROUND — DESTROYED BY THE FOREST
-    output_pdf: Turnaround-Late-Board.pdf
+    output_pdf: _turnaround-late-board.pdf
     output_png: Turnaround-Late-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -155,7 +155,7 @@ boards:
   turnaround_final:
     label: TURNAROUND
     title: COSTUME TURNAROUND — THE CLEARING
-    output_pdf: Turnaround-Final-Board.pdf
+    output_pdf: _turnaround-final-board.pdf
     output_png: Turnaround-Final-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -224,7 +224,7 @@ boards:
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
-    output_pdf: Costume-Board.pdf
+    output_pdf: _costume-board.pdf
     output_png: Costume-Board-A2-300dpi.png
     tagline: Nothing she wears was made for her or chosen by her.
     images:
@@ -298,7 +298,7 @@ boards:
   weapons:
     label: BOARD 03
     title: PROPS & POSSESSIONS BOARD
-    output_pdf: Weapons-Board.pdf
+    output_pdf: _weapons-board.pdf
     output_png: Weapons-Board-A2-300dpi.png
     tagline: She carries nothing. That is the characterisation.
     images:
@@ -365,7 +365,7 @@ boards:
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
-    output_pdf: Performance-Board.pdf
+    output_pdf: _performance-board.pdf
     output_png: Performance-Board-A2-300dpi.png
     tagline: She has never had to perform composure.
     images:
@@ -444,7 +444,7 @@ boards:
   materials:
     label: BOARD 05
     title: MATERIALS & COLOUR BOARD
-    output_pdf: Materials-Board.pdf
+    output_pdf: _materials-board.pdf
     output_png: Materials-Board-A2-300dpi.png
     tagline: One colour in a colourless film.
     images:

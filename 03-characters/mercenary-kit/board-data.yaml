@@ -24,7 +24,7 @@ boards:
   turnaround_merc_1:
     label: TURNAROUND
     title: COSTUME TURNAROUND — MERC 1 — THE WOOKIEE
-    output_pdf: Turnaround-Merc-1-Board.pdf
+    output_pdf: _turnaround-merc-1-board.pdf
     output_png: Turnaround-Merc-1-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -93,7 +93,7 @@ boards:
   turnaround_merc_2:
     label: TURNAROUND
     title: COSTUME TURNAROUND — MERC 2 — THE RIFLE
-    output_pdf: Turnaround-Merc-2-Board.pdf
+    output_pdf: _turnaround-merc-2-board.pdf
     output_png: Turnaround-Merc-2-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -162,7 +162,7 @@ boards:
   turnaround_merc_3:
     label: TURNAROUND
     title: COSTUME TURNAROUND — MERC 3 — THE CLOSE ONE
-    output_pdf: Turnaround-Merc-3-Board.pdf
+    output_pdf: _turnaround-merc-3-board.pdf
     output_png: Turnaround-Merc-3-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -231,7 +231,7 @@ boards:
   turnaround_merc_4:
     label: TURNAROUND
     title: COSTUME TURNAROUND — MERC 4 — THE NEAR-HUMAN
-    output_pdf: Turnaround-Merc-4-Board.pdf
+    output_pdf: _turnaround-merc-4-board.pdf
     output_png: Turnaround-Merc-4-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:

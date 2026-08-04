@@ -63,6 +63,27 @@ variations appropriate to the character and the archetype.** Krellis and Jeyin
 are promoted from the reduced tier; Vala was promoted on 2026-08-04 already. This
 is the largest single scoping change since the tiering decision — **+30 images**.
 
+### Every character owes a build guide
+
+**Added as a requirement 2026-08-04.** A costume nobody can shop for is not
+finished, however good the plates are — and this manifest counts images, which
+made it easy to miss.
+
+| File | |
+|---|---|
+| `components:` in `outfits.yaml` | The itemised costume: material, construction, quantity, build route, and what each piece must not be |
+| `_build_guide.md` | Derived from that list. **Never written from the photographs** |
+| `_build_guide.pdf` | Built by `tools/build-guide-pdf`. **The published copy** — Drive cannot render Markdown |
+
+**Jasu and Shada have all three.** Nobody else has a `components:` list yet, so
+nobody else can have a guide — the order of work is components, guide, PDF, and
+nothing is written from the pictures at any stage.
+
+The reason that rule exists is on record: a guide written from Jasu's turnarounds
+alone contradicted five locked decisions at once, including a bought leather
+pauldron for a mantle specified as stiffened cloth. See
+`03-characters/README.md`.
+
 ### What "complete character sheet" means in files
 
 All three currently hold only `Character.md`, `Prompts.md` and `source/`. Measured

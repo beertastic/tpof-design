@@ -26,7 +26,7 @@ boards:
   production:
     label: BOARD 01
     title: COSTUME TURNAROUND
-    output_pdf: Turnaround-Board.pdf
+    output_pdf: _turnaround-board.pdf
     output_png: Turnaround-Board-A2-300dpi.png
     tagline: One costume. Six scenes. Never issued.
     images:
@@ -91,7 +91,7 @@ boards:
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
-    output_pdf: Costume-Board.pdf
+    output_pdf: _costume-board.pdf
     output_png: Costume-Board-A2-300dpi.png
     tagline: She bought the shape of authority because she has none of the real thing.
     images:
@@ -154,7 +154,7 @@ boards:
   weapons:
     label: BOARD 03
     title: WEAPONS & EQUIPMENT BOARD
-    output_pdf: Weapons-Board.pdf
+    output_pdf: _weapons-board.pdf
     output_png: Weapons-Board-A2-300dpi.png
     tagline: A whistle and a leash. Neither is a weapon and both are how she rules.
     images:
@@ -203,7 +203,7 @@ boards:
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
-    output_pdf: Performance-Board.pdf
+    output_pdf: _performance-board.pdf
     output_png: Performance-Board-A2-300dpi.png
     tagline: She is not performing in Scene 9. That is what makes it cold.
     images:
@@ -266,7 +266,7 @@ boards:
   makeup:
     label: BOARD 05
     title: MAKE-UP & CONTINUITY BOARD
-    output_pdf: Makeup-Board.pdf
+    output_pdf: _makeup-board.pdf
     output_png: Makeup-Board-A2-300dpi.png
     tagline: The horns are the only pale thing on her.
     images:
@@ -328,7 +328,7 @@ boards:
   materials:
     label: BOARD 06
     title: MATERIALS & COLOUR BOARD
-    output_pdf: Materials-Board.pdf
+    output_pdf: _materials-board.pdf
     output_png: Materials-Board-A2-300dpi.png
     tagline: More cloth than leather, and good cloth. Expensive, never smart.
     images:

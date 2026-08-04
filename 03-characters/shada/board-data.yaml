@@ -14,7 +14,7 @@ boards:
   production:
     label: BOARD 01
     title: COSTUME TURNAROUND
-    output_pdf: Turnaround-Board.pdf
+    output_pdf: _turnaround-board.pdf
     output_png: Turnaround-Board-A2-300dpi.png
     tagline: Predator, not soldier.
     images:
@@ -118,7 +118,7 @@ boards:
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
-    output_pdf: Costume-Board.pdf
+    output_pdf: _costume-board.pdf
     output_png: Costume-Board-A2-300dpi.png
     tagline: Nothing new. Everything earned.
     images:
@@ -214,7 +214,7 @@ boards:
   weapons:
     label: BOARD 03
     title: WEAPONS & EQUIPMENT BOARD
-    output_pdf: Weapons-Board.pdf
+    output_pdf: _weapons-board.pdf
     output_png: Weapons-Board-A2-300dpi.png
     tagline: Maintained daily. Trusted always.
     images:
@@ -281,7 +281,7 @@ boards:
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
-    output_pdf: Performance-Board.pdf
+    output_pdf: _performance-board.pdf
     output_png: Performance-Board-A2-300dpi.png
     tagline: She does not enter a space. She studies it.
     images:
@@ -378,7 +378,7 @@ boards:
   makeup:
     label: BOARD 05
     title: MAKE-UP & CONTINUITY BOARD
-    output_pdf: Makeup-Board.pdf
+    output_pdf: _makeup-board.pdf
     output_png: Makeup-Board-A2-300dpi.png
     tagline: The lenses do most of the work.
     images:
@@ -463,7 +463,7 @@ boards:
   materials:
     label: BOARD 06
     title: MATERIALS & COLOUR BOARD
-    output_pdf: Materials-Board.pdf
+    output_pdf: _materials-board.pdf
     output_png: Materials-Board-A2-300dpi.png
     tagline: Muted. Natural. Weathered. Functional.
     images:

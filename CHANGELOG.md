@@ -2,6 +2,38 @@
 
 All notable production-bible changes are recorded here.
 
+- **A build guide is now a delivery requirement for every character,
+  2026-08-04.** A costume nobody can shop for is not finished, however good the
+  plates are — and the manifest counts images, which made that easy to miss.
+
+  Three files, in this order, and **nothing is written from the pictures at any
+  stage**: `components:` in `outfits.yaml`, then `_build_guide.md` derived from
+  it, then `_build_guide.pdf` built by the new `tools/build-guide-pdf`.
+
+  **Shada gained a `components:` list** — 13 items, 4 printed, 5 made, 4 bought
+  — assembled entirely from decisions already recorded in
+  `Costume-Build-Method.md`, which had specified what such a list should look
+  like using her own items as the worked example. No new design. Verified
+  against the prompt generators: her content hash is unchanged, so not one
+  prompt moved.
+
+  **The published copy is a PDF, because Drive cannot render Markdown** — it
+  shows the raw source, hashes and pipe tables and all, which is not a thing to
+  hand a maker standing in a charity shop. `build-guide-pdf` draws A4 with
+  reportlab, the same choice and the same reasoning as
+  `board-generator/pdfrender.py`: pandoc needs a LaTeX engine that is not
+  installed and LibreOffice needs a java runtime that does not work here. The
+  `.md` stays in the repository as source; only the `.pdf` ships.
+
+- **Boards renamed to sort above the images, 2026-08-04** — `Costume-Board.pdf`
+  became `_costume-board.pdf`, and so on across every character's
+  `board-data.yaml` and the generator's own defaults.
+
+  **Lowercased as well as prefixed, deliberately.** In strict ASCII a capital
+  `C` sorts *before* `_`, so `Costume-Board.pdf` would have jumped above
+  `_build_guide.pdf` and defeated the point. Lowercase makes the guide sort
+  first under both ASCII and case-insensitive collation.
+
 - **Drive goes FLAT, 2026-08-04, and that is the standard for every character
   from now on.** One folder per character, every file loose in it, no
   subfolders. The costume department browses by opening one plate and arrowing

@@ -9,11 +9,17 @@
 #
 # WHAT GOES, per approved character — ONE FLAT FOLDER, no subfolders:
 #
-#   _build_guide.md            what a maker works from
+#   _build_guide.pdf           what a maker works from — READ IT FIRST
 #   _published-from-repo.txt   provenance: the commit, the files, their sizes
+#   _*-board.pdf               the finished boards
 #   turn-*.png                 the build plates
 #   *.png                      every other generated image
-#   *.pdf                      the finished boards
+#
+# NO MARKDOWN. Drive does not render it — it shows the raw source, hashes and
+# pipe tables and all, which is not a thing to hand a maker. `_build_guide.md`
+# is the repository's source and `_build_guide.pdf` is what ships; build it
+# with ./tools/build-guide-pdf. Boards carry a `_` for the same reason the
+# guide does: to sort above the images rather than into the middle of them.
 #
 # FLAT IS THE STANDARD, decided 2026-08-04, and it applies to every character
 # added from now on. The costume department browses Drive by opening one image
@@ -310,18 +316,21 @@ for dir in 03-characters/*/ 08-species/*/; do
         held "$hold" "$(basename "$f")" && { warn "held back: $(basename "$f")"; nheld=$((nheld+1)); continue; }
         boards+=("$f")
     done
-    # Only the build guide goes to Drive, not every .md in the folder. Character.md
-    # and Prompts.md are working documents for this repository and the reasoning in
-    # them is not what a maker needs at a bench.
-    docs=()
-    for f in "$dir"/_build_guide.md; do
-        [ -f "$f" ] || continue
-        held "$hold" "$(basename "$f")" && { warn "held back: $(basename "$f")"; nheld=$((nheld+1)); continue; }
-        docs+=("$f")
-    done
     HELD_TOTAL=$((HELD_TOTAL+nheld))
 
-    if [ "${#turns[@]}" -eq 0 ] && [ "${#others[@]}" -eq 0 ] && [ "${#boards[@]}" -eq 0 ] && [ "${#docs[@]}" -eq 0 ]; then
+    # NO MARKDOWN GOES TO DRIVE. Drive does not render it — it shows the raw
+    # source, hashes and pipe tables and all, which is not a thing to hand a
+    # maker. `_build_guide.md` is the repository's source; `_build_guide.pdf`
+    # is what gets published, and the *.pdf glob above already caught it.
+    #
+    # Character.md and Prompts.md are working documents for this repository and
+    # never go at all — the reasoning in them is not what anybody needs at a
+    # bench, and publishing them would invite edits away from the source.
+    if [ -f "$dir/_build_guide.md" ] && [ ! -f "$dir/_build_guide.pdf" ]; then
+        warn "$char — _build_guide.md has no PDF. Run: ./tools/build-guide-pdf $char"
+    fi
+
+    if [ "${#turns[@]}" -eq 0 ] && [ "${#others[@]}" -eq 0 ] && [ "${#boards[@]}" -eq 0 ]; then
         warn "$char — approved but nothing on disk to publish"
         SKIPPED=$((SKIPPED+1)); continue
     fi
@@ -336,7 +345,6 @@ for dir in 03-characters/*/ 08-species/*/; do
 
     b "$char  →  $folder/"
     publish_flat "$folder" "$char" "$dir" \
-        ${docs[@]+"${docs[@]}"} \
         ${turns[@]+"${turns[@]}"} \
         ${others[@]+"${others[@]}"} \
         ${boards[@]+"${boards[@]}"}

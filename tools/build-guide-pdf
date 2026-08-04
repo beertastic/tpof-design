@@ -1,0 +1,267 @@
+#!/usr/bin/env python3
+"""Render a character's `_build_guide.md` to `_build_guide.pdf`.
+
+WHY A PDF. Google Drive does not render Markdown — it shows the raw source, hashes
+and pipe tables and all, which is not something you hand to a maker. A PDF previews
+inline in Drive on a phone, prints on A4, and cannot be edited in place, so the
+repository stays the source of truth.
+
+WHY reportlab. The same reason `board-generator/pdfrender.py` gives: no PowerPoint
+and no LibreOffice. LibreOffice needs a java runtime that is not reliably here, and
+pandoc needs a LaTeX engine that is not installed at all. reportlab is already a
+dependency and draws straight to PDF.
+
+    ./tools/build-guide-pdf shada
+    ./tools/build-guide-pdf --all
+
+THE MARKDOWN SUBSET, deliberately small — this renders build guides, not arbitrary
+documents. Anything outside it is passed through as body text rather than silently
+dropped, so a guide can never lose a line by using syntax this does not know:
+
+    # ## ###     headings
+    **bold**  *italic*  `code`
+    - item      bullets
+    > note      pulled out into a boxed warning
+    | a | b |   tables
+    ---         rule
+    ---\nyaml   frontmatter, skipped
+
+The boxed blockquote matters: in these guides `>` is always a do-not-buy warning,
+and it has to survive the trip to paper looking like one.
+"""
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+from reportlab.lib import colors
+from reportlab.lib.enums import TA_LEFT
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib.units import mm
+from reportlab.platypus import (
+    BaseDocTemplate, Frame, HRFlowable, KeepTogether, ListFlowable, ListItem,
+    PageTemplate, Paragraph, Spacer, Table, TableStyle,
+)
+
+INK = colors.HexColor("#1a1a1a")
+MUTED = colors.HexColor("#666666")
+RULE = colors.HexColor("#cccccc")
+WARN_BG = colors.HexColor("#fbf3f3")
+WARN_EDGE = colors.HexColor("#a33")
+HEAD_BG = colors.HexColor("#f2f2f2")
+
+
+def styles() -> dict[str, ParagraphStyle]:
+    base = getSampleStyleSheet()["BodyText"]
+    mk = lambda **kw: ParagraphStyle(parent=base, **kw)
+    return {
+        "body": mk(name="b", fontName="Helvetica", fontSize=9.5, leading=13.5,
+                   textColor=INK, alignment=TA_LEFT, spaceAfter=5),
+        "h1": mk(name="h1", fontName="Helvetica-Bold", fontSize=19, leading=23,
+                 textColor=INK, spaceBefore=0, spaceAfter=9),
+        "h2": mk(name="h2", fontName="Helvetica-Bold", fontSize=13, leading=17,
+                 textColor=INK, spaceBefore=15, spaceAfter=6),
+        "h3": mk(name="h3", fontName="Helvetica-Bold", fontSize=10.5, leading=14,
+                 textColor=INK, spaceBefore=11, spaceAfter=4),
+        "warn": mk(name="w", fontName="Helvetica", fontSize=9.5, leading=13.5,
+                   textColor=INK, leftIndent=7, rightIndent=7,
+                   spaceBefore=6, spaceAfter=6),
+        "cell": mk(name="c", fontName="Helvetica", fontSize=8.5, leading=11.5,
+                   textColor=INK),
+        "cellh": mk(name="ch", fontName="Helvetica-Bold", fontSize=8.5,
+                    leading=11.5, textColor=INK),
+    }
+
+
+def inline(text: str) -> str:
+    """Markdown inline marks -> reportlab's mini-HTML.
+
+    Escapes first, so a literal & or < in a spec (`<10 mm`) cannot become markup.
+    """
+    text = (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    text = re.sub(r"`([^`]+)`", r'<font face="Courier" size="8.5">\1</font>', text)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+    text = re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"<i>\1</i>", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)   # link -> its text
+    return text
+
+
+def split_row(line: str) -> list[str]:
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float) -> list:
+    # Frontmatter is repository bookkeeping, not something a maker needs.
+    if md.startswith("---"):
+        end = md.find("\n---", 3)
+        if end != -1:
+            md = md[md.find("\n", end + 1) + 1:]
+
+    out: list = []
+    lines = md.splitlines()
+    i, n = 0, len(lines)
+
+    while i < n:
+        line = lines[i]
+        stripped = line.strip()
+
+        if not stripped:
+            i += 1
+            continue
+
+        # Table: a header row followed by a |---|---| separator.
+        if stripped.startswith("|") and i + 1 < n and re.match(
+                r"^\|[\s:|-]+\|$", lines[i + 1].strip()):
+            header = split_row(stripped)
+            i += 2
+            rows = []
+            while i < n and lines[i].strip().startswith("|"):
+                rows.append(split_row(lines[i].strip()))
+                i += 1
+            cols = len(header)
+            data = [[Paragraph(inline(c), st["cellh"]) for c in header]]
+            for r in rows:
+                r = (r + [""] * cols)[:cols]
+                data.append([Paragraph(inline(c), st["cell"]) for c in r])
+            # First column carries the label and wants the room.
+            w0 = width * (0.34 if cols > 1 else 1.0)
+            rest = (width - w0) / max(cols - 1, 1)
+            t = Table(data, colWidths=[w0] + [rest] * (cols - 1), repeatRows=1)
+            t.setStyle(TableStyle([
+                ("BACKGROUND", (0, 0), (-1, 0), HEAD_BG),
+                ("GRID", (0, 0), (-1, -1), 0.4, RULE),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 5),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 5),
+                ("TOPPADDING", (0, 0), (-1, -1), 4),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+            ]))
+            out += [Spacer(1, 4), t, Spacer(1, 8)]
+            continue
+
+        # Blockquote — in these guides, always a warning worth boxing.
+        if stripped.startswith(">"):
+            buf = []
+            while i < n and lines[i].strip().startswith(">"):
+                buf.append(lines[i].strip()[1:].strip())
+                i += 1
+            body = " ".join(x for x in buf if x)
+            inner = Table([[Paragraph(inline(body), st["warn"])]], colWidths=[width])
+            inner.setStyle(TableStyle([
+                ("BACKGROUND", (0, 0), (-1, -1), WARN_BG),
+                ("LINEBEFORE", (0, 0), (0, -1), 2.2, WARN_EDGE),
+                ("LEFTPADDING", (0, 0), (-1, -1), 8),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+                ("TOPPADDING", (0, 0), (-1, -1), 6),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+            ]))
+            out += [Spacer(1, 3), inner, Spacer(1, 7)]
+            continue
+
+        # Bullets.
+        if re.match(r"^[-*+]\s+", stripped):
+            items = []
+            while i < n and re.match(r"^[-*+]\s+", lines[i].strip()):
+                items.append(ListItem(
+                    Paragraph(inline(re.sub(r"^[-*+]\s+", "", lines[i].strip())),
+                              st["body"]),
+                    leftIndent=12))
+                i += 1
+            out += [ListFlowable(items, bulletType="bullet", start="•",
+                                 leftIndent=12, bulletFontSize=7),
+                    Spacer(1, 5)]
+            continue
+
+        if re.match(r"^(---+|\*\*\*+|___+)$", stripped):
+            out += [Spacer(1, 4),
+                    HRFlowable(width="100%", thickness=0.6, color=RULE),
+                    Spacer(1, 8)]
+            i += 1
+            continue
+
+        m = re.match(r"^(#{1,6})\s+(.*)$", stripped)
+        if m:
+            level = len(m.group(1))
+            key = "h1" if level == 1 else "h2" if level == 2 else "h3"
+            para = Paragraph(inline(m.group(2)), st[key])
+            # A heading alone at a page foot reads as a mistake.
+            out.append(para if level == 1 else KeepTogether([para, Spacer(1, 1)]))
+            i += 1
+            continue
+
+        # Paragraph — gather until a blank line or the start of another block.
+        buf = []
+        while i < n and lines[i].strip() and not re.match(
+                r"^(#{1,6}\s|[-*+]\s|>|\||---+$)", lines[i].strip()):
+            buf.append(lines[i].strip())
+            i += 1
+        if buf:
+            out.append(Paragraph(inline(" ".join(buf)), st["body"]))
+
+    return out
+
+
+def render(md_path: Path, pdf_path: Path, character: str) -> None:
+    st = styles()
+    margin = 17 * mm
+    width = A4[0] - 2 * margin
+
+    def furniture(canvas, doc):
+        canvas.saveState()
+        canvas.setFont("Helvetica", 7.5)
+        canvas.setFillColor(MUTED)
+        canvas.drawString(margin, 11 * mm, f"{character} — build guide")
+        canvas.drawRightString(A4[0] - margin, 11 * mm, f"page {doc.page}")
+        canvas.drawCentredString(
+            A4[0] / 2, 11 * mm,
+            "generated from the repository — do not annotate this copy")
+        canvas.setStrokeColor(RULE)
+        canvas.line(margin, 15 * mm, A4[0] - margin, 15 * mm)
+        canvas.restoreState()
+
+    doc = BaseDocTemplate(
+        str(pdf_path), pagesize=A4,
+        leftMargin=margin, rightMargin=margin,
+        topMargin=margin, bottomMargin=22 * mm,
+        title=f"{character} — build guide", author="TPOF Art Department")
+    doc.addPageTemplates([PageTemplate(
+        id="p",
+        frames=[Frame(margin, 22 * mm, width, A4[1] - margin - 22 * mm, id="f")],
+        onPage=furniture)])
+    doc.build(build_flowables(md_path.read_text(encoding="utf-8"), st, width))
+
+
+def main(argv: list[str]) -> int:
+    repo = Path(__file__).resolve().parent.parent
+    args = [a for a in argv[1:] if not a.startswith("-")]
+    every = "--all" in argv[1:]
+
+    if not args and not every:
+        print("usage: build-guide-pdf <character> | --all", file=sys.stderr)
+        return 2
+
+    chars = sorted(p.name for p in (repo / "03-characters").iterdir()
+                   if p.is_dir()) if every else args
+
+    made = missing = 0
+    for char in chars:
+        md = repo / "03-characters" / char / "_build_guide.md"
+        if not md.is_file():
+            if not every:
+                print(f"  ! {char} — no _build_guide.md", file=sys.stderr)
+                missing += 1
+            continue
+        pdf = md.with_suffix(".pdf")
+        render(md, pdf, char)
+        print(f"  ✓ {char} — {pdf.relative_to(repo)} "
+              f"({pdf.stat().st_size // 1024} KB)")
+        made += 1
+
+    print(f"\n{made} built" + (f", {missing} missing" if missing else ""))
+    return 1 if missing else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv))

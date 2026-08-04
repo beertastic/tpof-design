@@ -17,7 +17,7 @@ boards:
   turnaround_working:
     label: TURNAROUND
     title: COSTUME TURNAROUND — WORKING DRESS
-    output_pdf: Turnaround-Working-Board.pdf
+    output_pdf: _turnaround-working-board.pdf
     output_png: Turnaround-Working-A2-300dpi.png
     tagline: Front. Left. Right. Back. And how it sits on a person.
     images:
@@ -86,7 +86,7 @@ boards:
   costume:
     label: BOARD 02
     title: COSTUME CONSTRUCTION BOARD
-    output_pdf: Costume-Board.pdf
+    output_pdf: _costume-board.pdf
     output_png: Costume-Board-A2-300dpi.png
     tagline: Eighteen years is long enough that it stops being a disguise.
     images:
@@ -160,7 +160,7 @@ boards:
   weapons:
     label: BOARD 03
     title: WEAPONS & EQUIPMENT BOARD
-    output_pdf: Weapons-Board.pdf
+    output_pdf: _weapons-board.pdf
     output_png: Weapons-Board-A2-300dpi.png
     tagline: He took it apart and made it into something else. So did she.
     images:
@@ -227,7 +227,7 @@ boards:
   performance:
     label: BOARD 04
     title: PERFORMANCE & MOVEMENT BOARD
-    output_pdf: Performance-Board.pdf
+    output_pdf: _performance-board.pdf
     output_png: Performance-Board-A2-300dpi.png
     tagline: He has spent eighteen years practising being uninteresting.
     images:
@@ -306,7 +306,7 @@ boards:
   materials:
     label: BOARD 05
     title: MATERIALS & COLOUR BOARD
-    output_pdf: Materials-Board.pdf
+    output_pdf: _materials-board.pdf
     output_png: Materials-Board-A2-300dpi.png
     tagline: Muted. Worn. Repaired. Anonymous.
     images:

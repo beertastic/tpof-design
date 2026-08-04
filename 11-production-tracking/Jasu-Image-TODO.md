@@ -449,6 +449,48 @@ again; neither is part of `regen`.
 
 ---
 
+## The akk dog came back half size, twice — 2026-08-04
+
+**`captaining` was generated twice against a prompt that stated the size
+correctly, and both times the crest landed at her knee** rather than at the
+bottom of her belt. Roughly half. The wording was not the problem: it was the
+phrasing `Creature.md` had already measured as the best available — 0.87 m from
+*"level with the bottom of her belt"* against 0.78 m from *"comes up to her
+waist"*.
+
+**The position was the problem.** The size was the LAST sentence of a ~90-word
+appearance paragraph, ~60 lines into the prompt. And the evidence is clean:
+
+| | |
+|---|---|
+| Every numbered `must_show` rule — boots, hair, one whistle, leash left, holster right | **held, in both images** |
+| The akk's size, buried in prose | **failed, in both images** |
+
+**A rule behind a wall loses to the wall.** Same lesson as Shada's plate size,
+which sat inside a placement rule and was trimmed away by the short prompts.
+
+**Fixed by promotion, not rewording** — the landmark is unchanged. It now opens
+the akk block, is stated four ways (belt landmark, a flat hand on the crest
+without stooping, head as long as her forearm, and the scale plate bound
+explicitly), names the observed failure, and is restated in a two-line check at
+the very end of the slot. Recency is the counter, not volume.
+
+**One thing that may have been actively pushing it smaller:** the block said
+*"NOT a canid, NOT a wolf, NOT a mastiff"*. Those are shape negations, but a
+mastiff is a ~76 cm dog, and a model reading them as size cues would land near
+or below the target. It now says those three are wrong in **shape** and that the
+akk is **larger** than any of them.
+
+**Also fixed in the same pass:** the mercenaries were walking away in random
+directions. *"Mercenaries moving off in the background to do it"* was prose in
+the same buried paragraph. It is now its own rule — they move off along the line
+of her outstretched arm, or turn to look that way, and nobody crosses her line
+or faces camera.
+
+**If it fails a third time**, the next lever is the shot itself rather than more
+words: frame it so the animal's head and her belt are in the same part of the
+frame, which makes the relationship compositional instead of metric.
+
 ## Inherited from Shada — do not relearn these
 
 Everything in `Prompt-Reliability-TODO.md` applies to her. The two that will bite

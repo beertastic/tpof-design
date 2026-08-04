@@ -6,6 +6,76 @@ How her design converged. **History, never specification** — the design lives 
 folder to a generation prompt** — the latest pass is the exception, and pass 03
 below relies on it.
 
+## 05 — THE HORNS GO TO A COMPARISON, 2026-08-04
+
+**Staged, not yet run.** Paste `05-horns-funko.txt`, attach all 5 files in
+`attachments/05-horns-funko/`, save the result as `05-horns-funko.png`, then
+compare it against `../source/artwork/turn-field-front.png` side by side.
+
+### Why
+
+The Production Designer settled the horn spec on 2026-08-04 — **trophies and
+bone, exactly two, one each side, both curved, alike in curve, colour and size
+but officially different objects, each a third to a half the height of her
+head** — and then said the thing that mattered more: **the horns on the painted
+figure in `../reference/build/` are the ones they like**, wanted de-polished so
+they read as taken off a real animal.
+
+**Nothing generated has ever looked like that figure.** Its horn is a broad
+flattened blade sweeping up and back and tapering to a fine point. Every
+generated plate shows a chunky curved loop hugging the ear. Same colour, same
+rough size, completely different object — and the difference is only obvious
+once the two are put beside each other at the same scale.
+
+**The figure was detached on 2026-08-03 for a good reason and the wrong remedy.**
+Its 1:1 head-to-body ratio is exactly how a 155 cm woman becomes a caricature.
+But that is a property of the *figure*, not of the *horns*. **The fix was to crop
+to the horns, not to throw the plate away** — the method Shada's make-up plate
+established, and the one used on `../reference/headdress/horns-authority-2026-08-04.png`
+the same afternoon. The crops are now at
+`../reference/headdress/funko-horn-side.png` and `-front.png`.
+
+### The scope, and it is the same trick that settled the boots
+
+The pass attaches the approved front — which a front view normally must not be
+given — because **the costume has to be held still so the only variable is the
+horns.** The prompt then overrules it on the horns alone, in the wording proven
+on 2026-08-03:
+
+> *"ON THE HORNS, AND ONLY THE HORNS, THE COSTUME PHOTOGRAPH IS WRONG AND THE
+> TWO FIGURE PHOTOGRAPHS OVERRIDE IT."*
+
+**And a second scope on top of it, because the figure is a toy:** take the shape
+and placement of the horns and *nothing else* — not the head, the face, the
+proportions, the hair, the paint or the scale. Rule 2 governs the head
+absolutely.
+
+**Shape from the photograph, surface from the words.** The figure's horns are
+painted flat white, which is wrong; the written rule supplies bone, matte,
+yellowed, pitted and age-cracked. This is the split the A180 already proved —
+a reference photograph fixes a silhouette that four generations could not get
+from words, and the words still govern the finish.
+
+### What to judge
+
+**Silhouette, and only silhouette.** Does the blade read as something taken off
+an animal, or as an ornament? Put it beside the current front at the same size —
+that comparison is the decision, not the documents.
+
+### Two things to watch
+
+- **A photograph beats a paragraph**, which is why this test exists at all. The
+  risk is the reverse of the boots test: the costume attachment may simply
+  redraw its own looped horns and ignore the figure. **If the horns come back
+  unchanged, the test has not run** — re-roll before comparing.
+- **The figure appears to carry a smaller secondary point below the main blade
+  on at least one side.** The settled rule says exactly two horns, one per side,
+  so the prompt asks for the blade only. If the pass comes back with extra
+  points, that is the figure winning over rule 16 — and worth a decision rather
+  than a re-roll, because it may be what was liked about it.
+
+---
+
 ## `attachments/` — one folder per pass, drag it in
 
 Each pass has its files staged under `attachments/<pass>/`, numbered and named by

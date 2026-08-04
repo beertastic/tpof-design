@@ -12,10 +12,10 @@
 [SHADA — SLOT 05 — SPECIES DETAIL]
 Output file: scale_portrait.png
 Aspect ratio: 3:4  (portrait)
-Prompt version: ba97c03c · repo commit 7171a4d 2026-08-04 15:22
+Prompt version: ba97c03c · repo commit 3b4d079 2026-08-04 16:15
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 7171a4d, prompt ba97c03c.
+    Working from commit 3b4d079, prompt ba97c03c.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

@@ -1,10 +1,10 @@
 [SHADA — TURNAROUND — INFILTRATION DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 7b143fdd · repo commit 7171a4d 2026-08-04 15:22
+Prompt version: 7b143fdd · repo commit 3b4d079 2026-08-04 16:15
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 7171a4d, prompt 7b143fdd.
+    Working from commit 3b4d079, prompt 7b143fdd.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

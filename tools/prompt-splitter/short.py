@@ -795,6 +795,23 @@ def run(repo: Path, character: str, budget: int = None, dry_run: bool = False) -
     outdir = repo / "03-characters" / character / "prompts" / "turnarounds-short"
     if not dry_run:
         outdir.mkdir(parents=True, exist_ok=True)
+    # A SHORT PROMPT FOR A VIEW WE NO LONGER MAKE IS THE DANGEROUS KIND OF
+    # STALE FILE — it is complete, it is well formed, and it pastes. When
+    # Baylan's coat set went from five views to two, three files for views
+    # nobody had decided to generate stayed on disk looking exactly as
+    # legitimate as the seven that were current. turnarounds.py clears its
+    # output directory; this one did not.
+    wanted_files = {
+        f"turn-{o['id']}-{v}.txt"
+        for o in cfg.get("outfits", [])
+        for v in VIEWS if v in wanted_views(o)
+    }
+    if not dry_run:
+        for stale in outdir.glob("turn-*.txt"):
+            if stale.name not in wanted_files:
+                stale.unlink()
+                print(f"    removed stale prompt: {stale.name}")
+
     n = 0
     sizes = []
     reported = set()

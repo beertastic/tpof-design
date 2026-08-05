@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 09 — THE POUCH]
 Output file: crystal.png
 Aspect ratio: 1:1  (square)
-Prompt version: 6ddabd28 · repo commit 52f5e8c 2026-08-05 13:11
+Prompt version: 6ddabd28 · repo commit 3fb8044 2026-08-05 13:22
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 52f5e8c, prompt 6ddabd28.
+    Working from commit 3fb8044, prompt 6ddabd28.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

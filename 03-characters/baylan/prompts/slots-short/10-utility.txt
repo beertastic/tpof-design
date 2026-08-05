@@ -1,7 +1,7 @@
 [BAYLAN — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 5ef1eb89 (short) · repo commit 52f5e8c 2026-08-05 13:11
+Prompt version: 5ef1eb89 (short) · repo commit 3fb8044 2026-08-05 13:22
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

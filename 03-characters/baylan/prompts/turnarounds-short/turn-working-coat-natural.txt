@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 5de1ff52 (short) · repo commit 52f5e8c 2026-08-05 13:11
+Prompt version: 1dcd9dd3 (short) · repo commit 3fb8044 2026-08-05 13:22
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -30,7 +30,7 @@ MUST BE TRUE OF THIS IMAGE:
 5. THE COAT HAS A HOOD AND IT IS ALWAYS DOWN — folded soft at the back of the neck, sitting over the collar and the tops of the shoulders, reading as a heap of worn cloth. NEVER up, NEVER over his head, NEVER drawn forward, and NEVER a cowl. Down it is weather gear; up it is the man he becomes in eighteen years, and this film is not that film.
 6. UNDER THE COAT HE IS IN THE FULL WORKING DRESS. NOT A SKIRT: TWO SEPARATE TORN PANELS hang from the belt over each hip, open at the centre front and back so his trousers show up the middle, upper thigh only and ragged at the hem. NO cream, NO wrap front, NO sash.
 7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
-8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the harness must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
+8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the panel must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
 9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
 10. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad through the chest and shoulders and softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
 11. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.

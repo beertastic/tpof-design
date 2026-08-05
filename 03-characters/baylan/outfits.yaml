@@ -76,7 +76,8 @@ outfits:
       Down the centre front of the top layer, a panel narrower than his
       shoulders, running from the throat to under the belt: a plain rounded area
       at the top, then five broad nested chevrons, each a V with its point low at
-      the centre, filling it to the
+      the centre, each a hand's width and touching the next so no cloth shows
+      between them, filling it to the
       waist — QUILTED rows stitched through a padded panel, doming softly between
       the seams, tonal and dark on dark, the thread a greyed-off green. The harness crosses over it. The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
@@ -154,14 +155,39 @@ outfits:
           FRONT over chest and belly, with a stitched edge bounding it at each
           side. It is CLOTH, and it ends where the belt begins — the hip plates
           below are a SEPARATE metal thing and the two never merge into one.
-      - check: EXACTLY FIVE bands. Each a "V" — point LOW at centre, never a peak.
+      # REWRITTEN 2026-08-05, after the EIGHTH front came back with SEVEN bands
+      # while the coat view — same panel, same day — came back with five.
+      #
+      # THE COUNT WAS NEVER THE PROBLEM. This rule was 424 characters against the
+      # cap `fit()` settled on, and the trim dropped its last two sentences:
+      # "Each is a BROAD BAND ROUGHLY A HAND'S WIDTH" and "They TOUCH: no cloth
+      # shows between them". So WIDTH and SPACING never reached the generator at
+      # all. It was told five bands and nothing about how big a band is, filled
+      # the panel with narrow ones, and left gaps — seven of them.
+      #
+      # `working-coat` rule 1 carried "each about a hand's width, touching"
+      # inline in a rule that fit whole, and returned five on the first pass.
+      # That is the A/B, run by accident: same panel, same generator, same
+      # morning, and the only difference is whether the width survived the trim.
+      #
+      # THE COUNT IS A CONSEQUENCE OF THE WIDTH, NOT AN INSTRUCTION THAT HOLDS ON
+      # ITS OWN. Five bands a hand wide, touching, fill a chest panel exactly
+      # once. Given the width and the extent, five is the only answer available
+      # and the number stops having to be obeyed. Given the number alone, the
+      # generator satisfies it and then resolves the leftover space however it
+      # likes.
+      #
+      # So the width moved into the FIRST sentence, which `trim()` always keeps,
+      # and the negations were shouted so the ranking sees them — the detector is
+      # case-sensitive, and "not a thin stripe" in lower case was invisible to
+      # it. This is Baylan lesson 3 (put the failing clause first) applied to the
+      # clause that had never been seen to fail, because it had never arrived.
+      - check: EXACTLY FIVE bands, each a hand's width and TOUCHING. Point LOW at centre.
         text: >
-          FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V" AND NEVER AN
-          UPTURNED "^": its two ends sit HIGH at the sides of his chest and its point
-          sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER
-          an upward point, NEVER a roof or an A-shape. Each is a BROAD BAND
-          ROUGHLY A HAND'S WIDTH — not a thin stripe, not a painted line. They
-          TOUCH: no cloth shows between them, because the panel is MADE of them.
+          FIVE NESTED CHEVRONS, EXACTLY FIVE, EACH A BROAD BAND A HAND'S WIDTH AND
+          TOUCHING THE NEXT — NO cloth between them, NO thin stripes. EACH IS A
+          "V": its ends sit HIGH at the sides, its point LOW at the centre. NEVER
+          an upturned "^", NEVER a peak, NEVER a roof.
       # RAISED 2026-08-04. Three generations put the bands low on the belly with
       # a broad empty yoke above them. Nothing said how high they start, so the
       # plain area kept growing to fill the space the rule left open.

@@ -1,32 +1,43 @@
 ---
 title: "Baylan — Finish List"
 asset_id: "TRACK-BAYLAN-IMAGES"
-updated: "2026-08-04"
+updated: "2026-08-05"
 status: "open"
 ---
 
 # Baylan — Finish List
 
-> # PICK UP HERE — 2026-08-04
+> # PICK UP HERE — 2026-08-05
 >
-> **Nothing is approved and nothing is generated. Seven front turnarounds have
-> been run as tests and none was kept.** The costume moved a long way during
-> them and the current rules are the result; the pictures are not.
+> **Nothing is approved. Eight front turnarounds have been run and none was
+> kept** — but the eighth pair found the chevron bug, and the rule is fixed.
 >
 > **THE FRONT IS THE GATE.** Everything downstream — the other views, the
 > fourteen slots, the boards, the build guide and the two build sheets — matches
 > against one approved image, and there isn't one yet.
 >
-> **Two prompts, both current, both regenerated 2026-08-04:**
+> **RUN THIS, regenerated 2026-08-05 against the rewritten rule 8:**
 >
 >     03-characters/baylan/prompts/turnarounds-short/turn-working-front.txt
->     03-characters/baylan/prompts/turnarounds-short/turn-working-coat-front.txt
 >
-> Attach all three files from `prompts/attach/working/`. Fresh chat, tier High,
-> and the reply must open with `Working from commit …, prompt …`.
+> Attach these three, from `prompts/attach/working/`:
 >
-> **Run both.** They differ by one garment and the coat version is the one the
-> Production Designer liked; comparing them like for like is worth the extra pass.
+>     1-face-build-1.jpg   2-face-build-2.jpg   3-face-build-3.jpg
+>
+> Fresh chat, tier High, and the reply must open with `Working from commit …,
+> prompt …`.
+>
+> **Count the bands before anything else.** If it is five, the width hypothesis
+> below is confirmed and the finding goes to
+> `09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md` for every other
+> character. If it is not five, words have genuinely lost and the cropped
+> reference is the answer after all.
+>
+> **The coat view is NOT the gate** and does not need rerunning to clear it — it
+> is slot 13, a separate removable garment. Its 2026-08-05 image is the best of
+> the eight but it is missing the harness straps and the ammunition pouches,
+> which its own rule 8 requires, and its belt and boots do not match the working
+> dress. Fix those when slot 13 comes up, not now.
 
 ---
 
@@ -97,15 +108,54 @@ to match Shada's approved plates. He has none, so the ceiling cost him nothing b
 harm. `prompt_budget: 11000` in his `outfits.yaml`; **100% of his specification
 now reaches the generator**, up from 74%.
 
+**That 100% did not last, and nobody noticed.** Hip plates were added to the
+spec later the same day. Coverage was back to **88%** by the eighth generation
+and the tool had been reporting it in its own output the whole time. **Coverage
+is not a milestone, it is a gauge — read it on every regen.** Lesson 8 is what
+the missing 12% was doing.
+
+**8. A COUNT CANNOT HOLD A LAYOUT. THE SIZE HOLDS IT, AND THE COUNT FOLLOWS.**
+This is the one that broke the seven-generation deadlock, and it is the most
+transferable thing on this page.
+
+Rule 8 said FIVE and it said EXACTLY FIVE and it led with it, and the trim was
+dropping its last two sentences — *"Each is a BROAD BAND ROUGHLY A HAND'S
+WIDTH"* and *"They TOUCH: no cloth shows between them"*. **Width and spacing
+were never reaching the generator at all.** It was told five bands and nothing
+about how big a band is, so it drew narrow ones, left gaps, and filled the
+leftover panel — with seven.
+
+The A/B ran itself. `working-coat` rule 1 carries *"each about a hand's width,
+touching"* inline in a rule short enough to survive whole, and **it returned
+five on the first pass** — same panel, same generator, same morning. The only
+difference was whether the width survived the trim.
+
+Five bands a hand wide, touching, fill a chest panel exactly once. Given the
+width and the extent, **five is the only answer available and the number stops
+having to be obeyed.** Given the number alone, the generator satisfies it and
+then resolves the leftover space however it likes — which is not disobedience,
+it is an underspecified layout.
+
+**Corollary, and the reason this was invisible for seven passes: a rule can fail
+because of a clause that never arrived.** Six generations were spent tightening
+words that were already in the file and already being cut. **Before rewriting a
+rule that keeps failing, check the trim report and confirm the rule is actually
+reaching the generator whole.**
+
 ---
 
 ## Still open
 
-**THE CHEVRON COUNT. Seven generations, never five.** The count leads its rule,
-it is in the check block, and it has still come back six, seven or eight every
-time. **Words have lost this.** The fix is a cropped reference — see
-`03-characters/baylan/reference/concept/README.md`, which carries the brief and
-the scoping method. Do not write an eighth rule.
+**THE CHEVRON COUNT — diagnosed 2026-08-05, fix untested.** Eight generations,
+never five in the working view. **It was never a disobedience problem; it was a
+trim problem** — see lesson 8. Rule 8 has been rewritten to put the width in its
+FIRST sentence, which `trim()` always keeps, and shortened to 232 characters so
+it survives whole at the current cap of 312. Coverage 88% → 91%.
+
+**The next generation tests this and nothing else.** If it comes back five, the
+cropped reference is not needed for the count and the finding generalises. If it
+does not, fall back to
+`03-characters/baylan/reference/concept/README.md`.
 
 **The green stitching has never appeared.** It is a named plant in P5 — *"the
 colour he is known for… it was on him the whole time, as thread"* — and the
@@ -129,7 +179,7 @@ by feature.**
 
 ## Blocked on the Production Designer
 
-1. **A cropped still of the later chest piece** → `reference/concept/chevron-geometry-source.png`. Chest only: no head, no robes, no silhouette. Unblocks the two faults words cannot fix.
+1. **A cropped still of the later chest piece** → `reference/concept/chevron-geometry-source.png`. Chest only: no head, no robes, no silhouette. **Downgraded 2026-08-05** — the count now has a words-only fix awaiting test (lesson 8), so this is needed for the green stitching, and for the count only if that test fails.
 2. **A photograph of the printed gauntlets** → `reference/props/gauntlets.jpg`. The repo rule is *"for anything physically built, the reference is a photograph of the build, not a render"*, and it has already bitten twice here.
 3. **Approve a front**, either outfit.
 

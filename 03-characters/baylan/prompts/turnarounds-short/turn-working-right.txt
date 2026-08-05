@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 78dc30f4 (short) · repo commit 62bc499 2026-08-04 17:35
+Prompt version: ad194ba9 (short) · repo commit f2caf37 2026-08-04 17:54
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -30,7 +30,7 @@ MUST BE TRUE OF THIS IMAGE:
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
 7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh.
-8. FIVE NESTED CHEVRONS, AND EXACTLY FIVE. EACH BAND IS A "V" AND NEVER AN UPTURNED "^": its two ends sit HIGH at the sides of his chest and its point sits LOW at the centre, like a downward arrowhead. NEVER a peak, NEVER an upward point, NEVER a roof or an A-shape.
+8. FIVE NESTED CHEVRONS, EXACTLY FIVE, EACH A BROAD BAND A HAND'S WIDTH AND TOUCHING THE NEXT — NO cloth between them, NO thin stripes. EACH IS A "V": its ends sit HIGH at the sides, its point LOW at the centre. NEVER an upturned "^", NEVER a peak, NEVER a roof.
 9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
 10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
 11. THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED section of the garment and the five V rows are SEAMS STITCHED THROUGH IT, so the cloth DOMES softly between them. NO separate pieces laid on top, NO leather bands, NO hard edges and NO cast shadows.
@@ -73,7 +73,7 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   2. The long coat is OFF — harness, belt and holster all visible.
   3. Chevron panel NARROWER than his shoulders, plain cloth either side.
   4. Panel ENDS just below the belt — NOT a tabard, never to the thigh.
-  5. EXACTLY FIVE bands. Each a "V" — point LOW at centre, never a peak.
+  5. EXACTLY FIVE bands, each a hand's width and TOUCHING. Point LOW at centre.
   6. Chevrons START HIGH — first band at armpit height, small yoke above.
   7. QUILTED rows stitched through padding. Seams, NOT applied bands.
   8. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.

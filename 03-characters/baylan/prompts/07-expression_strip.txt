@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: 05329bdf · repo commit a9c6e05 2026-08-05 14:33
+Prompt version: 330a166d · repo commit 559b4f7 2026-08-05 14:39
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a9c6e05, prompt 05329bdf.
+    Working from commit 559b4f7, prompt 330a166d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -94,7 +94,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment, and NOTHING crosses it. Its bands run UNBROKEN from side to side, interrupted by nothing at all.
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEY ARE AS DEEP AS HIS HAND IS LONG — his hands hang loose right beside them, so lay the panel against his hand and they match.
+  18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEIR HEM IS LEVEL WITH HIS FINGERTIPS — his arms hang loose at his sides, and the bottom of each panel stops where his fingers end.
   19. THE BOTTOM OF ONE PANEL IS DIVIDED INTO TWO SEPARATE TAILS. A straight slit runs up from the hem about a QUARTER of that panel's depth, so its lower edge hangs as TWO TONGUES OF CLOTH with a clear GAP between them, one hanging slightly askew of the other. THE OTHER PANEL IS ONE UNCUT PIECE.
   20. THE HEMS ARE SCUFFED AND SOFTLY FRAYED, and that is all: NO saw-tooth edge, NO torn-out chunks, NO hanging strips, NOT shredded.
   21. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
@@ -103,7 +103,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   24. METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER reaches the knuckles. From there to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF, THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   25. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
   26. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  27. TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING TO IT. Broad through the shoulders and STRAIGHT THROUGH THE MIDDLE: NO belly, NO paunch, NOT rounded at the waist, NOT heavy. IF HE LOOKS HEAVIER THAN THE PHOTOGRAPH, THE IMAGE IS WRONG. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
+  27. TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER THAN IT — the shirt in that photograph is loose and reads heavier than he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
   28. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
   29. EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in the seams, dust where it settles, cloth thin and shiny at knees, elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean, NOTHING evenly coloured, NOTHING laundered. Repaired, resoled, previously owned.
   30. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
@@ -293,7 +293,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment, and NOTHING crosses it. Its bands run UNBROKEN from side to side, interrupted by nothing at all.
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEY ARE AS DEEP AS HIS HAND IS LONG — his hands hang loose right beside them, so lay the panel against his hand and they match.
+  18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEIR HEM IS LEVEL WITH HIS FINGERTIPS — his arms hang loose at his sides, and the bottom of each panel stops where his fingers end.
   19. THE BOTTOM OF ONE PANEL IS DIVIDED INTO TWO SEPARATE TAILS. A straight slit runs up from the hem about a QUARTER of that panel's depth, so its lower edge hangs as TWO TONGUES OF CLOTH with a clear GAP between them, one hanging slightly askew of the other. THE OTHER PANEL IS ONE UNCUT PIECE.
   20. THE HEMS ARE SCUFFED AND SOFTLY FRAYED, and that is all: NO saw-tooth edge, NO torn-out chunks, NO hanging strips, NOT shredded.
   21. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
@@ -302,7 +302,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   24. METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER reaches the knuckles. From there to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF, THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   25. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
   26. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  27. TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING TO IT. Broad through the shoulders and STRAIGHT THROUGH THE MIDDLE: NO belly, NO paunch, NOT rounded at the waist, NOT heavy. IF HE LOOKS HEAVIER THAN THE PHOTOGRAPH, THE IMAGE IS WRONG. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
+  27. TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER THAN IT — the shirt in that photograph is loose and reads heavier than he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
   28. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
   29. EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in the seams, dust where it settles, cloth thin and shiny at knees, elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean, NOTHING evenly coloured, NOTHING laundered. Repaired, resoled, previously owned.
   30. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.

@@ -85,15 +85,17 @@ outfits:
       harness of two shoulder straps, with ammunition pouches and field tools
       carried on the waist belt —
       no trophies, no personal marks, no decoration of any kind. At his waist a
-      wide, heavy salvaged belt with a plain buckle, and hanging from it on his
+      wide, heavy salvaged belt that FASTENS AT THE BACK — from the front an
+      unbroken band of worn leather with no buckle or fitting on it — and hanging
+      from it on his
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm, and
       overlapping salvaged plates hung from the belt at the hips. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
-      a narrow strip of plain cloth each side, from the collar to below the
-      belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below
+      a narrow strip of plain cloth each side, from the collar down to clear of
+      the belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below
       that, THREE TO FIVE broad chevron bands, each a V with its point low at
       the centre, filling the panel to its lower edge. The bands are SEPARATE
       PANELS LAID ON and overlapping like layered plates, each with a raised
@@ -190,13 +192,25 @@ outfits:
       # belt, however, is a VISIBLE OBJECT IN THE SAME FRAME, so the relationship
       # is now stated structurally: the belt crosses OVER the panel. No unit to
       # convert and nothing to resolve.
-      - check: Panel runs BEHIND the belt and ends below it. Never above it.
+      # SETTLED 2026-08-05 — THE PANEL ENDS ABOVE THE BELT, and this rule now
+      # describes the twelfth front rather than arguing with it.
+      #
+      # It had spent three revisions insisting the panel run BEHIND the belt and
+      # finish below it, and the generator kept ending it higher. The twelfth
+      # came back with the last chevron well clear of the belt and a band of
+      # plain cloth between — and the Production Designer approved that panel as
+      # it stood.
+      #
+      # So the rule was wrong, not the picture. Third time today: rule 9's yoke,
+      # rule 11's construction, and now this. All three were us describing what
+      # we expected rather than what the garment does.
+      - check: Panel ends ABOVE the belt, clear of it. NOT a tabard.
         text: >
-          THE CHEVRON PANEL IS PART OF THE GARMENT AND THE BELT CROSSES OVER IT.
-          Its lower edge runs BEHIND the belt and finishes a little below —
-          NEVER above it, and NEVER with plain cloth between the last chevron and
-          the buckle. Only ONE band shows below the belt, NOT a second run.
-          NOT a tabard, NEVER to the thigh.
+          THE CHEVRON PANEL IS PART OF THE GARMENT AND IT ENDS ABOVE THE BELT.
+          The last chevron finishes clear of it, with a band of plain cloth
+          between the panel and the belt — that gap is correct and deliberate.
+          The panel NEVER runs under the belt, NEVER continues below it, and is
+          NOT a tabard and NEVER reaches the thigh.
       # REWRITTEN 2026-08-05, after the EIGHTH front came back with SEVEN bands
       # while the coat view — same panel, same day — came back with five.
       #
@@ -387,17 +401,30 @@ outfits:
       # The panels being APPLIED rather than quilted makes this easier, not
       # harder: the green is now the thread SEWING THE PANELS DOWN, which is
       # exactly what P5 asks of it — "the thread holding the chevron panels".
-      - check: GREEN THREAD along the piped edges — subtle, but it must be THERE.
-        text: >
-          THE PANELS ARE SEWN DOWN WITH DARK GREYED-OFF GREEN THREAD AND THE
-          GREEN MUST BE THERE — coarse and hand-worked, running along every piped
-          edge. VERY SUBTLE: findable when looked for, never announcing itself.
-          NOT bright, NOT a stripe, NOT decoration.
-      - >
-        THE GREEN IS WORN OUT IN PLACES, AND THAT IS THE POINT. Some edges still
-        carry it, some have faded to grey, some were resewn in plain dark thread
-        and never matched. NEVER uniform and NEVER fresh — it mattered once and
-        has been let go. NOTHING else on him is green.
+      #
+      # WITHDRAWN FROM must_show 2026-08-05, BY THE PRODUCTION DESIGNER: "stop
+      # chasing green threading."
+      #
+      # TWELVE GENERATIONS, NEVER ONCE ANY GREEN. Measured on the twelfth: mean
+      # green bias 1.21, peak 2.5, against 15-40 for a real green thread. Not
+      # faint — absent.
+      #
+      # AND THE GEOMETRY REFERENCE CANNOT FIX IT. That was an error in the scope
+      # line as first written, which claimed the image was authoritative for "the
+      # GREEN OF THE THREAD". It is a photograph of a BLACK garment and there is
+      # no green anywhere in it. There was nothing in the picture to teach.
+      #
+      # THE HONEST READING IS THAT IT IS NOT A FULL-LENGTH-PLATE DETAIL. The
+      # Production Designer's own description is "very subtle, and I had to be
+      # told myself" — on a near-black costume at full figure a faded thread
+      # would be invisible in a real photograph too. Eleven of the twelve
+      # failures were the plate being asked for something a plate cannot hold.
+      #
+      # IT IS NOT DROPPED FROM THE DESIGN. It stays in `description:` above,
+      # which is what the build is made from, it stays in Planted-Elements P5,
+      # and it is specified on the two slots where the camera is close enough for
+      # it to exist — 05-detail_portrait and 12-materials, in Prompts.md. That is
+      # where to check it.
       # TIGHTENED 2026-08-05. The tenth front grew the undertunic a HIGH STANDING
       # MANDARIN COLLAR, which is a great deal more than "a dark edge". The rule
       # said what the undertunic shows and never said what it must NOT become, so
@@ -440,10 +467,30 @@ outfits:
       # that instead — padding across the chest and shoulders, at no cost in
       # ornament or rank.
       - >
-        A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick,
-        a plain heavy buckle with no decoration on it, darkened and cracked from
-        years of use. It is what the holster hangs from. If it reads as
-        decorative or as armour, it is wrong.
+      # THE BUCKLE MOVED TO THE BACK, 2026-08-05, by the Production Designer.
+      #
+      # The twelfth front returned a BRIGHT POLISHED CHROME buckle sitting dead
+      # centre — the brightest object on a man whose entire design is not being
+      # looked at, and the same failure the gauntlets had when they came back
+      # chrome. The finish clause sat third in this rule, exactly where the
+      # gauntlet finish clause was when it kept losing.
+      #
+      # MOVING IT IS BETTER THAN SHOUTING AT IT. A buckle at the back cannot be
+      # bright in a front view because it is not in the frame, and the front
+      # becomes an unbroken band of worn leather — which is plainer than anything
+      # a rule could have negotiated. It removes the object rather than
+      # describing it away, and it is one less thing for every future generation
+      # to get wrong.
+      #
+      # IT IS STILL VISIBLE IN THE BACK TURNAROUND, where the rule below governs
+      # it, and the holster on his right hip is unaffected.
+      - check: Belt front is UNBROKEN LEATHER — no buckle, it fastens at the back.
+        text: >
+          A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather,
+          thick, darkened and cracked from years of use. IT FASTENS AT THE BACK,
+          so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO
+          clasp, NO fitting and NOTHING bright anywhere on it. It is what the
+          holster hangs from. If it reads as decorative or as armour, it is wrong.
       # ADDED 2026-08-04 by the Production Designer. A fauld — overlapping metal
       # plates at the hips, hung from the belt.
       #
@@ -629,6 +676,13 @@ outfits:
     #
     # THIRD-PARTY REFERENCE. Same status as Jasu's a180.jpg — it is a
     # reproduction of the later costume, not our build and not our photograph.
+    #
+    # CORRECTED 2026-08-05: this scope line originally claimed the image was
+    # authoritative for "the GREEN OF THE THREAD" as well as the geometry. IT IS
+    # NOT. The photograph is of a BLACK garment and there is no green anywhere in
+    # it — there was nothing in the picture to teach, and saying otherwise
+    # promised a fix the attachment could never deliver. The green is now
+    # specified on 05-detail_portrait and 12-materials instead.
     references:
       - path: reference/concept/chevron-geometry-source.png
         what: >-
@@ -639,7 +693,8 @@ outfits:
           SEPARATE PANELS LAID ON and overlapping, each with a raised piped edge,
           suede against matte so they read by SHEEN and not by colour.
           NOTHING ELSE COMES FROM THIS IMAGE — not the collar, not the sleeves,
-          not the fit, not the cleanliness. It is a shop-new reproduction on a
+          not the fit, not the cleanliness, AND NOT THE COLOUR OF THE STITCHING.
+          It is a shop-new reproduction on a
           mannequin and HIS IS EIGHTEEN YEARS OLD, filthy, repaired and slept in.
           THE WRITTEN RULES WIN ON EVERYTHING EXCEPT THE PANEL'S GEOMETRY.
     slot_references:

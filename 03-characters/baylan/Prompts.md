@@ -357,6 +357,14 @@ is neutral and absolutely unreadable — he has spent two decades giving nothing
 away. But the eyes are older than the rest of him. Practical make-up realism,
 every pore and broken capillary present. No costume detail competing.
 
+**One exception to "no costume detail": the top edge of the chevron panel enters
+the bottom of frame**, and at this distance the stitching along its piped edge is
+readable — **coarse hand-worked thread in a dark greyed-off green, faded, worn
+through in places, some of it resewn in plain dark thread and never matched.**
+It is the only colour anywhere on him and it must be **findable without being
+noticed**. Nothing else in the frame is green, and the panel must not compete
+with the face for attention.
+
 ## 6. `vision_dune.png` — the dune
 **Wide banner, 21:9.**
 
@@ -464,6 +472,24 @@ soft old pouch leather at one corner. Palette held to charcoal `#2B2A26`, ash br
 olive `#4F563F`, weathered black `#2E2F33`, natural bone `#BDAF95`. Matte
 throughout, nothing reflective. The undertunic panel must be visibly a finer,
 older cloth than everything surrounding it.
+
+**THE GREEN THREAD IS ON THIS BOARD AND THIS IS WHERE IT LIVES.** Include a
+close detail of a chevron panel edge — suede laid on canvas, the raised piped
+edge — **sewn down in coarse hand-worked thread of a dark greyed-off green**.
+This is the only place on the whole pack where that colour appears, and the
+camera is finally close enough for it to. It must be **findable but never
+bright**: worn through in places, some stitches faded to grey, some stretches
+resewn in plain dark thread and never matched. **Nothing else on this board is
+green.**
+
+> **Why it is specified here and not in the turnarounds.** Twelve front
+> turnarounds were run and not one produced any green at all — measured, mean
+> colour bias 1.21 against 15–40 for a real green thread. It is not a
+> full-length-plate detail: on a near-black costume at full figure a faded
+> thread is invisible in a real photograph too, so the plates were being asked
+> for something a plate cannot hold. It is a **plant** (`Planted-Elements` P5),
+> so it still has to be right — it is checked here and on `05-detail_portrait`,
+> and it is built from `outfits.yaml`'s `description:`.
 
 ---
 

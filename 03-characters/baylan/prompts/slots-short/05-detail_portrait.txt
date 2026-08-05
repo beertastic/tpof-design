@@ -1,7 +1,7 @@
 [BAYLAN — THE FACE]
 Output file: detail_portrait.png
 Aspect ratio: 3:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 0b8b4683 (short) · repo commit 18fb623 2026-08-05 11:21
+Prompt version: c2aed98b (short) · repo commit e9ab7da 2026-08-05 11:34
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -23,5 +23,13 @@ unshaped beard, hair cropped short and unevenly by his own hand. His expression
 is neutral and absolutely unreadable — he has spent two decades giving nothing
 away. But the eyes are older than the rest of him. Practical make-up realism,
 every pore and broken capillary present. No costume detail competing.
+
+One exception to "no costume detail": the top edge of the chevron panel enters
+the bottom of frame, and at this distance the stitching along its piped edge is
+readable — coarse hand-worked thread in a dark greyed-off green, faded, worn
+through in places, some of it resewn in plain dark thread and never matched.
+It is the only colour anywhere on him and it must be findable without being
+noticed. Nothing else in the frame is green, and the panel must not compete
+with the face for attention.
 
 LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

@@ -50,7 +50,7 @@ handedness: right
 prompt_budget: 12000
 
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
-height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
+height: 198 cm (6 ft 6 in) — very tall and broad through the shoulders, straight through the middle. He fills a doorway and has to stoop under branches
 
 # A two-sentence version of do_not_retrieve, for the short prompts. The long
 # one does not survive being trimmed — it cuts mid-list and loses the clause
@@ -119,8 +119,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, hanging twice as deep as the belt above them is
-      wide, one of them split at the bottom into two hanging tails. Heavy boots,
+      centre front and back, as deep as his hand is long, one of them split at
+      the bottom into two hanging tails. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -653,8 +653,8 @@ outfits:
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEY HANG TWICE AS DEEP AS THE BELT ABOVE THEM IS WIDE — put
-          the belt's width against them twice over and that is their length.
+          doubled. THEY ARE AS DEEP AS HIS HAND IS LONG — his hands hang loose
+          right beside them, so lay the panel against his hand and they match.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -798,11 +798,11 @@ outfits:
       # points at it instead of piling up adjectives.
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
-          BUILD: MATCH THE FULL-BODY PHOTOGRAPH AND DO NOT ADD WEIGHT TO IT. Big
-          and solid through the CHEST AND SHOULDERS, and only a little softened
-          at the waist — NO belly, NO paunch, NEVER rounded through the middle.
-          NOT overweight, NOT obese, NOT a caricature. HE IS 198 cm AND THE
-          HEIGHT MUST READ: long in the leg and long in the arm.
+          TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING TO IT. Broad
+          through the shoulders and STRAIGHT THROUGH THE MIDDLE: NO belly, NO
+          paunch, NOT rounded at the waist, NOT heavy. IF HE LOOKS HEAVIER THAN
+          THE PHOTOGRAPH, THE IMAGE IS WRONG. HE IS 198 cm AND THE HEIGHT MUST
+          READ: long in the leg and long in the arm.
       - >
         LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight —
         no fighter's stance, no coiled readiness, no combat posture.
@@ -1080,8 +1080,8 @@ outfits:
         interesting — the absence IS the design.
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
-          BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad
-          through the chest and shoulders and softened at the waist. NOT obese,
+          TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING. Broad
+          through the shoulders, STRAIGHT through the middle, NO belly. NOT obese,
           NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE
           HEIGHT MUST READ. The coat must NOT give him stature, authority or
           command presence — it is a big man's old coat, not a mantle.

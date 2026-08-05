@@ -575,11 +575,21 @@ outfits:
       # half. The ribs are an improvement on the spec, not a compromise: they
       # give a near-black object something to catch a highlight on, which is how
       # it stays readable against near-black cloth without being made shiny.
+      # CONSTANT HEIGHT FORCED 2026-08-05. The thirteenth front gave them an
+      # ANGLED CUFF flaring over the wrist — a good-looking object, and not the
+      # one that has been printed. The build has FLAT LEVEL EDGES and the same
+      # height the whole way round, so the words move to the build.
+      #
+      # It is also the thing every generation has quietly varied: scalloped one
+      # run, flared the next, straight the one before. Nothing in the rule said
+      # the edges were level, so the edge profile was free and the generator used
+      # the freedom. Name it and it stops moving.
       - >
         METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to
-        three-quarters up the forearm. A ONE-PIECE OPEN-BACKED CUFF that slips
-        on, with NO strap, buckle or fastening. FOUR OR FIVE HEAVY STEPPED RIBS
-        wrap the lower half.
+        three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO strap
+        or fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND
+        LEVEL. NEVER angled, flared, scalloped or pointed over the hand. FOUR OR
+        FIVE HEAVY STEPPED RIBS round the lower half.
       # THE SCREEN POSITION MOVED TO THE OUTER FOREARM, 2026-08-05, to match the
       # build. It was "the inside of each wrist".
       #
@@ -754,6 +764,8 @@ outfits:
         - path: reference/props/gauntlets-build-2026-08-05.jpg
           what: >-
             THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SCREEN.
+            NOTE THE EDGES: the cuff is the SAME HEIGHT ALL THE WAY ROUND, both
+            edges cut straight and level, never angled or flared.
             The printed pair: a one-piece open-backed cuff, four or five heavy
             stepped ribs round the lower half, the panel high on the OUTER
             FOREARM.

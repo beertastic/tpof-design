@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 9d54611b (short) · repo commit f9e7aa3 2026-08-05 11:47
+Prompt version: 52553ee7 (short) · repo commit b30bd8a 2026-08-05 12:04
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -26,7 +26,7 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) �
 MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. An audience must watch him for half the film without suspecting. If the image announces him as a Jedi, it has failed.
 2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Every other mercenary in this crew is marked; he is not. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
-3. BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The holster is belt-mounted on his right hip, grip up and angled slightly forward for a right-hand draw. The weapon in it is UGLY and HEAVILY MODIFIED — a scratch-built, unbalanced-looking pistol assembled from mismatched parts, not a clean factory sidearm.
+3. BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The holster is belt-mounted on his right hip, grip up and angled slightly forward for a right-hand draw.
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS A BROAD PLASTRON ACROSS HIS CHEST, running almost from armhole to armhole with only a NARROW STRIP of plain cloth left at each side. It stops short of the shoulder seams and NEVER runs onto the arms. NOT a narrow strip down the centre, and NOT a flat printed graphic.
@@ -46,7 +46,7 @@ MUST BE TRUE OF THIS IMAGE:
 20. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi.
 21. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
-23. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm. A ONE-PIECE OPEN-BACKED CUFF that slips on, with NO strap, buckle or fastening. FOUR OR FIVE HEAVY STEPPED RIBS wrap the lower half.
+23. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO strap or fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. NEVER angled, flared, scalloped or pointed over the hand. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
 24. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD — the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs. NOTHING about them is remarkable.
 25. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
 26. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened — broad through the chest and shoulders, softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.

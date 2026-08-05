@@ -542,35 +542,6 @@ Vary only setting, light, framing and action:
 5. A wide frame where the environment dominates and the figure is small.
 6. A detail: hands, a weapon, a fitting, a worn edge.
 
-## 15. `gauntlets.png` — the forearm kit
-
-**Wide banner, 3:1.**
-
-> **Added 2026-08-05, and APPENDED rather than inserted.** It belongs with the
-> props at 8–10, but putting it there would renumber everything after it — which
-> is exactly the failure that left the continuity notes above stale for weeks,
-> and would break the staged folders `08-blaster/`, `10-utility/` and
-> `11-maintenance/`. **Position in this list is an address, not a ranking.**
-
-Product-reference layout on a neutral surface, evenly lit: **the matched pair of
-metal gauntlets, off the arms**, one shown from the outer face and one turned to
-show the open back.
-
-They are a **one-piece open-backed cuff** that slips on — no strap, no buckle, no
-fastening of any kind — running from the wrist to about three-quarters up the
-forearm. **Four or five heavy stepped ribs** wrap the lower half; the upper half
-is plain. A **small dark screen and a few worn buttons** sit on the outer forearm
-above the ribs.
-
-**They are tools, not armour, and they are the oldest-looking thing he owns.**
-Filthy and dead dull — no shine, no chrome, no polish, nothing mirror-like.
-Scratched, dented and greasy, the finish worn off at every edge, darkened almost
-to the colour of his cloth. **The screen is dark and dead: never white, never
-pale, never lit.** A freight worker's kit for cargo manifests and lifting gear,
-scuffed and half dead. Nobody in frame finds them remarkable.
-
-No ornament, no insignia, no maker's mark, no engraving.
-
 CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
 the face must be identical in every panel — same garment, same fastenings, same
 metal in the same places on the same sides. Panels that disagree with each other
@@ -581,6 +552,43 @@ Every panel obeys the costume rules above. The rules do not relax because a
 panel is small.
 
 ---
+
+## 15. `gauntlets.png` — the forearm kit
+
+**Wide banner, 3:1.**
+
+Product-reference layout on a plain neutral surface, evenly lit and sharp
+throughout: **the matched pair of metal gauntlets, off the arms**, standing
+upright side by side. The left one presents its **outer face**; the right one is
+turned to show the **open back**. Both fully in frame with clear space around
+them. Nothing else on the surface — no hands, no arms, no props, no scale card.
+
+**THE CUFF IS THE SAME HEIGHT ALL THE WAY ROUND.** Both edges are **cut straight
+and level** — a plain straight tube standing square on the surface, sitting flat
+without rocking. **NEVER angled, NEVER flared, NEVER scalloped, NEVER pointed
+over the hand, and never taller on one side than the other.** This is the single
+most important thing about their shape and it has drifted in every generation so
+far.
+
+They are a **one-piece open-backed cuff** that slips on — no strap, no buckle, no
+hinge and no fastening of any kind — running from the wrist to about
+three-quarters up the forearm. The back is **open down its whole length**, a
+clean gap you can see through, not a seam and not a laced closure.
+
+**Four or five heavy stepped ribs** wrap the lower half, standing proud of the
+surface and casting real shadows; the upper half is plain. A **small dark screen
+and a few worn buttons** sit on the outer forearm above the ribs, recessed into
+the shell.
+
+**They are tools, not armour, and they are the oldest-looking thing he owns.**
+Filthy and dead dull — no shine, no chrome, no polish, nothing mirror-like.
+Scratched, dented and greasy, the finish worn off at every edge, darkened almost
+to the colour of his cloth. **The screen is dark and dead: never white, never
+pale, never lit.** A freight worker's kit for cargo manifests and lifting gear,
+scuffed and half dead. Nobody in frame finds them remarkable.
+
+No ornament, no insignia, no maker's mark, no engraving.
+
 
 ## Output checklist
 
@@ -633,6 +641,11 @@ python tools/board-generator/generate.py baylan
 > they are what a reader checks continuity against. The staged attachment
 > folders (`08-blaster/`, `10-utility/`, `11-maintenance/`) are generated from
 > `outfits.yaml` and were never affected.
+>
+> **Slot 15 was APPENDED for the same reason** when it was added later that
+> day. It belongs with the props at 8–10, but inserting it there would have
+> renumbered everything after it and broken those staged folders. **Position
+> in this list is an address, not a ranking.**
 
 ## Scene plates — beyond the board set
 

@@ -1,10 +1,10 @@
 [KRELLIS — TURNAROUND — ARENA MEDIC'S WORKING GEAR — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 5a6b6965 · repo commit 2d12f5b 2026-08-05 14:57
+Prompt version: 99f72e1b · repo commit 74d6353 2026-08-05 14:57
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 2d12f5b, prompt 5a6b6965.
+    Working from commit 74d6353, prompt 99f72e1b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -75,7 +75,7 @@ backdrop gives the eye nothing to measure against, so it has to be in the body.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
-  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body on a strap over his LEFT shoulder so it hangs at his RIGHT hip, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
   3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
   4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
   5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
@@ -223,7 +223,7 @@ The wreck of a real working kit. He was the arena's medic with sanctioned access
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
-  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body on a strap over his LEFT shoulder so it hangs at his RIGHT hip, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
   3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
   4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
   5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.

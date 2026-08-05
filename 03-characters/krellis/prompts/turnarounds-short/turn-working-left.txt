@@ -1,7 +1,7 @@
 [KRELLIS — ARENA MEDIC'S WORKING GEAR — LEFT]
 Output file: turn-working-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 524a7dda (short) · repo commit 2d12f5b 2026-08-05 14:57
+Prompt version: 90cf61ef (short) · repo commit 74d6353 2026-08-05 14:57
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -17,7 +17,7 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 180 cm (5 ft 11 in) 
 
 MUST BE TRUE OF THIS IMAGE:
 1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
-2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body on a strap over his LEFT shoulder so it hangs at his RIGHT hip, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
 3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
 4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
 5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.

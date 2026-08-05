@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: b26c6cdd (short) · repo commit fea35a9 2026-08-05 12:25
+Prompt version: b26c6cdd (short) · repo commit 784c533 2026-08-05 12:25
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

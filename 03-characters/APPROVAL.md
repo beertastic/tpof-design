@@ -41,13 +41,27 @@ never gets used. `regen` runs all three generators, commits and pushes.
 ## What that does
 
 **Every other view now opens with a match instruction** naming the file to
-attach, and ending:
+attach. In the short prompts it is the first reference in the attachment block:
 
-> Where this text and the approved front turnaround disagree, **THE PHOTOGRAPH WINS.**
+>     COSTUME (match exactly): <url of the approved plate>
 
-That last line matters. A long prompt will always contain something the approved
-image contradicts — a phrase that reads differently, a detail described loosely.
-Without the precedence rule the generator has to guess.
+and in the long prompts:
+
+>     FETCH AND MATCH — the approved costume reference: <url>
+
+**Precedence comes from the scope line, not from a separate sentence.** Every
+prompt already says *"Each photograph is an authority WITHIN ITS OWN SCOPE and
+nowhere else"* (long prompts: *"THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT, EACH
+WITHIN ITS OWN SCOPE"*), and the approved plate's scope is **the whole costume**.
+So where the text and the photograph disagree about the costume, the photograph
+wins — because that is what its label says it is authoritative for.
+
+> **Corrected 2026-08-05.** This section used to quote a sentence — *"Where this
+> text and the approved front turnaround disagree, THE PHOTOGRAPH WINS"* — and
+> claim every other view ended with it. **No generator has ever emitted that
+> string**, for any character, including Shada who has been approved since
+> 2026-07-31. The mechanism was real and the quotation was not. Anyone editing
+> the generators to "restore" that line should know it was never there.
 
 **The approved view itself does not get the instruction**, since it cannot match
 itself.

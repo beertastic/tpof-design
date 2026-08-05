@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 01 — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: d204b3eb · repo commit fea35a9 2026-08-05 12:25
+Prompt version: d204b3eb · repo commit 784c533 2026-08-05 12:25
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit fea35a9, prompt d204b3eb.
+    Working from commit 784c533, prompt d204b3eb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

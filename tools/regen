@@ -61,7 +61,21 @@ for gen in short turnarounds split; do
 done
 
 WARNINGS=$(echo "$WARNINGS" | sed 's/^[[:space:]]*//' | sort -u | grep -v '^$' || true)
-BLOCKING=$(echo "$WARNINGS" | grep -E 'handedness|must_show' || true)
+# Match the two warnings that actually mean "not ready", not every warning that
+# happens to mention them.
+#
+# FIXED 2026-08-05. This was `grep -E 'handedness|must_show'`, a substring test
+# standing in for a condition. Baylan's approval run tripped it on a warning
+# reading "description: puts the coat at the knee but must_show says the back" —
+# a genuine contradiction inside working-coat, and nothing to do with either
+# field being absent. The script then printed STOP, said "Handedness and
+# must_show are not optional", and sent the operator to look for a missing field
+# that was present and correct all along. The prompts had already generated,
+# committed and pushed successfully.
+#
+# The real warnings are emitted by turnarounds.py and say "no `handedness:`
+# declared" and "no `must_show:`". Anchor on those.
+BLOCKING=$(echo "$WARNINGS" | grep -E 'no `handedness:`|no `must_show:`' || true)
 if [ -n "$WARNINGS" ]; then
     echo
     b "Warnings"

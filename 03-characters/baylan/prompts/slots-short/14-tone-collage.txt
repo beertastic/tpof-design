@@ -1,7 +1,7 @@
 [BAYLAN — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
-Prompt version: 6e20e136 (short) · repo commit 5bcfb5c 2026-08-05 13:37
+Prompt version: 6e20e136 (short) · repo commit 7caff0b 2026-08-05 13:48
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

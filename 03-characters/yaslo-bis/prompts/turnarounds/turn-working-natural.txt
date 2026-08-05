@@ -1,10 +1,10 @@
 [YASLO BIS — TURNAROUND — WORKING KIT — NATURAL POSE]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: c6e74efc · repo commit 1fc718a 2026-08-05 14:57
+Prompt version: 8df3b195 · repo commit c84278a 2026-08-05 15:46
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 1fc718a, prompt c6e74efc.
+    Working from commit c84278a, prompt 8df3b195.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -56,6 +56,10 @@ nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
 a handsome or striking one, and do not drift toward any actor you have seen
 play a similar part.
 
+
+USE THE ATTACHED PHOTOGRAPH — THE HEAD AND THE PLATE — not the drawing style. Bald, full long beard to the chest, a metal plate over the LEFT side of the face covering brow, eye socket and cheekbone with cables looping back around the ear, and a LIT RED LENS where the left eye was. The right side is untouched human skin. Heavy layered pauldrons and a segmented chest plate. IT IS A CONCEPT SKETCH — part line drawing, part composited photograph. Take the DESIGN and nothing about the rendering: this is a PHOTOGRAPH of a real man in a real costume, not artwork.. If not attached, fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/yaslo-bis/reference/concept/yaslo-concept-2026-08-05.jpg
+
 THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
 
 Build it from the description below, which is the only source. Read the
@@ -76,8 +80,8 @@ backdrop gives the eye nothing to measure against, so it has to be in the body.
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
   2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
-  3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
-  4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+  3. HIS LEFT EYE IS A RED LENS AND IT IS LIT — a steady dull red, never bright enough to throw light onto his face and NEVER the subject of the frame. THE PLATE AROUND IT IS OLD: matte, dulled, worn smooth at the edges where he touches it without thinking. Nothing else on him is lit, nothing whirs, nothing reads as new.
+  4. HEAVY PLATE: layered shoulder pauldrons, a segmented chest and torso, articulated arms to gauntleted fists. HE MUST NOT MATCH REYA FENN, who is also armoured — HERS IS SEALED, ANONYMOUS AND CLOSED; HIS IS OPEN-FACED, PERSONAL AND MARKED. Two members dressed by the same person is the one thing this faction refuses.
   5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
   6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
   7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.
@@ -194,14 +198,14 @@ NEEDS:
 === THIS COSTUME ===
 Working kit — Sabacc in Sc.10, the pincer group in Sc.23, the finale in Sc.25. His only costume
 
-Chosen, fitted and maintained, like everyone else in this crew, and matching none of them. His taste runs to SOFT over hard: layered coats and wraps rather than plate, a long over-jacket he can sit down in, good boots, a belt that carries what he needs and nothing more. He is the least armoured mercenary in the crew and the most comfortable — the man who is enjoying himself in the Sabacc scene reads that way before he speaks. CYBERNETICS OVER ONE SIDE OF THE FACE: a plate along the cheekbone and temple, a replaced ear, a fine seam running back into the hairline. Old, matte, worn smooth at the edges by his own hand. The other side of his face is untouched. Everything is well kept. Repairs done properly, hardware working, cloth brushed. He is not fastidious; he simply has money and takes care of his things. A personal mark somewhere small and unheroic — a kept object, a good buckle, something bought rather than won.
+Chosen, fitted and maintained, like everyone else in this crew, and matching none of them. HEAVY PLATE: layered shoulder pauldrons, a segmented chest and torso plate, articulated arm plating down to gauntleted fists, and a device mounted on his right forearm. Small triangular marks on both pauldrons. BALD, with a FULL LONG BEARD reaching his chest — the beard carries most of the warmth this character needs. A METAL PLATE OVER THE LEFT SIDE OF HIS FACE, covering brow, eye socket and cheekbone and wrapping to the temple, with cables looping back around the ear. THE LEFT EYE IS A RED LENS AND IT IS LIT. The right side of his face is untouched human skin. Everything is well kept. Repairs done properly, hardware working, cloth brushed. He is not fastidious; he simply has money and takes care of his things. A personal mark somewhere small and unheroic — a kept object, a good buckle, something bought rather than won.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
   2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
-  3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
-  4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+  3. HIS LEFT EYE IS A RED LENS AND IT IS LIT — a steady dull red, never bright enough to throw light onto his face and NEVER the subject of the frame. THE PLATE AROUND IT IS OLD: matte, dulled, worn smooth at the edges where he touches it without thinking. Nothing else on him is lit, nothing whirs, nothing reads as new.
+  4. HEAVY PLATE: layered shoulder pauldrons, a segmented chest and torso, articulated arms to gauntleted fists. HE MUST NOT MATCH REYA FENN, who is also armoured — HERS IS SEALED, ANONYMOUS AND CLOSED; HIS IS OPEN-FACED, PERSONAL AND MARKED. Two members dressed by the same person is the one thing this faction refuses.
   5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
   6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
   7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.

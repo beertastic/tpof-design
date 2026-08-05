@@ -29,27 +29,64 @@ handedness: right
 # PROVISIONAL. Nothing states it.
 height: 183 cm (6 ft 0 in) — loose-limbed and easy, a man who sprawls in a chair
 
+# ── OWNERSHIP CHANGED 2026-08-05: THIS COSTUME IS A 3D PRINT BUILD ──────────
+#
+# The Production Designer: Reya and Yaslo Bis "are both going to be fully 3D
+# printed, so while some docs will be cool for reference, we don't need to prep
+# a design doc in a hurry as that's the 3D team."
+#
+# WHAT THAT CHANGES: this file is now REFERENCE, not a build specification. The
+# 3D team owns the object. Do not spend generations refining the written rules
+# the way Baylan's were refined — the words no longer decide what gets made.
+#
+# WHAT IT DOES NOT CHANGE: the images are still wanted, and are now MORE useful
+# rather than less. A generated front is a visual target the 3D team can work
+# toward, and every character front is also poster source — see
+# 09-prompt-library/Key-Art-Poster-Prompt.md.
+#
+# SO THE ORDER OF WORK INVERTS. Normally the spec is refined until the plate is
+# right and the plate then guides the build. Here the plate is the deliverable
+# and the spec only has to be good enough to produce one. Generate it, look at
+# it, hand it over.
+#
+# ANY OPEN DECISION IN THIS FILE IS NOW A CONVERSATION WITH THE 3D TEAM rather
+# than a ruling to be recorded here.
+
+# THE CONCEPT IS ATTACHED TO EVERY VIEW. It arrived after the written rules
+# and overturned two of them, so it outranks them — see reference/concept/.
 outfits:
   - id: working
     name: Working kit
     scenes: "Sabacc in Sc.10, the pincer group in Sc.23, the finale in Sc.25. His only costume"
     description: >
       Chosen, fitted and maintained, like everyone else in this crew, and
-      matching none of them. His taste runs to SOFT over hard: layered coats and
-      wraps rather than plate, a long over-jacket he can sit down in, good boots,
-      a belt that carries what he needs and nothing more.
-      He is the least armoured mercenary in the crew and the most comfortable —
-      the man who is enjoying himself in the Sabacc scene reads that way before
-      he speaks.
-      CYBERNETICS OVER ONE SIDE OF THE FACE: a plate along the cheekbone and
-      temple, a replaced ear, a fine seam running back into the hairline. Old,
-      matte, worn smooth at the edges by his own hand. The other side of his face
-      is untouched.
+      matching none of them. HEAVY PLATE: layered shoulder pauldrons, a segmented
+      chest and torso plate, articulated arm plating down to gauntleted fists,
+      and a device mounted on his right forearm. Small triangular marks on both
+      pauldrons.
+      BALD, with a FULL LONG BEARD reaching his chest — the beard carries most of
+      the warmth this character needs.
+      A METAL PLATE OVER THE LEFT SIDE OF HIS FACE, covering brow, eye socket and
+      cheekbone and wrapping to the temple, with cables looping back around the
+      ear. THE LEFT EYE IS A RED LENS AND IT IS LIT. The right side of his face
+      is untouched human skin.
       Everything is well kept. Repairs done properly, hardware working, cloth
       brushed. He is not fastidious; he simply has money and takes care of his
       things.
       A personal mark somewhere small and unheroic — a kept object, a good buckle,
       something bought rather than won.
+    references:
+      - path: reference/concept/yaslo-concept-2026-08-05.jpg
+        what: >-
+          THE HEAD AND THE PLATE — not the drawing style.
+          Bald, full long beard to the chest, a metal plate over the LEFT side of
+          the face covering brow, eye socket and cheekbone with cables looping
+          back around the ear, and a LIT RED LENS where the left eye was. The
+          right side is untouched human skin. Heavy layered pauldrons and a
+          segmented chest plate.
+          IT IS A CONCEPT SKETCH — part line drawing, part composited photograph.
+          Take the DESIGN and nothing about the rendering: this is a PHOTOGRAPH
+          of a real man in a real costume, not artwork.
     must_show:
       # The constraint the whole design has to survive.
       - check: THE FACEWORK MUST NOT COST HIM EXPRESSION. He is the warm one.
@@ -64,18 +101,30 @@ outfits:
           HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed,
           somebody you would want at your table. The finale gains nothing unless
           the Sabacc scene was genuinely warm first.
-      - check: CYBERNETICS OLD and MATTE — worn smooth, never new, never lit.
+      # OVERTURNED 2026-08-05 BY THE PRODUCTION DESIGNER'S OWN CONCEPT — see
+      # reference/concept/. This said "NOTHING LIT, NOTHING glowing". The concept
+      # lights the eye red, deliberately, so the rule changes and not the concept.
+      # What the rule was protecting still has to survive: the lit eye is on ONE
+      # SIDE and the other eye plays the scene.
+      - check: LEFT eye a LIT RED LENS. The plate itself old, matte, worn.
         text: >
-          THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where
-          he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING
-          that whirs or reads as new technology. They are the oldest thing on him
-          and he stopped noticing them years ago.
-      - check: SOFT, not armoured — the least plated man in the crew.
+          HIS LEFT EYE IS A RED LENS AND IT IS LIT — a steady dull red, never
+          bright enough to throw light onto his face and NEVER the subject of the
+          frame. THE PLATE AROUND IT IS OLD: matte, dulled, worn smooth at the
+          edges where he touches it without thinking. Nothing else on him is lit,
+          nothing whirs, nothing reads as new.
+      # ALSO OVERTURNED. This said "SOFT, not armoured — the least plated man in
+      # the crew", invented from the faction grammar with nothing to work from.
+      # The concept is the opposite, and hard plate is what a 3D print build is
+      # FOR. The replacement rule carries the job the old one was doing: keeping
+      # him and Reya Fenn — also armoured, also printed — from becoming a pair.
+      - check: HEAVILY PLATED, and NOT a matched pair with Reya Fenn.
         text: >
-          HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long
-          over-jacket he can sit down in, cloth rather than plate. He is the LEAST
-          ARMOURED mercenary in the crew, and his comfort is visible before he
-          opens his mouth.
+          HEAVY PLATE: layered shoulder pauldrons, a segmented chest and torso,
+          articulated arms to gauntleted fists. HE MUST NOT MATCH REYA FENN, who
+          is also armoured — HERS IS SEALED, ANONYMOUS AND CLOSED; HIS IS
+          OPEN-FACED, PERSONAL AND MARKED. Two members dressed by the same person
+          is the one thing this faction refuses.
       - check: EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
         text: >
           EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued,

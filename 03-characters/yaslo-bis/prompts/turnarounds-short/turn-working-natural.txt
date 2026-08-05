@@ -1,25 +1,28 @@
 [YASLO-BIS — WORKING KIT — NATURAL]
 Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: e8106f62 (short) · repo commit 1fc718a 2026-08-05 14:57
+Prompt version: f8fc1cf4 (short) · repo commit c84278a 2026-08-05 15:46
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
 
-NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
-A LIKENESS OF A REAL PERSON. Build the face from the written description
-alone: an ordinary, unremarkable, plausible human being who could exist,
-photographed in a fitting room. Do not resemble any actor or public figure.
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  THE HEAD AND THE PLATE — NOT THE DRAWING STYLE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/yaslo-bis/reference/concept/yaslo-concept-2026-08-05.jpg
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+  Say whether you used an attached file or a URL. If neither worked, stop.
 
 RIGHT-HANDED — sides are given from THEIR own left/right. 183 cm (6 ft 0 in) — loose-limbed and easy, a man who sprawls in a chair
 
 MUST BE TRUE OF THIS IMAGE:
 1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
 2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
-3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
-4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+3. HIS LEFT EYE IS A RED LENS AND IT IS LIT — a steady dull red, never bright enough to throw light onto his face and NEVER the subject of the frame. THE PLATE AROUND IT IS OLD: matte, dulled, worn smooth at the edges where he touches it without thinking. Nothing else on him is lit, nothing whirs, nothing reads as new.
+4. HEAVY PLATE: layered shoulder pauldrons, a segmented chest and torso, articulated arms to gauntleted fists. HE MUST NOT MATCH REYA FENN, who is also armoured — HERS IS SEALED, ANONYMOUS AND CLOSED; HIS IS OPEN-FACED, PERSONAL AND MARKED. Two members dressed by the same person is the one thing this faction refuses.
 5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
 6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
 7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.
@@ -39,8 +42,8 @@ art, not AI-looking.
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. THE FACEWORK MUST NOT COST HIM EXPRESSION. He is the warm one.
   2. NOT A THUG. Open, sociable, enjoying himself.
-  3. CYBERNETICS OLD and MATTE — worn smooth, never new, never lit.
-  4. SOFT, not armoured — the least plated man in the crew.
+  3. LEFT eye a LIT RED LENS. The plate itself old, matte, worn.
+  4. HEAVILY PLATED, and NOT a matched pair with Reya Fenn.
   5. EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
   6. MAINTAINED and GOOD — repaired properly, quality reads at distance.
   7. NO military read. Not a soldier and never was.

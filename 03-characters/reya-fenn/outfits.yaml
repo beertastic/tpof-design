@@ -23,6 +23,29 @@ handedness: right
 # PROVISIONAL. Nothing states it.
 height: 172 cm (5 ft 8 in) — lean and long-limbed, and it is the ARMOUR that makes her read big
 
+# ── OWNERSHIP CHANGED 2026-08-05: THIS COSTUME IS A 3D PRINT BUILD ──────────
+#
+# The Production Designer: Reya and Yaslo Bis "are both going to be fully 3D
+# printed, so while some docs will be cool for reference, we don't need to prep
+# a design doc in a hurry as that's the 3D team."
+#
+# WHAT THAT CHANGES: this file is now REFERENCE, not a build specification. The
+# 3D team owns the object. Do not spend generations refining the written rules
+# the way Baylan's were refined — the words no longer decide what gets made.
+#
+# WHAT IT DOES NOT CHANGE: the images are still wanted, and are now MORE useful
+# rather than less. A generated front is a visual target the 3D team can work
+# toward, and every character front is also poster source — see
+# 09-prompt-library/Key-Art-Poster-Prompt.md.
+#
+# SO THE ORDER OF WORK INVERTS. Normally the spec is refined until the plate is
+# right and the plate then guides the build. Here the plate is the deliverable
+# and the spec only has to be good enough to produce one. Generate it, look at
+# it, hand it over.
+#
+# ANY OPEN DECISION IN THIS FILE IS NOW A CONVERSATION WITH THE 3D TEAM rather
+# than a ruling to be recorded here.
+
 outfits:
   - id: sealed
     name: Patrol armour, sealed

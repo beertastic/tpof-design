@@ -91,15 +91,17 @@ outfits:
       overlapping salvaged plates hung from the belt at the hips. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
-      Down the centre front of the top layer, a panel narrower than his
-      shoulders, running from the throat to under the belt: a plain rounded area
-      at the top, then five broad nested chevrons, each a V with its point low at
-      the centre, each one fifth of the panel's height and touching the next so
-      no cloth shows between them, filling it to the
-      waist — QUILTED rows stitched through a padded panel, doming softly between
-      the seams, tonal and dark on dark, the thread a greyed-off green that is
-      visible but worn out in places — some rows still green, some faded, some
-      resewn in plain dark thread. The harness crosses over it. The undertunic beneath shows only as a dark
+      Across his chest a BROAD PLASTRON, running almost armhole to armhole with
+      a narrow strip of plain cloth each side, from the collar to below the
+      belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below
+      that, THREE TO FIVE broad chevron bands, each a V with its point low at
+      the centre, filling the panel to its lower edge. The bands are SEPARATE
+      PANELS LAID ON and overlapping like layered plates, each with a raised
+      piped edge — soft suede against matte canvas, so they read by SHEEN rather
+      than by colour and everything stays the same near-black. The seams are
+      hand-sewn in a greyed-off green thread, visible but worn out in places —
+      some still green, some faded, some resewn in plain dark thread.
+      The harness crosses over it. The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
       disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
@@ -153,12 +155,18 @@ outfits:
           costume, and a coat over the top hides the harness, the belt and the
           holster. It is a separate removable garment with its own two views
           (`working-coat`) and its own plate at slot 13. He takes it off to work.
-      - check: Chevron panel NARROWER than his shoulders, plain cloth either side.
+      # WIDENED 2026-08-05 against the reference crop. This said "NEVER shoulder
+      # to shoulder" and produced a narrow strip down the centre front. The real
+      # garment is a BROAD PLASTRON running almost armhole to armhole with only a
+      # narrow strip of plain cloth at each side. The rule was written to stop a
+      # flat graphic spanning the chest and overshot into the opposite fault.
+      - check: Panel is BROAD — almost armhole to armhole, a strip clear each side.
         text: >
-          THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to
-          shoulder, and NEVER a flat graphic across the chest. It does NOT reach
-          the shoulder seams, the armholes or the arms — there is plain garment
-          either side of it.
+          THE CHEVRON PANEL IS A BROAD PLASTRON ACROSS HIS CHEST, running almost
+          from armhole to armhole with only a NARROW STRIP of plain cloth left at
+          each side. It stops short of the shoulder seams and NEVER runs onto the
+          arms. NOT a narrow strip down the centre, and NOT a flat printed
+          graphic.
       # REWRITTEN 2026-08-04 after the first generation. This rule contradicted
       # itself: "continuing DOWN UNDER THE BELT" against "bounded ... to the
       # waist". In the original it was the SIDE edges that ran throat-to-waist,
@@ -253,20 +261,34 @@ outfits:
       # the fourth. It is right for the costume as built, not an invention.
       - check: FIVE bands, collar to lower edge. The BELT CROSSES THE FOURTH.
         text: >
-          FIVE CHEVRONS ON THE WHOLE PANEL, EXACTLY FIVE, collar to lower edge —
-          THE BELT CROSSES THE FOURTH. NOT five above the belt and more below:
-          FIVE IN TOTAL, each a fifth of that run, touching, NO cloth between
-          them. EACH IS A "V": ends HIGH at the sides, point LOW at centre.
-          NEVER a peak.
-      # RAISED 2026-08-04. Three generations put the bands low on the belly with
-      # a broad empty yoke above them. Nothing said how high they start, so the
-      # plain area kept growing to fill the space the rule left open.
-      - check: Chevrons START HIGH — first band at armpit height, small yoke above.
+          THREE TO FIVE BROAD CHEVRON BANDS BELOW THE YOKE, filling the panel to
+          its lower edge. EACH IS A "V": ends HIGH at the sides, point LOW at the
+          centre. NEVER a peak, NEVER an upturned "^". They are FEW AND BROAD,
+          NEVER a stack of thin stripes and NEVER more than five.
+      # REVERSED 2026-08-05, AND THIS ONE IS THE APOLOGY.
+      #
+      # It was RAISED on 2026-08-04 because "three generations put the bands low
+      # on the belly with a broad empty yoke above them", and it forbade exactly
+      # that: "the plain area above them is SMALL — a shallow yoke just under the
+      # throat, NEVER a broad empty field of cloth."
+      #
+      # THE GENERATOR WAS RIGHT AND WE CORRECTED IT AWAY FROM THE SOURCE. The
+      # reference crop shows a LARGE plain yoke filling the top half of the
+      # plastron, ending in a wide V, with the bands only below it. It had been
+      # reproducing the real garment three times and was told off for it.
+      #
+      # THE LESSON IS ABOUT EVIDENCE, NOT WORDING. Every other fault on this
+      # costume was diagnosed by reading the trim report or measuring the image.
+      # This one was diagnosed by looking at what the rule was fighting and
+      # assuming the rule was right. Nobody had the reference yet, so "it keeps
+      # doing X" was read as disobedience when it was information.
+      - check: A LARGE plain yoke fills the top half. Bands only BELOW it.
         text: >
-          THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins
-          at about armpit height and they fill DOWNWARD from there. The plain
-          rounded area above them is SMALL — a shallow yoke just under the
-          throat, never a broad empty field of cloth.
+          A LARGE PLAIN YOKE FILLS THE TOP HALF OF THE PANEL — a broad empty
+          field of cloth from the collar down to about the middle of his chest,
+          ending in ONE WIDE V. It is the biggest single shape on the panel. The
+          chevron bands begin BELOW it and NEVER above it, and NOTHING crosses
+          the yoke.
       - >
         THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
         wide and open, never steep, and no chevron crosses the yoke above them.
@@ -279,32 +301,41 @@ outfits:
       # object it is possible to give him. The rules were arguing with each
       # other and the generator kept siding with the picture.
       #
-      # QUILTING RESOLVES IT. The same five V rows, but stitched THROUGH a padded
-      # garment instead of applied to it: seams, not pieces. A padded work tunic
-      # is invisible — nobody looks twice at a quilted jacket — and the layout
-      # survives untouched for the plant.
+      # AND REVERSED AGAIN 2026-08-05, against the reference. The real garment IS
+      # applied panels: separate pieces, overlapping, each with a hard piped edge
+      # and a visible cast shadow — exactly what the quilting rule had begun to
+      # forbid by name.
       #
-      # It also fixes three smaller things. The count stops fighting, because
-      # quilting rows are naturally regular. The green thread stops being trim
-      # and becomes the seam holding the coat together, which is exactly what
-      # Planted-Elements P5 asks of it. And the padding adds bulk across the
-      # chest and shoulders — the job the shoulder pad was brought in to do.
-      - check: QUILTED rows stitched through padding. Seams, NOT applied bands.
+      # THE INSIGNIA PROBLEM WAS REAL BUT MISATTRIBUTED. It was never "applied
+      # pieces" that read as a badge, it was FIVE EQUAL NESTED BANDS CENTRED ON
+      # HIS STERNUM. The reference has applied panels and does not read as
+      # insignia, because a LARGE YOKE breaks the nested pattern and three broad
+      # overlapping plates read as garment construction — a jerkin — rather than
+      # a device. Moving toward the reference reduces the badge risk; it does not
+      # create it.
+      #
+      # SHEEN IS THE MECHANISM AND NOTHING SAID SO. The reference reads at all in
+      # near-black because the panels are a DIFFERENT MATERIAL from the base —
+      # suede against matte cloth — not a different tone. "TONAL, DARK ON DARK"
+      # was true and insufficient: it described what must not happen (colour
+      # contrast) without naming what makes the shape visible at all.
+      - check: APPLIED PANELS with piped edges — suede on matte, NOT quilting.
         text: >
-          THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED
-          section of the garment and the five V rows are SEAMS STITCHED THROUGH
-          IT, so the cloth DOMES softly between them. NO separate pieces laid on
-          top, NO leather bands, NO hard edges and NO cast shadows.
+          THE CHEVRONS ARE SEPARATE PANELS LAID ON THE GARMENT AND OVERLAPPING
+          EACH OTHER like layered plates, each with a RAISED PIPED EDGE that
+          casts a real shadow. NOT quilting, NOT stitched rows, NOT padding that
+          domes between seams. The lower band overlaps the one below it.
+      - check: SHEEN not colour — suede panels on matte cloth, all near-black.
+        text: >
+          THE PANELS ARE SOFT SUEDE OR WORN LEATHER ON MATTE CANVAS, so they READ
+          BY SHEEN AND NOT BY COLOUR — catching the light differently while
+          staying the SAME NEAR-BLACK. NEVER a colour contrast, NEVER a lighter
+          tone, NEVER printed or painted, NEVER a badge or insignia.
       - >
-        IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE
-        IMAGE IS WRONG — and equally wrong if they read as a badge, a patch or an
-        insignia. TONAL, DARK ON DARK: soft relief and shadow in the quilting,
-        NEVER colour contrast, NEVER a stripe, NEVER a device.
-      - >
-        THE QUILTED PANEL IS WORN AND GRUBBY. Rubbed shiny along the ridges where
-        the padding stands proudest, grimy in the hollows, the wadding flattened
-        and dead in places from years of use. It is a work garment that has been
-        slept in, not a made thing anyone is proud of.
+        THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
+        panels stand proudest, the suede gone shiny at the high points and grimy
+        in the angles, corners lifting where the stitching has let go. It is a
+        work garment that has been slept in, not a made thing anyone is proud of.
       # ADDED 2026-08-04. The first generation put a wide buckled strap
       # horizontally across his sternum, which read as a belt worn on the chest.
       # Nothing forbade it: the spec said "harness" and left the form open.
@@ -345,14 +376,25 @@ outfits:
       # resewn in plain thread" is a thing it can draw. And it is better
       # storytelling than the original — a thread half worn away IS the man who
       # stopped maintaining it, which is exactly what P5 asks the colour to mean.
-      - check: The GREEN THREAD must be VISIBLE — worn out in places, never fresh.
+      # CONFIRMED REAL 2026-08-05: the Production Designer has seen the green on
+      # the screen costume — "it IS there, it is VERY subtle, and I had to be
+      # told myself." So the target is FINDABLE WHEN LOOKED FOR, not absent and
+      # not announced. The old rules said "findable only in close-up", which in a
+      # full-length view is an instruction to be invisible, and it was obeyed
+      # eleven times. Measured on the eleventh: peak green bias 4.5 against 15-40
+      # for a real green thread. There was none at all.
+      #
+      # The panels being APPLIED rather than quilted makes this easier, not
+      # harder: the green is now the thread SEWING THE PANELS DOWN, which is
+      # exactly what P5 asks of it — "the thread holding the chevron panels".
+      - check: GREEN THREAD along the piped edges — subtle, but it must be THERE.
         text: >
-          THE V ROWS ARE SEWN IN DARK GREYED-OFF GREEN THREAD AND THE GREEN MUST
-          BE VISIBLE — coarse, hand-worked, puckering the cloth as hand-quilting
-          does. NOT bright, NOT a stripe, NOT decoration: it is the thread that
-          holds the garment together.
+          THE PANELS ARE SEWN DOWN WITH DARK GREYED-OFF GREEN THREAD AND THE
+          GREEN MUST BE THERE — coarse and hand-worked, running along every piped
+          edge. VERY SUBTLE: findable when looked for, never announcing itself.
+          NOT bright, NOT a stripe, NOT decoration.
       - >
-        THE GREEN IS WORN OUT IN PLACES, AND THAT IS THE POINT. Some rows still
+        THE GREEN IS WORN OUT IN PLACES, AND THAT IS THE POINT. Some edges still
         carry it, some have faded to grey, some were resewn in plain dark thread
         and never matched. NEVER uniform and NEVER fresh — it mattered once and
         has been let go. NOTHING else on him is green.
@@ -570,6 +612,36 @@ outfits:
     # came back polished chrome. An unpainted print attached without a finish
     # caveat is an instruction to make it shiny, so every `what` below spends
     # its last clause refusing the thing the photograph is showing.
+    # THE CHEVRON GEOMETRY REFERENCE, cut and wired in 2026-08-05 after eleven
+    # fronts failed to hold the panel from words alone.
+    #
+    # OUTFIT-LEVEL, not slot-scoped, and deliberately: the plastron is on his
+    # chest in every view and every costume slot, so unlike the blaster and the
+    # gauntlets there is no subset to scope it to.
+    #
+    # THE SOURCE IS A MANNEQUIN, AND THAT IS WHY THIS ONE IS SAFE. The concept
+    # README worried at length about cropping a screen still hard enough to strip
+    # the bearing, the silver mane, the hood and the monastic sleeves —
+    # everything `do_not_retrieve` refuses and which arrives more strongly than
+    # any sentence refuses it. A costume-reproduction product photograph has NONE
+    # of it: no head, no face, no posture, no actor. The crop is chest and
+    # shoulders and there is nothing else in frame to leak.
+    #
+    # THIRD-PARTY REFERENCE. Same status as Jasu's a180.jpg — it is a
+    # reproduction of the later costume, not our build and not our photograph.
+    references:
+      - path: reference/concept/chevron-geometry-source.png
+        what: >-
+          THE CHEST PANEL GEOMETRY ONLY — NOT the garment.
+          The LARGE PLAIN YOKE filling the top half and ending in one wide V; the
+          THREE TO FIVE broad chevron bands below it, points LOW at the centre;
+          the panel's WIDTH, almost armhole to armhole; and the construction —
+          SEPARATE PANELS LAID ON and overlapping, each with a raised piped edge,
+          suede against matte so they read by SHEEN and not by colour.
+          NOTHING ELSE COMES FROM THIS IMAGE — not the collar, not the sleeves,
+          not the fit, not the cleanliness. It is a shop-new reproduction on a
+          mannequin and HIS IS EIGHTEEN YEARS OLD, filthy, repaired and slept in.
+          THE WRITTEN RULES WIN ON EVERYTHING EXCEPT THE PANEL'S GEOMETRY.
     slot_references:
       blaster:
         - path: reference/props/blaster-build-2026-08-05.jpg
@@ -689,18 +761,17 @@ outfits:
         ONLY — never symmetrical damage — plus repaired tears and one burn that
         was never patched.
       - >
-        FIVE BROAD NESTED CHEVRONS, EACH A "V" WITH ITS POINT LOW AT THE CENTRE
-        AND ITS ENDS HIGH AT THE SIDES — never an upward peak — THROAT TO BELT,
-        ON A PANEL
-        NARROWER THAN HIS SHOULDERS — AND THE OPEN COAT MUST NOT COVER IT.
-        Showing that panel is the point of this view; the coat only frames it.
-        A plain rounded area at the top rises to a blunt point below the throat,
-        then the five bands fill the panel to the waist — each about a hand's
-        width, touching, at a shallow angle of about 30° below horizontal.
-        QUILTED — the rows are SEAMS stitched through a padded panel and the
-        cloth domes softly between them, every row sewn in coarse greyed-off
-        green thread. NOT applied leather bands, NOT separate pieces, NOT a
-        badge. TONAL, DARK ON DARK — soft relief, never colour contrast.
+        THE BROAD CHEST PLASTRON, AND THE OPEN COAT MUST NOT COVER IT — showing
+        that panel is the point of this view and the coat only frames it. A LARGE
+        PLAIN YOKE fills its top half and ends in one wide V; below it THREE TO
+        FIVE broad chevron bands, EACH A "V" WITH ITS POINT LOW AT THE CENTRE AND
+        ITS ENDS HIGH AT THE SIDES — never an upward peak — at a shallow angle of
+        about 30° below horizontal, filling the panel to below the belt. The
+        bands are SEPARATE PANELS LAID ON and overlapping like layered plates,
+        each with a RAISED PIPED EDGE that casts a real shadow, sewn down in
+        coarse greyed-off green thread. Suede against matte canvas: they read by
+        SHEEN, not colour, and everything stays the same near-black. NOT
+        quilting, NOT printed, NOT a badge.
       - >
         THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark
         thread at this distance and NOTHING else. It is the only colour on him,

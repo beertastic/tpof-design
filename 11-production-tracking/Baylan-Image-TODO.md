@@ -12,35 +12,54 @@ status: "open"
 > **ELEVEN FRONTS RUN, NONE APPROVED, AND WORDS HAVE NOW LOST THE COUNT.** The
 > costume is otherwise finished — everything else on it is right.
 >
-> ## THE ONE THING BLOCKING EVERYTHING
+> ## THE REFERENCE EXISTS NOW, AND IT CHANGED THE COSTUME
 >
-> **THE CROPPED CHEST REFERENCE. The Production Designer authorised it
-> 2026-08-05 and the source still has not been supplied.** Nothing else is in
-> the way.
+> `reference/concept/chevron-geometry-source.png` — cut from a costume
+> reproduction on a **mannequin**, so there is no head, no face and no bearing
+> in frame to leak. Attached to every `working` view.
 >
->     -> 03-characters/baylan/reference/concept/chevron-geometry-source.png
+> **Looking at it reversed two rules we had written ourselves in the previous
+> forty-eight hours:**
 >
-> Chest only, cropped hard: no head, no shoulders-and-up, no full figure, no
-> robes, no hood, no silhouette. The brief, the scoping method and the reason
-> this is not a `do_not_retrieve` breach are all in
-> [`../03-characters/baylan/reference/concept/README.md`](../03-characters/baylan/reference/concept/README.md).
+> - **Rule 9** forbade a broad plain yoke. **The real garment has one filling
+>   the top half.** The rule was raised on 2026-08-04 *because* three
+>   generations kept drawing it — the generator was reproducing the source and
+>   was corrected away from it, three times.
+> - **Rule 11** made the bands quilting and forbade *"separate pieces, hard
+>   edges, cast shadows"*. **The real garment is exactly that** — applied
+>   panels, overlapping, piped edges, real shadows.
+> - **Rule 6** said "never shoulder to shoulder". It is a **broad plastron**
+>   almost armhole to armhole.
 >
-> **FIVE IS LOAD-BEARING — CONFIRMED 2026-08-05.** Six was offered and refused.
-> The later costume carries *"five chevrons front and back"*, so the count is a
-> continuity requirement and not an aesthetic preference. It cannot be specced
-> away.
+> **THE COUNT IS NO LONGER A NUMBER.** Eleven fronts chased "exactly five" and
+> never got it because five is not a countable feature of the object — the
+> reference reads as three, four or five depending on whether the yoke edge and
+> the piping count. The rule now says **THREE TO FIVE broad bands below the
+> yoke**. Previous ruling superseded.
 >
-> ## MEANWHILE, FIVE SLOTS ARE UNBLOCKED AND DO NOT TOUCH THE PANEL
+> **THE GREEN IS REAL** — confirmed on the screen costume, *very* subtle, and
+> the Production Designer had to be told it was there. Target: findable when
+> looked for, never announced.
 >
-> Run these now — none of them depends on an approved front:
+> ## RUN THE FRONT AGAIN — IT IS A DIFFERENT COSTUME NOW
+>
+>     prompts/turnarounds-short/turn-working-front.txt
+>
+> Attach **4 files** from `prompts/attach/working/`. **The numbering changed** —
+> the geometry reference is now file 1 and the face files shifted to 2, 3, 4:
+>
+>     1-the-chest-panel-geometry-only-not-the-garment.png
+>     2-face-build-1.jpg   3-face-build-2.jpg   4-face-build-3.jpg
+>
+> Then these five, each from its own folder:
 >
 > | Prompt | Attach from `prompts/attach/working/` |
 > |---|---|
-> | `prompts/slots-short/15-gauntlets.txt` | `15-gauntlets/` — 4 files |
-> | `prompts/slots-short/08-blaster.txt` | `08-blaster/` — 4 files |
-> | `prompts/slots-short/10-utility.txt` | `10-utility/` — 4 files |
-> | `prompts/slots-short/11-maintenance.txt` | `11-maintenance/` — 4 files |
-> | `prompts/slots-short/09-crystal.txt` | 3 face files. **NO kyber reference** |
+> | `prompts/slots-short/15-gauntlets.txt` | `15-gauntlets/` — 5 files |
+> | `prompts/slots-short/08-blaster.txt` | `08-blaster/` — 5 files |
+> | `prompts/slots-short/10-utility.txt` | `10-utility/` — 5 files |
+> | `prompts/slots-short/11-maintenance.txt` | `11-maintenance/` — 5 files |
+> | `prompts/slots-short/09-crystal.txt` | 4 files. **NO kyber reference** |
 >
 > Fresh chat, tier High, and the reply must open with `Working from commit …,
 > prompt …`.

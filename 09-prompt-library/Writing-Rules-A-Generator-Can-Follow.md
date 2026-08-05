@@ -131,6 +131,31 @@ before the generator saw them**:
 **Write the sentence that does the work as the opening sentence.** If a rule has
 two load-bearing ideas, it is two rules.
 
+### 5aa. "It keeps doing X" is EVIDENCE. Check the source before you forbid X
+
+Added 2026-08-05, and it is the most expensive lesson in this file.
+
+Baylan's rule 9 was raised because **three generations put a broad plain yoke
+above the chevron bands**. It was read as drift and forbidden by name: *"the
+plain area above them is SMALL — a shallow yoke just under the throat, NEVER a
+broad empty field of cloth."*
+
+**The reference, obtained eight generations later, has a large plain yoke filling
+the top half of the panel.** The generator had been reproducing the real garment
+three times running and was corrected away from it — after which nothing on that
+panel was ever right again. The same day, rule 11 forbade *"separate pieces laid
+on top, hard edges, cast shadows"*; the real garment is applied overlapping
+panels with piped edges casting real shadows.
+
+**A model repeating itself is not necessarily disobeying. It may know the
+subject.** That is the whole reason `do_not_retrieve` exists — retrieval is
+strong enough to need refusing when it is wrong, so it is strong enough to be
+right when it is right.
+
+**Before writing a rule that forbids a recurring behaviour, get one look at the
+source.** Where the subject is a real object that exists, the cost of checking is
+minutes and the cost of not checking was eleven generations here.
+
 ### 5a. Before rewriting a rule that keeps failing, check that it ARRIVED
 
 Added 2026-08-05. **A rule can fail because of a clause that was never sent.**

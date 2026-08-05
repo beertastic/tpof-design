@@ -2,6 +2,11 @@
 
 Production drawings and scoped design references.
 
+> **SUPERSEDED 2026-08-05 — the reference exists. Skip to "CUT AND WIRED IN"
+> below.** This section is kept because its reasoning about cropping is still
+> the method, and because it records what was believed before anyone had looked
+> at the garment.
+
 ## WANTED: the chevron geometry — 2026-08-04
 
 **Drop a still of the later costume's CHEST here.** The first generation got the
@@ -38,48 +43,75 @@ costume slot.
 
 ---
 
-## AUTHORISED 2026-08-05 — AND STILL WAITING ON THE STILL
+## CUT AND WIRED IN — 2026-08-05
 
-**The Production Designer said cut it.** This is now the single thing blocking
-Baylan's front, and with it every downstream asset on the character.
+**`chevron-geometry-source.png` exists.** It is attached to every `working`
+view via `references:` in `outfits.yaml`, and it is the first thing in
+`prompts/attach/working/`.
 
-**The still itself has to come from you.** It is a frame from the other
-production and there is no copy in this repository — `shoulder-and-hood-source-
-2026-08-04.png` in this folder is a stock fantasy costume used for the shoulder
-and hood study, and carries no chevron panel at all. Nothing here can be cropped
-into this reference.
+### The source is NOT a screen still, and that is a better answer
 
-### What eleven generations established, and why this is now the fix
+Everything above this line worries about cropping a frame from the other
+production hard enough to strip the bearing, the silver mane, the hood and the
+monastic sleeves — everything `do_not_retrieve` refuses, and which arrives more
+strongly than any sentence refuses it.
 
-The costume is finished apart from this. Everything else lands: the bands touch,
-have no gaps, are broad, are quilted, the stitching reads as stitching, the
-straps are dark, the collar lies flat, the gauntlets match the build. **Two
-faults remain and both are on this panel.**
+**The source used instead is a costume-reproduction product photograph on a
+MANNEQUIN.** There is no head in it, no face, no posture, no actor and no
+performance. The retrieval risk the whole section above is about simply does not
+exist in the frame. Cropped to chest and shoulders, there is nothing left to
+leak.
 
-**The count.** Eleven attempts, never five. Four rewordings after the trim bug
-was fixed produced 7, 6, 5-plus-2-below-the-belt, then 6. The tell is the panel
-extent rather than the count: on effectively the same instruction it ended above
-the belt, then ran through and below it, then stopped at it. **That is
-run-to-run variance on a layout the generator does not compute** — it renders a
-plausible quilted panel at a plausible band pitch, and does not solve for a
-count, a fraction, or a landmark.
+**THIRD-PARTY REFERENCE**, same status as Jasu's `reference/props/a180.jpg`: a
+reproduction of the later costume, not our build and not our photograph.
 
-**The green.** Measured across every row of the eleventh panel: peak green bias
-4.5, mean 1.74, where a real green thread scores 15–40. **There is no green in
-it at all.** The rules were rewritten so they stopped instructing the thread to
-hide, and that worked — the stitching is visible now, which it never was. Only
-the hue is missing.
+### What eleven fronts got wrong, and what the reference settled
 
-**FIVE IS NOT NEGOTIABLE.** Six was offered to the Production Designer on
-2026-08-05 and refused. The later costume carries *"five chevrons front and
-back"*, so the count is a continuity requirement and cannot be specced away.
+Looking at it changed three rules, and **two of them we had written ourselves in
+the previous forty-eight hours**:
 
-### Scope line to use when it lands
+| Rule | Said | The reference | Now |
+|---|---|---|---|
+| 6 | panel NARROWER than his shoulders, *"NEVER shoulder to shoulder"* | a BROAD plastron almost armhole to armhole | rewritten |
+| 9 | the plain area above is SMALL, *"never a broad empty field of cloth"* | **a large plain yoke fills the top half** | **reversed** |
+| 11 | QUILTING — *"NO separate pieces laid on top, NO hard edges, NO cast shadows"* | separate overlapping panels, piped edges, real shadows | **reversed** |
 
-> *Authoritative for the CHEVRON BAND GEOMETRY ONLY — their COUNT, width, angle
-> and construction, and the GREEN OF THE THREAD. NOTHING about the wearer, the
-> garment around it, the palette, the bearing or the silhouette.*
+**Rule 9 is the one to remember.** It was raised on 2026-08-04 *because* three
+generations had put a broad empty yoke above the bands. **The generator was
+reproducing the real garment and was corrected away from it, three times.** Every
+other fault on this costume was found by reading the trim report or measuring
+the image; this one was found by assuming the rule was right because it kept
+losing. **"It keeps doing X" is evidence, not disobedience** — and without a
+reference there was no way to tell the two apart.
 
-**The count and the green go on the same reference**, which is why the scope
-line names both. Keep it inside 52 characters at the front, or `_label` will cut
-the refusal — see prompt-library rule 5c.
+### The count stopped being a number
+
+Eleven fronts chased "exactly five" and never got it, because **five is not a
+countable feature of the object.** Depending on whether the yoke's lower edge
+and the piping count as outlines, the reference reads as three, four or five —
+and the Production Designer confirms the number varies across published images.
+The rule now says **THREE TO FIVE broad bands below the yoke**, which is what is
+actually true and cannot be missed.
+
+### The green is real
+
+Confirmed 2026-08-05: it is on the screen costume, it is *very* subtle, and the
+Production Designer had to be told it was there. So the target is **findable
+when looked for** — not absent, and not announced. The old wording, *"findable
+only in close-up"*, was an instruction to be invisible in a full-length view and
+was obeyed eleven times: measured on the eleventh, peak green bias 4.5 against
+15–40 for a real green thread.
+
+Applied panels help here rather than hindering. The green is now the thread
+**sewing the panels down**, which is what P5 asks of it — *"the thread holding
+the chevron panels"*.
+
+### Known over-attachment
+
+`references:` attaches to **every** slot, including the object plates —
+`blaster`, `crystal`, `utility` and `gauntlets` — which have no chest in frame.
+`reference_list()` has no slot filter and adding one would change prompt output
+for every character, including Shada's and Jasu's approved plates. **Left as-is
+deliberately**, on the same reasoning as the `trim()` case-sensitivity bug. The
+scope line carries the mitigation: *NOT the garment*, and those prompts have no
+costume rules attached at all.

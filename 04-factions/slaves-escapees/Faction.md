@@ -169,6 +169,31 @@ why Shin's is failing by Scene 21, and it should be visibly the case from Scene 
 
 ### Arena — Vala
 
+> **VALA IS THE EXCEPTION TO "NO COLOUR", RULED 2026-08-05.** The Production
+> Designer: *"She's an escaped gladiator, so needs to be 'tougher' and perhaps
+> more 'fabulous' than the other slaves."*
+>
+> **She may carry muted colour where the others may not** — the built costume
+> runs olive through the trousers, gloves and cowl against everyone else's bone,
+> dust and ash. Muted and dirty, never saturated and never bright.
+>
+> **This does not weaken the faction read, it sharpens it.** The shared condition
+> was always going to make her look different anyway — hers is the only clothing
+> in the group *designed* to take damage — so the difference may as well be
+> deliberate and carry meaning. She was worth dressing because she was worth
+> watching; the others were dressed to be forgotten. The auction "presented"
+> people it thought had value, and an arena fighter had value of a kind a
+> domestic worker did not.
+>
+> **What does NOT bend:** she is still wearing what she was given for someone
+> else's purpose, it is still years old and hand-repaired, and it is still being
+> destroyed by a forest. *Tougher* and *more striking* are not *better off*.
+> **And "fabulous" is never glamour** — her own `Character.md` forbids exposure
+> and sexualisation outright, and that is untouched by this ruling.
+>
+> See [`../../03-characters/vala/reference/fitting/`](../../03-characters/vala/reference/fitting/)
+> for the built costume this was ruled against.
+
 The remnants of a fighting rig. Not armour and not costume — the functional
 minimum an arena gives someone it expects to lose: strapping, wraps, a belt or
 harness, reinforcement at the forearms and shins.

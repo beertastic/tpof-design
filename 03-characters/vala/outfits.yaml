@@ -110,12 +110,31 @@ outfits:
       # DELIBERATELY NOT A "NO COLOUR" RULE — see the note below. This says what
       # the build is, and stops it drifting further toward colour, without
       # ruling on the conflict.
-      - check: MUTED THROUGHOUT — olive, grey-brown, sand, worn leather.
+      # THE PALETTE CONFLICT IS RESOLVED, 2026-08-05, IN HER FAVOUR. The escapee
+      # faction rule is "no colour — undyed, badly dyed, or dye long since gone",
+      # and the built costume is definitely olive. The Production Designer:
+      # "She's an escaped gladiator, so needs to be 'tougher' and perhaps more
+      # 'fabulous' than the other slaves."
+      #
+      # IT SHARPENS THE FACTION READ RATHER THAN WEAKENING IT. She was always
+      # going to look different — hers is the only clothing in the group DESIGNED
+      # to take damage — so the difference may as well mean something. She was
+      # worth dressing because she was worth watching; the others were dressed to
+      # be forgotten. Recorded in the faction document too, or the next person to
+      # read it will correct her back.
+      #
+      # WHAT DOES NOT BEND: "fabulous" is NEVER glamour. Character.md forbids
+      # exposure and sexualisation outright and this ruling does not touch it.
+      # She is still wearing what she was given, still years old, still being
+      # destroyed by a forest. Tougher and more striking, not better off.
+      - check: MUTED COLOUR ALLOWED — olive, grey-brown, sand. Never bright.
         text: >
-          THE PALETTE IS MUTED AND EARTH-BOUND: olive, grey-brown, sand and worn
-          brown leather, all of it dirty and sun-faded. NOTHING saturated,
-          NOTHING bright, NO fresh dye and NO colour that would catch an eye
-          across a clearing.
+          SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive
+          through the trousers, gloves and cowl, against grey-brown canvas, sand
+          wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING
+          saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and
+          more STRIKING than the people around her — never as better off, and
+          never as glamorous.
       # P2 — her injuries are deferred to Film 2 and nothing may foreclose it.
       - check: NO injuries, NO blood, NO damage implying a wound.
         text: >

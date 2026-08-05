@@ -1,10 +1,10 @@
 [VALA — TURNAROUND — THE REMNANTS OF A FIGHTING RIG, LAYERED FOR THE FOREST — NATURAL POSE]
 Output file: turn-rig-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: f2ebb0d0 · repo commit 59b6633 2026-08-05 14:57
+Prompt version: 5f547827 · repo commit 959c4c1 2026-08-05 15:36
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 59b6633, prompt f2ebb0d0.
+    Working from commit 959c4c1, prompt 5f547827.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -89,7 +89,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   7. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
   8. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
   9. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
-  10. THE PALETTE IS MUTED AND EARTH-BOUND: olive, grey-brown, sand and worn brown leather, all of it dirty and sun-faded. NOTHING saturated, NOTHING bright, NO fresh dye and NO colour that would catch an eye across a clearing.
+  10. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
   11. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
   12. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
 
@@ -217,7 +217,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   7. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
   8. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
   9. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
-  10. THE PALETTE IS MUTED AND EARTH-BOUND: olive, grey-brown, sand and worn brown leather, all of it dirty and sun-faded. NOTHING saturated, NOTHING bright, NO fresh dye and NO colour that would catch an eye across a clearing.
+  10. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
   11. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
   12. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
 

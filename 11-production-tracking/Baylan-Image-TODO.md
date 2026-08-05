@@ -180,8 +180,9 @@ by feature.**
 ## Blocked on the Production Designer
 
 1. **A cropped still of the later chest piece** → `reference/concept/chevron-geometry-source.png`. Chest only: no head, no robes, no silhouette. **Downgraded 2026-08-05** — the count now has a words-only fix awaiting test (lesson 8), so this is needed for the green stitching, and for the count only if that test fails.
-2. **A photograph of the printed gauntlets** → `reference/props/gauntlets.jpg`. The repo rule is *"for anything physically built, the reference is a photograph of the build, not a render"*, and it has already bitten twice here.
+2. ~~A photograph of the printed gauntlets~~ **DELIVERED 2026-08-05**, along with the blaster. Both are in `reference/props/`. **See item 4 — the gauntlet build contradicts the gauntlet rule and needs a ruling before it can be attached.**
 3. **Approve a front**, either outfit.
+4. **RULE THE GAUNTLET SCREEN.** The printed build has a **large, bright, near-white screen** with a pale keypad on the outer forearm. The rule says *"a SMALL DARK screen… half dead, with nothing lit on it"*, rule 2 says ABSOLUTELY NO ORNAMENT, and his characterisation is *"the absence IS the design."* **A glowing white rectangle on each forearm is the most conspicuous object on a near-black costume.** Either the print is painted down to near-black, or the rule changes and the characterisation takes the hit. The build also has heavy stepped ribbing where the rule says *"a smooth clamshell"*, and puts the screen on the outer forearm where the rule says the inside of the wrist. **`reference/props/README.md` has the full table.**
 
 ---
 
@@ -189,7 +190,7 @@ by feature.**
 
 1. **Approve the front** — `03-characters/APPROVAL.md`. Fill `approved:` in `outfits.yaml`, add the locked plates to `references:`, and run `./tools/regen baylan`.
 2. **The remaining views** — four for `working`, one for `working-coat`.
-3. **The three prop plates** — `08-blaster`, `09-crystal`, `10-utility`. Both prompts are self-sufficient and need no reference; **do not attach a stock kyber crystal image**, the design is deliberately raw, yellow and unglowing against the canonical look.
+3. **The three prop plates** — `08-blaster`, `09-crystal`, `10-utility`. **`08-blaster` and `10-utility` now carry the printed build photograph** (`reference/props/blaster-build-2026-08-05.jpg`, also on `11-maintenance`); staged folders are at `prompts/attach/working/08-blaster/`, `10-utility/` and `11-maintenance/` — four files each, use the slot's own folder. `09-crystal` needs no reference and **do not attach a stock kyber crystal image**: the design is deliberately raw, yellow and unglowing against the canonical look.
 4. **The eleven remaining slots.**
 5. **The make-up board** — the only board he is missing. Its images are already defined: `detail_portrait` + `expression_strip`.
 6. **`components:`** — then `./tools/build-guide-pdf baylan` and `./tools/build-lists baylan`. The chevron top is `route: made`; a base kurta or reenactment tunic at £5–15 plus a charity-shop leather garment cut up is the whole shopping side.

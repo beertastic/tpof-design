@@ -1,7 +1,7 @@
 [BAYLAN — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 5e1f4e6e (short) · repo commit f2caf37 2026-08-04 17:54
+Prompt version: 2ae74d92 (short) · repo commit 037a02f 2026-08-05 08:23
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
@@ -10,6 +10,7 @@ is attached, fetch these URLs instead — and say which route you used:
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
+  THE BLASTER — SHAPE ONLY, NEVER ITS COLOUR OR FINISH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/props/blaster-build-2026-08-05.jpg
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
   Take the FACE and BUILD from the actor images only.
   Say whether you used an attached file or a URL. If neither worked, stop.

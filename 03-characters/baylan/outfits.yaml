@@ -423,6 +423,56 @@ outfits:
           firelight. Everything repaired, resoled, re-shouldered, previously
           owned.
 
+    # THE PRINTED BLASTER, supplied by the Production Designer 2026-08-05, and
+    # the repo rule applied at last: for anything PHYSICALLY BUILT the reference
+    # is a photograph of the build, not a render. See reference/props/README.md
+    # for the dimensions and the conversion, and 02-story/Planted-Elements.md
+    # P-table row "The blaster" for why the object matters.
+    #
+    # SLOT-SCOPED, NOT OUTFIT-LEVEL, AND DELIBERATELY. The weapon is holstered
+    # on his right hip in all seven turnarounds, so an outfit-level entry would
+    # attach a 340 mm detail photograph to every costume fitting — an invitation
+    # for it to grow and take the frame, which is the akk dog failure exactly.
+    # These three slots are where the object IS the subject.
+    #
+    # THE FINISH CAVEAT IS NOT OPTIONAL. The print is unpainted bare grey
+    # against a character whose palette rule is near-black, and this character
+    # has already lost a generation to a bright metal object — the gauntlets
+    # came back polished chrome. An unpainted print attached without a finish
+    # caveat is an instruction to make it shiny, so every `what` below spends
+    # its last clause refusing the thing the photograph is showing.
+    slot_references:
+      blaster:
+        - path: reference/props/blaster-build-2026-08-05.jpg
+          what: >-
+            THE BLASTER — SHAPE ONLY, NEVER ITS COLOUR OR FINISH.
+            The printed build: 340 mm long and 105 mm tall, front-heavy and unbalanced, the
+            saber emitter shroud still serving as the muzzle, the ribbed hilt
+            body lying horizontal as the receiver, a second ribbed hilt section
+            hung below as the magazine.
+            NOT AN AUTHORITY ON FINISH OR COLOUR — it is UNPAINTED BARE GREY
+            PLASTIC and the weapon is MATTE, DARK, SCRATCHED AND FILTHY, with
+            eighteen years of handling on it. NOTHING on it is shiny, bright or
+            clean. THE WRITTEN RULE WINS ON FINISH.
+      utility:
+        - path: reference/props/blaster-build-2026-08-05.jpg
+          what: >-
+            THE BLASTER — SHAPE ONLY, NEVER ITS COLOUR OR FINISH.
+            The same object laid out with the rest of the kit: 340 mm long,
+            and the largest thing in the layout.
+            NOT AN AUTHORITY ON FINISH — unpainted bare grey print; the weapon
+            is MATTE, DARK AND FILTHY. THE WRITTEN RULE WINS ON FINISH.
+      maintenance:
+        - path: reference/props/blaster-build-2026-08-05.jpg
+          what: >-
+            THE BLASTER — SHAPE ONLY, NEVER ITS COLOUR OR FINISH.
+            Every part in this photograph must be findable in the
+            reassembling hilt: the emitter
+            shroud, the ribbed body, the magazine section, the machined
+            cylindrical core. SAME OBJECT, DIFFERENT ARRANGEMENT.
+            NOT AN AUTHORITY ON FINISH — unpainted bare grey print; the parts
+            are MATTE, DARK AND WORN. THE WRITTEN RULE WINS ON FINISH.
+
   # HE HAS ONE COSTUME. THIS IS THAT COSTUME WITH ONE MORE GARMENT ON TOP.
   # Confirmed by the production designer 2026-08-04, and it is a correction:
   # this was modelled as a full second outfit and generated TEN turnarounds,

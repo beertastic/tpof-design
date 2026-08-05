@@ -562,13 +562,23 @@ outfits:
           his trousers show all the way up the middle of him, front and back, and
           NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the
           seat — NEVER to the knee. They hang free and swing.
-      - check: The panels are TORN and worn out — a hint of a garment, not one.
+      # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
+      # TORN… ragged… edges gone to threads… caught and pulled and never mended"
+      # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
+      # hems with chunks missing, reading post-apocalyptic rather than
+      # hard-working.
+      #
+      # THE DISTINCTION IS WHOLE VERSUS DESTROYED. He is a working mercenary who
+      # does not maintain his kit, not a man dressed in wreckage. The panels have
+      # softened and frayed at the edges; they have not come apart. Same
+      # correction the costume needed at the very start — "used, not ruined".
+      - check: Panels WORN but WHOLE — soft frayed hem, never ragged or shredded.
         text: >
-          THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem,
-          one shorter than the other, edges gone to threads — cloth that has been
-          caught and pulled and never mended. They are NOT armour, NOT plates,
-          NOT leather straps and NOT a fauld: soft near-black cloth, the same as
-          the rest of him, hanging limp.
+          THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from
+          use, one panel a little shorter than the other, and at most ONE small
+          split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth
+          edge, NO torn-out chunks, NO hanging strips. The bottom edge still
+          reads as a HEM. Soft near-black cloth, the same as the rest of him.
       # RETARGETED 2026-08-05. This was "THE SKIRT MUST NOT TURN HIM INTO A
       # JEDI, AND FIVE THINGS WOULD DO IT" — written to make a knee-length split
       # tunic safe. That garment is gone and two ragged hip panels carry no Jedi

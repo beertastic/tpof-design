@@ -1,0 +1,228 @@
+[KRELLIS — TURNAROUND — ARENA MEDIC'S WORKING GEAR — LEFT SIDE]
+Output file: turn-working-left.png
+Aspect ratio: 2:3  (tall, full figure)
+Prompt version: 932263d1 · repo commit 2d12f5b 2026-08-05 14:57
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit 2d12f5b, prompt 932263d1.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
+
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+====================================================================
+THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
+FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.
+====================================================================
+
+NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a
+waist-up. If the feet are not in the frame, the image is unusable — this is
+a COSTUME record and the boots, the hem and the whole silhouette are the
+point. The head should occupy a small part of the frame.
+
+Deliver a single, plain, full-figure photograph on a seamless studio
+backdrop. It is raw material. The production boards are assembled from
+plates like this one by a separate tool, and anything you add here has
+to be removed before it can be used.
+
+ABSOLUTELY NOT, IN ANY FORM:
+  - NO text of any kind. No name, no title, no caption, no labels, no
+    headings, no annotation, no measurements, no height marks.
+  - NO logo, no watermark, no signature, no production branding.
+  - NO layout, no frame, no border, no vignette panel, no title bar.
+  - NO second view. One figure, one angle. No front-and-back pair, no
+    multi-view sheet, no turnaround strip, no contact sheet, no montage.
+  - NO inset head shots, no profile studies, no detail crops.
+  - NO material swatches, NO colour palette chips, NO prop call-outs.
+  - NO scale silhouette, no ruler, no grid.
+
+If the result looks like a designed page rather than a photograph taken
+in a costume fitting, it is wrong and cannot be used.
+
+NO ACTOR HAS BEEN CAST. There is no actor reference for this character,
+so cast the face yourself — build it from the written description and
+nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
+a handsome or striking one, and do not drift toward any actor you have seen
+play a similar part.
+
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
+
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
+
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
+them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+HEIGHT: 180 cm (5 ft 11 in) — upright, narrow, stooped from years of leaning over other people. Build the proportions to it — head size against body
+length, limb length, how heavily the figure stands. A figure alone on a plain
+backdrop gives the eye nothing to measure against, so it has to be in the body.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
+  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+  3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
+  4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
+  5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
+  6. HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is the one working habit that has outlasted the supplies, and it should read as automatic rather than as preparation for anything.
+  7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is twenty years of other people, not tonight's.
+  8. NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing sellable. Every repair done by hand in poor light with mismatched thread.
+  9. NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and ash, all of it dirty, with days of forest on top — mud to the knee, soaked cloth, torn hems.
+  10. THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped or turned away from the weather while his own clothes are soaked through. He has been looking after it for longer than he has looked after himself.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
+
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
+
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
+
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
+
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
+
+=== VIEW ===
+The subject is rotated exactly ninety degrees to show their LEFT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
+
+OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN.
+Their right shoulder, right arm, right forearm, right hand, right hip and
+right thigh are hidden behind the body in this view.
+
+SO: anything the rules place on THEIR RIGHT does not appear in this image
+at all. DO NOT move it round to the near side so that it can be seen. DO
+NOT duplicate it onto the left. A near-side limb that carries nothing is
+BARE, and bare is CORRECT — an empty forearm here is the rules being
+obeyed, not a detail forgotten.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== SKIN AND REALISM ===
+
+
+=== CHARACTER ===
+INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+
+Krellis. Medic among the escapees; involved in the final confrontation.
+
+NEEDS:
+
+- Species, age range, gender presentation
+- Build and silhouette — the shape read at distance, in one line
+- Distinguishing physical traits
+- Costume: layers, construction, what is protected and what is exposed, and why
+- Equipment carried, and what is deliberately absent
+- Movement and body language
+- The one sentence that separates them from everyone else in their faction
+
+=== THIS COSTUME ===
+Arena medic's working gear — Scene 8 onward, and the clearing in Scene 25. His only costume
+
+The wreck of a real working kit. He was the arena's medic with sanctioned access to its supplies, and what is left is professional equipment worn out and never replaced: a roll or satchel of proper instruments, most of the loops empty, the few that remain sharpened and re-sharpened past their working life. His occupation reads from THE CARRY, not the clothing. The bag or roll is the object that says medic, and it is mostly empty — the empty loops are the design. The clothes themselves are the same as everyone else's: coarse, issued, wrong-sized, hand-repaired, no colour, no fastening worth anything. An apron or overshirt with old stains that were never going to wash out and have long since gone brown. Sleeves tied or rolled back and kept back — the one habit of the job that survives when nothing else does. Days of forest over the top, mud to the knee, and the bag protected from it more carefully than he is.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
+  2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+  3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
+  4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
+  5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
+  6. HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is the one working habit that has outlasted the supplies, and it should read as automatic rather than as preparation for anything.
+  7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is twenty years of other people, not tonight's.
+  8. NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing sellable. Every repair done by hand in poor light with mismatched thread.
+  9. NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and ash, all of it dirty, with days of forest on top — mud to the knee, soaked cloth, torn hems.
+  10. THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped or turned away from the weather while his own clothes are soaked through. He has been looking after it for longer than he has looked after himself.
+
+
+Deliver a single image at 2:3. It must look photographed, not generated.

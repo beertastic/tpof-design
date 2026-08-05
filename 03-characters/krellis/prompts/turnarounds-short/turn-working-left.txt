@@ -1,0 +1,51 @@
+[KRELLIS — ARENA MEDIC'S WORKING GEAR — LEFT]
+Output file: turn-working-left.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: 524a7dda (short) · repo commit 2d12f5b 2026-08-05 14:57
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 180 cm (5 ft 11 in) — upright, narrow, stooped from years of leaning over other people
+
+MUST BE TRUE OF THIS IMAGE:
+1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
+2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
+3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
+4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
+5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
+6. HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is the one working habit that has outlasted the supplies, and it should read as automatic rather than as preparation for anything.
+7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is twenty years of other people, not tonight's.
+8. NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing sellable. Every repair done by hand in poor light with mismatched thread.
+9. NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and ash, all of it dirty, with days of forest on top — mud to the knee, soaked cloth, torn hems.
+10. THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped or turned away from the weather while his own clothes are soaked through. He has been looking after it for longer than he has looked after himself.
+
+SHOT: Rotated exactly 90° to show their LEFT side in full profile. THEY FACE THE VIEWER'S LEFT — their nose, chest and toes all point to the LEFT EDGE of the frame. If they face the right edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. THE WRECK OF A REAL KIT — a professional stripped of supply.
+  2. THE CARRY says medic, not the clothing. Loops MOSTLY EMPTY.
+  3. THE POVERTY IS THE ARENA'S, NOT HIS. The kit was good once.
+  4. NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+  5. WORKING CLOTHES, never prison clothing. No uniform.
+  6. SLEEVES BACK — the one habit of the job that survives.
+  7. OLD STAINS gone brown — never fresh, never red.
+  8. NO fastening worth anything. HAND repairs, mismatched thread.
+  9. NO COLOUR — bone, dust brown, ash. Forest damage over the top.
+  10. THE BAG IS BETTER PROTECTED THAN HE IS.

@@ -12,10 +12,10 @@
 [SHIN — SLOT 10 — THE HAIR]
 Output file: hair_study.png
 Aspect ratio: 1:1  (square)
-Prompt version: f1f978a8 · repo commit d55a1ab 2026-08-03 17:14
+Prompt version: f1f978a8 · repo commit 4f880c0 2026-08-05 16:30
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d55a1ab, prompt f1f978a8.
+    Working from commit 4f880c0, prompt f1f978a8.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

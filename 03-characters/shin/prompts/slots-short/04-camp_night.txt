@@ -1,7 +1,7 @@
 [SHIN — CANNOT SLEEP]
 Output file: camp_night.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: 86db52e6 (short) · repo commit db4b9ef 2026-08-04 00:16
+Prompt version: 86db52e6 (short) · repo commit 4f880c0 2026-08-05 16:30
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

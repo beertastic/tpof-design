@@ -12,10 +12,10 @@
 [SHIN — SLOT 04 — CANNOT SLEEP]
 Output file: camp_night.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: 2a14202a · repo commit d55a1ab 2026-08-03 17:14
+Prompt version: 7156ec69 · repo commit 4f880c0 2026-08-05 16:30
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d55a1ab, prompt 2a14202a.
+    Working from commit 4f880c0, prompt 7156ec69.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -63,6 +63,20 @@ She is a child in worn-out clothes who has just seen the sky for the first time 
 Everything you already believe about this name is from a different
 production. Discard it. The description below is the only source, and
 where your memory and this document disagree, THIS DOCUMENT IS RIGHT.
+
+This character is RIGHT-HANDED. All positions are given from
+THEIR OWN left and right, never the viewer's.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. AT THIS POINT THE COSTUME IS STILL STRUCTURALLY INTACT. Dirty and damp, days into the run, but NOT torn open and NOT falling apart. The forest has not finished with it yet — that is the LATE state, and the difference between the two must be obvious side by side.
 
 Generate a single image to the description below.
 
@@ -210,5 +224,16 @@ Shin's face and picking out the red in her bound hair. She is exhausted beyond
 description and she is not sleeping, because she is afraid of what happens when
 she closes her eyes.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. AT THIS POINT THE COSTUME IS STILL STRUCTURALLY INTACT. Dirty and damp, days into the run, but NOT torn open and NOT falling apart. The forest has not finished with it yet — that is the LATE state, and the difference between the two must be obvious side by side.
 
 Deliver a single image at 9:16. It must look like a frame from a real film, not a generated image.

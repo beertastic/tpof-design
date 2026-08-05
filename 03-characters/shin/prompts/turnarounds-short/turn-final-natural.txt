@@ -1,7 +1,7 @@
 [SHIN — THE CLEARING — NATURAL]
 Output file: turn-final-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 171255c8 (short) · repo commit db4b9ef 2026-08-04 00:16
+Prompt version: afca8e37 (short) · repo commit 4f880c0 2026-08-05 16:30
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -15,7 +15,20 @@ photographed in a fitting room. Do not resemble any actor or public figure.
 
 You are thinking of the poised young woman in tailored dark Jedi dress with an orange lightsaber. THAT IS YEARS LATER. This Shin is FIFTEEN and has been a slave her whole life — filthy, exhausted, frightened. No weapon, no tailoring, no poise, and NOTHING may suggest she is becoming a warrior.
 
+RIGHT-HANDED — sides are given from THEIR own left/right.
+
 MUST BE TRUE OF THIS IMAGE:
+1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+9. HER MOTHER'S BLOOD IS ON HER: hands, forearms, the front of the tunic and ONE SIDE OF HER FACE, from holding her mother while she died. IT IS TRANSFER — where a person knelt and held someone — never arranged, never symmetrical, never a designer's hand. Fresh and wet in places, drying darker at the edges. It is the only thing that has changed.
+10. A SMALL DARK METAL CLASP is now fastened to her tunic WHERE SHE HAS PUT IT — not centred, not neat, not where a designer would place it. A raised EIGHT-POINTED SUN around a central ring, worn steel through a blackened finish. IT IS THE ONLY OBJECT SHE OWNS. Vala gave it to her in Sc.22 and she wears it for the rest of her life.
+11. APART FROM THE BLOOD AND THE CLASP, NOTHING HAS CHANGED from the destroyed state — same tears, same mud, same failing boot, same bound hair. A costume supervisor must be able to match this against the LATE plates piece for piece.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -27,3 +40,16 @@ LOOK: a real photograph of a real performer in a real, built costume.
 Used-future Star Wars — industrial salvage, nothing factory fresh, muted
 and sun-faded. Real skin with pores and lines. Not a render, not concept
 art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. SHE IS FIFTEEN. Nothing fitted, nothing shaped, no adult posing.
+  2. NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+  3. NO fastening worth anything. Cord and tied cloth only.
+  4. HER MOTHER'S HAND REPAIRS — mismatched thread, poor light.
+  5. FOOTWEAR MADE FOR FLOORS, and failing.
+  6. LONG RED HAIR, bound back with a strip of torn cloth.
+  7. NO COLOUR — undyed or the dye gone patchy. Bone, dust, ash.
+  8. FRIGHTENED and exhausted. NOT becoming a warrior.
+  9. HER MOTHER'S BLOOD — transfer, never stylised.
+  10. THE CLASP — pinned where SHE put it. Vala's, given in Sc.22.
+  11. EVERYTHING ELSE EXACTLY AS THE LATE STATE.

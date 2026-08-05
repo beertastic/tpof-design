@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — AS WE MEET HER — NATURAL POSE]
 Output file: turn-early-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 869f05ca · repo commit d55a1ab 2026-08-03 17:14
+Prompt version: dc2527d2 · repo commit 4f880c0 2026-08-05 16:30
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d55a1ab, prompt 869f05ca.
+    Working from commit 4f880c0, prompt dc2527d2.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -83,6 +83,19 @@ If you find yourself adding something because it feels correct for the
 name rather than because it is written below, that is the retrieval and
 it is exactly what has to be resisted.
 
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. AT THIS POINT THE COSTUME IS STILL STRUCTURALLY INTACT. Dirty and damp, days into the run, but NOT torn open and NOT falling apart. The forest has not finished with it yet — that is the LATE state, and the difference between the two must be obvious side by side.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
@@ -236,6 +249,17 @@ As we meet her — 6, 8, 11 — days into the run, before the forest has finishe
 
 Captivity clothing made for indoor domestic labour: a coarse, badly-dyed tunic over a plain under-top, and loose trousers. Everything unfitted and wrong-sized — nothing was cut for this body and nothing was chosen by her. Cloth is undyed or dyed so poorly the colour has gone patchy. No fastenings worth anything: cord and tied cloth, nothing manufactured. No useful pockets. Hand repairs in mismatched thread, made in poor light by her mother — those patches are the only care anyone has spent on it. Her footwear was made for floors, not forests, and is already beginning to fail. By this point it is dirty and damp but structurally intact. Her long red hair is bound back with a strip of torn cloth.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. AT THIS POINT THE COSTUME IS STILL STRUCTURALLY INTACT. Dirty and damp, days into the run, but NOT torn open and NOT falling apart. The forest has not finished with it yet — that is the LATE state, and the difference between the two must be obvious side by side.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

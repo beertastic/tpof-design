@@ -32,6 +32,16 @@ do_not_retrieve: >
   thinking of, it is wrong.
 
 
+# ADDED 2026-08-05 TO UNBLOCK HER. turnarounds.py refuses a character with no
+# `handedness:` — every weapon and armour placement resolves from it — and Shin
+# had none, which is why 29 of her images could not be generated.
+#
+# PROVISIONAL, AND IT MATTERS LESS FOR HER THAN FOR ANYONE ELSE: she carries no
+# weapon in this film and her costume has no asymmetric kit at all. It is set so
+# the tooling runs, and so that the ONE asymmetric thing she does acquire — her
+# mother's blood, on one side of her face — has a side to be on.
+handedness: right
+
 outfits:
   - id: early
     name: As we meet her
@@ -48,6 +58,61 @@ outfits:
       By this point it is dirty and damp but structurally intact. Her long red
       hair is bound back with a strip of torn cloth.
 
+    must_show:
+      # RULE 1 IN ALL THREE STATES, AND IT NEVER MOVES. These are full-figure
+      # studio images of a fifteen-year-old and the file's own absolute rule
+      # governs every one of them.
+      - check: SHE IS FIFTEEN. Nothing fitted, nothing shaped, no adult posing.
+        text: >
+          SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER.
+          NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or
+          shoulders as design language, NO artful tearing, NO adult posing, NO
+          make-up and NO styling of any kind. If the image would work as a
+          fashion photograph, it has failed.
+      - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+        text: >
+          CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was
+          hers by choice: a coarse badly-dyed tunic over a plain under-top, loose
+          trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO
+          jewellery, NO personal mark. NO stripes, NO numbers, NO institutional
+          uniform and NO shackles — she is labour, not an inmate.
+      - check: NO fastening worth anything. Cord and tied cloth only.
+        text: >
+          NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or
+          scrap, nothing manufactured and nothing that could be sold or
+          sharpened. NO useful pockets.
+      - check: HER MOTHER'S HAND REPAIRS — mismatched thread, poor light.
+        text: >
+          EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light
+          with no proper tools and mismatched thread. THEY ARE THE ONLY CARE
+          ANYBODY HAS SPENT ON HER, and after the finale they are all that is
+          left of Jeyin — so they must be VISIBLE and they must look like
+          somebody's hands did them.
+      - check: FOOTWEAR MADE FOR FLOORS, and failing.
+        text: >
+          HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled,
+          already giving way. She and her mother are the worst-equipped people in
+          the group and it shows first at her feet.
+      - check: LONG RED HAIR, bound back with a strip of torn cloth.
+        text: >
+          LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip
+          in every state. Never styled, never cut, never arranged.
+      - check: NO COLOUR — undyed or the dye gone patchy. Bone, dust, ash.
+        text: >
+          NO COLOUR: undyed, or dyed so badly the colour has gone patchy and
+          uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+      - check: FRIGHTENED and exhausted. NOT becoming a warrior.
+        text: >
+          SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO
+          poise, NO coiled readiness, NOTHING that suggests she is becoming a
+          warrior — that is years away and this film must not hint at it. She is
+          a child who has just seen the sky for the first time she can remember.
+      - check: INTACT — dirty and damp, but NOT yet destroyed.
+        text: >
+          AT THIS POINT THE COSTUME IS STILL STRUCTURALLY INTACT. Dirty and damp,
+          days into the run, but NOT torn open and NOT falling apart. The forest
+          has not finished with it yet — that is the LATE state, and the
+          difference between the two must be obvious side by side.
   - id: late
     name: Destroyed by the forest
     scenes: "16, 17, 18, 21, 22 — after days of running, mud and the ditch"
@@ -60,6 +125,78 @@ outfits:
       Her hair is filthier and more matted, still bound with the same cloth strip.
       Nothing has been replaced or added; it is the same clothing, further gone.
 
+    must_show:
+      # RULE 1 IN ALL THREE STATES, AND IT NEVER MOVES. These are full-figure
+      # studio images of a fifteen-year-old and the file's own absolute rule
+      # governs every one of them.
+      - check: SHE IS FIFTEEN. Nothing fitted, nothing shaped, no adult posing.
+        text: >
+          SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER.
+          NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or
+          shoulders as design language, NO artful tearing, NO adult posing, NO
+          make-up and NO styling of any kind. If the image would work as a
+          fashion photograph, it has failed.
+      - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+        text: >
+          CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was
+          hers by choice: a coarse badly-dyed tunic over a plain under-top, loose
+          trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO
+          jewellery, NO personal mark. NO stripes, NO numbers, NO institutional
+          uniform and NO shackles — she is labour, not an inmate.
+      - check: NO fastening worth anything. Cord and tied cloth only.
+        text: >
+          NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or
+          scrap, nothing manufactured and nothing that could be sold or
+          sharpened. NO useful pockets.
+      - check: HER MOTHER'S HAND REPAIRS — mismatched thread, poor light.
+        text: >
+          EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light
+          with no proper tools and mismatched thread. THEY ARE THE ONLY CARE
+          ANYBODY HAS SPENT ON HER, and after the finale they are all that is
+          left of Jeyin — so they must be VISIBLE and they must look like
+          somebody's hands did them.
+      - check: FOOTWEAR MADE FOR FLOORS, and failing.
+        text: >
+          HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled,
+          already giving way. She and her mother are the worst-equipped people in
+          the group and it shows first at her feet.
+      - check: LONG RED HAIR, bound back with a strip of torn cloth.
+        text: >
+          LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip
+          in every state. Never styled, never cut, never arranged.
+      - check: NO COLOUR — undyed or the dye gone patchy. Bone, dust, ash.
+        text: >
+          NO COLOUR: undyed, or dyed so badly the colour has gone patchy and
+          uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+      - check: FRIGHTENED and exhausted. NOT becoming a warrior.
+        text: >
+          SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO
+          poise, NO coiled readiness, NOTHING that suggests she is becoming a
+          warrior — that is years away and this film must not hint at it. She is
+          a child who has just seen the sky for the first time she can remember.
+      - check: DESTROYED BY THE FOREST — same garment, further gone.
+        text: >
+          THE SAME SINGLE COSTUME, BADLY DAMAGED. Mud to the knee and ground into
+          the weave, soaked and dried and soaked again, tears at the hem and
+          forearms from undergrowth, permanent staining, everything hanging
+          heavier and wetter. HER MOTHER'S REPAIRS ARE PULLING OPEN.
+      - check: ONE BOOT SPLIT AT THE SOLE — failing, not decorative.
+        text: >
+          ONE BOOT HAS SPLIT AT THE SOLE AND IS VISIBLY FAILING. It is a
+          practical failure, not a decorative one — she is walking on it.
+      - check: NOTHING ADDED. No new garment, no scavenged kit.
+        text: >
+          NOTHING HAS BEEN REPLACED OR ADDED. It is the same clothing, further
+          gone. She has picked nothing up, been given nothing, and improvised
+          nothing — she has no idea how to and nobody has offered.
+  # CONTINUITY CORRECTED 2026-08-05. The description below said "a small plain
+  # metal clasp". It is not plain — Vala's costume was built and photographed the
+  # same day and the clasp is a dark disc carrying a raised EIGHT-POINTED SUN
+  # around a central ring. See
+  # 03-characters/vala/reference/props/clasp-fitting-2026-08-05.jpg.
+  # THE TWO DESCRIPTIONS HAVE TO AGREE OR THE PLANT BREAKS: it is the same object
+  # changing hands on camera in Sc.22, and P3 turns on Shin still wearing it
+  # years later.
   - id: final
     name: The clearing
     scenes: "25 — and the first frame of the next film"
@@ -69,6 +206,75 @@ outfits:
       holding her mother while she died. Not stylised, not arranged — transfer,
       where a person knelt and held someone. Fresh and wet in places, drying
       darker at the edges. Everything else is exactly as it was in the previous
-      state. On the tunic, a small plain metal clasp is now fastened where she
+      state. On the tunic, a small dark metal clasp — a raised eight-pointed sun around a central ring — is now fastened where she
       has put it, the only object she owns. Her hair is still bound and still
       long. This is what she is wearing when she walks out of the clearing.
+    must_show:
+      # RULE 1 IN ALL THREE STATES, AND IT NEVER MOVES. These are full-figure
+      # studio images of a fifteen-year-old and the file's own absolute rule
+      # governs every one of them.
+      - check: SHE IS FIFTEEN. Nothing fitted, nothing shaped, no adult posing.
+        text: >
+          SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER.
+          NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or
+          shoulders as design language, NO artful tearing, NO adult posing, NO
+          make-up and NO styling of any kind. If the image would work as a
+          fashion photograph, it has failed.
+      - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+        text: >
+          CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was
+          hers by choice: a coarse badly-dyed tunic over a plain under-top, loose
+          trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO
+          jewellery, NO personal mark. NO stripes, NO numbers, NO institutional
+          uniform and NO shackles — she is labour, not an inmate.
+      - check: NO fastening worth anything. Cord and tied cloth only.
+        text: >
+          NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or
+          scrap, nothing manufactured and nothing that could be sold or
+          sharpened. NO useful pockets.
+      - check: HER MOTHER'S HAND REPAIRS — mismatched thread, poor light.
+        text: >
+          EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light
+          with no proper tools and mismatched thread. THEY ARE THE ONLY CARE
+          ANYBODY HAS SPENT ON HER, and after the finale they are all that is
+          left of Jeyin — so they must be VISIBLE and they must look like
+          somebody's hands did them.
+      - check: FOOTWEAR MADE FOR FLOORS, and failing.
+        text: >
+          HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled,
+          already giving way. She and her mother are the worst-equipped people in
+          the group and it shows first at her feet.
+      - check: LONG RED HAIR, bound back with a strip of torn cloth.
+        text: >
+          LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip
+          in every state. Never styled, never cut, never arranged.
+      - check: NO COLOUR — undyed or the dye gone patchy. Bone, dust, ash.
+        text: >
+          NO COLOUR: undyed, or dyed so badly the colour has gone patchy and
+          uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+      - check: FRIGHTENED and exhausted. NOT becoming a warrior.
+        text: >
+          SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO
+          poise, NO coiled readiness, NOTHING that suggests she is becoming a
+          warrior — that is years away and this film must not hint at it. She is
+          a child who has just seen the sky for the first time she can remember.
+      - check: HER MOTHER'S BLOOD — transfer, never stylised.
+        text: >
+          HER MOTHER'S BLOOD IS ON HER: hands, forearms, the front of the tunic
+          and ONE SIDE OF HER FACE, from holding her mother while she died. IT IS
+          TRANSFER — where a person knelt and held someone — never arranged,
+          never symmetrical, never a designer's hand. Fresh and wet in places,
+          drying darker at the edges. It is the only thing that has changed.
+      - check: THE CLASP — pinned where SHE put it. Vala's, given in Sc.22.
+        text: >
+          A SMALL DARK METAL CLASP is now fastened to her tunic WHERE SHE HAS PUT
+          IT — not centred, not neat, not where a designer would place it. A
+          raised EIGHT-POINTED SUN around a central ring, worn steel through a
+          blackened finish. IT IS THE ONLY OBJECT SHE OWNS. Vala gave it to her
+          in Sc.22 and she wears it for the rest of her life.
+      - check: EVERYTHING ELSE EXACTLY AS THE LATE STATE.
+        text: >
+          APART FROM THE BLOOD AND THE CLASP, NOTHING HAS CHANGED from the
+          destroyed state — same tears, same mud, same failing boot, same bound
+          hair. A costume supervisor must be able to match this against the LATE
+          plates piece for piece.

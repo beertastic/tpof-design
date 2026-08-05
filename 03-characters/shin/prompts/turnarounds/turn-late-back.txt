@@ -1,10 +1,10 @@
 [SHIN — TURNAROUND — DESTROYED BY THE FOREST — BACK]
 Output file: turn-late-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 9808f1d0 · repo commit d55a1ab 2026-08-03 17:14
+Prompt version: 8656285b · repo commit 4f880c0 2026-08-05 16:30
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit d55a1ab, prompt 9808f1d0.
+    Working from commit 4f880c0, prompt 8656285b.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -83,6 +83,21 @@ If you find yourself adding something because it feels correct for the
 name rather than because it is written below, that is the retrieval and
 it is exactly what has to be resisted.
 
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. THE SAME SINGLE COSTUME, BADLY DAMAGED. Mud to the knee and ground into the weave, soaked and dried and soaked again, tears at the hem and forearms from undergrowth, permanent staining, everything hanging heavier and wetter. HER MOTHER'S REPAIRS ARE PULLING OPEN.
+  10. ONE BOOT HAS SPLIT AT THE SOLE AND IS VISIBLY FAILING. It is a practical failure, not a decorative one — she is walking on it.
+  11. NOTHING HAS BEEN REPLACED OR ADDED. It is the same clothing, further gone. She has picked nothing up, been given nothing, and improvised nothing — she has no idea how to and nobody has offered.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
@@ -258,6 +273,19 @@ Destroyed by the forest — 16, 17, 18, 21, 22 — after days of running, mud an
 
 The same single costume, now badly damaged by the crossing. Mud to the knee and ground into the weave. Soaked and dried and soaked again. Tears at the hem and forearms from undergrowth. The hand repairs are pulling open. Permanent staining. One boot has split at the sole and is failing — visibly, not decoratively. Everything hangs heavier and wetter than it did. Her hair is filthier and more matted, still bound with the same cloth strip. Nothing has been replaced or added; it is the same clothing, further gone.
 
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FIFTEEN YEARS OLD AND SHE IS DRESSED AS A CHILD LABOURER. NOTHING fitted, NOTHING shaped to the body, NO exposed midriff or shoulders as design language, NO artful tearing, NO adult posing, NO make-up and NO styling of any kind. If the image would work as a fashion photograph, it has failed.
+  2. CAPTIVITY CLOTHING MADE FOR INDOOR DOMESTIC LABOUR, and none of it was hers by choice: a coarse badly-dyed tunic over a plain under-top, loose trousers, everything UNFITTED and WRONG-SIZED. NO ornament, NO trim, NO jewellery, NO personal mark. NO stripes, NO numbers, NO institutional uniform and NO shackles — she is labour, not an inmate.
+  3. NO FASTENING ON HER IS WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing that could be sold or sharpened. NO useful pockets.
+  4. EVERY REPAIR IS A HAND REPAIR AND HER MOTHER MADE THEM, in poor light with no proper tools and mismatched thread. THEY ARE THE ONLY CARE ANYBODY HAS SPENT ON HER, and after the finale they are all that is left of Jeyin — so they must be VISIBLE and they must look like somebody's hands did them.
+  5. HER FOOTWEAR WAS MADE FOR FLOORS, NOT FORESTS — thin, soft-soled, already giving way. She and her mother are the worst-equipped people in the group and it shows first at her feet.
+  6. LONG RED HAIR, BOUND BACK WITH A STRIP OF TORN CLOTH — the same strip in every state. Never styled, never cut, never arranged.
+  7. NO COLOUR: undyed, or dyed so badly the colour has gone patchy and uneven. Bone white, dust brown and ash. NEVER a saturated colour.
+  8. SHE IS FRIGHTENED AND EXHAUSTED AND IT READS ON HER. NO weapon, NO poise, NO coiled readiness, NOTHING that suggests she is becoming a warrior — that is years away and this film must not hint at it. She is a child who has just seen the sky for the first time she can remember.
+  9. THE SAME SINGLE COSTUME, BADLY DAMAGED. Mud to the knee and ground into the weave, soaked and dried and soaked again, tears at the hem and forearms from undergrowth, permanent staining, everything hanging heavier and wetter. HER MOTHER'S REPAIRS ARE PULLING OPEN.
+  10. ONE BOOT HAS SPLIT AT THE SOLE AND IS VISIBLY FAILING. It is a practical failure, not a decorative one — she is walking on it.
+  11. NOTHING HAS BEEN REPLACED OR ADDED. It is the same clothing, further gone. She has picked nothing up, been given nothing, and improvised nothing — she has no idea how to and nobody has offered.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

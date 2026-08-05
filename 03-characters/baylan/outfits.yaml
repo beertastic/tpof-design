@@ -31,7 +31,23 @@ handedness: right
 # and far below the ~15,000 where the host starts compressing earlier context.
 # 11,600 was left on the table deliberately — there is no A/B evidence above
 # 11,000, so the margin stays.
-prompt_budget: 11400
+# 12,000 from 2026-08-05, and THIS IS THE CEILING. It is the top of the
+# 7,000-12,000 working target recorded on BUDGET in short.py, so there is no
+# further raise available — every addition from here has to be paid for by a cut.
+#
+# The day added four rules the costume did not have this morning: whole-costume
+# grime, the split tails, the wrist-stop on the gauntlets, and a longer build
+# rule refusing a belly. At 11,400 that cost the panel RELIEF clause — "every
+# band stands proud with a thick cut edge that throws a real shadow" — which is
+# the exact thing the Production Designer had just asked for, plus the gauntlet
+# ribs and the height-must-read line.
+#
+#     11,400 -> cap 301, 93%      12,000 -> nothing trimmed, 100%
+#     11,700 -> cap 330, 97%
+#
+# Restatement was cut first on every previous raise and there is little left to
+# cut: what remains in the drop list at 11,400 is load-bearing.
+prompt_budget: 12000
 
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
 height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
@@ -103,8 +119,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, hanging no deeper than the belt above them is wide,
-      with a single short frayed rip up from the hem of one of them. Heavy boots,
+      centre front and back, hanging twice as deep as the belt above them is
+      wide, one of them split at the bottom into two hanging tails. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -637,8 +653,8 @@ outfits:
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEY ARE VERY SHORT — NO DEEPER THAN THE BELT ABOVE THEM IS
-          WIDE. Hold the belt's own width against them and they match it.
+          doubled. THEY HANG TWICE AS DEEP AS THE BELT ABOVE THEM IS WIDE — put
+          the belt's width against them twice over and that is their length.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -649,13 +665,29 @@ outfits:
       # does not maintain his kit, not a man dressed in wreckage. The panels have
       # softened and frayed at the edges; they have not come apart. Same
       # correction the costume needed at the very start — "used, not ruined".
-      - check: Panels WORN but WHOLE — soft frayed hem, never ragged or shredded.
+      # THE RIP HAS BEEN ASKED FOR FOUR TIMES AND HAS NEVER APPEARED. The rule
+      # was the reason, and it is the green-thread failure again: it said "one of
+      # them is RIPPED… a single straight tear… FRAYED along both edges" and then
+      # immediately "NO saw-tooth edge, NO torn-out chunks, NO hanging strips."
+      # Three hard negations about tearing, one sentence after the instruction to
+      # tear. The negations won every time.
+      #
+      # SO STOP DESCRIBING THE DAMAGE AND DESCRIBE THE SHAPE IT LEAVES. A slit a
+      # quarter up from the hem means the bottom of that panel hangs as TWO
+      # SEPARATE TAILS with a gap between them. Tails are a thing to draw;
+      # "ripped" is an event to simulate, and it was being simulated as general
+      # distress and then refused. The negations move to their own rule so they
+      # cannot sit next to it.
+      - check: ONE panel splits into TWO HANGING TAILS at the bottom.
         text: >
-          THE PANELS ARE WORN, AND ONE OF THEM IS RIPPED. On ONE panel only, a
-          single straight tear runs UP FROM THE HEM about a QUARTER of the
-          panel's depth — SHORT, and FRAYED along both edges of the tear. The
-          other panel is whole. Hems otherwise soft: NO saw-tooth edge, NO
-          torn-out chunks, NO hanging strips.
+          THE BOTTOM OF ONE PANEL IS DIVIDED INTO TWO SEPARATE TAILS. A straight
+          slit runs up from the hem about a QUARTER of that panel's depth, so its
+          lower edge hangs as TWO TONGUES OF CLOTH with a clear GAP between them,
+          one hanging slightly askew of the other. THE OTHER PANEL IS ONE
+          UNCUT PIECE.
+      - >
+        THE HEMS ARE SCUFFED AND SOFTLY FRAYED, and that is all: NO saw-tooth
+        edge, NO torn-out chunks, NO hanging strips, NOT shredded.
       # RETARGETED 2026-08-05. This was "THE SKIRT MUST NOT TURN HIM INTO A
       # JEDI, AND FIVE THINGS WOULD DO IT" — written to make a knee-length split
       # tunic safe. That garment is gone and two ragged hip panels carry no Jedi
@@ -714,11 +746,11 @@ outfits:
       # the edges were level, so the edge profile was free and the generator used
       # the freedom. Name it and it stops moving.
       - >
-        METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to
-        three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO
-        fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL,
-        never angled or flared. FOUR OR FIVE HEAVY STEPPED RIBS round the lower
-        half.
+        METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE
+        STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER
+        reaches the knuckles. From there to three-quarters up the forearm, a
+        ONE-PIECE OPEN-BACKED CUFF, THE SAME HEIGHT ALL ROUND, both edges CUT
+        STRAIGHT AND LEVEL. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
       # THE SCREEN POSITION MOVED TO THE OUTER FOREARM, 2026-08-05, to match the
       # build. It was "the inside of each wrist".
       #
@@ -766,11 +798,11 @@ outfits:
       # points at it instead of piling up adjectives.
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
-          BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened —
-          broad through the chest and shoulders, softened at the waist. NOT
-          obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND
-          THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man
-          who has thickened, never a short wide one.
+          BUILD: MATCH THE FULL-BODY PHOTOGRAPH AND DO NOT ADD WEIGHT TO IT. Big
+          and solid through the CHEST AND SHOULDERS, and only a little softened
+          at the waist — NO belly, NO paunch, NEVER rounded through the middle.
+          NOT overweight, NOT obese, NOT a caricature. HE IS 198 cm AND THE
+          HEIGHT MUST READ: long in the leg and long in the arm.
       - >
         LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight —
         no fighter's stance, no coiled readiness, no combat posture.

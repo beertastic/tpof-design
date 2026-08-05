@@ -284,6 +284,13 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float,
             for r in rows:
                 r = (r + [""] * cols)[:cols]
                 data.append([cell(c, st["cell"]) for c in r])
+            # A table with no rows at all cannot be rendered — reportlab raises
+            # "must have at least a row and column" and the whole PDF fails.
+            # Skip it rather than take the document down: an empty table carries
+            # no information, and losing a build guide because one section had
+            # nothing in it is a bad trade. Added 2026-08-05.
+            if not data:
+                continue
             # First column carries the label and wants the room.
             w0 = width * (0.34 if cols > 1 else 1.0)
             rest = (width - w0) / max(cols - 1, 1)

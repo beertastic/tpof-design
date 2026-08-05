@@ -107,9 +107,6 @@ outfits:
           YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water,
           torn edges, wet cloth hanging heavy, straps tightened into the same
           holes for two decades. Every repair done by hand, never in a workshop.
-      # DELIBERATELY NOT A "NO COLOUR" RULE — see the note below. This says what
-      # the build is, and stops it drifting further toward colour, without
-      # ruling on the conflict.
       # THE PALETTE CONFLICT IS RESOLVED, 2026-08-05, IN HER FAVOUR. The escapee
       # faction rule is "no colour — undyed, badly dyed, or dye long since gone",
       # and the built costume is definitely olive. The Production Designer:
@@ -146,6 +143,170 @@ outfits:
           SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled
           stance, no weapon held for the camera. Twenty years of being made to
           fight for other people has left competence without any appetite for it.
+
+    # ── LAYER BREAKDOWN ──────────────────────────────────────────────────
+    #
+    # ADDED 2026-08-05: "a breakdown is needed as it's quite layered."
+    #
+    # THIS ONE DOCUMENTS A COSTUME THAT EXISTS. Every other components: list in
+    # this repository is a SOURCING BRIEF — what to buy, where to look, what to
+    # avoid — because the costume has not been built. Vala's has. So this list
+    # is written to answer "what am I looking at, and in what order does it go
+    # on", which is the question a fitting photograph raises and cannot answer.
+    #
+    # `route` therefore records how each piece CAME TO EXIST, and `status: built`
+    # means the object is in the room. Where a piece would need re-making or
+    # duplicating for the shoot, the note says so.
+    #
+    # ORDER IS SKIN OUTWARD. That is the useful order for dressing, and it is
+    # the order the layers read in from the fitting photographs.
+    components:
+      - item: "Under-tunic — long, hangs below the jacket · layer 1"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Grey-brown, longer than the jacket over it, and visible as a curved
+          hem from mid-hip down. It is the only layer that reads as ordinary
+          clothing rather than as equipment, and it is what stops the jacket
+          reading as a jacket-over-nothing.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.30, 0.38, 0.75, 0.56]
+            caption: >-
+              The hem showing below the belted jacket. Longer at the back than
+              the front.
+
+      - item: "Cargo trousers — olive, tapered · layer 2"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Olive, tapered to the ankle, patch and cargo pockets on the thigh.
+          THIS IS THE PIECE THE PALETTE RULING IS ABOUT — the escapee faction
+          rule says no colour, and this is colour. Ruled in her favour
+          2026-08-05; see the note on the palette rule above.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.28, 0.50, 0.78, 0.76]
+            caption: The taper and the thigh pockets.
+
+      - item: "Calf wraps — sand cloth, both legs · layer 3"
+        route: made
+        qty: 2
+        status: built
+        note: >
+          Sand-coloured cloth wound from ankle to just below the knee, crossing
+          over itself. ONE OF THE TWO ARENA ELEMENTS — the faction document
+          specifies "reinforcement at the forearms and shins" and this is the
+          shins. Both legs, not one.
+          They will need re-wrapping between takes and should be photographed
+          wrapped before the shoot so the pattern can be repeated.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.28, 0.70, 0.78, 0.90]
+            caption: Both calves, crossing wrap, ankle to below the knee.
+
+      - item: "Boots — cream lace-up work boots · layer 4"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Cream or bone, lace-up, heavy soled. THEY ARE THE LIGHTEST THING ON
+          HER and currently read clean — they will need ageing down and mudding
+          for the forest, or they will pull the eye to her feet in every wide.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.25, 0.86, 0.80, 1.0]
+            caption: >-
+              As they stand — sound, clean, and much lighter than everything
+              else. The ageing is not done.
+
+      - item: "Bracer — laced brown leather, RIGHT forearm only · layer 5"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Laced brown leather, wrist to below the elbow. THE SECOND ARENA
+          ELEMENT, and it is ASYMMETRIC BY DESIGN — right forearm only, because
+          that is her lead side and the side that takes damage. Do not add a
+          second one for symmetry.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.20, 0.36, 0.48, 0.56]
+            caption: Right forearm, laced along the outside.
+
+      - item: "Fingerless gloves — olive · layer 6"
+        route: bought
+        qty: 1
+        status: built
+        note: Olive, fingerless, worn on both hands.
+
+      - item: "Jacket — grey-brown waxed canvas, belted · layer 7"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Distressed waxed canvas or suede, hip length, belted at the waist with
+          its own strap. The main body of the silhouette and the piece that
+          carries the "built to take damage, still holding" read.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+            crop: [0.22, 0.22, 0.82, 0.50]
+            caption: Belted at the waist, cut to the hip.
+
+      - item: "Chest rig — brown leather, pouches · layer 8"
+        route: bought
+        qty: 1
+        status: built
+        note: >
+          Worn over the jacket. Several small pouches and one larger flapped
+          bag. In the fitting it sits roughly horizontally across the chest; the
+          first generated plate arranged it as a diagonal bandolier. THE FITTING
+          IS CORRECT — decide and fix the arrangement before the other four
+          views, or it will differ in every one.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2316.jpg
+            crop: [0.10, 0.32, 0.95, 0.62]
+            caption: The pouches as fitted — the arrangement to match.
+
+      - item: "Shawl-cowl — heavy olive knit, frayed, tasselled · layer 9"
+        route: made
+        qty: 1
+        status: built
+        note: >
+          Coarse olive knit, deliberately frayed, hanging in long yarn tassels.
+          Worn over one shoulder and pulled up as a hood when needed. THE
+          SOFTEST AND MOST HAND-MADE THING ON HER, and the piece that makes her
+          read as somebody who has been surviving rather than fighting.
+          A DOUBLE WILL BE NEEDED if it gets wet or muddy on the shoot — knit
+          this heavy does not dry between set-ups.
+        images:
+          - src: 03-characters/vala/reference/fitting/fitting-2026-08-05-2316.jpg
+            crop: [0.10, 0.10, 1.0, 0.45]
+            caption: The drape, the fray and the tassels.
+
+      - item: "THE CLASP — dark disc, eight-pointed sun · layer 10"
+        route: made
+        qty: 1
+        status: built
+        note: >
+          Dark round disc, raised EIGHT-POINTED SUN around a central ring, worn
+          steel through a blackened finish, roughly the size of a large coin.
+          Pins the cowl at the shoulder.
+          THIS IS THE LONGEST-LIVED HERO PROP IN THE PROJECT. Planted-Elements
+          P3: Vala gives it to Shin in Sc.22, Shin wears it for the rest of her
+          life, and it is the object she looks at immediately after killing Vala
+          in Film 2.
+          REQUIRED OF IT: build a SECOND ONE before the shoot — it changes hands
+          on camera and one of them has to survive three productions. Photograph
+          both properly now, and ARCHIVE, never strike.
+        images:
+          - src: 03-characters/vala/reference/props/clasp-fitting-2026-08-05.jpg
+            crop: [0.0, 0.0, 1.0, 1.0]
+            caption: >-
+              The device, at the size it reads on camera. Eight points, central
+              ring, steel showing through where it has worn.
 
     # THE FITTING PHOTOGRAPH IS THE COSTUME AUTHORITY, wired in the way Shada's
     # and Jasu's approved fronts are. 2308 is the cleanest full-length front.

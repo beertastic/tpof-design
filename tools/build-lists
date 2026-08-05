@@ -256,7 +256,7 @@ def shop_sheet(char: str, title: str, outfits: list) -> tuple[str, int, int]:
               f"*{c.get('status', 'not-started').replace('-', ' ').capitalize()}.*",
               ""]
         L += figures(c)
-        rows = ["| | |", "|---|---|"]
+        rows = []
         if s.get("search"):
             terms = "  ·  ".join(f"`{t}`" for t in s["search"])
             rows.append(f"| **Search** | {terms} |")
@@ -264,7 +264,14 @@ def shop_sheet(char: str, title: str, outfits: list) -> tuple[str, int, int]:
                          ("spec", "Spec"), ("avoid", "Avoid")):
             if s.get(key):
                 rows.append(f"| **{lab}** | {clean(s[key])} |")
-        L += rows + [""]
+        # A bought item with no `shop:` block — already sourced, or already in
+        # the room — used to emit the header and separator with no rows under
+        # them. That is a zero-row table, and build-guide-pdf raised
+        # "must have at least a row and column" and produced no PDF at all.
+        # Found 2026-08-05 on Vala, the first character whose components: list
+        # documents a costume that already exists rather than one to buy.
+        if rows:
+            L += ["| | |", "|---|---|", *rows, ""]
     return "\n".join(L) + "\n", lo, hi
 
 

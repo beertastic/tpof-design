@@ -119,8 +119,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, as deep as his hand is long, one of them split at
-      the bottom into two hanging tails. Heavy boots,
+      centre front and back, their hem level with his fingertips, one of them
+      split at the bottom into two hanging tails. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -653,8 +653,8 @@ outfits:
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEY ARE AS DEEP AS HIS HAND IS LONG — his hands hang loose
-          right beside them, so lay the panel against his hand and they match.
+          doubled. THEIR HEM IS LEVEL WITH HIS FINGERTIPS — his arms hang loose at
+          his sides, and the bottom of each panel stops where his fingers end.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -798,11 +798,11 @@ outfits:
       # points at it instead of piling up adjectives.
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
-          TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING TO IT. Broad
-          through the shoulders and STRAIGHT THROUGH THE MIDDLE: NO belly, NO
-          paunch, NOT rounded at the waist, NOT heavy. IF HE LOOKS HEAVIER THAN
-          THE PHOTOGRAPH, THE IMAGE IS WRONG. HE IS 198 cm AND THE HEIGHT MUST
-          READ: long in the leg and long in the arm.
+          TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER
+          THAN IT — the shirt in that photograph is loose and reads heavier than
+          he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly:
+          the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE
+          HEIGHT MUST READ: long in the leg and long in the arm.
       - >
         LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight —
         no fighter's stance, no coiled readiness, no combat posture.
@@ -1080,8 +1080,8 @@ outfits:
         interesting — the absence IS the design.
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
-          TAKE HIS BUILD FROM THE PHOTOGRAPH EXACTLY AND ADD NOTHING. Broad
-          through the shoulders, STRAIGHT through the middle, NO belly. NOT obese,
+          TAKE HIS FACE AND FRAME FROM THE PHOTOGRAPH BUT MAKE HIM LEANER THAN
+          IT. Broad in the shoulders, FLAT through the stomach, NO belly. NOT obese,
           NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE
           HEIGHT MUST READ. The coat must NOT give him stature, authority or
           command presence — it is a big man's old coat, not a mantle.

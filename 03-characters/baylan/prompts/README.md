@@ -27,6 +27,7 @@ top of the prompt, then run:
 | `12-materials.txt` | `materials.png` | 5:4 | yes | — | — |
 | `13-coat.txt` | `coat.png` | 2:3 | yes | yes | yes |
 | `14-tone-collage.txt` | `tone-collage.png` | 2:3 | yes | — | — |
+| `15-gauntlets.txt` | `gauntlets.png` | 3:1 | yes | — | — |
 
 Generated from `Prompts.md` by `tools/prompt-splitter/split.py`.
 **Do not edit these files** — edit `Prompts.md` and regenerate.

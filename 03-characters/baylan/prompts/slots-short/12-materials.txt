@@ -1,12 +1,13 @@
 [BAYLAN — MATERIALS AND PALETTE]
 Output file: materials.png
 Aspect ratio: 5:4. Generate at that shape and never square unless it says 1:1.
-Prompt version: 852d6c05 (short) · repo commit b30bd8a 2026-08-05 12:04
+Prompt version: 8a2921aa (short) · repo commit fea35a9 2026-08-05 12:25
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/source/artwork/turn-working-front.png
   THE CHEST PANEL GEOMETRY ONLY — NOT THE GARMENT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg

@@ -3,19 +3,19 @@
 !!  GENERATOR. It is 5-8x over the working budget; the overflow is
 !!  dropped silently, from the middle, and nothing tells you.
 !!
-!!  PASTE THIS INSTEAD:  prompts/slots-short/12-materials.txt
+!!  PASTE THIS INSTEAD:  prompts/slots-short/15-gauntlets.txt
 !!
 !!  The one you want says (short) on its Prompt version line.
 !!  This file is the specification, for reading and editing.
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-[BAYLAN — SLOT 12 — MATERIALS AND PALETTE]
-Output file: materials.png
-Aspect ratio: 5:4  (landscape)
-Prompt version: 2e2d3ae5 · repo commit fea35a9 2026-08-05 12:25
+[BAYLAN — SLOT 15 — THE FOREARM KIT]
+Output file: gauntlets.png
+Aspect ratio: 3:1  (wide banner)
+Prompt version: f13d6241 · repo commit fea35a9 2026-08-05 12:25
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit fea35a9, prompt 2e2d3ae5.
+    Working from commit fea35a9, prompt f13d6241.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -199,36 +199,37 @@ uninteresting — but he can be still in a way nobody else can. Around this crew
 is genuinely at ease, and that ease is not part of the performance.
 
 === THIS IMAGE ===
-Materials reference board: physical swatches and close details on a neutral
-surface, evenly lit. Coarse insulated work fabric; worn reinforced synth-leather
-with visible stitching and repair; quilted padding at a re-shouldered seam; a
-patched dark undertunic panel showing an older, finer weave with a cross-wrapped
-edge and a shaped shoulder; weathered matte metal hardware; harness webbing;
-boot leather, resoled; a panel of the heavy dark robe cloth showing a repaired
-tear and an unpatched scorch. A short length of worn neck cord and a scrap of
-soft old pouch leather at one corner. Palette held to charcoal #2B2A26, ash brown
-#3A352F, dust brown #544E42, leather #6B5A47, faded tan #7C6F5B, faded
-olive #4F563F, weathered black #2E2F33, natural bone #BDAF95. Matte
-throughout, nothing reflective. The undertunic panel must be visibly a finer,
-older cloth than everything surrounding it.
+Product-reference layout on a plain neutral surface, evenly lit and sharp
+throughout: the matched pair of metal gauntlets, off the arms, standing
+upright side by side. The left one presents its outer face; the right one is
+turned to show the open back. Both fully in frame with clear space around
+them. Nothing else on the surface — no hands, no arms, no props, no scale card.
 
-THE GREEN THREAD IS ON THIS BOARD AND THIS IS WHERE IT LIVES. Include a
-close detail of a chevron panel edge — suede laid on canvas, the raised piped
-edge — sewn down in coarse hand-worked thread of a dark greyed-off green.
-This is the only place on the whole pack where that colour appears, and the
-camera is finally close enough for it to. It must be findable but never
-bright: worn through in places, some stitches faded to grey, some stretches
-resewn in plain dark thread and never matched. Nothing else on this board is
-green.
+THE CUFF IS THE SAME HEIGHT ALL THE WAY ROUND. Both edges are cut straight
+and level — a plain straight tube standing square on the surface, sitting flat
+without rocking. NEVER angled, NEVER flared, NEVER scalloped, NEVER pointed
+over the hand, and never taller on one side than the other. This is the single
+most important thing about their shape and it has drifted in every generation so
+far.
 
-Why it is specified here and not in the turnarounds. Twelve front
-turnarounds were run and not one produced any green at all — measured, mean
-colour bias 1.21 against 15–40 for a real green thread. It is not a
-full-length-plate detail: on a near-black costume at full figure a faded
-thread is invisible in a real photograph too, so the plates were being asked
-for something a plate cannot hold. It is a plant (Planted-Elements P5),
-so it still has to be right — it is checked here and on 05-detail_portrait,
-and it is built from outfits.yaml's description:.
+They are a one-piece open-backed cuff that slips on — no strap, no buckle, no
+hinge and no fastening of any kind — running from the wrist to about
+three-quarters up the forearm. The back is open down its whole length, a
+clean gap you can see through, not a seam and not a laced closure.
+
+Four or five heavy stepped ribs wrap the lower half, standing proud of the
+surface and casting real shadows; the upper half is plain. A small dark screen
+and a few worn buttons sit on the outer forearm above the ribs, recessed into
+the shell.
+
+They are tools, not armour, and they are the oldest-looking thing he owns.
+Filthy and dead dull — no shine, no chrome, no polish, nothing mirror-like.
+Scratched, dented and greasy, the finish worn off at every edge, darkened almost
+to the colour of his cloth. The screen is dark and dead: never white, never
+pale, never lit. A freight worker's kit for cargo manifests and lifting gear,
+scuffed and half dead. Nobody in frame finds them remarkable.
+
+No ornament, no insignia, no maker's mark, no engraving.
 
 
-Deliver a single image at 5:4. It must look photographed, not generated.
+Deliver a single image at 3:1. It must look photographed, not generated.

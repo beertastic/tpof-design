@@ -103,9 +103,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, ending level with the bottom of the holstered
-      blaster — about a third of the way from the belt to the knee — with a
-      single short frayed rip up from the hem of one of them. Heavy boots,
+      centre front and back, hanging no deeper than the belt above them is wide,
+      with a single short frayed rip up from the hem of one of them. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -340,10 +339,10 @@ outfits:
       # placement on the same shapes is what remaking it means.
       - check: Bands START AT THE SHOULDER and fill the TOP HALF, collar to belt.
         text: >
-          THE BANDS START AT HIS SHOULDERS AND FILL ONLY THE TOP HALF FROM COLLAR
-          TO BELT. The topmost is level with the shoulder seams, with only a
-          NARROW yoke above it — NEVER a broad empty field. PLAIN cloth fills the
-          whole bottom half down to the belt.
+          THE TOPMOST BAND TOUCHES THE SHOULDER SEAM — NO plain yoke above it
+          beyond a narrow strip, NEVER a broad empty field. THE LOWEST BAND ENDS
+          A FULL BELT'S WIDTH ABOVE THE BELT, with that much plain cloth between
+          the last chevron and the belt. The whole block sits HIGH on his chest.
       - >
         THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
         wide and open, never steep, and no chevron crosses the yoke above them.
@@ -638,8 +637,8 @@ outfits:
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEY END LEVEL WITH THE BOTTOM OF THE HOLSTERED BLASTER on his
-          right hip — about a third of the way from the belt down to his knee.
+          doubled. THEY ARE VERY SHORT — NO DEEPER THAN THE BELT ABOVE THEM IS
+          WIDE. Hold the belt's own width against them and they match it.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth

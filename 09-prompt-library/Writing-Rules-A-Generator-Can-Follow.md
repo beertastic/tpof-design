@@ -33,6 +33,38 @@ reaches the tall character's mid-thigh. A landmark works *because* it is specifi
 standardising it destroys the mechanism. See
 [`08-species/akk-dog/Creature.md`](../08-species/akk-dog/Creature.md).
 
+### 1b. When the note says "10 cm", find the 10 cm object already in the frame
+
+Added 2026-08-05, after **five** failed attempts to shorten one garment.
+
+The Production Designer asked for hip panels "about 10 cm" deep. Everything that
+described a *size* or a *position* failed, in a very consistent way:
+
+| Wording | Result |
+|---|---|
+| "Upper thigh only, barely past the seat" | mid-thigh |
+| "One third of the way from the belt to the knee" | two thirds |
+| "Level with the bottom of the holstered blaster" | **longer than before** |
+| "No deeper than the belt above them is wide" | *under test* |
+
+**Even a landmark fails if the landmark's own size is not fixed.** The holster
+is in every frame, which is why it looked like a good answer — but the generator
+draws the blaster at whatever size it likes, so "level with the bottom of it"
+inherits that variability. A landmark only works if **its size is pinned by
+something else.**
+
+**The belt is pinned.** It is specified as *broad salvaged leather*, it is drawn
+at a consistent width, it is directly above the thing being measured, and a
+broad belt is about 10 cm — so it IS the ruler the note was asking for. The same
+belt now fixes three separate measurements on this costume: the panel depth, the
+gap between the lowest chevron and the belt, and by extension the "10 cm higher"
+the chevron block was asked to move.
+
+**Method: convert the real-world figure into "about as big as X", where X is an
+object of known size that is already required to be in the picture.** It turns a
+measurement into a comparison, and comparison is the only spatial operation that
+has reliably worked on this project.
+
 ### 1a. A COUNT cannot hold a layout. The SIZE holds it, and the count follows
 
 Added 2026-08-05, after **nine** attempts at a five-band chevron panel that came

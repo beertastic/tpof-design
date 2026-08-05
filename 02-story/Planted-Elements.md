@@ -1,7 +1,7 @@
 ---
 title: "Planted Elements"
 asset_id: "STORY-PLANTED"
-version: "1.0"
+version: "1.1"
 status: "in-development"
 ---
 
@@ -194,18 +194,55 @@ effect dies.
 
 | In this film | Becomes |
 |---|---|
-| **The chevron plastron.** A centre-front panel narrower than his shoulders, throat to belt: five broad nested chevrons — each a **V** with its point low at the centre and its ends high at the sides, never an upward peak — **QUILTING** — the rows are seams stitched through a padded panel, not bands laid on it. Worn in every scene and read by everyone as a padded work garment | **The chest piece.** Later he remakes the same layout properly, in leather, as a formal piece. **Deliberately the same geometry** — the transfer is the layout, and what changes is the MAKE: quilting becomes appliqué, a seam becomes a band. Nothing is revealed — it is recognised |
-| **The green stitching.** The thread holding the chevron panels down is a dark, greyed-off green — the only colour on him. **Visible, but worn out in places: some rows still green, some faded, some resewn in plain thread and never matched.** It mattered once and has been let go | **The colour he is known for.** It was on him the whole time, as thread. Nobody watching Film 1 could name it; everybody rewatching can |
+| **The chevron plastron.** A BROAD panel across his chest, almost armhole to armhole, collar to below the belt. A **large plain yoke** fills its top half and ends in one wide V; below it **three to five** broad chevron bands, each a **V** with its point low at the centre, never an upward peak. The bands are **separate panels laid on and overlapping**, each with a raised piped edge. Worn in every scene and read by everyone as a patched-up work garment | **The chest piece.** Later he remakes the same layout properly, as a formal piece. **Deliberately the same geometry and the same construction** — what changes is the **MATERIAL**. See below |
+| **The green stitching.** The thread sewing the chevron panels down is a dark, greyed-off green — the only colour on him. **Barely noticeable: faded, worn through in places, some edges resewn in plain thread and never matched.** He has stopped maintaining it | **The colour he is known for** — and he **re-does it himself** when he comes back to the Force. The thread going bright again is the same man deciding he is worth the trouble. Nobody watching Film 1 could name the colour; everybody rewatching can |
 | **The long dark coat.** Weathered black, below the knee, worn open, scorched down his left side, repaired and never patched properly. Reads as ordinary mercenary weather gear | **The cloak.** Same garment, same silhouette, no ceremony attached to it yet |
 | **The blaster.** His own lightsaber, taken apart and rebuilt into something ugly because he could not look at it | **The hilt.** Every component in the later weapon was visible on the blaster. Sc.15 puts it back |
 | **The crystal.** Small, jagged, yellow, in a worn pouch against his skin | The blade that **finishes orange** in this film's last act |
+
+### THE TRANSFER IS THE MATERIAL — settled 2026-08-05
+
+**This replaces the mechanism the plastron row carried until today,** which was
+*"the transfer is the layout, and what changes is the MAKE: quilting becomes
+appliqué, a seam becomes a band."*
+
+That stopped working when the reference for the later tunic was obtained and
+this film's costume was corrected to match its construction — **both are applied
+overlapping panels now**, so there is no change of make left to carry the plant.
+The layout is the same, the construction is the same, and something still has to
+be different or a viewer has nothing to recognise.
+
+**IT IS THE MATERIAL, AND IT IS THE ONLY THING THAT CHANGES.**
+
+| Now | Later |
+|---|---|
+| Scrap suede and worn canvas — whatever came to hand, mismatched, cut from something else | **Proper leather, chosen and bought.** The same panels in a material he had to decide to acquire |
+| Piped edges rubbed bare, corners lifting, stitching let go | Made properly, once, by someone who meant it |
+| Green thread faded almost to nothing | **Green thread renewed** |
+
+**Why this is the better version of the plant.** The old mechanism asked the
+audience to notice a change of technique, which is a costume-department
+observation. **This one is legible to anyone**: it is the same coat, and he has
+finally bought decent material for it. The difference is not craft, it is
+whether he thinks he is worth the trouble — which is the arc.
+
+**And it makes the green thread do real work.** He re-does the stitching himself
+when he comes back to the Force. The thread is not just an object that carries
+forward; **it is the one thing on the costume he actively repairs**, and the
+repair is the moment.
+
+**P5's rule still governs.** Nothing may look deliberate. He is not saving the
+garment for later and he is not sentimental about it — it is simply the only
+chest piece he owns, and he stopped caring for it at the same time he stopped
+caring about everything else.
 
 ### Confirmed 2026-08-01
 
 | In this film | Becomes |
 |---|---|
 | **A wide, heavy belt.** Broad salvaged leather, plain heavy buckle, no decoration, cracked from use. It carries the holster | The belt he still wears. He needed one anyway; making it the *same* one is free |
-| **Metal gauntlets.** Both forearms, matched, wrist to three-quarters up the arm, clamshell, with a small dead screen and a few worn buttons at the inside of each wrist. A freight worker's kit for manifests and lifting gear | **The bracers.** The same object, cleaned up and given meaning. Changed from leather wraps 2026-08-04 |
+| **Metal gauntlets.** Both forearms, matched, wrist to three-quarters up the arm. A **one-piece open-backed cuff** that slips on with no fastening, **four or five heavy stepped ribs** round the lower half, and a small **dark, dead** screen with a few worn buttons on the **outer forearm**. A freight worker's kit for manifests and lifting gear | **The bracers.** The same object, cleaned up and given meaning. Changed from leather wraps 2026-08-04; form and screen position corrected to the printed build 2026-08-05 |
+| **The gauntlet screen is DEAD.** Dark, unlit, half broken — a tool he has stopped bothering to fix. Some of the crew have working lights on theirs and some do not, so his being dark is unremarkable and marks him as nothing | **The lit display.** The later bracers carry a working amber readout. **Same object, powered.** It belongs with the green thread: the things he lets die are the things he restores when he decides he is worth the trouble |
 
 The belt is in his `must_show` with an explicit warning: if it reads as
 decorative, or as armour, it is wrong. It is there because he needs it.
@@ -250,14 +287,32 @@ not hint that he becomes that man; it announces it, and `do_not_retrieve` exists
 to stop exactly that. **The gauntlets sit low in frame and read as tools. The
 shoulders would sit at eye line and read as rank.**
 
-### What the CRL confirmed, rather than changed
+### What the CRL confirmed — REVISED 2026-08-05
 
-**Five chevrons, and green.** The later vest carries *"five chevrons front and
-back"* with *"optional green gemstone accents"* — and this film already specified
-five nested chevrons and a dark greyed-off green thread as the only colour on
-him, both settled before anyone read the CRL. **Nothing needs changing.** The
-count and the colour were right, and the two plants now have an external check
-behind them.
+This section used to say *"nothing needs changing — the count and the colour were
+right."* Both claims have been softened by looking at the garment.
+
+**The count: the CRL says five, we say three to five, and that is deliberate.**
+Photographic references of the later tunic read as three, four or five bands
+depending on whether the yoke's lower edge and the piping are counted as
+outlines — the number is genuinely ambiguous in the object. **Eleven front
+turnarounds chased "exactly five" and never once produced it**, because five is
+not a countable feature of the thing. `outfits.yaml` now specifies THREE TO FIVE
+broad bands below the yoke.
+
+**These plates are inspiration, not construction drawings** — confirmed by the
+Production Designer 2026-08-05 — and the costume still has to be found and built
+from what can actually be sourced. **Three to five gets the feel, and the feel is
+what transfers.** If the build settles on an exact number, the plates do not need
+to be regenerated to match it.
+
+**The colour: ours is thread, theirs is stone.** The CRL specifies *"optional
+green gemstone accents"* — a different object in a different place. Our green is
+the thread sewing the panels down, which is our invention and not an external
+confirmation. **It rhymes with the CRL rather than matching it**, and that is
+fine: the plant only requires that green is the colour he is later known for.
+Stated honestly here because this section previously implied a corroboration it
+does not have.
 
 ### What must NOT carry forward
 
@@ -342,3 +397,4 @@ likes him.
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | 1.0 | 2026-07-30 | in-development | Register created. Four elements recorded from Production Designer notes. |
+| 1.1 | 2026-08-05 | in-development | **P5 rewritten against a reference for the later tunic.** The plastron is a broad panel with a large plain yoke and three to five applied overlapping bands, not five quilted rows on a narrow centre strip. **The transfer mechanism changed from MAKE to MATERIAL** — both costumes are applied panels now, so what differs is scrap suede and worn canvas against proper leather. The green thread is faded almost out and **he re-does it himself when he returns to the Force**, which makes it the one thing on the costume he actively repairs. Gauntlet form and screen position corrected to the printed build, and the dead screen added as a plant against the later lit readout. The CRL section no longer claims it confirmed the count or the colour: the count is ambiguous in the object and our green is thread where the CRL's is gemstone. |

@@ -37,6 +37,41 @@ leather goods and boots.
 
 ---
 
+## THE PLATES ARE INSPIRATION, NOT CONSTRUCTION DRAWINGS
+
+**Stated by the Production Designer, 2026-08-05, and it governs how hard any
+detail is worth chasing.**
+
+> *"As we also have to find and build this, we might be limited on what we can
+> do. But for these images, which are designed to be inspiration, we can be 3–5
+> and still get the feel."*
+
+The generated plates exist to carry **the feel** — silhouette, palette,
+condition, the way a garment sits on a body. They are what a maker looks at
+before starting. They are **not** dimensioned drawings and the build is not
+obliged to match them detail for detail, because the build is constrained by
+what can actually be sourced.
+
+**What this changes in practice:**
+
+- **A range beats a number when the number is not load-bearing.** Baylan's
+  chevron panel is specified as THREE TO FIVE bands, not five. Eleven front
+  turnarounds chased "exactly five" and never produced it — see
+  `Baylan-Image-TODO.md`. The count was not what the plate needed to carry.
+- **If the build lands on a different exact figure, the plates do NOT get
+  regenerated to match.** The plate did its job when the maker understood the
+  garment.
+- **It does not license drift on the things that ARE load-bearing** — handedness
+  and weapon placement, palette, the refusals in `do_not_retrieve`, and anything
+  named in `02-story/Planted-Elements.md`. Those are continuity, and a plate that
+  gets them wrong is wrong.
+
+**The test: would a different answer change what a maker does, or what the
+audience sees?** If neither, a range is the honest specification and chasing an
+exact figure is spending generations on nothing.
+
+---
+
 ## What 3D printing changes about the design
 
 Printing is not a neutral substitute for fabrication. It is good at some things

@@ -103,8 +103,9 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, reaching only a third of the way from the belt to
-      the knee. Heavy boots,
+      centre front and back, ending level with the bottom of the holstered
+      blaster — about a third of the way from the belt to the knee — with a
+      single short frayed rip up from the hem of one of them. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -617,9 +618,9 @@ outfits:
       - check: Panels reach ONE THIRD from belt to knee. ONE per hip, no layers.
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
-          FRONT AND BACK so his trousers show up the middle of him. NEVER
-          layered, NEVER doubled, NEVER joined. THEY REACH ONE THIRD OF THE WAY
-          FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER.
+          FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
+          doubled. THEY END LEVEL WITH THE BOTTOM OF THE HOLSTERED BLASTER on his
+          right hip — about a third of the way from the belt down to his knee.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -633,10 +634,10 @@ outfits:
       - check: Panels WORN but WHOLE — soft frayed hem, never ragged or shredded.
         text: >
           THE PANELS ARE WORN, AND ONE OF THEM IS RIPPED. On ONE panel only, a
-          single straight tear runs UP FROM THE HEM about two thirds of the
-          panel's depth, splitting it so the halves hang apart. The other panel
-          is whole. Hems otherwise soft and lightly frayed: NO saw-tooth edge, NO
-          torn-out chunks, NO hanging strips, NOT shredded.
+          single straight tear runs UP FROM THE HEM about a QUARTER of the
+          panel's depth — SHORT, and FRAYED along both edges of the tear. The
+          other panel is whole. Hems otherwise soft: NO saw-tooth edge, NO
+          torn-out chunks, NO hanging strips.
       # RETARGETED 2026-08-05. This was "THE SKIRT MUST NOT TURN HIM INTO A
       # JEDI, AND FIVE THINGS WOULD DO IT" — written to make a knee-length split
       # tunic safe. That garment is gone and two ragged hip panels carry no Jedi

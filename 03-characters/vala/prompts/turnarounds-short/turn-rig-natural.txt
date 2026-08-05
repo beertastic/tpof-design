@@ -1,7 +1,7 @@
 [VALA — THE REMNANTS OF A FIGHTING RIG, LAYERED FOR THE FOREST — NATURAL]
 Output file: turn-rig-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 1865db7b (short) · repo commit 0be9573 2026-08-05 16:43
+Prompt version: cdf17566 (short) · repo commit 1151666 2026-08-05 17:29
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -20,7 +20,7 @@ is attached, fetch these URLs instead — and say which route you used:
 RIGHT-HANDED — sides are given from THEIR own left/right. 172 cm (5 ft 8 in) — lean and wiry rather than heavy, built by twenty years of being made…
 
 MUST BE TRUE OF THIS IMAGE:
-1. BUILD THE FACE FROM THIS TEXT ALONE — an ordinary, unremarkable, plausible woman who could exist. The attached costume photograph is CROPPED BELOW THE CHIN ON PURPOSE: do NOT reconstruct or infer the person it came from, and do NOT resemble any actor or public figure. A woman in her forties, weathered, lean and wiry, hair pulled back out of the way and not styled.
+1. HER HAIR IS DARK BROWN, nearly black at the roots, dulled and dusty and long enough to tie back — kept out of the way, NEVER styled and NEVER loose and arranged. She is NOT fair or blonde. BUILD THE FACE FROM THIS TEXT ALONE: an ordinary, unremarkable, plausible woman in her forties, weathered, lean and wiry. The attached photograph is CROPPED BELOW THE CHIN ON PURPOSE — do NOT reconstruct or infer the person it came from, do NOT take her hair, and do NOT resemble any actor or public figure.
 2. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
 3. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
 4. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
@@ -46,7 +46,7 @@ and sun-faded. Real skin with pores and lines. Not a render, not concept
 art, not AI-looking.
 
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
-  1. INVENT THE FACE. Never reconstruct anyone from the reference.
+  1. DARK BRUNETTE, tied back. INVENT the face — never the reference's.
   2. NO gladiator, NO Roman, NO classical. Industrial and strapped.
   3. NO exposure, NO sexualisation. Covered, practical, functional.
   4. THE ARENA IS UNDERNEATH — bracer RIGHT forearm, wraps BOTH calves.

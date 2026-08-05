@@ -47,20 +47,33 @@ outfits:
       a blackened finish. That clasp is the object she gives Shin.
       Everything is years old and hand-repaired, and the forest is on top of it:
       mud, water, torn edges, wet cloth hanging heavy.
+      Her hair is dark brown, nearly black at the roots, dulled and dusty, long
+      enough to tie back and kept out of the way.
     must_show:
       # The Design Bible rejects this by name and the faction doc repeats it.
       # It leads because it is the failure this costume invites.
       # ADDED 2026-08-05. The reference no longer contains a face, but a rule that
       # depends on an attachment staying cropped is a rule waiting to break. This
       # states it independently, so it holds even if the reference changes.
-      - check: INVENT THE FACE. Never reconstruct anyone from the reference.
+      # HAIR SET TO DARK BRUNETTE 2026-08-05, and it is a PRIVACY FIX as much as
+      # a design one. The cropped fitting frames still show the actor's hair —
+      # long and fair, in a dozen of them — and the first generation copied it,
+      # because "NEVER THE HAIR" is a refusal with nothing to put in its place.
+      # A positive instruction beats a negation here as it does everywhere else
+      # on this project.
+      #
+      # It also separates her from Shin, who is explicitly long red, and dark
+      # hair sits better against the escapees' bone, dust and ash than fair does.
+      - check: DARK BRUNETTE, tied back. INVENT the face — never the reference's.
         text: >
-          BUILD THE FACE FROM THIS TEXT ALONE — an ordinary, unremarkable,
-          plausible woman who could exist. The attached costume photograph is
-          CROPPED BELOW THE CHIN ON PURPOSE: do NOT reconstruct or infer the
-          person it came from, and do NOT resemble any actor or public figure.
-          A woman in her forties, weathered, lean and wiry, hair pulled back out
-          of the way and not styled.
+          HER HAIR IS DARK BROWN, nearly black at the roots, dulled and dusty and
+          long enough to tie back — kept out of the way, NEVER styled and NEVER
+          loose and arranged. She is NOT fair or blonde.
+          BUILD THE FACE FROM THIS TEXT ALONE: an ordinary, unremarkable,
+          plausible woman in her forties, weathered, lean and wiry. The attached
+          photograph is CROPPED BELOW THE CHIN ON PURPOSE — do NOT reconstruct or
+          infer the person it came from, do NOT take her hair, and do NOT
+          resemble any actor or public figure.
       - check: NO gladiator, NO Roman, NO classical. Industrial and strapped.
         text: >
           NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO
@@ -345,8 +358,10 @@ outfits:
           frayed knitted cowl and its clasp, the bracer on her RIGHT forearm, the
           wraps on both calves, the olive cargo trousers and the cream boots.
           THERE IS NO FACE IN THIS PHOTOGRAPH — it is cropped below the chin on
-          purpose. Do NOT reconstruct, infer or imagine the person it was
-          cropped from. The face, hair, age and build are INVENTED FROM THE TEXT.
+          purpose. Do NOT reconstruct, infer or imagine the person it was cropped
+          from. THE HAIR VISIBLE IN IT IS NOT HERS EITHER: Vala is DARK BRUNETTE
+          and the hair in this frame is fair. Face, hair, age and build are all
+          INVENTED FROM THE TEXT.
           It is a FITTING under flat light against a white wall, with a sample
           tag still attached at one hip and no forest damage on it yet — the
           written rules win on DIRT, WEAR and WEATHER, which the garments have

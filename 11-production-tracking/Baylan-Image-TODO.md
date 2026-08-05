@@ -7,37 +7,51 @@ status: "open"
 
 # Baylan — Finish List
 
-> # PICK UP HERE — 2026-08-05
+> # PICK UP HERE — 2026-08-05, end of day
 >
-> **Nothing is approved. Eight front turnarounds have been run and none was
-> kept** — but the eighth pair found the chevron bug, and the rule is fixed.
+> **ELEVEN FRONTS RUN, NONE APPROVED, AND WORDS HAVE NOW LOST THE COUNT.** The
+> costume is otherwise finished — everything else on it is right.
 >
-> **THE FRONT IS THE GATE.** Everything downstream — the other views, the
-> fourteen slots, the boards, the build guide and the two build sheets — matches
-> against one approved image, and there isn't one yet.
+> ## THE ONE THING BLOCKING EVERYTHING
 >
-> **RUN THIS, regenerated 2026-08-05 against the rewritten rule 8:**
+> **THE CROPPED CHEST REFERENCE. The Production Designer authorised it
+> 2026-08-05 and the source still has not been supplied.** Nothing else is in
+> the way.
 >
->     03-characters/baylan/prompts/turnarounds-short/turn-working-front.txt
+>     -> 03-characters/baylan/reference/concept/chevron-geometry-source.png
 >
-> Attach these three, from `prompts/attach/working/`:
+> Chest only, cropped hard: no head, no shoulders-and-up, no full figure, no
+> robes, no hood, no silhouette. The brief, the scoping method and the reason
+> this is not a `do_not_retrieve` breach are all in
+> [`../03-characters/baylan/reference/concept/README.md`](../03-characters/baylan/reference/concept/README.md).
 >
->     1-face-build-1.jpg   2-face-build-2.jpg   3-face-build-3.jpg
+> **FIVE IS LOAD-BEARING — CONFIRMED 2026-08-05.** Six was offered and refused.
+> The later costume carries *"five chevrons front and back"*, so the count is a
+> continuity requirement and not an aesthetic preference. It cannot be specced
+> away.
+>
+> ## MEANWHILE, FIVE SLOTS ARE UNBLOCKED AND DO NOT TOUCH THE PANEL
+>
+> Run these now — none of them depends on an approved front:
+>
+> | Prompt | Attach from `prompts/attach/working/` |
+> |---|---|
+> | `prompts/slots-short/15-gauntlets.txt` | `15-gauntlets/` — 4 files |
+> | `prompts/slots-short/08-blaster.txt` | `08-blaster/` — 4 files |
+> | `prompts/slots-short/10-utility.txt` | `10-utility/` — 4 files |
+> | `prompts/slots-short/11-maintenance.txt` | `11-maintenance/` — 4 files |
+> | `prompts/slots-short/09-crystal.txt` | 3 face files. **NO kyber reference** |
 >
 > Fresh chat, tier High, and the reply must open with `Working from commit …,
 > prompt …`.
 >
-> **Count the bands before anything else.** If it is five, the width hypothesis
-> below is confirmed and the finding goes to
-> `09-prompt-library/Writing-Rules-A-Generator-Can-Follow.md` for every other
-> character. If it is not five, words have genuinely lost and the cropped
-> reference is the answer after all.
+> ## THE COAT IS DEPRIORITISED
 >
-> **The coat view is NOT the gate** and does not need rerunning to clear it — it
-> is slot 13, a separate removable garment. Its 2026-08-05 image is the best of
-> the eight but it is missing the harness straps and the ammunition pouches,
-> which its own rule 8 requires, and its belt and boots do not match the working
-> dress. Fix those when slot 13 comes up, not now.
+> **Confirmed 2026-08-05: get the working dress finished first.** The coat is
+> slot 13, a separate removable garment, and it is NOT the gate. Its image is
+> missing the harness straps and the ammunition pouches its own rule 8 requires,
+> and its belt and boots do not match the working dress. Fix all of that when
+> slot 13 comes up, not before.
 
 ---
 
@@ -146,21 +160,43 @@ reaching the generator whole.**
 
 ## Still open
 
-**THE CHEVRON COUNT — diagnosed 2026-08-05, fix untested.** Eight generations,
-never five in the working view. **It was never a disobedience problem; it was a
-trim problem** — see lesson 8. Rule 8 has been rewritten to put the width in its
-FIRST sentence, which `trim()` always keeps, and shortened to 232 characters so
-it survives whole at the current cap of 312. Coverage 88% → 91%.
+**THE CHEVRON COUNT — ELEVEN GENERATIONS, NEVER FIVE. WORDS HAVE LOST IT.**
 
-**The next generation tests this and nothing else.** If it comes back five, the
-cropped reference is not needed for the count and the finding generalises. If it
-does not, fall back to
-`03-characters/baylan/reference/concept/README.md`.
+The trim discovery was real and it bought a great deal: the bands now TOUCH,
+have no gaps, are correctly broad, are properly quilted, and the hand-stitching
+finally shows as stitching. **Every one of those came from clauses that had
+never been arriving.** But the count itself did not follow, and three separate
+rewordings after the fix did not move it:
 
-**The green stitching has never appeared.** It is a named plant in P5 — *"the
-colour he is known for… it was on him the whole time, as thread"* — and the
-quilting change should help, because the thread is now structural rather than
-trim. If it still does not show, it goes on the same reference.
+| Wording | Result |
+|---|---|
+| "EXACTLY FIVE bands" | 7 |
+| "…each a BROAD BAND A HAND'S WIDTH, touching" | 6 |
+| "…each ONE FIFTH OF THE PANEL'S HEIGHT" | 5 on the chest, then 2 more below the belt |
+| "…collar to lower edge, THE BELT CROSSES THE FOURTH" | 6, panel ending at the belt |
+
+**The tell is the panel extent, not the count.** Across three runs on
+effectively the same instruction it ended *above* the belt, then ran *through
+and below it*, then stopped *at* it. That is not a rule being misread — it is
+run-to-run variance on a layout the generator is not computing. It renders a
+plausible quilted panel at a plausible band pitch; it does not solve for a
+count, a fraction or a landmark.
+
+**So the eleventh front closes the argument the way the 2026-08-04 note opened
+it: only an image holds a shape.**
+
+**THE GREEN HAS NEVER APPEARED EITHER, AND THIS WAS MEASURED RATHER THAN
+EYEBALLED.** Scanning every row of the eleventh panel, peak green bias is 4.5
+and the mean is 1.74, where a genuinely green thread scores 15–40. There is no
+green anywhere; the value is JPEG noise.
+
+The rewrite that stopped the rules telling it to hide *did* work — the stitching
+is now visible as stitching, which it never was. What is missing is only the
+hue, and the likely reason is that **`DARK GREYED-OFF GREEN` puts two
+desaturating modifiers in front of the colour** and the generator is applying
+the modifiers and dropping the hue. Worth one attempt if a rewording is ever
+bundled with something else — but it is a named plant in P5, so **it goes on the
+same reference and stops being a wording problem.**
 
 **Cloak or coat. Recommended: coat.** P5 has the coat becoming the cloak, *"same
 garment, same silhouette, no ceremony attached to it yet"* — and a cloak carries

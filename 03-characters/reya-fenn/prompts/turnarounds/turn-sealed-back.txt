@@ -1,0 +1,229 @@
+[REYA FENN — TURNAROUND — PATROL ARMOUR, SEALED — BACK]
+Output file: turn-sealed-back.png
+Aspect ratio: 2:3  (tall, full figure)
+Prompt version: d1f8db5c · repo commit 7972e2d 2026-08-05 14:57
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit 7972e2d, prompt d1f8db5c.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
+
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+====================================================================
+THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
+FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.
+====================================================================
+
+NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a
+waist-up. If the feet are not in the frame, the image is unusable — this is
+a COSTUME record and the boots, the hem and the whole silhouette are the
+point. The head should occupy a small part of the frame.
+
+Deliver a single, plain, full-figure photograph on a seamless studio
+backdrop. It is raw material. The production boards are assembled from
+plates like this one by a separate tool, and anything you add here has
+to be removed before it can be used.
+
+ABSOLUTELY NOT, IN ANY FORM:
+  - NO text of any kind. No name, no title, no caption, no labels, no
+    headings, no annotation, no measurements, no height marks.
+  - NO logo, no watermark, no signature, no production branding.
+  - NO layout, no frame, no border, no vignette panel, no title bar.
+  - NO second view. One figure, one angle. No front-and-back pair, no
+    multi-view sheet, no turnaround strip, no contact sheet, no montage.
+  - NO inset head shots, no profile studies, no detail crops.
+  - NO material swatches, NO colour palette chips, NO prop call-outs.
+  - NO scale silhouette, no ruler, no grid.
+
+If the result looks like a designed page rather than a photograph taken
+in a costume fitting, it is wrong and cannot be used.
+
+NO ACTOR HAS BEEN CAST. There is no actor reference for this character,
+so cast the face yourself — build it from the written description and
+nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
+a handsome or striking one, and do not drift toward any actor you have seen
+play a similar part.
+
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
+
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
+
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
+them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+HEIGHT: 172 cm (5 ft 8 in) — lean and long-limbed, and it is the ARMOUR that makes her read big. Build the proportions to it — head size against body
+length, limb length, how heavily the figure stands. A figure alone on a plain
+backdrop gives the eye nothing to measure against, so it has to be in the body.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FULLY SEALED AND COMPLETELY FACELESS. Helmet on, visor down, no skin visible anywhere — throat, wrists and neck all closed. The audience must not be able to tell who, or what, is inside. SHE READS AS EQUIPMENT AND NOT AS A PERSON, and that is the entire purpose of this view.
+  2. NOTHING PERSONAL ON THE OUTSIDE. NO trophies, NO marks, NO decoration, NO taste, NO insignia. She should be indistinguishable from any other armoured figure in a doorway. This is the ONE costume in this faction that is deliberately anonymous, and it breaks the crew's own rule on purpose.
+  3. THE COSTUME ACTUALLY WORKS SEALED. Every join closes, every seam has a way of shutting, the helmet mates to the collar. Everybody else's kit is assembled and mismatched; HERS HAS TO CLOSE, and a costume supervisor must be able to see how.
+  4. SHE IS STILL WET. Water running off the plate, standing in the joints and the recesses, dripping from the edges, the underlayer soaked dark. She has been walking in it for hours and has just come indoors.
+  5. NO MILITARY UNIT READ. She is not a soldier and never was — NO rank, NO regulation webbing, NO modern tactical or SWAT language. This is expensive private kit worn by somebody who bought it herself.
+  6. THE RIFLE IS CARRIED IN BOTH HANDS, LOW AND UNREADY. No aiming, no combat stance, no heroic framing. She is fed up and coming off a shift.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
+
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
+
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
+
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
+
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
+
+=== VIEW ===
+The subject faces directly away from the camera, showing the whole of the back. Shoulders level and parallel to the frame. Head level, facing away.
+
+CRITICAL — THIS IS A ROTATION, NOT A MIRROR.
+The person has turned around. They have NOT been flipped horizontally.
+Because they have turned, THEIR RIGHT SIDE IS NOW ON THE VIEWER'S RIGHT
+and their left side is on the viewer's LEFT — the opposite of the front
+view, where their right was on the viewer's left.
+
+So in THIS image specifically:
+  - anything worn on THEIR RIGHT appears on the VIEWER'S RIGHT
+  - anything worn on THEIR LEFT appears on the VIEWER'S LEFT
+
+BOTH SIDES ARE VISIBLE in this view, so every asymmetric piece must be
+present — nothing is occluded by the body here.
+
+Frame position alone cannot prove this is right: a horizontal flip of the
+front view swaps the frame sides too. What proves it is ANATOMY. A real
+back view shows shoulder blades, the back seams of the garments, rear
+pockets and the back of the head. If any part of the face, the front
+closure or the centre-front fastening is visible, it is wrong.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== SKIN AND REALISM ===
+
+
+=== CHARACTER ===
+INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+
+Reya Fenn. Mercenary appearing in the Sabacc scene and final clearing sequence.
+
+NEEDS:
+
+- Species, age range, gender presentation
+- Build and silhouette — the shape read at distance, in one line
+- Distinguishing physical traits
+- Costume: layers, construction, what is protected and what is exposed, and why
+- Equipment carried, and what is deliberately absent
+- Movement and body language
+- The one sentence that separates them from everyone else in their faction
+
+=== THIS COSTUME ===
+Patrol armour, sealed — Her entrance, Sc.10 — and the pincer group in Sc.23
+
+FULL SEALED PATROL ARMOUR, helmeted and faceless. Hard plate over a sealed underlayer, gloves, boots, everything closed — the ONLY costume in this crew that shuts completely against weather. She is ANONYMOUS in it. In a doorway she is a trooper silhouette and nothing more: no personal marks, no trophies, no visible taste, no indication of who or even what is inside it. That anonymity is the point, because it is what the helmet coming off destroys. STILL WET. She has been out on patrol for hours in the rain — water running off the plate, standing in the joints, dripping onto the floor, the underlayer dark with it. Rifle carried in both hands, low and unready. Nothing about the pose is heroic; she is tired and coming in off a shift. Good kit, properly maintained, and none of it matching another crew member — but that individuality is HIDDEN under the sealed layer, which is the whole trick.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS FULLY SEALED AND COMPLETELY FACELESS. Helmet on, visor down, no skin visible anywhere — throat, wrists and neck all closed. The audience must not be able to tell who, or what, is inside. SHE READS AS EQUIPMENT AND NOT AS A PERSON, and that is the entire purpose of this view.
+  2. NOTHING PERSONAL ON THE OUTSIDE. NO trophies, NO marks, NO decoration, NO taste, NO insignia. She should be indistinguishable from any other armoured figure in a doorway. This is the ONE costume in this faction that is deliberately anonymous, and it breaks the crew's own rule on purpose.
+  3. THE COSTUME ACTUALLY WORKS SEALED. Every join closes, every seam has a way of shutting, the helmet mates to the collar. Everybody else's kit is assembled and mismatched; HERS HAS TO CLOSE, and a costume supervisor must be able to see how.
+  4. SHE IS STILL WET. Water running off the plate, standing in the joints and the recesses, dripping from the edges, the underlayer soaked dark. She has been walking in it for hours and has just come indoors.
+  5. NO MILITARY UNIT READ. She is not a soldier and never was — NO rank, NO regulation webbing, NO modern tactical or SWAT language. This is expensive private kit worn by somebody who bought it herself.
+  6. THE RIFLE IS CARRIED IN BOTH HANDS, LOW AND UNREADY. No aiming, no combat stance, no heroic framing. She is fed up and coming off a shift.
+
+
+Deliver a single image at 2:3. It must look photographed, not generated.

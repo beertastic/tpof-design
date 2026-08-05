@@ -1,0 +1,43 @@
+[REYA-FENN — PATROL ARMOUR, SEALED — BACK]
+Output file: turn-sealed-back.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: c4e7a1e9 (short) · repo commit 7972e2d 2026-08-05 14:57
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 172 cm (5 ft 8 in) — lean and long-limbed, and it is the ARMOUR that makes her read big
+
+MUST BE TRUE OF THIS IMAGE:
+1. SHE IS FULLY SEALED AND COMPLETELY FACELESS. Helmet on, visor down, no skin visible anywhere — throat, wrists and neck all closed. The audience must not be able to tell who, or what, is inside. SHE READS AS EQUIPMENT AND NOT AS A PERSON, and that is the entire purpose of this view.
+2. NOTHING PERSONAL ON THE OUTSIDE. NO trophies, NO marks, NO decoration, NO taste, NO insignia. She should be indistinguishable from any other armoured figure in a doorway. This is the ONE costume in this faction that is deliberately anonymous, and it breaks the crew's own rule on purpose.
+3. THE COSTUME ACTUALLY WORKS SEALED. Every join closes, every seam has a way of shutting, the helmet mates to the collar. Everybody else's kit is assembled and mismatched; HERS HAS TO CLOSE, and a costume supervisor must be able to see how.
+4. SHE IS STILL WET. Water running off the plate, standing in the joints and the recesses, dripping from the edges, the underlayer soaked dark. She has been walking in it for hours and has just come indoors.
+5. NO MILITARY UNIT READ. She is not a soldier and never was — NO rank, NO regulation webbing, NO modern tactical or SWAT language. This is expensive private kit worn by somebody who bought it herself.
+6. THE RIFLE IS CARRIED IN BOTH HANDS, LOW AND UNREADY. No aiming, no combat stance, no heroic framing. She is fed up and coming off a shift.
+
+SHOT: Facing directly away. A ROTATION, NOT A MIRROR — because they turned, THEIR RIGHT IS NOW ON THE VIEWER'S RIGHT, the opposite of the front view. BOTH SIDES VISIBLE, nothing occluded, every asymmetric piece present. Show shoulder blades, back seams, rear pockets, the back of the head. No face, no front closure.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. FULLY SEALED and FACELESS — she reads as equipment, not a person.
+  2. ANONYMOUS — no marks, no trophies, no personality at all.
+  3. IT CLOSES. The only kit in the crew that seals against weather.
+  4. STILL WET — hours of rain, water running off the plate.
+  5. NOT a soldier. No unit, no rank, no military read.
+  6. TIRED, never heroic. Rifle low and unready.

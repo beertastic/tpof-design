@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 7e3cc40f (short) · repo commit ba8a64a 2026-08-05 10:03
+Prompt version: 0382723f (short) · repo commit 4f38ee8 2026-08-05 10:33
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -36,15 +36,15 @@ MUST BE TRUE OF THIS IMAGE:
 11. THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED section of the garment and the five V rows are SEAMS STITCHED THROUGH IT, so the cloth DOMES softly between them. NO separate pieces laid on top, NO leather bands, NO hard edges and NO cast shadows.
 12. IF THE CHEVRONS READ AS PRINTED, PAINTED OR ABRADED ONTO THE CLOTH, THE IMAGE IS WRONG — and equally wrong if they read as a badge, a patch or an insignia. TONAL, DARK ON DARK: soft relief and shadow in the quilting, NEVER colour contrast, NEVER a stripe, NEVER a device.
 13. THE QUILTED PANEL IS WORN AND GRUBBY. Rubbed shiny along the ridges where the padding stands proudest, grimy in the hollows, the wadding flattened and dead in places from years of use. It is a work garment that has been slept in, not a made thing anyone is proud of.
-14. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. His chest is otherwise clear so the chevron panel reads uninterrupted.
-15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places.
-16. THE STITCHING IS WHAT HOLDS THE GARMENT TOGETHER, NOT DECORATION ON IT: every V row sewn in a DARK GREYED-OFF GREEN thread, coarse and hand-worked, puckering the cloth slightly as hand-quilting does. AT NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-17. THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or weathered bronze, findable only in close-up. NOTHING else on this costume is green: no cloth, no leather, no trim, no piping.
+14. NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a bandolier, not a sash, and NO buckle, ring or fitting anywhere on the sternum. The harness is TWO PLAIN STRAPS running straight down from the shoulders to the belt, parallel, close to the body, carrying nothing.
+15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
+16. THE V ROWS ARE SEWN IN DARK GREYED-OFF GREEN THREAD AND THE GREEN MUST BE VISIBLE — coarse, hand-worked, puckering the cloth as hand-quilting does. NOT bright, NOT a stripe, NOT decoration: it is the thread that holds the garment together.
+17. THE GREEN IS WORN OUT IN PLACES, AND THAT IS THE POINT. Some rows still carry it, some have faded to grey, some were resewn in plain dark thread and never matched. NEVER uniform and NEVER fresh — it mattered once and has been let go. NOTHING else on him is green.
 18. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those are on the layer above it. In these views it shows ONLY as a dark edge at the collar and at the cuff, a slightly finer and older weave than the garment over it.
 19. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, a plain heavy buckle with no decoration on it, darkened and cracked from years of use. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
 20. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
 21. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-22. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front. NO sash or obi.
+22. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front.
 23. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 24. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
 25. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm. A ONE-PIECE OPEN-BACKED CUFF that slips on, with NO strap, buckle or fastening. FOUR OR FIVE HEAVY STEPPED RIBS wrap the lower half.
@@ -55,7 +55,7 @@ MUST BE TRUE OF THIS IMAGE:
 30. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
 31. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
 32. 
-33. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight.
+33. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
 
 SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. THEY FACE THE VIEWER'S RIGHT — their nose, chest and toes all point to the RIGHT EDGE of the frame. If they face the left edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -77,8 +77,9 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   6. Chevrons START HIGH — first band at armpit height, small yoke above.
   7. QUILTED rows stitched through padding. Seams, NOT applied bands.
   8. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
-  9. Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
-  10. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
-  11. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
-  12. Build MATCHES the full-body photo. Big and solid, NOT obese.
-  13. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
+  9. The GREEN THREAD must be VISIBLE — worn out in places, never fresh.
+  10. Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
+  11. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
+  12. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
+  13. Build MATCHES the full-body photo. Big and solid, NOT obese.
+  14. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.

@@ -561,13 +561,22 @@ python tools/board-generator/generate.py baylan
   included. One costume across the whole pack.
 - **There are no Jedi robes in this pack at all.** The only garment that could be
   mistaken for one is his long dark coat, and every slot that shows it says so.
-- The blaster on his hip in slots 1–3 is the same object as in slots 9 and 12.
-- Every component visible in the reconstructing hilt (slot 12) was visible on the
-  assembled blaster (slot 9). Same object, different arrangement.
-- The cord at his neck in slots 5 and 12 leads to the pouch in slot 10.
-- The undertunic in slots 5, 12 and 13 is the same garment, same patches.
+- The blaster on his hip in slots 1–3 is the same object as in slots 8 and 11.
+- Every component visible in the reconstructing hilt (slot 11) was visible on the
+  assembled blaster (slot 8). Same object, different arrangement.
+- The cord at his neck in slots 5 and 11 leads to the pouch in slot 9.
+- The undertunic in slots 5, 11 and 12 is the same garment, same patches.
 - He gains no ornament, insignia or decoration between images. Ever.
-- He is never framed heroically and never looks powerful — until slot 12.
+- He is never framed heroically and never looks powerful — until slot 11.
+
+> **Renumbered 2026-08-05.** Every reference above from slot 8 up was one too
+> high — they were written against an older list that carried an extra slot
+> before `blaster.png`, and the removal shifted everything after it without the
+> notes being updated. The `## N.` headings were always correct; only these
+> cross-references were stale, which is the worse failure of the two because
+> they are what a reader checks continuity against. The staged attachment
+> folders (`08-blaster/`, `10-utility/`, `11-maintenance/`) are generated from
+> `outfits.yaml` and were never affected.
 
 ## Scene plates — beyond the board set
 

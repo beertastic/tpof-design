@@ -13,7 +13,25 @@ handedness: right
 # 11,000 after the hip plates were added 2026-08-04. Still inside the
 # 7,000-12,000 working target recorded on BUDGET in short.py, and well under the
 # ~15,000 where the host starts compressing earlier context.
-prompt_budget: 11000
+# 11,400 from 2026-08-05, and this one was MEASURED rather than guessed. The day
+# added the gauntlet rewrite, the belt relationship and the green-thread rules,
+# and the cap is violently non-linear at this point:
+#
+#     11,000 -> cap 288, 90%      11,400 -> cap 345, 96%
+#     11,200 -> cap 312, 93%      11,600 -> cap 406, 98%
+#
+# At 11,000 the file was dropping the RIFLE SLING clause — muzzle down, strap
+# over the left shoulder to the right hip — which is exactly the placement fact
+# `handedness:` exists to fix. 400 characters buys it back and six points of
+# coverage with it.
+#
+# Restatement was cut FIRST and the ceiling raised second: rules 7 and 25 lost
+# ~90 characters of prose that constrained nothing before this was touched.
+# 11,400 is still inside the 7,000-12,000 working target on BUDGET in short.py
+# and far below the ~15,000 where the host starts compressing earlier context.
+# 11,600 was left on the table deliberately — there is no A/B evidence above
+# 11,000, so the margin stays.
+prompt_budget: 11400
 
 # 198 cm. The tallest human in the film — only Merc 1, the Wookiee, is bigger.
 height: 198 cm (6 ft 6 in) — very tall, and broad and thickened with it. He fills a doorway and has to stoop under branches
@@ -79,7 +97,9 @@ outfits:
       the centre, each one fifth of the panel's height and touching the next so
       no cloth shows between them, filling it to the
       waist — QUILTED rows stitched through a padded panel, doming softly between
-      the seams, tonal and dark on dark, the thread a greyed-off green. The harness crosses over it. The undertunic beneath shows only as a dark
+      the seams, tonal and dark on dark, the thread a greyed-off green that is
+      visible but worn out in places — some rows still green, some faded, some
+      resewn in plain dark thread. The harness crosses over it. The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
       disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
@@ -288,15 +308,37 @@ outfits:
         under another garment. The two harness straps cross OVER it and break the
         run of the bands in places. That is correct: the bands read through and
         around them, and are never moved or shrunk to make room.
+      # REWRITTEN 2026-08-05 by the Production Designer, after NINE generations in
+      # which the green never appeared once.
+      #
+      # THE RULES WERE TELLING IT TO HIDE. "AT NORMAL DISTANCE IT MUST READ AS
+      # DARK THREAD AND NOTHING ELSE" and "findable only in close-up" are
+      # instructions to make the thread INVISIBLE in a full-length view, and a
+      # turnaround is a full-length view. The generator obeyed, nine times. This
+      # is the chevron finding again in a different costume: the rule was working
+      # exactly as written and the writing was wrong.
+      #
+      # THE NOTE THAT FIXED IT: "I NEED the green stitching, but it must be
+      # subtle — or missing in some places, like it was important but it's been
+      # let go."
+      #
+      # That converts an instruction-to-hide into a DESCRIBABLE POSITIVE FEATURE,
+      # which is prompt-library rule 2. "Subtle" is a quality the generator has to
+      # calibrate and will get wrong; "some rows still green, some faded, some
+      # resewn in plain thread" is a thing it can draw. And it is better
+      # storytelling than the original — a thread half worn away IS the man who
+      # stopped maintaining it, which is exactly what P5 asks the colour to mean.
+      - check: The GREEN THREAD must be VISIBLE — worn out in places, never fresh.
+        text: >
+          THE V ROWS ARE SEWN IN DARK GREYED-OFF GREEN THREAD AND THE GREEN MUST
+          BE VISIBLE — coarse, hand-worked, puckering the cloth as hand-quilting
+          does. NOT bright, NOT a stripe, NOT decoration: it is the thread that
+          holds the garment together.
       - >
-          THE STITCHING IS WHAT HOLDS THE GARMENT TOGETHER, NOT DECORATION ON
-          IT: every V row sewn in a DARK GREYED-OFF GREEN thread, coarse and
-          hand-worked, puckering the cloth slightly as hand-quilting does. AT
-          NORMAL DISTANCE IT MUST READ AS DARK THREAD AND NOTHING ELSE.
-      - >
-        THE STITCHING IS THE SINGLE POINT OF COLOUR ON HIM — old moss or
-        weathered bronze, findable only in close-up. NOTHING else on this costume
-        is green: no cloth, no leather, no trim, no piping.
+        THE GREEN IS WORN OUT IN PLACES, AND THAT IS THE POINT. Some rows still
+        carry it, some have faded to grey, some were resewn in plain dark thread
+        and never matched. NEVER uniform and NEVER fresh — it mattered once and
+        has been let go. NOTHING else on him is green.
       - >
         UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those
         are on the layer above it. In these views it shows ONLY as a dark edge at

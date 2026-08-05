@@ -161,18 +161,20 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
       `board-data.yaml` as a materials-list item and was missing from `Character.md`,
       `Character-Lock.md` and the prompt pack. Now specified as flexible metallic scale
       patches in place of rigid plates, with rigid plate added to the drift list.
-- [ ] **Do the crew's gauntlets carry practical lights?** Raised by the Production Designer
-      2026-08-05, when the printed gauntlets were delivered. The build has a small digital
-      display faked in as a bright unpainted panel, and the proposal is to add *"a few
-      lights to all gauntlets of the crew"*.
-      **This is a faction decision, not a Baylan one, and that is the whole point.** His
-      rule is `ABSOLUTELY NO ORNAMENT` and his characterisation is *"every other mercenary
-      in this crew is marked; he is not — the absence IS the design"*. A lit panel on
-      Baylan alone makes him the most conspicuous man in the frame and inverts the
-      characterisation. **Lit on everyone, he disappears into the crew, which is exactly
-      what he is trying to do** — it stops being a personal mark and becomes standard
-      issue, and it may even help him.
-      Until it is decided, every gauntlet rule says the screen is DARK AND DEAD with
-      nothing lit on it — `03-characters/baylan/outfits.yaml`, and the mercenary kit would
-      need the same treatment. **If it goes ahead it changes together or not at all.**
-      Affects: Baylan, `mercenary-kit`, and any crew member with forearm kit.
+- [x] ~~Do the crew's gauntlets carry practical lights?~~ **SOME DO, SOME DO NOT.** Settled
+      by the Production Designer 2026-08-05: *"lights are on some, not others… if a merc is
+      wearing a gauntlet, then it might have a light."*
+      **This is the answer that protects Baylan's characterisation**, and it is better than
+      either extreme. His rule is `ABSOLUTELY NO ORNAMENT` and *"every other mercenary in
+      this crew is marked; he is not"*. A lit panel on **him alone** would make him the most
+      conspicuous man in frame and invert that. Lit on **everyone**, an unlit gauntlet
+      becomes the odd one out and marks him just as surely, in the other direction. **Lit on
+      some, his dark screen is unremarkable in both directions** — which is the whole design
+      of the man.
+      So it is **kit variation, never a faction mark**. Not a rank, not a squad, not a
+      signal — salvaged gear that differs because it was salvaged separately. Do not let it
+      become a pattern that reads as meaning something.
+      **Baylan's stays DARK AND DEAD**, and that rule does not move —
+      `03-characters/baylan/outfits.yaml` rule 26. **No image regenerates for this**; it
+      applies when mercenary forearm kit is next specified.
+      Affects: `mercenary-kit` and any crew member with forearm kit. Baylan: no change.

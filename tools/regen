@@ -183,11 +183,22 @@ if [ -n "$APPROVED_VIEW" ]; then
     echo "  The $APPROVED_VIEW is approved and must NOT be regenerated. Every other"
     echo "  view now matches against it. Run them one at a time:"
     echo
-    for f in "$DIR"/prompts/turnarounds-short/turn-"$OUTFIT"-*.txt; do
-        case "$(basename "$f" .txt)" in
-            *-"$APPROVED_VIEW") continue ;;
-        esac
-        printf '       \033[36m%s\033[0m\n' "$ROOT/${f#./}"
+    # `turn-working-*` also matches `turn-working-coat-*`, which is a DIFFERENT
+    # outfit with its own views and its own attach folder. Ask python for the
+    # views that belong to this outfit rather than globbing for them.
+    VIEWS=$(python - "$DIR/outfits.yaml" "$OUTFIT" <<'PY' 2>/dev/null
+import sys, yaml
+d = yaml.safe_load(open(sys.argv[1], encoding="utf-8")) or {}
+outfits = d.get("outfits") or []
+o = next((x for x in outfits if x.get("id") == sys.argv[2]), {})
+approved = (o.get("approved") or {}).get("view", "")
+views = o.get("views") or ["front", "back", "left", "right", "natural"]
+print(" ".join(v for v in views if v != approved))
+PY
+)
+    for v in $VIEWS; do
+        f="$DIR/prompts/turnarounds-short/turn-$OUTFIT-$v.txt"
+        [ -f "$f" ] && printf '       \033[36m%s\033[0m\n' "$ROOT/${f#./}"
     done
     echo
     echo "  Fresh chat each time, tier High, paste the file as the first message."

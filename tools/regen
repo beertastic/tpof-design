@@ -159,18 +159,54 @@ if [ -n "$BLOCKING" ]; then
     exit 2
 fi
 
-echo
-b "NEXT — the front turnaround"
-echo
-echo "  1. Open a FRESH ChatGPT chat. Set the tier to High."
-echo "  2. Paste this whole file as your first message, nothing else:"
-echo
-printf '       \033[36m%s\033[0m\n' "$ROOT/${FRONT#./}"
-echo
 OUTFIT=$(basename "$FRONT" .txt | sed 's/^turn-//; s/-front$//')
+
+# ONCE A VIEW IS APPROVED, THE FRONT IS NOT THE NEXT STEP — the remaining views
+# are. Added 2026-08-05, on the first approval run this script had ever seen:
+# it congratulated the operator on locking the front and then told them to go
+# and generate the front.
+APPROVED_VIEW=$(python - "$DIR/outfits.yaml" "$OUTFIT" <<'PY' 2>/dev/null
+import sys, yaml
+try:
+    d = yaml.safe_load(open(sys.argv[1], encoding="utf-8")) or {}
+    o = next(x for x in (d.get("outfits") or []) if x.get("id") == sys.argv[2])
+    print((o.get("approved") or {}).get("view", ""))
+except Exception:
+    print("")
+PY
+)
+
+echo
+if [ -n "$APPROVED_VIEW" ]; then
+    b "NEXT — the remaining views ($OUTFIT $APPROVED_VIEW is LOCKED)"
+    echo
+    echo "  The $APPROVED_VIEW is approved and must NOT be regenerated. Every other"
+    echo "  view now matches against it. Run them one at a time:"
+    echo
+    for f in "$DIR"/prompts/turnarounds-short/turn-"$OUTFIT"-*.txt; do
+        case "$(basename "$f" .txt)" in
+            *-"$APPROVED_VIEW") continue ;;
+        esac
+        printf '       \033[36m%s\033[0m\n' "$ROOT/${f#./}"
+    done
+    echo
+    echo "  Fresh chat each time, tier High, paste the file as the first message."
+else
+    b "NEXT — the front turnaround"
+    echo
+    echo "  1. Open a FRESH ChatGPT chat. Set the tier to High."
+    echo "  2. Paste this whole file as your first message, nothing else:"
+    echo
+    printf '       \033[36m%s\033[0m\n' "$ROOT/${FRONT#./}"
+fi
+echo
 ATTACH="$DIR/prompts/attach/$OUTFIT"
 if [ -d "$ATTACH" ]; then
-    NFILES=$(find "$ATTACH" -type f ! -name MANIFEST.txt | wc -l)
+    # -maxdepth 1: the per-slot folders under here are COMPLETE alternatives to
+    # this one, not extras to add to it. Counting recursively told the operator
+    # to attach "all 29" of Baylan's when the answer was five, and the extra 24
+    # are slot references that must never reach a turnaround.
+    NFILES=$(find "$ATTACH" -maxdepth 1 -type f ! -name MANIFEST.txt | wc -l)
     echo "  3. Attach EVERY image in this folder — all $NFILES of them:"
     echo
     printf '       \033[36m%s\033[0m\n' "$ROOT/${ATTACH#./}"

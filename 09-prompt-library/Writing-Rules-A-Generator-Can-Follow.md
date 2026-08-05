@@ -33,6 +33,35 @@ reaches the tall character's mid-thigh. A landmark works *because* it is specifi
 standardising it destroys the mechanism. See
 [`08-species/akk-dog/Creature.md`](../08-species/akk-dog/Creature.md).
 
+### 1a. A COUNT cannot hold a layout. The SIZE holds it, and the count follows
+
+Added 2026-08-05, after **nine** attempts at a five-band chevron panel that came
+back with seven, then six.
+
+The rule said FIVE, and EXACTLY FIVE, and led with it, and was in the check
+block. It never worked. **The count was never the operative instruction.** Five
+bands filling a panel is a consequence of how wide a band is — so given the
+number alone, the generator satisfies it and then resolves the leftover space
+however it likes. That is not disobedience; **it is an underspecified layout.**
+
+**But the size must be expressed IN TERMS OF THE THING IT DIVIDES.** This is
+where the first attempt at the fix still failed:
+
+| Attempt | Result |
+|---|---|
+| "EXACTLY FIVE bands" | seven |
+| "EXACTLY FIVE, each a BROAD BAND A HAND'S WIDTH, touching" | **six** — broader, and touching, but still not five |
+| "EXACTLY FIVE, each band ONE FIFTH OF THE PANEL'S HEIGHT, so the five fill it exactly" | *under test* |
+
+A hand's width is rule 1's failure in a new costume: **a real-world unit against
+a body the generator is inventing.** Measured off the six-band image, the panel
+was ~512 px and the bands ~77 px — 512 ÷ 77 ≈ 6.6, so it picked a plausible band
+width and filled. Nothing was disobeyed.
+
+**"One fifth of the panel" makes the count and the size the same statement.**
+They can no longer disagree, and there is no unit to convert. Where a fixed
+number of things must fill a fixed space, **give the fraction, not the tally.**
+
 ---
 
 ## 2. Say it POSITIVELY. A prohibition alone has never been enough
@@ -97,9 +126,43 @@ before the generator saw them**:
 | The reptilian slit pupil | last clause of the face rule |
 | "Salvaged and worn, never machined" | last sentence of the longest rule in the file |
 | "Wet forest, forest clearing or the camp among the trees" | middle sentence of the exterior rule — so a whole shoot came back as desert |
+| "Each is a BROAD BAND A HAND'S WIDTH" and "They TOUCH: no cloth shows between them" | last two sentences of Baylan's chevron rule — **six generations were spent rewriting a rule whose operative clauses were never arriving** |
 
 **Write the sentence that does the work as the opening sentence.** If a rule has
 two load-bearing ideas, it is two rules.
+
+### 5a. Before rewriting a rule that keeps failing, check that it ARRIVED
+
+Added 2026-08-05. **A rule can fail because of a clause that was never sent.**
+Baylan's chevron count was rewritten six times, tightened, promoted and put in
+the check block, while the two sentences that actually controlled it were being
+cut every single run — and `short.py` had been printing the drop on every
+regeneration the whole time.
+
+**Read the trim report before touching the words.** `./tools/regen <character>`
+names every dropped sentence and gives the coverage percentage.
+
+### 5b. `trim()` ranks by SHOUTING, and it is case-sensitive
+
+The hard-negation detector is `\b(NOT|NEVER|NO|NOTHING|ONLY|ALWAYS|MUST)\b` with
+no `re.I`. **Lowercase negations are invisible to it** and rank as ordinary
+prose, so they are dropped first. *"not a thin stripe, not a painted line"* was
+cut for exactly this reason.
+
+This is **left as-is deliberately** — fixing the regex would change prompt output
+for every character including Shada's and Jasu's approved plates. It suits the
+house style anyway. **Shout the negation you cannot afford to lose.**
+
+### 5c. A reference's scope label is cut at 52 characters, first sentence only
+
+`_label()` keeps only the first sentence of a reference's `what:`, capped at 52
+characters. Everything after it is for the long prompts and **never reaches the
+short ones.**
+
+So the refusal goes in the first sentence, not after it. A photograph of an
+unpainted 3D print attached with the label *"THE BLASTER — SHAPE, PROPORTION AND
+COMPONENT LAYOUT"* is an instruction to make the weapon bare grey plastic. The
+working version is **`THE BLASTER — SHAPE ONLY, NEVER ITS COLOUR OR FINISH.`**
 
 ---
 

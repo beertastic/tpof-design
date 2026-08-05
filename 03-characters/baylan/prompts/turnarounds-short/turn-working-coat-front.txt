@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — FRONT]
 Output file: turn-working-coat-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: dd4eb9c7 (short) · repo commit 037a02f 2026-08-05 08:23
+Prompt version: b4180da7 (short) · repo commit ba8a64a 2026-08-05 10:03
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -29,7 +29,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else. It is the only colour on him, and nothing else on the costume or the coat is green — no panel, no cloth, no leather, no trim, no piping.
 5. THE COAT HAS A HOOD AND IT IS ALWAYS DOWN — folded soft at the back of the neck, sitting over the collar and the tops of the shoulders, reading as a heap of worn cloth. NEVER up, NEVER over his head, NEVER drawn forward, and NEVER a cowl. Down it is weather gear; up it is the man he becomes in eighteen years, and this film is not that film.
 6. UNDER THE COAT HE IS IN THE FULL WORKING DRESS. The top layer runs on into a SKIRT TO JUST ABOVE THE KNEE, split at both sides, same near-black cloth, hanging straight and visible below the coat's front edges. NO cream, NO wrap front, NO sash.
-7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm, a smooth clamshell shell with a small dead screen at the inside of each wrist. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
+7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
 8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the harness must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
 9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
 10. 

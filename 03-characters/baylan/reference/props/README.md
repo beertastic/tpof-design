@@ -95,6 +95,30 @@ generators are inconsistent about accepting it. **Save build photographs as
 `.jpg` or `.png`.** The filename also lost its space, because these get passed
 through shell tooling.
 
+### RULED ON, 2026-08-05
+
+All three conflicts below were put to the Production Designer and settled:
+
+**The screen stays SMALL, DARK AND DEAD — the rule does not change.** The bright
+near-white panel in the photograph is **a fake**: a stand-in for a small digital
+display, unpainted at the time the photograph was taken. It is a build artefact,
+not the design. **Anyone attaching this image must carry that caveat**, because
+without it the photograph instructs the generator to make the brightest object on
+the costume a glowing rectangle.
+
+**The form and the screen position change to match the build.** `outfits.yaml`
+rules 25 and 26 rewritten: a one-piece open-backed ribbed cuff, screen on the
+outer forearm. The repo rule applies — for anything physically built the
+photograph wins, so the words moved, not the object.
+
+**One thing left open, and it is not Baylan's.** The Production Designer is
+considering **practical lights on every gauntlet in the crew**. Logged in
+[`11-production-tracking/Open-Questions.md`](../../../../11-production-tracking/Open-Questions.md).
+It matters here because *"every other mercenary in this crew is marked; he is
+not"* — **a lit panel on Baylan alone inverts his characterisation, and a lit
+panel on everyone does not.** Standard issue is invisible. If it goes ahead it
+changes for the whole crew at once or not at all.
+
 ### NOT YET ATTACHED TO ANYTHING, AND THAT IS DELIBERATE
 
 It is on disk and it is not in `references:` or `slot_references:`. Two reasons,
@@ -107,25 +131,18 @@ image currently being used to test the chevron fix.** Adding a second variable
 to a single-variable test means the next result cannot be attributed to either
 change. It goes on after the front is approved.
 
-**2. The build and the written rule disagree in three ways**, and attaching the
-photograph settles all three silently, in the picture's favour. That is Baylan
-lesson 6 exactly — *"rules can arrive whole and still lose to each other, and
-the picture won every time."* **These need a ruling before the image is wired
-in, not after.**
+**2. The screen is a fake and the photograph does not say so.** The rules now
+match the build on form and position, so that conflict is gone — but the bright
+panel remains, and it is the one thing in the frame that must NOT be copied. It
+goes on with the scope line below or it does not go on at all.
 
-| | The written rule | The build |
-|---|---|---|
-| **Form** | *"a smooth clamshell shell closing with no visible fastening"* | Not smooth and not a clamshell — a one-piece open-backed tube with **four or five heavy stepped ribs** around the lower half |
-| **Screen** | *"a SMALL DARK screen and a few worn buttons… scuffed and half dead, **with nothing lit on it**"* | A **large, bright, near-white** screen with a pale keypad below it. It reads as lit and as the brightest thing on the costume |
-| **Position** | *"at the INSIDE of each wrist"* | High on the **broad outer face**, nearer the elbow than the wrist |
+The three conflicts as they stood, for the record:
 
-**The screen is the one that matters.** Rule 2 is *ABSOLUTELY NO ORNAMENT* and
-rule 26 is *"nobody in frame finds them remarkable"*; his entire characterisation
-is *"the absence IS the design."* A glowing white rectangle on each forearm is
-the most eye-catching object on a near-black costume, and it is the first thing
-an audience would look at. **Either the print gets painted down — screen dulled
-to near-black, keypad knocked back — or the rule changes to admit a lit screen
-and the characterisation takes the hit.**
+| | The written rule | The build | Resolved |
+|---|---|---|---|
+| **Form** | *"a smooth clamshell shell closing with no visible fastening"* | A one-piece open-backed tube with **four or five heavy stepped ribs** around the lower half | **Rule changed to the build** |
+| **Screen** | *"a SMALL DARK screen… **with nothing lit on it**"* | A **large, bright, near-white** panel with a pale keypad | **Rule stands** — the panel is an unpainted stand-in for a small digital display |
+| **Position** | *"at the INSIDE of each wrist"* | High on the **broad outer face** | **Rule changed to the build** |
 
 The palette is otherwise **right, and better than the blaster's**: the print is
 black, on-palette, so it does not carry the bare-grey finish risk. What it does
@@ -135,10 +152,15 @@ matte spray before it is photographed on the actor.
 
 ### When it is wired in, it needs this scope line
 
-> *Authoritative for the GAUNTLETS' SHAPE, PROPORTION AND RIBBING ONLY. NOT an
-> authority on FINISH: they are DEAD DULL, filthy, scratched and greasy, with the
-> finish worn off at every edge. NOTHING on them is glossy, bright or lit.*
+> *THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SCREEN.
+> The ribbed one-piece open-backed cuff and the panel on the outer forearm.
+> NOT an authority on FINISH: they are DEAD DULL, filthy, scratched and greasy,
+> the finish worn off at every edge, and nothing on them is glossy or bright.
+> **THE WHITE SCREEN IN THIS PHOTOGRAPH IS AN UNPAINTED STAND-IN AND MUST NOT BE
+> COPIED** — the screen is small, DARK and DEAD, never white, never pale, never
+> lit.*
 
-**And the label is capped at 52 characters**, so the refusal has to be inside the
-first sentence or it will not arrive — see the note on `slot_references:` in
-`outfits.yaml`. `THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SHINE.` fits.
+**The label is capped at 52 characters and keeps only the first sentence**, so
+the refusal has to be the opening line or it will not arrive — see the note on
+`slot_references:` in `outfits.yaml` and rule 5c in the prompt library.
+`THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SCREEN.` is 50 and fits.

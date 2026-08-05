@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — LEFT]
 Output file: turn-working-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 5036fc9e (short) · repo commit 037a02f 2026-08-05 08:23
+Prompt version: da211d44 (short) · repo commit ba8a64a 2026-08-05 10:03
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -29,8 +29,8 @@ MUST BE TRUE OF THIS IMAGE:
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS NARROWER THAN HIS SHOULDERS. NEVER shoulder to shoulder, and NEVER a flat graphic across the chest. It does NOT reach the shoulder seams, the armholes or the arms — there is plain garment either side of it.
-7. THE CHEVRON PANEL IS PART OF THE GARMENT AND ITS LOWER EDGE FINISHES JUST BELOW THE BELT — about a hand's width below it, and no further. It is NOT a tabard, NOT an apron, NOT a surcoat and NOT a hanging front piece of cloth, and it NEVER reaches the thigh.
-8. FIVE NESTED CHEVRONS, EXACTLY FIVE, EACH A BROAD BAND A HAND'S WIDTH AND TOUCHING THE NEXT — NO cloth between them, NO thin stripes. EACH IS A "V": its ends sit HIGH at the sides, its point LOW at the centre. NEVER an upturned "^", NEVER a peak, NEVER a roof.
+7. THE CHEVRON PANEL IS PART OF THE GARMENT AND THE BELT CROSSES OVER IT. Its lower edge runs BEHIND the belt and finishes below it — NEVER above it, and NEVER with plain cloth between the last chevron and the buckle. NOT a tabard and NEVER to the thigh.
+8. FIVE NESTED CHEVRONS, EXACTLY FIVE, EACH BAND ONE FIFTH OF THE PANEL'S HEIGHT so the five FILL IT EXACTLY — NO cloth between them, NO thin stripes. EACH IS A "V": its ends sit HIGH at the sides, its point LOW at the centre. NEVER an upturned "^", NEVER a peak, NEVER a roof.
 9. THE CHEVRONS START HIGH, AT THE TOP OF THE CHEST. The first band begins at about armpit height and they fill DOWNWARD from there. The plain rounded area above them is SMALL — a shallow yoke just under the throat, never a broad empty field of cloth.
 10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
 11. THE CHEVRONS ARE QUILTING, NOT APPLIED BANDS. The panel is a PADDED section of the garment and the five V rows are SEAMS STITCHED THROUGH IT, so the cloth DOMES softly between them. NO separate pieces laid on top, NO leather bands, NO hard edges and NO cast shadows.
@@ -47,8 +47,8 @@ MUST BE TRUE OF THIS IMAGE:
 22. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front. NO sash or obi.
 23. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 24. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
-25. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to about three-quarters up the forearm, a smooth clamshell shell closing with no visible fastening.
-26. THE GAUNTLETS ARE TOOLS, NOT ARMOUR. A small dark screen and a few worn buttons sit at the inside of each wrist — a freight worker's kit for cargo manifests and lifting gear, scuffed and half dead, with nothing lit on it. Nobody in frame finds them remarkable.
+25. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm. A ONE-PIECE OPEN-BACKED CUFF that slips on, with NO strap, buckle or fastening. FOUR OR FIVE HEAVY STEPPED RIBS wrap the lower half.
+26. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD — NEVER white, NEVER pale, NEVER glowing. A small screen and worn buttons sit on the OUTER FOREARM above the ribs, scuffed and half dead. NOTHING about them is remarkable.
 27. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
 28. 
 29. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
@@ -72,8 +72,8 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. Blaster his RIGHT hip, UGLY and heavily modified. Pouches his LEFT.
   2. The long coat is OFF — harness, belt and holster all visible.
   3. Chevron panel NARROWER than his shoulders, plain cloth either side.
-  4. Panel ENDS just below the belt — NOT a tabard, never to the thigh.
-  5. EXACTLY FIVE bands, each a hand's width and TOUCHING. Point LOW at centre.
+  4. Panel runs BEHIND the belt and ends below it. Never above it.
+  5. EXACTLY FIVE bands, each a FIFTH of the panel, TOUCHING. Point LOW.
   6. Chevrons START HIGH — first band at armpit height, small yoke above.
   7. QUILTED rows stitched through padding. Seams, NOT applied bands.
   8. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.

@@ -161,3 +161,18 @@ See [`02-story/Planted-Elements.md`](../02-story/Planted-Elements.md).
       `board-data.yaml` as a materials-list item and was missing from `Character.md`,
       `Character-Lock.md` and the prompt pack. Now specified as flexible metallic scale
       patches in place of rigid plates, with rigid plate added to the drift list.
+- [ ] **Do the crew's gauntlets carry practical lights?** Raised by the Production Designer
+      2026-08-05, when the printed gauntlets were delivered. The build has a small digital
+      display faked in as a bright unpainted panel, and the proposal is to add *"a few
+      lights to all gauntlets of the crew"*.
+      **This is a faction decision, not a Baylan one, and that is the whole point.** His
+      rule is `ABSOLUTELY NO ORNAMENT` and his characterisation is *"every other mercenary
+      in this crew is marked; he is not — the absence IS the design"*. A lit panel on
+      Baylan alone makes him the most conspicuous man in the frame and inverts the
+      characterisation. **Lit on everyone, he disappears into the crew, which is exactly
+      what he is trying to do** — it stops being a personal mark and becomes standard
+      issue, and it may even help him.
+      Until it is decided, every gauntlet rule says the screen is DARK AND DEAD with
+      nothing lit on it — `03-characters/baylan/outfits.yaml`, and the mercenary kit would
+      need the same treatment. **If it goes ahead it changes together or not at all.**
+      Affects: Baylan, `mercenary-kit`, and any crew member with forearm kit.

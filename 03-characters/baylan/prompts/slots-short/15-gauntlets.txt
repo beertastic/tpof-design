@@ -1,0 +1,53 @@
+[BAYLAN — THE FOREARM KIT]
+Output file: gauntlets.png
+Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
+Prompt version: e65575a0 (short) · repo commit b555398 2026-08-05 10:41
+
+NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
+
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
+  THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SCREEN: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/props/gauntlets-build-2026-08-05.jpg
+  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.
+  Take the FACE and BUILD from the actor images only.
+  Say whether you used an attached file or a URL. If neither worked, stop.
+
+THE SHOT:
+Added 2026-08-05, and APPENDED rather than inserted. It belongs with the
+props at 8–10, but putting it there would renumber everything after it — which
+is exactly the failure that left the continuity notes above stale for weeks,
+and would break the staged folders 08-blaster/, 10-utility/ and
+11-maintenance/. Position in this list is an address, not a ranking.
+
+Product-reference layout on a neutral surface, evenly lit: the matched pair of
+metal gauntlets, off the arms, one shown from the outer face and one turned to
+show the open back.
+
+They are a one-piece open-backed cuff that slips on — no strap, no buckle, no
+fastening of any kind — running from the wrist to about three-quarters up the
+forearm. Four or five heavy stepped ribs wrap the lower half; the upper half
+is plain. A small dark screen and a few worn buttons sit on the outer forearm
+above the ribs.
+
+They are tools, not armour, and they are the oldest-looking thing he owns.
+Filthy and dead dull — no shine, no chrome, no polish, nothing mirror-like.
+Scratched, dented and greasy, the finish worn off at every edge, darkened almost
+to the colour of his cloth. The screen is dark and dead: never white, never
+pale, never lit. A freight worker's kit for cargo manifests and lifting gear,
+scuffed and half dead. Nobody in frame finds them remarkable.
+
+No ornament, no insignia, no maker's mark, no engraving.
+
+CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
+the face must be identical in every panel — same garment, same fastenings, same
+metal in the same places on the same sides. Panels that disagree with each other
+have failed, however good they look individually. If an asymmetric item sits on
+one side in one panel it sits on that same side of the body in all six.
+
+Every panel obeys the costume rules above. The rules do not relax because a
+panel is small.
+
+LOOK: a real photograph of real people in real, built costumes. Used-future Star Wars — industrial salvage, nothing factory fresh, muted and sun-faded. Real skin with pores and lines. Not a render, not concept art, not AI-looking.

@@ -185,11 +185,10 @@ outfits:
       - check: Panel runs BEHIND the belt and ends below it. Never above it.
         text: >
           THE CHEVRON PANEL IS PART OF THE GARMENT AND THE BELT CROSSES OVER IT.
-          Its lower edge runs BEHIND the belt and finishes below it — NEVER above
-          it, and NEVER with plain cloth between the last chevron and the buckle.
-          NOT a tabard and NEVER to the thigh. It runs down the CENTRE FRONT with
-          a stitched edge bounding it at each side, and the hip plates below are a
-          SEPARATE metal thing that never merges into it.
+          Its lower edge runs BEHIND the belt and finishes a little below —
+          NEVER above it, and NEVER with plain cloth between the last chevron and
+          the buckle. Only ONE band shows below the belt, NOT a second run.
+          NOT a tabard, NEVER to the thigh.
       # REWRITTEN 2026-08-05, after the EIGHTH front came back with SEVEN bands
       # while the coat view — same panel, same day — came back with five.
       #
@@ -235,12 +234,30 @@ outfits:
       # convert. This is what lesson 8 was reaching for and did not quite reach:
       # it is not enough for the size to be specified, the size has to be
       # specified IN TERMS OF THE THING IT DIVIDES.
-      - check: EXACTLY FIVE bands, each a FIFTH of the panel, TOUCHING. Point LOW.
+      # AMENDED AGAIN 2026-08-05, after the tenth front. THE FIVE LANDED — five
+      # bands on the chest, the first time in ten attempts — and then the panel
+      # carried on below the belt with two more, for seven on the garment.
+      #
+      # BOTH RULES WERE OBEYED. Rule 8 said five fill "the panel" and it put five
+      # above the belt. Rule 7 said the panel runs behind the belt and finishes
+      # below it, and it continued the quilting down. The ambiguity was ours:
+      # "the panel" was given a new extent and a fractional band size IN THE SAME
+      # PASS, without saying which extent the fraction divided. Lesson 6 — two
+      # rules arriving whole and losing to each other.
+      #
+      # THE BELT IS NOW A LANDMARK ON THE COUNT, NOT A BOUNDARY BESIDE IT.
+      # "Collar to lower edge, and the belt crosses the FOURTH" pins the extent
+      # and the count in one statement, and it is CHECKABLE IN THE PICTURE rather
+      # than inferred — prompt-library rule 1. Measured against the tenth: panel
+      # ~555 to ~1480 px, belt centre ~1155, so at five bands the belt falls on
+      # the fourth. It is right for the costume as built, not an invention.
+      - check: FIVE bands, collar to lower edge. The BELT CROSSES THE FOURTH.
         text: >
-          FIVE NESTED CHEVRONS, EXACTLY FIVE, EACH BAND ONE FIFTH OF THE PANEL'S
-          HEIGHT so the five FILL IT EXACTLY — NO cloth between them, NO thin
-          stripes. EACH IS A "V": its ends sit HIGH at the sides, its point LOW at
-          the centre. NEVER an upturned "^", NEVER a peak, NEVER a roof.
+          FIVE CHEVRONS ON THE WHOLE PANEL, EXACTLY FIVE, collar to lower edge —
+          THE BELT CROSSES THE FOURTH. NOT five above the belt and more below:
+          FIVE IN TOTAL, each a fifth of that run, touching, NO cloth between
+          them. EACH IS A "V": ends HIGH at the sides, point LOW at centre.
+          NEVER a peak.
       # RAISED 2026-08-04. Three generations put the bands low on the belly with
       # a broad empty yoke above them. Nothing said how high they start, so the
       # plain area kept growing to fill the space the rule left open.
@@ -298,11 +315,11 @@ outfits:
       # the generator to use another, so this now refuses the whole class.
       - check: NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
         text: >
-          NO STRAP CROSSES HIS CHEST. Not horizontal, not diagonal, not a
-          bandolier, not a sash, and NO buckle, ring or fitting anywhere on the
-          sternum. The harness is TWO PLAIN STRAPS running straight down from the
-          shoulders to the belt, parallel, close to the body, carrying nothing.
-          His chest is otherwise clear so the chevron panel reads uninterrupted.
+          NO STRAP CROSSES HIS CHEST — not horizontal, not diagonal, not a
+          bandolier, NO buckle or fitting on the sternum. The harness is TWO
+          PLAIN STRAPS running from the shoulders straight down to the belt,
+          carrying nothing. AS DARK AS THE CLOTH — NEVER mid-brown, NEVER tan,
+          NEVER lighter than it.
       - >
         THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never
         under another garment. The two harness straps cross OVER it and break the
@@ -339,11 +356,17 @@ outfits:
         carry it, some have faded to grey, some were resewn in plain dark thread
         and never matched. NEVER uniform and NEVER fresh — it mattered once and
         has been let go. NOTHING else on him is green.
+      # TIGHTENED 2026-08-05. The tenth front grew the undertunic a HIGH STANDING
+      # MANDARIN COLLAR, which is a great deal more than "a dark edge". The rule
+      # said what the undertunic shows and never said what it must NOT become, so
+      # the collar had room to grow — prompt-library rule 3, name the failure
+      # condition. A stand collar also drifts him toward the tunic-and-collar
+      # silhouette rule 1 exists to refuse.
       - >
-        UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS — those
-        are on the layer above it. In these views it shows ONLY as a dark edge at
-        the collar and at the cuff, a slightly finer and older weave than the
-        garment over it.
+        UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows
+        ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer,
+        older weave. NO standing collar, NO mandarin collar, NO band collar and
+        NOTHING that rises up the neck. It lies FLAT against the throat.
       # MOVED OUT OF must_show 2026-08-04. What the undertunic looks like with
       # the top layer OFF is invisible in all seven turnaround views and in every
       # costume slot — it is a fact about one scene, his bunk aboard the ship at
@@ -578,6 +601,31 @@ outfits:
             cylindrical core. SAME OBJECT, DIFFERENT ARRANGEMENT.
             NOT AN AUTHORITY ON FINISH — unpainted bare grey print; the parts
             are MATTE, DARK AND WORN. THE WRITTEN RULE WINS ON FINISH.
+      # THE GAUNTLET BUILD, wired in 2026-08-05 once slot 15 existed to hold it.
+      # It sat on disk unattached for exactly this reason: the gauntlets appear
+      # in the seven turnarounds and in none of the numbered slots, so the only
+      # way to attach it was outfit-level, which would have put a forearm detail
+      # photograph on every costume fitting AND landed it mid-test on the front.
+      # A slot of its own is the fix, not a compromise.
+      #
+      # THE SCREEN CAVEAT IS THE WHOLE REASON THIS LABEL IS WORDED AS IT IS. The
+      # white panel in the photograph is a FAKE — an unpainted stand-in for a
+      # small digital display — and `_label` keeps only the first sentence at 52
+      # characters, so the refusal has to BE the first sentence or the image
+      # arrives as an instruction to make the screen glow.
+      gauntlets:
+        - path: reference/props/gauntlets-build-2026-08-05.jpg
+          what: >-
+            THE GAUNTLETS — SHAPE ONLY, NEVER FINISH OR SCREEN.
+            The printed pair: a one-piece open-backed cuff, four or five heavy
+            stepped ribs round the lower half, the panel high on the OUTER
+            FOREARM.
+            THE WHITE SCREEN IN THIS PHOTOGRAPH IS AN UNPAINTED STAND-IN AND MUST
+            NOT BE COPIED — the screen is small, DARK and DEAD, never white,
+            never pale, never lit.
+            NOT AN AUTHORITY ON FINISH — they are DEAD DULL, filthy, scratched
+            and greasy, the finish worn off at every edge, and NOTHING on them is
+            glossy or bright. THE WRITTEN RULE WINS ON FINISH.
 
   # HE HAS ONE COSTUME. THIS IS THAT COSTUME WITH ONE MORE GARMENT ON TOP.
   # Confirmed by the production designer 2026-08-04, and it is a correction:

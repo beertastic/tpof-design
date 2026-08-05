@@ -516,6 +516,35 @@ Vary only setting, light, framing and action:
 5. A wide frame where the environment dominates and the figure is small.
 6. A detail: hands, a weapon, a fitting, a worn edge.
 
+## 15. `gauntlets.png` — the forearm kit
+
+**Wide banner, 3:1.**
+
+> **Added 2026-08-05, and APPENDED rather than inserted.** It belongs with the
+> props at 8–10, but putting it there would renumber everything after it — which
+> is exactly the failure that left the continuity notes above stale for weeks,
+> and would break the staged folders `08-blaster/`, `10-utility/` and
+> `11-maintenance/`. **Position in this list is an address, not a ranking.**
+
+Product-reference layout on a neutral surface, evenly lit: **the matched pair of
+metal gauntlets, off the arms**, one shown from the outer face and one turned to
+show the open back.
+
+They are a **one-piece open-backed cuff** that slips on — no strap, no buckle, no
+fastening of any kind — running from the wrist to about three-quarters up the
+forearm. **Four or five heavy stepped ribs** wrap the lower half; the upper half
+is plain. A **small dark screen and a few worn buttons** sit on the outer forearm
+above the ribs.
+
+**They are tools, not armour, and they are the oldest-looking thing he owns.**
+Filthy and dead dull — no shine, no chrome, no polish, nothing mirror-like.
+Scratched, dented and greasy, the finish worn off at every edge, darkened almost
+to the colour of his cloth. **The screen is dark and dead: never white, never
+pale, never lit.** A freight worker's kit for cargo manifests and lifting gear,
+scuffed and half dead. Nobody in frame finds them remarkable.
+
+No ornament, no insignia, no maker's mark, no engraving.
+
 CONTINUITY IS THE POINT OF THIS IMAGE. The costume, the hardware, the hair and
 the face must be identical in every panel — same garment, same fastenings, same
 metal in the same places on the same sides. Panels that disagree with each other
@@ -545,8 +574,9 @@ panel is small.
 | 12 | `materials.png` | 5:4 |
 | 13 | `coat.png` | 2:3 |
 | 14 | `tone-collage.png` | 16:9 |
+| 15 | `gauntlets.png` | 3:1 |
 
-All fourteen land in `03-characters/baylan/source/artwork/`. The board generator
+All fifteen land in `03-characters/baylan/source/artwork/`. The board generator
 places images with a **contain** operation and never crops — supplying the wrong
 ratio produces letterboxing on the board. Then:
 

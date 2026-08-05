@@ -1,0 +1,110 @@
+character: Jeyin
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/slaves-escapees/Faction.md and
+# Character.md. The costume rules below are TRANSCRIBED, not invented: the
+# faction document already carries a full specification for domestic labour and
+# for the shared condition, and it had simply never been put into the form the
+# generators read. Character.md's "Costume and Armour" section still says TBD,
+# and that is not a gap in the design — it is a gap in where the design lives.
+#
+# WHAT IS INVENTED AND NEEDS RULING: handedness, height, age and build. All four
+# are TBD in Character.md. The values below are reasoned from the story rather
+# than guessed, and each says why. Change them and rerun `./tools/regen jeyin`.
+
+# PROVISIONAL. Nothing in any document states it. Right is the project default
+# and it costs nothing to change — but it must be SET, because every placement
+# rule resolves from it. See 09-prompt-library/Handedness-And-Placement.md.
+handedness: right
+
+# PROVISIONAL. She is Shin's mother and the two must read as related in a frame
+# they share. Nothing else constrains it.
+height: 168 cm (5 ft 6 in) — ordinary height, thin from years of being fed badly
+
+outfits:
+  - id: working
+    name: Domestic working clothes
+    scenes: "6, 8, 11, 16, 17, 18, 21, 22, 25 — her only costume"
+    description: >
+      Indoor working clothes that have been outdoors for days and were never
+      meant to be. Coarse, plain, unfitted cloth — a long overshirt or smock
+      over a shapeless underdress, sleeves tied back out of the way, an apron or
+      wrap at the waist that is the closest thing she has to a belt. Everything
+      is issued or handed down and NOTHING was cut for this body: too long in
+      the sleeve, too wide at the shoulder, gathered and tied to fit.
+      No fastening on her is worth anything — cord, tied cloth, a scrap of bone.
+      Nothing manufactured, nothing that could be sold or sharpened.
+      Her footwear was made for floors: thin, soft-soled, splitting at the seams
+      and failing.
+      NO COLOUR AT ALL — undyed, badly dyed, or dye long gone. Bone white, dust
+      brown, ash grey, and every one of them dirty.
+      Days of forest on top of years of wear: mud to the knee, water, torn hems,
+      wet cloth hanging heavy. Hand repairs everywhere, in mismatched thread,
+      done in poor light without proper tools.
+    must_show:
+      # THE FACTION'S SINGLE MOST IMPORTANT VISUAL IDEA, quoted from Faction.md:
+      # the escapees wear "what they were given for someone else's purpose.
+      # Nothing was chosen. Nothing fits properly. Nothing is decorated, because
+      # decoration implies ownership of yourself."
+      - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+        text: >
+          SHE IS WEARING WHAT SHE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING
+          was chosen, NOTHING fits, and NOTHING is decorated — no ornament, no
+          trim, no jewellery, no personal mark of any kind. Decoration implies
+          owning yourself and she owns nothing.
+      # From Faction.md: "These people are not prisoners in prison clothing.
+      # They are labour, and their clothes are the working gear of whatever they
+      # were used for." There is no institutional garment anywhere in this crew.
+      - check: WORKING CLOTHES, never prison clothing. No uniform of any kind.
+        text: >
+          THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers,
+          NO institutional garment, NO uniform, NO shackles and NO collar. She is
+          labour, not an inmate, and she is dressed as whatever she was used for.
+      - check: INDOOR clothes, outdoors for days. Footwear made for floors.
+        text: >
+          INDOOR CLOTHES THAT HAVE NO BUSINESS OUTDOORS. Coarse, plain and
+          unfitted — made for scrubbing and carrying, never for weather. HER
+          FOOTWEAR WAS MADE FOR FLOORS: thin, soft-soled, splitting and failing.
+          She is among the worst-equipped people in the group and it must show.
+      - check: WRONG SIZE — issued or handed down, gathered and tied to fit.
+        text: >
+          NOTHING WAS CUT FOR THIS BODY. Too long in the sleeve, too wide at the
+          shoulder, hitched and tied and gathered to make it work. Issued,
+          inherited or handed down.
+      - check: NO fastening worth anything — cord and tied cloth only.
+        text: >
+          NO FASTENING ON HER IS WORTH ANYTHING. Cord, tied cloth, bone or scrap.
+          NOTHING manufactured, NOTHING metal, NOTHING that could be sold or
+          sharpened — those were taken long ago.
+      # This is the whole character in one costume fact, and it is the reason
+      # Shin's hand-repaired garments matter after the finale: "All hand repairs
+      # on Shin's costume are Jeyin's work. After the finale, those patches are
+      # all that is left of her." Character.md.
+      - check: HER CLOTHES ARE VISIBLY WORSE THAN HER DAUGHTER'S.
+        text: >
+          HER CLOTHING IS VISIBLY WORSE THAN HER DAUGHTER'S — thinner, older,
+          repaired more often and more crudely. Everything went to Shin. It is a
+          practical fact and it is the clearest statement of who she is.
+      - check: HAND repair, never workshop repair. Mismatched thread.
+        text: >
+          EVERY REPAIR IS A HAND REPAIR, done by the wearers for each other in
+          poor light with no proper tools. Mismatched thread, uneven stitches,
+          patches cut from something else. NEVER a workshop repair, NEVER neat.
+      - check: NO COLOUR — bone, dust brown, ash. All of it dirty.
+        text: >
+          NO COLOUR ANYWHERE. Undyed, badly dyed, or the dye long since gone —
+          bone white, dust brown and ash grey, and all of it filthy. NEVER a
+          saturated colour, NEVER a dyed garment that still looks dyed.
+      - check: FOREST DAMAGE on top of years of wear. Mud to the knee.
+        text: >
+          DAYS OF FOREST ON TOP OF YEARS OF WEAR. Mud to the knee, soaked cloth
+          hanging heavy, hems torn on undergrowth, footwear coming apart. She has
+          been running through wet woodland in clothes meant for indoor work.
+      # Character.md: she stayed in captivity for fifteen years because she could
+      # not leave her daughter. Nothing in the costume may make that legible —
+      # P2c in Planted-Elements turns on Shin not knowing.
+      - check: EXHAUSTED, never noble. No dignity-in-suffering styling.
+        text: >
+          SHE IS EXHAUSTED AND ORDINARY, NEVER NOBLE. NO dignity-in-suffering
+          styling, NO heroic bearing, NO artful arrangement of rags. She looks
+          like a woman who has worked for fifteen years and not slept for days.

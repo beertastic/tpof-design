@@ -1,0 +1,105 @@
+character: Vala
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/slaves-escapees/Faction.md and
+# Character.md. The costume rules are TRANSCRIBED — the faction document's
+# "Arena — Vala" section and her own Costume note already specify the garment
+# fully. Character.md's "Costume and Armour" says TBD, which is a gap in where
+# the design lives rather than a gap in the design.
+#
+# WHAT IS INVENTED AND NEEDS RULING: handedness, height, age and build, all TBD
+# in Character.md. Reasoned below, not guessed. Rerun `./tools/regen vala`.
+
+# PROVISIONAL, but this one is NOT arbitrary. Handedness decides which forearm
+# and shin carry the heavier reinforcement, and an arena fighter's guard is not
+# symmetrical — the lead side takes the damage. Set it deliberately.
+handedness: right
+
+# PROVISIONAL. Twenty years in an arena that expected her to lose, and she is
+# the only person in the group whose clothing was designed to take damage. She
+# should read as physically capable next to Jeyin and Krellis without being
+# taller than the mercenaries who kill her.
+height: 175 cm (5 ft 9 in) — solid and low-centred, built by twenty years of being made to fight
+
+outfits:
+  - id: rig
+    name: The remnants of a fighting rig
+    scenes: "Scene 8 onward, and the fight in Scene 24. Her only costume"
+    description: >
+      Not armour and not costume: the functional minimum an arena gives someone
+      it expects to lose. Strapping and wraps over a plain sleeveless underlayer
+      — a belt or harness at the waist, cloth wound and tied at the forearms and
+      shins, and hard reinforcement at those four points and nowhere else.
+      INDUSTRIAL, STRAPPED AND PRACTICAL. Scrap plate, riveted webbing, buckles
+      that have been replaced more than once, edges rounded off by wear.
+      HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE, which
+      makes her the best-equipped of the escapees for a forest and reads
+      instantly as different from the rest of them.
+      Everything is years old, hand-repaired, and marked by the arena: scuffs
+      that map onto her guard, wear where straps have been tightened in the same
+      holes for two decades. NO COLOUR — bone, dust brown, ash, all of it dirty,
+      with days of forest over the top.
+      Somewhere on the rig, a fastener good enough to be worth giving away.
+    must_show:
+      # The Design Bible rejects this by name and the faction doc repeats it.
+      # It is the first rule because it is the failure this costume invites.
+      - check: NO gladiator, NO Roman, NO classical. Industrial and strapped.
+        text: >
+          NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO
+          lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of
+          hanging strips, NO sandals. THIS IS INDUSTRIAL: strapped webbing, scrap
+          plate, rivets and buckles. If it reads as an arena of antiquity, it has
+          failed.
+      # Character.md is explicit and it is a standing instruction, not a
+      # preference: "Her arena history must never be used as licence for
+      # exposure or sexualisation."
+      - check: NO exposure, NO sexualisation. Covered, practical, functional.
+        text: >
+          HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED and the
+          garment is FUNCTIONAL: no bared midriff, no cutaways, no straps
+          arranged for the look of them, no fashion-editorial styling and no
+          glamour posing. Everything on her is there to stop her being hurt.
+      - check: THE FUNCTIONAL MINIMUM — not armour, not a costume.
+        text: >
+          THIS IS THE FUNCTIONAL MINIMUM AN ARENA GIVES SOMEONE IT EXPECTS TO
+          LOSE. NOT a full harness, NOT a matched set, NOT armour in any complete
+          sense — strapping, wraps, a belt or harness, and hard reinforcement at
+          the FOREARMS AND SHINS only. Everywhere else she is unprotected.
+      - check: THE ONLY CLOTHING IN THE GROUP BUILT TO TAKE DAMAGE.
+        text: >
+          HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE, and
+          that must read at a glance beside the others. It is battered but it is
+          HOLDING — where the domestic clothes are coming apart, this was made
+          for punishment and is still doing its job.
+      - check: WEAR MAPS TO HER GUARD — same holes, same scuffs, twenty years.
+        text: >
+          THE WEAR MAPS ONTO HOW SHE FIGHTS. Straps tightened into the same holes
+          for twenty years, scuffing heaviest on the forearm she leads with,
+          reinforcement worn thin where it has actually been hit. Repairs by hand
+          and by her, over and over.
+      - check: NO COLOUR — bone, dust brown, ash. Forest damage over the top.
+        text: >
+          NO COLOUR ANYWHERE. Undyed or the dye long gone — bone, dust brown and
+          ash, all of it dirty, with days of forest over the top: mud, water and
+          torn wrapping. NEVER a saturated colour.
+      # P3. The clasp is the longest-lived hero prop in the trilogy and it comes
+      # off this rig — so the rig has to be built with something worth taking.
+      - check: A FASTENER GOOD ENOUGH TO GIVE AWAY — the clasp comes off this rig.
+        text: >
+          SOMEWHERE ON THE RIG IS ONE FASTENER BETTER THAN EVERYTHING AROUND IT —
+          a functional clasp, worn but sound, the only manufactured thing she
+          owns. It is what she gives Shin, so it must be VISIBLE and READABLE in
+          these views and must look like it could be unfastened and handed over.
+      # P2 requires her exit to read as gone, not killed, and her injuries are
+      # deferred to Film 2. Nothing in the costume may foreclose that.
+      - check: NO injuries, NO blood, NO damage that implies a wound.
+        text: >
+          NO INJURIES AND NO BLOOD. Her physical state after Scene 24 is
+          deliberately undecided and nothing here may foreclose it: no bandaging,
+          no scarring beyond old arena wear, no damage to the rig that implies a
+          specific wound.
+      - check: CAPABLE, not heroic. She expects to lose and always has.
+        text: >
+          SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled
+          stance, no weapon held for the camera. Twenty years of being made to
+          fight for other people has left competence without any appetite for it.

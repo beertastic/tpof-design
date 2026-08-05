@@ -1,0 +1,129 @@
+character: Reya Fenn
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/mercenaries/Faction.md and Character.md.
+#
+# SHE IS THE ONE MERCENARY WHOSE COSTUME BRIEF IS ALREADY WRITTEN, and it is
+# unusually specific: "She is the only mercenary the audience meets as EQUIPMENT
+# FIRST and a person second. Full armour, faceless, carrying a rifle — and then
+# she takes the helmet off and is somebody who has been walking in the rain for
+# hours and is fed up with an argument that was already old when she left. THAT
+# REVERSAL IS HER WHOLE DESIGN BRIEF."
+#
+# IT ALSO GIVES HER THE ONE CONSTRAINT NOBODY ELSE IN THE CREW HAS: "she is the
+# one crew member whose costume must work FULLY SEALED. Everybody else's kit is
+# assembled and mismatched; hers has to CLOSE."
+#
+# TWO OUTFITS, because the helmet coming off IS the character. They are the same
+# costume in two states, not two costumes.
+
+# PROVISIONAL. Nothing states it. She carries the rifle in both hands in Sc.10.
+handedness: right
+
+# PROVISIONAL. Nothing states it.
+height: 172 cm (5 ft 8 in) — lean and long-limbed, and it is the ARMOUR that makes her read big
+
+outfits:
+  - id: sealed
+    name: Patrol armour, sealed
+    scenes: "Her entrance, Sc.10 — and the pincer group in Sc.23"
+    views: [front, back, left, right, natural]
+    description: >
+      FULL SEALED PATROL ARMOUR, helmeted and faceless. Hard plate over a
+      sealed underlayer, gloves, boots, everything closed — the ONLY costume in
+      this crew that shuts completely against weather.
+      She is ANONYMOUS in it. In a doorway she is a trooper silhouette and
+      nothing more: no personal marks, no trophies, no visible taste, no
+      indication of who or even what is inside it. That anonymity is the point,
+      because it is what the helmet coming off destroys.
+      STILL WET. She has been out on patrol for hours in the rain — water
+      running off the plate, standing in the joints, dripping onto the floor,
+      the underlayer dark with it.
+      Rifle carried in both hands, low and unready. Nothing about the pose is
+      heroic; she is tired and coming in off a shift.
+      Good kit, properly maintained, and none of it matching another crew
+      member — but that individuality is HIDDEN under the sealed layer, which is
+      the whole trick.
+    must_show:
+      - check: FULLY SEALED and FACELESS — she reads as equipment, not a person.
+        text: >
+          SHE IS FULLY SEALED AND COMPLETELY FACELESS. Helmet on, visor down, no
+          skin visible anywhere — throat, wrists and neck all closed. The
+          audience must not be able to tell who, or what, is inside. SHE READS AS
+          EQUIPMENT AND NOT AS A PERSON, and that is the entire purpose of this
+          view.
+      - check: ANONYMOUS — no marks, no trophies, no personality at all.
+        text: >
+          NOTHING PERSONAL ON THE OUTSIDE. NO trophies, NO marks, NO decoration,
+          NO taste, NO insignia. She should be indistinguishable from any other
+          armoured figure in a doorway. This is the ONE costume in this faction
+          that is deliberately anonymous, and it breaks the crew's own rule on
+          purpose.
+      - check: IT CLOSES. The only kit in the crew that seals against weather.
+        text: >
+          THE COSTUME ACTUALLY WORKS SEALED. Every join closes, every seam has a
+          way of shutting, the helmet mates to the collar. Everybody else's kit
+          is assembled and mismatched; HERS HAS TO CLOSE, and a costume
+          supervisor must be able to see how.
+      - check: STILL WET — hours of rain, water running off the plate.
+        text: >
+          SHE IS STILL WET. Water running off the plate, standing in the joints
+          and the recesses, dripping from the edges, the underlayer soaked dark.
+          She has been walking in it for hours and has just come indoors.
+      - check: NOT a soldier. No unit, no rank, no military read.
+        text: >
+          NO MILITARY UNIT READ. She is not a soldier and never was — NO rank, NO
+          regulation webbing, NO modern tactical or SWAT language. This is
+          expensive private kit worn by somebody who bought it herself.
+      - check: TIRED, never heroic. Rifle low and unready.
+        text: >
+          THE RIFLE IS CARRIED IN BOTH HANDS, LOW AND UNREADY. No aiming, no
+          combat stance, no heroic framing. She is fed up and coming off a shift.
+
+  - id: unsealed
+    name: Patrol armour, helmet off
+    scenes: "Sc.10 at the Sabacc table, and the finale in Sc.25"
+    views: [front, natural]
+    description: >
+      THE SAME COSTUME WITH THE HELMET OFF, and the reversal is the whole point.
+      The armour is unchanged — still sealed everywhere else, still wet, still
+      anonymous from the neck down. What changes is that there is now
+      unmistakably a person in it.
+      HER HAIR IS DOWN. Long, and it comes loose as the helmet lifts — flattened
+      and damp underneath, stuck to her forehead and neck, the shape of the
+      helmet still in it. The script's own words: "her hair tumbles over her
+      shoulders."
+      Her face is the OPPOSITE of the armour: open, expressive, and completely
+      unbothered. She has been walking in the rain for hours and is fed up with
+      an argument that was already old when she left.
+      The helmet itself is held, or set down within reach — it never disappears,
+      because it is the object the audience was looking at a moment ago.
+    must_show:
+      - check: THE REVERSAL IS THE POINT — equipment first, person second.
+        text: >
+          THIS IS THE SAME ANONYMOUS ARMOUR WITH A COMPLETELY ORDINARY PERSON IN
+          IT, and the contrast IS the design. From the neck down she is still
+          faceless equipment; from the neck up she is somebody tired and
+          irritable who wants to sit down. The gap between the two is the whole
+          brief.
+      - check: HAIR DOWN, damp, flattened — the helmet shape still in it.
+        text: >
+          HER HAIR IS LONG AND IT IS DOWN, tumbling over her shoulders as the
+          helmet comes off. DAMP and FLATTENED underneath, stuck to her forehead
+          and the back of her neck, still carrying the shape of the helmet.
+          NEVER styled, NEVER dry, NEVER arranged.
+      - check: THE ARMOUR IS UNCHANGED — same costume, one piece removed.
+        text: >
+          NOTHING ELSE CHANGES. Same plate, same sealed underlayer, same wet, same
+          absence of decoration — a costume supervisor must be able to match this
+          against the sealed view piece for piece. ONLY the helmet is off.
+      - check: THE HELMET STAYS IN FRAME — held or set down within reach.
+        text: >
+          THE HELMET IS STILL IN THE PICTURE, held under one arm or set down
+          within reach. It is the object the audience was looking at a moment
+          ago and it must not simply vanish.
+      - check: FED UP, not glamorous. No hair-flip, no reveal styling.
+        text: >
+          SHE IS FED UP, NOT GLAMOROUS. NO hair-flip, NO reveal lighting, NO
+          fashion-editorial framing, NO glamour posing and NO sexualisation. The
+          moment is somebody taking off a wet hat after a long shift.

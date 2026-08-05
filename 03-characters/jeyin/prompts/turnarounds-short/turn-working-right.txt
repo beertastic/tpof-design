@@ -1,0 +1,51 @@
+[JEYIN — DOMESTIC WORKING CLOTHES — RIGHT]
+Output file: turn-working-right.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: 22f7113b (short) · repo commit fcbcad6 2026-08-05 14:46
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 168 cm (5 ft 6 in) — ordinary height, thin from years of being fed badly
+
+MUST BE TRUE OF THIS IMAGE:
+1. SHE IS WEARING WHAT SHE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING was chosen, NOTHING fits, and NOTHING is decorated — no ornament, no trim, no jewellery, no personal mark of any kind. Decoration implies owning yourself and she owns nothing.
+2. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO shackles and NO collar. She is labour, not an inmate, and she is dressed as whatever she was used for.
+3. INDOOR CLOTHES THAT HAVE NO BUSINESS OUTDOORS. Coarse, plain and unfitted — made for scrubbing and carrying, never for weather. HER FOOTWEAR WAS MADE FOR FLOORS: thin, soft-soled, splitting and failing. She is among the worst-equipped people in the group and it must show.
+4. NOTHING WAS CUT FOR THIS BODY. Too long in the sleeve, too wide at the shoulder, hitched and tied and gathered to make it work. Issued, inherited or handed down.
+5. NO FASTENING ON HER IS WORTH ANYTHING. Cord, tied cloth, bone or scrap. NOTHING manufactured, NOTHING metal, NOTHING that could be sold or sharpened — those were taken long ago.
+6. HER CLOTHING IS VISIBLY WORSE THAN HER DAUGHTER'S — thinner, older, repaired more often and more crudely. Everything went to Shin. It is a practical fact and it is the clearest statement of who she is.
+7. EVERY REPAIR IS A HAND REPAIR, done by the wearers for each other in poor light with no proper tools. Mismatched thread, uneven stitches, patches cut from something else. NEVER a workshop repair, NEVER neat.
+8. NO COLOUR ANYWHERE. Undyed, badly dyed, or the dye long since gone — bone white, dust brown and ash grey, and all of it filthy. NEVER a saturated colour, NEVER a dyed garment that still looks dyed.
+9. DAYS OF FOREST ON TOP OF YEARS OF WEAR. Mud to the knee, soaked cloth hanging heavy, hems torn on undergrowth, footwear coming apart. She has been running through wet woodland in clothes meant for indoor work.
+10. SHE IS EXHAUSTED AND ORDINARY, NEVER NOBLE. NO dignity-in-suffering styling, NO heroic bearing, NO artful arrangement of rags. She looks like a woman who has worked for fifteen years and not slept for days.
+
+SHOT: Rotated exactly 90° the other way to show their RIGHT side in full profile. THEY FACE THE VIEWER'S RIGHT — their nose, chest and toes all point to the RIGHT EDGE of the frame. If they face the left edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE LEFT SIDE IS BEHIND THEM AND CANNOT BE SEEN: left shoulder, left arm, left forearm, left hand, left hip and left thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR LEFT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the right. A near-side limb carrying nothing is BARE, and bare is CORRECT.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+  2. WORKING CLOTHES, never prison clothing. No uniform of any kind.
+  3. INDOOR clothes, outdoors for days. Footwear made for floors.
+  4. WRONG SIZE — issued or handed down, gathered and tied to fit.
+  5. NO fastening worth anything — cord and tied cloth only.
+  6. HER CLOTHES ARE VISIBLY WORSE THAN HER DAUGHTER'S.
+  7. HAND repair, never workshop repair. Mismatched thread.
+  8. NO COLOUR — bone, dust brown, ash. All of it dirty.
+  9. FOREST DAMAGE on top of years of wear. Mud to the knee.
+  10. EXHAUSTED, never noble. No dignity-in-suffering styling.

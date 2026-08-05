@@ -1,0 +1,228 @@
+[JEYIN — TURNAROUND — DOMESTIC WORKING CLOTHES — LEFT SIDE]
+Output file: turn-working-left.png
+Aspect ratio: 2:3  (tall, full figure)
+Prompt version: 092a1be7 · repo commit fcbcad6 2026-08-05 14:46
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit fcbcad6, prompt 092a1be7.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
+
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+====================================================================
+THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
+FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.
+====================================================================
+
+NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a
+waist-up. If the feet are not in the frame, the image is unusable — this is
+a COSTUME record and the boots, the hem and the whole silhouette are the
+point. The head should occupy a small part of the frame.
+
+Deliver a single, plain, full-figure photograph on a seamless studio
+backdrop. It is raw material. The production boards are assembled from
+plates like this one by a separate tool, and anything you add here has
+to be removed before it can be used.
+
+ABSOLUTELY NOT, IN ANY FORM:
+  - NO text of any kind. No name, no title, no caption, no labels, no
+    headings, no annotation, no measurements, no height marks.
+  - NO logo, no watermark, no signature, no production branding.
+  - NO layout, no frame, no border, no vignette panel, no title bar.
+  - NO second view. One figure, one angle. No front-and-back pair, no
+    multi-view sheet, no turnaround strip, no contact sheet, no montage.
+  - NO inset head shots, no profile studies, no detail crops.
+  - NO material swatches, NO colour palette chips, NO prop call-outs.
+  - NO scale silhouette, no ruler, no grid.
+
+If the result looks like a designed page rather than a photograph taken
+in a costume fitting, it is wrong and cannot be used.
+
+NO ACTOR HAS BEEN CAST. There is no actor reference for this character,
+so cast the face yourself — build it from the written description and
+nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
+a handsome or striking one, and do not drift toward any actor you have seen
+play a similar part.
+
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
+
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
+
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
+them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+HEIGHT: 168 cm (5 ft 6 in) — ordinary height, thin from years of being fed badly. Build the proportions to it — head size against body
+length, limb length, how heavily the figure stands. A figure alone on a plain
+backdrop gives the eye nothing to measure against, so it has to be in the body.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS WEARING WHAT SHE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING was chosen, NOTHING fits, and NOTHING is decorated — no ornament, no trim, no jewellery, no personal mark of any kind. Decoration implies owning yourself and she owns nothing.
+  2. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO shackles and NO collar. She is labour, not an inmate, and she is dressed as whatever she was used for.
+  3. INDOOR CLOTHES THAT HAVE NO BUSINESS OUTDOORS. Coarse, plain and unfitted — made for scrubbing and carrying, never for weather. HER FOOTWEAR WAS MADE FOR FLOORS: thin, soft-soled, splitting and failing. She is among the worst-equipped people in the group and it must show.
+  4. NOTHING WAS CUT FOR THIS BODY. Too long in the sleeve, too wide at the shoulder, hitched and tied and gathered to make it work. Issued, inherited or handed down.
+  5. NO FASTENING ON HER IS WORTH ANYTHING. Cord, tied cloth, bone or scrap. NOTHING manufactured, NOTHING metal, NOTHING that could be sold or sharpened — those were taken long ago.
+  6. HER CLOTHING IS VISIBLY WORSE THAN HER DAUGHTER'S — thinner, older, repaired more often and more crudely. Everything went to Shin. It is a practical fact and it is the clearest statement of who she is.
+  7. EVERY REPAIR IS A HAND REPAIR, done by the wearers for each other in poor light with no proper tools. Mismatched thread, uneven stitches, patches cut from something else. NEVER a workshop repair, NEVER neat.
+  8. NO COLOUR ANYWHERE. Undyed, badly dyed, or the dye long since gone — bone white, dust brown and ash grey, and all of it filthy. NEVER a saturated colour, NEVER a dyed garment that still looks dyed.
+  9. DAYS OF FOREST ON TOP OF YEARS OF WEAR. Mud to the knee, soaked cloth hanging heavy, hems torn on undergrowth, footwear coming apart. She has been running through wet woodland in clothes meant for indoor work.
+  10. SHE IS EXHAUSTED AND ORDINARY, NEVER NOBLE. NO dignity-in-suffering styling, NO heroic bearing, NO artful arrangement of rags. She looks like a woman who has worked for fifteen years and not slept for days.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH.
+
+Plain, seamless, neutral mid-grey studio background. Even, flat, soft frontal
+lighting. No atmosphere, no haze, no mood, no environment, no set.
+
+Pose: arms held clearly away from the body, roughly thirty degrees out, so
+nothing overlaps and the full silhouette reads. Legs slightly apart, weight even
+on both feet. Standing straight. Neutral expression. This is a costume record,
+not a performance — no attitude, no character, no acting.
+
+Framing: the entire figure from the top of the head to below the feet, with a
+small even margin above and below. Shot from chest height on a long lens so
+there is minimal perspective distortion. Figure centred, filling the frame
+vertically.
+
+Every garment, fastening, strap, pocket, seam, buckle and item of equipment must
+be clearly visible and readable. Nothing obscured by shadow, by pose, or by
+another layer.
+
+Sharp across the entire frame. Deep depth of field. No shallow focus, no bokeh,
+no lens flare, no vignetting. This is documentation, not cinematography.
+
+=== VIEW ===
+The subject is rotated exactly ninety degrees to show their LEFT side in full profile. Head faces the same direction as the body — not turned toward camera. A clean side-on profile of the whole figure.
+
+OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN.
+Their right shoulder, right arm, right forearm, right hand, right hip and
+right thigh are hidden behind the body in this view.
+
+SO: anything the rules place on THEIR RIGHT does not appear in this image
+at all. DO NOT move it round to the near side so that it can be seen. DO
+NOT duplicate it onto the left. A near-side limb that carries nothing is
+BARE, and bare is CORRECT — an empty forearm here is the rules being
+obeyed, not a detail forgotten.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== SKIN AND REALISM ===
+
+
+=== CHARACTER ===
+INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+
+Jeyin. Injured parent protecting Shin during the escape.
+
+NEEDS:
+
+- Species, age range, gender presentation
+- Build and silhouette — the shape read at distance, in one line
+- Distinguishing physical traits
+- Costume: layers, construction, what is protected and what is exposed, and why
+- Equipment carried, and what is deliberately absent
+- Movement and body language
+- The one sentence that separates them from everyone else in their faction
+
+=== THIS COSTUME ===
+Domestic working clothes — 6, 8, 11, 16, 17, 18, 21, 22, 25 — her only costume
+
+Indoor working clothes that have been outdoors for days and were never meant to be. Coarse, plain, unfitted cloth — a long overshirt or smock over a shapeless underdress, sleeves tied back out of the way, an apron or wrap at the waist that is the closest thing she has to a belt. Everything is issued or handed down and NOTHING was cut for this body: too long in the sleeve, too wide at the shoulder, gathered and tied to fit. No fastening on her is worth anything — cord, tied cloth, a scrap of bone. Nothing manufactured, nothing that could be sold or sharpened. Her footwear was made for floors: thin, soft-soled, splitting at the seams and failing. NO COLOUR AT ALL — undyed, badly dyed, or dye long gone. Bone white, dust brown, ash grey, and every one of them dirty. Days of forest on top of years of wear: mud to the knee, water, torn hems, wet cloth hanging heavy. Hand repairs everywhere, in mismatched thread, done in poor light without proper tools.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. SHE IS WEARING WHAT SHE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING was chosen, NOTHING fits, and NOTHING is decorated — no ornament, no trim, no jewellery, no personal mark of any kind. Decoration implies owning yourself and she owns nothing.
+  2. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO shackles and NO collar. She is labour, not an inmate, and she is dressed as whatever she was used for.
+  3. INDOOR CLOTHES THAT HAVE NO BUSINESS OUTDOORS. Coarse, plain and unfitted — made for scrubbing and carrying, never for weather. HER FOOTWEAR WAS MADE FOR FLOORS: thin, soft-soled, splitting and failing. She is among the worst-equipped people in the group and it must show.
+  4. NOTHING WAS CUT FOR THIS BODY. Too long in the sleeve, too wide at the shoulder, hitched and tied and gathered to make it work. Issued, inherited or handed down.
+  5. NO FASTENING ON HER IS WORTH ANYTHING. Cord, tied cloth, bone or scrap. NOTHING manufactured, NOTHING metal, NOTHING that could be sold or sharpened — those were taken long ago.
+  6. HER CLOTHING IS VISIBLY WORSE THAN HER DAUGHTER'S — thinner, older, repaired more often and more crudely. Everything went to Shin. It is a practical fact and it is the clearest statement of who she is.
+  7. EVERY REPAIR IS A HAND REPAIR, done by the wearers for each other in poor light with no proper tools. Mismatched thread, uneven stitches, patches cut from something else. NEVER a workshop repair, NEVER neat.
+  8. NO COLOUR ANYWHERE. Undyed, badly dyed, or the dye long since gone — bone white, dust brown and ash grey, and all of it filthy. NEVER a saturated colour, NEVER a dyed garment that still looks dyed.
+  9. DAYS OF FOREST ON TOP OF YEARS OF WEAR. Mud to the knee, soaked cloth hanging heavy, hems torn on undergrowth, footwear coming apart. She has been running through wet woodland in clothes meant for indoor work.
+  10. SHE IS EXHAUSTED AND ORDINARY, NEVER NOBLE. NO dignity-in-suffering styling, NO heroic bearing, NO artful arrangement of rags. She looks like a woman who has worked for fifteen years and not slept for days.
+
+
+Deliver a single image at 2:3. It must look photographed, not generated.

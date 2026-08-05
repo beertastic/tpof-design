@@ -1,0 +1,107 @@
+character: Krellis
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/slaves-escapees/Faction.md and
+# Character.md. TRANSCRIBED, not invented — the faction document's "Medical —
+# Krellis" section carries the specification, including its 2026-08-02 revision.
+#
+# THAT REVISION IS THE WHOLE COSTUME AND IT IS EASY TO MISS. He did not scrape a
+# kit together: he HELD THE POST OF ARENA MEDIC, with sanctioned access to
+# whatever the arena provided. So his gear is the WRECK OF A REAL WORKING KIT,
+# not a bag of improvisations — proper instruments, worn out, unreplaced and
+# steadily fewer. THE POVERTY IS THE ARENA'S, NOT HIS.
+#
+# Faction.md says why that is the better object: "a professional stripped of
+# supply reads as loss where an amateur with scraps reads only as poor."
+#
+# WHAT IS INVENTED AND NEEDS RULING: handedness, height, age and build, all TBD.
+# Rerun `./tools/regen krellis` after any change.
+
+# PROVISIONAL. Nothing states it. It decides which side the roll or bag hangs
+# and which hand is free, so it must be set even though nothing depends on it
+# dramatically.
+handedness: right
+
+# PROVISIONAL. Character.md has him drawing himself up to his full height to
+# argue in Sc.25 — a man used to being listened to, in a place where he is not.
+# That beat wants someone who can be tall for a moment without being imposing.
+height: 180 cm (5 ft 11 in) — upright, narrow, stooped from years of leaning over other people
+
+outfits:
+  - id: working
+    name: Arena medic's working gear
+    scenes: "Scene 8 onward, and the clearing in Scene 25. His only costume"
+    description: >
+      The wreck of a real working kit. He was the arena's medic with sanctioned
+      access to its supplies, and what is left is professional equipment worn
+      out and never replaced: a roll or satchel of proper instruments, most of
+      the loops empty, the few that remain sharpened and re-sharpened past
+      their working life.
+      His occupation reads from THE CARRY, not the clothing. The bag or roll is
+      the object that says medic, and it is mostly empty — the empty loops are
+      the design.
+      The clothes themselves are the same as everyone else's: coarse, issued,
+      wrong-sized, hand-repaired, no colour, no fastening worth anything. An
+      apron or overshirt with old stains that were never going to wash out and
+      have long since gone brown.
+      Sleeves tied or rolled back and kept back — the one habit of the job that
+      survives when nothing else does.
+      Days of forest over the top, mud to the knee, and the bag protected from
+      it more carefully than he is.
+    must_show:
+      # The 2026-08-02 revision, which is the difference between the character
+      # working and not working.
+      - check: THE WRECK OF A REAL KIT — a professional stripped of supply.
+        text: >
+          HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He
+          held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and
+          steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a
+          bundle of rubbish. A professional stripped of supply reads as LOSS; an
+          amateur with scraps reads only as poor.
+      - check: THE CARRY says medic, not the clothing. Loops MOSTLY EMPTY.
+        text: >
+          HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or
+          satchel worn across the body, and its LOOPS ARE MOSTLY EMPTY — that
+          emptiness is the design and must be visible. NO medical insignia, NO
+          cross, NO symbol of any kind. Nothing announces the job but the object.
+      - check: THE POVERTY IS THE ARENA'S, NOT HIS. The kit was good once.
+        text: >
+          THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The
+          instruments were good instruments. Everything is worn to nothing by use
+          and by never being resupplied, not by having been cheap.
+      - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
+        text: >
+          HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING
+          chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no
+          personal mark. The KIT is his; the clothing is not.
+      - check: WORKING CLOTHES, never prison clothing. No uniform.
+        text: >
+          THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers,
+          NO institutional garment, NO uniform, NO collar and NO shackles.
+      - check: SLEEVES BACK — the one habit of the job that survives.
+        text: >
+          HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is
+          the one working habit that has outlasted the supplies, and it should
+          read as automatic rather than as preparation for anything.
+      - check: OLD STAINS gone brown — never fresh, never red.
+        text: >
+          THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and
+          have long since gone brown and flat. NEVER fresh blood, NEVER red,
+          NEVER anything that reads as a recent injury — this is twenty years of
+          other people, not tonight's.
+      - check: NO fastening worth anything. HAND repairs, mismatched thread.
+        text: >
+          NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing
+          manufactured and nothing sellable. Every repair done by hand in poor
+          light with mismatched thread.
+      - check: NO COLOUR — bone, dust brown, ash. Forest damage over the top.
+        text: >
+          NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and
+          ash, all of it dirty, with days of forest on top — mud to the knee,
+          soaked cloth, torn hems.
+      - check: THE BAG IS BETTER PROTECTED THAN HE IS.
+        text: >
+          THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped
+          or turned away from the weather while his own clothes are soaked
+          through. He has been looking after it for longer than he has looked
+          after himself.

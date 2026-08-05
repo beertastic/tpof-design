@@ -1,0 +1,100 @@
+character: Nyx
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/mercenaries/Faction.md and Character.md.
+#
+# UNLIKE THE ESCAPEES, THIS ONE IS PART INVENTION. The mercenary faction rule is
+# that nothing matches and every piece was chosen — "if two members look like
+# they were dressed by the same person, it is wrong" — so a shared spec cannot
+# be transcribed the way the escapees' was. The faction gives the GRAMMAR
+# (chosen, fitted, good quality, maintained, personal marks) and each member has
+# to be given their own sentence in it. What follows is a proposal.
+#
+# TWO DECISIONS BELOW ARE MINE AND CHARACTER.MD ASKS FOR THEM EXPLICITLY:
+# which eye, and what it looks like. Both are marked. Everything else is either
+# faction rule or a physical field that was TBD.
+
+# PROVISIONAL, AND IT INTERACTS WITH THE EYE. He is blind on his LEFT (below),
+# so a right-handed man brings the weapon up on his seeing side. If the eye
+# changes, revisit this.
+handedness: right
+
+# PROVISIONAL. Nothing states it. He should not compete with Baylan's 198 cm —
+# Baylan is the tallest human in the film.
+height: 178 cm (5 ft 10 in) — compact and heavy-set, thick through the neck and shoulders
+
+outfits:
+  - id: working
+    name: Working kit
+    scenes: "Patrol and pursuit, the Sabacc scene, Sc.14 with Baylan, and the finale. His only costume"
+    description: >
+      Assembled over years by a man who could afford what he wanted and did not
+      want much. Good hard-wearing layers, properly fitted because they have
+      been adjusted over time — a padded jacket or overshirt with a heavy collar,
+      reinforced at the elbows and shoulders where he actually wears through.
+      Everything is MAINTAINED: repairs done properly, with tools and materials,
+      hardware kept working, boots that function.
+      His silhouette is the BULKIEST in the crew and the least considered — he
+      layers for warmth and padding rather than for looks, and the result is a
+      man who takes up room. Pouches and a sidearm on the belt, carried on his
+      seeing side.
+      His personal mark is WEAR ON THE LEFT: he turns his head further than
+      anybody else, and the left shoulder and collar of everything he owns is
+      rubbed and scuffed from it.
+      Palette is his own, not the crew's — nothing here matches Jasu, Baylan,
+      Shada or the kit builds.
+    must_show:
+      # Sc.14: "Gotta finish my route or Jasu will have my other eye." The line
+      # only works if the audience can see it. Character.md, 2026-08-01.
+      - check: THE EYE IS VISIBLE — old, healed, unremarkable to him.
+        text: >
+          HIS LEFT EYE IS BLIND AND IT MUST BE VISIBLE. A SCAR RUNNING ACROSS IT
+          and a CLOUDED, PALE IRIS — the eye is still in the socket. It is OLD:
+          fully healed, lived with for years, and completely unremarkable to him.
+          NEVER a fresh wound, NEVER weeping, NEVER bandaged, NEVER an eyepatch
+          and NEVER a glowing prosthetic.
+      - check: HE IS NOT DEFINED BY IT. No pirate read, no menace.
+        text: >
+          THE EYE IS A FACT ABOUT HIM, NOT HIS CHARACTER. NO pirate reading, NO
+          menace, NO tilt of the head to display it, NO framing that makes it the
+          subject. His captain did this to him and he jokes about it — he is
+          warm, ordinary and easy, and the injury is just something he has.
+      # Faction.md's single most important rule for this crew.
+      - check: EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
+        text: >
+          EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING is issued,
+          NOTHING matches another crew member, and there is NO uniform, NO
+          insignia and NO faction colour anywhere. If he looks dressed by the
+          same person as anyone else in the crew, it is wrong.
+      - check: MAINTAINED, never ruined — repaired properly, with tools.
+        text: >
+          HIS KIT IS MAINTAINED. Repairs done PROPERLY, with tools and materials,
+          hardware working, boots sound. Worn and used but never falling apart —
+          this is the difference between the mercenaries and the escapees, and it
+          must read at a glance.
+      - check: GOOD QUALITY that reads at distance. He can afford good.
+        text: >
+          THE QUALITY READS AT A DISTANCE: good leather, sound plating, hardware
+          that works. They are paid well when the targets end up dead and that
+          money is on their bodies. NOTHING cheap, NOTHING improvised.
+      - check: BULKIEST in the crew — layered for padding, not for looks.
+        text: >
+          HE IS THE BULKIEST SILHOUETTE IN THE CREW and the least considered. He
+          layers for warmth and padding, not for effect, and takes up room. NOT
+          armoured, NOT a soldier — a big man in a lot of good coats.
+      - check: WEAR ON THE LEFT — the blind side is rubbed and scuffed.
+        text: >
+          THE LEFT SHOULDER AND COLLAR OF EVERYTHING HE OWNS IS RUBBED AND
+          SCUFFED. He turns his head further than anybody else to see that side,
+          and twenty years of doing it has worn the cloth. It is the only
+          personal mark on him and nobody has ever remarked on it.
+      - check: NO military read. Not a soldier and never was.
+        text: >
+          NO MILITARY UNIT READ. Not a soldier, never was — no rank, no webbing
+          worn in a regulation pattern, no modern tactical or SWAT language, and
+          nothing that suggests he was trained by an organisation.
+      - check: WARM AND ORDINARY. He is Baylan's friend and it must show.
+        text: >
+          HE IS THE PERSON BAYLAN TALKS TO MOST, and he must look like somebody
+          worth talking to. Open, easy, unguarded. NOT a thug, NOT a heavy, NOT
+          menacing. The finale only works if the audience liked him.

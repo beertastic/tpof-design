@@ -1,0 +1,100 @@
+character: Yaslo Bis
+ratio: "2:3"
+
+# DRAFTED 2026-08-05 from 04-factions/mercenaries/Faction.md and Character.md.
+#
+# HIS DESIGN HAS ONE DECIDED FEATURE AND IT IS MARKED PROVISIONAL IN HIS OWN
+# FILE: "Species: human, with cybernetics over the face and possibly the arms.
+# Decided 2026-08-04. PROVISIONAL — check at his design pass, before any prompt
+# is written. The extent is deliberately unfixed: FACE is the decision, ARMS is
+# a maybe."
+#
+# THIS DRAFT TAKES THE NARROW READING — face only, one side, arms left alone —
+# and the reason is his own constraint, quoted from Character.md:
+#
+#   "He is the warm one — he deals, he takes the mickey out of Nyx, and the
+#   group laughs WITH him. Then he is the one who says 'looks like we get to do
+#   this the fun way' with blasters pointed at a fifteen-year-old. THE SABACC
+#   SCENE HAS TO BE GENUINELY WARM, so the facework cannot cost him expression
+#   or make him read as a thug."
+#
+# Every square centimetre of prosthetic is expression the actor cannot use. The
+# narrow reading buys the "visibly other" the cybernetics were chosen for while
+# leaving the eyes, the mouth and one whole side of the face free to do the
+# work the scene needs. THE EXTENT IS THE DECISION TO RULE ON.
+
+# PROVISIONAL. Nothing states it. He deals the cards in Sc.10.
+handedness: right
+
+# PROVISIONAL. Nothing states it.
+height: 183 cm (6 ft 0 in) — loose-limbed and easy, a man who sprawls in a chair
+
+outfits:
+  - id: working
+    name: Working kit
+    scenes: "Sabacc in Sc.10, the pincer group in Sc.23, the finale in Sc.25. His only costume"
+    description: >
+      Chosen, fitted and maintained, like everyone else in this crew, and
+      matching none of them. His taste runs to SOFT over hard: layered coats and
+      wraps rather than plate, a long over-jacket he can sit down in, good boots,
+      a belt that carries what he needs and nothing more.
+      He is the least armoured mercenary in the crew and the most comfortable —
+      the man who is enjoying himself in the Sabacc scene reads that way before
+      he speaks.
+      CYBERNETICS OVER ONE SIDE OF THE FACE: a plate along the cheekbone and
+      temple, a replaced ear, a fine seam running back into the hairline. Old,
+      matte, worn smooth at the edges by his own hand. The other side of his face
+      is untouched.
+      Everything is well kept. Repairs done properly, hardware working, cloth
+      brushed. He is not fastidious; he simply has money and takes care of his
+      things.
+      A personal mark somewhere small and unheroic — a kept object, a good buckle,
+      something bought rather than won.
+    must_show:
+      # The constraint the whole design has to survive.
+      - check: THE FACEWORK MUST NOT COST HIM EXPRESSION. He is the warm one.
+        text: >
+          THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the
+          MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully
+          expressive. He is the warm one in this crew — he deals, he takes the
+          mickey, the group laughs WITH him — and if the facework costs him a
+          smile the design has failed.
+      - check: NOT A THUG. Open, sociable, enjoying himself.
+        text: >
+          HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed,
+          somebody you would want at your table. The finale gains nothing unless
+          the Sabacc scene was genuinely warm first.
+      - check: CYBERNETICS OLD and MATTE — worn smooth, never new, never lit.
+        text: >
+          THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where
+          he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING
+          that whirs or reads as new technology. They are the oldest thing on him
+          and he stopped noticing them years ago.
+      - check: SOFT, not armoured — the least plated man in the crew.
+        text: >
+          HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long
+          over-jacket he can sit down in, cloth rather than plate. He is the LEAST
+          ARMOURED mercenary in the crew, and his comfort is visible before he
+          opens his mouth.
+      - check: EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
+        text: >
+          EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued,
+          NOTHING matching another crew member, NO uniform, NO insignia and NO
+          faction colour. If he looks dressed by the same person as anyone else,
+          it is wrong.
+      - check: MAINTAINED and GOOD — repaired properly, quality reads at distance.
+        text: >
+          HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools
+          and materials, hardware working, cloth brushed, boots sound. The quality
+          reads at a distance. Worn, never ruined.
+      - check: NO military read. Not a soldier and never was.
+        text: >
+          NO MILITARY UNIT READ — no rank, no regulation webbing, no modern
+          tactical or SWAT language. He is a self-employed professional who is
+          good at an ugly job.
+      # He is explicitly NOT one of the four kit builds.
+      - check: NOT a Mercenary Kit build — his own costume, his own silhouette.
+        text: >
+          HE IS NOT A BACKGROUND KIT BUILD. He has a speaking part in two scenes
+          in good light and his silhouette must be his own — distinct from Merc 1
+          to Merc 4 and from every other named crew member.

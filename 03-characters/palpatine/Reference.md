@@ -31,6 +31,21 @@ applies here with particular force.
   and needs no visual support.
 - If a generated image renders him clearly, it is wrong.
 
+## CONFIRMED 2026-08-05 — references wanted, costume not
+
+The Production Designer, asked whether Palpatine needed an `outfits.yaml` like
+the rest of the cast: **"No, we need him references but he'll be little more
+than a silhouette."**
+
+So this note stands unchanged and no design package follows. What is wanted is
+**reference imagery for the silhouette itself** — the shape, the scale, the way
+the light falls on it — not a costume specification. That belongs in
+`reference/` when it is gathered, scoped to the fragment and nothing more.
+
+**He is the only member of the cast with no `outfits.yaml`, and deliberately.**
+Anyone auditing the character folders for missing costume specs should stop
+here rather than write one.
+
 ## Rejections
 
 - No hero framing, no full-body reveal, no legible face.

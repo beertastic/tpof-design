@@ -1,7 +1,7 @@
 [BAYLAN — IN THE MERCENARY CAMP]
 Output file: forest.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: 6a0374b0 (short) · repo commit f6fba33 2026-08-05 14:11
+Prompt version: 6a0374b0 (short) · repo commit 54139e4 2026-08-05 14:16
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

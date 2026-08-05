@@ -87,6 +87,20 @@ echo
 if [ -z "$(git status --porcelain)" ]; then
     ok "nothing changed — prompts were already current"
 else
+    # WARNING — THIS IS `git add -A`, NOT "add the prompts".
+    #
+    # It sweeps the WHOLE working tree into a commit titled "prompts(<char>):
+    # regenerate". Anything else you had in flight goes in under that message and
+    # its reasoning is lost from the log.
+    #
+    # It bit on 2026-08-05: three rounds of fixes to THIS SCRIPT, plus a
+    # correction to APPROVAL.md, were committed and pushed as three separate
+    # "prompts(baylan): regenerate" commits. The changes were right and the
+    # record was wrong.
+    #
+    # SO: commit unrelated work BEFORE running regen. If you are editing tools
+    # or documentation, commit that first, then regen. The reasoning that
+    # survives is whatever you put in the files themselves.
     git add -A
     # An optional second argument is the commit message. Without it the message is
     # generic, which is right for a plain regeneration and wrong when the run also

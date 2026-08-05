@@ -9,8 +9,51 @@ status: "open"
 
 > # PICK UP HERE — 2026-08-05, end of day
 >
-> **ELEVEN FRONTS RUN, NONE APPROVED, AND WORDS HAVE NOW LOST THE COUNT.** The
-> costume is otherwise finished — everything else on it is right.
+> ## THE COSTUME IS RIGHT EXCEPT THE SKIRT, WHICH JUST CHANGED
+>
+> **The front was approved on the fourteenth turnaround and the approval was
+> cleared the same afternoon.** The Production Designer changed the skirt, and
+> `APPROVAL.md` is unambiguous: editing an approved outfit invalidates the
+> artwork made from it.
+>
+> **THE TWO EXISTING PLATES ARE SUPERSEDED** — `source/artwork/`
+> `turn-working-front.png` and `turn-working-back.png`. Keep them as history.
+> **They must not be used as a match target or as board source.**
+>
+> ### What changed
+>
+> The knee-length split tunic skirt is gone. In its place: **two separate torn
+> panels of cloth hung from the belt, one over each hip**, open at the centre
+> front AND the centre back so his trousers show up the middle from both sides,
+> **upper thigh only** — barely past the seat. *"A hint of a skirt, and perhaps
+> worn or torn."*
+>
+> **This is the fauld silhouette, and it is now safe.** The fauld was refused on
+> 2026-08-04, but that refusal was about **overlapping metal plates** — *"the
+> shape most likely to read as armour, and armour reads as status, and status is
+> what he has spent eighteen years hiding."* Torn cloth reads as damage, not
+> defence. **The shape was never the problem; the material was.**
+>
+> It also retires a whole rule. The old skirt needed *"THE SKIRT MUST NOT TURN
+> HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT"* because a knee-length split
+> tunic **is** that shape. Two ragged hip panels are not, so the five signals
+> keep their own rule and lose the skirt framing.
+>
+> ### Run this
+>
+>     prompts/turnarounds-short/turn-working-front.txt
+>
+> Attach **4 files** from `prompts/attach/working/` — the approved-front
+> reference is gone from the folder now that the approval is cleared, so the
+> numbering has shifted back:
+>
+>     1-the-chest-panel-geometry-only-not-the-garment.png
+>     2-face-build-1.jpg   3-face-build-2.jpg   4-face-build-3.jpg
+>
+> **Everything above the belt is settled** — check only the hip panels: two of
+> them, open front and back, upper thigh, torn.
+>
+> ---
 >
 > ## THE REFERENCE EXISTS NOW, AND IT CHANGED THE COSTUME
 >

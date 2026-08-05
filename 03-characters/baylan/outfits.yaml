@@ -93,9 +93,9 @@ outfits:
     description: >
       Salvaged, repaired mercenary workwear that has genuinely worked. A heavy
       work shirt, layered technical cloth and worn synth-leather over it, and a
-      padded jacket that has been re-shouldered at least once. A functional
-      harness of two shoulder straps, with ammunition pouches and field tools
-      carried on the waist belt —
+      padded jacket that has been re-shouldered at least once. NOTHING is worn
+      over his chest — no harness, no braces, no shoulder straps of any kind.
+      Ammunition pouches and field tools are carried on the waist belt, and
       no trophies, no personal marks, no decoration of any kind. At his waist a
       wide, heavy salvaged belt that FASTENS AT THE BACK — from the front an
       unbroken band of worn leather with no buckle or fitting on it — and hanging
@@ -116,7 +116,7 @@ outfits:
       than by colour and everything stays the same near-black. The seams are
       hand-sewn in a greyed-off green thread, visible but worn out in places —
       some still green, some faded, some resewn in plain dark thread.
-      The harness crosses over it. The undertunic beneath shows only as a dark
+      The undertunic beneath shows only as a dark
       edge at the collar and cuff. A thin cord runs around his neck and
       disappears under the shirt.
       Nothing about this costume is decorative, chosen for looks, or new.
@@ -164,10 +164,10 @@ outfits:
       # five views where it is not worn; and the closing "because he needs them"
       # story lines. Every constraint survives; ~1,700 characters of restatement
       # did not.
-      - check: The long coat is OFF — harness, belt and holster all visible.
+      - check: The long coat is OFF — the belt and holster are all visible.
         text: >
           THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base
-          costume, and a coat over the top hides the harness, the belt and the
+          costume, and a coat over the top hides the panel, the belt and the
           holster. It is a separate removable garment with its own two views
           (`working-coat`) and its own plate at slot 13. He takes it off to work.
       # WIDENED 2026-08-05 against the reference crop. This said "NEVER shoulder
@@ -371,18 +371,34 @@ outfits:
       # second came back with a DIAGONAL bandolier and a buckle mid-chest — the
       # rule was obeyed and the fault survived it. Naming one direction taught
       # the generator to use another, so this now refuses the whole class.
-      - check: NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
+      # THE HARNESS IS GONE, 2026-08-05, by the Production Designer: "remove the
+      # braces. The top should just be the chevrons."
+      #
+      # It was never carrying anything. The rule said so in its own words —
+      # "TWO PLAIN STRAPS running from the shoulders straight down to the belt,
+      # CARRYING NOTHING" — and the pouches and tools have always hung on the
+      # waist belt. It survived four days as a thing that had to be described,
+      # placed, coloured and defended, while doing no work at all.
+      #
+      # AND IT WAS FIGHTING THE ONE SHAPE HE IS REMEMBERED FOR. The next rule
+      # used to concede that the straps "cross OVER it and break the run of the
+      # bands in places. That is correct." It was not correct, it was tolerated.
+      # The plastron is now uninterrupted from collar to hem.
+      #
+      # THE NEGATION STAYS AND MATTERS MORE THAN EVER. Three generations put a
+      # buckled strap across his sternum before this rule existed, and with no
+      # harness in the spec there is now nothing to anchor the refusal to — so
+      # the refusal has to carry itself.
+      - check: NOTHING on his chest but the panel. No straps, no harness at all.
         text: >
-          NO STRAP CROSSES HIS CHEST — not horizontal, not diagonal, not a
-          bandolier, NO buckle or fitting on the sternum. The harness is TWO
-          PLAIN STRAPS running from the shoulders straight down to the belt,
-          carrying nothing. AS DARK AS THE CLOTH — NEVER mid-brown, NEVER tan,
-          NEVER lighter than it.
+          HIS CHEST CARRIES THE PANEL AND NOTHING ELSE. NO harness, NO braces, NO
+          shoulder straps of any kind — not down, not across, not diagonal, not a
+          bandolier, not a sash. NO buckle, ring or fitting anywhere on the
+          sternum. Everything he carries hangs on the WAIST BELT.
       - >
         THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never
-        under another garment. The two harness straps cross OVER it and break the
-        run of the bands in places. That is correct: the bands read through and
-        around them, and are never moved or shrunk to make room.
+        under another garment, and NOTHING crosses it. Its bands run UNBROKEN
+        from side to side, interrupted by nothing at all.
       # REWRITTEN 2026-08-05 by the Production Designer, after NINE generations in
       # which the green never appeared once.
       #
@@ -834,7 +850,7 @@ outfits:
   # where the costume department builds one costume and one coat.
   #
   # Added 2026-08-01 for a real reason that still holds — the coat hides the
-  # harness, the belt and the holster, so the base five have to record the
+  # panel, the belt and the holster, so the base five have to record the
   # costume without it, and half the film is spent with it on. What was wrong
   # was the SIZE of the answer, not the answer.
   #
@@ -870,7 +886,7 @@ outfits:
       Repaired tears, scorching down one side only, and a burn that was never
       properly patched. Beneath it, in the gap between its front edges, the
       chevron plastron is plainly visible from throat to belt, and the belt,
-      holster and harness stay readable. It is the oldest and most comfortable
+      holster stay readable. It is the oldest and most comfortable
       thing he owns and it reads as weather gear any freighter crew would have.
       Nothing about it is ceremonial, and nothing about it is new.
     must_show:
@@ -942,7 +958,7 @@ outfits:
         mirror-like. They are visible below the coat's sleeves.
       - >
         BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is
-        hidden by the open coat. The belt, the holster and the harness must all
+        hidden by the open coat. The belt, the holster and the panel must all
         stay readable — a costume supervisor checks them in this view too.
         The weapon is UGLY
         and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant

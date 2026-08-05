@@ -103,7 +103,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, upper thigh only. Heavy boots,
+      centre front and back, reaching only a third of the way from the belt to
+      the knee. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -112,8 +113,9 @@ outfits:
       that, THREE TO FIVE broad chevron bands, each a V with its point low at
       the centre, filling the panel to its lower edge. The bands are SEPARATE
       PANELS LAID ON and overlapping like layered plates, each with a raised
-      piped edge — soft suede against matte canvas, so they read by SHEEN rather
-      than by colour and everything stays the same near-black. The seams are
+      piped edge — soft suede against matte canvas, EACH BAND A SLIGHTLY
+      DIFFERENT TONE FROM THE ONE ABOVE IT because they were cut from mismatched
+      scrap, though all of them stay near-black. The seams are
       hand-sewn in a greyed-off green thread, visible but worn out in places —
       some still green, some faded, some resewn in plain dark thread.
       The undertunic beneath shows only as a dark
@@ -352,12 +354,32 @@ outfits:
           EACH OTHER like layered plates, each with a RAISED PIPED EDGE that
           casts a real shadow. NOT quilting, NOT stitched rows, NOT padding that
           domes between seams. The lower band overlaps the one below it.
-      - check: SHEEN not colour — suede panels on matte cloth, all near-black.
+      # LOCKED IN 2026-08-05 AT THE PRODUCTION DESIGNER'S REQUEST: "I love the
+      # alternating chevron colours, please lock that in."
+      #
+      # AND THIS RULE WAS FIGHTING IT. It said the bands stay "the SAME
+      # NEAR-BLACK… NEVER a lighter tone", which forbids the exact thing he
+      # likes. It survived because the generator kept disobeying it — the tonal
+      # variation has been in every good plate since the reference arrived and
+      # was never once specified.
+      #
+      # THE DISTINCTION THAT MAKES BOTH TRUE: the bands differ from EACH OTHER,
+      # and none of them differs from HIM. Every band is near-black; they are
+      # simply not the same near-black, because they were cut from whatever was
+      # to hand. That is not a colour contrast, it is mismatched stock.
+      #
+      # IT IS ALSO THE PLANT. Planted-Elements P5 transfers this costume to the
+      # later one by MATERIAL — mismatched scrap suede now, proper leather
+      # later. The alternating tones ARE that mechanism visible on the garment,
+      # so a tidy-minded generation evening them out would quietly cost the
+      # payoff. Specified positively now rather than tolerated.
+      - check: Bands ALTERNATE in tone — mismatched scrap, all still near-black.
         text: >
-          THE PANELS ARE SOFT SUEDE OR WORN LEATHER ON MATTE CANVAS, so they READ
-          BY SHEEN AND NOT BY COLOUR — catching the light differently while
-          staying the SAME NEAR-BLACK. NEVER a colour contrast, NEVER a lighter
-          tone, NEVER printed or painted, NEVER a badge or insignia.
+          EACH BAND IS A SLIGHTLY DIFFERENT TONE FROM THE ONE ABOVE IT — cut from
+          mismatched scrap, so they alternate visibly, some greyer and some
+          browner and some deader. ALL OF THEM STAY NEAR-BLACK: never light,
+          never a colour, never printed or painted, never a badge. Soft suede or
+          worn leather on matte canvas, reading by SHEEN as much as by tone.
       - >
         THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
         panels stand proudest, the suede gone shiny at the high points and grimy
@@ -571,13 +593,24 @@ outfits:
       # IT ALSO KILLS THE JEDI RISK OUTRIGHT. The old tunic skirt needed a whole
       # rule naming five signals to keep it safe, because a knee-length split
       # tunic IS the shape. Two ragged hip panels are not that shape at all.
-      - check: TWO SEPARATE HIP PANELS, upper thigh, open front and back.
+      # SHORTENED AGAIN 2026-08-05. "Upper thigh only, barely past the seat" came
+      # back at mid-thigh twice, and it kept growing a second overlapping layer.
+      #
+      # THE LENGTH HAD NO LANDMARK. "Upper thigh" is an anatomical region the
+      # generator has to locate on a body it is inventing — the same failure as
+      # "a hand's width" on the chevrons. THE BELT AND THE KNEE ARE BOTH IN
+      # FRAME AND BOTH VISIBLE, so the depth is now a fraction of the distance
+      # between them. Prompt-library rule 1: anchor to something it can see and
+      # measure in the picture it is making.
+      #
+      # ONE PANEL PER HIP is stated because two generations layered them.
+      - check: Panels reach ONE THIRD from belt to knee. ONE per hip, no layers.
         text: >
           NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE
-          OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK:
-          his trousers show all the way up the middle of him, front and back, and
-          NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the
-          seat — NEVER to the knee. They hang free and swing.
+          OVER EACH HIP AND ONE ONLY — NEVER layered, NEVER doubled. THEY REACH
+          ONE THIRD OF THE WAY FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER:
+          SHORT, barely past the seat. They are OPEN AT THE CENTRE FRONT AND THE
+          CENTRE BACK, so his trousers show all the way up the middle of him.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth

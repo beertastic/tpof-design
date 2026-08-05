@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 15 — THE FOREARM KIT]
 Output file: gauntlets.png
 Aspect ratio: 3:1  (wide banner)
-Prompt version: f13d6241 · repo commit 3fb8044 2026-08-05 13:22
+Prompt version: f13d6241 · repo commit d4cbd97 2026-08-05 13:37
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 3fb8044, prompt f13d6241.
+    Working from commit d4cbd97, prompt f13d6241.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

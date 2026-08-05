@@ -1,0 +1,49 @@
+[NYX — WORKING KIT — LEFT]
+Output file: turn-working-left.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: 33b73724 (short) · repo commit b13977b 2026-08-05 14:57
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 178 cm (5 ft 10 in) — compact and heavy-set, thick through the neck and shoulders
+
+MUST BE TRUE OF THIS IMAGE:
+1. HIS LEFT EYE IS BLIND AND IT MUST BE VISIBLE. A SCAR RUNNING ACROSS IT and a CLOUDED, PALE IRIS — the eye is still in the socket. It is OLD: fully healed, lived with for years, and completely unremarkable to him. NEVER a fresh wound, NEVER weeping, NEVER bandaged, NEVER an eyepatch and NEVER a glowing prosthetic.
+2. THE EYE IS A FACT ABOUT HIM, NOT HIS CHARACTER. NO pirate reading, NO menace, NO tilt of the head to display it, NO framing that makes it the subject. His captain did this to him and he jokes about it — he is warm, ordinary and easy, and the injury is just something he has.
+3. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING is issued, NOTHING matches another crew member, and there is NO uniform, NO insignia and NO faction colour anywhere. If he looks dressed by the same person as anyone else in the crew, it is wrong.
+4. HIS KIT IS MAINTAINED. Repairs done PROPERLY, with tools and materials, hardware working, boots sound. Worn and used but never falling apart — this is the difference between the mercenaries and the escapees, and it must read at a glance.
+5. THE QUALITY READS AT A DISTANCE: good leather, sound plating, hardware that works. They are paid well when the targets end up dead and that money is on their bodies. NOTHING cheap, NOTHING improvised.
+6. HE IS THE BULKIEST SILHOUETTE IN THE CREW and the least considered. He layers for warmth and padding, not for effect, and takes up room. NOT armoured, NOT a soldier — a big man in a lot of good coats.
+7. THE LEFT SHOULDER AND COLLAR OF EVERYTHING HE OWNS IS RUBBED AND SCUFFED. He turns his head further than anybody else to see that side, and twenty years of doing it has worn the cloth. It is the only personal mark on him and nobody has ever remarked on it.
+8. NO MILITARY UNIT READ. Not a soldier, never was — no rank, no webbing worn in a regulation pattern, no modern tactical or SWAT language, and nothing that suggests he was trained by an organisation.
+9. HE IS THE PERSON BAYLAN TALKS TO MOST, and he must look like somebody worth talking to. Open, easy, unguarded. NOT a thug, NOT a heavy, NOT menacing. The finale only works if the audience liked him.
+
+SHOT: Rotated exactly 90° to show their LEFT side in full profile. THEY FACE THE VIEWER'S LEFT — their nose, chest and toes all point to the LEFT EDGE of the frame. If they face the right edge, the image is MIRRORED and it is wrong. Head faces the same way as the body. OCCLUSION — THEIR WHOLE RIGHT SIDE IS BEHIND THEM AND CANNOT BE SEEN: right shoulder, right arm, right forearm, right hand, right hip and right thigh are all hidden by the body. ANYTHING THE RULES PLACE ON THEIR RIGHT DOES NOT APPEAR IN THIS IMAGE AT ALL. Do NOT bring it round to the near side to show it, and do NOT copy it onto the left. A near-side limb carrying nothing is BARE, and bare is CORRECT.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. THE EYE IS VISIBLE — old, healed, unremarkable to him.
+  2. HE IS NOT DEFINED BY IT. No pirate read, no menace.
+  3. EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
+  4. MAINTAINED, never ruined — repaired properly, with tools.
+  5. GOOD QUALITY that reads at distance. He can afford good.
+  6. BULKIEST in the crew — layered for padding, not for looks.
+  7. WEAR ON THE LEFT — the blind side is rubbed and scuffed.
+  8. NO military read. Not a soldier and never was.
+  9. WARM AND ORDINARY. He is Baylan's friend and it must show.

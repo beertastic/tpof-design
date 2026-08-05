@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 2df23435 (short) · repo commit e9ab7da 2026-08-05 11:34
+Prompt version: ce870c3d (short) · repo commit f9e7aa3 2026-08-05 11:47
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -32,11 +32,9 @@ MUST BE TRUE OF THIS IMAGE:
 7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
 8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the harness must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
 9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
-10. 
-11. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad through the chest and shoulders and softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
-12. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
-13. 
-14. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot brown, cold slate, the last of a faded olive. The coat is the darkest thing on him and the costume beneath must STILL separate from it, and he must still separate from a night forest and from camp firelight. NEVER black-on-black, and never sunk into the background.
+10. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad through the chest and shoulders and softened at the waist. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
+11. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
+12. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot brown, cold slate, the last of a faded olive. The coat is the darkest thing on him and the costume beneath must STILL separate from it, and he must still separate from a night forest and from camp firelight. NEVER black-on-black, and never sunk into the background.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.

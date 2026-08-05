@@ -89,8 +89,9 @@ outfits:
       unbroken band of worn leather with no buckle or fitting on it — and hanging
       from it on his
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
-      METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm, and
-      overlapping salvaged plates hung from the belt at the hips. Heavy boots,
+      METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. The
+      top layer runs on into a knee-length skirt, split at both sides. Heavy
+      boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -466,7 +467,6 @@ outfits:
       # The want behind it was "make him look bigger", and the quilted panel does
       # that instead — padding across the chest and shoulders, at no cost in
       # ornament or rank.
-      - >
       # THE BUCKLE MOVED TO THE BACK, 2026-08-05, by the Production Designer.
       #
       # The twelfth front returned a BRIGHT POLISHED CHROME buckle sitting dead
@@ -539,7 +539,7 @@ outfits:
           NO cream, sand or pale brown — it is near-black like the rest of him.
           NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the
           wrist. NO crossed or wrapped front; the chevron panel is his front. NO
-          sash or obi; his belt is broad salvaged leather with a plain buckle.
+          sash or obi; his belt is broad salvaged leather, fastened at the back.
       - >
         THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the
         pouches on his LEFT hang OVER it through the side splits, clear and
@@ -600,17 +600,28 @@ outfits:
       # stop the screen glowing was losing the sentence that said so. Rule 5b of
       # the prompt library, demonstrated on itself within one minute. It leads
       # now.
+      # AMBER REFUSED BY NAME, 2026-08-05. The thirteenth front returned a dim
+      # WARM rectangle in the screen recess — not a glow, but not the dead dark
+      # screen either. The rule refused white, pale and glowing and said nothing
+      # about warm, so the one colour it did not name is the one that arrived.
+      # Refuse the CATEGORY, not the instance — Baylan lesson 1, third outing.
+      #
+      # THIS IS A PLANT BEING SPENT EARLY, WHICH IS WHY IT IS WORTH A CLAUSE. The
+      # later bracers carry a working AMBER readout; his is dead now and lit
+      # then, and that is the same pattern as the green thread — the things he
+      # lets die are the things he restores. An amber glimmer here gives away
+      # eighteen years for nothing.
       - >
         THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD —
-        NEVER white, NEVER pale, NEVER glowing. A small screen and worn buttons
-        sit on the OUTER FOREARM above the ribs, scuffed and half dead. NOTHING
+        the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN
+        IT: never white, never pale, NEVER amber, orange, warm or gold. A small
+        screen and worn buttons sit on the OUTER FOREARM above the ribs. NOTHING
         about them is remarkable.
       - >
         A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn
         leather pouch hangs on it against the skin, older and more repaired than
         anything else he owns, and it is not visible with the jacket on. No
         pendant, no charm, no jewellery of any kind at his throat.
-      - >
       # REWRITTEN 2026-08-04. "Heavy through the chest and waist. He carries
       # weight." came back obese and short-looking. The words were an invitation
       # and there was no photograph to argue with them; there is now, so the rule
@@ -629,7 +640,6 @@ outfits:
         SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand
         without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years
         of not sleeping. He is nobody and he looks it.
-      - >
       # DARKENED 2026-08-04. Three generations came back mid-brown and dusty.
       # The range moves down; the separation rule stays, because it is the reason
       # "never black-on-black" was written in the first place.
@@ -874,7 +884,6 @@ outfits:
         crew that decorates itself and his plainness is the only odd thing about
         him. Do not add a fastening or a flourish to make the coat more
         interesting — the absence IS the design.
-      - >
       - check: Build MATCHES the full-body photo. Big and solid, NOT obese.
         text: >
           BUILD: MATCH THE FULL-BODY PHOTOGRAPH. Big, solid and thickened, broad
@@ -886,7 +895,6 @@ outfits:
         LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight.
         SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror.
         Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
-      - >
       - check: DARK — near-black. Coat still darker than the costume beneath.
         text: >
           DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot

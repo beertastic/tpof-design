@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 8b9c57c1 (short) · repo commit 14ae293 2026-08-05 14:16
+Prompt version: 8b9c57c1 (short) · repo commit bd86133 2026-08-05 14:27
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

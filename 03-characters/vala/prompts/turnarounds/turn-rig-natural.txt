@@ -1,10 +1,10 @@
 [VALA — TURNAROUND — THE REMNANTS OF A FIGHTING RIG, LAYERED FOR THE FOREST — NATURAL POSE]
 Output file: turn-rig-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 5f547827 · repo commit 959c4c1 2026-08-05 15:36
+Prompt version: 57ad7ceb · repo commit 0be9573 2026-08-05 16:43
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 959c4c1, prompt 5f547827.
+    Working from commit 0be9573, prompt 57ad7ceb.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -57,7 +57,7 @@ a handsome or striking one, and do not drift toward any actor you have seen
 play a similar part.
 
 
-USE THE ATTACHED PHOTOGRAPH — THE COSTUME ONLY — NEVER THE FACE OR THE HAIR. Every garment, its layering order, its colour and its condition: the belted waxed-canvas jacket, the leather chest rig and its pouches, the frayed knitted cowl and its clasp, the bracer on her RIGHT forearm, the wraps on both calves, the olive cargo trousers and the cream boots. THE FACE, HAIR, AGE AND BUILD ARE NOT CONFIRMED CASTING AND COME FROM THE TEXT, NEVER FROM THIS PHOTOGRAPH. It is a FITTING under flat light against a white wall, with a sample tag still attached at one hip and no forest damage on it yet — the written rules win on DIRT, WEAR and WEATHER, which the garments have not had applied.. If not attached, fetch:
+USE THE ATTACHED PHOTOGRAPH — THE COSTUME ONLY — NEVER THE FACE OR THE HAIR. Every garment, its layering order, its colour and its condition: the belted waxed-canvas jacket, the leather chest rig and its pouches, the frayed knitted cowl and its clasp, the bracer on her RIGHT forearm, the wraps on both calves, the olive cargo trousers and the cream boots. THERE IS NO FACE IN THIS PHOTOGRAPH — it is cropped below the chin on purpose. Do NOT reconstruct, infer or imagine the person it was cropped from. The face, hair, age and build are INVENTED FROM THE TEXT. It is a FITTING under flat light against a white wall, with a sample tag still attached at one hip and no forest damage on it yet — the written rules win on DIRT, WEAR and WEATHER, which the garments have not had applied.. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
 USE THE ATTACHED PHOTOGRAPH — THE CLASP — its shape and device, nothing else. A dark round disc, a raised EIGHT-POINTED SUN around a central ring, worn steel through a blackened finish. This is the P3 hero prop she gives Shin. Take the object and nothing about the cloth around it.. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/vala/reference/props/clasp-fitting-2026-08-05.jpg
@@ -80,18 +80,19 @@ length, limb length, how heavily the figure stands. A figure alone on a plain
 backdrop gives the eye nothing to measure against, so it has to be in the body.
 
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
-  2. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
-  3. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
-  4. OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut to the hip, a longer under-tunic showing below it, and FINGERLESS GLOVES. Practical and gathered, never tailored and never new.
-  5. A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and deliberately FRAYED, hanging in long yarn tassels. Worn over one shoulder, and pulled up over her head as a hood when she needs it. It is the softest thing on her and the most obviously hand-made.
-  6. THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN around a CENTRAL RING, worn steel showing through a blackened finish, about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is the object she gives Shin in Sc.22, Shin wears it for the rest of her life, and it is the piece she looks at after killing Vala in Film 2.
-  7. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
-  8. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
-  9. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
-  10. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
-  11. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
-  12. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
+  1. BUILD THE FACE FROM THIS TEXT ALONE — an ordinary, unremarkable, plausible woman who could exist. The attached costume photograph is CROPPED BELOW THE CHIN ON PURPOSE: do NOT reconstruct or infer the person it came from, and do NOT resemble any actor or public figure. A woman in her forties, weathered, lean and wiry, hair pulled back out of the way and not styled.
+  2. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
+  3. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
+  4. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
+  5. OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut to the hip, a longer under-tunic showing below it, and FINGERLESS GLOVES. Practical and gathered, never tailored and never new.
+  6. A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and deliberately FRAYED, hanging in long yarn tassels. Worn over one shoulder, and pulled up over her head as a hood when she needs it. It is the softest thing on her and the most obviously hand-made.
+  7. THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN around a CENTRAL RING, worn steel showing through a blackened finish, about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is the object she gives Shin in Sc.22, Shin wears it for the rest of her life, and it is the piece she looks at after killing Vala in Film 2.
+  8. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
+  9. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
+  10. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
+  11. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
+  12. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
+  13. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
 
 === SHOT ===
 FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
@@ -208,18 +209,19 @@ A fighting rig with a forest crossing layered on top of it. UNDERNEATH, the aren
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
-  1. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
-  2. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
-  3. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
-  4. OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut to the hip, a longer under-tunic showing below it, and FINGERLESS GLOVES. Practical and gathered, never tailored and never new.
-  5. A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and deliberately FRAYED, hanging in long yarn tassels. Worn over one shoulder, and pulled up over her head as a hood when she needs it. It is the softest thing on her and the most obviously hand-made.
-  6. THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN around a CENTRAL RING, worn steel showing through a blackened finish, about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is the object she gives Shin in Sc.22, Shin wears it for the rest of her life, and it is the piece she looks at after killing Vala in Film 2.
-  7. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
-  8. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
-  9. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
-  10. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
-  11. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
-  12. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
+  1. BUILD THE FACE FROM THIS TEXT ALONE — an ordinary, unremarkable, plausible woman who could exist. The attached costume photograph is CROPPED BELOW THE CHIN ON PURPOSE: do NOT reconstruct or infer the person it came from, and do NOT resemble any actor or public figure. A woman in her forties, weathered, lean and wiry, hair pulled back out of the way and not styled.
+  2. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
+  3. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
+  4. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
+  5. OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut to the hip, a longer under-tunic showing below it, and FINGERLESS GLOVES. Practical and gathered, never tailored and never new.
+  6. A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and deliberately FRAYED, hanging in long yarn tassels. Worn over one shoulder, and pulled up over her head as a hood when she needs it. It is the softest thing on her and the most obviously hand-made.
+  7. THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN around a CENTRAL RING, worn steel showing through a blackened finish, about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is the object she gives Shin in Sc.22, Shin wears it for the rest of her life, and it is the piece she looks at after killing Vala in Film 2.
+  8. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
+  9. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
+  10. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
+  11. SHE MAY CARRY MUTED COLOUR WHERE THE OTHER ESCAPEES MAY NOT: olive through the trousers, gloves and cowl, against grey-brown canvas, sand wraps and worn brown leather. ALL OF IT DIRTY AND SUN-FADED. NOTHING saturated, NOTHING bright, NO fresh dye. She should read as TOUGHER and more STRIKING than the people around her — never as better off, and never as glamorous.
+  12. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
+  13. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
 
 
 Deliver a single image at 2:3. It must look photographed, not generated.

@@ -50,6 +50,17 @@ outfits:
     must_show:
       # The Design Bible rejects this by name and the faction doc repeats it.
       # It leads because it is the failure this costume invites.
+      # ADDED 2026-08-05. The reference no longer contains a face, but a rule that
+      # depends on an attachment staying cropped is a rule waiting to break. This
+      # states it independently, so it holds even if the reference changes.
+      - check: INVENT THE FACE. Never reconstruct anyone from the reference.
+        text: >
+          BUILD THE FACE FROM THIS TEXT ALONE — an ordinary, unremarkable,
+          plausible woman who could exist. The attached costume photograph is
+          CROPPED BELOW THE CHIN ON PURPOSE: do NOT reconstruct or infer the
+          person it came from, and do NOT resemble any actor or public figure.
+          A woman in her forties, weathered, lean and wiry, hair pulled back out
+          of the way and not styled.
       - check: NO gladiator, NO Roman, NO classical. Industrial and strapped.
         text: >
           NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO
@@ -311,10 +322,20 @@ outfits:
     # THE FITTING PHOTOGRAPH IS THE COSTUME AUTHORITY, wired in the way Shada's
     # and Jasu's approved fronts are. 2308 is the cleanest full-length front.
     #
-    # SCOPED TO THE COSTUME ONLY, AND THE FACE IS EXPLICITLY EXCLUDED, because it
-    # is not confirmed whether the person in these photographs is the cast Vala.
-    # Attaching an unconfirmed face as an authority is how Shada lost three
-    # generations on 2026-08-01 — a perfect costume on the wrong woman.
+    # THE ACTOR'S FACE HAS BEEN REMOVED FROM EVERY FITTING PHOTOGRAPH, 2026-08-05.
+    #
+    # She is the cast Vala and she has not given permission. The Production
+    # Designer: "I think the actor would prefer to be left off and I'd like to
+    # nip that now."
+    #
+    # ALL 23 FRAMES ARE CROPPED BELOW THE CHIN. Not blurred, not pixelated —
+    # CROPPED, so the likeness is not in the file at all rather than obscured
+    # inside it. The costume loses nothing: the scope line already said the face
+    # was never an authority, and the shawl, the clasp, the rig, the bracer, the
+    # wraps and the boots are all still in frame.
+    #
+    # THE FACE IS NOW INVENTED FROM TEXT, and the rule below says so outright
+    # rather than relying on the reference simply not showing one.
     references:
       - path: reference/fitting/fitting-2026-08-05-2308.jpg
         what: >-
@@ -323,8 +344,9 @@ outfits:
           belted waxed-canvas jacket, the leather chest rig and its pouches, the
           frayed knitted cowl and its clasp, the bracer on her RIGHT forearm, the
           wraps on both calves, the olive cargo trousers and the cream boots.
-          THE FACE, HAIR, AGE AND BUILD ARE NOT CONFIRMED CASTING AND COME FROM
-          THE TEXT, NEVER FROM THIS PHOTOGRAPH.
+          THERE IS NO FACE IN THIS PHOTOGRAPH — it is cropped below the chin on
+          purpose. Do NOT reconstruct, infer or imagine the person it was
+          cropped from. The face, hair, age and build are INVENTED FROM THE TEXT.
           It is a FITTING under flat light against a white wall, with a sample
           tag still attached at one hip and no forest damage on it yet — the
           written rules win on DIRT, WEAR and WEATHER, which the garments have

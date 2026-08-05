@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Output file: turn-working-right.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 18259d68 (short) · repo commit f0b6dbf 2026-08-05 14:03
+Prompt version: ba6dd35c (short) · repo commit 50c8c61 2026-08-05 14:11
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -47,7 +47,7 @@ MUST BE TRUE OF THIS IMAGE:
 21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
 23. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL, never angled or flared. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
-24. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD — the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. NOTHING about them is remarkable.
+24. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
 25. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
 26. BUILD: MATCH THE FULL-BODY PHOTOGRAPH. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm, a tall man who has thickened, never a short wide one.
 27. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.

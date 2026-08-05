@@ -1,30 +1,37 @@
-[VALA — THE REMNANTS OF A FIGHTING RIG — NATURAL]
+[VALA — THE REMNANTS OF A FIGHTING RIG, LAYERED FOR THE FOREST — NATURAL]
 Output file: turn-rig-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: c22dce73 (short) · repo commit 4f5cad9 2026-08-05 14:57
+Prompt version: 6ac23729 (short) · repo commit 59b6633 2026-08-05 14:57
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
 
-NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
-A LIKENESS OF A REAL PERSON. Build the face from the written description
-alone: an ordinary, unremarkable, plausible human being who could exist,
-photographed in a fitting room. Do not resemble any actor or public figure.
+USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
+is attached, fetch these URLs instead — and say which route you used:
+  THE COSTUME ONLY — NEVER THE FACE OR THE HAIR: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/vala/reference/fitting/fitting-2026-08-05-2308.jpg
+  THE CLASP — ITS SHAPE AND DEVICE, NOTHING ELSE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/vala/reference/props/clasp-fitting-2026-08-05.jpg
+  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  grooming and costume come from the text below and override the photo.
+  Do not edit or re-crop that photo — make a new photograph of that person.
+  Say whether you used an attached file or a URL. If neither worked, stop.
 
-RIGHT-HANDED — sides are given from THEIR own left/right. 175 cm (5 ft 9 in) — solid and low-centred, built by twenty years of being made to fight
+RIGHT-HANDED — sides are given from THEIR own left/right. 172 cm (5 ft 8 in) — lean and wiry rather than heavy, built by twenty years of being made…
 
 MUST BE TRUE OF THIS IMAGE:
-1. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. THIS IS INDUSTRIAL: strapped webbing, scrap plate, rivets and buckles. If it reads as an arena of antiquity, it has failed.
-2. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED and the garment is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no fashion-editorial styling and no glamour posing. Everything on her is there to stop her being hurt.
-3. THIS IS THE FUNCTIONAL MINIMUM AN ARENA GIVES SOMEONE IT EXPECTS TO LOSE. NOT a full harness, NOT a matched set, NOT armour in any complete sense — strapping, wraps, a belt or harness, and hard reinforcement at the FOREARMS AND SHINS only. Everywhere else she is unprotected.
-4. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE, and that must read at a glance beside the others. It is battered but it is HOLDING — where the domestic clothes are coming apart, this was made for punishment and is still doing its job.
-5. THE WEAR MAPS ONTO HOW SHE FIGHTS. Straps tightened into the same holes for twenty years, scuffing heaviest on the forearm she leads with, reinforcement worn thin where it has actually been hit. Repairs by hand and by her, over and over.
-6. NO COLOUR ANYWHERE. Undyed or the dye long gone — bone, dust brown and ash, all of it dirty, with days of forest over the top: mud, water and torn wrapping. NEVER a saturated colour.
-7. SOMEWHERE ON THE RIG IS ONE FASTENER BETTER THAN EVERYTHING AROUND IT — a functional clasp, worn but sound, the only manufactured thing she owns. It is what she gives Shin, so it must be VISIBLE and READABLE in these views and must look like it could be unfastened and handed over.
-8. NO INJURIES AND NO BLOOD. Her physical state after Scene 24 is deliberately undecided and nothing here may foreclose it: no bandaging, no scarring beyond old arena wear, no damage to the rig that implies a specific wound.
-9. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
+1. NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed canvas, leather, buckles and wound cloth. If it reads as an arena of antiquity, it has failed.
+2. HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to foot and everything on her is FUNCTIONAL: no bared midriff, no cutaways, no straps arranged for the look of them, no glamour posing and no fashion-editorial framing.
+3. THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND ROUND BOTH CALVES from ankle to below the knee. Those are the two places an arena protects and everywhere else she is unprotected.
+4. OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut to the hip, a longer under-tunic showing below it, and FINGERLESS GLOVES. Practical and gathered, never tailored and never new.
+5. A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and deliberately FRAYED, hanging in long yarn tassels. Worn over one shoulder, and pulled up over her head as a hood when she needs it. It is the softest thing on her and the most obviously hand-made.
+6. THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN around a CENTRAL RING, worn steel showing through a blackened finish, about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is the object she gives Shin in Sc.22, Shin wears it for the rest of her life, and it is the piece she looks at after killing Vala in Film 2.
+7. A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more than once. It is the only thing on her that was made to carry rather than to protect.
+8. HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it must read that way beside the others. Battered but HOLDING — where the domestic clothes are failing, this was made for punishment and is still doing its job.
+9. YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water, torn edges, wet cloth hanging heavy, straps tightened into the same holes for two decades. Every repair done by hand, never in a workshop.
+10. THE PALETTE IS MUTED AND EARTH-BOUND: olive, grey-brown, sand and worn brown leather, all of it dirty and sun-faded. NOTHING saturated, NOTHING bright, NO fresh dye and NO colour that would catch an eye across a clearing.
+11. NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is deliberately undecided and nothing here may foreclose it: no bandaging, no fresh scarring, no damage to the rig that implies a specific wound.
+12. SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled stance, no weapon held for the camera. Twenty years of being made to fight for other people has left competence without any appetite for it.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -40,10 +47,13 @@ art, not AI-looking.
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. NO gladiator, NO Roman, NO classical. Industrial and strapped.
   2. NO exposure, NO sexualisation. Covered, practical, functional.
-  3. THE FUNCTIONAL MINIMUM — not armour, not a costume.
-  4. THE ONLY CLOTHING IN THE GROUP BUILT TO TAKE DAMAGE.
-  5. WEAR MAPS TO HER GUARD — same holes, same scuffs, twenty years.
-  6. NO COLOUR — bone, dust brown, ash. Forest damage over the top.
-  7. A FASTENER GOOD ENOUGH TO GIVE AWAY — the clasp comes off this rig.
-  8. NO injuries, NO blood, NO damage that implies a wound.
-  9. CAPABLE, not heroic. She expects to lose and always has.
+  3. THE ARENA IS UNDERNEATH — bracer RIGHT forearm, wraps BOTH calves.
+  4. LAYERED and WARM over it — belted jacket, cowl, gloves.
+  5. THE KNITTED COWL — heavy, frayed, tasselled, sometimes a hood.
+  6. THE CLASP — dark disc, EIGHT-POINTED SUN, pinning the cowl.
+  7. CHEST RIG with pouches — several small, one larger flapped bag.
+  8. BUILT TO TAKE DAMAGE, and still holding. Not coming apart.
+  9. HAND repairs, years of wear, FOREST damage on top.
+  10. MUTED THROUGHOUT — olive, grey-brown, sand, worn leather.
+  11. NO injuries, NO blood, NO damage implying a wound.
+  12. CAPABLE, not heroic. She expects to lose and always has.

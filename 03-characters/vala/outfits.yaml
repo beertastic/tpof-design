@@ -1,105 +1,157 @@
 character: Vala
 ratio: "2:3"
 
-# DRAFTED 2026-08-05 from 04-factions/slaves-escapees/Faction.md and
-# Character.md. The costume rules are TRANSCRIBED — the faction document's
-# "Arena — Vala" section and her own Costume note already specify the garment
-# fully. Character.md's "Costume and Armour" says TBD, which is a gap in where
-# the design lives rather than a gap in the design.
+# REWRITTEN 2026-08-05 AGAINST A REAL COSTUME FITTING. The previous version was
+# drafted the same afternoon by transcribing 04-factions/slaves-escapees/Faction.md
+# and had never been tested. Twenty-three photographs of a built costume then
+# arrived — see reference/fitting/README.md — and the repo rule applies: FOR
+# ANYTHING PHYSICALLY BUILT, THE REFERENCE IS A PHOTOGRAPH OF THE BUILD, NOT A
+# RENDER. The words move to the object.
 #
-# WHAT IS INVENTED AND NEEDS RULING: handedness, height, age and build, all TBD
-# in Character.md. Reasoned below, not guessed. Rerun `./tools/regen vala`.
+# THE STRUCTURE SURVIVED THE TEST. Faction.md asks for "strapping, wraps, a belt
+# or harness, reinforcement at the forearms and shins" and the build has all
+# four: a laced bracer on the right forearm, wraps round both calves, a belt, a
+# leather chest rig. That part was right before anyone built it.
+#
+# WHAT CHANGED IS EVERYTHING ELSE. The build is LAYERED and WARM — a belted
+# jacket, a heavy knitted shawl-cowl, gloves — where the old draft said "the
+# functional minimum an arena gives someone it expects to lose". Both can be
+# true: the rig is underneath and the layers are what she has picked up since.
+# That reading is now written in rather than assumed.
 
-# PROVISIONAL, but this one is NOT arbitrary. Handedness decides which forearm
-# and shin carry the heavier reinforcement, and an arena fighter's guard is not
-# symmetrical — the lead side takes the damage. Set it deliberately.
+# PROVISIONAL still. Nothing states it, but the BUILD now settles it in
+# practice: the bracer is on her RIGHT forearm, which is the side that takes the
+# damage, so she leads right.
 handedness: right
 
-# PROVISIONAL. Twenty years in an arena that expected her to lose, and she is
-# the only person in the group whose clothing was designed to take damage. She
-# should read as physically capable next to Jeyin and Krellis without being
-# taller than the mercenaries who kill her.
-height: 175 cm (5 ft 9 in) — solid and low-centred, built by twenty years of being made to fight
+# PROVISIONAL. Nothing states it and the fitting gives no scale reference.
+height: 172 cm (5 ft 8 in) — lean and wiry rather than heavy, built by twenty years of being made to fight
 
 outfits:
   - id: rig
-    name: The remnants of a fighting rig
+    name: The remnants of a fighting rig, layered for the forest
     scenes: "Scene 8 onward, and the fight in Scene 24. Her only costume"
     description: >
-      Not armour and not costume: the functional minimum an arena gives someone
-      it expects to lose. Strapping and wraps over a plain sleeveless underlayer
-      — a belt or harness at the waist, cloth wound and tied at the forearms and
-      shins, and hard reinforcement at those four points and nowhere else.
-      INDUSTRIAL, STRAPPED AND PRACTICAL. Scrap plate, riveted webbing, buckles
-      that have been replaced more than once, edges rounded off by wear.
-      HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE, which
-      makes her the best-equipped of the escapees for a forest and reads
-      instantly as different from the rest of them.
-      Everything is years old, hand-repaired, and marked by the arena: scuffs
-      that map onto her guard, wear where straps have been tightened in the same
-      holes for two decades. NO COLOUR — bone, dust brown, ash, all of it dirty,
-      with days of forest over the top.
-      Somewhere on the rig, a fastener good enough to be worth giving away.
+      A fighting rig with a forest crossing layered on top of it.
+      UNDERNEATH, the arena: a laced brown leather bracer on her right forearm,
+      sand-coloured wraps wound round both calves, a belt, and a brown leather
+      chest rig carrying several small pouches and one larger flapped bag.
+      OVER IT, what she has picked up since: a grey-brown distressed waxed
+      canvas jacket, belted at the waist and cut to the hip, with a longer
+      under-tunic showing beneath it. Olive fingerless gloves. Tapered olive
+      cargo trousers. Cream lace-up work boots.
+      AROUND HER SHOULDERS a heavy knitted shawl-cowl in olive, deliberately
+      frayed, hanging in long yarn tassels, worn over one shoulder and pulled up
+      as a hood when she needs it. IT IS PINNED WITH A DARK ROUND CLASP — a
+      raised eight-pointed sun around a central ring, worn steel showing through
+      a blackened finish. That clasp is the object she gives Shin.
+      Everything is years old and hand-repaired, and the forest is on top of it:
+      mud, water, torn edges, wet cloth hanging heavy.
     must_show:
       # The Design Bible rejects this by name and the faction doc repeats it.
-      # It is the first rule because it is the failure this costume invites.
+      # It leads because it is the failure this costume invites.
       - check: NO gladiator, NO Roman, NO classical. Industrial and strapped.
         text: >
           NO GLADIATOR, NO ROMAN AND NO CLASSICAL REFERENCE OF ANY KIND. NO
           lorica, NO manica, NO greaves, NO crested anything, NO leather skirt of
-          hanging strips, NO sandals. THIS IS INDUSTRIAL: strapped webbing, scrap
-          plate, rivets and buckles. If it reads as an arena of antiquity, it has
-          failed.
-      # Character.md is explicit and it is a standing instruction, not a
-      # preference: "Her arena history must never be used as licence for
-      # exposure or sexualisation."
+          hanging strips, NO sandals. This is WORKWEAR AND STRAPPING: waxed
+          canvas, leather, buckles and wound cloth. If it reads as an arena of
+          antiquity, it has failed.
+      # Character.md, standing instruction and not a preference.
       - check: NO exposure, NO sexualisation. Covered, practical, functional.
         text: >
-          HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED and the
-          garment is FUNCTIONAL: no bared midriff, no cutaways, no straps
-          arranged for the look of them, no fashion-editorial styling and no
-          glamour posing. Everything on her is there to stop her being hurt.
-      - check: THE FUNCTIONAL MINIMUM — not armour, not a costume.
+          HER ARENA HISTORY IS NEVER LICENCE FOR EXPOSURE. She is COVERED head to
+          foot and everything on her is FUNCTIONAL: no bared midriff, no
+          cutaways, no straps arranged for the look of them, no glamour posing
+          and no fashion-editorial framing.
+      - check: THE ARENA IS UNDERNEATH — bracer RIGHT forearm, wraps BOTH calves.
         text: >
-          THIS IS THE FUNCTIONAL MINIMUM AN ARENA GIVES SOMEONE IT EXPECTS TO
-          LOSE. NOT a full harness, NOT a matched set, NOT armour in any complete
-          sense — strapping, wraps, a belt or harness, and hard reinforcement at
-          the FOREARMS AND SHINS only. Everywhere else she is unprotected.
-      - check: THE ONLY CLOTHING IN THE GROUP BUILT TO TAKE DAMAGE.
+          THE FIGHTING RIG IS UNDERNEATH AND IT SHOWS AT THE LIMBS. A LACED BROWN
+          LEATHER BRACER ON HER RIGHT FOREARM, and SAND-COLOURED WRAPS WOUND
+          ROUND BOTH CALVES from ankle to below the knee. Those are the two
+          places an arena protects and everywhere else she is unprotected.
+      - check: LAYERED and WARM over it — belted jacket, cowl, gloves.
         text: >
-          HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE, and
-          that must read at a glance beside the others. It is battered but it is
-          HOLDING — where the domestic clothes are coming apart, this was made
-          for punishment and is still doing its job.
-      - check: WEAR MAPS TO HER GUARD — same holes, same scuffs, twenty years.
+          OVER THE RIG SHE IS LAYERED AND WARM, because she has been in a forest
+          for days: a GREY-BROWN WAXED CANVAS JACKET belted at the waist and cut
+          to the hip, a longer under-tunic showing below it, and FINGERLESS
+          GLOVES. Practical and gathered, never tailored and never new.
+      - check: THE KNITTED COWL — heavy, frayed, tasselled, sometimes a hood.
         text: >
-          THE WEAR MAPS ONTO HOW SHE FIGHTS. Straps tightened into the same holes
-          for twenty years, scuffing heaviest on the forearm she leads with,
-          reinforcement worn thin where it has actually been hit. Repairs by hand
-          and by her, over and over.
-      - check: NO COLOUR — bone, dust brown, ash. Forest damage over the top.
+          A HEAVY KNITTED SHAWL-COWL round her shoulders, olive, coarse and
+          deliberately FRAYED, hanging in long yarn tassels. Worn over one
+          shoulder, and pulled up over her head as a hood when she needs it. It
+          is the softest thing on her and the most obviously hand-made.
+      # P3 — the longest-lived hero prop in the trilogy, and it now exists.
+      - check: THE CLASP — dark disc, EIGHT-POINTED SUN, pinning the cowl.
         text: >
-          NO COLOUR ANYWHERE. Undyed or the dye long gone — bone, dust brown and
-          ash, all of it dirty, with days of forest over the top: mud, water and
-          torn wrapping. NEVER a saturated colour.
-      # P3. The clasp is the longest-lived hero prop in the trilogy and it comes
-      # off this rig — so the rig has to be built with something worth taking.
-      - check: A FASTENER GOOD ENOUGH TO GIVE AWAY — the clasp comes off this rig.
+          THE COWL IS PINNED WITH A DARK ROUND CLASP: a raised EIGHT-POINTED SUN
+          around a CENTRAL RING, worn steel showing through a blackened finish,
+          about the size of a large coin. IT MUST BE VISIBLE AND READABLE — it is
+          the object she gives Shin in Sc.22, Shin wears it for the rest of her
+          life, and it is the piece she looks at after killing Vala in Film 2.
+      - check: CHEST RIG with pouches — several small, one larger flapped bag.
         text: >
-          SOMEWHERE ON THE RIG IS ONE FASTENER BETTER THAN EVERYTHING AROUND IT —
-          a functional clasp, worn but sound, the only manufactured thing she
-          owns. It is what she gives Shin, so it must be VISIBLE and READABLE in
-          these views and must look like it could be unfastened and handed over.
-      # P2 requires her exit to read as gone, not killed, and her injuries are
-      # deferred to Film 2. Nothing in the costume may foreclose that.
-      - check: NO injuries, NO blood, NO damage that implies a wound.
+          A BROWN LEATHER CHEST RIG worn over the jacket, carrying SEVERAL SMALL
+          POUCHES and ONE LARGER FLAPPED BAG. Old, scuffed, buckles replaced more
+          than once. It is the only thing on her that was made to carry rather
+          than to protect.
+      - check: BUILT TO TAKE DAMAGE, and still holding. Not coming apart.
         text: >
-          NO INJURIES AND NO BLOOD. Her physical state after Scene 24 is
+          HERS IS THE ONLY CLOTHING IN THE GROUP DESIGNED TO TAKE DAMAGE and it
+          must read that way beside the others. Battered but HOLDING — where the
+          domestic clothes are failing, this was made for punishment and is still
+          doing its job.
+      - check: HAND repairs, years of wear, FOREST damage on top.
+        text: >
+          YEARS OF WEAR AND HAND REPAIR, then days of forest on top: mud, water,
+          torn edges, wet cloth hanging heavy, straps tightened into the same
+          holes for two decades. Every repair done by hand, never in a workshop.
+      # DELIBERATELY NOT A "NO COLOUR" RULE — see the note below. This says what
+      # the build is, and stops it drifting further toward colour, without
+      # ruling on the conflict.
+      - check: MUTED THROUGHOUT — olive, grey-brown, sand, worn leather.
+        text: >
+          THE PALETTE IS MUTED AND EARTH-BOUND: olive, grey-brown, sand and worn
+          brown leather, all of it dirty and sun-faded. NOTHING saturated,
+          NOTHING bright, NO fresh dye and NO colour that would catch an eye
+          across a clearing.
+      # P2 — her injuries are deferred to Film 2 and nothing may foreclose it.
+      - check: NO injuries, NO blood, NO damage implying a wound.
+        text: >
+          NO INJURIES AND NO BLOOD. Her physical state after Sc.24 is
           deliberately undecided and nothing here may foreclose it: no bandaging,
-          no scarring beyond old arena wear, no damage to the rig that implies a
-          specific wound.
+          no fresh scarring, no damage to the rig that implies a specific wound.
       - check: CAPABLE, not heroic. She expects to lose and always has.
         text: >
           SHE READS AS CAPABLE, NEVER AS HEROIC. No fighter's posing, no coiled
           stance, no weapon held for the camera. Twenty years of being made to
           fight for other people has left competence without any appetite for it.
+
+    # THE FITTING PHOTOGRAPH IS THE COSTUME AUTHORITY, wired in the way Shada's
+    # and Jasu's approved fronts are. 2308 is the cleanest full-length front.
+    #
+    # SCOPED TO THE COSTUME ONLY, AND THE FACE IS EXPLICITLY EXCLUDED, because it
+    # is not confirmed whether the person in these photographs is the cast Vala.
+    # Attaching an unconfirmed face as an authority is how Shada lost three
+    # generations on 2026-08-01 — a perfect costume on the wrong woman.
+    references:
+      - path: reference/fitting/fitting-2026-08-05-2308.jpg
+        what: >-
+          THE COSTUME ONLY — NEVER THE FACE OR THE HAIR.
+          Every garment, its layering order, its colour and its condition: the
+          belted waxed-canvas jacket, the leather chest rig and its pouches, the
+          frayed knitted cowl and its clasp, the bracer on her RIGHT forearm, the
+          wraps on both calves, the olive cargo trousers and the cream boots.
+          THE FACE, HAIR, AGE AND BUILD ARE NOT CONFIRMED CASTING AND COME FROM
+          THE TEXT, NEVER FROM THIS PHOTOGRAPH.
+          It is a FITTING under flat light against a white wall, with a sample
+          tag still attached at one hip and no forest damage on it yet — the
+          written rules win on DIRT, WEAR and WEATHER, which the garments have
+          not had applied.
+      - path: reference/props/clasp-fitting-2026-08-05.jpg
+        what: >-
+          THE CLASP — its shape and device, nothing else.
+          A dark round disc, a raised EIGHT-POINTED SUN around a central ring,
+          worn steel through a blackened finish. This is the P3 hero prop she
+          gives Shin. Take the object and nothing about the cloth around it.

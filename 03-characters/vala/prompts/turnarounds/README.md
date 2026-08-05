@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| The remnants of a fighting rig | in progress | FRONT | `turn-rig-front.txt` | `turn-rig-front.png` |
-| The remnants of a fighting rig | in progress | LEFT SIDE | `turn-rig-left.txt` | `turn-rig-left.png` |
-| The remnants of a fighting rig | in progress | RIGHT SIDE | `turn-rig-right.txt` | `turn-rig-right.png` |
-| The remnants of a fighting rig | in progress | BACK | `turn-rig-back.txt` | `turn-rig-back.png` |
-| The remnants of a fighting rig | in progress | NATURAL POSE | `turn-rig-natural.txt` | `turn-rig-natural.png` |
+| The remnants of a fighting rig, layered for the forest | in progress | FRONT | `turn-rig-front.txt` | `turn-rig-front.png` |
+| The remnants of a fighting rig, layered for the forest | in progress | LEFT SIDE | `turn-rig-left.txt` | `turn-rig-left.png` |
+| The remnants of a fighting rig, layered for the forest | in progress | RIGHT SIDE | `turn-rig-right.txt` | `turn-rig-right.png` |
+| The remnants of a fighting rig, layered for the forest | in progress | BACK | `turn-rig-back.txt` | `turn-rig-back.png` |
+| The remnants of a fighting rig, layered for the forest | in progress | NATURAL POSE | `turn-rig-natural.txt` | `turn-rig-natural.png` |
 
 ## Approved outfits
 

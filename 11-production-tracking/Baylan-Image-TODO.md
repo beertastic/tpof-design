@@ -7,7 +7,41 @@ status: "open"
 
 # Baylan — Finish List
 
-> # PICK UP HERE — 2026-08-05, end of day
+> # PICK UP HERE — 2026-08-05, PARKED
+>
+> **The working dress is finished except for ONE THING: the hip panels will not
+> get shorter.** Everything else on the front is right and has been stable for
+> several generations — the plastron, the leather/suede alternation, the relief,
+> the belt with no buckle in front, the gauntlets, the grime, the build.
+>
+> ## THE PANEL LENGTH: EIGHT ATTEMPTS, NONE SUCCESSFUL
+>
+> | Wording | Result |
+> |---|---|
+> | "Upper thigh only, barely past the seat" | mid-thigh |
+> | "One third of the way from the belt to the knee" | two thirds |
+> | "Level with the bottom of the holstered blaster" | longer than before |
+> | "No deeper than the belt above them is wide" | about 4x the belt |
+> | "Twice as deep as the belt is wide" | about 3x the intent |
+> | "As deep as his hand is long" | about 2.3x |
+> | "Hem level with his fingertips" | unchanged |
+>
+> **Every category of instruction has now failed**: body regions, fractions of a
+> span, comparison to a costume object, comparison to an anatomical object, and
+> alignment with a landmark. The belt failed as a ruler because its own drawn
+> width varies between plates — 110 px on one, 60 px on another.
+>
+> **DO NOT WRITE A NINTH WORDING.** The next attempt should be a marked-up crop
+> of a plate with the intended hemline shown, attached and scoped to the panel
+> length ONLY — the same conclusion the chevron count reached after eleven
+> tries. Only an image holds a shape.
+>
+> **The rest of the costume should not be re-litigated to get there.** If the
+> length has to be lived with, the front is otherwise approvable as it stands.
+>
+> ---
+>
+> # PREVIOUS — 2026-08-05, end of day
 >
 > ## THE COSTUME IS RIGHT EXCEPT THE SKIRT, WHICH JUST CHANGED
 >

@@ -78,6 +78,34 @@ outfits:
   - id: working
     name: Working dress
     scenes: "All of them — 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25. His only costume"
+    # LOCKED 2026-08-05, on the fourteenth front turnaround.
+    #
+    # Everything load-bearing is in it: the large plain yoke, the applied
+    # overlapping chevron panels with their piped edges, the broad plastron
+    # almost armhole to armhole, the belt fastening at the back so the front is
+    # unbroken leather, the gauntlets constant-height with flat level edges and a
+    # dead dark screen, blaster right and pouches left.
+    #
+    # THE BAND TONES VARY FROM EACH OTHER AND THAT IS DELIBERATE — it is
+    # Planted-Elements P5 made visible. Mismatched scrap suede now, proper
+    # leather later; the transfer between the two costumes is the MATERIAL, so
+    # the inconsistency IS the plant and must survive into the other views.
+    #
+    # WHAT IT TOOK: fourteen fronts. The count was a trim bug, not disobedience
+    # (short.py was cutting the width and spacing clauses); the yoke and the
+    # construction were rules we had written against the real garment and had to
+    # reverse once a reference existed; the green thread was being instructed to
+    # hide and is now specified on 05-detail_portrait and 12-materials instead.
+    # All of it is in 11-production-tracking/Baylan-Image-TODO.md.
+    approved:
+      date: "2026-08-05"
+      view: front
+      reference: 03-characters/baylan/source/artwork/turn-working-front.png
+      note: >-
+        Front view locked. Match this for all other views. The chevron bands are
+        DIFFERENT TONES from one another — mismatched scrap, not a matched set —
+        and that variation carries forward. The belt has NO buckle in front. The
+        gauntlet cuffs are the same height all the way round.
     description: >
       Salvaged, repaired mercenary workwear that has genuinely worked. A heavy
       work shirt, layered technical cloth and worn synth-leather over it, and a

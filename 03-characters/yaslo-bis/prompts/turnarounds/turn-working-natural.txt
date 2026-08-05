@@ -1,0 +1,211 @@
+[YASLO BIS — TURNAROUND — WORKING KIT — NATURAL POSE]
+Output file: turn-working-natural.png
+Aspect ratio: 2:3  (tall, full figure)
+Prompt version: c6e74efc · repo commit 1fc718a 2026-08-05 14:57
+
+BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
+    Working from commit 1fc718a, prompt c6e74efc.
+That is your proof you read this file. It is provenance for the human, NOT
+something to check against the repository — this prompt is self-contained and
+a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
+cannot quote it, say so and generate nothing. Never put it in the picture.
+
+ASPECT RATIO IS 2:3 — A TALL PORTRAIT. Generate at 1024 x 1536 pixels, or
+the nearest TALL size your tool offers. DO NOT DELIVER A SQUARE IMAGE.
+A square frame cannot hold a standing figure with headroom and floor, and the
+board generator fits plates without cropping — a square one letterboxes on the
+sheet and wastes half the panel.
+
+THIS MUST LOOK LIKE A REAL COSTUME REFERENCE PHOTOGRAPH.
+A photograph of a real performer wearing a real, physically built costume,
+standing in a real studio under real light. Not a render, not an
+illustration, not concept art, not AI-looking output.
+
+====================================================================
+THIS IS A PLATE, NOT A BOARD. ONE PHOTOGRAPH, ONE FIGURE, NOTHING ELSE.
+FULL LENGTH — THE WHOLE BODY, HEAD TO BELOW THE FEET.
+====================================================================
+
+NOT a portrait. NOT head-and-shoulders. NOT a bust, a half-length or a
+waist-up. If the feet are not in the frame, the image is unusable — this is
+a COSTUME record and the boots, the hem and the whole silhouette are the
+point. The head should occupy a small part of the frame.
+
+Deliver a single, plain, full-figure photograph on a seamless studio
+backdrop. It is raw material. The production boards are assembled from
+plates like this one by a separate tool, and anything you add here has
+to be removed before it can be used.
+
+ABSOLUTELY NOT, IN ANY FORM:
+  - NO text of any kind. No name, no title, no caption, no labels, no
+    headings, no annotation, no measurements, no height marks.
+  - NO logo, no watermark, no signature, no production branding.
+  - NO layout, no frame, no border, no vignette panel, no title bar.
+  - NO second view. One figure, one angle. No front-and-back pair, no
+    multi-view sheet, no turnaround strip, no contact sheet, no montage.
+  - NO inset head shots, no profile studies, no detail crops.
+  - NO material swatches, NO colour palette chips, NO prop call-outs.
+  - NO scale silhouette, no ruler, no grid.
+
+If the result looks like a designed page rather than a photograph taken
+in a costume fitting, it is wrong and cannot be used.
+
+NO ACTOR HAS BEEN CAST. There is no actor reference for this character,
+so cast the face yourself — build it from the written description and
+nothing else. An ordinary, unremarkable, believable face. DO NOT reach for
+a handsome or striking one, and do not drift toward any actor you have seen
+play a similar part.
+
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
+
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
+
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
+them, so it is worth several attempts to get right.
+
+This character is RIGHT-HANDED. All positions below are given from
+THEIR OWN left and right, never the viewer's.
+
+HEIGHT: 183 cm (6 ft 0 in) — loose-limbed and easy, a man who sprawls in a chair. Build the proportions to it — head size against body
+length, limb length, how heavily the figure stands. A figure alone on a plain
+backdrop gives the eye nothing to measure against, so it has to be in the body.
+
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
+  2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
+  3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
+  4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+  5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
+  6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
+  7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.
+  8. HE IS NOT A BACKGROUND KIT BUILD. He has a speaking part in two scenes in good light and his silhouette must be his own — distinct from Merc 1 to Merc 4 and from every other named crew member.
+
+=== SHOT ===
+FULL-LENGTH COSTUME REFERENCE PHOTOGRAPH — NATURAL POSE.
+
+Same plain seamless neutral mid-grey studio background, same even soft frontal
+lighting, same full-figure framing and same scale as the four turnaround views.
+
+But the subject now stands as this person actually stands. Weight settled on one
+leg, shoulders as they naturally sit, hands where this character would rest them,
+head at the angle they hold it. A real posture, not a display position.
+
+Expression is the character's default — the face they wear when nobody is asking
+anything of them.
+
+Still sharp across the frame, still evenly lit, still no environment. The only
+thing that changes from the turnaround views is the human being inside the
+clothes: how the costume hangs when it is not being presented, where it creases,
+what it does under a real body.
+
+Facing the camera, three-quarters on.
+
+=== VIEW ===
+The subject stands naturally, facing the camera three-quarters on.
+
+=== CONSISTENCY ===
+CONSISTENCY REQUIREMENT — this is one of five images of the same costume.
+
+All five share the same distance, same lens, same camera height, same lighting
+setup, same background, same exposure and the same scale: the figure occupies
+exactly the same height in every frame. The costume is identical in all five —
+nothing added, removed, opened or adjusted between views.
+
+The only thing that changes between the four turnaround views is the direction
+the subject is facing.
+
+=== STYLE ===
+Live-action Star Wars production still. Outer Rim frontier realism in the manner
+of the original trilogy and Andor, with a subtle Mandalorian frontier
+aesthetic. Photographic, not illustrative.
+
+This is a galaxy built from industrial salvage. Nothing is factory fresh. Every
+object has had a previous owner and carries visible history: repairs, scratches,
+faded paint, replaced components, grime, evidence of servicing.
+
+Costume is functional workwear first — real, buildable construction with
+believable seams and fasteners, no floating armour, nothing purely decorative.
+Occupation should be readable from silhouette alone. Materials: ballistic weave,
+quilted flight fabric, reinforced synth-leather, flexible armour mesh, woven
+technical textiles, plastoid plates, insulated work fabric, industrial rubber,
+brushed alloy.
+
+Palette muted, sun-faded, practical — charcoal, ash grey, weathered black, faded
+olive, dust brown, sand, bone white. Secondary: rust red, ochre, deep burgundy,
+forest green, navy blue. Accents (brass, copper, oxidised bronze, warning
+yellow) used sparingly. Bright colour only for rank, warning markings, cultural
+identity or a significant personal item.
+
+Lighting motivated by believable sources only: natural sunlight, overcast sky,
+work lamps, bulkhead fixtures, warning lights, control panels, firelight.
+
+Camera: naturalistic composition over heroic posing. Restrained colour grade,
+subtle atmospheric haze, realistic depth of field, fine film grain, practical
+lens behaviour. Subject engaged in meaningful activity rather than looking at
+camera unless specified. The world feels larger than the people within it.
+
+=== DO NOT ===
+No Caribbean or Earth pirate costume, tricorn silhouettes, pirate coats,
+corsets, Renaissance or medieval clothing, medieval leather armour, fantasy
+shoulder pads, decorative belts, swashbuckler aesthetics, Victorian fashion,
+Roman armour, modern tactical/SWAT gear.
+
+No pristine futuristic minimalism. No factory-fresh or polished surfaces. No
+ceremonial or ornamental equipment. No oversized or stylised weapons. No glowing
+decorative technology. No gadget overload.
+
+No glamour posing, no sexualisation, no fashion-editorial lighting.
+
+No text, logos, watermarks, captions, labels or lettering in the image.
+
+No crushed blacks — the silhouette must stay separated from the background.
+
+Photographic realism only: no anime, no cel shading, no painterly illustration,
+no 3D-render look, no plastic or waxy skin.
+
+Additionally, for this image only: ignore any instruction about imperfect,
+off-centre or loose framing. A turnaround is deliberately centred and
+square-on. Keep every rule about real skin and real materials.
+
+=== PHOTOGRAPHIC REALISM ===
+
+
+=== SKIN AND REALISM ===
+
+
+=== CHARACTER ===
+INCOMPLETE. Fill this from Character.md and Character-Lock.md before generating anything. This block is what holds the character consistent across thirteen separate images — if it is vague, they will not match.
+
+Yaslo Bis. Mercenary appearing in the Sabacc scene and final clearing sequence.
+
+NEEDS:
+
+- Species, age range, gender presentation
+- Build and silhouette — the shape read at distance, in one line
+- Distinguishing physical traits
+- Costume: layers, construction, what is protected and what is exposed, and why
+- Equipment carried, and what is deliberately absent
+- Movement and body language
+- The one sentence that separates them from everyone else in their faction
+
+=== THIS COSTUME ===
+Working kit — Sabacc in Sc.10, the pincer group in Sc.23, the finale in Sc.25. His only costume
+
+Chosen, fitted and maintained, like everyone else in this crew, and matching none of them. His taste runs to SOFT over hard: layered coats and wraps rather than plate, a long over-jacket he can sit down in, good boots, a belt that carries what he needs and nothing more. He is the least armoured mercenary in the crew and the most comfortable — the man who is enjoying himself in the Sabacc scene reads that way before he speaks. CYBERNETICS OVER ONE SIDE OF THE FACE: a plate along the cheekbone and temple, a replaced ear, a fine seam running back into the hairline. Old, matte, worn smooth at the edges by his own hand. The other side of his face is untouched. Everything is well kept. Repairs done properly, hardware working, cloth brushed. He is not fastidious; he simply has money and takes care of his things. A personal mark somewhere small and unheroic — a kept object, a good buckle, something bought rather than won.
+
+=== CHECK BEFORE YOU FINISH ===
+NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
+  1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
+  2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
+  3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
+  4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+  5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
+  6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
+  7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.
+  8. HE IS NOT A BACKGROUND KIT BUILD. He has a speaking part in two scenes in good light and his silhouette must be his own — distinct from Merc 1 to Merc 4 and from every other named crew member.
+
+
+Deliver a single image at 2:3. It must look photographed, not generated.

@@ -6,10 +6,10 @@ the commit that contains this file.
 | | |
 |---|---|
 | Branch | `main` |
-| Commit before this one | `7972e2d` |
+| Commit before this one | `1fc718a` |
 | Screenplay | `the-price-of-freedom-v10.fountain` |
 | Character folders | 12 |
-| Generated prompt files | 331 |
+| Generated prompt files | 342 |
 
 ## For any AI agent reading this repository
 

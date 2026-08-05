@@ -1,0 +1,47 @@
+[YASLO-BIS — WORKING KIT — NATURAL]
+Output file: turn-working-natural.png
+Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
+Prompt version: e8106f62 (short) · repo commit 1fc718a 2026-08-05 14:57
+
+THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+NO text, labels, captions, titles, logos, borders or layout. NO second view,
+no inset heads, no detail crops, no swatches, no colour palette.
+FULL LENGTH — head to below the feet. Not a portrait.
+
+NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
+A LIKENESS OF A REAL PERSON. Build the face from the written description
+alone: an ordinary, unremarkable, plausible human being who could exist,
+photographed in a fitting room. Do not resemble any actor or public figure.
+
+RIGHT-HANDED — sides are given from THEIR own left/right. 183 cm (6 ft 0 in) — loose-limbed and easy, a man who sprawls in a chair
+
+MUST BE TRUE OF THIS IMAGE:
+1. THE CYBERNETICS COVER ONE SIDE OF HIS FACE AND NO MORE. The EYES, the MOUTH and the whole opposite side are UNTOUCHED HUMAN SKIN and fully expressive. He is the warm one in this crew — he deals, he takes the mickey, the group laughs WITH him — and if the facework costs him a smile the design has failed.
+2. HE MUST NOT READ AS A THUG OR AS A HEAVY. Open, sociable, relaxed, somebody you would want at your table. The finale gains nothing unless the Sabacc scene was genuinely warm first.
+3. THE CYBERNETICS ARE OLD. Matte, dulled, worn smooth at the edges where he touches them without thinking. NOTHING LIT, NOTHING glowing, NOTHING that whirs or reads as new technology. They are the oldest thing on him and he stopped noticing them years ago.
+4. HIS TASTE RUNS TO SOFT OVER HARD: layered coats and wraps, a long over-jacket he can sit down in, cloth rather than plate. He is the LEAST ARMOURED mercenary in the crew, and his comfort is visible before he opens his mouth.
+5. EVERY PIECE ON HIM WAS CHOSEN AND PAID FOR BY HIM. NOTHING issued, NOTHING matching another crew member, NO uniform, NO insignia and NO faction colour. If he looks dressed by the same person as anyone else, it is wrong.
+6. HIS KIT IS MAINTAINED AND IT IS GOOD. Repairs done properly with tools and materials, hardware working, cloth brushed, boots sound. The quality reads at a distance. Worn, never ruined.
+7. NO MILITARY UNIT READ — no rank, no regulation webbing, no modern tactical or SWAT language. He is a self-employed professional who is good at an ugly job.
+8. HE IS NOT A BACKGROUND KIT BUILD. He has a speaking part in two scenes in good light and his silhouette must be his own — distinct from Merc 1 to Merc 4 and from every other named crew member.
+
+SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
+Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
+Arms ~30° out from the body so nothing overlaps. Sharp throughout, deep
+focus, no bokeh, no flare, no vignette. Every strap, seam, buckle and
+fastening clearly readable.
+
+LOOK: a real photograph of a real performer in a real, built costume.
+Used-future Star Wars — industrial salvage, nothing factory fresh, muted
+and sun-faded. Real skin with pores and lines. Not a render, not concept
+art, not AI-looking.
+
+BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
+  1. THE FACEWORK MUST NOT COST HIM EXPRESSION. He is the warm one.
+  2. NOT A THUG. Open, sociable, enjoying himself.
+  3. CYBERNETICS OLD and MATTE — worn smooth, never new, never lit.
+  4. SOFT, not armoured — the least plated man in the crew.
+  5. EVERY PIECE WAS CHOSEN. Nothing issued, nothing matching.
+  6. MAINTAINED and GOOD — repaired properly, quality reads at distance.
+  7. NO military read. Not a soldier and never was.
+  8. NOT a Mercenary Kit build — his own costume, his own silhouette.

@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: b2eeb8b4 (short) · repo commit d4cbd97 2026-08-05 13:37
+Prompt version: 199baa0c (short) · repo commit 5bcfb5c 2026-08-05 13:37
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -10,7 +10,7 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE CHEST PANEL GEOMETRY ONLY — NOT THE GARMENT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
+  THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
@@ -30,19 +30,19 @@ MUST BE TRUE OF THIS IMAGE:
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the panel, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS A BROAD PLASTRON ACROSS HIS CHEST, running almost from armhole to armhole with only a NARROW STRIP of plain cloth left at each side. It stops short of the shoulder seams and NEVER runs onto the arms. NOT a narrow strip down the centre, and NOT a flat printed graphic.
-7. THE CHEVRON PANEL IS PART OF THE GARMENT AND IT ENDS ABOVE THE BELT. The last chevron finishes clear of it, with a band of plain cloth between the panel and the belt — that gap is correct and deliberate. The panel NEVER runs under the belt, NEVER continues below it, and is NOT a tabard and NEVER reaches the thigh.
+7. THE GARMENT RUNS DOWN BEHIND THE BELT AND IS NOT A CROP TOP — it NEVER ends above the waist and NEVER bares a strip of shirt between itself and the belt. Only the CHEVRON BANDS stop short: the lowest band ends above the belt, and PLAIN cloth of the same garment carries on down and disappears behind it.
 8. THREE TO FIVE BROAD CHEVRON BANDS BELOW THE YOKE, filling the panel to its lower edge. EACH IS A "V": ends HIGH at the sides, point LOW at the centre. NEVER a peak, NEVER an upturned "^". They are FEW AND BROAD, NEVER a stack of thin stripes and NEVER more than five.
 9. A LARGE PLAIN YOKE FILLS THE TOP HALF OF THE PANEL — a broad empty field of cloth from the collar down to about the middle of his chest, ending in ONE WIDE V. It is the biggest single shape on the panel. The chevron bands begin BELOW it and NEVER above it, and NOTHING crosses the yoke.
 10. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
 11. THE CHEVRONS ARE SEPARATE PANELS LAID ON THE GARMENT AND OVERLAPPING EACH OTHER like layered plates, each with a RAISED PIPED EDGE that casts a real shadow. NOT quilting, NOT stitched rows, NOT padding that domes between seams. The lower band overlaps the one below it.
-12. EACH BAND IS A SLIGHTLY DIFFERENT TONE FROM THE ONE ABOVE IT — cut from mismatched scrap, so they alternate visibly, some greyer and some browner and some deader. ALL OF THEM STAY NEAR-BLACK: never light, never a colour, never printed or painted, never a badge.
+12. THE BANDS DO NOT MATCH EACH OTHER AND MUST NEVER BE A MATCHED SET. Cut from mismatched scrap — one greyer, the next browner, the next more faded — so the tones ALTERNATE VISIBLY from band to band. All near-black and none of them light, but NEVER uniform.
 13. THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the panels stand proudest, the suede gone shiny at the high points and grimy in the angles, corners lifting where the stitching has let go. It is a work garment that has been slept in, not a made thing anyone is proud of.
 14. HIS CHEST CARRIES THE PANEL AND NOTHING ELSE. NO harness, NO braces, NO shoulder straps of any kind — not down, not across, not diagonal, not a bandolier, not a sash. NO buckle, ring or fitting anywhere on the sternum. Everything he carries hangs on the WAIST BELT.
 15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment, and NOTHING crosses it. Its bands run UNBROKEN from side to side, interrupted by nothing at all.
 16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
 17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from.
-18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP AND ONE ONLY — NEVER layered, NEVER doubled. THEY REACH ONE THIRD OF THE WAY FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER: SHORT, barely past the seat.
-19. THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from use, one panel a little shorter than the other, and at most ONE small split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth edge, NO torn-out chunks, NO hanging strips. The bottom edge still reads as a HEM.
+18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle of him. NEVER layered, NEVER doubled, NEVER joined. THEY REACH ONE THIRD OF THE WAY FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER.
+19. THE PANELS ARE WORN, AND ONE OF THEM IS RIPPED. On ONE panel only, a single straight tear runs UP FROM THE HEM about two thirds of the panel's depth, splitting it so the halves hang apart. Hems otherwise soft and lightly frayed: NO saw-tooth edge, NO torn-out chunks, NO hanging strips, NOT shredded.
 20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi.
 21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
@@ -69,7 +69,7 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. Blaster his RIGHT hip, UGLY and heavily modified. Pouches his LEFT.
   2. The long coat is OFF — the belt and holster are all visible.
   3. Panel is BROAD — almost armhole to armhole, a strip clear each side.
-  4. Panel ends ABOVE the belt, clear of it. NOT a tabard.
+  4. Garment runs BEHIND the belt — not a crop top. Bands stop above.
   5. FIVE bands, collar to lower edge. The BELT CROSSES THE FOURTH.
   6. A LARGE plain yoke fills the top half. Bands only BELOW it.
   7. APPLIED PANELS with piped edges — suede on matte, NOT quilting.

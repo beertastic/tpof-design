@@ -1,13 +1,13 @@
 [BAYLAN — THE CONVERTED LIGHTSABER]
 Output file: blaster.png
 Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: f24013de (short) · repo commit d4cbd97 2026-08-05 13:37
+Prompt version: 4162ae65 (short) · repo commit 5bcfb5c 2026-08-05 13:37
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE CHEST PANEL GEOMETRY ONLY — NOT THE GARMENT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
+  THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg

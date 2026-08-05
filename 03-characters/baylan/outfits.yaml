@@ -219,13 +219,24 @@ outfits:
       # So the rule was wrong, not the picture. Third time today: rule 9's yoke,
       # rule 11's construction, and now this. All three were us describing what
       # we expected rather than what the garment does.
-      - check: Panel ends ABOVE the belt, clear of it. NOT a tabard.
+      # THIS RULE PRODUCED A CROP TOP, 2026-08-05, and the wording was ours.
+      #
+      # It said "THE CHEVRON PANEL IS PART OF THE GARMENT" and then "the panel
+      # NEVER runs under the belt, NEVER continues below it". Read together —
+      # and they are one sentence apart — that is: the GARMENT never runs under
+      # the belt. It obeyed exactly and returned a cropped vest ending above the
+      # waist with a strip of shirt showing beneath it.
+      #
+      # THE TWO THINGS HAD THE SAME NAME. "Panel" meant the chevron field in one
+      # clause and the whole garment in the next. Named separately now: the
+      # GARMENT goes down behind the belt, the BANDS stop above it.
+      - check: Garment runs BEHIND the belt — not a crop top. Bands stop above.
         text: >
-          THE CHEVRON PANEL IS PART OF THE GARMENT AND IT ENDS ABOVE THE BELT.
-          The last chevron finishes clear of it, with a band of plain cloth
-          between the panel and the belt — that gap is correct and deliberate.
-          The panel NEVER runs under the belt, NEVER continues below it, and is
-          NOT a tabard and NEVER reaches the thigh.
+          THE GARMENT RUNS DOWN BEHIND THE BELT AND IS NOT A CROP TOP — it NEVER
+          ends above the waist and NEVER bares a strip of shirt between itself
+          and the belt. Only the CHEVRON BANDS stop short: the lowest band ends
+          above the belt, and PLAIN cloth of the same garment carries on down and
+          disappears behind it.
       # REWRITTEN 2026-08-05, after the EIGHTH front came back with SEVEN bands
       # while the coat view — same panel, same day — came back with five.
       #
@@ -375,11 +386,10 @@ outfits:
       # payoff. Specified positively now rather than tolerated.
       - check: Bands ALTERNATE in tone — mismatched scrap, all still near-black.
         text: >
-          EACH BAND IS A SLIGHTLY DIFFERENT TONE FROM THE ONE ABOVE IT — cut from
-          mismatched scrap, so they alternate visibly, some greyer and some
-          browner and some deader. ALL OF THEM STAY NEAR-BLACK: never light,
-          never a colour, never printed or painted, never a badge. Soft suede or
-          worn leather on matte canvas, reading by SHEEN as much as by tone.
+          THE BANDS DO NOT MATCH EACH OTHER AND MUST NEVER BE A MATCHED SET. Cut
+          from mismatched scrap — one greyer, the next browner, the next more
+          faded — so the tones ALTERNATE VISIBLY from band to band. All
+          near-black and none of them light, but NEVER uniform.
       - >
         THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
         panels stand proudest, the suede gone shiny at the high points and grimy
@@ -606,11 +616,10 @@ outfits:
       # ONE PANEL PER HIP is stated because two generations layered them.
       - check: Panels reach ONE THIRD from belt to knee. ONE per hip, no layers.
         text: >
-          NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE
-          OVER EACH HIP AND ONE ONLY — NEVER layered, NEVER doubled. THEY REACH
-          ONE THIRD OF THE WAY FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER:
-          SHORT, barely past the seat. They are OPEN AT THE CENTRE FRONT AND THE
-          CENTRE BACK, so his trousers show all the way up the middle of him.
+          TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
+          FRONT AND BACK so his trousers show up the middle of him. NEVER
+          layered, NEVER doubled, NEVER joined. THEY REACH ONE THIRD OF THE WAY
+          FROM THE BELT DOWN TO HIS KNEE AND NO FURTHER.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -623,11 +632,11 @@ outfits:
       # correction the costume needed at the very start — "used, not ruined".
       - check: Panels WORN but WHOLE — soft frayed hem, never ragged or shredded.
         text: >
-          THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from
-          use, one panel a little shorter than the other, and at most ONE small
-          split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth
-          edge, NO torn-out chunks, NO hanging strips. The bottom edge still
-          reads as a HEM. Soft near-black cloth, the same as the rest of him.
+          THE PANELS ARE WORN, AND ONE OF THEM IS RIPPED. On ONE panel only, a
+          single straight tear runs UP FROM THE HEM about two thirds of the
+          panel's depth, splitting it so the halves hang apart. The other panel
+          is whole. Hems otherwise soft and lightly frayed: NO saw-tooth edge, NO
+          torn-out chunks, NO hanging strips, NOT shredded.
       # RETARGETED 2026-08-05. This was "THE SKIRT MUST NOT TURN HIM INTO A
       # JEDI, AND FIVE THINGS WOULD DO IT" — written to make a knee-length split
       # tunic safe. That garment is gone and two ragged hip panels carry no Jedi
@@ -807,7 +816,9 @@ outfits:
     references:
       - path: reference/concept/chevron-geometry-source.png
         what: >-
-          THE CHEST PANEL GEOMETRY ONLY — NOT the garment.
+          THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE.
+          HIS BANDS DO NOT MATCH EACH OTHER AND THE REPRODUCTION'S DO. Take the
+          shapes from it and nothing whatever about the colour.
           The LARGE PLAIN YOKE filling the top half and ending in one wide V; the
           THREE TO FIVE broad chevron bands below it, points LOW at the centre;
           the panel's WIDTH, almost armhole to armhole; and the construction —

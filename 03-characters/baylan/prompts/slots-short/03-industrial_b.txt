@@ -1,7 +1,7 @@
 [BAYLAN — THE STORAGE AREA]
 Output file: industrial_b.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: bfb38327 (short) · repo commit 82449d7 2026-08-05 14:27
+Prompt version: bfb38327 (short) · repo commit a9c6e05 2026-08-05 14:33
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

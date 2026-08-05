@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ce870c3d (short) · repo commit a8503d5 2026-08-05 12:29
+Prompt version: 5de1ff52 (short) · repo commit 61104be 2026-08-05 12:30
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -28,7 +28,7 @@ MUST BE TRUE OF THIS IMAGE:
 3. THE BROAD CHEST PLASTRON, AND THE OPEN COAT MUST NOT COVER IT — showing that panel is the point of this view and the coat only frames it. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below it THREE TO FIVE broad chevron bands, EACH A "V" WITH ITS POINT LOW AT THE CENTRE AND ITS ENDS HIGH AT THE SIDES — never an upward peak — at a shallow angle of about 30° below horizontal, filling the panel to below the belt. The bands are SEPARATE PANELS LAID ON and overlapping like layered plates, each with a RAISED PIPED EDGE that casts a real shadow, sewn down in coarse greyed-off green thread. Suede against matte canvas: they read by SHEEN, not colour, and everything stays the same near-black. NOT quilting, NOT printed, NOT a badge.
 4. THE CHEVRON STITCHING IS A DARK GREYED-OFF GREEN that MUST read as dark thread at this distance and NOTHING else. It is the only colour on him, and nothing else on the costume or the coat is green — no panel, no cloth, no leather, no trim, no piping.
 5. THE COAT HAS A HOOD AND IT IS ALWAYS DOWN — folded soft at the back of the neck, sitting over the collar and the tops of the shoulders, reading as a heap of worn cloth. NEVER up, NEVER over his head, NEVER drawn forward, and NEVER a cowl. Down it is weather gear; up it is the man he becomes in eighteen years, and this film is not that film.
-6. UNDER THE COAT HE IS IN THE FULL WORKING DRESS. The top layer runs on into a SKIRT TO JUST ABOVE THE KNEE, split at both sides, same near-black cloth, hanging straight and visible below the coat's front edges. NO cream, NO wrap front, NO sash.
+6. UNDER THE COAT HE IS IN THE FULL WORKING DRESS. NOT A SKIRT: TWO SEPARATE TORN PANELS hang from the belt over each hip, open at the centre front and back so his trousers show up the middle, upper thigh only and ragged at the hem. NO cream, NO wrap front, NO sash.
 7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
 8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the harness must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
 9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
@@ -49,6 +49,6 @@ art, not AI-looking.
 
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. Hood DOWN at the back of the neck. NEVER up, never over the head.
-  2. Skirt to the knee below the coat. Metal gauntlets, dull and filthy.
+  2. TWO torn hip panels below the coat, not a skirt. Gauntlets dull.
   3. Build MATCHES the full-body photo. Big and solid, NOT obese.
   4. DARK — near-black. Coat still darker than the costume beneath.

@@ -78,34 +78,18 @@ outfits:
   - id: working
     name: Working dress
     scenes: "All of them — 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25. His only costume"
-    # LOCKED 2026-08-05, on the fourteenth front turnaround.
+    # APPROVAL CLEARED 2026-08-05, hours after it was granted, because the
+    # SKIRT CHANGED — see the rules below. APPROVAL.md's own procedure: clear the
+    # block, change, regenerate, make a new reference view, re-approve, then
+    # regenerate every other view.
     #
-    # Everything load-bearing is in it: the large plain yoke, the applied
-    # overlapping chevron panels with their piped edges, the broad plastron
-    # almost armhole to armhole, the belt fastening at the back so the front is
-    # unbroken leather, the gauntlets constant-height with flat level edges and a
-    # dead dark screen, blaster right and pouches left.
+    # WHAT THE CLEARED APPROVAL WAS: front, 2026-08-05, on the fourteenth
+    # turnaround, at source/artwork/turn-working-front.png. Everything on it was
+    # right except the skirt, which is why only the skirt rules moved.
     #
-    # THE BAND TONES VARY FROM EACH OTHER AND THAT IS DELIBERATE — it is
-    # Planted-Elements P5 made visible. Mismatched scrap suede now, proper
-    # leather later; the transfer between the two costumes is the MATERIAL, so
-    # the inconsistency IS the plant and must survive into the other views.
-    #
-    # WHAT IT TOOK: fourteen fronts. The count was a trim bug, not disobedience
-    # (short.py was cutting the width and spacing clauses); the yoke and the
-    # construction were rules we had written against the real garment and had to
-    # reverse once a reference existed; the green thread was being instructed to
-    # hide and is now specified on 05-detail_portrait and 12-materials instead.
-    # All of it is in 11-production-tracking/Baylan-Image-TODO.md.
-    approved:
-      date: "2026-08-05"
-      view: front
-      reference: 03-characters/baylan/source/artwork/turn-working-front.png
-      note: >-
-        Front view locked. Match this for all other views. The chevron bands are
-        DIFFERENT TONES from one another — mismatched scrap, not a matched set —
-        and that variation carries forward. The belt has NO buckle in front. The
-        gauntlet cuffs are the same height all the way round.
+    # BOTH EXISTING PLATES ARE NOW SUPERSEDED — turn-working-front.png and
+    # turn-working-back.png. They are kept as history and MUST NOT be used as a
+    # match target or as board source until a new front is approved.
     description: >
       Salvaged, repaired mercenary workwear that has genuinely worked. A heavy
       work shirt, layered technical cloth and worn synth-leather over it, and a
@@ -117,9 +101,9 @@ outfits:
       unbroken band of worn leather with no buckle or fitting on it — and hanging
       from it on his
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
-      METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. The
-      top layer runs on into a knee-length skirt, split at both sides. Heavy
-      boots,
+      METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
+      separate torn panels of cloth hang from the belt over each hip, open at the
+      centre front and back, upper thigh only. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
@@ -550,29 +534,59 @@ outfits:
       # salvaged belt, is Norse workwear and reads as nothing else. He already
       # fails all five Jedi signals, so the shape can be had safely — and the
       # next rule names them so it stays that way.
-      - check: Skirt to just above the knee, SPLIT both sides. Same cloth, near-black.
+      # REPLACED 2026-08-05 by the Production Designer, and it cost the approval
+      # granted the same afternoon. The knee-length tunic skirt is gone.
+      #
+      # WHAT IT IS NOW: "It should be separate, revealing the crotch area, and
+      # shorter. So it's a hint of a skirt and perhaps worn or torn."
+      #
+      # TWO SEPARATE PANELS HUNG AT THE HIPS, open at the centre front AND the
+      # centre back, so his trousers run uninterrupted up the middle of him from
+      # both sides. Upper thigh only — barely past the seat. Not a skirt he wears
+      # so much as what is left of one.
+      #
+      # THIS IS THE FAULD SILHOUETTE AND IT IS NOW SAFE, which is worth saying
+      # because the fauld was refused on 2026-08-04. That refusal was about
+      # OVERLAPPING METAL PLATES: "the shape most likely to read as armour, and
+      # armour reads as status, and status is what he has spent eighteen years
+      # hiding." Torn cloth carries none of that — it reads as damage, not
+      # defence. The shape was never the problem; the material was.
+      #
+      # IT ALSO KILLS THE JEDI RISK OUTRIGHT. The old tunic skirt needed a whole
+      # rule naming five signals to keep it safe, because a knee-length split
+      # tunic IS the shape. Two ragged hip panels are not that shape at all.
+      - check: TWO SEPARATE HIP PANELS, upper thigh, open front and back.
         text: >
-          THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the
-          belt it continues as a straight panel of the SAME CLOTH, front and
-          back, SPLIT at both sides from hip to hem so his legs are clear and he
-          can work in it. Heavy, plain, near-black, and hanging straight.
-      - >
-        THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is
-        one garment cut long, and the chevron panel on the chest stops well above
-        the belt and never runs down into it. No overlapping plates, no leather
-        strips, no fauld and no apron.
+          NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE
+          OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK:
+          his trousers show all the way up the middle of him, front and back, and
+          NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the
+          seat — NEVER to the knee. They hang free and swing.
+      - check: The panels are TORN and worn out — a hint of a garment, not one.
+        text: >
+          THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem,
+          one shorter than the other, edges gone to threads — cloth that has been
+          caught and pulled and never mended. They are NOT armour, NOT plates,
+          NOT leather straps and NOT a fauld: soft near-black cloth, the same as
+          the rest of him, hanging limp.
+      # RETARGETED 2026-08-05. This was "THE SKIRT MUST NOT TURN HIM INTO A
+      # JEDI, AND FIVE THINGS WOULD DO IT" — written to make a knee-length split
+      # tunic safe. That garment is gone and two ragged hip panels carry no Jedi
+      # read at all, so the rule stops being about the skirt. The five signals
+      # still have to be refused, because the COAT and the palette can still do
+      # it, so they keep their own rule and lose the skirt framing.
       - check: NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
         text: >
-          THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT.
-          NO cream, sand or pale brown — it is near-black like the rest of him.
-          NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the
-          wrist. NO crossed or wrapped front; the chevron panel is his front. NO
-          sash or obi; his belt is broad salvaged leather, fastened at the back.
+          FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR.
+          NO cream, sand or pale brown — he is near-black throughout. NO hood and
+          NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO
+          crossed or wrapped front; the chevron panel is his front. NO sash or
+          obi; his belt is broad salvaged leather, fastened at the back.
       - >
-        THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the
-        pouches on his LEFT hang OVER it through the side splits, clear and
-        unobstructed. If the holster is buried in cloth or the grip is hard to
-        reach, the image is wrong.
+        NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on
+        his LEFT hang OUTSIDE the hip panels, clear of them and fully visible.
+        The panels hang BEHIND the kit, never over it. If the holster is buried
+        in cloth or the grip is hard to reach, the image is wrong.
       # CHANGED 2026-08-04 by the Production Designer. These were leather wraps.
       # The gauntlets are already 3D PRINTED, and the later costume's are metal —
       # so the plant recorded in Planted-Elements P5 ("the bracers, a shape that
@@ -898,12 +912,18 @@ outfits:
           reading as a heap of worn cloth. NEVER up, NEVER over his head, NEVER
           drawn forward, and NEVER a cowl. Down it is weather gear; up it is the
           man he becomes in eighteen years, and this film is not that film.
-      - check: Skirt to the knee below the coat. Metal gauntlets, dull and filthy.
+      # UPDATED 2026-08-05 WITH THE SKIRT CHANGE, and noted because the same
+      # omission happened on 2026-08-04: the base five gained a knee-length skirt
+      # and this outfit was never told, because its description says "exactly the
+      # working dress with his long coat on over it" — a sentence that is correct
+      # and carries none of the detail. A change to the working dress is a change
+      # to this outfit too, every time.
+      - check: TWO torn hip panels below the coat, not a skirt. Gauntlets dull.
         text: >
-          UNDER THE COAT HE IS IN THE FULL WORKING DRESS. The top layer runs on
-          into a SKIRT TO JUST ABOVE THE KNEE, split at both sides, same
-          near-black cloth, hanging straight and visible below the coat's front
-          edges. NO cream, NO wrap front, NO sash.
+          UNDER THE COAT HE IS IN THE FULL WORKING DRESS. NOT A SKIRT: TWO
+          SEPARATE TORN PANELS hang from the belt over each hip, open at the
+          centre front and back so his trousers show up the middle, upper thigh
+          only and ragged at the hem. NO cream, NO wrap front, NO sash.
       - >
         METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a
         one-piece open-backed cuff, ribbed round the lower half, with a small

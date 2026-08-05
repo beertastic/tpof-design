@@ -10,11 +10,11 @@ All at **2:3**, tall, full figure.
 
 | Outfit | Status | View | Prompt | Output |
 |---|---|---|---|---|
-| Working dress | **APPROVED** 2026-08-05 | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
-| Working dress | **APPROVED** 2026-08-05 | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
-| Working dress | **APPROVED** 2026-08-05 | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
-| Working dress | **APPROVED** 2026-08-05 | BACK | `turn-working-back.txt` | `turn-working-back.png` |
-| Working dress | **APPROVED** 2026-08-05 | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
+| Working dress | in progress | FRONT | `turn-working-front.txt` | `turn-working-front.png` |
+| Working dress | in progress | LEFT SIDE | `turn-working-left.txt` | `turn-working-left.png` |
+| Working dress | in progress | RIGHT SIDE | `turn-working-right.txt` | `turn-working-right.png` |
+| Working dress | in progress | BACK | `turn-working-back.txt` | `turn-working-back.png` |
+| Working dress | in progress | NATURAL POSE | `turn-working-natural.txt` | `turn-working-natural.png` |
 | Working dress with the long coat | in progress | FRONT | `turn-working-coat-front.txt` | `turn-working-coat-front.png` |
 | Working dress with the long coat | in progress | NATURAL POSE | `turn-working-coat-natural.txt` | `turn-working-coat-natural.png` |
 

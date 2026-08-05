@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — BACK]
 Output file: turn-working-back.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: c7c635e8 · repo commit a8503d5 2026-08-05 12:29
+Prompt version: 83a54c41 · repo commit 61104be 2026-08-05 12:30
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a8503d5, prompt c7c635e8.
+    Working from commit 61104be, prompt 83a54c41.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -90,27 +90,7 @@ full-length figure on plain seamless grey under flat even light. If your
 output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
-BEFORE YOU GENERATE — GET THE REFERENCES.
 
-Every reference this image must match is listed above as a public URL.
-For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
-MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
-fetched but never handed to the generator is not a reference, and that gap
-is exactly what produced a run of wrong faces on 2026-08-01.
-
-Do NOT ask for a manual attachment when the download and the handoff both
-succeed. Ask only if a URL will not download, a file will not decode, or the
-generator cannot receive it — and then name the one that failed.
-
-Do not proceed from the text alone. The written description is not sufficient
-on its own and will produce the wrong costume and the wrong face.
-
-THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
-Match the costume, materials, colours, face and build from them exactly.
-Only the setting, pose and lighting change.
-
-FETCH AND MATCH — the approved costume reference:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/source/artwork/turn-working-front.png
 USE THE ATTACHED PHOTOGRAPH — THE CHEST PANEL GEOMETRY ONLY — NOT the garment. The LARGE PLAIN YOKE filling the top half and ending in one wide V; the THREE TO FIVE broad chevron bands below it, points LOW at the centre; the panel's WIDTH, almost armhole to armhole; and the construction — SEPARATE PANELS LAID ON and overlapping, each with a raised piped edge, suede against matte so they read by SHEEN and not by colour. NOTHING ELSE COMES FROM THIS IMAGE — not the collar, not the sleeves, not the fit, not the cleanliness, AND NOT THE COLOUR OF THE STITCHING. It is a shop-new reproduction on a mannequin and HIS IS EIGHTEEN YEARS OLD, filthy, repaired and slept in. THE WRITTEN RULES WIN ON EVERYTHING EXCEPT THE PANEL'S GEOMETRY.. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
 LIKENESS (1 of 3) — standing, whole figure — build and proportion — attached to this message.
@@ -119,6 +99,16 @@ LIKENESS (2 of 3) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 LIKENESS (3 of 3) — three-quarter — the most useful working angle — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
+
+THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
+
+Build it from the description below, which is the only source. Read the
+NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
+them must be visible and correct in this image.
+
+Once approved, every other view of this costume is matched against THIS
+PHOTOGRAPH. An error here propagates into all of
+them, so it is worth several attempts to get right.
 
 ====================================================================
 THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
@@ -163,10 +153,10 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  18. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
-  19. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-  20. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
-  21. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+  18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat — NEVER to the knee. They hang free and swing.
+  19. THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem, one shorter than the other, edges gone to threads — cloth that has been caught and pulled and never mended. They are NOT armour, NOT plates, NOT leather straps and NOT a fauld: soft near-black cloth, the same as the rest of him, hanging limp.
+  20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
+  21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
   22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
   23. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO strap or fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. NEVER angled, flared, scalloped or pointed over the hand. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   24. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD — the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs. NOTHING about them is remarkable.
@@ -393,7 +383,7 @@ is genuinely at ease, and that ease is not part of the performance.
 === THIS COSTUME ===
 Working dress — All of them — 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25. His only costume
 
-Salvaged, repaired mercenary workwear that has genuinely worked. A heavy work shirt, layered technical cloth and worn synth-leather over it, and a padded jacket that has been re-shouldered at least once. A functional harness of two shoulder straps, with ammunition pouches and field tools carried on the waist belt — no trophies, no personal marks, no decoration of any kind. At his waist a wide, heavy salvaged belt that FASTENS AT THE BACK — from the front an unbroken band of worn leather with no buckle or fitting on it — and hanging from it on his right hip a holster holding an ugly, heavily modified blaster pistol. Worn METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. The top layer runs on into a knee-length skirt, split at both sides. Heavy boots, resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the last of a faded olive. Across his chest a BROAD PLASTRON, running almost armhole to armhole with a narrow strip of plain cloth each side, from the collar down to clear of the belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below that, THREE TO FIVE broad chevron bands, each a V with its point low at the centre, filling the panel to its lower edge. The bands are SEPARATE PANELS LAID ON and overlapping like layered plates, each with a raised piped edge — soft suede against matte canvas, so they read by SHEEN rather than by colour and everything stays the same near-black. The seams are hand-sewn in a greyed-off green thread, visible but worn out in places — some still green, some faded, some resewn in plain dark thread. The harness crosses over it. The undertunic beneath shows only as a dark edge at the collar and cuff. A thin cord runs around his neck and disappears under the shirt. Nothing about this costume is decorative, chosen for looks, or new.
+Salvaged, repaired mercenary workwear that has genuinely worked. A heavy work shirt, layered technical cloth and worn synth-leather over it, and a padded jacket that has been re-shouldered at least once. A functional harness of two shoulder straps, with ammunition pouches and field tools carried on the waist belt — no trophies, no personal marks, no decoration of any kind. At his waist a wide, heavy salvaged belt that FASTENS AT THE BACK — from the front an unbroken band of worn leather with no buckle or fitting on it — and hanging from it on his right hip a holster holding an ugly, heavily modified blaster pistol. Worn METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two separate torn panels of cloth hang from the belt over each hip, open at the centre front and back, upper thigh only. Heavy boots, resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the last of a faded olive. Across his chest a BROAD PLASTRON, running almost armhole to armhole with a narrow strip of plain cloth each side, from the collar down to clear of the belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below that, THREE TO FIVE broad chevron bands, each a V with its point low at the centre, filling the panel to its lower edge. The bands are SEPARATE PANELS LAID ON and overlapping like layered plates, each with a raised piped edge — soft suede against matte canvas, so they read by SHEEN rather than by colour and everything stays the same near-black. The seams are hand-sewn in a greyed-off green thread, visible but worn out in places — some still green, some faded, some resewn in plain dark thread. The harness crosses over it. The undertunic beneath shows only as a dark edge at the collar and cuff. A thin cord runs around his neck and disappears under the shirt. Nothing about this costume is decorative, chosen for looks, or new.
 
 === CHECK BEFORE YOU FINISH ===
 NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
@@ -414,10 +404,10 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-  18. THE TOP LAYER RUNS ON INTO A SKIRT TO JUST ABOVE THE KNEE. Below the belt it continues as a straight panel of the SAME CLOTH, front and back, SPLIT at both sides from hip to hem so his legs are clear and he can work in it. Heavy, plain, near-black, and hanging straight.
-  19. THE SKIRT IS PART OF THE TOP LAYER, NOT A SEPARATE HANGING PIECE. It is one garment cut long, and the chevron panel on the chest stops well above the belt and never runs down into it. No overlapping plates, no leather strips, no fauld and no apron.
-  20. THE SKIRT MUST NOT TURN HIM INTO A JEDI, AND FIVE THINGS WOULD DO IT. NO cream, sand or pale brown — it is near-black like the rest of him. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
-  21. THE SKIRT NEVER BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OVER it through the side splits, clear and unobstructed. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
+  18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat — NEVER to the knee. They hang free and swing.
+  19. THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem, one shorter than the other, edges gone to threads — cloth that has been caught and pulled and never mended. They are NOT armour, NOT plates, NOT leather straps and NOT a fauld: soft near-black cloth, the same as the rest of him, hanging limp.
+  20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
+  21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
   22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
   23. METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO strap or fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. NEVER angled, flared, scalloped or pointed over the hand. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   24. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD — the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs. NOTHING about them is remarkable.
@@ -427,5 +417,5 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   28. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
   29. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight. Everything repaired, resoled, re-shouldered, previously owned.
 
-The fetched photographs outrank this text. If none were fetched, you should not have generated this.
+
 Deliver a single image at 2:3. It must look photographed, not generated.

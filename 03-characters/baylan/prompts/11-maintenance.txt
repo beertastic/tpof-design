@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 11 — THE RECONSTRUCTION]
 Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: d4ce4766 · repo commit 61104be 2026-08-05 12:30
+Prompt version: 97584ab6 · repo commit 52f5e8c 2026-08-05 13:11
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 61104be, prompt d4ce4766.
+    Working from commit 52f5e8c, prompt 97584ab6.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -94,7 +94,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
   18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat — NEVER to the knee. They hang free and swing.
-  19. THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem, one shorter than the other, edges gone to threads — cloth that has been caught and pulled and never mended. They are NOT armour, NOT plates, NOT leather straps and NOT a fauld: soft near-black cloth, the same as the rest of him, hanging limp.
+  19. THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from use, one panel a little shorter than the other, and at most ONE small split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth edge, NO torn-out chunks, NO hanging strips. The bottom edge still reads as a HEM. Soft near-black cloth, the same as the rest of him.
   20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
   21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
   22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
@@ -325,7 +325,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
   17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
   18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat — NEVER to the knee. They hang free and swing.
-  19. THE PANELS ARE WORN OUT AND TORN. Frayed, split and ragged at the hem, one shorter than the other, edges gone to threads — cloth that has been caught and pulled and never mended. They are NOT armour, NOT plates, NOT leather straps and NOT a fauld: soft near-black cloth, the same as the rest of him, hanging limp.
+  19. THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from use, one panel a little shorter than the other, and at most ONE small split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth edge, NO torn-out chunks, NO hanging strips. The bottom edge still reads as a HEM. Soft near-black cloth, the same as the rest of him.
   20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
   21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
   22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.

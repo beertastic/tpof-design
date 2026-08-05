@@ -1,7 +1,7 @@
 [BAYLAN — WORKING DRESS — LEFT]
 Output file: turn-working-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: da95521b (short) · repo commit 61104be 2026-08-05 12:30
+Prompt version: 7c64c694 (short) · repo commit 52f5e8c 2026-08-05 13:11
 
 THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -25,7 +25,7 @@ RIGHT-HANDED — sides are given from THEIR own left/right. 198 cm (6 ft 6 in) �
 
 MUST BE TRUE OF THIS IMAGE:
 1. HE READS AS A MERCENARY, NEVER AS A JEDI. No hood, no cowl, no monastic sleeve, no ceremonial drape, NO LIGHTSABER HILT anywhere on his belt or body. An audience must watch him for half the film without suspecting. If the image announces him as a Jedi, it has failed.
-2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Every other mercenary in this crew is marked; he is not. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
+2. ABSOLUTELY NO ORNAMENT. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no personal marks of any kind. Do NOT add a decorative element to make the costume more interesting — the absence IS the design.
 3. BLASTER ON HIS RIGHT HIP, AND NEVER HIS LEFT. He is RIGHT-HANDED. The holster is belt-mounted on his right hip, grip up and angled slightly forward for a right-hand draw.
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the harness, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
@@ -40,9 +40,9 @@ MUST BE TRUE OF THIS IMAGE:
 14. NO STRAP CROSSES HIS CHEST — not horizontal, not diagonal, not a bandolier, NO buckle or fitting on the sternum. The harness is TWO PLAIN STRAPS running from the shoulders straight down to the belt, carrying nothing. AS DARK AS THE CLOTH — NEVER mid-brown, NEVER tan, NEVER lighter than it.
 15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment. The two harness straps cross OVER it and break the run of the bands in places. That is correct: the bands read through and around them, and are never moved or shrunk to make room.
 16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
-17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from.
-18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat — NEVER to the knee.
-19. THE PANELS ARE WORN OUT AND TORN. They are NOT armour, NOT plates, NOT leather straps and NOT a fauld: soft near-black cloth, the same as the rest of him, hanging limp.
+17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it.
+18. NOT A SKIRT BUT TWO SEPARATE PANELS OF CLOTH HUNG FROM THE BELT, ONE OVER EACH HIP. They are OPEN AT THE CENTRE FRONT AND THE CENTRE BACK: his trousers show all the way up the middle of him, front and back, and NOTHING crosses between the panels. UPPER THIGH ONLY, barely past the seat.
+19. THE PANELS ARE WORN BUT STILL WHOLE. Hems soft and lightly frayed from use, one panel a little shorter than the other, and at most ONE small split. NOT ragged, NOT shredded, NOT tattered: NO jagged saw-tooth edge, NO torn-out chunks, NO hanging strips. The bottom edge still reads as a HEM.
 20. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi.
 21. NOTHING BLOCKS THE DRAW. The holster on his RIGHT hip and the pouches on his LEFT hang OUTSIDE the hip panels, clear of them and fully visible. The panels hang BEHIND the kit, never over it. If the holster is buried in cloth or the grip is hard to reach, the image is wrong.
 22. THE GAUNTLETS ARE FILTHY AND DEAD DULL — NO shine, NO chrome, NO polish, NO bright highlights and NOTHING mirror-like. Scratched, dented and greasy, the finish worn off at every edge, darkened almost to the colour of the cloth. They are the oldest-looking thing he owns.
@@ -77,7 +77,7 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   9. NOTHING crosses his chest — no diagonal, no bandolier, no buckle.
   10. Belt front is UNBROKEN LEATHER — no buckle, it fastens at the back.
   11. TWO SEPARATE HIP PANELS, upper thigh, open front and back.
-  12. The panels are TORN and worn out — a hint of a garment, not one.
+  12. Panels WORN but WHOLE — soft frayed hem, never ragged or shredded.
   13. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
   14. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
   15. Build MATCHES the full-body photo. Big and solid, NOT obese.

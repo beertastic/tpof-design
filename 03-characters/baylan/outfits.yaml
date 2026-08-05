@@ -236,9 +236,9 @@ outfits:
         text: >
           THE GARMENT RUNS DOWN BEHIND THE BELT AND IS NOT A CROP TOP — it NEVER
           ends above the waist and NEVER bares a strip of shirt between itself
-          and the belt. Only the CHEVRON BANDS stop short: the lowest band ends
-          above the belt, and PLAIN cloth of the same garment carries on down and
-          disappears behind it.
+          and the belt. The CHEVRON BANDS stop WELL SHORT of it, halfway down his
+          chest, and a DEEP FIELD OF PLAIN CLOTH fills everything from the lowest
+          band to the belt.
       # REWRITTEN 2026-08-05, after the EIGHTH front came back with SEVEN bands
       # while the coat view — same panel, same day — came back with five.
       #
@@ -324,13 +324,26 @@ outfits:
       # This one was diagnosed by looking at what the rule was fighting and
       # assuming the rule was right. Nobody had the reference yet, so "it keeps
       # doing X" was read as disobedience when it was information.
-      - check: A LARGE plain yoke fills the top half. Bands only BELOW it.
+      # THE BANDS MOVE UP, 2026-08-05, and this is a DESIGN DECISION rather than
+      # a correction — worth saying, because the rule it replaces was itself an
+      # apology.
+      #
+      # On 2026-08-05 the large plain yoke was written IN, after the reference
+      # arrived and showed that three generations drawing one had been right all
+      # along. It is still right about the later costume. The Production
+      # Designer now wants this one different: "move the chevrons up so they
+      # start at the shoulder, and end higher up the body."
+      #
+      # THE PLANT SURVIVES IT. P5 transfers the two costumes by MATERIAL —
+      # mismatched leather and suede now, proper leather later — not by exact
+      # proportion, and he remakes the garment properly in between. Different
+      # placement on the same shapes is what remaking it means.
+      - check: Bands START AT THE SHOULDER and fill the TOP HALF, collar to belt.
         text: >
-          A LARGE PLAIN YOKE FILLS THE TOP HALF OF THE PANEL — a broad empty
-          field of cloth from the collar down to about the middle of his chest,
-          ending in ONE WIDE V. It is the biggest single shape on the panel. The
-          chevron bands begin BELOW it and NEVER above it, and NOTHING crosses
-          the yoke.
+          THE BANDS START AT HIS SHOULDERS AND FILL ONLY THE TOP HALF FROM COLLAR
+          TO BELT. The topmost is level with the shoulder seams, with only a
+          NARROW yoke above it — NEVER a broad empty field. PLAIN cloth fills the
+          whole bottom half down to the belt.
       - >
         THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is
         wide and open, never steep, and no chevron crosses the yoke above them.
@@ -393,11 +406,10 @@ outfits:
       # payoff. Specified positively now rather than tolerated.
       - check: Bands ALTERNATE LEATHER and SUEDE. Contrast is FINISH, not colour.
         text: >
-          THE BANDS ALTERNATE MATERIAL DOWN THE PANEL: one SMOOTH LEATHER, the
-          next NAPPED SUEDE, then leather again. Leather CATCHES the light and
-          suede EATS it, so neighbouring bands read STRIKINGLY different and the
-          panel comes alive. THE CONTRAST IS FINISH, NEVER COLOUR: both stay
-          NEAR-BLACK, nothing light and nothing bright.
+          THE BANDS ALTERNATE LEATHER AND SUEDE — smooth leather CATCHES the
+          light, napped suede EATS it, so neighbours read STRIKINGLY different
+          while both stay NEAR-BLACK. The contrast is FINISH, NEVER colour:
+          nothing light, nothing bright.
       - >
         THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
         panels stand proudest, the suede gone shiny at the high points and grimy
@@ -704,10 +716,10 @@ outfits:
       # the freedom. Name it and it stops moving.
       - >
         METAL GAUNTLETS ON BOTH FOREARMS, A MATCHED PAIR — wrist to
-        three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO strap
-        or fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND
-        LEVEL. NEVER angled, flared, scalloped or pointed over the hand. FOUR OR
-        FIVE HEAVY STEPPED RIBS round the lower half.
+        three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF with NO
+        fastening. THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL,
+        never angled or flared. FOUR OR FIVE HEAVY STEPPED RIBS round the lower
+        half.
       # THE SCREEN POSITION MOVED TO THE OUTER FOREARM, 2026-08-05, to match the
       # build. It was "the inside of each wrist".
       #
@@ -740,11 +752,10 @@ outfits:
       # lets die are the things he restores. An amber glimmer here gives away
       # eighteen years for nothing.
       - >
-        THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD —
-        the same near-black as the metal round it. NOTHING LIT and NO COLOUR IN
-        IT: never white, never pale, NEVER amber, orange, warm or gold. A small
-        screen and worn buttons sit on the OUTER FOREARM above the ribs. NOTHING
-        about them is remarkable.
+        THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD.
+        NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber,
+        orange, warm or gold. A small screen and worn buttons sit on the OUTER
+        FOREARM above the ribs.
       - >
         A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn
         leather pouch hangs on it against the skin, older and more repaired than
@@ -764,6 +775,21 @@ outfits:
       - >
         LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight —
         no fighter's stance, no coiled readiness, no combat posture.
+      # ADDED 2026-08-05: "the whole outfit needs to look dirtier and lived in."
+      #
+      # The grime rules were all attached to the CHEVRON PANEL, so the panel came
+      # back grubby and everything else came back looking issued that morning.
+      # Dirt was never specified for the trousers, the shirt, the boots or the
+      # belt, and the palette rule's "everything repaired, resoled, previously
+      # owned" was doing that work alone — a clause about provenance standing in
+      # for a clause about filth.
+      - check: THE WHOLE COSTUME IS FILTHY — not just the chest panel.
+        text: >
+          EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in
+          the seams, dust where it settles, cloth thin and shiny at knees,
+          elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean,
+          NOTHING evenly coloured, NOTHING laundered. Repaired, resoled,
+          previously owned.
       - >
         SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand
         without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years
@@ -776,8 +802,7 @@ outfits:
           DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot
           brown, cold slate, the last of a faded olive. NEVER black-on-black
           though: he must still SEPARATE from a night forest and from camp
-          firelight. Everything repaired, resoled, re-shouldered, previously
-          owned.
+          firelight.
 
     # THE PRINTED BLASTER, supplied by the Production Designer 2026-08-05, and
     # the repo rule applied at last: for anything PHYSICALLY BUILT the reference

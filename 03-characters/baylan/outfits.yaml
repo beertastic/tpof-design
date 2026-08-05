@@ -114,9 +114,10 @@ outfits:
       that, THREE TO FIVE broad chevron bands, each a V with its point low at
       the centre, filling the panel to its lower edge. The bands are SEPARATE
       PANELS LAID ON and overlapping like layered plates, each with a raised
-      piped edge — soft suede against matte canvas, EACH BAND A SLIGHTLY
-      DIFFERENT TONE FROM THE ONE ABOVE IT because they were cut from mismatched
-      scrap, though all of them stay near-black. The seams are
+      thick cut edge that shadows the band beneath, like the lames of a plated
+      coat. THE BANDS ALTERNATE MATERIAL — smooth leather, then napped suede,
+      then leather — so neighbours read strikingly different while both stay
+      near-black: the contrast is finish, never colour. The seams are
       hand-sewn in a greyed-off green thread, visible but worn out in places —
       some still green, some faded, some resewn in plain dark thread.
       The undertunic beneath shows only as a dark
@@ -360,12 +361,17 @@ outfits:
       # suede against matte cloth — not a different tone. "TONAL, DARK ON DARK"
       # was true and insufficient: it described what must not happen (colour
       # contrast) without naming what makes the shape visible at all.
-      - check: APPLIED PANELS with piped edges — suede on matte, NOT quilting.
+      # DEEPENED 2026-08-05. The bands were reading as panels laid flat with a
+      # piped edge. The Production Designer wants the LAMES of a plated coat:
+      # each band standing proud of the one below, a thick cut edge throwing a
+      # real shadow down onto it. Same construction, much more relief.
+      - check: OVERLAPPING LAMES — each band stands PROUD and shadows the next.
         text: >
-          THE CHEVRONS ARE SEPARATE PANELS LAID ON THE GARMENT AND OVERLAPPING
-          EACH OTHER like layered plates, each with a RAISED PIPED EDGE that
-          casts a real shadow. NOT quilting, NOT stitched rows, NOT padding that
-          domes between seams. The lower band overlaps the one below it.
+          THE CHEVRONS ARE SEPARATE PIECES LAID ON THE GARMENT, EACH OVERLAPPING
+          THE ONE BELOW IT like the lames of a plated coat. Every band STANDS
+          PROUD with a THICK CUT EDGE that throws a REAL SHADOW onto the band
+          beneath. NOT quilting, NOT stitched rows, NOT padding domed between
+          seams, NOT flat pieces sewn down.
       # LOCKED IN 2026-08-05 AT THE PRODUCTION DESIGNER'S REQUEST: "I love the
       # alternating chevron colours, please lock that in."
       #
@@ -385,12 +391,13 @@ outfits:
       # later. The alternating tones ARE that mechanism visible on the garment,
       # so a tidy-minded generation evening them out would quietly cost the
       # payoff. Specified positively now rather than tolerated.
-      - check: Bands ALTERNATE in tone — mismatched scrap, all still near-black.
+      - check: Bands ALTERNATE LEATHER and SUEDE. Contrast is FINISH, not colour.
         text: >
-          THE BANDS DO NOT MATCH EACH OTHER AND MUST NEVER BE A MATCHED SET. Cut
-          from mismatched scrap — one greyer, the next browner, the next more
-          faded — so the tones ALTERNATE VISIBLY from band to band. All
-          near-black and none of them light, but NEVER uniform.
+          THE BANDS ALTERNATE MATERIAL DOWN THE PANEL: one SMOOTH LEATHER, the
+          next NAPPED SUEDE, then leather again. Leather CATCHES the light and
+          suede EATS it, so neighbouring bands read STRIKINGLY different and the
+          panel comes alive. THE CONTRAST IS FINISH, NEVER COLOUR: both stay
+          NEAR-BLACK, nothing light and nothing bright.
       - >
         THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
         panels stand proudest, the suede gone shiny at the high points and grimy

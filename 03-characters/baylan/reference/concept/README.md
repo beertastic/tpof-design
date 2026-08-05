@@ -115,3 +115,33 @@ for every character, including Shada's and Jasu's approved plates. **Left as-is
 deliberately**, on the same reasoning as the `trim()` case-sensitivity bug. The
 scope line carries the mitigation: *NOT the garment*, and those prompts have no
 costume rules attached at all.
+
+---
+
+## `chevron-construction-intent-2026-08-05.png` — ON DISK, NOT ATTACHED
+
+The Production Designer's own reference for the construction he wants: the
+chevrons as **overlapping lames**, each band standing proud of the one below
+with a thick cut edge throwing a real shadow down onto it. It is a generation
+from this pipeline, not a third-party image.
+
+**IT IS DELIBERATELY NOT IN `references:`, AND THE REASON IS THE BRACES.** The
+frame shows the shoulder harness that was removed from the costume hours later,
+and it runs vertically straight through the chevron panel — there is no crop
+that keeps the panel and loses the straps. Attaching it would put back, by
+photograph, the exact thing the words now refuse; and a photograph beats words,
+which is the whole reason references work.
+
+So the construction is carried by rules 11 and 12 instead — *"like the lames of
+a plated coat"*, and the leather/suede alternation. **If a generation misses the
+relief, revisit this decision rather than rewording again**: the lesson from the
+chevron count is that only an image holds a shape, and the cost of attaching
+this one is a costume change we would have to undo.
+
+**Also of record: the material alternation started here.** The Production
+Designer asked to *"alternate the chevrons with leather and suede, making the
+colours pop and stand out"*, and flagged it as a possible contradiction with the
+near-black palette. **It is not one.** Smooth leather catches light and napped
+suede eats it, so two pieces of identical tone read strikingly differently side
+by side. The contrast is FINISH, not colour — which is what lets the panel come
+alive without giving him anything bright to be noticed by.

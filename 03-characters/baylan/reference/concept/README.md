@@ -118,7 +118,96 @@ costume rules attached at all.
 
 ---
 
-## `costume-best-so-far-2026-08-10.png` — WIRED IN, FIRST ATTACHMENT
+## The two attached today — 2026-08-10, pass 2
+
+`references:` on the `working` outfit is now **two images and no third-party
+reference at all**: a full plate of his own costume, and a crop of the previous
+plate's chest. Five attachments in total with the three actor photographs, which
+is what the prompt has room for.
+
+### `costume-best-so-far-2026-08-10-pass2.png` — the costume
+
+**The skirt is settled.** *"Everything waist down, leave it"* — the first part of
+this costume to be finished. Its scope line says so: below the belt is to be
+copied exactly.
+
+**Two faults left, both above the waist**, and the Production Designer named
+both: *"the top chevrons didn't alternate"* and *"the shoulder pad area seems to
+have become less prominent too."* So its scope line hands the chest to the next
+image and tells the generator not to take a chest panel from it.
+
+### `chevron-and-shoulder-authority-2026-08-10.png` — the chest of pass 1
+
+Pass 1 is right about exactly the two things pass 2 lost, so it is **cropped to
+its chest**: above the collar, below the belt. No head, no face, no skirt.
+
+That is the method already used twice here — Jasu's horns cut above the collar,
+Shada's make-up plate with no costume in frame. **Attaching both full plates
+would put two versions of the same costume side by side and let the generator
+pick.** A crop cannot do that.
+
+### The mannequin is retired
+
+`chevron-geometry-source.png` is **out of `references:` after five days**, and it
+earned them — everything below this line records it reversing three of our own
+rules when nothing else could. It stays on disk and stays in this README.
+
+**Two reasons it goes.** We now have the same geometry on *his* garment, filthy
+and eighteen years old. And it was working against us: **its bands all match each
+other**, which is precisely the fault being chased, and its scope line had to
+carry *"HIS BANDS DO NOT MATCH EACH OTHER AND THE REPRODUCTION'S DO"* to hold
+that off. Every failure recorded in `outfits.yaml` says the same thing — the
+sentence loses to the photograph.
+
+### What pass 2 exposed — an unwritten feature is not a feature
+
+**Nothing had ever specified the shoulder cap.** It was on every good plate since
+the reference arrived and was never once written down, so it was not a decision
+the generator was keeping — it was a habit, and on pass 2 it thinned to a
+binding. It now has a rule of its own, which says out loud that it is **not** the
+pauldron refused twice on 2026-08-04: soft garment stitched down, not a hard
+piece standing off the shoulder. That refusal's own closing note said the want
+behind it was *"make him look bigger"* and that the panel does it instead —
+*"padding across the chest and shoulders, at no cost in ornament or rank."* The
+new rule is that sanctioned half, written down at last.
+
+**And rule 6 had the shoulder backwards.** It said the panel *"stops short of the
+shoulder seams"* — written to keep it off the sleeves, and it overshot into
+keeping it off the shoulders too.
+
+**The alternation rule was half-obeyed, which is the tell.** *"The bands
+alternate"* is a property of a set; a generator drawing bands one at a time has
+no per-band instruction in it. It made the bottom band different, satisfied the
+word, and stopped. The rule now assigns material **per band, counted down from
+the top** — the same fix that got the band count right after *"exactly five"*
+had failed eleven times. Give it something to execute, not a property to satisfy.
+
+**The palette negation moved to its own rule.** *"Neighbours read STRIKINGLY
+different"* was followed in the same breath by *"NEVER colour: nothing light,
+nothing bright"* — an instruction to contrast, then three refusals of contrast.
+Green thread, ripped panel, same shape, and the negations won every time.
+
+### What it cost — 93% coverage, down from 100%
+
+Two new rules took the per-rule cap from **360 to 307**, and seven clauses on
+other rules now fall off the end. Both new rules survive whole; the losses are
+each covered by one of the two attached photographs — the band relief, the ugly
+blaster, the gauntlet ribs, the hip panels' open centre. **That is the trade and
+it should be re-examined, not assumed:** `outfits.yaml` is at its 12,000 ceiling
+and the honest next move is to cut restatement that the two plates now carry,
+rather than raise it again.
+
+**The `description:` block costs nothing here.** It is not emitted in the short
+prompts at all — only `must_show` rules and check lines are. It still feeds the
+long prompts and the build guide, so it is kept true, but trimming it to buy
+budget would buy none.
+
+---
+
+## `costume-best-so-far-2026-08-10.png` — SUPERSEDED, KEPT AS THE CROP SOURCE
+
+Pass 1. **Do not re-attach the whole of it** — its hip panels hang near mid-calf
+and that argument is over. Its chest lives on as the crop above.
 
 **The best front so far**, accepted by the Production Designer on 2026-08-10:
 *"the 'skirt' is still too long, but the rest is great."* No coat, no cloak.

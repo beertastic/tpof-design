@@ -118,7 +118,75 @@ costume rules attached at all.
 
 ---
 
-## The two attached today — 2026-08-10, pass 2
+## Pass 3 — no full-length plate is attached any more
+
+**Two crops, and this is the most useful thing this folder has learned.**
+
+Pass 3 came back with **the same two faults as pass 2**: *"I feel we've lost the
+shoulders from a few images ago. Also the alternating colours didn't really
+catch."* Both had been rewritten that morning — the shoulder cap given a rule for
+the first time, the alternation assigned per band and counted from the top, and a
+crop of pass 1's chest attached showing both done right.
+
+**It made no difference, because attachment 1 was a photograph of the fault.**
+The pass-2 plate sat first in the list, full length, showing a thin shoulder
+binding and flat matching bands, carrying a scope line that said *"DO NOT COPY
+THE CHEST PANEL FROM THIS IMAGE."*
+
+**That is the mannequin mistake, made again, in the same commit that diagnosed
+it.** The section below retires the reproduction for exactly this — its bands all
+match, its scope line had to shout the opposite, and *the sentence loses to the
+photograph* — and then a full plate of the wrong chest went in at position one
+with a sentence to hold it off. **Knowing the rule is not the same as applying
+it.**
+
+### The two crops tile the man
+
+| Attachment | From | Covers |
+|---|---|---|
+| `chevron-and-shoulder-authority-2026-08-10.png` | pass 1 | collar to belt — the chest panel |
+| `costume-below-the-chest-2026-08-10.png` | pass 3 | below the chevrons to the feet |
+
+They do not overlap, and **neither label contains a negation about the costume,
+because there is nothing left to negate.** Only the very point of the plastron's
+lower V appears in the second crop, which fixes the panel-to-belt relationship
+and teaches no band.
+
+> **The test for any future reference is now this:** not *"does the scope line
+> explain what is wrong with it"* but **"is the wrong thing in the frame at
+> all."** If it is, crop it out. A scope line is for telling the generator which
+> of several correct things to take — never for telling it to ignore something it
+> can see.
+
+### The gauntlets are signed off as they are
+
+*"The gauntlets are wrong, but for design, I can sign off on what we have."* They
+do not match the printed build and that is accepted. **Do not spend rules, budget
+or another pass on them.** The finish rules stay — dull and filthy is a different
+fight, and one this costume has already lost once to a chrome buckle.
+
+### The full-body actor photograph is gone
+
+*"Can we lose face 1 from the attach please. I prefer the others."* It is in
+`reference/actor/not-attached/` and out of the generator's reach.
+
+**Two rules pointed at it** — *"take his frame from the photograph but make him
+leaner than it, the shirt in that photograph is loose"* — and a rule that
+describes a correction to an attachment which no longer arrives is worse than no
+rule at all. The build now comes from the costume crop, which is the better
+source: it shows his body in the actual garment, so there is no loose shirt to
+undo.
+
+**It also caught a generator bug.** The boilerplate said *"take the FACE and
+BUILD from the actor image"* for every character regardless, and every actor
+reference was labelled `FACE + BUILD`. A headshot cannot answer a question about
+build. Both are now decided per file from the filename — **Captain Jasu has only
+ever had a headshot and carried that wrong sentence since her pack was written.**
+Shada, who has a posed full figure, is unaffected.
+
+---
+
+## The two attached earlier — 2026-08-10, pass 2
 
 `references:` on the `working` outfit is now **two images and no third-party
 reference at all**: a full plate of his own costume, and a crop of the previous

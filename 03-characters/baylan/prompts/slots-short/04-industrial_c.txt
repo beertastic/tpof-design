@@ -1,7 +1,7 @@
 [BAYLAN — IN HIS BUNK]
 Output file: industrial_c.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: bf19bbc0 (short) · repo commit 8bebc5c 2026-08-10 17:57
+Prompt version: bf19bbc0 (short) · repo commit ca3b394 2026-08-10 18:44
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

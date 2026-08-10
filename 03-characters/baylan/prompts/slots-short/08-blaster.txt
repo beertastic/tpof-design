@@ -1,7 +1,7 @@
 [BAYLAN — THE CONVERTED LIGHTSABER]
 Output file: blaster.png
 Aspect ratio: 3:1. Generate at that shape and never square unless it says 1:1.
-Prompt version: 9860c7e4 (short) · repo commit 8bebc5c 2026-08-10 17:57
+Prompt version: 9860c7e4 (short) · repo commit ca3b394 2026-08-10 18:44
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 

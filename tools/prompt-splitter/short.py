@@ -203,9 +203,15 @@ def _actor_scope_lines(character: str, terse: bool = False) -> list[str]:
                 "  THE ACTOR IMAGES ARE HEADSHOTS: THE FACE ONLY, NEVER THE BUILD."]
     if body:
         return ["  Take the FACE and BUILD from the actor image only. Hair, beard, age,"]
+    # NOT "the body comes from the costume references" — that was the first
+    # wording and it points at something that is not always there. An APPROVED
+    # view gets no costume reference at all, because it cannot match itself, so
+    # on Baylan's own approved front the sentence named an attachment the message
+    # did not contain. Same dangling-pointer bug as the build rule that described
+    # a loose shirt in a photograph nobody was sending.
     return [
         "  THESE ARE HEADSHOTS: TAKE THE FACE FROM THEM AND NEVER THE BUILD —",
-        "  the body comes from the costume references. Hair, beard, age,",
+        "  the build is in the written rules below. Hair, beard, age,",
     ]
 
 

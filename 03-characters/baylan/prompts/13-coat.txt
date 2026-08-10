@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 13 — THE LONG COAT, WORN]
 Output file: coat.png
 Aspect ratio: 2:3  (tall portrait)
-Prompt version: cb1907bf · repo commit 8bebc5c 2026-08-10 17:57
+Prompt version: cb1907bf · repo commit ca3b394 2026-08-10 18:44
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 8bebc5c, prompt cb1907bf.
+    Working from commit ca3b394, prompt cb1907bf.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

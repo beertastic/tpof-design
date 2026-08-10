@@ -1,8 +1,8 @@
 ---
 title: "Krellis"
 asset_id: "CHAR-KRELLIS"
-version: "0.2"
-status: "placeholder"
+version: "0.3"
+status: "in-development"
 faction: "Slaves / Escapees"
 source: "Filmanize script breakdown and production notes"
 ---
@@ -140,7 +140,7 @@ last instance of a lifelong habit, not a moment of courage arriving from nowhere
 **This survived the size being cut on 2026-08-10 and is stronger without it.**
 It used to be read as a big man doing the one thing a big body is for. It is not
 that. **He has never once been able to stop anything** — not his parents, not his
-siblings, not Krellis in the clearing — and he has stepped in front of people his
+siblings, not Shin and Jeyin in the clearing — and he has stepped in front of people his
 entire life regardless. The habit was never grounded in being able to win. That
 is the character, and a 5 ft 11 in dancer carries it better than a giant would,
 because with a giant the audience spends a second wondering whether it might
@@ -344,5 +344,6 @@ open — but either way, the group's only map dies with him.
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
+| 0.3 | 2026-08-10 | in-development | **Design session with the Production Designer.** Cast: the actor is about **5 ft 11 in, a dancer, early thirties** — *"nimble, not scary; he's a healer, not a fighter."* **The size is gone**: this document had him large with a *"looming stature"* and *"the biggest person in the group is the one who does not fight"*, and that irony is replaced by something stronger — an ordinary-sized man steps in front of two people anyway. A dancer's body is the better medic body, and it makes **the carry load-bearing**, since he no longer reads out of the group by silhouette. **The carry is a SATCHEL**, worn across the body, **flap back so the mostly-empty loops are visible** — recorded as a lean, not a lock. **The siblings question is answered: he does not know**, so Prodona is a hope rather than an errand and he carries nothing that points home. **The arena clock is rewritten** — early thirties cannot hold a twenty-year professional post, so his tenure is six to eight years; Vala's twenty years survives unchanged, and the kit's decay rate survives because **the bag is the arena's and is decades older than his time with it.** Status raised from `placeholder` |
 | 0.2 | 2026-08-02 | placeholder | **Backstory from the production — partial, and recorded as given.** War-torn planet, oldest of many siblings, watched his parents die for want of medical help and vowed to become a medic, learned to navigate danger to keep the family safe, captured protecting his siblings, now the arena's medic. It **answers the navigator question** — his wayfinding is a childhood survival skill, not knowledge of Prodona, so his death costs the group a skill rather than a map. It **reconciles the size with the gentleness**: his body has spent its whole life interposing. And it **changes what his kit probably is** — the arena's medic held a post, so his gear is likelier the wreck of a real professional kit than a bag of improvisations. Status left at `placeholder`: his physical design is still entirely TBD |
 | 0.1 | 2026-07-30 | placeholder | Placeholder document created from current production data. |

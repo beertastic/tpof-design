@@ -1,6 +1,6 @@
 [KRELLIS — ARENA MEDIC'S WORKING GEAR — RIGHT]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: a5b5a1e6 (short) · repo commit 50d0aec 2026-08-10 17:55
+Prompt version: 2e872de3 (short) · repo commit 9244d41 2026-08-10 17:55
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -25,7 +25,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
 5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
 6. HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is the one working habit that has outlasted the supplies, and it should read as automatic rather than as preparation for anything.
-7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is twenty years of other people, not tonight's.
+7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is DECADES of other people, not tonight's.
 8. NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing sellable. Every repair done by hand in poor light with mismatched thread.
 9. NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and ash, all of it dirty, with days of forest on top — mud to the knee, soaked cloth, torn hems.
 10. HE STANDS LIKE SOMEONE TRAINED TO BE PRECISE, NOT STRONG. Balanced, squared, still, weight evenly set, hands quiet and visible. NOT a fighter's stance, NOT braced, NOT coiled, NO readiness of any kind — he cannot fight and has never tried. He is of ORDINARY HEIGHT and starved thin like everyone else here: NOTHING padded, NOTHING bulked out, NOTHING that makes him look big or imposing.

@@ -1,6 +1,6 @@
 [KRELLIS — ARENA MEDIC'S WORKING GEAR — NATURAL]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 36aca8b2 (short) · repo commit df2672f 2026-08-05 18:06
+Prompt version: ffef870b (short) · repo commit 32f5bfb 2026-08-10 17:53
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -16,19 +16,20 @@ A LIKENESS OF A REAL PERSON. Build the face from the written description
 alone: an ordinary, unremarkable, plausible human being who could exist,
 photographed in a fitting room. Do not resemble any actor or public figure.
 
-RIGHT-HANDED — sides are given from THEIR own left/right. 180 cm (5 ft 11 in) — upright, narrow, stooped from years of leaning over other people
+RIGHT-HANDED — sides are given from THEIR own left/right. 180 cm (5 ft 11 in) — ordinary height, and a dancer's build.
 
 MUST BE TRUE OF THIS IMAGE:
 1. HIS GEAR IS THE WRECK OF A REAL WORKING KIT, NOT A BAG OF SCRAPS. He held the post — these are PROPER INSTRUMENTS, worn out, unreplaced and steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a bundle of rubbish. A professional stripped of supply reads as LOSS; an amateur with scraps reads only as poor.
-2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or satchel worn across the body on a strap over his LEFT shoulder so it hangs at his RIGHT hip, and its LOOPS ARE MOSTLY EMPTY — that emptiness is the design and must be visible. NO medical insignia, NO cross, NO symbol of any kind. Nothing announces the job but the object.
-3. THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The instruments were good instruments. Everything is worn to nothing by use and by never being resupplied, not by having been cheap.
+2. HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING, AND IT IS THE ONLY THING THAT SAYS MEDIC. A SATCHEL worn across the body, strap over his LEFT shoulder so it hangs at his RIGHT hip. THE FLAP IS BACK AND THE INSIDE IS VISIBLE: a row of instrument loops with MOST OF THEM EMPTY. THE EMPTINESS IS THE DESIGN AND MUST BE SEEN. NO medical insignia, NO cross, NO symbol of any kind.
+3. THE POVERTY IS THE ARENA'S AND NOT HIS, AND SO IS THE BAG. It was a good bag and they were good instruments, and both are DECADES older than his time with them — he is not the first medic to carry this. Worn to nothing by use and by never being resupplied, NEVER by having been cheap and NEVER by being makeshift.
 4. HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING chosen, NOTHING fitted, NOTHING decorated — no ornament, no trim, no personal mark. The KIT is his; the clothing is not.
 5. THESE ARE WORKING CLOTHES, NOT PRISON CLOTHING. NO stripes, NO numbers, NO institutional garment, NO uniform, NO collar and NO shackles.
 6. HIS SLEEVES ARE TIED OR ROLLED BACK AND KEPT BACK, forearms bare. It is the one working habit that has outlasted the supplies, and it should read as automatic rather than as preparation for anything.
 7. THE APRON OR OVERSHIRT CARRIES OLD STAINS THAT NEVER WASHED OUT and have long since gone brown and flat. NEVER fresh blood, NEVER red, NEVER anything that reads as a recent injury — this is twenty years of other people, not tonight's.
 8. NO FASTENING WORTH ANYTHING — cord, tied cloth, bone or scrap, nothing manufactured and nothing sellable. Every repair done by hand in poor light with mismatched thread.
 9. NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and ash, all of it dirty, with days of forest on top — mud to the knee, soaked cloth, torn hems.
-10. THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped or turned away from the weather while his own clothes are soaked through. He has been looking after it for longer than he has looked after himself.
+10. HE STANDS LIKE SOMEONE TRAINED TO BE PRECISE, NOT STRONG. Balanced, squared, still, weight evenly set, hands quiet and visible. NOT a fighter's stance, NOT braced, NOT coiled, NO readiness of any kind — he cannot fight and has never tried. He is of ORDINARY HEIGHT and starved thin like everyone else here: NOTHING padded, NOTHING bulked out, NOTHING that makes him look big or imposing.
+11. THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped or turned away from the weather while his own clothes are soaked through. He has been looking after it for longer than he has looked after himself.
 
 SHOT: Three-quarters to camera, standing as this person actually stands. Weight on one leg, a real posture rather than a display position. THE FAR SIDE IS PARTLY TURNED AWAY — a piece on it may be partly hidden, and that is CORRECT. Do not rotate it into view or move it to the near side.
 Plain seamless mid-grey studio backdrop. Even, flat, soft frontal light.
@@ -43,7 +44,7 @@ art, not AI-looking.
 
 BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   1. THE WRECK OF A REAL KIT — a professional stripped of supply.
-  2. THE CARRY says medic, not the clothing. Loops MOSTLY EMPTY.
+  2. A SATCHEL, FLAP OPEN, LOOPS MOSTLY EMPTY. No insignia.
   3. THE POVERTY IS THE ARENA'S, NOT HIS. The kit was good once.
   4. NOTHING was chosen, NOTHING fits, NOTHING is decorated.
   5. WORKING CLOTHES, never prison clothing. No uniform.
@@ -51,6 +52,7 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   7. OLD STAINS gone brown — never fresh, never red.
   8. NO fastening worth anything. HAND repairs, mismatched thread.
   9. NO COLOUR — bone, dust brown, ash. Forest damage over the top.
-  10. THE BAG IS BETTER PROTECTED THAN HE IS.
+  10. A DANCER'S CARRIAGE. Balanced and precise, NEVER powerful.
+  11. THE BAG IS BETTER PROTECTED THAN HE IS.
 
 Once generated, save the result as: turn-working-natural.png

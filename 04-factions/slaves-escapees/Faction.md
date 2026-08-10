@@ -224,10 +224,37 @@ of improvisations: proper instruments, worn out, unreplaced and steadily fewer.
 professional stripped of supply reads as loss where an amateur with scraps reads
 only as poor. See [`../../03-characters/krellis/Character.md`](../../03-characters/krellis/Character.md).
 
-He met Vala in the arena — **as her medic.** Whatever breaks and old injuries she
-carries from twenty years there, he is the one who set them. **Their shared
-history is on her body, not in their gear**, and it is a continuity note covering
-both of them.
+He met Vala in the arena — **as her medic.** **Their shared history is on her
+body, not in their gear**, and it is a continuity note covering both of them.
+
+> **Corrected 2026-08-10 by casting.** This used to say he set *"whatever breaks
+> and old injuries she carries from twenty years there"*. **Both actors are early
+> thirties**, and while Vala's twenty years survives that — taken at about twelve,
+> which is entirely consistent with people who are bought and sold — Krellis's
+> does not. He watched his parents die as a child, *then* vowed to become a
+> medic, *then* trained, and was captured as an adult protecting his siblings. He
+> reaches the arena already qualified, so **six to eight years is the most his
+> tenure can carry.**
+>
+> **He set her later injuries and inherited the rest** as somebody else's work he
+> has been living with. That is a more specific continuity note, not a weaker
+> one: he knows her body as a case history he took over halfway through, which is
+> what a working medic's relationship with a long-term patient actually is.
+>
+> **The kit's decay rate survives intact, because the kit was never his.** The
+> satchel and the instruments belong to the arena and are as old as it is — he is
+> the latest in a line of medics carrying the same dying bag, and he inherited it
+> already failing. *The poverty is the arena's, not his* now covers the age of
+> the equipment as well as the supply. Full reasoning in
+> [`../../03-characters/krellis/Character.md`](../../03-characters/krellis/Character.md)
+> under *The arena clock*.
+
+**He is of ordinary height — 180 cm — and the actor is a dancer.** Set 2026-08-10.
+The documents previously had him *large*, with a *"looming stature"*, and that is
+gone. **It makes the carry load-bearing:** he no longer reads out of the group by
+silhouette, so the satchel is the entire occupational signal. It is specified
+**open — flap back, instrument loops visible and mostly empty** — because the
+emptiness is the design and a closed bag hides it.
 
 ## Shin — a note on the subtext
 

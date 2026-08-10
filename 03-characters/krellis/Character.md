@@ -167,19 +167,87 @@ who set them.** That is the answer to *"do he and Vala share anything in their
 gear?"* — probably not gear. **The shared history is on her body, not in their
 kit**, and it is a continuity note for the art department covering both of them.
 
-### What the backstory opens
+### The siblings — **ANSWERED 2026-08-10: he does not know**
 
-- **Where are the siblings now?** He was captured protecting them — did it work?
-  Alive, enslaved, dead, or elsewhere? This decides whether he is trying to get
-  *back* to someone, and therefore what Prodona actually means to him. It is the
-  largest unanswered question about him.
+He was captured protecting them and **never learned whether it worked.** No
+news, no confirmation either way, and no way to get any.
+
+**So Prodona is not an errand.** It is not a place he is trying to *get back*
+to — nobody is waiting there. It is somewhere big enough to start looking from,
+which makes it a hope rather than a destination, and keeps it the same thing it
+is for everyone else in the group: a crowd to disappear into. The faction
+document is explicit that Prodona is *"not a haven, nobody is waiting for them"*,
+and this keeps him from being the exception.
+
+**It also protects Scene 25.** A man with a known destination has a private
+reason to stay alive, and the audience feels it. His plea has to be about the two
+people standing behind him and nothing else — *"he is not addressing an
+injustice; he is trying to get Shin and Jeyin out alive"* — and an errand of his
+own would compete with that at the worst possible moment.
+
+**Design consequence: he carries nothing that points home.** No token, no
+keepsake, no marker. That is not an absence of design — it is the same rule the
+faction runs on, *nothing decorated, because decoration implies ownership of
+yourself*, and it means the only personal object on him is the kit. **The kit is
+the only thing he owns, and it is not even his.**
+
+> **This closes what this document called "the largest unanswered question about
+> him"** and, with it, the *"does anything of home survive on him"* question
+> below. The answer to both is no.
+
+### The arena clock — **REWRITTEN 2026-08-10, and it had to be**
+
+> **The old note read: "How long was he the arena's medic? Vala's twenty years is
+> the only clock in the room. If he was there for a comparable stretch, his kit's
+> decay has a rate."** The Production Designer, on casting: **"Vala and Krellis
+> might need a year rewrite? The actors are both early 30s."**
+>
+> **They do, and the break is Krellis's, not Vala's.**
+>
+> **Vala survives the recast intact.** Twenty years of arena at early thirties
+> means she was put in it at about twelve. That is brutal and it is entirely
+> consistent with what the faction document says about people who are bought and
+> sold — nothing in her material needs changing, and her *"twenty years of arena
+> training fires before she can decide anything"* still stands.
+>
+> **Krellis does not.** He cannot have held a professional post for twenty years
+> and be thirty-two. Worse, the sequence forbids it outright: he watched his
+> parents die as a child, **then vowed to become a medic, then trained**, and was
+> captured as an adult *protecting his siblings*. He arrives at the arena already
+> qualified. **Six to eight years is the most his tenure can carry.**
+>
+> ### The kit does not get younger, and that is the save
+>
+> **The decay rate is not lost, because the kit was never his.** He held a post
+> with *"sanctioned access to whatever the arena provided"* — so the satchel and
+> the instruments belong to **the arena**, and they are as old as the arena is.
+> He is the latest in a line of medics using the same dying box. **He inherited
+> it already failing and watched it get worse.**
+>
+> That is a better object than the one it replaces. A kit a man has personally
+> worn out over twenty years is a story about him; **a kit that was dying before
+> he touched it and that he has kept alive for eight is a story about the place.**
+> It is the existing rule stated exactly — *the poverty is the arena's, not his*
+> — now extended from the supply to the age of the equipment.
+>
+> ### What it costs, and it is real
+>
+> **He did not set every injury Vala carries.** The faction document says
+> *"whatever breaks and old injuries she carries from twenty years there, he is
+> the one who set them"* — that is now wrong for the first twelve or so years.
+> **He set her later ones**, and he inherited the rest as somebody else's work he
+> has been living with. Corrected in `Faction.md` on the same day.
+>
+> **That is not a weaker continuity note, it is a more specific one.** He knows
+> her body as a case history he took over halfway through, which is exactly what
+> a working medic's relationship with a long-term patient is.
+
+### Still open
+
 - **Which planet, which war, which enemy?** Deliberately not assumed here — the
   documents should not quietly date the film or hand the war to the Empire.
-- **Does anything of home survive on him?** A homeworld marker is exactly the
-  kind of small object a person hides through captivity, and he would have had
-  reason to.
-- **How long was he the arena's medic?** Vala's twenty years is the only clock in
-  the room. If he was there for a comparable stretch, his kit's decay has a rate.
+- **Who was the medic before him, and is that person alive?** Opened by the clock
+  rewrite above. It needs no answer to design the costume, and it is free.
 
 ## Costume note
 
@@ -205,9 +273,21 @@ TBD.
 
 - **Species: human.** Decided 2026-08-04 — a prosthetic head would compound the Sc.25 head shot, which `Deaths-And-Effects.md` calls the hardest shot in the film. His kit and his interposing body language carry the character; species does not need to
 - **Gender: man (he/him).** Consistent across every document; recorded here 2026-08-04
-- Age range: TBD
-- Build and silhouette: TBD
-- Distinguishing traits: TBD
+- **Age: early thirties.** Set 2026-08-10 from casting. See *The arena clock*
+  below — it is the number that broke the twenty-year timeline and it needs
+  reading before anyone quotes his tenure
+- **Height: 180 cm (5 ft 11 in).** Set 2026-08-10 from casting. **Ordinary
+  height, and that is now the point** — he is not the big one and never was
+- **Build: a dancer's.** The actor is a dancer. *"He should look nimble, not
+  scary. He's a healer, not a fighter."* Balanced, controlled, economical;
+  **precise rather than powerful.** Do not build the costume to bulk him out and
+  do not show the body off — he is starved and filthy like everyone else in the
+  group, and a dancer's carriage survives all of that. It is legible in how he
+  stands, kneels and reaches, not in what is visible
+- **Distinguishing traits: his hands and the way he goes down to people.** He
+  gets to somebody's level and stays there, low and still, without bracing
+  himself on them. It is the only trained physical skill in the film that is not
+  violence
 
 ## Costume and Armour
 

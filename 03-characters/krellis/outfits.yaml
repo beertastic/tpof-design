@@ -14,18 +14,52 @@ ratio: "2:3"
 # Faction.md says why that is the better object: "a professional stripped of
 # supply reads as loss where an amateur with scraps reads only as poor."
 #
-# WHAT IS INVENTED AND NEEDS RULING: handedness, height, age and build, all TBD.
-# Rerun `./tools/regen krellis` after any change.
+# RULED 2026-08-10 IN A DESIGN SESSION WITH THE PRODUCTION DESIGNER. Height,
+# build, age and the carry were all provisional or open; all four are settled
+# below. Rerun `./tools/regen krellis` after any change.
 
-# PROVISIONAL. Nothing states it. It decides which side the roll or bag hangs
-# and which hand is free, so it must be set even though nothing depends on it
-# dramatically.
+# STILL PROVISIONAL, and the only thing here that is. Nothing states it. It
+# decides which shoulder the satchel strap crosses and which hand is free, so it
+# must be set even though nothing depends on it dramatically.
 handedness: right
 
-# PROVISIONAL. Character.md has him drawing himself up to his full height to
-# argue in Sc.25 — a man used to being listened to, in a place where he is not.
-# That beat wants someone who can be tall for a moment without being imposing.
-height: 180 cm (5 ft 11 in) — upright, narrow, stooped from years of leaning over other people
+# SET FROM CASTING 2026-08-10. The actor is about 5 ft 11 in and is a DANCER.
+# The Production Designer: "He should look nimble, not scary. He's a healer, not
+# a fighter."
+#
+# THE PREVIOUS DRAFT SAID "upright, narrow, stooped from years of leaning over
+# other people" AT THE SAME NUMBER, and Character.md said he was LARGE, with a
+# "looming stature", "the biggest person in the group is the one who does not
+# fight". Two documents, two bodies. The casting settles it and the size goes.
+#
+# NOTHING IMPORTANT WENT WITH IT. "The biggest man doesn't fight" was an irony;
+# what replaces it is that a man of ordinary size steps in front of two people
+# anyway, which is the same act and braver. See the note in Character.md.
+#
+# A DANCER'S BODY IS THE BETTER MEDIC BODY. What a medic reads by is HANDS AND
+# ECONOMY — balance, precise placement, the ability to fold down to somebody's
+# level and stay there — not mass. Bulk says he could stop you; control says he
+# could treat you. It is also the one trained physical skill in this film that is
+# not violence.
+#
+# DO NOT BUILD THE COSTUME TO BULK HIM OUT AND DO NOT SHOW THE BODY OFF. He is
+# starved and filthy like everyone else in the group. The carriage survives that
+# and is read in how he stands, kneels and reaches.
+#
+# THE COST IS REAL: he no longer stands out of the group by silhouette, so THE
+# CARRY HAS TO DO ALL OF IT. That was already the rule. There is now no second
+# signal behind it.
+height: >-
+  180 cm (5 ft 11 in) — ordinary height, and a dancer's build. Balanced,
+  controlled and precise rather than powerful. He folds down to people rather
+  than stooping over them.
+
+# SET FROM CASTING 2026-08-10 — the actor is early thirties. It breaks the
+# twenty-year arena clock this character was written against; the whole rewrite,
+# and why the kit's decay rate survives it, is in Character.md under "The arena
+# clock". Short version: the kit is the ARENA'S and is as old as the arena, he
+# has only had it six to eight years, and he inherited it already failing.
+age: early thirties
 
 outfits:
   - id: working
@@ -34,12 +68,14 @@ outfits:
     description: >
       The wreck of a real working kit. He was the arena's medic with sanctioned
       access to its supplies, and what is left is professional equipment worn
-      out and never replaced: a roll or satchel of proper instruments, most of
-      the loops empty, the few that remain sharpened and re-sharpened past
-      their working life.
-      His occupation reads from THE CARRY, not the clothing. The bag or roll is
-      the object that says medic, and it is mostly empty — the empty loops are
-      the design.
+      out and never replaced: a SATCHEL of proper instruments carried across the
+      body, flap back and the loops in view, most of them empty, the few that
+      remain sharpened and re-sharpened past their working life. The bag is
+      decades older than his time with it — it belonged to the arena and to
+      whoever held the post before him.
+      His occupation reads from THE CARRY, not the clothing, and since he is of
+      ordinary height it is the only thing that says medic at all. The satchel is
+      mostly empty — the empty loops are the design.
       The clothes themselves are the same as everyone else's: coarse, issued,
       wrong-sized, hand-repaired, no colour, no fastening worth anything. An
       apron or overshirt with old stains that were never going to wash out and
@@ -58,18 +94,44 @@ outfits:
           steadily fewer. NEVER improvised tools, NEVER sharpened spoons, NEVER a
           bundle of rubbish. A professional stripped of supply reads as LOSS; an
           amateur with scraps reads only as poor.
-      - check: THE CARRY says medic, not the clothing. Loops MOSTLY EMPTY.
+      # IT IS A SATCHEL, 2026-08-10. The Production Designer: "We're not sure. A
+      # satchel is probably the most favourable." Recorded as a LEAN, not a lock
+      # — it can still change, and nothing else in this file depends on which of
+      # the two it is.
+      #
+      # THE RULE STOPS SAYING "A ROLL OR SATCHEL" EITHER WAY. An alternative
+      # offered to a generator is not a choice it makes once; it is a thing it
+      # re-decides every view, and seven turnarounds of a man carrying sometimes
+      # one object and sometimes another is not a costume. Pick one, write one.
+      #
+      # THE FLAP IS THE COMPROMISE THAT KEEPS THE ROLL'S ADVANTAGE. The empty
+      # loops are the design and a closed bag hides them, which was the roll's
+      # whole case. So the satchel is specified OPEN — flap back, loops in view —
+      # because the emptiness has to be legible in a full-length plate and cannot
+      # wait for him to kneel down and open it.
+      #
+      # AND IT MATTERS MORE THAN IT DID THIS MORNING. He was cast at ordinary
+      # height today, so he no longer reads out of the group by silhouette. This
+      # object is now the entire occupational signal.
+      - check: A SATCHEL, FLAP OPEN, LOOPS MOSTLY EMPTY. No insignia.
         text: >
-          HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING. A roll or
-          satchel worn across the body on a strap over his LEFT shoulder so it
-          hangs at his RIGHT hip, and its LOOPS ARE MOSTLY EMPTY — that
-          emptiness is the design and must be visible. NO medical insignia, NO
-          cross, NO symbol of any kind. Nothing announces the job but the object.
+          HIS OCCUPATION READS FROM THE CARRY, NOT THE CLOTHING, AND IT IS THE
+          ONLY THING THAT SAYS MEDIC. A SATCHEL worn across the body, strap over
+          his LEFT shoulder so it hangs at his RIGHT hip. THE FLAP IS BACK AND
+          THE INSIDE IS VISIBLE: a row of instrument loops with MOST OF THEM
+          EMPTY. THE EMPTINESS IS THE DESIGN AND MUST BE SEEN. NO medical
+          insignia, NO cross, NO symbol of any kind.
+      # EXTENDED FROM SUPPLY TO AGE, 2026-08-10, by the arena clock rewrite. The
+      # satchel is not his and never was — he held a post with sanctioned access
+      # to the arena's equipment, so the bag is AS OLD AS THE ARENA and he has
+      # only carried it six to eight years. He inherited it already failing.
       - check: THE POVERTY IS THE ARENA'S, NOT HIS. The kit was good once.
         text: >
-          THE POVERTY IS THE ARENA'S AND NOT HIS. The bag was a good bag. The
-          instruments were good instruments. Everything is worn to nothing by use
-          and by never being resupplied, not by having been cheap.
+          THE POVERTY IS THE ARENA'S AND NOT HIS, AND SO IS THE BAG. It was a
+          good bag and they were good instruments, and both are DECADES older
+          than his time with them — he is not the first medic to carry this. Worn
+          to nothing by use and by never being resupplied, NEVER by having been
+          cheap and NEVER by being makeshift.
       - check: NOTHING was chosen, NOTHING fits, NOTHING is decorated.
         text: >
           HIS CLOTHES ARE WHAT HE WAS GIVEN FOR SOMEONE ELSE'S PURPOSE. NOTHING
@@ -100,6 +162,17 @@ outfits:
           NO COLOUR ANYWHERE: undyed or long faded, bone white, dust brown and
           ash, all of it dirty, with days of forest on top — mud to the knee,
           soaked cloth, torn hems.
+      # ADDED 2026-08-10 with the casting. He is not big, so nothing about his
+      # size does this work any more — it has to be in how he holds himself, and
+      # that has to be specified or it will not be there.
+      - check: A DANCER'S CARRIAGE. Balanced and precise, NEVER powerful.
+        text: >
+          HE STANDS LIKE SOMEONE TRAINED TO BE PRECISE, NOT STRONG. Balanced,
+          squared, still, weight evenly set, hands quiet and visible. NOT a
+          fighter's stance, NOT braced, NOT coiled, NO readiness of any kind —
+          he cannot fight and has never tried. He is of ORDINARY HEIGHT and
+          starved thin like everyone else here: NOTHING padded, NOTHING bulked
+          out, NOTHING that makes him look big or imposing.
       - check: THE BAG IS BETTER PROTECTED THAN HE IS.
         text: >
           THE BAG IS KEPT OUT OF THE MUD AND HE IS NOT. It is held clear, wrapped

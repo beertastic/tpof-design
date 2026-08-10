@@ -1,7 +1,7 @@
 ---
 title: "Next Characters — Interview Brief"
 asset_id: "PROC-NEXT-CHARACTERS"
-updated: "2026-08-03"
+updated: "2026-08-10"
 ---
 
 # Next Characters — Interview Brief
@@ -18,21 +18,44 @@ outstanding it is written as a question, not filled in with a plausible answer.
 
 ---
 
+> ## WHO IS STILL OURS — 2026-08-10
+>
+> **Handed to the costume department:** Captain Jasu, Shada, Vala, Nyx.
+> **Handed to the 3D prop master:** Reya Fenn *(handed off under her old name,
+> Freya)* and Yaslo Bis — **all costume elements, not just the hard parts.**
+>
+> **That leaves five for the art department to prep:** Baylan, Shin, Mercenary
+> Kit, Krellis, Jeyin. Palpatine is `reference-only` and needs nothing.
+>
+> **Baylan's working-dress front is APPROVED as of 2026-08-10.** Six views and
+> fifteen slots follow from it, and `references:` on that outfit is now empty by
+> design — the approved plate is the only costume authority. See
+> [`baylan/reference/concept/README.md`](baylan/reference/concept/README.md).
+>
+> **Krellis had his design session on 2026-08-10** — cast, sized, aged, and the
+> carry settled as a satchel. His twenty-year arena clock was broken by the
+> casting and has been rewritten; Vala's twenty years survives unchanged.
+>
+> **The table below is otherwise as written on 2026-08-03** and its `Prompts.md`
+> and boards columns have not been re-audited.
+
+---
+
 ## Where everyone is
 
 | | `Character.md` | `outfits.yaml` | `Prompts.md` | Boards | Images | `components:` | Build sheets |
 |---|---|---|---|---|---|---|---|
 | **Shada** | ✅ | ✅ | ✅ ready | ✅ 6 | **✅ 21/21 — done** | ✅ 13 | **✅ guide + 2** |
 | **Captain Jasu** | ✅ | ✅ | ✅ ready | ✅ 6 | 19/19 generated — **front re-roll open** | ✅ 12 | **✅ guide + 2** |
-| **Baylan** | ✅ 38 KB | ✅ | ✅ ready, 14 slots | 5 — **no make-up board** | none | ❌ | ❌ |
+| **Baylan** | ✅ 38 KB | ✅ | ✅ ready, 15 slots | 5 — **no make-up board** | **front APPROVED 2026-08-10** | ❌ | ❌ |
 | **Shin** | ✅ 23 KB | ✅ | ✅ ready, 14 slots | 7 — **no make-up board** | none | ❌ | ❌ |
 | **Mercenary Kit** | ✅ 22 KB | ✅ | ✅ ready, 13 slots | 4 turnarounds only | none | ❌ | ❌ |
-| **Nyx** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
-| **Krellis** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
-| **Vala** | 9 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
-| **Jeyin** | 11 KB | ❌ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
-| **Reya Fenn** | 3 KB | ❌ | scaffold | ❌ | none | ❌ | ❌ |
-| **Yaslo Bis** | 4 KB | ❌ | scaffold | ❌ | none | ❌ | ❌ |
+| **Nyx** | 9 KB | ✅ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Krellis** | ✅ 0.3 | ✅ **design session done** | scaffold, 16 `NEEDS:` | ❌ | none — turnarounds ready | ❌ | ❌ |
+| **Vala** | 9 KB | ✅ | scaffold, 16 `NEEDS:` | ❌ | 1 | ✅ | ✅ 2 sheets |
+| **Jeyin** | 11 KB | ✅ | scaffold, 16 `NEEDS:` | ❌ | none | ❌ | ❌ |
+| **Reya Fenn** | 3 KB | ✅ | scaffold | ❌ | none | ❌ | **HANDED OFF** |
+| **Yaslo Bis** | 4 KB | ✅ | scaffold | ❌ | none | ❌ | **HANDED OFF** |
 
 **Shada and Captain Jasu are the templates. Both have been through all nine
 phases** — documents, references, approved front, turnarounds, slots, boards,

@@ -118,6 +118,23 @@ costume rules attached at all.
 
 ---
 
+> ## APPROVED — 2026-08-10, PASS 4. NOTHING IN THIS FOLDER IS ATTACHED ANY MORE.
+>
+> *"Love it."* The front is locked at
+> `source/artwork/turn-working-front.png` and `references:` on the `working`
+> outfit is **empty** — the approved plate does everything these images were
+> doing, and its scope is the whole costume rather than one region of it.
+>
+> **Every file described below is history.** They are on disk and none is a
+> source of truth. **Do not re-attach any of them without clearing the approval
+> first** — a second full-costume image beside an approved plate is two answers
+> to one question.
+>
+> **The one lesson worth carrying to the next character** is in the pass-3
+> section immediately below: the run that finally worked was not the one with
+> the best wording, it was the one where **the wrong thing was not in any
+> attached frame.**
+
 ## Pass 3 — no full-length plate is attached any more
 
 **Two crops, and this is the most useful thing this folder has learned.**

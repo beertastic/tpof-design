@@ -1,9 +1,8 @@
 [SHADA — INFILTRATION DRESS — NATURAL]
-Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 6f5fbfb4 (short) · repo commit 977200d 2026-08-04 17:11
+Prompt version: 4b4f4037 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
@@ -58,3 +57,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   3. Plates WORN salvage — uniform SHAPE, uneven WEAR. Never crisp machined panelling.
   4. Scale pattern TONAL — the SAME COLOUR as her skin. Never warm, orange or tan. Flat, not raised.
   5. Boots PLAIN worn taupe leather. NO buckles, NO straps, NO wrapping. Nothing over the trousers.
+
+Once generated, save the result as: turn-working-natural.png

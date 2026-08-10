@@ -45,7 +45,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.platypus import (
     BaseDocTemplate, Frame, HRFlowable, Image, KeepTogether, ListFlowable,
-    ListItem, PageTemplate, Paragraph, Spacer, Table, TableStyle,
+    ListItem, PageTemplate, Paragraph, Spacer, Table, TableStyle, XPreformatted,
 )
 
 INK = colors.HexColor("#1a1a1a")
@@ -79,6 +79,11 @@ def styles() -> dict[str, ParagraphStyle]:
                   textColor=MUTED, spaceBefore=3),
         "scope": mk(name="scp", fontName="Helvetica-Bold", fontSize=7.8,
                     leading=10, textColor=WARN_EDGE, spaceBefore=2),
+        "code": mk(name="code", fontName="Courier", fontSize=6.8, leading=8.6,
+                   textColor=INK, spaceBefore=3, spaceAfter=3),
+        # The unboxed fallback for a blockquote too tall to fit in a box.
+        "quote": mk(name="q", fontName="Helvetica", fontSize=9.5, leading=13.5,
+                    textColor=INK, leftIndent=12, rightIndent=7, spaceAfter=5),
     }
 
 
@@ -88,11 +93,72 @@ def inline(text: str) -> str:
     Escapes first, so a literal & or < in a spec (`<10 mm`) cannot become markup.
     """
     text = (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
-    text = re.sub(r"`([^`]+)`", r'<font face="Courier" size="8.5">\1</font>', text)
+
+    # CODE SPANS ARE LIFTED OUT BEFORE ANY OTHER RULE RUNS, and put back last.
+    # Converting them in place first — which is what this did until 2026-08-06 —
+    # lets the italic rule below reach INSIDE the markup it just produced. One
+    # line of `.gitignore` quoted in a README was enough to break it: a cell
+    # holding `source/*.pptx` and `source/*-Production-Boards.pdf` gave the two
+    # asterisks, now sitting either side of `</font>, <font ...>`, to the same
+    # italic pair. reportlab saw </font> where it wanted </i> and refused to
+    # render the document at all. Found by the notebook export, which is the
+    # first thing to push arbitrary repository prose through this renderer.
+    spans: list[str] = []
+
+    def stash(m: re.Match) -> str:
+        spans.append(m.group(1))
+        return f"\x00{len(spans) - 1}\x00"
+
+    text = re.sub(r"`([^`]+)`", stash, text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
     text = re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"<i>\1</i>", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)   # link -> its text
-    return text
+    return balance(re.sub(
+        r"\x00(\d+)\x00",
+        lambda m: ('<font face="Courier" size="8.5">'
+                   f'{spans[int(m.group(1))]}</font>'),
+        text))
+
+
+TAG_RE = re.compile(r"</?(b|i|font)\b[^>]*>")
+
+
+def balance(html: str) -> str:
+    """Force well-formed nesting on the mini-HTML `inline()` produces.
+
+    reportlab's parser is strict and refuses the ENTIRE document on one crossed
+    pair, and the rules above can produce one from PERFECTLY VALID markdown.
+    `yaslo-bis/Character.md` line 55 is `**he is the one who says *"the fun
+    way"***` — bold wrapping an italic, which every markdown parser handles. The
+    `**` rule runs first and its lazy match stops at the `**` inside the closing
+    `***`, so the bold ends inside the italic and the tags cross.
+
+    Handling that properly needs a real inline parser, and this renderer
+    deliberately does not have one. Balancing the output costs that phrase the
+    exact extent of its emphasis and keeps the document; the alternative was a
+    build that fails on prose nobody wrote incorrectly.
+
+    Stray end tags are dropped; start tags left open are closed at the end.
+    Added 2026-08-06 — before it, `--all` succeeded only because build guides are
+    generated prose and every one of them happened to be well formed.
+    """
+    out, stack, pos = [], [], 0
+    for m in TAG_RE.finditer(html):
+        out.append(html[pos:m.start()])
+        pos = m.end()
+        tag, whole = m.group(1), m.group(0)
+        if whole.startswith("</"):
+            if stack and stack[-1] == tag:
+                stack.pop()
+                out.append(whole)
+            # A mismatched end tag is dropped: the matching start tag is closed
+            # later, by the sweep below, in the right place.
+        else:
+            stack.append(tag)
+            out.append(whole)
+    out.append(html[pos:])
+    out.extend(f"</{t}>" for t in reversed(stack))
+    return "".join(out)
 
 
 def split_row(line: str) -> list[str]:
@@ -267,6 +333,26 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float,
                               counter)
             continue
 
+        # Fenced code, set verbatim in monospace with NO markdown applied
+        # inside it. Added 2026-08-06 for the notebook export, which embeds
+        # `outfits.yaml` whole: without this branch every `#` comment line in a
+        # costume specification became a heading, and Baylan's file alone turned
+        # into sixty spurious sections. No build guide uses a fence, so this
+        # cannot change any output that existed before it.
+        if stripped.startswith("```"):
+            i += 1
+            buf = []
+            while i < n and not lines[i].strip().startswith("```"):
+                buf.append(lines[i])
+                i += 1
+            i += 1
+            if buf:
+                safe = ("\n".join(buf).replace("&", "&amp;")
+                        .replace("<", "&lt;").replace(">", "&gt;"))
+                out.append(XPreformatted(safe, st["code"]))
+                out.append(Spacer(1, 4))
+            continue
+
         # Table: a header row followed by a |---|---| separator.
         if stripped.startswith("|") and i + 1 < n and re.match(
                 r"^\|[\s:|-]+\|$", lines[i + 1].strip()):
@@ -316,6 +402,24 @@ def build_flowables(md: str, st: dict[str, ParagraphStyle], width: float,
                 buf.append(lines[i].strip()[1:].strip())
                 i += 1
             body = " ".join(x for x in buf if x)
+
+            # A BOXED QUOTE IS ONE TABLE CELL, AND A TABLE CELL CANNOT SPLIT. A
+            # quote taller than the frame does not overflow — it raises
+            # LayoutError and takes the whole build down. Build guides never
+            # produced one; arbitrary repository prose does, and the notebook
+            # export found it on page 536: a parked-work note in
+            # `Prompt-Reliability-TODO.md` that runs to 808 points against a
+            # 719-point frame.
+            #
+            # Over the limit the box is dropped and the quote sets as an
+            # indented paragraph, which flows across pages like any other. The
+            # warning loses its box exactly when it is too long to read as one.
+            if Paragraph(inline(body), st["warn"]).wrap(
+                    width - 16, 10_000)[1] > 600:
+                out += [Spacer(1, 3), Paragraph(inline(body), st["quote"]),
+                        Spacer(1, 7)]
+                continue
+
             inner = Table([[Paragraph(inline(body), st["warn"])]], colWidths=[width])
             inner.setStyle(TableStyle([
                 ("BACKGROUND", (0, 0), (-1, -1), WARN_BG),

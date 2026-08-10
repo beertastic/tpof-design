@@ -1,12 +1,15 @@
 [SHIN — AS WE MEET HER — LEFT]
-Output file: turn-early-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 93e26af1 (short) · repo commit 4f880c0 2026-08-05 16:30
+Prompt version: 3a671870 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
+
+TEXT ONLY. NOTHING IS ATTACHED TO THIS MESSAGE AND NOTHING NEEDS TO BE.
+This is a new image built from the description below. It is NOT an edit
+of an existing image and there is no source picture to look for.
 
 NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
 A LIKENESS OF A REAL PERSON. Build the face from the written description
@@ -49,3 +52,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   7. NO COLOUR — undyed or the dye gone patchy. Bone, dust, ash.
   8. FRIGHTENED and exhausted. NOT becoming a warrior.
   9. INTACT — dirty and damp, but NOT yet destroyed.
+
+Once generated, save the result as: turn-early-left.png

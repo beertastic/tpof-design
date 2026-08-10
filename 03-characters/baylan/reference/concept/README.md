@@ -118,6 +118,53 @@ costume rules attached at all.
 
 ---
 
+## `costume-best-so-far-2026-08-10.png` — WIRED IN, FIRST ATTACHMENT
+
+**The best front so far**, accepted by the Production Designer on 2026-08-10:
+*"the 'skirt' is still too long, but the rest is great."* No coat, no cloak.
+
+It is first in `references:` and therefore attachment 1 in
+`prompts/attach/working/`, ahead of `chevron-geometry-source.png` — **and it
+outranks that image wherever the two disagree.** This is his garment, eighteen
+years old and filthy; that one is a shop-new reproduction on a mannequin. The
+chevron source stays because it still holds the band geometry more clearly than
+a full-length plate can.
+
+### Why it is a scoped reference and NOT an approval
+
+An `approved:` block's scope is **the whole costume** — that is what gives it the
+power to make every other view match it exactly. Approving this plate would
+therefore lock in the one thing on it that is wrong, and rule 18 would spend the
+rest of the turnaround arguing with a photograph it cannot beat. A scoped
+reference is the mechanism for a plate that is right about most of itself.
+
+**The scope names the exception in the label:** *the whole costume EXCEPT the
+length of the two hip panels* — they hang near mid-calf in it and must reach a
+third of the way from belt to knee.
+
+### What it exposed — a rule that contradicted its own checkline
+
+The panels came back at mid-calf because **the prompt asked for two different
+lengths at once.** Rule 18's `text:` said *"hem level with his fingertips"*;
+checkline 11 said *"ONE THIRD from belt to knee"*. Those are not the same
+measurement — fingertips is roughly mid-thigh, about twice the depth — and
+`description:` said fingertips too, making it two to one for the longer one.
+
+The comment above the rule had argued for the belt-to-knee fraction and the
+`check:` was rewritten to match. **The `text:` never was, and the `text:` is the
+part the generator reads as specification.** Both then shipped in every prompt.
+
+Given two irreconcilable numbers the generator obeyed neither and fell back on
+what a hip panel usually looks like, which is longer than both. All three
+statements now carry the fraction, and *fingertips* is gone for the same reason
+*"upper thigh"* and *"a hand's width"* went before it — an arm length on a body
+it is inventing is not something it can measure in the picture it is making.
+
+**Worth checking on any rule with a `check:` line**: the two are written months
+apart and nothing verifies they still agree.
+
+---
+
 ## `chevron-construction-intent-2026-08-05.png` — ON DISK, NOT ATTACHED
 
 The Production Designer's own reference for the construction he wants: the

@@ -1,12 +1,15 @@
 [KRELLIS — ARENA MEDIC'S WORKING GEAR — NATURAL]
-Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 8b1a577e (short) · repo commit 74d6353 2026-08-05 14:57
+Prompt version: 36aca8b2 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
+
+TEXT ONLY. NOTHING IS ATTACHED TO THIS MESSAGE AND NOTHING NEEDS TO BE.
+This is a new image built from the description below. It is NOT an edit
+of an existing image and there is no source picture to look for.
 
 NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT
 A LIKENESS OF A REAL PERSON. Build the face from the written description
@@ -49,3 +52,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   8. NO fastening worth anything. HAND repairs, mismatched thread.
   9. NO COLOUR — bone, dust brown, ash. Forest damage over the top.
   10. THE BAG IS BETTER PROTECTED THAN HE IS.
+
+Once generated, save the result as: turn-working-natural.png

@@ -1,9 +1,9 @@
 ---
 title: "Prompt Reliability — Fix List"
 asset_id: "TRACK-PROMPT-RELIABILITY"
-updated: "2026-08-03"
+updated: "2026-08-06"
 status: "open"
-note: "Fix 2 half-done (Shada re-ordered, Jasu not). Fix 7 added — it gates 26 images and was only recorded in Shada's file. Work the order in 'Which of these to do first', not the numbering."
+note: "2026-08-06 — see the section at the end: three prompt/instruction faults fixed, and a fourth in the image tool itself that this repository cannot reach. Day 1 produced zero of 12 fronts."
 ---
 
 # Prompt Reliability — Fix List
@@ -597,3 +597,86 @@ silent-host-compression failure this document exists to describe. Both
 `slots-short/` and `turnarounds-short/` have existed for all five characters
 since fix 7 landed, and nothing in those three packs mentioned either. All three
 now lead with **paste from the short directories, never from `prompts/`**.
+
+---
+
+## 2026-08-06 — the day nothing generated, and why none of it was the prompts
+
+**Day 1 of the delivery plan. Target 12 fronts. Actual: zero.** Not one image was
+produced, and the plan's whole arithmetic assumes generation is the bottleneck.
+It was not. The pipeline was.
+
+Four distinct faults surfaced in one morning, three of them real and now fixed,
+and the fourth is the one that stopped the day.
+
+### 1. `THIS IS A COSTUME FITTING PHOTOGRAPH` read as a caption — FIXED
+
+The opening line of every short turnaround prompt described a photograph in the
+present tense. With nothing attached, the host read it as a caption for an image
+it could not find, classified the request as an EDIT, and refused.
+
+Fixed in `tools/prompt-splitter/short.py`: the opener is now
+`GENERATE A COSTUME FITTING PHOTOGRAPH`, and where an outfit declares no
+references the prompt states outright that the request is text-only.
+
+**It only ever bit the uncast characters — 57 of 84 prompts.** Where references
+exist the block says USE THE ATTACHED PHOTOGRAPHS and the request is
+unambiguous, which is why Shada and Jasu produced 42 images over the same header
+without a single refusal.
+
+### 2. `Output file: turn-working-front.png` on line 2 — FIXED
+
+A bare `*.png` in the opening lines names an image file, and the host read it as
+the TARGET of an edit. **Rewording the opener was not enough on its own; this was
+the stronger signal and it survived that fix.** The filename is now the last line
+of the prompt, phrased as an instruction to the person about where to save the
+result.
+
+### 3. The ChatGPT project instructions were wrong for most of the production — FIXED
+
+The prompt-level fixes changed nothing, because the deciding rule was never in
+the prompt. Prepended to every chat was:
+
+> `Use the attached photographs. If none are attached, fetch the URLs in the prompt.`
+
+That admits two possibilities, attachments or URLs, and **57 of 84 prompts are
+neither.** Told an image is always involved, the model went looking for one.
+
+The second half had rotted independently: **the repository is private and every
+`raw.githubusercontent` URL in every prompt is dead.**
+
+Fixed in `09-prompt-library/ChatGPT-Project-Instructions.md` v1.1, which must be
+pasted into ChatGPT's settings to take effect.
+
+> **THE LESSON, AND IT IS THE SECOND TIME THIS FILE HAS TAUGHT IT.**
+> `short.py` was corrected twice and neither fix could reach the problem. When a
+> generation misbehaves in a way that is the same for every character, **check
+> the project instructions before touching the generator.** They are prepended
+> to every chat; the prompt is not.
+
+### 4. The image tool itself is misclassifying text-to-image as edit — OPEN, NOT OURS
+
+After all three fixes, with the new instructions in place, ChatGPT reported:
+
+> *"Your prompt was correctly supplied as a new text-to-image generation and does
+> not require an attachment. The image generator misclassified this text-only
+> request as an edit and refused to run."*
+
+**Confirmed with a control.** `Generate a photograph of a man standing in a plain
+grey studio, full length.` — thirteen words, no attachments, no repository, no
+project language — refused identically.
+
+**Nothing in this repository can fix this.** It is below the layer any prompt or
+instruction reaches. Untested and worth testing before assuming the worst: the
+control ran inside a conversation already carrying several failed edit attempts,
+so the thread may be inheriting image state. **A fresh chat per character is the
+first thing to try**, and if that works it is a permanent workflow rule, not a
+workaround.
+
+### What this costs the plan
+
+The delivery plan budgets two to three attempts per image on the assumption that
+a paste reliably produces a picture. **A day where the paste produces nothing is
+not absorbed by that headroom — it is subtracted from it whole.** One such day in
+nine is recoverable. Two is not, and the plan should be re-cut rather than
+allowed to fail quietly at the end.

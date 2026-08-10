@@ -1,9 +1,8 @@
 [SHADA — INFILTRATION DRESS — FRONT]
-Output file: turn-working-front.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 48b4b08b (short) · repo commit 977200d 2026-08-04 17:11
+Prompt version: 4e95c027 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
@@ -33,7 +32,7 @@ MUST BE TRUE OF THIS IMAGE:
 7. EACH PLATE IS 10-15 mm — TWELVE OF THEM ACROSS A FLANK PANEL. NEVER OVERLAPPED — THEY BUTT EDGE TO EDGE. FIVE METALS, NO BRASS, AND PLATES MISSING. NOT shingled, NOT lamellar, NOT roof tiles, NOT fish scales. A DENSE FIELD OF HUNDREDS, AND NEVER A DOZEN BIG ONES. NOT chain mail. NOT brass, NOT gold, NOT warm-toned. EACH PLATE IS 10-15 mm ACROSS.
 8. THE PLATES ARE SALVAGE AND THEY ARE WORN. They must NEVER read as carbon fibre, machined hex panelling, embossed tile or new decorative metalwork. The shape is deliberately uniform, so the worn finish is the ONLY thing keeping them off that. THE SHAPE IS UNIFORM; THE WEAR IS NOT.
 9. A PANELLED SLEEVELESS VEST IN DUSTY GREY CLOTH, WITH A STAND COLLAR AND CONCEALED PLACKET. CLOTH, NEVER LEATHER — NO WRAP FRONT, NO V-NECK, NO ZIP. It must read as FABRIC AND NOT AS HIDE — no leather sheen, no leather grain, no stiff moulded panel edges, no rigidity anywhere in the garment. NOT blue-grey. NO SLEEVES, NO BARE MIDRIFF, NO CROP TOP. TONAL.
-10. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. This is what makes her not HUMAN. The snake ancestry is TENS OF THOUSANDS OF YEARS BACK — so distant that almost nothing of it survives. She is human to look at, and this is the one trace left. TONAL, NOT COLOURED. MUCH FINER THAN THE METAL PLATES.
+10. FINE SCALE PATTERN ON HER SHOULDERS, ARMS, COLLARBONE AND NECK — IT MUST BE VISIBLE HERE, NEVER SMOOTH SKIN. This is what makes her not HUMAN. The snake ancestry is TENS OF THOUSANDS OF YEARS BACK — so distant that almost nothing of it survives. She is human to look at, and this is the one trace left. TONAL, NOT COLOURED.
 11. BLASTER ON HER RIGHT, KNIFE ON HER LEFT HIP. NEVER THE OTHER WAY ROUND. The blaster is a WESTAR-35, NOT a generic sidearm. Sides are fixed and she is RIGHT-HANDED. The WESTAR-35 rides on HER RIGHT SIDE — hip or thigh, either is fine, but ALWAYS HER RIGHT AND NEVER HER LEFT. In a worn holster, grip upward and angled slightly forward for a right-hand draw.
 12. CLOSE-FITTING GREY-GREEN TROUSERS TUCKED INTO GREY-BROWN TAUPE BOOTS. NOTHING IS WORN OVER THE TROUSERS — NO SKIRT, TABARD, APRON, OVERSKIRT, WRAP OR HANGING PANEL. TWO BELTS THAT DO NOT MATCH. NEVER chestnut, NEVER tan, NEVER saddle brown. The two do not match and were never a set. Never buckled biker boots.
 13. EXTERIOR, AND THE PLACE IS WET FOREST, FOREST CLEARING OR THE MERCENARY CAMP AMONG THE TREES — never desert, never sand, never dry scrub, never a rocky waste. NO buildings, NO market stalls, NO crowds, NO interiors — EXCEPT the mercenary ship's main hold in Scene 10, the Sabacc game, which moved inside on 2026-08-01.
@@ -57,3 +56,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   3. Plates WORN salvage — uniform SHAPE, uneven WEAR. Never crisp machined panelling.
   4. Scale pattern TONAL — the SAME COLOUR as her skin. Never warm, orange or tan. Flat, not raised.
   5. Boots PLAIN worn taupe leather. NO buckles, NO straps, NO wrapping. Nothing over the trousers.
+
+Once generated, save the result as: turn-working-front.png

@@ -55,3 +55,11 @@ __pycache__/
 
 # Claude Code scratch worktrees — never part of the design repo
 .claude/worktrees/
+
+# Single-file project export — regenerable via tools/notebook-export/build.py
+# Built for Google NotebookLM, which cannot read a git repository. It is a COPY
+# of the whole tree and it goes stale the moment anything is committed, so it is
+# never committed itself: the repository stays the one source of truth and the
+# export is rebuilt on demand. ~1.6 MB of markdown, and the PDF far more.
+TPOF-Complete.md
+TPOF-Complete.pdf

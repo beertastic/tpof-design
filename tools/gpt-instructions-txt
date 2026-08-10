@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+"""Extract the paste-ready block from the ChatGPT project instructions.
+
+    ./tools/gpt-instructions-txt
+
+Writes `09-prompt-library/ChatGPT-Project-Instructions.txt` — the fenced block
+from the `.md` beside it, and nothing else. No heading, no fences, no commentary:
+open it, select all, paste into ChatGPT's project settings.
+
+WHY A SCRIPT AND NOT A FILE. The `.md` exists because the instructions in ChatGPT
+and the copy in this repository drifted apart, expensively, on 2026-08-01. A
+hand-maintained `.txt` beside it would be a THIRD copy and the same failure
+waiting to happen. This one is generated, so it cannot say anything the master
+does not.
+
+Rerun it after any edit to the `.md`. The `.md` is the source of truth; the
+`.txt` is a convenience and is safe to delete.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+SRC = REPO / "09-prompt-library" / "ChatGPT-Project-Instructions.md"
+OUT = SRC.with_suffix(".txt")
+MARKER = "## The block to paste"
+
+
+def main() -> int:
+    text = SRC.read_text(encoding="utf-8")
+    if MARKER not in text:
+        print(f"error: '{MARKER}' not found in {SRC.name}", file=sys.stderr)
+        return 1
+    parts = text.split(MARKER, 1)[1].split("```")
+    if len(parts) < 3:
+        print(f"error: no fenced block after '{MARKER}'", file=sys.stderr)
+        return 1
+    block = parts[1].lstrip("\n").rstrip() + "\n"
+    OUT.write_text(block, encoding="utf-8")
+    print(f"{OUT.relative_to(REPO)}  {len(block):,} chars, "
+          f"{block.count(chr(10))} lines")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

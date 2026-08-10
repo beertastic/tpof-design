@@ -333,11 +333,38 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
                 or cfg.get("do_not_retrieve_short") or cfg.get("do_not_retrieve"))
 
     parts = [
+        # THE OUTPUT FILENAME USED TO SIT HERE, ON LINE 2, AND IT IS WHY THESE
+        # PROMPTS WERE REFUSED. A bare `*.png` in the opening lines names an image
+        # file, and the host read that as the TARGET of an edit: "the image
+        # generator incorrectly treated this text-only request as an edit and
+        # refused to run without an image target."
+        #
+        # Rewording the opener to GENERATE was not enough on its own — the
+        # filename was the stronger signal and it survived that change. It is now
+        # the last line of the prompt, phrased as what it always was: an
+        # instruction to the PERSON about where to save the result.
+        #
+        # The prompts with references never showed this. They say USE THE
+        # ATTACHED PHOTOGRAPHS, so an edit route is correct for them and the
+        # filename cost nothing — which is why Shada and Jasu produced 42 images
+        # over this same header without a single refusal.
         f"[{character.upper()} — {outfit['name'].upper()} — {view.upper()}]",
-        f"Output file: turn-{outfit['id']}-{view}.png",
         f"Aspect ratio: {cfg.get('ratio', '2:3')} — TALL. Generate at 1024x1536. Never square.",
         "",
-        "THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.",
+        # "GENERATE A ...", NEVER "THIS IS A ...". Changed 2026-08-06 after Shin's
+        # front was refused outright: the host read "THIS IS A COSTUME FITTING
+        # PHOTOGRAPH" as a caption for an attached image, decided the request was
+        # an EDIT, found no source image and stopped — "the image generator
+        # incorrectly treated this as an edit request and refused because no
+        # source image was attached."
+        #
+        # It only bites the characters with nothing to attach. Where references
+        # exist the block below says USE THE ATTACHED PHOTOGRAPHS and the request
+        # is unambiguous; where they do not, the first line was the only thing
+        # describing what the request WAS, and it described a photograph that
+        # already existed. 57 of the 84 generated prompts were in that state —
+        # every uncast character, which is most of the ones still to shoot.
+        "GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.",
         "NO text, labels, captions, titles, logos, borders or layout. NO second view,",
         "no inset heads, no detail crops, no swatches, no colour palette.",
         "FULL LENGTH — head to below the feet. Not a portrait.",
@@ -356,6 +383,13 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
             "  Say whether you used an attached file or a URL. If neither worked, stop.",
             "",
         ] if refs else [
+            # Said outright, because the absence of the attachment block above is
+            # not a statement — it is a silence, and the host filled it in with
+            # the wrong assumption. See the note on the opening line.
+            "TEXT ONLY. NOTHING IS ATTACHED TO THIS MESSAGE AND NOTHING NEEDS TO BE.",
+            "This is a new image built from the description below. It is NOT an edit",
+            "of an existing image and there is no source picture to look for.",
+            "",
             "NOT YET CAST — THERE IS NO REFERENCE PHOTOGRAPH AND YOU MUST NOT INVENT",
             "A LIKENESS OF A REAL PERSON. Build the face from the written description",
             "alone: an ordinary, unremarkable, plausible human being who could exist,",
@@ -388,6 +422,9 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
         "art, not AI-looking.",
     ]
     parts += check_block(checks)
+    # Filing instruction, for the person, after the work is done. Last line so
+    # nothing upstream can mistake it for the subject of the request.
+    parts += ["", f"Once generated, save the result as: turn-{outfit['id']}-{view}.png"]
     body = "\n".join(parts).strip() + "\n"
     h = hashlib.sha256(body.encode()).hexdigest()[:8]
     lines = body.split("\n")
@@ -395,7 +432,9 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
     stamp = f"Prompt version: {h} (short) \u00b7 repo commit {commit}"
     # The stamp stays; the instruction to recite it back does not. See
     # ECHO_TEMPLATE below for the measurement that removed it.
-    return "\n".join(lines[:3] + [stamp] + lines[3:])
+    # Index 2, not 3: the `Output file:` line that used to occupy line 2 moved to
+    # the end, so the header is now title / aspect ratio and the stamp follows.
+    return "\n".join(lines[:2] + [stamp] + lines[2:])
 
 
 def _repo_commit() -> str:

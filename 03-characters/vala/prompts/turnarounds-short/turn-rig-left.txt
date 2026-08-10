@@ -1,9 +1,8 @@
 [VALA — THE REMNANTS OF A FIGHTING RIG, LAYERED FOR THE FOREST — LEFT]
-Output file: turn-rig-left.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: fc73e2fa (short) · repo commit 1151666 2026-08-05 17:29
+Prompt version: fc84dd17 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
@@ -59,3 +58,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   11. MUTED COLOUR ALLOWED — olive, grey-brown, sand. Never bright.
   12. NO injuries, NO blood, NO damage implying a wound.
   13. CAPABLE, not heroic. She expects to lose and always has.
+
+Once generated, save the result as: turn-rig-left.png

@@ -119,7 +119,8 @@ outfits:
       right hip a holster holding an ugly, heavily modified blaster pistol. Worn
       METAL GAUNTLETS on both forearms, wrist to three-quarters up the arm. Two
       separate torn panels of cloth hang from the belt over each hip, open at the
-      centre front and back, their hem level with his fingertips, one of them
+      centre front and back, SHORT — their hem one third of the way from the belt
+      down to the knee, well above it — one of them
       split at the bottom into two hanging tails. Heavy boots,
       resoled. Everything DARK: near-black charcoal, soot brown, cold slate, the
       last of a faded olive.
@@ -649,12 +650,35 @@ outfits:
       # measure in the picture it is making.
       #
       # ONE PANEL PER HIP is stated because two generations layered them.
+      #
+      # THE RULE AND ITS OWN CHECKLINE DISAGREED, 2026-08-05 TO 2026-08-10, AND
+      # BOTH REACHED THE GENERATOR. The comment above argued the length should be
+      # a fraction of belt-to-knee and the `check:` was rewritten to say so — but
+      # the `text:`, which is the part the generator actually reads as
+      # specification, was never changed and still said FINGERTIPS. So every
+      # prompt carried rule 18 "hem level with his fingertips" and checkline 11
+      # "ONE THIRD from belt to knee", which are not the same length: fingertips
+      # on a standing man is mid-thigh, roughly twice the depth. `description:`
+      # said fingertips too, making it two votes to one for the longer one.
+      #
+      # THE GENERATOR SPLIT THE DIFFERENCE AND THEN SOME. The 2026-08-10 front
+      # came back at MID-CALF — longer than either instruction, which is what
+      # contradictory measurements buy: neither number is safe to obey, so it
+      # falls back on what a hip panel usually looks like. Two of the three
+      # statements have now moved to the checkline's number.
+      #
+      # THE FRACTION IS KEPT AND FINGERTIPS IS DROPPED because fingertips is not
+      # a landmark the generator can measure — it depends on arm length on a body
+      # it is inventing, the same failure as "a hand's width" on the chevrons and
+      # "upper thigh" before it. The belt and the knee are both in frame.
       - check: Panels reach ONE THIRD from belt to knee. ONE per hip, no layers.
         text: >
           TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEIR HEM IS LEVEL WITH HIS FINGERTIPS — his arms hang loose at
-          his sides, and the bottom of each panel stops where his fingers end.
+          doubled. THEY ARE SHORT. MEASURE THE DISTANCE FROM HIS BELT DOWN TO HIS
+          KNEE: EACH PANEL HANGS ONE THIRD OF THAT AND STOPS. It ends HIGH ON THE
+          THIGH, nowhere near the knee. NEVER to the knee, NEVER below it, NEVER
+          to mid-calf. IT IS A HINT OF A SKIRT, NOT A SKIRT.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -878,6 +902,40 @@ outfits:
     # promised a fix the attachment could never deliver. The green is now
     # specified on 05-detail_portrait and 12-materials instead.
     references:
+      # THE BEST FRONT SO FAR, accepted by the Production Designer 2026-08-10.
+      # "The 'skirt' is still too long, but the rest is great."
+      #
+      # IT IS NOT AN `approved:` BLOCK AND MUST NOT BECOME ONE UNTIL THE PANELS
+      # ARE RIGHT. An approval's scope is THE WHOLE COSTUME — that is what
+      # APPROVAL.md gives it and why other views are told to match it exactly —
+      # so approving this plate would lock in the one thing on it that is wrong,
+      # and rule 18 would then be arguing with a photograph it cannot beat.
+      # A scoped reference is the mechanism for a plate that is right about most
+      # of itself, and this is what `scope:` exists for.
+      #
+      # IT IS LISTED FIRST ON PURPOSE so it is attachment 1 in prompts/attach/,
+      # ahead of the chevron geometry source. It supersedes that image on
+      # everything the two disagree about, because this one is HIS garment,
+      # eighteen years old and filthy, and that one is a shop-new reproduction on
+      # a mannequin.
+      #
+      # BOTH source/artwork PLATES STAY SUPERSEDED. This is the current design;
+      # turn-working-front.png and turn-working-back.png predate the skirt change
+      # and are history.
+      - path: reference/concept/costume-best-so-far-2026-08-10.png
+        what: >-
+          THE WHOLE COSTUME — EXCEPT THE LENGTH OF THE TWO HIP PANELS.
+          THIS IS THE GARMENT. Take everything from it: the chevron plastron and
+          its bands, the belt, the gauntlets, the sleeves, the pouches, the
+          holster and blaster, the boots, the trousers, the colour, the filth and
+          the wear. Where this photograph and the text below disagree about any
+          of that, THE PHOTOGRAPH IS THE COSTUME.
+          IT IS WRONG ABOUT ONE THING AND ONE ONLY: THE TWO HIP PANELS ARE FAR
+          TOO LONG IN IT. They hang past his knee, almost to mid-calf. THEY MUST
+          BE MUCH SHORTER — one third of the way from belt to knee, high on the
+          thigh. DO NOT COPY THEIR LENGTH. Everything else about them — the
+          cloth, the two hanging tails, the open centre front and back — is right.
+          NO COAT AND NO CLOAK IS WORN IN IT, and that is correct for these views.
       - path: reference/concept/chevron-geometry-source.png
         what: >-
           THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE.
@@ -1052,12 +1110,20 @@ outfits:
       # working dress with his long coat on over it" — a sentence that is correct
       # and carries none of the detail. A change to the working dress is a change
       # to this outfit too, every time.
+      #
+      # AND IT HAPPENED A THIRD TIME. On 2026-08-10 the working dress dropped
+      # "upper thigh" for a belt-to-knee fraction, because "upper thigh" is a
+      # region on a body the generator is inventing rather than a landmark it can
+      # measure — and this rule was still carrying the old wording. Same number
+      # here now.
       - check: TWO torn hip panels below the coat, not a skirt. Gauntlets dull.
         text: >
           UNDER THE COAT HE IS IN THE FULL WORKING DRESS. NOT A SKIRT: TWO
           SEPARATE TORN PANELS hang from the belt over each hip, open at the
-          centre front and back so his trousers show up the middle, upper thigh
-          only and ragged at the hem. NO cream, NO wrap front, NO sash.
+          centre front and back so his trousers show up the middle. THEY ARE
+          SHORT — one third of the way from his belt down to his knee, and never
+          past it — scuffed and softly frayed at the hem. NO cream, NO wrap
+          front, NO sash.
       - >
         METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a
         one-piece open-backed cuff, ribbed round the lower half, with a small

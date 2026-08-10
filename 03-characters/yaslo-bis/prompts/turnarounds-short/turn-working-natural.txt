@@ -1,9 +1,8 @@
 [YASLO-BIS — WORKING KIT — NATURAL]
-Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: f8fc1cf4 (short) · repo commit c84278a 2026-08-05 15:46
+Prompt version: 2b28b022 (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
@@ -48,3 +47,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   6. MAINTAINED and GOOD — repaired properly, quality reads at distance.
   7. NO military read. Not a soldier and never was.
   8. NOT a Mercenary Kit build — his own costume, his own silhouette.
+
+Once generated, save the result as: turn-working-natural.png

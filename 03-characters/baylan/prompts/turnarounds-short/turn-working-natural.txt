@@ -1,15 +1,15 @@
 [BAYLAN — WORKING DRESS — NATURAL]
-Output file: turn-working-natural.png
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: edea5de8 (short) · repo commit 559b4f7 2026-08-05 14:39
+Prompt version: 88e6d2ef (short) · repo commit df2672f 2026-08-05 18:06
 
-THIS IS A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
+GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
 no inset heads, no detail crops, no swatches, no colour palette.
 FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
+  THE WHOLE COSTUME — EXCEPT THE LENGTH OF THE TWO: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-best-so-far-2026-08-10.png
   THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
@@ -40,8 +40,8 @@ MUST BE TRUE OF THIS IMAGE:
 14. HIS CHEST CARRIES THE PANEL AND NOTHING ELSE. NO harness, NO braces, NO shoulder straps of any kind — not down, not across, not diagonal, not a bandolier, not a sash. NO buckle, ring or fitting anywhere on the sternum. Everything he carries hangs on the WAIST BELT.
 15. THE CHEVRON PANEL IS PLAINLY VISIBLE IN EVERY VIEW — never hidden, never under another garment, and NOTHING crosses it. Its bands run UNBROKEN from side to side, interrupted by nothing at all.
 16. UNDER THE TOP LAYER, THE UNDERTUNIC, AND IT CARRIES NO CHEVRONS. It shows ONLY as a NARROW DARK EDGE at the collar and cuff — a slightly finer, older weave. NO standing collar, NO mandarin collar, NO band collar and NOTHING that rises up the neck. It lies FLAT against the throat.
-17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from. If it reads as decorative or as armour, it is wrong.
-18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEIR HEM IS LEVEL WITH HIS FINGERTIPS — his arms hang loose at his sides, and the bottom of each panel stops where his fingers end.
+17. A WIDE, HEAVY BELT, AND IT IS DOING A JOB. Broad salvaged leather, thick, darkened and cracked from years of use. IT FASTENS AT THE BACK, so from the front it is an UNBROKEN BAND OF LEATHER — NO buckle, NO clasp, NO fitting and NOTHING bright anywhere on it. It is what the holster hangs from.
+18. TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER doubled. THEY ARE SHORT. It ends HIGH ON THE THIGH, nowhere near the knee. NEVER to the knee, NEVER below it, NEVER to mid-calf. IT IS A HINT OF A SKIRT, NOT A SKIRT.
 19. THE BOTTOM OF ONE PANEL IS DIVIDED INTO TWO SEPARATE TAILS. A straight slit runs up from the hem about a QUARTER of that panel's depth, so its lower edge hangs as TWO TONGUES OF CLOTH with a clear GAP between them, one hanging slightly askew of the other. THE OTHER PANEL IS ONE UNCUT PIECE.
 20. THE HEMS ARE SCUFFED AND SOFTLY FRAYED, and that is all: NO saw-tooth edge, NO torn-out chunks, NO hanging strips, NOT shredded.
 21. FIVE THINGS WOULD TURN HIM INTO A JEDI AND NONE OF THEM MAY APPEAR. NO cream, sand or pale brown — he is near-black throughout. NO hood and NO cowl. NO wide or draped sleeves; his are fitted to the wrist. NO crossed or wrapped front; the chevron panel is his front. NO sash or obi; his belt is broad salvaged leather, fastened at the back.
@@ -85,3 +85,5 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   15. Build MATCHES the full-body photo. Big and solid, NOT obese.
   16. THE WHOLE COSTUME IS FILTHY — not just the chest panel.
   17. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
+
+Once generated, save the result as: turn-working-natural.png

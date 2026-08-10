@@ -1,6 +1,6 @@
 [BAYLAN — WORKING DRESS — RIGHT]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: b8220193 (short) · repo commit e3939ab 2026-08-10 15:04
+Prompt version: 2948297a (short) · repo commit 9ed9845 2026-08-10 17:50
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -13,7 +13,8 @@ is attached, fetch these URLs instead — and say which route you used:
   EVERYTHING BELOW THE CHEST — COPY IT EXACTLY: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
-  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  THESE ARE HEADSHOTS: TAKE THE FACE FROM THEM AND NEVER THE BUILD —
+  the body comes from the costume references. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
   Say whether you used an attached file or a URL. If neither worked, stop.

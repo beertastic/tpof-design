@@ -175,6 +175,36 @@ def trim(text: str, limit: int) -> str:
 #
 # Raising the budget cannot fix it: the 3,800 and 8,000 prompts failed the same
 # way. What was missing was permission for a limb to be EMPTY.
+BODY_WORDS = ("full", "body", "posed", "figure", "standing")
+
+
+def _actor_scope_lines(character: str) -> list[str]:
+    """What the attached actor photographs may be trusted for.
+
+    This used to be one hard-coded line claiming FACE **and BUILD** from any
+    actor reference. A headshot cannot answer a question about build, and on
+    2026-08-10 the Production Designer dropped Baylan's full-body shot — *"can we
+    lose face 1 from the attach please"* — leaving two headshots and a
+    boilerplate sentence still asking them for a body. His own build rule had
+    been retargeted to a costume crop in the same edit, so one message carried
+    two opposite instructions. **Captain Jasu has only ever had a headshot and
+    has carried the same wrong sentence since her pack was written.**
+
+    Detected from the filename, because `reference/actor/` has no other metadata
+    — the convention is filenames and nothing else, see CAST-REFERENCE.md. A file
+    matching none of these words is assumed to be a headshot, which is the safe
+    way round: claiming less from a photograph loses a little accuracy, claiming
+    more invents a body.
+    """
+    names = [n for _, n, _, _ in actor_refs(character)]
+    if any(w in n.lower() for n in names for w in BODY_WORDS):
+        return ["  Take the FACE and BUILD from the actor image only. Hair, beard, age,"]
+    return [
+        "  THESE ARE HEADSHOTS: TAKE THE FACE FROM THEM AND NEVER THE BUILD —",
+        "  the body comes from the costume references. Hair, beard, age,",
+    ]
+
+
 def _label(what: str, limit: int) -> str:
     """A reference's scope line, cut at a sentence or word boundary.
 
@@ -377,7 +407,7 @@ def build(character: str, cfg: dict, outfit: dict, view: str, rule_chars: int = 
             "USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing",
             "is attached, fetch these URLs instead — and say which route you used:",
             *[f"  {r}" for r in refs],
-            "  Take the FACE and BUILD from the actor image only. Hair, beard, age,",
+            *_actor_scope_lines(character),
             "  grooming and costume come from the text below and override the photo.",
             "  Do not edit or re-crop that photo — make a new photograph of that person.",
             "  Say whether you used an attached file or a URL. If neither worked, stop.",

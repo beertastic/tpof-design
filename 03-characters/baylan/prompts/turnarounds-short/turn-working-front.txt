@@ -1,6 +1,6 @@
 [BAYLAN — WORKING DRESS — FRONT]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: a4e318a3 (short) · repo commit e3939ab 2026-08-10 15:04
+Prompt version: 4f38446a (short) · repo commit 9ed9845 2026-08-10 17:50
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -13,7 +13,8 @@ is attached, fetch these URLs instead — and say which route you used:
   EVERYTHING BELOW THE CHEST — COPY IT EXACTLY: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
-  Take the FACE and BUILD from the actor image only. Hair, beard, age,
+  THESE ARE HEADSHOTS: TAKE THE FACE FROM THEM AND NEVER THE BUILD —
+  the body comes from the costume references. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
   Say whether you used an attached file or a URL. If neither worked, stop.
@@ -34,7 +35,7 @@ MUST BE TRUE OF THIS IMAGE:
 9. THREE TO FIVE BROAD CHEVRON BANDS BELOW THE YOKE, filling the panel to its lower edge. EACH IS A "V": ends HIGH at the sides, point LOW at the centre. NEVER a peak, NEVER an upturned "^". They are FEW AND BROAD, NEVER a stack of thin stripes and NEVER more than five.
 10. THE TOPMOST BAND TOUCHES THE SHOULDER SEAM — NO plain yoke above it beyond a narrow strip, NEVER a broad empty field. THE LOWEST BAND ENDS A FULL BELT'S WIDTH ABOVE THE BELT, with that much plain cloth between the last chevron and the belt. The whole block sits HIGH on his chest.
 11. THE CHEVRON ANGLE IS SHALLOW — about 30° below horizontal, so each V is wide and open, never steep, and no chevron crosses the yoke above them.
-12. THE CHEVRONS ARE SEPARATE PIECES LAID ON THE GARMENT, EACH OVERLAPPING THE ONE BELOW IT like the lames of a plated coat. Every band STANDS PROUD with a THICK CUT EDGE that throws a REAL SHADOW onto the band beneath. NOT quilting, NOT stitched rows, NOT padding domed between seams, NOT flat pieces sewn down.
+12. THE CHEVRONS ARE SEPARATE PIECES LAID ON THE GARMENT, EACH OVERLAPPING THE ONE BELOW IT like the lames of a plated coat. NOT quilting, NOT stitched rows, NOT padding domed between seams, NOT flat pieces sewn down.
 13. COUNT DOWN FROM THE TOP AND CHANGE MATERIAL AT EVERY BAND: 1 smooth leather, 2 napped suede, 3 leather, 4 suede. NO TWO TOUCHING BANDS MATCH, and THE TOP ALTERNATES AS STRONGLY AS THE BOTTOM — never three matching bands with one odd one below. Smooth leather CATCHES the light, napped suede EATS it.
 14. EVERY BAND IS NEAR-BLACK — mismatched scrap, never a colour scheme. NOTHING light, NOTHING bright, no tan, no grey.
 15. THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the panels stand proudest, the suede gone shiny at the high points and grimy in the angles, corners lifting where the stitching has let go. It is a work garment that has been slept in, not a made thing anyone is proud of.

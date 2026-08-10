@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 07 — PERFORMANCE RANGE]
 Output file: expression_strip.png
 Aspect ratio: 16:9  (landscape)
-Prompt version: e4bf58f6 · repo commit ca0f3ad 2026-08-10 14:39
+Prompt version: 4d3d7614 · repo commit e3939ab 2026-08-10 15:04
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit ca0f3ad, prompt e4bf58f6.
+    Working from commit e3939ab, prompt 4d3d7614.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -50,15 +50,13 @@ Where a photograph is silent, or is labelled NOT an authority on
 something, the written text below wins.
 Only the setting, pose and lighting change.
 
-USE THE ATTACHED PHOTOGRAPH — THE COSTUME — BUT SEE THE CHEST CROP NEXT. THIS IS THE GARMENT AND EVERYTHING BELOW THE BELT IS FINAL: the two short hip panels and their length, the trousers, the boots, the belt, the holster and blaster, the pouches. COPY THE WAIST DOWN EXACTLY. Above the waist take the sleeves, the gauntlets, the collar, the colour, the filth and the wear. IT IS WRONG ABOUT THE CHEST PANEL IN TWO WAYS, AND THE NEXT IMAGE OUTRANKS IT ON BOTH: its chevron bands are all the same material at the top, and its shoulder cap has shrunk to a thin binding. DO NOT COPY THE CHEST PANEL FROM THIS IMAGE. NO COAT AND NO CLOAK IS WORN IN IT, and that is correct for these views.. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-best-so-far-2026-08-10-pass2.png
 USE THE ATTACHED PHOTOGRAPH — THE CHEST PANEL: SHOULDER CAP AND ALTERNATION. THIS IS THE CHEST, AND IT OUTRANKS THE FULL PLATE ABOVE ON EVERYTHING IN THIS FRAME. THE SHOULDER CAP: see how DEEP it is — the panel runs over the top of each shoulder and down onto it, a broad piece with a seamed edge, and it makes him WIDER. It is soft garment, stitched down, never a hard pauldron standing off the shoulder. THE BANDS: look at how they differ from EACH OTHER. Neighbours are cut from different stock — one smooth and catching the light, the next napped and eating it — and they differ from the TOP BAND DOWN, not only at the bottom. That difference is the whole point of the panel. NOT AN AUTHORITY ON ANYTHING BELOW THE BELT.. If not attached, fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-LIKENESS (1) — standing, whole figure — build and proportion — attached, or fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
-LIKENESS (2) — front on, neutral — attached, or fetch:
+USE THE ATTACHED PHOTOGRAPH — EVERYTHING BELOW THE CHEST — COPY IT EXACTLY. THIS HALF OF THE COSTUME IS SETTLED and nothing in it is open: the two short hip panels and their length, the split into two tails, the wide belt, the holster and its ugly blaster, the pouches on the off side, the gauntlets, the trousers and the boots. TAKE THE BUILD FROM IT TOO — the width of him, the length of the leg, how the clothes hang. He is a big man and FLAT THROUGH THE STOMACH. Take the colour, the filth and the wear from it: this is how dark and how dirty every garment is. NOT AN AUTHORITY ON THE CHEST PANEL — the chest is the image above.. If not attached, fetch:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
+LIKENESS (1) — front on, neutral — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
-LIKENESS (3) — three-quarter — the most useful working angle — attached, or fetch:
+LIKENESS (2) — three-quarter — the most useful working angle — attached, or fetch:
     https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
 
 ====================================================================
@@ -107,7 +105,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   26. METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER reaches the knuckles. From there to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF, THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
   28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  29. TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER THAN IT — the shirt in that photograph is loose and reads heavier than he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
+  29. HIS BUILD COMES FROM THE COSTUME CROP, NOT FROM THE HEADSHOTS — those are for the face only. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
   30. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
   31. EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in the seams, dust where it settles, cloth thin and shiny at knees, elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean, NOTHING evenly coloured, NOTHING laundered. Repaired, resoled, previously owned.
   32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
@@ -308,7 +306,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   26. METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER reaches the knuckles. From there to three-quarters up the forearm, a ONE-PIECE OPEN-BACKED CUFF, THE SAME HEIGHT ALL ROUND, both edges CUT STRAIGHT AND LEVEL. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
   27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
   28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-  29. TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER THAN IT — the shirt in that photograph is loose and reads heavier than he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
+  29. HIS BUILD COMES FROM THE COSTUME CROP, NOT FROM THE HEADSHOTS — those are for the face only. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
   30. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
   31. EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in the seams, dust where it settles, cloth thin and shiny at knees, elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean, NOTHING evenly coloured, NOTHING laundered. Repaired, resoled, previously owned.
   32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.

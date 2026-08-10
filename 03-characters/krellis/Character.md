@@ -49,10 +49,40 @@ and widens to find the killer. Method needs deciding early, because it governs h
 he is covered through the whole scene. See
 [`11-production-tracking/Deaths-And-Effects.md`](../../11-production-tracking/Deaths-And-Effects.md).
 
-**Design consequence:** he must read as a man worth listening to. Large — Shin
-remarks on his *"looming stature"* — gentle, and completely unarmoured in every
-sense. The size is the joke and the point: the biggest person in the group is the
-one who does not fight.
+**Design consequence:** he must read as a man worth listening to — gentle, and
+completely unarmoured in every sense.
+
+> ### THE SIZE IS GONE, 2026-08-10, AND IT WAS THE WRONG IDEA ANYWAY
+>
+> **This paragraph used to read: "Large — Shin remarks on his *looming stature* —
+> … the size is the joke and the point: the biggest person in the group is the
+> one who does not fight."** The Production Designer has cast him: **the actor is
+> about 5 ft 11 in and is a dancer.** *"He should look nimble, not scary. He's a
+> healer, not a fighter."*
+>
+> **So the size goes, and nothing important goes with it.** The "biggest man
+> doesn't fight" reading was an irony, and an irony is a weaker thing to build a
+> character on than what replaces it: **a man of ordinary size steps in front of
+> two people anyway.** That is braver, not funnier, and it is the same act.
+>
+> **A dancer's body is the better medic body, and by some distance.** What a
+> medic needs to read is not mass, it is *hands and economy* — balance, precise
+> placement, no wasted movement, the ability to fold down to somebody's level and
+> stay there. Bulk says he could stop you; a dancer's control says he could
+> *treat* you. **It is also the one physical skill in the film that is not
+> violence.** Everyone else's body is trained to hurt people; his is trained to
+> be exact.
+>
+> **What it costs, and it is real:** he no longer stands out of the group by
+> silhouette, so **the carry has to do all of it.** That was already the rule —
+> the Bible says a medic reads from the carry, not the clothing — but there is
+> now no second signal behind it. If the satchel is not legible, nothing is.
+>
+> **`"looming stature"` is quoted in this document and appears nowhere else in
+> this repository** — no script, no breakdown, no other file carries it. It could
+> not be checked against a source here. It is moot either way now, but anyone
+> reconciling this document against a script draft should know the phrase came
+> from here and was not verifiable.
 
 ### Backstory — **given by the production 2026-08-02**
 
@@ -100,14 +130,21 @@ only instrument he has left — an argument — and it is not enough either. The
 he made as a child is broken in the same way it was made. Neither time is he able
 to do anything.
 
-**The size and the gentleness now reconcile, which they did not before.** He is
-the oldest of many, the man of the family from childhood, and he was captured
+**It explains the interposing, which is the whole body language.** He is the
+oldest of many, the man of the family from childhood, and he was captured
 **protecting his siblings**. His body has had exactly one use his whole life:
-**putting itself between danger and the people behind it.** So the design note
-stands and now has a reason — large, gentle, completely unarmoured. And the body
-language follows: **he interposes.** Stepping in front of Shin and Jeyin in Sc.25
-is the last instance of a lifelong habit, not a moment of courage arriving from
-nowhere.
+**putting itself between danger and the people behind it.** So the body language
+follows: **he interposes.** Stepping in front of Shin and Jeyin in Sc.25 is the
+last instance of a lifelong habit, not a moment of courage arriving from nowhere.
+
+**This survived the size being cut on 2026-08-10 and is stronger without it.**
+It used to be read as a big man doing the one thing a big body is for. It is not
+that. **He has never once been able to stop anything** — not his parents, not his
+siblings, not Krellis in the clearing — and he has stepped in front of people his
+entire life regardless. The habit was never grounded in being able to win. That
+is the character, and a 5 ft 11 in dancer carries it better than a giant would,
+because with a giant the audience spends a second wondering whether it might
+work.
 
 **He is motivated by love, not by politics.** His plea sounds like an argument
 about freedom — *"the freedom that everyone deserves"* — but the engine is the

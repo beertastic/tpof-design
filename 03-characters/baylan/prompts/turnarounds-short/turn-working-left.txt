@@ -1,6 +1,6 @@
 [BAYLAN — WORKING DRESS — LEFT]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 88143446 (short) · repo commit ca0f3ad 2026-08-10 14:39
+Prompt version: 7f86382d (short) · repo commit e3939ab 2026-08-10 15:04
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,
@@ -9,11 +9,10 @@ FULL LENGTH — head to below the feet. Not a portrait.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE COSTUME — BUT SEE THE CHEST CROP NEXT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-best-so-far-2026-08-10-pass2.png
   THE CHEST PANEL: SHOULDER CAP AND ALTERNATION: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
-  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
-  FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
+  EVERYTHING BELOW THE CHEST — COPY IT EXACTLY: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
+  FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
+  FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
   Take the FACE and BUILD from the actor image only. Hair, beard, age,
   grooming and costume come from the text below and override the photo.
   Do not edit or re-crop that photo — make a new photograph of that person.
@@ -30,7 +29,7 @@ MUST BE TRUE OF THIS IMAGE:
 4. AMMUNITION POUCHES AND FIELD TOOLS SIT ON HIS LEFT, on the off side, where they cannot foul the draw. WHEN THE HEAVY RIFLE IS CARRIED it is slung to fall to his RIGHT hand — muzzle down, strap over his left shoulder crossing to his right hip, so the sling never sits under his drawing arm.
 5. THE LONG COAT IS NOT WORN IN THESE VIEWS. These record the base costume, and a coat over the top hides the panel, the belt and the holster. It is a separate removable garment with its own two views (`working-coat`) and its own plate at slot 13. He takes it off to work.
 6. THE CHEVRON PANEL IS A BROAD PLASTRON ACROSS HIS CHEST, running almost from armhole to armhole with only a NARROW STRIP of plain cloth left at each side. It runs OVER the tops of his shoulders but NEVER down onto the arms or the sleeves.
-7. THE TOP OF THE PANEL IS A DEEP CAP OVER THE TOP OF EACH SHOULDER, wide enough to cover the whole shoulder, SO THAT IT VISIBLY BROADENS HIM. It is SOFT GARMENT stitched down — NOT a hard pauldron standing off the shoulder, NOT armour, and NEVER a thin binding or a strip of piping at the seam.
+7. THE TOP OF THE PANEL IS A DEEP CAP OVER THE TOP OF EACH SHOULDER, wide enough to cover the whole shoulder, SO THAT IT VISIBLY BROADENS HIM. It is SOFT GARMENT stitched down.
 8. THE GARMENT RUNS DOWN BEHIND THE BELT AND IS NOT A CROP TOP — it NEVER ends above the waist and NEVER bares a strip of shirt between itself and the belt.
 9. THREE TO FIVE BROAD CHEVRON BANDS BELOW THE YOKE, filling the panel to its lower edge. EACH IS A "V": ends HIGH at the sides, point LOW at the centre. NEVER a peak, NEVER an upturned "^". They are FEW AND BROAD, NEVER a stack of thin stripes and NEVER more than five.
 10. THE TOPMOST BAND TOUCHES THE SHOULDER SEAM — NO plain yoke above it beyond a narrow strip, NEVER a broad empty field. THE LOWEST BAND ENDS A FULL BELT'S WIDTH ABOVE THE BELT, with that much plain cloth between the last chevron and the belt. The whole block sits HIGH on his chest.
@@ -52,7 +51,7 @@ MUST BE TRUE OF THIS IMAGE:
 26. METAL GAUNTLETS ON THE FOREARMS ONLY, A MATCHED PAIR. THE LOWER EDGE STOPS AT THE WRIST BONE — it NEVER covers the back of the hand and NEVER reaches the knuckles. FOUR OR FIVE HEAVY STEPPED RIBS round the lower half.
 27. THE GAUNTLETS ARE TOOLS, NOT ARMOUR, AND THEIR SCREEN IS DARK AND DEAD. NOTHING LIT and NO COLOUR IN IT: never white, never pale, NEVER amber, orange, warm or gold. A small screen and worn buttons sit on the OUTER FOREARM above the ribs.
 28. A THIN CORD AROUND HIS NECK, disappearing under the shirt. A small worn leather pouch hangs on it against the skin, older and more repaired than anything else he owns, and it is not visible with the jacket on. No pendant, no charm, no jewellery of any kind at his throat.
-29. TAKE HIS FACE AND HIS FRAME FROM THE PHOTOGRAPH, BUT MAKE HIM LEANER THAN IT — the shirt in that photograph is loose and reads heavier than he is. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT.
+29. HIS BUILD COMES FROM THE COSTUME CROP, NOT FROM THE HEADSHOTS — those are for the face only. FLAT THROUGH THE STOMACH, NO softness at the waist, NO belly: the size is all in his SHOULDERS and his HEIGHT. HE IS 198 cm AND THE HEIGHT MUST READ: long in the leg and long in the arm.
 30. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight — no fighter's stance, no coiled readiness, no combat posture.
 31. EVERY GARMENT IS FILTHY, not just the chest panel: ground-in grime in the seams, dust where it settles, cloth thin and shiny at knees, elbows and seat, sweat-darkened at the belt and cuffs. NOTHING clean, NOTHING evenly coloured, NOTHING laundered. Repaired, resoled, previously owned.
 32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
@@ -85,7 +84,7 @@ BEFORE YOU GENERATE, CHECK EVERY ONE OF THESE:
   13. ONE panel splits into TWO HANGING TAILS at the bottom.
   14. NO cream, NO hood, NO wide sleeves, NO wrap front, NO sash.
   15. Gauntlets DULL and filthy — no shine, no chrome, no highlights.
-  16. Build MATCHES the full-body photo. Big and solid, NOT obese.
+  16. Build from the COSTUME CROP. Big and solid, NOT obese.
   17. THE WHOLE COSTUME IS FILTHY — not just the chest panel.
   18. DARK — near-black charcoal, soot brown. Not mid-brown, not dusty.
 

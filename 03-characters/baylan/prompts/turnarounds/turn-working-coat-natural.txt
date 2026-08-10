@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS WITH THE LONG COAT — NATURAL POSE]
 Output file: turn-working-coat-natural.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: e1b46444 · repo commit ca0f3ad 2026-08-10 14:39
+Prompt version: 6e6df47f · repo commit e3939ab 2026-08-10 15:04
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit ca0f3ad, prompt e1b46444.
+    Working from commit e3939ab, prompt 6e6df47f.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -50,7 +50,7 @@ ABSOLUTELY NOT, IN ANY FORM:
 If the result looks like a designed page rather than a photograph taken
 in a costume fitting, it is wrong and cannot be used.
 
-THERE ARE 3 ACTOR REFERENCES, numbered 1 to 3. They are all the SAME PERSON seen from different
+THERE ARE 2 ACTOR REFERENCES, numbered 1 to 2. They are all the SAME PERSON seen from different
 angles. Use every one of them.
 
 USE THE ATTACHED ACTOR PHOTOGRAPH — TAKE THE FACE AND THE BUILD
@@ -91,11 +91,9 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-LIKENESS (1 of 3) — standing, whole figure — build and proportion — attached to this message.
-    If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
-LIKENESS (2 of 3) — front on, neutral — attached to this message.
+LIKENESS (1 of 2) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
-LIKENESS (3 of 3) — three-quarter — the most useful working angle — attached to this message.
+LIKENESS (2 of 2) — three-quarter — the most useful working angle — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
 
 THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
@@ -143,7 +141,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
   8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the panel must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
   9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
-  10. TAKE HIS FACE AND FRAME FROM THE PHOTOGRAPH BUT MAKE HIM LEANER THAN IT. Broad in the shoulders, FLAT through the stomach, NO belly. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
+  10. THE HEADSHOTS ARE FOR THE FACE ONLY, NEVER THE BUILD. Broad in the shoulders, FLAT through the stomach, NO belly. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
   11. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
   12. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot brown, cold slate, the last of a faded olive. The coat is the darkest thing on him and the costume beneath must STILL separate from it, and he must still separate from a night forest and from camp firelight. NEVER black-on-black, and never sunk into the background.
 
@@ -355,7 +353,7 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   7. METAL GAUNTLETS ON BOTH FOREARMS, wrist to three-quarters up the arm — a one-piece open-backed cuff, ribbed round the lower half, with a small DARK DEAD screen on the OUTER FOREARM. NOTHING LIT ON IT, never white or pale. FILTHY AND DEAD DULL — no shine, no chrome, no polish, nothing mirror-like. They are visible below the coat's sleeves.
   8. BLASTER ON HIS RIGHT HIP, STILL VISIBLE. He is RIGHT-HANDED. Nothing is hidden by the open coat. The belt, the holster and the panel must all stay readable — a costume supervisor checks them in this view too. The weapon is UGLY and HEAVILY MODIFIED, assembled from mismatched parts, the least elegant thing in the film. NEVER his left.
   9. ABSOLUTELY NO ORNAMENT, on the coat or under it. No trophies, no faction colours, no insignia, no patches, no badges, no beads, no jewellery, no clasp, no chain at the throat. THIS IS THE CHARACTERISATION: he works in a crew that decorates itself and his plainness is the only odd thing about him. Do not add a fastening or a flourish to make the coat more interesting — the absence IS the design.
-  10. TAKE HIS FACE AND FRAME FROM THE PHOTOGRAPH BUT MAKE HIM LEANER THAN IT. Broad in the shoulders, FLAT through the stomach, NO belly. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
+  10. THE HEADSHOTS ARE FOR THE FACE ONLY, NEVER THE BUILD. Broad in the shoulders, FLAT through the stomach, NO belly. NOT obese, NOT a caricature, NOT muscular and NOT lean. HE IS 198 cm AND THE HEIGHT MUST READ. The coat must NOT give him stature, authority or command presence — it is a big man's old coat, not a mantle.
   11. LATE FORTIES — FORTY-EIGHT. NOTHING may suggest he could still fight. SHORT, BADLY SELF-CUT HAIR, uneven, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. He is nobody and he looks it.
   12. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN — near-black charcoal, soot brown, cold slate, the last of a faded olive. The coat is the darkest thing on him and the costume beneath must STILL separate from it, and he must still separate from a night forest and from camp firelight. NEVER black-on-black, and never sunk into the background.
 

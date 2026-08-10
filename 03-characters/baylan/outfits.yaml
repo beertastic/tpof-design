@@ -94,18 +94,57 @@ outfits:
   - id: working
     name: Working dress
     scenes: "All of them — 3, 5, 7, 9, 12, 13, 14, 15, 19, 20, 23, 25. His only costume"
-    # APPROVAL CLEARED 2026-08-05, hours after it was granted, because the
-    # SKIRT CHANGED — see the rules below. APPROVAL.md's own procedure: clear the
-    # block, change, regenerate, make a new reference view, re-approve, then
-    # regenerate every other view.
+    # APPROVED 2026-08-10 ON THE FOURTH PASS OF THE DAY. The Production
+    # Designer, on the plate now at source/artwork/turn-working-front.png:
+    # "love it."
     #
-    # WHAT THE CLEARED APPROVAL WAS: front, 2026-08-05, on the fourteenth
-    # turnaround, at source/artwork/turn-working-front.png. Everything on it was
-    # right except the skirt, which is why only the skirt rules moved.
+    # IT CLOSES FOUR SEPARATE ARGUMENTS, all of them opened and settled today:
     #
-    # BOTH EXISTING PLATES ARE NOW SUPERSEDED — turn-working-front.png and
-    # turn-working-back.png. They are kept as history and MUST NOT be used as a
-    # match target or as board source until a new front is approved.
+    #   THE SKIRT. Two hip panels at one third belt-to-knee. The rule and its
+    #   own checkline had disagreed since 2026-08-05 — fingertips against the
+    #   fraction — and the generator, given two lengths, obeyed neither.
+    #
+    #   THE SHOULDER CAP. It had NEVER been written down: a habit on every good
+    #   plate, not a decision, and it thinned to a binding the moment anything
+    #   else moved. It has a rule of its own now, and that rule says out loud
+    #   that it is not the pauldron refused on 2026-08-04.
+    #
+    #   THE ALTERNATION. "The bands alternate" is a property of a set and was
+    #   half-obeyed — one odd band at the bottom, three matching above it.
+    #   Material is assigned per band now, counted down from the top.
+    #
+    #   THE ATTACHMENTS. The two above were rewritten for pass 3 and did not
+    #   land, because attachment 1 was a full-length photograph OF the fault
+    #   carrying a sentence telling the generator to ignore it. Cropping the
+    #   fault out of frame is what fixed them, not the wording.
+    #
+    # THE GAUNTLETS ARE SIGNED OFF AS THEY ARE and are inside this approval:
+    # "the gauntlets are wrong, but for design, I can sign off on what we have."
+    # They do not match the printed build. That was seen and allowed — see the
+    # note on the gauntlet rules.
+    #
+    # WHAT THIS NOW DOES, per APPROVAL.md: every OTHER view opens with a match
+    # instruction naming this plate, and the plate's scope is THE WHOLE COSTUME,
+    # so where the text and the photograph disagree the photograph wins.
+    #
+    # turn-working-back.png IS STILL SUPERSEDED. It predates the skirt change,
+    # the shoulder cap and the alternation, and it is three arguments out of
+    # date. It must be regenerated against this front before it is used as
+    # board source.
+    #
+    # THE PREVIOUS APPROVAL, for the record: front, 2026-08-05, cleared hours
+    # after it was granted because the skirt changed. Everything on it was right
+    # except the skirt, which is why only the skirt rules moved then.
+    approved:
+      date: "2026-08-10"
+      view: front
+      reference: 03-characters/baylan/source/artwork/turn-working-front.png
+      note: >-
+        Front locked on the fourth pass of 2026-08-10 — "love it". The chevron
+        panel, its deep shoulder cap and the alternating leather-and-suede bands
+        are all correct on this plate, and so is the length of the two hip
+        panels. Match this for all other views. The gauntlets differ from the
+        printed build and that is signed off, not a fault to correct.
     description: >
       Salvaged, repaired mercenary workwear that has genuinely worked. A heavy
       work shirt, layered technical cloth and worn synth-leather over it, and a
@@ -1007,101 +1046,45 @@ outfits:
     # it — there was nothing in the picture to teach, and saying otherwise
     # promised a fix the attachment could never deliver. The green is now
     # specified on 05-detail_portrait and 12-materials instead.
-    references:
-      # NO FULL-LENGTH PLATE IS ATTACHED ANY MORE, FROM PASS 3, 2026-08-10 —
-      # TWO CROPS INSTEAD, AND THIS IS THE MOST USEFUL THING THIS FILE HAS
-      # LEARNED ALL WEEK.
-      #
-      # PASS 3 CAME BACK WITH THE SAME TWO FAULTS AS PASS 2. The Production
-      # Designer: "I feel we've lost the shoulders from a few images ago. Also
-      # the alternating colours didn't really catch." Both had been rewritten
-      # that morning — the shoulder cap got a rule of its own for the first time,
-      # the alternation was assigned per band and counted from the top, and a
-      # crop of pass 1's chest was attached showing both done right.
-      #
-      # AND IT MADE NO DIFFERENCE, BECAUSE ATTACHMENT 1 WAS A PHOTOGRAPH OF THE
-      # FAULT. The pass-2 plate was first in this list, full length, showing a
-      # thin shoulder binding and flat matching bands — with a scope line saying
-      # "DO NOT COPY THE CHEST PANEL FROM THIS IMAGE."
-      #
-      # THAT IS THE MANNEQUIN MISTAKE, MADE AGAIN, IN THE SAME COMMIT THAT
-      # DIAGNOSED IT. The note retiring the reproduction is four paragraphs below
-      # and says: its bands all match, its scope line had to shout the opposite
-      # to hold it off, and "the sentence loses to the photograph." Then a full
-      # plate of the wrong chest went in at position one with a sentence to hold
-      # it off. Knowing the rule is not the same as applying it.
-      #
-      # SO NOTHING IN FRAME MAY SHOW A WRONG CHEST. The chest comes from pass 1,
-      # cut collar to belt. Everything else comes from pass 3, cut from below the
-      # chest to the feet. The two crops tile the whole figure, they do not
-      # overlap, and there is no negation anywhere in either label — because
-      # there is nothing left to negate.
-      #
-      # THE TEST FOR ANY FUTURE REFERENCE IS NOW THIS: not "does the scope line
-      # explain what is wrong with it", but "is the wrong thing IN THE FRAME AT
-      # ALL". If it is, crop it out. A scope line is for telling the generator
-      # which of several correct things to take, never for telling it to ignore
-      # something it can see.
-      - path: reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-        what: >-
-          THE CHEST PANEL: SHOULDER CAP AND ALTERNATION.
-          THIS IS THE CHEST, AND IT OUTRANKS THE FULL PLATE ABOVE ON EVERYTHING
-          IN THIS FRAME.
-          THE SHOULDER CAP: see how DEEP it is — the panel runs over the top of
-          each shoulder and down onto it, a broad piece with a seamed edge, and
-          it makes him WIDER. It is soft garment, stitched down, never a hard
-          pauldron standing off the shoulder.
-          THE BANDS: look at how they differ from EACH OTHER. Neighbours are cut
-          from different stock — one smooth and catching the light, the next
-          napped and eating it — and they differ from the TOP BAND DOWN, not
-          only at the bottom. That difference is the whole point of the panel.
-          NOT AN AUTHORITY ON ANYTHING BELOW THE BELT.
-      # PASS 3 FROM BELOW THE CHEST DOWN — the other half of the figure, and the
-      # Production Designer's "love the rest" in one frame. The waist down was
-      # settled on pass 2 and pass 3 kept it.
-      #
-      # IT IS CUT ABOVE THE GAUNTLETS AND BELOW THE CHEVRONS so that the two
-      # crops tile the man without either one showing a chest panel. Only the
-      # very point of the plastron's lower V is in frame, which is what fixes the
-      # panel-to-belt relationship and teaches no band.
-      #
-      # IT CARRIES THE BUILD NOW THAT THE FULL-BODY ACTOR PHOTOGRAPH IS GONE —
-      # and it is the better source for it, because it shows the body IN the
-      # costume rather than in a loose shirt that read heavier than he is.
-      - path: reference/concept/costume-below-the-chest-2026-08-10.png
-        what: >-
-          EVERYTHING BELOW THE CHEST — COPY IT EXACTLY.
-          THIS HALF OF THE COSTUME IS SETTLED and nothing in it is open: the two
-          short hip panels and their length, the split into two tails, the wide
-          belt, the holster and its ugly blaster, the pouches on the off side,
-          the gauntlets, the trousers and the boots.
-          TAKE THE BUILD FROM IT TOO — the width of him, the length of the leg,
-          how the clothes hang. He is a big man and FLAT THROUGH THE STOMACH.
-          Take the colour, the filth and the wear from it: this is how dark and
-          how dirty every garment is.
-          NOT AN AUTHORITY ON THE CHEST PANEL — the chest is the image above.
-      # RETIRED FROM `references:` 2026-08-10, BOTH ON THE SAME DAY, and both
-      # still on disk. Neither is deleted and neither is a source of truth.
-      #
-      #   costume-best-so-far-2026-08-10.png — PASS 1. Superseded as a full
-      #   plate by pass 2 above, which fixed the skirt. It survives as the SOURCE
-      #   OF THE CHEST CROP, and that crop is where its remaining authority is.
-      #   Do not re-attach the whole of it: its hip panels are near mid-calf and
-      #   that argument is over.
-      #
-      #   chevron-geometry-source.png — THE MANNEQUIN REPRODUCTION. Five days'
-      #   service, and it earned them: it reversed rules 6, 9 and 11 when nothing
-      #   else could, and the README keeps that record. It goes because we now
-      #   have the same geometry on OUR garment, and because it was quietly
-      #   working against the alternation the whole time — its bands all match
-      #   each other, and its scope line had to carry "HIS BANDS DO NOT MATCH
-      #   EACH OTHER AND THE REPRODUCTION'S DO" to hold that off. Every failure
-      #   in this file says the sentence loses to the photograph.
-      #
-      # THE ATTACHMENT COUNT IS UNCHANGED AT FIVE — two out, two in. That is not
-      # a coincidence worth relying on, but it is worth noticing: the working
-      # prompt has never had room for a sixth costume image, and each of these
-      # has to earn a place by taking one.
+    # EMPTY FROM 2026-08-10, AND THAT IS THE APPROVAL WORKING AS DESIGNED.
+    #
+    # This list held five images this morning and two by the afternoon. It holds
+    # NONE now, because the `approved:` block above does the job all of them were
+    # doing and does it better: `reference_list()` puts the approved plate at the
+    # top of every other view as "COSTUME (match exactly)", and its scope is THE
+    # WHOLE COSTUME rather than one region of it.
+    #
+    # WHAT WENT, AND WHY EACH ONE IS GENUINELY FINISHED:
+    #
+    #   chevron-and-shoulder-authority-2026-08-10.png — the chest of pass 1. It
+    #   taught the deep shoulder cap and the band alternation, and the approved
+    #   front now shows both, on a garment three passes newer. Re-attaching it
+    #   would put an OLDER costume state beside the approved one, which is the
+    #   thing APPROVAL.md exists to stop.
+    #
+    #   costume-below-the-chest-2026-08-10.png — pass 3 from the chevrons down.
+    #   Same reasoning. The approved plate covers everything it covered.
+    #
+    #   costume-best-so-far-2026-08-10.png / -pass2 / -pass3 — the full plates,
+    #   superseded in sequence. All on disk, all history.
+    #
+    #   chevron-geometry-source.png — the mannequin reproduction, retired earlier
+    #   today after five days. It reversed rules 6, 9 and 11 when we had nothing
+    #   else, and it was also quietly working against the alternation: its bands
+    #   all match each other, and its scope line had to carry "HIS BANDS DO NOT
+    #   MATCH EACH OTHER AND THE REPRODUCTION'S DO" to hold that off.
+    #
+    # THE ONE LESSON WORTH CARRYING TO THE NEXT CHARACTER: the run that finally
+    # worked was not the one with the best wording, it was the one where THE
+    # WRONG THING WAS NOT IN ANY ATTACHED FRAME. Pass 3 had both rules written
+    # correctly and failed, because attachment 1 was a photograph of the fault
+    # with a sentence telling the generator to ignore it. Crop it out; do not
+    # argue with it.
+    #
+    # DO NOT ADD A COSTUME REFERENCE HERE WITHOUT CLEARING THE APPROVAL FIRST.
+    # A second full-costume image beside an approved plate is two answers to one
+    # question, and the approved plate is supposed to be the only one.
+    references: []
     slot_references:
       blaster:
         - path: reference/props/blaster-build-2026-08-05.jpg

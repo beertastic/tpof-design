@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — FRONT]
 Output file: turn-working-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 7e571cec · repo commit ec201c2 2026-08-10 17:52
+Prompt version: 56e88c35 · repo commit 8bebc5c 2026-08-10 17:57
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit ec201c2, prompt 7e571cec.
+    Working from commit 8bebc5c, prompt 56e88c35.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -91,10 +91,6 @@ output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
 
-USE THE ATTACHED PHOTOGRAPH — THE CHEST PANEL: SHOULDER CAP AND ALTERNATION. THIS IS THE CHEST, AND IT OUTRANKS THE FULL PLATE ABOVE ON EVERYTHING IN THIS FRAME. THE SHOULDER CAP: see how DEEP it is — the panel runs over the top of each shoulder and down onto it, a broad piece with a seamed edge, and it makes him WIDER. It is soft garment, stitched down, never a hard pauldron standing off the shoulder. THE BANDS: look at how they differ from EACH OTHER. Neighbours are cut from different stock — one smooth and catching the light, the next napped and eating it — and they differ from the TOP BAND DOWN, not only at the bottom. That difference is the whole point of the panel. NOT AN AUTHORITY ON ANYTHING BELOW THE BELT.. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-USE THE ATTACHED PHOTOGRAPH — EVERYTHING BELOW THE CHEST — COPY IT EXACTLY. THIS HALF OF THE COSTUME IS SETTLED and nothing in it is open: the two short hip panels and their length, the split into two tails, the wide belt, the holster and its ugly blaster, the pouches on the off side, the gauntlets, the trousers and the boots. TAKE THE BUILD FROM IT TOO — the width of him, the length of the leg, how the clothes hang. He is a big man and FLAT THROUGH THE STOMACH. Take the colour, the filth and the wear from it: this is how dark and how dirty every garment is. NOT AN AUTHORITY ON THE CHEST PANEL — the chest is the image above.. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
 LIKENESS (1 of 2) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 LIKENESS (2 of 2) — three-quarter — the most useful working angle — attached to this message.

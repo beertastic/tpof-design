@@ -1,6 +1,6 @@
 [BAYLAN — WORKING DRESS WITH THE LONG COAT — NATURAL]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: 911e7747 (short) · repo commit ec201c2 2026-08-10 17:52
+Prompt version: 911e7747 (short) · repo commit 8bebc5c 2026-08-10 17:57
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

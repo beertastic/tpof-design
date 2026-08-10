@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS — RIGHT SIDE]
 Output file: turn-working-right.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: dd3d9c25 · repo commit ec201c2 2026-08-10 17:52
+Prompt version: 87f19d4e · repo commit 8bebc5c 2026-08-10 17:57
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit ec201c2, prompt dd3d9c25.
+    Working from commit 8bebc5c, prompt 87f19d4e.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you
@@ -90,25 +90,31 @@ full-length figure on plain seamless grey under flat even light. If your
 output resembles that photograph in anything but the face, you
 have edited it instead of using it.
 
+BEFORE YOU GENERATE — GET THE REFERENCES.
 
-USE THE ATTACHED PHOTOGRAPH — THE CHEST PANEL: SHOULDER CAP AND ALTERNATION. THIS IS THE CHEST, AND IT OUTRANKS THE FULL PLATE ABOVE ON EVERYTHING IN THIS FRAME. THE SHOULDER CAP: see how DEEP it is — the panel runs over the top of each shoulder and down onto it, a broad piece with a seamed edge, and it makes him WIDER. It is soft garment, stitched down, never a hard pauldron standing off the shoulder. THE BANDS: look at how they differ from EACH OTHER. Neighbours are cut from different stock — one smooth and catching the light, the next napped and eating it — and they differ from the TOP BAND DOWN, not only at the bottom. That difference is the whole point of the panel. NOT AN AUTHORITY ON ANYTHING BELOW THE BELT.. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-USE THE ATTACHED PHOTOGRAPH — EVERYTHING BELOW THE CHEST — COPY IT EXACTLY. THIS HALF OF THE COSTUME IS SETTLED and nothing in it is open: the two short hip panels and their length, the split into two tails, the wide belt, the holster and its ugly blaster, the pouches on the off side, the gauntlets, the trousers and the boots. TAKE THE BUILD FROM IT TOO — the width of him, the length of the leg, how the clothes hang. He is a big man and FLAT THROUGH THE STOMACH. Take the colour, the filth and the wear from it: this is how dark and how dirty every garment is. NOT AN AUTHORITY ON THE CHEST PANEL — the chest is the image above.. If not attached, fetch:
-    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
+Every reference this image must match is listed above as a public URL.
+For each one: DOWNLOAD it, DECODE it, LOOK at it to confirm it opened, and
+MAKE IT AVAILABLE AS AN IMAGE INPUT to the generator. A URL that has been
+fetched but never handed to the generator is not a reference, and that gap
+is exactly what produced a run of wrong faces on 2026-08-01.
+
+Do NOT ask for a manual attachment when the download and the handoff both
+succeed. Ask only if a URL will not download, a file will not decode, or the
+generator cannot receive it — and then name the one that failed.
+
+Do not proceed from the text alone. The written description is not sufficient
+on its own and will produce the wrong costume and the wrong face.
+
+THE ATTACHED PHOTOGRAPHS OUTRANK THIS TEXT. Where they disagree, the photographs win.
+Match the costume, materials, colours, face and build from them exactly.
+Only the setting, pose and lighting change.
+
+FETCH AND MATCH — the approved costume reference:
+    https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/source/artwork/turn-working-front.png
 LIKENESS (1 of 2) — front on, neutral — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
 LIKENESS (2 of 2) — three-quarter — the most useful working angle — attached to this message.
     If it is NOT attached, fetch: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
-
-THIS IS THE FIRST PHOTOGRAPH OF THIS COSTUME. THERE IS NOTHING TO MATCH YET.
-
-Build it from the description below, which is the only source. Read the
-NON-NEGOTIABLE list as hard requirements, not suggestions — every one of
-them must be visible and correct in this image.
-
-Once approved, every other view of this costume is matched against THIS
-PHOTOGRAPH. An error here propagates into all of
-them, so it is worth several attempts to get right.
 
 ====================================================================
 THE NAME ON THIS PROMPT BELONGS TO A CHARACTER YOU ALREADY KNOW.
@@ -416,5 +422,5 @@ NON-NEGOTIABLE — THIS IMAGE IS WRONG WITHOUT ALL OF THESE:
   32. SHORT, BADLY SELF-CUT HAIR — uneven, no shape, cut by his own hand without a mirror. Full UNSHAPED beard, untrimmed. Deep lines from years of not sleeping. He is nobody and he looks it.
   33. DARK, AND MUCH DARKER THAN DUSTY MID-BROWN. Near-black charcoal, soot brown, cold slate, the last of a faded olive. NEVER black-on-black though: he must still SEPARATE from a night forest and from camp firelight.
 
-
+The fetched photographs outrank this text. If none were fetched, you should not have generated this.
 Deliver a single image at 2:3. It must look photographed, not generated.

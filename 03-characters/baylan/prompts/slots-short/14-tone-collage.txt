@@ -1,14 +1,13 @@
 [BAYLAN — THE SHARE SHEET]
 Output file: tone-collage.png
 Aspect ratio: 2:3. Generate at that shape and never square unless it says 1:1.
-Prompt version: 8dfa4273 (short) · repo commit ec201c2 2026-08-10 17:52
+Prompt version: f4cd0f11 (short) · repo commit 8bebc5c 2026-08-10 17:57
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE CHEST PANEL: SHOULDER CAP AND ALTERNATION: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
-  EVERYTHING BELOW THE CHEST — COPY IT EXACTLY: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-below-the-chest-2026-08-10.png
+  COSTUME (match exactly): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/source/artwork/turn-working-front.png
   FACE ONLY, NOT THE BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE ONLY, NOT THE BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg
   Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.

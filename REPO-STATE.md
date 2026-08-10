@@ -6,7 +6,7 @@ the commit that contains this file.
 | | |
 |---|---|
 | Branch | `main` |
-| Commit before this one | `9ed9845` |
+| Commit before this one | `ec201c2` |
 | Screenplay | `the-price-of-freedom-v10.fountain` |
 | Character folders | 12 |
 | Generated prompt files | 342 |

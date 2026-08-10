@@ -178,7 +178,7 @@ def trim(text: str, limit: int) -> str:
 BODY_WORDS = ("full", "body", "posed", "figure", "standing")
 
 
-def _actor_scope_lines(character: str) -> list[str]:
+def _actor_scope_lines(character: str, terse: bool = False) -> list[str]:
     """What the attached actor photographs may be trusted for.
 
     This used to be one hard-coded line claiming FACE **and BUILD** from any
@@ -197,7 +197,11 @@ def _actor_scope_lines(character: str) -> list[str]:
     more invents a body.
     """
     names = [n for _, n, _, _ in actor_refs(character)]
-    if any(w in n.lower() for n in names for w in BODY_WORDS):
+    body = any(w in n.lower() for n in names for w in BODY_WORDS)
+    if terse:
+        return ["  Take the FACE and BUILD from the actor images only." if body else
+                "  THE ACTOR IMAGES ARE HEADSHOTS: THE FACE ONLY, NEVER THE BUILD."]
+    if body:
         return ["  Take the FACE and BUILD from the actor image only. Hair, beard, age,"]
     return [
         "  THESE ARE HEADSHOTS: TAKE THE FACE FROM THEM AND NEVER THE BUILD —",
@@ -346,8 +350,16 @@ def reference_list(character: str, outfit: dict, view: str) -> list[tuple[str, s
     for r in (outfit.get("references") or []):
         p = _ref_path(character, r)
         out.append((_label(r["what"], 52), p, raw_url(p)))
+    # LABELLED BY WHAT THE FILE ACTUALLY IS, from 2026-08-10. Every actor
+    # reference used to be labelled "FACE + BUILD" regardless, so two headshots
+    # arrived asking to be read for a body. The label is the one line saying what
+    # an attachment may be trusted for; it has to be true per file, and in a
+    # mixed set — Shada has a headshot and a posed full figure — one blanket
+    # answer is wrong for one of them whichever answer it is.
     for n, name, url, what in actor_refs(character):
-        out.append((f"FACE + BUILD ({n})", f"03-characters/{character}/reference/actor/{name}", url))
+        body = any(w in name.lower() for w in BODY_WORDS)
+        label = f"FACE + BUILD ({n})" if body else f"FACE ONLY, NOT THE BUILD ({n})"
+        out.append((label, f"03-characters/{character}/reference/actor/{name}", url))
     return out
 
 
@@ -665,7 +677,7 @@ def build_slot(character: str, cfg: dict, outfit: dict, slot: dict,
             "is attached, fetch these URLs instead — and say which route you used:",
             *[f"  {r}" for r in refs],
             "  Each photograph is an authority WITHIN ITS OWN SCOPE and nowhere else.",
-            "  Take the FACE and BUILD from the actor images only.",
+            *_actor_scope_lines(character, terse=True),
             "  Say whether you used an attached file or a URL. If neither worked, stop.",
             "",
         ]

@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 11 — THE RECONSTRUCTION]
 Output file: maintenance.png
 Aspect ratio: 9:16  (tall portrait)
-Prompt version: b1dc2a04 · repo commit 9ed9845 2026-08-10 17:50
+Prompt version: b1dc2a04 · repo commit ec201c2 2026-08-10 17:52
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 9ed9845, prompt b1dc2a04.
+    Working from commit ec201c2, prompt b1dc2a04.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

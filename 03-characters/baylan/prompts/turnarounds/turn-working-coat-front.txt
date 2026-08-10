@@ -1,10 +1,10 @@
 [BAYLAN — TURNAROUND — WORKING DRESS WITH THE LONG COAT — FRONT]
 Output file: turn-working-coat-front.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: 7cb61fb0 · repo commit a30c17e 2026-08-10 14:38
+Prompt version: 7cb61fb0 · repo commit ca0f3ad 2026-08-10 14:39
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit a30c17e, prompt 7cb61fb0.
+    Working from commit ca0f3ad, prompt 7cb61fb0.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

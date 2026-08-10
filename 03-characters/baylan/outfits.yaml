@@ -126,13 +126,16 @@ outfits:
       last of a faded olive.
       Across his chest a BROAD PLASTRON, running almost armhole to armhole with
       a narrow strip of plain cloth each side, from the collar down to clear of
-      the belt. A LARGE PLAIN YOKE fills its top half and ends in one wide V; below
-      that, THREE TO FIVE broad chevron bands, each a V with its point low at
-      the centre, filling the panel to its lower edge. The bands are SEPARATE
+      the belt. ITS TOP IS A DEEP CAP OVER BOTH SHOULDERS — soft garment,
+      stitched down, never a pauldron — wide enough to broaden him. THREE TO
+      FIVE broad chevron bands start at the shoulder and fill the top of the
+      panel, each a V with its point low at the centre, the lowest ending a
+      belt's width clear of the belt. The bands are SEPARATE
       PANELS LAID ON and overlapping like layered plates, each with a raised
       thick cut edge that shadows the band beneath, like the lames of a plated
-      coat. THE BANDS ALTERNATE MATERIAL — smooth leather, then napped suede,
-      then leather — so neighbours read strikingly different while both stay
+      coat. EVERY BAND IS A DIFFERENT MATERIAL FROM THE ONE IT TOUCHES —
+      smooth leather, then napped suede, then leather, counted from the top —
+      so neighbours read strikingly different while both stay
       near-black: the contrast is finish, never colour. The seams are
       hand-sewn in a greyed-off green thread, visible but worn out in places —
       some still green, some faded, some resewn in plain dark thread.
@@ -195,13 +198,45 @@ outfits:
       # garment is a BROAD PLASTRON running almost armhole to armhole with only a
       # narrow strip of plain cloth at each side. The rule was written to stop a
       # flat graphic spanning the chest and overshot into the opposite fault.
+      # THE SHOULDER CLAUSE WAS BACKWARDS, corrected 2026-08-10. It said the
+      # panel "stops short of the shoulder seams", which was written to keep it
+      # off the SLEEVES and overshot into keeping it off the shoulders too. The
+      # garment in both good plates runs OVER the top of each shoulder; the
+      # shoulder cap is a separate rule below now, and this one keeps only the
+      # part it was actually for.
       - check: Panel is BROAD — almost armhole to armhole, a strip clear each side.
         text: >
           THE CHEVRON PANEL IS A BROAD PLASTRON ACROSS HIS CHEST, running almost
           from armhole to armhole with only a NARROW STRIP of plain cloth left at
-          each side. It stops short of the shoulder seams and NEVER runs onto the
-          arms. NOT a narrow strip down the centre, and NOT a flat printed
-          graphic.
+          each side. It runs OVER the tops of his shoulders but NEVER down onto
+          the arms or the sleeves.
+      # ADDED 2026-08-10 BY THE PRODUCTION DESIGNER, on pass 2: "the shoulder pad
+      # area seems to have become less prominent too."
+      #
+      # NOTHING HAD EVER SPECIFIED IT, WHICH IS THE WHOLE STORY. The deep
+      # shoulder cap has been on every good plate since the reference arrived and
+      # was never once written down — so it was not a decision the generator was
+      # keeping, it was a habit, and on pass 2 it thinned to a binding. An
+      # unspecified feature is not a feature; it is a coincidence that has held
+      # so far. Same lesson as the alternating tones, which survived four days
+      # only because the generator kept disobeying the rule that forbade them.
+      #
+      # THIS IS NOT THE REJECTED PAULDRON AND THE RULE SAYS SO OUT LOUD. A
+      # shoulder pad was tried and dropped twice on 2026-08-04 because it came
+      # back a hard structured piece standing off the shoulder — armour, and
+      # armour reads as status. The note that closed that argument said the want
+      # behind it was "make him look bigger", and that the panel does that
+      # instead: "padding across the chest AND SHOULDERS, at no cost in ornament
+      # or rank." THAT IS EXACTLY WHAT THIS RULE IS. It is the sanctioned half of
+      # a request that was refused in its other half, and the negation is in the
+      # rule so the two cannot be confused again.
+      - check: SHOULDER CAP is DEEP — the panel runs over both shoulders.
+        text: >
+          THE TOP OF THE PANEL IS A DEEP CAP OVER THE TOP OF EACH SHOULDER, wide
+          enough to cover the whole shoulder, SO THAT IT VISIBLY BROADENS HIM.
+          It is SOFT GARMENT stitched down — NOT a hard pauldron standing off the
+          shoulder, NOT armour, and NEVER a thin binding or a strip of piping at
+          the seam.
       # REWRITTEN 2026-08-04 after the first generation. This rule contradicted
       # itself: "continuing DOWN UNDER THE BELT" against "bounded ... to the
       # waist". In the original it was the SIDE edges that ran throat-to-waist,
@@ -420,12 +455,35 @@ outfits:
       # later. The alternating tones ARE that mechanism visible on the garment,
       # so a tidy-minded generation evening them out would quietly cost the
       # payoff. Specified positively now rather than tolerated.
+      # THE TOP BANDS DID NOT ALTERNATE, 2026-08-10, pass 2: the lowest band
+      # differed and the three above it were one flat material. So the rule was
+      # HALF obeyed, which is the tell — "alternate" is a property of a set, and
+      # a generator drawing bands one at a time has no per-band instruction to
+      # follow. It made one band different, satisfied the word, and stopped.
+      #
+      # SO THE ASSIGNMENT IS NOW PER BAND AND COUNTED, the same fix that got the
+      # band count right when "exactly five" had failed eleven times: give it
+      # something to execute rather than a property to satisfy. Band 1 leather,
+      # band 2 suede, band 3 leather, band 4 suede, counting DOWN FROM THE TOP —
+      # and the top is named because the top is what was lost.
+      #
+      # AND THE PALETTE NEGATION MOVES OUT, into the rule below. This said
+      # "neighbours read STRIKINGLY different" and then, in the same breath,
+      # "NEVER colour: nothing light, nothing bright" — an instruction to
+      # contrast followed immediately by three refusals of contrast. That is the
+      # green thread and the ripped panel again, and the negations won both
+      # times. They are still true and they still ship; they just no longer sit
+      # in the sentence they undercut.
       - check: Bands ALTERNATE LEATHER and SUEDE. Contrast is FINISH, not colour.
         text: >
-          THE BANDS ALTERNATE LEATHER AND SUEDE — smooth leather CATCHES the
-          light, napped suede EATS it, so neighbours read STRIKINGLY different
-          while both stay NEAR-BLACK. The contrast is FINISH, NEVER colour:
-          nothing light, nothing bright.
+          COUNT DOWN FROM THE TOP AND CHANGE MATERIAL AT EVERY BAND: 1 smooth
+          leather, 2 napped suede, 3 leather, 4 suede. NO TWO TOUCHING BANDS
+          MATCH, and THE TOP ALTERNATES AS STRONGLY AS THE BOTTOM — never three
+          matching bands with one odd one below. Smooth leather CATCHES the
+          light, napped suede EATS it.
+      - >
+        EVERY BAND IS NEAR-BLACK — mismatched scrap, never a colour scheme.
+        NOTHING light, NOTHING bright, no tan, no grey.
       - >
         THE PANEL IS WORN AND GRUBBY. Rubbed bare along the piped edges where the
         panels stand proudest, the suede gone shiny at the high points and grimy
@@ -915,62 +973,85 @@ outfits:
     # promised a fix the attachment could never deliver. The green is now
     # specified on 05-detail_portrait and 12-materials instead.
     references:
-      # THE BEST FRONT SO FAR, accepted by the Production Designer 2026-08-10.
-      # "The 'skirt' is still too long, but the rest is great."
+      # PASS 2, 2026-08-10, and the skirt is SETTLED: "everything waist down,
+      # leave it." That is the first part of this costume to be finished, and
+      # nothing below the belt is open any more.
       #
-      # IT IS NOT AN `approved:` BLOCK AND MUST NOT BECOME ONE UNTIL THE PANELS
-      # ARE RIGHT. An approval's scope is THE WHOLE COSTUME — that is what
-      # APPROVAL.md gives it and why other views are told to match it exactly —
-      # so approving this plate would lock in the one thing on it that is wrong,
-      # and rule 18 would then be arguing with a photograph it cannot beat.
-      # A scoped reference is the mechanism for a plate that is right about most
-      # of itself, and this is what `scope:` exists for.
+      # TWO FAULTS LEFT, BOTH ABOVE THE WAIST, both named by the Production
+      # Designer: "the top chevrons didn't alternate" and "the shoulder pad area
+      # seems to have become less prominent too."
       #
-      # IT IS LISTED FIRST ON PURPOSE so it is attachment 1 in prompts/attach/,
-      # ahead of the chevron geometry source. It supersedes that image on
-      # everything the two disagree about, because this one is HIS garment,
-      # eighteen years old and filthy, and that one is a shop-new reproduction on
-      # a mannequin.
-      #
-      # BOTH source/artwork PLATES STAY SUPERSEDED. This is the current design;
-      # turn-working-front.png and turn-working-back.png predate the skirt change
-      # and are history.
-      #
-      # THE FIRST SENTENCE IS 48 CHARACTERS ON PURPOSE. `_label()` keeps the
-      # first sentence and only if it fits 52, otherwise it cuts at a word
-      # boundary — and the first draft here ran to 60 and arrived as "THE WHOLE
-      # COSTUME — EXCEPT THE LENGTH OF THE TWO", which stops one word before the
-      # only thing the label existed to say. Same trap the gauntlet reference
-      # documents below: the exception has to BE the first sentence AND fit it.
-      - path: reference/concept/costume-best-so-far-2026-08-10.png
+      # SO PASS 1 IS NOT DEAD — IT IS RIGHT ABOUT EXACTLY THE TWO THINGS PASS 2
+      # LOST. Its chest is cropped out as its own authority below, which is the
+      # method this repository already uses for Jasu's horns and Shada's
+      # make-up: cut a plate down to the one thing it is right about rather than
+      # attach the whole of it and hope the scope line holds. Attaching both
+      # full plates would put two versions of the same costume in front of the
+      # generator and let it pick.
+      - path: reference/concept/costume-best-so-far-2026-08-10-pass2.png
         what: >-
-          THE WHOLE COSTUME EXCEPT THE HIP PANELS' LENGTH.
-          THIS IS THE GARMENT. Take everything from it: the chevron plastron and
-          its bands, the belt, the gauntlets, the sleeves, the pouches, the
-          holster and blaster, the boots, the trousers, the colour, the filth and
-          the wear. Where this photograph and the text below disagree about any
-          of that, THE PHOTOGRAPH IS THE COSTUME.
-          IT IS WRONG ABOUT ONE THING AND ONE ONLY: THE TWO HIP PANELS ARE FAR
-          TOO LONG IN IT. They hang past his knee, almost to mid-calf. THEY MUST
-          BE MUCH SHORTER — one third of the way from belt to knee, high on the
-          thigh. DO NOT COPY THEIR LENGTH. Everything else about them — the
-          cloth, the two hanging tails, the open centre front and back — is right.
+          THE COSTUME — BUT SEE THE CHEST CROP NEXT.
+          THIS IS THE GARMENT AND EVERYTHING BELOW THE BELT IS FINAL: the two
+          short hip panels and their length, the trousers, the boots, the belt,
+          the holster and blaster, the pouches. COPY THE WAIST DOWN EXACTLY.
+          Above the waist take the sleeves, the gauntlets, the collar, the
+          colour, the filth and the wear.
+          IT IS WRONG ABOUT THE CHEST PANEL IN TWO WAYS, AND THE NEXT IMAGE
+          OUTRANKS IT ON BOTH: its chevron bands are all the same material at
+          the top, and its shoulder cap has shrunk to a thin binding. DO NOT
+          COPY THE CHEST PANEL FROM THIS IMAGE.
           NO COAT AND NO CLOAK IS WORN IN IT, and that is correct for these views.
-      - path: reference/concept/chevron-geometry-source.png
+      # THE CHEST OF PASS 1, cut above the collar and below the belt.
+      #
+      # IT REPLACES THE MANNEQUIN REPRODUCTION, which is retired from
+      # `references:` today after five days' service — see the README. That
+      # image settled the geometry when we had nothing, and it was ALSO teaching
+      # the fault we are now chasing: its bands all match each other, and its
+      # scope line had to shout "HIS BANDS DO NOT MATCH EACH OTHER AND THE
+      # REPRODUCTION'S DO" to hold it off. A sentence fighting a photograph is
+      # the losing side of every argument this file records. This crop shows the
+      # same geometry on HIS garment, filthy and eighteen years old, with the
+      # alternation actually visible — so the negation is not needed at all.
+      #
+      # THE CROP LOSES THE HEAD, and that is deliberate for the usual reason:
+      # a full plate teaches everything in it equally, and the only thing this
+      # one is here to teach is the chest.
+      - path: reference/concept/chevron-and-shoulder-authority-2026-08-10.png
         what: >-
-          THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE.
-          HIS BANDS DO NOT MATCH EACH OTHER AND THE REPRODUCTION'S DO. Take the
-          shapes from it and nothing whatever about the colour.
-          The LARGE PLAIN YOKE filling the top half and ending in one wide V; the
-          THREE TO FIVE broad chevron bands below it, points LOW at the centre;
-          the panel's WIDTH, almost armhole to armhole; and the construction —
-          SEPARATE PANELS LAID ON and overlapping, each with a raised piped edge,
-          suede against matte so they read by SHEEN and not by colour.
-          NOTHING ELSE COMES FROM THIS IMAGE — not the collar, not the sleeves,
-          not the fit, not the cleanliness, AND NOT THE COLOUR OF THE STITCHING.
-          It is a shop-new reproduction on a
-          mannequin and HIS IS EIGHTEEN YEARS OLD, filthy, repaired and slept in.
-          THE WRITTEN RULES WIN ON EVERYTHING EXCEPT THE PANEL'S GEOMETRY.
+          THE CHEST PANEL: SHOULDER CAP AND ALTERNATION.
+          THIS IS THE CHEST, AND IT OUTRANKS THE FULL PLATE ABOVE ON EVERYTHING
+          IN THIS FRAME.
+          THE SHOULDER CAP: see how DEEP it is — the panel runs over the top of
+          each shoulder and down onto it, a broad piece with a seamed edge, and
+          it makes him WIDER. It is soft garment, stitched down, never a hard
+          pauldron standing off the shoulder.
+          THE BANDS: look at how they differ from EACH OTHER. Neighbours are cut
+          from different stock — one smooth and catching the light, the next
+          napped and eating it — and they differ from the TOP BAND DOWN, not
+          only at the bottom. That difference is the whole point of the panel.
+          NOT AN AUTHORITY ON ANYTHING BELOW THE BELT.
+      # RETIRED FROM `references:` 2026-08-10, BOTH ON THE SAME DAY, and both
+      # still on disk. Neither is deleted and neither is a source of truth.
+      #
+      #   costume-best-so-far-2026-08-10.png — PASS 1. Superseded as a full
+      #   plate by pass 2 above, which fixed the skirt. It survives as the SOURCE
+      #   OF THE CHEST CROP, and that crop is where its remaining authority is.
+      #   Do not re-attach the whole of it: its hip panels are near mid-calf and
+      #   that argument is over.
+      #
+      #   chevron-geometry-source.png — THE MANNEQUIN REPRODUCTION. Five days'
+      #   service, and it earned them: it reversed rules 6, 9 and 11 when nothing
+      #   else could, and the README keeps that record. It goes because we now
+      #   have the same geometry on OUR garment, and because it was quietly
+      #   working against the alternation the whole time — its bands all match
+      #   each other, and its scope line had to carry "HIS BANDS DO NOT MATCH
+      #   EACH OTHER AND THE REPRODUCTION'S DO" to hold that off. Every failure
+      #   in this file says the sentence loses to the photograph.
+      #
+      # THE ATTACHMENT COUNT IS UNCHANGED AT FIVE — two out, two in. That is not
+      # a coincidence worth relying on, but it is worth noticing: the working
+      # prompt has never had room for a sixth costume image, and each of these
+      # has to earn a place by taking one.
     slot_references:
       blaster:
         - path: reference/props/blaster-build-2026-08-05.jpg

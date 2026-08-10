@@ -1,14 +1,14 @@
 [BAYLAN — THE STORAGE AREA]
 Output file: industrial_b.png
 Aspect ratio: 9:16. Generate at that shape and never square unless it says 1:1.
-Prompt version: fc89c318 (short) · repo commit a30c17e 2026-08-10 14:38
+Prompt version: 4adbebe1 (short) · repo commit ca0f3ad 2026-08-10 14:39
 
 NO text, labels, captions, titles, logos, borders or layout. NO contact sheet, NO multi-panel grid, NO before-and-after, NO inset heads, NO detail crops and NO colour swatches. ONE FRAME ONLY.
 
 USE THE ATTACHED PHOTOGRAPHS. They are attached to this message. If nothing
 is attached, fetch these URLs instead — and say which route you used:
-  THE WHOLE COSTUME EXCEPT THE HIP PANELS' LENGTH: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-best-so-far-2026-08-10.png
-  THE PANEL'S GEOMETRY ONLY — NEVER ITS TONE: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-geometry-source.png
+  THE COSTUME — BUT SEE THE CHEST CROP NEXT: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/costume-best-so-far-2026-08-10-pass2.png
+  THE CHEST PANEL: SHOULDER CAP AND ALTERNATION: https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/concept/chevron-and-shoulder-authority-2026-08-10.png
   FACE + BUILD (1): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/full-body.jpg
   FACE + BUILD (2): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-neutral.jpg
   FACE + BUILD (3): https://raw.githubusercontent.com/beertastic/tpof-design/main/03-characters/baylan/reference/actor/headshot-three-quarter.jpg

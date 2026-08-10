@@ -1,6 +1,6 @@
 [KRELLIS — ARENA MEDIC'S WORKING GEAR — NATURAL]
 Aspect ratio: 2:3 — TALL. Generate at 1024x1536. Never square.
-Prompt version: ffef870b (short) · repo commit 32f5bfb 2026-08-10 17:53
+Prompt version: ffef870b (short) · repo commit 50d0aec 2026-08-10 17:55
 
 GENERATE A COSTUME FITTING PHOTOGRAPH — the plain record a costume supervisor takes in a fitting room so the build can be checked. ONE person, alone, standing still, photographed straight on. It is NOT a character sheet and NOT a design board.
 NO text, labels, captions, titles, logos, borders or layout. NO second view,

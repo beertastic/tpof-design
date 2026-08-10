@@ -1,10 +1,10 @@
 [KRELLIS — TURNAROUND — ARENA MEDIC'S WORKING GEAR — RIGHT SIDE]
 Output file: turn-working-right.png
 Aspect ratio: 2:3  (tall, full figure)
-Prompt version: eee8907d · repo commit 32f5bfb 2026-08-10 17:53
+Prompt version: eee8907d · repo commit 50d0aec 2026-08-10 17:55
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit 32f5bfb, prompt eee8907d.
+    Working from commit 50d0aec, prompt eee8907d.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

@@ -671,14 +671,28 @@ outfits:
       # a landmark the generator can measure — it depends on arm length on a body
       # it is inventing, the same failure as "a hand's width" on the chevrons and
       # "upper thigh" before it. The belt and the knee are both in frame.
+      #
+      # THE MEASUREMENT IS THE FIRST SENTENCE, AND THAT IS DELIBERATE. Written
+      # third, it was cut on the very first regeneration — `trim()` always keeps
+      # sentence one, then prefers sentences carrying NOT/NEVER/NO/ONLY/MUST,
+      # and "MEASURE BELT TO KNEE, HANG ONE THIRD OF THAT" contains no negation
+      # at all. It lost to three sentences that did, and the emitted rule read
+      # "THEY ARE SHORT. It ends HIGH ON THE THIGH" — the vague anatomical region
+      # this rewrite existed to remove, with a dangling "It" for a subject.
+      #
+      # SAME SHAPE AS THE GREEN THREAD AND THE RIP: the negations outcompete the
+      # instruction. Here the fix is placement rather than rewording, because
+      # sentence one is kept WHOLE at any cap and costs no budget to protect —
+      # cheaper than `pin:`, which at this outfit's 12,000 ceiling would take the
+      # characters straight out of another rule.
       - check: Panels reach ONE THIRD from belt to knee. ONE per hip, no layers.
         text: >
-          TWO SEPARATE PANELS HUNG FROM THE BELT, ONE PER HIP, OPEN AT THE CENTRE
+          MEASURE FROM HIS BELT DOWN TO HIS KNEE: EACH HIP PANEL HANGS ONE THIRD
+          OF THAT DISTANCE AND STOPS, HIGH ON THE THIGH. NEVER to the knee, NEVER
+          below it, NEVER to mid-calf — a HINT of a skirt, not a skirt. TWO
+          SEPARATE PANELS, ONE PER HIP, hung from the belt and OPEN AT THE CENTRE
           FRONT AND BACK so his trousers show up the middle. NEVER layered, NEVER
-          doubled. THEY ARE SHORT. MEASURE THE DISTANCE FROM HIS BELT DOWN TO HIS
-          KNEE: EACH PANEL HANGS ONE THIRD OF THAT AND STOPS. It ends HIGH ON THE
-          THIGH, nowhere near the knee. NEVER to the knee, NEVER below it, NEVER
-          to mid-calf. IT IS A HINT OF A SKIRT, NOT A SKIRT.
+          doubled.
       # TONED DOWN 2026-08-05, one generation after it was written. "WORN OUT AND
       # TORN… ragged… edges gone to threads… caught and pulled and never mended"
       # is a recipe for RAGS, and rags is what came back: big jagged saw-tooth
@@ -922,9 +936,16 @@ outfits:
       # BOTH source/artwork PLATES STAY SUPERSEDED. This is the current design;
       # turn-working-front.png and turn-working-back.png predate the skirt change
       # and are history.
+      #
+      # THE FIRST SENTENCE IS 48 CHARACTERS ON PURPOSE. `_label()` keeps the
+      # first sentence and only if it fits 52, otherwise it cuts at a word
+      # boundary — and the first draft here ran to 60 and arrived as "THE WHOLE
+      # COSTUME — EXCEPT THE LENGTH OF THE TWO", which stops one word before the
+      # only thing the label existed to say. Same trap the gauntlet reference
+      # documents below: the exception has to BE the first sentence AND fit it.
       - path: reference/concept/costume-best-so-far-2026-08-10.png
         what: >-
-          THE WHOLE COSTUME — EXCEPT THE LENGTH OF THE TWO HIP PANELS.
+          THE WHOLE COSTUME EXCEPT THE HIP PANELS' LENGTH.
           THIS IS THE GARMENT. Take everything from it: the chevron plastron and
           its bands, the belt, the gauntlets, the sleeves, the pouches, the
           holster and blaster, the boots, the trousers, the colour, the filth and

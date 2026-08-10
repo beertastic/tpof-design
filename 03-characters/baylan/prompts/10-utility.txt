@@ -12,10 +12,10 @@
 [BAYLAN — SLOT 10 — KIT LAYOUT]
 Output file: utility.png
 Aspect ratio: 1:1  (square)
-Prompt version: 1b0f77b1 · repo commit df2672f 2026-08-05 18:06
+Prompt version: 1b0f77b1 · repo commit 19c28db 2026-08-10 14:36
 
 BEFORE YOU GENERATE, SAY THIS LINE BACK, WORD FOR WORD:
-    Working from commit df2672f, prompt 1b0f77b1.
+    Working from commit 19c28db, prompt 1b0f77b1.
 That is your proof you read this file. It is provenance for the human, NOT
 something to check against the repository — this prompt is self-contained and
 a cached REPO-STATE.md cannot make it stale. Do not go and look. If you

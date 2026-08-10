@@ -14,6 +14,27 @@ source: "Filmanize script breakdown and production notes"
 > **Naming:** Formerly listed as `Freya` in an earlier cast list. Same character,
 > renamed. Confirmed 2026-07-30.
 
+> ## HANDED OFF — 2026-08-10
+>
+> **Reya Fenn is with the 3D prop master, and that covers ALL her costume
+> elements** — not just the helmet and the rifle. Confirmed by the Production
+> Designer 2026-08-10, in answer to a direct question about where the line fell.
+>
+> **It is a sensible split for this character specifically.** She comes in *"in
+> full armour, rifle in both hands, still wet"* and takes the helmet off — so
+> most of what she wears is printed hard parts, and the person printing them is
+> the person designing them.
+>
+> **She was handed off under the name Freya**, which is why this note is here: an
+> earlier cast list carried that name and a handoff given in those terms is easy
+> to lose against this folder.
+>
+> **Yaslo Bis went the same way on the same day.**
+>
+> **What this repository still owes her:** nothing in costume. Her story
+> function, her death in the massacre and her place in the pincer group stay
+> here, and `Crew-Roster.md` is still the authority on the group.
+
 ## Art Department Brief
 
 Mercenary appearing in the Sabacc scene and final clearing sequence.

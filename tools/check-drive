@@ -6,9 +6,16 @@
 #   ./tools/check-drive shada      # one character
 #
 # READ-ONLY. It never writes to Drive, because the fix always needs a person to
-# have decided the repository is right. When it reports drift, the fix is:
+# have decided the repository is right. It now reports two different things and
+# they have two different fixes:
 #
-#   ./tools/publish-to-drive --go
+#   DRIFT    — the repo has files Drive lacks, or their bytes differ.
+#              Fix: ./tools/publish-to-drive --go
+#
+#   UNKNOWN  — a file at a character's folder root that the repo does not have.
+#              Publishing deletes nothing, so --go will NOT clear these and no
+#              flag will. Look at it and, if it is superseded, delete it in
+#              Drive by hand. Until then this keeps reporting, by design.
 #
 # TO RUN IT DAILY, once rclone is set up (no sudo, no root):
 #
@@ -44,8 +51,8 @@ if [ "$rc" -ne 0 ]; then
     [ -n "${DISPLAY:-}" ] || export DISPLAY=:0
 
     if command -v notify-send >/dev/null 2>&1; then
-        notify-send -u critical "TPOF — Drive has drifted" \
-            "Google Drive no longer matches the repository. Run tools/publish-to-drive --go" 2>/dev/null \
+        notify-send -u critical "TPOF — Drive needs a look" \
+            "Drive does not match the repository, or holds a file the repo does not. See ~/.local/state/tpof/drive-check.log" 2>/dev/null \
             || printf 'NOTE: could not raise a desktop notification.\n'
     fi
     printf '\nLogged to %s\n' "$LOG"

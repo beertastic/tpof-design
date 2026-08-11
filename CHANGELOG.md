@@ -2,6 +2,80 @@
 
 All notable production-bible changes are recorded here.
 
+- **Publishing deletes nothing, 2026-08-11.** `rclone copy`, not `rclone sync`.
+  Every file the repository has is written over Drive's on its own name; anything
+  else at a character's folder root is **reported and left there**.
+
+  **The guarantee changed shape, and it is worth being honest about the direction.**
+  It used to be *a superseded file cannot be there*. It is now *you will be told
+  it is there*. That is weaker. It was taken deliberately, on the same day and for
+  the same reason as the subfolder exemption below: a destructive tool only has to
+  be wrong once about what is disposable, and this one was a single `--go` away
+  from taking 66 files it had no idea about.
+
+  **So the alert is the whole of the defence**, and it is built to behave like it.
+  Unknown files are listed per character in every mode — dry run, publish and
+  check alike — counted in the summary, and `--check` exits non-zero on them so
+  the daily cron notification fires. **There is deliberately no flag to clear
+  them.** `--go` will not and nothing else will: deciding a file on Drive is
+  finished with is a person's call, made in Drive. The report repeats until they
+  make it, and the nag is the feature.
+
+  `check_shadows()` stays retired but its job came back, wider — the alert names
+  every unknown file at the root, not only the ones that collide with a published
+  name. `check-drive`'s desktop notification was rewritten too: exit 1 now means
+  two different things with two different fixes, and telling somebody to run
+  `--go` at a file that `--go` cannot touch is how a notification stops being read.
+
+- **Baylan publishes to Drive, 2026-08-11.** Mapped in `drive_folder()`, carrying
+  the working dress front and back — two plates, no boards or guide yet, which is
+  what a front-only approval amounts to.
+
+  **He is the first character published with no Drive folder already**, so
+  `Baylan/` is created by the first publish rather than matched to something made
+  by hand. That is safe only because the parent was checked first and he had none:
+  the danger the mapping guards against is a *second* folder for a character who
+  already has one under a different name. Nyx and Vala have folders and no
+  approved outfit; Baylan had the reverse.
+
+- **Drive subfolders are exempt from publishing, 2026-08-11.** `publish-to-drive`
+  manages the loose files at a character's folder root and does not descend. Make
+  a subfolder inside `Jasu/` or `Shada/` and it survives every publish, contents
+  and all.
+
+  **This was found one `--go` away from deleting 66 files.** `Angels day images/`
+  sat inside both `Jasu/` (10 files) and `Shada/` (56, including `.mp4` and
+  `.MOV`). Nothing in this repository generates video, so those were almost
+  certainly the only copies. Going flat on 2026-08-04 had made the folder root
+  the sync target, and the note recording that decision said what it cost in as
+  many words — *"a file dropped into a character's Drive folder is deleted on the
+  next publish"* — but stating a cost is not the same as accepting it, and the
+  cost turned out to be somebody's footage.
+
+  **The line is drawn at depth, not at name.** An ignore list of protected folder
+  names would be one more thing to keep in step with Drive, and the day it fell
+  behind it would delete the only copy of something. Depth needs no maintenance.
+  One rclone filter does it, `--exclude "/*/**"` — a filter and not
+  `--max-depth 1`, because only an exclude carries rclone's guarantee that
+  filtered *destination* files are left alone rather than read as absent from the
+  source and deleted.
+
+  **The root is still ruthless**, which is what makes the trade payable. Verified
+  against a local pair of directories before it went in: a superseded file loose
+  at the destination root was still deleted, while two subfolders and their
+  contents survived at `Deleted: 0 (dirs)`. `check_shadows()` stays retired — a
+  shadow needed the published set to sit one level below a same-named file, and
+  the published set is now the root itself.
+
+  **What it costs: a superseded image parked in a subfolder is invisible to the
+  tool forever.** Nothing will flag it or remove it. That is the deliberate price
+  of having somewhere on Drive that is not overwritten.
+
+  `Drive-Publishing.md` had also been carrying two pre-flat paragraphs asserting
+  the opposite behaviour — *"a sync can never reach anything else"* and *"the
+  folder root is still not managed by publishing"* — stale since 2026-08-04 and
+  actively misleading. Both corrected.
+
 - **A character can set its own prompt budget, 2026-08-04.** `prompt_budget:` in
   `outfits.yaml`, falling back to the 8,000 default.
 

@@ -30,18 +30,36 @@
 # nobody browses a costume that way. The two meta files carry a `_` prefix so
 # they sort above the images and stay out of the scroll.
 #
-# THE REPOSITORY IS THE SOURCE OF TRUTH. This is a one-way push: Drive is made
-# to match the repo, and anything in the character's folder that is not in the
-# repo is DELETED. That is deliberate — the failure this exists to prevent is
-# the costume department building from a superseded image, and a stale file left
-# beside a current one is exactly how that happens.
+# THE REPOSITORY IS THE SOURCE OF TRUTH. This is a one-way push: every file the
+# repo has is written to the character's folder root, overwriting what is there.
 #
-# NOTE WHAT FLAT COSTS. Until 2026-08-04 each set synced into its own subfolder,
-# so a sync could never reach the character's folder root and anything left
-# there by hand survived. It no longer does: the root IS the sync target now, so
-# a file dropped into a character's Drive folder is deleted on the next publish.
-# That is the stated contract rather than a regression, and it is also what
-# retired check_shadows() — see the note further down.
+# IT DELETES NOTHING, ANYWHERE — decided 2026-08-11. `rclone copy`, not `sync`.
+# A file at the root that the repository does not have is REPORTED, on every
+# run and in every mode, and left where it is.
+#
+# That is a real trade and worth naming. The failure this tool exists to prevent
+# is the costume department building from a superseded image, and a stale plate
+# left beside a current one is exactly how that happens — so the guarantee is
+# now "you will be told", not "it cannot be there". A destructive tool that is
+# ever wrong about what is disposable costs more than a nagging one: the whole
+# reason this note exists is 66 files that a `sync` would have taken.
+#
+# The report is therefore not decoration. It repeats until a person deletes the
+# file in Drive, and there is deliberately no flag to make it stop.
+#
+# SUBFOLDERS ARE NOT OURS AND ARE NEVER TOUCHED — decided 2026-08-11. The root
+# is the published set; anything one level down belongs to whoever put it there.
+# Reference photographs, fitting shots, footage from the day: they live in a
+# subfolder and survive every publish, including the deletions.
+#
+# The line is drawn at depth, not at name, because a name-based ignore list is
+# one more thing to keep in step with Drive — and the day it falls behind it
+# deletes somebody's only copy of something. Depth needs no maintenance: make a
+# folder, it is yours. See `--exclude /*/**` where RO_FLAGS is built.
+#
+# SO THE ROOT IS WRITTEN, NOT OWNED. The repo's files always win on their own
+# names; everything else at the root is reported and kept. Subfolders are not
+# even looked at.
 #
 # ONE NAMESPACE. Flat means turnarounds, artwork and boards share a filename
 # space. The script refuses to publish a character with duplicate basenames
@@ -78,10 +96,20 @@ REMOTE="tpof"
 # does not fail: it quietly creates a SECOND folder for the same character,
 # which is the exact duplicate this tool exists to prevent. So the mapping is
 # explicit, and a character that is not in it is an error, not a new folder.
+#
+# Baylan added 2026-08-11. He is the first character published with NO existing
+# Drive folder — Jasu, Nyx, Shada and Vala were all made by hand before this
+# script — so `Baylan` is created by the first publish rather than matched to
+# something. That is safe here precisely because there was nothing to collide
+# with: the danger this mapping guards against is a SECOND folder for a
+# character who already has one under a different name, and a check of the
+# parent folder confirmed he had none. Anyone added later gets the same check
+# first — read the folder list the script prints, then map to what is there.
 drive_folder() {
     case "$1" in
         captain-jasu) printf 'Jasu' ;;
         shada)        printf 'Shada' ;;
+        baylan)       printf 'Baylan' ;;
         *)            printf '' ;;
     esac
 }
@@ -112,6 +140,9 @@ b() { printf '%s%s%s\n' "$C_B" "$*" "$C_0"; }
 ok() { printf '  %s✓%s %s\n' "$C_G" "$C_0" "$*"; }
 no() { printf '  %s✗%s %s\n' "$C_R" "$C_0" "$*"; }
 warn() { printf '  %s!%s %s\n' "$C_Y" "$C_0" "$*"; }
+# Defined up here with the other helpers because publish_flat() needs it, and a
+# function defined below the main loop does not exist yet when the loop runs.
+plural() { [ "$1" -eq 1 ] && printf '%s %s' "$1" "$2" || printf '%s %s' "$1" "$3"; }
 
 MODE="dry"; ONLY=""
 for a in "$@"; do
@@ -157,14 +188,37 @@ fi
 # --log-level ERROR keeps rclone's shared-client_id deprecation notice out of
 # every set's output. It is real and dated — see Drive-Publishing.md — but five
 # copies per run is how a warning stops being read.
-RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*" --log-level ERROR)
-RC_FLAGS=("${RO_FLAGS[@]}")
+#
+# `--exclude /*/**` IS THE SUBFOLDER ESCAPE HATCH, restored 2026-08-11. It
+# excludes everything below the first level, so the sync sees and manages only
+# the loose files at the character's folder root. Subfolders belong to whoever
+# made them: reference photographs, fitting shots, footage from the day. rclone
+# never deletes what a filter excluded, so they survive every publish untouched.
+#
+# WHY IT IS A FILTER AND NOT --max-depth. Both would stop the descent, but only
+# an exclude carries rclone's guarantee that filtered destination files are left
+# alone rather than treated as absent from the source and deleted. The
+# difference is the whole point here, so it is spelled as a filter.
+RO_FLAGS=(--drive-root-folder-id "$DRIVE_PARENT" --exclude ".*" --exclude "/*/**" --log-level ERROR)
+
+# --checksum COMPARES MD5, NOT SIZE-AND-MODTIME, and it is load-bearing here.
+#
+# Staging copies files into a mktemp dir, so every staged file carries today's
+# mtime whatever its contents. rclone's default comparison would then read all
+# ~60 as changed and re-upload them every publish — and, worse, would skip a
+# file whose bytes changed but whose SIZE did not and whose mtime landed inside
+# the modify window. A re-rolled plate that happens to match its predecessor's
+# byte count is exactly that case, and it would have been silently kept stale.
+#
+# Caught by a local test on 2026-08-11: a 3-byte "OLD" survived a copy from a
+# 3-byte "NEW". With hashes it transfers, and unchanged files are skipped.
+RC_FLAGS=("${RO_FLAGS[@]}" --checksum)
 [ "$MODE" = "dry" ] && RC_FLAGS+=(--dry-run)
 
 echo
 case "$MODE" in
     dry)   b "DRY RUN — nothing will be changed. Add --go to publish." ;;
-    go)    b "PUBLISHING — Drive will be made to match the repository." ;;
+    go)    b "PUBLISHING — the repository's files are written over Drive's. Nothing is deleted." ;;
     check) b "CHECKING — read-only. Nothing on Drive will be touched." ;;
 esac
 
@@ -183,8 +237,10 @@ manifest() {
     rev=$(git log -1 --format='%h  %cs' -- "$@" 2>/dev/null)
     [ -n "$rev" ] || rev="(uncommitted)"
     printf 'Published from the repository by tools/publish-to-drive.\n'
-    printf 'DO NOT EDIT THESE HERE. The repository is the source of truth and this\n'
-    printf 'folder is overwritten on every publish, including deletions.\n\n'
+    printf 'DO NOT EDIT THESE HERE. The repository is the source of truth and the\n'
+    printf 'loose files in this folder are overwritten on every publish, including\n'
+    printf 'deletions. Subfolders are never touched — anything you want to keep on\n'
+    printf 'Drive, put in a subfolder.\n\n'
     printf 'character   : %s\n' "$char"
     printf 'set         : %s\n' "$set_name"
     printf 'source      : %s\n' "$src"
@@ -196,7 +252,7 @@ manifest() {
     done
 }
 
-DRIFT=0; SYNCED=0; SKIPPED=0; HELD_TOTAL=0
+DRIFT=0; SYNCED=0; SKIPPED=0; HELD_TOTAL=0; UNKNOWN_TOTAL=0
 # Stage every file for one character and make their Drive folder match.
 #
 # FLAT, DELIBERATELY — decided 2026-08-04. One folder per character with every
@@ -236,32 +292,55 @@ publish_flat() {
     local rc=0
     local sub="files"
 
+    # WHAT IS ALREADY THERE. One listing, read by every mode. `--combined` gives
+    # a line per file:
+    #   -  only on Drive     UNKNOWN — not ours. Never deleted, always reported
+    #   +  only in the repo   not yet published
+    #   *  in both, different bytes
+    local out unknown fresh differ
+    out=$(rclone check "$stage" "$dest" --combined - "${RO_FLAGS[@]}" 2>/dev/null)
+    if [ -z "$out" ]; then
+        # No listing at all means the folder does not exist yet — a character's
+        # first publish. Everything staged is new and nothing can be unknown.
+        out=$(cd "$stage" && for f in *; do printf '+ %s\n' "$f"; done)
+    fi
+    unknown=$(grep -c '^- ' <<<"$out")
+    fresh=$(grep -c '^+ ' <<<"$out")
+    differ=$(grep -c '^\* ' <<<"$out")
+
     if [ "$MODE" = "check" ]; then
-        # --combined gives one line per file:
-        #   -  only on Drive     STALE, the dangerous one
-        #   +  only in the repo  not yet published
-        #   *  present in both, different contents
-        local out stale fresh differ
-        out=$(rclone check "$stage" "$dest" --combined - "${RC_FLAGS[@]}" 2>/dev/null)
-        stale=$(grep -c '^- ' <<<"$out")
-        fresh=$(grep -c '^+ ' <<<"$out")
-        differ=$(grep -c '^\* ' <<<"$out")
-        if [ "$((stale + fresh + differ))" -eq 0 ]; then
+        if [ "$((unknown + fresh + differ))" -eq 0 ]; then
             printf '    %-12s %s files, up to date\n' "$sub" "$n"
         else
-            DRIFT=$((DRIFT + 1))
-            printf '    %s%-12s DRIFT%s — %s stale on Drive, %s not published, %s differ\n' \
-                "$C_R" "$sub" "$C_0" "$stale" "$fresh" "$differ"
-            grep -E '^[-+*] ' <<<"$out" | sed 's/^/        /'
+            [ "$((fresh + differ))" -gt 0 ] && DRIFT=$((DRIFT + 1))
+            printf '    %s%-12s DRIFT%s — %s not published, %s differ, %s unknown\n' \
+                "$C_R" "$sub" "$C_0" "$fresh" "$differ" "$unknown"
+            # `-` lines are listed by the alert below, not here, so an unknown
+            # file is reported once and with the explanation attached.
+            grep -E '^[+*] ' <<<"$out" | sed 's/^/        /'
         fi
     else
-        rclone sync "$stage" "$dest" "${RC_FLAGS[@]}" 2>&1 | sed 's/^/        /' | tail -4
+        # `copy`, NOT `sync` — decided 2026-08-11. copy adds and overwrites and
+        # never removes, so a file on Drive that the repository does not have
+        # survives the publish and is reported instead. See the note below.
+        rclone copy "$stage" "$dest" "${RC_FLAGS[@]}" 2>&1 | sed 's/^/        /' | tail -4
         rc=${PIPESTATUS[0]}
         if [ "$rc" -eq 0 ]; then
             printf '    %-12s %s files\n' "$sub" "$n"
         else
             no "$folder/$sub — rclone exited $rc"
         fi
+    fi
+
+    # THE ALERT. Nothing deletes these now, so this line is the whole of the
+    # defence: it is the only thing between a superseded plate at the root and
+    # somebody building from it. Printed in every mode, including after a
+    # publish that otherwise succeeded, and counted into the exit status.
+    if [ "$unknown" -gt 0 ]; then
+        UNKNOWN_TOTAL=$((UNKNOWN_TOTAL + unknown))
+        warn "$folder — $(plural "$unknown" "file" "files") on Drive that the repository does not have:"
+        grep '^- ' <<<"$out" | sed 's/^- /        /'
+        printf '        NOT deleted. If superseded, delete by hand in Drive.\n'
     fi
 
     rm -rf "$stage"
@@ -281,10 +360,22 @@ publish_flat() {
 # out rather than reported on, which is why the function and its
 # --purge-shadows flag are gone.
 #
-# THE COST, STATED PLAINLY: a file dropped into a character's Drive folder by
-# hand is now deleted on the next publish. That is the intended contract —
-# "the repository is the source of truth and Drive is overwritten" — but it
-# used to have an escape hatch at the folder root and no longer does.
+# IT STAYS RETIRED, but what replaced it changed twice on 2026-08-11. The shadow
+# bug needed the published set to sit a level BELOW a same-named file; the
+# published set is now the root itself, so that geometry cannot recur. What can
+# still happen is a superseded plate loose at the root under a name the repo no
+# longer uses — and since nothing deletes any more, the reporting that
+# check_shadows() did is back, in the alert at the end of publish_flat(). It is
+# broader than the old function: it names every unknown root file, not only the
+# ones that collide.
+#
+# THE COST, STATED PLAINLY, IN TWO PARTS:
+#   - A superseded image parked in a SUBFOLDER is invisible to this tool
+#     forever. Nothing will flag or remove it.
+#   - A superseded image at the ROOT is flagged forever but never removed, so
+#     the report is only as good as somebody reading it and acting in Drive.
+# Both are the deliberate price of a tool that cannot destroy work. The thing
+# being protected is a folder that also holds footage nothing here can regenerate.
 
 for dir in 03-characters/*/ 08-species/*/; do
     dir="${dir%/}"
@@ -369,19 +460,32 @@ for dir in 03-characters/*/ 08-species/*/; do
 done
 
 echo
-plural() { [ "$1" -eq 1 ] && printf '%s %s' "$1" "$2" || printf '%s %s' "$1" "$3"; }
 
 # A hold is a temporary state waiting on a re-roll, so say so every run. Silence
 # is how four failed plates become four permanently missing ones.
 [ "$HELD_TOTAL" -gt 0 ] && \
     warn "$(plural "$HELD_TOTAL" file files) held back by do-not-publish.txt — re-roll, then re-run"
 
+# An unknown file outlives every publish now, so it is reported after one too.
+# It is the same count either way; only the sentence that follows it differs,
+# because after --go there is nothing left to try.
+[ "$UNKNOWN_TOTAL" -gt 0 ] && \
+    warn "$(plural "$UNKNOWN_TOTAL" file files) on Drive not in the repository — listed above, none deleted"
+
 if [ "$MODE" = "check" ]; then
-    if [ "$DRIFT" -eq 0 ]; then
+    if [ "$DRIFT" -eq 0 ] && [ "$UNKNOWN_TOTAL" -eq 0 ]; then
         ok "$(plural "$SYNCED" character characters) checked, $SKIPPED skipped — Drive matches the repository"
     else
-        no "$(plural "$DRIFT" character characters) drifted"
-        echo "  Fix with: ./tools/publish-to-drive --go   (the repository wins)"
+        [ "$DRIFT" -gt 0 ] && {
+            no "$(plural "$DRIFT" character characters) drifted"
+            echo "  Fix with: ./tools/publish-to-drive --go   (the repository wins)"
+        }
+        # Deliberately NOT offered a command. Publishing cannot clear these and
+        # there is no flag that will: deciding a file on Drive is finished with
+        # is a person's call, made in Drive. This will keep reporting until then,
+        # which is the intended nag rather than a fault.
+        [ "$UNKNOWN_TOTAL" -gt 0 ] && \
+            no "$(plural "$UNKNOWN_TOTAL" file files) unknown at a character's folder root — delete by hand in Drive if superseded"
         echo
         exit 1
     fi

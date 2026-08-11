@@ -1,8 +1,8 @@
 ---
 title: "Publishing to Drive — images, boards and the daily check"
 asset_id: "TRACK-DRIVE-PUBLISHING"
-updated: "2026-08-04"
-status: "live — publishing, Drive verified in sync 2026-08-04"
+updated: "2026-08-11"
+status: "live — publishing, Drive verified in sync 2026-08-11; subfolders exempt"
 ---
 
 # Publishing to Drive — images, boards and the daily check
@@ -42,12 +42,11 @@ Flat means the whole character is one uninterrupted scroll.
 out of the way. `_build_guide.md` is the first thing in the folder, which is
 where the thing a maker actually works from belongs.
 
-**What flat costs, stated plainly.** Until 2026-08-04 each set synced into its
-own subfolder, so a sync could never reach the character's folder root and
-anything left there by hand survived. It no longer does — the root *is* the sync
-target, so **a file dropped into a character's Drive folder is deleted on the
-next publish.** That is the contract rather than a regression: the repository is
-the source of truth. But it used to have an escape hatch and no longer does.
+**What flat cost, and how it was paid back.** Going flat made the character's
+folder root the sync target, so for a week anything dropped in there by hand was
+deleted on the next publish. **Since 2026-08-11 subfolders are exempt and
+nothing is deleted at all** — see below. The repo's files still overwrite Drive
+on their own names; the tool simply no longer removes anything.
 
 **One namespace.** Flat means turnarounds, artwork and boards share a filename
 space. The script refuses to publish a character with duplicate basenames rather
@@ -59,6 +58,84 @@ left loose up there survived every publish — which is exactly what happened to
 Jasu's v1 turnarounds on 2026-08-03. Publishing flat designs the failure out
 instead of reporting on it, so the function and its `--purge-shadows` flag are
 gone.
+
+**The function stays gone; its job came back.** The shadow needed the published
+set to sit one level *below* a file with the same name, and the published set is
+now the root itself, so that geometry cannot recur. But since nothing is deleted
+any more, a superseded plate loose at the root under a name the repo no longer
+uses can persist — so it is reported instead, by the unknown-file alert below.
+That alert is broader than `check_shadows()` ever was: it names **every** file at
+the root that the repo does not have, not only the ones that collide.
+
+## SUBFOLDERS ARE YOURS — decided 2026-08-11
+
+**The sync manages the loose files at a character's folder root and nothing
+else.** Make a subfolder inside `Jasu/` or `Shada/` and it survives every
+publish, contents and all. That is where reference photographs, fitting shots
+and footage from the day belong.
+
+This came out of finding **66 hand-added files one `--go` away from deletion** —
+`Angels day images/` inside both `Jasu/` (10 files) and `Shada/` (56, including
+`.mp4` and `.MOV`). Nothing in this repository generates video, so those were
+almost certainly the only copies.
+
+**The line is drawn at depth, not at name.** An ignore list of protected folder
+names would be one more thing to keep in step with Drive, and the day it fell
+behind it would delete somebody's only copy of something. Depth needs no
+maintenance: make a folder, it is yours.
+
+It is one rclone filter, in `RO_FLAGS` at the top of the script:
+
+```
+--exclude "/*/**"      # everything below the first level
+```
+
+**A filter rather than `--max-depth 1`, deliberately.** Both stop the descent,
+but only an exclude carries rclone's guarantee that filtered *destination* files
+are left alone instead of being read as absent from the source and deleted. That
+difference is the entire point, so it is spelled as a filter.
+
+Verified before it went in, against a local pair of directories:
+
+| | |
+|---|---|
+| 8 folders — random names, spaces, accents, four levels deep, a leading dot, and one **empty** | **all survived**, contents intact |
+| `old versions/turn-field-front.png` — a subfolder file sharing a published name | **survived**, untouched |
+| loose files at the root absent from source | reached — this later became report-only, see below |
+
+The empty folder is worth noting: rclone did not prune it. Make one now and fill
+it next week, it will still be there.
+
+**What it costs, stated plainly.** A superseded image parked in a subfolder is
+invisible to this tool forever — nothing will flag it or remove it. That is the
+deliberate trade for having somewhere on Drive that is not overwritten.
+
+## NOTHING IS DELETED — decided 2026-08-11
+
+**`rclone copy`, not `rclone sync`.** Every file the repository has is written to
+the character's folder root, overwriting whatever holds that name. Anything else
+at the root is **reported and left alone.**
+
+So the guarantee changed shape. It used to be *a superseded file cannot be
+there*; it is now *you will be told it is there*. That is weaker, and it was
+taken deliberately: a destructive tool only has to be wrong once about what is
+disposable, and this one was one command away from taking 66 files it did not
+understand.
+
+**The alert is the whole of the defence, so it is loud and it does not stop.**
+Unknown files are listed per character, in every mode — dry run, publish and
+check alike — and counted in the summary. `--check` exits non-zero on them, so
+the daily cron notification fires.
+
+**There is deliberately no flag to clear them.** `--go` will not, and nothing
+else will either. Deciding a file on Drive is finished with is a person's call,
+made in Drive, and the report repeats until they make it. The nag is the feature.
+
+| | |
+|---|---|
+| **Files the repo has** | Written every publish, overwriting Drive |
+| **Files at the root the repo lacks** | Reported every run. Never touched |
+| **Anything in a subfolder** | Never even listed |
 
 ## The build guide is published, not hand-written
 
@@ -110,17 +187,19 @@ generated and correct.
 > **THE REPOSITORY IS THE SOURCE OF TRUTH. Drive is a copy and may be
 > overwritten without asking.**
 
-Publishing is **one-way and destructive on the Drive side**: Drive is made to
-match the repo, and anything in those three subfolders that is not in the repo
-is deleted.
+Publishing is **one-way**: the repo's files are written over Drive's on their own
+names, and never the other way round.
 
-That is deliberate. **The failure this exists to prevent is somebody building
-from a superseded image**, and a stale file sitting beside a current one — same
-character, same costume, different boots — is exactly how that happens. A
-duplicate is worse than an absence, because an absence gets noticed.
+It is **no longer destructive**. Since 2026-08-11 nothing is deleted anywhere —
+a file at the root that the repo does not have is reported, and a subfolder is
+not even looked at. See *Nothing is deleted* above.
 
-Each set syncs into **its own subfolder**, so a sync can never reach anything
-else in the character's folder: build guides, fitting photographs, notes.
+The rule still points the same way for anything with a name in the repository:
+**the failure this exists to prevent is somebody building from a superseded
+image**, and a stale file sitting beside a current one — same character, same
+costume, different boots — is exactly how that happens. A duplicate is worse
+than an absence, because an absence gets noticed. What changed is that catching
+the duplicate is now a report you have to read, not a deletion you never see.
 
 ### What does not publish
 
@@ -150,8 +229,19 @@ generator, the turnaround prompts and `APPROVAL.md` all key off it — and it is
 the gate here too. **No approval, no publish**, and the script says so per
 character rather than silently skipping.
 
-Right now that is **Captain Jasu** (8 images, no boards yet) and **Shada**
-(21 images, 7 boards).
+Right now that is **Captain Jasu** (29 files), **Shada** (30 files) and
+**Baylan** (2), each plus its `_published-from-repo.txt`.
+
+**Baylan joined on 2026-08-11** with the working dress front and back, and he is
+the first character published who had **no Drive folder already** — `Baylan/` was
+created by the first publish rather than matched to something made by hand. That
+is safe only because the parent folder was checked first and he had none; the
+danger `drive_folder()` guards against is a *second* folder for a character who
+already has one under a different name. Anyone added later gets the same check:
+read the folder list the script prints, then map to what is actually there.
+
+He has no boards, no build guide and no list sheets yet — two plates is the whole
+of it, which is what a front-only approval amounts to.
 
 ## What you need to install
 
@@ -325,14 +415,22 @@ it still cannot raise one.
 
 **What counts as drift**, in the words the report uses:
 
-| | |
-|---|---|
-| `-` **stale on Drive** | A file on Drive the repo does not have. **The dangerous one** — something was superseded and the old copy is still being shown |
-| `+` **not published** | A file in the repo not yet on Drive |
-| `*` **differ** | Same name, different bytes. Somebody edited the Drive copy, or a publish was interrupted |
-| **SHADOWED** | A file loose at the character's folder **root** with the same name as one we publish into a subfolder — see below |
+| | | Fix |
+|---|---|---|
+| `+` **not published** | A file in the repo not yet on Drive | `./tools/publish-to-drive --go` |
+| `*` **differ** | Same name, different bytes. Somebody edited the Drive copy, or a publish was interrupted | `./tools/publish-to-drive --go` |
+| `-` **unknown on Drive** | A file at the root the repo does not have. **The dangerous one** — something superseded may still be on show | **No command will clear it.** Look at it; delete it in Drive if it is finished with |
 
-The fix for all of them is `./tools/publish-to-drive --go`.
+**The two halves need different hands.** `+` and `*` are the repository being
+ahead, and publishing settles them. `-` cannot be settled by any command, because
+nothing deletes any more — it repeats every day until a person acts in Drive.
+
+**Subfolders are excluded from the check too**, by the same filter — so a report
+of "up to date" means *the root matches*, and says nothing at all about what is
+one level down. That is the intent: subfolder contents are nobody's drift.
+
+`SHADOWED` used to be a fourth row here. It went with `check_shadows()` on
+2026-08-04; the `-` row above now does its job, and more of it.
 
 ## RESOLVED 2026-08-04 — the first publish, and the drift it cleared
 
@@ -357,9 +455,11 @@ five one level up, still called `turn-field-front.png` — two files, same name,
 different boots. `--purge-shadows` deleted exactly those five and nothing else.
 `Jasu_outfit_build_guide.md` is untouched, as is the `.gitkeep`.
 
-**The folder root is still not managed by publishing**, by design. Anything
-dropped there by hand will be reported as shadowed if it collides with a
-published name, and ignored otherwise.
+**Note that this section describes the pre-flat layout** — at the time,
+publishing wrote into subfolders and the folder root was not managed at all.
+Both halves of that have since inverted: the root is managed and the subfolders
+are not. Kept for the record of what went wrong with Jasu's v1 turnarounds, not
+as a description of how the tool behaves now.
 
 ## See also
 

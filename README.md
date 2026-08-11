@@ -6,6 +6,10 @@ Wars fan film — and the first of three planned.
 Everything here is text and images under Git. The documents are the source of
 truth; images and boards are generated from them.
 
+**New machine?** [`SETUP.md`](SETUP.md) — the venv, rclone's Drive credentials,
+the cron check and the hook path. A clone gets the work; none of that comes with
+it.
+
 ---
 
 ## The pipeline

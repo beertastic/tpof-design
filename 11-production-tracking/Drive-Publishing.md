@@ -172,10 +172,17 @@ filename per line, `#` for comments. It exists for artwork that is on disk but
 known wrong and waiting on a re-roll — **to rclone, a failed plate is
 indistinguishable from a good one.**
 
-Captain Jasu holds four: `captaining.png`, `headdress.png`, `portrait.png` and
-`expression_strip.png`, all failed re-rolls listed in `Jasu-Image-TODO.md`.
-Publishing them would send the costume department a generic dog and superseded
-hair, which is the exact failure this whole process exists to prevent.
+**Nothing is held right now.** Captain Jasu held four — `captaining.png`,
+`headdress.png`, `portrait.png` and `expression_strip.png` — and **all four were
+released on 2026-08-04** when their re-rolls came back correct. All 19 of her
+images are published.
+
+Her `do-not-publish.txt` is kept rather than emptied: every released hold is
+still in it as a comment recording what failed and what was accepted, and the
+file ends by saying where the next superseded plate goes. **The comments are not
+holds.** Only a bare filename outside a `#` blocks anything, which is worth
+knowing before reading that file as a list of problems — it was misread that way
+on 2026-08-11, from this paragraph, which until then still claimed she held four.
 
 **Held files are reported on every run and counted in the summary**, because a
 hold is a temporary state waiting on a re-roll. Silence is how four failed plates
@@ -241,7 +248,23 @@ already has one under a different name. Anyone added later gets the same check:
 read the folder list the script prints, then map to what is actually there.
 
 He has no boards, no build guide and no list sheets yet — two plates is the whole
-of it, which is what a front-only approval amounts to.
+of it, which is what a front-only approval amounts to. **None of the three can be
+generated yet**, checked on 2026-08-11 rather than assumed:
+
+| | |
+|---|---|
+| **List sheets** | `outfits.yaml` has no `components:` block. `build-lists` skips him by name |
+| **Build guide** | `_build_guide.md` is authored, not generated; `build-guide-pdf` only renders an existing one |
+| **Boards** | `--validate` names 21 missing images across five boards. The working turnaround alone still wants `turn-working-left`, `-right` and `-natural` |
+
+So publishing him is not what is outstanding — **generating his artwork is.**
+
+## Nyx and Vala have folders and nothing in them
+
+Both were made by hand before this script existed and neither has an approved
+outfit, so nothing publishes to them and they are not in `drive_folder()`.
+**Left deliberately, 2026-08-11** — they will be populated when their outfits are
+signed off. An empty folder on Drive costs nothing and is not drift.
 
 ## What you need to install
 
